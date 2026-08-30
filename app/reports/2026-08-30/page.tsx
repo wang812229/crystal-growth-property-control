@@ -17,7 +17,7 @@ function EvidenceFigure({index}:{index:number}) {
 }
 
 export default function Report(){return <main className="report-page">
-  <header className="site-header"><a className="brand" href="/"><span className="brand-mark">晶</span><span>晶体生长和物性调控</span></a><nav><a className="active" href="/reports/2026-08-30">今日简报</a><a href="/archive">往期归档</a><a href="/#methods">生长方法</a></nav><div className="live-chip"><span/> 每日 08:00 更新</div></header>
+  <header className="site-header"><a className="brand" href="/"><span className="brand-mark">晶</span><span>晶体生长和物性调控</span></a><nav><a className="active" href="/reports/2026-08-30">今日简报</a><a href="/archive">往期归档</a><a href="/search">文献检索</a></nav><div className="live-chip"><span/> 每日 08:00 更新</div></header>
   <div className="report-hero"><div><p className="eyebrow">DAILY REPORT · ISSUE 005</p><h1>晶体生长与物性<br/>文献简报</h1><p>2026 年 8 月 30 日 · 北京时间</p></div><div className="report-summary"><b>今日判断</b><p>{report.hotspot}</p><div><span>3 篇入选</span><span>3 篇全文精读</span><span>0 篇重复</span></div></div></div>
   <div className="report-layout"><aside className="report-toc"><p>本期目录</p>{ids.map((id,i)=><a key={id} href={`#${id}`}>0{i+1} · {labels[i]}</a>)}<a href="#compare">汇总对比</a><a href="#search">检索记录</a></aside><article className="report-content">
     <section className="report-lede"><p className="eyebrow">TODAY&apos;S SIGNAL</p><h2>今日要点</h2><ol><li><b>首要推荐 Ru₀.₉V₀.₁O₂。</b>它给出流动 O₂ 中升华输运的明确框架，也同时暴露起始配比与最高温度的原文矛盾；这类矛盾比一串漂亮参数更需要实验人员注意。</li><li><b>CeNiC₂ 的强项是三轴可证伪设计。</b>不同方向在同一压力区同时趋向 T 线性和 ρ₀峰值，支持近局域临界通道；但“价态涨落”仍是推断，等待 Ce 边谱学直接验证。</li><li><b>YbMnBi₂ 是测量学基准。</b>同一块 self-flux 单晶上，磁化与复合磁电探针的振荡相差 0.39π，校准了导数型响应的相位，却没有越界宣称唯一 Berry 相位。</li></ol></section>

@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-29",
+  "issue": 4,
+  "searchWindow": "北京时间 2026-08-29 当天无 arXiv 新批次，回溯 2026-08-27 至 2026-08-29；实际入选均为 8 月 26–27 日提交、8 月 28 日进入 arXiv 新列表",
+  "headline": "从缺陷工程到物性：KTa₁₋ₓNbₓO₃、NiPS₃ 与 Si/SiGe",
+  "hotspot": "本期没有新的 Flux/CVT 配方型论文；热点转向可控缺陷：位错赋予钙钛矿室温塑性、磁振子与折叠声子在层状晶体中的分离、氧杂质剖面与量子阱迁移率之间的因果关系。",
+  "searchTerms": ["site:arxiv.org/abs 2608 crystal growth single crystal flux CVT", "arXiv cond-mat new crystal growth transport", "single crystal dislocation plasticity perovskite", "Si/SiGe growth oxygen mobility", "NiPS3 THz magnon phonon"],
+  "papers": [
+    {
+      "material": "KTa₁₋ₓNbₓO₃",
+      "title": "A solid-solution approach for room-temperature bulk plasticity in KTa1-xNbxO3",
+      "authors": "Alexander Frisch; Jiawen Zhang; Martin Setvin; Xuping Wang; Wenjun Lu; Xufei Fang",
+      "journal": "arXiv:2608.26678v1 · cond-mat.mtrl-sci",
+      "date": "2026-08-27",
+      "doi": "https://arxiv.org/abs/2608.26678",
+      "fullText": "https://arxiv.org/pdf/2608.26678",
+      "access": "全文精读（正文、Methods、图1–4；无独立补充材料）",
+      "rating": "S",
+      "method": "熔体慢冷 / Czochralski",
+      "sections": [
+        {"title":"科学问题与热点背景","text":"作者把问题从寻找单一可塑陶瓷改写为材料族设计：已知 KTaO3 与 KNbO3 均能在室温发生位错介导塑性，那么同价 B 位固溶体 KTa1-xNbxO3 是否也保留低晶格摩擦，并由此扩展可进行位错功能工程的钙钛矿范围？这与利用位错调控铁电、催化和力电耦合的热点直接相连。"},
+        {"title":"晶体、生长与信息边界","text":"研究覆盖名义 x=0.1、0.175、0.3、0.4、0.5。x=0.1/0.175/0.3 样品来自熔体慢冷并由 ORNL 提供，x=0.3/0.4/0.5 由作者之一用 Czochralski 法生长，构成跨来源与重叠 x=0.3 的复现设计。本文没有给出原料纯度、熔体配比、坩埚、气氛、提拉/旋转速度、慢冷温程、退火、晶体尺寸和产率；因此它是物性验证论文，不是可直接照抄的生长配方。"},
+        {"title":"实验闭环与关键证据","text":"筛选从 2.5 mm 钢球、1 kgf、10 s 的 Brinell 压痕开始；随后在 <001> 方向以约 10^-4 s^-1 做单轴压缩，并用 0.5 mm 退火铜箔降低端面摩擦；最后在 10 次划擦形成的塑性区取 FIB 薄片，以 200 kV ABF-STEM 观察位错。压痕/划痕出现 {110}<110> 滑移迹线，KTN0.3 宏观屈服约 300 MPa，对应 Schmid 因子 0.5 下 CRSS 约 150 MPa；划痕区位错密度约 10^14 m^-2。三种尺度的证据共同排除单纯表面压碎或畴翻转。"},
+        {"title":"结构、局限与实验启示","text":"x≲0.4 室温为立方相，x=0.5 为四方铁电相；后者同时出现铁电畴碎裂，说明位错—畴壁耦合，但不是所有塑性迹线的唯一来源。KTN0.3 初始条带缺陷可能钉扎位错并抬高屈服应力，使固溶强化的定量判断不稳。下一步应在同一批晶体中测实际 Nb 分布、氧/钾非化学计量、初始位错密度与缺陷条带，再比较屈服应力，避免把生长缺陷误判为成分效应。"}
+      ]
+    },
+    {
+      "material": "NiPS₃",
+      "title": "Magnetic permeability and zone-folded phonons in layered NiPS3",
+      "authors": "André A. A. Silva; Eduardo D. Stefanato; Nicolas M. Kawahala; Flávio H. Feres; João Vítor T. P. Vital; Bernardo R. A. Neves; Jan Plutnar; Zdenek Sofer; Ana C. F. Brito; Felix G. G. Hernandez; Raul O. Freitas",
+      "journal": "arXiv:2608.26405v1 · cond-mat.mtrl-sci",
+      "date": "2026-08-26",
+      "doi": "https://arxiv.org/abs/2608.26405",
+      "fullText": "https://arxiv.org/html/2608.26405",
+      "access": "全文精读（正文、Methods；CC BY-NC-ND 4.0）",
+      "rating": "A+",
+      "method": "母晶生长方法未报告",
+      "sections": [
+        {"title":"问题与判断链条","text":"NiPS3 是 TN≈155 K 的层状 XY 反铁磁 Mott 绝缘体。论文要解决的是 0.6–1.1 THz 范围的两个吸收峰究竟来自磁振子还是结构折叠声子。作者先用偏振选择定则分开两峰，再用温度依赖判断：仅在太赫兹磁场平行 b 轴时出现且随降温蓝移至约 1.07 THz 的峰归为磁振子；旋转 90° 后约 0.65 THz、频率几乎不变但强度增长的峰归为布里渊区折叠声子。"},
+        {"title":"样品与质量","text":"样品为约 450 μm 厚的块体片晶，室温 Raman 使用 633 nm 激光观察到 8 个振动模，粉末/晶体 XRD 与单斜 C2/m 结构一致且峰锐利。正文未报告母晶生长方法、原料纯度、配比、输运剂或助熔剂、温区、时间、降温、后处理、横向尺寸、EDS/WDS/ICP、Laue、批次统计和残余电阻率。XRD 足以支持平均相纯与结构指认，却不能量化硫/磷空位、层错和晶向误差。"},
+        {"title":"测量与定量结果","text":"THz-TDS 采用 780 nm、约 130 fs、76 MHz 激光驱动光电导天线；样品置于低温恒温器，常入射，环境湿度低于 5%。作者以 300 K 响应作为介电背景，从 144 K 扫到 13 K。13 K 时用 Drude–Lorentz 模型拟合磁导率，得到共振频率 1.0598±0.0018 THz、线宽 0.2524±0.0071 THz、振子强度 Δμ=(3.497±0.094)×10^-2。结果给出从原始透射到复磁导率的定量路径。"},
+        {"title":"局限与复现建议","text":"最强证据是偏振选择性与温度演化共同区分两种激发；最弱环节是假设 13 K 与 300 K 的电介质背景近似相同。若低温声子改变介电函数，抽出的磁导率可能混入电响应。建议复现时同时测反射或时域回波、用独立低温介电谱约束 ε(ω)，并对同一晶体做 Laue 定向和厚度映射；晶体生长组则需补齐 CVT/Flux 来源和化学计量数据。"}
+      ]
+    },
+    {
+      "material": "Si/SiGe 量子阱",
+      "title": "Mobility Enhancement in Si/SiGe Quantum Well Enabled by a Buried Si Layer Trapping Oxygen Impurities",
+      "authors": "Felix Reichmann; Alberto Mistroni; Fabian Fidorra; Giovanni Capellini; Yuji Yamamoto; Marco Lisker; Marvin H. Zoellner",
+      "journal": "arXiv:2608.27377v1 · cond-mat.mes-hall",
+      "date": "2026-08-27",
+      "doi": "https://arxiv.org/abs/2608.27377",
+      "fullText": "https://arxiv.org/html/2608.27377",
+      "access": "全文精读（正文、Methods、Supporting Information）",
+      "rating": "A+",
+      "method": "200 mm RP-CVD 外延",
+      "sections": [
+        {"title":"因果问题与对照设计","text":"研究问的是氧背景如何进入 Si/SiGe 外延，以及降低氧是否真的改变低温输运。四种结构交叉改变量子阱温度（600/700 °C）与是否插入 6 nm Si 捕获层，先用 SIMS 分离温度切换和插层效应，再只选 600 °C 的高氧/低氧结构制备各 7 个 Hall-bar FET，减少温度序列这一混杂变量。"},
+        {"title":"生长、器件与成分","text":"所有结构在 200 mm p-Si(100) 上以硅烷/锗烷 RP-CVD 生长。匹配 600 °C 可抑制 700 °C Si 生长步骤附近约 5×10^18 cm^-3 的氧峰；6 nm 埋置 Si 层把随后 SiGe 的氧背景从约 4×10^17 降至 7–8×10^16 cm^-3。输运对比样品在量子阱附近由约 1×10^18 降至 1.3×10^17 cm^-3。正文未报告腔压、前驱体流量、Ge 分数完整梯度、总厚度、升降温速率与晶圆内均匀性。"},
+        {"title":"测量与关键数据","text":"器件宽 20 μm、压探针间距 300 μm；P 注入剂量 4.5×10^15 cm^-2、20 keV，700 °C 退火 1 min，栅介质为 10 nm HDP-SiO2，顶栅为 30 nm TiN。1.5 K 下用 ≤50 nA、17 Hz 四探针锁相，在垂直磁场 −5 至 305 mT 提取 Hall 密度与迁移率。低氧组最大中位迁移率约 4.8×10^5 cm²V^-1s^-1，高氧组约 4.3×10^5，提高约 11%；但渗流阈值与局域指数 α(n)=dlogμ/dlogn 基本不变。"},
+        {"title":"证据解释与实验启示","text":"SIMS 的五到八倍氧差与 14 个器件统计支持氧是高密度区动量散射源；0.3 K 与 1.5 K 的分数迁移率增益相似、低密度标度不变，则反驳“氧主导长程势涨落”的强版本。局限是温变只展示代表性器件，SIMS 横向抽样与其他共变缺陷仍可能影响归因。建议增加同片多点 SIMS、晶圆映射、盲法器件统计和受控氧剂量，并将捕获层到量子阱的距离作为下一轮变量。"}
+      ]
+    }
+  ]
+}

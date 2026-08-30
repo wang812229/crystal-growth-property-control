@@ -6,8 +6,8 @@
     "node": ">=22.13.0"
   },
   "scripts": {
-    "dev": "vinext dev",
-    "build": "vinext build",
+    "dev": "node scripts/build-search-index.mjs && vinext dev",
+    "build": "node scripts/build-search-index.mjs && vinext build",
     "start": "vinext start",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next --ignore-pattern node_modules.incomplete --ignore-pattern github-dist",
     "build:pages": "node scripts/build-github-pages.mjs",

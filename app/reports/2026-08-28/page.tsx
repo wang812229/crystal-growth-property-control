@@ -11,7 +11,7 @@ export const metadata:Metadata={
 const Meta=({label,children}:{label:string,children:React.ReactNode})=><div className="meta-item"><span>{label}</span><b>{children}</b></div>;
 
 export default function Report(){return <main className="report-page">
-  <header className="site-header"><a className="brand" href="/"><span className="brand-mark">晶</span><span>晶体生长和物性调控</span></a><nav><a className="active" href="/reports/2026-08-28">今日简报</a><a href="/archive">往期归档</a><a href="/#methods">生长方法</a></nav><div className="live-chip"><span/> 每日 08:00 更新</div></header>
+  <header className="site-header"><a className="brand" href="/"><span className="brand-mark">晶</span><span>晶体生长和物性调控</span></a><nav><a className="active" href="/reports/2026-08-28">今日简报</a><a href="/archive">往期归档</a><a href="/search">文献检索</a></nav><div className="live-chip"><span/> 每日 08:00 更新</div></header>
 
   <div className="report-hero"><div><p className="eyebrow">DAILY REPORT · ISSUE 003</p><h1>晶体生长与物性<br/>文献简报</h1><p>2026 年 8 月 28 日 · 北京时间</p></div><div className="report-summary"><b>今日判断</b><p>交错磁性从表面能谱走向体相量子振荡；腔量子材料成为超导调控的新变量；生长步骤本身也可以成为深度净化过程。</p><div><span>4 篇入选</span><span>1 篇全文精读</span><span>0 篇重复</span></div></div></div>
 
