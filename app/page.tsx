@@ -1,32 +1,14 @@
 const papers = [
-  { rank:'S', method:'CVT · I₂', material:'CrSb', title:'3D bulk-resolved g-wave altermagnetic order parameter in CrSb', journal:'Nature · 2026-08-26', note:'925/900 °C 双温区生长两周；以体相量子振荡绘出四节点 g 波磁序参量。', accent:'amber', href:'https://doi.org/10.1038/s41586-026-10902-z' },
-  { rank:'A', method:'器件 · 少层', material:'NbSe₂', title:'Evidence for vacuum-enhanced superconductivity in NbSe₂', journal:'Nature · 2026-08-19', note:'六层器件嵌入太赫兹暗腔，官方报道 Tc 提升约 5.4%。', accent:'blue', href:'https://doi.org/10.1038/s41586-026-11037-x' },
-  { rank:'A', method:'Flux', material:'GaSb₁₋ₓTeₓ', title:'Tuning high-mobility transport and degeneracy in GaSb₁₋ₓTeₓ', journal:'Physical Review Applied · 2026-08-07', note:'137 ppm Te 对应 4273 cm² V⁻¹ s⁻¹ 室温迁移率，并识别简并化阈值。', accent:'rose', href:'https://doi.org/10.1103/cbfk-mdky' },
-  { rank:'A−', method:'CVT · 矿石前驱体', material:'FeS₂', title:'Semiconductor-quality pyrite FeS₂ from iron ore', journal:'Physical Review Applied · 2026-08-13', note:'利用硫化与气相输运的双重净化，从铁矿石获得半导体级单晶。', accent:'green', href:'https://doi.org/10.1103/6twd-lvvg' },
+  { rank:'S', method:'升华输运', material:'Ru₀.₉V₀.₁O₂', title:'Substitution effects in RuO₂ single crystals', journal:'arXiv · 2026-08-26', note:'非磁性 V 替位使室温电阻率降低约 60%，但未诱导可见磁序；生长温度和配比存在原文矛盾。', accent:'amber', href:'/reports/2026-08-30#ruo2' },
+  { rank:'S', method:'Czochralski / 高压', material:'CeNiC₂', title:'Nearly Isotropic Quantum-Critical Transport in Single-Crystal CeNiC₂', journal:'arXiv · 2026-08-26', note:'三晶轴在 9.5–10 GPa 同时出现近 T 线性输运、ρ₀增强与窄超导穹顶。', accent:'blue', href:'/reports/2026-08-30#cenic2' },
+  { rank:'A+', method:'Bi self-flux', material:'YbMnBi₂', title:'Phase calibration of quantum oscillations in the magnetostrictive coefficient', journal:'arXiv · 2026-08-26', note:'同一晶体的磁化与磁致伸缩系数振荡相差 0.39π，接近响应函数预期的 π/2。', accent:'green', href:'/reports/2026-08-30#ybmnbi2' },
 ];
-
-export default function Home() {
-  return <main>
-    <header className="site-header">
-      <a className="brand" href="#top" aria-label="晶体生长和物性调控首页"><span className="brand-mark">晶</span><span>晶体生长和物性调控</span></a>
-      <nav aria-label="主导航"><a className="active" href="/reports/2026-08-28">今日简报</a><a href="/archive">往期归档</a><a href="#methods">生长方法</a></nav>
-      <div className="live-chip"><span/> 每日 08:00 更新</div>
-    </header>
-
-    <section className="hero" id="top">
-      <div className="hero-copy"><p className="eyebrow">CRYSTAL GROWTH · PHYSICAL PROPERTIES</p><h1>从生长窗口到<br/><em>物性证据链</em></h1><p className="hero-lead">聚焦 Flux、CVT 与热点单晶材料。每天筛选新论文，细读实验方法、关键数据与可复现性。</p><div className="hero-actions"><a className="primary-btn" href="/reports/2026-08-28">阅读今日简报 <span>↘</span></a><span className="date-stamp">2026.08.28 · 第 003 期</span></div></div>
-      <div className="crystal-field" aria-label="抽象晶体结构视觉图"><div className="orb orb-a"/><div className="orb orb-b"/><div className="orb orb-c"/><div className="beam beam-a"/><div className="beam beam-b"/><div className="beam beam-c"/><div className="field-label"><b>CrSb</b><span>P6₃/mmc</span></div><p>今日焦点 · g-wave altermagnet</p></div>
-    </section>
-
-    <section className="ticker" aria-label="今日统计"><div><strong>04</strong><span>入选论文</span></div><div><strong>01</strong><span>全文精读</span></div><div><strong>02</strong><span>CVT / Flux</span></div><div><strong>0</strong><span>重复 DOI</span></div><p>检索窗口：当天优先 · 无结果时回溯 3 日 · arXiv 已纳入</p></section>
-
-    <section className="latest" id="latest"><div className="section-heading"><div><p className="eyebrow">DAILY BRIEFING</p><h2>今日要点</h2></div><span className="status-pill">全文状态已核验</span></div><div className="insight-grid"><article className="lead-insight"><span className="number">01</span><div><p className="kicker">首要推荐</p><h3>CrSb 的证据终于从表面走向体相</h3><p>Nature 最新工作用角分辨 dHvA 量子振荡重建三维 g 波交错磁序。I₂-CVT 生长窗口、RRR 与残余电阻率形成了完整的样品质量链条。</p></div></article><article className="short-insight"><span>02</span><h3>腔量子材料进入实验核心</h3><p>真空涨落可能成为无需持续驱动的超导调控手段。</p></article><article className="short-insight"><span>03</span><h3>“纯化”可以发生在生长途中</h3><p>FeS₂ 展示硫化与 CVT 协同排杂的工艺思路。</p></article></div></section>
-
-    <section className="papers" id="papers"><div className="section-heading"><div><p className="eyebrow">SELECTED PAPERS</p><h2>本期论文</h2></div><a href="#methods">查看方法对比 →</a></div><div className="paper-list">{papers.map((paper,index)=><a className={`paper-row ${paper.accent}`} href={paper.href} key={paper.material} target="_blank" rel="noreferrer"><span className="row-index">0{index+1}</span><div className="paper-main"><div className="paper-meta"><span>{paper.method}</span><span>{paper.journal}</span></div><h3>{paper.title}</h3><p>{paper.note}</p></div><div className="paper-material"><strong>{paper.material}</strong><span>推荐 {paper.rank}</span></div><span className="arrow">↗</span></a>)}</div></section>
-
-    <section className="methods" id="methods"><div><p className="eyebrow">METHOD RADAR</p><h2>生长方法雷达</h2></div><div className="method-card"><span>01</span><h3>Flux</h3><p>助熔剂、配比、峰值温度、降温速率、分离与退火。</p><b>本期 1 篇</b></div><div className="method-card featured"><span>02</span><h3>CVT</h3><p>输运剂、密封条件、冷热端温区、梯度、时间与晶体尺寸。</p><b>本期 2 篇</b></div><div className="method-card"><span>03</span><h3>Other</h3><p>器件制备、外延、压力与后生长处理。</p><b>本期 1 篇</b></div></section>
-
-    <footer><div className="brand"><span className="brand-mark">晶</span><span>晶体生长和物性调控</span></div><p>每日晶体生长与物性文献简报</p><p>资料仅用于科研交流 · 原文版权归作者与出版社所有</p></footer>
-  </main>;
-}
-
+export default function Home() {return <main>
+  <header className="site-header"><a className="brand" href="#top"><span className="brand-mark">晶</span><span>晶体生长和物性调控</span></a><nav><a className="active" href="/reports/2026-08-30">今日简报</a><a href="/archive">往期归档</a><a href="#methods">生长方法</a></nav><div className="live-chip"><span/> 每日 08:00 更新</div></header>
+  <section className="hero" id="top"><div className="hero-copy"><p className="eyebrow">CRYSTAL GROWTH · PHYSICAL PROPERTIES</p><h1>从生长窗口到<br/><em>物性证据链</em></h1><p className="hero-lead">聚焦 Flux、CVT 与热点单晶材料。每天筛选新论文，细读实验方法、关键数据与可复现性。</p><div className="hero-actions"><a className="primary-btn" href="/reports/2026-08-30">阅读今日简报 <span>↘</span></a><span className="date-stamp">2026.08.30 · 第 005 期</span></div></div><div className="crystal-field"><div className="orb orb-a"/><div className="orb orb-b"/><div className="orb orb-c"/><div className="beam beam-a"/><div className="beam beam-b"/><div className="beam beam-c"/><div className="field-label"><b>RuO₂</b><span>substitution & transport</span></div><p>今日焦点 · 生长参数与磁性证据</p></div></section>
+  <section className="ticker"><div><strong>03</strong><span>入选论文</span></div><div><strong>03</strong><span>全文精读</span></div><div><strong>02</strong><span>体单晶生长路线</span></div><div><strong>0</strong><span>重复条目</span></div><p>检索窗口：当天无稳定新批次 · 回溯 2026.08.28—08.30 · arXiv 已纳入</p></section>
+  <section className="latest"><div className="section-heading"><div><p className="eyebrow">DAILY BRIEFING</p><h2>今日要点</h2></div><span className="status-pill">3 篇全文状态已核验</span></div><div className="insight-grid"><article className="lead-insight"><span className="number">01</span><div><p className="kicker">首要推荐</p><h3>RuO₂：生长参数矛盾本身就是关键信息</h3><p>V 均匀替位、电子—声子散射减弱，却未见磁序；正文 1200 °C 与表格 1250 °C、1:1 起始比与 10% V 名义成分均需向作者确认。</p></div></article><article className="short-insight"><span>02</span><h3>三轴输运约束临界机制</h3><p>CeNiC₂ 的共同 n≈1 更接近局域临界散射，但价态涨落仍待谱学直接证实。</p></article><article className="short-insight"><span>03</span><h3>相位必须按响应函数校准</h3><p>YbMnBi₂ 给出约 π/2 校准，仍不能直接把拟合相位当作 Berry 相位。</p></article></div></section>
+  <section className="papers"><div className="section-heading"><div><p className="eyebrow">SELECTED PAPERS</p><h2>本期论文</h2></div><a href="/reports/2026-08-30#compare">查看方法对比 →</a></div><div className="paper-list">{papers.map((p,i)=><a className={`paper-row ${p.accent}`} href={p.href} key={p.material}><span className="row-index">0{i+1}</span><div className="paper-main"><div className="paper-meta"><span>{p.method}</span><span>{p.journal}</span></div><h3>{p.title}</h3><p>{p.note}</p></div><div className="paper-material"><strong>{p.material}</strong><span>推荐 {p.rank}</span></div><span className="arrow">→</span></a>)}</div></section>
+  <section className="methods" id="methods"><div><p className="eyebrow">METHOD RADAR</p><h2>本期方法雷达</h2></div><div className="method-card featured"><span>01</span><h3>Transport growth</h3><p>流动 O₂ 升华输运；重点核验热端程序、冷端温度与实际投料比。</p><b>本期 1 篇</b></div><div className="method-card"><span>02</span><h3>High pressure</h3><p>三方向立方压砧输运与稀释制冷场依赖。</p><b>本期 1 篇</b></div><div className="method-card"><span>03</span><h3>Quantum oscillation</h3><p>VSM、复合磁电与角分辨热电势相位互校。</p><b>本期 1 篇</b></div></section>
+  <footer><div className="brand"><span className="brand-mark">晶</span><span>晶体生长和物性调控</span></div><p>每日晶体生长与物性文献简报</p><p>资料仅用于科研交流 · 原文版权归作者与出版社所有</p></footer>
+</main>}
