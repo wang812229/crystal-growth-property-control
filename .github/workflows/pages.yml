@@ -1,0 +1,69 @@
+name: 每日检索并发布网站
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 0 * * *' # 北京时间每天 08:00
+  workflow_dispatch:
+    inputs:
+      run_update:
+        description: '发布前先生成今天的简报'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 获取网站源码
+        uses: actions/checkout@v4
+
+      - name: 安装 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: 生成当天简报
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.run_update)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5' }}
+        run: node scripts/update-daily.mjs
+
+      - name: 保存当天简报到仓库
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.run_update)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/reports
+          git diff --cached --quiet || git commit -m "content: add daily crystal report"
+          git push
+
+      - name: 生成静态网页
+        run: node scripts/build-github-pages.mjs
+
+      - name: 配置 GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: 上传网页文件
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: github-dist
+
+      - name: 发布 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
