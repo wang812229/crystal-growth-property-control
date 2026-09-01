@@ -1,6 +1,265 @@
 // 由 scripts/build-search-index.mjs 自动生成，请勿手工编辑。
 export default [
   {
+    "date": "2026-09-01",
+    "issue": 7,
+    "headline": "从超导无序临界到原子近邻：七篇生长—缺陷—物性证据链",
+    "material": "ZrNₓ 外延超导膜",
+    "title": "Two-dimensional quantum Griffith singularity in three-dimensional ZrNx superconducting films",
+    "authors": "Zi-Yan Han; Li-Min Yu; Yu-Cheng Cong; Yang Yang; Zhi-Xiang Sun; Zhi-Qing Li",
+    "journal": "arXiv:2608.28166v1 · cond-mat.supr-con",
+    "method": "反应射频磁控溅射 / MgO(100) 外延",
+    "rating": "S",
+    "access": "重点全文精读（HTML 正文 I–IV、实验方法、图 1–9、表 1–2）",
+    "source": "https://arxiv.org/abs/2608.28166",
+    "fullText": "https://arxiv.org/html/2608.28166",
+    "reportUrl": "/reports/2026-09-01",
+    "sections": [
+      {
+        "title": "问题—样品—热点关系",
+        "text": "作者要检验一个反常命题：厚约 200 nm、相干长度远小于膜厚的三维超导体，是否仍会在磁场驱动超导—金属/绝缘体转变附近表现出通常属于二维系统的量子 Griffiths 奇异性。样品是岩盐结构 ZrNₓ/MgO(100) 外延膜，x≈1.21–1.50。通过提高氮含量同时降低载流子浓度并增加 Zr 空位、N 间隙等本征缺陷，作者把“无序强度”变成可控轴。热点价值在于把晶体缺陷工程、超导量子临界和维度判据接到同一批样品上；它不是高温超导，但其无序临界方法可直接迁移到镍酸盐、铁基和二维超导薄膜。"
+      },
+      {
+        "title": "生长工艺与可复现窗口",
+        "text": "Zr 靶纯度 99.95%、直径 60 mm；基底为 MgO(100) 单晶。腔体基压约 1.5×10⁻⁴ Pa，通入 N₂/Ar 后总压 0.2 Pa，射频功率 300 W，基底温度约 740 K。五组 N₂:Ar 体积比分别为 1:19、1:9、3:17、7:33、1:4，对应氮分压占比 5.0%、10.0%、15.0%、17.5%、20.0%；沉积时间调节到约 200 nm，轮廓仪复核厚度。正文未报告 MgO 清洗/退火、靶基距、气体纯度、总流量、沉积时间/速率、基底旋转、升降温、后退火和批次产率。复现时最关键的是把真实 N/Zr 与设定气体比同时记录，不能仅用阀门设定代表组成。"
+      },
+      {
+        "title": "结构、成分与质量证据",
+        "text": "EDS 给出 x 从约 1.21 增至 1.50；θ–2θ 中除 MgO(200) 外只见 fcc-ZrN(200)，峰位 38.94°→39.15°，晶格常数约 4.604–4.627 Å；(220) φ 扫描出现四重峰，支持立方外延取向。优点是成分、相纯度和面内外取向互相印证；不足是 EDS 对轻元素 N 的定量误差没有给出，也没有 XPS/RBS/ERDA、摇摆曲线 FWHM、TEM 缺陷密度、表面粗糙度或多批统计。作者把 Zr 空位和 N 间隙作为无序来源主要依据既有研究与富氮化学计量，本文没有直接成像或定量缺陷，因此“缺陷类型”属于合理推断，不是直接观察。"
+      },
+      {
+        "title": "物性测量、关键数据与证据链",
+        "text": "Hall 条由机械掩膜定义，宽 1.0 mm、长 10.0 mm、电压端间距 3 mm，Ti/Au 接触；PPMS-6000 加 ³He 制冷机做四探针电阻，磁场分别垂直和平行膜面。Tc（ρ 降至 ρ(10 K) 的 90%）从 x=1.21 的 4.66 K 总体降至 x=1.50 的 1.73 K；ρ(300 K) 从 0.43 增至 2.64 mΩ·cm，10 K 的 kFℓ 从 1.99 降至 0.31。x≥1.30 的 Bc2⊥(0)≈2.19–5.12 T、Bc2∥(0)≈1.60–2.72 T，相干长度约 8–19 nm，远小于 200 nm，确立三维超导。随后多温磁阻在宽场区交叉；相邻温区的二维幂律缩放给出的 zν 随降温发散，激活缩放也能塌缩数据。直接观察是宽交叉区和各向异性磁阻；二维 Griffiths 是缩放模型支持的解释。"
+      },
+      {
+        "title": "结论、局限与实验建议",
+        "text": "最强证据是同一系列中 x=1.21 不出现 QGS，而 x≥1.30 在两个磁场方向均出现宽交叉与发散指数，并且膜厚/相干长度先排除了几何二维性。最弱环节是缩放采用相邻三条等温线和选定温区，参数稳定性、临界场定义以及电子加热可能影响发散；Bc2⊥>Bc2∥ 的反常各向异性也尚未解释。下一批应加入 Hall 随温度、低频噪声/扫描 SQUID 映射稀有区、TEM/正电子湮没定量空位，并展示不同温区、温度间隔和临界准则的稳健性。阅读顺序建议实验方法→表1/图3–4的三维判据→图5–9缩放；推荐 S。"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-01",
+    "issue": 7,
+    "headline": "从超导无序临界到原子近邻：七篇生长—缺陷—物性证据链",
+    "material": "TiN/重构蓝宝石",
+    "title": "Highly crystalline superconducting TiN resonators grown on thermally reconstructed sapphire",
+    "authors": "Thomas J. Smart; Marc Neis; Janine Lorenz; Marcello P. Guardascione; Roudy Hanna; Michael Schleenvoigt; Yuan Gao; Joscha Domnick; Benjamin Bennemann; Abdur Rehman Jalil; Jin Hee Bae; Harsh Bhardwaj; F. Stefan Tautz; Felix Lüpke; Detlev Grützmacher; Rami Barends; Pavel A. Bushev; Peter Schüffelgen",
+    "journal": "arXiv:2606.20317v3 · cond-mat.supr-con",
+    "method": "CO₂ 激光热重构 + 等离子体辅助 MBE",
+    "rating": "S",
+    "access": "重点全文精读（v3 HTML 正文、Methods、Appendix A–E、图 1–13）",
+    "source": "https://arxiv.org/abs/2606.20317",
+    "fullText": "https://arxiv.org/html/2606.20317",
+    "reportUrl": "/reports/2026-09-01",
+    "sections": [
+      {
+        "title": "科学问题与对照设计",
+        "text": "论文比较两条蓝宝石预处理路线：Piranha+1% HF 的化学清洗 B-Al₂O₃，与在超高真空中用 CO₂ 激光形成 (√31×√31)R±9° 双台阶重构的 R31-Al₂O₃。两类基底被同时装入同一 MBE 生长，TiN 厚度、温度、N 等离子体和 Ti 通量保持一致，因此晶体学差异主要可归因于表面模板。作者进一步把“更好的晶体”与“更低的微波损耗”分开检验：R31 明显减小马赛克度，但两类芯片的单光子内部品质因数相近，说明晶体学改善不必自动转化为器件 Q 的提高。"
+      },
+      {
+        "title": "生长卡与后处理",
+        "text": "10×10 mm c 面 α-Al₂O₃ 以 3 °C/s 升至 1700 °C、保温 200 s，再以 3 °C/s 冷却；腔压约 10⁻⁹ mbar，得到约 0.4 nm 双层台阶，RHEED 验证 R31 重构。样品可在空气存放六个月，进 MBE 前 200 °C 烘 45 min；基础真空约 1×10⁻¹⁰ mbar。生长时 RF N 等离子体 400 W、N₂ 1.25 sccm、腔压 1.5×10⁻⁴ mbar；Ti 电子束源分压约 1×10⁻⁸ mbar，速率约 0.4 Å/s；1150 °C 生长 106 nm TiN。结束后在原子 N 中 1100 °C 保温 1 h，30 min 冷至室温；另制备 17 nm 膜用于 TEM。正文未报告 Ti 源纯度和绝对 Ti 通量标定误差。"
+      },
+      {
+        "title": "质量表征与超导均匀性",
+        "text": "AFM 显示 R31 台阶更平整且 TiN 复制台阶，支持 step-flow；XRD 证明 TiN(111) 外延。TiN(111) 摇摆曲线 FWHM 从化学清洗基底的 0.098° 降至 R31 的 0.047°；(402) RSM 给 R31 膜 a∥=4.245±0.003 Å、a⊥=4.242±0.003 Å，微应变更均匀，化学清洗样品等强度轮廓更拉长。TEM/STM 补充界面和表面形貌。沿 424 nm 线采 200 条隧穿谱，BCS 拟合能隙约 0.63 与 0.67 meV；两者 Tc=5.08 与 5.11 K，说明表面重构提高取向一致性，但未显著改变超导能标。"
+      },
+      {
+        "title": "器件测量与关键结果",
+        "text": "106 nm 膜被加工为 λ/4 共面波导谐振器，频率约 4.8–8.1 GHz；低温传输 S21 用复平面拟合提取 Qi、Qc 和平均光子数。多数谐振器在单光子区 Qi>10⁶；化学清洗与 R31 芯片的单光子中位 Qi 分别为 1.33×10⁶ 和 1.13×10⁶，且置信区间明显重叠；高光子数部分器件超过 10⁷。因此直接观察支持“R31 改善结晶”，却不支持“R31 必然提升微波 Q”。作者认为当前损耗可能由表面、界面、加工残留或两能级系统控制，晶粒错配已不是主瓶颈。"
+      },
+      {
+        "title": "局限、复现风险与下一步",
+        "text": "单个芯片的器件离散较大，R31 样品的单光子置信区间更宽；没有跨多个 MBE 批次的统计，难把偶然加工差异与基底路线完全分离。1150 °C 会促进 N 逸出，Tc 低于约 5.7 K 的先进水平；作者建议 NH₃ 或更强氮化条件。复现时应在同一晶圆上做交错预处理、随机化器件位置，并记录酸洗终点、激光温度计发射率、RHEED 强度、N/Ti 比和表面氧化等待时间。阅读顺序：Methods 生长卡→图4摇摆/RSM→图5能隙均匀性→图6与附录E的 Qi 分布；推荐 S。"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-01",
+    "issue": 7,
+    "headline": "从超导无序临界到原子近邻：七篇生长—缺陷—物性证据链",
+    "material": "NdNiO₃/NdMnO₃ 超晶格",
+    "title": "Charge transfer and competing symmetry breaking drive orbital reconstruction and emergent ferromagnetism in insulating oxide superlattices",
+    "authors": "Nandana Bhattacharya; Ranjan Kumar Patel; Siddharth Kumar; Sourav Chowdhury; Manav Beniwal; Suresh Chandra Joshi; Prithwijit Mandal; Jayjit Kumar Dey; Weibin Li; Manuel Valvidares; Zhan Zhang; Hua Zhou; Andrei Gloskovskii; Christoph Schlueter; Christoph Klewe; Srimanta Middey",
+    "journal": "arXiv:2608.28107v1 · cond-mat.mtrl-sci / str-el",
+    "method": "脉冲激光沉积 PLD / 单元胞级超晶格",
+    "rating": "S",
+    "access": "重点全文精读（HTML 正文、实验部分、图 1–5）",
+    "source": "https://arxiv.org/abs/2608.28107",
+    "fullText": "https://arxiv.org/html/2608.28107",
+    "reportUrl": "/reports/2026-09-01",
+    "sections": [
+      {
+        "title": "问题、样品矩阵与热点",
+        "text": "研究对象为 [n uc NdNiO₃/n uc NdMnO₃]×m（n=2,4,6；m=9,4,3）数字超晶格。核心问题是内部 Ni–O–Mn 界面造成的电荷转移/轨道键合，如何与 NdGaO₃ 基底的拉伸应变竞争。厚度 n 是关键对照：n=6 保留更多非界面层，n=2 几乎每层都靠近界面。它属于物性调控主线，也与镍酸盐热点直接相关，但不是高压高温超导研究；其价值在于说明同一 Ni 轨道可以被界面 σ 键合反转，而不能只用外延应变解释。"
+      },
+      {
+        "title": "生长工艺与结构质量",
+        "text": "GaO₂ 单终止 NdGaO₃(001)pc 基底经热处理获得；Neocera PLD 使用 KrF 248 nm 激光，2 Hz、2 J cm⁻²，基底 750 °C、动态 O₂ 150 mTorr。沉积后在同温度、500 Torr O₂ 中退火；正文未明确保温时长和冷却速率。高压 RHEED 振荡逐单元胞监控，条纹图样支持层层生长与平滑界面。AFM 见台阶；同步辐射(00L)出现 Laue 条纹和一、二级超晶格卫星峰，半级峰与倒易空间图确认 a⁻b⁺c⁻ 八面体转动及周期调制。缺少截面 STEM/EELS 的直接界面宽度和氧空位定量，这是结构证据链的主要缺口。"
+      },
+      {
+        "title": "输运与电子结构重构",
+        "text": "四探针 Van der Pauw 输运显示纯 NNO 膜约 160 K 发生有滞后的金属—绝缘转变；n=6 的转变降到约 100 K，n=4 和 n=2 在全温区绝缘。n=2 可用激活模型拟合，Eg≈147 meV。Ni/Mn L 边和 O K 边 XAS 看到随 n 减小，Ni 由 3d⁸L̲ 向 3d⁸/Ni²⁺移动、Mn 向 Mn⁴⁺移动；HAXPES+XAS 重建得到约 2 eV 的 Ni–Mn 电荷转移能标。直接观察是谱重与价态指纹变化；把它定量翻译为逐层电荷量仍依赖参考谱和表面敏感 TEY。"
+      },
+      {
+        "title": "轨道反转与磁性证据",
+        "text": "室温、约 15°掠入射 XLD 比较面内/面外轨道：n=6 的 Ni eg 分裂符合拉伸应变下 dx²−y² 较低；n=2 的 XLD 符号反转，显示界面 Ni–O–Mn 的 d3z²−r² σ 键合压过基底应变。XMCD 在 3.5 K、6 T、约 20°掠入射测得 Ni 与 Mn L3 同号，支持铁磁耦合；和规则给 n=2 约 0.4 μB/Ni、1.53 μB/Mn，n=6 的 Mn 约 2.7 μB，79 K/0.3 T 仍见铁磁信号。作者据此提出 n=2 以 Ni²⁺–O–Mn⁴⁺铁磁超交换为主；这一步是由价态、轨道和 XMCD共同约束的模型判断。"
+      },
+      {
+        "title": "局限与可执行建议",
+        "text": "最强证据是厚度系列把输运、价态、XLD 符号与 XMCD 同步关联；最弱处是没有元素分辨磁滞回线、层分辨价态/氧空位成像，也缺少只改变应变或只改变界面化学的正交对照。下一步可在不同晶格常数基底上重复 n 系列，加入 STEM-EELS/ABF 定量界面与氧柱，做角分辨 XMCD、矢量磁化和总电子产额/荧光产额对照。生长端需报告退火时长、冷却、靶材密度和每单元胞脉冲数。阅读顺序：图1结构→图2/3价态与能隙→图4轨道反转→图5磁性；推荐 S。"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-01",
+    "issue": 7,
+    "headline": "从超导无序临界到原子近邻：七篇生长—缺陷—物性证据链",
+    "material": "AlGaAs 晶相量子点纳米线",
+    "title": "Crystal-phase quantum dots in AlGaAs nanowires",
+    "authors": "Rohan Radhakrishnan; Rodion Reznik; Gilles Patriarche; Lorenzo Leandro; Igor Ilkiv; Anna Andreeva; Artem Khrebtov; George Cirlin; Nika Akopian",
+    "journal": "arXiv:2608.28353v1 · cond-mat.mes-hall / physics.optics / quant-ph",
+    "method": "Au 催化 VLS-MBE 纳米线",
+    "rating": "A+",
+    "access": "相关条目全文详读（HTML 正文、Methods、Supplementary 1–4、图 1–4）",
+    "source": "https://arxiv.org/abs/2608.28353",
+    "fullText": "https://arxiv.org/html/2608.28353",
+    "reportUrl": "/reports/2026-09-01",
+    "sections": [
+      {
+        "title": "科学问题与样品设计",
+        "text": "晶相量子点不是靠成分势阱，而是在同一材料纳米线中插入几层不同晶型。本文首次在 AlGaAs 纤锌矿纳米线内利用自发形成的闪锌矿插层构成量子点，问其是否真是“纯晶相”束缚、能否达到量子光源所需的窄线宽和单光子纯度。AlGaAs 还能自发形成低 Al 核/高 Al 壳，使壳层钝化并把载流子收在核心。该工作和晶体生长关系很强，但插层目前随机出现，尚未给出确定性相位切换工艺。"
+      },
+      {
+        "title": "MBE 工艺与形貌",
+        "text": "Si(111) 先用 HF:H₂O 去原生氧化层，再在金属化腔 850 °C 退火；550 °C 蒸镀约 0.5 nm Au，真空转入生长腔。基底到 510 °C 后先稳定 As₄ 通量，再同时开启 Al、Ga，As-rich 下生长 25 min，名义 AlAs/GaAs 比 0.4。Au 液滴决定 7–20 nm 核直径；闪锌矿插层密度随样品约 15–50 个/μm，典型厚度少于 3 nm、仅几原子层。正文未给束流等效压、V/III 比、升降温、Au 颗粒分布、线长和产率，这些正是复现相位统计最需要的参数。"
+      },
+      {
+        "title": "结构/成分证据与替代解释",
+        "text": "HAADF-STEM 区分纤锌矿与闪锌矿，并显示核的晶相贯穿到壳。EDX 在壳层看到 Al 从纤锌矿约 x=0.4 增至闪锌矿插层约 x=0.6；若量子发光来自成分涨落，这会构成替代解释。作者转而分析靠近 Au 顶端、壳很薄的位置，HAADF 强度在前两处插层无可辨的核成分变化，而更远第三处因壳成分改变出现对比，因此认为核心量子点主要由晶相带阶形成。这个对照很聪明，但 HAADF 对厚度/应变也敏感，仍需原子探针或定量多片 STEM 统计进一步排除亚百分比成分差。"
+      },
+      {
+        "title": "光学条件与关键结果",
+        "text": "单根纳米线低温微区 PL 分辨出激子 X 与双激子 XX，线宽分别约 104 和 61 μeV，远小于典型晶相量子点的 meV 量级。X–XX 互相关出现级联 bunching，X 自相关 g²(0)<0.5；更高时间分辨的另一实例达到 <0.1。时间分辨 PL 快分量约 1 ns，与反聚束时间 0.90 ns 一致，支持 type-I 共定位而非长寿命 type-II。偏振谱给精细结构分裂 235±30 μeV；沿线轴 Faraday 几何加磁场出现两支 Zeeman 分裂和抗磁位移。最强证据是结构定位、窄线、单光子统计和寿命互相闭合。"
+      },
+      {
+        "title": "局限、复现建议与阅读建议",
+        "text": "作者尚不能控制插层位置/数目，15–50 μm⁻¹ 的随机密度与器件集成需求相冲突；激发功率、温度和磁场上限等部分细节需查 Methods/图注，文中也未给器件间线宽分布。下一步应把 V/III、温度和 Au 液滴尺寸做成相图，利用原位 RHEED/反射率监控晶相切换，并统计单根线中插层厚度—核径—寿命—线宽的关联。阅读顺序：图1/2确认晶相而非成分→图3单光子证据→图4能级性质→Methods 工艺；推荐 A+。"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-01",
+    "issue": 7,
+    "headline": "从超导无序临界到原子近邻：七篇生长—缺陷—物性证据链",
+    "material": "PtSiGe 与 Nb/PtSiGe",
+    "title": "Fabrication-free assessment of microwave losses in germanium-based dielectrics and superconductors",
+    "authors": "Haoran Lu; Kushagra Aggarwal; Xiangqin Wang; Pauline Drexler; Daniel Tong; Maciej W. Olszewski; Anand Ithepalli; Lingda Kong; Debdeep Jena; Peter L. McMahon; David A. Muller; Dominique Bougeard; Valla Fatemi",
+    "journal": "arXiv:2608.28463v1 · quant-ph / cond-mat.mes-hall",
+    "method": "溅射 + 400 °C 快速热反应 / flip-chip 损耗筛选",
+    "rating": "A+",
+    "access": "相关条目全文详读（HTML 正文 I–IV、Appendix A–I）",
+    "source": "https://arxiv.org/abs/2608.28463",
+    "fullText": "https://arxiv.org/html/2608.28463",
+    "reportUrl": "/reports/2026-09-01",
+    "sections": [
+      {
+        "title": "问题与实验策略",
+        "text": "作者开发无需在被测材料上加工器件的 flip-chip 传感器，用同一组 Ta/Nb 共面波导谐振器分别靠近 Ge、Ge/SiGe 量子阱、PtSiGe 和 Nb-PtSiGe，测目标材料引入的微波损耗。科学问题不是只问 Tc，而是材料是否同时适合低损耗量子电路。该策略把材料生长、表面处理、相分离和器件损耗快速联结，特别适合筛选尚不值得完整加工的候选超导膜。"
+      },
+      {
+        "title": "材料制备与几何",
+        "text": "Ge/SiGe 晶圆切片后以光刻胶保护，1165 去胶、IPA/DI 清洗，15 s 缓冲氧化物刻蚀后立即进溅射系统。PtSiGe 样品溅射 60 nm Pt；Nb-PtSiGe 溅射 60 nm Pt/约 40 nm Nb 双层；随后 Ar-rich 气氛 400 °C 快速退火 9 min，通过固相反应生成合金。STEM 实测 PtSiGe 厚 138±7 nm；双层样品为 128±11 nm PtSiGe+37±3 nm Nb。传感芯片由 100 nm Ta/5 nm Nb/Si 制成，8 个 λ/4 CPW（中心 6 μm、缝 12 μm），4.2–7.2 GHz，4 μm 高 SU-8 柱控制间距。"
+      },
+      {
+        "title": "结构、界面和缺陷表征",
+        "text": "STEM-ADF/EELS 显示 Pt 均匀而 Ge/Si 反相关，说明锗化物和硅化物相分离；裸膜表面形成含 Si/Ge 氧化层，Nb 覆盖样品出现较厚 NbOx。Nb/PtSiGe 界面还见 Ar 气泡，作者建议 Kr 溅射减少惰性气体夹杂。Nb 覆盖把表面粗糙度从 4.3 nm 降到 2.4 nm，但仍不能说明金属—基底界面干净。该论文的优点是把微波损耗与真实截面化学对应起来；不足是没有 XRD 相鉴定、晶粒取向和成分相分数，‘PtSiGe’实际是多相反应层而非单一化合物。"
+      },
+      {
+        "title": "微波损耗与超导数据",
+        "text": "混合室通常 10 mK 测量。Ge 和刻蚀到 Ge0.75Si0.25 虚拟层的低光子等效损耗角分别 (183±37)×10⁻⁶ 与 (200±29)×10⁻⁶；独立在同类基底加工 Nb resonator 得到 (170±9)×10⁻⁶，与 flip-chip 相差约 15%，验证方法。HF 处理把量子阱样品损耗降到 (108±18)×10⁻⁶。直流 Tc 从 PtSiGe 的 0.54 K 提升到 Nb-PtSiGe 的 1.5 K。温度依赖微波响应提示两种膜都有能隙不均匀；Nb 覆盖降低损耗和老化，但实际 Nb-PtSiGe 共面谐振器未出现可测共振，表明未被 flip-chip 探测的金属—基底/侧壁损耗可能主导。"
+      },
+      {
+        "title": "结论边界与复现建议",
+        "text": "最有价值的结论不是‘Nb 已解决问题’，而是‘面向材料的无加工筛选能排除明显差的候选，但不能替代真实器件几何’。flip-chip 电场被金属屏蔽，对埋藏金属—基底界面不敏感，正好解释为何预测改善与器件失败并存。后续应做退火温度/时间矩阵、Kr 对照、原位帽层、XRD/TEM 相比例、侧壁钝化，并用同一膜同时测 flip-chip 与加工谐振器。阅读顺序：图1方法→图2 Ge 损耗校准→图3材料截面/Tc→后续温变与附录加工；推荐 A+。"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-01",
+    "issue": 7,
+    "headline": "从超导无序临界到原子近邻：七篇生长—缺陷—物性证据链",
+    "material": "YIG/GGG 单晶膜自旋波网络",
+    "title": "Magnonic Combinatorial Memory based on a network of coupled active ring circuits",
+    "authors": "Mykhaylo Balinskiy; Paulo Julio; Jeffrey Vargas; Diana Bisono Balaguer; Jacob Greenstein; Alexander Khitun",
+    "journal": "arXiv:2608.28457v1 · cond-mat.other",
+    "method": "液相外延 YIG/GGG + 有源环路",
+    "rating": "A",
+    "access": "相关条目全文详读（PDF 正文、理论模型、原型与补充讨论）",
+    "source": "https://arxiv.org/abs/2608.28457",
+    "fullText": "https://arxiv.org/pdf/2608.28457",
+    "reportUrl": "/reports/2026-09-01",
+    "sections": [
+      {
+        "title": "与晶体物性的关系",
+        "text": "论文把单晶 YIG 低阻尼自旋波延迟线作为三个有源环路共同的磁性介质，通过相位、滤波频率和局域微磁体改变环路耦合，把‘是否自激振荡’编码成组合记忆状态。它不是新晶体生长工艺，但 YIG 膜厚、磁化和铁磁共振线宽直接决定传播损耗、相位稳定和开关比，因此属于‘晶体质量如何进入器件物性’的关联条目。作者宣称可编码位数随环路数近二次增长；这个是网络参数计数的理论扩展，不等于已做出同规模存储阵列。"
+      },
+      {
+        "title": "样品、装置和材料参数",
+        "text": "器件自下而上为 NdFeB 永磁体、带六根微带天线的 PCB、抛薄 GGG 和未图形化 YIG 膜。YIG 由液相外延生长在 GGG 上，膜厚 42 μm，饱和磁化约 1750 G，3 GHz 的 FMR 线宽 ΔH=0.6 Oe；GGG 从 0.5 mm 抛到 0.3 mm。两块 2×2×0.25 英寸 NdFeB 提供约 375 Oe 面内偏场；天线约 6 mm×0.15 mm。正文未报告液相外延助熔剂、配比、温度、拉出/旋转、冷却、晶向、面粗糙度和片内线宽均匀性，因此生长不可仅靠本文复现。"
+      },
+      {
+        "title": "电路条件与测量协议",
+        "text": "三条 ARC 分别选不同发射/接收天线，每条含宽带放大器、可调 YIG 球带通滤波器、相移器和方向耦合器。中心频率设为 1.614、1.838、1.720 GHz；相位分别取 0、2π/3、4π/3，组合成 27 个相位地址。自动振荡需同时满足 Barkhausen 增益与相位条件。作者固定放大和滤波，只改变相位，因此不同组合的输出变化可归于网络相干条件，而不是增益重调。噪声约 −90 dBm，>−60 dBm 定义 On，室温 On/Off 超过 30 dB。"
+      },
+      {
+        "title": "微磁体调控与证据强弱",
+        "text": "靠近天线6放置体积约 0.05 mm³ 的 NdFeB 微磁体，局域改变自旋波色散/相位，从而改变哪些相位组合能振荡。图6/7比较有无微磁体的 27 组合，展示单个局域扰动可以重排二进制响应图。直接观察是每个相位地址的环路功率；‘27-bit’实际指 27 个地址各自的有/无振荡响应组成一个 27 位模式，并非同一时刻可独立随机写入的 27 个传统存储单元。论文没有给多次循环误码率、保持时间、漂移和温度/磁场容差，因此稳健性目前主要由 30 dB 电平裕度代表。"
+      },
+      {
+        "title": "局限与下一步",
+        "text": "最大风险是用商用离散滤波器/相移器和毫米级天线构成的实验台距离集成存储还很远；环路增益、相位噪声和 YIG 非均匀性会随网络规模累积。下一步应报告重复读取统计、频率漂移、微磁体位置灵敏度、相邻环路串扰和长期稳定，并把同片 YIG 的 ΔH、厚度/粗糙度地图与各路径损耗关联。若要优化晶体，优先降低片内 ΔH 波动而不只是平均线宽。阅读顺序：原型图4/5→相位图6→微磁体图7→理论位数公式；推荐 A。"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-01",
+    "issue": 7,
+    "headline": "从超导无序临界到原子近邻：七篇生长—缺陷—物性证据链",
+    "material": "GeSn 外延合金",
+    "title": "Atomic short-range order: a new degree of freedom for band engineering of GeSn semiconductor alloys",
+    "authors": "Shang Liu; Yunfan Liang; Nirosh M. Eldose; Shunda Chen; Xiaochen Jin; Haochen Zhao; Manoj Shah; Jin-Hee Bae; Omar Concepcion; Fernando M. de Oliveira; Ilias Bikmukhametov; Xiaoxin Wang; Yuping Zeng; Dan Buca; Mansour Mortazavi; Damien West; Shengbai Zhang; Tianshu Li; Gregory J. Salamo; Shui-Qing Yu; Jifeng Liu",
+    "journal": "arXiv:2407.02767v3 · cond-mat.mtrl-sci / mes-hall",
+    "method": "MBE 与 CVD 对照 / APT 短程有序",
+    "rating": "S",
+    "access": "重点全文精读（v3 HTML 正文、Experimental、Supporting figures）",
+    "source": "https://arxiv.org/abs/2407.02767",
+    "fullText": "https://arxiv.org/html/2407.02767",
+    "reportUrl": "/reports/2026-09-01",
+    "sections": [
+      {
+        "title": "核心问题与新意",
+        "text": "常规半导体带隙工程使用成分、应变和量子限域；本文提出在宏观成分/晶格常数不变时，改变 Sn–Sn 第一近邻概率也能显著调带隙。作者比较四组由不同设备制备的 GeSn 薄膜或 GeSn/Ge 多量子阱：MBE 20/7 at.% Sn，CVD 14/7 at.% Sn，并用原子探针的 Poisson-KNN 方法量化 5 nm 立方体内短程有序。v3 在 8 月 28 日更新，属于重要修订条目；其直接价值是提醒生长人员：相同名义组分并不意味着相同局域化学环境和光学性质。"
+      },
+      {
+        "title": "生长窗口与样品可比性",
+        "text": "两组 MBE 来自不同设备，生长温度 120–150 °C；两组 CVD 来自不同反应器，250–350 °C，较高温度用于分解前驱体。样品1/3为薄膜，样品2/4为 GeSn/Ge 多量子阱；正文表中给 Ge/Sn 比，但未在主文统一报告各设备的 Ge/Sn 束流、CVD 前驱体/载气/压力、基底、厚度、退火和速率，完整复现需回查原样品论文。由于方法与设备、温度、结构同时变化，‘MBE 对 CVD’不是完全单变量对照；作者用两组独立样品和理论表面终止计算降低这一风险，但不能完全消除。"
+      },
+      {
+        "title": "APT 统计与质量控制",
+        "text": "Poisson-KNN 重建减轻场蒸发造成的原子位置扰动；四组分别分析 72、100、250、200 个 5×5×5 nm³ 小立方。MBE 两组 Sn–Sn 1NN 参数均值约 1.14，CVD 约 1.01，Welch t 检验 p<0.0001；MBE 样品中约 90% 和 66% 体素大于随机值1。模拟表明位置扰动会低估差异，因此观测差约 0.13 被视为下限；四组重建近邻距离标准差约 0.98–1.06 Å，相近的仪器模糊支持相对比较。强项是体素统计与误差对照；弱项是 APT 检出效率、局域放大和样品结构差异仍可能残留偏差。"
+      },
+      {
+        "title": "带隙效应与机制链",
+        "text": "10 K、1064 nm 激发 PL 比较完全应变的 7 at.% Sn MBE 量子阱和 9 at.% Sn CVD 薄膜；应变 −1.02% 与 −1.18% 相近。按组分和量子限域，MBE 本应更蓝，但其带间峰反而红移约 25 meV；结合组分本应造成约 60 meV 蓝移，作者估算更强 Sn–Sn 近邻至少压低直接带隙约 85 meV。77 K Raman 的扰动激活肩峰也支持 MBE 的 Sn–Sn 近邻更多。DFT 表面模型指出 MBE 较低温和无 H 终止更容易冻结 Sn–Sn 邻近，CVD 的 H 终止/高温促进重排；SRO 参数增加约 0.7 的理论带隙变化可达约 85 meV。"
+      },
+      {
+        "title": "边界与实验建议",
+        "text": "‘只有 SRO 能解释’仍强于数据本身：两样品一个是量子阱、一个是薄膜，界面、载流子和缺陷发光可能不同；PL 峰不是无模型的本征带隙。最有说服力的后续是同一反应器/同一结构下只改变表面 H 化和温度，配合吸收/椭偏而不只 PL，并用 EXAFS 或 4D-STEM 交叉验证 SRO。生长记录应新增局域有序指标，而不只报告 Sn%、应变和缺陷密度。阅读顺序：图1/2 APT 稳健性→图3 PL/Raman反常→DFT 生长面模型→Experimental；推荐 S。"
+      }
+    ]
+  },
+  {
     "date": "2026-08-31",
     "issue": 6,
     "headline": "从可复现 CVD 到高场费米面与镍酸盐轨道选择性",
