@@ -1,86 +1,28 @@
 'use client';
 
-import { FormEvent, useMemo, useState } from 'react';
+import {FormEvent,useMemo,useState} from 'react';
 import searchIndex from './search-index';
+type Paper=(typeof searchIndex)[number];
+type Evidence={paper:Paper;sectionTitle:string;text:string;score:number};
 
-type Paper = (typeof searchIndex)[number];
-type Evidence = { paper: Paper; sectionTitle: string; text: string; score: number };
-
-const stopWords = new Set(['什么','哪些','哪篇','文章','论文','一下','请问','是否','是多少','怎么','如何','研究','结果']);
-const expansions: Record<string,string[]> = {
-  flux:['flux','self-flux','助熔剂','自助熔剂'],
-  cvt:['cvt','化学气相输运','chemical vapor transport','输运剂'],
-  生长:['生长','配比','温度','温程','助熔剂','输运剂','退火','czochralski','flux','cvt'],
-  温度:['温度','温程','峰值','保温','降温'],
-  磁性:['磁性','磁化','磁化率','反铁磁','magnetic','susceptibility'],
-  超导:['超导','tc','hc2','superconduct'],
-  量子振荡:['量子振荡','quantum oscillation','dingle','lifshitz','lk','频率','相位'],
-  电阻:['电阻','电阻率','resistivity','rrr','输运'],
-  缺陷:['缺陷','空位','位错','杂质','层错'],
-};
-
-function normalize(value:string){return value.normalize('NFKC').toLowerCase().replace(/₂/g,'2').replace(/₃/g,'3').replace(/₀/g,'0').replace(/₁/g,'1')}
-function queryTerms(query:string){
-  const normalized=normalize(query);
-  const raw=normalized.match(/[a-z0-9µμ°+./-]+|[\u3400-\u9fff]+/g) ?? [];
-  const terms=new Set<string>();
-  for(const token of raw){
-    if(stopWords.has(token)) continue;
-    if(/[\u3400-\u9fff]/.test(token) && token.length>2){for(let i=0;i<token.length-1;i++) terms.add(token.slice(i,i+2))}
-    else terms.add(token);
-  }
-  for(const [key,values] of Object.entries(expansions)) if(normalized.includes(key)) values.forEach(value=>terms.add(normalize(value)));
-  return [...terms].filter(term=>term.length>1 || /[a-z0-9]/.test(term));
-}
-function occurrences(text:string,term:string){let count=0;let cursor=0;while((cursor=text.indexOf(term,cursor))!==-1){count++;cursor+=term.length}return count}
-function paperText(paper:Paper){return normalize([paper.material,paper.title,paper.authors,paper.journal,paper.method,paper.rating,paper.access,...paper.sections.flatMap(section=>[section.title,section.text])].join(' '))}
-function paperScore(paper:Paper,query:string){
-  const terms=queryTerms(query); if(!terms.length) return 1;
-  const identity=normalize([paper.material,paper.title,paper.method,paper.journal,paper.authors].join(' '));
-  const body=paperText(paper); let score=0;
-  const whole=normalize(query).trim(); if(whole.length>1 && body.includes(whole)) score+=35;
-  for(const term of terms){score+=occurrences(identity,term)*8+Math.min(occurrences(body,term),8)}
-  return score;
-}
-function sectionScore(paper:Paper,title:string,text:string,terms:string[]){
-  const identity=normalize([paper.material,paper.title,paper.method,title].join(' '));
-  const body=normalize(text); let score=0;
-  for(const term of terms) score+=occurrences(identity,term)*9+Math.min(occurrences(body,term),10)*2;
-  return score;
-}
-function excerpt(text:string,terms:string[],limit=230){
-  const normalized=normalize(text); let start=0;
-  const positions=terms.map(term=>normalized.indexOf(term)).filter(position=>position>=0);
-  if(positions.length) start=Math.max(0,Math.min(...positions)-45);
-  const value=text.slice(start,start+limit); return `${start>0?'…':''}${value}${start+limit<text.length?'…':''}`;
-}
+const stop=new Set(['什么','哪些','哪篇','文章','论文','一下','请问','是否','怎么','如何','研究','结果','对比']);
+const expansions:Record<string,string[]>={flux:['flux','self-flux','助熔剂','熔盐'],cvt:['cvt','化学气相输运','输运剂'],生长:['生长','配比','温度','温程','助熔剂','输运剂','退火','flux','cvt','hpht','mocvd'],超导:['超导','tc','eliashberg','superconduct'],重费米:['重费米','kondo','ute2','量子临界'],图:['图解','图','figure','原创重绘'],全文:['全文精读','公开稿','正文'],缺陷:['缺陷','空位','位错','杂质','层错','批次']};
+const n=(v:string)=>v.normalize('NFKC').toLowerCase().replace(/[₂₃₀₁]/g,c=>({'₂':'2','₃':'3','₀':'0','₁':'1'}[c]??c));
+function parseQuery(query:string){const filters:Record<string,string>={};const clean=query.replace(/(主题|板块|期刊|方法|全文|日期)[:：]([^\s]+)/g,(_,k,v)=>{filters[k]=v;return ' '});return {clean,filters}}
+function terms(query:string){const {clean}=parseQuery(n(query));const raw=clean.match(/[a-z0-9µμ°+./-]+|[\u3400-\u9fff]+/g)??[];const out=new Set<string>();for(const token of raw){if(stop.has(token))continue;if(/[\u3400-\u9fff]/.test(token)&&token.length>2)for(let i=0;i<token.length-1;i++)out.add(token.slice(i,i+2));else out.add(token)}for(const [k,values] of Object.entries(expansions))if(n(query).includes(k))values.forEach(v=>out.add(n(v)));return [...out]}
+const count=(text:string,term:string)=>{let c=0,i=0;while((i=text.indexOf(term,i))!==-1){c++;i+=term.length}return c};
+const body=(p:Paper)=>n([p.category,...p.tags,p.material,p.title,p.authors,p.journal,p.method,p.rating,p.access,p.versionNote,p.readingGuide?.priority,p.readingGuide?.first,p.readingGuide?.focus,p.readingGuide?.next,...p.sections.flatMap(s=>[s.title,s.text])].filter(Boolean).join(' '));
+function score(p:Paper,q:string){const ts=terms(q);if(!ts.length)return 1;const id=n([p.category,...p.tags,p.material,p.title,p.method,p.journal].join(' '));return ts.reduce((s,t)=>s+count(id,t)*8+Math.min(count(body(p),t),10),0)+(body(p).includes(n(parseQuery(q).clean.trim()))?30:0)}
+function sectionScore(p:Paper,title:string,text:string,ts:string[]){const id=n([p.category,p.material,p.title,p.method,title].join(' '));return ts.reduce((s,t)=>s+count(id,t)*9+Math.min(count(n(text),t),10)*2,0)}
+function excerpt(text:string,ts:string[],limit=290){const value=n(text);const pos=ts.map(t=>value.indexOf(t)).filter(i=>i>=0);const start=pos.length?Math.max(0,Math.min(...pos)-50):0;return `${start?'…':''}${text.slice(start,start+limit)}${start+limit<text.length?'…':''}`}
+const matchStructured=(p:Paper,q:string)=>{const f=parseQuery(q).filters;return (!f.主题&&!f.板块||n(p.category).includes(n(f.主题??f.板块)))&&(!f.期刊||n(p.journal).includes(n(f.期刊)))&&(!f.方法||n(p.method).includes(n(f.方法)))&&(!f.全文||(['是','全文','有'].includes(f.全文)?p.access.includes('全文精读'):!p.access.includes('全文精读')))&&(!f.日期||p.date.includes(f.日期))};
 
 export default function SearchClient(){
-  const [query,setQuery]=useState('');
-  const [method,setMethod]=useState('全部方法');
-  const [date,setDate]=useState('全部日期');
-  const [question,setQuestion]=useState('');
-  const [asked,setAsked]=useState('');
-  const methods=useMemo(()=>['全部方法',...Array.from(new Set(searchIndex.map(paper=>paper.method)))],[]);
-  const dates=useMemo(()=>['全部日期',...Array.from(new Set(searchIndex.map(paper=>paper.date)))],[]);
-  const results=useMemo(()=>searchIndex.map(paper=>({paper,score:paperScore(paper,query)})).filter(item=>item.score>0&&(method==='全部方法'||item.paper.method===method)&&(date==='全部日期'||item.paper.date===date)).sort((a,b)=>b.score-a.score||b.paper.date.localeCompare(a.paper.date)),[query,method,date]);
-  const answer=useMemo(()=>{
-    if(!asked) return null;
-    const terms=queryTerms(asked);
-    const evidence:Evidence[]=searchIndex.flatMap(paper=>paper.sections.map(section=>({paper,sectionTitle:section.title,text:section.text,score:sectionScore(paper,section.title,section.text,terms)}))).filter(item=>item.score>0).sort((a,b)=>b.score-a.score).slice(0,4);
-    if(!evidence.length) return {summary:'当前文献库中没有找到足够相关的证据。可以换用材料名称、Flux/CVT、生长温度、磁性、输运或量子振荡等关键词。',evidence:[] as Evidence[]};
-    const sentences=evidence.flatMap(item=>item.text.split(/(?<=[。！？；])/).map(sentence=>({sentence,score:sectionScore(item.paper,item.sectionTitle,sentence,terms)}))).filter(item=>item.sentence.length>20).sort((a,b)=>b.score-a.score);
-    const chosen:string[]=[]; for(const item of sentences){const cleaned=item.sentence.trim();if(!chosen.some(value=>value.includes(cleaned)||cleaned.includes(value))) chosen.push(cleaned);if(chosen.length===3)break}
-    return {summary:chosen.join(' '),evidence};
-  },[asked]);
-  function submitQuestion(event:FormEvent){event.preventDefault();setAsked(question.trim())}
-  const totalSections=searchIndex.reduce((sum,paper)=>sum+paper.sections.length,0);
-
-  return <>
-    <section className="search-hero"><div><p className="eyebrow">LITERATURE RETRIEVAL · EVIDENCE Q&amp;A</p><h1>检索文献，<br/><em>追问证据</em></h1><p>搜索覆盖题目、作者、材料、生长方法、实验参数、物性结果和局限性。问答只依据本站已精读内容，回答同步给出证据段落。</p></div><div className="search-stats"><div><b>{searchIndex.length}</b><span>篇论文</span></div><div><b>{dates.length-1}</b><span>期简报</span></div><div><b>{totalSections}</b><span>段证据</span></div></div></section>
-
-    <section className="ask-lab"><div className="ask-copy"><p className="eyebrow">ASK THE ARCHIVE</p><h2>实时提问</h2><p>适合询问某种晶体如何生长、关键温区、测量条件、主要物性、证据强弱或不同论文之间的差异。</p></div><div className="ask-panel"><form onSubmit={submitQuestion}><label htmlFor="question">向本站文献库提问</label><div><textarea id="question" value={question} onChange={event=>setQuestion(event.target.value)} placeholder="例如：RuO₂ 的生长温度和复现风险是什么？" rows={3}/><button disabled={!question.trim()}>检索并回答</button></div></form><div className="question-samples">{['哪篇论文使用 Flux 生长？','CeNiC₂ 的临界压力和 Tc 是多少？','RuO₂ 生长参数有哪些矛盾？','哪些工作测量了量子振荡？'].map(sample=><button key={sample} onClick={()=>{setQuestion(sample);setAsked(sample)}}>{sample}</button>)}</div>{answer&&<div className="answer-box" aria-live="polite"><div className="answer-label"><span/> 基于 {answer.evidence.length} 条本站证据即时整理</div><h3>{asked}</h3><p>{answer.summary}</p>{answer.evidence.length>0&&<div className="evidence-list">{answer.evidence.map((item,index)=><article key={`${item.paper.title}-${item.sectionTitle}`}><span>证据 {index+1}</span><h4>{item.paper.material} · {item.sectionTitle}</h4><p>{excerpt(item.text,queryTerms(asked))}</p><div><a href={item.paper.reportUrl}>查看本站详解 →</a><a href={item.paper.source}>论文原文 ↗</a></div></article>)}</div>}<small>回答由浏览器端检索本站简报生成，不调用外部模型，不会把未收录信息补写成事实。</small></div>}</div></section>
-
-    <section className="library-search"><div className="section-heading"><div><p className="eyebrow">FULL-TEXT SEARCH</p><h2>全文检索</h2></div><span className="status-pill">{results.length} 篇匹配</span></div><div className="search-controls"><label><span>关键词</span><input value={query} onChange={event=>setQuery(event.target.value)} placeholder="材料、作者、Flux、CVT、温度、物性……"/></label><label><span>生长/研究方法</span><select value={method} onChange={event=>setMethod(event.target.value)}>{methods.map(value=><option key={value}>{value}</option>)}</select></label><label><span>简报日期</span><select value={date} onChange={event=>setDate(event.target.value)}>{dates.map(value=><option key={value}>{value}</option>)}</select></label></div><div className="search-results">{results.map(({paper})=>{const terms=queryTerms(query);const best=paper.sections.map(section=>({section,score:sectionScore(paper,section.title,section.text,terms)})).sort((a,b)=>b.score-a.score)[0]?.section??paper.sections[0];return <article key={`${paper.date}-${paper.title}`}><div className="result-top"><span>{paper.date} · 第 {paper.issue} 期</span><b>推荐 {paper.rating}</b></div><h3>{paper.material}</h3><h4>{paper.title}</h4><div className="result-tags"><span>{paper.method}</span><span>{paper.journal}</span><span>{paper.access.includes('全文')?'全文精读':'摘要/元数据'}</span></div><p><strong>{best.title}：</strong>{excerpt(best.text,terms,300)}</p><div className="result-links"><a href={paper.reportUrl}>站内详解 →</a><a href={paper.source}>原文 ↗</a></div></article>})}{!results.length&&<div className="empty-results"><b>没有找到匹配论文</b><p>尝试减少关键词，或取消方法和日期筛选。</p></div>}</div></section>
-  </>;
-}
+ const [query,setQuery]=useState('');const [category,setCategory]=useState('全部板块');const [journal,setJournal]=useState('全部期刊');const [method,setMethod]=useState('全部方法');const [access,setAccess]=useState('全部状态');const [date,setDate]=useState('全部日期');const [question,setQuestion]=useState('');const [asked,setAsked]=useState('');
+ const categories=useMemo(()=>['全部板块',...new Set(searchIndex.map(p=>p.category))],[]);const journals=useMemo(()=>['全部期刊',...new Set(searchIndex.map(p=>p.journal))],[]);const methods=useMemo(()=>['全部方法',...new Set(searchIndex.map(p=>p.method))],[]);const dates=useMemo(()=>['全部日期',...new Set(searchIndex.map(p=>p.date))],[]);
+ const results=useMemo(()=>searchIndex.map(paper=>({paper,score:score(paper,query)})).filter(({paper,score:s})=>s>0&&matchStructured(paper,query)&&(category==='全部板块'||paper.category===category)&&(journal==='全部期刊'||paper.journal===journal)&&(method==='全部方法'||paper.method===method)&&(access==='全部状态'||(access==='全文精读')===paper.access.includes('全文精读'))&&(date==='全部日期'||paper.date===date)).sort((a,b)=>b.score-a.score||b.paper.date.localeCompare(a.paper.date)),[query,category,journal,method,access,date]);
+ const answer=useMemo(()=>{if(!asked)return null;const ts=terms(asked);const evidence:Evidence[]=searchIndex.flatMap(p=>p.sections.map(s=>({paper:p,sectionTitle:s.title,text:s.text,score:sectionScore(p,s.title,s.text,ts)}))).filter(e=>e.score>0).sort((a,b)=>b.score-a.score).slice(0,5);if(!evidence.length)return {summary:'文献库里没有足够证据。请换用材料、方法、期刊、测量条件或具体参数提问。',evidence};const sentences=evidence.flatMap(e=>e.text.split(/(?<=[。！？；])/).map(sentence=>({sentence,score:sectionScore(e.paper,e.sectionTitle,sentence,ts)}))).filter(x=>x.sentence.length>20).sort((a,b)=>b.score-a.score);const chosen:string[]=[];for(const x of sentences){const s=x.sentence.trim();if(!chosen.some(v=>v.includes(s)||s.includes(v)))chosen.push(s);if(chosen.length===4)break}return {summary:chosen.join(' '),evidence}},[asked]);
+ function ask(e:FormEvent){e.preventDefault();setAsked(question.trim())}const total=searchIndex.reduce((s,p)=>s+p.sections.length,0);
+ return <><section className="search-hero"><div><p className="eyebrow">STRUCTURED SEARCH · EVIDENCE Q&amp;A</p><h1>筛到具体论文，<br/><em>追问具体证据</em></h1><p>可按板块、期刊、方法、全文状态和日期组合筛选。支持结构化输入，例如“主题:重费米 期刊:PRB 全文:是 UTe2”。</p></div><div className="search-stats"><div><b>{searchIndex.length}</b><span>篇论文</span></div><div><b>{dates.length-1}</b><span>期简报</span></div><div><b>{total}</b><span>段证据</span></div></div></section>
+ <section className="ask-lab"><div className="ask-copy"><p className="eyebrow">ASK THE ARCHIVE</p><h2>证据问答</h2><p>回答只拼接本站已审阅段落，并显示论文、章节与原文链接；不会把无全文条目的未知参数补成事实。</p></div><div className="ask-panel"><form onSubmit={ask}><label htmlFor="question">输入具体科研问题</label><div><textarea id="question" value={question} onChange={e=>setQuestion(e.target.value)} placeholder="例如：La3Ni2O7 的 Flux 配方、氧退火和高压相变证据分别是什么？" rows={3}/><button disabled={!question.trim()}>检索证据</button></div></form><div className="question-samples">{['La3Ni2O7 的 Flux 生长与复现风险是什么？','哪些重费米子论文有全文且测量了磁阻？','对比两篇 HPHT 镍酸盐的氧源和负结果','哪些结论依赖模型拟合而非直接测量？'].map(s=><button key={s} onClick={()=>{setQuestion(s);setAsked(s)}}>{s}</button>)}</div>{answer&&<div className="answer-box"><div className="answer-label"><span/> 基于 {answer.evidence.length} 条站内证据</div><h3>{asked}</h3><p>{answer.summary}</p>{answer.evidence.length>0&&<div className="evidence-list">{answer.evidence.map((e,i)=><article key={`${e.paper.title}-${e.sectionTitle}`}><span>证据 {i+1} · {e.paper.category}</span><h4>{e.paper.material} · {e.sectionTitle}</h4><p>{excerpt(e.text,terms(asked))}</p><div><a href={e.paper.reportUrl}>本站详解 →</a><a href={e.paper.source}>正式条目 ↗</a></div></article>)}</div>}<small>浏览器端检索，不调用外部模型。关键结论仍应核对正式论文。</small></div>}</div></section>
+ <section className="library-search"><div className="section-heading"><div><p className="eyebrow">SMART FILTERS</p><h2>智能组合检索</h2></div><span className="status-pill">{results.length} 篇匹配</span></div><div className="query-help">结构化搜索：<code>主题:超导</code> <code>期刊:PRB</code> <code>方法:Flux</code> <code>全文:是</code> <code>日期:2026-09-02</code></div><div className="search-controls advanced"><label><span>关键词 / 结构化语句</span><input value={query} onChange={e=>setQuery(e.target.value)} placeholder="材料、作者、数值，或 主题:晶体生长 全文:是"/></label><label><span>研究板块</span><select value={category} onChange={e=>setCategory(e.target.value)}>{categories.map(v=><option key={v}>{v}</option>)}</select></label><label><span>期刊</span><select value={journal} onChange={e=>setJournal(e.target.value)}>{journals.map(v=><option key={v}>{v}</option>)}</select></label><label><span>方法</span><select value={method} onChange={e=>setMethod(e.target.value)}>{methods.map(v=><option key={v}>{v}</option>)}</select></label><label><span>访问状态</span><select value={access} onChange={e=>setAccess(e.target.value)}><option>全部状态</option><option>全文精读</option><option>摘要/受限</option></select></label><label><span>日期</span><select value={date} onChange={e=>setDate(e.target.value)}>{dates.map(v=><option key={v}>{v}</option>)}</select></label></div><div className="search-results">{results.map(({paper})=>{const ts=terms(query);const best=paper.sections.map(s=>({s,score:sectionScore(paper,s.title,s.text,ts)})).sort((a,b)=>b.score-a.score)[0]?.s??paper.sections[0];return <article key={`${paper.date}-${paper.title}`}><div className="result-top"><span>{paper.date} · {paper.category}</span><b>推荐 {paper.rating}</b></div><h3>{paper.material}</h3><h4>{paper.title}</h4><div className="result-tags"><span>{paper.journal}</span><span>{paper.method}</span><span>{paper.access.includes('全文精读')?'全文精读':'摘要/访问受限'}</span></div><p><strong>{best.title}：</strong>{excerpt(best.text,ts,310)}</p>{paper.readingGuide&&<p className="result-guide"><strong>阅读路线：</strong>{paper.readingGuide.first}</p>}<div className="result-links"><a href={paper.reportUrl}>站内详解 →</a><a href={paper.source}>正式条目 ↗</a></div></article>})}{!results.length&&<div className="empty-results"><b>没有匹配论文</b><p>减少关键词或清除一个筛选条件；也可用“主题:”“期刊:”“全文:”指定范围。</p></div>}</div></section></>}

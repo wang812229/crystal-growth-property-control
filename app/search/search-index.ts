@@ -3,14 +3,28 @@ export default [
   {
     "date": "2026-09-02",
     "issue": "008",
-    "headline": "重费米子向列序与镍酸盐结构—载流子边界成为今日主线",
+    "headline": "从生长过程到量子物性：把访问状态、样品历史与证据强度放在同一张地图上",
     "material": "USbTe",
     "title": "Observation of a spin-textured nematic Kondo lattice",
     "authors": "Yu-Xiao Jiang; Zi-Jia Cheng; Qiaozhi Xu; Md Shafayat Hossain; Xian P. Yang; Jia-Xin Yin; Maksim Litskevich; Tyler A. Cochran; Byunghoon Kim; Eduardo Miranda; Sheng Ran; Rafael M. Fernandes; M. Zahid Hasan",
     "journal": "Nature Communications",
     "method": "单晶 + STM/STS / 自旋极化 STM",
     "rating": "A",
-    "access": "仅基于出版社摘要/元数据",
+    "access": "出版社提前发布版：页面本身尚无正文，仅摘要/元数据",
+    "category": "重费米子与量子临界",
+    "tags": [
+      "Kondo 晶格",
+      "向列序",
+      "STM/STS",
+      "自旋极化"
+    ],
+    "readingGuide": {
+      "priority": "A｜待正式正文上线后第一时间复核",
+      "first": "先看温度演化和自旋探针翻转对照；这两组数据决定 C4→C2 信号是否真与 Kondo 相干、自旋通道绑定。",
+      "focus": "重点核对表面终止、结构畴统计、QPI/Fourier 分量和非磁探针对照，而不是只看一张漂亮的实空间图。",
+      "next": "若做 U 基单晶，先建立批次—表面终止—RRR/比热—STM 可解理质量表，再讨论向列态复现。"
+    },
+    "versionNote": "Nature 页面元数据显示 Accelerated Article Preview 且 hasBody=false；不是 VPN 权限问题，当前出版社尚未提供正文。",
     "source": "https://doi.org/10.1038/s41467-026-74841-z",
     "fullText": "https://www.nature.com/articles/s41467-026-74841-z",
     "reportUrl": "/reports/2026-09-02",
@@ -40,14 +54,28 @@ export default [
   {
     "date": "2026-09-02",
     "issue": "008",
-    "headline": "重费米子向列序与镍酸盐结构—载流子边界成为今日主线",
+    "headline": "从生长过程到量子物性：把访问状态、样品历史与证据强度放在同一张地图上",
     "material": "量子材料样品依赖",
     "title": "The challenge of synthesis dependence in quantum materials research",
     "authors": "Lucy Clark; J. Ross Stewart",
     "journal": "Nature Physics · Perspective",
     "method": "合成依赖与可复现性综述",
     "rating": "A-",
-    "access": "仅基于出版社摘要/预览",
+    "access": "浙大 VPN/出版社机构访问已尝试；当前会话未完成机构认证，仅摘要/预览",
+    "category": "晶体生长和物性调控",
+    "tags": [
+      "合成依赖",
+      "批次统计",
+      "缺陷",
+      "可复现性"
+    ],
+    "readingGuide": {
+      "priority": "A-｜适合作为实验室记录规范的起点",
+      "first": "先读作者怎样区分‘材料内禀差异’与‘批次噪声’，再顺着 UTe2 和缺陷敏感材料的参考文献回到原始数据。",
+      "focus": "把案例中的变量逐项映射到自己的炉次记录：原料批号、炉位、热历史、晶体尺寸、成分分布和测量样品对应关系。",
+      "next": "不必逐句精读所有案例；更值得把方法论转成一张 process–structure–property 批次表。"
+    },
+    "versionNote": "网页提示可通过机构访问；当前 WebVPN 登录页未处于已认证状态，因此未把预览内容称为全文精读。",
     "source": "https://doi.org/10.1038/s41567-026-03417-x",
     "fullText": "https://www.nature.com/articles/s41567-026-03417-x",
     "reportUrl": "/reports/2026-09-02",
@@ -77,51 +105,81 @@ export default [
   {
     "date": "2026-09-02",
     "issue": "008",
-    "headline": "重费米子向列序与镍酸盐结构—载流子边界成为今日主线",
+    "headline": "从生长过程到量子物性：把访问状态、样品历史与证据强度放在同一张地图上",
     "material": "La3Ni2O7",
     "title": "Metallic crossover through the tilt-free transition in La3Ni2O7 at high pressure and temperature",
     "authors": "Bastien Michon; Yingpeng Yu; Beatrice D’Alò; Elena Stellino; Gergely Németh; Bosen Wang; Jianping Sun; Jinguang Cheng; Paolo Postorino; Ferenc Borondics; Francesco Capitani",
     "journal": "Physical Review B",
     "method": "高压 Raman + 同步辐射红外",
     "rating": "A",
-    "access": "仅基于出版社摘要/元数据",
+    "access": "全文精读（PRB 正式论文 + 对应作者公开稿 arXiv:2605.01651，正文与补充材料）",
+    "category": "高温与非常规超导",
+    "tags": [
+      "La3Ni2O7",
+      "Flux",
+      "高压",
+      "红外",
+      "Raman",
+      "镍酸盐"
+    ],
+    "readingGuide": {
+      "priority": "A+｜本期最值得实验人员精读",
+      "first": "生长者先读 Supplementary 的 crystal growth 和氧退火；高压测量者再读 DAC、CsI 压力介质和多层光学拟合。",
+      "focus": "把 6–15.25 GPa 的相共存区、400–544 K 的温度路径和 3450→32000 cm⁻¹ 的等离子频率变化放在一张图上看。",
+      "next": "复现实验不要只在 10、15 GPa 两点取数；应在相共存区加密并同步 Raman、红外、电阻与原位 XRD。"
+    },
+    "versionNote": "正式版本以 PRB DOI 为准；实验细节来自同作者同题工作的公开稿及其补充材料。",
     "source": "https://doi.org/10.1103/832c-p7qj",
-    "fullText": "https://journals.aps.org/prb/abstract/10.1103/832c-p7qj",
+    "fullText": "https://arxiv.org/pdf/2605.01651",
     "reportUrl": "/reports/2026-09-02",
     "sections": [
       {
-        "title": "科学问题",
-        "text": "双层镍酸盐约 80 K 高压超导与八面体倾转消失、电子金属性增强相伴，但二者是否为同一结构临界过程仍不清楚。作者用压力和温度两条路径追踪无倾转结构与金属化，试图把结构相变和载流子重构放在同一证据链。"
+        "title": "问题—假设—实验设计",
+        "text": "双层镍酸盐 La3Ni2O7 的高压超导常与 NiO6 八面体倾转消失、层间 Ni–O–Ni 键趋直和金属性增强联系起来，但结构相变与电子重构是否同一过程、相变边界是否只由压力决定仍不清楚。作者以压力和温度为两条独立控制路径：Raman 追踪倾转相关声子及其 Fano 线形，同步辐射红外追踪 Drude 响应和等离子频率。若两条路径都在无倾转相出现时产生相同电子响应，便能排除‘只是某个压力点的非静水效应’这一较弱解释。"
       },
       {
-        "title": "样品与生长边界",
-        "text": "研究对象为 La3Ni2O7；摘要未说明具体晶型、单晶批次、Flux 配方或高压合成过程。原料纯度、配比、坩埚、气氛、峰值温度、时间、降温和尺寸均为正文未报告。"
+        "title": "样品—Flux 生长—后处理",
+        "text": "单晶采用常压熔盐助熔剂蒸发法。La2O3 纯度 99.99%，先在 1000 °C 过夜烘干，再与 NiO 配料；使用无水 K2CO3 作 Flux，溶质与 Flux 质量比 1:15，混合步骤在手套箱完成。混合料装入带盖氧化铝坩埚，在 1000–1050 °C 保温 72 h，使 Flux 逐步蒸发，随后自然冷却；产物用去离子水浸泡分离。晶体再在流动 O2 中 500 °C 退火 5 d 并随炉冷却。得到 ab 面近方形片晶，边长约 40–50 μm、c 轴厚度约 10–30 μm。升温速率、K2CO3 具体纯度、炉内位置、氧流量和产率正文未报告，是复现记录必须补齐的变量。"
       },
       {
-        "title": "测量与关键结果",
-        "text": "Raman 和同步辐射红外在约 10–15 GPa 追踪 Amam 向 Fmmm/I4/mmm 的无倾转相转变；高温路线在约 544 K 以上出现类似结构信号。Fano 线形反映声子与电子连续谱耦合，红外反射率分析指向载流子密度增加约两个数量级。"
+        "title": "结构质量—高压装样—测量条件",
+        "text": "高压实验使用膜式金刚石对顶砧，IIa 型金刚石、600 μm culet；不锈钢垫片预压至约 50 μm，样品孔约 250 μm。约 50 μm 晶体与红宝石压力标定球共同装入，CsI 兼作红外透明压力介质。Raman 使用 532 nm 激光、ab 面背散射几何，谱窗 100–1000 cm⁻¹，每条光谱 300 s、累积 2 次；温度由激光功率或 Linkam 台调节，最高约 400 °C，并用反 Stokes/Stokes 比校温。红外在 SOLEIL-SMIS 线站完成，中红外用 MCT、远红外用 bolometer，以金箔为反射参考。公开稿对相纯度与常规结构表征的批次统计仍不充分，因而光谱样品是否代表整批晶体是质量链条的薄弱点。"
       },
       {
-        "title": "证据评价",
-        "text": "结构模消失与红外金属化同步是最强证据，但载流子密度来自光学模型拟合，不等同于直接霍尔计数；压力梯度、相共存和氧非化学计量仍可能影响阈值。摘要不足以评价拟合区间、DAC 压力介质和误差。"
+        "title": "关键数据—模型拟合—证据强弱",
+        "text": "直接观察是倾转相关 Raman 模随压/升温衰减并消失，同时低频红外反射增强、Drude 响应显著变强。结构转变约在 6 GPa 开始，并在 15.25 GPa、544 K 左右完成；中间是相共存而非单一锋利临界点。等离子频率由 0.4 GPa 时约 3450 cm⁻¹ 增至 16.9 GPa 时约 32000 cm⁻¹。若有效质量变化不大，这对应近两个数量级的载流子密度提升，但‘载流子数’并非直接 Hall 计数，而来自 RefFIT 多层 Drude–Lorentz 拟合；模型使用金刚石介电常数 5.84、折射率约 2.42。Fano 参数 1/|q| 被用作电子—声子耦合指标，也属于模型化指标。最强证据是结构声子和金属光学响应在两条控制路径上的同步；最弱环节是有效质量、压力梯度、相共存及氧含量可能改变定量载流子解释。"
       },
       {
-        "title": "复现与阅读建议",
-        "text": "后续应在同一批晶体上联测 Raman、红外、电阻和 XRD，并记录氧含量与压力标定；跨 10–15 GPa 加密步长以分辨相共存。推荐 A：高温超导方向优先，但生长配方需取得全文后再使用。"
+        "title": "结论—局限—可执行复现",
+        "text": "论文支持‘无倾转相为强金属性和高压超导提供必要电子结构背景’，但没有证明几何直键单独足以产生超导。对下一炉晶体，建议锁定 1:15 K2CO3 Flux、1000–1050 °C/72 h 与 500 °C O2/5 d 作为基线，同时记录氧流量、装料高度、Flux 失重和每块晶体厚度；用 TGA/碘量或其他方法约束氧含量。高压测量在 6–16 GPa 每 1–2 GPa 取点，并在相共存区加密；同一晶片同步 Raman、红外、四探针电阻和 XRD，才能把结构、自由载流子与超导转变真正闭合。"
       }
     ]
   },
   {
     "date": "2026-09-02",
     "issue": "008",
-    "headline": "重费米子向列序与镍酸盐结构—载流子边界成为今日主线",
+    "headline": "从生长过程到量子物性：把访问状态、样品历史与证据强度放在同一张地图上",
     "material": "Ti–Al 金属间化合物",
     "title": "Topological motifs governing superconductivity in pressure-stabilized Ti-Al intermetallics",
     "authors": "Yiming Wang; Jia Qu; Peng Jiang; Vladislav A. Blatov; Xuqiang Liu; Yan-Ling Li; Wenge Yang",
     "journal": "Physical Review B",
     "method": "高压合成/淬火 + 结构拓扑 + 超导",
     "rating": "A-",
-    "access": "仅基于出版社摘要/元数据",
+    "access": "浙大 VPN/APS 已尝试；未取得正文，也未找到对应公开作者稿，仅摘要/元数据",
+    "category": "高温与非常规超导",
+    "tags": [
+      "Ti-Al",
+      "高压合成",
+      "淬火",
+      "电子-声子耦合"
+    ],
+    "readingGuide": {
+      "priority": "A-｜先验证体超导与相纯度，再讨论拓扑 motif",
+      "first": "取得正文后先找压力—温度—卸压路径和相分数，不要从计算结构图直接跳到 Tc 机制。",
+      "focus": "优先核对零电阻、抗磁屏蔽和比热是否来自同一淬火相，以及卸压后结构随时间是否稳定。",
+      "next": "适合设计原位 XRD + 淬火速率矩阵；在工艺参数未公开前不宜照摘要复现。"
+    },
+    "versionNote": "APS PDF 访问被站点拒绝，当前机构会话也未建立可验证授权；分析严格停留在出版社摘要。",
     "source": "https://doi.org/10.1103/frhh-xd6p",
     "fullText": "https://journals.aps.org/prb/abstract/10.1103/frhh-xd6p",
     "reportUrl": "/reports/2026-09-02",
@@ -151,155 +209,214 @@ export default [
   {
     "date": "2026-09-02",
     "issue": "008",
-    "headline": "重费米子向列序与镍酸盐结构—载流子边界成为今日主线",
+    "headline": "从生长过程到量子物性：把访问状态、样品历史与证据强度放在同一张地图上",
     "material": "LaSc2H24",
     "title": "Isotropic superconductivity in the room-temperature superconductor LaSc2H24",
     "authors": "Zefang Wang; Wenbo Zhao; Yuan Ma; Hanyu Liu; Yanming Ma",
     "journal": "Physical Review B",
     "method": "第一性原理 + 各向异性 Eliashberg",
     "rating": "A-",
-    "access": "仅基于出版社摘要/元数据",
+    "access": "全文精读（PRB 正式论文 + 对应作者公开稿 arXiv:2601.01398）",
+    "category": "高温与非常规超导",
+    "tags": [
+      "氢化物",
+      "Eliashberg",
+      "声子",
+      "高压",
+      "LaSc2H24"
+    ],
+    "readingGuide": {
+      "priority": "A｜适合高压靶标筛选，不是合成配方",
+      "first": "先读结构与声子稳定区间，再读各向异性 Migdal–Eliashberg；Tc 数字应放在 μ*、非谐性和压力范围旁边看。",
+      "focus": "关注 Sc 引起的 Jahn–Teller H–H 键伸长、Sc–H–Sc σ/π 态，以及两能隙如何演化为近各向同性单能隙。",
+      "next": "实验上应优先验证结构、Raman/红外软模、同位素效应和磁场抑制，而不是仅凭电阻下降宣称室温超导。"
+    },
+    "versionNote": "正式版本以 PRB DOI 为准；公开稿提供主文计算方法和图表，独立补充材料未包含在该 PDF 中。",
     "source": "https://doi.org/10.1103/3b4x-77yq",
-    "fullText": "https://journals.aps.org/prb/abstract/10.1103/3b4x-77yq",
+    "fullText": "https://arxiv.org/pdf/2601.01398",
     "reportUrl": "/reports/2026-09-02",
     "sections": [
       {
-        "title": "问题",
-        "text": "在预测室温超导的氢笼材料中，电子—声子耦合是否高度各向异性、哪些原子运动主导配对，会决定理论 Tc 的可靠性。"
+        "title": "问题与材料设计逻辑",
+        "text": "LaSc2H24 是 LaH10 型氢笼家族的多元化设计：La@H30 与 Sc@H24 笼在 P6/mmm 结构中组合，La/Sc 子晶格呈类似 MgB2 的层状排列。核心问题不是简单计算一个 Tc，而是解释 Sc 替位为何改变氢网络、电子态和配对各向异性，并判断此前实验所称的室温超导能否由常规电子—声子机制支持。"
       },
       {
-        "title": "样品/结构边界",
-        "text": "这是理论研究，未实际生长晶体。作者讨论高压 LaSc2H24；合成原料、压力加载路线、激光加热、尺寸和产率均不适用/未报告。"
+        "title": "结构—声子—电子耦合链",
+        "text": "计算显示 Sc 的局域晶场/Jahn–Teller 效应拉长特定层间 H–H 键，产生与 Sc 相关的软化声子；Sc 3d 与 H 轨道形成 Sc–H–Sc 的 σ/π 杂化，并在费米面多个区域提供电子—声子耦合。这个链条把‘化学替位’分解为局域几何畸变、声子软化和费米能级态三步。直接输出是优化结构、能带、声子谱和 EPC 分布；Jahn–Teller 作为主因仍是作者对这些计算量的物理归因。"
       },
       {
-        "title": "计算结果",
-        "text": "Sc 的 Jahn–Teller 相关畸变使氢笼软化，Sc–H 电子态形成类似 MgB2 的耦合通道；各向异性 Eliashberg 计算却得到近似单能隙、较各向同性的超导态。"
+        "title": "超导解与关键转变",
+        "text": "各向异性 Migdal–Eliashberg 解显示，LaH10 中较明显的各向异性双能隙特征，在 LaSc2H24 中转向近各向同性的单能隙状态。作者把这种变化归因于 Sc–H 通道在不同费米面片之间加强耦合并平均化能隙。需要强调：‘room-temperature superconductor’沿用的是此前高压实验候选和理论预测语境；本论文新增证据是第一性原理与 Eliashberg 计算，没有新增样品合成、Meissner 或零电阻实验。"
       },
       {
-        "title": "证据评价",
-        "text": "结论依赖结构稳定性、赝势、交换关联泛函、非谐性和 μ*；“室温超导体”是计算预测而非本论文的实验直接观察。"
+        "title": "不确定性与替代解释",
+        "text": "定量 Tc 依赖结构稳定区间、赝势/交换关联泛函、k/q 网格、声子非谐性、库仑赝势 μ* 和可能的量子核效应。公开 PDF 未附独立补充材料，因此收敛性细节和不同参数的完整敏感性需要正式附件复核。若实际高压样品存在多相、氢含量偏差或应力梯度，理论理想 P6/mmm 相不能直接代表实验电阻通道。"
       },
       {
-        "title": "建议",
-        "text": "实验应优先检验预测结构、Raman/红外声子软化、同位素效应及磁场下电阻转变；理论读者应核查声子稳定区间与收敛。推荐 A-，作为高压合成靶标而非现成配方。"
+        "title": "实验验证顺序",
+        "text": "对高压实验最有效的顺序是：先用同步辐射 XRD/拉曼锁定 P6/mmm 与软化模，再做同位素替换和磁场下电阻转变，最后用可行的磁化/交流磁化手段检验体超导。压力点应跨越理论稳定区间密集布置，并把激光加热轨迹、氢源配比、压力介质和退火时间与每个电极回路一一对应。"
       }
     ]
   },
   {
     "date": "2026-09-02",
     "issue": "008",
-    "headline": "重费米子向列序与镍酸盐结构—载流子边界成为今日主线",
+    "headline": "从生长过程到量子物性：把访问状态、样品历史与证据强度放在同一张地图上",
     "material": "UTe2",
     "title": "Field-angle dependence of magnetoresistance in UTe2",
     "authors": "Jun Ishizuka; Youichi Yanase",
     "journal": "Physical Review B",
     "method": "GGA+U/Wannier + Boltzmann 输运",
     "rating": "A-",
-    "access": "仅基于出版社摘要/元数据",
+    "access": "全文精读（PRB 正式论文 + 对应作者公开稿 arXiv:2603.17235）",
+    "category": "重费米子与量子临界",
+    "tags": [
+      "UTe2",
+      "磁阻",
+      "费米面",
+      "Boltzmann",
+      "重费米子"
+    ],
+    "readingGuide": {
+      "priority": "A-｜角分辨输运设计价值高",
+      "first": "先看 8.08 T、90 K 的实验对照，再比较 τh=1.0 ps 与 τe=0.25/0.1 ps 如何改变曲线。",
+      "focus": "把‘费米面几何’与‘人为赋予的带依赖弛豫时间’分开；后者可能吸收了磁涨落和强关联自能。",
+      "next": "实验最好在同一高 RRR 晶体上同步纵/横向输运和量子振荡，用场角、温度与磁场三维数据限制自由参数。"
+    },
+    "versionNote": "正式版本以 PRB DOI 为准；作者公开稿包含主文模型、计算结果与实验比较。",
     "source": "https://doi.org/10.1103/pm7m-xcg9",
-    "fullText": "https://journals.aps.org/prb/abstract/10.1103/pm7m-xcg9",
+    "fullText": "https://arxiv.org/pdf/2603.17235",
     "reportUrl": "/reports/2026-09-02",
     "sections": [
       {
-        "title": "问题",
-        "text": "UTe2 是自旋三重态候选和重费米子超导热点。本文要解释正常态磁阻随磁场角度的复杂变化，并判断它是否主要由费米面几何而非新序产生。"
+        "title": "问题—模型—实验对照",
+        "text": "UTe2 的正常态磁阻具有强烈场角依赖，可能来自准二维费米面轨道运动，也可能混入磁涨落、场诱导重构或 Lifshitz 转变。作者从 GGA+U 构造 12 轨道 Wannier 模型，包含两个 U 位和 Te(2) 5p 相关轨道，再以半经典 Boltzmann 输运计算纵向与 Hall 响应。研究目标是先检验无需引入新有序态时，费米面几何能解释多少实验结构。"
       },
       {
-        "title": "样品边界",
-        "text": "纯理论论文，没有新增晶体生长。作者构建 GGA+U 电子结构和 Wannier 模型；Flux/CVT、纯度、退火和 RRR 均不适用。"
+        "title": "关键参数与直接结果",
+        "text": "代表性比较使用 B=8.08 T、T=90 K；空穴带弛豫时间取 τh=1.0 ps，电子带取 τe=0.25 ps 或 0.1 ps，才能较好再现实验磁阻的角度轮廓。计算还延伸到约 36.36 T，并预测 Hall 响应随场角的凹陷位置和形状会随磁场、温度移动。直接结果是模型费米面、速度和 Boltzmann 电导；与实验趋势吻合支持几何图景，但并不自动证明弛豫机制。"
       },
       {
-        "title": "结果",
-        "text": "准二维翘曲费米面在 Boltzmann 输运中产生显著角度依赖；引入能带依赖弛豫时间后可再现实验磁阻，并进一步预测 Hall 信号的角度行为。"
+        "title": "最强证据与最弱环节",
+        "text": "最强处是同一电子结构同时给出纵向磁阻和可检验的 Hall 角度预测。最弱处是带依赖 τ 带有现象学自由度：若所有能带共用一个 τ，模型定性失败；允许电子/空穴 τ 相差数倍后才恢复实验曲线。这可能真实反映轨道选择性散射，也可能把磁涨落、强关联自能、样品缺陷或场诱导能带变化压缩进两个参数。因此文中‘直接证据’更准确地说是模型一致性证据。"
       },
       {
-        "title": "证据与替代解释",
-        "text": "模型能重现实验趋势是支持，但带依赖弛豫时间带有现象学自由度，强关联自能、磁场诱导 Lifshitz 转变和磁散射也可能贡献。"
+        "title": "与晶体质量的关系",
+        "text": "论文没有新增晶体生长，Flux/CVT 配方不适用；但其预测对 RRR、缺陷与不同费米面片的散射极敏感。跨批次比较若不先控制残余电阻、几何因子、裂纹和接触错位，τe/τh 的差异可能只是样品质量差异。UTe2 文献中同名晶体存在明显批次依赖，正适合与本期 synthesis-dependence Perspective 联读。"
       },
       {
-        "title": "建议",
-        "text": "应在同一高 RRR 晶体上同时测纵向/横向电阻、旋转多个晶面，并用量子振荡约束费米面。推荐 A-：适合设计角分辨输运，不提供新生长配方。"
+        "title": "实验行动建议",
+        "text": "在同一块高 RRR 晶体上，至少做 bc、ac 两个旋转平面的纵向和横向电阻，并覆盖模型的 8 T 基准与更高场；同步量子振荡约束费米面频率，避免只用磁阻曲线反演 τ。温度扫描应检查角度凹陷是否按预测移动；若不移动或出现迟滞，再考虑磁相变/磁畴等替代机制。"
       }
     ]
   },
   {
     "date": "2026-09-02",
     "issue": "008",
-    "headline": "重费米子向列序与镍酸盐结构—载流子边界成为今日主线",
+    "headline": "从生长过程到量子物性：把访问状态、样品历史与证据强度放在同一张地图上",
     "material": "强关联交错磁体",
     "title": "Enhancement of d-wave pairing in strongly correlated altermagnets",
     "authors": "Jianyu Li; Ji Liu; Xiaosen Yang; Ho-Kin Tang",
     "journal": "Physical Review B",
     "method": "约束路径量子蒙特卡洛",
     "rating": "B+",
-    "access": "仅基于出版社摘要/元数据",
+    "access": "全文精读（PRB 正式论文 + 对应作者公开稿 arXiv:2505.12342）",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "交错磁体",
+      "d-wave",
+      "CPQMC",
+      "Hubbard 模型"
+    ],
+    "readingGuide": {
+      "priority": "B+｜理论机制清楚，材料映射仍远",
+      "first": "先看配对顶角关联与总关联的区别，再看有限尺寸和约束路径测试；不要把相关函数增强直接写成有限 Tc。",
+      "focus": "比较各向异性跃迁同时削弱 N_S(π,π) 反铁磁峰、增强 d 波顶角这一反直觉组合。",
+      "next": "若用于材料筛选，应先找具有相符磁空间群和可调各向异性的化学体系，再讨论应变或压力实验。"
+    },
+    "versionNote": "正式版本以 PRB DOI 为准；作者公开稿提供模型、CPQMC 结果及 t–J 补充检验。",
     "source": "https://doi.org/10.1103/8hyn-216k",
-    "fullText": "https://journals.aps.org/prb/abstract/10.1103/8hyn-216k",
+    "fullText": "https://arxiv.org/pdf/2505.12342",
     "reportUrl": "/reports/2026-09-02",
     "sections": [
       {
-        "title": "问题",
-        "text": "交错磁体兼具零净磁矩和自旋劈裂，本文考察其各向异性跃迁能否在强关联模型中增强 d 波配对。"
+        "title": "问题与模型",
+        "text": "交错磁体在零净磁矩下产生动量依赖自旋劈裂，传统直觉会担心这类自旋分裂破坏反平行自旋配对。作者研究近半填充的自旋各向异性 Hubbard 模型，用跃迁各向异性 tA 同时生成交错磁特征并破坏完美嵌套/SU(2) 对称，检验强关联下 d 波配对是否反而受益。"
       },
       {
-        "title": "材料边界",
-        "text": "模型研究未指定可生长化学式；无晶体、配比或测量条件。"
+        "title": "数值方法与关键对照",
+        "text": "采用约束路径量子蒙特卡洛（CPQMC），以 Hartree–Fock 波函数作 trial state，扫描 U=1、2、4 及不同各向异性。作者分别计算总配对相关与扣除非相互作用贡献后的 vertex 部分，这是判断‘费米面效应’还是‘相互作用真正增强配对’的关键对照。补充的半填充 t–J 模型自由能比较在较大 J 区也偏好 d 波，为主模型趋势提供独立但仍属模型内的支持。"
       },
       {
-        "title": "结果",
-        "text": "约束路径 QMC 显示各向异性跃迁削弱等时反铁磁关联，却增强连接的 d 波配对顶角关联，提示自旋分裂背景并不必然抑制非常规配对。"
+        "title": "结果与证据层级",
+        "text": "随 tA 增大，N_S(π,π) 对应的反铁磁长程趋势被削弱，而 d 波和部分 p↑↓ 顶角关联增强，其他配对通道多被压低。直接观察是有限晶格上的相关函数和结构因子；‘d 波超导增强’是从其尺度与相互作用依赖外推的物理判断，并没有直接计算真实材料 Tc。作者以 RVB 图景解释：各向异性减弱长程 Néel 竞争，却保留足以形成短程 singlet 的交换关联。"
       },
       {
-        "title": "评价",
-        "text": "数值直接量是有限尺寸相关函数，“增强超导”仍需热力学外推和材料参数映射；约束路径偏差也需基准。"
+        "title": "局限与材料边界",
+        "text": "约束路径偏差取决于 trial state，有限尺寸、壳层效应和近半填充符号问题限制热力学外推。模型中的 tA 不是任意现实交错磁体的可直接测量单参数；自旋轨道耦合、多轨道、晶格畸变和三维耦合都可能改变配对通道。因此它更像材料设计原则，而非对具体晶体的预测。"
       },
       {
-        "title": "建议",
-        "text": "材料筛选可寻找具有交错磁对称和可调各向异性带宽的单晶，再用应变/压力验证配对趋势。推荐 B+，理论启发高于近期生长可执行性。"
+        "title": "可执行验证",
+        "text": "材料端可筛选具有交错磁对称、低载流子密度且能通过单轴应变/压力连续改变带宽各向异性的单晶。实验上同时测 Néel/磁结构信号、各向异性电阻与超导响应；若配对增强确与该机制一致，应看到长程 AF 指标下降而配对相关量上升的反相关，而不是仅有电阻异常。"
       }
     ]
   },
   {
     "date": "2026-09-02",
     "issue": "008",
-    "headline": "重费米子向列序与镍酸盐结构—载流子边界成为今日主线",
+    "headline": "从生长过程到量子物性：把访问状态、样品历史与证据强度放在同一张地图上",
     "material": "应变单层石墨烯",
     "title": "Interaction-driven charge textures and unconventional superconductivity in strained monolayer graphene",
     "authors": "Elias Andrade; Alejandro Jimeno-Pozo; Pierre A. Pantaleón; Francisco Guinea; Gerardo G. Naumis",
     "journal": "Physical Review B",
     "method": "应变莫尔模型 + Hartree / Kohn–Luttinger",
     "rating": "B+",
-    "access": "仅基于出版社摘要/元数据",
+    "access": "全文精读（PRB 正式论文 + 对应作者公开稿 arXiv:2507.00112）",
+    "category": "二维材料与量子器件",
+    "tags": [
+      "石墨烯",
+      "应变莫尔",
+      "电荷纹理",
+      "平带",
+      "超导"
+    ],
+    "readingGuide": {
+      "priority": "B+｜先看可实现的应变尺度，再看超导相图",
+      "first": "从 A=0.15a、λ=13.6 nm 的平带示例入手，再看 λ=27.2 nm、ε=6 的相图，避免只记住 Tc。",
+      "focus": "重点区分亚晶格对称与亚晶格极化的亚稳态，以及约 500 meV Hartree 势起伏对器件均匀性的要求。",
+      "next": "实验应先用 STM/应变映射验证一维周期和电荷纹理，再做栅压输运；跨器件统计比单个超导样品更关键。"
+    },
+    "versionNote": "公开稿题名为 Electrostatic Charge Fractionalization and Unconventional Superconductivity in Strained Monolayer Graphene；作者和核心模型对应同一工作，正式题名以 PRB 为准。",
     "source": "https://doi.org/10.1103/q528-6vj2",
-    "fullText": "https://journals.aps.org/prb/abstract/10.1103/q528-6vj2",
+    "fullText": "https://arxiv.org/pdf/2507.00112",
     "reportUrl": "/reports/2026-09-02",
     "sections": [
       {
-        "title": "问题",
-        "text": "准一维应变莫尔能否生成平带、相分离式电荷纹理和非常规配对，是二维材料物性调控的新路线。"
+        "title": "问题与器件概念",
+        "text": "工作考虑沿 y 方向施加一维周期性单轴应变，在单层石墨烯中形成一维莫尔超晶格。应变产生赝磁/标量势并压平能带，作者追问长程库仑相互作用是否会把均匀平带态重构成空间电荷纹理，以及这些重构后的准粒子能否出现 Kohn–Luttinger 型非常规配对。"
       },
       {
-        "title": "样品边界",
-        "text": "理论模型，不含具体 CVD/剥离、基底、应变施加或器件制程。"
+        "title": "模型尺度与可实现参数",
+        "text": "代表性参数 A=0.15a、周期 λ=13.6 nm 时出现两重简并平带；另一组相图使用 λ=27.2 nm、介电常数 ε=6。Hartree 自洽计算在 |ν|=1、ε=10 的示例中给出约 500 meV 的势起伏，说明平带极高可压缩性会放大微小非均匀。论文为理论研究，未给出 CVD/剥离、基底转移、应变器件制程和接触工艺，这些不是‘正文漏写的生长配方’，而是尚待实验映射的边界。"
       },
       {
-        "title": "结果",
-        "text": "计算得到亚晶格极化平带；Hartree 自洽产生费米能级钉扎和多种亚稳电荷纹理，并出现 Kohn–Luttinger 型配对不稳定性。"
+        "title": "电荷纹理与分数化解释",
+        "text": "自洽解出现亚晶格对称和亚晶格极化的多种亚稳态，并在有理填充附近形成周期电荷纹理/局域分数电荷。直接结果是模型密度分布、Hartree 势和能带；‘分数化’在这里指空间电荷重排的有效纹理，不应与具有拓扑序和任意子激发的分数量子霍尔态混为一谈。多亚稳态也意味着真实器件可能存在历史依赖和畴。"
       },
       {
-        "title": "证据评价",
-        "text": "直接结果是模型能带与自洽解，超导是弱耦合不稳定性推断。无序、应变非均匀、长程库仑和实际介电环境可能改变结论。"
+        "title": "配对结果与限制",
+        "text": "在重构平带上计算 Kohn–Luttinger 类配对不稳定性，相关填充处给出约 1.1 K 的 Tc，扫描应变幅度时可到数 K。这个 Tc 来自弱耦合/有效相互作用框架，不是实验直接观测；无序、应变非均匀、长程屏蔽、声子和相位涨落都可能显著改变量级。正式 PRB 与较早公开稿题名不同，引用时应以 DOI 版本为主，并说明公开稿版本关系。"
       },
       {
-        "title": "建议",
-        "text": "实验可用扫描探针先确认一维应变与电荷纹理，再测栅压依赖输运和局域谱；需要跨器件统计。推荐 B+。"
+        "title": "实验路线",
+        "text": "第一步用 Raman 应变映射与 STM/STS 确认 λ、应变幅度和平带局域态；第二步用扫描单电子/电荷传感或压缩率测量寻找有理填充纹理；第三步才做低温四探针、临界场、BKT 和非线性输运区分超导与渗流。应至少比较多个周期、多个介电环境和多器件，检验 500 meV 级 Hartree 重构是否被实际屏蔽。"
       }
     ]
   },
   {
     "date": "2026-09-02",
     "issue": "008",
-    "headline": "重费米子向列序与镍酸盐结构—载流子边界成为今日主线",
+    "headline": "从生长过程到量子物性：把访问状态、样品历史与证据强度放在同一张地图上",
     "material": "La2SrNi2O7−δ",
     "title": "Heavily Sr-Doped La2SrNi2O7−δ as a Tetragonal Ruddlesden–Popper Phase at Ambient Pressure",
     "authors": "Yuhang Zhang; Xue Ming; Cui-Qun Chen; Wei Chen; Tian-Yi Li; Zhe-Ning Xiang; Qing Li; Bing-hui Ge; Dao-Xin Yao; Xiyu Zhu; Hai-Hu Wen",
@@ -307,6 +424,20 @@ export default [
     "method": "3 GPa / 1400 °C HPHT Flux",
     "rating": "A+",
     "access": "全文精读（正文、方法与图注）",
+    "category": "晶体生长和物性调控",
+    "tags": [
+      "HPHT Flux",
+      "La2SrNi2O7",
+      "镍酸盐",
+      "高压输运"
+    ],
+    "readingGuide": {
+      "priority": "A+｜生长窗口与负结果边界都很重要",
+      "first": "先读 3 GPa/1400 °C 的合成段和单晶精修表，再读压力输运—DFT 对照。",
+      "focus": "盯住 SrCl2–KCl 共晶、SrO2 氧源与 Ni–O–Ni 直键，同时检查化学势和轨道填充为何仍不利于超导。",
+      "next": "下一轮做 Sr 含量、氧源剂量和臭氧时长矩阵，并让每块输运晶体对应独立的氧含量与 Laue 记录。"
+    },
+    "versionNote": "",
     "source": "https://arxiv.org/abs/2609.00542",
     "fullText": "https://arxiv.org/pdf/2609.00542",
     "reportUrl": "/reports/2026-09-02",
@@ -336,7 +467,7 @@ export default [
   {
     "date": "2026-09-02",
     "issue": "008",
-    "headline": "重费米子向列序与镍酸盐结构—载流子边界成为今日主线",
+    "headline": "从生长过程到量子物性：把访问状态、样品历史与证据强度放在同一张地图上",
     "material": "Sm4Ni3O10−δ",
     "title": "Expanding the trilayer Ruddlesden-Popper nickelate family: Synthesis and characterization of Sm4Ni3O10−δ single crystals",
     "authors": "Yuhang Zhang; Tian-Yi Li; Xiyu Zhu; Ying-Jie Zhang; Shengtai Fan; Qing Li; Hai-Hu Wen",
@@ -344,6 +475,20 @@ export default [
     "method": "3.25 GPa / 1400 °C HPHT Flux",
     "rating": "A+",
     "access": "全文精读（正文、实验部分与图注）",
+    "category": "晶体生长和物性调控",
+    "tags": [
+      "HPHT Flux",
+      "Sm4Ni3O10",
+      "密度波",
+      "高压"
+    ],
+    "readingGuide": {
+      "priority": "A+｜窄生长窗口与 80 GPa 负结果值得复核",
+      "first": "先把 3.25 GPa、1400 °C 和 KClO4 氧源写成参数矩阵，再读 Pbca 精修和 180 K 密度波。",
+      "focus": "重点看氧亏缺 δ、Ni–O–Ni 角与压力下未见超导之间是否有一一对应证据。",
+      "next": "建议 KClO4 剂量和温度做小步长扫描，并补原位高压结构，避免把‘未见超导’简单归因于小离子化学压力。"
+    },
+    "versionNote": "",
     "source": "https://doi.org/10.1016/j.mtphys.2025.102005",
     "fullText": "https://arxiv.org/pdf/2609.00574",
     "reportUrl": "/reports/2026-09-02",
@@ -373,7 +518,7 @@ export default [
   {
     "date": "2026-09-02",
     "issue": "008",
-    "headline": "重费米子向列序与镍酸盐结构—载流子边界成为今日主线",
+    "headline": "从生长过程到量子物性：把访问状态、样品历史与证据强度放在同一张地图上",
     "material": "La0.8Sr0.2NiO2",
     "title": "Microscopic Origin of Pressure-Enhanced and Robust Superconductivity in Infinite-Layer La0.8Sr0.2NiO2",
     "authors": "Jian-Feng Zhang; Zhong-Yi Lu; Tao Xiang",
@@ -381,6 +526,20 @@ export default [
     "method": "压力依赖第一性原理 + 双轨道模型 + Eliashberg",
     "rating": "A",
     "access": "全文精读（正文与计算方法）",
+    "category": "高温与非常规超导",
+    "tags": [
+      "无限层镍酸盐",
+      "压力",
+      "Eliashberg",
+      "轨道"
+    ],
+    "readingGuide": {
+      "priority": "A｜用于设计验证量，不用于照搬生长",
+      "first": "先读压力依赖 Wannier 参数与 U/W，再看 Eliashberg 本征值形成穹顶的分解。",
+      "focus": "把带宽增强、自掺杂和三维化三个变量分开；高压端下降不能只用一个词‘过掺杂’概括。",
+      "next": "实验联测 Hall、XAS/Raman 与电阻，并保持同一薄膜和同一还原历史，避免压力与氧缺陷漂移混淆。"
+    },
+    "versionNote": "",
     "source": "https://arxiv.org/abs/2609.00586",
     "fullText": "https://arxiv.org/pdf/2609.00586",
     "reportUrl": "/reports/2026-09-02",
@@ -410,7 +569,7 @@ export default [
   {
     "date": "2026-09-02",
     "issue": "008",
-    "headline": "重费米子向列序与镍酸盐结构—载流子边界成为今日主线",
+    "headline": "从生长过程到量子物性：把访问状态、样品历史与证据强度放在同一张地图上",
     "material": "纳米晶形貌",
     "title": "Size-Dependent Growth Rates Amplify Infinitesimal Asymmetry in Nanocrystals",
     "authors": "Sam Oaks-Leaf; David T. Limmer",
@@ -418,6 +577,20 @@ export default [
     "method": "有限晶面成核/扩展动力学模型",
     "rating": "A-",
     "access": "全文精读（正文、模型与图注）",
+    "category": "晶体生长和物性调控",
+    "tags": [
+      "纳米晶",
+      "形貌",
+      "动力学",
+      "成核"
+    ],
+    "readingGuide": {
+      "priority": "A-｜适合解释形貌放大，不是化学配方",
+      "first": "先看方形、三角形和 FCC cuboctahedron 三组几何如何共享同一个尺寸反馈机制。",
+      "focus": "分清层成核率与台阶扩展速率；极小初始面面积差如何进入确定性正反馈是全文核心。",
+      "next": "实验要做单颗粒时间序列 TEM 和初始面面积分布，平均粒径不足以检验模型。"
+    },
+    "versionNote": "",
     "source": "https://arxiv.org/abs/2609.00145",
     "fullText": "https://arxiv.org/pdf/2609.00145",
     "reportUrl": "/reports/2026-09-02",
@@ -447,7 +620,7 @@ export default [
   {
     "date": "2026-09-02",
     "issue": "008",
-    "headline": "重费米子向列序与镍酸盐结构—载流子边界成为今日主线",
+    "headline": "从生长过程到量子物性：把访问状态、样品历史与证据强度放在同一张地图上",
     "material": "GaAs/GaAs0.65P0.35 超晶格",
     "title": "Cryogenic Enhancement of Electron Spin Polarization from a Strained GaAs/GaAsP Superlattice Photocathode",
     "authors": "Matt Grau; Colin Kirk; Greg Blume; John Hill; Sushil Poudel; Alimohammed Kachwala; Marcy Stutzman; Joseph Michael Grames; Sylvain Marsillac; Matt Poelker",
@@ -455,6 +628,20 @@ export default [
     "method": "MOCVD 应变超晶格 + 低温自旋光电子",
     "rating": "A",
     "access": "全文精读（正文与内嵌补充材料）",
+    "category": "二维材料与量子器件",
+    "tags": [
+      "MOCVD",
+      "GaAs/GaAsP",
+      "超晶格",
+      "自旋光电子"
+    ],
+    "readingGuide": {
+      "priority": "A｜外延与测量两端都可执行",
+      "first": "生长者先画出 500 nm 步进缓冲层和 30 周期 3.8/2.8 nm 超晶格；测量者先读 Sherman 函数和系统误差。",
+      "focus": "比较 295 K 的 91.2% 与 195 K 的 95.0%，并解释为何 77 K 不再提升，而不是只报最高极化。",
+      "next": "复现时同时记录 HRXRD 松弛、Zn 掺杂、NEA 激活、阴极真实温度和激光圆偏振度。"
+    },
+    "versionNote": "",
     "source": "https://arxiv.org/abs/2609.00212",
     "fullText": "https://arxiv.org/pdf/2609.00212",
     "reportUrl": "/reports/2026-09-02",
@@ -492,6 +679,10 @@ export default [
     "method": "反应射频磁控溅射 / MgO(100) 外延",
     "rating": "S",
     "access": "重点全文精读（HTML 正文 I–IV、实验方法、图 1–9、表 1–2）",
+    "category": "未分类",
+    "tags": [],
+    "readingGuide": null,
+    "versionNote": "",
     "source": "https://arxiv.org/abs/2608.28166",
     "fullText": "https://arxiv.org/html/2608.28166",
     "reportUrl": "/reports/2026-09-01",
@@ -529,6 +720,10 @@ export default [
     "method": "CO₂ 激光热重构 + 等离子体辅助 MBE",
     "rating": "S",
     "access": "重点全文精读（v3 HTML 正文、Methods、Appendix A–E、图 1–13）",
+    "category": "未分类",
+    "tags": [],
+    "readingGuide": null,
+    "versionNote": "",
     "source": "https://arxiv.org/abs/2606.20317",
     "fullText": "https://arxiv.org/html/2606.20317",
     "reportUrl": "/reports/2026-09-01",
@@ -566,6 +761,10 @@ export default [
     "method": "脉冲激光沉积 PLD / 单元胞级超晶格",
     "rating": "S",
     "access": "重点全文精读（HTML 正文、实验部分、图 1–5）",
+    "category": "未分类",
+    "tags": [],
+    "readingGuide": null,
+    "versionNote": "",
     "source": "https://arxiv.org/abs/2608.28107",
     "fullText": "https://arxiv.org/html/2608.28107",
     "reportUrl": "/reports/2026-09-01",
@@ -603,6 +802,10 @@ export default [
     "method": "Au 催化 VLS-MBE 纳米线",
     "rating": "A+",
     "access": "相关条目全文详读（HTML 正文、Methods、Supplementary 1–4、图 1–4）",
+    "category": "未分类",
+    "tags": [],
+    "readingGuide": null,
+    "versionNote": "",
     "source": "https://arxiv.org/abs/2608.28353",
     "fullText": "https://arxiv.org/html/2608.28353",
     "reportUrl": "/reports/2026-09-01",
@@ -640,6 +843,10 @@ export default [
     "method": "溅射 + 400 °C 快速热反应 / flip-chip 损耗筛选",
     "rating": "A+",
     "access": "相关条目全文详读（HTML 正文 I–IV、Appendix A–I）",
+    "category": "未分类",
+    "tags": [],
+    "readingGuide": null,
+    "versionNote": "",
     "source": "https://arxiv.org/abs/2608.28463",
     "fullText": "https://arxiv.org/html/2608.28463",
     "reportUrl": "/reports/2026-09-01",
@@ -677,6 +884,10 @@ export default [
     "method": "液相外延 YIG/GGG + 有源环路",
     "rating": "A",
     "access": "相关条目全文详读（PDF 正文、理论模型、原型与补充讨论）",
+    "category": "未分类",
+    "tags": [],
+    "readingGuide": null,
+    "versionNote": "",
     "source": "https://arxiv.org/abs/2608.28457",
     "fullText": "https://arxiv.org/pdf/2608.28457",
     "reportUrl": "/reports/2026-09-01",
@@ -714,6 +925,10 @@ export default [
     "method": "MBE 与 CVD 对照 / APT 短程有序",
     "rating": "S",
     "access": "重点全文精读（v3 HTML 正文、Experimental、Supporting figures）",
+    "category": "未分类",
+    "tags": [],
+    "readingGuide": null,
+    "versionNote": "",
     "source": "https://arxiv.org/abs/2407.02767",
     "fullText": "https://arxiv.org/html/2407.02767",
     "reportUrl": "/reports/2026-09-01",
@@ -751,6 +966,10 @@ export default [
     "method": "Czochralski 提拉单晶",
     "rating": "S",
     "access": "全文精读（HTML 正文 I–V、Supplementary S I–S VII、图 1–8 与表 S1–S4）",
+    "category": "未分类",
+    "tags": [],
+    "readingGuide": null,
+    "versionNote": "",
     "source": "https://arxiv.org/abs/2608.28119",
     "fullText": "https://arxiv.org/html/2608.28119",
     "reportUrl": "/reports/2026-08-31",
@@ -792,6 +1011,10 @@ export default [
     "method": "固相反应多晶 + ¹⁷O 交换退火",
     "rating": "A+",
     "access": "全文精读（实验、结果 3.1–3.4、结论、图 1–4；样品为多晶粗粉）",
+    "category": "未分类",
+    "tags": [],
+    "readingGuide": null,
+    "versionNote": "",
     "source": "https://arxiv.org/abs/2608.27917",
     "fullText": "https://arxiv.org/html/2608.27917",
     "reportUrl": "/reports/2026-08-31",
@@ -833,6 +1056,10 @@ export default [
     "method": "液相前驱体 CVD / 三温区硫化",
     "rating": "S",
     "access": "全文精读（正文、Methods、图 1–3 及文内 Supplementary 引用）",
+    "category": "未分类",
+    "tags": [],
+    "readingGuide": null,
+    "versionNote": "",
     "source": "https://arxiv.org/abs/2608.28269",
     "fullText": "https://arxiv.org/html/2608.28269",
     "reportUrl": "/reports/2026-08-31",
@@ -874,6 +1101,10 @@ export default [
     "method": "流动 O₂ 中的升华输运",
     "rating": "S",
     "access": "全文精读（正文、Experimental、结果、表 I–IV、图 1–6；未见独立补充材料）",
+    "category": "未分类",
+    "tags": [],
+    "readingGuide": null,
+    "versionNote": "",
     "source": "https://arxiv.org/abs/2608.25615",
     "fullText": "https://arxiv.org/pdf/2608.25615",
     "reportUrl": "/reports/2026-08-30",
@@ -919,6 +1150,10 @@ export default [
     "method": "Czochralski 提拉",
     "rating": "S",
     "access": "全文精读（正文、Experimental Methods、图 1–4；未见独立补充材料）",
+    "category": "未分类",
+    "tags": [],
+    "readingGuide": null,
+    "versionNote": "",
     "source": "https://arxiv.org/abs/2608.25616",
     "fullText": "https://arxiv.org/pdf/2608.25616",
     "reportUrl": "/reports/2026-08-30",
@@ -964,6 +1199,10 @@ export default [
     "method": "Bi 自助熔剂（配方引自前作）",
     "rating": "A+",
     "access": "全文精读（正文、Methods、Appendix、图 1–3、表 I；未见独立补充材料）",
+    "category": "未分类",
+    "tags": [],
+    "readingGuide": null,
+    "versionNote": "",
     "source": "https://arxiv.org/abs/2608.25656",
     "fullText": "https://arxiv.org/pdf/2608.25656",
     "reportUrl": "/reports/2026-08-30",
@@ -1009,6 +1248,10 @@ export default [
     "method": "熔体慢冷 / Czochralski",
     "rating": "S",
     "access": "全文精读（正文、Methods、图1–4；无独立补充材料）",
+    "category": "未分类",
+    "tags": [],
+    "readingGuide": null,
+    "versionNote": "",
     "source": "https://arxiv.org/abs/2608.26678",
     "fullText": "https://arxiv.org/pdf/2608.26678",
     "reportUrl": "/reports/2026-08-29",
@@ -1042,6 +1285,10 @@ export default [
     "method": "母晶生长方法未报告",
     "rating": "A+",
     "access": "全文精读（正文、Methods；CC BY-NC-ND 4.0）",
+    "category": "未分类",
+    "tags": [],
+    "readingGuide": null,
+    "versionNote": "",
     "source": "https://arxiv.org/abs/2608.26405",
     "fullText": "https://arxiv.org/html/2608.26405",
     "reportUrl": "/reports/2026-08-29",
@@ -1075,6 +1322,10 @@ export default [
     "method": "200 mm RP-CVD 外延",
     "rating": "A+",
     "access": "全文精读（正文、Methods、Supporting Information）",
+    "category": "未分类",
+    "tags": [],
+    "readingGuide": null,
+    "versionNote": "",
     "source": "https://arxiv.org/abs/2608.27377",
     "fullText": "https://arxiv.org/html/2608.27377",
     "reportUrl": "/reports/2026-08-29",
@@ -1108,6 +1359,10 @@ export default [
     "method": "I₂-CVT",
     "rating": "S",
     "access": "全文精读",
+    "category": "未分类",
+    "tags": [],
+    "readingGuide": null,
+    "versionNote": "",
     "source": "https://doi.org/10.1038/s41586-026-10902-z",
     "fullText": "https://arxiv.org/html/2601.14526v2",
     "reportUrl": "/reports/2026-08-28",
@@ -1149,6 +1404,10 @@ export default [
     "method": "少层器件；母晶生长未报告",
     "rating": "A",
     "access": "仅摘要/官方信息",
+    "category": "未分类",
+    "tags": [],
+    "readingGuide": null,
+    "versionNote": "",
     "source": "https://doi.org/10.1038/s41586-026-11037-x",
     "fullText": "https://phys.ustc.edu.cn/2026/0820/c17720a750714/pagem.htm",
     "reportUrl": "/reports/2026-08-28",
@@ -1182,6 +1441,10 @@ export default [
     "method": "Flux growth",
     "rating": "A",
     "access": "仅摘要/元数据",
+    "category": "未分类",
+    "tags": [],
+    "readingGuide": null,
+    "versionNote": "",
     "source": "https://doi.org/10.1103/cbfk-mdky",
     "reportUrl": "/reports/2026-08-28",
     "sections": [
@@ -1214,6 +1477,10 @@ export default [
     "method": "还原 → 硫化 → CVT",
     "rating": "A−",
     "access": "仅摘要/元数据",
+    "category": "未分类",
+    "tags": [],
+    "readingGuide": null,
+    "versionNote": "",
     "source": "https://doi.org/10.1103/6twd-lvvg",
     "reportUrl": "/reports/2026-08-28",
     "sections": [
