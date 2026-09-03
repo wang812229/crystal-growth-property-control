@@ -1,0 +1,8 @@
+node_modules/
+.pnpm-store/
+github-dist/
+dist/
+.next/
+.wrangler/
+.env*
+!.env.example
