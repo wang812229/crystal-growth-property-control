@@ -1,0 +1,252 @@
+{
+  "10.1038/s41586-026-10902-z": {
+    "retrievedAt": "2026-09-06T08:01:47.081Z",
+    "provider": "Crossref",
+    "url": "https://api.crossref.org/works/10.1038%2Fs41586-026-10902-z",
+    "abstract": "Abstract Electronic phases of matter, such as magnetism and superconductivity, are defined and distinguished by their order parameters quantifying the spontaneous symmetry breaking underlying each phase. Simple cases include the uniform magnetization of ferromagnets 1,2 and the isotropic gap function of conventional superconductors 3 . Unconventional superconductors 4 often have a nodal gap function, in which the gap changes sign at nodes on the Fermi surface. This concept of unconventional or nodal order parameter symmetry has recently been extended to numerous magnetic systems 5–8 , including altermagnets 9–13 , in which up- and down-spin species have non-degenerate Fermi surfaces. Here we demonstrate that magnetic quantum oscillation 14 measurements can provide a high-resolution, bulk-sensitive, three-dimensional (3D) mapping of the order parameter in an unconventional magnet. By rotating a magnetic field through high- and low-symmetry directions of the CrSb Brillouin zone, we show that the altermagnetic band structure of this material leads to a reduction of symmetry for each spin-split Fermi sheet away from nodal orientations. In momentum space, the exchange splitting between up and down spins follows the profile of the $${{\\mathcal{Y}}}_{4}^{-3}=yz\\,(3{x}^{2}-{y}^{2})$$ Y 4 − 3 = y z ( 3 x 2 − y 2 ) real spherical harmonic—analogous to a g -orbital of the hydrogen atom. Although notoriously difficult to resolve in unconventional superconductors, our work demonstrates that the order parameter symmetry of unconventional magnets can be precisely mapped by quantum oscillatory quasiparticle spectroscopy, establishing CrSb as a prototypical g -wave metallic altermagnet.",
+    "citationCount": 2,
+    "year": 2026,
+    "published": "2026-08-26",
+    "type": "article"
+  },
+  "10.1038/s41586-026-11037-x": {
+    "retrievedAt": "2026-09-06T08:01:47.084Z",
+    "provider": "Crossref",
+    "url": "https://api.crossref.org/works/10.1038%2Fs41586-026-11037-x",
+    "abstract": "",
+    "citationCount": 0,
+    "year": 2026,
+    "published": "2026-08-19",
+    "type": "article"
+  },
+  "10.1103/6twd-lvvg": {
+    "retrievedAt": "2026-09-06T08:01:47.850Z",
+    "provider": "Crossref",
+    "url": "https://api.crossref.org/works/10.1103%2F6twd-lvvg",
+    "abstract": "",
+    "citationCount": 1,
+    "year": 2026,
+    "published": "2026-08-13",
+    "type": "article"
+  },
+  "10.1038/s41467-026-74841-z": {
+    "retrievedAt": "2026-09-06T08:01:47.866Z",
+    "provider": "Crossref",
+    "url": "https://api.crossref.org/works/10.1038%2Fs41467-026-74841-z",
+    "abstract": "",
+    "citationCount": 0,
+    "year": 2026,
+    "published": "2026-09-02",
+    "type": "article"
+  },
+  "10.1038/s41567-026-03417-x": {
+    "retrievedAt": "2026-09-06T08:01:47.884Z",
+    "provider": "Crossref",
+    "url": "https://api.crossref.org/works/10.1038%2Fs41567-026-03417-x",
+    "abstract": "",
+    "citationCount": 0,
+    "year": 2026,
+    "published": "2026-09-01",
+    "type": "article"
+  },
+  "10.1103/832c-p7qj": {
+    "retrievedAt": "2026-09-06T08:01:48.634Z",
+    "provider": "Crossref",
+    "url": "https://api.crossref.org/works/10.1103%2F832c-p7qj",
+    "abstract": "",
+    "citationCount": 0,
+    "year": 2026,
+    "published": "2026-09-01",
+    "type": "article"
+  },
+  "10.1103/frhh-xd6p": {
+    "retrievedAt": "2026-09-06T08:01:48.648Z",
+    "provider": "Crossref",
+    "url": "https://api.crossref.org/works/10.1103%2Ffrhh-xd6p",
+    "abstract": "",
+    "citationCount": 0,
+    "year": 2026,
+    "published": "2026-09-01",
+    "type": "article"
+  },
+  "10.1103/3b4x-77yq": {
+    "retrievedAt": "2026-09-06T08:01:48.710Z",
+    "provider": "Crossref",
+    "url": "https://api.crossref.org/works/10.1103%2F3b4x-77yq",
+    "abstract": "",
+    "citationCount": 1,
+    "year": 2026,
+    "published": "2026-09-01",
+    "type": "article"
+  },
+  "10.1103/pm7m-xcg9": {
+    "retrievedAt": "2026-09-06T08:01:49.419Z",
+    "provider": "Crossref",
+    "url": "https://api.crossref.org/works/10.1103%2Fpm7m-xcg9",
+    "abstract": "",
+    "citationCount": 0,
+    "year": 2026,
+    "published": "2026-09-01",
+    "type": "article"
+  },
+  "10.1103/8hyn-216k": {
+    "retrievedAt": "2026-09-06T08:01:49.439Z",
+    "provider": "Crossref",
+    "url": "https://api.crossref.org/works/10.1103%2F8hyn-216k",
+    "abstract": "",
+    "citationCount": 0,
+    "year": 2026,
+    "published": "2026-09-01",
+    "type": "article"
+  },
+  "10.1103/q528-6vj2": {
+    "retrievedAt": "2026-09-06T08:01:49.502Z",
+    "provider": "Crossref",
+    "url": "https://api.crossref.org/works/10.1103%2Fq528-6vj2",
+    "abstract": "",
+    "citationCount": 0,
+    "year": 2026,
+    "published": "2026-09-01",
+    "type": "article"
+  },
+  "10.1016/j.mtphys.2025.102005": {
+    "retrievedAt": "2026-09-06T08:01:50.232Z",
+    "provider": "Crossref",
+    "url": "https://api.crossref.org/works/10.1016%2Fj.mtphys.2025.102005",
+    "abstract": "",
+    "citationCount": 0,
+    "year": 2026,
+    "published": "",
+    "type": "article"
+  },
+  "10.1038/s41467-026-77233-5": {
+    "retrievedAt": "2026-09-06T08:01:50.300Z",
+    "provider": "Crossref",
+    "url": "https://api.crossref.org/works/10.1038%2Fs41467-026-77233-5",
+    "abstract": "",
+    "citationCount": 0,
+    "year": 2026,
+    "published": "2026-09-04",
+    "type": "article"
+  },
+  "10.1038/s41467-026-77204-w": {
+    "retrievedAt": "2026-09-06T08:01:51.011Z",
+    "provider": "Crossref",
+    "url": "https://api.crossref.org/works/10.1038%2Fs41467-026-77204-w",
+    "abstract": "",
+    "citationCount": 0,
+    "year": 2026,
+    "published": "2026-09-04",
+    "type": "article"
+  },
+  "10.1103/gcf5-chmf": {
+    "retrievedAt": "2026-09-06T08:01:51.092Z",
+    "provider": "Crossref",
+    "url": "https://api.crossref.org/works/10.1103%2Fgcf5-chmf",
+    "abstract": "",
+    "citationCount": 0,
+    "year": 2026,
+    "published": "2026-09-03",
+    "type": "article"
+  },
+  "10.1103/ktfc-l4yt": {
+    "retrievedAt": "2026-09-06T08:01:51.793Z",
+    "provider": "Crossref",
+    "url": "https://api.crossref.org/works/10.1103%2Fktfc-l4yt",
+    "abstract": "",
+    "citationCount": 0,
+    "year": 2026,
+    "published": "2026-09-03",
+    "type": "article"
+  },
+  "10.1103/gzp7-1nvx": {
+    "retrievedAt": "2026-09-06T08:01:51.802Z",
+    "provider": "Crossref",
+    "url": "https://api.crossref.org/works/10.1103%2Fgzp7-1nvx",
+    "abstract": "Spin-orbitronics harnesses spin-orbit coupling to generate pure spin currents for energy-efficient information processing, particularly through the spin-orbit torque (SOT) that drives magnetization switching. However, achieving efficient SOT switching of perpendicular magnetization, which is crucial for high-density applications, remains challenging due to the difficulty in generating spin currents with both high conductivity and out-of-plane polarization in conventional, industry-compatible spin sources, such as heavy metals. Here, we overcome this limitation by demonstrating a noncollinear spin-orbit filtering effect at the surface termination of conventional spin sources. This effect selectively transmits electrons based on the relative alignment between their spin vectors and the interfacial Rashba-Edelstein field. By implementing this strategy in platinum (Pt) epitaxial films with ( n 10 ) orientations ( n = 2 – 4 ), we achieve exceptionally strong z -polarized spin currents. The resulting out-of-plane spin Hall conductivity reaches a record value of 0.75 × 10 5 ( ħ / 2 e ) Ω − 1 m − 1 , surpassing all previous approaches, and enables robust field-free switching of perpendicular magnetization. Notably, the field-free switching is precisely controlled by engineering the crystal point group symmetry from C 1 v to C 4 v . Our work establishes a general framework for transforming conventional high-symmetry materials into out-of-plane spin sources, paving the way for highly efficient and scalable spintronic memory technology.",
+    "citationCount": 1,
+    "year": 2026,
+    "published": "2026-09-03",
+    "type": "article"
+  },
+  "10.1038/s41467-026-77568-z": {
+    "retrievedAt": "2026-09-06T08:01:51.874Z",
+    "provider": "Crossref",
+    "url": "https://api.crossref.org/works/10.1038%2Fs41467-026-77568-z",
+    "abstract": "",
+    "citationCount": 0,
+    "year": 2026,
+    "published": "2026-09-05",
+    "type": "article"
+  },
+  "10.1038/s41467-026-77570-5": {
+    "retrievedAt": "2026-09-06T08:01:52.592Z",
+    "provider": "Crossref",
+    "url": "https://api.crossref.org/works/10.1038%2Fs41467-026-77570-5",
+    "abstract": "",
+    "citationCount": 0,
+    "year": 2026,
+    "published": "2026-09-05",
+    "type": "article"
+  },
+  "10.1002/adma.74908": {
+    "retrievedAt": "2026-09-06T08:01:52.597Z",
+    "provider": "Crossref",
+    "url": "https://api.crossref.org/works/10.1002%2Fadma.74908",
+    "abstract": "ABSTRACT The intrinsic physical anisotropy of low‐symmetry materials makes them highly promising candidates for polarization‐sensitive devices. However, their practical application remains constrained by the scarcity of single materials that can combine low symmetry with high performance. Here, we report a novel low‐symmetry [Bi 2 CuO 3 ]SO 4 crystal with an insulating nature, designed to enable symmetry control over conventional high‐performance semiconductors. We achieve controllable growth of layered [Bi 2 CuO 3 ]SO 4 nanosheets via a gradient‐mass‐transfer‐assisted chemical vapor deposition method, with thicknesses down to 1.43 nm. Alternating [Bi 2 CuO 3 ] 2+ cationic layers and SO 4 2− anionic layers, coupled with disparate ionic radii of Bi 3+ and Cu 2+ , endow the [Bi 2 CuO 3 ]SO 4 material with low structural symmetry, resulting in pronounced in‐plane optical anisotropy. Upon integration with high‐symmetry MoS 2 , [Bi 2 CuO 3 ]SO 4 induces interfacial symmetry breaking, driven by strong interfacial coupling and substantial charge redistribution. Notably, by fabricating devices along different crystallographic orientations of [Bi 2 CuO 3 ]SO 4 , tunable polarization ratios are exhibited, reaching a maximum of 5.44 along the a ‐axis and a minimum of 1.57 along the b ‐axis. This work establishes a reliable strategy for obtaining heterostructures with low symmetry and tunable anisotropy, advancing next‐generation directional optoelectronic devices.",
+    "citationCount": 0,
+    "year": 2026,
+    "published": "2026-09-05",
+    "type": "article"
+  },
+  "10.1021/jacs.6c13325": {
+    "retrievedAt": "2026-09-06T08:01:52.662Z",
+    "provider": "Crossref",
+    "url": "https://api.crossref.org/works/10.1021%2Fjacs.6c13325",
+    "abstract": "Abstract High-entropy alloys (HEAs) provide compositionally diverse surfaces for electrocatalysis, yet how their surface atomic arrangements dictate active-site ensembles and catalytic activity remains unclear. Here, we develop a dropwise deposition strategy to synthesize Pd@Pd0.2Pt0.2Ir0.2Ru0.2Rh0.2 core–shell nanocrystals with comparable shell compositions but distinct surface atomic arrangements, including square {100} facets, hexagonal {111} facets, and twin-interrupted {111} facets. Among them, {111}-enclosed nanooctahedra exhibit the highest alkaline hydrogen oxidation reaction (HOR) activity, delivering a 4.18-fold enhancement over commercial Pt/C at 0.10 VRHE. In situ synchrotron X-ray absorption spectroscopy and ambient-pressure X-ray photoelectron spectroscopy reveal potential-dependent interactions between Ru and OH*, accompanied by electronic-structure coupling among Pd, Pt, Ir, and Rh during HOR. Density functional theory and climbing-image nudged elastic band calculations show that the hexagonal {111} symmetry optimizes H*/OH* adsorption, H* spillover, and H2O formation through symmetry-selected multi-atom ensembles. These elementary processes lower the Volmer-step barrier, supporting a Volmer-influenced pathway. Experimental and computational insights demonstrate that HEA surface atomic arrangements govern alkaline HOR kinetics. Unlike conventional mono- or bimetallic catalysts with limited active-site motifs, the HEA {111} surface provides a distributed ensemble network with varied adsorption strengths, establishing surface atomic arrangement and active multi-atom ensembles as key descriptors for high-performance HEA electrocatalysts.",
+    "citationCount": 0,
+    "year": 2026,
+    "published": "2026-09-05",
+    "type": "article"
+  },
+  "10.1038/s41535-026-00940-1": {
+    "retrievedAt": "2026-09-06T08:01:53.376Z",
+    "provider": "Crossref",
+    "url": "https://api.crossref.org/works/10.1038%2Fs41535-026-00940-1",
+    "abstract": "",
+    "citationCount": 0,
+    "year": 2026,
+    "published": "2026-09-05",
+    "type": "article"
+  },
+  "10.1038/s41524-026-02285-6": {
+    "retrievedAt": "2026-09-06T08:01:53.376Z",
+    "provider": "Crossref",
+    "url": "https://api.crossref.org/works/10.1038%2Fs41524-026-02285-6",
+    "abstract": "",
+    "citationCount": 0,
+    "year": 2026,
+    "published": "2026-09-05",
+    "type": "article"
+  },
+  "10.1103/yhpf-7451": {
+    "retrievedAt": "2026-09-06T08:01:53.455Z",
+    "provider": "Crossref",
+    "url": "https://api.crossref.org/works/10.1103%2Fyhpf-7451",
+    "abstract": "",
+    "citationCount": 0,
+    "year": 2026,
+    "published": "2026-09-05",
+    "type": "article"
+  },
+  "10.1103/kds6-fvp4": {
+    "retrievedAt": "2026-09-06T08:01:54.168Z",
+    "provider": "Crossref",
+    "url": "https://api.crossref.org/works/10.1103%2Fkds6-fvp4",
+    "abstract": "",
+    "citationCount": 0,
+    "year": 2026,
+    "published": "2026-09-05",
+    "type": "article"
+  }
+}
