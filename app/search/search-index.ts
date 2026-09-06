@@ -1,6 +1,462 @@
 // 由 scripts/build-search-index.mjs 自动生成，请勿手工编辑。
 export default [
   {
+    "date": "2026-09-06",
+    "issue": "012",
+    "headline": "9 篇正式期刊新作：MnTe 倾斜外延与 α-Fe₂O₃ 室温高速磁振子最贴近实验；另有 2 篇生长/合成论文与 5 篇磁性、拓扑和量子临界研究。",
+    "material": "MnTe(0001)/Pt/Co/Pt",
+    "title": "All-electrical magnetisation switching via tilting spin propagation and polarization in MnTe spin source",
+    "authors": "Yu Dai; Yandong Guo; Yuanyuan Jiang; Yongsen Zhang; Tianping Ma; Boyu Li; Dongsheng Song; Dingfu Shao; Xuepeng Qiu; Mengmeng Yang; Shouguo Wang",
+    "journal": "Nature Communications (2026)",
+    "method": "倾斜外延 MnTe(0001) + 自旋轨道转矩器件",
+    "rating": "A+",
+    "access": "补充材料精读：读完 19 页 SI、全部图注和出版社摘要；早期主文 PDF 尚未发布，正文 Methods 不可见",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "MnTe",
+      "altermagnet",
+      "tilted epitaxy",
+      "SOT",
+      "field-free switching"
+    ],
+    "readingGuide": {
+      "priority": "A+｜外延与自旋器件首读",
+      "first": "先看出版社摘要建立器件目标，再读 SI Notes 4–7 的倾角、厚度和磁易轴对照。",
+      "focus": "重点核查约 5° 倾斜与 ξz=0.07 的因果关系，以及 Pt 厚度变化留下的残余歧义。",
+      "next": "主文正式 PDF 上线后优先补读沉积条件、转矩拟合公式、开关电流密度与热效应控制。"
+    },
+    "versionNote": "Nature Communications 早期共享版本；出版社声明后续将替换为正式记录版本。",
+    "source": "https://doi.org/10.1038/s41467-026-77568-z",
+    "fullText": "https://www.nature.com/articles/s41467-026-77568-z",
+    "reportUrl": "/reports/2026-09-06",
+    "sections": [
+      {
+        "title": "问题—设计—热点",
+        "text": "常规重金属自旋 Hall 源主要给出面内极化，自由层若具有垂直磁各向异性，通常还需要外场或额外破缺对称性的结构。作者的方案是在 MgO(111) 上让六方 MnTe(0001) 面发生约 5° 倾斜，使传播方向与晶体对称轴不再共线；由此同一 MnTe 自旋源同时给出强面内分量和较小但关键的面外分量，目标是完成无外场全电学翻转。热点不只在“反铁磁/交错磁体产生自旋流”，而在生长几何本身成为自旋极化选择规则的一部分。"
+      },
+      {
+        "title": "样品—生长—质量",
+        "text": "器件代表堆栈为 MnTe(20 nm)/Pt(2 nm)/Co(0.3 nm)/Pt(4.1 nm)，衬底 MgO(111)。SI 的 2θ–ω 峰位 26.6° 和 54.7° 分别指认 MnTe(0002)/(0004)，φ 扫描呈六重对称，外延关系为 MnTe(0001)//MgO(111)、MnTe[11-20]//MgO[1-10]。作者把约 28% 晶格失配与界面位错联系起来，并用 7×5.16 Å≈36.12 Å 的几何模型得到 5.3° 倾角，和截面结构观察相符。Pt/Co/Pt 总厚度 3.94±0.01 nm 且无楔形，倾斜只来自 MnTe 晶面。主文 Methods 尚不可见，因此靶材/源料纯度、沉积方法、基底清洗、温度、工作气压、沉积速率、退火和批次产率均“正文未报告/当前不可访问”，这些是复现实验的首要缺口。"
+      },
+      {
+        "title": "测量—关键数据",
+        "text": "电阻随温度在约 300 K 出现拐点，接近理论 Néel 温度 307 K；作者在 150、300、325 K 都得到近似不变的翻转，因而认为效应不依赖低温交错磁有序。自旋转矩效率提取为 ξy=0.580、ξz=0.070：面内分量负责高效率驱动，面外分量破除翻转简称性。角分辨 Hall 显示自由层易轴垂直且没有可分辨倾斜；室温 SQUID 在 ±200 Oe 范围用于核验磁响应。多个器件给出相同的一重角度依赖，说明不是单个器件偶然性。"
+      },
+      {
+        "title": "证据链—替代解释",
+        "text": "直接观察包括 XRD/φ 扫描的外延取向、约 5° 晶面倾角、无外场开关和不同温度/器件的重复性；ξy、ξz 是由转矩模型拟合得到，不是直接成像。作者用恒定 Pt/Co/Pt 厚度排除楔形场，用角分辨 Hall 排除自由层易轴倾斜，又在 390 K 分别沿多个方向 ±1 T 场冷却至 150 K，翻转不变，从而削弱交换偏置解释。最弱环节是 Pt 仍可能贡献自旋 Hall 电流：上层 Pt 厚度大于 3.2 nm 时 ξy≈0.6，减薄后约 0.45，而 ξz≈0.04 基本稳定；这说明面外分量更像 MnTe 倾斜效应，但面内大信号尚未完全从 Pt 中拆开。"
+      },
+      {
+        "title": "结论—复现建议",
+        "text": "论文最可信的结论是“倾斜外延能够提供对称性允许的面外极化并辅助无场翻转”，而“MnTe 独自贡献 ξy=0.58”仍需更严格对照。复现时应先做同片 MnTe 裸膜、Pt/Co/Pt 空白和正负倾角衬底三组器件；同时用 STEM 位错统计、摇摆曲线和面内/面外极化的独立谐波 Hall 或 ST-FMR 交叉核验。建议记录每片倾角分布而非只给代表截面，并把开关电流密度、脉宽、热升温和循环寿命放在同一批次比较。"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-06",
+    "issue": "012",
+    "headline": "9 篇正式期刊新作：MnTe 倾斜外延与 α-Fe₂O₃ 室温高速磁振子最贴近实验；另有 2 篇生长/合成论文与 5 篇磁性、拓扑和量子临界研究。",
+    "material": "α-Fe₂O₃(11-20) 单晶",
+    "title": "Optical excitation of nonreciprocal antiferromagnetic magnons at sub-terahertz frequencies",
+    "authors": "Chang Xu; Hanbum Park; Shishun Zhao; Chenhui Zhang; Qiyao Liu; Anastasia Petrova; Artem Matveev; Ansar Safin; Sergey Nikitov; Hyunsoo Yang",
+    "journal": "Nature Communications (2026)",
+    "method": "光泵浦 + Bragg 选择时间分辨 MOKE",
+    "rating": "A+",
+    "access": "补充材料精读：读完 42 页 SI、全部图注和出版社摘要；早期主文 PDF 尚未发布",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "hematite",
+      "antiferromagnetic magnon",
+      "THz",
+      "nonreciprocity",
+      "TR-MOKE"
+    ],
+    "readingGuide": {
+      "priority": "A+｜室温磁振子首读",
+      "first": "先读摘要和主结论，再按 SI Notes 1、4、9、11 依次核验光学选择、热效应、色散与非互易模型。",
+      "focus": "把 33 km/s 的群速度、振幅非互易与仅 10⁻² GHz 的计算频率差分开理解。",
+      "next": "正式主文上线后补查传播长度、误差棒、单晶生长来源和正反向交换几何。"
+    },
+    "versionNote": "Nature Communications 早期共享版本；主文 PDF 尚未在出版社端提供，当前“精读”只覆盖公开 SI。",
+    "source": "https://doi.org/10.1038/s41467-026-77570-5",
+    "fullText": "https://www.nature.com/articles/s41467-026-77570-5",
+    "reportUrl": "/reports/2026-09-06",
+    "sections": [
+      {
+        "title": "问题—设计—热点",
+        "text": "反铁磁磁振子频率高，但如何在室温产生、选择波矢并读出传播方向仍是器件化瓶颈。作者用 400 nm 超快泵浦在 α-Fe₂O₃ 表面激发宽波矢谱，再让 800 nm 探针通过 Bragg 条件选择特定波矢，以时间分辨 MOKE 区分准铁磁(q-FM)和准反铁磁(q-AFM)两支。α-Fe₂O₃ 的 Dzyaloshinskii–Moriya 相互作用和偶极不对称给出非互易传播，因此该体系同时连接室温亚太赫兹、自旋波高速传输和无电荷信息处理。"
+      },
+      {
+        "title": "样品—生长—质量",
+        "text": "样品为菱方 α-Fe₂O₃(11-20) 取向单晶；SI 说明 XRD 支持取向与较高结晶质量，室温 VSM 符合 Morin 转变以上的倾斜易平面反铁磁状态。Morin 温度约 255 K、Néel 温度约 966 K。作者还制备 100 nm 溅射薄膜来校准光吸收，但传播实验对象是单晶。单晶来源、生长法、原料纯度/配比、熔剂或输运剂、峰值温度、温程、气氛、退火、晶体尺寸、摇摆曲线半高宽、成分和批次统计均未在当前可读 SI 中报告；不能由“赤铁矿单晶”反推出具体生长工艺。"
+      },
+      {
+        "title": "测量—关键数据",
+        "text": "泵浦 400 nm、探针 800 nm，平衡探测 TR-MOKE；泵浦穿透深度约 22.5 nm，探针约 367 nm。泵浦光子能量 3.1 eV 高于 1.9–2.3 eV 带隙，利于产生较大波矢激发。室温选取 k=38.8–43.9 μm⁻¹：q-AFM 频率 270–292 GHz、群速度 25.3–26.6 km/s；q-FM 为 207–236 GHz、群速度 32.7–33.0 km/s。零波矢下 q-FM 约 11 GHz(0 mT)到 25 GHz(300 mT)，q-AFM 室温连续波太赫兹值约 170 GHz；接近 Morin 温度 q-AFM 降至约 70 GHz且群速度最高约 31 km/s。1.5 mW 泵浦只把 q-AFM 移动约 3.5 GHz，结合 df/dT≈1.1 GHz/K 得到升温约 3 K。"
+      },
+      {
+        "title": "证据链—替代解释",
+        "text": "最强证据是不同探针几何选择出的色散点和传播群速度一致，并随场、温度遵循两支磁振子模型；功率标定把热致频移限制在约 2%。q-FM 的方向相关振幅是作者称“非互易”的主要直接信号，DMI 增强的不对称偶极耦合给出机制解释。必须区分：模型预言的正反向频率差只有约 10⁻² GHz，远小于实验频率尺度，因此论文更强地证明“振幅非互易”而非大幅频率非互易。泵浦/探针穿透深度差、表面吸收不均和 Bragg 探测权重也可能改变正反向振幅，未来需要倒置样品或交换入射面来排除。"
+      },
+      {
+        "title": "结论—复现建议",
+        "text": "室温 33 km/s 的 q-FM 传播速度是本期最值得复测的硬数据。复现实验应完整记录单晶厚度、表面终止、抛光方向和畴态；在相同波矢下交换 +k/−k、翻转外场与样品法向，建立四象限对照。若面向晶体生长，优先比较不同 Morin 温度、杂质浓度和缺陷密度样品，检查阻尼、传播长度和非互易振幅是否随质量系统变化，而非只重现频率。"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-06",
+    "issue": "012",
+    "headline": "9 篇正式期刊新作：MnTe 倾斜外延与 α-Fe₂O₃ 室温高速磁振子最贴近实验；另有 2 篇生长/合成论文与 5 篇磁性、拓扑和量子临界研究。",
+    "material": "二维 [Bi₂CuO₃]SO₄ / MoS₂",
+    "title": "Gradient-Mass-Transfer Synthesis of 2D [Bi2CuO3]SO4 Crystals for Anisotropy Engineering",
+    "authors": "Qiao Meng; Xianfeng Shen; Shijia Tan; Junhong Chen; Yongjing Wang; Wanfu Shen; Rongjin Li; Zhongming Wei; Lin Li; Qing Zhang; Dechao Geng",
+    "journal": "Advanced Materials (2026)",
+    "method": "梯度质量传递辅助 CVD",
+    "rating": "A+",
+    "access": "仅基于出版社摘要/元数据；Wiley 正文请求返回 403，当前自动运行未继承 aTrust 浏览器会话",
+    "category": "晶体生长和物性调控",
+    "tags": [
+      "2D crystal",
+      "CVD",
+      "anisotropy",
+      "bismuth cuprate sulfate",
+      "MoS2"
+    ],
+    "readingGuide": {
+      "priority": "A+｜拿到正文后优先补读",
+      "first": "先看摘要中的 1.43 nm 与偏振比，再直接进入 Methods 和补充材料的温区/前驱体布置。",
+      "focus": "不要先相信“梯度传质”标签；需找出可调控制量以及厚度、横向尺寸、晶轴和器件数量统计。",
+      "next": "在机构网络浏览器中手动下载作者许可的 PDF 后补全配方与表征，不向开源仓库上传订阅版文件。"
+    },
+    "versionNote": "正式期刊 online 记录；本期没有把摘要阅读描述成全文精读。",
+    "source": "https://doi.org/10.1002/adma.74908",
+    "fullText": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.74908",
+    "reportUrl": "/reports/2026-09-06",
+    "sections": [
+      {
+        "title": "问题—已知结论",
+        "text": "工作要解决含多元素、低对称离子层状化合物在二维极限难以受控成核与横向扩展的问题。摘要称梯度质量传递辅助 CVD 得到薄至 1.43 nm 的 [Bi₂CuO₃]SO₄；结构由带正电的 [Bi₂CuO₃]²⁺ 层和 SO₄²⁻ 层交替组成，Bi³⁺/Cu²⁺ 半径差与低对称排布带来显著面内光学各向异性和绝缘特征。与高对称 MoS₂ 集成后，界面对称性破缺和电荷重分布使器件偏振比沿 a 轴最高 5.44、沿 b 轴最低 1.57。"
+      },
+      {
+        "title": "生长信息边界",
+        "text": "摘要只给出“gradient-mass-transfer-assisted CVD”这一策略名。前驱体名称与纯度、放置顺序和质量、源区/衬底区温度、升降温程序、载气种类与流量、压力、保温时间、衬底及预处理、温度梯度、传质控制参数、晶片尺寸分布、产率与转移方法均未公开在当前可访问内容中，必须逐项标记“正文未报告/未获取”，不能用常见二维 CVD 配方代填。"
+      },
+      {
+        "title": "证据强弱—局限",
+        "text": "可直接从摘要确认的定量量只有 1.43 nm 极限厚度和 5.44/1.57 偏振比；具体晶相鉴定、层数标定、晶轴确定、器件几何、激光波长、偏压、暗电流、响应度和误差均不可见。若正文用 AFM 厚度、偏振 Raman/吸收和 STEM 共同确定低对称晶格，结论会较强；若仅凭少数器件的偏振光电流，则接触、电极或片形各向异性仍可能混入。"
+      },
+      {
+        "title": "复现建议",
+        "text": "这篇对生长组价值很高，但必须等 Methods 后再执行。拿到全文后优先整理温区和前驱体位置图，确认所谓“梯度质量传递”究竟控制蒸气压、扩散边界层还是局部过饱和度；同时记录片厚/横向尺寸/方位的统计分布。器件对照至少需要旋转晶体而固定电极、旋转偏振而固定光斑，并以高对称 MoS₂ 单层和无异质界面样品区分本征、界面与几何贡献。"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-06",
+    "issue": "012",
+    "headline": "9 篇正式期刊新作：MnTe 倾斜外延与 α-Fe₂O₃ 室温高速磁振子最贴近实验；另有 2 篇生长/合成论文与 5 篇磁性、拓扑和量子临界研究。",
+    "material": "Pd@PdPtIrRuRh 高熵合金纳米晶",
+    "title": "Surface Atomic Arrangements on High-Entropy-Alloy Nanocrystals Govern Alkaline Hydrogen Oxidation via Symmetry-Selected Multi-Atom Ensembles",
+    "authors": "Kuan-Fang Lee; Liang-Yu Hou; Yueh-Chun Hsiao; Chia-Ying Wu; Yun-Shan Tsai; Chun-Wei Chang; Jui-Tai Lin; Shang-Cheng Lin; Cheng-Yu Wu; Zong-Ying He; Yi Chen; Shu-Han Lee; Chia-Hsin Wang; Chih-Wen Pao; Kun-Han Lin; Tung-Han Yang",
+    "journal": "Journal of the American Chemical Society (2026)",
+    "method": "滴加沉积形成核壳高熵合金纳米晶",
+    "rating": "A",
+    "access": "仅基于出版社摘要/元数据；ACS 正文请求返回 403，自动运行未继承 aTrust 浏览器会话",
+    "category": "晶体生长和物性调控",
+    "tags": [
+      "high-entropy alloy",
+      "nanocrystal",
+      "facet",
+      "HOR",
+      "operando spectroscopy"
+    ],
+    "readingGuide": {
+      "priority": "A｜催化晶面机制",
+      "first": "先看三种形貌是否真的保持相同壳层成分，再看活性采用质量、ECSA 还是几何面积归一。",
+      "focus": "重点交叉核验原位 Ru–OH* 信号与 DFT 多原子集合，而不是只读 4.18 倍性能。",
+      "next": "获取正文后补录合成滴速、粒径/壳厚统计、HOR 条件和耐久性；再决定是否值得按配方复现。"
+    },
+    "versionNote": "JACS 正式 online 记录；当前仅摘要级证据。",
+    "source": "https://doi.org/10.1021/jacs.6c13325",
+    "fullText": "https://pubs.acs.org/doi/10.1021/jacs.6c13325",
+    "reportUrl": "/reports/2026-09-06",
+    "sections": [
+      {
+        "title": "问题—样品—热点",
+        "text": "高熵合金常用平均成分或 d 带中心解释活性，但五种元素在真正反应表面形成的是不同多原子集合。作者制备 Pd@Pd₀.₂Pt₀.₂Ir₀.₂Ru₀.₂Rh₀.₂ 核壳纳米晶，壳层平均成分接近，而外形分别暴露方形{100}、六边形{111}和孪晶打断的{111}表面，用“同成分、不同原子排列”把几何效应从成分效应中尽量拆开。"
+      },
+      {
+        "title": "性能—机制",
+        "text": "摘要报告 {111} 八面体在 0.10 V_RHE 的碱性氢氧化反应活性达到商业 Pt/C 的 4.18 倍。原位同步辐射 XAS 与近环境压 XPS 指向电位依赖的 Ru–OH* 和 Pd/Pt/Ir/Rh 电子耦合；DFT 联合 CI-NEB 认为 {111} 对称性同时优化 H*/OH* 吸附、氢溢流与水形成并降低 Volmer 势垒。直接测量是电化学活性和谱学随电位变化；“特定多原子集合降低势垒”属于模型支持的机制，不应写成逐原子直接观察。"
+      },
+      {
+        "title": "生长和测量缺口",
+        "text": "当前摘要只说 dropwise deposition。前驱盐、溶剂/还原剂、加入顺序、滴速、核尺寸、反应温度/时间、洗涤退火、壳层厚度、粒径分布、负载量及批次产率均未获得；电解液浓度、转速、催化剂载量、iR 校正、ECSA 归一方法、误差棒和耐久循环也不可见。复现之前这些参数都应视为“正文未报告/未获取”。"
+      },
+      {
+        "title": "局限—复现建议",
+        "text": "最关键的替代解释是不同晶面样品可能同时改变比表面积、壳层应变、孪晶密度、核壳扩散和载体接触，而非只有表面对称性。应要求同一 ECSA 归一、ICP/STEM-EDS 壳层统计、CO stripping 或表面位点探针，并把质量活性与本征比活性并列。若要复现，先以单金属/二元对照验证晶面控制，再增加五元壳层；不要直接把 4.18 倍当成可跨实验室比较的绝对提升。"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-06",
+    "issue": "012",
+    "headline": "9 篇正式期刊新作：MnTe 倾斜外延与 α-Fe₂O₃ 室温高速磁振子最贴近实验；另有 2 篇生长/合成论文与 5 篇磁性、拓扑和量子临界研究。",
+    "material": "磁性拓扑绝缘体薄膜 / MnBi₂Te₄",
+    "title": "Surface phonon Hall viscosity induced phonon chirality and nonreciprocity in magnetic topological insulator films",
+    "authors": "Abhinava Chatterjee; Chao-Xing Liu",
+    "journal": "npj Quantum Materials (2026)",
+    "method": "Dirac 表面态有效理论 + 薄膜弹性模数值",
+    "rating": "A",
+    "access": "全文精读：作者 arXiv v2，通读正文、模型、数值结果、附录和图注",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "phonon Hall viscosity",
+      "magnetic TI",
+      "MnBi2Te4",
+      "chirality",
+      "thermal Hall"
+    ],
+    "readingGuide": {
+      "priority": "A｜理论到实验的对称性清单",
+      "first": "先读 FM/AFM 的符号表和薄膜色散图，再回头读 PHV 推导。",
+      "focus": "牢记 PHV 不量子化；最有检验力的是“手性、非互易、热 Hall”三者在两种磁构型下的互斥组合。",
+      "next": "设计实验时优先做可逆磁构型切换与同片声学测量，再讨论 MnBi₂Te₄ 的具体材料实现。"
+    },
+    "versionNote": "arXiv:2601.13283 v2 对应 npj Quantum Materials 正式文章；期刊早期页面与作者稿关系已核对。",
+    "source": "https://doi.org/10.1038/s41535-026-00940-1",
+    "fullText": "https://arxiv.org/pdf/2601.13283",
+    "reportUrl": "/reports/2026-09-06",
+    "sections": [
+      {
+        "title": "问题—理论设计",
+        "text": "电子拓扑响应能否在晶格振动中留下方向性，是把拓扑磁性连接到声学器件的核心问题。论文从有质量 Dirac 表面态对扭率/Nieh–Yan 型应变响应出发，得到表面声子 Hall 黏滞(PHV)，再把它作为薄膜上下表面的边界项加入弹性方程。作者分别研究上下磁化平行(FM)和反平行(AFM)两种结构，检验声子手性、色散非互易和热 Hall 是否可独立选择。"
+      },
+      {
+        "title": "模型—样品参数",
+        "text": "PHV 系数 η₀ 对 Dirac 质量呈二次依赖并含紫外截止，因此不同于半量子化电 Hall 响应，它不是拓扑量子化常数。厚板示例用 N=100 层、应力自由边界，在 kx=ky=2.9 nm⁻¹ 检查上下表面局域模式；薄膜用 N=6。作者指出真实磁性 TI 薄膜通常为几十到几百纳米，而表面声波穿透可达几十微米，故有效二维近似有物理动机。这里没有实际晶体：MBE/层数、缺陷、磁畴和界面粗糙均是未来实验参数，生长条件不适用。"
+      },
+      {
+        "title": "关键结果—对称性逻辑",
+        "text": "FM 排列时 η_top=η_bottom：两表面贡献产生声子角动量和 Berry 曲率，声子有手性，但空间反演保留使频率仍互易；AFM 时 η_top=−η_bottom：PT/PS 类联合对称使总角动量抵消，却允许 ω(k)≠ω(−k)，即非互易但不具净手性。Berry 曲率在 Γ 附近最强，并在 |k|≈2.5 nm⁻¹ 的反交叉附近出现较小结构。FM 的 κxy 在 kBT≈0.1 meV 附近达到峰值，低温为 T² 标度，体现二维表面贡献；AFM 对称下 κxy=0。加入磁振子—声子反交叉后 κxy 可提高约一个数量级。"
+      },
+      {
+        "title": "证据等级—局限",
+        "text": "所有现象均为有效模型和数值求解，不是实验观察。最强部分是 FM/AFM 两种符号组合给出的清楚对称性预言，可用同一器件磁化翻转测试；最弱部分是 η₀ 依赖截止且实际大小缺少材料参数约束。表面上下解耦、均匀磁化、理想应力自由边界和简化磁振子耦合都会高估清晰度。MnBi₂Te₄ 中厚度、补偿磁结构和表面费米能位置可能同时改变响应。"
+      },
+      {
+        "title": "实验启示",
+        "text": "更合适的验证不是只量热 Hall，而是在同一薄膜磁化构型切换前后同时测表面声波色散、圆偏振/角动量和 κxy：FM 应“手性有、非互易弱、κxy非零”，AFM 应“手性抵消、非互易出现、κxy趋零”。生长上应优先控制上下表面磁质量符号、费米能进入表面隙和厚度均匀性，并做非磁 TI 与单表面磁化对照。"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-06",
+    "issue": "012",
+    "headline": "9 篇正式期刊新作：MnTe 倾斜外延与 α-Fe₂O₃ 室温高速磁振子最贴近实验；另有 2 篇生长/合成论文与 5 篇磁性、拓扑和量子临界研究。",
+    "material": "缺陷 FePt L1₀ 自旋链模型",
+    "title": "Deep learning statistical defect models on magnetic material dynamic and static properties",
+    "authors": "C. Eagan; M. Copus; E. Iacocca",
+    "journal": "npj Computational Materials (2026)",
+    "method": "随机伪谱 Landau–Lifshitz + CNN/PINN",
+    "rating": "A-",
+    "access": "全文精读：作者 arXiv v1，读完模型、训练集、误差分析、讨论和附录",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "FePt",
+      "defect",
+      "micromagnetics",
+      "PINN",
+      "domain wall"
+    ],
+    "readingGuide": {
+      "priority": "A-｜做缺陷统计或磁性机器学习者",
+      "first": "先读随机电报缺陷定义和 FePt 参数表，再看动态/静态两个误差分布。",
+      "focus": "关注 0.29–0.36 色散 MAE 的单位与高 k 偏差，以及同一缺陷密度的多值畴壁宽度。",
+      "next": "用公开数据复跑后再替换成真实显微缺陷统计；这比继续加深网络更能检验模型价值。"
+    },
+    "versionNote": "arXiv:2603.10182 v1 为公开全文，与 npj Computational Materials 正式记录对应。",
+    "source": "https://doi.org/10.1038/s41524-026-02285-6",
+    "fullText": "https://arxiv.org/pdf/2603.10182",
+    "reportUrl": "/reports/2026-09-06",
+    "sections": [
+      {
+        "title": "问题—模型",
+        "text": "传统微磁把空位平均成连续材料参数，难以描述稀疏缺陷对高波矢磁振子和畴壁的非唯一影响。作者构造一维随机伪谱 Landau–Lifshitz(SPS-LL)链：空位序列用随机电报过程生成，σ 为平均完整段长度、τ 为平均空位段长度，等效缺陷密度 T=(σ⁻¹+τ⁻¹)⁻¹。深度网络的任务不是识别图像，而是从统计缺陷参数预测色散和畴壁宽度。"
+      },
+      {
+        "title": "参数—训练与测量量",
+        "text": "材料参数取 L1₀ FePt：Ms=950 kA/m、A=5.1 pJ/m、交换长度约 3.1 nm、Hk=7 MA/m、晶格常数 3.39 Å。动态链 500 个单元，Gaussian 扰动宽度等于一个晶格常数，Gilbert α=0.001；演化 10 ps、每 10 fs 采样，波矢分辨 37 rad/μm、第一布里渊区边界 9.26 rad/nm，频率分辨 100 GHz、上限 50 THz。CNN/PINN 基于 1000 次模拟，长度 500 的输入，30% dropout，Adam/MSE；物理约束把基准色散限制在 0–5.1 THz，修正多项式限制在 ±0.1。静态部分生成 12000 条 Bloch 畴壁，σ=0–100、τ=0–20。"
+      },
+      {
+        "title": "结果—证据",
+        "text": "无缺陷畴壁宽 4.08±0.12 nm，约 12 个原子间距；加入空位后平均变窄，但同一缺陷密度可对应不同局部排列和不同宽度。色散预测 MAE 约 0.29–0.36，误差集中在高 k；畴壁宽度误差均值 0.077 nm、标准差 0.835 nm。直接数据是 SPS-LL 生成的模拟轨迹，网络误差是在模拟分布上的统计量；没有真实 FePt 样品、散射谱或显微畴壁作为外部验证。"
+      },
+      {
+        "title": "局限—应用判断",
+        "text": "一维点缺陷链忽略二维/三维绕行、晶界、应变和多种缺陷共存；简化的反射/交换处理也可能夸大高 k 散射。PINN 约束改善可解释性，却不能弥补生成模型与真实材料的域差异。对实验最有用的概念是“同缺陷密度不等于同物性”：生长表征应记录空间相关长度和团簇统计，而非只报平均空位百分比。"
+      },
+      {
+        "title": "复现建议",
+        "text": "先用作者 Zenodo 数据和给定 500 单元/10 ps 参数重算基准误差，再扩展到二维并用 TEM/原子探针提取真实空位相关函数。实验上可将同批 FePt 的 XRD 有序度、缺陷团簇尺度、BLS/中子色散和畴壁显微宽度配对；如果网络只在平均密度上有效，就不应声称完成“逆向缺陷设计”。"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-06",
+    "issue": "012",
+    "headline": "9 篇正式期刊新作：MnTe 倾斜外延与 α-Fe₂O₃ 室温高速磁振子最贴近实验；另有 2 篇生长/合成论文与 5 篇磁性、拓扑和量子临界研究。",
+    "material": "一维自旋-1 最近邻链",
+    "title": "Evidence for spontaneous breaking of a continuous symmetry at a non-conformal quantum critical point in one dimension",
+    "authors": "R. Flores-Calderón; M. Zündel",
+    "journal": "Physical Review Research (2026)",
+    "method": "iDMRG/TEBD 的非共形量子临界",
+    "rating": "A",
+    "access": "全文精读：arXiv v3，通读正文、数值方法、动力学与附录",
+    "category": "重费米子与量子临界",
+    "tags": [
+      "spin-1 chain",
+      "SSB",
+      "quantum critical",
+      "KPZ",
+      "iDMRG"
+    ],
+    "readingGuide": {
+      "priority": "A｜非共形临界机制",
+      "first": "先看相图、相关函数平台与零频结构因子，再读动力学标度。",
+      "focus": "把直接数值证据与 KPZ 类比拆开；尤其检查 χ、有限时间窗和误差估计。",
+      "next": "尝试改变 g₂ 与键维的稳健性测试，之后再寻找准一维自旋-1材料映射。"
+    },
+    "versionNote": "arXiv:2511.09097 v3 对应 2026-09-05 PRR 正式版本。",
+    "source": "https://doi.org/10.1103/yhpf-7451",
+    "fullText": "https://arxiv.org/pdf/2511.09097",
+    "reportUrl": "/reports/2026-09-06",
+    "sections": [
+      {
+        "title": "问题—模型",
+        "text": "一维短程平衡体系通常不能稳定破缺连续对称性；论文问的是，若连续 U(1) 序参量只在一个非共形临界点上出现，是否能绕开通常的低能涨落论证。模型为最近邻自旋-1 链 H=Σ[-J Si·Si+1+g₁(Szi)²+g₂(SziSzi+1)²]，取 J=g₂=1，具有 O(2)=U(1)⋊Z₂，对比两个 XY 准长程序相，它们的 Z₂ 序不同。"
+      },
+      {
+        "title": "数值设计—参数",
+        "text": "基态用 TeNPy 的 iDMRG/TEBD，主数据键维最高约 100；动力学取 L=400、χmax=150、时间步长 0.1、1200 步，并以 σ=0.2 的 Gaussian 窗处理频谱。作者用静态序参量、有限纠缠标度、实时相关函数与动力学结构因子互相约束，而非只依赖一种拟合。作为纯理论工作，晶体、成分、生长、XRD/EDS 和仪器条件均不适用。"
+      },
+      {
+        "title": "关键数据—证据链",
+        "text": "临界点 gc≈−0.826±0.005；序参量指数 β=0.30±0.01、动力学指数 z=1.50±0.04、η=1.04±0.03，等时相关给出的标度维数 Δφ=0.76±0.03。横向结构因子在零频出现 Bragg 峰，横向磁化有限且长距离相关形成平台，这些是临界点 U(1) 自发破缺的核心数值证据。z≈3/2 让作者联系到 KPZ 型动力学，但这是一种现象学对应，不是已经证明的同一普适类。"
+      },
+      {
+        "title": "替代解释—局限",
+        "text": "最强证据是有限磁化、相关平台和零频峰三者一致；最弱处是有限键维/有限时间可能制造或放大平台，且模型参数位于特殊 g₂=1 截面。两圈 ε 展开与数值临界指数并不吻合，作者认为被省略的算符或强耦合效应可能关键。因而“存在非共形临界连续对称破缺”支持较强，“属于 KPZ 平衡普适性”仍是推断。"
+      },
+      {
+        "title": "实验启示",
+        "text": "对晶体实验并无直接生长配方，但给出明确谱学判据：候选准一维自旋-1材料需要同时看临界点有限横向序、低频 Bragg 权重和 z≈3/2 色散/展宽，单看静态磁化不足。数值复现应提高 χ、改变边界/初态和窗函数，并沿 g₂ 扫描确认不是微调点。"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-06",
+    "issue": "012",
+    "headline": "9 篇正式期刊新作：MnTe 倾斜外延与 α-Fe₂O₃ 室温高速磁振子最贴近实验；另有 2 篇生长/合成论文与 5 篇磁性、拓扑和量子临界研究。",
+    "material": "长程自旋-1 Heisenberg 链",
+    "title": "Unconventional entanglement scaling and quantum criticality in the long-range spin-one Heisenberg chain with single-ion anisotropy",
+    "authors": "Patrick Adelhardt; Sean R. Muleady; Kai P. Schmidt; Alexey V. Gorshkov",
+    "journal": "Physical Review Research (2026)",
+    "method": "MPS + 高阶 pCUT/蒙特卡洛嵌入",
+    "rating": "A",
+    "access": "全文精读：作者 arXiv 稿，读完相图、MPS/pCUT+MC、有限尺度与附录；原始数据另存 Zenodo",
+    "category": "重费米子与量子临界",
+    "tags": [
+      "long-range interaction",
+      "spin-1",
+      "Haldane",
+      "entanglement",
+      "critical exponents"
+    ],
+    "readingGuide": {
+      "priority": "A｜长程量子临界与纠缠",
+      "first": "先读相图与 Table/图中的五类相，再看 Fig.3 的 b(α) 和各条临界线 collapse。",
+      "focus": "重点比较开放与周期边界，以及 MPS 与 pCUT+MC 在 large-D 临界线上的一致和偏差。",
+      "next": "下载 Zenodo 原始数据复算不同尺寸窗；这是判断“连续变化指数”是否稳健的最快路径。"
+    },
+    "versionNote": "arXiv:2604.12754 作者稿对应 2026-09-05 PRR 正式文章；数据仓库 DOI 已在正文核验。",
+    "source": "https://doi.org/10.1103/3cyg-8wsw",
+    "fullText": "https://arxiv.org/pdf/2604.12754",
+    "reportUrl": "/reports/2026-09-06",
+    "sections": [
+      {
+        "title": "问题—相图",
+        "text": "论文研究带交错反铁磁幂律相互作用 r^-α 和单离子各向异性 D 的自旋-1 Heisenberg 链。长程耦合使一维体系可以稳定 U(1) 或 SU(2) 连续对称破缺(CSB)，并与 Haldane SPT、large-D 和 Z₂ 反铁磁相直接竞争。核心问题不是相是否存在，而是 Haldane 拓扑相走向连续对称破缺时，纠缠标度与临界指数是否仍服从短程/共形框架。"
+      },
+      {
+        "title": "数值方法—可复现性",
+        "text": "MPS 用指数和近似幂律耦合，最大尺寸 L=340；收敛附录在最难的 D=0、SU(2)-CSB 区使用 χmax=2000，并系统检查指数项数。作者以纠缠熵、交错磁化、弦序和两点关联识别相，又用高阶 pCUT+MC 独立确定 large-D→U(1)-CSB 临界线，避免单一张量网络判据。原始数据发布在 Zenodo 10.5281/zenodo.21953905，利于复核。"
+      },
+      {
+        "title": "关键结果",
+        "text": "CSB 相纠缠熵符合 S=b lnL+c，但 b 除了 Goldstone 短程贡献外还随 α 连续变化；α=1 时 SU(2) 区 b≈0.92、U(1) 区 b≈0.47，接近两支与一支 Goldstone 模式的 2:1 关系。large-D→U(1)-CSB 和 Haldane→U(1)-CSB 的临界指数随长程衰减指数连续改变，并对周期/开放边界敏感，提示上临界维以上需要修正有限尺寸标度。代表性 Haldane→SU(2)-CSB 给出 β=0.2724(13)、ν=1.584(9)，显著不同于自旋-1/2 对应模型的 β≈0.57、ν≈2.16。"
+      },
+      {
+        "title": "证据强弱—局限",
+        "text": "MPS 与 pCUT+MC 在一条临界线上相互支持，收敛附录和开放数据是强项。连续变化指数的弱点在于长程体系的伪临界点、边界条件和 dangerously irrelevant variables 会系统扭曲常规 collapse；论文已明确展示这种敏感性，因此不能把每个拟合值当成材料常数。Haldane 边缘自旋在有限尺寸下还会给纠缠常数项带来额外结构。"
+      },
+      {
+        "title": "实验启示",
+        "text": "离子阱、Rydberg/原子阵列最可能连续调节 α 并测纠缠或关联；固体材料更难实现纯幂律和独立 D。验证时应在同一平台比较不同边界与尺寸，并同时测序参量和纠缠代理，避免只凭磁化 collapse 宣称新普适类。若寻找晶体候选，优先选可调单离子各向异性、低无序的准一维 S=1 系统，但需把短程交换网络建模清楚。"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-06",
+    "issue": "012",
+    "headline": "9 篇正式期刊新作：MnTe 倾斜外延与 α-Fe₂O₃ 室温高速磁振子最贴近实验；另有 2 篇生长/合成论文与 5 篇磁性、拓扑和量子临界研究。",
+    "material": "cluster state / 离散规范场 / fracton 理论态",
+    "title": "Subdimensional entanglement entropy: From geometric-topological response to entanglement-induced mixed-state landscape",
+    "authors": "Meng-Yuan Li; Peng Ye",
+    "journal": "Physical Review Research (2026)",
+    "method": "稳定子形式与几何/拓扑形变的解析理论",
+    "rating": "B+",
+    "access": "全文精读：作者 arXiv 稿，通读定义、cluster/gauge/fracton 例子、混态对称性与附录",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "entanglement",
+      "fracton",
+      "mixed state",
+      "topological response",
+      "stabilizer"
+    ],
+    "readingGuide": {
+      "priority": "B+｜拓扑纠缠方法",
+      "first": "先读 SEE 和 SES 的定义图，再选 cluster-state 例子逐步跟一遍约化映射。",
+      "focus": "检查哪些次领项对有限深度电路不变，以及强/弱混态对称性的操作定义。",
+      "next": "只有在能写出具体测量协议与资源开销后，再把框架迁移到材料或量子模拟实验。"
+    },
+    "versionNote": "arXiv:2510.15766 的早期标题措辞与 PRR 正式题名略有调整，科学主线对应。",
+    "source": "https://doi.org/10.1103/kds6-fvp4",
+    "fullText": "https://arxiv.org/pdf/2510.15766",
+    "reportUrl": "/reports/2026-09-06",
+    "sections": [
+      {
+        "title": "问题—概念",
+        "text": "普通纠缠熵把区域边界作为固定几何对象，论文提出“子维纠缠熵”(SEE)：在 D 维体态中选取更低维的子维纠缠子系统(SES)，再虚拟改变其维数、几何和拓扑，观察熵的次领项如何响应。目标是用一个统一量区分普通面积律、几何响应、拓扑项与 fracton 的子维约束。"
+      },
+      {
+        "title": "模型—证据",
+        "text": "作者在 cluster states、离散 Abelian 规范理论和 fracton 阶中解析计算 SEE。把体态约化到 SES 后得到混态；稳定子在约化映射下形成强/弱混态对称性，透明 patch 算符给出对有限深度局域幺正电路稳健的复合对称结构。论文进一步把强到弱的自发对称破缺与高一维拓扑序的全息编码联系起来。这里所有“证据”均为解析构造和模型例证，没有材料样品、晶体生长或实验测量。"
+      },
+      {
+        "title": "创新—边界",
+        "text": "创新点是把几何/拓扑形变和混态对称性放进同一纠缠框架，尤其适合子系统对称与 fracton 阶。需要谨慎之处是 SEE 依赖如何选 SES、允许哪些虚拟形变和规约方案；若不同选取不能在实验或数值协议中自然对应，分类能力可能高于可操作性。标题中“landscape/holographic”是结构性解释，不等于已给出普适实验测量方案。"
+      },
+      {
+        "title": "后续建议",
+        "text": "理论复核应先在最小 cluster 稳定子模型手算约化密度矩阵，确认强/弱对称定义，再扩展到规范场和 fracton；同时测试有限深度电路和弱噪声下哪些次领项保留。实验上可考虑可编程量子平台做 randomized measurements 或稳定子测量，但所需拷贝数和后选择成本应独立估算。对晶体生长读者，本篇是拓扑诊断背景而非当天实验优先项。"
+      }
+    ]
+  },
+  {
     "date": "2026-09-05",
     "issue": "011",
     "headline": "18篇入选中，CVT FePS3、Flux Gd5Pb3、重费米子CePdAl/YbRh2Si2和钙钛矿热历史构成本期主线；14篇达到全文精读。",
