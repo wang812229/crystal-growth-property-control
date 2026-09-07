@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 export const metadata:Metadata={title:'往期归档｜每日文献简报',description:'按日期浏览每日文献简报。'};
 const issues=[
+ ['2026-09-07','2026.09.07','第 013 期 · 13 篇 · 8 篇全文精读','结构层级决定可观测响应','Al 固液界面 · RP 镍酸盐 · Ru轨道矩 · Kondo · 远程外延'],
  ['2026-09-06','2026.09.06','第 012 期 · 9 篇 · 7 篇全文/SI 精读','结构细节成为可检验的物性旋钮','MnTe 倾斜外延 · α-Fe₂O₃ 磁振子 · 二维硫酸盐 · 高熵合金'],
  ['2026-09-05','2026.09.05','第 011 期 · 18 篇 · 14 篇全文精读','生长历史、直接谱学与场驱集体激发','FePS₃ · Gd₅Pb₃ · CePdAl · YbRh₂Si₂ · 卤化物'],
  ['2026-09-04','2026.09.04','第 010 期 · 13 篇 · 全部全文精读','解耦、相位与应变成为共同控制量','EuIn₂Sb₂ · CVD 魔角石墨烯 · Bi₂WO₆ · YScH₆'],
@@ -12,4 +13,4 @@ const issues=[
  ['2026-08-30','2026.08.30','第 005 期 · 3 篇 · 全部全文','测量条件与材料推断都要校准','RuO₂ · CeNiC₂ · YbMnBi₂'],
  ['2026-08-29','2026.08.29','第 004 期 · 3 篇 · 全部全文','缺陷、光生相变与器件可靠性','KTN 晶体 · NiPS₃ · Si/SiGe'],
  ['2026-08-28','2026.08.28','第 003 期 · 4 篇','以 CrSb 和 g 因子为线索','CVT · Flux · 反铁磁 · 超导 · 半导体']];
-export default function Archive(){return <main className="archive-page"><header className="site-header"><a className="brand" href="/"><span className="brand-mark">晶</span><span>每日文献简报</span></a><nav><a href="/reports/2026-09-06">今日简报</a><a href="/#topics">研究板块</a><a className="active" href="/archive">往期归档</a><a href="/search">智能检索</a></nav><div className="live-chip"><span/> 每日 08:00 更新</div></header><section className="archive-hero"><p className="eyebrow">DAILY ARCHIVE</p><h1>每日简报归档</h1><p>按日期回看研究判断、全文访问状态、原创图解和实验建议。</p></section><section className="archive-list">{issues.map(i=><a href={`/reports/${i[0]}`} key={i[0]}><time>{i[1]}</time><div><span>{i[2]}</span><h2>{i[3]}</h2><p>{i[4]}</p></div><b>阅读 →</b></a>)}<div className="archive-placeholder"><time>每日更新</time><div><h2>下一期将在北京时间 08:00 自动归档</h2><p>当天无相关新增时，回溯最近三个自然日并明确说明。</p></div></div></section></main>}
+export default function Archive(){return <main className="archive-page"><header className="site-header"><a className="brand" href="/"><span className="brand-mark">晶</span><span>每日文献简报</span></a><nav><a href="/reports/2026-09-07">今日简报</a><a href="/#topics">研究板块</a><a className="active" href="/archive">往期归档</a><a href="/search">智能检索</a></nav><div className="live-chip"><span/> 每日 08:00 更新</div></header><section className="archive-hero"><p className="eyebrow">DAILY ARCHIVE</p><h1>每日简报归档</h1><p>按日期回看研究判断、全文访问状态、原创图解和实验建议。</p></section><section className="archive-list">{issues.map(i=><a href={`/reports/${i[0]}`} key={i[0]}><time>{i[1]}</time><div><span>{i[2]}</span><h2>{i[3]}</h2><p>{i[4]}</p></div><b>阅读 →</b></a>)}<div className="archive-placeholder"><time>每日更新</time><div><h2>下一期将在北京时间 08:00 自动归档</h2><p>当天无相关新增时，回溯最近三个自然日并明确说明。</p></div></div></section></main>}

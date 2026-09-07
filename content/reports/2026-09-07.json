@@ -1,0 +1,584 @@
+{
+  "date": "2026-09-07",
+  "issue": "013",
+  "searchWindow": "北京时间 2026-09-07 当天。正式期刊固定轨道截至检索时没有新的高相关当日上线记录；arXiv 周一 new listing 发布 151 条 cond-mat 记录，关键词宽筛 89 条（含交叉列表、替换稿和宽泛理论），经主题强相关、版本与历史去重后纳入 13 篇当天新条目。",
+  "headline": "13 篇 arXiv 周一新作：2 篇晶体生长方法、3 篇镍酸盐/混合超导、2 篇 Kondo、4 篇磁性拓扑与 2 篇二维/界面器件。",
+  "hotspot": "今天最清晰的共同线索是“结构层级决定可观测响应”：Al 固–液界面研究把模型厚度与采样窗口变成可审计的生长参数；镍酸盐 RIXS 显示 LNO-1313 的低能谱更像三层 La₄Ni₃O₁₀ 而非同化学式双层相；Ru/FM 与 V₂Te₂O 分别通过界面晶场相干性和 Néel 矢量方向选择轨道/Hall 张量；两篇 Kondo 工作则把平带相干和单原子变价与异常输运、局域谱直接关联。",
+  "searchTerms": [
+    "APS/PR 全系列、Nature Portfolio、Science、Advanced Materials/AFM、Nano Letters/ACS Nano/JACS/Chemistry of Materials",
+    "Crystal Growth & Design、Journal of Crystal Growth、single crystal、flux、CVT、floating zone、MBE、remote epitaxy、solid-liquid interface",
+    "high-Tc、nickelate、heavy fermion、Kondo、quantum critical、altermagnet、CDW、orbital torque、topological",
+    "arXiv cond-mat new listing 2026-09-07；151 条总记录，89 条宽关键词命中，13 条强相关纳入；按 DOI/arXiv ID/题目与 2026-08-28—09-06 去重"
+  ],
+  "papers": [
+    {
+      "material": "Al 固–液界面",
+      "title": "Reproducible capillary fluctuation analysis of solid-liquid interfaces for stiffness and anisotropy calculations",
+      "authors": "Kai Liu; Douglas E. Spearot; Damien Tourret",
+      "journal": "arXiv:2609.04291v1 (Materials Science (cond-mat.mtrl-sci))",
+      "date": "2026-09-07 new listing（v1）",
+      "doi": "https://arxiv.org/abs/2609.04291",
+      "fullText": "https://arxiv.org/html/2609.04291v1",
+      "access": "全文精读：已读取 arXiv:2609.04291v1 的公开 HTML 正文、方法/计算细节、结果、讨论及全部图注",
+      "rating": "A+",
+      "method": "分子动力学 + 毛细涨落法（CFM）",
+      "category": "晶体生长和物性调控",
+      "tags": [
+        "solid-liquid interface",
+        "crystal growth",
+        "CFM",
+        "Al",
+        "anisotropy"
+      ],
+      "sections": [
+        {
+          "title": "问题—方法设计",
+          "text": "晶体形貌、枝晶择优方向和凝固组织对固–液界面自由能各向异性极其敏感，但文献中的 CFM 往往凭谱线看似线性就选波矢窗口，未同时核验慢模采样、界面定义和横向有限尺寸。作者以纯 Al 为基准，比较准一维 ribbon 与厚二维界面，并把误差拆成方法、统计和系统三类。这里研究的是生长热力学参数的可复现提取，不是实际 Flux/CVT 炉次；对相场模拟和熔体生长形貌预测却有直接价值。"
+        },
+        {
+          "title": "模型—关键参数",
+          "text": "三组主要晶向使用约 12、17、24 Å 的 ribbon 横向厚度，约 86 Å 的厚模型作为二维参考，每个固–液模型做 3 个独立副本。生产轨迹为 2 ns，输出采样间隔 0.5 ps；只有松弛时间 τ≥3 ps 且在连续毛细波范围内的模进入拟合。最终采用局域序参量 LOP、6 Å 核平滑和 2.5 Å 网格，波矢窗口 0.005<k²<0.03 Å⁻²；Al(100)[010] 刚度为 87.0 mJ m⁻²。"
+        },
+        {
+          "title": "证据—误差判断",
+          "text": "直接观察是同一原子轨迹经不同界面构造、不同 k 窗口和不同模型厚度后得到的系统漂移；高 R²>0.97 仍可能使 γ₀ 从约 90 降到 60 mJ m⁻²以下，证明“拟合好看”不足以保证正确。24 Å ribbon 用二维 ky=0 表示时，三个主晶向相对 86 Å 参考只差 0.6%、1.1%、0.9%，第四方向约 1.8%；传统沿 y 完全平均的 1D 表示没有同样收敛。作者据此提出用共存温度而非仅 2rcut 判断厚度。"
+        },
+        {
+          "title": "局限—复现建议",
+          "text": "结论依赖选定 Al 势函数与近粗糙平衡界面，不能直接外推到强偏析合金、带台阶晶面或反应性熔体。用于真实晶体生长前，应对目标材料同时做势函数不确定度、固液共存温度、至少三副本、k 窗口敏感性和厚模型基准；相场输入应携带 γ₀、ε₁、ε₂ 的协方差，而不是只报单一最佳值。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A+｜晶体生长模拟与相场人员优先",
+        "first": "先看图3–6的窗口与界面定义诊断，再看图7的厚度收敛。",
+        "focus": "重点核对 0.005<k²<0.03 Å⁻² 是否由时间和空间两个约束共同得到，而非回归优度挑选。",
+        "next": "把同一诊断流程移植到目标合金势函数，并用 24 Å/厚二维成对验证。"
+      },
+      "versionNote": "arXiv v1；尚未发现正式期刊 DOI。若后续正式发表，将以 DOI 为主记录并保留版本关系。"
+    },
+    {
+      "material": "maple-leaf / trellis 自旋晶格",
+      "title": "Exact quantum spin liquids with topological order on maple-leaf and trellis lattices",
+      "authors": "Li Ern Chern; Roderich Moessner; Claudio Castelnovo",
+      "journal": "arXiv:2609.04319v1 (Strongly Correlated Electrons (cond-mat.str-el))",
+      "date": "2026-09-07 new listing（v1）",
+      "doi": "https://arxiv.org/abs/2609.04319",
+      "fullText": "https://arxiv.org/html/2609.04319v1",
+      "access": "全文精读：已读取 arXiv:2609.04319v1 的公开 HTML 正文、方法/计算细节、结果、讨论及全部图注",
+      "rating": "A",
+      "method": "精确可解 Kitaev 型模型 + replica-exchange QMC",
+      "category": "磁性、拓扑与自旋",
+      "tags": [
+        "quantum spin liquid",
+        "Kitaev",
+        "anyon",
+        "Majorana",
+        "topological order"
+      ],
+      "sections": [
+        {
+          "title": "问题—模型",
+          "text": "作者把 Kitaev 蜂窝模型的键依赖相互作用推广到五配位 maple-leaf 与 trellis 晶格，构造可精确化为 Majorana 费米子耦合 Z₂ 规范场的自旋模型。核心问题是含奇数边多边形时，通量序、Chern 数和涡旋任意子如何组织，以及不同二聚体极限是否真属同一拓扑相。"
+        },
+        {
+          "title": "主要结果",
+          "text": "replica-exchange QMC 显示低温三角形获得统一符号的 ±π/2 通量，六边形为 0 通量、方形为 π 通量。相图包含 Z₂ 与 Ising 拓扑序；Majorana 质量项变号给出相边界。两个在无涡旋扇区可平滑连接的 maple-leaf 二聚体极限，在双涡旋扇区仍必须经历费米子闭隙，说明只看基态通量扇区会漏掉激发拓扑。"
+        },
+        {
+          "title": "证据边界",
+          "text": "精确映射、Chern 数与质量项属于模型内严格结果；有限温通量有序来自数值 QMC。论文没有候选材料、晶体生长或谱学测量，因此不能把相图当作已观察量。对实验最有用的是可寻找五配位/三角单元材料中的热容两步结构、热 Hall 与涡旋束缚态，但具体能标仍需材料化建模。"
+        },
+        {
+          "title": "后续建议",
+          "text": "材料筛选应先用真实空间群确定键不等价性，再拟合交换张量，检查非 Kitaev 项是否保留通量隙。若做中子散射，优先寻找连续谱与通量有序温标的分离；若做热输运，应区分 Majorana 边缘贡献与声子 Hall。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜量子自旋液体理论读者",
+        "first": "先读模型定义和通量扇区图，再读双涡旋扇区的闭隙论证。",
+        "focus": "重点核对“无涡旋可连接”并不等于任意子赋值相同这一逻辑。",
+        "next": "为具体五配位磁体加入 Heisenberg/Γ 扰动，测试相的稳定窗口。"
+      },
+      "versionNote": "arXiv v1；尚未发现正式期刊 DOI。若后续正式发表，将以 DOI 为主记录并保留版本关系。"
+    },
+    {
+      "material": "二维 DyTe₃ 薄片",
+      "title": "Dual Charge-Density-Waves in Two-dimensional DyTe3 and Their Distinct Impacts on Magneto-Transport Properties",
+      "authors": "Shuvankar Gupta; Yasemin Ozbek; Olajumoke Oluwatobiloba Emmanuel; Maya Bostock; Johnathan Kowalski; Pengpeng Zhang; Xianglin Ke",
+      "journal": "arXiv:2609.04370v1 (Strongly Correlated Electrons (cond-mat.str-el))",
+      "date": "2026-09-07 new listing（v1）",
+      "doi": "https://arxiv.org/abs/2609.04370",
+      "fullText": "https://arxiv.org/pdf/2609.04370",
+      "access": "仅基于摘要/元数据：arXiv:2609.04370v1 暂无可读取 HTML；PDF 链接可访问但本次自动流程未完成正文解析，未知参数不作推断",
+      "rating": "A",
+      "method": "二维化 + 低温磁输运",
+      "category": "磁性、拓扑与自旋",
+      "tags": [
+        "DyTe3",
+        "charge density wave",
+        "magnetoresistance",
+        "Hall",
+        "2D"
+      ],
+      "sections": [
+        {
+          "title": "问题—已知结论",
+          "text": "DyTe₃ 在低温共存两组正交 CDW。摘要报告 CDW1 过渡附近的磁输运没有可分辨异常，而 CDW2 出现后磁阻显著增强并产生由多能带控制的非线性 Hall 响应。这一对照把两个序的输运后果分开，是比“看到两个转变”更强的机制线索。"
+        },
+        {
+          "title": "信息边界",
+          "text": "当前只读到摘要：薄片制备方法、厚度、晶向、CDW1/CDW2 温度、磁场方向与上限、接线几何、电流、载流子拟合参数、样品数及误差均未报告。标题中的 two-dimensional 不能自动等同机械剥离、外延或极限单层。"
+        },
+        {
+          "title": "复现建议",
+          "text": "拿到正文后首先核对 Hall 是否经过纵向混入反对称化、非线性是否可由双带模型唯一解释，以及 CDW2 前后迁移率与载流子密度分别怎样变。还应比较电流沿两条 Te 链方向并做厚度序列，才能区分正交 CDW、本征各向异性与器件几何。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜CDW 与低维输运实验人员",
+        "first": "先看 CDW2 前后的原始 ρxx(B)、ρxy(B)，再读双带拟合。",
+        "focus": "关键是 CDW1“无异常”的分辨率和 CDW2 非线性 Hall 的替代解释。",
+        "next": "补做两晶轴方向、厚度与应变依赖，验证第二 CDW 是否重构费米面。"
+      },
+      "versionNote": "arXiv v1；尚未发现正式期刊 DOI。若后续正式发表，将以 DOI 为主记录并保留版本关系。"
+    },
+    {
+      "material": "La₃Ni₂O₇ 两种多型 + La₄Ni₃O₁₀ 单晶",
+      "title": "Layer Architecture Shapes Electronic, Magnetic, and Lattice Interactions in Ruddlesden-Popper Nickelates",
+      "authors": "W. He; X. Guo; X. Luo; J. Thomas; J. Sears; Sophia F. R. TenHuisen; Ziqiang Guan; Xinglong Chen; D. A. Dahlbom; B. Zager; J. Pelliciari; Yi-Feng Zhao; H. LaBollita; Hong Zheng; M. K. Lajer; J. F. Mitchell; V. Bisogni; A. S. Botana; M. Mitrano; S. Johnston; M. P. M. Dean",
+      "journal": "arXiv:2609.04532v1 (Strongly Correlated Electrons (cond-mat.str-el))",
+      "date": "2026-09-07 new listing（v1）",
+      "doi": "https://arxiv.org/abs/2609.04532",
+      "fullText": "https://arxiv.org/html/2609.04532v1",
+      "access": "全文精读：已读取 arXiv:2609.04532v1 的公开 HTML 正文、方法/计算细节、结果、讨论及全部图注",
+      "rating": "A+",
+      "method": "高压浮区单晶 + Ni L₃/O K 边 RIXS",
+      "category": "高温与非常规超导",
+      "tags": [
+        "nickelate",
+        "Ruddlesden-Popper",
+        "RIXS",
+        "floating zone",
+        "electron-phonon coupling"
+      ],
+      "sections": [
+        {
+          "title": "问题—对照设计",
+          "text": "高压或外延应变下 LNO-2222 的 Tc 可达约 80 K，而三层 La₄Ni₃O₁₀ 约 30 K；LNO-1313 是否接近双层还是三层，能直接检验层架构如何控制配对相关自由度。作者在同一 RIXS 框架比较 LNO-2222、交替单层/三层的 LNO-1313 与真正三层 La₄Ni₃O₁₀，把电子晶场、磁激发和声子侧带同时纳入。"
+        },
+        {
+          "title": "样品—生长—结构",
+          "text": "三种单晶均由高压氧气氛浮区法生长，XRD 确认相纯。空间群分别为 La₄Ni₃O₁₀ 的 P2₁/a、LNO-1313 的 Cmmm、LNO-2222 的 Amam（作者也提醒后者有 Am2m 的新提议）；伪四方晶格 a≈3.833–3.85 Å，c 分别 27.96、20.3、20.45 Å。样品沿 c 面解理并单晶 XRD 预取向，观测到近等比例的两个正交孪晶。高压值、氧压、进料棒配比、转速、拉速、温程和退火仍引用前文，当前正文未逐项给出，是复制生长的主要缺口。"
+        },
+        {
+          "title": "测量—核心数据",
+          "text": "Ni L₃ 边在 80 K、入射能约 852.9 eV 测面内色散，22 K 测面外；分辨率 32 meV（面内）或 38 meV，O K 边 22 K 分辨率 27 meV，散射角通常 150°并做自吸收校正。LNO-1313 与 La₄Ni₃O₁₀ 的低能磁激发约 60 meV、高阶肩峰约 160 meV，整体光谱、弱轨道极化、3d⁸L 配置及 EPC 都彼此接近，明显不同于 LNO-2222。"
+        },
+        {
+          "title": "证据—模型判断",
+          "text": "电子与声子差异来自偏振 XAS/RIXS和多声子拟合，属于直接谱线加模型分解；“纠缠二聚体/triplon 优于普通自旋波”则是对 LNO-2222 强层间交换、弱有序矩和面外强度调制的综合解释。最大价值是同一仪器和几何下的三样品对照，最弱点是孪晶、堆垛错和多型纯度可能把层方向色散平均化，且常压 RIXS并未直接测到超导态。"
+        },
+        {
+          "title": "实验启示",
+          "text": "生长上应把 1313/2222 多型比例、氧非化学计量和堆垛错作为一等变量，用单晶 XRD、STEM 与热分析做批次统计。物性上建议对同批晶体做压力下电阻/磁化与常压 RIXS关联；若 LNO-1313 的 EPC 和磁谱确实像三层相，其高压超导体积分数应更多受多型纯度和层间连通控制。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A+｜镍酸盐生长与谱学首读",
+        "first": "先看图1的三相偏振光谱，再看图2–4磁色散和声子侧带。",
+        "focus": "重点核对 1313 与 La₄Ni₃O₁₀ 的相似性是否超出孪晶和分辨率造成的平均。",
+        "next": "用同批次晶体建立多型比例—RIXS—压力超导体积分数三联关联。"
+      },
+      "versionNote": "arXiv v1；尚未发现正式期刊 DOI。若后续正式发表，将以 DOI 为主记录并保留版本关系。"
+    },
+    {
+      "material": "Fe₃GaTe₂/Pt 自旋逻辑器件",
+      "title": "Demonstration of room-temperature, magnetic-field-free, and ultralow-power spin-orbit torque logic device based on composition-uniform van der Waals magnet Fe3GaTe2",
+      "authors": "Zhengxiao Li; Qianbiao Liu; Wenliang Zhu; Lijun Zhu",
+      "journal": "arXiv:2609.04600v1 (Materials Science (cond-mat.mtrl-sci))",
+      "date": "2026-09-07 new listing（v1）",
+      "doi": "https://arxiv.org/abs/2609.04600",
+      "fullText": "https://arxiv.org/pdf/2609.04600",
+      "access": "仅基于摘要/元数据：arXiv:2609.04600v1 暂无可读取 HTML；PDF 链接可访问但本次自动流程未完成正文解析，未知参数不作推断",
+      "rating": "A",
+      "method": "vdW 磁体器件 + 自旋轨道转矩",
+      "category": "二维材料与量子器件",
+      "tags": [
+        "Fe3GaTe2",
+        "van der Waals magnet",
+        "spin-orbit torque",
+        "field-free switching",
+        "logic"
+      ],
+      "sections": [
+        {
+          "title": "问题—核心结果",
+          "text": "摘要给出首个基于室温 vdW 磁体的无外场自旋逻辑器件：具有垂直磁各向异性的 Fe₃GaTe₂ 存储位与 Pt 自旋 Hall 通道结合，并利用电学不对称实现确定性翻转。脉宽分析得到本征临界电流密度 1.8×10⁷ A cm⁻²、热稳定因子 50；按 1 ns、典型工业尺寸外推写能约 1.5 fJ/bit，作者称比优化 W/FeCoB 低约 40 倍。"
+        },
+        {
+          "title": "证据边界",
+          "text": "当前只有摘要；Fe₃GaTe₂ 是机械剥离、外延还是块晶切片，成分均匀性的统计方法、厚度、器件层序、Pt 厚度、刻蚀、脉冲测试、实际温升和逻辑真值表均未知。1.5 fJ 是尺寸缩放估算，不应与实测整器件能耗等同。"
+        },
+        {
+          "title": "复现建议",
+          "text": "全文到手后应优先检查无外场的对称性来源、电流分流和热激活模型；同时比较正负结构不对称、不同厚度与空白 Pt/普通铁磁对照。材料端应记录 Fe/Ga/Te 偏差、氧化和片间 Tc/PMA 分布，因为“composition-uniform”必须由跨片统计而非单点 EDS 支撑。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜二维磁体与存内计算读者",
+        "first": "先查脉宽—临界电流拟合和 1.5 fJ 的面积/电阻假设。",
+        "focus": "区分实测翻转能、热激活外推与工业尺寸缩放三种量。",
+        "next": "做片间成分/PMA统计并引入对称器件，验证无场选择性来源。"
+      },
+      "versionNote": "arXiv v1；尚未发现正式期刊 DOI。若后续正式发表，将以 DOI 为主记录并保留版本关系。"
+    },
+    {
+      "material": "外延 Ru/Ni、Ru/Co、Ru/CoFeB",
+      "title": "Evidence of Crystal-Field-Mediated Anisotropic Orbital Rashba Effect in Epitaxial Ru/FM Heterostructure",
+      "authors": "Yu Zhang; Wenhao Niu; Yumin Yang; Wenqi Xu; Gengchen Meng; Hailong Wang; Na Lei; Dahai Wei",
+      "journal": "arXiv:2609.04642v1 (Mesoscale and Nanoscale Physics (cond-mat.mes-hall) ; Materials Science (cond-mat.mtrl-sci))",
+      "date": "2026-09-07 new listing（v1）",
+      "doi": "https://arxiv.org/abs/2609.04642",
+      "fullText": "https://arxiv.org/html/2609.04642v1",
+      "access": "全文精读：已读取 arXiv:2609.04642v1 的公开 HTML 正文、方法/计算细节、结果、讨论及全部图注",
+      "rating": "A+",
+      "method": "磁控溅射外延 + 二次谐波 Hall",
+      "category": "磁性、拓扑与自旋",
+      "tags": [
+        "Ru",
+        "orbital Rashba",
+        "orbital torque",
+        "epitaxy",
+        "crystal field"
+      ],
+      "sections": [
+        {
+          "title": "问题—样品设计",
+          "text": "轨道角动量对局域晶场敏感，但界面晶场怎样塑造非平衡轨道 Rashba 纹理一直缺实验拆分。作者在 c-Al₂O₃ 上磁控溅射 2.5–10 nm 外延 Ru，再覆盖 Ni、Co 或 Co₄₀Fe₄₀B₂₀；Ni(8 nm) 为(111)单晶取向，Co 混合 hcp(0002)/fcc(111)，CoFeB 非晶。通过晶体方向 Hall bar、非晶 Ru、1 nm Cu 插层和不同 FM 结晶度逐层削弱界面相干性。"
+        },
+        {
+          "title": "测量—定量结果",
+          "text": "二次谐波 Hall 在约 0.1 T 等场下提取电场归一化阻尼型转矩。总转矩分成随 Ru 厚度增长的各向同性体项、近厚度无关的界面各向异性项和 FM 自转矩；各向异性项对 1/tRu 呈线性。Ru 轨道扩散长度拟合为 9.5±1.8 nm，但作者明确数据点有限，只能视为估计。冷却时体项增强而界面项近似不变；两者随 Co 厚度按同一扩散尺度饱和，支持共同的轨道角动量来源。"
+        },
+        {
+          "title": "证据链—替代解释",
+          "text": "Cu 插层或非晶 Ru 令方向性消失，RuSC/CoSC 最大、任一层多晶后降低、非晶时近零，说明直接 4d–3d 杂化与晶场相干性同时必要。多轨道紧束缚也复现晶场相干性/插 Cu 对各向异性 ORE 的抑制。可是“轨道而非自旋”仍是多项间接一致性判断：大转矩、长扩散尺度和温变较符合轨道通道，却没有绝对排除各向异性自旋 Hall/Rashba。"
+        },
+        {
+          "title": "复现建议",
+          "text": "必须把 RHEED、XRD 摇摆曲线和界面 STEM 与每个 Hall bar 方位绑定，避免不同片质量冒充角向效应；Cu 插层会同时改透明度和 Ru OHC，不能单独作为因果对照。建议增加等电子但不同杂化隔离层、正反堆叠和 ST-FMR/磁光双重转矩标定，并报告电流分流和热 Nernst 背景。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A+｜外延、自旋轨道矩实验优先",
+        "first": "先看图2的体/界面拆分和图3的结晶度序列，再读图4模型。",
+        "focus": "重点核对 1/tRu 标度、Cu 插层的多重影响及 9.5±1.8 nm 拟合不确定度。",
+        "next": "用界面 STEM 定量相干长度，并以第二种转矩技术交叉验证角向项。"
+      },
+      "versionNote": "arXiv v1；尚未发现正式期刊 DOI。若后续正式发表，将以 DOI 为主记录并保留版本关系。"
+    },
+    {
+      "material": "外延 Al/(In,Fe)As",
+      "title": "Orientation selection and superconducting properties of epitaxial Al on ferromagnetic semiconductor (In,Fe)As",
+      "authors": "Hirotaka Hara; Keita Ishihara; Masaaki Tanaka; Le Duc Anh",
+      "journal": "arXiv:2609.04744v1 (Superconductivity (cond-mat.supr-con))",
+      "date": "2026-09-07 new listing（v1）",
+      "doi": "https://arxiv.org/abs/2609.04744",
+      "fullText": "https://arxiv.org/pdf/2609.04744",
+      "access": "仅基于摘要/元数据：arXiv:2609.04744v1 暂无可读取 HTML；PDF 链接可访问但本次自动流程未完成正文解析，未知参数不作推断",
+      "rating": "A",
+      "method": "MBE 原位异质外延 + 低温超导输运",
+      "category": "高温与非常规超导",
+      "tags": [
+        "Al",
+        "InFeAs",
+        "MBE",
+        "epitaxy",
+        "superconductor-ferromagnet"
+      ],
+      "sections": [
+        {
+          "title": "问题—核心结果",
+          "text": "作者在应变 Fe 掺杂铁磁半导体 (In,Fe)As 上原位 MBE 生长 Al。XRD/TEM 显示 Al 为单晶外延，随 (In,Fe)As 面内晶格常数增大，取向从(110)切换到(111)；Al 的 Tc 随表面形貌和晶粒尺寸系统变化。低于 0.5 K 临界场异常下降，作者谨慎归因于与下层铁磁半导体的磁耦合可能性。"
+        },
+        {
+          "title": "信息边界",
+          "text": "摘要没有 In/Fe 含量、缓冲层/衬底、Al 厚度、基底温度、束流等效压、界面粗糙度、Tc 和 Hc 数值、磁场方向及样品数。取向转变可能同时受应变、表面能和成核动力学影响，不能只由晶格常数建立单因果。"
+        },
+        {
+          "title": "复现建议",
+          "text": "正文应重点寻找取向相图是否覆盖连续 In 含量、晶粒尺寸如何独立于粗糙度、Hc 异常是否在非磁 InAs 对照中消失。后续可用同厚度 Al、相近粗糙度而不同 Fe 含量的矩阵，以及面内/面外 Hc2 和隧穿谱来分离形貌与交换场。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜混合量子器件和 MBE 生长读者",
+        "first": "先看 XRD/TEM 的(110)→(111)取向边界，再看低于0.5 K的 Hc 数据。",
+        "focus": "核对 Tc 变化究竟跟晶粒尺寸、粗糙度还是应变共变。",
+        "next": "设计非磁 InAs 与不同 Fe 含量的同形貌对照，验证交换耦合。"
+      },
+      "versionNote": "arXiv v1；尚未发现正式期刊 DOI。若后续正式发表，将以 DOI 为主记录并保留版本关系。"
+    },
+    {
+      "material": "vdW 交错磁候选 V₂Te₂O",
+      "title": "Cross-Layer Anomalous Hall Transport driven by Néel-Vector rotating in the Altermagnet candidate V2Te2O",
+      "authors": "Yanan Pan; W. Z. Zhuo; Pan Gao; Ziyu Zhou; Junqing Xu; Lijie Shao; Damin Meng; Weiwei Chen; Zhongjun Li; Ye Yang",
+      "journal": "arXiv:2609.05085v1 (Materials Science (cond-mat.mtrl-sci))",
+      "date": "2026-09-07 new listing（v1）",
+      "doi": "https://arxiv.org/abs/2609.05085",
+      "fullText": "https://arxiv.org/html/2609.05085v1",
+      "access": "全文精读：已读取 arXiv:2609.05085v1 的公开 HTML 正文、方法/计算细节、结果、讨论及全部图注",
+      "rating": "A",
+      "method": "DFT+U/SOC + Wannier Berry 曲率",
+      "category": "磁性、拓扑与自旋",
+      "tags": [
+        "V2Te2O",
+        "altermagnet",
+        "anomalous Hall",
+        "Berry curvature",
+        "Néel vector"
+      ],
+      "sections": [
+        {
+          "title": "问题—计算设计",
+          "text": "通常 vdW 层间色散弱，跨层 Hall 分量远小于面内。作者提出旋转 V₂Te₂O 的 Néel 矢量即可改磁空间群：N∥z 时水平镜面对称保护自旋极化节点链并强制全部 AHC 为零；倾斜后 SOC 打开节点链反交叉，N∥x 时只允许 σyz。"
+        },
+        {
+          "title": "参数—主要结果",
+          "text": "VASP/PBE+U 取 V-3d 的 U=3.0 eV，截断 600 eV，12×12×5 k 网格，SOC 全程开启；Wannier90 以 V-3d/Te-5p 构造哈密顿量，Phonopy 检查动力学稳定，WannierTools 积分 Berry 曲率。优化 a=b=4.065 Å，G 型 AFM 最低；自旋旋转势垒远小于 1 meV。N∥x 时 σyz≈255 S/cm，比 σxy 近两个数量级，热点来自 Te-5p 介导的跨层杂化所打开的节点链反交叉，而非共存 Weyl 点。"
+        },
+        {
+          "title": "证据边界",
+          "text": "磁群选择规则对允许/禁止张量分量的判断最稳；255 S/cm、浅势垒和能量位置则依赖 U、结构、磁序与费米能。论文是预测，尚无晶体合成、Néel 矢量翻转或跨层电极测量。尤其“适中外场/应变可旋转”只是根据小 MAE 推断，未计算畴壁、缺陷钉扎和有限温度。"
+        },
+        {
+          "title": "实验建议",
+          "text": "若材料可得，先用中子/磁光或 XMLD 确认 G 型磁序与易轴，再做层间电极的反对称 Hall 几何；通过角度旋转检查 σyz、σxy 的磁群奇偶关系，比单点大信号更有判别力。计算端应扫描 U、化学势、堆垛和层数并报告密 k 网格收敛。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜交错磁与拓扑输运理论/实验",
+        "first": "先看表1的磁群选择规则，再看图3–4的角度与 Berry 热点。",
+        "focus": "分清对称性稳健结论与依赖 U/费米能的 255 S/cm 数值。",
+        "next": "做 U、化学势、堆垛鲁棒性，并设计可交换 Néel 方向的跨层 Hall 器件。"
+      },
+      "versionNote": "arXiv v1；尚未发现正式期刊 DOI。若后续正式发表，将以 DOI 为主记录并保留版本关系。"
+    },
+    {
+      "material": "Ta₂NiSe₇ 准一维单晶",
+      "title": "Anharmonic Lattice Dynamics and Anisotropic Electron-Phonon Coupling in Quasi-1-Dimensional Charge Density Wave Ta2NiSe7",
+      "authors": "Prithwija Mandal; S. Nanthini; Aditya Singh; Kewal S. Rana; Dibyendu Dey; Kanishka Biswas; Ajay Soni",
+      "journal": "arXiv:2609.05129v1 (Materials Science (cond-mat.mtrl-sci))",
+      "date": "2026-09-07 new listing（v1）",
+      "doi": "https://arxiv.org/abs/2609.05129",
+      "fullText": "https://arxiv.org/pdf/2609.05129",
+      "access": "仅基于摘要/元数据：arXiv:2609.05129v1 暂无可读取 HTML；PDF 链接可访问但本次自动流程未完成正文解析，未知参数不作推断",
+      "rating": "A",
+      "method": "偏振 Raman + 电输运/热容 + 第一性原理",
+      "category": "磁性、拓扑与自旋",
+      "tags": [
+        "Ta2NiSe7",
+        "charge density wave",
+        "Raman",
+        "electron-phonon coupling",
+        "anharmonicity"
+      ],
+      "sections": [
+        {
+          "title": "问题—核心数据",
+          "text": "论文针对 Ta₂NiSe₇ 的 61 K 非公度 CDW，比较费米面嵌套、电子–声子耦合和晶格失稳。摘要称沿链 b 轴的 e–ph 耦合强度超过链间 c 轴 5 倍，而 c 轴非谐性约增强 3 倍；Ta₂–Se 八面体振动和费米能附近 Ta–Se 态构成主要通道，作者因此主张链内强耦合触发不稳定、链间非谐性帮助保持非公度。"
+        },
+        {
+          "title": "信息边界",
+          "text": "当前未读到正文：单晶生长法、输运剂/温区、空间群、晶体尺寸和取向、Raman 激光波长/功率/几何、耦合强度的定义与误差、热容异常大小和 DFT 参数均未知。5 倍与3倍可能来自不同拟合量，不能直接相减或视为竞争能标。"
+        },
+        {
+          "title": "复现建议",
+          "text": "拿到全文后先核对偏振张量和晶轴定标，再检查声子频移/线宽是否用同一非谐模型分离 EPC。建议做激光功率和温升校准、不同晶面/厚度对照，并将 61 K 附近的 Raman、ρ(T)导数和 Cp 同温标对齐。若目标是生长，优先追踪 Ni/Se 偏差与 CDW 温度、残余电阻比和声子线宽的批次相关。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜CDW、Raman 与 CVT 生长人员",
+        "first": "先看 61 K 附近各偏振声子线宽/频移，再看输运和热容是否同温标。",
+        "focus": "核对“5倍 EPC”与“3倍非谐性”的定义、误差和拟合独立性。",
+        "next": "把成分、RRR、CDW温度和声子线宽做批次关联。"
+      },
+      "versionNote": "arXiv v1；尚未发现正式期刊 DOI。若后续正式发表，将以 DOI 为主记录并保留版本关系。"
+    },
+    {
+      "material": "29–29.5 GPa La₃Ni₂O₇",
+      "title": "Ni-O hybridization as a stabilizer for $s^{\\pm}$ superconductivity in La$_3$Ni$_2$O$_7$: a DFT+RPA study",
+      "authors": "Lauro B. Braz; Daniel D. Rivera; Emmanuel V. C. Lopes; George B. Martins; Gustavo M. Dalpian; Luis G. G. V. Dias da Silva",
+      "journal": "arXiv:2609.05185v1 (Superconductivity (cond-mat.supr-con) ; Materials Science (cond-mat.mtrl-sci); Strongly Correlated Electrons (cond-mat.str-el))",
+      "date": "2026-09-07 new listing（v1）",
+      "doi": "https://arxiv.org/abs/2609.05185",
+      "fullText": "https://arxiv.org/html/2609.05185v1",
+      "access": "全文精读：已读取 arXiv:2609.05185v1 的公开 HTML 正文、方法/计算细节、结果、讨论及全部图注",
+      "rating": "A",
+      "method": "DFT 全谱正交投影 + 矩阵 RPA",
+      "category": "高温与非常规超导",
+      "tags": [
+        "La3Ni2O7",
+        "nickelate",
+        "s+- pairing",
+        "DFT",
+        "RPA"
+      ],
+      "sections": [
+        {
+          "title": "问题—方法",
+          "text": "低能 Wannier 模型常给接近或占优的 d 波，而强耦合/层间交换偏向 s±。作者不改 DFT 能带，却把所有 Kohn–Sham 带正交投影到两层 Ni eg 局域轨道，保留远离 EF 的 Ni–O 杂化权重，再用矩阵 RPA 比较磁涨落和配对本征值。"
+        },
+        {
+          "title": "关键结果",
+          "text": "计算采用约 29–29.5 GPa 高压结构。全谱投影得到 dx²−y²、d3z²−r² 占据约 1.14、1.36，明显高于低能 Wannier 的约0.6、0.9；若把能窗限制回 −1.491 到 3.064 eV，又恢复 Wannier 结果。新增谱权增强层间自旋关联和交换层的键中心磁序，使层间配对占优并稳定符号反转 s±；低能模型则更偏 d 波。"
+        },
+        {
+          "title": "证据—局限",
+          "text": "能窗回退测试清楚证明差异来自被截去的杂化谱权，而非随意改能带，这是最强内部对照。但 RPA 仍是弱耦合近似，临界 U、双计数、投影基选择和高压结构会影响本征值；“稳定 s±”是模型结论，不是相敏实验。与当天 RIXS 工作相呼应之处在于两者都强调 d3z²−r²、层间关联和配体空穴，但不能据此宣称配对机制已确定。"
+        },
+        {
+          "title": "后续建议",
+          "text": "理论复核应扫描投影半径、能窗、U/J、压力结构和自能重整化，并报告 s/d 本征值差而非只给领先通道。实验上最关键是压力下相敏隧穿/杂质响应与层间磁激发，此外应把样品多型纯度纳入解释。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜镍酸盐配对理论读者",
+        "first": "先看图1–2的全谱投影，再看磁化率与配对本征函数。",
+        "focus": "重点核对能窗回退如何恢复 Wannier 占据和 d 波结果。",
+        "next": "扫描 U/J、压力和投影方案，并与 RIXS 层间磁谱做定量比较。"
+      },
+      "versionNote": "arXiv v1；尚未发现正式期刊 DOI。若后续正式发表，将以 DOI 为主记录并保留版本关系。"
+    },
+    {
+      "material": "Ru₂Mn₀.₅Ti₀.₅Ge 多晶",
+      "title": "Breakdown of Anomalous Hall Scaling in Dilute Kondo System",
+      "authors": "Arnab Bhattacharya; Prashant Singh; Ajay Kumar; Afsar Ahmed; Yaroslav Mudryk; I. Das; Anis Biswas",
+      "journal": "arXiv:2609.05319v1 (Strongly Correlated Electrons (cond-mat.str-el))",
+      "date": "2026-09-07 new listing（v1）",
+      "doi": "https://arxiv.org/abs/2609.05319",
+      "fullText": "https://arxiv.org/html/2609.05319v1",
+      "access": "全文精读：已读取 arXiv:2609.05319v1 的公开 HTML 正文、方法/计算细节、结果、讨论及全部图注",
+      "rating": "A+",
+      "method": "电弧熔炼/退火 + 磁热输运 + DFT/SOC",
+      "category": "重费米子与量子临界",
+      "tags": [
+        "Kondo",
+        "Heusler",
+        "anomalous Hall",
+        "flat band",
+        "Berry curvature"
+      ],
+      "sections": [
+        {
+          "title": "问题—材料制备",
+          "text": "工作把 Kondo 相干与 Berry 曲率异常输运放到无 f 电子 Heusler 合金中检验。高纯元素电弧熔炼后在 800 °C 退火并冰水淬火；室温粉末 XRD/Rietveld 查相纯，TEM/元素映射检查微观均匀性。原料配比误差、熔炼次数、退火时长、真空/氩气纯度和失重正文未报告，这些会直接影响 Mn/Ti 无序。"
+        },
+        {
+          "title": "测量—主要数据",
+          "text": "SQUID-VSM 在2–300 K测矩形 3.0×1.4×0.3 mm³ 样品，每个温度/场点稳定3 min；ac 驱动场6 Oe并校正退磁。热容用弛豫法。ρxx/ρxy用50 μm金线和银浆，同一温场协议，Hall 以[ρxy(+H)−ρxy(−H)]/2反对称。体系宏观矩仅约0.013 μB/Mn，却有异常 Hall 标度 SH≈12 V⁻¹；低温 Kondo 相干后常规标度恢复。DFT 在 EF±50 meV 找到 Mn-3d 准平带，SOC反交叉约50–150 meV，Kubo AHC约50 S/cm。"
+        },
+        {
+          "title": "证据链—判断",
+          "text": "低温输运标度恢复与相干温标重合是直接经验关联；Berry 曲率来自平带/SOC反交叉则由 DFT/Kubo 支撑。小净磁矩却保持较大 AHE削弱普通 M 比例解释，但多晶、反位无序和自旋玻璃也可造成非单一散射通道。作者称“dilute Kondo/heavy-electron-like”，证据来自热容、输运与平带，不能等同典型 f 电子重费米子费米面已直接测得。"
+        },
+        {
+          "title": "复现建议",
+          "text": "下一步应制备成分梯度或单晶，分别改变 Mn/Ti 无序与载流子浓度；用 Hall 全温区多机制拟合、ARPES/量子振荡和 μSR/中子区分 Kondo 相干、玻璃冻结与弱倾斜磁序。电弧熔炼批次需报告质量损失、Rietveld占位和 EDS/WDS 方差，否则 Berry 曲率与无序效应难拆开。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A+｜Kondo输运与Heusler合成人员",
+        "first": "先看 Hall 标度失效/恢复图，再看热容和磁化温标，最后对照 DFT 平带。",
+        "focus": "核对 Kondo 相干、玻璃冻结和磁转变是否真正分离，以及 SH≈12 V⁻¹ 的定义。",
+        "next": "优先做占位可控样品和单晶，把无序散射从本征 Berry 项中拆出。"
+      },
+      "versionNote": "arXiv v1；尚未发现正式期刊 DOI。若后续正式发表，将以 DOI 为主记录并保留版本关系。"
+    },
+    {
+      "material": "金属/共价衬底上的远程外延",
+      "title": "Remote epitaxy beyond polarity",
+      "authors": "Ching-Tai Fu; Pei-Jan Hung; Xudong Li; Xiaolong Zhu; Yu Han; Sayantan Mahapatra; Zhiheng Zhao; Qingsong Fan; Xubing Wu; Qizhang Li; Chenxi Sui; Zirui Zhou; Ting-Hsuan Chen; Cheng-Hao Lei; Ivan Kuzmenko; Xiaobing Zuo; Byeongdu Lee; Alexander S. Filatov; Jeffrey R. Guest; Fengyuan Shi; Yuzi Liu; Hua Zhou; Yunfeng Shi; Po-Chun Hsu",
+      "journal": "arXiv:2609.05365v1 (Materials Science (cond-mat.mtrl-sci))",
+      "date": "2026-09-07 new listing（v1）",
+      "doi": "https://arxiv.org/abs/2609.05365",
+      "fullText": "https://arxiv.org/pdf/2609.05365",
+      "access": "仅基于摘要/元数据：arXiv:2609.05365v1 暂无可读取 HTML；PDF 链接可访问但本次自动流程未完成正文解析，未知参数不作推断",
+      "rating": "A+",
+      "method": "二维覆盖层远程同/异质外延",
+      "category": "晶体生长和物性调控",
+      "tags": [
+        "remote epitaxy",
+        "vicinal surface",
+        "2D interlayer",
+        "film lift-off",
+        "epitaxy"
+      ],
+      "sections": [
+        {
+          "title": "问题—核心主张",
+          "text": "远程外延通常被解释为离子衬底的静电势穿透单层二维覆盖物；作者声称金属和共价衬底同样可以远程同质/异质外延。机制旋钮从“衬底极性”改为电导率与 vicinal 台阶边密度，若成立会把可剥离单晶膜的材料空间扩展到更广的半导体和金属。"
+        },
+        {
+          "title": "信息边界",
+          "text": "目前仅摘要：具体衬底/外延膜组合、二维层种类和转移方式、台阶密度、失配、沉积技术、温度/压强/速率、取向统计、剥离良率和断面证据均未读取。远程外延领域最关键替代解释是二维层针孔、裂缝和台阶处直接成核；没有连续性和界面原子尺度证据时不能把外延注册直接归因于“远程相互作用”。"
+        },
+        {
+          "title": "复现建议",
+          "text": "全文应先审查大面积二维层连续性（Raman/AFM/TEM）、针孔统计、刻意加厚二维层和封闭台阶对照，再看取向分布与可剥离性。建议用相同表面化学但不同电导率、相同电导率但不同 miscut 的二维矩阵，并报告至少毫米尺度区域和多片良率；只给局部 TEM 的单一外延畴不足以支持普适性。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A+｜外延与可剥离膜生长人员",
+        "first": "先看材料组合总表与界面 STEM，再看电导率/台阶密度两个控制变量。",
+        "focus": "首要排除针孔、裂缝和台阶直接外延，而不是先接受“超越极性”。",
+        "next": "做二维层厚度、miscut和导电率三维对照并统计剥离良率。"
+      },
+      "versionNote": "arXiv v1；尚未发现正式期刊 DOI。若后续正式发表，将以 DOI 为主记录并保留版本关系。"
+    },
+    {
+      "material": "Sm/graphene/Ir(111) 单原子",
+      "title": "Variable Charge State, Magnetic Excitations, and Kondo Effect of Sm/g/Ir(111)",
+      "authors": "Shixuan Shan; Tamara de Ara; Lina Liu; Zhipeng Wang; Marina Pivetta; François Patthey; Tadahiro Komeda; Daria Kývala; Jindřich Kolorenč; Harald Brune",
+      "journal": "arXiv:2609.05394v1 (Mesoscale and Nanoscale Physics (cond-mat.mes-hall))",
+      "date": "2026-09-07 new listing（v1）",
+      "doi": "https://arxiv.org/abs/2609.05394",
+      "fullText": "https://arxiv.org/html/2609.05394v1",
+      "access": "全文精读：已读取 arXiv:2609.05394v1 的公开 HTML 正文、方法/计算细节、结果、讨论及全部图注",
+      "rating": "A+",
+      "method": "低温 STM/STS + 共隧穿多体模型",
+      "category": "重费米子与量子临界",
+      "tags": [
+        "Sm adatom",
+        "Kondo",
+        "STM",
+        "crystal field",
+        "charge state"
+      ],
+      "sections": [
+        {
+          "title": "问题—实验设计",
+          "text": "作者研究 Sm 单原子在 graphene/Ir(111) 上的可变价、晶场激发与 Kondo。邻居数和约1 nm距离改变电荷态，STM尖端电场可在两态间可逆切换并产生同心电荷环；只有特定电荷态出现磁激发。单原子体系让 Kondo、价态和局域晶场在同一位置逐原子关联。"
+        },
+        {
+          "title": "测量—关键数值",
+          "text": "低温 STS 看到 35、54 meV 两个低能台阶，归属 J=1/2 基态双重态到晶场分裂 J=3/2 多重态；另有更高能原子内交换激发。Kondo峰随垂直磁场 Zeeman 劈裂，双 Fano 拟合给 g=4.8±0.6。内禀半高宽从0.4 K的3.2 meV增至4 K的4.9 meV，估算 TK=18.6±1.8 K；另一台 STM 在6.5 K、0 T也看到峰，排除峰只由0.5 T最低场产生。"
+        },
+        {
+          "title": "模型—证据强弱",
+          "text": "共隧穿模型以 Sm 4f⁶6s¹为基态，拟合得到6s加/去电子能、4f–6s交换和晶场 B20；Sm²⁺能量接近解释尖端门控变价。35/54 meV台阶、场致劈裂和温度展宽是直接观察；Sm⁺/Sm²⁺、晶场参数和 TK 是模型推断。只用两个温度点估 TK，且背景用 ALS加双Fano处理，系统误差可能大于形式拟合误差。"
+        },
+        {
+          "title": "局限—下一步",
+          "text": "论文证明单原子 Kondo与可变价共存，但不是晶格重费米子。邻居触发磁激发可能涉及局域屏蔽、应变或石墨烯局部势，而不只是电荷态。建议增加温度序列、不同尖端高度和门控曲线，做邻距统计；用不同稀土和不同 graphene/金属底层分离4f本征、石墨烯态与 Ir 混成。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A+｜单原子Kondo与STM读者",
+        "first": "先看图3的电荷环、图5的35/54 meV台阶，再看图8–9的Kondo劈裂与拟合。",
+        "focus": "重点核对 TK 仅由两个温度点估算及 ALS/Fano 背景处理的稳健性。",
+        "next": "补密集温度序列和邻距统计，验证变价是否控制Kondo与激发可见性。"
+      },
+      "versionNote": "arXiv v1；尚未发现正式期刊 DOI。若后续正式发表，将以 DOI 为主记录并保留版本关系。"
+    }
+  ]
+}
