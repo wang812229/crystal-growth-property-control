@@ -23,7 +23,7 @@ if (!reports.length) throw new Error('content/reports 中没有报告。');
 const latest = reports[0];
 const brand = '每日文献简报';
 const nav = (active = '') => `<header><a class="brand" href="${url('/')}"><span>文</span>${brand}</a><nav><a class="${active==='today'?'on':''}" href="${url(`/reports/${latest.date}/`)}">今日简报</a><a href="${url('/#topics')}">研究板块</a><a class="${active==='archive'?'on':''}" href="${url('/archive/')}">往期归档</a><a class="${active==='search'?'on':''}" href="${url('/search/')}">智能检索</a></nav><b class="live">● 每日 08:00 更新</b></header>`;
-const shell = ({title, description, active, body}) => `<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)}</title><meta name="description" content="${esc(description)}"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:image" content="${absoluteUrl('/assets/og.png')}"><link rel="stylesheet" href="${url('/assets/style.css')}"><link rel="stylesheet" href="${url('/assets/library.css')}"></head><body>${nav(active)}${body}<footer><b>${brand}</b><span>每日追踪 Flux、CVT、arXiv 与重要期刊</span><small>资料仅用于科研交流，原文版权归作者与出版社所有</small></footer></body></html>`;
+const shell = ({title, description, active, body}) => `<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)}</title><meta name="description" content="${esc(description)}"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:image" content="${absoluteUrl('/assets/og.png')}"><link rel="stylesheet" href="${url('/assets/style.css')}"><link rel="stylesheet" href="${url('/assets/site-modern.css')}"><link rel="stylesheet" href="${url('/assets/library.css')}"></head><body>${nav(active)}${body}<footer><b>${brand}</b><span>每日追踪 Flux、CVT、arXiv 与重要期刊</span><small>资料仅用于科研交流，原文版权归作者与出版社所有</small></footer></body></html>`;
 
 const paperCard = (paper,i) => `<details class="home-paper-card"><summary><span class="home-card-number">${String(i+1).padStart(2,'0')}</span><span><span class="home-card-meta">${esc(paper.category??'未分类')} · ${esc(paper.material)}</span><span class="home-card-title">${esc(paper.title)}</span></span><span class="home-card-toggle" aria-hidden="true">+</span></summary><div class="home-card-content"><p>${esc(paper.sections?.[0]?.text??'')}</p><h3>本篇阅读建议</h3><p>${esc(paper.readingGuide?.first??'请核对原文的研究问题与方法。')}</p><a href="${url(`/reports/${latest.date}/#paper-${i+1}`)}">阅读完整证据链 →</a></div></details>`;
 const categories=[...new Set(latest.papers.map(p=>p.category??'未分类'))];
@@ -52,6 +52,7 @@ await mkdir(join(out, 'assets'), { recursive:true });
 await writeFile(join(out, 'index.html'), home);
 await writeFile(join(out, 'assets', 'style.css'), css+extraCss);
 await cp(join(root,'public','library.css'),join(out,'assets','library.css'));
+await cp(join(root,'public','site-modern.css'),join(out,'assets','site-modern.css'));
 await writeFile(join(out,'assets','search-index.json'),JSON.stringify(searchablePapers));
 await writeFile(join(out, '.nojekyll'), '');
 await cp(join(root, 'public', 'og.png'), join(out, 'assets', 'og.png'));
