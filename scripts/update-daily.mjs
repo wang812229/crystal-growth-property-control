@@ -21,8 +21,8 @@ const schema = {
   properties:{
     date:{type:'string'}, issue:{type:'integer'}, searchWindow:{type:'string'}, headline:{type:'string'}, hotspot:{type:'string'},
     searchTerms:{type:'array',items:{type:'string'}},
-    papers:{type:'array',items:{type:'object',additionalProperties:false,required:['material','title','authors','journal','date','doi','fullText','access','rating','method','sections'],properties:{
-      material:{type:'string'},title:{type:'string'},authors:{type:'string'},journal:{type:'string'},date:{type:'string'},doi:{type:'string'},fullText:{type:'string'},access:{type:'string'},rating:{type:'string'},method:{type:'string'},
+    papers:{type:'array',items:{type:'object',additionalProperties:false,required:['material','title','authors','journal','date','doi','fullText','access','rating','method','conclusion','sections'],properties:{
+      material:{type:'string'},title:{type:'string'},authors:{type:'string'},journal:{type:'string'},date:{type:'string'},doi:{type:'string'},fullText:{type:'string'},access:{type:'string'},rating:{type:'string'},method:{type:'string'},conclusion:{type:'string'},
       sections:{type:'array',items:{type:'object',additionalProperties:false,required:['title','text'],properties:{title:{type:'string'},text:{type:'string'}}}}
     }}}
   }
@@ -43,6 +43,8 @@ const prompt = `你是“晶体生长和物性调控”每日文献简报的科�
 4. 结构、成分、缺陷和质量表征，以及这些指标为何足以或不足；
 5. 物性测量：仪器或方法、几何、温度/磁场/压力范围、关键原始现象、数据、拟合模型和替代解释；
 6. 核心结论、创新、局限、可复现性风险、下一轮生长/测量建议和阅读优先级。
+
+每篇还必须单独生成 conclusion，标题语义固定为“Conclusion｜这篇论文讲了什么故事”。用 4–6 句、约 180–300 个中文字写成一段连贯叙事，依次回答：研究从什么矛盾或缺口出发；作者采用了什么独特样品/方法；哪组关键证据推动故事发生转折；最终建立了什么结论；这个结论对晶体生长、物性理解或后续实验有什么直接意义。它不是摘要改写，也不能复制通用模板。必须使用该论文特有的材料名、测量或生长方法和至少一个关键结果；只能访问摘要时要在 conclusion 中明确证据边界。
 
 全文精读条目每个 section 尽量写 180–350 个中文字，总体做到细致、连贯并有证据层级；仅摘要条目也要详细解释已知逻辑，但反复标明信息边界。doi 必须是可点击 URL；没有公开全文时 fullText 使用空字符串。headline 和 hotspot 用中文。searchTerms 记录实际使用的检索词。只返回符合给定结构的 JSON。`;
 
