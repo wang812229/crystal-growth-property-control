@@ -30,7 +30,7 @@ const schema = {
 
 const prompt = `你是“晶体生长和物性调控”每日文献简报的科研编辑。今天是北京时间 ${date}，期号 ${nextIssue}。
 
-请使用网页搜索，优先检索今天上线或发表的论文；如果今天没有高度相关结果，再回溯最近三个自然日。必须纳入 arXiv，并优先查看 PRL、PRB、Nature Communications、Nature Physics、Nature、Science 及同等级期刊。主题聚焦单晶生长，尤其 Flux growth 和 chemical vapor transport/CVT，并覆盖这些晶体的磁性、超导、电输运、热输运、光谱、量子振荡、压力或场调控。精选 3–5 篇；确实没有相关论文时可以为 0 篇，并如实说明，不得用过旧或低相关论文填数。
+请使用网页搜索，优先检索今天上线或发表的论文；如果今天没有高度相关结果，再回溯最近三个自然日。必须把 arXiv 作为独立轨道，并逐项检索 APS/Physical Review 全系列、Nature 系列、Science、Advanced Materials、Advanced Functional Materials、Nano Letters、ACS Nano、JACS、Chemistry of Materials、npj Quantum Materials、Crystal Growth & Design、Journal of Crystal Growth 及同等级相关期刊。主题覆盖单晶生长（尤其 Flux 与 CVT）、结构/缺陷/物性调控，同时纳入高温或非常规超导、重费米子/量子临界、磁性拓扑、自旋与二维器件。凡与这些主题有明确证据关联的论文均可收录，不限制篇数；不得用过旧或低相关论文填数。记录每条期刊轨道的命中、入选和排除原因。
 
 已经收录的 DOI：${seenDois.length ? seenDois.join(', ') : '无'}。按 DOI 去重，除非存在重要修订或新的后续物性结果，并在对应段落解释重复原因。
 
@@ -46,7 +46,7 @@ const prompt = `你是“晶体生长和物性调控”每日文献简报的科�
 
 每篇还必须单独生成 conclusion，标题语义固定为“Conclusion｜这篇论文讲了什么故事”。用 4–6 句、约 180–300 个中文字写成一段连贯叙事，依次回答：研究从什么矛盾或缺口出发；作者采用了什么独特样品/方法；哪组关键证据推动故事发生转折；最终建立了什么结论；这个结论对晶体生长、物性理解或后续实验有什么直接意义。它不是摘要改写，也不能复制通用模板。必须使用该论文特有的材料名、测量或生长方法和至少一个关键结果；只能访问摘要时要在 conclusion 中明确证据边界。
 
-全文精读条目每个 section 尽量写 180–350 个中文字，总体做到细致、连贯并有证据层级；仅摘要条目也要详细解释已知逻辑，但反复标明信息边界。doi 必须是可点击 URL；没有公开全文时 fullText 使用空字符串。headline 和 hotspot 用中文。searchTerms 记录实际使用的检索词。只返回符合给定结构的 JSON。`;
+全文精读条目原则上每篇总计不少于1500个中文字，重点论文可达2500–4000字；建立“问题—样品—生长—质量—测量—证据—结论—复现建议”链条，并区分直接观察、模型拟合、作者推断和编辑判断。仅摘要条目也要解释已知逻辑与信息边界，但不凑字数。doi 必须是可点击 URL；没有公开全文时 fullText 使用空字符串。headline 和 hotspot 用中文。searchTerms 记录实际日期、数据库、逐刊结果、访问状态与去重。只返回符合给定结构的 JSON。`;
 
 const response = await fetch('https://api.openai.com/v1/responses', {
   method:'POST',

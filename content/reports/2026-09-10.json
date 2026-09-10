@@ -1,0 +1,463 @@
+{
+  "date": "2026-09-10",
+  "issue": "016",
+  "searchWindow": "北京时间2026-09-10当天优先；当天目标期刊未发现可入选高相关新作，按规则回溯2026-09-08—09-10三个自然日。Crossref逐刊命中主要集中在9月8–9日；arXiv按lastUpdatedDate查询当天及三日窗返回0条，补充检索触发429限流，因此本期以正式期刊上线论文为主，并为5篇找到公开arXiv作者稿作全文核验。历史简报按DOI、arXiv ID和规范化题目去重，9篇均未在既往期次收录。",
+  "headline": "正式期刊成为今日主线：TeCl₄-CVT把FGT拓扑纹理写进可控温场路径，Ni 1s澄清镍酸盐杂化，THz把NbN的Dynes隙内态从隧穿经验推进到体光学证据。",
+  "hotspot": "今天的共同主题是‘把材料标签变成可审计控制变量’。FGT给出完整TeCl₄-CVT窗口并用同一视场追踪skyrmion；NbN用厚度序列和两套THz仪器锁定Δ₀处吸收；镍酸盐用Ni 1s绕开La 3d污染。铁电skyrmion与声-磁耦合工作进一步强调，峰值或共振本身不够，必须看相关函数、相位和排他性对照。正式期刊中另有三篇重要但全文受限的晶体/热电工作，本期明确缩短结论并列出需经机构访问补齐的参数。",
+  "searchTerms": [
+    "检索日期：2026-09-10（Asia/Shanghai）；实际窗口：2026-09-08—2026-09-10",
+    "正式期刊轨道：APS/PR全系列、Nature Portfolio、Science/AAAS、Wiley Advanced、ACS（Nano Letters/ACS Nano/JACS/Chemistry of Materials/ACS AMI）、Crystal Growth & Design、Journal of Crystal Growth、Crossref",
+    "主题词：single crystal, flux, self-flux, CVT, chemical vapor transport, crystal growth, superconduct*, heavy fermion, nickelate, skyrmion, magnet*, thermoelectric, ferroelectric, phonon",
+    "逐刊结果：APS 664条在线日期记录/181关键词候选；Nature 890/46；Science 1/0；Wiley 1347/92；ACS 656/78；CGD 10/10；JCG 0/0。人工按样品、生长和物性相关度筛选9篇",
+    "arXiv：三日窗口API初查0条；扩展查询HTTP 429。未用旧预印本填充，但对5篇正式论文追溯其公开arXiv版本以完成全文阅读",
+    "主要排除：纯理论且缺少样品/生长关联的Hyperspin altermagnets、Mg4AlSi3等；主题仅宽泛命中的催化/生物材料；重复历史条目。Fe4GeTe2偏压热电子与HSrCoO2.5条目因仅元数据且对本期主线解释增量不足暂不收录",
+    "全文状态：5篇公开PDF全文精读；3篇摘要级；1篇仅元数据。订阅正文未公开嵌入，ZJU VPN在本自动化环境未形成可复用出版社会话"
+  ],
+  "papers": [
+    {
+      "material": "Fe₃GeTe₂（FGT）CVT 单晶与约150 nm薄片",
+      "title": "Topological Spin-Texture Transitions in van der Waals Magnets Revealed by X-Ray Fourier Transform Holography",
+      "authors": "Sourav Chowdhury; Soumyaranjan Dash; Michael Schneider; Christopher Klose; Chithra H. Sharma; Lisa-Marie Kern; Tim A. Butcher; Josefin Fuchs; Santanu Pakhira; Samik DuttaGupta; Takashi Taniguchi; Kenji Watanabe; Sujit Das; Sanjeev Kumar; Bastian Pfau; Amir-Abbas Haghighirad; Moritz Hoesch",
+      "journal": "Advanced Materials（正式在线版）/ arXiv:2605.29890v1",
+      "date": "2026-09-08 正式在线；arXiv v1 2026-05-28",
+      "doi": "https://doi.org/10.1002/adma.74883",
+      "fullText": "https://arxiv.org/pdf/2605.29890",
+      "access": "全文精读：已取得并阅读24页 arXiv 主文、Methods 与补充图文；正式 Wiley 页面在当前自动化环境中未取得订阅 PDF，二者题目和作者对应。",
+      "rating": "A+",
+      "method": "TeCl₄-CVT：Fe:Ge:Te=3.1:1:2，745→695 °C，12 d；薄片转移后hBN封装",
+      "category": "晶体生长和物性调控",
+      "tags": [
+        "CVT",
+        "Fe3GeTe2",
+        "skyrmion",
+        "X-ray holography"
+      ],
+      "conclusion": "这篇论文从“怎样在金属型二维磁体中可重复地产生并切换不同拓扑自旋纹理”出发。作者先用TeCl₄化学气相输运生长近化学计量Fe₃GeTe₂单晶，再把约150 nm薄片封装到全息掩模上，以约15 nm分辨的同步辐射傅里叶变换全息术追踪同一区域。场冷条件把迷宫畴、混合相和孤立skyrmion分别写入；130 K时纹理受高能垒保护而难以互换，接近194 K时却可随磁场可逆转化。电子晶格模型同时重现实空间纹理和拓扑指标，故事因此从“看到漂亮磁畴”推进到“温度决定拓扑可编程性”。它既给出可复现的CVT配方，也告诉器件设计者应把场冷路径和工作温度当成同等重要的控制旋钮。",
+      "sections": [
+        {
+          "title": "问题—实验设计—热点",
+          "text": "FGT兼具金属性、强自旋轨道耦合和层状铁磁序，是室温附近可调skyrmion器件的热门平台。已有连续介质模型难以在小于百纳米尺度同时处理电子运动与纹理拓扑，实验又常因漂移而无法比较同一位置。作者把固定视场全息掩模、温度/磁场循环和含巡游电子的原子尺度模型组合起来；关键对照是三种场冷初态在130与194 K重复扫描，判断纹理差异来自热激活而非换了样品区域。"
+        },
+        {
+          "title": "单晶生长—复现参数",
+          "text": "高纯Fe 99.99%、Ge 99.999%、Te 99.999%按3.1:1:2摩尔比在Ar手套箱研磨，与约1 mg cm⁻³ TeCl₄混合。每根约20 cm石英安瓿装料约3.0 g，抽至约10⁻⁵ mbar后封管；双温区热端745 °C、冷端695 °C，持续12 d，在冷端收集有光泽六角片晶。升温/降温速率、安瓿内径、晶体横向尺寸与产率正文未报告。TeCl₄相对传统I₂降低了额外卤素变量，但仍需做运输剂浓度矩阵才能判断窗口宽度。"
+        },
+        {
+          "title": "成分—样品制备—质量",
+          "text": "SEM-EDS给出Fe:Ge:Te≈2.96:1.00:2.13，接近目标但Te略富；论文未给WDS/ICP、单晶XRD精修、马赛克度和批次分布。约150 nm薄片由胶带/PDMS转移到150 nm Si₃N₄膜，背面[Cr(5 nm)/Au(50 nm)]×13掩模含1.9 μm视场孔和五个<100 nm参考孔；10 min内覆盖约20 nm hBN以抑制氧化。局域成分和SQUID支持样品身份，但“一个薄片代表整批CVT晶体”的统计仍不足。"
+        },
+        {
+          "title": "测量—关键数据",
+          "text": "PETRA III P04用圆偏振708 eV（Fe L₃边）和XMCD形成面外磁矩对比；CCD 2048²、像素15 μm、样品距205 mm，空间分辨约15 nm。每个温度/磁场点需约300 s，CCI把140帧分四段观察测量期间重排。0、−8、−16 mT场冷分别形成迷宫、混合迷宫-skyrmion与孤立skyrmion；130 K扫场出现skyrmion bag和不可逆纹理，194 K附近则出现可逆迷宫—skyrmion转换。SQUID补充到7 T，χ(T)在0.1 T场冷，M(H)在2 K。"
+        },
+        {
+          "title": "证据分层—最强与最弱",
+          "text": "【直接观察】同一1.9 μm视场中磁畴随温度和磁场演化；【数据处理】相反圆偏振差分重建XMCD，CCI揭示194 K时灰色区域来自时间涨落；【模型结果】电子晶格Hamiltonian与Monte Carlo复现实空间纹理、skyrmion密度和Bott指标趋势；【作者推断】低温粗糙能景提供拓扑保护，接近T_C的熵让相间路径重新开放。【本简报判断】同区域循环和模型闭环很强；绝对场标度需用−8 mT图样校准、未知g因子和单片统计是最弱环节。"
+        },
+        {
+          "title": "可执行建议—下一炉与下一次测量",
+          "text": "生长端以3.1:1:2为中心扫描Fe过量2–5%与TeCl₄ 0.5–1.5 mg cm⁻³，固定745/695 °C，并对每批统计EDS/WDS、XRD摇摆曲线、T_C和矫顽场。器件端保持薄片厚度与hBN封装时间可追溯，增加50、100、200 nm厚度序列。成像应在相同场冷速率下至少三片重复，并报告300 s积分造成的动态平均。若要证明可写存储，必须完成多循环保持率、脉冲写入能耗和室温附近热漂移测试。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A+｜CVT、二维磁性与成像团队最高优先",
+        "first": "先读Methods中的TeCl₄-CVT和掩模制样，再看130/194 K两套场循环，最后核对模型如何标定实验磁场。",
+        "focus": "不要只看一张skyrmion图；重点看同一视场是否可逆、300 s积分是否平均掉快速态，以及EDS的Te富集是否影响T_C。",
+        "next": "最值得复制的是‘运输剂—厚度—场冷协议’三维矩阵，并用多薄片统计检验拓扑保护。"
+      },
+      "versionNote": "arXiv:2605.29890v1 首次提交/最近更新 2026-05-28；2026-09-08对应Advanced Materials正式在线版，DOI 10.1002/adma.74883。"
+    },
+    {
+      "material": "ALD NbN 4.5–20 nm超导薄膜",
+      "title": "Signatures of Dynes Density of States in the Terahertz Response of Atomic Layer Deposition Grown Superconducting NbN Thin Films",
+      "authors": "Frederik Bolle; Yayi Lin; Ozan Saritas; Martin Dressel; Ciprian Padurariu; Sahitya Varma Vegesna; Nitesh Yerra; Heidemarie Krüger; Marc Scheffler",
+      "journal": "Physical Review B（正式在线/accepted）/ arXiv:2602.15003v1",
+      "date": "2026-09-09 正式在线；arXiv v1 2026-02-17",
+      "doi": "https://doi.org/10.1103/q3yw-r68s",
+      "fullText": "https://arxiv.org/pdf/2602.15003",
+      "access": "全文精读：已阅读8页arXiv主文全部章节、表I和图1–6；ALD前驱体与精细沉积参数由论文引用旧文，本文未复述。",
+      "rating": "A+",
+      "method": "ALD于R面蓝宝石；4.5、5、7.5、10、20 nm厚度序列",
+      "category": "高温超导与强关联",
+      "tags": [
+        "NbN",
+        "ALD",
+        "THz spectroscopy",
+        "Dynes DOS"
+      ],
+      "conclusion": "这篇论文追问：无磁场下NbN的隙内吸收究竟只是BCS拟合误差，还是Dynes型态密度真的进入了体光学响应。作者制备4.5–20 nm的ALD NbN厚度序列，并用0.3–2.1 THz时域与频域透射从两条独立路径测复电导。20 nm膜在约Δ₀而非2Δ₀处出现阶梯吸收，标准Mattis–Bardeen模型漏掉该结构，而加入Γ≈0.036Δ₀的Dynes电动力学同时重现实部、虚部和Fabry–Pérot模的温度演化。所有薄膜的Γ在温度上近似恒定，削弱了普通非弹性散射解释，却没有唯一锁定磁性杂质或界面起源。故事的意义是把隧穿谱里的经验Γ转化成可由体敏THz测量审计的器件材料参数。",
+      "sections": [
+        {
+          "title": "问题—对照逻辑",
+          "text": "理想脏极限s波超导体在低温hf<2Δ时不应吸收，而许多NbN隧穿谱显示零偏态密度，需要Dynes参数Γ描述。作者的判断链是：先以DC输运和复电导确定T_c与2Δ，再比较Γ=0的Zimmermann/Mattis–Bardeen模型和有限Γ模型；最后用时域TDS与高分辨频域FDS两套仪器检查同一Γ能否同时解释谱形和Fabry–Pérot模。若只是一套仪器背景，第二套不会在相同温标复现。"
+        },
+        {
+          "title": "样品—生长信息边界",
+          "text": "五片NbN厚度4.5、5、7.5、10、20 nm，沉积在530 μm厚、10×10 mm²的R面Al₂O₃上，方法为ALD。本文没有复述前驱体、脉冲/吹扫、沉积温度、循环数、氮源、退火和厚度误差，而是引用Linzen等旧文；晶粒、粗糙度、XRD织构和化学计量也未在本篇重新给出。因此可称为厚度可控的已表征系列，却不能凭本篇独立复现ALD工艺。"
+        },
+        {
+          "title": "基础质量—厚度序列",
+          "text": "van der Pauw输运给出随厚度减小而升高的片阻112→1445 Ω/sq与电阻率2.23→6.50 μΩm，T_c从13.34降至8.49 K且转变变宽。光学T_c与DC一致。表I还给2Δ₀=4.65→2.50 meV、超流密度16.87→3.04×10²⁵ m⁻³、London穿透深度443→848 nm、方块动能电感10.5→259 pH/sq；这些内部一致趋势把厚度、无序与超流刚度联系起来，但缺少结构学批次统计。"
+        },
+        {
+          "title": "THz测量—关键现象",
+          "text": "TDS与FDS透射覆盖0.3–2.1 THz，最低示例温度3.1 K。20 nm膜正常态15.4 K的σ₁近频率无关，DC给σ≈4460 Ω⁻¹cm⁻¹；进入超导态后σ₁受抑且σ₂呈1/f。BCS模型能抓住2Δ边，却在约Δ₀漏掉阶梯吸收。Dynes模型的Γ=0.036Δ₀近乎完美重现σ₁、σ₂；FDS中0.4、0.49和约1 THz基底Fabry–Pérot模的透射与频移也由同一Γ解释。"
+        },
+        {
+          "title": "证据层级—替代解释",
+          "text": "【直接观察】Δ₀附近额外吸收、五膜T_c/隙/超流趋势；【模型拟合】Dynes DOS把Γ作为现象学对破参数；【交叉验证】TDS与FDS独立得到温度近似不变的Γ；【作者推断】普通电子-声子/电子-电子非弹性散射不占主导，因为它们通常应随温度变化。【本简报判断】光学体平均排除了纯表面局域谱的简单解释，但磁性散射、随机Shiba带与空间非均匀都仍可生成相近DOS，机制尚未唯一。"
+        },
+        {
+          "title": "复现建议—器件关联",
+          "text": "下一批应在相同ALD批次同时做XRR、AFM、XRD和截面TEM，并在每个厚度上用同一区域STEM-EDS/EELS排查界面氧/碳和氮空位。THz拟合需公开Γ、Δ、正常态散射率的协方差，并用盲法比较Dynes、非均匀隙分布和两带模型。若面向量子电路/探测器，应把Γ/Δ与微波损耗、暗计数和动能电感共同绘图；厚度变薄并未显示Γ单调暴增，不能把界面磁杂质当成既定答案。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A+｜超导薄膜、THz与器件材料最高优先",
+        "first": "先看表I的厚度序列，再对照图2的Δ₀阶梯与图4的Fabry–Pérot双仪器验证，最后读Discussion的机制排除。",
+        "focus": "重点分清‘Dynes形式拟合成立’和‘微观对破机制已确定’；ALD工艺细节必须回到引用文献补齐。",
+        "next": "建议把THz得到的Γ/Δ直接同微波Q值和界面化学做同片关联。"
+      },
+      "versionNote": "arXiv:2602.15003v1 首次提交/最近更新 2026-02-17；2026-09-09对应PRB正式在线记录，DOI 10.1103/q3yw-r68s。"
+    },
+    {
+      "material": "La₃Ni₂O₇ / Nd₃Ni₂O₇薄膜与LaNiO₃单晶",
+      "title": "Probing La-Based Nickelates with Ni 1s Core-Level Photoelectron Spectroscopy",
+      "authors": "Daisuke Takegami; Naoki Ito; Koto Fujinuma; Masato Yoshimura; Grace A. Pan; Dan Ferenc Segedin; Qi Song; Hanjong Paik; Charles M. Brooks; Hanjie Guo; Alexander C. Komarek; Takanori Taniguchi; Masaki Fujita; Julia A. Mundy; Takashi Mizokawa; Liu Hao Tjeng; Berit H. Goodge; Atsushi Hariki",
+      "journal": "Physical Review B（正式在线/accepted）/ arXiv:2606.17663v1",
+      "date": "2026-09-09 正式在线；arXiv v1 2026-06-16",
+      "doi": "https://doi.org/10.1103/fkvs-lfjm",
+      "fullText": "https://arxiv.org/pdf/2606.17663",
+      "access": "全文精读：已阅读7页arXiv主文、Methods及图1–4；薄膜生长细节引用既有工作，未取得单独补充材料。",
+      "rating": "A+",
+      "method": "双层镍酸盐为臭氧辅助MBE；LaNiO₃单晶为125 bar O₂高压浮区",
+      "category": "高温超导与强关联",
+      "tags": [
+        "nickelate",
+        "HAXPES",
+        "DFT+DMFT",
+        "floating zone"
+      ],
+      "conclusion": "这篇论文解决了镍酸盐研究中一个基础却会改变结论的谱学问题：La 3d与Ni 2p严重重叠，使常用Ni 2p谱无法干净告诉我们Ni–O电荷转移。作者比较MBE生长的La₃Ni₂O₇/ Nd₃Ni₂O₇薄膜和125 bar氧压浮区LaNiO₃单晶，在6.5与10 keV HAXPES中转而测没有自旋轨道分裂的Ni 1s。Ni 1s把钙钛矿与双层相清楚分开，并显示La₃Ni₂O₇主峰更宽、卫星更强；DFT+DMFT的参数扫描把这一组合更一致地指向拉伸应变下Ni–O杂化减弱，而非只改变电荷转移能。证据仍是定性趋势，因为两种薄膜的衬底和氧缺位同时不同。故事最终给出一把更干净的“Ni价态尺”，可用于系统比较层数、应变、掺杂与高压超导样品。",
+      "sections": [
+        {
+          "title": "问题—为什么Ni 1s重要",
+          "text": "高压La₃Ni₂O₇超导把Ruddlesden–Popper镍酸盐推到热点中心，但其Ni 2p与La 3d重叠，La还产生高能损失卫星；用La参考谱相减会把结构/键合差异误当Ni信号。作者先用无Ni的La₂CuO₄和La 3p证明La卫星确实跨入Ni 2p区，再以不含La的Nd₃Ni₂O₇确认Ni 1s、2p₃/₂和2p₁/₂的本征电荷转移卫星关系，建立替代测量。"
+        },
+        {
+          "title": "样品—生长与关系",
+          "text": "Nd₃Ni₂O₇/LaAlO₃与La₃Ni₂O₇/NdGaO₃薄膜均由反应性臭氧辅助MBE制备，La样采用改良挡板序列；详细束流、温度、氧化剂压强、厚度和退火由Refs.51–53承载，正文未报告。LaNiO₃单晶在Scidre HKZ高压镜式炉中以125 bar O₂浮区生长；La₂CuO₄用浮区溶剂行进法并在1 bar O₂退火。晶体尺寸、速率、旋转、相纯度和氧含量正文未报告。"
+        },
+        {
+          "title": "测量—直接谱学",
+          "text": "SPring-8 BL12XU的Max-Planck–NSRRC HAXPES站配MB Scientific A-1分析器，hν=6.5/10 keV，能量分辨约270/320 meV，温度80 K。Nd₃Ni₂O₇中Ni 1s、2p均显示非局域屏蔽产生的不对称主峰和高约7 eV卫星；1s比2p₃/₂宽、比2p₁/₂窄。LaNiO₃的主峰更低能且强不对称、卫星更弱；两种双层相整体相近，但La相主峰更宽更弱、卫星权重更大。"
+        },
+        {
+          "title": "DFT+DMFT—判断链",
+          "text": "计算沿用Nd₃Ni₂O₇的DFT+DMFT价带与杂化密度V(ε)，分别扫描电荷转移能Δdp和把杂化整体缩放至95%/90%。降低Δdp与降低杂化都会增强卫星、削弱主峰低束缚能侧，但主峰宽度反向变化：减弱杂化使其变宽，减小Δdp则变窄。实验中La₃Ni₂O₇恰是“卫星增强+主峰变宽”，故作者认为杂化减弱占主导，并联系到NdGaO₃上的拉伸应变。"
+        },
+        {
+          "title": "证据边界—可替代解释",
+          "text": "【直接观察】La谱重叠、Ni 1s材料差异；【模型结果】参数敏感性指向杂化变化；【作者推断】衬底应变造成La相Ni–O杂化较弱；【本简报判断】Ni 1s作为测量通道的结论很牢，具体归因却非唯一，因为La/Nd薄膜同时更换衬底、稀土元素和可能的氧缺位，作者也明确称无法定量拟合。1s有限寿命展宽与270–320 meV仪器分辨还限制细微多重态分解。"
+        },
+        {
+          "title": "下一轮样品矩阵",
+          "text": "最关键实验是同一RNiO体系在可交换衬底上做应变系列，并用STEM-EELS/氧同位素退火约束氧空位；每片同步测倒易空间图、厚度和表面粗糙度。HAXPES应固定光子能量/取向比较Ni 1s主峰宽度、卫星比与DMFT参数，并加入层数n=1,2,3和压力前后样品。LaNiO₃浮区复现需补齐氧压下拉速/转速和氧化学计量，避免把样品差异全部归因于电子关联。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A+｜镍酸盐、高压超导与同步辐射团队最高优先",
+        "first": "先看图1确认La污染为何不可相减，再看图2验证Ni 1s保留同一CT物理，最后读图4的Δdp/杂化判别。",
+        "focus": "重点检查La/Nd样品是否真正只差应变；氧缺位和不同稀土离子仍是未排除变量。",
+        "next": "后续应做同组成、多衬底、同氧含量矩阵，把Ni 1s从定性指纹升级为定量杂化标尺。"
+      },
+      "versionNote": "arXiv:2606.17663v1 首次提交 2026-06-16、PDF日期2026-06-17；2026-09-09对应PRB正式在线记录。"
+    },
+    {
+      "material": "(PbₓSr₁₋ₓTiO₃)₁₆/(PbTiO₃)₁₆铁电超晶格模型",
+      "title": "Hidden Crossover and Relaxor-Like Response from Emerging Polar Skyrmion Correlations in Ferroelectric Superlattices",
+      "authors": "Zhi-Yang Wang; Fei Yang; Long-Qing Chen",
+      "journal": "Physical Review Letters（正式在线/accepted）/ arXiv:2604.26100v1",
+      "date": "2026-09-09 正式在线；arXiv v1 2026-04-28",
+      "doi": "https://doi.org/10.1103/q5py-rxfk",
+      "fullText": "https://arxiv.org/pdf/2604.26100",
+      "access": "全文精读：已阅读6页arXiv主文、模型、结果与讨论；论文引用的Supplemental Material未随当前PDF取得。此为相场模拟，无新实验晶体。",
+      "rating": "A",
+      "method": "大规模相场/TDGL；200³网格，五周期16/16层超晶格",
+      "category": "铁电与光场调控",
+      "tags": [
+        "polar skyrmion",
+        "phase-field",
+        "relaxor",
+        "superlattice"
+      ],
+      "conclusion": "这篇论文问的是：铁电有序已经建立以后，为什么介电响应还会在更低温度出现一个宽峰。作者在五周期(PbₓSr₁₋ₓTiO₃)₁₆/(PbTiO₃)₁₆超晶格上做200³网格相场模拟，发现约800 K的一阶铁电转变之外，x=0.3时约500 K还出现不伴随新序参量的宽峰。实空间纹理和层间相关函数显示，冷却使原本逐层无关的极性skyrmion堆成有限相关长度的柱状集合；AC频率升高时宽峰上移，形成没有化学无序的类弛豫响应。转折点不来自第二次对称性破缺，而是相关体积增大与极化背景变硬之间的竞争。它为可调介电异常提供了成分/周期设计原则，但目前仍是模型预测，必须由真实超晶格成像和介电频谱验证。",
+      "sections": [
+        {
+          "title": "背景—模型假设",
+          "text": "传统Landau图景把介电峰归于对称性破缺和序参量涨落；作者提出拓扑缺陷之间的相关也能主导热力学响应。总自由能含六阶Landau-Devonshire、梯度、弹性和静电项，极化P为序参量，TDGL推进动力学；短路边界、零自由电荷。网格200Δ³、Δ=0.4 nm，包含20格衬底、176格超晶格、4格空气层；16格PTO与16格PST交替五次。"
+        },
+        {
+          "title": "直接模拟结果",
+          "text": "x=0.3时介电率在T_c≈800 K出现尖锐不连续峰并同时产生平均极化；约500 K出现第二个宽峰，而极化跨越该温度连续，故不支持新对称性破缺。700→100 K纹理显示PTO层内skyrmion从层间随机逐渐对齐。沿z的极化自相关以阻尼振荡拟合，周期λ=12.8 nm固定，相关长度ξ随冷却增长；PST/PTO极化比γ在约500 K出现曲率变号。"
+        },
+        {
+          "title": "AC响应—类弛豫的含义",
+          "text": "AC场周期从t₀增加到2t₀、3t₀时，宽峰随驱动频率升高向高温移动；这像弛豫铁电，但模型中没有淬火无序或极性纳米区。作者把它解释为层间相关skyrmion集合的慢弛豫。这里的‘弛豫’是动力学相似性，不等于已证明Vogel–Fulcher冻结；补充材料里的动力学系数Γ、场幅和时间标定对把模拟频率对应到实验Hz至关重要。"
+        },
+        {
+          "title": "成分相图—设计窗口",
+          "text": "Pb含量x≲0.1时PST间隔层极化太弱，skyrmion在整个温区基本不相关；x升高后层间交叉温度单调上升，而约850 K附近的铁电转变变化较小，因为由PTO层主导。作者提出用间隔层极化传递偶极耦合，控制skyrmion堆叠。模型没有包含界面互扩散、位错、有限电极和随机缺陷，因此实际相图可能显著展宽。"
+        },
+        {
+          "title": "证据分层—边界",
+          "text": "【直接计算】介电峰、相关函数、实空间纹理与x–T图；【拟合定义】ξ由有限尺寸修正的阻尼余弦提取；【作者推断】相关增强先抬高响应、低温极化刚度再压低响应，二者形成宽峰；【本简报判断】三个指标在500 K闭合是强内部证据，但全部出自同一自由能模型，不能独立排除参数化造成的伪交叉，且尚无实验样品、误差或频率绝对标定。"
+        },
+        {
+          "title": "实验验证建议",
+          "text": "生长(PST)₁₆/(PTO)₁₆时应做x=0.05–0.4系列并同步测层厚、应变和界面互扩散；用温变介电谱覆盖至少6个频率数量级，看宽峰是否与x单调移动。最有判别力的是温变截面STEM/4D-STEM或相干X射线成像直接测层间skyrmion相关长度，并比较ξ拐点与介电峰。加入无拓扑纹理的厚度/应变对照，才能排除普通界面Maxwell–Wagner和缺陷弛豫。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜铁电超晶格与相场团队优先",
+        "first": "先看图1的双峰与连续极化，再看图2的相关函数/γ曲率，最后看图3的x–T设计图。",
+        "focus": "不要把500 K宽峰叫第二相变，也不要把模拟时间步直接当实验频率。",
+        "next": "最关键后续是同一温区同时测介电谱和层间纹理相关长度。"
+      },
+      "versionNote": "arXiv:2604.26100v1 首次提交/最近更新 2026-04-28；PRL 2026-09-09正式在线，DOI 10.1103/q5py-rxfk。"
+    },
+    {
+      "material": "LiTaO₃/Co₄₀Fe₄₀B₂₀声-磁耦合波导",
+      "title": "Phase-Resolved Imaging of Coherent Phonon-Magnon Coupling",
+      "authors": "Yannik Kunz; Florian Kraft; David Breitbach; Kevin Künstle; Torben Pfeifer; Matthias Küß; Stephan Glamsch; Manfred Albrecht; Mathias Weiler",
+      "journal": "Physical Review B（正式在线/accepted）/ arXiv:2603.06115v1",
+      "date": "2026-09-09 正式在线；arXiv v1 2026-03-06",
+      "doi": "https://doi.org/10.1103/vvy1-772h",
+      "fullText": "https://arxiv.org/pdf/2603.06115",
+      "access": "全文精读：已阅读8页arXiv主文、实验方法与全部主图；样品微加工与拟合方程细节位于未取得的Supplemental Material。",
+      "rating": "A",
+      "method": "LiTaO₃上IDT激发3.41 GHz SH-SAW；5 nm CoFeB波导",
+      "category": "磁性拓扑与自旋",
+      "tags": [
+        "magnonics",
+        "SAW",
+        "CoFeB",
+        "phase-resolved MOKE"
+      ],
+      "conclusion": "这篇论文要证明的不是声波会让磁信号变强，而是表面声波真正以固定相位驱动了自旋波。作者在LiTaO₃上用叉指换能器产生3.41 GHz剪切水平SAW，让它耦合5 nm厚、20 μm宽的Co₄₀Fe₄₀B₂₀波导，再用532 nm微聚焦、矢量网络分析器锁相的µFR-MOKE逐点读复数S₂₁。声波信号对分析器角度呈偶对称，自旋波呈奇对称，±45°数据相减后可把两者拆开；在±11 mT共振处，自旋波相对驱动力出现约90°相移且波长相同。拟合得到g≈6.63 MHz、协同性约2.6×10⁻³，说明已直接成像相干驱动但仍处弱耦合。故事把‘声子-磁振子耦合’从吸收间接证据推进到空间和相位均可追踪的器件诊断。",
+      "sections": [
+        {
+          "title": "问题—关键对照",
+          "text": "电学透射只看到SAW能量损失，不能证明产生的自旋波保持相干。作者设计偏振选择规则：LiTaO₃的弹光反射调制对分析角为偶函数，极向MOKE自旋信号为奇函数。先在裸LiTaO₃测3.41 GHz SAW，再在40 nm permalloy、7 GHz、30 mT Damon–Eshbach几何测自旋波，建立两种偏振指纹；之后才把规则用于同一CoFeB耦合器。"
+        },
+        {
+          "title": "样品—制造信息边界",
+          "text": "主样品由压电LiTaO₃衬底、叉指换能器和5 nm厚/20 μm宽Co₄₀Fe₄₀B₂₀条带组成，传播长度示意约750 μm、选区间距8.5 μm。主文未给LiTaO₃切向、IDT周期/指宽、金属层、CoFeB沉积方法、基压、退火、帽层和粗糙度，明确指向Supplemental Material；因此无法从当前主文独立复刻器件。样品属于微加工薄膜系统，不是块体晶体生长。"
+        },
+        {
+          "title": "测量几何—分辨率",
+          "text": "连续532 nm线偏振光经100×/0.75 NA物镜聚焦，衍射极限光斑约355 nm；反射光经半波片/偏振器和光电探测器进入VNA端口2，端口1驱动IDT，读取复数S₂₁并保留相位。SAW测量用12 dBm，CoFeB处采用k_SAW∥H的后向体几何，频率3.41 GHz、波矢5.3 rad μm⁻¹；Kalinikos–Slavin色散预计与自旋波在μ₀H≈±11 mT交叉。"
+        },
+        {
+          "title": "关键现象—定量耦合",
+          "text": "在波导末端，±11 mT时SAW振幅下降且相位偏移，符合磁系统改变声阻抗；在波导起点，±45°偏振数据的绝对值相减压低SAW背景，留下共振增强的自旋信号。它与SAW具有相同波长，并在共振处相差约90°，正是受迫谐振器的相位关系。拟合κ_SAW=12.0±1.2 MHz、κ_SW=1.41±0.2 GHz、g=6.63±0.9 MHz、C=(2.6±0.9)×10⁻³；自旋波衰减长约1.85 μm。"
+        },
+        {
+          "title": "证据边界",
+          "text": "【直接观察】复S₂₁的空间波前、共振幅降与相移、偏振奇偶性；【模型拟合】损耗率、g与协同性；【作者推断】SAW连续驱动相干自旋进动；【本简报判断】同波长和90°相位是比单纯吸收更强的相干证据，但残余弹光双折射使离共振背景不为零，参数依赖未取得的补充方程和单器件拟合。当前C远小于1，不能称强耦合或正常模劈裂。"
+        },
+        {
+          "title": "器件升级建议",
+          "text": "先补齐IDT/薄膜工艺和VNA标定，再在不同CoFeB厚度、波导宽度和传播长度上重复奇偶分离，检验g与κ缩放。作者建议加厚CoFeB或加Bragg栅形成平面腔；实验上还应同步BLS或电学S参数作为独立对照，并把空间扫描漂移（文中振幅随位置轻微上升）纳入误差。若目标是量子转导，需要显著降低κ_SW并展示C接近或超过1，而不只是提高光学对比度。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜磁振子、声表面波与器件测量优先",
+        "first": "先读图1的偏振奇偶分离，再看图2共振背作用和图3的90°相位，最后核对C的定义。",
+        "focus": "重点不要把共振增强等同强耦合；C≈2.6×10⁻³仍明确处于弱耦合。",
+        "next": "优先用Bragg腔和更低阻尼磁层提高C，同时以BLS做独立相干验证。"
+      },
+      "versionNote": "arXiv:2603.06115v1 首次提交/最近更新 2026-03-06；PRB 2026-09-09正式在线。"
+    },
+    {
+      "material": "Yb₃Ga₂Al₃O₁₂超超kagome磁体",
+      "title": "Magnetic and Crystal Electric Field Studies of a Spin-Orbit Coupled Hyperkagome Compound Yb₃Ga₂Al₃O₁₂",
+      "authors": "R. Kolay; S. Samanta; Sangeeta; M. P. Saravanan; R. Nath",
+      "journal": "Physical Review Materials（正式在线/accepted）",
+      "date": "2026-09-09 正式在线；accepted 2026-08-21",
+      "doi": "https://doi.org/10.1103/phxt-sdhz",
+      "fullText": "",
+      "access": "仅基于APS官方摘要/元数据：未取得正文或补充材料；生长参数、结构精修和完整测量条件不得推断。",
+      "rating": "B+",
+      "method": "正文未取得；生长法、配比、温程与晶体形态均未知",
+      "category": "磁性拓扑与自旋",
+      "tags": [
+        "Yb3+",
+        "hyperkagome",
+        "CEF",
+        "frustration"
+      ],
+      "conclusion": "这篇论文把Yb₃Ga₂Al₃O₁₂作为自旋轨道耦合超超kagome磁体，询问低温是否形成磁有序以及Yb³⁺晶场如何定义有效自由度。APS摘要显示，磁化和热容在0.1 K以上没有长程有序，低温基态可约化为Kramers双重态J_eff=1/2，较小Curie–Weiss温度和磁化缩放又提示交换很弱。点电荷晶场模型给出的能级/波函数能同时重现磁化率、等温磁化和磁热容，两能级Schottky项解释了外场下异常。因为正文未取得，晶体是否为单晶、怎样生长、CEF参数与误差都不能核验。现阶段它最适合作为值得获取全文的候选，而不是可直接照抄的Flux/CVT配方。",
+      "sections": [
+        {
+          "title": "已知科学逻辑",
+          "text": "几何受挫Yb³⁺网络可在强SOC下形成有效自旋1/2，热点在量子自旋液体与极低温关联。摘要的证据链是：无0.1 K以上长程序→小Curie–Weiss温度→场致Kramers双重态劈裂的Schottky热容→点电荷CEF同时拟合多种磁数据。多测量一致优于单一Curie–Weiss拟合。"
+        },
+        {
+          "title": "生长与质量边界",
+          "text": "晶体成分由题目可知，但空间群、样品是粉末还是单晶、尺寸、取向、原料、助熔剂、坩埚、气氛、峰值温度、降温速率、分离和产率均未出现在可访问摘要。正文未报告/未读取，不能按石榴石常见固相或Flux路线补写。"
+        },
+        {
+          "title": "物性与替代解释",
+          "text": "直接已知的是磁测下至0.1 K未见长程序、J_eff=1/2和弱相互作用；具体场范围、热容核贡献扣除、拟合CEF能级和g张量未知。‘未有序’不自动等于量子自旋液体，也可能只是交换弱或无序；点电荷模型重现实验并不唯一证明微观CEF。"
+        },
+        {
+          "title": "下一步",
+          "text": "取得正式PDF/SI后优先核对样品形态、单晶/粉末XRD、Ga/Al占位无序与低温热容原始数据。实验上需µSR/中子或ESR在0.1 K以下区分动态自旋态、玻璃化与简单顺磁，并用非磁同构物扣除晶格热容。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "B+｜受挫磁性团队优先获取全文",
+        "first": "先读样品合成与晶体学，再读低温热容扣背景，最后检查CEF拟合是否同时约束g张量和INS/ESR。",
+        "focus": "最需警惕把‘无长程序’直接叫自旋液体，以及Ga/Al占位无序对超超kagome网络的影响。",
+        "next": "全文到手后再决定是否进入可复现实验清单。"
+      },
+      "versionNote": "APS官方accepted页与Crossref元数据；截至检索时未发现公开作者稿/arXiv对应。"
+    },
+    {
+      "material": "Cs₃Cu₂I₅厘米级闪烁单晶",
+      "title": "Phase-Controlled Crystal Growth of Cs₃Cu₂I₅ Scintillators via the Solution Method for γ-Ray Detection",
+      "authors": "Xuanzhen Ye; Bin Fang; Xin Liu; Shilin Liu; Fangbao Wang; Xiaoyuan Song; Bin Wu; Wei Xu; Wei Huang; Zhichun Xu; Jiahao Geng; Dou Zhao; Liang Chen; Yadong Xu",
+      "journal": "ACS Applied Materials & Interfaces",
+      "date": "2026-09-09 正式在线",
+      "doi": "https://doi.org/10.1021/acsami.6c09525",
+      "fullText": "",
+      "access": "仅基于PubMed可见摘要与Crossref元数据：ACS订阅正文/SI未在当前自动化环境取得；参数缺失均保持未知。",
+      "rating": "A-",
+      "method": "恒温溶剂蒸发结晶（CT-SEC）；前驱体抗氧化与化学计量协同控相",
+      "category": "晶体生长和物性调控",
+      "tags": [
+        "Cs3Cu2I5",
+        "solution growth",
+        "scintillator",
+        "phase control"
+      ],
+      "conclusion": "这篇论文从一个直接的长晶痛点出发：廉价溶液法可以长Cs₃Cu₂I₅，却会在长周期蒸发中因I⁻/Cu⁺比下降而析出CsCu₂I₃副相。作者用恒温溶剂蒸发结晶制备厘米级单晶，并把前驱体抗氧化处理与原料化学计量联动，使目标相在长时间生长中保持稳定。摘要报告晶体对¹³⁷Cs和²⁴¹Am γ射线的能量分辨率分别为5.38%与13.30%，说明控相结果已经传递到器件性能。真正的转折是把“副相不可避免”改写成可由溶液氧化还原与卤素/铜比例管理的问题。当前只能基于摘要判断，溶剂、温度、配比、蒸发速率、尺寸和缺陷密度仍需正文/SI才能复现。",
+      "sections": [
+        {
+          "title": "问题—控相机制",
+          "text": "0D铜卤化物Cs₃Cu₂I₅适合γ探测，但溶液生长过程中I⁻/Cu⁺浓度比随蒸发演化，使CsCu₂I₃竞争相出现。作者把相演化与前驱体氧化和原料计量联系起来，而不只用最终XRD结果倒推；这类‘时间依赖溶液化学’正是放大到厘米晶体时的热点。"
+        },
+        {
+          "title": "生长信息边界",
+          "text": "可知方法为恒温溶剂蒸发CT-SEC，并通过前驱体抗氧化处理和计量调节实现长期相稳定。溶剂种类、CsI/CuI纯度和摩尔比、容器、温度、气氛、溶液浓度、过滤、蒸发速率、籽晶、持续时间、晶体确切尺寸、后处理和产率在摘要中未报告。"
+        },
+        {
+          "title": "质量与物性",
+          "text": "摘要称‘厘米级、高质量’且消除CsCu₂I₃，但XRD精修、光学透过、陷阱密度、PLQY、衰减时间和多晶体统计未知。γ能谱的5.38%（¹³⁷Cs）与13.30%（²⁴¹Am）是直接性能锚点；光产额、耦合方式、晶体尺寸和测试误差未见，不能与其他闪烁体做严格横比。"
+        },
+        {
+          "title": "复现建议",
+          "text": "拿到SI后应先抄全I⁻/Cu⁺随时间的分析方法而不是只抄终点配比。复现时记录溶液溶氧/水含量、Cu⁺氧化状态、重量损失与晶体生长速率，并以XRD/Raman/显微PL沿生长方向做副相分布；同一晶体切片测能量分辨率，建立副相/缺陷与探测性能关系。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A-｜溶液单晶和闪烁体团队高优先",
+        "first": "先获取SI看相图和I⁻/Cu⁺时间轨迹，再读抗氧化/配比二维矩阵，最后核对γ谱测试几何。",
+        "focus": "不要把‘厘米级’或‘高质量’当作定量指标；需看尺寸、产率、陷阱和跨晶体统计。",
+        "next": "最有价值的复现实验是在线跟踪Cu⁺氧化与卤素比，验证副相临界点。"
+      },
+      "versionNote": "Crossref与PubMed记录均指向2026-09-09在线；未发现公开作者稿或arXiv。"
+    },
+    {
+      "material": "BiSbSe₃无Te热电材料",
+      "title": "Native Defects-Induced Fermi-Level Pinning and Diffuson-Mediated Thermal Transport in BiSbSe₃ Thermoelectrics",
+      "authors": "Shulin Bai; Bingchao Qin; Da Wan; Yixuan Hu; Baocheng Yuan; Tian Gao; Sining Wang; Zhenghao Hou; Yi Wen; Li-Dong Zhao",
+      "journal": "Advanced Materials",
+      "date": "2026-09-08 正式在线",
+      "doi": "https://doi.org/10.1002/adma.74931",
+      "fullText": "",
+      "access": "仅基于PubMed/出版社摘要与Crossref元数据：未取得Wiley正文和补充材料。",
+      "rating": "A-",
+      "method": "制备路线正文未取得；摘要结合电子显微、第一性原理与热/电输运",
+      "category": "晶体生长和物性调控",
+      "tags": [
+        "BiSbSe3",
+        "thermoelectric",
+        "native defects",
+        "diffuson"
+      ],
+      "conclusion": "这篇论文解释了BiSbSe₃的反常组合：晶格热导已经很低，热电优值却仍被电输运卡住。作者把电子显微与第一性原理结合，指出低形成焓的Se空位及阳离子占Se位缺陷稳定n型、补偿空穴并把Fermi能级钉扎在远离价带顶的位置。与此同时，带边Sb–Se强杂化软化Sb主导低频光学声子，增强声学-光学耦合并在高温推动diffuson式传热。理论/实验对照把n型上限归于高施主浓度导致的迁移率退化，并预测若解除钉扎，p型在300–800 K平均ZT可约1.4。由于当前只读到摘要，样品是否为单晶、具体成分/烧结和输运误差都未知；故事可信度需等正文把缺陷浓度、声子证据和ZT闭合。",
+      "sections": [
+        {
+          "title": "问题—双重限制",
+          "text": "多数研究把超低热导视为热电优势，但BiSbSe₃的p型难以稳定、n型继续加施主又降低迁移率。论文将同一化学键合同时作用于电子缺陷和声子软化，尝试用统一框架解释‘热低、电差’。这是从经验掺杂转向缺陷化学设计的热点。"
+        },
+        {
+          "title": "已知证据",
+          "text": "摘要明确提到电子显微、第一性原理、理论/实验匹配；Se空位与阳离子占Se位低形成焓，Sb–Se带边杂化软化低频光学声子，并促进高温diffuson传热。具体TEM缺陷图、声子谱、热导分解、Hall和ZT数据点均未在摘要给出。"
+        },
+        {
+          "title": "样品/生长边界",
+          "text": "材料名为BiSbSe₃，但晶体结构、空间群、制备是熔融/机械合金化/放电等离子烧结还是单晶，原料纯度、配比、温程、退火、密度、晶粒和取向全部未知。故本站不把它列为已知Flux/CVT配方，且无法判断显微样品与输运块体是否同批。"
+        },
+        {
+          "title": "可执行建议",
+          "text": "正文到手后应核对缺陷形成能所用化学势边界与实验EDS/WDS定量，区分Se空位和反位缺陷的独立证据；热输运要看声子谱、Allen–Feldman/diffuson模型和辐射/电子热导扣除。合成上可用Se过量、退火分压或等价补偿掺杂检验Fermi钉扎是否真能解除，而不是只凭计算预测p型ZT。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A-｜热电、缺陷与声子输运团队高优先",
+        "first": "先获取Methods确认样品路线，再读缺陷形成能和显微证据，最后检查diffuson分解与ZT预测如何连接。",
+        "focus": "重点分清测得的n型极限与预测的p型平均ZT≈1.4；后者不是已实现数据。",
+        "next": "优先做Se化学势控制和Hall/热导同批测量，直接验证钉扎解除。"
+      },
+      "versionNote": "2026-09-08正式在线；Crossref DOI 10.1002/adma.74931，PubMed提供完整摘要；未发现公开全文。"
+    },
+    {
+      "material": "无定形碳上HPHT异质外延单晶金刚石",
+      "title": "Heteroepitaxial Growth of Single-Crystal Diamond on Amorphous Carbon under High Pressure and High Temperature",
+      "authors": "Hao Wang; Yilong Pan; Hongwei Wang; Tian Cui; Ning Chen",
+      "journal": "Crystal Growth & Design",
+      "date": "2026-09-08 正式在线",
+      "doi": "https://doi.org/10.1021/acs.cgd.6c00651",
+      "fullText": "",
+      "access": "仅基于题目、作者、期刊、日期与DOI元数据：当前检索未取得摘要、正文或SI；因生长主题高度匹配而作为信息边界条目保留。",
+      "rating": "B",
+      "method": "HPHT异质外延；压力、温度、碳源和籽晶参数未知",
+      "category": "晶体生长和物性调控",
+      "tags": [
+        "diamond",
+        "HPHT",
+        "heteroepitaxy",
+        "Crystal Growth & Design"
+      ],
+      "conclusion": "这篇论文从题目层面提出一个反直觉生长故事：在通常缺乏长程晶格模板的无定形碳上，通过高压高温条件实现单晶金刚石异质外延。作者和DOI已由Crossref核实，论文正式发表于Crystal Growth & Design，因此与本简报的晶体生长主线高度相关。可是当前自动化环境没有取得摘要、正文或补充材料，无法知道‘外延’由哪种取向关系、何种催化剂或哪组XRD/TEM证据定义，也不知道压力、温度、时间和晶体尺寸。我们保留它是为了提醒优先通过浙大机构访问补全文献，不把题目直接扩写成机制。现阶段它不是可复现配方，任何关于成核路径和物性的描述都应等待全文。",
+      "sections": [
+        {
+          "title": "元数据确认",
+          "text": "题目、五位作者、Crystal Growth & Design、2026-09-08在线日期及DOI 10.1021/acs.cgd.6c00651均由Crossref逐刊检索获得。研究对象明确是无定形碳基底、HPHT和单晶金刚石异质外延，属于高相关生长论文。"
+        },
+        {
+          "title": "生长信息边界",
+          "text": "原料/碳源、金属催化剂、压力、温度程序、保温、冷却、基底处理、籽晶、取向、尺寸和产率均未取得。不能援引其他HPHT金刚石工作中的典型5–6 GPa或1300–1600 °C来填空。"
+        },
+        {
+          "title": "质量与机制边界",
+          "text": "‘单晶’与‘异质外延’需要单晶XRD/Laue、EBSD取向图、HRTEM界面关系和Raman缺陷共同支撑；当前全部未知。也不知道论文测了硬度、光学、NV缺陷或电学。因此本站只记录信息缺口，不评价创新是否成立。"
+        },
+        {
+          "title": "获取全文后的检查清单",
+          "text": "先从ZJU VPN/ACS页面下载正文与SI，核对无定形层在HPHT后是否局部晶化、外延取向参照谁、是否存在金属催化剂残留。再抽取完整P–T–t路径、相图、晶体尺寸和多点EBSD统计；若只展示单颗粒局部TEM，则不能外推为宏观单晶。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "B｜HPHT金刚石团队优先补全文",
+        "first": "拿到全文后先看界面结构和取向统计，再看P–T–t路径，最后看是否有宏观晶体/性能证据。",
+        "focus": "最关键问题是‘无定形基底上的外延参照是什么’，必须由界面原子结构而非标题回答。",
+        "next": "需用户保持ZJU机构访问会话并手动登录出版社，自动化任务不能代填凭证。"
+      },
+      "versionNote": "2026-09-08 Crossref正式在线记录；截至检索时无可访问摘要/公开稿。"
+    }
+  ]
+}
