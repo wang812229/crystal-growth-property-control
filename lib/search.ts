@@ -1,5 +1,5 @@
 export type Paper = {
- id:string; title:string; authors:string; journal:string; material:string; method:string;
+ id:string; title:string; authors:string; institutions?:string; journal:string; material:string; method:string;
  category:string; tags:string[]; abstract:string; conclusion:string; summary:string; year:number|null;
  published:string; date:string; type:string; citations:number|null; citationDate:string;
  source:string; doi:string; openAccess:boolean|null; dataSource:string; fullText:string; reportUrl:string; access:string; rating:string;
@@ -7,8 +7,8 @@ export type Paper = {
 };
 export type Filters={query:string;field:string;category:string;journal:string;method:string;access:string;openAccess:string;tags:string;date:string;from:string;to:string;type:string;sort:string;favorites:boolean;page:number;size:number};
 export const defaults:Filters={query:'',field:'all',category:'',journal:'',method:'',access:'',openAccess:'',tags:'',date:'',from:'',to:'',type:'',sort:'relevance',favorites:false,page:1,size:10};
-export const fields:Record<string,string>={all:'全部字段（含简报）',title:'标题',authors:'作者',abstract:'原始摘要',keywords:'关键词',journal:'期刊',doi:'DOI',summary:'简报分析'};
-const aliases:Record<string,string>={title:'title',标题:'title',author:'authors',authors:'authors',作者:'authors',abstract:'abstract',摘要:'abstract',keyword:'keywords',keywords:'keywords',关键词:'keywords',summary:'summary',简报:'summary',主题:'category',板块:'category',category:'category',期刊:'journal',journal:'journal',doi:'doi',方法:'method',method:'method',日期:'date',date:'date',全文:'access',access:'access'};
+export const fields:Record<string,string>={all:'全部字段（含简报）',title:'标题',authors:'作者',institutions:'单位',abstract:'原始摘要',keywords:'关键词',journal:'期刊',doi:'DOI',summary:'简报分析'};
+const aliases:Record<string,string>={title:'title',标题:'title',author:'authors',authors:'authors',作者:'authors',institution:'institutions',institutions:'institutions',单位:'institutions',机构:'institutions',abstract:'abstract',摘要:'abstract',keyword:'keywords',keywords:'keywords',关键词:'keywords',summary:'summary',简报:'summary',主题:'category',板块:'category',category:'category',期刊:'journal',journal:'journal',doi:'doi',方法:'method',method:'method',日期:'date',date:'date',全文:'access',access:'access'};
 export const synonyms=[['flux','self-flux','助熔剂','自助熔剂','熔盐'],['cvt','chemical vapor transport','chemical vapour transport','化学气相输运','化学气相传输'],['superconductivity','superconducting','superconductor','超导'],['heavy fermion','heavy-fermion','重费米子','重费米'],['quantum critical','量子临界'],['magnon','magnons','磁振子'],['phonon','phonons','声子'],['defect','defects','缺陷'],['growth','生长'],['altermagnet','altermagnetic','交错磁','交替磁'],['epitaxy','epitaxial','外延'],['prl','physical review letters'],['prb','physical review b'],['nc','nature communications']];
 export const normalize=(v:unknown)=>String(v??'').normalize('NFKC').toLowerCase().replace(/[‐‑–−]/g,'-').replace(/\s+/g,' ').trim();
 export function expand(term:string){const key=normalize(term);return [...new Set([key,...synonyms.filter(g=>g.some(v=>normalize(v)===key)).flat().map(normalize)])].filter(Boolean)}
@@ -37,7 +37,7 @@ export function parse(query:string):Node|null {
  const or=(depth:number):Node=>{let left=and(depth);while(op('OR')){at++;left={kind:'or',left,right:and(depth)}}return left};
  if(!tokens.length)return null;const tree=or(0);if(at!==tokens.length)throw new Error('存在多余括号或运算符。');return tree;
 }
-function values(p:Paper,field:string){const text:Record<string,string>={title:p.title,authors:p.authors,abstract:p.abstract,summary:[p.conclusion,p.summary].filter(Boolean).join(' '),keywords:p.tags.join(' '),category:p.category,journal:p.journal,doi:p.doi||p.source,method:p.method,date:p.date,access:p.access};return field==='all'?[p.title,p.authors,p.abstract,p.conclusion,p.summary,p.tags.join(' '),p.material,p.method,p.journal,p.category,p.doi,p.source].join(' '):text[field]??''}
+function values(p:Paper,field:string){const text:Record<string,string>={title:p.title,authors:p.authors,institutions:p.institutions||'',abstract:p.abstract,summary:[p.conclusion,p.summary].filter(Boolean).join(' '),keywords:p.tags.join(' '),category:p.category,journal:p.journal,doi:p.doi||p.source,method:p.method,date:p.date,access:p.access};return field==='all'?[p.title,p.authors,p.institutions,p.abstract,p.conclusion,p.summary,p.tags.join(' '),p.material,p.method,p.journal,p.category,p.doi,p.source].join(' '):text[field]??''}
 function matches(p:Paper,node:Node,field:string):boolean {if(node.kind==='not')return !matches(p,node.child,field);if(node.kind==='and')return matches(p,node.left,field)&&matches(p,node.right,field);if(node.kind==='or')return matches(p,node.left,field)||matches(p,node.right,field);if(node.kind!=='term')return false;
  if(node.field==='access'&&['是','有','全文','否','无'].includes(node.value))return ['是','有','全文'].includes(node.value)?accessLevel(p)==='full':accessLevel(p)!=='full';
  const hay=normalize(values(p,node.field??field));return expand(node.value).some(t=>hay.includes(t));}

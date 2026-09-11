@@ -1,0 +1,512 @@
+{
+  "date": "2026-09-11",
+  "issue": "017",
+  "searchWindow": "北京时间2026-09-11当天优先；当天仅1篇高相关正式期刊条目，按规则回溯2026-09-09至2026-09-11三个自然日。",
+  "headline": "今日正式期刊与预印本共同指向一个方法论：晶体物性不能只由名义配方解释，堆垛、空位有序、纳米析出和界面应变才是决定性变量。",
+  "hotspot": "PRL的3R-NbSe₂用高温CVT与淬火把非中心对称堆垛变成体超导平台；(Fe,Ni)₅₊δGeTe₂把478 K铁磁性追溯到Fe₆GeTe₂纳米析出；Fe₀.₆₈Pd₀.₈₀Te和h-CuI则显示空位/界面可稳定非常规结构。TlYbS₂与CrPS₄分别把超低温量子涨落和远高于T_N的短程关联放到可测量证据链中。",
+  "searchTerms": [
+    "Crossref逐刊检索：APS/PR全系列、Nature Portfolio、Science/AAAS、Wiley Advanced系列、ACS/Nano Letters/ACS Nano/JACS/Chemistry of Materials、Crystal Growth & Design、Journal of Crystal Growth",
+    "arXiv API：2026-09-09至09-11，cond-mat.supr-con/str-el/mtrl-sci及crystal growth/CVT/flux/heavy fermion/high-Tc等组合",
+    "按DOI、arXiv ID、标准化题目与2026-08-28至09-10历史简报去重"
+  ],
+  "papers": [
+    {
+      "material": "3R-NbSe₂",
+      "title": "Superconductivity in Noncentrosymmetric Rhombohedral NbSe₂",
+      "authors": "Zhengxian Li; Xiaoyu Shen; Shaozheng Wang; Kai Liu; Yating Sha; Tianyang Wang; Feng Liu; Qingchen Duan; Kenji Watanabe; Takashi Taniguchi; Peng Chen; Shiyong Wang; Ruidan Zhong; Dong Qian; Yufan Li; Shengwei Jiang; Noah F. Q. Yuan; Guorui Chen",
+      "journal": "Physical Review Letters",
+      "date": "2026-09-10（正式在线；accepted 2026-08-12）",
+      "doi": "https://doi.org/10.1103/b68j-t167",
+      "fullText": "https://arxiv.org/abs/2601.16475",
+      "access": "全文精读：读取公开稿正文、Methods及补充材料；正式PRL页面用于核对作者、日期和DOI",
+      "rating": "S",
+      "method": "I₂辅助CVT；高温窗口稳定3R并水淬",
+      "category": "晶体生长和物性调控",
+      "tags": [
+        "CVT",
+        "3R-NbSe2",
+        "非中心对称",
+        "超导",
+        "非线性输运"
+      ],
+      "conclusion": "作者把一个常被2H多型遮蔽的NbSe₂问题改写成“堆垛能否同时制造反演破缺与体超导”。他们用显著更高的CVT温区和水淬锁定3R堆垛，再以STEM、SHG、比热、输运和厚度依赖把结构、体相超导与非互易响应串成闭环。最有价值的结论不是单纯把T_c推到6.5 K，而是发现T_c与RRR近线性相关、厚度却不呈系统变化，说明晶体无序比二维限域更强地控制该体系的超导品质。",
+      "sections": [
+        {
+          "title": "问题、热点与实验设计",
+          "text": "2H-NbSe₂的中心对称堆垛限制了某些奇宇称、Ising型和非互易超导现象的体相实现；3R多型以ABC堆垛天然破坏反演，对称性上允许二阶非线性和方向相关的超导输运。作者的设计包含三层对照：先在生长端改变温区与冷却路径以选择2H/3R；再用原子分辨STEM和室温二次谐波确认堆垛与反演破缺；最后把块体热力学、不同厚度器件和RRR放到同一坐标系。这样分别排除了“少量界面相造成电阻下降”“剥薄本身普遍提高T_c”和“标称3R但含大量2H层错”这几种替代解释。"
+        },
+        {
+          "title": "晶体、结构与生长窗口",
+          "text": "2H对照从99.95% Nb粉和99.9% Se粒出发，Se略过量；约1 g混合物与小于5 mg cm⁻³碘封入抽空石英管，源区/生长区825/795 °C保持250 h后慢冷。3R批次采用名义Nb:Se=1:2且Nb略过量，同样使用抽空石英管与I₂，源区/生长区提高到1050/1020 °C、保持250 h，随后投入冰水快速淬火，获得片状晶体。升温速率、石英管尺寸、真空度、具体Nb过量百分比、碘的精确值、单批产率和典型横向尺寸未报告，是复现实验最需要作者补齐的项目。3R空间群R3m，a=b=3.472 Å、c=18.86 Å；ABC层序与2H的AB堆垛形成直接结构对照。"
+        },
+        {
+          "title": "质量表征：证据强度与风险",
+          "text": "HAADF-STEM在已成像区域直接分辨ABC堆垛，未见明显层错或多畴；室温反射式SHG使用800 nm飞秒激光，3R信号比2H强两个数量级以上，给出宏观反演破缺证据。EDS在每块晶体六个以上随机区域测得3R约Nb:Se=1.128:2、2H约1.04:2，说明3R条件与更高Nb占比相关，但EDS难以区分真正的间隙Nb、表面误差和校准偏差。最强证据是STEM+SHG的微观/宏观一致性；最弱环节是没有报告大面积层错统计、完整单晶精修和多批次产率，因而“整个块晶均匀为3R”仍需同步辐射面扫描或多区域截面确认。"
+        },
+        {
+          "title": "物性测量与关键数据",
+          "text": "块体磁化显示T_c最高约6.5 K；比热异常位于5.95 K，Sommerfeld系数γ=12.38 mJ mol⁻¹ K⁻²，ΔC/(γT_c)=1.52且超导体积分数接近100%，这比单独零电阻更能支撑体超导。面内上临界场超过弱耦合Pauli估计1.84T_c。器件输运覆盖0.3–300 K，激励100 nA–1 mA、频率约17.777 Hz；从块体到双层T_c没有单调厚度规律，而T_c随RRR近线性提高。六层器件的非线性电响应集中在T_c附近，与破反演超导态相符，但非互易信号的微观机制仍是作者推断，需排除接触不对称、热梯度和电流加热。"
+        },
+        {
+          "title": "结论、局限与复现建议",
+          "text": "直接观察包括3R堆垛、强SHG、比热跃迁和零电阻；模型/判据包括Pauli极限比较；“无序主导T_c”和“非互易超导”分别由相关性和对称性支持，但不是唯一微观解释。下一轮生长应以1050/1020 °C、250 h、冰水淬火为中心做Nb过量×I₂浓度二维矩阵，每批记录产率、尺寸、RRR、EDS与SHG，并用粉末/单晶XRD统计2H夹杂。测量上应在同一器件做正反电流、交换电压端、反向磁场和脉冲电流对照，再把二阶电压按焦耳热标度扣除；只有这样才能把本征非互易性与几何伪影分开。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "最高优先级",
+        "first": "先读Methods中的两套CVT窗口和淬火步骤，再看比热与RRR–T_c关系。",
+        "focus": "重点核对EDS显示的Nb富集是否与3R稳定机制一致，以及非线性输运是否完成全部反接线对照。",
+        "next": "若准备复现，第一批不要先做超薄器件；先用SHG+XRD+RRR筛出均一的高质量3R块晶。"
+      },
+      "versionNote": "PRL正式版本与arXiv:2601.16475对应；正式作者表较公开稿增加Shaozheng Wang，分析以公开全文为证据、以正式页核对书目信息。",
+      "institutions": "上海交通大学；National Institute for Materials Science；香港中文大学"
+    },
+    {
+      "material": "USe₃",
+      "title": "Anisotropic Phonon Dynamics and Directional Transport in Actinide Van der Waals Semiconductor Uranium Triselenide",
+      "authors": "Aljoscha Söll; Valentino Jadriško; Sourav Dey; Nassima Benchtaber; Kalyan Sarkar; Borna Radatović; Jan Luxa; Fedor Lipilin; Kseniia Mosina; Vojtěch Kundrát; Jakub Zalesak; Jana Vejpravová; Martin Žáček; Szymon J. Zelewski; Nikolas Antonatos; Christoph Gadermaier; José J. Baldoví; Zdeněk Sofer",
+      "journal": "Advanced Functional Materials",
+      "date": "2026-09-10",
+      "doi": "https://doi.org/10.1002/adfm.78066",
+      "fullText": "https://arxiv.org/abs/2512.04029",
+      "access": "全文精读：公开稿正文与补充信息；正式Wiley元数据和CC BY 4.0许可已核对",
+      "rating": "A+",
+      "method": "I₂-CVT（温区和时间未披露）",
+      "category": "低维磁性与关联物态",
+      "tags": [
+        "USe3",
+        "CVT",
+        "声子各向异性",
+        "场效应",
+        "锕系材料"
+      ],
+      "conclusion": "这篇工作把放射性、易氧化的USe₃从“已知锕系化合物”推进为可剥离、可封装、可做方向器件的低维半导体平台。作者用偏振Raman、应变、DFT/NEGF、方向输运和磁化说明P2₁/m晶格中的[USe₃]∞链把声子、载流子和磁响应锁定在不同晶向；但论文同时暴露了一个对晶体生长人员很关键的问题：CVT配方几乎没有披露，且样品存在Se富集纳米球、少量β-Se峰与名义U₁.₁₆Se₃偏离，因此“本征各向异性”仍需更严格的批次与成分闭环。",
+      "sections": [
+        {
+          "title": "问题与样品逻辑",
+          "text": "USe₃属于P2₁/m单斜层状三硫属化物，链状[USe₃]∞单元沿b轴延伸，理论间接带隙约1.07 eV。热点在于它同时结合锕系5f电子、范德华可剥离性和低对称性，非常适合研究方向声子、载流子与磁性的耦合。作者从块晶偏振Raman开始，用机械弯曲施加应变，再把薄片封装成不同晶向场效应器件，并以DFT与NEGF解释有效质量/迁移率差异。该链条能证明方向相关性真实存在，但不能自动证明缺陷与接触完全无关。"
+        },
+        {
+          "title": "生长、结构、成分与安全边界",
+          "text": "论文明确使用碘作为输运剂生长USe₃单晶，但原料纯度与摩尔比、I₂用量、石英管尺寸、真空度、源区/生长区温度、保温时间、升降温速率、分离方式、产率和块晶尺寸均未报告。对于CVT论文，这是最大复现缺口。XRD以00l峰为主，只精修c=10.455 Å；没有给出完整粉末Rietveld。EDS平均约U 48.8 wt%/27.8 at%、Se 42.0 wt%/72.2 at%，折算约U₁.₁₆Se₃，并观察到Se富集表面纳米球及2θ=42.36°的β-Se杂峰。作者在手套箱内处理U-238样品；任何复现实验还需独立的辐射许可、污染控制和废物流程。"
+        },
+        {
+          "title": "声子、器件与测量条件",
+          "text": "偏振Raman采用532 nm、功率低于2.5 mW，在手套箱环境进行；12个允许模中观测7个，多数峰呈二重角度图样，支持低对称晶格。样品固定在聚碳酸酯梁上弯曲施加单轴应变，峰位的方向依赖把声子本征张量与形变耦合联系起来。器件使用hBN封装USe₃薄片并接入预制5/100 nm Cr/Au电极，真空300 °C退火4 h；室温栅控输运呈p型，a方向迁移率约为b方向2.9倍。VSM覆盖2–300 K和0–14 T、比较不同晶向；约10 K附近的特征随方向移动，表明磁响应也受晶格轴控制。"
+        },
+        {
+          "title": "证据解释与替代解释",
+          "text": "直接观察是偏振Raman的二重对称、器件电流的方向差异和磁化各向异性；DFT带隙、有效质量与NEGF迁移率属于模型输出。模型给出a/b迁移率约4.85×10⁻⁴/1.62×10⁻⁴ cm²V⁻¹s⁻¹，数量级极低，作者归因于U重带和局域化；然而接触势垒、薄片厚度差、退火造成的Se损失与非化学计量也可能压低实测迁移率。最强部分是多种谱学/输运在相同晶轴上的一致性；最弱部分是不同器件是否来自同一均匀批次、接触电阻是否被四探针隔离以及样品偏离化学计量对各向异性的贡献。"
+        },
+        {
+          "title": "结论、局限与可执行建议",
+          "text": "后续晶体工作应先建立完整CVT记录：U:Se比、I₂ mg cm⁻³、温差和时间全部扫点，并对每批做ICP或WDS而不只EDS；同时用粉末XRD定量β-Se、显微Raman地图定位Se球。器件比较应从同一薄片切出正交通道，统一厚度、接触金属和退火历史，采用四探针与传输线法分离接触。若目标是本征链向输运，必须把迁移率与缺陷密度、Se/U比和Raman线宽做批次相关性；若目标是磁性，应优先补充更低温比热或中子/μSR，确认约10 K异常究竟是长程序、杂质还是短程关联。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "高优先级",
+        "first": "先读补充信息里的EDS/XRD和器件流程，再回看主文的偏振Raman与方向输运。",
+        "focus": "不要只记住“2.9倍各向异性”；更应关注U₁.₁₆Se₃、β-Se和未披露CVT参数如何限制本征解释。",
+        "next": "若没有锕系实验资质，把这篇作为低对称CVT材料的表征模板，而不是直接照搬合成。"
+      },
+      "versionNote": "正式AFM论文可追溯到arXiv:2512.04029；分析基于公开全文，DOI与许可来自Wiley/Crossref。",
+      "institutions": "University of Chemistry and Technology Prague；Politecnico di Milano；Universitat de València；Charles University"
+    },
+    {
+      "material": "CsV₃Sb₅",
+      "title": "Berry curvature multipoles in Kagome superconductor CsV₃Sb₅",
+      "authors": "Shanshan Liu; Prasun Boyal; Enze Zhang; Qifeng Hu; Xu Han; Kian Ping Loh",
+      "journal": "Nature Communications",
+      "date": "2026-09-10",
+      "doi": "https://doi.org/10.1038/s41467-026-77618-6",
+      "fullText": "",
+      "access": "仅基于出版社提前公开的摘要与元数据；页面尚未呈现正文，未宣称全文精读",
+      "rating": "A",
+      "method": "单晶生长参数：当前可见页面未报告",
+      "category": "高温超导与非常规超导",
+      "tags": [
+        "CsV3Sb5",
+        "Kagome",
+        "Berry曲率多极矩",
+        "非线性霍尔",
+        "超导"
+      ],
+      "conclusion": "论文提出一个清楚的现象链：在Kagome超导体CsV₃Sb₅中测到最高六次谐波的非线性响应，奇数阶非线性霍尔成为向列态的灵敏标记；进入超导转变区后，涡旋动力学把Berry曲率四极矩相对偶极矩显著放大，三阶信号在转变附近达到峰值。DFT中的手性环流序可产生相应四极矩。不过当前出版社页仍是提前版本且正文不可见，晶体生长、接线几何、绝对信号、误差与排除热效应的对照都不能从摘要可靠恢复。",
+      "sections": [
+        {
+          "title": "已知科学问题与热点",
+          "text": "CsV₃Sb₅同时具有Kagome能带、CDW、向列性与超导，是几何、拓扑和关联相交汇的热点。传统线性霍尔主要读出Berry曲率偶极或载流子响应，而高阶谐波有望分辨更高阶Berry曲率多极矩。摘要明确报告测量至六次谐波、奇数阶非线性霍尔主导向列特征，以及超导转变附近三阶响应峰值；这些是直接陈述，但没有数值、温场窗口或样品批次。"
+        },
+        {
+          "title": "证据链与信息边界",
+          "text": "作者把实验高阶响应与DFT手性环流序联系，提出涡旋运动放大四极矩相对偶极矩。这里“高阶电压被测到”是观察，“对应Berry曲率四极矩”依赖对称性与模型，“源于手性环流序”又多一层理论推断。正文未显示意味着晶体成分、空间群、样品尺寸、生长法、原料比、坩埚/安瓿、温度程序、退火、XRD/EDS、RRR、接线、频率、电流、磁场扫描、误差和热背景均为未报告/未核查。"
+        },
+        {
+          "title": "实验人员下一步怎么读",
+          "text": "全文可见后应优先核对：一是高阶电压随驱动电流是否严格按幂律缩放；二是交换电流/电压端、反向磁场和改变频率后信号如何变化；三是三阶峰与电阻转变宽度、临界电流和涡旋相图的对应；四是CDW畴与向列轴是否经独立结构或STM确认。没有这些对照，高阶响应仍可能混入焦耳热、接触整流和几何不对称。"
+        },
+        {
+          "title": "结论与局限",
+          "text": "这是一篇概念上高度相关但当前只能摘要级收录的论文。创新在于把Berry曲率多极矩与超导涡旋区联系起来；最强信号是多阶谐波的系统性，最弱点是目前无法审查原始曲线与生长质量。待出版社正文上线后，应作为重要修订重新全文精读并补充所有实验参数，而不是用常见CsV₃Sb₅助熔剂配方代填。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "高优先级，待全文复核",
+        "first": "先看出版社页摘要理解问题，再等待Methods/补充材料上线。",
+        "focus": "全文到手后第一时间检查电流幂律、反接线和热效应排除，而非先接受环流序解释。",
+        "next": "把该条目加入“需更新”队列；正文出现后按相同DOI重复收录并解释新增证据。"
+      },
+      "versionNote": "Nature Communications CC BY 4.0提前共享版本；截至本次检索正文区域未呈现，故只按摘要级处理。",
+      "institutions": "作者单位：出版社提前版本尚未完整呈现，本次未核查"
+    },
+    {
+      "material": "CsPbBr₃纳米晶",
+      "title": "Emergent Circularly Polarized Luminescence from Self-Assembled Chiral-Ligand-Functionalized CsPbBr₃ Nanocrystals",
+      "authors": "Prasenjit Mandal; Mohit Chaudhary; Jeanne Cloarec; Oleg V. Prezhdo; Dmitry Baranov",
+      "journal": "Nano Letters",
+      "date": "2026-09-11",
+      "doi": "https://doi.org/10.1021/acs.nanolett.6c02634",
+      "fullText": "https://zenodo.org/records/21877178",
+      "access": "仅基于正式元数据并核对公开数据仓库；论文正文未获取",
+      "rating": "B+",
+      "method": "手性配体功能化纳米晶自组装；具体合成参数未核查",
+      "category": "光电材料与量子器件",
+      "tags": [
+        "CsPbBr3",
+        "纳米晶",
+        "圆偏振发光",
+        "自组装",
+        "Nano Letters"
+      ],
+      "conclusion": "当天正式期刊中最直接相关的新条目：作者通过手性配体功能化并自组装CsPbBr₃纳米晶，使体系出现圆偏振发光，核心故事是把纳米晶的强发光与手性组织的光学选择性结合。Zenodo已公开约64.6 MB的图源与瞬态吸收等数据文件，说明结果具有较好的可审计入口；但本次未获得论文正文，配体种类、晶粒尺寸、组装形貌、g_lum数值和机理对照不能仅凭题目或数据文件名补写。",
+      "sections": [
+        {
+          "title": "为何收录与阅读等级",
+          "text": "该工作不是块体单晶，而是纳米晶合成—表面化学—自组装—手性光学链条，归入光电材料板块。它与“晶体生长和物性调控”的关联在于尺寸、表面配体与介观组装共同决定新发光选择定则。Crossref确认Nano Letters、2026-09-11在线、DOI和CC BY 4.0；Zenodo记录创建于9月10日并公开原始/源数据。未取得文章PDF，因此不宣称已读Methods。"
+        },
+        {
+          "title": "目前能确认与不能确认的内容",
+          "text": "能确认：材料为手性配体功能化CsPbBr₃纳米晶，采用自组装并观察到涌现的圆偏振发光；公开数据包含论文图源和瞬态吸收相关文件。不能确认：前驱体、配体化学结构与对映体纯度、热注入/再沉淀流程、纯化次数、纳米晶尺寸分布、相结构、组装时间、薄膜厚度、PL量子效率、g_lum、寿命、激发波长、误差与稳定性。上述全部应标为正文未报告/本次未核查。"
+        },
+        {
+          "title": "机理判断与后续核查清单",
+          "text": "真正关键的问题是圆偏振信号来自单颗粒的手性表面耦合，还是来自自组装后的长程手性排列、线性双折射或散射伪影。阅读全文时应寻找：自由纳米晶与组装体对照、左右手配体镜像、消旋配体、角度依赖、吸收CD与CPL符号对应、积分球量子效率和TEM/小角散射结构。数据仓库可用于复算谱线和误差，但在不了解列定义前不宜直接提取数字。"
+        },
+        {
+          "title": "结论、局限与实验启示",
+          "text": "创新点是以自组装让纳米晶产生新手性光学响应；局限是当前阅读等级不足以评价合成复现性或因果闭环。晶体实验人员可借鉴其“成分—表面—组装—光学”多尺度思路，但不能把纳米晶结果直接外推到块体CsPbBr₃。后续获取正文后，应优先补齐尺寸分布、相纯度、CPL各向异性和长期光照稳定性，再判断是否值得复现。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "中高优先级",
+        "first": "先下载Zenodo说明与图源清单，确认每个数据文件对应哪张图；正文到手后再读合成和CPL方法。",
+        "focus": "重点看左右手镜像、未组装对照和线性偏振伪影排除。",
+        "next": "若做实验，先小规模复现粒径与PLQY，再优化自组装，不要同时改变配体和组装条件。"
+      },
+      "versionNote": "正式Nano Letters条目；公开数据仓库可访问，但论文PDF本次未取得。",
+      "institutions": "Lund University；University of New Mexico；Université PSL"
+    },
+    {
+      "material": "2.0 eV宽带隙钙钛矿",
+      "title": "Crystallization control of 2.0-eV bandgap perovskites for all-perovskite triple-junction solar cells",
+      "authors": "Yuhong Zhang; Enzuo Wang; Haonan Liu; Dong Zhou; Renxing Lin; Hao Li; Dongdong Xu; Jing Lou; Hesheng Zhu; Manya Li; Yinke Wang; Chenyang Duan; Yanheng Zhu; Anh Dinh Bui; Khoa Nguyen; Daniel MacDonald; Ou Yang; Huanxin Ju; Ludong Li; Chao Chang; Yongxi Li; Hairen Tan",
+      "journal": "Nature Energy",
+      "date": "2026-09-10",
+      "doi": "https://doi.org/10.1038/s41560-026-02135-1",
+      "fullText": "",
+      "access": "仅基于正式书目信息与出版社可见页面；摘要、正文和补充材料未取得",
+      "rating": "B",
+      "method": "薄膜结晶调控；化学配方与工艺未核查",
+      "category": "光电材料与量子器件",
+      "tags": [
+        "宽带隙钙钛矿",
+        "结晶控制",
+        "三结太阳能电池",
+        "Nature Energy"
+      ],
+      "conclusion": "题目表明作者把2.0 eV钙钛矿的结晶控制嵌入全钙钛矿三结电池，试图解决最宽带隙子电池的相分离、缺陷与电压损失瓶颈。它与本简报高度相关的是“结晶过程如何传递到器件性能”，但当前只有正式书目信息，任何添加剂、成核机制、效率、稳定性数字或显微结构都不能推断。这里保留条目是为了不漏掉当天高影响力正式期刊，结论等级低于已读全文论文。",
+      "sections": [
+        {
+          "title": "科学问题与热点",
+          "text": "全钙钛矿三结需要约2.0 eV顶电池匹配光谱，但高Br宽带隙钙钛矿通常更易发生非均匀结晶、卤素相分离与界面复合。题目明确把“crystallization control”置于器件成果之前，说明作者的因果主线应是调控成核/生长→改善宽带隙薄膜→提升三结性能。正式日期、作者、期刊与DOI已核对；其余只能作为待验证问题。"
+        },
+        {
+          "title": "未报告参数与不能越界的推断",
+          "text": "材料具体A/B/X位组成、前驱体浓度、溶剂、添加剂、旋涂/蒸镀流程、抗溶剂、退火温度和时间、膜厚、晶粒尺寸、GIWAXS/SEM/PL表征、器件堆叠、有效面积、效率、认证和稳定性，均未从可访问来源核查。该工作属于薄膜结晶，不等同于Flux/CVT块晶；不能用常见FA/Cs混合阳离子或Cl/Br配方代填。"
+        },
+        {
+          "title": "全文到手后的证据审查",
+          "text": "优先看原位GIWAXS或光谱是否直接跟踪结晶中间相，是否有添加剂空白、不同带隙和不同批次对照；再看PLQY、准费米能级分裂和电压损失是否与缺陷降低相符。器件层面应核对认证效率、扫描方向、稳定功率点、面积、组件数量和统计分布。若只有冠军器件而缺少批次统计，“结晶控制提升三结”的普适性会很弱。"
+        },
+        {
+          "title": "结论与后续动作",
+          "text": "该条目当前只能告诉我们一个值得追踪的研究方向，不能提供可执行配方。后续通过机构订阅获得正文后，应补做逐项工艺表、提取原位结晶证据和器件统计，并判断方法对1.8–2.1 eV组分是否可迁移。在此之前推荐等级为B，而非按Nature Energy刊名自动评为最高。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "跟踪级",
+        "first": "先保存DOI，待机构会话可用时优先下载正文与补充信息。",
+        "focus": "重点是原位结晶证据和多器件统计，不是单个效率数字。",
+        "next": "取得全文后重新评定；若没有结晶动力学直接证据，则归为器件优化而非生长机理论文。"
+      },
+      "versionNote": "Nature Energy正式在线条目；出版社受限内容本次未取得，因此仅作元数据级待办。",
+      "institutions": "作者单位：正式元数据未提供，本次未核查"
+    },
+    {
+      "material": "(Fe,Ni)₅₊δGeTe₂",
+      "title": "High-Temperature ferromagnetism from site-selective filling in (Fe,Ni)₆−δGeTe₂",
+      "authors": "Tyler L. Werner; Jonathan T. Reichanadter; Xiang Chen; Pranab K. Nag; Luna Y. Liu; Yu-Tsun Shao; Hongrui Zhang; Mingyang Guo; Wenxin Li; Zhibo Kang; Han Wu; Makoto Hashimoto; Donghui Lu; Turgut Yilmaz; Elio Vescovo; Sung-Kwan Mo; Barat Achinuq; Alexei Fedorov; Jacob C. Ruff; Ming Yi; Qiong Ma; David A. Muller; Eduardo H. da Silva Neto; Robert J. Birgeneau; Jeffrey B. Neaton; Yu He",
+      "journal": "arXiv cond-mat.mtrl-sci",
+      "date": "2026-09-10（v1）",
+      "doi": "https://doi.org/10.48550/arXiv.2609.11862",
+      "fullText": "https://arxiv.org/pdf/2609.11862",
+      "access": "全文精读：arXiv v1正文和补充材料",
+      "rating": "S",
+      "method": "I₂辅助CVT；本稿引用既往配方，精确参数未在本文重述",
+      "category": "低维磁性与关联物态",
+      "tags": [
+        "vdW磁体",
+        "CVT",
+        "Fe6GeTe2",
+        "纳米析出",
+        "XMCD",
+        "ARPES"
+      ],
+      "conclusion": "478 K铁磁性原本被归因于Ni替代引起的均匀电子调控，这篇论文推翻了这个直觉：Ni进入复杂多位点晶格的代价过高，反而诱发应变稳定的“干净”Fe₆GeTe₂纳米析出相；正是该Fe富集相承担高温磁性，而Ni富集基体并不显示相同磁纹理。XRD、纳米尺度XMCD、STM/QPI、ARPES与DFT从结构、空间分布和位点电子结构交叉支撑这一故事，把“掺杂提高T_c”改写为“非均匀析出稳定不可得相”。",
+      "sections": [
+        {
+          "title": "问题、样品与对照设计",
+          "text": "研究样品名义组成为(Ni₀.₃₆Fe₀.₆₄)₅.₃₈GeTe₂，所有显微和谱学样品来自同一生长批次。核心难点是共存的局域/巡游磁性、多个金属位点和介观成分畴会让平均成分误导。作者把XRD识别的双结构尺度、XPEEM元素/磁对比、STM/QPI局域电子态、体/表面ARPES与第一性原理放在同一空间—能量框架，特别用Fe L₃与Ni L₃的XMCD对照检验磁性究竟跟哪种元素富集域共定位。"
+        },
+        {
+          "title": "生长和结构身份",
+          "text": "晶体采用碘辅助CVT，但本文把详细配方引向既往工作；原料纯度、名义配比以外的起始量、I₂浓度、真空度、源/生长温区、时间、冷却和尺寸均未在本稿重述。XRD解析出Fe富集相c≈9.96 Å与Ni富集相c≈9.76 Å，超过2%的晶格差为相分离提供平均结构证据。由于“高T_c相”来自纳米析出，今后生长报告若只给总EDS与单个00l峰会丢失核心信息；必须记录空间成分图与峰分裂。"
+        },
+        {
+          "title": "显微磁性和谱学证据",
+          "text": "XPEEM在109 K分别调到Fe L₃ 705 eV和Ni L₃ 848 eV，视场10×10 μm²、像素9.6 nm，并分析4×4 μm²区域。Fe XMCD出现约50 nm相关长度的条纹磁纹理，Ni通道没有对应相关磁化，这是“磁性属于Fe富集析出相”的最直接空间证据。STM在4.2 K用PtIr针尖、QPI视场约0.49 μm；ARPES在10–15 K、128/55 eV光子能量下测量，能量/动量分辨约11 meV/0.004 Å⁻¹。多技术一致，但各自探测深度不同，跨尺度对应仍需同一区域关联显微。"
+        },
+        {
+          "title": "位点选择与模型解释",
+          "text": "DFT给Fe₆GeTe₂不同Fe位点很不相同的局域矩：Fe(3)约2.43 μB、Fe(2)约1.75 μB、Fe(1)约0.01 μB；外层近Te的Fe提供跨vdW间隙的自旋极化巡游载流子，内部Fe承载较局域磁矩。均匀Ni替代的能量代价使体系更愿意相分离，因而Ni不是简单稀释磁矩，而是化学压力/位点选择的触发器。这里析出相由XRD+XMCD强支撑；“位点如何分工”主要来自DFT与ARPES匹配，仍可能受表面终止和矩阵应变影响。"
+        },
+        {
+          "title": "局限、复现风险与下一步",
+          "text": "最强证据是元素选择XMCD将条纹与Fe而非Ni共定位；最弱环节是本文缺少完整CVT工艺和析出相体积分数—T_c的批次曲线。复现时应系统扫描Ni比例、峰值温度、温差、保温与冷却速率，每批用微束XRD/4D-STEM/EDS统计析出尺寸、应变和体积分数，再与T_c、矫顽场和电阻对应。若目标是器件化，应测试热循环是否使析出粗化并降低478 K磁性；若目标是机制，应在同一区域完成XMCD与纳米衍射，避免把不同尺度的平均结果强行拼接。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "最高优先级",
+        "first": "先看XPEEM的Fe/Ni通道对照，再读DFT位点磁矩与ARPES，最后回到XRD峰分裂。",
+        "focus": "不要把标题里的site-selective filling简化成均匀Ni掺杂；全文故事核心是纳米析出相。",
+        "next": "生长复现的第一目标是建立析出相体积分数—T_c图，而不是只追求名义Ni含量。"
+      },
+      "versionNote": "arXiv:2609.11862v1，首次提交与最近更新均为2026-09-10；未发现正式期刊DOI。",
+      "institutions": "Yale University；University of California, Berkeley；Lawrence Berkeley National Laboratory；Cornell University；Rice University"
+    },
+    {
+      "material": "TlYbS₂",
+      "title": "Low temperature thermodynamics of S_eff=1/2 triangular lattice quantum spin liquid candidate TlYbS₂",
+      "authors": "Bishnu P. Belbase; Arjun Unnikrishnan; Piyush Chhallare; Mohan B. Neupane; Eun Sang Choi; Sebastian Erdmann; Muhammad U. Akbar; Mamoun Hemmida; H.-A. Krug von Nidda; Philipp Gegenwart; Arnab Banerjee",
+      "journal": "arXiv cond-mat.str-el",
+      "date": "2026-09-10（v1）",
+      "doi": "https://doi.org/10.48550/arXiv.2609.11881",
+      "fullText": "https://arxiv.org/pdf/2609.11881",
+      "access": "全文精读：arXiv v1正文和补充材料",
+      "rating": "A+",
+      "method": "TlCl助熔剂，最高690 °C，两步法",
+      "category": "量子自旋液体与阻挫磁性",
+      "tags": [
+        "Flux",
+        "TlYbS2",
+        "三角晶格",
+        "量子自旋液体",
+        "mK热力学"
+      ],
+      "conclusion": "作者把结构干净的TlYbS₂推进到20 mK，发现它既不像经典有序磁体，也不是毫无特征的自旋液体：约530 mK存在很弱热力学异常，零场低温磁比热近T^1.8；面内磁场进一步依次给出约5–8 T的1/3磁化平台和约17 T完全极化。故事因此是“材料处在弱有序与QSL边界”，而不是简单宣称发现QSL；超低温、方向磁场和熵回收共同限定了可能相图。",
+      "sections": [
+        {
+          "title": "生长路线与结构质量",
+          "text": "先用99.99% Tl颗粒、99.9% Yb和99.999% S按化学计量在真空中制备前驱体，再以TlCl助熔剂二次生长，峰值温度690 °C，获得红宝石色约2×2 mm²片晶。正文未给出前驱体温程、TlCl:前驱体质量比、坩埚、真空度、690 °C保温时间、降温速率、离心/水洗方式和产率。单晶XRD给R-3m三角Yb层且未检测到位点混排；多块晶体EDX约1:1:2。对QSL候选，这种“无可见混排”很重要，但XRD对低浓度反位缺陷不敏感，仍需ICP、总散射或固体NMR。"
+        },
+        {
+          "title": "测量覆盖与直接现象",
+          "text": "DC磁化覆盖室温至1.8 K，并延伸到0.4 K、最高7 T；脉冲/高场VSM到35 T。AC磁化在200 Hz、2 Oe下至300 mK，并以0.5 Oe延伸至20 mK，没有看到典型自旋玻璃冻结峰。比热最低70 mK，零场磁比热低温近C_m∝T^1.8，且到30 K回收约94% Rln2熵。约530 mK的弱异常可能是弱长程序或交叉；没有中子衍射就不能区分。"
+        },
+        {
+          "title": "各向异性与场诱导相图",
+          "text": "ESR和磁化给出显著易面各向异性，g_⊥/g_∥≈6.9。H⊥c时，530 mK异常可延续到约2 T，约2.5 T以上进入场诱导有序区，随后在5–8 T出现1/3平台、约17 T完全极化；H∥c时异常减弱并约3 T消失。1/3平台是三角反铁磁在量子涨落下稳定uud态的强指纹，但“平台=QSL邻近”仍依赖模型；真正的零场基态身份需要波矢与激发谱。"
+        },
+        {
+          "title": "证据链、替代解释与比较",
+          "text": "直接观察包括无明显结构混排、无AC冻结峰、低温比热幂律、方向相图与平台。T^1.8接近二次但拟合窗口有限，可能来自二维低能激发，也可能混入核Schottky、声子扣除或弱有序magnon；作者与TlYbSe₂的线性比热对比支持家族可调性，但替代材料的晶格/交换不同。530 mK异常是全篇最弱却最关键的节点：若是微量杂质或短程冻结，QSL边界解释会改变。"
+        },
+        {
+          "title": "复现与下一步实验",
+          "text": "生长应先补齐TlCl比例和降温曲线，并对不同冷却速率/洗涤流程做Cl残留、Tl空位与Yb价态统计。物性上优先做70 mK以下不同磁场的比热、频率跨3–4数量级的AC磁化和μSR，判断530 mK是否静态；随后以富集同位素或较大晶体做非弹性中子散射，观察连续谱、平台态波矢和交换参数。若样品量有限，可先做热导κ/T与磁场旋转；它能检验是否存在可移动低能激发，但需严控接触热阻。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "高优先级",
+        "first": "先读生长和单晶精修，确认结构干净；再顺着零场比热→方向磁场→1/3平台阅读。",
+        "focus": "重点保持作者的谨慎表述：530 mK可能是弱序，不能把“candidate”删掉。",
+        "next": "若准备实验，优先重复超低温热力学并做μSR，而不是从高场平台单独宣布QSL。"
+      },
+      "versionNote": "arXiv:2609.11881v1，首次提交与更新均为2026-09-10；未发现正式期刊版本。",
+      "institutions": "Purdue University；University of Augsburg；Indian Institute of Science；National High Magnetic Field Laboratory"
+    },
+    {
+      "material": "二维h-CuI",
+      "title": "Bottom-up Synthesis of Metastable 2D Hexagonal Copper(I) Iodide on Monolayer and within Bilayer Graphene",
+      "authors": "David Kaiser; Guobin Jia; Janis Köster; Sadegh Ghaderzadeh; Christian E. Halbig; Siegfried Eigler; Andrey Turchanin; Benjamin Dietzek-Ivanšić; Arkady V. Krasheninnikov; Jonathan Plentz; Elena Besley; Ute Kaiser",
+      "journal": "arXiv cond-mat.mtrl-sci",
+      "date": "2026-09-10（v1）",
+      "doi": "https://doi.org/10.48550/arXiv.2609.11459",
+      "fullText": "https://arxiv.org/pdf/2609.11459",
+      "access": "全文精读：arXiv v1正文和补充材料",
+      "rating": "A",
+      "method": "HI蒸气40 °C成核，180 °C退火扩展；石墨烯界面模板",
+      "category": "光电材料与量子器件",
+      "tags": [
+        "CuI",
+        "二维晶体",
+        "亚稳相",
+        "界面生长",
+        "HRTEM"
+      ],
+      "conclusion": "常温稳定的CuI是三维γ相，二维六方h-CuI此前主要依赖剥离或石墨烯夹层。作者让HI蒸气在40 °C同时还原含氧石墨烯并侵蚀铜TEM网格供给Cu/I，在单层开放表面和双层夹层中直接成核；180 °C退火把约5 nm核长到约30 nm。Au网格对照不生成h-CuI，DFT与AIMD又说明石墨烯黏附可稳定六方层到600 K，构成“低温路径阻断γ相成核+界面稳定亚稳相”的完整故事。",
+      "sections": [
+        {
+          "title": "实验设计与关键对照",
+          "text": "低缺陷大面积还原氧化石墨烯置于Cu TEM网格，40 °C暴露HI蒸气触发成核；相同处理换成Au网格不出现h-CuI，因此铜网格既是支撑又是固态Cu源，这个对照排除了HI和石墨烯自身生成含Cu相。40 °C后观察约5 nm六方核，180 °C退火促进扩展到约30 nm；单层开放表面与双层夹层在同一网格比较，减少批次差。HI浓度/分压、暴露时间、升温速率、退火时长、产率和覆盖率分布仍未完整报告。"
+        },
+        {
+          "title": "结构、成分与应变",
+          "text": "80 kV像差校正HRTEM直接分辨原子排列，FFT以邻近石墨烯作内部标尺。h-CuI一条晶格矢量约0.426–0.427 nm，与石墨烯a√3方向趋于共格；另一方向约0.418–0.421 nm，接近自由h-CuI计算/实验值约0.419±0.002 nm，说明界面施加单轴而非均匀应变。STEM-EDX得Cu 7.00±1.07 at%、I 5.10±0.67 at%，Cu:I=1.4±0.3，在Cu网格背景下与1:1相容但精度有限；化学态仍需EELS/XPS或非Cu载网复核。"
+        },
+        {
+          "title": "理论稳定性与证据层级",
+          "text": "DFT比较石墨烯吸附能和结构稳定，AIMD在300/600 K显示单层开放支撑与双层夹层的六方秩序均可保持。计算支持“vdW黏附稳定亚稳层”，但有限时间AIMD不能等同长期热稳定。作者认为低温前驱条件没有通向γ-CuI的成核路径，因此选择性形成h相；这是基于路径和观察的推断。最强证据是原子分辨像+Au网格对照；最弱是缺少大面积相含量、长期空气/光照稳定性与独立化学价态。"
+        },
+        {
+          "title": "生长窗口的可复现解读",
+          "text": "这不是传统CVT，而是固态Cu源—HI气相反应—二维模板耦合。决定相选择的变量至少包括石墨烯含氧官能团密度、Cu与样品距离、HI分压、40 °C成核时间、180 °C扩散长度和界面污染。作者指出残余吸附物限制横向尺寸，意味着继续提高退火温度未必最有效；更优策略是先清洁界面并控制氧基团密度。开放单层能稳定到计算600 K，为器件接触提供可能，但实际电学/光学尚未展示。"
+        },
+        {
+          "title": "下一步实验建议",
+          "text": "复现应把Cu网格质量损失或Cu通量定量化，用Au/SiN独立载网外加可控Cu源，拆开“载网”和“前驱体”作用；以XPS/EELS确认Cu(I)，统计至少数十个区域的晶粒尺寸、取向和相分数。原位TEM或原位Raman可跟踪40→180 °C生长动力学。器件方向则应转移/原位接触开放h-CuI，测带隙、载流子类型和光稳定，并用不同石墨烯扭角检验0.426–0.427 nm共格应变是否可调。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "高优先级",
+        "first": "先看Au载网对照与同网格单层/双层比较，再读HRTEM晶格标定和AIMD。",
+        "focus": "关注Cu网格背景如何限制EDS化学计量，以及有限AIMD时长不能证明长期稳定。",
+        "next": "复现时优先控制界面洁净度与HI通量，随后再优化退火；晶域上限很可能由污染而非温度决定。"
+      },
+      "versionNote": "arXiv:2609.11459v1，首次提交与更新均为2026-09-10；未发现正式期刊版本。",
+      "institutions": "Friedrich Schiller University Jena；Leibniz-IPHT；Ulm University；University of Nottingham；Freie Universität Berlin"
+    },
+    {
+      "material": "Fe₀.₆₈Pd₀.₈₀Te",
+      "title": "Vacancy Order and Physical Properties of a Ternary Compound Fe0.68Pd0.80Te with an α-Fe1+xTe-Type Structure",
+      "authors": "Bingxian Shi; Manyu Wang; Chenglin Shang; Yanyan Geng; Yangyang Fan; Xiaoxiao Pei; Li Huang; Daye Xu; Juanjuan Liu; Jinchen Wang; Hongxia Zhang; Hongliang Wang; Lijie Hao; Rui Xu; Zhongyi Lu; Zhihai Cheng; Peng Cheng",
+      "journal": "arXiv cond-mat.mtrl-sci",
+      "date": "2026-09-10（v1）",
+      "doi": "https://doi.org/10.48550/arXiv.2609.11441",
+      "fullText": "https://arxiv.org/pdf/2609.11441",
+      "access": "全文精读：arXiv v1正文和补充材料",
+      "rating": "A",
+      "method": "高温溶液生长；800 °C→2 °C h⁻¹降至600 °C",
+      "category": "晶体生长和物性调控",
+      "tags": [
+        "Flux",
+        "FePdTe",
+        "空位有序",
+        "自旋玻璃",
+        "小带隙"
+      ],
+      "conclusion": "这篇论文从Fe₁₊xTe原型中找到一种并非“Pd掺杂FeTe”的新三元占位方式：Pd约80%占据方网Fe1位，Fe约68%占据间隙Fe2位，并形成短程3×3×3 Pd空位有序。高温溶液生长得到毫米片晶后，单晶XRD与4.5 K非接触AFM共同看到空位超结构；磁性呈约40 K自旋玻璃，输运是小于10 meV的小带隙半导体、空穴载流子和弱负磁阻。结构无序不是背景噪声，而是整篇物性故事的主角。",
+      "sections": [
+        {
+          "title": "完整生长配方与敏感性",
+          "text": "起始Pd:Fe:Te=1.5:2:2，装入氧化铝坩埚并封入抽空石英管；800 °C保温2 d，以2 °C h⁻¹降至600 °C、再保温1 d，随后炉冷，得到空气稳定、最大约5×5 mm²片晶。原料纯度、真空度、坩埚盖/捕集方式、600 °C是否离心、产率和厚度未报告。作者强调初始配比关键且杂相难避免，这比“成功长出一块晶体”更重要：复现应保留炉内位置、坩埚剩余物与每批相含量。"
+        },
+        {
+          "title": "结构身份和空位有序",
+          "text": "平均结构为P4/nmm的α-Fe₁₊xTe型框架，但Pd约80%占Fe1方网，Fe约68%占Fe2间隙，因此不能称为Pd掺杂FeTe。相对FeTe晶格a、c约扩大3%。单晶XRD弱超晶格峰与nc-AFM共同支持3×3×3 Pd空位有序；7/9=77.8%的理想占位接近EDS的80%。超峰很弱，完整超结构精修困难，所以当前更准确的说法是“短程/不完全空位有序证据”，不能把理想模型当作全体晶格。"
+        },
+        {
+          "title": "表征和测量条件",
+          "text": "磁性用MPMS，输运用PPMS-14 T四探针；中子实验入射能量16 meV；nc-AFM在4.5 K用约30 kHz、Q≈53000的qPlus传感器，STM/AFM腔体基压约2×10⁻¹⁰ Torr。ZFC/FC分叉和AC响应给T_g≈40 K自旋玻璃。电阻率约0.6 mΩ cm且随降温呈半导体趋势，拟合带隙小于10 meV；Hall表明室温以下为空穴，磁阻弱负。约320 K的异常被联系到空位有序—无序，但证据尚属推测。"
+        },
+        {
+          "title": "判断链与替代解释",
+          "text": "直接观察是占位精修、EDS、局域3×3纹理、磁化不可逆和小带隙输运。自旋玻璃判断最好再用AC峰随频率移动、记忆/老化和μSR确认；ZFC/FC分叉也可能来自微量铁磁杂质。负MR可能来自自旋散射被磁场压制，也可能是弱局域化。320 K异常若没有原位衍射或热分析，不能归因空位熔化。最强证据是XRD与nc-AFM跨尺度对应，最弱是杂相难避免而缺少批次定量。"
+        },
+        {
+          "title": "复现路线与可执行建议",
+          "text": "建议围绕Pd:Fe比做窄步长配比矩阵，同时改变800→600 °C降温速率；每批将主晶、坩埚底部和残液分别做粉末XRD/SEM-WDS。用同步辐射漫散射或3D-ΔPDF定量空位相关长度，再把相关长度与T_g和带隙做关联。若研究超导亲缘性，可尝试压力或等电子取代，但必须先证明相纯；若研究玻璃态，应增加频率依赖AC、等待时间和热剩磁，而不是仅凭单次ZFC/FC命名。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "高优先级",
+        "first": "先读占位模型与3×3×3空位证据，再看40 K磁性和小带隙输运。",
+        "focus": "特别区分平均P4/nmm与短程超结构，也不要把它误写为Pd掺杂FeTe。",
+        "next": "复现时保留杂相统计；这套生长对起始比例非常敏感，单个成功批次不能代表稳定窗口。"
+      },
+      "versionNote": "arXiv:2609.11441v1，首次提交与更新均为2026-09-10；未发现正式期刊版本。",
+      "institutions": "中国人民大学；中国科学院物理研究所；中国原子能科学研究院"
+    },
+    {
+      "material": "CrPS₄",
+      "title": "Interplay of spin-lattice and electronic coupling far above Néel ordering in 2D antiferromagnetic CrPS₄ and its interface manifestation",
+      "authors": "Divya Jangra; Binoy Krishna De; Mukesh Kumar Dasoundhi; Sourav Chowdhury; Pragati Sharma; Kartick Biswas; Arup Basak; Dheeraj Kumar Gupta; Koushik Chakraborty; Praveen Kumar Velpula; Pavan Nukala; U. Chandni; Arvind Kumar Yogi; Mukul Gupta; Markus Hücker; Vasant G. Sathe",
+      "journal": "arXiv cond-mat.mtrl-sci",
+      "date": "2026-09-10（v1）",
+      "doi": "https://doi.org/10.48550/arXiv.2609.11203",
+      "fullText": "https://arxiv.org/pdf/2609.11203",
+      "access": "全文精读：arXiv v1正文和补充材料",
+      "rating": "A+",
+      "method": "CVT；Cr:P:S=1:1:4并加4%过量S，650/550 °C 10 d",
+      "category": "低维磁性与关联物态",
+      "tags": [
+        "CVT",
+        "CrPS4",
+        "自旋-声子耦合",
+        "短程关联",
+        "异质结"
+      ],
+      "conclusion": "作者追踪的不是38–40 K Néel转变本身，而是高达约120 K的先兆：磁化偏离Curie–Weiss、Raman声子异常、PL振动进程和电/光输运同时改变，指向短程自旋关联诱发局域晶格畸变，并增强电子—声子耦合。更进一步，CrPS₄/In₂Se₃异质结中In₂Se₃声子在CrPS₄的T_N处显著异常、在T*附近仍有弱迹象，说明关联可穿过vdW界面。核心价值是把CVT块晶质量、跨温区谱学和界面效应连成一个可检验的多自由度故事。",
+      "sections": [
+        {
+          "title": "CVT配方与晶体结构",
+          "text": "99.99% Cr、99.999%红磷、99.999%硫按1:1:4称量并额外加入4% S，在Ar手套箱混合，石英管抽至约10⁻⁵ Torr；源区650 °C、生长区550 °C保持10 d后自然冷却，得到黑色有光泽片晶。正文未报告总质量、管径、升温速率、装料方向、产率和典型横向尺寸。结构为单斜C2，a≈10.87、b≈7.25、c≈6.14 Å、β≈91.88°。这是本期最完整的CVT参数之一，可直接用于第一轮复现。"
+        },
+        {
+          "title": "质量与样品关系",
+          "text": "同步辐射XRD以00l反射确认层状取向；HAADF-STEM未见显著缺陷，EDS元素分布均匀。仅00l序列不足以排除少量第二相或堆垛缺陷，作者也没有给出RRR式电输运质量指标；但STEM与EDS能排除大尺度成分偏析。异质结通过PDMS转移将约42 nm CrPS₄与约96 nm In₂Se₃叠层，界面效应与块晶实验不是同一几何，需要考虑厚度、应变和转移残留。"
+        },
+        {
+          "title": "磁性、Raman和电子响应",
+          "text": "SQUID在4–300 K、100 Oe和2 T、磁场垂直c轴下测量，T_N约40 K；Curie–Weiss行为在T*≈120 K开始偏离，被解释为短程关联。Raman用632.8 nm、3–4 mW、4–300 K、约1 cm⁻¹分辨率，观察19个模，其中CrS₆呼吸模的自旋—声子异常最强。四探针输运以0.1 μA从300降至4 K；光电流用632.8 nm、2 mW两探针。电阻、光电和PL振动进程在T*附近同步变化，支持多自由度耦合。"
+        },
+        {
+          "title": "界面证据与因果限度",
+          "text": "在CrPS₄/In₂Se₃中，In₂Se₃ Raman模在CrPS₄ T_N处显著改变，并在T*附近出现较弱偏离，说明相邻层晶格对磁关联敏感。直接观察是频率/线宽的温变异常；“由CrPS₄短程自旋关联传递”是合理推断，但也可能混入热膨胀失配、应变松弛或局域激光加热。需要CrPS₄/惰性hBN、裸In₂Se₃、不同CrPS₄厚度和功率依赖对照。最强证据是多个本征通道在同一T*汇合；最弱是界面T*信号较小且结构对照有限。"
+        },
+        {
+          "title": "复现和测量建议",
+          "text": "生长上以4%过量S为中心做0/2/4/6%系列，记录硫损失、晶体尺寸、EDS与Raman线宽；650/550 °C和10 d可作基准。测量上用低功率Raman检查峰位是否随激光功率漂移，并把非谐声子背景和自旋—声子残差分开拟合；在T*附近增加密集温点和多批次误差。界面实验应加入hBN隔层、扭角和厚度系列；若异常随隔层迅速衰减，才更有力说明交换/近邻耦合而非远程热应变。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "高优先级",
+        "first": "先读CVT Methods和T*的磁化偏离，再把Raman、PL、输运放到同一温轴，最后看异质结。",
+        "focus": "关注T*是交叉尺度而非真正相变温度；不要把所有异常自动归为长程磁序。",
+        "next": "最容易复现的是块晶Raman—磁化交叉；界面机制需额外对照，适合作为第二阶段。"
+      },
+      "versionNote": "arXiv:2609.11203v1，首次提交与更新均为2026-09-10；未发现正式期刊版本。",
+      "institutions": "UGC-DAE Consortium for Scientific Research；Indian Institute of Science；Weizmann Institute of Science；DESY"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+.openai export-ignore
+site-build.tar.gz export-ignore
+dist export-ignore
+github-dist export-ignore
