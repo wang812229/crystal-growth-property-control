@@ -54,3 +54,23 @@ body{font-size:16px;line-height:1.7;font-kerning:normal;font-synthesis:none;-web
 @keyframes academic-enter{from{opacity:.3;transform:translateY(14px);filter:blur(3px)}to{opacity:1;transform:none;filter:none}}main>section:not(.ticker),.report-layout,.research-library{animation:academic-enter .58s cubic-bezier(.16,1,.3,1) both}.home-paper-card,.topic-card,.archive-list>a{transition-duration:.24s!important}.home-paper-card:hover,.topic-card:hover,.archive-list>a:hover{transform:translateY(-3px)!important}
 @media(max-width:900px){.hero{min-height:auto}.report-layout{padding-top:34px!important}.home-card-content{padding-left:32px!important}.site-header nav,body>header nav{border:1px solid #dbe4f5!important}}
 @media(max-width:600px){.site-header,body>header{height:68px}.hero{padding-block:58px!important}.topic-hub,.latest,.papers,.section,.standard{padding-block:68px!important}.home-paper-card summary{grid-template-columns:34px minmax(0,1fr) 30px!important;padding:22px 18px!important}.home-card-authors{font-size:12px}.home-card-content{padding:24px 18px!important}.paper-detail,.paper{margin:22px 0;padding:27px 19px!important}.paper-kicker{align-items:flex-start;gap:12px}.paper-kicker b{white-space:nowrap}.meta-grid,.meta{grid-template-columns:1fr!important}.institution-item{grid-column:auto!important}.data-figure,.figures figure{padding:18px!important}}
+
+/* Fluid report layout: collapse before the desktop columns become cramped. */
+html,body{max-width:100%;overflow-x:hidden}
+.report-layout,.report-content,.report-lede,.paper-detail,.paper{min-width:0;max-width:100%}
+.report-content :where(p,li,h1,h2,h3,h4,a,b,span){overflow-wrap:anywhere}
+.report-content :where(img,svg,video,canvas){display:block;max-width:100%;height:auto}
+@media(max-width:1280px){
+  .report-layout{grid-template-columns:minmax(0,1fr)!important;gap:0!important;width:100%;max-width:980px;margin-inline:auto;padding-inline:clamp(18px,4vw,42px)!important}
+  .report-layout>.report-toc,.report-layout>aside{display:none!important}
+  .report-content{width:100%;max-width:none!important}
+  .report-lede{width:100%}
+}
+@media(max-width:760px){
+  .report-layout{padding-inline:14px!important;padding-bottom:92px!important}
+  .report-lede{padding:26px 20px!important;margin-bottom:28px}
+  .report-hero,.archive-hero{padding-inline:20px!important}
+  .report-hero h1,.archive-hero h1{max-width:100%!important;font-size:clamp(34px,10vw,44px)!important}
+  .report-summary{width:100%;max-width:none}
+  .table-wrap{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+}
