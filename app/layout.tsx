@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import '../public/site-modern.css';
 import '../public/library.css';
+import ReportReaderLoader from './ReportReaderLoader';
 
 export const metadata: Metadata = {
   metadataBase:new URL('https://crystal-growth-brief.wang812229.chatgpt.site'),
@@ -11,5 +12,5 @@ export const metadata: Metadata = {
   twitter:{card:'summary_large_image',title:'每日文献简报',description:'量子材料研究证据库',images:['/og.png']}
 };
 
-export default function RootLayout({children}:Readonly<{children:React.ReactNode}>){return <html lang="zh-CN"><body>{children}</body></html>}
+export default function RootLayout({children}:Readonly<{children:React.ReactNode}>){return <html lang="zh-CN"><body>{children}<ReportReaderLoader/></body></html>}
 
