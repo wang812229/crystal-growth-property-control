@@ -27,6 +27,7 @@
     const limitation=findParagraph(paper,/局限|边界|最弱|替代解释|可复现/i)||'未形成独立局限段；请在完整证据链中核对“正文未报告”项与替代解释。';
     const originalNodes=[...paper.children].filter(node=>node!==paper.querySelector('.paper-kicker')&&node!==paper.querySelector('.paper-head')&&node!==paper.querySelector('h2'));
     const full=document.createElement('div');full.className='paper-mode-panel paper-full-panel';full.dataset.mode='full';originalNodes.forEach(node=>full.append(node));
+    [...full.querySelectorAll('h3')].filter(h=>!h.closest('.paper-conclusion,.reading-guide,.reading')).forEach((h,i)=>h.id=`${paper.id}-evidence-${i+1}`);
     const toolbar=document.createElement('div');toolbar.className='reading-mode-tabs';toolbar.setAttribute('role','tablist');toolbar.setAttribute('aria-label','阅读模式');
     toolbar.innerHTML=Object.entries(modeLabels).map(([key,label])=>`<button type="button" role="tab" data-mode="${key}" aria-selected="${key==='quick'}">${label}</button>`).join('');
     const quick=document.createElement('div');quick.className='paper-mode-panel quick-panel';quick.dataset.mode='quick';
