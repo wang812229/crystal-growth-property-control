@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560" role="img" aria-labelledby="t d">
+<title id="t">SrCu2(BO3)2高压结构与磁性分层图</title><desc id="d">展示4到14 GPa内结构相、短程反铁磁和三维反铁磁转变温度。</desc>
+<rect width="1100" height="560" rx="28" fill="#101d3b"/><text x="62" y="66" font-size="27" font-weight="700" font-family="Arial,sans-serif" fill="#fff">11B NMR把结构和磁性拆成两条证据轴</text>
+<line x1="120" y1="430" x2="1010" y2="430" stroke="#b8c9ff" stroke-width="3"/><line x1="120" y1="110" x2="120" y2="430" stroke="#b8c9ff" stroke-width="3"/>
+<g fill="#dbe4ff" font-size="16"><text x="102" y="462">2</text><text x="355" y="462">4</text><text x="520" y="462">5.5</text><text x="968" y="462">14 GPa</text><text x="54" y="436">0 K</text><text x="45" y="300">60</text><text x="38" y="160">160</text></g>
+<rect x="120" y="125" width="260" height="305" fill="#294f9a" opacity=".7"/><rect x="380" y="125" width="145" height="305" fill="#5f86ff" opacity=".8"/><rect x="525" y="125" width="485" height="305" fill="#755dd8" opacity=".78"/>
+<g fill="#fff" font-size="18" font-weight="700"><text x="178" y="154">四方相</text><text x="392" y="154">单斜-1</text><text x="690" y="154">单斜-2</text></g>
+<path d="M355 415 L520 374 L970 337" fill="none" stroke="#ffcf70" stroke-width="7"/><circle cx="355" cy="415" r="8" fill="#ffcf70"/><circle cx="520" cy="374" r="8" fill="#ffcf70"/><circle cx="970" cy="337" r="8" fill="#ffcf70"/><g fill="#ffdf99" font-size="16"><text x="315" y="398">TN≈3 K</text><text x="534" y="367">10.5 K</text><text x="925" y="330">≈15 K</text></g>
+<path d="M380 318 C540 275 760 270 1000 274" fill="none" stroke="#70e0d0" stroke-width="6" stroke-dasharray="12 9"/><text x="650" y="253" fill="#9cf2e6" font-size="17">短程二维AFL：约20–40 K</text>
+<path d="M380 145 C470 150 500 185 525 205" fill="none" stroke="#fff" stroke-width="5"/><text x="380" y="108" fill="#fff" font-size="16">卫星峰/νQ：4–5 GPa结构重排</text>
+<text x="62" y="515" fill="#cbd6f5" font-size="16">直接观察：卫星峰、中心峰、νQ、Knight shift与1/T1；“单斜-1/2”空间群仍需同步高压衍射确认。</text>
+</svg>

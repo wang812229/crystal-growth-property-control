@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="540" viewBox="0 0 1100 540" role="img" aria-labelledby="t d">
+<title id="t">α-RuCl3应变调控证据链</title><desc id="d">厚度对照排除干涉后，拉伸和压缩导致相反光谱变化并映射到Kitaev与Heisenberg交换比。</desc>
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#5f86ff"/><stop offset="1" stop-color="#7761e8"/></linearGradient></defs>
+<rect width="1100" height="540" rx="28" fill="#f5f7ff"/><text x="58" y="66" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#17213b">厚度伪影先排除，再讨论应变调控</text>
+<rect x="58" y="104" width="290" height="310" rx="22" fill="#fff" stroke="#a9c2ff"/><text x="84" y="146" font-size="19" font-weight="700" fill="#355bd8">① 厚度对照</text><text x="84" y="188" font-size="17" fill="#33415c">3.2–350 nm</text><text x="84" y="223" font-size="17" fill="#33415c">1.2 eV峰位仅约30 meV变化</text><text x="84" y="258" font-size="17" fill="#33415c">Fresnel/Lorentz模型可重现</text><text x="84" y="310" font-size="18" font-weight="700" fill="#17213b">结论：主要是薄膜干涉</text>
+<path d="M370 260h85" stroke="url(#g)" stroke-width="8" stroke-linecap="round"/><path d="m445 245 25 15-25 15" fill="#7761e8"/>
+<rect x="470" y="104" width="290" height="310" rx="22" fill="#fff" stroke="#a9c2ff"/><text x="496" y="146" font-size="19" font-weight="700" fill="#355bd8">② 可逆单轴应变</text><text x="496" y="190" font-size="17" fill="#33415c">拉伸：带隙↓、三重态/单重态↑</text><text x="496" y="230" font-size="17" fill="#33415c">压缩：趋势相反</text><text x="496" y="270" font-size="17" fill="#33415c">3.2 与 8.9 nm薄片复现</text><text x="496" y="322" font-size="18" font-weight="700" fill="#17213b">Raman循环支持可逆性</text>
+<path d="M782 260h85" stroke="url(#g)" stroke-width="8" stroke-linecap="round"/><path d="m857 245 25 15-25 15" fill="#7761e8"/>
+<rect x="882" y="104" width="160" height="310" rx="22" fill="url(#g)"/><text x="904" y="148" font-size="19" font-weight="700" fill="#fff">③ 交换映射</text><text x="904" y="200" font-size="17" fill="#fff">拉伸 → K/J ↑</text><text x="904" y="244" font-size="17" fill="#fff">Γ/K ↓</text><text x="904" y="298" font-size="16" fill="#eef2ff">−3%压缩二聚化</text><text x="904" y="330" font-size="16" fill="#eef2ff">Jeff模型失效</text>
+<text x="58" y="482" font-size="16" fill="#52617d">边界：PDMS真实应变与薄片晶向未标定；计算支持趋势，不是交换常数的实验绝对测量。</text>
+</svg>
