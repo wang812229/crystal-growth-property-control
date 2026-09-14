@@ -1,0 +1,5 @@
+'use client';
+import {useEffect,useState} from 'react';import type {Paper} from '../../lib/search';import {personalDigest,type ResearchPreferences} from '../../lib/research-dashboard.mjs';
+const blank:ResearchPreferences={materials:[],methods:[],measurements:[],journals:[],authors:[]};
+export default function HomePersonalDigest(){const [papers,setPapers]=useState<Paper[]>([]),[prefs,setPrefs]=useState(blank);useEffect(()=>{import('../search/search-index').then(m=>setPapers(m.default as unknown as Paper[]));try{const stored=JSON.parse(localStorage.getItem('literature.research.preferences.v1')||'null')||blank;queueMicrotask(()=>setPrefs(stored))}catch{}},[]);if(!papers.length)return null;const digest=personalDigest(papers,prefs);return <section className="home-personal"><div className="section-heading"><div><p className="eyebrow">FOR YOUR RESEARCH</p><h2>今日与你相关的 5 篇</h2></div><a href="/workspace">调整关注方向 →</a></div><div>{digest.map(({paper:p,score},i)=><a href={p.reportUrl} key={p.id}><span>{String(i+1).padStart(2,'0')}</span><div><small>{p.material} · {p.journal}</small><b>{p.title}</b></div><em>{score?`匹配 ${score}`:p.rating}</em></a>)}</div></section>}
+

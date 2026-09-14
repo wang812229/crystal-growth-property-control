@@ -1,0 +1,15 @@
+import type {Paper} from './search';
+export const TRACKED_MATERIALS:{id:string;name:string;aliases:string[]}[];
+export const STAGES:{id:string;label:string;pattern:RegExp}[];
+export const PROJECT_GROUPS:string[];
+export function canonicalMaterial(paper:Paper):string;
+export function materialId(name:string):string;
+export function paperStages(paper:Paper):string[];
+export function buildMaterialTracks(papers:Paper[],options?:{minimum?:number}):{id:string;name:string;items:(Paper&{storyStages:string[]})[];stageCounts:Record<string,number>}[];
+export function personalScore(paper:Paper,prefs:ResearchPreferences):number;
+export function personalDigest(papers:Paper[],prefs:ResearchPreferences,limit?:number):{paper:Paper;score:number}[];
+export function weeklyStats(papers:Paper[],endDate?:string):{start:string;end:string;total:number;full:number;formal:number;arxiv:number;daily:{date:string;total:number;formal:number;arxiv:number}[];methods:[string,number][];measurements:[string,number][];journals:[string,number][];materials:[string,number][];top:Paper[]};
+export type ResearchPreferences={materials:string[];methods:string[];measurements:string[];journals:string[];authors:string[]};
+export type ExperimentRecord=Record<string,string>&{id:string;date:string;sampleId:string;material:string;method:string;project:string};
+export function normalizeExperiment(record:Partial<ExperimentRecord>):ExperimentRecord;
+export function experimentsCsv(records:ExperimentRecord[]):string;
