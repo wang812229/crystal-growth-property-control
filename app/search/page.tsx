@@ -8,7 +8,8 @@ export const metadata: Metadata = {
 };
 
 export default function SearchPage(){return <main className="search-page">
-  <header className="site-header"><a className="brand" href="/"><span className="brand-mark">文</span><span>每日文献简报</span></a><nav aria-label="主导航"><a href="/reports/2026-09-14">今日简报</a><a href="/materials">材料时间线</a><a className="active" href="/search">智能检索</a><a href="/weekly">本周趋势</a><a href="/workspace">我的研究</a><a href="/archive">归档</a></nav><div className="live-chip"><span/> 每日 08:00 更新</div></header>
+  <header className="site-header"><a className="brand" href="/"><span className="brand-mark">文</span><span>每日文献简报</span></a><nav aria-label="主导航"><a href="/reports/2026-09-15">今日简报</a><a href="/materials">材料时间线</a><a className="active" href="/search">智能检索</a><a href="/weekly">本周趋势</a><a href="/workspace">我的研究</a><a href="/archive">归档</a></nav><div className="live-chip"><span/> 每日 08:00 更新</div></header>
   <SearchClient/>
   <footer><div className="brand"><span className="brand-mark">文</span><span>每日文献简报</span></div><p>基于本站已审阅简报进行检索与问答</p><p>答案附带证据来源 · 重要结论请核对论文原文</p></footer>
 </main>}
+
