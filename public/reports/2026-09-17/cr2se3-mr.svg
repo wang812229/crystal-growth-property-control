@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="270" viewBox="0 0 900 270" role="img" aria-label="含碘Cr2Se3不同温度磁阻原创图解">
+<rect width="900" height="270" rx="24" fill="#f5f7ff"/>
+<text x="38" y="41" fill="#21345b" font-size="20" font-family="Arial,sans-serif" font-weight="700">含碘 Cr₂Se₃ · 巨负磁阻的温度依赖</text>
+<text x="38" y="69" fill="#617094" font-size="13" font-family="Arial,sans-serif">12 T 横向磁阻（摘录论文给出的三个数值；非完整 MR(B) 曲线）</text>
+<line x1="160" y1="111" x2="794" y2="111" stroke="#9dafcc" stroke-width="2"/>
+<g fill="#31415f" font-size="14" font-family="Arial,sans-serif"><text x="72" y="129">5 K</text><text x="72" y="178">25 K</text><text x="72" y="226">200 K</text></g>
+<rect x="160" y="113" width="381" height="25" rx="7" fill="#a9c2ff"/><rect x="160" y="161" width="560" height="25" rx="7" fill="#5f86ff"/><rect x="160" y="209" width="4" height="25" rx="2" fill="#a9c2ff"/>
+<g fill="#24375b" font-size="14" font-family="Arial,sans-serif"><text x="550" y="131">−53%</text><text x="730" y="179">−78%</text><text x="176" y="227">−0.6%</text></g>
+<text x="38" y="257" fill="#617094" font-size="12" font-family="Arial,sans-serif">负磁阻随温度非单调；不能仅凭幅值判定磁极化子或唯一散射机制。</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="UTe2超导记忆效应的磁场和温度窗口原创图解">
+<rect width="900" height="260" rx="24" fill="#f5f7ff"/>
+<text x="38" y="39" fill="#21345b" font-size="20" font-family="Arial,sans-serif" font-weight="700">UTe₂ · 电流历史写入窗口</text>
+<text x="39" y="72" fill="#617094" font-size="13" font-family="Arial,sans-serif">B ∥ b · 约 50 mK · 非按实验连续曲线重绘</text>
+<line x1="86" y1="155" x2="826" y2="155" stroke="#8c9fc4" stroke-width="3"/>
+<rect x="259" y="119" width="406" height="69" rx="15" fill="#dce5ff"/>
+<text x="462" y="145" fill="#3159bc" font-size="16" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700">可写 / 擦的超导记忆区</text>
+<text x="462" y="175" fill="#3159bc" font-size="13" text-anchor="middle" font-family="Arial,sans-serif">SC1–SC2 相界附近</text>
+<g fill="#384762" font-size="13" font-family="Arial,sans-serif" text-anchor="middle"><text x="86" y="211">0 T</text><text x="260" y="211">约 7 T</text><text x="666" y="211">约 20 T</text><text x="824" y="211">30 T</text></g>
+<g stroke="#6785d8" stroke-width="2"><line x1="260" y1="112" x2="260" y2="189"/><line x1="666" y1="112" x2="666" y2="189"/></g>
+<text x="39" y="242" fill="#617094" font-size="12" font-family="Arial,sans-serif">温度对照：效应在约 0.4 K 以下明显，约 0.65 K 消失；30 T 纯 SC2 未见。</text>
+</svg>

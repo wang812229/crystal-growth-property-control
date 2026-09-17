@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="270" viewBox="0 0 900 270" role="img" aria-label="EuAgAs助熔剂生长温程原创图解">
+<rect width="900" height="270" rx="24" fill="#f5f7ff"/>
+<text x="38" y="40" fill="#21345b" font-size="20" font-family="Arial,sans-serif" font-weight="700">EuAgAs · Bi 助熔剂温程</text>
+<text x="38" y="68" fill="#617094" font-size="13" font-family="Arial,sans-serif">Eu:Ag:As:Bi = 1:1:1:9 · 氧化铝坩埚 / 抽真空石英安瓿</text>
+<line x1="104" y1="211" x2="822" y2="211" stroke="#92a2c1" stroke-width="2"/><line x1="104" y1="86" x2="104" y2="212" stroke="#92a2c1" stroke-width="2"/>
+<path d="M 104 206 L 276 104 L 395 104 L 747 172" fill="none" stroke="#5f86ff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="276" cy="104" r="6" fill="#344bb0"/><circle cx="395" cy="104" r="6" fill="#344bb0"/><circle cx="747" cy="172" r="6" fill="#344bb0"/>
+<g fill="#34425c" font-size="13" font-family="Arial,sans-serif" text-anchor="middle"><text x="190" y="175">15 h 升温</text><text x="341" y="91">1100°C 保温 24 h</text><text x="558" y="119">250 h 缓降 ≈ 1.6°C/h</text><text x="747" y="194">700°C 离心</text></g>
+<text x="38" y="252" fill="#617094" font-size="12" font-family="Arial,sans-serif">根据论文 Methods 数值重绘，并非原始炉温记录；离心转速、安瓿真空数值和产率未报告。</text>
+</svg>
