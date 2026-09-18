@@ -6,7 +6,7 @@ export const metadata:Metadata={title:'2026-09-18 简报｜每日文献简报',d
 
 const figures:Record<string,{src:string;title:string;caption:string}>= {
   'Encapsulation epitaxy of air-stable monolayer superconducting films for quantum circuits and qubits':{src:'/reports/2026-09-18/nbse2-growth.svg',title:'原创图解 1｜封装外延NbSe₂关键温程',caption:'依据arXiv:2609.19321 Methods数值重绘，并非原始温度记录或论文原图。15 min升至950 °C、9 min保温、随后快速冷却；NaCl在上游约750–850 °C。源与基底相距1–3 mm。来源：https://arxiv.org/abs/2609.19321 。'},
-  'Superconductivity at the metal-insulator phase boundary in a bulk nickelate at ambient pressure':{src:'/reports/2026-09-18/nickelate-fraction.svg',title:'原创图解 2｜镍酸盐转变温度与体积分数不能混读',caption:'依据arXiv:2609.19686正文数值重绘，并非论文原图。Pr样Tc约7 K、估计超导体积分数约2%；Y样Tc约15 K、约0.03%。纵轴使用对数刻度展示体积分数，绝不能把电阻下降直接等同均匀块体超导。来源：https://arxiv.org/abs/2609.19686 。'},
+  'Superconductivity at the metal-insulator phase boundary in a bulk nickelate at ambient pressure':{src:'/reports/2026-09-18/nickelate-fraction.svg',title:'原创图解 2｜镍酸盐转变温度与体积分数不能混读',caption:'依据arXiv:2609.19686正文数值重绘，并非论文原图。Pr样Tc约7 K、估计超导体积分数约2%；Y样Tc约15 K、约0.03%。并列列出体积分数，条长不代表线性或对数比例，绝不能把电阻下降直接等同均匀块体超导。来源：https://arxiv.org/abs/2609.19686 。'},
   'Crystallographic imperfections and exotic superconductivity of UBe13':{src:'/reports/2026-09-18/ube13-defects.svg',title:'原创图解 3｜UBe₁₃微小结构变化与Tc变化',caption:'据arXiv:2609.19678正文报告的约0.006%晶胞体积变化、约28% Tc变化绘制概念比例。不是实测点列或因果拟合；提醒比较Al Flux样与无Al样时同时测占位、空位和退火史。来源：https://arxiv.org/abs/2609.19678 。'}
 };
 
