@@ -55,6 +55,10 @@
         {
           "title": "对下一次实验的建议",
           "text": "复现应先用一批记录完整盐助熔剂温程和残盐处理的晶体，在同一几何测RRR、Laue、显微裂纹，再依次测平缓基线、快关断写入、慢扫擦除；每一步固定B∥b与温度，记录电流波形、接触电阻和温度传感器原始轨迹。跨批次比较RRR=44/105/395附近材料的记忆起始场和ΔJ，检验缺陷钉扎与相边界贡献。最强的新实验是在相同写/擦协议下同步扫描SQUID或局域磁成像，并改变热锚与脉冲能量，以把涡旋图像和热效应分开。"
+        },
+        {
+          "title": "原始信号与生长质量应如何同批核对",
+          "text": "把每个写入协议看作一段完整时间序列，而不是只比较最终两条J–V曲线：应同时保存电流源设定、实际样品电压、传感器温度和磁场稳定度，标注快断电前的保持时间、慢擦除每阶持续时间及两次读出之间的等待。若电压恢复本身跟热锚或脉冲能量强相关，热淬火替代解释会增强；若在相同耗散能量下仅关断斜率决定状态，涡旋重排解释会更强。作者的不同RRR样品已经提示生长缺陷窗口可能很宽，但文中没有把某一残盐量、微裂纹密度或晶体尺寸与记忆幅度做相关回归。下一次同炉晶体可按RRR、Laue半高宽、显微裂纹和厚度分箱，再用盲化顺序跑相同写擦协议；把有效记忆概率、临界电流差和恢复时间同样品质量联系，而不是只选最大效应样品。图1中的7 T点展示可切换性，图4的场角窗口决定机制是否具有相区选择性，两者证据职责不同。"
         }
       ],
       "readingGuide": {
@@ -102,6 +106,10 @@
         {
           "title": "相图、证据强弱与下一次测量",
           "text": "面内场下2 K磁化导数与AC实部分别出现多重变磁异常和微弱滞后；H⊥c约1.6 T、H∥c约3.5 T进入更极化态，9 T磁矩仍约6.65/6.75 μB，略低于Eu²⁺自由离子7 μB。相图最强处是体相热容、局域超精细谱和取向磁化互证；最弱处是没有同一块样品的直接磁传播矢量，且Bi残留、Eu/As微缺陷、磁畴历史可能影响低场转变。下一批按同一温程做至少三炉，逐晶记录Bi残留、EDS和RRR，优先在同一晶体上做共振X射线散射或吸收校正的中子衍射，跨11.7 K和1.6 T追踪q矢量，而非用“像skyrmion”的相图形状当作拓扑证据。"
+        },
+        {
+          "title": "缺陷、磁结构与可复现性的下一步",
+          "text": "Bi助熔剂不仅控制长晶窗口，还可能留下表面金属、层间夹杂或局部成分偏析。因此27°残Bi峰不能简单当作无关的小杂质；应在离心前后、汞齐前后对同一批晶体做质量、表面SEM/EDS和PXRD对照，必要时机械去表层后重测电阻与磁化。11.7 K热容峰是体相磁序的可靠锚点，但不能给出传播矢量；Mössbauer的53°倾角也是局域角度，不告诉面内自旋按什么周期转动。若非公度q随温度变化，Mössbauer在10 K需要增宽谱线的现象可作为线索，却也可来自无序展宽。优先挑三块不同Bi残余程度但EDS均近1:1:1的单晶，做同几何磁化、热容和单晶共振散射，再与此前两套中子结果逐点对照。生长报告里还应逐炉留存安瓿有效容积、氧化铝坩埚尺寸、是否使用catch坩埚及离心实际转速，这些参数对Bi残留和片晶完整性都可能有影响，本文未提供，不能把给出的温程误当成完整可复制配方。"
         }
       ],
       "readingGuide": {
@@ -149,6 +157,10 @@
         {
           "title": "排除链和可复现实验",
           "text": "温变Raman未见150 K附近变群结构转变；87 K/250 K ARPES能带大体不变，实验分辨约80 meV、动量优于0.02 Å⁻¹，故不能排除细小口袋或低谱重态。高温Hall以空穴为主，T*以下非线性Hall和三次谐波说明单一载流子Drude模型不足。作者把弱局域、手性反常、Kondo等替代机制逐一讨论，但−78%负MR并非唯一指纹。下一炉至少扫描I投料、安瓿位置和退火，逐片WDS/ICP/单晶XRD定量碘与空位，测同片纵横MR、Hall、多频ESR及局域μSR；若T*随碘梯度而漂移，可直接检验化学无序模型。"
+        },
+        {
+          "title": "碘、空位与巨磁阻的因果拆解",
+          "text": "目前最易混淆的变量是I进入晶格、Se亏损、Cr位缺陷和同管不同位置的生长梯度。EDS的40:55:5只是局部元素平均，XPS证明碘存在却偏向表面，二者相互支持但都不给出确定占位。要主张“碘导致−78%”，下一炉应固定Cr:Se投料、安瓿几何与850/700°C分布，只改变I的质量/体积，且分别收集热端、中段、冷端；每片用EPMA/WDS或ICP量实际成分、单晶衍射精修占位和TEM-EDS检查纳米第二相。把T*、TN、零场电阻、Hall载流子参数以及12 T磁阻对实际碘含量作同一张散点图，才能区分相关性与因果性。ESR、非线性Hall和三次谐波揭示150 K附近不止一个普通Drude通道，却也可能受接触、电流加热或磁畴影响；应做频率、电流幅值和接线互换对照。Raman与ARPES的阴性证据约束大尺度结构/能带重构，但其分辨率之下的小口袋重排、短程有序并未被排除。"
         }
       ],
       "readingGuide": {
@@ -193,6 +205,10 @@
         {
           "title": "物性边界和下一炉",
           "text": "本文核心测量是结构/形貌/极性，没有LED输出功率、漏电、击穿场、载流子迁移率或热导率，因此不能把“高质量模板”直接等同器件性能。表面初始Al(N,O)过渡层可能制造反极性晶核，文章在总结中将HCl选择性蚀刻作为可能机制，而非直接原位观测。下一轮按15/46/71/80比值，在同一衬底偏切与厚度下记录绝对HCl/NH₃/AlCl₃流量、成长速率、XRD双反射、截面STEM和KOH极性面积分数；配套SIMS测Cl/O/C杂质，并用LED外延或电学测试验证“1000°C工艺收益”是否兑现。"
+        },
+        {
+          "title": "从表面形貌到实际外延收益的验证",
+          "text": "本文把可直接测到的形貌、XRD半高宽和极性区域作为工艺成功指标，但它们各自回答不同问题：SEM微塔消失说明表面选择性，(002)/(102)摇摆曲线分别更敏感于螺位错/刃位错相关倾斜，EBSD与STEM才把反极性畴定位到局域缺陷。高游离HCl改善薄膜时生长速率也降低，比较应固定膜厚而非固定生长时间，否则不同厚度本身就会改变摇摆曲线和表面密度。若HCl会同时改变Cl掺入、氧污染和Al空位，单纯用形貌趋势无法断言选择性刻蚀是唯一机制。建议在高低两组HCl/AlCl₃比值下制同厚的5 μm膜，在5个以上晶圆位置记录(002)/(102)摇摆曲线、AFM粗糙度、KOH蚀坑密度和截面TEM反极性面积，再用SIMS定量Cl/O/C深度分布。接着生长相同LED或功率器件叠层，比较漏电、击穿、外量子效率或寿命，才可把“1000°C更容易兼容石英反应器”的工艺便利转化为器件结论。文章没有提供这一步，推荐把它作为后续合作验证而非已实现成果。此外，安瓿与CVT配方概念不适用于开放流动式HVPE，记录应改为反应器材料、气体纯度、管线温度与气相分压；把自由HCl/AlCl₃的比值同氮源V/III比一起画二维工艺图，比单独追逐一个“最佳HCl比”更可能找到兼顾表面、位错与生长速率的窗口。"
         }
       ],
       "readingGuide": {
@@ -244,7 +260,7 @@
         "focus": "重点检查光强归一化、器件数和暗态热对照；摘要不足以复刻工艺。",
         "next": "获取Methods/SI后再决定是否进入生长参数库。"
       },
-      "institutions": "需从出版社全文核实作者单位",
+      "institutions": "Sun Yat-sen University（中山大学；Crossref作者单位元数据）",
       "versionNote": ""
     },
     {
@@ -287,7 +303,7 @@
         "focus": "重点区分20 nm畴壁/导电通道与测量探针分辨率。",
         "next": "若有机构全文，再提取接触金属、写入电压、样品数与误差。"
       },
-      "institutions": "需从出版社全文核实作者单位",
+      "institutions": "South China Normal University（华南师范大学）; Nanjing University（南京大学；Crossref作者单位元数据）",
       "versionNote": ""
     },
     {
@@ -326,7 +342,7 @@
         "focus": "注意模板改变还伴随应变和成核密度变化。",
         "next": "设计同粗糙度、异极性AlN模板的成对实验。"
       },
-      "institutions": "作者机构详见arXiv原稿",
+      "institutions": "Nanjing University of Posts and Telecommunications; The Hong Kong University of Science and Technology (Guangzhou); HKUST",
       "versionNote": "arXiv 2609.18843 v1，首次提交 2026-09-16 UTC，最近更新 2026-09-16 UTC；北京时间9月17日可见。"
     },
     {
@@ -365,7 +381,7 @@
         "focus": "不要把小AHE直接等同本征交错磁序。",
         "next": "设计应变、氧空位、Ti含量正交矩阵。"
       },
-      "institutions": "作者机构详见arXiv原稿",
+      "institutions": "University of Minnesota–Twin Cities; Temple University; Diamond Light Source; Pacific Northwest National Laboratory",
       "versionNote": "arXiv 2609.18059 v1，首次提交 2026-09-16 UTC，最近更新 2026-09-16 UTC；北京时间9月17日可见。"
     },
     {
@@ -404,7 +420,7 @@
         "focus": "留意能量分辨率退卷积和基底差异。",
         "next": "补测中间q的BLS桥接两个尺度。"
       },
-      "institutions": "作者机构详见arXiv原稿",
+      "institutions": "SLAC National Accelerator Laboratory; Stanford University; University of Iowa; JASRI/NanoTerasu",
       "versionNote": "arXiv 2609.19112 v1，首次提交 2026-09-16 UTC，最近更新 2026-09-16 UTC；北京时间9月17日可见。"
     },
     {
@@ -443,7 +459,7 @@
         "focus": "留意U值和有效质量都是模型依赖。",
         "next": "同晶体光学、Hall、ARPES交叉标定。"
       },
-      "institutions": "作者机构详见arXiv原稿",
+      "institutions": "University of Stuttgart; Max Planck Institute for Chemical Physics of Solids; National High Magnetic Field Laboratory",
       "versionNote": "arXiv 2609.18744 v1，首次提交 2026-09-16 UTC，最近更新 2026-09-16 UTC；北京时间9月17日可见。"
     },
     {
@@ -457,7 +473,7 @@
       "access": "正文核查：读取公开PDF样品、光学结果及讨论；未获取独立SI",
       "rating": "A-",
       "method": "Al自助熔剂单晶；光学电导比较",
-      "category": "重费米子与量子临界",
+      "category": "磁性、拓扑与自旋",
       "tags": [
         "arXiv v1",
         "CeAlSi",
@@ -482,7 +498,7 @@
         "focus": "不要把弱光学耦合直接等同不存在Weyl节点。",
         "next": "做同取向偏振、场依赖和Hall联合分析。"
       },
-      "institutions": "作者机构详见arXiv原稿",
+      "institutions": "The University of Osaka; Okayama University; Toyama Prefectural University",
       "versionNote": "arXiv 2609.18592 v1，首次提交 2026-09-16 UTC，最近更新 2026-09-16 UTC；北京时间9月17日可见。"
     },
     {
@@ -521,7 +537,7 @@
         "focus": "明确整锭多晶、剥片可能近单晶的层级。",
         "next": "增加晶粒级成分和表面态证据后再作拓扑器件判断。"
       },
-      "institutions": "作者机构详见arXiv原稿",
+      "institutions": "A.B. Nalbandyan Institute of Chemical Physics, NAS Armenia; Belgorod State University",
       "versionNote": "arXiv 2609.18771 v1，首次提交 2026-09-16 UTC，最近更新 2026-09-16 UTC；北京时间9月17日可见。"
     },
     {
@@ -560,7 +576,7 @@
         "focus": "注意商业块晶的生长条件无法复现。",
         "next": "优先做同片成分映射与转移前后应变对照。"
       },
-      "institutions": "作者机构详见arXiv原稿",
+      "institutions": "University of Warsaw; Wrocław University of Science and Technology; Sapienza University of Rome",
       "versionNote": "arXiv 2609.18572 v1，首次提交 2026-09-16 UTC，最近更新 2026-09-16 UTC；北京时间9月17日可见。"
     }
   ]
