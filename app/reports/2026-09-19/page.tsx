@@ -1,0 +1,25 @@
+/* eslint-disable @next/next/no-html-link-for-pages, @next/next/no-img-element */
+import type {Metadata} from 'next';
+import report from '../../../content/reports/2026-09-19.json';
+
+export const metadata:Metadata={title:'2026-09-19 简报｜每日文献简报',description:report.headline};
+
+const figures:Record<string,{src:string;title:string;caption:string}>= {
+  'Giant Domain Walls and Intrinsic Heterogeneity in 214 Cuprate Superconductors':{src:'/reports/2026-09-19/lesco-domains.svg',title:'原创图解 1｜LESCO结构畴壁尺度',caption:'依据PRL正式版对应公开稿arXiv:2511.18938正文数值重绘。300 K的LTO基体含约150 nm LTT样畴壁，间隔0.5–2 μm；100 K的LTT基体保留100–200 nm LTO样条带。分辨率约70 nm；示意宽度不按真实比例。'},
+  'Magnetic order and excitations in the magnetically intercalated van der Waals material Cr₁/₄₋δNbSe₂ (δ=0.065)':{src:'/reports/2026-09-19/cr-nbse2.svg',title:'原创图解 2｜Cr占位与中子证据链',caption:'依据PRB对应公开稿arXiv:2604.07117 Methods重绘。EDS给x=0.185±0.01而非名义0.25；10 mg晶体用于衍射，10片共1.4 g用于非弹性谱。条长按x线性绘制。'},
+  'Strain-Induced Metal-to-Insulator Transition in Antiferromagnetic SrCrO3 Thin Films':{src:'/reports/2026-09-19/srco-strain.svg',title:'原创图解 3｜SrCrO₃应变驱动电阻率跨越',caption:'依据arXiv:2609.20486正文数值在对数纵轴重绘。金属–绝缘体边界位于NGO约+1.11%和LSAT约+1.31%之间；不同基底/缓冲层化学仍是替代解释。'}
+};
+
+export default function Report(){
+ const full=report.papers.filter(p=>p.access.includes('全文精读')).length;
+ const counts=report.papers.reduce<Record<string,number>>((m,p)=>(m[p.category]=(m[p.category]||0)+1,m),{});
+ return <main className="report-page">
+ <header className="site-header"><a className="brand" href="/"><span className="brand-mark">文</span><span>每日文献简报</span></a><nav aria-label="主导航"><a className="active" href="/reports/2026-09-19">今日简报</a><a href="/materials">材料时间线</a><a href="/search">智能检索</a><a href="/weekly">本周趋势</a><a href="/workspace">我的研究</a><a href="/archive">归档</a></nav><div className="live-chip"><span/> 每日 10:00 更新</div></header>
+ <div className="report-hero"><div><p className="eyebrow">DAILY REPORT · ISSUE 025</p><h1>每日文献简报</h1><p>2026 年 9 月 19 日 · 北京时间</p></div><div className="report-summary"><b>今日判断</b><p>{report.headline}</p><div><span>{report.papers.length} 篇入选</span><span>{full} 篇全文精读</span><span>正式期刊 7 篇</span></div></div></div>
+ <div className="report-layout"><aside className="report-toc"><p>本期目录</p>{report.papers.map((p,i)=><a key={p.title} href={'#paper-'+(i+1)}>{String(i+1).padStart(2,'0')} · {p.material.slice(0,14)}</a>)}<a href="#compare">板块统计</a><a href="#search-log">检索日志</a></aside><article className="report-content">
+ <section className="report-lede"><p className="eyebrow">TODAY&apos;S SIGNAL</p><h2>今日要点与访问边界</h2><p>{report.hotspot}</p><ol><li><b>周末回溯：</b>9月19日当天零高相关新增，实际检索窗口为9月17–19日。</li><li><b>正式期刊优先：</b>APS正式论文7篇、arXiv独立新稿5篇；正式版均以DOI为主条目。</li><li><b>阅读等级：</b>7篇完成公开全文精读，5篇正文核查；没有仅凭摘要入选的条目。</li><li><b>图解合规：</b>三张图均按公开正文数字原创重绘，不复用论文图片。</li></ol></section>
+ {report.papers.map((p,i)=>{const fig=figures[p.title];return <section className="paper-detail" id={'paper-'+(i+1)} key={p.title}><div className="paper-kicker"><span>{String(i+1).padStart(2,'0')} · {p.category}</span><b>{p.access.includes('全文精读')?'全文精读':p.access.includes('正文核查')?'正文核查':'摘要级'} · 推荐 {p.rating}</b></div><h2>{p.material}｜{p.title}</h2><div className="tag-row">{p.tags.map(t=><span key={t}>{t}</span>)}</div><div className="meta-grid"><div className="meta-item"><span>来源</span><b>{p.journal}</b></div><div className="meta-item"><span>上线日期</span><b>{p.date}</b></div><div className="meta-item"><span>生长 / 方法</span><b>{p.method}</b></div><div className="meta-item"><span>作者</span><b>{p.authors}</b></div><div className="meta-item institution-item"><span>主要单位</span><b>{p.institutions}</b></div></div><p className="links"><a href={p.doi}>DOI / 原文 ↗</a>{p.fullText&&<a href={p.fullText}> 公开全文 ↗</a>}</p><p className="version-note"><b>版本与阅读范围：</b>{p.versionNote} {p.access}</p><div className="paper-conclusion"><span>CONCLUSION</span><h3>这篇论文讲了什么故事</h3><p>{p.conclusion}</p></div>{fig&&<figure className="data-figure"><figcaption><b>{fig.title}</b><span>根据公开Methods与正文数值重绘，并非论文原图</span></figcaption><img className="report-figure-image" src={fig.src} alt={fig.title}/><p className="figure-analysis"><b>图解分析：</b>{fig.caption}</p></figure>}{p.sections.map(s=><div key={s.title}><h3>{s.title}</h3>{s.text.split('\n\n').map((part,j)=><p key={j}>{part}</p>)}</div>)}<div className="reading-guide"><span>{p.readingGuide.priority}</span><h3>本篇专属阅读路径</h3><p><b>先读：</b>{p.readingGuide.first}</p><p><b>重点：</b>{p.readingGuide.focus}</p><p><b>下一步：</b>{p.readingGuide.next}</p></div></section>})}
+ <section className="comparison" id="compare"><p className="eyebrow">TODAY AT A GLANCE</p><h2>板块与全文状态</h2><div className="table-wrap"><table><thead><tr><th>研究板块</th><th>篇数</th></tr></thead><tbody>{Object.entries(counts).map(([k,v])=><tr key={k}><td>{k}</td><td>{v}</td></tr>)}</tbody></table></div><p>正式期刊7篇；arXiv独立新稿5篇；全文精读7篇；正文核查5篇；仅摘要0篇。各篇生长方法、关键物性与推荐等级见上方分篇标题和结论。</p></section>
+ <section className="search-note" id="search-log"><p className="eyebrow">SEARCH LOG</p><h2>逐轨检索、访问与去重记录</h2><p><b>时间窗：</b>{report.searchWindow}</p>{report.searchTerms.map(x=><p key={x}>{x}</p>)}</section>
+ </article></div></main>;
+}
