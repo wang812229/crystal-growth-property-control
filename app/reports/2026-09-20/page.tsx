@@ -1,0 +1,25 @@
+/* eslint-disable @next/next/no-html-link-for-pages, @next/next/no-img-element */
+import type {Metadata} from 'next';
+import report from '../../../content/reports/2026-09-20.json';
+
+export const metadata:Metadata={title:'2026-09-20 简报｜每日文献简报',description:report.headline};
+
+const figures:Record<string,{src:string;title:string;caption:string}>= {
+  'Density waves in low-pressure bilayer nickelates':{src:'/reports/2026-09-20/nickelate-density-waves.svg',title:'原创图解 1｜La₃Ni₂O₇两级密度波层级',caption:'依据PRB正式版对应公开稿arXiv:2606.29527v2重绘。150 K先形成QY双条纹SDW，130 K以下出现胞内电荷不等价与自旋调制；温标来自论文，图形为证据链示意。'},
+  'Investigating spectral dynamics and spin signatures of a mechanically isolated quantum emitter in hBN':{src:'/reports/2026-09-20/hbn-emitter.svg',title:'原创图解 2｜hBN发射体的温变速率与自旋读出',caption:'依据PRApplied对应公开稿arXiv:2604.14998v3重绘。20 μW下主ZPL off-rate从77 K约85 kHz降至8 K约63 kHz；77 K ODMR为1.87±0.10 GHz、对比度2.65±0.20%。'},
+  'Checkerboard-type Zhang-Rice states in overdoped cuprate superconductors':{src:'/reports/2026-09-20/lsco-reconstruction.svg',title:'原创图解 3｜LSCO过掺杂电子结构转折',caption:'依据Nature Communications正式版对应公开稿arXiv:2512.09547v1重绘。x>0.2后O K边A*≈527.8 eV与光学α*≈1.1 eV出现；这是重构阈值图，不是直接实空间checkerboard成像。'}
+};
+
+export default function Report(){
+ const full=report.papers.filter(p=>p.access.includes('全文精读')).length;
+ const counts=report.papers.reduce<Record<string,number>>((m,p)=>(m[p.category]=(m[p.category]||0)+1,m),{});
+ return <main className="report-page">
+ <header className="site-header"><a className="brand" href="/"><span className="brand-mark">文</span><span>每日文献简报</span></a><nav aria-label="主导航"><a className="active" href="/reports/2026-09-20">今日简报</a><a href="/materials">材料时间线</a><a href="/search">智能检索</a><a href="/weekly">本周趋势</a><a href="/workspace">我的研究</a><a href="/archive">归档</a></nav><div className="live-chip"><span/> 每日 10:00 更新</div></header>
+ <div className="report-hero"><div><p className="eyebrow">DAILY REPORT · ISSUE 026</p><h1>每日文献简报</h1><p>2026 年 9 月 20 日 · 北京时间</p></div><div className="report-summary"><b>今日判断</b><p>{report.headline}</p><div><span>{report.papers.length} 篇入选</span><span>{full} 篇全文精读</span><span>正式期刊 14 篇</span></div></div></div>
+ <div className="report-layout"><aside className="report-toc"><p>本期目录</p>{report.papers.map((p,i)=><a key={p.title} href={'#paper-'+(i+1)}>{String(i+1).padStart(2,'0')} · {p.material.slice(0,14)}</a>)}<a href="#compare">板块统计</a><a href="#search-log">检索日志</a></aside><article className="report-content">
+ <section className="report-lede"><p className="eyebrow">TODAY&apos;S SIGNAL</p><h2>今日要点与访问边界</h2><p>{report.hotspot}</p><ol><li><b>周日回溯：</b>9月20日当天零高相关新增，实际检索窗口为9月18–20日。</li><li><b>正式期刊优先：</b>14篇均为正式期刊延迟索引补录；7篇合并对应作者公开稿，arXiv独立新增为0。</li><li><b>阅读等级：</b>4篇全文精读、2篇正文核查、8篇仅摘要/元数据；未知参数不补写。</li><li><b>图解合规：</b>三张图均按公开正文数字原创重绘，不复用受限论文图片。</li></ol></section>
+ {report.papers.map((p,i)=>{const fig=figures[p.title];return <section className="paper-detail" id={'paper-'+(i+1)} key={p.title}><div className="paper-kicker"><span>{String(i+1).padStart(2,'0')} · {p.category}</span><b>{p.access.includes('全文精读')?'全文精读':p.access.includes('正文核查')?'正文核查':'摘要级'} · 推荐 {p.rating}</b></div><h2>{p.material}｜{p.title}</h2><div className="tag-row">{p.tags.map(t=><span key={t}>{t}</span>)}</div><div className="meta-grid"><div className="meta-item"><span>来源</span><b>{p.journal}</b></div><div className="meta-item"><span>上线日期</span><b>{p.date}</b></div><div className="meta-item"><span>生长 / 方法</span><b>{p.method}</b></div><div className="meta-item"><span>作者</span><b>{p.authors}</b></div><div className="meta-item institution-item"><span>主要单位</span><b>{p.institutions}</b></div></div><p className="links"><a href={p.doi}>DOI / 原文 ↗</a>{p.fullText&&<a href={p.fullText}> 公开全文 ↗</a>}</p><p className="version-note"><b>版本与阅读范围：</b>{p.versionNote} {p.access}</p><div className="paper-conclusion"><span>CONCLUSION</span><h3>这篇论文讲了什么故事</h3><p>{p.conclusion}</p></div>{fig&&<figure className="data-figure"><figcaption><b>{fig.title}</b><span>根据公开Methods与正文数值重绘，并非论文原图</span></figcaption><img className="report-figure-image" src={fig.src} alt={fig.title}/><p className="figure-analysis"><b>图解分析：</b>{fig.caption}</p></figure>}{p.sections.map(s=><div key={s.title}><h3>{s.title}</h3>{s.text.split('\n\n').map((part,j)=><p key={j}>{part}</p>)}</div>)}<div className="reading-guide"><span>{p.readingGuide.priority}</span><h3>本篇专属阅读路径</h3><p><b>先读：</b>{p.readingGuide.first}</p><p><b>重点：</b>{p.readingGuide.focus}</p><p><b>下一步：</b>{p.readingGuide.next}</p></div></section>})}
+ <section className="comparison" id="compare"><p className="eyebrow">TODAY AT A GLANCE</p><h2>板块与全文状态</h2><div className="table-wrap"><table><thead><tr><th>研究板块</th><th>篇数</th></tr></thead><tbody>{Object.entries(counts).map(([k,v])=><tr key={k}><td>{k}</td><td>{v}</td></tr>)}</tbody></table></div><p>正式期刊14篇；arXiv独立新稿0篇（7篇作者稿已与正式版合并）；全文精读4篇；正文核查2篇；仅摘要/元数据8篇。各篇生长方法、关键物性与推荐等级见上方分篇标题和结论。</p></section>
+ <section className="search-note" id="search-log"><p className="eyebrow">SEARCH LOG</p><h2>逐轨检索、访问与去重记录</h2><p><b>时间窗：</b>{report.searchWindow}</p>{report.searchTerms.map(x=><p key={x}>{x}</p>)}</section>
+ </article></div></main>;
+}

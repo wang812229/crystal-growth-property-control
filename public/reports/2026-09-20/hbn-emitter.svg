@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" role="img" aria-labelledby="t d">
+<title id="t">hBN发射体温变速率与ODMR</title><desc id="d">主ZPL off-rate在77K与8K的数据以及ODMR数据</desc>
+<defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#eef5ff"/><stop offset="1" stop-color="#f4efff"/></linearGradient></defs><rect width="960" height="480" rx="28" fill="url(#bg)"/>
+<text x="58" y="58" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#17213a">同一缺陷：电荷扩散与自旋暗态分工</text>
+<line x1="112" y1="382" x2="520" y2="382" stroke="#8d9aba" stroke-width="3"/><line x1="112" y1="105" x2="112" y2="382" stroke="#8d9aba" stroke-width="3"/>
+<rect x="182" y="150" width="92" height="232" rx="12" fill="#5f86ff"/><rect x="356" y="210" width="92" height="172" rx="12" fill="#a487ff"/>
+<text x="193" y="139" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#3154b8">≈85 kHz</text><text x="365" y="199" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#6849b8">≈63 kHz</text>
+<text x="201" y="417" font-family="Arial,sans-serif" font-size="20" fill="#17213a">77 K</text><text x="378" y="417" font-family="Arial,sans-serif" font-size="20" fill="#17213a">8 K</text><text x="122" y="102" font-family="Arial,sans-serif" font-size="17" fill="#5c6680">主ZPL off-rate @ 20 μW</text>
+<rect x="588" y="120" width="300" height="230" rx="24" fill="#fff" stroke="#b6c8ff" stroke-width="2"/><text x="624" y="170" font-family="Arial,sans-serif" font-size="18" fill="#5c6680">77 K ODMR</text><text x="624" y="225" font-family="Arial,sans-serif" font-size="38" font-weight="700" fill="#5f86ff">1.87 ± 0.10</text><text x="827" y="225" font-family="Arial,sans-serif" font-size="20" fill="#5c6680">GHz</text><text x="624" y="286" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#7c5bd4">2.65 ± 0.20%</text><text x="624" y="322" font-family="Arial,sans-serif" font-size="17" fill="#5c6680">荧光对比度；不能单独唯一指认缺陷</text>
+</svg>

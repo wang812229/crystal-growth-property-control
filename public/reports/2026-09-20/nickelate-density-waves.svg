@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" role="img" aria-labelledby="t d">
+<title id="t">La3Ni2O7两级密度波层级</title><desc id="d">150 K自旋密度波与130 K交织电荷密度波示意</desc>
+<defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#f2f6ff"/><stop offset="1" stop-color="#f6f1ff"/></linearGradient><linearGradient id="line" x1="0" x2="1"><stop stop-color="#5f86ff"/><stop offset="1" stop-color="#8b6cff"/></linearGradient></defs>
+<rect width="960" height="480" rx="28" fill="url(#bg)"/><text x="64" y="58" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#17213a">La₃Ni₂O₇：两个转变不是两条无关故事</text>
+<line x1="92" y1="372" x2="876" y2="372" stroke="#97a5c8" stroke-width="3"/><path d="M110 370 C270 365 345 310 420 225 S560 135 842 128" fill="none" stroke="url(#line)" stroke-width="10" stroke-linecap="round"/>
+<line x1="423" y1="110" x2="423" y2="394" stroke="#5f86ff" stroke-width="3" stroke-dasharray="8 8"/><line x1="558" y1="110" x2="558" y2="394" stroke="#8b6cff" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="378" y="425" font-family="Arial,sans-serif" font-size="22" fill="#3154b8">150 K</text><text x="522" y="425" font-family="Arial,sans-serif" font-size="22" fill="#6a45c4">130 K</text>
+<text x="620" y="108" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#17213a">Qᵧ=(0,π) 双条纹 SDW</text><text x="596" y="170" font-family="Arial,sans-serif" font-size="19" fill="#5c6680">正交晶格先选择波矢</text>
+<text x="108" y="210" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#17213a">SDW + 胞内 CDW</text><text x="108" y="246" font-family="Arial,sans-serif" font-size="19" fill="#5c6680">Ni1/Ni2 电荷不等价</text><text x="108" y="280" font-family="Arial,sans-serif" font-size="19" fill="#5c6680">自旋幅度再调制</text>
+<text x="650" y="410" font-family="Arial,sans-serif" font-size="16" fill="#6f7890">温度从右向左降低</text>
+</svg>
