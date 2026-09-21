@@ -1,6 +1,864 @@
 // 由 scripts/build-search-index.mjs 自动生成，请勿手工编辑。
 export default [
   {
+    "id": "doi:10.1038/s44306-026-00158-8",
+    "title": "Electrical injection of meron-antimeron pairs into a magnetic domain wall",
+    "authors": "Jiseok Yang; Taekhyeon Lee; San Ko; Soogil Lee; Mincheol Shin; Kyoung-Woong Moon; Sanghoon Kim; Se Kwon Kim; Kab-Jin Kim",
+    "institutions": "Korea Advanced Institute of Science and Technology; Korea Research Institute of Standards and Science 等",
+    "journal": "npj Spintronics",
+    "material": "Ta(3 nm)/Py(40 nm)/TaOₓ(3 nm)梯形器件",
+    "method": "DC磁控溅射+光刻/Ar离子刻蚀；20 ns电流脉冲",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "正式期刊",
+      "npj Spintronics",
+      "meron",
+      "磁畴壁",
+      "磁控溅射"
+    ],
+    "abstract": "",
+    "conclusion": "这篇论文把磁畴壁从被动边界变成了一条拓扑纹理输运轨道：梯形Permalloy器件先稳定一条180°直畴壁，每个20 ns电流脉冲在窄端注入一对meron–antimeron；新生成的同拓扑邻居产生排斥，把旧对沿畴壁逐步向前推。+12 Oe与−9 Oe两种碰撞路径的湮灭场不对称且随初始磁化反转，支持拓扑势垒而非固定缺陷；但注入概率随对数增加而下降，现阶段仍是随机而非确定性写入。",
+    "summary": "问题、器件与生长制备：meron/antimeron携带±1/2拓扑数，但二维自由运动受Hall偏转和无序影响。作者用畴壁作一维导轨，并以梯形几何把Oersted场集中在窄端。Ta(3 nm)/Py(40 nm)/TaOₓ(3 nm)在Si/SiO₂上DC磁控溅射；基压5×10⁻⁸（正文未注明单位）、工作压1 mTorr，沉积时沿y轴加700 Oe。随后光刻与Ar离子刻蚀成150 μm长、20–40 μm宽梯形，端电极Ti(5 nm)/Au(250 nm)。原料纯度、沉积速率、基底温度和器件良率正文未报告。\n测量、直接证据与关键对照：室温空气中用VSM和纵向MOKE确认易轴及直畴壁；±100 Oe初始化决定畴壁磁化方向。20 ns、平均电流密度4.26×10¹¹ A/m²的+y脉冲产生纹理，反向−y脉冲不产生，排除简单焦耳热作为充分解释。连续MOKE图显示逐脉冲位移，但拍摄发生在脉冲之后，不能提取连续速度。重复100次后，首对近乎必生，后续对因空间拥挤和随机钉扎概率下降。\n证据分级、局限与复现实验：【直接观察】方向选择性成核、逐脉冲位移和湮灭场不对称。【模拟】微磁计算给出交替极性与拓扑排斥。【作者推断】meron–antimeron列车沿畴壁注入。【本站判断】最强证据是初始磁化反转后湮灭不对称也反转，难由静态缺陷解释；最弱处是MOKE分辨率看不到核心极性。复现应加入XMCD-PEEM或Lorentz TEM直接成像核心，逐器件记录Py粗糙度、畴壁钉扎分布和第n对成功率，并扫描脉宽/电流密度以寻找确定性窗口。",
+    "year": 2026,
+    "published": "2026-09-19",
+    "date": "2026-09-21",
+    "type": "article",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://doi.org/10.1038/s44306-026-00158-8",
+    "doi": "10.1038/s44306-026-00158-8",
+    "openAccess": null,
+    "dataSource": "站内简报",
+    "fullText": "https://www.nature.com/articles/s44306-026-00158-8",
+    "reportUrl": "/reports/2026-09-21/#paper-1",
+    "access": "全文精读：已读取公开HTML/PDF的正文、Methods、关键图注和结论；数值来自作者报告，未独立复算",
+    "rating": "A+",
+    "sections": [
+      {
+        "title": "问题、器件与生长制备",
+        "text": "meron/antimeron携带±1/2拓扑数，但二维自由运动受Hall偏转和无序影响。作者用畴壁作一维导轨，并以梯形几何把Oersted场集中在窄端。Ta(3 nm)/Py(40 nm)/TaOₓ(3 nm)在Si/SiO₂上DC磁控溅射；基压5×10⁻⁸（正文未注明单位）、工作压1 mTorr，沉积时沿y轴加700 Oe。随后光刻与Ar离子刻蚀成150 μm长、20–40 μm宽梯形，端电极Ti(5 nm)/Au(250 nm)。原料纯度、沉积速率、基底温度和器件良率正文未报告。"
+      },
+      {
+        "title": "测量、直接证据与关键对照",
+        "text": "室温空气中用VSM和纵向MOKE确认易轴及直畴壁；±100 Oe初始化决定畴壁磁化方向。20 ns、平均电流密度4.26×10¹¹ A/m²的+y脉冲产生纹理，反向−y脉冲不产生，排除简单焦耳热作为充分解释。连续MOKE图显示逐脉冲位移，但拍摄发生在脉冲之后，不能提取连续速度。重复100次后，首对近乎必生，后续对因空间拥挤和随机钉扎概率下降。"
+      },
+      {
+        "title": "证据分级、局限与复现实验",
+        "text": "【直接观察】方向选择性成核、逐脉冲位移和湮灭场不对称。【模拟】微磁计算给出交替极性与拓扑排斥。【作者推断】meron–antimeron列车沿畴壁注入。【本站判断】最强证据是初始磁化反转后湮灭不对称也反转，难由静态缺陷解释；最弱处是MOKE分辨率看不到核心极性。复现应加入XMCD-PEEM或Lorentz TEM直接成像核心，逐器件记录Py粗糙度、畴壁钉扎分布和第n对成功率，并扫描脉宽/电流密度以寻找确定性窗口。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A+｜拓扑自旋纹理、磁存储和纳米器件实验人员",
+      "first": "先看图2的梯形畴壁，再按图3脉冲序列和图4湮灭场不对称阅读，最后核对Methods膜层与压力。",
+      "focus": "重点核对20 ns、4.26×10¹¹ A/m²是否处于热损伤边缘，以及MOKE无法直接识别核心极性的证据缺口。",
+      "next": "一般拓扑背景可略读；最值得做纳米分辨核心成像并绘制“第n对注入概率—电流—钉扎”相图。"
+    },
+    "growthRecipe": {
+      "material": "Ta(3 nm)/Py(40 nm)/TaOₓ(3 nm)梯形器件",
+      "actualComposition": "",
+      "method": "DC磁控溅射+光刻/Ar离子刻蚀；20 ns电流脉冲",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "原料纯度、沉积速率、基底温度和器件良率正文未报告",
+      "purity": "纯度、沉积速率、基底温度和器件良率正文未报告",
+      "vessel": "",
+      "atmosphere": "",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "",
+      "crystalSize": "3 nm",
+      "yield": "",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 4,
+        "total": 15,
+        "ratio": 0.26666666666666666
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题、器件与生长制备",
+        "text": "meron/antimeron携带±1/2拓扑数，但二维自由运动受Hall偏转和无序影响。作者用畴壁作一维导轨，并以梯形几何把Oersted场集中在窄端。Ta(3 nm)/Py(40 nm)/TaOₓ(3 nm)在Si/SiO₂上DC磁控溅射；基压5×10⁻⁸（正文未注明单位）、工作压1 mTorr，沉积时沿y轴加700 Oe。随后光刻与Ar离子刻蚀成150 μm长、20–40 μm宽梯形，端电极Ti(5 nm)/Au(250 nm)。原料纯度、沉积速率、基底温度和器件良率正文未报告。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "测量、直接证据与关键对照",
+        "text": "室温空气中用VSM和纵向MOKE确认易轴及直畴壁；±100 Oe初始化决定畴壁磁化方向。20 ns、平均电流密度4.26×10¹¹ A/m²的+y脉冲产生纹理，反向−y脉冲不产生，排除简单焦耳热作为充分解释。连续MOKE图显示逐脉冲位移，但拍摄发生在脉冲之后，不能提取连续速度。重复100次后，首对近乎必生，后续对因空间拥挤和随机钉扎概率下降。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据分级、局限与复现实验",
+        "text": "【直接观察】方向选择性成核、逐脉冲位移和湮灭场不对称。【模拟】微磁计算给出交替极性与拓扑排斥。【作者推断】meron–antimeron列车沿畴壁注入。【本站判断】最强证据是初始磁化反转后湮灭不对称也反转，难由静态缺陷解释；最弱处是MOKE分辨率看不到核心极性。复现应加入XMCD-PEEM或Lorentz TEM直接成像核心，逐器件记录Py粗糙度、畴壁钉扎分布和第n对成功率，并扫描脉宽/电流密度以寻找确定性窗口。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "正文 + Methods + SI",
+      "sampleCredibility": "TEM、磁化、输运；证据仍可补强",
+      "reproducibility": "4/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "中等"
+    }
+  },
+  {
+    "id": "doi:10.1021/acs.nanolett.6c02384",
+    "title": "Intrinsic Fermi Level Pinning and Reversible Depinning at Ultralow-Defect Epitaxial MoSe2/Au(111) Interfaces",
+    "authors": "Guan-Hao Chen; Cheng-Rong Hsing; Li-Syuan Lu; Po-Sen Mao; Pei-Yu Chuang; Yi Chou; Yu-Shiuan Su; Chih-Pin Lin; Tuo-Hung Hou; Juhn-Jong Lin; Yi-Chia Chou; Cheng-Maw Cheng; Ching-Ming Wei; Chun-Liang Lin; Wen-Hao Chang",
+    "institutions": "出版社摘要未返回完整单位列表",
+    "journal": "Nano Letters",
+    "material": "单层MoSe₂/Au(111)",
+    "method": "超低缺陷外延单层；Se插层可逆去钉扎；完整温程未取得",
+    "category": "晶体生长和物性调控",
+    "tags": [
+      "正式期刊",
+      "Nano Letters",
+      "MoSe2",
+      "Au(111)",
+      "外延",
+      "费米能级钉扎"
+    ],
+    "abstract": "",
+    "conclusion": "论文用缺陷密度约1.7×10¹⁰ cm⁻²的MoSe₂/Au(111)理想界面回答一个反直觉问题：即使几乎没有缺陷，电子与空穴肖特基势垒仍近对称、功函数仍明显降低，说明费米能级钉扎可以由金属诱导隙态和界面偶极内禀产生。Se插层削弱偶极、恢复功函数并推动费米能级移动，因此“去缺陷”本身不够，界面化学自由度才是可逆解钉扎旋钮。",
+    "summary": "科学问题与实验设计：二维半导体接触常把钉扎归因于硫族空位、污染或金属蒸镀损伤。作者刻意制备超低缺陷外延MoSe₂/Au(111)，再用扫描隧道谱和场发射共振同时测能隙位置与局域功函数，从而在接近理想极限下测试MIGS—偶极模型。Se插层提供同一界面的可逆扰动，比不同样品间比较更能区分缺陷与内禀偶极。\n生长与质量信息边界：摘要给出单层、Au(111)、外延和缺陷密度1.7×10¹⁰ cm⁻²，但Mo/Se源纯度、基底清洁、源温、基底温度、Se/Mo通量比、退火、覆盖率、畴尺寸和缺陷计数面积均需正文；当前不得按常见MBE配方补写。STS温度、调制电压、针尖标定、场发射共振拟合和插层剂量也未在摘要列明。\n证据强度与下一炉建议：【直接观察】近无缺陷界面仍有近对称势垒和功函数下降；Se插层后两者可逆改变（据摘要）。【模型归属】MIGS诱导偶极解释。【本站判断】最强对照是同一界面可逆插层，最弱是摘要未给循环次数与空间统计。生长组应把缺陷密度、畴界比例、Au台阶和Se插层覆盖度标准化；下一炉做插层剂量阶梯并同点STS/KPFM/XPS，检查去钉扎是否在多个畴与热循环后保持。",
+    "year": 2026,
+    "published": "2026-09-20",
+    "date": "2026-09-21",
+    "type": "article",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://doi.org/10.1021/acs.nanolett.6c02384",
+    "doi": "10.1021/acs.nanolett.6c02384",
+    "openAccess": null,
+    "dataSource": "站内简报",
+    "fullText": "https://doi.org/10.1021/acs.nanolett.6c02384",
+    "reportUrl": "/reports/2026-09-21/#paper-2",
+    "access": "仅基于出版社摘要/元数据：正文PDF未能合法取得；未出现的生长、表征和测量参数均标为正文未报告",
+    "rating": "A+",
+    "sections": [
+      {
+        "title": "科学问题与实验设计",
+        "text": "二维半导体接触常把钉扎归因于硫族空位、污染或金属蒸镀损伤。作者刻意制备超低缺陷外延MoSe₂/Au(111)，再用扫描隧道谱和场发射共振同时测能隙位置与局域功函数，从而在接近理想极限下测试MIGS—偶极模型。Se插层提供同一界面的可逆扰动，比不同样品间比较更能区分缺陷与内禀偶极。"
+      },
+      {
+        "title": "生长与质量信息边界",
+        "text": "摘要给出单层、Au(111)、外延和缺陷密度1.7×10¹⁰ cm⁻²，但Mo/Se源纯度、基底清洁、源温、基底温度、Se/Mo通量比、退火、覆盖率、畴尺寸和缺陷计数面积均需正文；当前不得按常见MBE配方补写。STS温度、调制电压、针尖标定、场发射共振拟合和插层剂量也未在摘要列明。"
+      },
+      {
+        "title": "证据强度与下一炉建议",
+        "text": "【直接观察】近无缺陷界面仍有近对称势垒和功函数下降；Se插层后两者可逆改变（据摘要）。【模型归属】MIGS诱导偶极解释。【本站判断】最强对照是同一界面可逆插层，最弱是摘要未给循环次数与空间统计。生长组应把缺陷密度、畴界比例、Au台阶和Se插层覆盖度标准化；下一炉做插层剂量阶梯并同点STS/KPFM/XPS，检查去钉扎是否在多个畴与热循环后保持。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A+｜二维接触、外延与扫描探针读者",
+      "first": "全文取得后先看缺陷计数图、STS势垒和场发射共振功函数，再读Se插层循环。",
+      "focus": "重点核对1.7×10¹⁰ cm⁻²的统计面积、电子/空穴势垒提取方法与可逆循环次数。",
+      "next": "一般接触综述可略读；最值得做Se覆盖度—偶极—接触电阻三者同片映射。"
+    },
+    "growthRecipe": {
+      "material": "单层MoSe₂/Au(111)",
+      "actualComposition": "",
+      "method": "MBE",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "",
+      "purity": "纯度、基底清洁、源温、基底温度、Se/Mo通量比、退火、覆盖率、畴尺寸和缺陷计数面积均需正文",
+      "vessel": "",
+      "atmosphere": "",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "退火、覆盖率、畴尺寸和缺陷计数面积均需正文",
+      "crystalSize": "",
+      "yield": "",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 3,
+        "total": 15,
+        "ratio": 0.2
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "科学问题与实验设计",
+        "text": "二维半导体接触常把钉扎归因于硫族空位、污染或金属蒸镀损伤。作者刻意制备超低缺陷外延MoSe₂/Au(111)，再用扫描隧道谱和场发射共振同时测能隙位置与局域功函数，从而在接近理想极限下测试MIGS—偶极模型。Se插层提供同一界面的可逆扰动，比不同样品间比较更能区分缺陷与内禀偶极。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-2",
+        "title": "生长与质量信息边界",
+        "text": "摘要给出单层、Au(111)、外延和缺陷密度1.7×10¹⁰ cm⁻²，但Mo/Se源纯度、基底清洁、源温、基底温度、Se/Mo通量比、退火、覆盖率、畴尺寸和缺陷计数面积均需正文；当前不得按常见MBE配方补写。STS温度、调制电压、针尖标定、场发射共振拟合和插层剂量也未在摘要列明。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据强度与下一炉建议",
+        "text": "【直接观察】近无缺陷界面仍有近对称势垒和功函数下降；Se插层后两者可逆改变（据摘要）。【模型归属】MIGS诱导偶极解释。【本站判断】最强对照是同一界面可逆插层，最弱是摘要未给循环次数与空间统计。生长组应把缺陷密度、畴界比例、Au台阶和Se插层覆盖度标准化；下一炉做插层剂量阶梯并同点STS/KPFM/XPS，检查去钉扎是否在多个畴与热循环后保持。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "质量表征信息不足",
+      "reproducibility": "3/15 项参数可提取",
+      "physicalEvidence": "单一或未报告",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "doi:10.1021/jacs.6c10270",
+    "title": "Two-Dimensional Orthorhombic Molybdenum Boride Enabled by Selective Mo–Al Bond Cleavage in MoAlB",
+    "authors": "Zexiang He; Shuo Wang; Yan Sun; Mingao Chen; Wentao Fan; Yuxuan Zhang; Chunfeng Hu; Shitao Wu; Houyu Ma; Yiyong Mai; Hao Sun; Sheng Yang",
+    "institutions": "出版社摘要未返回完整单位列表",
+    "journal": "Journal of the American Chemical Society",
+    "material": "正交二维MoB（由MoAlB转化）",
+    "method": "液态金属+熔盐选择性断Mo–Al键；后续剥离",
+    "category": "晶体生长和物性调控",
+    "tags": [
+      "正式期刊",
+      "JACS",
+      "MBene",
+      "MoAlB",
+      "选择性刻蚀",
+      "二维晶体"
+    ],
+    "abstract": "",
+    "conclusion": "这篇论文把非范德华MoAlB拆成原子级正交MoB：液态Ga、MoAlB与熔盐共同改变化学势，优先断Mo–Al键；空间位阻抑制无活性的MoAl₀.₅B副相，Al再以可溶AlF₆³⁻移除，最终得到微米尺度、原子厚度的晶态MoB。核心创新不是普通HF刻蚀，而是用液态金属和熔盐协同选择反应路径；电池展示证明界面活性，却不能替代对本征磁/电子性质的测量。",
+    "summary": "难点与机制：MBene竞争相形成能差小于0.1 eV，直接脱Al容易重排成稳定副相。作者用Ga参与的液态环境选择性削弱Mo–Al，并借熔盐中的氟配位把Al转为AlF₆³⁻。这一“先选键、再移除、同时阻止重排”的三步逻辑解释为何非vdW母相仍能转成可剥离层状产物。\n制备与质量缺失项：已知母相MoAlB、液态Ga、熔盐与AlF₆³⁻路径；Ga用量、盐组成、反应温度/时间、惰性气氛、洗涤、超声功率、离心分级、横向尺寸/厚度分布和产率均为正文未报告/当前未取得。摘要称晶态、微米尺度和原子厚度，但XRD/Rietveld、SAED/STEM、残Al/Ga/F的ICP/XPS定量未知。\n证据边界与可执行建议：【直接观察】二维片层与电化学性能（据摘要）。【作者推断】化学势选择性断键和空间位阻抑制MoAl₀.₅B。【本站判断】最强是产物结构与反应路径相互支持，最弱是残余端基/液态Ga可能主导性能。复现应做时间分辨中间相XRD、WDS/ICP残Al/Ga、端基定量和质量收率；若面向量子材料，应优先测低温电阻、磁化和ARPES，而非仅以200循环电池表现判断材料质量。",
+    "year": 2026,
+    "published": "2026-09-19",
+    "date": "2026-09-21",
+    "type": "article",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://doi.org/10.1021/jacs.6c10270",
+    "doi": "10.1021/jacs.6c10270",
+    "openAccess": null,
+    "dataSource": "站内简报",
+    "fullText": "https://doi.org/10.1021/jacs.6c10270",
+    "reportUrl": "/reports/2026-09-21/#paper-3",
+    "access": "仅基于出版社摘要/元数据：正文PDF未能合法取得；未出现的生长、表征和测量参数均标为正文未报告",
+    "rating": "A",
+    "sections": [
+      {
+        "title": "难点与机制",
+        "text": "MBene竞争相形成能差小于0.1 eV，直接脱Al容易重排成稳定副相。作者用Ga参与的液态环境选择性削弱Mo–Al，并借熔盐中的氟配位把Al转为AlF₆³⁻。这一“先选键、再移除、同时阻止重排”的三步逻辑解释为何非vdW母相仍能转成可剥离层状产物。"
+      },
+      {
+        "title": "制备与质量缺失项",
+        "text": "已知母相MoAlB、液态Ga、熔盐与AlF₆³⁻路径；Ga用量、盐组成、反应温度/时间、惰性气氛、洗涤、超声功率、离心分级、横向尺寸/厚度分布和产率均为正文未报告/当前未取得。摘要称晶态、微米尺度和原子厚度，但XRD/Rietveld、SAED/STEM、残Al/Ga/F的ICP/XPS定量未知。"
+      },
+      {
+        "title": "证据边界与可执行建议",
+        "text": "【直接观察】二维片层与电化学性能（据摘要）。【作者推断】化学势选择性断键和空间位阻抑制MoAl₀.₅B。【本站判断】最强是产物结构与反应路径相互支持，最弱是残余端基/液态Ga可能主导性能。复现应做时间分辨中间相XRD、WDS/ICP残Al/Ga、端基定量和质量收率；若面向量子材料，应优先测低温电阻、磁化和ARPES，而非仅以200循环电池表现判断材料质量。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A｜二维硼化物、选择性刻蚀与新材料制备读者",
+      "first": "先看MoAlB→MoB反应路径和截面STEM，再看副相抑制对照与残元素分析。",
+      "focus": "重点核对Ga/熔盐各自不可替代性、AlF₆³⁻证据及原子厚度片层的产率。",
+      "next": "电池应用可后读；最值得做中间相原位XRD和低温本征输运。"
+    },
+    "growthRecipe": {
+      "material": "正交二维MoB（由MoAlB转化）",
+      "actualComposition": "WDS/ICP残Al/Ga、端基定量和质量收率",
+      "method": "MBE",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "",
+      "purity": "",
+      "vessel": "",
+      "atmosphere": "惰性气氛、洗涤、超声功率、离心分级、横向尺寸/厚度分布和产率均为正文未报告/当前未取得",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "离心分级、横向尺寸/厚度分布和产率均为正文未报告/当前未取得",
+      "crystalSize": "",
+      "yield": "产率均为正文未报告/当前未取得",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 4,
+        "total": 15,
+        "ratio": 0.26666666666666666
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "难点与机制",
+        "text": "MBene竞争相形成能差小于0.1 eV，直接脱Al容易重排成稳定副相。作者用Ga参与的液态环境选择性削弱Mo–Al，并借熔盐中的氟配位把Al转为AlF₆³⁻。这一“先选键、再移除、同时阻止重排”的三步逻辑解释为何非vdW母相仍能转成可剥离层状产物。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "制备与质量缺失项",
+        "text": "已知母相MoAlB、液态Ga、熔盐与AlF₆³⁻路径；Ga用量、盐组成、反应温度/时间、惰性气氛、洗涤、超声功率、离心分级、横向尺寸/厚度分布和产率均为正文未报告/当前未取得。摘要称晶态、微米尺度和原子厚度，但XRD/Rietveld、SAED/STEM、残Al/Ga/F的ICP/XPS定量未知。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据边界与可执行建议",
+        "text": "【直接观察】二维片层与电化学性能（据摘要）。【作者推断】化学势选择性断键和空间位阻抑制MoAl₀.₅B。【本站判断】最强是产物结构与反应路径相互支持，最弱是残余端基/液态Ga可能主导性能。复现应做时间分辨中间相XRD、WDS/ICP残Al/Ga、端基定量和质量收率；若面向量子材料，应优先测低温电阻、磁化和ARPES，而非仅以200循环电池表现判断材料质量。",
+        "type": "作者推断"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "XRD、WDS、ICP、TEM 多方法互证",
+      "reproducibility": "4/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "doi:10.1021/acs.nanolett.6c03291",
+    "title": "Function-Switchable Superconducting-Spintronic Devices for Read-Protected Data Storage",
+    "authors": "Gen Li; Xiaoguang Xu; Kangkang Meng; Zheng Feng; Yu Shu; Guohao Bo; Sikai Tao; Jiajun Ren; Yong Wu; Lei Shen; Yong Jiang",
+    "institutions": "出版社摘要未返回完整单位列表",
+    "journal": "Nano Letters",
+    "material": "In₂Bi/Co与In₂Bi/Fe₃GaTe₂器件",
+    "method": "异质器件；In₂Bi样品制备与界面工艺正文未取得",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "正式期刊",
+      "Nano Letters",
+      "In2Bi",
+      "Fe3GaTe2",
+      "超导自旋电子学",
+      "SOT"
+    ],
+    "abstract": "",
+    "conclusion": "文章让同一种p轨道合金In₂Bi承担两种互斥温区的功能：5.6 K以下进入II型超导、把异常Hall读出压低成“读保护”；正常态又能以自旋Hall效应把电荷流转成自旋流，向Fe₃GaTe₂写入磁态。Co/In₂Bi的自旋Hall磁阻与二次谐波Hall给出一致自旋Hall角，随后In₂Bi/Fe₃GaTe₂实现三电阻态，形成“写入—正常态读取—超导态锁读”的器件故事。",
+    "summary": "科学问题与关键对照：超导低耗散和高效电荷—自旋转换往往需要两套材料。作者先用Co/In₂Bi两种互补测量核对自旋Hall角，再将In₂Bi与二维铁磁Fe₃GaTe₂结合。磁信息可由外场或SOT写入，正常态以异常Hall读取；进入超导态后Hall读信号受抑，构成无需额外电路的场控保护。\n样品、质量和测量缺失：In₂Bi成分、晶相、薄膜/晶体形态、沉积或生长方法、厚度、界面粗糙度、Fe₃GaTe₂来源、封装、器件尺寸和接触工艺均需正文。摘要只给Tc=5.6 K和II型超导；Hc2、转变宽度、RRR、自旋Hall角数值、写入电流密度、三态窗口、循环保持和温升均未公开，不能自行补写。\n证据分级与下一次测量：【直接观察】两种自旋Hall测量一致、三电阻态和超导态读出抑制（据摘要）。【作者推断】In₂Bi是双功能平台。【本站判断】最大替代解释是进入超导态后普通纵向/接触电阻变化让Hall读出一起降低，并不等于信息被真正保护。应加入独立磁成像或磁光读出证明磁态仍保持，做温度循环、误读攻击、保持时间与写入能耗统计，并用非超导对照层排除热效应。",
+    "year": 2026,
+    "published": "2026-09-20",
+    "date": "2026-09-21",
+    "type": "article",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://doi.org/10.1021/acs.nanolett.6c03291",
+    "doi": "10.1021/acs.nanolett.6c03291",
+    "openAccess": null,
+    "dataSource": "站内简报",
+    "fullText": "https://doi.org/10.1021/acs.nanolett.6c03291",
+    "reportUrl": "/reports/2026-09-21/#paper-4",
+    "access": "仅基于出版社摘要/元数据：正文PDF未能合法取得；未出现的生长、表征和测量参数均标为正文未报告",
+    "rating": "A+",
+    "sections": [
+      {
+        "title": "科学问题与关键对照",
+        "text": "超导低耗散和高效电荷—自旋转换往往需要两套材料。作者先用Co/In₂Bi两种互补测量核对自旋Hall角，再将In₂Bi与二维铁磁Fe₃GaTe₂结合。磁信息可由外场或SOT写入，正常态以异常Hall读取；进入超导态后Hall读信号受抑，构成无需额外电路的场控保护。"
+      },
+      {
+        "title": "样品、质量和测量缺失",
+        "text": "In₂Bi成分、晶相、薄膜/晶体形态、沉积或生长方法、厚度、界面粗糙度、Fe₃GaTe₂来源、封装、器件尺寸和接触工艺均需正文。摘要只给Tc=5.6 K和II型超导；Hc2、转变宽度、RRR、自旋Hall角数值、写入电流密度、三态窗口、循环保持和温升均未公开，不能自行补写。"
+      },
+      {
+        "title": "证据分级与下一次测量",
+        "text": "【直接观察】两种自旋Hall测量一致、三电阻态和超导态读出抑制（据摘要）。【作者推断】In₂Bi是双功能平台。【本站判断】最大替代解释是进入超导态后普通纵向/接触电阻变化让Hall读出一起降低，并不等于信息被真正保护。应加入独立磁成像或磁光读出证明磁态仍保持，做温度循环、误读攻击、保持时间与写入能耗统计，并用非超导对照层排除热效应。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A+｜超导自旋电子学、存储与二维磁体读者",
+      "first": "全文取得后先看Co/In₂Bi两种自旋Hall角对照，再看三态读写和跨Tc温变图。",
+      "focus": "重点核对5.6 K附近磁态是否保持、Hall信号为何消失，以及SOT写入电流和焦耳热。",
+      "next": "应用宣传可略读；最值得做超导态下独立磁成像，证明‘不可读’而不是‘已擦除’。"
+    },
+    "growthRecipe": {
+      "material": "In₂Bi/Co与In₂Bi/Fe₃GaTe₂器件",
+      "actualComposition": "",
+      "method": "异质器件；In₂Bi样品制备与界面工艺正文未取得",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "",
+      "purity": "",
+      "vessel": "",
+      "atmosphere": "",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "",
+      "crystalSize": "",
+      "yield": "",
+      "qualityMetrics": [
+        "RRR、自旋Hall角数值、写入电流密度、三态窗口、循环保持和温升均未公开，不能自行补写"
+      ],
+      "completeness": {
+        "reported": 1,
+        "total": 15,
+        "ratio": 0.06666666666666667
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "科学问题与关键对照",
+        "text": "超导低耗散和高效电荷—自旋转换往往需要两套材料。作者先用Co/In₂Bi两种互补测量核对自旋Hall角，再将In₂Bi与二维铁磁Fe₃GaTe₂结合。磁信息可由外场或SOT写入，正常态以异常Hall读取；进入超导态后Hall读信号受抑，构成无需额外电路的场控保护。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "样品、质量和测量缺失",
+        "text": "In₂Bi成分、晶相、薄膜/晶体形态、沉积或生长方法、厚度、界面粗糙度、Fe₃GaTe₂来源、封装、器件尺寸和接触工艺均需正文。摘要只给Tc=5.6 K和II型超导；Hc2、转变宽度、RRR、自旋Hall角数值、写入电流密度、三态窗口、循环保持和温升均未公开，不能自行补写。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据分级与下一次测量",
+        "text": "【直接观察】两种自旋Hall测量一致、三电阻态和超导态读出抑制（据摘要）。【作者推断】In₂Bi是双功能平台。【本站判断】最大替代解释是进入超导态后普通纵向/接触电阻变化让Hall读出一起降低，并不等于信息被真正保护。应加入独立磁成像或磁光读出证明磁态仍保持，做温度循环、误读攻击、保持时间与写入能耗统计，并用非超导对照层排除热效应。",
+        "type": "作者推断"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "质量表征信息不足",
+      "reproducibility": "1/15 项参数可提取",
+      "physicalEvidence": "单一或未报告",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "doi:10.1021/acsnano.6c11373",
+    "title": "Interfacial Control of Hot-Carrier Extraction and Photostability in Two-Dimensional Materials",
+    "authors": "Claudia Gollner; Mohammad Taghinejad; Chenyi Xia; Zhepeng Zhang; Fang Liu; Francesco Laudani; Annette Foelske; Mark L. Brongersma; Andrew J. Mannix; Tony F. Heinz; Aaron M. Lindenberg",
+    "institutions": "Stanford University; TU Wien 等",
+    "journal": "ACS Nano",
+    "material": "单层WS₂/Au与WS₂/SiO₂",
+    "method": "块体剥离/混合MOCVD两路线；PMMA湿转移；THz发射谱",
+    "category": "二维材料与量子器件",
+    "tags": [
+      "正式期刊",
+      "ACS Nano",
+      "WS2",
+      "界面形貌",
+      "THz",
+      "光稳定性"
+    ],
+    "abstract": "",
+    "conclusion": "文章揭示界面“快”和“强信号”并不是同一件事：平滑剥离WS₂/模板剥离Au接触紧密，电子/空穴都在约60/50 fs抽取，净电流相互抵消；粗糙转移CVD-WS₂/Au接触不连续，电子/空穴约135/90 fs，速度较慢却因不平衡产生更大THz净信号。只要电荷在亚100 fs尺度被抽走，WS₂/Au在空气中稳定；WS₂/SiO₂的载流子留在层内并在数分钟内触发光氧化。",
+    "summary": "样品路线与质量表征：路线一把块体WS₂直接剥离到模板剥离Au，得到原子平滑、污染少的接触，AFM Ra=0.251 nm；路线二在蓝宝石上混合MOCVD生长单层WS₂，再经PMMA湿转移到热蒸发Au，Ra=1.06 nm且局部悬空。KPFM、PL、Raman共同判断掺杂与耦合；平滑界面相对裸Au功函数差21 mV，粗糙界面仅4 mV。正文未给完整MOCVD前驱体流量、温度程序和批次产率。\n测量与定量证据：时间域THz发射谱用1.56 eV带隙下和3.12 eV带隙上泵浦分离不同通道；150/250 μm GaP与1 mm ZnTe作电光采样晶体。带隙下，拟合回抽时间平滑样品约50 fs、粗糙样品约160 fs；带隙上，CVD样品电子/空穴135/90 fs，剥离样品60/50 fs。约180 μJ cm⁻²以上CVD样品出现空间电荷饱和和可见损伤。\n稳定性证据、替代解释与下一炉：N₂零湿度中全部稳定，排除相同泵浦下纯热损伤作为主因；空气中WS₂/Au稳定、WS₂/SiO₂数分钟内THz衰减并出现WOₓ XPS信号。作者据此把亚100 fs抽取与抑制复合能释放相连。【本站判断】多探针闭环很强，但剥离/CVD、Au粗糙度和PMMA残留同时变化，不能只归因Ra。下一批应在同一CVD膜上独立调Au粗糙度、界面间距和残留，并用截面TEM/TOF-SIMS把三变量解耦。",
+    "year": 2026,
+    "published": "2026-09-19",
+    "date": "2026-09-21",
+    "type": "article",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://doi.org/10.1021/acsnano.6c11373",
+    "doi": "10.1021/acsnano.6c11373",
+    "openAccess": null,
+    "dataSource": "站内简报",
+    "fullText": "https://arxiv.org/pdf/2605.07921",
+    "reportUrl": "/reports/2026-09-21/#paper-5",
+    "access": "全文精读：已读取公开HTML/PDF的正文、Methods、关键图注和结论；数值来自作者报告，未独立复算",
+    "rating": "A+",
+    "sections": [
+      {
+        "title": "样品路线与质量表征",
+        "text": "路线一把块体WS₂直接剥离到模板剥离Au，得到原子平滑、污染少的接触，AFM Ra=0.251 nm；路线二在蓝宝石上混合MOCVD生长单层WS₂，再经PMMA湿转移到热蒸发Au，Ra=1.06 nm且局部悬空。KPFM、PL、Raman共同判断掺杂与耦合；平滑界面相对裸Au功函数差21 mV，粗糙界面仅4 mV。正文未给完整MOCVD前驱体流量、温度程序和批次产率。"
+      },
+      {
+        "title": "测量与定量证据",
+        "text": "时间域THz发射谱用1.56 eV带隙下和3.12 eV带隙上泵浦分离不同通道；150/250 μm GaP与1 mm ZnTe作电光采样晶体。带隙下，拟合回抽时间平滑样品约50 fs、粗糙样品约160 fs；带隙上，CVD样品电子/空穴135/90 fs，剥离样品60/50 fs。约180 μJ cm⁻²以上CVD样品出现空间电荷饱和和可见损伤。"
+      },
+      {
+        "title": "稳定性证据、替代解释与下一炉",
+        "text": "N₂零湿度中全部稳定，排除相同泵浦下纯热损伤作为主因；空气中WS₂/Au稳定、WS₂/SiO₂数分钟内THz衰减并出现WOₓ XPS信号。作者据此把亚100 fs抽取与抑制复合能释放相连。【本站判断】多探针闭环很强，但剥离/CVD、Au粗糙度和PMMA残留同时变化，不能只归因Ra。下一批应在同一CVD膜上独立调Au粗糙度、界面间距和残留，并用截面TEM/TOF-SIMS把三变量解耦。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A+｜二维生长、超快谱与器件稳定性读者",
+      "first": "先看图1两种界面，再看图3–4电子/空穴拟合与图5空气/N₂稳定性对照。",
+      "focus": "重点核对Ra=0.251/1.06 nm之外的PMMA残留和生长路线共变量，以及THz幅度不能直接等同总抽取效率。",
+      "next": "一般TMDC背景可略读；最值得做同一CVD批次上的可控Au粗糙度矩阵与同步XPS。"
+    },
+    "growthRecipe": {
+      "material": "单层WS₂/Au与WS₂/SiO₂",
+      "actualComposition": "",
+      "method": "块体剥离/混合MOCVD两路线；PMMA湿转移；THz发射谱",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "",
+      "purity": "",
+      "vessel": "",
+      "atmosphere": "",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "",
+      "crystalSize": "0.251 nm",
+      "yield": "产率",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 3,
+        "total": 15,
+        "ratio": 0.2
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "样品路线与质量表征",
+        "text": "路线一把块体WS₂直接剥离到模板剥离Au，得到原子平滑、污染少的接触，AFM Ra=0.251 nm；路线二在蓝宝石上混合MOCVD生长单层WS₂，再经PMMA湿转移到热蒸发Au，Ra=1.06 nm且局部悬空。KPFM、PL、Raman共同判断掺杂与耦合；平滑界面相对裸Au功函数差21 mV，粗糙界面仅4 mV。正文未给完整MOCVD前驱体流量、温度程序和批次产率。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "测量与定量证据",
+        "text": "时间域THz发射谱用1.56 eV带隙下和3.12 eV带隙上泵浦分离不同通道；150/250 μm GaP与1 mm ZnTe作电光采样晶体。带隙下，拟合回抽时间平滑样品约50 fs、粗糙样品约160 fs；带隙上，CVD样品电子/空穴135/90 fs，剥离样品60/50 fs。约180 μJ cm⁻²以上CVD样品出现空间电荷饱和和可见损伤。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-3",
+        "title": "稳定性证据、替代解释与下一炉",
+        "text": "N₂零湿度中全部稳定，排除相同泵浦下纯热损伤作为主因；空气中WS₂/Au稳定、WS₂/SiO₂数分钟内THz衰减并出现WOₓ XPS信号。作者据此把亚100 fs抽取与抑制复合能释放相连。【本站判断】多探针闭环很强，但剥离/CVD、Au粗糙度和PMMA残留同时变化，不能只归因Ra。下一批应在同一CVD膜上独立调Au粗糙度、界面间距和残留，并用截面TEM/TOF-SIMS把三变量解耦。",
+        "type": "作者推断"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "正文 + Methods",
+      "sampleCredibility": "TEM、Raman；证据仍可补强",
+      "reproducibility": "3/15 项参数可提取",
+      "physicalEvidence": "双探针支持",
+      "certainty": "中等"
+    }
+  },
+  {
+    "id": "doi:10.1002/pssa.70538",
+    "title": "Single-Photon Emitters Based on Ge-V Centers in Nanoparticles Obtained From CVD-Grown Nanocrystalline Diamond Films",
+    "authors": "I. A. Tiazhelov; A. K. Martyanov; A. F. Popovich; S. S. Savin; D. G. Pasternak; A. M. Romshin; A. A. Zhivopistsev; V. V. Tapero; P. A. Pivovarov; V. S. Sedov",
+    "institutions": "出版社摘要未返回完整单位列表",
+    "journal": "physica status solidi (a)",
+    "material": "Ge–V/Si–V金刚石纳米颗粒",
+    "method": "MPCVD纳米晶金刚石薄膜+碱金属硝酸盐热刻蚀",
+    "category": "晶体生长和物性调控",
+    "tags": [
+      "正式期刊",
+      "pss(a)",
+      "MPCVD",
+      "金刚石",
+      "Ge-V",
+      "单光子"
+    ],
+    "abstract": "",
+    "conclusion": "这篇论文不是把块体金刚石机械磨碎，而是先用微波等离子体CVD生长含Ge的纳米晶薄膜，再用碱金属硝酸盐热刻蚀选择性破坏晶界，释放约100 nm颗粒并保留母膜晶体质量。颗粒保留Ge–V和Si–V发光，少数Ge–V衍射极限光斑的g²测量进入单光子区，给出一条可扩展的“薄膜生长—沿晶界解离—量子发光筛选”路线。",
+    "summary": "制备逻辑与热点：量子纳米金刚石要求小尺寸、好晶体和孤立色心，机械粉碎容易引入应变和表面损伤。作者利用NCD天然晶界作为化学选择位点，用热刻蚀把晶粒从薄膜中逐一释放，因此尺寸由母膜晶粒而非研磨决定。与离子注入后再纳米加工相比，这条路线有望批量化，但色心位置和数量可控性更弱。\n表征与缺失参数：SEM、TEM、AFM、Raman和动态光散射确认最低约100 nm及少量微晶；PL观察Ge–V/Si–V，二阶相关验证少数Ge–V点为单光子发射。MPCVD气体组成、Ge源、微波功率、压强、基底温度、膜厚、硝酸盐种类/温度/时间、颗粒尺寸分布、g²(0)数值和单光子良率均需正文，当前不能补写。\n证据评价与复现建议：【直接观察】颗粒结构、色心PL和少数g²反聚束（据摘要）。【作者推断】方法具可扩展性。【本站判断】最强是多尺度形貌确认母膜晶质保留，最弱是‘少数’单光子点缺少良率。下一炉必须同时报告每mg颗粒数、Ge含量、g²(0)<0.5比例、谱线漂移和表面终止；对照机械粉碎与热刻蚀的应变Raman和光漂白寿命。",
+    "year": 2026,
+    "published": "2026-09-20",
+    "date": "2026-09-21",
+    "type": "article",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://doi.org/10.1002/pssa.70538",
+    "doi": "10.1002/pssa.70538",
+    "openAccess": null,
+    "dataSource": "站内简报",
+    "fullText": "https://doi.org/10.1002/pssa.70538",
+    "reportUrl": "/reports/2026-09-21/#paper-6",
+    "access": "仅基于出版社摘要/元数据：正文PDF未能合法取得；未出现的生长、表征和测量参数均标为正文未报告",
+    "rating": "A",
+    "sections": [
+      {
+        "title": "制备逻辑与热点",
+        "text": "量子纳米金刚石要求小尺寸、好晶体和孤立色心，机械粉碎容易引入应变和表面损伤。作者利用NCD天然晶界作为化学选择位点，用热刻蚀把晶粒从薄膜中逐一释放，因此尺寸由母膜晶粒而非研磨决定。与离子注入后再纳米加工相比，这条路线有望批量化，但色心位置和数量可控性更弱。"
+      },
+      {
+        "title": "表征与缺失参数",
+        "text": "SEM、TEM、AFM、Raman和动态光散射确认最低约100 nm及少量微晶；PL观察Ge–V/Si–V，二阶相关验证少数Ge–V点为单光子发射。MPCVD气体组成、Ge源、微波功率、压强、基底温度、膜厚、硝酸盐种类/温度/时间、颗粒尺寸分布、g²(0)数值和单光子良率均需正文，当前不能补写。"
+      },
+      {
+        "title": "证据评价与复现建议",
+        "text": "【直接观察】颗粒结构、色心PL和少数g²反聚束（据摘要）。【作者推断】方法具可扩展性。【本站判断】最强是多尺度形貌确认母膜晶质保留，最弱是‘少数’单光子点缺少良率。下一炉必须同时报告每mg颗粒数、Ge含量、g²(0)<0.5比例、谱线漂移和表面终止；对照机械粉碎与热刻蚀的应变Raman和光漂白寿命。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A｜金刚石生长、色心与纳米光子学读者",
+      "first": "全文取得后先看MPCVD/热刻蚀流程、TEM晶界，再看g²统计而非单个最佳曲线。",
+      "focus": "重点核对约100 nm分布尾部、Ge–V单光子良率及Si–V共存是否干扰。",
+      "next": "应用愿景可略读；最值得做按颗粒计数的g²盲筛与表面化学—谱漂移关联。"
+    },
+    "growthRecipe": {
+      "material": "Ge–V/Si–V金刚石纳米颗粒",
+      "actualComposition": "",
+      "method": "MPCVD纳米晶金刚石薄膜+碱金属硝酸盐热刻蚀",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "",
+      "purity": "",
+      "vessel": "",
+      "atmosphere": "",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "",
+      "crystalSize": "100 nm",
+      "yield": "",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 2,
+        "total": 15,
+        "ratio": 0.13333333333333333
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "制备逻辑与热点",
+        "text": "量子纳米金刚石要求小尺寸、好晶体和孤立色心，机械粉碎容易引入应变和表面损伤。作者利用NCD天然晶界作为化学选择位点，用热刻蚀把晶粒从薄膜中逐一释放，因此尺寸由母膜晶粒而非研磨决定。与离子注入后再纳米加工相比，这条路线有望批量化，但色心位置和数量可控性更弱。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "表征与缺失参数",
+        "text": "SEM、TEM、AFM、Raman和动态光散射确认最低约100 nm及少量微晶；PL观察Ge–V/Si–V，二阶相关验证少数Ge–V点为单光子发射。MPCVD气体组成、Ge源、微波功率、压强、基底温度、膜厚、硝酸盐种类/温度/时间、颗粒尺寸分布、g²(0)数值和单光子良率均需正文，当前不能补写。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据评价与复现建议",
+        "text": "【直接观察】颗粒结构、色心PL和少数g²反聚束（据摘要）。【作者推断】方法具可扩展性。【本站判断】最强是多尺度形貌确认母膜晶质保留，最弱是‘少数’单光子点缺少良率。下一炉必须同时报告每mg颗粒数、Ge含量、g²(0)<0.5比例、谱线漂移和表面终止；对照机械粉碎与热刻蚀的应变Raman和光漂白寿命。",
+        "type": "作者推断"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "TEM、Raman；证据仍可补强",
+      "reproducibility": "2/15 项参数可提取",
+      "physicalEvidence": "双探针支持",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "doi:10.1021/acsaelm.6c00948",
+    "title": "Pulsed Laser Deposition of Barium Titanate Thin Films for Advanced Applications",
+    "authors": "RiFeng Zhang; Fabi Zhang; Zhengjie Ran; Tangyou Sun; Zanhui Chen; Xingpeng Liu; Wanli Yang; Yue Li; Shifeng Xie; Haiou Li",
+    "institutions": "出版社摘要未返回完整单位列表",
+    "journal": "ACS Applied Electronic Materials",
+    "material": "BaTiO₃外延/功能薄膜（综述）",
+    "method": "PLD工艺综述：温度、氧压、激光能量、重复率",
+    "category": "晶体生长和物性调控",
+    "tags": [
+      "正式期刊",
+      "ACS Applied Electronic Materials",
+      "BaTiO3",
+      "PLD",
+      "综述"
+    ],
+    "abstract": "",
+    "conclusion": "这篇综述把BaTiO₃薄膜的四个常用PLD旋钮——基底温度、氧压、激光能量和重复率——重新组织为“晶化质量—表面形貌—成分偏离—电学性能”的因果链，并把工艺窗口连接到电光调制器、铁电忆阻器和传感器。它适合做下一轮工艺矩阵的索引，但不是一套可直接照抄的单一配方；不同基底、电极、厚度和腔体几何会移动最优窗口。",
+    "summary": "综述定位与信息边界：BTO薄膜同时要求高介电、低漏电和强铁电，单纯提高结晶温度可能带来界面反应或挥发。文章围绕温度、氧分压、脉冲能量和频率如何影响成核、颗粒、氧空位和化学计量展开。由于当前只有摘要，尚不能列出各文献的具体范围、靶基距和基底依赖。\n对实验记录的启示：PLD实验记录不应只写设定温度：至少保存实测基底温度、氧压、能量密度、光斑面积、重复率、靶基距、靶材历史、预烧蚀、冷却氧压、厚度和生长速率。质量放行需用XRD摇摆曲线/RSM、AFM、XPS或RBS成分、漏电、P–E和介电频散共同判断；摘要没有提供统一阈值。\n如何使用而不误用：综述结论属于跨论文归纳，不能把‘优化后高介电低漏电’当作同一样品已同时达到。建议以目标器件倒推优先级：电光器件先压光损耗和畴散射，忆阻器要区分氧空位导电与极化翻转，传感器则关注厚度/应变稳定。下一步需取得正文表格，将各基底上的四维窗口结构化入站，而不是只收藏叙述性结论。",
+    "year": 2026,
+    "published": "2026-09-19",
+    "date": "2026-09-21",
+    "type": "article",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://doi.org/10.1021/acsaelm.6c00948",
+    "doi": "10.1021/acsaelm.6c00948",
+    "openAccess": null,
+    "dataSource": "站内简报",
+    "fullText": "https://doi.org/10.1021/acsaelm.6c00948",
+    "reportUrl": "/reports/2026-09-21/#paper-7",
+    "access": "仅基于出版社摘要/元数据：正文PDF未能合法取得；未出现的生长、表征和测量参数均标为正文未报告",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "综述定位与信息边界",
+        "text": "BTO薄膜同时要求高介电、低漏电和强铁电，单纯提高结晶温度可能带来界面反应或挥发。文章围绕温度、氧分压、脉冲能量和频率如何影响成核、颗粒、氧空位和化学计量展开。由于当前只有摘要，尚不能列出各文献的具体范围、靶基距和基底依赖。"
+      },
+      {
+        "title": "对实验记录的启示",
+        "text": "PLD实验记录不应只写设定温度：至少保存实测基底温度、氧压、能量密度、光斑面积、重复率、靶基距、靶材历史、预烧蚀、冷却氧压、厚度和生长速率。质量放行需用XRD摇摆曲线/RSM、AFM、XPS或RBS成分、漏电、P–E和介电频散共同判断；摘要没有提供统一阈值。"
+      },
+      {
+        "title": "如何使用而不误用",
+        "text": "综述结论属于跨论文归纳，不能把‘优化后高介电低漏电’当作同一样品已同时达到。建议以目标器件倒推优先级：电光器件先压光损耗和畴散射，忆阻器要区分氧空位导电与极化翻转，传感器则关注厚度/应变稳定。下一步需取得正文表格，将各基底上的四维窗口结构化入站，而不是只收藏叙述性结论。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜准备搭建BTO PLD工艺矩阵的实验人员",
+      "first": "先找正文的参数汇总表和基底分类，再读器件章节，不要从结论直接抄温度。",
+      "focus": "重点核对能量是单脉冲还是能量密度、温度标定方式及冷却氧压。",
+      "next": "IoT应用背景可略读；最值得把综述数据转成‘基底—厚度—氧压—性能’结构化表。"
+    },
+    "growthRecipe": {
+      "material": "BaTiO₃外延/功能薄膜（综述）",
+      "actualComposition": "",
+      "method": "PLD",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "",
+      "purity": "",
+      "vessel": "",
+      "atmosphere": "",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "",
+      "crystalSize": "",
+      "yield": "",
+      "qualityMetrics": [
+        "摇摆曲线/RSM、AFM、XPS或RBS成分、漏电、P–E和介电频散共同判断"
+      ],
+      "completeness": {
+        "reported": 1,
+        "total": 15,
+        "ratio": 0.06666666666666667
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "综述定位与信息边界",
+        "text": "BTO薄膜同时要求高介电、低漏电和强铁电，单纯提高结晶温度可能带来界面反应或挥发。文章围绕温度、氧分压、脉冲能量和频率如何影响成核、颗粒、氧空位和化学计量展开。由于当前只有摘要，尚不能列出各文献的具体范围、靶基距和基底依赖。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "对实验记录的启示",
+        "text": "PLD实验记录不应只写设定温度：至少保存实测基底温度、氧压、能量密度、光斑面积、重复率、靶基距、靶材历史、预烧蚀、冷却氧压、厚度和生长速率。质量放行需用XRD摇摆曲线/RSM、AFM、XPS或RBS成分、漏电、P–E和介电频散共同判断；摘要没有提供统一阈值。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-3",
+        "title": "如何使用而不误用",
+        "text": "综述结论属于跨论文归纳，不能把‘优化后高介电低漏电’当作同一样品已同时达到。建议以目标器件倒推优先级：电光器件先压光损耗和畴散射，忆阻器要区分氧空位导电与极化翻转，传感器则关注厚度/应变稳定。下一步需取得正文表格，将各基底上的四维窗口结构化入站，而不是只收藏叙述性结论。",
+        "type": "直接观察"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "XRD；证据仍可补强",
+      "reproducibility": "1/15 项参数可提取",
+      "physicalEvidence": "单一或未报告",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "doi:10.1002/anie.4300417",
+    "title": "Borosulfates Hosting Se4²⁺ Ions—Crystal Structures, Chemical Bonding, Optical Spectroscopy, and Magnetism",
+    "authors": "Erich Turgunbajew; Marios Symeonidis; Jörn Bruns; Sara N. Özbay; Jan Langwald; Mathias S. Wickleder; Robert E. Dinnebier; Linda S. Reitz; Richard Dronskowski; Lars Schumacher; Rainer Pöttgen; Henning A. Höppe",
+    "institutions": "出版社摘要未返回完整单位列表",
+    "journal": "Angewandte Chemie International Edition",
+    "material": "Se₄²⁺硼硫酸盐系列",
+    "method": "溶剂热合成；温程PXRD揭示顺序生成窗口",
+    "category": "晶体生长和物性调控",
+    "tags": [
+      "正式期刊",
+      "Angewandte",
+      "硼硫酸盐",
+      "Se4多阳离子",
+      "溶剂热",
+      "PXRD"
+    ],
+    "abstract": "",
+    "conclusion": "论文一次扩展了五种含Se₄²⁺的硼硫酸盐，并补上Se₄[S₄O₁₃]长期缺失的结构。真正对生长有价值的故事是温程粉末XRD看到不同硼硫酸盐随分解温度顺序形成，使相选择不再完全靠事后试错；黄色反射谱和抗磁测量又与Se₄²⁺闭壳层计算相互吻合。它展示了怎样用原位/温程衍射把多相溶剂热化学变成可选择的温度窗口。",
+    "summary": "材料家族与实验设计：五种新相覆盖Se₄[B(S₂O₇)₂]₂(SO₃)、Se₄[B(S₂O₇)₂]₂及不同B₂(SO₄)/S₂O₇骨架。所有化合物用溶剂热路线获得，随后用粉末衍射/Rietveld、IR、反射、热分析和磁性建立成分—结构—性质链。Se₄[S₄O₁₃]也被首次完成结构评价。\n生长参数缺失与质量评价：反应物纯度/配比、溶剂、安瓿/反应釜材质、填充率、温度/保温、升降温、分离洗涤、晶粒尺寸和相纯度指标均需正文；摘要未给。温程PXRD证明相随分解温度顺序出现，但若无定量相分数和热滞后，尚不能直接定义宽容工艺窗。黄色体色与反射谱一致，磁性确认Se₄²⁺抗磁。\n证据分级与下一炉：【直接观察】多相结构、光谱、温程PXRD和抗磁性（据摘要）。【计算】化学键与抗磁电子结构。【作者推断】顺序分解允许选择性合成。【本站判断】最强是温程衍射把相竞争显性化，最弱是溶剂热成核与分解路径是否同一。下一炉应在关键温度做淬火取样，给Rietveld相分数—时间—温度图，并用单晶XRD/ICP验证Se损失与骨架硫酸根比例。",
+    "year": 2026,
+    "published": "2026-09-19",
+    "date": "2026-09-21",
+    "type": "article",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://doi.org/10.1002/anie.4300417",
+    "doi": "10.1002/anie.4300417",
+    "openAccess": null,
+    "dataSource": "站内简报",
+    "fullText": "https://doi.org/10.1002/anie.4300417",
+    "reportUrl": "/reports/2026-09-21/#paper-8",
+    "access": "仅基于出版社摘要/元数据：正文PDF未能合法取得；未出现的生长、表征和测量参数均标为正文未报告",
+    "rating": "A-",
+    "sections": [
+      {
+        "title": "材料家族与实验设计",
+        "text": "五种新相覆盖Se₄[B(S₂O₇)₂]₂(SO₃)、Se₄[B(S₂O₇)₂]₂及不同B₂(SO₄)/S₂O₇骨架。所有化合物用溶剂热路线获得，随后用粉末衍射/Rietveld、IR、反射、热分析和磁性建立成分—结构—性质链。Se₄[S₄O₁₃]也被首次完成结构评价。"
+      },
+      {
+        "title": "生长参数缺失与质量评价",
+        "text": "反应物纯度/配比、溶剂、安瓿/反应釜材质、填充率、温度/保温、升降温、分离洗涤、晶粒尺寸和相纯度指标均需正文；摘要未给。温程PXRD证明相随分解温度顺序出现，但若无定量相分数和热滞后，尚不能直接定义宽容工艺窗。黄色体色与反射谱一致，磁性确认Se₄²⁺抗磁。"
+      },
+      {
+        "title": "证据分级与下一炉",
+        "text": "【直接观察】多相结构、光谱、温程PXRD和抗磁性（据摘要）。【计算】化学键与抗磁电子结构。【作者推断】顺序分解允许选择性合成。【本站判断】最强是温程衍射把相竞争显性化，最弱是溶剂热成核与分解路径是否同一。下一炉应在关键温度做淬火取样，给Rietveld相分数—时间—温度图，并用单晶XRD/ICP验证Se损失与骨架硫酸根比例。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A-｜固体化学、溶剂热和原位衍射读者",
+      "first": "全文取得后先看温程PXRD相序和合成表，再看各新相的Rietveld与键合分析。",
+      "focus": "重点核对选择性合成窗口宽度、Se挥发/歧化和相分数误差。",
+      "next": "历史多阳离子综述可略读；最值得做关键温区的淬火—定量相分析。"
+    },
+    "growthRecipe": {
+      "material": "Se₄²⁺硼硫酸盐系列",
+      "actualComposition": "",
+      "method": "溶剂热合成；温程PXRD揭示顺序生成窗口",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "配比、溶剂、安瓿/反应釜材质、填充率、温度/保温、升降温、分离洗涤、晶粒尺寸和相纯度指标均需正文",
+      "purity": "纯度/配比、溶剂、安瓿/反应釜材质、填充率、温度/保温、升降温、分离洗涤、晶粒尺寸和相纯度指标均需正文",
+      "vessel": "安瓿/反应釜材质、填充率、温度/保温、升降温、分离洗涤、晶粒尺寸和相纯度指标均需正文",
+      "atmosphere": "",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "淬火取样，给Rietveld相分数—时间—温度图，并用单晶XRD/ICP验证Se损失与骨架硫酸根比例",
+      "crystalSize": "",
+      "yield": "",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 5,
+        "total": 15,
+        "ratio": 0.3333333333333333
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "材料家族与实验设计",
+        "text": "五种新相覆盖Se₄[B(S₂O₇)₂]₂(SO₃)、Se₄[B(S₂O₇)₂]₂及不同B₂(SO₄)/S₂O₇骨架。所有化合物用溶剂热路线获得，随后用粉末衍射/Rietveld、IR、反射、热分析和磁性建立成分—结构—性质链。Se₄[S₄O₁₃]也被首次完成结构评价。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "生长参数缺失与质量评价",
+        "text": "反应物纯度/配比、溶剂、安瓿/反应釜材质、填充率、温度/保温、升降温、分离洗涤、晶粒尺寸和相纯度指标均需正文；摘要未给。温程PXRD证明相随分解温度顺序出现，但若无定量相分数和热滞后，尚不能直接定义宽容工艺窗。黄色体色与反射谱一致，磁性确认Se₄²⁺抗磁。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据分级与下一炉",
+        "text": "【直接观察】多相结构、光谱、温程PXRD和抗磁性（据摘要）。【计算】化学键与抗磁电子结构。【作者推断】顺序分解允许选择性合成。【本站判断】最强是温程衍射把相竞争显性化，最弱是溶剂热成核与分解路径是否同一。下一炉应在关键温度做淬火取样，给Rietveld相分数—时间—温度图，并用单晶XRD/ICP验证Se损失与骨架硫酸根比例。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "XRD、ICP；证据仍可补强",
+      "reproducibility": "5/15 项参数可提取",
+      "physicalEvidence": "双探针支持",
+      "certainty": "推测"
+    }
+  },
+  {
     "id": "doi:10.1103/2rms-xtlm",
     "title": "Density waves in low-pressure bilayer nickelates",
     "authors": "Lauro B. Braz; Steffen Bötzel; Frank Lechermann; Igor Plokhikh; Rustem Khasanov; Luis G. G. V. Dias da Silva; Ilya M. Eremin",
