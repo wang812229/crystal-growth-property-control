@@ -73,7 +73,7 @@ jobs:
         run: echo "::warning::当天简报生成失败；将保留并发布仓库中最近一次可用内容。请检查 OPENAI_API_KEY 额度和生成日志。"
 
       - name: 生成静态网页
-        run: node scripts/build-github-pages.mjs
+        run: pnpm build:pages
 
       - name: 检查静态索引与链接
         run: node --test tests/pages.integration.mjs
