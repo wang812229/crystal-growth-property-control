@@ -1,0 +1,110 @@
+{
+  "date": "2026-09-26",
+  "issue": "032",
+  "searchWindow": "北京时间2026-09-26当日检索。当天为周六，arXiv没有独立Saturday new批次；不把9月25日Friday批次重复放入。正式期刊检出2篇高相关Nature Communications，均与磁性/受挫直接相关。",
+  "headline": "今天不以篇数填充：只保留两篇当天高相关正式期刊论文，分别关注粒子反自旋冰的涌现电荷结晶和光驱非线性Edelstein–Zeeman场操控铁磁性。",
+  "hotspot": "共同热点是“把有效自由度变成可操控对象”：前者从粒子构型抽象出可结晶的电荷，后者把非线性光电响应转化为作用于磁矩的有效场。由于出版社正文/摘要在当前访问通道尚未可读，本期严格降级为元数据级，不用题名扩写实验细节；这也是与9月25日全文精读报告分开的原因。",
+  "searchTerms": [
+    "APS/Physical Review全系列：已检查当日条目，零篇满足新增且高相关。",
+    "Nature Portfolio：检出并纳入Nature Communications 2篇；Nature、Nature Physics、Nature Materials、npj Quantum Materials当日零纳入。",
+    "Science/AAAS：已检查，零高相关新增。",
+    "Wiley：Advanced Materials、Advanced Functional Materials已检查，零高相关新增。",
+    "ACS：Nano Letters、ACS Nano、JACS、Chemistry of Materials已检查，零高相关新增。",
+    "Crystal Growth & Design与Journal of Crystal Growth：已检查，零高相关新增。",
+    "arXiv：周六无独立new批次；9月25日Friday条目已进入昨日简报，不重复。",
+    "访问：2篇均为出版社元数据级；未调用机构VPN，未下载或公开任何订阅PDF。",
+    "去重：与截至2026-09-25的站内DOI、arXiv ID与题名比对，无重复。"
+  ],
+  "papers": [
+    {
+      "material": "粒子anti-spin ice",
+      "title": "Emergent charge crystallization and frustration in a particle anti-spin ice",
+      "authors": "Renaud Baillou; Matthew Terkel; Cristiano Nisoli; Pietro Tierno",
+      "journal": "Nature Communications",
+      "date": "2026-09-26",
+      "doi": "https://doi.org/10.1038/s41467-026-77905-2",
+      "fullText": "https://doi.org/10.1038/s41467-026-77905-2",
+      "access": "仅基于出版社元数据：正式DOI已确认，但出版社页面当前未返回可读摘要/正文；所有实验参数均保持未知",
+      "rating": "B+",
+      "method": "胶体/粒子人工冰；电荷结晶与受挫",
+      "category": "磁性、拓扑与自旋",
+      "tags": [
+        "正式期刊",
+        "元数据级"
+      ],
+      "abstract": "",
+      "conclusion": "题名表明作者在“粒子anti-spin ice”中观察涌现电荷结晶与受挫共存，重点从单粒子构型上升到有效电荷自由度；但出版社元数据尚无摘要，当前不能确认装置几何、相变证据或定量尺度。",
+      "sections": [
+        {
+          "title": "问题与选材理由",
+          "text": "题名表明作者在“粒子anti-spin ice”中观察涌现电荷结晶与受挫共存，重点从单粒子构型上升到有效电荷自由度；但出版社元数据尚无摘要，当前不能确认装置几何、相变证据或定量尺度。 该主题与人工受挫/自旋轨道光控直接相关，因此在不虚构细节的前提下保留为当天高相关正式条目。"
+        },
+        {
+          "title": "样品、生长与质量",
+          "text": "Crossref仅给题名、作者、期刊和DOI；网页正文尚未被当前访问通道解析。粒子材料、阱阵列、驱动场、成像方法、统计样本与模拟模型均未报告。 原料、制备、生长、结构、尺寸、批次、XRD/显微/成分质量证据：正文未报告/本次未取得。"
+        },
+        {
+          "title": "测量、证据与边界",
+          "text": "目前只有出版社元数据，未取得原始图、误差、拟合、对照或补充材料。因此“直接观察”“模型拟合”和“作者推断”尚不能逐项重建；本站只确认题名层面的研究主张，不确认机制。"
+        },
+        {
+          "title": "复现与下一步",
+          "text": "先取得Nature Communications公开HTML后核对反自旋冰几何、粒子相互作用、结构因子/关联函数和有限尺寸分析；若只是动力学冻结，不能等同热力学结晶。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "B+｜建议先作为快速追踪条目",
+        "first": "先确认出版社HTML是否已补全摘要与Methods，再读最能区分机制的主图。",
+        "focus": "重点核对：Crossref仅给题名、作者、期刊和DOI；网页正文尚未被当前访问通道解析。粒子材料、阱阵列、驱动场、成像方法、统计样本与模拟模型均未报告。",
+        "next": "最值得做：先取得Nature Communications公开HTML后核对反自旋冰几何、粒子相互作用、结构因子/关联函数和有限尺寸分析；若只是动力学冻结，不能等同热力学结晶。"
+      },
+      "institutions": "作者单位待出版社正文补全",
+      "versionNote": "Nature Communications 2026-09-26在线元数据；本次未取得可读全文或摘要。"
+    },
+    {
+      "material": "光驱非线性Edelstein–Zeeman铁磁调控",
+      "title": "Manipulation of ferromagnetism with a light-driven nonlinear Edelstein-Zeeman field",
+      "authors": "Yinchuan Lv; W. Joe Meese; Azel Murzabekova; Jennifer Freedberg; Changjun Lee; Yiming Sun; Joshua Wakefield; Takashi Kurumaji; Joseph Checkelsky; Fahad Mahmood",
+      "journal": "Nature Communications",
+      "date": "2026-09-26",
+      "doi": "https://doi.org/10.1038/s41467-026-77965-4",
+      "fullText": "https://doi.org/10.1038/s41467-026-77965-4",
+      "access": "仅基于出版社元数据：正式DOI已确认，但出版社页面当前未返回可读摘要/正文；所有实验参数均保持未知",
+      "rating": "A-",
+      "method": "超快光驱；非线性Edelstein–Zeeman有效场",
+      "category": "磁性、拓扑与自旋",
+      "tags": [
+        "正式期刊",
+        "元数据级"
+      ],
+      "abstract": "",
+      "conclusion": "题名主张用光驱非线性Edelstein–Zeeman有效场操控铁磁性，把光生电流、自旋—轨道耦合和磁矩转向连接起来；在摘要缺失时，不能判断是瞬态偏转、确定性翻转还是模型预测。",
+      "sections": [
+        {
+          "title": "问题与选材理由",
+          "text": "题名主张用光驱非线性Edelstein–Zeeman有效场操控铁磁性，把光生电流、自旋—轨道耦合和磁矩转向连接起来；在摘要缺失时，不能判断是瞬态偏转、确定性翻转还是模型预测。 该主题与人工受挫/自旋轨道光控直接相关，因此在不虚构细节的前提下保留为当天高相关正式条目。"
+        },
+        {
+          "title": "样品、生长与质量",
+          "text": "Crossref给出完整作者但无摘要；材料体系、光子能量、脉宽、流强、温度、时间分辨磁探针和磁场标定均未报告。 原料、制备、生长、结构、尺寸、批次、XRD/显微/成分质量证据：正文未报告/本次未取得。"
+        },
+        {
+          "title": "测量、证据与边界",
+          "text": "目前只有出版社元数据，未取得原始图、误差、拟合、对照或补充材料。因此“直接观察”“模型拟合”和“作者推断”尚不能逐项重建；本站只确认题名层面的研究主张，不确认机制。"
+        },
+        {
+          "title": "复现与下一步",
+          "text": "全文可得后优先核对光热对照、偏振/入射方向反转、场强阶数以及磁化恢复时间；只有同时满足对称性和时间尺度判据，才能把效应归于非线性Edelstein–Zeeman场。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A-｜建议先作为快速追踪条目",
+        "first": "先确认出版社HTML是否已补全摘要与Methods，再读最能区分机制的主图。",
+        "focus": "重点核对：Crossref给出完整作者但无摘要；材料体系、光子能量、脉宽、流强、温度、时间分辨磁探针和磁场标定均未报告。",
+        "next": "最值得做：全文可得后优先核对光热对照、偏振/入射方向反转、场强阶数以及磁化恢复时间；只有同时满足对称性和时间尺度判据，才能把效应归于非线性Edelstein–Zeeman场。"
+      },
+      "institutions": "作者单位待出版社正文补全",
+      "versionNote": "Nature Communications 2026-09-26在线元数据；本次未取得可读全文或摘要。"
+    }
+  ]
+}
