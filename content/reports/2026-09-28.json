@@ -2,8 +2,8 @@
   "date": "2026-09-28",
   "issue": "034",
   "searchWindow": "北京时间 2026-09-28 当日新提交/正式上线优先。截至本次复核，arXiv cond-mat/new 的 Monday 28 September 2026 列表含 89 篇 new submissions；最初 API 空结果是错误的零新增判断，现以官网列表逐条重新筛选。正式期刊轨道核查当天上线条目，不用旧稿填充。",
-  "headline": "更正：9月28日并非零新增。已从 arXiv 当日 89 篇新稿中筛入 21 篇与晶体生长、超导、重费米子、磁性及二维器件相关的研究，其中 5 篇实际阅读公开全文。",
-  "hotspot": "本期最值得先读的是 SmTr2Ge2 四种助熔剂配方与磁各向异性跨越、BKBO 三电极电化学生长和全体积 Meissner 效应、Sb/SiC 单层 kagome 外延平台、扭转 MoS2 升温增强的分数填充局域化，以及图案化石墨烯的低温磁滞/MFM 互证。其他条目按摘要级明确划界，不把新颖标题等同已精读。",
+  "headline": "更正：9月28日并非零新增。已从 arXiv 当日 89 篇新稿中筛入 21 篇与晶体生长、超导、重费米子、磁性及二维器件相关的研究，其中 6 篇实际阅读公开全文。",
+  "hotspot": "本期最值得先读的是 SmTr2Ge2 四种助熔剂配方与磁各向异性跨越、BKBO 三电极电化学生长和全体积 Meissner 效应、Sb/SiC 单层 kagome 外延平台、扭转 MoS2 升温增强的分数填充局域化，以及图案化石墨烯的低温磁滞/MFM 互证。其他条目按摘要级明确划界，不把新颖标题等同已精读。 补读 CeRh₂As₂ 多轨道 Anderson 模型后，确认其关键贡献是把重准粒子与磁/四极竞争置于同一巡游框架，同时留下磁波矢与磁弹耦合需实验验证的边界。",
   "searchTerms": [
     "更正说明：上一版仅依赖 arXiv API，误将空响应当作无新提交。2026-09-28 官网 https://arxiv.org/list/cond-mat/new 明列 89 new submissions；从中按材料、方法与研究方向逐条筛选，入选 21；其他 68 为一般统计物理、力学、生物材料、非本平台重点或关联不足。",
     "APS/Physical Review 全系列：当天期刊页面与 Crossref created/published-online 精确日期检索；截至约北京时间 10:00 未确认新的未收录高相关正式条目，纳入0。仅代表检查时点，不代表全天不会晚到。",
@@ -14,7 +14,7 @@
     "Crystal Growth & Design：同日期精确期刊元数据轨道零可确认高相关新稿；纳入0。",
     "Journal of Crystal Growth：同日期精确期刊元数据轨道零可确认高相关新稿；纳入0。",
     "其他同等级期刊：检查新增条目与既往 DOI/题名关系；未发现需要在本次更正中取代上述 arXiv 当日新稿的正式版本。",
-    "访问与去重：arXiv 官网新稿 89；筛入 21，其中实际读取公开 HTML 正文/Methods/主要图注 5，摘要/元数据 16。与截至9月27日站内报告按 arXiv ID、DOI 和规范化题名核对，无重复。浙江大学机构 VPN 未用于这 21 篇公开预印本；没有下载或公开机构订阅 PDF。",
+    "访问与去重：arXiv 官网新稿 89；筛入 21，其中实际读取公开 HTML 正文/Methods/主要图注 6，摘要/元数据 15。与截至9月27日站内报告按 arXiv ID、DOI 和规范化题名核对，无重复。浙江大学机构 VPN 未用于这 21 篇公开预印本；没有下载或公开机构订阅 PDF。",
     "检索词：2026-09-28 cond-mat new、crystal growth、flux、CVT、superconductivity、heavy fermion、Kondo、kagome、twisted MoS2、magnetism、spin、epitaxy；日期按北京时区记载。"
   ],
   "papers": [
@@ -693,40 +693,52 @@
       "journal": "arXiv（Strongly Correlated Electrons (cond-mat.str-el)）",
       "date": "2026-09-28",
       "doi": "https://arxiv.org/abs/2609.31001",
-      "fullText": "",
-      "access": "仅基于 arXiv v1 摘要/元数据；尚未读到正文、Methods 或 SI，所有缺失条件不可推断",
-      "rating": "B+",
+      "fullText": "https://arxiv.org/html/2609.31001",
+      "access": "全文精读：已读取 arXiv 公开 HTML 的 Introduction、Periodic Anderson model、RISB mean-field、Paramagnetic state、Magnetic ordering、Discussion、Table 1 及 Fig. 2–7 图注；未见独立 SI，未声称阅读 PDF 附件",
+      "rating": "A｜重费米子理论与实验对照",
       "method": "多轨道周期 Anderson 模型",
       "category": "重费米子与量子临界",
       "tags": [
         "arXiv v1",
-        "摘要级",
-        "待全文核对"
+        "全文精读",
+        "2026-09-28 官方 new 列表"
       ],
       "abstract": "CeRh2As2 is a heavy-fermion superconductor that exhibits distinct low- and high-field superconducting phases, widely interpreted as reflecting a field-induced change in the parity of the order parameter. However, the superconductivity develops in close proximity to magnetic order whose microscopic origin and nature remain unclear. Moreover, the low-lying crystal-electric-field-split doublets of the Ce 4f electrons appear to realize an unusual \"quasi-quartet\" structure. This has motivated proposals that quadrupolar degrees of freedom play an important role in the low-temperature physics. Here we develop a microscopic heavy-fermion description of CeRh2As2 that incorporates both the quasi-quartet structure and the nonsymmorphic symmetry. Within a multiorbital periodic Anderson model, we include the lowest-lying $\\Gamma_7$ and $\\Gamma_6$ doublets of the Ce 4f electrons, and allow for nonlocal hybridization with the conduction d electrons. Single occupancy of the 4f states is enforced within the rotationally invariant slave-boson formalism. Adopting a mean-field treatment, we first show that the effective low-energy Hamiltonian is accurately captured by a single-orbital tight-binding model, justifying the minimal descriptions widely employed in the literature. Allowing for a magnetic ground state, we find that our model displays metallic $\\mathbf{Q}=(\\pi,\\pi)$ antiferromagnetic order over a wide parameter regime. Ferromagnetic solutions also occur, but in a smaller region of parameter space and with greater sensitivity to carrier concentration and the form of the f-d hybridization. Quadrupolar moments appear only within magnetically ordered phases and are generally small, becoming substantial only when the $\\Gamma_7$ and $\\Gamma_6$ doublets are nearly degenerate. Our results provide a microscopic basis for understanding the itinerant heavy-fermion physics and ordered phases of CeRh2As2.",
-      "conclusion": "这篇新稿围绕CeRh2As2提出或报告：显式纳入 Γ7/Γ6 准四重态与非局域 f–d 杂化后，模型在较宽参数区支持 Q=(π,π) 反铁磁，四极矩主要在双重态近简并时增强；结论是模型机制不是磁序直接观测。目前本条只读到 arXiv 摘要，尚不能确认全文中的样品质量、对照设计和误差；它适合先纳入追踪，复现实验与结论强度需在获得正文后重新评估。",
+      "conclusion": "这篇论文尝试把 CeRh₂As₂ 的两个难题放进同一模型：低温重费米子由 Ce 4f 与 Rh d 电子杂化形成，而近简并的 Γ₇/Γ₆ 晶场双重态又可能参与磁性及四极序。作者建立多轨道周期 Anderson 模型，通过旋转不变从玻色子平均场得到低能能带，再在多种对称允许的磁序之间比较自由能。结果显示一个常用单轨道模型在特定低能窗口确有微观来源，但磁相图更常偏向 Q=(π,π) 的面内反铁磁；四极矩主要是磁序诱导，只有晶场双重态接近交叉时明显增强。它提供的是模型机制及可测的对称性判据，不是对实际磁波矢、超导配对或四极主序的直接实验证明。",
       "sections": [
         {
-          "title": "已知问题与证据边界",
-          "text": "【仅基于 arXiv v1 摘要/元数据】显式纳入 Γ7/Γ6 准四重态与非局域 f–d 杂化后，模型在较宽参数区支持 Q=(π,π) 反铁磁，四极矩主要在双重态近简并时增强；结论是模型机制不是磁序直接观测。 本条已核对题目、完整作者表、分类、日期和摘要，但没有实际读取正文/Methods/SI，所以不能称为全文精读，也不能把模型预测写成实测。材料/模型为CeRh2As2；具体空间群、样品尺寸、样品数、批次关系与表征精度，摘要未报告。"
+          "title": "科学问题：局域准四重态怎样进入巡游重费米子图像",
+          "text": "CeRh₂As₂ 的低场、高场超导相常被用奇偶宇称切换解释，但超导发生在磁序附近，且 Ce 4f 的 Γ₇、Γ₆ 双重态仅约 30 K 分离，与 Kondo 相干温标接近。只留一个双重态的有效模型可以讨论配对对称性，却难以追问四极自由度从何而来；纯局域模型又难描述 ARPES 所见近费米能的重准粒子。作者因此选择 Ce 子晶格 4f 准四重态与 Rh 方格层 d_xy 导带的非局域杂化，在同一框架中比较能带、磁序及四极矩。这一问题的热点价值是将相 I 的磁/多极争议与非常规超导的微观基础衔接，但本文计算本身没有求解超导序参量。"
         },
         {
-          "title": "生长、测量与缺失参数",
-          "text": "原料纯度与配比：正文未报告；助熔剂/输运剂及用量：正文未报告；坩埚/安瓿/基底处理、真空和气氛：正文未报告；源区、生长区、峰值温度、保温时间、升降温速率、分离/退火/淬火、晶体尺寸与产率：正文未报告。XRD/Laue/EDS/WDS/ICP/TEM 的定量质量指标和批次统计：正文未报告。测量仪器、接线几何、激励、频率、温场压范围、误差条与拟合窗口只有摘要显式给出的部分可引用，其余均不能推测。理论稿的这些制备项目应理解为不适用，而非假装存在单晶。"
+          "title": "模型、晶体与复现边界",
+          "text": "正文模型以 CeRh₂As₂ 的非平庸空间对称性、两 Ce 子晶格及 Rh 层方格点为出发点；Ce 使用 J=5/2 中 Γ₇⊕Γ₆ 两组 Kramers 双重态，Rh d_xy 作为低能导带。Slater–Koster 两中心近似给出非局域 f–d 杂化，4f 单占据通过 U→∞ 的旋转不变从玻色子方法实施，随后作鞍点平均场。论文是理论研究，没有合成或测量新单晶，因此原料纯度、配比、助熔剂、坩埚、气氛、温度程序、晶体尺寸、RRR、XRD/EDS 以及测量接线均“不适用/正文未报告”，不能把引用文献的样品条件归入本稿。复算应明确固定能量标度 t₂、电子填充 n、Γ₇/Γ₆ 能级、两类杂化及 48×48 动量网格，并记录候选序的初值和是否收敛到局部极小。"
         },
         {
-          "title": "结论、替代解释与下一步",
-          "text": "【直接可确认】当前仅有摘要列出的结果/主张；【作者解释】机制与物性之间的因果关系还需正文图表和补充材料支持；【本站判断】在未核对原始曲线、对照样品与方法以前，不能评定独立复现强度。先看 Γ7/Γ6 能级与杂化项、Q=(π,π) 相图；下一步用中子或 NMR 约束实际磁序。"
+          "title": "第一条证据链：全模型何时能约化为单轨道",
+          "text": "Fig. 2 将自洽求得的低能 PAM 能带和费米面，与只保留 Γ₇ 的有效模型拟合比较；正文举例设 t₁=−0.20t₂、εΓ₇=−1.0t₂、εΓ₆=−0.5t₂、v₁Γ₇=0.30t₂、v₂Γ₇=0.20t₂、n=2.30，并只在布里渊区边缘的条带拟合。所得 εf=−0.085t₂、t₁f=−0.049t₂、|t₂f|=0.185t₂、|αf|=0.173t₂。其逻辑不是“单轨道模型处处准确”：Fig. 3 改变导带次近邻跃迁 t₁ 时，正 t₁ 可在 Γ 点多出 f 性费米面，约化模型不再忠实。解析消去导带的 Eq. 25 给出 |αf/t₂f|=2|v₂/v₁|，仅在导带与 f 能级足够分离的近似下成立；这解释有效自旋轨道项的来源，也明确了失效条件。"
+        },
+        {
+          "title": "第二条证据链：磁波矢由杂化通道竞争选择",
+          "text": "Table 1 列出 Q=(0,0) 与 Q=(π,π) 的铁磁、A 型反铁磁和多种 M 点候选序及伴随四极对称性。作者在每个对称限制的鞍点中求自由能，再在未限制的自由能上检查驻点，以减少把强制 ansatz 误判为稳定解的风险。Fig. 4/5 扫描 v₁Γ₇、v₂Γ₇、填充 n 及导带 t₁：前者倾向 Q=(0,0)，后者倾向 Q=(π,π)；后者在大部分测试参数区域，特别是面内磁矩态，占优。图中斜线格表示两类序能量差小于 10⁻³t₂，不能读成波矢已被可靠选定；作者承认此处可能存在未纳入的不共度序。Fig. 6 显示 n≈3 时某些 M 点态因对称强制的能带简并呈半金属，另一些态可开小能隙，带结构变化反过来影响凝聚能。此处“相图”是模型在参数空间的预测，不是实验温度–磁场相图。"
+        },
+        {
+          "title": "第三条证据链：四极是主序还是随磁序出现",
+          "text": "Fig. 7 调 Γ₇–Γ₆ 晶场差 ΔCEF，并以投影算符定义偶极强度 D、四极强度 Q，同时减去顺磁相本已有的 A₁g 分量。多数对称破缺四极算符跨 Γ₇/Γ₆ 轨道，因此另一双重态占据增大时四极增强。模型中四极只在磁有序状态出现，靠近两双重态占据交叉时显著，而没有找到独立主导的四极相。Γ₇ 一侧的正交 M₁ 态四极相对增强，并带有均匀 B₂g 的 Oxy，可线性耦合剪切应变 εxy；这给超声弹性异常提供具体可检验的对称性关联。另一类四方 M 点序的四极为奇宇称 B₂u/A₂u，不具有同样的线性剪切耦合。由此可用角分辨超声、NMR/中子约束的磁波矢来区分相近自由能的候选序。"
+        },
+        {
+          "title": "证据等级、薄弱环节与实验建议",
+          "text": "【直接读取的论文结果】Fig. 2–7、Table 1 及 Eq. 25 给出的是自洽数值与解析近似，不是新的单晶测量。【模型拟合】有效单轨道参数仅在所选 k 区间与给定输入下拟合；不同 t₁ 出现额外费米面时结论失效。【作者推断】近简并晶场能增强磁序中的四极成分，面内 Q=(π,π) 态在广参数区稳健。【本简报判断】最强之处是同时比较多个磁对称性、能带和多极矩；最弱之处是鞍点平均场忽略空间关联、可能漏掉不共度序，也未纳入磁弹耦合和有限场，无法单独指认真实相 I/II。实验上应优先在同一批高质量 CeRh₂As₂ 上联合做方向分辨超声、NMR/中子与 ARPES，检验是否存在 Oxy 对 εxy 的线性响应、真实 Q 是否接近 M 点、Γ 附近是否有约化模型漏掉的费米面。计算上扩大候选 Q 与晶格耦合，而不是只微调已有鞍点参数。"
         }
       ],
       "readingGuide": {
-        "priority": "B+｜相关方向研究者先追踪，待全文复核",
-        "first": "先看 Γ7/Γ6 能级与杂化项、Q=(π,π) 相图",
-        "focus": "先看 Γ7/Γ6 能级与杂化项、Q=(π,π) 相图；下一步用中子或 NMR 约束实际磁序。",
-        "next": "下一步用中子或 NMR 约束实际磁序。"
+        "priority": "A｜CeRh₂As₂ 重费米子与多极序研究者",
+        "first": "先读 Fig. 2/3 的单轨道拟合有效范围，再读 Table 1 与 Fig. 4/5 的磁序能量比较。",
+        "focus": "重点核对 Eq. 25 的导带分离近似、Fig. 4 斜线格的 10⁻³t₂ 简并阈值，以及 Fig. 7 的四极是否只在双重态交叉附近增强；附录看从玻色子对称约束。",
+        "next": "下一步将 Oxy–εxy 的超声响应、M 点波矢与 Γ 点费米面逐项和同批实验比较；配对理论可后读，因为本文没有计算超导序。"
       },
-      "institutions": "arXiv 摘要页未逐一列出主要单位；待正文核对",
-      "versionNote": "arXiv:2609.31001v1；首次提交 2026-09-28；截至本次整理未发现正式 DOI；与历史简报按 arXiv ID、题名去重。"
+      "institutions": "Nico A. Hackner、Changhee Lee、P. M. R. Brydon：University of Otago, Department of Physics and MacDiarmid Institute, New Zealand（正文首页）",
+      "versionNote": "arXiv:2609.31001v1；首次提交 2026-09-25 08:45:35 UTC，出现在 2026-09-28 cond-mat/new 公告批次；尚无正式期刊 DOI。此前把公告日期误作提交日期，现已更正。"
     },
     {
       "material": "Ce3+（CeTe 标度）",
