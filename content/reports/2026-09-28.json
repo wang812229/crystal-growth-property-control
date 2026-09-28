@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-28",
+  "issue": "034",
+  "searchWindow": "北京时间2026-09-28当日优先检索；当天未发现高相关新增，随后回溯2026-09-26至2026-09-28三个自然日。窗口内相关条目均已在第032期或第033期按DOI收录，故本期不重复、不以更早论文凑数。",
+  "headline": "近三日未发现尚未收录的高相关新增：今天发布零新增状态页，保留完整检索轨迹，并等待下一批正式期刊Online First与arXiv工作日更新。",
+  "hotspot": "本期“零篇”是去重后的结果，不代表相关领域停滞。9月26日至27日出现的Eu价态工程、GST β弛豫、反铁磁计算、氧化物2DEG与间接激子输运已经分别进入前两期；9月28日上午出版社索引没有新的高相关条目，arXiv也未返回新的cond-mat工作日批次。",
+  "searchTerms": [
+    "APS/Physical Review全系列：PRL、PRB、PR Materials、PR Research、PR Applied均已检查；9月28日Crossref精确期刊匹配零新增，回溯条目无未收录高相关项。",
+    "Nature Portfolio：Nature、Nature Physics、Nature Communications、Nature Materials、npj Quantum Materials已检查；9月26日至27日高相关Nature Communications条目已在第032/033期收录，新增0。",
+    "Science/AAAS：已检查，近三日无未收录高相关新增。",
+    "Wiley：Advanced Materials与Advanced Functional Materials已检查；9月27日3篇Advanced Materials和9月26日1篇Advanced Functional Materials已进入第033期，9月28日新增0。",
+    "ACS：Nano Letters、ACS Nano、JACS、Chemistry of Materials已检查；窗口内检索到的触觉传感、软机器人与催化传感条目与本站核心方向关联不足，新增0。",
+    "Crystal Growth & Design：近三日Crossref精确期刊匹配0。",
+    "Journal of Crystal Growth：近三日Crossref精确期刊匹配0。",
+    "arXiv：查询cond-mat新提交/更新未返回9月28日新批次；不重复9月25日Friday批次。",
+    "访问：本期无入选论文，因此未调用浙江大学VPN、未下载订阅PDF，也没有摘要或全文被误标为精读。",
+    "去重：与截至2026-09-27的311条站内记录按DOI、arXiv ID和规范化题名比对；近三日高相关候选均为已收录项。"
+  ],
+  "papers": []
+}
