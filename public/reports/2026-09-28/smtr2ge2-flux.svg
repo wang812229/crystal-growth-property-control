@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" role="img" aria-labelledby="title desc">
+<title id="title">SmTr2Ge2 助熔剂单晶四种降温窗口</title>
+<desc id="desc">Co、Ni、Cu、Ag 的降温速率分别为每小时 3.3、4.5、2.1、2.1 摄氏度；Co、Ni 在 500 摄氏度倾析，Cu、Ag 在 700 摄氏度倾析。</desc>
+<rect width="880" height="460" rx="22" fill="#f7f9ff"/>
+<text x="54" y="54" fill="#192849" font-family="Arial,sans-serif" font-size="25" font-weight="700">SmTr₂Ge₂｜四种 Flux 生长窗口</text>
+<text x="54" y="82" fill="#4e638e" font-family="Arial,sans-serif" font-size="15">1100 °C 保温 24 h 后冷却 · 来源 arXiv:2609.30871 Table 1</text>
+<line x1="92" y1="350" x2="815" y2="350" stroke="#61769f" stroke-width="2"/>
+<line x1="92" y1="127" x2="92" y2="350" stroke="#61769f" stroke-width="2"/>
+<g fill="#61769f" font-family="Arial,sans-serif" font-size="14">
+<text x="48" y="353">0</text><text x="48" y="262">2</text><text x="48" y="171">4</text><text x="24" y="120">°C/h</text>
+</g>
+<line x1="92" y1="259" x2="815" y2="259" stroke="#d7e1fa"/>
+<line x1="92" y1="168" x2="815" y2="168" stroke="#d7e1fa"/>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<rect x="150" y="200" width="110" height="150" rx="8" fill="#5f86ff"/><text x="205" y="190" fill="#18305e" font-size="18" font-weight="700">3.3</text><text x="205" y="381" fill="#1f3159" font-size="18">Co · Sn</text><text x="205" y="408" fill="#536891" font-size="14">500 °C 倾析</text>
+<rect x="330" y="146" width="110" height="204" rx="8" fill="#4669db"/><text x="385" y="136" fill="#18305e" font-size="18" font-weight="700">4.5</text><text x="385" y="381" fill="#1f3159" font-size="18">Ni · Bi</text><text x="385" y="408" fill="#536891" font-size="14">500 °C 倾析</text>
+<rect x="510" y="255" width="110" height="95" rx="8" fill="#8a80e8"/><text x="565" y="245" fill="#18305e" font-size="18" font-weight="700">2.1</text><text x="565" y="381" fill="#1f3159" font-size="18">Cu · Cu–Ge</text><text x="565" y="408" fill="#536891" font-size="14">700 °C 倾析</text>
+<rect x="690" y="255" width="110" height="95" rx="8" fill="#aa9aef"/><text x="745" y="245" fill="#18305e" font-size="18" font-weight="700">2.1</text><text x="745" y="381" fill="#1f3159" font-size="18">Ag · Ag–Ge</text><text x="745" y="408" fill="#536891" font-size="14">700 °C 倾析</text>
+</g>
+<text x="54" y="446" fill="#536891" font-family="Arial,sans-serif" font-size="12">根据公开正文数值重绘，并非论文原图；各体系助熔剂和倾析温度同时改变，不支持单变量因果归因。</text>
+</svg>
