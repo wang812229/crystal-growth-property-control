@@ -2,6 +2,17 @@
 import type { Metadata } from 'next';
 export const metadata:Metadata={title:'往期归档｜每日文献简报',description:'按日期浏览每日文献简报。'};
 const issues=[
+ ['2026-09-28','2026.09.28','第 034 期 · 21 篇 · 5篇全文精读','更正：当日 arXiv 新稿并非零新增','BKBO · SmTr₂Ge₂ · kagome Sb · 扭转 MoS₂ · 应变石墨烯'],
+ ['2026-09-27','2026.09.27','第 033 期 · 5 篇 · 摘要级','外场重写材料动力学','Eu价态 · GST β弛豫 · 反铁磁计算 · 氧化物2DEG'],
+ ['2026-09-26','2026.09.26','第 032 期 · 2 篇 · 元数据级','不以旧文凑数：两个当天磁性信号','粒子anti-spin ice · 非线性Edelstein–Zeeman场'],
+ ['2026-09-25','2026.09.25','第 031 期 · 19 篇 · 6篇全文精读','结构和时间尺度成为主动旋钮','1T-NbSe₂ · UTe₂ · 二维相刚度 · RAlGe'],
+ ['2026-09-24','2026.09.24','第 030 期 · 21 篇 · 11篇全文精读','结构自由度进入物性判据','双层镍酸盐 · 菱方石墨烯 · FeSeS · 准晶超导'],
+ ['2026-09-23','2026.09.23','第 029 期 · 11 篇 · 8篇全文精读','结构与微结构变量决定低能响应','Au 5DSTEM · HfTe₅ · CeRu₂Ge₂ · TaRhTe₄ · ReO₃'],
+ ['2026-09-22','2026.09.22','第 028 期 · 6 篇 · 5篇全文精读','制备变量决定低能物理能否被看清','TbCuAs₂ · LaN₀.₉₄ · FeSb₂ · UPS'],
+ ['2026-09-21','2026.09.21','第 027 期 · 8 篇 · 2篇全文精读','界面和几何成为功能变量','meron注入 · MoSe₂/Au · 二维MoB · WS₂/Au'],
+ ['2026-09-20','2026.09.20','第 026 期 · 14 篇 · 4篇全文精读','正式期刊延迟索引补录：从两级密度波到原位外延','La₃Ni₂O₇ · LSCO · hBN · GeSe/WSe₂'],
+ ['2026-09-19','2026.09.19','第 025 期 · 12 篇 · 7篇全文精读','周末回溯：结构、缺陷与界面进入物性证据链','LESCO畴壁 · YbRh₂Si₂弹阻 · SrCrO₃应变MIT'],
+ ['2026-09-18','2026.09.18','第 024 期 · 12 篇 · 3篇全文精读','制备历史决定可测物性','NbSe₂封装外延 · 镍酸盐常压超导 · UBe₁₃微量缺陷'],
  ['2026-09-17','2026.09.17','第 023 期 · 13 篇 · 4篇全文精读','生长历史与界面缺陷变成可读物性','UTe₂超导记忆 · EuAgAs Bi Flux · Cr₂Se₃ I-CVT · 铁电畴壁'],
  ['2026-09-16','2026.09.16','第 022 期 · 13 篇 · 10篇全文精读','隐藏变量成为可测、可算的主角','Bi₂Se₃ Floquet · CeRh₂As₂ · FePS₃/graphene · WAlB'],
  ['2026-09-15','2026.09.15','第 021 期 · 1 篇 · 仅元数据','当天唯一高相关正式新增：不为凑数回填旧文','混合阳离子钙钛矿单晶异质结 · X射线探测'],
@@ -23,7 +34,12 @@ const issues=[
  ['2026-08-30','2026.08.30','第 005 期 · 3 篇 · 全部全文','测量条件与材料推断都要校准','RuO₂ · CeNiC₂ · YbMnBi₂'],
  ['2026-08-29','2026.08.29','第 004 期 · 3 篇 · 全部全文','缺陷、光生相变与器件可靠性','KTN 晶体 · NiPS₃ · Si/SiGe'],
  ['2026-08-28','2026.08.28','第 003 期 · 4 篇','以 CrSb 和 g 因子为线索','CVT · Flux · 反铁磁 · 超导 · 半导体']];
-export default function Archive(){return <main className="archive-page"><header className="site-header"><a className="brand" href="/"><span className="brand-mark">文</span><span>每日文献简报</span></a><nav aria-label="主导航"><a href="/reports/2026-09-17">今日简报</a><a href="/materials">材料时间线</a><a href="/search">智能检索</a><a href="/weekly">本周趋势</a><a href="/workspace">我的研究</a><a className="active" href="/archive">归档</a></nav><div className="live-chip"><span/> 每日 10:00 更新</div></header><section className="archive-hero"><p className="eyebrow">DAILY ARCHIVE</p><h1>每日简报归档</h1><p>按日期回看研究判断、全文访问状态、原创图解和实验建议。</p></section><section className="archive-list">{issues.map(i=><a href={`/reports/${i[0]}`} key={i[0]}><time>{i[1]}</time><div><span>{i[2]}</span><h2>{i[3]}</h2><p>{i[4]}</p></div><b>阅读 →</b></a>)}<div className="archive-placeholder"><time>每日更新</time><div><h2>下一期将在北京时间 10:00 自动归档</h2><p>当天无相关新增时，回溯最近三个自然日并明确说明。</p></div></div></section></main>}
+export default function Archive(){return <main className="archive-page"><header className="site-header"><a className="brand" href="/"><span className="brand-mark">文</span><span>每日文献简报</span></a><nav aria-label="主导航"><a href="/reports/2026-09-28">今日简报</a><a href="/materials">材料时间线</a><a href="/search">智能检索</a><a href="/weekly">本周趋势</a><a href="/workspace">我的研究</a><a className="active" href="/archive">归档</a></nav><div className="live-chip"><span/> 每日 10:00 更新</div></header><section className="archive-hero"><p className="eyebrow">DAILY ARCHIVE</p><h1>每日简报归档</h1><p>按日期回看研究判断、全文访问状态、原创图解和实验建议。</p></section><section className="archive-list">{issues.map(i=><a href={`/reports/${i[0]}`} key={i[0]}><time>{i[1]}</time><div><span>{i[2]}</span><h2>{i[3]}</h2><p>{i[4]}</p></div><b>阅读 →</b></a>)}<div className="archive-placeholder"><time>每日更新</time><div><h2>下一期将在北京时间 10:00 自动归档</h2><p>当天无相关新增时，回溯最近三个自然日并明确说明。</p></div></div></section></main>}
+
+
+
+
+
 
 
 

@@ -1,0 +1,6 @@
+import { readFile, writeFile } from 'node:fs/promises';
+import path from 'node:path';
+const outputPath=path.join(process.cwd(),'github-dist','reports','2026-09-25','index.html');
+const signature='data-report-figures="2026-09-25"'; let html=await readFile(outputPath,'utf8');
+if(!html.includes(signature)){const pos=html.indexOf('<section class="paper"');if(pos<0)throw new Error('paper marker missing');const block=`<section class="figures" id="figures" ${signature}><p class="eyebrow">ORIGINAL EVIDENCE REDRAW</p><h2>本期原创图解</h2><figure><figcaption><b>图1｜Ti稳定1T-NbSe₂</b><small>根据JACS摘要重绘，并非论文原图</small></figcaption><img class="figure-img" src="./nbse2-cvt.svg" alt="Ti稳定1T-NbSe2证据链"><p>CVT、电子结构和超导数据被放在同一条链中；输运剂与温区仍待Methods，图中没有补写。</p></figure><figure class="dark-figure"><figcaption><b>图2｜UTe₂压力穹顶中的隐藏磁序</b><small>根据arXiv:2609.29168正文数值重绘，并非论文原图</small></figcaption><img class="figure-img" src="./ute2-phase.svg" alt="UTe2压力相图"><p>双探针支持HMO存在；外推QCP仍不是直接磁结构证据。</p></figure><figure><figcaption><b>图3｜二维相刚度与异常金属</b><small>根据arXiv:2609.28837正文重绘，并非论文原图</small></figcaption><img class="figure-img" src="./stiffness-map.svg" alt="二维超导相刚度图解"><p>局域刚度成像让空间不均匀进入证据链；共现仍不能单独确立因果。</p></figure></section>`;html=html.slice(0,pos)+block+html.slice(pos);await writeFile(outputPath,html,'utf8');}
+console.log('Injected 2026-09-25 figures.');

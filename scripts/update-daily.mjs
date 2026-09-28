@@ -1,6 +1,7 @@
 import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import {assertNoFalseZero, parseArxivNewListing} from '../lib/arxiv-new-audit.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const reportsDir = join(root, 'content', 'reports');
@@ -30,7 +31,7 @@ const schema = {
 
 const prompt = `你是“晶体生长和物性调控”每日文献简报的科研编辑。今天是北京时间 ${date}，期号 ${nextIssue}。
 
-请使用网页搜索，优先检索今天上线或发表的论文；如果今天没有高度相关结果，再回溯最近三个自然日。必须把 arXiv 作为独立轨道，并逐项检索 APS/Physical Review 全系列、Nature 系列、Science、Advanced Materials、Advanced Functional Materials、Nano Letters、ACS Nano、JACS、Chemistry of Materials、npj Quantum Materials、Crystal Growth & Design、Journal of Crystal Growth 及同等级相关期刊。主题覆盖单晶生长（尤其 Flux 与 CVT）、结构/缺陷/物性调控，同时纳入高温或非常规超导、重费米子/量子临界、磁性拓扑、自旋与二维器件。凡与这些主题有明确证据关联的论文均可收录，不限制篇数；不得用过旧或低相关论文填数。记录每条期刊轨道的命中、入选和排除原因。
+请使用网页搜索，优先检索今天上线或发表的论文；如果今天没有高度相关结果，再回溯最近三个自然日。必须直接打开 https://arxiv.org/list/cond-mat/new 并记录页面显示日期和 new submissions 数量；不能把 arXiv API 空响应当作官网零新增。必须把 arXiv 作为独立轨道，并逐项检索 APS/Physical Review 全系列、Nature 系列、Science、Advanced Materials、Advanced Functional Materials、Nano Letters、ACS Nano、JACS、Chemistry of Materials、npj Quantum Materials、Crystal Growth & Design、Journal of Crystal Growth 及同等级相关期刊。主题覆盖单晶生长（尤其 Flux 与 CVT）、结构/缺陷/物性调控，同时纳入高温或非常规超导、重费米子/量子临界、磁性拓扑、自旋与二维器件。凡与这些主题有明确证据关联的论文均可收录，不限制篇数；不得用过旧或低相关论文填数。记录每条期刊轨道的命中、入选和排除原因。
 
 已经收录的 DOI：${seenDois.length ? seenDois.join(', ') : '无'}。按 DOI 去重，除非存在重要修订或新的后续物性结果，并在对应段落解释重复原因。
 
@@ -66,6 +67,13 @@ if (!outputText) throw new Error('API 没有返回结构化报告。');
 const report = JSON.parse(outputText);
 report.date = date;
 report.issue = nextIssue;
+if (report.papers.length === 0) {
+  const listingResponse = await fetch('https://arxiv.org/list/cond-mat/new', {signal:AbortSignal.timeout(20000)});
+  if (!listingResponse.ok) throw new Error(`无法核验 arXiv 官网列表：HTTP ${listingResponse.status}；不发布零新增报告。`);
+  const listing = parseArxivNewListing(await listingResponse.text());
+  assertNoFalseZero(report, listing);
+  report.searchTerms.push(`独立 arXiv 官网校验：列表日期 ${listing.date}，new submissions ${listing.count}；自动空结果未作为唯一证据。`);
+}
 await mkdir(reportsDir, {recursive:true});
 await writeFile(join(reportsDir, `${date}.json`), `${JSON.stringify(report, null, 2)}\n`, 'utf8');
 console.log(`已写入 ${date}：${report.papers.length} 篇论文。`);

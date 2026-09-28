@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="t d">
+<title id="t">Eu价态工程的两条功能路径</title><desc id="d">根据论文摘要公开数值重绘</desc>
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#5F86FF"/><stop offset="1" stop-color="#916fff"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity=".1"/></filter></defs>
+<rect width="1200" height="620" rx="32" fill="#f5f7ff"/><text x="72" y="72" font-family="Arial,'Microsoft YaHei'" font-size="26" fill="#17223b" font-weight="700">SrMgAl₁₀O₁₇:Eu｜埋碳深度调控价态</text><text x="72" y="108" font-family="Arial,'Microsoft YaHei'" font-size="16" fill="#65708a">摘要级定量图解 · 不是论文原图</text>
+<rect x="72" y="150" width="1056" height="74" rx="20" fill="url(#g)"/><text x="600" y="197" text-anchor="middle" font-family="Arial,'Microsoft YaHei'" font-size="24" fill="white" font-weight="700">同一前驱体 → 控制碳埋藏深度 → Eu价态分流</text>
+<path d="M600 224V270M600 270H310M600 270H890M310 270V305M890 270V305" stroke="#7889ba" stroke-width="4" fill="none"/>
+<g filter="url(#s)"><rect x="72" y="305" width="476" height="242" rx="24" fill="white"/><rect x="652" y="305" width="476" height="242" rx="24" fill="white"/></g>
+<text x="110" y="350" font-family="Arial,'Microsoft YaHei'" font-size="22" fill="#315ed8" font-weight="700">完全还原 · Eu²⁺</text><text x="110" y="385" font-family="Arial,'Microsoft YaHei'" font-size="17" fill="#56617a">X射线闪烁 / 柔性成像</text>
+<text x="110" y="430" font-family="Arial,'Microsoft YaHei'" font-size="30" fill="#17223b" font-weight="700">55,917 ± 573</text><text x="360" y="430" font-family="Arial,'Microsoft YaHei'" font-size="15" fill="#65708a">photons MeV⁻¹</text><text x="110" y="472" font-family="Arial,'Microsoft YaHei'" font-size="18" fill="#17223b">150+循环后发光强度：117.5%</text><text x="110" y="510" font-family="Arial,'Microsoft YaHei'" font-size="18" fill="#17223b">20% MTF分辨率：11.7 lp mm⁻¹</text>
+<text x="690" y="350" font-family="Arial,'Microsoft YaHei'" font-size="22" fill="#7455d8" font-weight="700">部分还原 · Eu²⁺/Eu³⁺</text><text x="690" y="385" font-family="Arial,'Microsoft YaHei'" font-size="17" fill="#56617a">550–625 K多模态光学测温</text>
+<text x="690" y="430" font-family="Arial,'Microsoft YaHei'" font-size="21" fill="#17223b" font-weight="700">FIR：Sₐ 0.226 K⁻¹</text><text x="690" y="470" font-family="Arial,'Microsoft YaHei'" font-size="21" fill="#17223b" font-weight="700">FIR：Sᵣ 0.97 % K⁻¹</text><text x="690" y="510" font-family="Arial,'Microsoft YaHei'" font-size="21" fill="#17223b" font-weight="700">FWHM：0.238 nm K⁻¹</text>
+<text x="72" y="588" font-family="Arial,'Microsoft YaHei'" font-size="15" fill="#65708a">证据边界：摘要未公开Eu价态定量、完整循环曲线与测温标定误差。</text>
+</svg>
