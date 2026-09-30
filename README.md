@@ -1,13 +1,13 @@
-# 晶体生长和物性调控
+# 每日文献简报
 
-一个面向晶体生长、物性测量与物性调控研究的中文开源文献网站。网站每天优先检索当天论文；若没有高相关结果，则回溯最近三个自然日。检索范围包含 arXiv，并优先关注 PRL、PRB、Nature Communications、Nature Physics、Nature、Science 及同等级期刊。
+一个面向量子材料研究的中文开源文献网站，以“晶体生长和物性调控”为重点板块。每日简报由 Codex 任务检索、核读后写入仓库；GitHub Actions 只构建并发布已提交内容。
 
 ## 网站如何工作
 
 - `content/reports/`：每期简报的结构化 JSON，是网站唯一内容源。
-- `scripts/update-daily.mjs`：调用 OpenAI Responses API 的网页搜索，生成当天报告并按 DOI 去重。
+- `scripts/update-daily.mjs`：保留的 API 生成脚本；当前 GitHub Pages 工作流不会调用它。
 - `scripts/build-github-pages.mjs`：把所有 JSON 报告编译成无需服务器的静态网页。
-- `.github/workflows/pages.yml`：北京时间每天 08:00 自动更新并发布到 GitHub Pages；每次推送到 `main` 也会重新发布。
+- `.github/workflows/pages.yml`：推送到 `main` 或手动运行时，测试并发布仓库中已有的简报；不调用 OpenAI API，也不定时生成文章。
 - `app/`：当前 ChatGPT Sites 版本的页面源码；GitHub Pages 发布使用 `github-dist/` 中生成的静态文件。
 
 自动更新严格区分“全文精读”和“仅摘要/元数据”。未在正文中出现的配比、温区、时间、晶体尺寸或测量参数必须写“正文未报告”，不能根据常见做法补写。
@@ -37,22 +37,13 @@ GitHub 网页有时不能可靠上传隐藏目录 `.github`。如果拖放后看
 
 `https://你的GitHub用户名.github.io/仓库名/`
 
-### 4. 开启每天自动检索
+### 4. 每天更新简报（无需 API 额度）
 
-自动检索需要你自己的 OpenAI API 密钥：
+1. Codex 每日任务检索、阅读并核对来源，将新一期内容写入 `content/reports/YYYY-MM-DD.json`。它使用 Codex/ChatGPT 的任务额度，不读取本仓库的 `OPENAI_API_KEY`。
+2. 核对全文状态、图解授权和去重结果后，把内容提交并推送到 GitHub `main`；推送成功才会触发 Pages 发布。没有新报告时，网站保留上一期，不伪称已更新。
+3. 如需重建已在 GitHub 的内容，打开 **Actions → 发布每日文献简报 → Run workflow**，选择 `main` 并运行；这一步不会检索新论文，也不会消耗 OpenAI API 额度。
 
-1. 在 OpenAI API 控制台创建密钥。
-2. 进入 GitHub 仓库 **Settings → Secrets and variables → Actions**。
-3. 在 **Secrets** 中新建名为 `OPENAI_API_KEY` 的 Repository secret，并粘贴密钥。
-4. 可选：在 **Variables** 中新建 `OPENAI_MODEL`，默认不设置时使用 `gpt-5`。
-5. 打开仓库 **Actions → 每日检索并发布网站 → Run workflow**。
-6. 第一次测试时勾选“发布前先生成今天的简报”，然后运行。
-
-工作流计划为 UTC 00:00，即北京时间每天 08:00。GitHub 的定时任务在繁忙时可能延迟数分钟。公开仓库长期无活动时，GitHub 可能暂停计划任务，重新启用 Actions 或进行一次提交即可恢复。
-
-## 不使用 API 时的手动更新
-
-复制 `content/reports/2026-08-28.json`，改名为当天日期并替换内容，然后提交到 `main`。GitHub Pages 会自动重新构建，无需修改 HTML。
+不使用 Codex 时，也可参照已有 JSON 的结构手工编写新一期并提交。仓库若仍保存旧的 `OPENAI_API_KEY` Secret，当前工作流不会使用；不要把密钥提交到源码。
 
 ## 本地预览
 
@@ -86,14 +77,14 @@ pnpm dev
 
 ## 安全、费用与版权
 
-- 不要把 API 密钥写入 `.env` 后提交；只保存到 GitHub Actions Secrets。
-- GitHub Pages 对公开仓库通常免费；OpenAI API 调用会按你的 API 账户计费。
+- 不要把 API 密钥写入源码或提交到仓库；当前发布流程无需 API 密钥。
+- GitHub Pages 对公开仓库通常免费；只有主动运行保留的 API 生成脚本时，才可能产生 OpenAI API 费用。
 - 自动检索无法绕过出版社付费墙，因此“全文精读”只覆盖可合法访问的正文、arXiv 或作者公开稿。
 - 本仓库代码使用 MIT License；论文正文、图表和出版社页面仍归原作者与权利人所有。
 
 ## 常见问题
 
-**Actions 报错 `缺少 OPENAI_API_KEY`**：检查 Secret 名称必须完全等于 `OPENAI_API_KEY`。
+**Actions 仍报 `OPENAI_API_KEY` 或额度不足**：先确认新版 `.github/workflows/pages.yml` 已提交到 GitHub `main`；旧版工作流仍会调用 API。当前发布流程不会读取密钥。
 
 **网站显示 404**：确认 Pages 的 Source 已设为 GitHub Actions，并等待 Actions 运行完成。
 

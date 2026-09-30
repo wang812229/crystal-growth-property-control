@@ -1,20 +1,12 @@
-name: 每日检索并发布网站
+name: 发布每日文献简报
 
 on:
   push:
     branches: [main]
-  schedule:
-    - cron: '0 2 * * *' # 北京时间每天 10:00
   workflow_dispatch:
-    inputs:
-      run_update:
-        description: '发布前先生成今天的简报'
-        required: false
-        default: false
-        type: boolean
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -45,32 +37,6 @@ jobs:
 
       - name: 检索功能测试
         run: pnpm test
-
-      - name: 生成当天简报
-        id: daily_report
-        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.run_update)
-        continue-on-error: true
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5' }}
-        run: node scripts/update-daily.mjs
-
-      - name: 刷新公开摘要与被引量
-        if: (github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.run_update)) && steps.daily_report.outcome == 'success'
-        run: node scripts/refresh-metadata.mjs
-
-      - name: 保存当天简报到仓库
-        if: (github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.run_update)) && steps.daily_report.outcome == 'success'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content/reports content/bibliography.json
-          git diff --cached --quiet || git commit -m "content: add daily crystal report"
-          git push
-
-      - name: 提示简报生成失败但继续发布
-        if: steps.daily_report.outcome == 'failure'
-        run: echo "::warning::当天简报生成失败；将保留并发布仓库中最近一次可用内容。请检查 OPENAI_API_KEY 额度和生成日志。"
 
       - name: 生成静态网页
         run: pnpm build:pages
