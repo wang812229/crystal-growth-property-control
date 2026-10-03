@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-03",
+  "issue": "039",
+  "searchWindow": "北京时间 2026-10-03 约 14:20 截止。周六 arXiv 官方 cond-mat/new 仍显示 Friday, 2 October 2026：207 总条目、其中 91 条 new submissions；本轮没有 10 月 3 日的新批次，故不把旧批次改标今天。正式期刊官网和 Crossref online 日期核出今天相关的 2 篇；各出版社可能继续滚动，不能断言全天总量。",
+  "headline": "10 月 3 日两篇正式新稿：MBE 稳定 1H-NbTe₂ 的 4×4 CDW；4D-STEM 让低剂量晶体取向图更可核查。",
+  "hotspot": "今天的主线是“辨清结构身份再解释物性”：NbTe₂ 的多型和孪晶决定 4×4 周期该如何归属；4D-STEM 则提醒我们，即便去噪指标很好，弱分量和晶界仍要由原始帧与独立衍射验证。两篇分别为摘要级和实际阅读公开作者稿全文，不能用同一证据等级。",
+  "searchTerms": [
+    "APS 官网逐一检查 PRL、PRB、PR Materials、PR Research、PR Applied 的 Recent 列表（5 轨均可读）；截至本轮可见最新在线日期为 10 月 2 日，各轨 10 月 3 日已确认相关命中 0、纳入 0。部分 10 月 2 日相关正式论文需要另行补录至上一期；不把它们伪装为 10 月 3 日新稿。",
+    "Nature、Nature Physics、Nature Communications、npj Quantum Materials 官网目录本轮触发 Client Challenge，不能宣称全库零新增。以出版社 DOI 元数据/可检索单篇页交叉核查 10 月 3 日 Nature Portfolio 记录：npj Computational Materials 取向映射 1 篇纳入；Nature Communications 的三维忆阻器—晶体管神经形态器件与聚合物自组装 2 篇因非量子材料生长/物性问题排除；npj Quantum Information 编码理论 1 篇因主题不符排除。",
+    "Science/AAAS 目录 403，10 月 3 日可核相关命中数未知、纳入 0；Wiley Advanced Materials、Advanced Functional Materials 官网各 403，相关命中数未知、纳入 0。公开 Crossref 10 月 3 日 online-date 返回的目标刊记录没有额外可确认本主题条目；这不是出版社逐稿零新增证明。",
+    "ACS 官网分别检查 Nano Letters、ACS Nano、JACS、Chemistry of Materials、Crystal Growth & Design，目录或 DOI 页均返回 403。通过 ACS 向 Crossref 提交的正式元数据确认 ACS Nano 1H-NbTe₂ 10 月 3 日 Online First 1 篇命中且纳入；其余四刊在本轮元数据交叉核查未确认相关命中，官网受限故计数未知。NbTe₂ 正文/SI 未读，不能列为全文精读。",
+    "Journal of Crystal Growth（Elsevier）Articles in Press 页面 403，命中数未知、纳入 0。其他同级期刊以 Crossref online-date 10 月 3 日全量 1349 条元数据补查，确认 npj Computational Materials 1 篇纳入；非本主题器件、聚合物形貌和信息论条目排除。",
+    "最后核 arXiv 官方 cond-mat/new：页面仍是 Friday 2 October 2026，总 207 条，其中 New submissions 91。10 月 3 日尚无独立 new 批次；已核上一批并与 10 月 1–2 日 31 篇历史报告按 DOI/arXiv ID/题名去重，今日独立 arXiv 纳入 0，绝非把接口空结果推断为全天没有论文。",
+    "访问状态：可合法获得正文候选 1 篇，实际全文精读 1 篇（正式 DOI 的公开作者预印本正文、Methods、Fig.1–9、Table 1）；摘要级 1 篇（ACS DOI 页 403，Crossref 出版社摘要）。当前没有已登录的浙江大学 aTrust/RVPN、WebVPN 或 CARSI 会话，未尝试冒用机构认证；受限全文未下载或公开。"
+  ],
+  "papers": [
+    {
+      "material": "单层 1H-NbTe₂",
+      "title": "Unexpected 4 × 4 Charge Density Wave in 1H-NbTe2 Monolayer",
+      "authors": "Noor ul Ain, Alireza Amiri, Fabian Calleja, Beatriz Muñiz Cano, Archit Dhingra, Riccardo Rurali, Amadeo L. Vázquez de Parga, Rodolfo Miranda, Miguel A. Valbuena, Enric Canadell, Jose Angel Silva-Guillén, Manuela Garnica",
+      "institutions": "西班牙 IMDEA Nanociencia、ICMAB-CSIC 与马德里自治大学等；按 Crossref 作者单位元数据核对",
+      "journal": "ACS Nano（正式期刊；Online First）",
+      "date": "3 Oct 2026",
+      "doi": "https://doi.org/10.1021/acsnano.6c07014",
+      "fullText": "",
+      "access": "摘要级：ACS 论文页本轮返回 403；实际核对 Crossref 的出版社提交摘要、作者及 2026-10-03 online 日期，未读取 ACS 正文、Methods 或 SI，也未取得合法公开作者稿。",
+      "rating": "A+",
+      "method": "Ir(111) 上外延石墨烯衬底的 MBE；STM/STS；ARPES；DFT",
+      "category": "二维材料与量子器件",
+      "tags": [
+        "正式期刊",
+        "摘要级",
+        "MBE",
+        "电荷密度波",
+        "STM/ARPES"
+      ],
+      "abstract": "出版社提交的摘要称：在 Ir(111) 支撑的外延石墨烯上，以 MBE 制得亚稳 1H-NbTe₂ 二维岛；六方晶格、特征谱及镜像孪晶边界共同用于辨相。STS、ARPES 与 DFT 支持金属性和结构稳定性，低温 STS 观察 4×4 调制，作者以声子不稳定性解释 CDW。摘要没有给定生长与测量的具体数字。",
+      "conclusion": "块体 NbTe₂ 常以 1T 多型讨论，这篇工作却在石墨烯/Ir(111) 上做出亚稳的单层 1H 岛。其低温 STM/STS 看到 4×4 周期电荷调制，再用 ARPES 与 DFT 连起金属性和声子失稳；关键故事是“先控制多型，才能判对 CDW”，但声子驱动机制仍需正文与独立振动谱核实。",
+      "sections": [
+        {
+          "title": "科学问题与既有工作差异",
+          "text": "NbTe₂ 的体相常为 1T，而 NbSe₂/NbS₂ 更常见 2H/1H 配位。先前 2024 年 Nano Letters 理论已提出某些实验 4×4 周期可能归 1H 堆垛；这次 ACS Nano 摘要声称在 MBE 制得的单层岛上给出结构与谱学联动的实验确认。因此创新点不是首次想象 4×4，而是把难稳定的 1H 多型、镜像孪晶、低温 STS 周期及 ARPES 金属性放在同一个样品平台上。"
+        },
+        {
+          "title": "样品、生长与质量：已知和未知",
+          "text": "摘要直接确认样品为 Ir(111) 上的外延石墨烯支撑单层 1H-NbTe₂ 岛，以 MBE 合成；六方晶格、特征能谱和镜像孪晶边界是相身份线索。原料 Nb/Te 纯度与通量比、基底清洗、MBE 基压、生长温度/时长、退火、覆盖率、岛尺寸、厚度统计与批次成品率：摘要未报告，正文未读取，不作经验补写。镜像边界本身还可能改变局域态，分析 4×4 图时需要明确远离边界的区域。"
+        },
+        {
+          "title": "测量、直接观察与模型界线",
+          "text": "摘要给出 STM/STS、ARPES 和 DFT 的互证路径，但没有报告 STM 温度/偏压/电流、ARPES 光子能量和能量分辨率、CDW 开隙大小或转变温度。直接观察应限于低温 STS 的 4×4 调制与各方法实际谱图；金属性来自 ARPES/STS 相互比较；“声子不稳定性解释 4×4”属计算模型和作者推断，不等于已由非弹性谱直接测出软模。需要检查 4×4 峰在不同偏压、不同岛、不同孪晶方向是否一致，并排除石墨烯/Ir 莫尔周期、尖端伪影及杂相。"
+        },
+        {
+          "title": "复现风险与下一炉建议",
+          "text": "复现时先以可测的基底/薄膜轴记录外延关系，按 Te/Nb 通量比、基底温度和后退火作最小矩阵；每个岛保存高度、原子分辨晶格、边界位置、STS 傅里叶峰和 ARPES 测点对应关系。若要检验声子驱动，可在温度扫描中追 4×4 峰强和能隙，并联测 Raman/电子能量损失或可用的声子谱，再与 DFT 的波矢相比较。没有读到 Methods 前，这只是实验设计建议，绝不是作者已报告的配方。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A+｜二维生长、STM 与 CDW 方向",
+        "first": "取得授权正文后先读 MBE 在 graphene/Ir(111) 上稳定 1H 岛的 Methods 与相鉴定图，再核 STM/STS 的 4×4 傅里叶峰和 ARPES 费米面；不要只看示意结构图。",
+        "focus": "核查 1H/1T 判据是否同时有原子结构与谱学，4×4 是否在多岛和远离镜像孪晶边界复现；摘要未给温度、通量或能隙，不能自行补数。可略读与 1H/1T 判别无关的常规背景。",
+        "next": "做 Te/Nb 通量—温度二维矩阵，并在同岛远离/靠近孪晶边界做变温 STS 与独立结构测量。"
+      },
+      "versionNote": "2026-10-03 ACS Nano Online First，DOI 10.1021/acsnano.6c07014。尚未确认对应 arXiv 或合法公开作者稿；不与 2024 年 10.1021/acs.nanolett.4c02621 的理论文章混为同一论文。"
+    },
+    {
+      "material": "iPS 球晶／4D-STEM",
+      "title": "Unsupervised machine learning for automated crystal orientation mapping on noisy 4D-STEM data",
+      "authors": "Kai Kamijo, Motoki Shiga, Shusuke Kanomi, Tomohiro Miyata, Hiroshi Jinnai",
+      "institutions": "日本东北大学信息科学研究科、多元物质科学研究所；日本物质·材料研究机构；理化学研究所；三菱化学",
+      "journal": "npj Computational Materials（正式期刊；开放获取）",
+      "date": "3 Oct 2026",
+      "doi": "https://doi.org/10.1038/s41524-026-02337-x",
+      "fullText": "https://www.researchsquare.com/article/rs-9374144/v1",
+      "access": "全文精读：实际读取作者公开预印本正文的 Results、Methods、Fig.1–9 与 Table 1；正式期刊官网可核摘要和 DOI，但本轮页面触发 Client Challenge；未读取正式版 SI，未逐页校对正式版与预印本差异。",
+      "rating": "A",
+      "method": "低剂量 4D-STEM；4D-SSD 自监督去噪；旋转等变 NMF",
+      "category": "晶体生长和物性调控",
+      "tags": [
+        "正式期刊",
+        "全文精读",
+        "晶体质量表征",
+        "4D-STEM",
+        "方法论文"
+      ],
+      "abstract": "正式版摘要：作者提出从严重噪声的 4D-STEM 衍射数据自动提取晶体取向和微结构分量的两级流程，并在合成数据与等规聚苯乙烯球晶的实测数据上验证。这里的实际样品是束流敏感聚合物，并非新的量子材料单晶；本站纳入是因为方法可迁移到晶体缺陷、取向及畴结构质控。",
+      "conclusion": "论文讲的是如何把原本必须由专家逐张判读的低剂量 4D-STEM 衍射图，变成可复核的取向图：先利用相邻扫描位置做自监督去噪，再把旋转后的衍射图视作同一晶体分量做无监督分解。实验球晶中，主层片的方向与人工判读相符，还显出此前未标注的弱分量；这些弱分量尚不能自动给出可靠晶向。",
+      "sections": [
+        {
+          "title": "问题、样品与可迁移边界",
+          "text": "4D-STEM 在每个实空间探针位置保存一张倒空间衍射图，提供晶体取向和局部层片分布，但对束流敏感样品必须降低电子剂量，衍射斑点会被 Poisson 计数噪声掩盖。作者以等规聚苯乙烯（iPS）球晶为实测对象，把平放（flat-on）与侧立（edge-on）层片作为区分目标；这不是新材料生长论文，也没有报告单晶 Flux/CVT 温程。对量子材料实验室的意义是：如果移用于 α-RuCl₃ 堆垛、Fe₃GeTe₂ 层错或外延镍酸盐畴图，必须先做材料专属的衍射索引与剂量验证，不能直接沿用 iPS 的模型权重。"
+        },
+        {
+          "title": "原始数据与处理链：作者真正做了什么",
+          "text": "公开预印本 Fig.1 和 Methods 先以 blind-spot 网络预测目标像素，避免把同一噪声像素直接当训练标签。2D-SSD 只用一张衍射图的邻域；4D-SSD 额外使用实空间 3×3 探针邻域的九张图，从相邻测点共享的晶体信息恢复弱斑点。作者用 Anscombe 变换处理 Poisson 噪声，再做高通增强、极坐标与角向 Fourier 变换，最后以非负矩阵分解（NMF）提取与面内旋转等变的结构分量。这个顺序很关键：如果先任意增强高频，噪声也会被当作弱衍射斑；如果不处理旋转，同一晶粒方向的变化可能被误拆成多个物相。"
+        },
+        {
+          "title": "模拟对照与可核数值",
+          "text": "Methods 的合成例在 200 kV 下计算四类晶体取向的衍射图，以 100×100 探针位置构成 10,000 个训练样本，并注入 Poisson 噪声。Fig.2–5 比较原始图、高斯平滑、2D-SSD 和 4D-SSD，同时追踪分量强度及角度与真值的 Pearson 相关。公开预印本 Table 1 在模拟噪声参数 ws=0.2 时，原始 PSNR 为 −1.06±0.24 dB，高斯滤波 11.27±0.20 dB、2D-SSD 13.47±0.28 dB、4D-SSD 13.56±0.22 dB。4D 与 2D 在像素级 PSNR 只差 0.09 dB，不能据此声称显著超越；Fig.5 更有判别力，因为 4D 利用邻点信息提高了分量及角度重建的稳健性。"
+        },
+        {
+          "title": "实测球晶：最强证据在哪里",
+          "text": "Fig.6–9 的实测数据是既有研究的 iPS 球晶 500×500 个扫描位置（共 250,000 张衍射图）；模型随机选 10,000 目标位置训练，训练／验证按 8:2 划分。ADF-STEM 图通过衍射图中心 1.27–4.43 nm⁻¹ 环带积分产生；该环带是成像处理范围，不是晶格常数。Table 1 实测 uPSNR：高斯 37.49±0.52 dB，2D-SSD 50.56±3.45 dB，4D-SSD 50.74±3.56 dB。两种自监督法都较高斯滤波改善超过 10 dB，但 2D/4D 的平均差 0.18 dB 小于各自散布。作者进一步以七个 NMF 分量分离主层片：I/II 对应 flat-on，III/IV 对应 edge-on，VII 是背景，V/VI 是此前人工分析未强调的弱分量。主区取向与旧的专家图相符；V/VI 尚混有多种微弱组分，不能把它们直接命名为新晶相。"
+        },
+        {
+          "title": "证据层级、误差与替代解释",
+          "text": "直接观察是低剂量衍射原始像、去噪后的斑点及其空间分布；PSNR/uPSNR、NMF 分量强度和面内角度是处理与模型产物；“自动发现遗漏晶体组分”是作者解释；本站判断是弱分量更需要独立索引与原始帧复核。实测无干净真值，uPSNR 依赖对邻域噪声和强度尺度的统计假设，不能充当衍射索引正确率。邻点共享信息可能在晶界两侧造成过度平滑：若 3×3 邻域跨晶界，网络可能把真实窄畴边混合。作者也承认复杂微结构的 Miller 指数自动赋值仍困难。最强证据是合成真值、实测同区域专家解释与结构分量图三方比较；最弱环节是新弱分量的独立物相/取向验证。"
+        },
+        {
+          "title": "制备、测量和缺失项逐项说明",
+          "text": "公开稿以先前论文获取的 iPS 数据作方法验证，本次没有报告新的聚合物制备或晶体生长炉次；原料纯度、名义/实测成分、助熔剂或输运剂、坩埚/安瓿、气氛/真空、升降温程序、退火、产率：正文未报告，且这些不是本算法论文的控制变量。样品厚度、电子剂量、束流电流、探针步长、晶体尺寸及批次离散：本轮已读正文未给出足以统一填表的完整数值，需要回溯原始 iPS 数据论文及正式 SI。预印本 Methods 给出 200 kV 是合成衍射计算参数，不可误写成所有实测扫描的显微镜加速电压。没有 RRR、磁化、比热或输运性质测量，本篇所谓“质量”是取向与微结构判读质量，而非物性性能。"
+        },
+        {
+          "title": "下一次实验与复现检查单",
+          "text": "建议选一块已有 Laue/XRD 或高分辨 TEM 基准的真实量子晶体，先固定剂量、探针步长与相机长度采 4D-STEM 原始帧；保存四级产物：原始计数、Anscombe/4D-SSD 去噪、NMF 分量、独立晶体学索引。留出跨晶界区域及低强度斑点作盲验证，逐区域核人工索引与自动角度差，而不仅比较 uPSNR；在 3×3 邻域与 1×1、5×5 对照中检验窄畴是否被涂抹。对 V/VI 类弱分量先做独立区域的原始帧叠加、选区衍射和样品倾转，确认它们不是束挡边缘、厚度变化或高通滤波伪影。若结果进入生长数据库，应把模型版本、训练/验证分割、排除像素、剂量和人工复核结果与样品炉次绑定。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜做结构质量、畴/层错表征的实验人员",
+        "first": "先看公开稿 Fig.1 的处理顺序，再读 Methods 的 3×3 邻域、10,000 样本和 8:2 分割；随后对照 Table 1 与 Fig.5、Fig.6–9。",
+        "focus": "重点核 Table 1 的真实 uPSNR 37.49/50.56/50.74 dB，切勿把 4D 相对 2D 的 0.18 dB 说成显著提升；Fig.8 的 V/VI 弱分量尚未可靠索引。可略读网络编码器的逐层实现，但不要跳过邻域泄漏和晶界对照。",
+        "next": "用一块有独立衍射基准的晶体做剂量—步长—3×3 邻域矩阵，报告角度误差及晶界宽度，再决定是否入库为自动样品质检。"
+      },
+      "versionNote": "正式 DOI 为主条目，2026-10-03 上线；全文阅读来源是作者 2026-04-22 公开 Research Square 预印本 rs-9374144/v1，题名相同。正式版摘要已核，尚未逐页验证正式版与预印本的图表或参数是否变化；预印本方法参数须待正式版/SI 复核。"
+    }
+  ]
+}
