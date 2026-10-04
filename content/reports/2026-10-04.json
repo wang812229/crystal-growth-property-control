@@ -1,0 +1,181 @@
+{
+  "date": "2026-10-04",
+  "issue": "040",
+  "searchWindow": "北京时间 2026-10-04 16:45 前逐刊检查当天 Online First/Early View，并回溯最近三自然日。周日 arXiv 官方 cond-mat/new 尚显示 Friday, 2 October 2026：总 207 条、New submissions 91 条；10 月 4 日无独立 arXiv 新批次。正式期刊当日未核实到高相关新稿，本期三篇均是该周五批次中历史简报遗漏的独立论文，严格标注原提交/列出日期，不计作 10 月 4 日首发。",
+  "headline": "10 月 4 日回溯三篇遗漏的高相关公开全文：Na₂IrCl₆ 单晶的水合—结构—磁性链，NaSn₂As₂ 光场热电模型，Bi₂Se₃ 热无序拓扑。",
+  "hotspot": "今日没有把周末的零新 arXiv 批次当作停止检索的理由。最贴近实验的一篇是 Na₂IrCl₆：从 24 °C 缓慢水溶液结晶、1–2 mm 晶体到单晶衍射和 1.91 K 磁序，工艺与物性证据链完整；另外两篇是模型/计算研究，应与直接实验严格区分。三篇都读取了公开 HTML 正文，但并非所有 SI 与原始数据都已取得。",
+  "searchTerms": [
+    "APS/Physical Review 官网核 PRL、PRB、PR Materials、PR Research、PR Applied Recent；周日 10 月 4 日已确认高相关在线新稿 0、纳入 0，页面可见最新相关条目为之前日期，不挪作今天。",
+    "Nature、Nature Physics、Nature Communications、npj Quantum Materials 等 Nature Portfolio 官网/公开 DOI 元数据交叉核；10 月 4 日目标领域明确相关命中 0、纳入 0，部分官网目录受 Client Challenge，完整命中数未知。",
+    "Science/AAAS 官网访问限制；高相关命中数未知、纳入 0。Wiley Advanced Materials、Advanced Functional Materials 逐刊官网受限；公开在线日期元数据未确认今天高相关条目，纳入 0，不能宣称全库零。",
+    "ACS 逐查 Nano Letters、ACS Nano、JACS、Chemistry of Materials、Crystal Growth & Design 官网及 DOI 元数据；10 月 4 日已确认高相关 Online First 命中 0、纳入 0，官网 403 造成全量命中数未知；10 月 3 日漏收 ACS/CGD 已回补在上一期。",
+    "Journal of Crystal Growth Articles in Press 官网 403；公开元数据本轮未确认相关今天条目，纳入 0，完整命中数未知。其他同级期刊按 Crossref 10 月 4 日 online-date 查目标领域；检出高熵氧硫化物光热抗菌和其他生物/能源应用稿，因没有量子材料生长—物性证据而排除，不凑数。",
+    "最后核 arXiv 官方 cond-mat/new：Friday, 2 October 2026，207 总条目中 New submissions 91；逐筛题目与摘要，并按 DOI、arXiv ID、题目同 10 月 1–3 日已发布条目去重。命中未收录高相关 3、纳入 3，都是 10 月 2 日列表的回溯论文；其余或已收录、或与五板块弱相关。接口为空不曾被当作零新增证据。",
+    "访问概况：本期三篇均可合法读取 arXiv 公开 HTML，实际三篇都读了正文/Methods/关键结果，访问范围逐篇列出。SI 与部分原始数据未读取；没有有效浙江大学 aTrust/RVPN、WebVPN/CARSI 会话，不曾尝试借用认证或下载受限 PDF。"
+  ],
+  "papers": [
+    {
+      "material": "Na₂IrCl₆ 单晶",
+      "title": "Na2IrIVCl6: The Missing Member of the Perfectly Cubic Vacancy Ordered A2IrCl6 Family, Another Potential Jeff = 1/2 Ground State Candidate",
+      "authors": "Siddhartha Sankar Soren; Aditya Patra; Rounak Das; Ritwik Das; Tanmay Chanda; Jens Buck; Indra Dasgupta; Sugata Ray",
+      "institutions": "印度 Indian Association for the Cultivation of Science；德国 DESY 与基尔大学",
+      "journal": "arXiv:2610.01371v1（10 月 2 日官方 new 批次；10 月 4 日回溯补录）",
+      "date": "1 Oct 2026 submitted; 2 Oct arXiv listing",
+      "doi": "https://arxiv.org/abs/2610.01371",
+      "fullText": "https://arxiv.org/html/2610.01371v1",
+      "access": "全文精读：实际读取公开 arXiv HTML 的 Introduction、Experimental Section 2.1–2.6、Results 3.1–3.5、Fig.2–4、Table 1/3；SI 链接未取得并未宣称已读。",
+      "rating": "A+",
+      "method": "24 °C 水溶液缓慢蒸发；单晶/粉末 XRD、TGA、XPS、SQUID、DFT",
+      "category": "晶体生长和物性调控",
+      "tags": [
+        "arXiv",
+        "全文精读",
+        "溶液结晶",
+        "单晶XRD",
+        "磁性",
+        "Ir卤化物"
+      ],
+      "abstract": "作者从 Na₂IrCl₆·6H₂O 的高纯粉体经室温水溶液蒸发获得 1–2 mm 黑色单晶，报告无水、Fm-3m 立方相及 1.91 K 反铁磁转变；对比旧文的单斜相及水合问题。",
+      "conclusion": "“Na 基卤化铱只能形成单斜相吗”是故事核心。作者在 24 °C、缓慢水分蒸发的条件下长出毫米级立方 Na₂IrCl₆，以单晶衍射、TGA、XPS 与 SQUID 把无水结构和低温反铁磁联系起来；计算给出 J、K、Γ 交换模型。仍不能仅靠 1.91 K 磁异常和 DFT 证明具体磁结构或理想 Jeff=1/2 基态。",
+      "sections": [
+        {
+          "title": "问题与旧工作分歧：水合史是变量",
+          "text": "Na₂IrCl₆ 先前有水合物及所谓“无水单斜相”的报道，后一种材料约 7.4 K 的磁序与其他立方 A₂IrCl₆ 家族不一致。作者假设水分与结晶路径决定最终结构，从已知六水合物粉末出发在受控室温下慢蒸发，并制备 K₂IrCl₆ 作为家族比较。关键判断链不是“长得像八面体便是立方相”，而是单晶衍射精修、粉末全谱拟合、热重无明显失水、Ir 价态与磁化率共同指向无水立方晶体。替代解释是样品局部仍有微量水、微量单斜相或不同批次结构差异；TGA 对低于检出限的含水量并不提供绝对零水证明。"
+        },
+        {
+          "title": "下一炉可照做的生长信息",
+          "text": "Methods 2.1 明确：Na₂IrCl₆·6H₂O 粉末 99.99%（Alfa Aesar）溶于 Milli-Q 水，玻璃烧杯放在通风橱、空调室温 24 °C、当地湿度条件约一周，水缓慢蒸发，在底部形成多个黑色八面体或六边形晶体，直径 1–2 mm；湿度使所需时间季节性变化。没有 Flux、CVT、输运剂、安瓿或坩埚，也没有 60–90 °C 的本研究温程；后者是作者引用其他 A₂IrCl₆ 旧方法，不能误当本炉配方。起始粉体投料质量、溶液浓度、烧杯几何、蒸发表面积、相对湿度时间曲线、单炉产率、后处理/保存环境：正文未报告。最有价值的下一炉变量是 24 °C 恒温下不同相对湿度、初始浓度与蒸发表面积，逐晶体标记实际水暴露史。"
+        },
+        {
+          "title": "质量证据与数值核对",
+          "text": "Methods 2.2/ Table 1：165 K 的单晶 XRD 给出 Fm-3m、a=9.799(3) Å、V=941.0(5) Å³、Z=4、63 个独立反射、Rint=0.0714、R=0.0285、wR=0.0710、GOOF=1.292；粉末衍射 Cu Kα，2θ 10–90°、步长 0.02°、每步 15 s，并作 Rietveld 拟合。TGA 在干氮 20 mL/min 下以 10 °C/min 从 30 升到 180 °C、保温 2 min，曲线无可见失重，回测单晶结构仍立方。XPS 在 DESY P04、1000 eV 光子、0.1 eV 分辨率，Ir 4f 双峰分裂 2.95 eV 支持 Ir4+。需注意正文 Table 3 的 Na₂IrCl₆ a=9.858 Å 与 Table 1 的 9.799(3) Å 不同；在引用晶格常数前必须核对两表的温度/来源和 SI，不能替作者消掉差异。"
+        },
+        {
+          "title": "磁性、拟合、模型与最弱环节",
+          "text": "SQUID MPMS3 在 500 Oe、1.8–300 K 测 χ(T)，场至 7 T 测 M(H)。Fig.4 广峰约 2.63 K 表明短程关联，低温转变报告 1.91 K；Curie–Weiss 在 200 K 以上按 χ=χ₀+C/(T−θCW) 拟合。广峰、低温异常是直接测量；“fcc 反铁磁”的具体自旋排布不是由 χ(T) 唯一决定，仍需中子/共振散射或 μSR。DFT/Wannier 加两站点精确对角化使用 λ=0.4 eV、JH=0.3 eV、Ud=1.7 eV，算得 J=1.7、K=0.6、Γ=−0.1 meV，K/J≈0.35；这属于模型依赖结果，不是直接测到 Kitaev 耦合。最强证据是单晶衍射与重复热重/磁测闭环；最弱的是晶体水分定量阈值及磁结构直接证据。"
+        },
+        {
+          "title": "可执行复现和测量序列",
+          "text": "制备批次表应固定粉末品牌/纯度、Milli-Q 水量、24 °C 实测时间序列、相对湿度与通风橱气流，并逐晶体记录尺寸、质量和母液位置。出炉先在干燥环境称重、TGA/卡尔费休或其他水含量分析，再做室温与 165 K 单晶 XRD、粉末 Rietveld 与 Ir 4f XPS，最后 MPMS 500 Oe 温扫和不同场的 1.8–5 K 细扫。做至少三批，报告 a、R 因子、TN、样品含水量的散布；若出现 7.4 K 组分，先排水合/单斜杂相再讨论磁相图。"
+        },
+        {
+          "title": "读图时的一个内部一致性检查",
+          "text": "同一稿件把 Table 1 的 165 K 精修晶格常数写成 9.799(3) Å，而比较家族成员的 Table 3 行列出 9.858 Å。两者差约 0.059 Å，明显高于前者括号给出的统计误差；但它们可能对应不同温度、不同来源或排版错误。本站不自行裁定哪一个“正确”。组会引用、结构数据库录入与后续 DFT 建模时，应先查 CIF/SI 的原始精修表及 Table 3 注释；如果得不到确认，必须在图注标明采用哪个表。类似地，“TGA 未见失重”要配合仪器分辨率与样品质量描述，不能转述为绝对不含一分子水。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A+｜卤化物单晶、磁性与缺陷控制",
+        "first": "先读 Experimental 2.1 的 24 °C 一周蒸发与 Fig.2/Table 1 的结构精修，再看 Fig.4 的 2.63 K 广峰和 1.91 K 转变。",
+        "focus": "核对 Table 1 的 9.799(3) Å 与 Table 3 的 9.858 Å 差别、TGA 检出限、Curie–Weiss 200 K 以上窗口、DFT 的 J/K/Γ 假设；可略读一般 Kitaev 历史。",
+        "next": "做湿度—浓度生长矩阵，逐晶保存水合与晶格常数，并加低温局域磁探针验证磁结构。"
+      },
+      "versionNote": "arXiv v1 于 2026-10-01 09:40 UTC 提交，官方 10 月 2 日 new 批次出现；因 10 月 2 日历史报告未纳入，10 月 4 日回溯补录。没有正式期刊 DOI，不把 arXiv DataCite DOI 误作期刊 DOI。"
+    },
+    {
+      "material": "NaSn₂As₂ 热电",
+      "title": "Structured-Light Control of Goniopolar Thermoelectricity in NaSn2As2",
+      "authors": "Atoumane Ndiaye; Edwin Fohtung",
+      "institutions": "美国 Rensselaer Polytechnic Institute 材料科学与工程系；Edwin Fohtung 兼物理系和跨学科研究中心",
+      "journal": "arXiv:2610.01755v1（10 月 2 日官方 new 批次；10 月 4 日回溯补录）",
+      "date": "1 Oct 2026 submitted; 2 Oct arXiv listing",
+      "doi": "https://arxiv.org/abs/2610.01755",
+      "fullText": "https://arxiv.org/html/2610.01755v1",
+      "access": "全文精读：实际读取公开 arXiv HTML 的理论模型、Fig.1–4、主要结果与讨论；Supplemental Material 未取得。",
+      "rating": "A",
+      "method": "PBEsol/PAW/Wannier90；Peierls 耦合；Boltzmann 热电输运",
+      "category": "晶体生长和物性调控",
+      "tags": [
+        "arXiv",
+        "全文精读",
+        "理论",
+        "热电",
+        "结构光",
+        "Wannier"
+      ],
+      "abstract": "理论计算表明 NaSn₂As₂ 面内/面外 Seebeck 异号的 goniopolar 区间可随结构光 OAM 幅值变化；GP5 从 38.8 meV（ℓ=0 结构光参照）到 ℓ=±5 的约 45.1–45.5 meV。",
+      "conclusion": "作者并未声称真的用激光照亮晶体并量到热电压，而是在同一 Wannier 哈密顿量中施加具有轨道角动量的静态近场 Peierls 相位，算出热电异号窗口的位置和宽度如何移动。最醒目的 17% 增宽是模型预测，尤其要与真实可实现的 20 Å 光场腰斑区分。",
+      "sections": [
+        {
+          "title": "研究问题与样品边界",
+          "text": "NaSn₂As₂ 的面内 Sab 与层间 Sc 可符号相反，即 SabSc<0；这可在零磁场下产生横向热电响应。论文问的是能否在不改变化学成分的情况下，用光场空间相位改写这种“方向依赖极性”。没有制备或测量新的 NaSn₂As₂ 晶体，也没有报告样品尺寸、纯度、Flux/CVT 配方、晶格缺陷或批次；这些项目均应记为“本文无实验样品”，而不是“正文未报告但可能采用某常见工艺”。工作基础是第一性原理电子结构、Wannier 跃迁和半经典 Boltzmann 输运。"
+        },
+        {
+          "title": "模型链和可复算参数",
+          "text": "作者用 PBEsol、PAW、Quantum ESPRESSO 得电子结构，以 Wannier90 构造局域轨道模型。暗态及结构光比较均采用同一个标量相对论 Wannier 哈密顿量；完全相对论结果只用来描述平衡费米面，作者承认 SOC 对输运幅度的对照仍需补做。p=0 Laguerre–Gaussian 场取腰斑 w₀=20 Å、A₀=5×10⁻⁹ T·m、横向偏振 σ=+1；跃迁 tij 乘 exp(iθij)，θij=−e/ℏ∫A·dr。热电异号区间由 SabSc<0 定义，区间宽度 Wn=μn+−μn−。恒定弛豫时间近似让 Seebeck 系数的比值消去共同的 τ，但不能描述强各向异性或能量依赖散射。"
+        },
+        {
+          "title": "图与数值：模型结果不等于测量",
+          "text": "Fig.2 把光斑位置扫过模型晶格，ℓ=3 的光场半径 24.49 Å 与响应峰 24.59 Å 接近，ℓ=5 为 31.62 与 32.22 Å；角向谐波在 |ℓ|=2、3、4、5 时为 m=4、6、8、10。Fig.3 在 300 K 计算 GP5：ℓ=0 的 38.8 meV 增到 −5 的 45.5 meV、+5 的 45.1 meV，即约 17%；论文明确 ℓ=0 仍有结构光，不是暗态。Fig.4 的层间 Seebeck 零点从暗态 Δμ=75.07 meV 移至 ℓ=+5 的 73.08 meV 与 −5 的 72.13 meV。这里全部是数值求解；“双倍角谐波”只是本模型范围内的对称性解释，不能外推所有 OAM 模式。"
+        },
+        {
+          "title": "最弱环节与复现实验",
+          "text": "作者主动限定这是规定好的静态近场，不含吸收、载流子加热、介电屏蔽、自洽传播或 Floquet 动力学。w₀=20 Å 接近原子尺度，不是普通远场光束。幅值扫描与 OAM/偏振四态对照据正文称在 SI，本站未读取，故不判断稳定性范围。最有价值的实验不是立刻照射晶体，而是先在同一批取向清楚的 NaSn₂As₂ 薄片上独立测 Sab、Sc 随门控化学势的符号边界，记录温度梯度、接触热电势、晶向及缺陷；再评估真实纳米近场器件能否实现作者设定的 A、w₀。若模型工作继续，先加 SOC、能量依赖 τ 与实际光热效应控制。"
+        },
+        {
+          "title": "对 17% 数字的三个检验",
+          "text": "第一，分母是同一结构光模型中 ℓ=0 的 GP5 宽度 38.8 meV，绝不是完全无光的暗态；若误用暗态就会改变提升百分比。第二，ℓ=+5 与 −5 分别约 45.1 与 45.5 meV，相差不到 1%，而相对 ℓ=0 的共同增强约 17%，所以主要是 |ℓ| 而非旋向符号效应。第三，Fig.4 层间 Seebeck 零点的 Δμ 以暗态为 75.07 meV，+5 和 −5 分别移至 73.08 和 72.13 meV；这是边界位移的模型证据，不意味着每个化学势处热电效率都提高。实验上还需给出温度梯度方向、热接触校准和功率吸收，否则热电压的变化也可能只是光热。文中给定的 A₀ 与 20 Å 腰斑应被当作理论输入参数，真实近场的空间分布和时变性都要另测。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜热电、Wannier 与光场调控方向",
+        "first": "先读模型定义 SabSc<0 与 Peierls 公式，再核 Fig.2 的 24.49/24.59 Å 和 Fig.3 的 38.8→45 meV；最后看正文的适用边界。",
+        "focus": "特别核对 ℓ=0 结构光参照并非暗态、20 Å 腰斑的实验可行性、SOC 输运基准缺失；普通结构光入门可略读。",
+        "next": "先做无光条件下同批晶体的面内/层间 Seebeck 符号扫描，再计算可实现近场几何下的场强。"
+      },
+      "versionNote": "arXiv v1 于 2026-10-01 14:18 UTC 提交、10 月 2 日官方 new 列出，10 月 4 日因历史报告未收录而回溯；尚无确认正式期刊 DOI。"
+    },
+    {
+      "material": "Bi₂Se₃ 有限温拓扑",
+      "title": "Topological robustness of thermally disordered lattices: From average structures to ensemble electronic properties",
+      "authors": "Oleg Rubel; Karekin Sadikian",
+      "institutions": "加拿大 McMaster University 材料科学与工程系",
+      "journal": "arXiv:2610.00963v1（10 月 2 日官方 new 批次；10 月 4 日回溯补录）",
+      "date": "1 Oct 2026 submitted; 2 Oct arXiv listing",
+      "doi": "https://arxiv.org/abs/2610.00963",
+      "fullText": "https://arxiv.org/html/2610.00963v1",
+      "access": "全文精读：实际读取 arXiv HTML 的 Introduction、Methods II.1、Results III.3–III.4、Fig.5–7 与结论；未读取数据仓库或全文全部图。",
+      "rating": "A",
+      "method": "Bi₂Se₃ DFT；谐振动 Monte Carlo 热无序；AIMD 对照；SOC 缩放",
+      "category": "磁性、拓扑与自旋",
+      "tags": [
+        "arXiv",
+        "全文精读",
+        "Bi2Se3",
+        "热无序",
+        "拓扑",
+        "计算"
+      ],
+      "abstract": "作者比较平均晶格与有限温原子构型集，发现平均结构低估 Bi₂Se₃ 能隙重整化且漏掉瞬时反演对称破缺引起的 Rashba 样分裂；所采样构型至 600 K 保持带反转，高于此温有个别构型先变为正常带序。",
+      "conclusion": "晶体在有限温度下不是唯一结构。本文把 Bi₂Se₃ 每一帧的能带序同“平均结构的能带”比较：平均结构会抹去瞬时局部对称破缺，而且在个别构型失去带反转时仍可能显示平均上未闭合的能隙。结果是计算上的“带反转存活概率”，不是已经测到高温拓扑表面输运。",
+      "sections": [
+        {
+          "title": "科学问题与已有工作",
+          "text": "常规单晶 XRD 报告的是时间/空间平均位置，静态 DFT 也常只求一组原子坐标；但有限温度晶格存在热涨落。关键数学差别是 P(<R>) 未必等于 <P(R)>，对能隙和拓扑带序尤其重要。作者以 Bi₂Se₃ 为代表，比较谐振动设计构型、随机 Monte Carlo 构型与第一性原理分子动力学快照，并逐构型缩放 SOC 判定带反转。先前工作多关注平均温度依赖或特定声子，本文把构型分布的宽度和尾部概率也作为物理量。"
+        },
+        {
+          "title": "模型样品与可复算设置",
+          "text": "这不是新生长样品，故无原料纯度、Flux、坩埚、温程、晶体尺寸或产率。Methods II.1 使用 VASP 6.5.1、Bi/Se 的 PAW、PBE+D3；Bi₂Se₃ 为 135 原子、3a×3a×c 超胞，平面波截断 212 eV，超胞 4×4×2 Γ 中心 k 网格，结构收敛至力 <10⁻⁴ eV/Å。有限温晶格参数取自 NpT AIMD；声子位移步长 0.015 Å。ZG 设计结构每温度一组，Monte Carlo 随机谐振动每温度最多 10 组，而 AIMD 提供非谐参照。SOC 不参与结构松弛/声子，但用于后续带序检查；这一分段计算策略需要核对误差来源。"
+        },
+        {
+          "title": "证据、概率与解释边界",
+          "text": "摘要与 Results 报告：平均晶格忽略瞬时反演破缺的 Rashba 样自旋分裂，低估能隙重整化；少量谐振动 Monte Carlo 构型能再现均值与散布。已采样构型至 600 K 都保持带反转，高温有构型先于平均能隙闭合失去反转。直接证据是不同快照的计算能带与 SOC 缩放判据；“热拓扑鲁棒性”是从有限样本推断的概率，样本数 10 使稀有事件尾部估计脆弱。若实验验证，须把 ARPES 的温度依赖谱线与热膨胀、表面带弯曲、缺陷掺杂分开，不能将带反转概率直接等同电导量子化。"
+        },
+        {
+          "title": "下一次计算/测量",
+          "text": "先用同一 DFT 参数重算平均结构、10 个谐随机结构与 AIMD 快照的能隙分布，并把温度网格在 600 K 附近加密、增加独立随机种子，报告置信区间和 SOC 判据稳健性。实验上选成分/载流子浓度相近的 Bi₂Se₃ 批次，做变温 XRD/ARPES 和霍尔，以排除化学势漂移；比较的是谱学边界而非把计算 600 K 当器件保证工作温度。"
+        },
+        {
+          "title": "为何平均结构给出错误的安全感",
+          "text": "Results III.3 用带符号能隙小于零的构型比例定义 P_inv(T)，而不是只看平均能隙是否为负。Fig.5 说明在 600 K 不同快照的带隙和 SOC 翻转阈值已经有散布；Fig.6 中 AIMD 与随机谐构型的平均和标准差可以相互比较，单个 ZG 构型则更易高估热效应。Fig.7 才把这种散布转成“有多少构型仍保持带反转”的概率。文章实际看到约 750–900 K 的构型依赖交叉趋势，但结论只把全部已采样构型保持反转的范围谨慎写到约 600 K。Methods 的 3×3×1 超胞漏掉长波极性声子贡献，作者在 Limitations 估算该贡献使 0 K 和 600 K 带隙幅值分别再变小约 9 和 30 meV；另外电子温度交换关联近似与有限超胞也留有误差。这些限制让“600 K”成为当前计算方案下的阈值而非器件耐温认证。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜拓扑能带与热稳定性方向",
+        "first": "先读 Methods II.1 的 135 原子超胞、10 组随机谐构型，再看带反转存活概率对应的 Results/图与平均结构对照。",
+        "focus": "核对 600 K 之后的有限样本尾部、SOC 缩放判据和 AIMD/谐近似在高温的分歧；可略读通用拓扑绝缘体背景。",
+        "next": "用更多随机种子和 AIMD 帧估计 P_inv(T) 的置信区间，再设计变温 ARPES 对照。"
+      },
+      "versionNote": "arXiv v1 于 2026-10-01 02:51 UTC 提交、10 月 2 日官方 new 列出；10 月 4 日仅回溯未收录稿，不代表 10 月 4 日首次发表。"
+    }
+  ]
+}

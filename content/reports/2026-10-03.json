@@ -1,17 +1,17 @@
 {
   "date": "2026-10-03",
   "issue": "039",
-  "searchWindow": "北京时间 2026-10-03 约 14:20 截止。周六 arXiv 官方 cond-mat/new 仍显示 Friday, 2 October 2026：207 总条目、其中 91 条 new submissions；本轮没有 10 月 3 日的新批次，故不把旧批次改标今天。正式期刊官网和 Crossref online 日期核出今天相关的 2 篇；各出版社可能继续滚动，不能断言全天总量。",
-  "headline": "10 月 3 日两篇正式新稿：MBE 稳定 1H-NbTe₂ 的 4×4 CDW；4D-STEM 让低剂量晶体取向图更可核查。",
-  "hotspot": "今天的主线是“辨清结构身份再解释物性”：NbTe₂ 的多型和孪晶决定 4×4 周期该如何归属；4D-STEM 则提醒我们，即便去噪指标很好，弱分量和晶界仍要由原始帧与独立衍射验证。两篇分别为摘要级和实际阅读公开作者稿全文，不能用同一证据等级。",
+  "searchWindow": "北京时间 2026-10-03 正式期刊在线日期的补查，截至 2026-10-04 复核。周六无独立 arXiv 新批次；官方 cond-mat/new 仍列 Friday, 2 October 2026，共 207 条、其中 91 条 New submissions。保留原两篇并按 Crossref 的 10 月 3 日 online date 补录 4 篇，未把周五 arXiv 稿改写为周六发表。",
+  "headline": "10 月 3 日正式新稿补齐至 6 篇：γ-CuBr 垂直 Bridgman、GaN 原位 MBE、NbTe₂ CDW、MoS₂/MoTe₂ 器件与 4D-STEM。",
+  "hotspot": "补查改正了原版的遗漏：CGD 的 γ-CuBr:Li 单晶和 GaN MBE 原位预测直接涉及生长路线；ACS Nano/JPCL 的二维接触工程扩展了器件板块。原有 1H-NbTe₂ 与 4D-STEM 分析保留。新增 ACS/JPCL 四篇仅有出版社摘要，不以常识编造温区、通量、器件统计；正式期刊 6 篇中目前实际全文精读 1 篇。",
   "searchTerms": [
-    "APS 官网逐一检查 PRL、PRB、PR Materials、PR Research、PR Applied 的 Recent 列表（5 轨均可读）；截至本轮可见最新在线日期为 10 月 2 日，各轨 10 月 3 日已确认相关命中 0、纳入 0。部分 10 月 2 日相关正式论文需要另行补录至上一期；不把它们伪装为 10 月 3 日新稿。",
-    "Nature、Nature Physics、Nature Communications、npj Quantum Materials 官网目录本轮触发 Client Challenge，不能宣称全库零新增。以出版社 DOI 元数据/可检索单篇页交叉核查 10 月 3 日 Nature Portfolio 记录：npj Computational Materials 取向映射 1 篇纳入；Nature Communications 的三维忆阻器—晶体管神经形态器件与聚合物自组装 2 篇因非量子材料生长/物性问题排除；npj Quantum Information 编码理论 1 篇因主题不符排除。",
-    "Science/AAAS 目录 403，10 月 3 日可核相关命中数未知、纳入 0；Wiley Advanced Materials、Advanced Functional Materials 官网各 403，相关命中数未知、纳入 0。公开 Crossref 10 月 3 日 online-date 返回的目标刊记录没有额外可确认本主题条目；这不是出版社逐稿零新增证明。",
-    "ACS 官网分别检查 Nano Letters、ACS Nano、JACS、Chemistry of Materials、Crystal Growth & Design，目录或 DOI 页均返回 403。通过 ACS 向 Crossref 提交的正式元数据确认 ACS Nano 1H-NbTe₂ 10 月 3 日 Online First 1 篇命中且纳入；其余四刊在本轮元数据交叉核查未确认相关命中，官网受限故计数未知。NbTe₂ 正文/SI 未读，不能列为全文精读。",
-    "Journal of Crystal Growth（Elsevier）Articles in Press 页面 403，命中数未知、纳入 0。其他同级期刊以 Crossref online-date 10 月 3 日全量 1349 条元数据补查，确认 npj Computational Materials 1 篇纳入；非本主题器件、聚合物形貌和信息论条目排除。",
-    "最后核 arXiv 官方 cond-mat/new：页面仍是 Friday 2 October 2026，总 207 条，其中 New submissions 91。10 月 3 日尚无独立 new 批次；已核上一批并与 10 月 1–2 日 31 篇历史报告按 DOI/arXiv ID/题名去重，今日独立 arXiv 纳入 0，绝非把接口空结果推断为全天没有论文。",
-    "访问状态：可合法获得正文候选 1 篇，实际全文精读 1 篇（正式 DOI 的公开作者预印本正文、Methods、Fig.1–9、Table 1）；摘要级 1 篇（ACS DOI 页 403，Crossref 出版社摘要）。当前没有已登录的浙江大学 aTrust/RVPN、WebVPN 或 CARSI 会话，未尝试冒用机构认证；受限全文未下载或公开。"
+    "APS/Physical Review：逐查 PRL、PRB、PR Materials、PR Research、PR Applied 的 Recent 列表；10 月 3 日明确相关正式稿命中 0、纳入 0，部分 10 月 2 日稿不移作当日。",
+    "Nature Portfolio：Nature、Nature Physics、Nature Communications、npj Quantum Materials 的官网目录因 Client Challenge 无法得完整命中总数；可确认 npj Computational Materials 1 篇命中且纳入，其他检出的非主题器件/聚合物/信息论条目排除。",
+    "Science/AAAS 官网 403、Wiley Advanced Materials 与 Advanced Functional Materials 官网 403；相关总命中数未知、已确认纳入 0，不能称逐刊零新增。",
+    "ACS：Nano Letters、ACS Nano、JACS、Chemistry of Materials、Crystal Growth & Design 官网目录/正文受 403 限制，改查出版社提交 Crossref 的 10 月 3 日 online metadata。ACS Nano 命中 2、纳入 2（1H-NbTe₂、MoS₂）；CGD 命中 2、纳入 2（γ-CuBr、GaN）；其余三刊未确认高相关条目，官网完整命中数未知。四篇补录只见正式摘要，未假称全文。",
+    "Journal of Crystal Growth Articles in Press 403；本轮可确认相关命中 0、纳入 0，但全量命中数未知。其他同级期刊以 Crossref 10 月 3 日 online-date 全量记录约 1349 条作交叉筛选；npj Computational Materials 1 与 J. Phys. Chem. Lett. 1 纳入；生物医学、能源应用和非量子材料条目排除。",
+    "arXiv 最后核官方 cond-mat/new：Friday 2 October 2026，207 条总记录、91 条 New submissions；10 月 3 日周六未发独立批次。与 10 月 1–2 日历史 DOI、arXiv ID、题目去重，本期独立 arXiv 0；未收录的周五批次论文另在 10 月 4 日标明回溯。",
+    "访问概况：正式期刊 6 篇；可合法读取公开作者稿候选 1、实际全文精读 1（4D-STEM 预印本 Results/Methods/Fig.1–9/Table 1），新增四篇和 NbTe₂ 为摘要级。无已登录浙江大学 aTrust/RVPN、WebVPN/CARSI；机构认证未尝试，未下载受限 PDF。"
   ],
   "papers": [
     {
@@ -121,6 +121,182 @@
         "next": "用一块有独立衍射基准的晶体做剂量—步长—3×3 邻域矩阵，报告角度误差及晶界宽度，再决定是否入库为自动样品质检。"
       },
       "versionNote": "正式 DOI 为主条目，2026-10-03 上线；全文阅读来源是作者 2026-04-22 公开 Research Square 预印本 rs-9374144/v1，题名相同。正式版摘要已核，尚未逐页验证正式版与预印本的图表或参数是否变化；预印本方法参数须待正式版/SI 复核。"
+    },
+    {
+      "material": "γ-CuBr:Li 单晶",
+      "title": "Li+-Induced Enhancement of Excitonic Luminescence in γ-CuBr Single Crystals Grown by the Vertical Bridgman Method",
+      "authors": "Zhijin Zhang; Yizhe Hu; Qiuyu Yu; Jiacheng Pan; Jianguo Pan; Shangke Pan",
+      "institutions": "作者单位尚未由可访问的出版社正文核实；本期不以姓名推测机构",
+      "journal": "Crystal Growth & Design（Online First）",
+      "date": "3 Oct 2026",
+      "doi": "https://doi.org/10.1021/acs.cgd.6c01110",
+      "fullText": "",
+      "access": "摘要级：已核对出版社向 Crossref 提交的 Online First 日期、完整作者与摘要；ACS 正文/Methods/SI 本轮未取得，以下未给出的工艺或测量参数均不推测。没有可用的浙江大学机构登录会话。",
+      "rating": "A+",
+      "method": "原料重结晶纯化；垂直 Bridgman；XRD/XPS/稳态与时间分辨 PL",
+      "category": "晶体生长和物性调控",
+      "tags": [
+        "正式期刊",
+        "摘要级",
+        "Bridgman",
+        "掺杂",
+        "光致发光"
+      ],
+      "abstract": "出版社摘要报告：从重结晶纯化的原料出发，垂直 Bridgman 生长未掺杂与名义 CuBr:x%Li（x=0、1、3、5）单晶；3% 样品近带边发光强度约为纯 CuBr 的六倍，419 nm 衰减寿命 2.40 ns，热激活能 382.6 meV。",
+      "conclusion": "以同一 Bridgman 路线作 Li 梯度，作者把 γ-CuBr 的非辐射缺陷损失转成可比较的近带边发光。3% Li 达到摘要中最强 PL，说明“多掺”不是单调增益；但 XRD/XPS 与 PL 的摘要级证据不足以定量证明 Li 进入哪种晶格位点，也不能推出最佳实际成分。",
+      "sections": [
+        {
+          "title": "问题、设计与关键对照",
+          "text": "纯 γ-CuBr 的本征缺陷使自由激子发光受到非辐射复合压制。论文用未掺杂、1%、3%、5% Li 四个名义成分作梯度，不只是报告一块最好看的晶体。最直接的对照是 3% 与 0% 的相同测量条件 PL 强度；判断最佳掺杂点还须检查 5% 是否回落，以及每组晶体的尺寸、表面质量和激发光吸收是否一致。摘要没有给这些控制细节，不把六倍增长直接等同于六倍量子效率。"
+        },
+        {
+          "title": "样品、生长与质量边界",
+          "text": "已核实材料为 γ-CuBr，先对原料重结晶，再用垂直 Bridgman 法生长未掺杂和名义 CuBr:x%Li。XRD 与 XPS 被作者用来支持 Li 引入晶格；但 XPS 的表面灵敏度不等于体相 Li 浓度测定，XRD 峰位也可能受应变与缺陷影响。原料纯度、Cu:Br:Li 实际质量配比、坩埚/安瓿材质、封管气氛或真空、炉温和梯度、下降速度、保温、退火、晶锭尺寸、产率、摇摆曲线半高宽、批次统计：摘要未报告，正文未读取。下一步需 WDS/ICP 或其他适宜的体相定量、Laue/摇摆曲线与沿晶锭位置的 PL 映射。"
+        },
+        {
+          "title": "测量、证据分层与复现建议",
+          "text": "直接观察层级：摘要给出四组掺杂系列、XRD/XPS、稳态及时间分辨 PL；3% 样品近带边 PL 约六倍，419 nm 处寿命 2.40 ns，变温 PL 拟合热激活能 382.6 meV。模型拟合层级：激活能与衰减寿命依赖选取的温度/时间窗口和背景模型。作者推断是 Li 减少非辐射通道；本站判断是它值得作为生长—缺陷—光谱的控制实验，但不能仅凭摘要排除不同晶面、吸收厚度或杂质相。复现时将晶锭按高度切片、每片记录实际 Li 和 rocking-curve，再在相同激发功率与几何下做绝对 PL、温变和寿命；切勿把名义 3% 直接当作体相最优 3%。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A+｜Bridgman 与光学单晶方向",
+        "first": "取得授权正文后优先看重结晶和垂直 Bridgman Methods、四个 Li 点的晶体照片与 XRD/PL 主图，再读温变 PL 激活能拟合图。",
+        "focus": "核对 3% 的“六倍”是否有吸收、尺寸及批次误差条；2.40 ns 是单指数还是多指数，382.6 meV 用了哪段温度。一般性激子背景可略读。",
+        "next": "下一炉保留 0/1/3/5% 梯度，加做每段晶锭实际 Li 测定与 PL 寿命地图。"
+      },
+      "versionNote": "2026-10-03 在线正式 DOI；没有确认对应 arXiv。未将名义掺杂百分比当实际掺入量。"
+    },
+    {
+      "material": "GaN 外延",
+      "title": "Deep Neural Network Application to Real-Time Growth Prediction of Epitaxial GaN by Molecular Beam Epitaxy",
+      "authors": "Giovanni Drera; Stefano Vichi; Matteo Canciani; Richard Nötzel; Stefano Sanguinetti",
+      "institutions": "作者单位尚未在可访问的出版社正文中核实",
+      "journal": "Crystal Growth & Design（Online First）",
+      "date": "3 Oct 2026",
+      "doi": "https://doi.org/10.1021/acs.cgd.6c00850",
+      "fullText": "",
+      "access": "摘要级：已核对出版社向 Crossref 提交的 Online First 日期、完整作者与摘要；ACS 正文/Methods/SI 本轮未取得，以下未给出的工艺或测量参数均不推测。没有可用的浙江大学机构登录会话。",
+      "rating": "A",
+      "method": "GaN MBE；RHEED 图像；循环神经网络实时预测",
+      "category": "晶体生长和物性调控",
+      "tags": [
+        "正式期刊",
+        "摘要级",
+        "MBE",
+        "RHEED",
+        "生长预测"
+      ],
+      "abstract": "出版社摘要：采用从液滴外延和金属调制生长衍生的 GaN MBE 序列，RHEED 图像与氮通量、功率、源炉温度进入小型 RNN；约 10 s 输入窗预测相近的未来时间窗，分类/预测准确率 >0.90。",
+      "conclusion": "这项工作把 MBE 的 RHEED 由“事后看图”推向“10 秒尺度的过程预警”。最有价值的不是单个 >0.90 数字，而是模型能否在尚未见过的生长批次、氮通量漂移和杂相出现前给出可靠预警；摘要未证明这些外推能力。",
+      "sections": [
+        {
+          "title": "科学问题与数据链",
+          "text": "GaN 外延的表面状态由通量、源温及时间顺序共同决定。作者选取液滴外延与金属调制路线衍生的生长序列，以 RHEED 衍射图像联同 MBE 实时工艺变量训练循环网络。约 10 s 的历史窗口预测相近时间尺度的后续生长状态。需要区分真正的前瞻预测与对同一视频相邻帧的插值：若训练与测试帧来自同一炉且高度自相关，>0.90 不代表跨炉通用。"
+        },
+        {
+          "title": "样品、工艺与质量",
+          "text": "摘要确认材料为 GaN 外延层及 MBE 路线，输入变量含氮通量、功率和源炉温度，观测含 RHEED 表面形貌信息。衬底晶向、预处理、Ga/N 通量比、实际基底温度、真空度、总厚度、生长速率、RHEED 电子能量、XRD 摇摆曲线、AFM 粗糙度、杂相确认方式、批次数：摘要未报告，正文未读。RHEED 是表面结构代理，不能单凭分类结果证明体相缺陷和电学质量。"
+        },
+        {
+          "title": "证据、风险与下一次实验",
+          "text": "直接数据为 RHEED 与仪器参数时间序列；RNN 的 >0.90 是模型性能报告，不是材料质量测量。作者推断小模型可实时控制并预警不希望的次生相；本站建议用“按整炉分组”的留出集检验，报告灵敏度、误报率、预警提前量及漏报的危险杂相，再用 XRD/AFM/PL 对报警前后样品独立验证。记录相机曝光、仪器时钟偏移和生长中断状态，以免标签泄漏。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜MBE 和原位表征方向",
+        "first": "先核正式 Methods 中 GaN 生长序列与 RHEED 标注规则，再看按整炉划分的训练/测试图及杂相预警案例。",
+        "focus": "核对 >0.90 的定义、样本独立性、10 s 输入与预测时间窗是否重叠；普通神经网络背景可略读。",
+        "next": "用本组历史 RHEED 视频做跨批次留出，并把报警时间与事后 XRD/AFM 结果逐一对齐。"
+      },
+      "versionNote": "2026-10-03 在线正式 DOI；摘要未说明软件/权重公开与否。"
+    },
+    {
+      "material": "MoS₂ 忆阻晶体管",
+      "title": "Scalable Independently Tunable MoS2 Memtransistor via Contact-Engineering for Cardiac Signal Processing",
+      "authors": "Durgadevi Elamaran; Masahiro Sakai; Liu Huiqin; Ryoichiro Naoi; Takashi Kobayashi; Kai Qi; Vincent Tung; Soma Sakota; Takeshi Yoshimura; Norifumi Fujimura; Bang Lu; Rafika Amalia Annur; Satoru Takakusagi; Daisuke Kiriya",
+      "institutions": "东京大学 Kiriya 研究组等；完整作者名单已对照 Crossref 与作者研究组公开清单",
+      "journal": "ACS Nano（Online First）",
+      "date": "3 Oct 2026",
+      "doi": "https://doi.org/10.1021/acsnano.6c10356",
+      "fullText": "",
+      "access": "摘要级：已核对出版社向 Crossref 提交的 Online First 日期、完整作者与摘要；ACS 正文/Methods/SI 本轮未取得，以下未给出的工艺或测量参数均不推测。没有可用的浙江大学机构登录会话。",
+      "rating": "A",
+      "method": "MoS₂ 平面器件；接触工程；变温输运与脉冲响应",
+      "category": "二维材料与量子器件",
+      "tags": [
+        "正式期刊",
+        "摘要级",
+        "MoS2",
+        "肖特基接触",
+        "忆阻器件"
+      ],
+      "abstract": "出版社摘要：通过接触处电荷俘获/释放调制金属—半导体肖特基势垒，获得无需栅控的约 10² 电阻开关比；ln(ID/T³ᐟ²) 对 1/T 呈偏压依赖线性，演示长时程增强/抑制和 MIT–BIH ECG 数据库的心律失常分类。",
+      "conclusion": "论文试图把 MoS₂ 忆阻器件的开关起源由难控的导电细丝转向可调的界面势垒。变温输运支持热激活、界面限制的解释，但仅看摘要中的 Arrhenius 线性不能排除其他热激活通道；心电分类是器件应用演示，不能反证微观机理。",
+      "sections": [
+        {
+          "title": "问题与对照",
+          "text": "平面 MoS₂ 器件适合 CMOS 兼容的横向传输，而常见导电细丝带来随机性。作者提出接触处俘获/去俘获电荷改变注入势垒，可在器件之间独立设定状态。必须在同一 MoS₂ 通道比较接触工程前后、不同接触面积与极性，并用截面或原位结构检查是否真的没有局域细丝。摘要仅声称 nucleation-free，未提供这组完整对照。"
+        },
+        {
+          "title": "样品与测量边界",
+          "text": "摘要确认材料和结构类别为 MoS₂ 平面忆阻晶体管、界面接触工程，但 MoS₂ 来源、生长方法、层数、实际厚度、缺陷密度、金属体系、接触面积和器件数均未报告。开关比约 10²；ln(ID/T³ᐟ²) 对 1/T 的线性及随偏压变化的斜率，是界面热激活模型证据。测量温区、脉冲宽度、循环次数、保持时间、统计离散度与拟合置信区间在摘要不可见。作者另用 MIT–BIH 数据库作 ECG 分类，这属于系统应用结果。"
+        },
+        {
+          "title": "证据层级与实验建议",
+          "text": "直接观察是 I–V 开关和温度/偏压依赖；线性化 Arrhenius 图是模型拟合；“肖特基势垒主导、无成核/细丝”是作者机理解释；本站判断须以面积缩放、温度窗口稳定性、界面谱和跨器件分布进一步检验。下一版实验表建议逐器件记录接触金属、层数、MoS₂ 生长批次、开关循环及电极方向，并同步保存原始 I–V 及脉冲序列，不只留分类准确率。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜二维接触与器件可靠性方向",
+        "first": "先看变温 ln(ID/T³ᐟ²)–1/T 图、接触结构图及跨器件开关分布；之后再看 ECG 分类。",
+        "focus": "核对“约 10²”开关比的读出电压、偏压依赖活化能和无细丝证据；可略读通用神经网络背景。",
+        "next": "在同一批 MoS₂ 上做接触材料/面积矩阵与原位 I–V 温变实验。"
+      },
+      "versionNote": "2026-10-03 ACS Nano Online First；作者研究组公开出版清单题名使用“Independently Addressable”，本条以 DOI 登记的“Independently Tunable”为准，避免误建双条。"
+    },
+    {
+      "material": "MoTe₂ 垂直晶体管",
+      "title": "Highly Controllable Polarity in Two-Dimensional Vertical Transistors",
+      "authors": "Likuan Ma; Quanyang Tao; Lingan Kong; Wanrong Liu; Chenxing Jin; Xiaofang Shi; Ruihan Li; Guansong Qiu; Yuan Liu; Jia Sun; Junliang Yang",
+      "institutions": "作者单位尚未由本轮可读正文核实",
+      "journal": "The Journal of Physical Chemistry Letters（Online First）",
+      "date": "3 Oct 2026",
+      "doi": "https://doi.org/10.1021/acs.jpclett.6c02965",
+      "fullText": "",
+      "access": "摘要级：已核对出版社向 Crossref 提交的 Online First 日期、完整作者与摘要；ACS 正文/Methods/SI 本轮未取得，以下未给出的工艺或测量参数均不推测。没有可用的浙江大学机构登录会话。",
+      "rating": "A",
+      "method": "graphene/MoTe₂/Ag 或 Pt 范德瓦耳斯垂直接触；电学转移曲线",
+      "category": "二维材料与量子器件",
+      "tags": [
+        "正式期刊",
+        "摘要级",
+        "MoTe2",
+        "垂直晶体管",
+        "接触工程"
+      ],
+      "abstract": "出版社摘要：通过 graphene/MoTe₂/Ag 和 graphene/MoTe₂/Pt 接触功函数差，分别取得 n 型和 p 型工作；约 5 nm p 型器件开关比 >10⁴，并将相反极性的垂直晶体管集成为单芯片互补反相器。",
+      "conclusion": "同一 MoTe₂ 沟道不必靠替换半导体来获得互补极性，而是通过顶部 Ag/Pt 和底部石墨烯功函数工程改变载流子注入。高开关比与反相器展示了器件潜力，但摘要不够判断器件间离散性与界面反应。",
+      "sections": [
+        {
+          "title": "问题与设计",
+          "text": "超薄垂直沟道因隧穿与肖特基注入共同作用，极性可控性比横向晶体管复杂。作者在底部 graphene 与 MoTe₂ 间采用 vdW 集成，用 Ag/Pt 顶电极分别形成 n/p 注入，另调石墨烯功函数；相反极性两只器件构成反相器，是比单管转移曲线更严格的功能验证。"
+        },
+        {
+          "title": "结构、质量与物性",
+          "text": "摘要给出约 5 nm MoTe₂ p 型器件及 >10⁴ 开关比；未给 MoTe₂ 制备路线、层数分布、晶相、边缘氧化、栅介质、电极厚度、转移污染、测量温度、偏压、样品和器件统计，均标为正文未读取。Ag 与 Pt 的接触功函数解释应以 UPS/KPFM 或受控电极对照支持，单一转移曲线也可能被陷阱滞后改变。"
+        },
+        {
+          "title": "证据与下一步",
+          "text": "直接观察是 n/p 转移曲线、5 nm 器件开关比与反相器电压传输；“能带对齐调控势垒”为作者解释。本站建议同时测双向栅扫描、变温 I–V、接触电阻和操作寿命，并逐器件保存 MoTe₂ 厚度、顶部金属、石墨烯功函数处理与阈值。反相器需要核对电压增益和噪声容限，而不是只展示一个输出翻转。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜二维垂直器件方向",
+        "first": "先读 Ag/Pt 两组相反极性的转移曲线、约 5 nm p 型管和反相器电压传输，再核接触制备 Methods。",
+        "focus": "核对 >10⁴ 的漏电和工作电压、石墨烯功函数校准、双向扫描滞后；一般 CMOS 背景可略读。",
+        "next": "同批 MoTe₂ 上固定几何，交换 Ag/Pt 并补 KPFM 与变温接触电阻。"
+      },
+      "versionNote": "2026-10-03 J. Phys. Chem. Lett. 在线正式 DOI；未取得正文或 SI。"
     }
   ]
 }
