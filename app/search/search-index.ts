@@ -1,10 +1,6550 @@
 // 由 scripts/build-search-index.mjs 自动生成，请勿手工编辑。
 export default [
   {
+    "id": "doi:10.1021/acsnano.6c07014",
+    "title": "Unexpected 4 × 4 Charge Density Wave in 1H-NbTe2 Monolayer",
+    "authors": "Noor ul Ain, Alireza Amiri, Fabian Calleja, Beatriz Muñiz Cano, Archit Dhingra, Riccardo Rurali, Amadeo L. Vázquez de Parga, Rodolfo Miranda, Miguel A. Valbuena, Enric Canadell, Jose Angel Silva-Guillén, Manuela Garnica",
+    "institutions": "西班牙 IMDEA Nanociencia、ICMAB-CSIC 与马德里自治大学等；按 Crossref 作者单位元数据核对",
+    "journal": "ACS Nano（正式期刊；Online First）",
+    "material": "单层 1H-NbTe₂",
+    "method": "Ir(111) 上外延石墨烯衬底的 MBE；STM/STS；ARPES；DFT",
+    "category": "二维材料与量子器件",
+    "tags": [
+      "正式期刊",
+      "摘要级",
+      "MBE",
+      "电荷密度波",
+      "STM/ARPES"
+    ],
+    "abstract": "出版社提交的摘要称：在 Ir(111) 支撑的外延石墨烯上，以 MBE 制得亚稳 1H-NbTe₂ 二维岛；六方晶格、特征谱及镜像孪晶边界共同用于辨相。STS、ARPES 与 DFT 支持金属性和结构稳定性，低温 STS 观察 4×4 调制，作者以声子不稳定性解释 CDW。摘要没有给定生长与测量的具体数字。",
+    "conclusion": "块体 NbTe₂ 常以 1T 多型讨论，这篇工作却在石墨烯/Ir(111) 上做出亚稳的单层 1H 岛。其低温 STM/STS 看到 4×4 周期电荷调制，再用 ARPES 与 DFT 连起金属性和声子失稳；关键故事是“先控制多型，才能判对 CDW”，但声子驱动机制仍需正文与独立振动谱核实。",
+    "summary": "科学问题与既有工作差异：NbTe₂ 的体相常为 1T，而 NbSe₂/NbS₂ 更常见 2H/1H 配位。先前 2024 年 Nano Letters 理论已提出某些实验 4×4 周期可能归 1H 堆垛；这次 ACS Nano 摘要声称在 MBE 制得的单层岛上给出结构与谱学联动的实验确认。因此创新点不是首次想象 4×4，而是把难稳定的 1H 多型、镜像孪晶、低温 STS 周期及 ARPES 金属性放在同一个样品平台上。\n样品、生长与质量：已知和未知：摘要直接确认样品为 Ir(111) 上的外延石墨烯支撑单层 1H-NbTe₂ 岛，以 MBE 合成；六方晶格、特征能谱和镜像孪晶边界是相身份线索。原料 Nb/Te 纯度与通量比、基底清洗、MBE 基压、生长温度/时长、退火、覆盖率、岛尺寸、厚度统计与批次成品率：摘要未报告，正文未读取，不作经验补写。镜像边界本身还可能改变局域态，分析 4×4 图时需要明确远离边界的区域。\n测量、直接观察与模型界线：摘要给出 STM/STS、ARPES 和 DFT 的互证路径，但没有报告 STM 温度/偏压/电流、ARPES 光子能量和能量分辨率、CDW 开隙大小或转变温度。直接观察应限于低温 STS 的 4×4 调制与各方法实际谱图；金属性来自 ARPES/STS 相互比较；“声子不稳定性解释 4×4”属计算模型和作者推断，不等于已由非弹性谱直接测出软模。需要检查 4×4 峰在不同偏压、不同岛、不同孪晶方向是否一致，并排除石墨烯/Ir 莫尔周期、尖端伪影及杂相。\n复现风险与下一炉建议：复现时先以可测的基底/薄膜轴记录外延关系，按 Te/Nb 通量比、基底温度和后退火作最小矩阵；每个岛保存高度、原子分辨晶格、边界位置、STS 傅里叶峰和 ARPES 测点对应关系。若要检验声子驱动，可在温度扫描中追 4×4 峰强和能隙，并联测 Raman/电子能量损失或可用的声子谱，再与 DFT 的波矢相比较。没有读到 Methods 前，这只是实验设计建议，绝不是作者已报告的配方。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-03",
+    "type": "article",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://doi.org/10.1021/acsnano.6c07014",
+    "doi": "10.1021/acsnano.6c07014",
+    "openAccess": null,
+    "dataSource": "站内简报",
+    "fullText": "https://doi.org/10.1021/acsnano.6c07014",
+    "reportUrl": "/reports/2026-10-03/#paper-1",
+    "access": "摘要级：ACS 论文页本轮返回 403；实际核对 Crossref 的出版社提交摘要、作者及 2026-10-03 online 日期，未读取 ACS 正文、Methods 或 SI，也未取得合法公开作者稿。",
+    "rating": "A+",
+    "sections": [
+      {
+        "title": "科学问题与既有工作差异",
+        "text": "NbTe₂ 的体相常为 1T，而 NbSe₂/NbS₂ 更常见 2H/1H 配位。先前 2024 年 Nano Letters 理论已提出某些实验 4×4 周期可能归 1H 堆垛；这次 ACS Nano 摘要声称在 MBE 制得的单层岛上给出结构与谱学联动的实验确认。因此创新点不是首次想象 4×4，而是把难稳定的 1H 多型、镜像孪晶、低温 STS 周期及 ARPES 金属性放在同一个样品平台上。"
+      },
+      {
+        "title": "样品、生长与质量：已知和未知",
+        "text": "摘要直接确认样品为 Ir(111) 上的外延石墨烯支撑单层 1H-NbTe₂ 岛，以 MBE 合成；六方晶格、特征能谱和镜像孪晶边界是相身份线索。原料 Nb/Te 纯度与通量比、基底清洗、MBE 基压、生长温度/时长、退火、覆盖率、岛尺寸、厚度统计与批次成品率：摘要未报告，正文未读取，不作经验补写。镜像边界本身还可能改变局域态，分析 4×4 图时需要明确远离边界的区域。"
+      },
+      {
+        "title": "测量、直接观察与模型界线",
+        "text": "摘要给出 STM/STS、ARPES 和 DFT 的互证路径，但没有报告 STM 温度/偏压/电流、ARPES 光子能量和能量分辨率、CDW 开隙大小或转变温度。直接观察应限于低温 STS 的 4×4 调制与各方法实际谱图；金属性来自 ARPES/STS 相互比较；“声子不稳定性解释 4×4”属计算模型和作者推断，不等于已由非弹性谱直接测出软模。需要检查 4×4 峰在不同偏压、不同岛、不同孪晶方向是否一致，并排除石墨烯/Ir 莫尔周期、尖端伪影及杂相。"
+      },
+      {
+        "title": "复现风险与下一炉建议",
+        "text": "复现时先以可测的基底/薄膜轴记录外延关系，按 Te/Nb 通量比、基底温度和后退火作最小矩阵；每个岛保存高度、原子分辨晶格、边界位置、STS 傅里叶峰和 ARPES 测点对应关系。若要检验声子驱动，可在温度扫描中追 4×4 峰强和能隙，并联测 Raman/电子能量损失或可用的声子谱，再与 DFT 的波矢相比较。没有读到 Methods 前，这只是实验设计建议，绝不是作者已报告的配方。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A+｜二维生长、STM 与 CDW 方向",
+      "first": "取得授权正文后先读 MBE 在 graphene/Ir(111) 上稳定 1H 岛的 Methods 与相鉴定图，再核 STM/STS 的 4×4 傅里叶峰和 ARPES 费米面；不要只看示意结构图。",
+      "focus": "核查 1H/1T 判据是否同时有原子结构与谱学，4×4 是否在多岛和远离镜像孪晶边界复现；摘要未给温度、通量或能隙，不能自行补数。可略读与 1H/1T 判别无关的常规背景。",
+      "next": "做 Te/Nb 通量—温度二维矩阵，并在同岛远离/靠近孪晶边界做变温 STS 与独立结构测量。"
+    },
+    "growthRecipe": {
+      "material": "单层 1H-NbTe₂",
+      "actualComposition": "",
+      "method": "MBE",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "原料 Nb/Te 纯度与通量比、基底清洗、MBE 基压、生长温度/时长、退火、覆盖率、岛尺寸、厚度统计与批次成品率：摘要未报告，正文未读取，不作",
+      "purity": "纯度与通量比、基底清洗、MBE 基压、生长温度/时长、退火、覆盖率、岛尺寸、厚度统计与批次成品率：摘要未报告，正文未读取，不作经验补写",
+      "vessel": "",
+      "atmosphere": "",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "退火、覆盖率、岛尺寸、厚度统计与批次成品率：摘要未报告，正文未读取，不作经验补写",
+      "crystalSize": "",
+      "yield": "",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 4,
+        "total": 15,
+        "ratio": 0.26666666666666666
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "科学问题与既有工作差异",
+        "text": "NbTe₂ 的体相常为 1T，而 NbSe₂/NbS₂ 更常见 2H/1H 配位。先前 2024 年 Nano Letters 理论已提出某些实验 4×4 周期可能归 1H 堆垛；这次 ACS Nano 摘要声称在 MBE 制得的单层岛上给出结构与谱学联动的实验确认。因此创新点不是首次想象 4×4，而是把难稳定的 1H 多型、镜像孪晶、低温 STS 周期及 ARPES 金属性放在同一个样品平台上。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "样品、生长与质量：已知和未知",
+        "text": "摘要直接确认样品为 Ir(111) 上的外延石墨烯支撑单层 1H-NbTe₂ 岛，以 MBE 合成；六方晶格、特征能谱和镜像孪晶边界是相身份线索。原料 Nb/Te 纯度与通量比、基底清洗、MBE 基压、生长温度/时长、退火、覆盖率、岛尺寸、厚度统计与批次成品率：摘要未报告，正文未读取，不作经验补写。镜像边界本身还可能改变局域态，分析 4×4 图时需要明确远离边界的区域。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-3",
+        "title": "测量、直接观察与模型界线",
+        "text": "摘要给出 STM/STS、ARPES 和 DFT 的互证路径，但没有报告 STM 温度/偏压/电流、ARPES 光子能量和能量分辨率、CDW 开隙大小或转变温度。直接观察应限于低温 STS 的 4×4 调制与各方法实际谱图；金属性来自 ARPES/STS 相互比较；“声子不稳定性解释 4×4”属计算模型和作者推断，不等于已由非弹性谱直接测出软模。需要检查 4×4 峰在不同偏压、不同岛、不同孪晶方向是否一致，并排除石墨烯/Ir 莫尔周期、尖端伪影及杂相。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-4",
+        "title": "复现风险与下一炉建议",
+        "text": "复现时先以可测的基底/薄膜轴记录外延关系，按 Te/Nb 通量比、基底温度和后退火作最小矩阵；每个岛保存高度、原子分辨晶格、边界位置、STS 傅里叶峰和 ARPES 测点对应关系。若要检验声子驱动，可在温度扫描中追 4×4 峰强和能隙，并联测 Raman/电子能量损失或可用的声子谱，再与 DFT 的波矢相比较。没有读到 Methods 前，这只是实验设计建议，绝不是作者已报告的配方。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "STM、ARPES、Raman；证据仍可补强",
+      "reproducibility": "4/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "doi:10.1038/s41524-026-02337-x",
+    "title": "Unsupervised machine learning for automated crystal orientation mapping on noisy 4D-STEM data",
+    "authors": "Kai Kamijo, Motoki Shiga, Shusuke Kanomi, Tomohiro Miyata, Hiroshi Jinnai",
+    "institutions": "日本东北大学信息科学研究科、多元物质科学研究所；日本物质·材料研究机构；理化学研究所；三菱化学",
+    "journal": "npj Computational Materials（正式期刊；开放获取）",
+    "material": "iPS 球晶／4D-STEM",
+    "method": "低剂量 4D-STEM；4D-SSD 自监督去噪；旋转等变 NMF",
+    "category": "晶体生长和物性调控",
+    "tags": [
+      "正式期刊",
+      "全文精读",
+      "晶体质量表征",
+      "4D-STEM",
+      "方法论文"
+    ],
+    "abstract": "正式版摘要：作者提出从严重噪声的 4D-STEM 衍射数据自动提取晶体取向和微结构分量的两级流程，并在合成数据与等规聚苯乙烯球晶的实测数据上验证。这里的实际样品是束流敏感聚合物，并非新的量子材料单晶；本站纳入是因为方法可迁移到晶体缺陷、取向及畴结构质控。",
+    "conclusion": "论文讲的是如何把原本必须由专家逐张判读的低剂量 4D-STEM 衍射图，变成可复核的取向图：先利用相邻扫描位置做自监督去噪，再把旋转后的衍射图视作同一晶体分量做无监督分解。实验球晶中，主层片的方向与人工判读相符，还显出此前未标注的弱分量；这些弱分量尚不能自动给出可靠晶向。",
+    "summary": "问题、样品与可迁移边界：4D-STEM 在每个实空间探针位置保存一张倒空间衍射图，提供晶体取向和局部层片分布，但对束流敏感样品必须降低电子剂量，衍射斑点会被 Poisson 计数噪声掩盖。作者以等规聚苯乙烯（iPS）球晶为实测对象，把平放（flat-on）与侧立（edge-on）层片作为区分目标；这不是新材料生长论文，也没有报告单晶 Flux/CVT 温程。对量子材料实验室的意义是：如果移用于 α-RuCl₃ 堆垛、Fe₃GeTe₂ 层错或外延镍酸盐畴图，必须先做材料专属的衍射索引与剂量验证，不能直接沿用 iPS 的模型权重。\n原始数据与处理链：作者真正做了什么：公开预印本 Fig.1 和 Methods 先以 blind-spot 网络预测目标像素，避免把同一噪声像素直接当训练标签。2D-SSD 只用一张衍射图的邻域；4D-SSD 额外使用实空间 3×3 探针邻域的九张图，从相邻测点共享的晶体信息恢复弱斑点。作者用 Anscombe 变换处理 Poisson 噪声，再做高通增强、极坐标与角向 Fourier 变换，最后以非负矩阵分解（NMF）提取与面内旋转等变的结构分量。这个顺序很关键：如果先任意增强高频，噪声也会被当作弱衍射斑；如果不处理旋转，同一晶粒方向的变化可能被误拆成多个物相。\n模拟对照与可核数值：Methods 的合成例在 200 kV 下计算四类晶体取向的衍射图，以 100×100 探针位置构成 10,000 个训练样本，并注入 Poisson 噪声。Fig.2–5 比较原始图、高斯平滑、2D-SSD 和 4D-SSD，同时追踪分量强度及角度与真值的 Pearson 相关。公开预印本 Table 1 在模拟噪声参数 ws=0.2 时，原始 PSNR 为 −1.06±0.24 dB，高斯滤波 11.27±0.20 dB、2D-SSD 13.47±0.28 dB、4D-SSD 13.56±0.22 dB。4D 与 2D 在像素级 PSNR 只差 0.09 dB，不能据此声称显著超越；Fig.5 更有判别力，因为 4D 利用邻点信息提高了分量及角度重建的稳健性。\n实测球晶：最强证据在哪里：Fig.6–9 的实测数据是既有研究的 iPS 球晶 500×500 个扫描位置（共 250,000 张衍射图）；模型随机选 10,000 目标位置训练，训练／验证按 8:2 划分。ADF-STEM 图通过衍射图中心 1.27–4.43 nm⁻¹ 环带积分产生；该环带是成像处理范围，不是晶格常数。Table 1 实测 uPSNR：高斯 37.49±0.52 dB，2D-SSD 50.56±3.45 dB，4D-SSD 50.74±3.56 dB。两种自监督法都较高斯滤波改善超过 10 dB，但 2D/4D 的平均差 0.18 dB 小于各自散布。作者进一步以七个 NMF 分量分离主层片：I/II 对应 flat-on，III/IV 对应 edge-on，VII 是背景，V/VI 是此前人工分析未强调的弱分量。主区取向与旧的专家图相符；V/VI 尚混有多种微弱组分，不能把它们直接命名为新晶相。\n证据层级、误差与替代解释：直接观察是低剂量衍射原始像、去噪后的斑点及其空间分布；PSNR/uPSNR、NMF 分量强度和面内角度是处理与模型产物；“自动发现遗漏晶体组分”是作者解释；本站判断是弱分量更需要独立索引与原始帧复核。实测无干净真值，uPSNR 依赖对邻域噪声和强度尺度的统计假设，不能充当衍射索引正确率。邻点共享信息可能在晶界两侧造成过度平滑：若 3×3 邻域跨晶界，网络可能把真实窄畴边混合。作者也承认复杂微结构的 Miller 指数自动赋值仍困难。最强证据是合成真值、实测同区域专家解释与结构分量图三方比较；最弱环节是新弱分量的独立物相/取向验证。\n制备、测量和缺失项逐项说明：公开稿以先前论文获取的 iPS 数据作方法验证，本次没有报告新的聚合物制备或晶体生长炉次；原料纯度、名义/实测成分、助熔剂或输运剂、坩埚/安瓿、气氛/真空、升降温程序、退火、产率：正文未报告，且这些不是本算法论文的控制变量。样品厚度、电子剂量、束流电流、探针步长、晶体尺寸及批次离散：本轮已读正文未给出足以统一填表的完整数值，需要回溯原始 iPS 数据论文及正式 SI。预印本 Methods 给出 200 kV 是合成衍射计算参数，不可误写成所有实测扫描的显微镜加速电压。没有 RRR、磁化、比热或输运性质测量，本篇所谓“质量”是取向与微结构判读质量，而非物性性能。\n下一次实验与复现检查单：建议选一块已有 Laue/XRD 或高分辨 TEM 基准的真实量子晶体，先固定剂量、探针步长与相机长度采 4D-STEM 原始帧；保存四级产物：原始计数、Anscombe/4D-SSD 去噪、NMF 分量、独立晶体学索引。留出跨晶界区域及低强度斑点作盲验证，逐区域核人工索引与自动角度差，而不仅比较 uPSNR；在 3×3 邻域与 1×1、5×5 对照中检验窄畴是否被涂抹。对 V/VI 类弱分量先做独立区域的原始帧叠加、选区衍射和样品倾转，确认它们不是束挡边缘、厚度变化或高通滤波伪影。若结果进入生长数据库，应把模型版本、训练/验证分割、排除像素、剂量和人工复核结果与样品炉次绑定。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-03",
+    "type": "article",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://doi.org/10.1038/s41524-026-02337-x",
+    "doi": "10.1038/s41524-026-02337-x",
+    "openAccess": null,
+    "dataSource": "站内简报",
+    "fullText": "https://www.researchsquare.com/article/rs-9374144/v1",
+    "reportUrl": "/reports/2026-10-03/#paper-2",
+    "access": "全文精读：实际读取作者公开预印本正文的 Results、Methods、Fig.1–9 与 Table 1；正式期刊官网可核摘要和 DOI，但本轮页面触发 Client Challenge；未读取正式版 SI，未逐页校对正式版与预印本差异。",
+    "rating": "A",
+    "sections": [
+      {
+        "title": "问题、样品与可迁移边界",
+        "text": "4D-STEM 在每个实空间探针位置保存一张倒空间衍射图，提供晶体取向和局部层片分布，但对束流敏感样品必须降低电子剂量，衍射斑点会被 Poisson 计数噪声掩盖。作者以等规聚苯乙烯（iPS）球晶为实测对象，把平放（flat-on）与侧立（edge-on）层片作为区分目标；这不是新材料生长论文，也没有报告单晶 Flux/CVT 温程。对量子材料实验室的意义是：如果移用于 α-RuCl₃ 堆垛、Fe₃GeTe₂ 层错或外延镍酸盐畴图，必须先做材料专属的衍射索引与剂量验证，不能直接沿用 iPS 的模型权重。"
+      },
+      {
+        "title": "原始数据与处理链：作者真正做了什么",
+        "text": "公开预印本 Fig.1 和 Methods 先以 blind-spot 网络预测目标像素，避免把同一噪声像素直接当训练标签。2D-SSD 只用一张衍射图的邻域；4D-SSD 额外使用实空间 3×3 探针邻域的九张图，从相邻测点共享的晶体信息恢复弱斑点。作者用 Anscombe 变换处理 Poisson 噪声，再做高通增强、极坐标与角向 Fourier 变换，最后以非负矩阵分解（NMF）提取与面内旋转等变的结构分量。这个顺序很关键：如果先任意增强高频，噪声也会被当作弱衍射斑；如果不处理旋转，同一晶粒方向的变化可能被误拆成多个物相。"
+      },
+      {
+        "title": "模拟对照与可核数值",
+        "text": "Methods 的合成例在 200 kV 下计算四类晶体取向的衍射图，以 100×100 探针位置构成 10,000 个训练样本，并注入 Poisson 噪声。Fig.2–5 比较原始图、高斯平滑、2D-SSD 和 4D-SSD，同时追踪分量强度及角度与真值的 Pearson 相关。公开预印本 Table 1 在模拟噪声参数 ws=0.2 时，原始 PSNR 为 −1.06±0.24 dB，高斯滤波 11.27±0.20 dB、2D-SSD 13.47±0.28 dB、4D-SSD 13.56±0.22 dB。4D 与 2D 在像素级 PSNR 只差 0.09 dB，不能据此声称显著超越；Fig.5 更有判别力，因为 4D 利用邻点信息提高了分量及角度重建的稳健性。"
+      },
+      {
+        "title": "实测球晶：最强证据在哪里",
+        "text": "Fig.6–9 的实测数据是既有研究的 iPS 球晶 500×500 个扫描位置（共 250,000 张衍射图）；模型随机选 10,000 目标位置训练，训练／验证按 8:2 划分。ADF-STEM 图通过衍射图中心 1.27–4.43 nm⁻¹ 环带积分产生；该环带是成像处理范围，不是晶格常数。Table 1 实测 uPSNR：高斯 37.49±0.52 dB，2D-SSD 50.56±3.45 dB，4D-SSD 50.74±3.56 dB。两种自监督法都较高斯滤波改善超过 10 dB，但 2D/4D 的平均差 0.18 dB 小于各自散布。作者进一步以七个 NMF 分量分离主层片：I/II 对应 flat-on，III/IV 对应 edge-on，VII 是背景，V/VI 是此前人工分析未强调的弱分量。主区取向与旧的专家图相符；V/VI 尚混有多种微弱组分，不能把它们直接命名为新晶相。"
+      },
+      {
+        "title": "证据层级、误差与替代解释",
+        "text": "直接观察是低剂量衍射原始像、去噪后的斑点及其空间分布；PSNR/uPSNR、NMF 分量强度和面内角度是处理与模型产物；“自动发现遗漏晶体组分”是作者解释；本站判断是弱分量更需要独立索引与原始帧复核。实测无干净真值，uPSNR 依赖对邻域噪声和强度尺度的统计假设，不能充当衍射索引正确率。邻点共享信息可能在晶界两侧造成过度平滑：若 3×3 邻域跨晶界，网络可能把真实窄畴边混合。作者也承认复杂微结构的 Miller 指数自动赋值仍困难。最强证据是合成真值、实测同区域专家解释与结构分量图三方比较；最弱环节是新弱分量的独立物相/取向验证。"
+      },
+      {
+        "title": "制备、测量和缺失项逐项说明",
+        "text": "公开稿以先前论文获取的 iPS 数据作方法验证，本次没有报告新的聚合物制备或晶体生长炉次；原料纯度、名义/实测成分、助熔剂或输运剂、坩埚/安瓿、气氛/真空、升降温程序、退火、产率：正文未报告，且这些不是本算法论文的控制变量。样品厚度、电子剂量、束流电流、探针步长、晶体尺寸及批次离散：本轮已读正文未给出足以统一填表的完整数值，需要回溯原始 iPS 数据论文及正式 SI。预印本 Methods 给出 200 kV 是合成衍射计算参数，不可误写成所有实测扫描的显微镜加速电压。没有 RRR、磁化、比热或输运性质测量，本篇所谓“质量”是取向与微结构判读质量，而非物性性能。"
+      },
+      {
+        "title": "下一次实验与复现检查单",
+        "text": "建议选一块已有 Laue/XRD 或高分辨 TEM 基准的真实量子晶体，先固定剂量、探针步长与相机长度采 4D-STEM 原始帧；保存四级产物：原始计数、Anscombe/4D-SSD 去噪、NMF 分量、独立晶体学索引。留出跨晶界区域及低强度斑点作盲验证，逐区域核人工索引与自动角度差，而不仅比较 uPSNR；在 3×3 邻域与 1×1、5×5 对照中检验窄畴是否被涂抹。对 V/VI 类弱分量先做独立区域的原始帧叠加、选区衍射和样品倾转，确认它们不是束挡边缘、厚度变化或高通滤波伪影。若结果进入生长数据库，应把模型版本、训练/验证分割、排除像素、剂量和人工复核结果与样品炉次绑定。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A｜做结构质量、畴/层错表征的实验人员",
+      "first": "先看公开稿 Fig.1 的处理顺序，再读 Methods 的 3×3 邻域、10,000 样本和 8:2 分割；随后对照 Table 1 与 Fig.5、Fig.6–9。",
+      "focus": "重点核 Table 1 的真实 uPSNR 37.49/50.56/50.74 dB，切勿把 4D 相对 2D 的 0.18 dB 说成显著提升；Fig.8 的 V/VI 弱分量尚未可靠索引。可略读网络编码器的逐层实现，但不要跳过邻域泄漏和晶界对照。",
+      "next": "用一块有独立衍射基准的晶体做剂量—步长—3×3 邻域矩阵，报告角度误差及晶界宽度，再决定是否入库为自动样品质检。"
+    },
+    "growthRecipe": {
+      "material": "iPS 球晶／4D-STEM",
+      "actualComposition": "",
+      "method": "CVT",
+      "transportAgent": "",
+      "flux": "Flux/CVT 温程",
+      "ratio": "原料纯度、名义/实测成分、助熔剂或输运剂、坩埚/安瓿、气氛/真空、升降温程序、退火、产率：正文未报告，且这些不是本算法论文的控制变量",
+      "purity": "纯度、名义/实测成分、助熔剂或输运剂、坩埚/安瓿、气氛/真空、升降温程序、退火、产率：正文未报告，且这些不是本算法论文的控制变量",
+      "vessel": "坩埚/安瓿、气氛/真空、升降温程序、退火、产率：正文未报告，且这些不是本算法论文的控制变量",
+      "atmosphere": "真空、升降温程序、退火、产率：正文未报告，且这些不是本算法论文的控制变量",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "退火、产率：正文未报告，且这些不是本算法论文的控制变量",
+      "crystalSize": "4.43 nm",
+      "yield": "产率：正文未报告，且这些不是本算法论文的控制变量",
+      "qualityMetrics": [
+        "RRR、磁化、比热或输运性质测量，本篇所谓“质量”是取向与微结构判读质量，而非物性性能"
+      ],
+      "completeness": {
+        "reported": 9,
+        "total": 15,
+        "ratio": 0.6
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题、样品与可迁移边界",
+        "text": "4D-STEM 在每个实空间探针位置保存一张倒空间衍射图，提供晶体取向和局部层片分布，但对束流敏感样品必须降低电子剂量，衍射斑点会被 Poisson 计数噪声掩盖。作者以等规聚苯乙烯（iPS）球晶为实测对象，把平放（flat-on）与侧立（edge-on）层片作为区分目标；这不是新材料生长论文，也没有报告单晶 Flux/CVT 温程。对量子材料实验室的意义是：如果移用于 α-RuCl₃ 堆垛、Fe₃GeTe₂ 层错或外延镍酸盐畴图，必须先做材料专属的衍射索引与剂量验证，不能直接沿用 iPS 的模型权重。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-2",
+        "title": "原始数据与处理链：作者真正做了什么",
+        "text": "公开预印本 Fig.1 和 Methods 先以 blind-spot 网络预测目标像素，避免把同一噪声像素直接当训练标签。2D-SSD 只用一张衍射图的邻域；4D-SSD 额外使用实空间 3×3 探针邻域的九张图，从相邻测点共享的晶体信息恢复弱斑点。作者用 Anscombe 变换处理 Poisson 噪声，再做高通增强、极坐标与角向 Fourier 变换，最后以非负矩阵分解（NMF）提取与面内旋转等变的结构分量。这个顺序很关键：如果先任意增强高频，噪声也会被当作弱衍射斑；如果不处理旋转，同一晶粒方向的变化可能被误拆成多个物相。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-3",
+        "title": "模拟对照与可核数值",
+        "text": "Methods 的合成例在 200 kV 下计算四类晶体取向的衍射图，以 100×100 探针位置构成 10,000 个训练样本，并注入 Poisson 噪声。Fig.2–5 比较原始图、高斯平滑、2D-SSD 和 4D-SSD，同时追踪分量强度及角度与真值的 Pearson 相关。公开预印本 Table 1 在模拟噪声参数 ws=0.2 时，原始 PSNR 为 −1.06±0.24 dB，高斯滤波 11.27±0.20 dB、2D-SSD 13.47±0.28 dB、4D-SSD 13.56±0.22 dB。4D 与 2D 在像素级 PSNR 只差 0.09 dB，不能据此声称显著超越；Fig.5 更有判别力，因为 4D 利用邻点信息提高了分量及角度重建的稳健性。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-4",
+        "title": "实测球晶：最强证据在哪里",
+        "text": "Fig.6–9 的实测数据是既有研究的 iPS 球晶 500×500 个扫描位置（共 250,000 张衍射图）；模型随机选 10,000 目标位置训练，训练／验证按 8:2 划分。ADF-STEM 图通过衍射图中心 1.27–4.43 nm⁻¹ 环带积分产生；该环带是成像处理范围，不是晶格常数。Table 1 实测 uPSNR：高斯 37.49±0.52 dB，2D-SSD 50.56±3.45 dB，4D-SSD 50.74±3.56 dB。两种自监督法都较高斯滤波改善超过 10 dB，但 2D/4D 的平均差 0.18 dB 小于各自散布。作者进一步以七个 NMF 分量分离主层片：I/II 对应 flat-on，III/IV 对应 edge-on，VII 是背景，V/VI 是此前人工分析未强调的弱分量。主区取向与旧的专家图相符；V/VI 尚混有多种微弱组分，不能把它们直接命名为新晶相。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-5",
+        "title": "证据层级、误差与替代解释",
+        "text": "直接观察是低剂量衍射原始像、去噪后的斑点及其空间分布；PSNR/uPSNR、NMF 分量强度和面内角度是处理与模型产物；“自动发现遗漏晶体组分”是作者解释；本站判断是弱分量更需要独立索引与原始帧复核。实测无干净真值，uPSNR 依赖对邻域噪声和强度尺度的统计假设，不能充当衍射索引正确率。邻点共享信息可能在晶界两侧造成过度平滑：若 3×3 邻域跨晶界，网络可能把真实窄畴边混合。作者也承认复杂微结构的 Miller 指数自动赋值仍困难。最强证据是合成真值、实测同区域专家解释与结构分量图三方比较；最弱环节是新弱分量的独立物相/取向验证。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-6",
+        "title": "制备、测量和缺失项逐项说明",
+        "text": "公开稿以先前论文获取的 iPS 数据作方法验证，本次没有报告新的聚合物制备或晶体生长炉次；原料纯度、名义/实测成分、助熔剂或输运剂、坩埚/安瓿、气氛/真空、升降温程序、退火、产率：正文未报告，且这些不是本算法论文的控制变量。样品厚度、电子剂量、束流电流、探针步长、晶体尺寸及批次离散：本轮已读正文未给出足以统一填表的完整数值，需要回溯原始 iPS 数据论文及正式 SI。预印本 Methods 给出 200 kV 是合成衍射计算参数，不可误写成所有实测扫描的显微镜加速电压。没有 RRR、磁化、比热或输运性质测量，本篇所谓“质量”是取向与微结构判读质量，而非物性性能。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-7",
+        "title": "下一次实验与复现检查单",
+        "text": "建议选一块已有 Laue/XRD 或高分辨 TEM 基准的真实量子晶体，先固定剂量、探针步长与相机长度采 4D-STEM 原始帧；保存四级产物：原始计数、Anscombe/4D-SSD 去噪、NMF 分量、独立晶体学索引。留出跨晶界区域及低强度斑点作盲验证，逐区域核人工索引与自动角度差，而不仅比较 uPSNR；在 3×3 邻域与 1×1、5×5 对照中检验窄畴是否被涂抹。对 V/VI 类弱分量先做独立区域的原始帧叠加、选区衍射和样品倾转，确认它们不是束挡边缘、厚度变化或高通滤波伪影。若结果进入生长数据库，应把模型版本、训练/验证分割、排除像素、剂量和人工复核结果与样品炉次绑定。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "正文 + Methods + SI",
+      "sampleCredibility": "XRD、Laue、TEM、比热 多方法互证",
+      "reproducibility": "9/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "中等"
+    }
+  },
+  {
+    "id": "arxiv:2610.02006",
+    "title": "Magnetic Phase Diagrams and Spin Hamiltonian of Monoclinic $\\alpha$-RuCl$_3$ from Angle-Dependent Torque Studies",
+    "authors": "Antoniou, Daniel, Ni, Danrui, Pearce, John S., Cava, Robert J., Coldea, Amalia I., Coldea, Radu",
+    "institutions": "作者单位见 arXiv 原文；本轮未逐一归一化机构名称",
+    "journal": "arXiv（cond-mat；独立预印本）",
+    "material": "α-RuCl₃",
+    "method": "无外加输运剂 CVT；压电悬臂磁力矩",
+    "category": "晶体生长和物性调控",
+    "tags": [
+      "arXiv v1",
+      "全文精读"
+    ],
+    "abstract": "II 节使用 Alfa Aesar 无水 α-RuCl₃ 粉料，不额外加入输运剂，在 750 °C 源端与 650 °C 生长端作 CVT，机械从生长物中选小片。已读正文没有报告安瓿尺寸、抽真空数值、持续时间、降温程序、产率与多炉分布，这些不能靠常见 CVT 配方补齐。PPMS 中使用 Seiko PRC400 压电悬臂做 2 K 到高温、最高 16 T 的角分辨力矩；角度、场方向和晶体取向必须与低温结构同时标注。",
+    "conclusion": "把 α-RuCl₃ 的“结构史”纳入磁相图：筛选未孪晶、始终保持 C2/m 的小晶体，14 K 有尖锐磁转变；在 16 T 多平面角度扫描中，相边界明显不同于常见低温菱方、约 7 K 转变的大晶体。力矩异常是直接观测，候选自旋结构来自平均场模型。",
+    "summary": "问题与样品身份：α-RuCl₃ 常被拿来讨论 Kitaev 相邻磁态，但样品的低温堆垛和孪晶会改变观测到的转变温度。作者选同炉小于 100 μm、未孪晶且维持 C2/m 的片晶，出现约 14 K 磁转变，与常见约 7 K、低温菱方样品区分开。这项工作的关键不是仅把力矩异常画得更密，而是先保证被比较的晶体是同一种结构史。\n生长与测量边界：II 节使用 Alfa Aesar 无水 α-RuCl₃ 粉料，不额外加入输运剂，在 750 °C 源端与 650 °C 生长端作 CVT，机械从生长物中选小片。已读正文没有报告安瓿尺寸、抽真空数值、持续时间、降温程序、产率与多炉分布，这些不能靠常见 CVT 配方补齐。PPMS 中使用 Seiko PRC400 压电悬臂做 2 K 到高温、最高 16 T 的角分辨力矩；角度、场方向和晶体取向必须与低温结构同时标注。\n直接数据、模型和局限：直接观察是各旋转平面中力矩曲线、其导数与异常场的位置；XRD/Appendix A 用于识别孪晶，Appendix C 示范孪晶可能带出额外边界。作者以平均场模型匹配候选自旋结构和场诱导相，但不同微观哈密顿量可能给出相似力矩特征，不能把模型相名直接当成中子衍射确定的自旋排布。16 T 内的相边界也不应外推到更高场的自旋液体区。最强证据是样品筛选与多方向测量联动，最弱处是无同一片晶体的高场衍射/谱学验证。\n下一炉的判别实验：按 750/650 °C 温差重复生长时完整记录管长、装料质量、封管条件与持续时间；每一片上机前给出室温/低温单晶衍射、孪晶比例、14 K 或 7 K 转变。将力矩的三组旋转平面与同晶体比热、磁化和可能的中子散射比对。先读 II 节样品选择，再读 Appendix A/C 和主文相图；阅读时只把力矩峰视作相变候选，要求第二探针重现之后再接受新磁相归属。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-02",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2610.02006",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/html/2610.02006",
+    "reportUrl": "/reports/2026-10-02/#paper-1",
+    "access": "全文精读：已读公开正文、实验/Methods 与关键图注；",
+    "rating": "A+",
+    "sections": [
+      {
+        "title": "问题与样品身份",
+        "text": "α-RuCl₃ 常被拿来讨论 Kitaev 相邻磁态，但样品的低温堆垛和孪晶会改变观测到的转变温度。作者选同炉小于 100 μm、未孪晶且维持 C2/m 的片晶，出现约 14 K 磁转变，与常见约 7 K、低温菱方样品区分开。这项工作的关键不是仅把力矩异常画得更密，而是先保证被比较的晶体是同一种结构史。"
+      },
+      {
+        "title": "生长与测量边界",
+        "text": "II 节使用 Alfa Aesar 无水 α-RuCl₃ 粉料，不额外加入输运剂，在 750 °C 源端与 650 °C 生长端作 CVT，机械从生长物中选小片。已读正文没有报告安瓿尺寸、抽真空数值、持续时间、降温程序、产率与多炉分布，这些不能靠常见 CVT 配方补齐。PPMS 中使用 Seiko PRC400 压电悬臂做 2 K 到高温、最高 16 T 的角分辨力矩；角度、场方向和晶体取向必须与低温结构同时标注。"
+      },
+      {
+        "title": "直接数据、模型和局限",
+        "text": "直接观察是各旋转平面中力矩曲线、其导数与异常场的位置；XRD/Appendix A 用于识别孪晶，Appendix C 示范孪晶可能带出额外边界。作者以平均场模型匹配候选自旋结构和场诱导相，但不同微观哈密顿量可能给出相似力矩特征，不能把模型相名直接当成中子衍射确定的自旋排布。16 T 内的相边界也不应外推到更高场的自旋液体区。最强证据是样品筛选与多方向测量联动，最弱处是无同一片晶体的高场衍射/谱学验证。"
+      },
+      {
+        "title": "下一炉的判别实验",
+        "text": "按 750/650 °C 温差重复生长时完整记录管长、装料质量、封管条件与持续时间；每一片上机前给出室温/低温单晶衍射、孪晶比例、14 K 或 7 K 转变。将力矩的三组旋转平面与同晶体比热、磁化和可能的中子散射比对。先读 II 节样品选择，再读 Appendix A/C 和主文相图；阅读时只把力矩峰视作相变候选，要求第二探针重现之后再接受新磁相归属。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A+｜晶体生长和 Kitaev 磁体",
+      "first": "先读 II 节 750/650 °C 无外加输运剂 CVT、Appendix A 孪晶筛选，再看三个旋转平面的力矩相图。",
+      "focus": "II 节报告 Alfa Aesar 无水多晶料，不加外部输运剂，在 750/650 °C 温差 CVT 后从同炉机械取 <100 μm 薄片，XRD 排除孪晶；2 K、16 T PPMS 配 Seiko PRC400 悬臂。Appendix A 的结构筛选与 Appendix C 的双孪晶对照说明不能把多相边界全解释成新磁相。安瓿尺寸、压力、持续时间、炉冷程序及产率在已读正文未报告。",
+      "next": "下一炉在 750/650 °C 基准下记录安瓿尺度和运输时间，对每片标注孪晶体积分数、低温 C2/m 留存与 7/14 K 转变，再做同晶体角度力矩。"
+    },
+    "growthRecipe": {
+      "material": "α-RuCl₃",
+      "actualComposition": "",
+      "method": "CVT",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "",
+      "purity": "",
+      "vessel": "安瓿尺寸、抽真空数值、持续时间、降温程序、产率与多炉分布，这些不能靠常见 CVT 配方补齐",
+      "atmosphere": "真空数值、持续时间、降温程序、产率与多炉分布，这些不能靠常见 CVT 配方补齐",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "",
+      "crystalSize": "100 μm",
+      "yield": "产率与多炉分布，这些不能靠常见 CVT 配方补齐",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 5,
+        "total": 15,
+        "ratio": 0.3333333333333333
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题与样品身份",
+        "text": "α-RuCl₃ 常被拿来讨论 Kitaev 相邻磁态，但样品的低温堆垛和孪晶会改变观测到的转变温度。作者选同炉小于 100 μm、未孪晶且维持 C2/m 的片晶，出现约 14 K 磁转变，与常见约 7 K、低温菱方样品区分开。这项工作的关键不是仅把力矩异常画得更密，而是先保证被比较的晶体是同一种结构史。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "生长与测量边界",
+        "text": "II 节使用 Alfa Aesar 无水 α-RuCl₃ 粉料，不额外加入输运剂，在 750 °C 源端与 650 °C 生长端作 CVT，机械从生长物中选小片。已读正文没有报告安瓿尺寸、抽真空数值、持续时间、降温程序、产率与多炉分布，这些不能靠常见 CVT 配方补齐。PPMS 中使用 Seiko PRC400 压电悬臂做 2 K 到高温、最高 16 T 的角分辨力矩；角度、场方向和晶体取向必须与低温结构同时标注。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-3",
+        "title": "直接数据、模型和局限",
+        "text": "直接观察是各旋转平面中力矩曲线、其导数与异常场的位置；XRD/Appendix A 用于识别孪晶，Appendix C 示范孪晶可能带出额外边界。作者以平均场模型匹配候选自旋结构和场诱导相，但不同微观哈密顿量可能给出相似力矩特征，不能把模型相名直接当成中子衍射确定的自旋排布。16 T 内的相边界也不应外推到更高场的自旋液体区。最强证据是样品筛选与多方向测量联动，最弱处是无同一片晶体的高场衍射/谱学验证。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-4",
+        "title": "下一炉的判别实验",
+        "text": "按 750/650 °C 温差重复生长时完整记录管长、装料质量、封管条件与持续时间；每一片上机前给出室温/低温单晶衍射、孪晶比例、14 K 或 7 K 转变。将力矩的三组旋转平面与同晶体比热、磁化和可能的中子散射比对。先读 II 节样品选择，再读 Appendix A/C 和主文相图；阅读时只把力矩峰视作相变候选，要求第二探针重现之后再接受新磁相归属。",
+        "type": "直接观察"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "正文 + Methods",
+      "sampleCredibility": "XRD、比热、磁化、输运 多方法互证",
+      "reproducibility": "5/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "中等"
+    }
+  },
+  {
+    "id": "arxiv:2610.01757",
+    "title": "Selective suppression of electronic orders via interlayer coupling in superconducting bilayer nickelate thin films",
+    "authors": "Han, Ziao, Xiang, Lifen, Wang, Tianren, Le, Congcong, Zhan, Jun, Lei, Siyi, Francoual, Sonia, Wang, Qisi, Hu, Jiangping, Xiang, Tao, Sutarto, Ronny, Wu, Xianxin, Zhou, X. J., Zhu, Zhihai",
+    "institutions": "作者单位见 arXiv 原文；本轮未逐一归一化机构名称",
+    "journal": "arXiv（cond-mat；独立预印本）",
+    "material": "双层镍酸盐薄膜",
+    "method": "PLD；臭氧退火；REXS/XAS",
+    "category": "高温与非常规超导",
+    "tags": [
+      "arXiv v1",
+      "全文精读"
+    ],
+    "abstract": "IV.1 Methods 说明 248 nm KrF 脉冲激光在 (001) LAO 或 SLAO 上以 680 °C、150 mTorr O₂ 沉积，薄膜厚约 5.5–28 nm，冷却 5 °C/min；XRR 用于厚度标定。臭氧退火关键配方引用先前文章，本轮已读正文未列时间和臭氧分压，所以不能给出可直接照搬的完整流程。对照样品包括未替位、Pr 替位及 Sm 替位薄膜，但衬底、厚度和退火差异也会影响应变与氧位，应该做同一矩阵而非把任意两片当单变量对照。",
+    "conclusion": "用稀土等价替位压缩 c 轴、再以臭氧退火修复层间氧通道，作者把 SDW 转变由约 150 K 压至 70 K；超导样中另一种电荷样各向异性序消失，但 SDW 尚存。轨道杂化增强是 XAS 与计算合读，电荷序的微观起源未定。",
+    "summary": "核心科学问题：双层镍酸盐薄膜的超导、密度波和氧非化学计量纠缠在一起。作者用 La₂PrNi₂O₇₋δ 等等价稀土替位改变晶格，再用臭氧退火改变氧状态，以 REXS/XAS 比较 SDW 和电荷样各向异性响应。核心故事是结构压缩及退火可以改写竞争序，而“电荷序消失伴随超导”目前是相关性；还需拆出实际氧含量与载流子数的独立变化。\n制备细节和样品对照：IV.1 Methods 说明 248 nm KrF 脉冲激光在 (001) LAO 或 SLAO 上以 680 °C、150 mTorr O₂ 沉积，薄膜厚约 5.5–28 nm，冷却 5 °C/min；XRR 用于厚度标定。臭氧退火关键配方引用先前文章，本轮已读正文未列时间和臭氧分压，所以不能给出可直接照搬的完整流程。对照样品包括未替位、Pr 替位及 Sm 替位薄膜，但衬底、厚度和退火差异也会影响应变与氧位，应该做同一矩阵而非把任意两片当单变量对照。\n测量与推断分层：REXS 在 Ni L 边追踪有序峰，使用 Lorentzian 加线性背景拟合强度和线宽；XAS 在 Ni L 与 O K 边辅助分析轨道杂化，典型低温约 20 K，光子通量约 5×10¹¹ s⁻¹。作者报告 SDW 特征温度从约 150 K 压到约 70 K，超导样中的另一各向异性电荷样信号被抑制而 SDW 仍存在。峰出现/消失是直接谱学观察，轨道转移与两种序之间竞争是模型及作者推断；若峰消失来自畴方向、相关长度或探测几何改变，也会产生类似数据。\n复现建议：按 La₂PrNi₂O₇₋δ 与 La₃Ni₂O₇₋δ、LAO/SLAO、5.5/8/28 nm 建正交表，固定靶材和 PLD 参数；逐片记录臭氧时间、O 含量、c 轴、粗糙度及 REXS π/σ 极化强度。先读 IV.1 再核对 Fig.1–4 的峰位/温度和电阻转变；相对于总强度，更应核峰面积、背景与仪器分辨率。下一步做同片 Hall 和结构表征，以判断“序竞争”是否仍成立于相同载流子浓度。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-02",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2610.01757",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/html/2610.01757",
+    "reportUrl": "/reports/2026-10-02/#paper-2",
+    "access": "全文精读：已读公开正文、实验/Methods 与关键图注；",
+    "rating": "A+",
+    "sections": [
+      {
+        "title": "核心科学问题",
+        "text": "双层镍酸盐薄膜的超导、密度波和氧非化学计量纠缠在一起。作者用 La₂PrNi₂O₇₋δ 等等价稀土替位改变晶格，再用臭氧退火改变氧状态，以 REXS/XAS 比较 SDW 和电荷样各向异性响应。核心故事是结构压缩及退火可以改写竞争序，而“电荷序消失伴随超导”目前是相关性；还需拆出实际氧含量与载流子数的独立变化。"
+      },
+      {
+        "title": "制备细节和样品对照",
+        "text": "IV.1 Methods 说明 248 nm KrF 脉冲激光在 (001) LAO 或 SLAO 上以 680 °C、150 mTorr O₂ 沉积，薄膜厚约 5.5–28 nm，冷却 5 °C/min；XRR 用于厚度标定。臭氧退火关键配方引用先前文章，本轮已读正文未列时间和臭氧分压，所以不能给出可直接照搬的完整流程。对照样品包括未替位、Pr 替位及 Sm 替位薄膜，但衬底、厚度和退火差异也会影响应变与氧位，应该做同一矩阵而非把任意两片当单变量对照。"
+      },
+      {
+        "title": "测量与推断分层",
+        "text": "REXS 在 Ni L 边追踪有序峰，使用 Lorentzian 加线性背景拟合强度和线宽；XAS 在 Ni L 与 O K 边辅助分析轨道杂化，典型低温约 20 K，光子通量约 5×10¹¹ s⁻¹。作者报告 SDW 特征温度从约 150 K 压到约 70 K，超导样中的另一各向异性电荷样信号被抑制而 SDW 仍存在。峰出现/消失是直接谱学观察，轨道转移与两种序之间竞争是模型及作者推断；若峰消失来自畴方向、相关长度或探测几何改变，也会产生类似数据。"
+      },
+      {
+        "title": "复现建议",
+        "text": "按 La₂PrNi₂O₇₋δ 与 La₃Ni₂O₇₋δ、LAO/SLAO、5.5/8/28 nm 建正交表，固定靶材和 PLD 参数；逐片记录臭氧时间、O 含量、c 轴、粗糙度及 REXS π/σ 极化强度。先读 IV.1 再核对 Fig.1–4 的峰位/温度和电阻转变；相对于总强度，更应核峰面积、背景与仪器分辨率。下一步做同片 Hall 和结构表征，以判断“序竞争”是否仍成立于相同载流子浓度。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A+｜镍酸盐外延/谱学",
+      "first": "先读 IV.1 的 680 °C/150 mTorr PLD，随后对照 Fig.1–4 的 REXS π/σ 与 O K 边 XAS。",
+      "focus": "IV.1 报告 La₂PrNi₂O₇₋δ/La₃Ni₂O₇₋δ/La₂SmNi₂O₇₋δ 在 (001) LAO/SLAO 上 248 nm KrF-PLD，680 °C、150 mTorr 氧压，厚约 5.5–28 nm，150 mTorr 下以 5 °C/min 冷却；臭氧退火步骤需追溯所引 Ref.49。XRR 校厚，Ni L/O K 边 REXS/XAS 与电阻构成互证。XAS 20 K、光子通量约 5×10¹¹ s⁻¹；REXS 峰强由 Lorentzian+线性背景拟合。",
+      "next": "按同一靶材、LAO/SLAO 和 5.5/8/28 nm 建矩阵，逐片记录臭氧时间、氧含量、c 轴、REXS π/σ 峰面积与电阻转变。"
+    },
+    "growthRecipe": {
+      "material": "双层镍酸盐薄膜",
+      "actualComposition": "",
+      "method": "PLD",
+      "transportAgent": "i₂",
+      "flux": "",
+      "ratio": "",
+      "purity": "",
+      "vessel": "",
+      "atmosphere": "",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "退火",
+      "crystalSize": "248 nm",
+      "yield": "",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 4,
+        "total": 15,
+        "ratio": 0.26666666666666666
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "核心科学问题",
+        "text": "双层镍酸盐薄膜的超导、密度波和氧非化学计量纠缠在一起。作者用 La₂PrNi₂O₇₋δ 等等价稀土替位改变晶格，再用臭氧退火改变氧状态，以 REXS/XAS 比较 SDW 和电荷样各向异性响应。核心故事是结构压缩及退火可以改写竞争序，而“电荷序消失伴随超导”目前是相关性；还需拆出实际氧含量与载流子数的独立变化。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "制备细节和样品对照",
+        "text": "IV.1 Methods 说明 248 nm KrF 脉冲激光在 (001) LAO 或 SLAO 上以 680 °C、150 mTorr O₂ 沉积，薄膜厚约 5.5–28 nm，冷却 5 °C/min；XRR 用于厚度标定。臭氧退火关键配方引用先前文章，本轮已读正文未列时间和臭氧分压，所以不能给出可直接照搬的完整流程。对照样品包括未替位、Pr 替位及 Sm 替位薄膜，但衬底、厚度和退火差异也会影响应变与氧位，应该做同一矩阵而非把任意两片当单变量对照。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-3",
+        "title": "测量与推断分层",
+        "text": "REXS 在 Ni L 边追踪有序峰，使用 Lorentzian 加线性背景拟合强度和线宽；XAS 在 Ni L 与 O K 边辅助分析轨道杂化，典型低温约 20 K，光子通量约 5×10¹¹ s⁻¹。作者报告 SDW 特征温度从约 150 K 压到约 70 K，超导样中的另一各向异性电荷样信号被抑制而 SDW 仍存在。峰出现/消失是直接谱学观察，轨道转移与两种序之间竞争是模型及作者推断；若峰消失来自畴方向、相关长度或探测几何改变，也会产生类似数据。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-4",
+        "title": "复现建议",
+        "text": "按 La₂PrNi₂O₇₋δ 与 La₃Ni₂O₇₋δ、LAO/SLAO、5.5/8/28 nm 建正交表，固定靶材和 PLD 参数；逐片记录臭氧时间、O 含量、c 轴、粗糙度及 REXS π/σ 极化强度。先读 IV.1 再核对 Fig.1–4 的峰位/温度和电阻转变；相对于总强度，更应核峰面积、背景与仪器分辨率。下一步做同片 Hall 和结构表征，以判断“序竞争”是否仍成立于相同载流子浓度。",
+        "type": "直接观察"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "正文 + Methods",
+      "sampleCredibility": "质量表征信息不足",
+      "reproducibility": "4/15 项参数可提取",
+      "physicalEvidence": "单一或未报告",
+      "certainty": "强"
+    }
+  },
+  {
+    "id": "arxiv:2610.01568",
+    "title": "Single-Pulse Optical Switching combined with Current-Induced Motion of Skyrmionic Spin Textures",
+    "authors": "Mangini, Edoardo, Tran, Duc Minh, Kunyangyuen, Boonthum, Lin, Jun Xiao, Gruber, Raphael, Hehn, Michel, Mangin, Stéphane, Kläui, Mathias",
+    "institutions": "作者单位见 arXiv 原文；本轮未逐一归一化机构名称",
+    "journal": "arXiv（cond-mat；独立预印本）",
+    "material": "Pt/Ir/CoB/Gd/Pt",
+    "method": "单脉冲光切换；电流驱动斯格明子",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "arXiv v1",
+      "摘要级"
+    ],
+    "abstract": "Magnetic skyrmions are promising nanoscale information carriers because their position can be manipulated by electrical currents. The additional ability of deterministic control of the spin structure would allow the use of magnetic skyrmions as multi-state bits, expanding the capabilities of skyrmion devices further. Such control could be realized by coupling all-optical helicity independent switching of magnetization (AO-HIS) to magnetic skyrmions. This is realized in a Pt/Ir/CoB/Gd/Pt multilayer that is engineered to stabilize magnetic skyrmions and, at the same time, enable AO-HIS by single ultrafast laser pulse. Laser excitation is used to write skyrmionic textures, whose polarity is selected by a small applied out-of-plane field. A single 30 fs laser pulse is then used to toggle the magnetization of an illuminated region containing skyrmionic textures, reversing their polarities without requiring any magnetic field or current pulses. This establishes deterministic optical switching of the skyrmion spin structure as a new manipulation channel, distinct from previously reported optical nucleation and annihilation. The material is then patterned into a wire, to combine the optical manipulation with current-induced skyrmion motion. These results establish a route toward opto-spintronic skyrmion devices in which light programs the internal state of a skyrmion and electrical currents control its position.",
+    "conclusion": "在人工多层膜中把光脉冲的磁化切换与电流位移串联，目标是同时控制斯格明子内部态和位置。",
+    "summary": "研究问题与直接证据：摘要可确认层堆与两种操控方式；各层厚度、激光能量密度和热扩散对照未核正文，不能把光热效应排除。\n证据边界与下一炉/下一测量：同一器件上做脉冲能量、极性与电流密度二维扫描，保存 MOKE/LTEM 前后图像。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-02",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2610.01568",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2610.01568",
+    "reportUrl": "/reports/2026-10-02/#paper-3",
+    "access": "摘要级：本轮只核对 arXiv 官方摘要/元数据；制备与测量未在摘要给出的项目均为待核正文。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "研究问题与直接证据",
+        "text": "摘要可确认层堆与两种操控方式；各层厚度、激光能量密度和热扩散对照未核正文，不能把光热效应排除。"
+      },
+      {
+        "title": "证据边界与下一炉/下一测量",
+        "text": "同一器件上做脉冲能量、极性与电流密度二维扫描，保存 MOKE/LTEM 前后图像。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜自旋器件",
+      "first": "先读摘要中材料、方法和实际观测三项；本轮未核正文，按需转入公开 PDF。",
+      "focus": "摘要可确认层堆与两种操控方式；各层厚度、激光能量密度和热扩散对照未核正文，不能把光热效应排除。",
+      "next": "同一器件上做脉冲能量、极性与电流密度二维扫描，保存 MOKE/LTEM 前后图像。"
+    },
+    "growthRecipe": {
+      "material": "Pt/Ir/CoB/Gd/Pt",
+      "actualComposition": "",
+      "method": "单脉冲光切换；电流驱动斯格明子",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "purity": "纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "vessel": "",
+      "atmosphere": "真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "后处理、晶体尺寸与产率不由经验补写",
+      "crystalSize": "",
+      "yield": "产率不由经验补写",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 6,
+        "total": 15,
+        "ratio": 0.4
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "研究问题与直接证据",
+        "text": "摘要可确认层堆与两种操控方式；各层厚度、激光能量密度和热扩散对照未核正文，不能把光热效应排除。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "证据边界与下一炉/下一测量",
+        "text": "同一器件上做脉冲能量、极性与电流密度二维扫描，保存 MOKE/LTEM 前后图像。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+        "type": "本站判断"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "TEM、磁化；证据仍可补强",
+      "reproducibility": "6/15 项参数可提取",
+      "physicalEvidence": "双探针支持",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2610.01551",
+    "title": "Room-temperature Magnetoelastic Coupling in UIr$_4$Al$_{15}$",
+    "authors": "Xu, Mingyu, Klimczuk, Tomasz, Maple, M. Brian, Xie, Weiwei",
+    "institutions": "作者单位见 arXiv 原文；本轮未逐一归一化机构名称",
+    "journal": "arXiv（cond-mat；独立预印本）",
+    "material": "UIr₄Al₁₅",
+    "method": "单晶 XRD；各向异性磁化",
+    "category": "重费米子与量子临界",
+    "tags": [
+      "arXiv v1",
+      "摘要级"
+    ],
+    "abstract": "The interplay between electronic and structural degrees of freedom underpins many emergent phenomena in quantum materials, yet magnetoelastic coupling in metallic systems is typically weak and confined to low temperatures or microscopic length scales. Here, we report giant magnetoelastic coupling slightly above room temperature in the uranium-based intermetallic compound UIr$_4$Al$_{15}$. Using temperature-dependent single-crystal X-ray diffraction together with anisotropic magnetic susceptibility measurements, we directly resolve subtle but reproducible structural distortions coupled to magnetic alignment. Despite the absence of crystallographic symmetry breaking, pronounced anomalies emerge in lattice parameters and selected chemical bond distances near the magnetic transition region, revealing an unusual sensitivity of the crystal structure to magnetic orientation. The coupling enables direct probing of how atomic distances and local chemical bonding govern the electronic and magnetic states in a bulk intermetallic material. Our results establish UIr$_4$Al$_{15}$ as a rare platform in which magnetism and lattice distortions are strongly intertwined near room temperature, opening new opportunities for magnetically responsive quantum materials and functional magnetic sensing applications.",
+    "conclusion": "铀基 UIr₄Al₁₅ 在接近室温出现意外强的磁弹耦合，单晶 XRD 与磁化共同追踪细微晶格变化，提供把结构与局域磁响应同时量化的范例。",
+    "summary": "研究问题与直接证据：摘要确认温度依赖单晶衍射与各向异性磁化；晶体生长配方、元素占位与弹性常数本轮未核正文。\n证据边界与下一炉/下一测量：在同炉不同晶体上并列跟踪晶格常数、热膨胀和 M(T,H)，核查是否由占位差异驱动。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-02",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2610.01551",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2610.01551",
+    "reportUrl": "/reports/2026-10-02/#paper-4",
+    "access": "摘要级：本轮只核对 arXiv 官方摘要/元数据；制备与测量未在摘要给出的项目均为待核正文。",
+    "rating": "A−",
+    "sections": [
+      {
+        "title": "研究问题与直接证据",
+        "text": "摘要确认温度依赖单晶衍射与各向异性磁化；晶体生长配方、元素占位与弹性常数本轮未核正文。"
+      },
+      {
+        "title": "证据边界与下一炉/下一测量",
+        "text": "在同炉不同晶体上并列跟踪晶格常数、热膨胀和 M(T,H)，核查是否由占位差异驱动。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A−｜铀基材料",
+      "first": "先读摘要中材料、方法和实际观测三项；本轮未核正文，按需转入公开 PDF。",
+      "focus": "摘要确认温度依赖单晶衍射与各向异性磁化；晶体生长配方、元素占位与弹性常数本轮未核正文。",
+      "next": "在同炉不同晶体上并列跟踪晶格常数、热膨胀和 M(T,H)，核查是否由占位差异驱动。"
+    },
+    "growthRecipe": {
+      "material": "UIr₄Al₁₅",
+      "actualComposition": "",
+      "method": "单晶 XRD；各向异性磁化",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "purity": "纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "vessel": "",
+      "atmosphere": "真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "后处理、晶体尺寸与产率不由经验补写",
+      "crystalSize": "",
+      "yield": "产率不由经验补写",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 6,
+        "total": 15,
+        "ratio": 0.4
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "研究问题与直接证据",
+        "text": "摘要确认温度依赖单晶衍射与各向异性磁化；晶体生长配方、元素占位与弹性常数本轮未核正文。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "证据边界与下一炉/下一测量",
+        "text": "在同炉不同晶体上并列跟踪晶格常数、热膨胀和 M(T,H)，核查是否由占位差异驱动。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+        "type": "本站判断"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "XRD、磁化；证据仍可补强",
+      "reproducibility": "6/15 项参数可提取",
+      "physicalEvidence": "双探针支持",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2610.01486",
+    "title": "Parafermions in fractional Chern insulator-superconductor heterostructures: the role of spin polarization",
+    "authors": "Amire, Aaron",
+    "institutions": "作者单位见 arXiv 原文；本轮未逐一归一化机构名称",
+    "journal": "arXiv（cond-mat；独立预印本）",
+    "material": "分数量子 Chern 绝缘体/超导",
+    "method": "极化 ν=2/3 边缘理论",
+    "category": "二维材料与量子器件",
+    "tags": [
+      "arXiv v1",
+      "摘要级"
+    ],
+    "abstract": "Most proposals for $Z_3$ parafermions in fractional quantum Hall-superconductor structures used the spin-unpolarized $\\nu = 2/3$ Halperin $(1,1,2)$ state. The fractional quantum anomalous Hall (FQAH) states of twisted MoTe$_2$ and rhombohedral graphene are believed to be spin- and valley-polarized Jain states, with the same topological order but a different spin structure. We analyze a trench between two polarized $\\nu = 2/3$ edges. Among the pairing and tunneling bilinears of the edge-mode electrons, exactly two of each have zero conformal spin. Pairing is compatible only with the neutral-mode superconductivity channel and tunneling only with neutral-mode backscattering, whereas in the unpolarized state singlet pairing and tunneling select the same channel. Since the two channels condense the same neutral anyon up to a local operator, the domain walls carry $Z_3$ parafermions, with 3 protected states per pair, whether or not the neutral channel changes between regions; fixing the fermion parity does not enlarge this count. Before the neutral gap forms, pairing is at best marginal for repulsive inter-edge coupling unless an attractive neutral coupling favors its channel; once the gap has formed, both charge terms are relevant for an inter-edge Coulomb coupling below 7/25 of the intra-edge one. The superconductor must supply even-frequency, equal-spin, intravalley pairing, which an s-wave singlet superconductor with only Ising spin-orbit coupling does not provide at leading order, whereas chiral $p+ip$ and $f+if$ states do. The $Z_3$ label is carried by a quasiparticle of the FQAH state, so no process confined to a junction whose tunneling segments are not FQAH can change it, and we expect a $6\\pi$-periodic Josephson current with or without fixed fermion parity.",
+    "conclusion": "文章指出自旋极化 Jain 态与传统未极化 Halperin 态虽拓扑序相同，边缘配对和隧穿允许项却不同，因此寻找 Z₃ parafermion 必须把自旋结构纳入器件设计。",
+    "summary": "研究问题与直接证据：属于边缘场论，摘要未给出已制备器件或测得零模；“可实现”不等于已观察。\n证据边界与下一炉/下一测量：将扭转 MoTe₂ 与菱方石墨烯两平台分别写出边缘门控和超导近邻的可行窗口。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-02",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2610.01486",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2610.01486",
+    "reportUrl": "/reports/2026-10-02/#paper-5",
+    "access": "摘要级：本轮只核对 arXiv 官方摘要/元数据；制备与测量未在摘要给出的项目均为待核正文。",
+    "rating": "B",
+    "sections": [
+      {
+        "title": "研究问题与直接证据",
+        "text": "属于边缘场论，摘要未给出已制备器件或测得零模；“可实现”不等于已观察。"
+      },
+      {
+        "title": "证据边界与下一炉/下一测量",
+        "text": "将扭转 MoTe₂ 与菱方石墨烯两平台分别写出边缘门控和超导近邻的可行窗口。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B｜拓扑量子器件",
+      "first": "先读摘要中材料、方法和实际观测三项；本轮未核正文，按需转入公开 PDF。",
+      "focus": "属于边缘场论，摘要未给出已制备器件或测得零模；“可实现”不等于已观察。",
+      "next": "将扭转 MoTe₂ 与菱方石墨烯两平台分别写出边缘门控和超导近邻的可行窗口。"
+    },
+    "growthRecipe": {
+      "material": "分数量子 Chern 绝缘体/超导",
+      "actualComposition": "",
+      "method": "极化 ν=2/3 边缘理论",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "purity": "纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "vessel": "",
+      "atmosphere": "真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "后处理、晶体尺寸与产率不由经验补写",
+      "crystalSize": "",
+      "yield": "产率不由经验补写",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 6,
+        "total": 15,
+        "ratio": 0.4
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "研究问题与直接证据",
+        "text": "属于边缘场论，摘要未给出已制备器件或测得零模；“可实现”不等于已观察。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "证据边界与下一炉/下一测量",
+        "text": "将扭转 MoTe₂ 与菱方石墨烯两平台分别写出边缘门控和超导近邻的可行窗口。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+        "type": "本站判断"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "质量表征信息不足",
+      "reproducibility": "6/15 项参数可提取",
+      "physicalEvidence": "单一或未报告",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2610.01337",
+    "title": "Robustness of the Verwey transition against remanent strain-induced defects in magnetite",
+    "authors": "Gala, M. A., Grzywa, K. J., Komędera, K., Zalecki, R., Baczmański, A., Kąkol, Z., Pacanowska, A., Kumar, C. M. N., Lamas, R. Rodriguez, Detlefs, C., Yildirim, C., Marin, C., Debray, J., Beutier, G., Ortega, L., Kozłowski, A., Barišić, N., Lorenzo, J. E., Tabiś, W.",
+    "institutions": "作者单位见 arXiv 原文；本轮未逐一归一化机构名称",
+    "journal": "arXiv（cond-mat；独立预印本）",
+    "material": "Fe₃O₄ 磁铁矿",
+    "method": "暗场 X 射线显微；交流磁化率",
+    "category": "晶体生长和物性调控",
+    "tags": [
+      "arXiv v1",
+      "摘要级"
+    ],
+    "abstract": "The Verwey transition in magnetite is a benchmark electronically driven phase transition that is highly sensitive to lattice imperfections and external perturbations. Doping, deviations from oxygen stoichiometry, and irradiation-induced point defects are known to lower the Verwey transition temperature, $T_{\\rm V}$. By contrast, the role of remanent strain fields and extended defect structures generated by uniaxial stress has remained largely unexplored. Here we combine dark-field x-ray microscopy (DFXM) and ac magnetic susceptibility to determine how strain-induced defects affect the Verwey transition in stoichiometric single-crystalline magnetite after uniaxial compression and unloading. The DFXM measurements were performed on two samples compressed along the same $[011]$ direction: loading to $200~\\mathrm{MPa}$ generated stable line-like defects and remanent strain fields, whereas loading beyond the fracture threshold produced denser defect networks and mechanical fracture. To test the effect of a different loading geometry, we also measured the ac susceptibility of a sample fractured by compression along $[001]$. Real-space DFXM imaging, lattice-orientation mapping, and residual strain mapping show substantial remanent structural disorder after compression. Nevertheless, neither the transition temperature $T_{\\rm V}$ nor the sharpness of the transition changes measurably in any of the compressed or fractured samples. This behavior contrasts with the strong suppression of $T_{\\rm V}$ by point-like disorder. Our results show that extended line-like defects and remanent strain fields produced by plastic deformation do not measurably perturb the macroscopic electronic ordering responsible for the Verwey transition, thereby distinguishing the effects of point defects from those of extended slip-related defects in magnetite.",
+    "conclusion": "把残余应变和扩展缺陷与 Verwey 转变分开考察：即使没有改变名义化学计量，单轴应力留下的缺陷结构也可能重写 T_V 与转变宽度。",
+    "summary": "研究问题与直接证据：摘要给出 DFXM 与 ac 磁化率组合；缺陷空间图与同片应力前后对照的定量关系需阅读全文确认。\n证据边界与下一炉/下一测量：对同一晶体做加载/卸载前后 DFXM、摇摆曲线与 ac χ，保留应力历史。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-02",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2610.01337",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2610.01337",
+    "reportUrl": "/reports/2026-10-02/#paper-6",
+    "access": "摘要级：本轮只核对 arXiv 官方摘要/元数据；制备与测量未在摘要给出的项目均为待核正文。",
+    "rating": "A",
+    "sections": [
+      {
+        "title": "研究问题与直接证据",
+        "text": "摘要给出 DFXM 与 ac 磁化率组合；缺陷空间图与同片应力前后对照的定量关系需阅读全文确认。"
+      },
+      {
+        "title": "证据边界与下一炉/下一测量",
+        "text": "对同一晶体做加载/卸载前后 DFXM、摇摆曲线与 ac χ，保留应力历史。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A｜缺陷与相变",
+      "first": "先读摘要中材料、方法和实际观测三项；本轮未核正文，按需转入公开 PDF。",
+      "focus": "摘要给出 DFXM 与 ac 磁化率组合；缺陷空间图与同片应力前后对照的定量关系需阅读全文确认。",
+      "next": "对同一晶体做加载/卸载前后 DFXM、摇摆曲线与 ac χ，保留应力历史。"
+    },
+    "growthRecipe": {
+      "material": "Fe₃O₄ 磁铁矿",
+      "actualComposition": "",
+      "method": "暗场 X 射线显微；交流磁化率",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "purity": "纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "vessel": "",
+      "atmosphere": "真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "后处理、晶体尺寸与产率不由经验补写",
+      "crystalSize": "",
+      "yield": "产率不由经验补写",
+      "qualityMetrics": [
+        "摇摆曲线与 ac χ，保留应力历史"
+      ],
+      "completeness": {
+        "reported": 6,
+        "total": 15,
+        "ratio": 0.4
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "研究问题与直接证据",
+        "text": "摘要给出 DFXM 与 ac 磁化率组合；缺陷空间图与同片应力前后对照的定量关系需阅读全文确认。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "证据边界与下一炉/下一测量",
+        "text": "对同一晶体做加载/卸载前后 DFXM、摇摆曲线与 ac χ，保留应力历史。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+        "type": "本站判断"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "磁化；证据仍可补强",
+      "reproducibility": "6/15 项参数可提取",
+      "physicalEvidence": "单一或未报告",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2610.01003",
+    "title": "HVPE Homoepitaxy of $\\beta$-Ga$_2$O$_3$: High-Temperature Growth and Orientation-Dependent Surface Evolution",
+    "authors": "Sarker, Sourav, Khan, Saleh Ahmed, Ibreljic, Ahmed, Das, Pronoy Kanti, Bhuiyan, Anhar",
+    "institutions": "作者单位见 arXiv 原文；本轮未逐一归一化机构名称",
+    "journal": "arXiv（cond-mat；独立预印本）",
+    "material": "β-Ga₂O₃",
+    "method": "HVPE 同质外延",
+    "category": "晶体生长和物性调控",
+    "tags": [
+      "arXiv v1",
+      "摘要级"
+    ],
+    "abstract": "In this work, we systematically investigate homoepitaxial $\\beta$-Ga$_2$O$_3$ growth by halide vapor phase epitaxy (HVPE) on (010), (001), and ($\\bar{2}$01) native substrates over a broad growth parameter space, extending the growth temperature as high as 1150 $^\\circ$C. The growth kinetics exhibit strong dependence on precursor supply, temperature, reactor pressure, and Ga-source-to-substrate distance. Increasing the HCl flow from 80 to 300 sccm enhances the growth rate by up to seven-fold, while increasing the temperature from 1050 to 1150 $^\\circ$C nearly doubles the deposition rate. At 1150 $^\\circ$C, atmospheric-pressure growth yields rates more than 2.5 times higher than those at 100 Torr, while reducing the O$_2$ flow to 5 sccm further increases the growth rate to 14.3 $\\mu$m/h, producing films up to 42.9 $\\mu$m thick in 3 h. Notably, phase-pure homoepitaxial layers with good crystalline quality are obtained across all three orientations, with low rocking-curve full width at half maximum (FWHM) values of 63.4, 66.6, and 42.8 arcsec for the (010), (001), and ($\\bar{2}$01) epilayers, respectively. The surface morphology exhibits a pronounced crystallographic dependence and evolves strongly with the HVPE growth conditions. In particular, the ($\\bar{2}$01) surface develops well-defined step-and-terrace morphology with local RMS roughness as low as 0.17 nm. These results extend $\\beta$-Ga$_2$O$_3$ HVPE homoepitaxy into a higher-temperature regime and demonstrate a broad process window for high-rate growth of thick, high-quality epilayers with strongly orientation-dependent surface evolution.",
+    "conclusion": "系统对比 (010)、(001)、(−201) 晶向的 HVPE 生长；温度到 1150 °C，HCl 80→300 sccm 可把生长速率提高最多约七倍，说明晶向、前驱供给和源片距离必须一起报。",
+    "summary": "研究问题与直接证据：摘要已有温度和流量量化；压力、Ga 源距离、缺陷密度与载流子浓度需再核正文，不能仅凭速率判定电子质量。\n证据边界与下一炉/下一测量：按晶向×HCl 流量×1050/1150 °C 设计矩阵，同时测 XRD 摇摆宽度、表面粗糙度和 Hall。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-02",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2610.01003",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2610.01003",
+    "reportUrl": "/reports/2026-10-02/#paper-7",
+    "access": "摘要级：本轮只核对 arXiv 官方摘要/元数据；制备与测量未在摘要给出的项目均为待核正文。",
+    "rating": "A",
+    "sections": [
+      {
+        "title": "研究问题与直接证据",
+        "text": "摘要已有温度和流量量化；压力、Ga 源距离、缺陷密度与载流子浓度需再核正文，不能仅凭速率判定电子质量。"
+      },
+      {
+        "title": "证据边界与下一炉/下一测量",
+        "text": "按晶向×HCl 流量×1050/1150 °C 设计矩阵，同时测 XRD 摇摆宽度、表面粗糙度和 Hall。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A｜晶体外延工艺",
+      "first": "先读摘要中材料、方法和实际观测三项；本轮未核正文，按需转入公开 PDF。",
+      "focus": "摘要已有温度和流量量化；压力、Ga 源距离、缺陷密度与载流子浓度需再核正文，不能仅凭速率判定电子质量。",
+      "next": "按晶向×HCl 流量×1050/1150 °C 设计矩阵，同时测 XRD 摇摆宽度、表面粗糙度和 Hall。"
+    },
+    "growthRecipe": {
+      "material": "β-Ga₂O₃",
+      "actualComposition": "",
+      "method": "HVPE 同质外延",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "purity": "纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "vessel": "",
+      "atmosphere": "真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "后处理、晶体尺寸与产率不由经验补写",
+      "crystalSize": "",
+      "yield": "产率不由经验补写",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 6,
+        "total": 15,
+        "ratio": 0.4
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "研究问题与直接证据",
+        "text": "摘要已有温度和流量量化；压力、Ga 源距离、缺陷密度与载流子浓度需再核正文，不能仅凭速率判定电子质量。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "证据边界与下一炉/下一测量",
+        "text": "按晶向×HCl 流量×1050/1150 °C 设计矩阵，同时测 XRD 摇摆宽度、表面粗糙度和 Hall。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+        "type": "本站判断"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "XRD；证据仍可补强",
+      "reproducibility": "6/15 项参数可提取",
+      "physicalEvidence": "单一或未报告",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2610.00987",
+    "title": "Layer-by-layer growth of highly aligned MoS$_2$ nanoribbon arrays",
+    "authors": "Yamamoto, Kaichi, Solís-Fernández, Pablo, Sun, Haiming, Gao, Yanlin, Lee, Yeri, Tseng, Yushan, Uchida, Aika, Hara, Masahiro, Ryu, Sunmin, Lin, Yung-Chang, Okada, Susumu, Suenaga, Kazu, Ago, Hiroki",
+    "institutions": "作者单位见 arXiv 原文；本轮未逐一归一化机构名称",
+    "journal": "arXiv（cond-mat；独立预印本）",
+    "material": "MoS₂ 纳米带",
+    "method": "三温区 CVD；a 面蓝宝石",
+    "category": "晶体生长和物性调控",
+    "tags": [
+      "arXiv v1",
+      "全文精读"
+    ],
+    "abstract": "公开 51 页 PDF 的 Methods 记载常压三温区、直径 26 mm 石英管、Ar 300 sccm；硫粉 120 mg（99.999%）置于 210 °C，MoO₃ 14 mg（99.9%）初在 600 °C 后提高到 640 °C，a 面蓝宝石生长区在 1110 °C。Fig.2 对 640 °C 维持 10–20 min 的样品作序列，双层覆盖率随时间增加。这个温度是不同区域的源温/衬底温，不能把三项写成同一个样品温度。与 MoS₂/WS₂ 异质结构有关的后续步骤另属其他实验，不纳入本条基础生长配方。",
+    "conclusion": "通过增加 MoO₃ 蒸气供给，使 a 面蓝宝石上的单层 MoS₂ 纳米带继续逐层向上生长，得到同向、宽度 <20 nm 的 2H 双层带；层数不再只是随机副产物。",
+    "summary": "生长问题：普通 CVD 过程往往较容易得到单层 MoS₂，却难使长而窄的纳米带在保持同向取向时继续可控增层。作者把 Mo 前驱体供应作为时间旋钮，在 a 面蓝宝石上制备宽度低于 20 nm 的 2H 双层纳米带。文章的重点不是从一张显微图挑出漂亮样品，而是用温度程序、时间序列和多探针结构验证说明第二层如何出现。\nMethods 原始配方：公开 51 页 PDF 的 Methods 记载常压三温区、直径 26 mm 石英管、Ar 300 sccm；硫粉 120 mg（99.999%）置于 210 °C，MoO₃ 14 mg（99.9%）初在 600 °C 后提高到 640 °C，a 面蓝宝石生长区在 1110 °C。Fig.2 对 640 °C 维持 10–20 min 的样品作序列，双层覆盖率随时间增加。这个温度是不同区域的源温/衬底温，不能把三项写成同一个样品温度。与 MoS₂/WS₂ 异质结构有关的后续步骤另属其他实验，不纳入本条基础生长配方。\n质量、证据与替代解释：AFM 给出高度与带宽，STEM/EELS 检查 2H 堆垛及原子级界面；多种表征支持双层而非单纯污染凸起。作者由形貌统计推断逐层向上生长的机制，不过在不同时间点取出的不是同一条带的原位电影，不能把序列自动当作单个晶体的逐帧记录。器件输运若要评价双层本征物性，还应报告接触电阻、转移污染、带宽分布及背栅滞后。\n下一炉：保留 MoO₃ 600/620/640 °C 与 10/20 min 的配方矩阵，每个位置统计纳米带宽度、第二层覆盖率、取向散布和 2H 比例；带上机前和转移后都要拍图。先读 Methods 的三区温度和 Fig.2 的时间演化，再对照 AFM/STEM。下一次可把 Mo 前驱流单独改变、保持 S 流和基底温度固定，以排除仅由停留时间或硫化程度产生的形貌差异。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-02",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2610.00987",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/pdf/2610.00987",
+    "reportUrl": "/reports/2026-10-02/#paper-8",
+    "access": "全文精读：已读 arXiv 公开 PDF 的正文、Methods、关键图注；未单独核对 SI。",
+    "rating": "A+",
+    "sections": [
+      {
+        "title": "生长问题",
+        "text": "普通 CVD 过程往往较容易得到单层 MoS₂，却难使长而窄的纳米带在保持同向取向时继续可控增层。作者把 Mo 前驱体供应作为时间旋钮，在 a 面蓝宝石上制备宽度低于 20 nm 的 2H 双层纳米带。文章的重点不是从一张显微图挑出漂亮样品，而是用温度程序、时间序列和多探针结构验证说明第二层如何出现。"
+      },
+      {
+        "title": "Methods 原始配方",
+        "text": "公开 51 页 PDF 的 Methods 记载常压三温区、直径 26 mm 石英管、Ar 300 sccm；硫粉 120 mg（99.999%）置于 210 °C，MoO₃ 14 mg（99.9%）初在 600 °C 后提高到 640 °C，a 面蓝宝石生长区在 1110 °C。Fig.2 对 640 °C 维持 10–20 min 的样品作序列，双层覆盖率随时间增加。这个温度是不同区域的源温/衬底温，不能把三项写成同一个样品温度。与 MoS₂/WS₂ 异质结构有关的后续步骤另属其他实验，不纳入本条基础生长配方。"
+      },
+      {
+        "title": "质量、证据与替代解释",
+        "text": "AFM 给出高度与带宽，STEM/EELS 检查 2H 堆垛及原子级界面；多种表征支持双层而非单纯污染凸起。作者由形貌统计推断逐层向上生长的机制，不过在不同时间点取出的不是同一条带的原位电影，不能把序列自动当作单个晶体的逐帧记录。器件输运若要评价双层本征物性，还应报告接触电阻、转移污染、带宽分布及背栅滞后。"
+      },
+      {
+        "title": "下一炉",
+        "text": "保留 MoO₃ 600/620/640 °C 与 10/20 min 的配方矩阵，每个位置统计纳米带宽度、第二层覆盖率、取向散布和 2H 比例；带上机前和转移后都要拍图。先读 Methods 的三区温度和 Fig.2 的时间演化，再对照 AFM/STEM。下一次可把 Mo 前驱流单独改变、保持 S 流和基底温度固定，以排除仅由停留时间或硫化程度产生的形貌差异。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A+｜CVD 生长人员",
+      "first": "先读 PDF Methods 的三温区配方和 Fig.2 的 MoO₃ 600→640 °C 时间序列。",
+      "focus": "公开 PDF Methods 给出常压三温区、26 mm 石英管、Ar 300 sccm、硫 120 mg/210 °C、MoO₃ 14 mg/600→640 °C、衬底 1110 °C。Fig.2 的时间序列显示 640 °C 保温 10–20 min，双层覆盖率递增；AFM/STEM/EELS 验证形貌和堆垛。沟道迁移率不能脱离接触电阻与转移损伤评价。",
+      "next": "把 MoO₃ 600/620/640 °C 与 10/20 min 组合成表格，逐带记录宽度、双层覆盖率、2H 堆垛和器件接触条件。"
+    },
+    "growthRecipe": {
+      "material": "MoS₂ 纳米带",
+      "actualComposition": "",
+      "method": "三温区 CVD；a 面蓝宝石",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "",
+      "purity": "99.999%",
+      "vessel": "石英管、Ar 300 sccm",
+      "atmosphere": "",
+      "sourceTemperature": "",
+      "growthTemperature": "生长区在 1110 °C",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "",
+      "crystalSize": "20 nm",
+      "yield": "",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 5,
+        "total": 15,
+        "ratio": 0.3333333333333333
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "生长问题",
+        "text": "普通 CVD 过程往往较容易得到单层 MoS₂，却难使长而窄的纳米带在保持同向取向时继续可控增层。作者把 Mo 前驱体供应作为时间旋钮，在 a 面蓝宝石上制备宽度低于 20 nm 的 2H 双层纳米带。文章的重点不是从一张显微图挑出漂亮样品，而是用温度程序、时间序列和多探针结构验证说明第二层如何出现。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "Methods 原始配方",
+        "text": "公开 51 页 PDF 的 Methods 记载常压三温区、直径 26 mm 石英管、Ar 300 sccm；硫粉 120 mg（99.999%）置于 210 °C，MoO₃ 14 mg（99.9%）初在 600 °C 后提高到 640 °C，a 面蓝宝石生长区在 1110 °C。Fig.2 对 640 °C 维持 10–20 min 的样品作序列，双层覆盖率随时间增加。这个温度是不同区域的源温/衬底温，不能把三项写成同一个样品温度。与 MoS₂/WS₂ 异质结构有关的后续步骤另属其他实验，不纳入本条基础生长配方。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-3",
+        "title": "质量、证据与替代解释",
+        "text": "AFM 给出高度与带宽，STEM/EELS 检查 2H 堆垛及原子级界面；多种表征支持双层而非单纯污染凸起。作者由形貌统计推断逐层向上生长的机制，不过在不同时间点取出的不是同一条带的原位电影，不能把序列自动当作单个晶体的逐帧记录。器件输运若要评价双层本征物性，还应报告接触电阻、转移污染、带宽分布及背栅滞后。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-4",
+        "title": "下一炉",
+        "text": "保留 MoO₃ 600/620/640 °C 与 10/20 min 的配方矩阵，每个位置统计纳米带宽度、第二层覆盖率、取向散布和 2H 比例；带上机前和转移后都要拍图。先读 Methods 的三区温度和 Fig.2 的时间演化，再对照 AFM/STEM。下一次可把 Mo 前驱流单独改变、保持 S 流和基底温度固定，以排除仅由停留时间或硫化程度产生的形貌差异。",
+        "type": "直接观察"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "正文 + Methods",
+      "sampleCredibility": "TEM、输运；证据仍可补强",
+      "reproducibility": "5/15 项参数可提取",
+      "physicalEvidence": "双探针支持",
+      "certainty": "中等"
+    }
+  },
+  {
+    "id": "arxiv:2610.00956",
+    "title": "Hydrogen plasma-assisted atomic layer epitaxy of superconducting titanium nitride",
+    "authors": "Chen, Yi-Hsun, Huang, Yin-Chun, Degnan, Zachary, Sommers, David, Xing, Kaijian, Bose, Manjith, Solano, Eduardo, Cortie, David, Fuhrer, Michael, Steele, Julian A., Jacobson, Peter, Chen, Miin-Jang, Fedorov, Arkady",
+    "institutions": "作者单位见 arXiv 原文；本轮未逐一归一化机构名称",
+    "journal": "arXiv（cond-mat；独立预印本）",
+    "material": "TiN 超导薄膜",
+    "method": "H₂ 等离子体辅助 ALD；GIWAXS；输运",
+    "category": "晶体生长和物性调控",
+    "tags": [
+      "arXiv v1",
+      "全文精读"
+    ],
+    "abstract": "公开 17 页 PDF Methods 给出 c 面蓝宝石衬底 300 °C，每周期 TDMAT 前驱体脉冲、Ar purge、H₂ 等离子体 300 W/40 s、Ar purge、N₂ 等离子体 300 W/40 s、再 Ar purge。若没有各步精确脉冲/吹扫时长、总循环数及腔体流量，就不能仅凭六段顺序完整复刻膜厚和化学计量，应返回方法表与设备日志。作者在活性层测得约 3.7% 氢，因此“加 H₂ 后无氢”是错误的总结；应评估氢与表面氧化的空间分布。",
+    "conclusion": "在每个 ALD 周期加入 H₂ 等离子体清洁前驱体残基，再引入 N₂ 等离子体；在 c 面蓝宝石上形成半相干 TiN 外延并出现 2.2 K 超导，说明沉积化学与界面有序度可以一起优化。",
+    "summary": "研究目标：TiN 是超导电路常见材料，薄膜的杂质与晶界会同时影响 Tc、动感电感和微波损耗。论文问的是低温 ALD 沉积时能否通过每周期的氢等离子体步骤清洁有机残基，同时维持可用的外延关系。其结论是样品呈半相干 TiN，最高约 2.2 K 超导；这不等同证明所有损耗通道均已消失。\n可复现沉积节拍：公开 17 页 PDF Methods 给出 c 面蓝宝石衬底 300 °C，每周期 TDMAT 前驱体脉冲、Ar purge、H₂ 等离子体 300 W/40 s、Ar purge、N₂ 等离子体 300 W/40 s、再 Ar purge。若没有各步精确脉冲/吹扫时长、总循环数及腔体流量，就不能仅凭六段顺序完整复刻膜厚和化学计量，应返回方法表与设备日志。作者在活性层测得约 3.7% 氢，因此“加 H₂ 后无氢”是错误的总结；应评估氢与表面氧化的空间分布。\n质量与物性链：GIWAXS 检查取向与半相干关系，XPS 看 C/O 杂质，Hall bar 的 R(T) 用于判断约 2.2 K 超导转变；动感电感约 15 pH/sq，相干长度约 14.6 nm。结构、化学、直流输运三条证据彼此独立；动感电感和 ξ 依赖模型或几何提取，不能把某个拟合参数当成直接拍摄到的微结构。薄膜与器件图形化之后的边缘粗糙度、接触和残余氢都可能成为额外损耗来源。\n下一批次：做有/无 H₂ 步骤的同批对照，固定 TDMAT 与 N₂ 剂量；从 XPS 的 C/O、GIWAXS 摇摆/取向、R(T) 的 Tc/ΔTc 一直跟到谐振器 Q 和噪声。先看 Methods 周期再读 GIWAXS/XPS 与 Fig.3 输运，最后区分“形成超导”与“适合高 Q 器件”。下轮记录每片厚度、氢纵深、氧暴露时间和封装状态，避免把实验室储存差异误写成 ALD 配方效应。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-02",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2610.00956",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/pdf/2610.00956",
+    "reportUrl": "/reports/2026-10-02/#paper-9",
+    "access": "全文精读：已读 arXiv 公开 PDF 的正文、Methods、关键图注；未单独核对 SI。",
+    "rating": "A+",
+    "sections": [
+      {
+        "title": "研究目标",
+        "text": "TiN 是超导电路常见材料，薄膜的杂质与晶界会同时影响 Tc、动感电感和微波损耗。论文问的是低温 ALD 沉积时能否通过每周期的氢等离子体步骤清洁有机残基，同时维持可用的外延关系。其结论是样品呈半相干 TiN，最高约 2.2 K 超导；这不等同证明所有损耗通道均已消失。"
+      },
+      {
+        "title": "可复现沉积节拍",
+        "text": "公开 17 页 PDF Methods 给出 c 面蓝宝石衬底 300 °C，每周期 TDMAT 前驱体脉冲、Ar purge、H₂ 等离子体 300 W/40 s、Ar purge、N₂ 等离子体 300 W/40 s、再 Ar purge。若没有各步精确脉冲/吹扫时长、总循环数及腔体流量，就不能仅凭六段顺序完整复刻膜厚和化学计量，应返回方法表与设备日志。作者在活性层测得约 3.7% 氢，因此“加 H₂ 后无氢”是错误的总结；应评估氢与表面氧化的空间分布。"
+      },
+      {
+        "title": "质量与物性链",
+        "text": "GIWAXS 检查取向与半相干关系，XPS 看 C/O 杂质，Hall bar 的 R(T) 用于判断约 2.2 K 超导转变；动感电感约 15 pH/sq，相干长度约 14.6 nm。结构、化学、直流输运三条证据彼此独立；动感电感和 ξ 依赖模型或几何提取，不能把某个拟合参数当成直接拍摄到的微结构。薄膜与器件图形化之后的边缘粗糙度、接触和残余氢都可能成为额外损耗来源。"
+      },
+      {
+        "title": "下一批次",
+        "text": "做有/无 H₂ 步骤的同批对照，固定 TDMAT 与 N₂ 剂量；从 XPS 的 C/O、GIWAXS 摇摆/取向、R(T) 的 Tc/ΔTc 一直跟到谐振器 Q 和噪声。先看 Methods 周期再读 GIWAXS/XPS 与 Fig.3 输运，最后区分“形成超导”与“适合高 Q 器件”。下轮记录每片厚度、氢纵深、氧暴露时间和封装状态，避免把实验室储存差异误写成 ALD 配方效应。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A+｜超导薄膜与工艺",
+      "first": "先读 PDF Methods 的 TDMAT/Ar/H₂/Ar/N₂/Ar 周期，再看 Fig.1–3 GIWAXS、XPS 和 R(T)。",
+      "focus": "公开 PDF Methods：TDMAT→Ar→H₂ 等离子体 300 W/40 s→Ar→N₂ 等离子体 300 W/40 s→Ar，衬底 300 °C。同步辐射 GIWAXS 和 XPS 分别检验结构与污染；Hall bar 输运给出 Tc≈2.2 K、动感电感约 15 pH/sq、ξ≈14.6 nm。文中还测得活性层氢约 3.7%，不能简单说完全无氢。",
+      "next": "同批比较有/无 H₂ 步骤的 XPS C/O、GIWAXS 相干长度、Tc/ΔTc 与谐振器损耗；保存每周期等离子体剂量。"
+    },
+    "growthRecipe": {
+      "material": "TiN 超导薄膜",
+      "actualComposition": "",
+      "method": "H₂ 等离子体辅助 ALD；GIWAXS；输运",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "",
+      "purity": "",
+      "vessel": "",
+      "atmosphere": "",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "最高约 2.2 K",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "",
+      "crystalSize": "14.6 nm",
+      "yield": "",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 3,
+        "total": 15,
+        "ratio": 0.2
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "研究目标",
+        "text": "TiN 是超导电路常见材料，薄膜的杂质与晶界会同时影响 Tc、动感电感和微波损耗。论文问的是低温 ALD 沉积时能否通过每周期的氢等离子体步骤清洁有机残基，同时维持可用的外延关系。其结论是样品呈半相干 TiN，最高约 2.2 K 超导；这不等同证明所有损耗通道均已消失。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "可复现沉积节拍",
+        "text": "公开 17 页 PDF Methods 给出 c 面蓝宝石衬底 300 °C，每周期 TDMAT 前驱体脉冲、Ar purge、H₂ 等离子体 300 W/40 s、Ar purge、N₂ 等离子体 300 W/40 s、再 Ar purge。若没有各步精确脉冲/吹扫时长、总循环数及腔体流量，就不能仅凭六段顺序完整复刻膜厚和化学计量，应返回方法表与设备日志。作者在活性层测得约 3.7% 氢，因此“加 H₂ 后无氢”是错误的总结；应评估氢与表面氧化的空间分布。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-3",
+        "title": "质量与物性链",
+        "text": "GIWAXS 检查取向与半相干关系，XPS 看 C/O 杂质，Hall bar 的 R(T) 用于判断约 2.2 K 超导转变；动感电感约 15 pH/sq，相干长度约 14.6 nm。结构、化学、直流输运三条证据彼此独立；动感电感和 ξ 依赖模型或几何提取，不能把某个拟合参数当成直接拍摄到的微结构。薄膜与器件图形化之后的边缘粗糙度、接触和残余氢都可能成为额外损耗来源。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-4",
+        "title": "下一批次",
+        "text": "做有/无 H₂ 步骤的同批对照，固定 TDMAT 与 N₂ 剂量；从 XPS 的 C/O、GIWAXS 摇摆/取向、R(T) 的 Tc/ΔTc 一直跟到谐振器 Q 和噪声。先看 Methods 周期再读 GIWAXS/XPS 与 Fig.3 输运，最后区分“形成超导”与“适合高 Q 器件”。下轮记录每片厚度、氢纵深、氧暴露时间和封装状态，避免把实验室储存差异误写成 ALD 配方效应。",
+        "type": "直接观察"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "正文 + Methods",
+      "sampleCredibility": "输运；证据仍可补强",
+      "reproducibility": "3/15 项参数可提取",
+      "physicalEvidence": "单一或未报告",
+      "certainty": "强"
+    }
+  },
+  {
+    "id": "arxiv:2610.00877",
+    "title": "Complex Magnetic Phases and Unconventional Skyrmion Thermodynamics in Magnetically Intercalated Cr$_{1+x}$Te$_2$Compounds",
+    "authors": "Conner, Clayton, Chhetri, Santosh Karki, Sah, Avinash, Gadtoula, Manoj, Gamachchi, Dilan M., Karunarathne, Indeewari M., Kelley, Steven, Meng, Andrew C., Cook, Jacob, Zhang, Cheng, Hu, Jin, Li, Yue, Jeon, Hoyeon, Li, An-Ping, Gai, Zheng, Bian, Guang",
+    "institutions": "作者单位见 arXiv 原文；本轮未逐一归一化机构名称",
+    "journal": "arXiv（cond-mat；独立预印本）",
+    "material": "Cr₁₊ₓTe₂",
+    "method": "Te 自助熔剂；STM/ARPES/LTEM",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "arXiv v1",
+      "全文精读"
+    ],
+    "abstract": "Chemical intercalation provides a powerful route for tuning the electronic and magnetic properties of transition metal dichalcogenides (TMDs), enabling the emergence of magnetic phases and phenomena that are otherwise inaccessible in their pristine forms. Here, we investigate the structural, electronic, and magnetic properties of magnetically intercalated Cr$_{1+x}$Te$_2$ through a combination of scanning tunneling microscopy, angle-resolved photoemission spectroscopy, magnetization, electrical transport, and Lorentz transmission electron microscopy measurements. We uncover a rich magnetic phase diagram comprising paramagnetic, in-plane spin-fluctuation, out-of-plane ferromagnetic, and field-induced Néel-type skyrmion phases. In particular, Lorentz transmission electron microscopy directly reveals the formation of Néel-type skyrmion textures slightly below the Curie temperature, with their configurations evolving strongly with temperature and magnetic field. The skyrmions exhibit pronounced thermal hysteresis and coexist with stripe domains, indicative of a complex magnetic energy landscape arising from the competition among disorder-induced local Dzyaloshinskii-Moriya interactions, perpendicular magnetic anisotropy, and dipolar interactions. Our results demonstrate that chemical intercalation can profoundly reshape the magnetic interactions and phase behavior of TMDs, establishing Cr$_{1+x}$Te$_2$ as a versatile platform for exploring tunable magnetism, skyrmion physics, and unconventional thermodynamic phenomena in low-dimensional quantum materials.",
+    "conclusion": "将插层 Cr 的局域占位无序、磁相竞争和斯格明子热力学放在一条证据链里；晶体结构与多探针磁响应相连，但各相的微观归属仍需谨慎。",
+    "summary": "研究问题与直接证据：Methods V.1 明确是 Te 自助熔剂而非 CVT：Cr:Te=1:6，真空封石英，50 °C/h 升至 1150 °C 保温 48 h，2 °C/h 降至 700 °C 后离心。正文前部又称 CVT，存在需要作者澄清的方法矛盾。SCXRD 给出两种插层 Cr 部分占位 0.430/0.194；ARPES 在 7 K、11 eV 测，LTEM/STM 用于结构/磁纹理。占位数字是晶体学平均，不等于每个局域区域均匀。\n证据边界与下一炉/下一测量：第一步向作者确认“CVT”与 Te Flux 哪个描述对应被测样品；下一炉按 1:6 和温程重做，逐晶体联测 SCXRD 占位、EDS、LTEM 与磁阻。 其余未在已读部分报告的参数应在复现前向作者确认。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-02",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2610.00877",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/html/2610.00877",
+    "reportUrl": "/reports/2026-10-02/#paper-10",
+    "access": "全文精读：已读公开正文、实验/Methods 与关键图注；",
+    "rating": "A+",
+    "sections": [
+      {
+        "title": "研究问题与直接证据",
+        "text": "Methods V.1 明确是 Te 自助熔剂而非 CVT：Cr:Te=1:6，真空封石英，50 °C/h 升至 1150 °C 保温 48 h，2 °C/h 降至 700 °C 后离心。正文前部又称 CVT，存在需要作者澄清的方法矛盾。SCXRD 给出两种插层 Cr 部分占位 0.430/0.194；ARPES 在 7 K、11 eV 测，LTEM/STM 用于结构/磁纹理。占位数字是晶体学平均，不等于每个局域区域均匀。"
+      },
+      {
+        "title": "证据边界与下一炉/下一测量",
+        "text": "第一步向作者确认“CVT”与 Te Flux 哪个描述对应被测样品；下一炉按 1:6 和温程重做，逐晶体联测 SCXRD 占位、EDS、LTEM 与磁阻。 其余未在已读部分报告的参数应在复现前向作者确认。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A+｜生长方法核实优先",
+      "first": "先核对 V.1 的 Te 自助熔剂配方与正文早段“CVT”矛盾，再看 SCXRD 占位和 LTEM。",
+      "focus": "Methods V.1 明确是 Te 自助熔剂而非 CVT：Cr:Te=1:6，真空封石英，50 °C/h 升至 1150 °C 保温 48 h，2 °C/h 降至 700 °C 后离心。正文前部又称 CVT，存在需要作者澄清的方法矛盾。SCXRD 给出两种插层 Cr 部分占位 0.430/0.194；ARPES 在 7 K、11 eV 测，LTEM/STM 用于结构/磁纹理。占位数字是晶体学平均，不等于每个局域区域均匀。",
+      "next": "第一步向作者确认“CVT”与 Te Flux 哪个描述对应被测样品；下一炉按 1:6 和温程重做，逐晶体联测 SCXRD 占位、EDS、LTEM 与磁阻。"
+    },
+    "growthRecipe": {
+      "material": "Cr₁₊ₓTe₂",
+      "actualComposition": "EDS、LTEM 与磁阻",
+      "method": "CVT",
+      "transportAgent": "",
+      "flux": "自助熔剂",
+      "ratio": "1:6",
+      "purity": "",
+      "vessel": "",
+      "atmosphere": "真空封石英，50 °C/h 升至 1150 °C 保温 48 h，2 °C/h 降至 700 °C 后离心",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "升至 1150 °C 保温 48 h，2 °C/h 降至 700 °C",
+      "holdTime": "保温 48 h，2 °C/h",
+      "coolingRate": "50 °C/h",
+      "postTreatment": "离心",
+      "crystalSize": "",
+      "yield": "",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 8,
+        "total": 15,
+        "ratio": 0.5333333333333333
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "研究问题与直接证据",
+        "text": "Methods V.1 明确是 Te 自助熔剂而非 CVT：Cr:Te=1:6，真空封石英，50 °C/h 升至 1150 °C 保温 48 h，2 °C/h 降至 700 °C 后离心。正文前部又称 CVT，存在需要作者澄清的方法矛盾。SCXRD 给出两种插层 Cr 部分占位 0.430/0.194；ARPES 在 7 K、11 eV 测，LTEM/STM 用于结构/磁纹理。占位数字是晶体学平均，不等于每个局域区域均匀。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "证据边界与下一炉/下一测量",
+        "text": "第一步向作者确认“CVT”与 Te Flux 哪个描述对应被测样品；下一炉按 1:6 和温程重做，逐晶体联测 SCXRD 占位、EDS、LTEM 与磁阻。 其余未在已读部分报告的参数应在复现前向作者确认。",
+        "type": "本站判断"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "正文 + Methods",
+      "sampleCredibility": "XRD、EDS、TEM、STM 多方法互证",
+      "reproducibility": "8/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "中等"
+    }
+  },
+  {
+    "id": "arxiv:2610.00626",
+    "title": "Mechanism of Incommensurate Magnetic Order in $\\mathrm{BaCo_2(AsO_4)_2}$: Interplay of Frustrated Further-Neighbor Exchanges and Bond-Directional Anisotropy",
+    "authors": "Zare, Mohammad-Hossein, Biderang, Mehdi, Mosadeq, Hamid",
+    "institutions": "作者单位见 arXiv 原文；本轮未逐一归一化机构名称",
+    "journal": "arXiv（cond-mat；独立预印本）",
+    "material": "BaCo₂(AsO₄)₂",
+    "method": "蜂窝自旋哈密顿量",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "arXiv v1",
+      "摘要级"
+    ],
+    "abstract": "The microscopic mechanism governing the zero-field incommensurate magnetic order in the honeycomb cobaltate $\\mathrm{BaCo}_2(\\mathrm{AsO}_4)_2$ remains a significant unresolved problem, particularly concerning the relative contributions of bond-directional Kitaev-type interactions and exchange frustration. This study investigates an extended $J_1\\text{--}K\\text{--}\\Gamma\\text{--}\\Gamma'\\text{--}J_2\\text{--}J_3$ model, which incorporates XXZ-type exchange anisotropies on the honeycomb lattice. Nearest-neighbor parameters are constrained by ab initio electronic structure calculations. By integrating the analytical Luttinger-Tisza approach with exact diagonalization calculations under twisted boundary conditions, we delineate the classical and quantum phase diagrams across the $(J_2, J_3)$ parameter space. We demonstrate that the stabilization of the experimentally observed incommensurate spiral phase, propagating along the $\\Gamma\\to M$ direction, does not necessitate an anomalously dominant Kitaev coupling. Instead, this phase arises naturally from the synergistic interplay between exchange frustration, driven by further-neighbor couplings ($J_2, J_3$), and intermediate off-diagonal bond anisotropies ($\\Gamma, \\Gamma'$). In the quantum regime, we elucidate the competition between this incommensurate manifold and an out-of-plane ferromagnetic ($\\mathrm{FM}_z$) phase, which is selectively stabilized via a quantum order-by-disorder mechanism. Our findings reconcile conflicting interpretations of the magnetic interactions in $\\mathrm{BaCo}_2(\\mathrm{AsO}_4)_2$ and establish the microscopic origin and stability range of its incommensurate ground state.",
+    "conclusion": "用扩展 J₁–K–Γ–Γ′–J₂–J₃ 模型比较键方向各向异性与远邻交换对零场非公度磁序的作用；它给出可检验的耦合约束，而不是新测生长结果。",
+    "summary": "研究问题与直接证据：最近邻参数受已有实验约束，但参数可辨识性和不同相图区域是否唯一需要全文模型敏感性分析。\n证据边界与下一炉/下一测量：以中子散射的 q 矢量、场依赖与自旋波谱同时拟合，不只对一个临界场调参。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-02",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2610.00626",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2610.00626",
+    "reportUrl": "/reports/2026-10-02/#paper-11",
+    "access": "摘要级：本轮只核对 arXiv 官方摘要/元数据；制备与测量未在摘要给出的项目均为待核正文。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "研究问题与直接证据",
+        "text": "最近邻参数受已有实验约束，但参数可辨识性和不同相图区域是否唯一需要全文模型敏感性分析。"
+      },
+      {
+        "title": "证据边界与下一炉/下一测量",
+        "text": "以中子散射的 q 矢量、场依赖与自旋波谱同时拟合，不只对一个临界场调参。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜磁性建模",
+      "first": "先读摘要中材料、方法和实际观测三项；本轮未核正文，按需转入公开 PDF。",
+      "focus": "最近邻参数受已有实验约束，但参数可辨识性和不同相图区域是否唯一需要全文模型敏感性分析。",
+      "next": "以中子散射的 q 矢量、场依赖与自旋波谱同时拟合，不只对一个临界场调参。"
+    },
+    "growthRecipe": {
+      "material": "BaCo₂(AsO₄)₂",
+      "actualComposition": "",
+      "method": "蜂窝自旋哈密顿量",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "purity": "纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "vessel": "",
+      "atmosphere": "真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "后处理、晶体尺寸与产率不由经验补写",
+      "crystalSize": "",
+      "yield": "产率不由经验补写",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 6,
+        "total": 15,
+        "ratio": 0.4
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "研究问题与直接证据",
+        "text": "最近邻参数受已有实验约束，但参数可辨识性和不同相图区域是否唯一需要全文模型敏感性分析。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-2",
+        "title": "证据边界与下一炉/下一测量",
+        "text": "以中子散射的 q 矢量、场依赖与自旋波谱同时拟合，不只对一个临界场调参。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "质量表征信息不足",
+      "reproducibility": "6/15 项参数可提取",
+      "physicalEvidence": "单一或未报告",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2610.00534",
+    "title": "Near-infrared magnetic linear and non-reciprocal directional dichroism in the chiral antiferromagnet SmFe3(BO3)4",
+    "authors": "Beke, B., Szász, B., Gudim, I. A., Szaller, D., Bordács, S.",
+    "institutions": "作者单位见 arXiv 原文；本轮未逐一归一化机构名称",
+    "journal": "arXiv（cond-mat；独立预印本）",
+    "material": "SmFe₃(BO₃)₄",
+    "method": "偏振磁光谱",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "arXiv v1",
+      "摘要级"
+    ],
+    "abstract": "We investigated the influence of antiferromagnetic (AFM) order on the near-infrared optical re- sponse of SmFe3(BO3)4 by polarization-resolved, magneto-optical spectroscopy. Below the Néel temperature, we observed pronounced magnetic linear dichroism at the 4f -4f transitions of Sm3+. By rotating the order parameter of the easy-plane AFM ground state using magnetic fields, we demonstrated the magnetic field control of linear dichroism, and deduced polarization selection rules. In addition, we detected non-reciprocal directional dichroism for several 4f -4f transitions. The non-reciprocal absorption appears in the symmetry-allowed toroidal geometry when the in- plane magnetic field is normal to one of the two-fold rotation axes. These results indicate a strong interference between electric- and magnetic-dipole excitations for transitions showing non-reciprocal absorption. The observed optical anisotropies provide a promising path to detect the in-plane orien- tation of the AFM order, enabling imaging and time-resolved studies of the AFM order parameter in rare-earth ferroborates.",
+    "conclusion": "在 Sm³⁺ 4f–4f 近红外跃迁中看到随反铁磁序参数旋转而变化的线性/非互易二色性，把有序方向转化为光学读出。",
+    "summary": "研究问题与直接证据：摘要给出磁场旋转与偏振选择定则；晶体制备及绝对磁场、误差需核正文。\n证据边界与下一炉/下一测量：在同一晶体做正反场、反向传播和温度扫描，剔除普通磁致双折射。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-02",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2610.00534",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2610.00534",
+    "reportUrl": "/reports/2026-10-02/#paper-12",
+    "access": "摘要级：本轮只核对 arXiv 官方摘要/元数据；制备与测量未在摘要给出的项目均为待核正文。",
+    "rating": "B",
+    "sections": [
+      {
+        "title": "研究问题与直接证据",
+        "text": "摘要给出磁场旋转与偏振选择定则；晶体制备及绝对磁场、误差需核正文。"
+      },
+      {
+        "title": "证据边界与下一炉/下一测量",
+        "text": "在同一晶体做正反场、反向传播和温度扫描，剔除普通磁致双折射。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B｜磁光学",
+      "first": "先读摘要中材料、方法和实际观测三项；本轮未核正文，按需转入公开 PDF。",
+      "focus": "摘要给出磁场旋转与偏振选择定则；晶体制备及绝对磁场、误差需核正文。",
+      "next": "在同一晶体做正反场、反向传播和温度扫描，剔除普通磁致双折射。"
+    },
+    "growthRecipe": {
+      "material": "SmFe₃(BO₃)₄",
+      "actualComposition": "",
+      "method": "偏振磁光谱",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "purity": "纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "vessel": "",
+      "atmosphere": "真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "后处理、晶体尺寸与产率不由经验补写",
+      "crystalSize": "",
+      "yield": "产率不由经验补写",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 6,
+        "total": 15,
+        "ratio": 0.4
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "研究问题与直接证据",
+        "text": "摘要给出磁场旋转与偏振选择定则；晶体制备及绝对磁场、误差需核正文。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "证据边界与下一炉/下一测量",
+        "text": "在同一晶体做正反场、反向传播和温度扫描，剔除普通磁致双折射。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+        "type": "本站判断"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "质量表征信息不足",
+      "reproducibility": "6/15 项参数可提取",
+      "physicalEvidence": "单一或未报告",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2610.00489",
+    "title": "Electronic structure and two-orbital model of the quadlayer La$_5$Ni$_4$O$_{13}$",
+    "authors": "Sun, Jian-Xiang, Xiao, Haokan, Chen, Cui-Qun, Yao, Dao-Xin",
+    "institutions": "作者单位见 arXiv 原文；本轮未逐一归一化机构名称",
+    "journal": "arXiv（cond-mat；独立预印本）",
+    "material": "La₅Ni₄O₁₃",
+    "method": "DFT/RPA；应变模型",
+    "category": "高温与非常规超导",
+    "tags": [
+      "arXiv v1",
+      "摘要级"
+    ],
+    "abstract": "The discovery of pressure-induced superconductivity in Ruddlesden--Popper (RP) nickelates has stimulated extensive interest in high-T$_c$ superconductors. Here, we systematically study the electronic properties of the quadlayer RP nickelate La$_5$Ni$_4$O$_{13}$ under ambient pressure, 5% isotropic compressive strain, and 4% $c$-axis uniaxial strain using density functional theory (DFT) and random phase approximation (RPA) calculations. DFT calculations show that isotropic strain broadens the Ni-$e_g$ bands and induces charge transfer from O-$p$ to Ni-$d$ orbitals, whereas $c$-axis uniaxial strain selectively shifts the $d_{z^2}$-derived bonding1 band upward while leaving the $d_{x^2-y^2}$ dispersion nearly unchanged. From Wannier downfolding, we construct a quadlayer two-orbital model that reproduces the low-energy Ni-$e_g$ bands. Our model reveals that under ambient pressure and 5% isotropic strain, the Fermi surface consists of two electron pockets ($\\alpha$ and $\\delta$) and three hole pockets ($\\beta$, $\\beta^{\\prime}$, and $\\beta^{\\prime \\prime}$), while under uniaxial strain, a $\\gamma$ hole pocket with $d_{z^2}$ orbital character emerges. RPA calculations reveal that the leading spin response shifts from $\\mathbf{q}\\approx(2\\pi/3,2\\pi/3)$ at ambient pressure to $\\mathbf{q}\\approx(\\pi,\\pi)$ under both strain conditions and is enhanced under $c$-axis compression. These results suggest that $c$-axis compression may provide a favorable route to superconductivity in the quadlayer nickelate analogous to that in bilayer and trilayer nickelates.",
+    "conclusion": "四层 RP 镍酸盐在环境压、5% 等向压缩和 4% c 轴压缩下的多轨道响应被系统计算，用来比较应变如何重排 Ni e_g 带与候选配对。",
+    "summary": "研究问题与直接证据：证据为 DFT 与 RPA 模型，未宣称四层样品测得超导；5%/4% 为计算应变，不是已实现外延值。\n证据边界与下一炉/下一测量：先检验这些应变量在真实衬底/压力条件下能否稳定，再做结构弛豫与氧空位敏感性扫描。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-02",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2610.00489",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2610.00489",
+    "reportUrl": "/reports/2026-10-02/#paper-13",
+    "access": "摘要级：本轮只核对 arXiv 官方摘要/元数据；制备与测量未在摘要给出的项目均为待核正文。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "研究问题与直接证据",
+        "text": "证据为 DFT 与 RPA 模型，未宣称四层样品测得超导；5%/4% 为计算应变，不是已实现外延值。"
+      },
+      {
+        "title": "证据边界与下一炉/下一测量",
+        "text": "先检验这些应变量在真实衬底/压力条件下能否稳定，再做结构弛豫与氧空位敏感性扫描。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜镍酸盐理论",
+      "first": "先读摘要中材料、方法和实际观测三项；本轮未核正文，按需转入公开 PDF。",
+      "focus": "证据为 DFT 与 RPA 模型，未宣称四层样品测得超导；5%/4% 为计算应变，不是已实现外延值。",
+      "next": "先检验这些应变量在真实衬底/压力条件下能否稳定，再做结构弛豫与氧空位敏感性扫描。"
+    },
+    "growthRecipe": {
+      "material": "La₅Ni₄O₁₃",
+      "actualComposition": "",
+      "method": "DFT/RPA；应变模型",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "purity": "纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "vessel": "",
+      "atmosphere": "真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "后处理、晶体尺寸与产率不由经验补写",
+      "crystalSize": "",
+      "yield": "产率不由经验补写",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 6,
+        "total": 15,
+        "ratio": 0.4
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "研究问题与直接证据",
+        "text": "证据为 DFT 与 RPA 模型，未宣称四层样品测得超导；5%/4% 为计算应变，不是已实现外延值。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-2",
+        "title": "证据边界与下一炉/下一测量",
+        "text": "先检验这些应变量在真实衬底/压力条件下能否稳定，再做结构弛豫与氧空位敏感性扫描。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+        "type": "本站判断"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "质量表征信息不足",
+      "reproducibility": "6/15 项参数可提取",
+      "physicalEvidence": "单一或未报告",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2610.00479",
+    "title": "Stacking-Controlled Altermagnetism and Topological Magnons in Bilayer CrI$_3$",
+    "authors": "Xiao, Lu, Zhang, Meng-Han, Yao, Dao-Xin",
+    "institutions": "作者单位见 arXiv 原文；本轮未逐一归一化机构名称",
+    "journal": "arXiv（cond-mat；独立预印本）",
+    "material": "双层 CrI₃",
+    "method": "DFT；线性自旋波",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "arXiv v1",
+      "摘要级"
+    ],
+    "abstract": "Stacked van der Waals magnets provide a tunable route to altermagnetism, a compensated magnetic order characterized by momentum-dependent spin splitting, and to the topological magnetic excitations that such order can host. In bilayer CrI$_3$, first-principles calculations and linear spin-wave theory reveal stacking-controlled altermagnetic order and associated magnon band topology. Combining band-representation analysis with calculations of the dynamic structure factor relevant to inelastic neutron scattering, we further characterize the chirally split topological magnons and quantify their energy corrections and lifetimes using a many-body Green's-function approach. The interlayer magnetic ground state is highly sensitive to the stacking geometry, thereby controlling the magnon band topology and transport responses. We further show that magnon--magnon interactions renormalize the magnon dispersion and dynamic structure factor, with a particular focus on magnon decay. Using van der Waals bilayer CrI$_3$ as a representative platform, our results establish stacking engineering as a structural route for tuning altermagnetism and associated topological magnon excitations, opening avenues toward stacking-controlled spintronic and magnonic devices.",
+    "conclusion": "改变双层堆垛可从补偿磁序产生交替磁性和拓扑磁振子，提示堆垛并非只是结构标注，而是磁激发谱控制量。",
+    "summary": "研究问题与直接证据：摘要基于第一性原理与磁振子动力结构因子，尚无对应实验样品的中子谱验证。\n证据边界与下一炉/下一测量：用堆垛可辨的 STEM/SHG 先筛样，再比较偏振 Raman 或非弹性散射的磁振子分支。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-02",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2610.00479",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2610.00479",
+    "reportUrl": "/reports/2026-10-02/#paper-14",
+    "access": "摘要级：本轮只核对 arXiv 官方摘要/元数据；制备与测量未在摘要给出的项目均为待核正文。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "研究问题与直接证据",
+        "text": "摘要基于第一性原理与磁振子动力结构因子，尚无对应实验样品的中子谱验证。"
+      },
+      {
+        "title": "证据边界与下一炉/下一测量",
+        "text": "用堆垛可辨的 STEM/SHG 先筛样，再比较偏振 Raman 或非弹性散射的磁振子分支。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜二维磁体",
+      "first": "先读摘要中材料、方法和实际观测三项；本轮未核正文，按需转入公开 PDF。",
+      "focus": "摘要基于第一性原理与磁振子动力结构因子，尚无对应实验样品的中子谱验证。",
+      "next": "用堆垛可辨的 STEM/SHG 先筛样，再比较偏振 Raman 或非弹性散射的磁振子分支。"
+    },
+    "growthRecipe": {
+      "material": "双层 CrI₃",
+      "actualComposition": "",
+      "method": "DFT；线性自旋波",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "purity": "纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "vessel": "",
+      "atmosphere": "真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "后处理、晶体尺寸与产率不由经验补写",
+      "crystalSize": "",
+      "yield": "产率不由经验补写",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 6,
+        "total": 15,
+        "ratio": 0.4
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "研究问题与直接证据",
+        "text": "摘要基于第一性原理与磁振子动力结构因子，尚无对应实验样品的中子谱验证。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "证据边界与下一炉/下一测量",
+        "text": "用堆垛可辨的 STEM/SHG 先筛样，再比较偏振 Raman 或非弹性散射的磁振子分支。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+        "type": "本站判断"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "TEM、Raman；证据仍可补强",
+      "reproducibility": "6/15 项参数可提取",
+      "physicalEvidence": "双探针支持",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2610.01990",
+    "title": "Frustration-induced multiferroicity in hauerite MnS2",
+    "authors": "Kocsis, Vilmos, Singh, Harish K., Bestha, Kranthi K., Guo, Yaqian, Mostovoy, Maxim, Brink, Jeroen van den, Janson, Oleg",
+    "institutions": "作者单位见 arXiv 原文；本轮未逐一归一化机构名称",
+    "journal": "arXiv（cond-mat；独立预印本）",
+    "material": "MnS₂",
+    "method": "磁结构/电子极化理论",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "arXiv v1",
+      "摘要级"
+    ],
+    "abstract": "Pyrite-type mineral hauerite MnS$_2$ is a magnetic insulator with localized $S=\\frac52$ moments. Below 48 K, it develops a collinear antiferromagnetic order, accompanied by unit-cell doubling and breaking the inversion symmetry. We demonstrate that the latter gives rise to a ferroelectric polarization of up to 360 $\\mu$C/m$^2$ rendering MnS$_2$ a type-II multiferroic. Microscopically, the electronic polarization originates from S$_2$ dimers that acquire a dipole moment induced by the frustrated magnetic ordering of neighboring Mn sites. We show that time-reversal symmetry leaves ferroelectric domains intact, and that domain switching necessitates overcoming a high energy barrier set by the magnetic exchange energy scale.",
+    "conclusion": "黄铁矿 MnS₂ 在约 48 K 反铁磁有序并失去反演，对应最高约 360 μC/m² 的磁驱铁电极化；理论把极化归于受挫 Mn 环境中的 S₂ 二聚体。",
+    "summary": "研究问题与直接证据：摘要给出定量极化与结构机制；需要区分计算极化、实验电滞与结构精修的证据层级。\n证据边界与下一炉/下一测量：做同一晶体的结构、磁衍射和正反电场极化测量，排查漏电和畴平均。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-02",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2610.01990",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2610.01990",
+    "reportUrl": "/reports/2026-10-02/#paper-15",
+    "access": "摘要级：本轮只核对 arXiv 官方摘要/元数据；制备与测量未在摘要给出的项目均为待核正文。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "研究问题与直接证据",
+        "text": "摘要给出定量极化与结构机制；需要区分计算极化、实验电滞与结构精修的证据层级。"
+      },
+      {
+        "title": "证据边界与下一炉/下一测量",
+        "text": "做同一晶体的结构、磁衍射和正反电场极化测量，排查漏电和畴平均。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜多铁性",
+      "first": "先读摘要中材料、方法和实际观测三项；本轮未核正文，按需转入公开 PDF。",
+      "focus": "摘要给出定量极化与结构机制；需要区分计算极化、实验电滞与结构精修的证据层级。",
+      "next": "做同一晶体的结构、磁衍射和正反电场极化测量，排查漏电和畴平均。"
+    },
+    "growthRecipe": {
+      "material": "MnS₂",
+      "actualComposition": "",
+      "method": "磁结构/电子极化理论",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "purity": "纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "vessel": "",
+      "atmosphere": "真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "后处理、晶体尺寸与产率不由经验补写",
+      "crystalSize": "",
+      "yield": "产率不由经验补写",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 6,
+        "total": 15,
+        "ratio": 0.4
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "研究问题与直接证据",
+        "text": "摘要给出定量极化与结构机制；需要区分计算极化、实验电滞与结构精修的证据层级。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-2",
+        "title": "证据边界与下一炉/下一测量",
+        "text": "做同一晶体的结构、磁衍射和正反电场极化测量，排查漏电和畴平均。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+        "type": "本站判断"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "质量表征信息不足",
+      "reproducibility": "6/15 项参数可提取",
+      "physicalEvidence": "单一或未报告",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "doi:10.1103/jjjk-3hf3",
+    "title": "Complex magnetic phase diagrams in Tb2IrAl4Ge2 and Er2IrAl4Ge2",
+    "authors": "Karolina Gornicka, Matthew S. Cook, Brenden R. Ortiz, Andrew D. Christianson, Andrew F. May",
+    "institutions": "Oak Ridge National Laboratory 等；完整单位列表见正式论文和作者公开稿",
+    "journal": "Physical Review Materials 10, 104401",
+    "material": "Tb₂IrAl₄Ge₂ / Er₂IrAl₄Ge₂",
+    "method": "Al–Ge 自助熔剂；磁化/比热/Hall",
+    "category": "晶体生长和物性调控",
+    "tags": [
+      "正式期刊",
+      "全文精读"
+    ],
+    "abstract": "公开作者稿 II 节给出 ≥99.99% 原料、Tb/Er:Ir:Al:Ge=1:1:10:5、Canfield 坩埚加滤片、Ar 冲洗后抽真空封管；100 °C/h 升至 1000 °C 保温 12 h、7 °C/h 降至 860 °C 保温 48 h、12 °C/h 降至 700 °C 离心，得 1–3 mm 片晶。III 节有单晶结构、EDS/磁化/比热/输运；需区分 Tb 与 Er 不同场向及批次。",
+    "conclusion": "同一 I4/mmm 结构中的 Tb 与 Er 成员展示截然不同的低温磁相图：Tb 在 25 K 反铁磁有序并有场驱变磁，Er 有三个零场转变与更多低场相。正式 DOI 与当日 arXiv 稿是同一工作，只收录正式版。",
+    "summary": "问题—样品—生长—质量—测量：公开作者稿 II 节给出 ≥99.99% 原料、Tb/Er:Ir:Al:Ge=1:1:10:5、Canfield 坩埚加滤片、Ar 冲洗后抽真空封管；100 °C/h 升至 1000 °C 保温 12 h、7 °C/h 降至 860 °C 保温 48 h、12 °C/h 降至 700 °C 离心，得 1–3 mm 片晶。III 节有单晶结构、EDS/磁化/比热/输运；需区分 Tb 与 Er 不同场向及批次。\n直接观察、推断与复现建议：把两种稀土同炉参数、样品尺寸和 c 轴场向统一记录；重做 Hall 非线性与磁化突变同场对照。 对未读或未报告的原料、温区、后处理、批次统计与误差不做假设。",
+    "year": 2026,
+    "published": "2026-10-01",
+    "date": "2026-10-01",
+    "type": "article",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://doi.org/10.1103/jjjk-3hf3",
+    "doi": "10.1103/jjjk-3hf3",
+    "openAccess": null,
+    "dataSource": "站内简报",
+    "fullText": "https://arxiv.org/html/2610.01714",
+    "reportUrl": "/reports/2026-10-01/#paper-1",
+    "access": "全文精读：以正式 DOI 为主条目，实际读取合法公开作者稿的 Introduction、Experimental details、Results/Discussion 与关键图注；未下载订阅 PDF。",
+    "rating": "A",
+    "sections": [
+      {
+        "title": "问题—样品—生长—质量—测量",
+        "text": "公开作者稿 II 节给出 ≥99.99% 原料、Tb/Er:Ir:Al:Ge=1:1:10:5、Canfield 坩埚加滤片、Ar 冲洗后抽真空封管；100 °C/h 升至 1000 °C 保温 12 h、7 °C/h 降至 860 °C 保温 48 h、12 °C/h 降至 700 °C 离心，得 1–3 mm 片晶。III 节有单晶结构、EDS/磁化/比热/输运；需区分 Tb 与 Er 不同场向及批次。"
+      },
+      {
+        "title": "直接观察、推断与复现建议",
+        "text": "把两种稀土同炉参数、样品尺寸和 c 轴场向统一记录；重做 Hall 非线性与磁化突变同场对照。 对未读或未报告的原料、温区、后处理、批次统计与误差不做假设。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A｜实验人员优先",
+      "first": "先读公开作者稿 II Experimental details 的 Al-Ge Flux 温程，再比 Fig.1–9 的结构、磁化、比热与 Hall。",
+      "focus": "公开作者稿 II 节给出 ≥99.99% 原料、Tb/Er:Ir:Al:Ge=1:1:10:5、Canfield 坩埚加滤片、Ar 冲洗后抽真空封管；100 °C/h 升至 1000 °C 保温 12 h、7 °C/h 降至 860 °C 保温 48 h、12 °C/h 降至 700 °C 离心，得 1–3 mm 片晶。III 节有单晶结构、EDS/磁化/比热/输运；需区分 Tb 与 Er 不同场向及批次。",
+      "next": "把两种稀土同炉参数、样品尺寸和 c 轴场向统一记录；重做 Hall 非线性与磁化突变同场对照。"
+    },
+    "growthRecipe": {
+      "material": "Tb₂IrAl₄Ge₂ / Er₂IrAl₄Ge₂",
+      "actualComposition": "EDS/磁化/比热/输运",
+      "method": "Flux",
+      "transportAgent": "",
+      "flux": "自助熔剂",
+      "ratio": "原料、Tb/Er:Ir:Al:Ge=1:1:10:5、Canfield 坩埚加滤片、Ar 冲洗后抽真空封管",
+      "purity": "99.99%",
+      "vessel": "坩埚加滤片、Ar 冲洗后抽真空封管",
+      "atmosphere": "真空封管",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "升至 1000 °C 保温 12 h、7 °C/h 降至 860 °C",
+      "holdTime": "保温 12 h、7 °C/h 降至 860 °C 保温 48 h",
+      "coolingRate": "100 °C/h",
+      "postTreatment": "离心，得 1–3 mm 片晶",
+      "crystalSize": "3 mm",
+      "yield": "",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 11,
+        "total": 15,
+        "ratio": 0.7333333333333333
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题—样品—生长—质量—测量",
+        "text": "公开作者稿 II 节给出 ≥99.99% 原料、Tb/Er:Ir:Al:Ge=1:1:10:5、Canfield 坩埚加滤片、Ar 冲洗后抽真空封管；100 °C/h 升至 1000 °C 保温 12 h、7 °C/h 降至 860 °C 保温 48 h、12 °C/h 降至 700 °C 离心，得 1–3 mm 片晶。III 节有单晶结构、EDS/磁化/比热/输运；需区分 Tb 与 Er 不同场向及批次。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "直接观察、推断与复现建议",
+        "text": "把两种稀土同炉参数、样品尺寸和 c 轴场向统一记录；重做 Hall 非线性与磁化突变同场对照。 对未读或未报告的原料、温区、后处理、批次统计与误差不做假设。",
+        "type": "直接观察"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "正文 + Methods",
+      "sampleCredibility": "EDS、比热、磁化、输运 多方法互证",
+      "reproducibility": "11/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "强"
+    }
+  },
+  {
+    "id": "doi:10.1103/2qjd-mc12",
+    "title": "Probing the charge density wave transition in semimetallic 1T-TiSe2−δ by temperature-dependent Raman spectroscopy",
+    "authors": "Huynh Phuong Anh, Nguyen Van Thanh, Kalingarayanpalayam Matheswaran Arun Kumar, Paphawee Paukatong, Xiang-Lin Huang, Guo-Jiun Shu, Riichiro Saito, Nguyen Tuan Hung, Hsiang-Lin Liu",
+    "institutions": "详见出版社作者单位",
+    "journal": "Physical Review Materials 10, 104001",
+    "material": "1T-TiSe₂₋δ",
+    "method": "532 nm Raman；第一性原理声子",
+    "category": "晶体生长和物性调控",
+    "tags": [
+      "正式期刊",
+      "摘要级"
+    ],
+    "abstract": "出版社摘要给出 532 nm、170 K CDW、Eg 的 BWF→Lorentzian 与 295 cm⁻¹ 双声子归属。正文受 APS 机构授权页限制；晶体生长、Se 缺位量与 Raman 激光功率未核，不补写。",
+    "conclusion": "10–300 K Raman 在约 170 K CDW 附近改变 Eg 峰，84–123 cm⁻¹ 多个低频峰被作者归因于缺陷双共振；这是声子与缺陷耦合的光谱证据，不能单凭峰位确认缺陷种类。",
+    "summary": "问题—样品—生长—质量—测量：出版社摘要给出 532 nm、170 K CDW、Eg 的 BWF→Lorentzian 与 295 cm⁻¹ 双声子归属。正文受 APS 机构授权页限制；晶体生长、Se 缺位量与 Raman 激光功率未核，不补写。\n直接观察、推断与复现建议：用 EDS/WDS 定量 Se 缺位，改变激光功率与入射波长检验 84–123 cm⁻¹ 双共振指认。 对未读或未报告的原料、温区、后处理、批次统计与误差不做假设。",
+    "year": 2026,
+    "published": "2026-10-01",
+    "date": "2026-10-01",
+    "type": "article",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://doi.org/10.1103/2qjd-mc12",
+    "doi": "10.1103/2qjd-mc12",
+    "openAccess": null,
+    "dataSource": "站内简报",
+    "fullText": "https://doi.org/10.1103/2qjd-mc12",
+    "reportUrl": "/reports/2026-10-01/#paper-2",
+    "access": "仅摘要/元数据：出版社正文要求机构授权，本轮未建立已认证机构会话；具体 Methods 待补读。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "问题—样品—生长—质量—测量",
+        "text": "出版社摘要给出 532 nm、170 K CDW、Eg 的 BWF→Lorentzian 与 295 cm⁻¹ 双声子归属。正文受 APS 机构授权页限制；晶体生长、Se 缺位量与 Raman 激光功率未核，不补写。"
+      },
+      {
+        "title": "直接观察、推断与复现建议",
+        "text": "用 EDS/WDS 定量 Se 缺位，改变激光功率与入射波长检验 84–123 cm⁻¹ 双共振指认。 对未读或未报告的原料、温区、后处理、批次统计与误差不做假设。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜先核摘要",
+      "first": "先读出版社摘要，获取机构正文后再核 Methods 与关键图。",
+      "focus": "出版社摘要给出 532 nm、170 K CDW、Eg 的 BWF→Lorentzian 与 295 cm⁻¹ 双声子归属。正文受 APS 机构授权页限制；晶体生长、Se 缺位量与 Raman 激光功率未核，不补写。",
+      "next": "用 EDS/WDS 定量 Se 缺位，改变激光功率与入射波长检验 84–123 cm⁻¹ 双共振指认。"
+    },
+    "growthRecipe": {
+      "material": "1T-TiSe₂₋δ",
+      "actualComposition": "EDS/WDS 定量 Se 缺位，改变激光功率与入射波长检验 84–123 cm⁻¹ 双共振指认",
+      "method": "532 nm Raman；第一性原理声子",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "原料、温区、后处理、批次统计与误差不做假设",
+      "purity": "",
+      "vessel": "",
+      "atmosphere": "",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "后处理、批次统计与误差不做假设",
+      "crystalSize": "532 nm",
+      "yield": "",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 4,
+        "total": 15,
+        "ratio": 0.26666666666666666
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题—样品—生长—质量—测量",
+        "text": "出版社摘要给出 532 nm、170 K CDW、Eg 的 BWF→Lorentzian 与 295 cm⁻¹ 双声子归属。正文受 APS 机构授权页限制；晶体生长、Se 缺位量与 Raman 激光功率未核，不补写。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "直接观察、推断与复现建议",
+        "text": "用 EDS/WDS 定量 Se 缺位，改变激光功率与入射波长检验 84–123 cm⁻¹ 双共振指认。 对未读或未报告的原料、温区、后处理、批次统计与误差不做假设。",
+        "type": "直接观察"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "EDS、WDS、Raman；证据仍可补强",
+      "reproducibility": "4/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "doi:10.1103/68r6-8v6v",
+    "title": "Electronic theory for scanning tunneling microscopy spectra in bilayer nickelate thin films",
+    "authors": "Marius Scholten, Steffen Bötzel, Frank Lechermann, Peayush Choubey, Ilya M. Eremin",
+    "institutions": "详见出版社作者单位",
+    "journal": "Physical Review B 114, 214501",
+    "material": "La₂PrNi₂O₇ 薄膜",
+    "method": "双轨道双层模型；连续 Green 函数；STM 模拟",
+    "category": "高温与非常规超导",
+    "tags": [
+      "正式期刊",
+      "摘要级"
+    ],
+    "abstract": "出版社摘要可读，正文要求机构授权；该工作没有新生长样品，不能把模拟谱当作实测。需核 Wannier 尾部和杂质势假设。",
+    "conclusion": "理论指出 STM 探针高度和位置可改变多轨道镍酸盐相干峰的带选择权重，提出辨认 γ 带是否潜伏于费米面以下的具体实验判据。",
+    "summary": "问题—样品—生长—质量—测量：出版社摘要可读，正文要求机构授权；该工作没有新生长样品，不能把模拟谱当作实测。需核 Wannier 尾部和杂质势假设。\n直接观察、推断与复现建议：在同一 La₂PrNi₂O₇ 薄膜上做探针高度依赖 STS/QPI，比较相干峰和散射波矢而不是只比一个能隙值。 对未读或未报告的原料、温区、后处理、批次统计与误差不做假设。",
+    "year": 2026,
+    "published": "2026-10-01",
+    "date": "2026-10-01",
+    "type": "article",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://doi.org/10.1103/68r6-8v6v",
+    "doi": "10.1103/68r6-8v6v",
+    "openAccess": null,
+    "dataSource": "站内简报",
+    "fullText": "https://doi.org/10.1103/68r6-8v6v",
+    "reportUrl": "/reports/2026-10-01/#paper-3",
+    "access": "仅摘要/元数据：出版社正文要求机构授权，本轮未建立已认证机构会话；具体 Methods 待补读。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "问题—样品—生长—质量—测量",
+        "text": "出版社摘要可读，正文要求机构授权；该工作没有新生长样品，不能把模拟谱当作实测。需核 Wannier 尾部和杂质势假设。"
+      },
+      {
+        "title": "直接观察、推断与复现建议",
+        "text": "在同一 La₂PrNi₂O₇ 薄膜上做探针高度依赖 STS/QPI，比较相干峰和散射波矢而不是只比一个能隙值。 对未读或未报告的原料、温区、后处理、批次统计与误差不做假设。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜先核摘要",
+      "first": "先读出版社摘要，获取机构正文后再核 Methods 与关键图。",
+      "focus": "出版社摘要可读，正文要求机构授权；该工作没有新生长样品，不能把模拟谱当作实测。需核 Wannier 尾部和杂质势假设。",
+      "next": "在同一 La₂PrNi₂O₇ 薄膜上做探针高度依赖 STS/QPI，比较相干峰和散射波矢而不是只比一个能隙值。"
+    },
+    "growthRecipe": {
+      "material": "La₂PrNi₂O₇ 薄膜",
+      "actualComposition": "",
+      "method": "双轨道双层模型；连续 Green 函数；STM 模拟",
+      "transportAgent": "i₂",
+      "flux": "",
+      "ratio": "原料、温区、后处理、批次统计与误差不做假设",
+      "purity": "",
+      "vessel": "",
+      "atmosphere": "",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "后处理、批次统计与误差不做假设",
+      "crystalSize": "",
+      "yield": "",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 4,
+        "total": 15,
+        "ratio": 0.26666666666666666
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题—样品—生长—质量—测量",
+        "text": "出版社摘要可读，正文要求机构授权；该工作没有新生长样品，不能把模拟谱当作实测。需核 Wannier 尾部和杂质势假设。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "直接观察、推断与复现建议",
+        "text": "在同一 La₂PrNi₂O₇ 薄膜上做探针高度依赖 STS/QPI，比较相干峰和散射波矢而不是只比一个能隙值。 对未读或未报告的原料、温区、后处理、批次统计与误差不做假设。",
+        "type": "直接观察"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "STM；证据仍可补强",
+      "reproducibility": "4/15 项参数可提取",
+      "physicalEvidence": "单一或未报告",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "doi:10.1038/s41467-026-78157-w",
+    "title": "Low contact resistance and high current density in ballistic p-type transistors based on oxygen-doped WSe2 monolayers",
+    "authors": "Lei Sun, Tingting Gao, Lin Xu, Wanying Li, Chuanqi Zhang, Zhengyu Zhang, Kian Ping Loh, Yuhui He, Kaustav Banerjee, Yang Chai, Lain-Jong Li, Xiangshui Miao, Xuefei Li",
+    "institutions": "作者横跨多机构；完整单位列表待官网正文可访问后核对",
+    "journal": "Nature Communications",
+    "material": "O 掺杂单层 WSe₂",
+    "method": "氧掺杂单层 WSe₂；p 型场效应输运",
+    "category": "二维材料与量子器件",
+    "tags": [
+      "正式期刊",
+      "摘要级"
+    ],
+    "abstract": "Nature Communications 2026-10-01 官网研究论文列表公开摘要与 DOI；本轮单篇页面跳转到登录页，未读 Methods。单层晶体生长、掺氧剂量、器件几何、统计样本和提取接触电阻的方法需待正文核对，不能根据摘要推算本征迁移率。",
+    "conclusion": "O 掺杂单层 WSe₂ 接触工程使空穴迁移率超过 200 cm² V⁻¹ s⁻¹、接触电阻低至 104 Ω·μm、−1.2 V 下饱和电流密度最高 1635 μA/μm。器件性能改善的故事核心是把接触与沟道分开评估，而非只报开态电流。",
+    "summary": "问题—样品—生长—质量—测量：Nature Communications 2026-10-01 官网研究论文列表公开摘要与 DOI；本轮单篇页面跳转到登录页，未读 Methods。单层晶体生长、掺氧剂量、器件几何、统计样本和提取接触电阻的方法需待正文核对，不能根据摘要推算本征迁移率。\n直接观察、推断与复现建议：先拿 TLM 接触电阻与四探针沟道迁移率作对照，再扫氧掺杂剂量、储存时间和不同接触金属。 对未读或未报告的原料、温区、后处理、批次统计与误差不做假设。",
+    "year": 2026,
+    "published": "2026-10-01",
+    "date": "2026-10-01",
+    "type": "article",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://doi.org/10.1038/s41467-026-78157-w",
+    "doi": "10.1038/s41467-026-78157-w",
+    "openAccess": null,
+    "dataSource": "站内简报",
+    "fullText": "https://doi.org/10.1038/s41467-026-78157-w",
+    "reportUrl": "/reports/2026-10-01/#paper-4",
+    "access": "仅摘要/元数据：Nature Communications 标为开放获取，但本轮单篇页面跳转到登录/验证，未实际读取正文或 Methods；这不是已确认的付费墙。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "问题—样品—生长—质量—测量",
+        "text": "Nature Communications 2026-10-01 官网研究论文列表公开摘要与 DOI；本轮单篇页面跳转到登录页，未读 Methods。单层晶体生长、掺氧剂量、器件几何、统计样本和提取接触电阻的方法需待正文核对，不能根据摘要推算本征迁移率。"
+      },
+      {
+        "title": "直接观察、推断与复现建议",
+        "text": "先拿 TLM 接触电阻与四探针沟道迁移率作对照，再扫氧掺杂剂量、储存时间和不同接触金属。 对未读或未报告的原料、温区、后处理、批次统计与误差不做假设。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜先核摘要",
+      "first": "先核 Nature Communications 摘要中的 104 Ω·μm 与 1635 μA/μm；取得正文后读 TLM、器件几何和氧掺杂 Methods。",
+      "focus": "Nature Communications 2026-10-01 官网研究论文列表公开摘要与 DOI；本轮单篇页面跳转到登录页，未读 Methods。单层晶体生长、掺氧剂量、器件几何、统计样本和提取接触电阻的方法需待正文核对，不能根据摘要推算本征迁移率。",
+      "next": "先拿 TLM 接触电阻与四探针沟道迁移率作对照，再扫氧掺杂剂量、储存时间和不同接触金属。"
+    },
+    "growthRecipe": {
+      "material": "O 掺杂单层 WSe₂",
+      "actualComposition": "",
+      "method": "氧掺杂单层 WSe₂；p 型场效应输运",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "原料、温区、后处理、批次统计与误差不做假设",
+      "purity": "",
+      "vessel": "",
+      "atmosphere": "",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "后处理、批次统计与误差不做假设",
+      "crystalSize": "200 cm",
+      "yield": "",
+      "qualityMetrics": [
+        "迁移率超过 200 cm² V⁻¹ s⁻¹、接触电阻低至 104 Ω·μm、−1.2 V 下饱和电流密度最高 163",
+        "迁移率",
+        "迁移率作对照，再扫氧掺杂剂量、储存时间和不同接触金属"
+      ],
+      "completeness": {
+        "reported": 4,
+        "total": 15,
+        "ratio": 0.26666666666666666
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题—样品—生长—质量—测量",
+        "text": "Nature Communications 2026-10-01 官网研究论文列表公开摘要与 DOI；本轮单篇页面跳转到登录页，未读 Methods。单层晶体生长、掺氧剂量、器件几何、统计样本和提取接触电阻的方法需待正文核对，不能根据摘要推算本征迁移率。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "直接观察、推断与复现建议",
+        "text": "先拿 TLM 接触电阻与四探针沟道迁移率作对照，再扫氧掺杂剂量、储存时间和不同接触金属。 对未读或未报告的原料、温区、后处理、批次统计与误差不做假设。",
+        "type": "直接观察"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "输运；证据仍可补强",
+      "reproducibility": "4/15 项参数可提取",
+      "physicalEvidence": "单一或未报告",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "doi:10.1038/s41467-026-77175-y",
+    "title": "High-entropy enabled two-dimensional ferroelectricity and memristive synapses in van der Waals layered materials",
+    "authors": "Ning Sun, Xu Han, Weishen Li, Bowen Zhang, Xiangjiang Dong, Ming Lei, Yehua Yang, Yuan Zhang, Wei-Hsiang Huang, Chih-Wen Pao, Zhiwei Hu, Jianchun Xu, Ruge Quhe, Weimin Wang, Kai Huang, Runze Yu, Yongle Wu, Ke Bi",
+    "institutions": "北京邮电大学、中国高压科学技术研究中心、新加坡国立大学等；完整列表见 DOI 页面",
+    "journal": "Nature Communications",
+    "material": "(MnFeCoNi)₁₋ₓCdₓPS₃",
+    "method": "高熵层状单晶；电场极化/阻变",
+    "category": "二维材料与量子器件",
+    "tags": [
+      "正式期刊",
+      "摘要级"
+    ],
+    "abstract": "Nature Communications 2026-10-01 开放摘要与 DOI 已核；单篇正文在本轮发生登录跳转，未读 Methods/SI。x、各元素真实占位、晶体生长配方、离子迁移直接证据和疲劳测试次数需待正文核对。不能将“铁电样开关”自动等同纯电子铁电。",
+    "conclusion": "高熵 (MnFeCoNi)₁₋ₓCdₓPS₃ 单晶在中心对称母相中出现 ±0.5 V 可切换的铁电样态、转变温度最高 523 K；作者用表征和计算把效应连到 Cd²⁺ 迁移，而非通常意义的固有无离子迁移铁电位移。",
+    "summary": "问题—样品—生长—质量—测量：Nature Communications 2026-10-01 开放摘要与 DOI 已核；单篇正文在本轮发生登录跳转，未读 Methods/SI。x、各元素真实占位、晶体生长配方、离子迁移直接证据和疲劳测试次数需待正文核对。不能将“铁电样开关”自动等同纯电子铁电。\n直接观察、推断与复现建议：对同一晶体做升降温、扫速和电极材料依赖，联测 Cd 迁移分布及 PFM/宏观回线；将离子迁移与固有极化贡献拆开。 对未读或未报告的原料、温区、后处理、批次统计与误差不做假设。",
+    "year": 2026,
+    "published": "2026-10-01",
+    "date": "2026-10-01",
+    "type": "article",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://doi.org/10.1038/s41467-026-77175-y",
+    "doi": "10.1038/s41467-026-77175-y",
+    "openAccess": null,
+    "dataSource": "站内简报",
+    "fullText": "https://doi.org/10.1038/s41467-026-77175-y",
+    "reportUrl": "/reports/2026-10-01/#paper-5",
+    "access": "仅摘要/元数据：Nature Communications 标为开放获取，但本轮单篇页面跳转到登录/验证，未实际读取正文或 Methods；这不是已确认的付费墙。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "问题—样品—生长—质量—测量",
+        "text": "Nature Communications 2026-10-01 开放摘要与 DOI 已核；单篇正文在本轮发生登录跳转，未读 Methods/SI。x、各元素真实占位、晶体生长配方、离子迁移直接证据和疲劳测试次数需待正文核对。不能将“铁电样开关”自动等同纯电子铁电。"
+      },
+      {
+        "title": "直接观察、推断与复现建议",
+        "text": "对同一晶体做升降温、扫速和电极材料依赖，联测 Cd 迁移分布及 PFM/宏观回线；将离子迁移与固有极化贡献拆开。 对未读或未报告的原料、温区、后处理、批次统计与误差不做假设。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜先核摘要",
+      "first": "先核摘要的 ±0.5 V、523 K 与 Cd²⁺ 迁移结论；取得正文后读单晶生长、开关寿命及离子分布图。",
+      "focus": "Nature Communications 2026-10-01 开放摘要与 DOI 已核；单篇正文在本轮发生登录跳转，未读 Methods/SI。x、各元素真实占位、晶体生长配方、离子迁移直接证据和疲劳测试次数需待正文核对。不能将“铁电样开关”自动等同纯电子铁电。",
+      "next": "对同一晶体做升降温、扫速和电极材料依赖，联测 Cd 迁移分布及 PFM/宏观回线；将离子迁移与固有极化贡献拆开。"
+    },
+    "growthRecipe": {
+      "material": "(MnFeCoNi)₁₋ₓCdₓPS₃",
+      "actualComposition": "",
+      "method": "高熵层状单晶；电场极化/阻变",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "原料、温区、后处理、批次统计与误差不做假设",
+      "purity": "",
+      "vessel": "",
+      "atmosphere": "",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "最高 523 K",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "后处理、批次统计与误差不做假设",
+      "crystalSize": "",
+      "yield": "",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 4,
+        "total": 15,
+        "ratio": 0.26666666666666666
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题—样品—生长—质量—测量",
+        "text": "Nature Communications 2026-10-01 开放摘要与 DOI 已核；单篇正文在本轮发生登录跳转，未读 Methods/SI。x、各元素真实占位、晶体生长配方、离子迁移直接证据和疲劳测试次数需待正文核对。不能将“铁电样开关”自动等同纯电子铁电。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "直接观察、推断与复现建议",
+        "text": "对同一晶体做升降温、扫速和电极材料依赖，联测 Cd 迁移分布及 PFM/宏观回线；将离子迁移与固有极化贡献拆开。 对未读或未报告的原料、温区、后处理、批次统计与误差不做假设。",
+        "type": "直接观察"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "质量表征信息不足",
+      "reproducibility": "4/15 项参数可提取",
+      "physicalEvidence": "单一或未报告",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2609.39806",
+    "title": "$\\mu$SR measurements of 3D Ising ferromagnetism in bulk Fe$_3$GeTe$_2$ crystals",
+    "authors": "Wilson, M. N., Huang, J., Hicken, T. J., Mayoh, D. A., Huddart, B. M., Balakrishnan, G., Lancaster, T.",
+    "institutions": "作者单位见 arXiv 原文；本轮未逐一归一化机构名称",
+    "journal": "arXiv（cond-mat；独立预印本）",
+    "material": "Fe₃GeTe₂",
+    "method": "CVT；SQUID；零场 μSR",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "arXiv v1",
+      "全文精读"
+    ],
+    "abstract": "作者说明使用 CVT 生长的块体 Fe₃GeTe₂，但已读 Methods 未列出输运剂、装料纯度、封管气氛、源端与生长端温区、保温时间、晶体大小和批次统计；这些参数均须标为正文未报告。μSR 在束流前放约 100 μm Ag degrader，使 μ 子平均停在约 200 μm 深处，降低仅由表面氧化造成信号的可能性。作者用 DFT 考察三个候选 μ 子位点，再联系内部场与自旋构型；停位是模型支持，不是直接拍到的原子位点。",
+    "conclusion": "同一块块体 Fe₃GeTe₂ 在 220 K 以下直至 2 K 都保有三维 Ising 型铁磁；170 K 的磁化异常更可能是磁畴冻结，而不是先前猜测的铁磁转反铁磁。",
+    "summary": "问题与对照：Fe₃GeTe₂ 是可剥离的铁磁金属，但块体材料在约 170 K 的第二异常究竟意味着新的反铁磁相，还是磁畴运动冻结，一直会影响对低温自旋响应的解释。这项工作刻意在同一块 CVT 晶体上比较宏观 SQUID 与体敏感零场 μSR，而不是从不同批次样品的两条曲线拼接相图。ZFCW/FCC 在 H∥c、100 Oe 条件下见到约 220 K 主转变和 170 K 的分叉；这只是直接磁化现象，单凭分叉不能给微观自旋排布定性。\n样品与方法可复现性：作者说明使用 CVT 生长的块体 Fe₃GeTe₂，但已读 Methods 未列出输运剂、装料纯度、封管气氛、源端与生长端温区、保温时间、晶体大小和批次统计；这些参数均须标为正文未报告。μSR 在束流前放约 100 μm Ag degrader，使 μ 子平均停在约 200 μm 深处，降低仅由表面氧化造成信号的可能性。作者用 DFT 考察三个候选 μ 子位点，再联系内部场与自旋构型；停位是模型支持，不是直接拍到的原子位点。\n证据链与替代解释：强证据是同晶体的整体磁化与局域内场在低温给出一致的铁磁延续图像，并且 μSR 的体敏感设计使表面副相解释较弱。零场信号快速退相干说明局域场分布宽；作者把低温数据与 3D Ising 型铁磁联系起来，但局域不均匀、Fe 空位和磁畴结构仍可改变线形。170 K 异常归为磁畴冻结是作者解释：若要把“未出现反铁磁转变”推到所有批次，必须对 Fe 非化学计量和结构堆垛做同晶体定量。\n下一炉和阅读路线：建议先核 Methods 的 100 Oe 磁化几何与 μSR 穿透深度，再把 Fig.1 的 170/220 K 与 Fig.3–5 的频率、弛豫率同温比较。下一炉记录 Fe/Ge/Te 实测比例、晶体厚度、CVT 梯度、Laue/EDS、摇摆曲线以及堆垛缺陷。把同一母晶切成 SQUID、μSR 和显微结构样品，做 150–190 K 升降温/频率扫描。这个实验能区分可重复的体相转变与被钉扎磁畴，而不会把拟合优度直接当作新的磁相证据。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-01",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.39806",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/html/2609.39806",
+    "reportUrl": "/reports/2026-10-01/#paper-6",
+    "access": "全文精读：已读公开正文、实验/Methods 与关键图注；",
+    "rating": "A+",
+    "sections": [
+      {
+        "title": "问题与对照",
+        "text": "Fe₃GeTe₂ 是可剥离的铁磁金属，但块体材料在约 170 K 的第二异常究竟意味着新的反铁磁相，还是磁畴运动冻结，一直会影响对低温自旋响应的解释。这项工作刻意在同一块 CVT 晶体上比较宏观 SQUID 与体敏感零场 μSR，而不是从不同批次样品的两条曲线拼接相图。ZFCW/FCC 在 H∥c、100 Oe 条件下见到约 220 K 主转变和 170 K 的分叉；这只是直接磁化现象，单凭分叉不能给微观自旋排布定性。"
+      },
+      {
+        "title": "样品与方法可复现性",
+        "text": "作者说明使用 CVT 生长的块体 Fe₃GeTe₂，但已读 Methods 未列出输运剂、装料纯度、封管气氛、源端与生长端温区、保温时间、晶体大小和批次统计；这些参数均须标为正文未报告。μSR 在束流前放约 100 μm Ag degrader，使 μ 子平均停在约 200 μm 深处，降低仅由表面氧化造成信号的可能性。作者用 DFT 考察三个候选 μ 子位点，再联系内部场与自旋构型；停位是模型支持，不是直接拍到的原子位点。"
+      },
+      {
+        "title": "证据链与替代解释",
+        "text": "强证据是同晶体的整体磁化与局域内场在低温给出一致的铁磁延续图像，并且 μSR 的体敏感设计使表面副相解释较弱。零场信号快速退相干说明局域场分布宽；作者把低温数据与 3D Ising 型铁磁联系起来，但局域不均匀、Fe 空位和磁畴结构仍可改变线形。170 K 异常归为磁畴冻结是作者解释：若要把“未出现反铁磁转变”推到所有批次，必须对 Fe 非化学计量和结构堆垛做同晶体定量。"
+      },
+      {
+        "title": "下一炉和阅读路线",
+        "text": "建议先核 Methods 的 100 Oe 磁化几何与 μSR 穿透深度，再把 Fig.1 的 170/220 K 与 Fig.3–5 的频率、弛豫率同温比较。下一炉记录 Fe/Ge/Te 实测比例、晶体厚度、CVT 梯度、Laue/EDS、摇摆曲线以及堆垛缺陷。把同一母晶切成 SQUID、μSR 和显微结构样品，做 150–190 K 升降温/频率扫描。这个实验能区分可重复的体相转变与被钉扎磁畴，而不会把拟合优度直接当作新的磁相证据。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A+｜磁性实验人员优先",
+      "first": "先读 II Methods 的同晶体 SQUID/μSR 几何，再看 Fig.1 的 170/220 K 与 Fig.3–5 的 μ 子退相干。",
+      "focus": "作者把 100 Oe、H∥c 的 ZFCW/FCC 磁化曲线与同一晶体的零场 μSR 对照。μ 子停在约 200 μm 深处，减弱了表面氧化物解释；三个候选 μ 子位点由 DFT 求得。快速衰减的信号提示内部场分布宽，但不能单凭它确定层错类型或空间分布。",
+      "next": "下一炉逐晶体定量 Fe 空位、摇摆曲线及层错密度，同一母晶切片复测 170 K 磁畴动力学与 μSR 分数。"
+    },
+    "growthRecipe": {
+      "material": "Fe₃GeTe₂",
+      "actualComposition": "EDS、摇摆曲线以及堆垛缺陷",
+      "method": "CVT",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "",
+      "purity": "纯度、封管气氛、源端与生长端温区、保温时间、晶体大小和批次统计",
+      "vessel": "",
+      "atmosphere": "",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "",
+      "crystalSize": "100 μm",
+      "yield": "",
+      "qualityMetrics": [
+        "摇摆曲线以及堆垛缺陷"
+      ],
+      "completeness": {
+        "reported": 3,
+        "total": 15,
+        "ratio": 0.2
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题与对照",
+        "text": "Fe₃GeTe₂ 是可剥离的铁磁金属，但块体材料在约 170 K 的第二异常究竟意味着新的反铁磁相，还是磁畴运动冻结，一直会影响对低温自旋响应的解释。这项工作刻意在同一块 CVT 晶体上比较宏观 SQUID 与体敏感零场 μSR，而不是从不同批次样品的两条曲线拼接相图。ZFCW/FCC 在 H∥c、100 Oe 条件下见到约 220 K 主转变和 170 K 的分叉；这只是直接磁化现象，单凭分叉不能给微观自旋排布定性。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "样品与方法可复现性",
+        "text": "作者说明使用 CVT 生长的块体 Fe₃GeTe₂，但已读 Methods 未列出输运剂、装料纯度、封管气氛、源端与生长端温区、保温时间、晶体大小和批次统计；这些参数均须标为正文未报告。μSR 在束流前放约 100 μm Ag degrader，使 μ 子平均停在约 200 μm 深处，降低仅由表面氧化造成信号的可能性。作者用 DFT 考察三个候选 μ 子位点，再联系内部场与自旋构型；停位是模型支持，不是直接拍到的原子位点。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据链与替代解释",
+        "text": "强证据是同晶体的整体磁化与局域内场在低温给出一致的铁磁延续图像，并且 μSR 的体敏感设计使表面副相解释较弱。零场信号快速退相干说明局域场分布宽；作者把低温数据与 3D Ising 型铁磁联系起来，但局域不均匀、Fe 空位和磁畴结构仍可改变线形。170 K 异常归为磁畴冻结是作者解释：若要把“未出现反铁磁转变”推到所有批次，必须对 Fe 非化学计量和结构堆垛做同晶体定量。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-4",
+        "title": "下一炉和阅读路线",
+        "text": "建议先核 Methods 的 100 Oe 磁化几何与 μSR 穿透深度，再把 Fig.1 的 170/220 K 与 Fig.3–5 的频率、弛豫率同温比较。下一炉记录 Fe/Ge/Te 实测比例、晶体厚度、CVT 梯度、Laue/EDS、摇摆曲线以及堆垛缺陷。把同一母晶切成 SQUID、μSR 和显微结构样品，做 150–190 K 升降温/频率扫描。这个实验能区分可重复的体相转变与被钉扎磁畴，而不会把拟合优度直接当作新的磁相证据。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "正文 + Methods",
+      "sampleCredibility": "Laue、EDS、磁化、输运 多方法互证",
+      "reproducibility": "3/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "中等"
+    }
+  },
+  {
+    "id": "arxiv:2609.39161",
+    "title": "Spectroscopic Evidence for Nontrivial Band Topology in Superconducting FeTe/MnTe Heterostructure",
+    "authors": "Su, Shiwu, Liang, Yu, Li, Tongrui, Wang, Zhen, Wang, Yuzhe, Li, Xianglin, Liao, Sen, Ran, Pengxu, Sun, Jiexiong, Cui, Shengtao, Sun, Zhe, Liu, Zhengtai, Liu, Jishan, Ye, Mao, Tao, Jing, Feng, Donglai, Jiang, Juan",
+    "institutions": "作者单位见 arXiv 原文；本轮未逐一归一化机构名称",
+    "journal": "arXiv（cond-mat；独立预印本）",
+    "material": "FeTe/MnTe",
+    "method": "高阶外延；ARPES；输运",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "arXiv v1",
+      "全文精读"
+    ],
+    "abstract": "FeTe has long been regarded as a nonsuperconducting antiferromagnetic metal with trivial band topology, but recent advances in stoichiometry control have begun to challenge this picture. Here we use higher-order epitaxy on zinc-blende MnTe to stabilize near-stoichiometric FeTe with strongly suppressed interstitial Fe and a superconducting transition onset near 13 K. Angle-resolved photoemission spectroscopy reveals markedly enhanced quasiparticle coherence, well-defined Fe-derived hole bands, and a nearly two-dimensional Dirac-cone-like state near the Fermi level. First-principles calculations identify an inversion between odd- and even-parity bands, yielding nontrivial $Z_2$ topology and a Dirac surface state consistent with experiment. These results elucidate the intrinsic electronic structure of stoichiometric superconducting FeTe and provide evidence for nontrivial band topology, positioning FeTe/MnTe as a promising platform for exploring topological superconductivity.",
+    "conclusion": "用 MnTe(111) 模板把 FeTe 推近 1:1 化学计量，超导起始约 13 K；相干能带和近费米能 Dirac 态出现，DFT 给出带反转与 Z₂=1。但拓扑超导仍是待验证假说。",
+    "summary": "研究问题与直接证据：RHEED/LEED 支持外延取向，2a(FeTe)≈√3a(MnTe) 是几何匹配条件；ARPES 观察 Dirac 样态，拓扑不变量来自计算。补充材料 Note 1 才含详细生长方法，本轮未取得该 Note，通量、基底温度和后退火不应推断。\n证据边界与下一炉/下一测量：下一次比较 Fe 间隙浓度可控的 FeTe/MnTe 与 FeTe/SrTiO₃，追踪 ARPES Dirac 态、Tc 与界面缺陷是否同向变化。 其余未在已读部分报告的参数应在复现前向作者确认。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-01",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.39161",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/html/2609.39161",
+    "reportUrl": "/reports/2026-10-01/#paper-7",
+    "access": "全文精读：已读公开正文与 Fig.1–3 图注；补充材料 Note 1 未取得，未把生长细节当作已读。",
+    "rating": "A",
+    "sections": [
+      {
+        "title": "研究问题与直接证据",
+        "text": "RHEED/LEED 支持外延取向，2a(FeTe)≈√3a(MnTe) 是几何匹配条件；ARPES 观察 Dirac 样态，拓扑不变量来自计算。补充材料 Note 1 才含详细生长方法，本轮未取得该 Note，通量、基底温度和后退火不应推断。"
+      },
+      {
+        "title": "证据边界与下一炉/下一测量",
+        "text": "下一次比较 Fe 间隙浓度可控的 FeTe/MnTe 与 FeTe/SrTiO₃，追踪 ARPES Dirac 态、Tc 与界面缺陷是否同向变化。 其余未在已读部分报告的参数应在复现前向作者确认。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A｜外延与拓扑超导方向",
+      "first": "先看具体 Methods/Experimental 与图1–3，再用摘要确定作者的因果主张。",
+      "focus": "RHEED/LEED 支持外延取向，2a(FeTe)≈√3a(MnTe) 是几何匹配条件；ARPES 观察 Dirac 样态，拓扑不变量来自计算。补充材料 Note 1 才含详细生长方法，本轮未取得该 Note，通量、基底温度和后退火不应推断。",
+      "next": "下一次比较 Fe 间隙浓度可控的 FeTe/MnTe 与 FeTe/SrTiO₃，追踪 ARPES Dirac 态、Tc 与界面缺陷是否同向变化。"
+    },
+    "growthRecipe": {
+      "material": "FeTe/MnTe",
+      "actualComposition": "",
+      "method": "高阶外延；ARPES；输运",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "1:1",
+      "purity": "",
+      "vessel": "",
+      "atmosphere": "",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "退火不应推断",
+      "crystalSize": "",
+      "yield": "",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 3,
+        "total": 15,
+        "ratio": 0.2
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "研究问题与直接证据",
+        "text": "RHEED/LEED 支持外延取向，2a(FeTe)≈√3a(MnTe) 是几何匹配条件；ARPES 观察 Dirac 样态，拓扑不变量来自计算。补充材料 Note 1 才含详细生长方法，本轮未取得该 Note，通量、基底温度和后退火不应推断。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-2",
+        "title": "证据边界与下一炉/下一测量",
+        "text": "下一次比较 Fe 间隙浓度可控的 FeTe/MnTe 与 FeTe/SrTiO₃，追踪 ARPES Dirac 态、Tc 与界面缺陷是否同向变化。 其余未在已读部分报告的参数应在复现前向作者确认。",
+        "type": "本站判断"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "正文 + Methods + SI",
+      "sampleCredibility": "ARPES、输运；证据仍可补强",
+      "reproducibility": "3/15 项参数可提取",
+      "physicalEvidence": "双探针支持",
+      "certainty": "强"
+    }
+  },
+  {
+    "id": "arxiv:2609.39175",
+    "title": "Tunability of the structural and magnetic transition in kagome material: PrIr$_3$B$_2$",
+    "authors": "V, Gayathri, A, Irshad K, M, Sathishkumar, Joseph, Boby, Manni, S.",
+    "institutions": "作者单位见 arXiv 原文；本轮未逐一归一化机构名称",
+    "journal": "arXiv（cond-mat；独立预印本）",
+    "material": "PrIr₃B₂",
+    "method": "Czochralski；同步辐射 XRD；电阻/磁化/DSC",
+    "category": "晶体生长和物性调控",
+    "tags": [
+      "arXiv v1",
+      "全文精读"
+    ],
+    "abstract": "Methods 说单晶由 Czochralski 拉晶所得，但具体拉速、转速、熔体气氛、原料纯度与成分梯度未在这篇正文详述，引用较早工作；不能按常见拉晶工艺补写。电阻采用四探针电流反转，4–300 K；DSC 用约 11.8 mg 晶体、10 K/min 在 200–450 K 扫描。室温高压同步辐射粉末衍射使用从晶体研碎的粉末，在 0–10 GPa、甲醇:乙醇=4:1 压力介质下测量。研粉后的压力结构与整晶电阻并非完全同一个测量对象。",
+    "conclusion": "PrIr₃B₂ 的两步金属—绝缘—金属异常伴随六方 P6/mmm 与单斜 C2/m 共存；降温到约 280 K 或室温加压到约 1.2 GPa 都能推向单斜相，10 K 的磁序又带出超区隙。结构与输运关联明确，电荷序仍只是可能解释。",
+    "summary": "科学问题：PrIr₃B₂ 中电阻随温度呈两次金属—绝缘—金属变化，问题是这种异常是否有相应晶格变化。作者用温度、压力两种控制量追踪六方 P6/mmm 与单斜 C2/m 的竞争，并把 10 K 附近磁序纳入低温输运解释。相较于只看电阻曲线，衍射对称性与热分析是判断结构相变的独立证据；相反，电荷序仍未得到直接散射峰证实。\n样品与实验设计：Methods 说单晶由 Czochralski 拉晶所得，但具体拉速、转速、熔体气氛、原料纯度与成分梯度未在这篇正文详述，引用较早工作；不能按常见拉晶工艺补写。电阻采用四探针电流反转，4–300 K；DSC 用约 11.8 mg 晶体、10 K/min 在 200–450 K 扫描。室温高压同步辐射粉末衍射使用从晶体研碎的粉末，在 0–10 GPa、甲醇:乙醇=4:1 压力介质下测量。研粉后的压力结构与整晶电阻并非完全同一个测量对象。\n证据分层：直接观察包括电阻双异常、热流峰、温度/压力依赖衍射峰的分裂及部分相共存；结构精修得出的相分数与空间群属于模型依赖量。约 280 K 或室温约 1.2 GPa 处出现单斜相的共性，支持“晶格自由度参与输运转变”的推断，却不足以宣布某个电子有序波矢。10 K 附近磁有序对低温能隙的解释还要和场依赖、晶体方向及可能杂质相比较。最弱点是缺少原位同一整晶在压力下的结构—电输运同步记录，也缺少拉晶棒位置的统计。\n复现操作：按拉晶棒顶部、中部、底部编号，每段留一片做 Laue/单晶 XRD，一片四探针，一片 DSC；同炉保留 EDS/WDS 成分和杂相上限。先看正文 II 节仪器/压力介质，再读衍射图及 250/280 K 电阻异常，核对升降温是否有滞后。下一次压力实验加卸压回程与同批晶体结构检查；若双异常与初始双相分数相关，先控制生长成分和应力，再讨论电荷序。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-01",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.39175",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/html/2609.39175",
+    "reportUrl": "/reports/2026-10-01/#paper-8",
+    "access": "全文精读：已读公开正文、实验/Methods 与关键图注；",
+    "rating": "A",
+    "sections": [
+      {
+        "title": "科学问题",
+        "text": "PrIr₃B₂ 中电阻随温度呈两次金属—绝缘—金属变化，问题是这种异常是否有相应晶格变化。作者用温度、压力两种控制量追踪六方 P6/mmm 与单斜 C2/m 的竞争，并把 10 K 附近磁序纳入低温输运解释。相较于只看电阻曲线，衍射对称性与热分析是判断结构相变的独立证据；相反，电荷序仍未得到直接散射峰证实。"
+      },
+      {
+        "title": "样品与实验设计",
+        "text": "Methods 说单晶由 Czochralski 拉晶所得，但具体拉速、转速、熔体气氛、原料纯度与成分梯度未在这篇正文详述，引用较早工作；不能按常见拉晶工艺补写。电阻采用四探针电流反转，4–300 K；DSC 用约 11.8 mg 晶体、10 K/min 在 200–450 K 扫描。室温高压同步辐射粉末衍射使用从晶体研碎的粉末，在 0–10 GPa、甲醇:乙醇=4:1 压力介质下测量。研粉后的压力结构与整晶电阻并非完全同一个测量对象。"
+      },
+      {
+        "title": "证据分层",
+        "text": "直接观察包括电阻双异常、热流峰、温度/压力依赖衍射峰的分裂及部分相共存；结构精修得出的相分数与空间群属于模型依赖量。约 280 K 或室温约 1.2 GPa 处出现单斜相的共性，支持“晶格自由度参与输运转变”的推断，却不足以宣布某个电子有序波矢。10 K 附近磁有序对低温能隙的解释还要和场依赖、晶体方向及可能杂质相比较。最弱点是缺少原位同一整晶在压力下的结构—电输运同步记录，也缺少拉晶棒位置的统计。"
+      },
+      {
+        "title": "复现操作",
+        "text": "按拉晶棒顶部、中部、底部编号，每段留一片做 Laue/单晶 XRD，一片四探针，一片 DSC；同炉保留 EDS/WDS 成分和杂相上限。先看正文 II 节仪器/压力介质，再读衍射图及 250/280 K 电阻异常，核对升降温是否有滞后。下一次压力实验加卸压回程与同批晶体结构检查；若双异常与初始双相分数相关，先控制生长成分和应力，再讨论电荷序。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A｜生长和相变实验人员",
+      "first": "先看 II Methods 的 Czochralski 来源与 DSC/XRD 条件，再对 Fig.1 与压力回程衍射。",
+      "focus": "正文 Methods 明确采用四电极电流反转、4–300 K 电阻和 0–10 GPa 同步辐射粉末衍射，DSC 用约 11.8 mg 晶体、10 K/min 温扫。温压 XRD 使用研碎母晶，未等于原位同一整晶输运。压强介质为甲醇:乙醇 4:1。具体 Czochralski 拉速、气氛、收率仍需追溯引文。",
+      "next": "保留每根拉晶棒位置并联测单晶 Laue、四探针和 DSC，比较室温双相体积分数与 250/280 K 双异常；压力实验测回程滞后。"
+    },
+    "growthRecipe": {
+      "material": "PrIr₃B₂",
+      "actualComposition": "EDS/WDS 成分和杂相上限",
+      "method": "Czochralski；同步辐射 XRD；电阻/磁化/DSC",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "原料纯度与成分梯度未在这篇正文详述，引用较早工作",
+      "purity": "纯度与成分梯度未在这篇正文详述，引用较早工作",
+      "vessel": "",
+      "atmosphere": "",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "",
+      "crystalSize": "",
+      "yield": "",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 3,
+        "total": 15,
+        "ratio": 0.2
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "科学问题",
+        "text": "PrIr₃B₂ 中电阻随温度呈两次金属—绝缘—金属变化，问题是这种异常是否有相应晶格变化。作者用温度、压力两种控制量追踪六方 P6/mmm 与单斜 C2/m 的竞争，并把 10 K 附近磁序纳入低温输运解释。相较于只看电阻曲线，衍射对称性与热分析是判断结构相变的独立证据；相反，电荷序仍未得到直接散射峰证实。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "样品与实验设计",
+        "text": "Methods 说单晶由 Czochralski 拉晶所得，但具体拉速、转速、熔体气氛、原料纯度与成分梯度未在这篇正文详述，引用较早工作；不能按常见拉晶工艺补写。电阻采用四探针电流反转，4–300 K；DSC 用约 11.8 mg 晶体、10 K/min 在 200–450 K 扫描。室温高压同步辐射粉末衍射使用从晶体研碎的粉末，在 0–10 GPa、甲醇:乙醇=4:1 压力介质下测量。研粉后的压力结构与整晶电阻并非完全同一个测量对象。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据分层",
+        "text": "直接观察包括电阻双异常、热流峰、温度/压力依赖衍射峰的分裂及部分相共存；结构精修得出的相分数与空间群属于模型依赖量。约 280 K 或室温约 1.2 GPa 处出现单斜相的共性，支持“晶格自由度参与输运转变”的推断，却不足以宣布某个电子有序波矢。10 K 附近磁有序对低温能隙的解释还要和场依赖、晶体方向及可能杂质相比较。最弱点是缺少原位同一整晶在压力下的结构—电输运同步记录，也缺少拉晶棒位置的统计。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-4",
+        "title": "复现操作",
+        "text": "按拉晶棒顶部、中部、底部编号，每段留一片做 Laue/单晶 XRD，一片四探针，一片 DSC；同炉保留 EDS/WDS 成分和杂相上限。先看正文 II 节仪器/压力介质，再读衍射图及 250/280 K 电阻异常，核对升降温是否有滞后。下一次压力实验加卸压回程与同批晶体结构检查；若双异常与初始双相分数相关，先控制生长成分和应力，再讨论电荷序。",
+        "type": "直接观察"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "正文 + Methods",
+      "sampleCredibility": "XRD、Laue、EDS、WDS 多方法互证",
+      "reproducibility": "3/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "强"
+    }
+  },
+  {
+    "id": "arxiv:2609.39303",
+    "title": "Varying A-site radius and size disorder to tune magnetic ordering in compositionally complex perovskite oxides",
+    "authors": "Geers, Madeleine, Dokala, Ravi Kiran, Mathieu, Roland, Clulow, Rebecca",
+    "institutions": "作者单位见 arXiv 原文；本轮未逐一归一化机构名称",
+    "journal": "arXiv（cond-mat；独立预印本）",
+    "material": "A₅M₇O₃ 高熵钙钛矿",
+    "method": "多阳离子固溶；磁化",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "arXiv v1",
+      "摘要级"
+    ],
+    "abstract": "A long standing goal of magnetochemists is to be able to control ordering temperatures through compositional engineering. Here we report the synthesis of a perovskite oxide with twelve cations accommodated within a single phase solid solution, AM7O$_3$, A = La$_{\\frac{1}{5}}$Sm$_{\\frac{1}{5}}$Gd$_{\\frac{1}{5}}$Nd$_{\\frac{1}{5}}$Dy$_{\\frac{1}{5}}$ (A5), and M7 = Ti$_{\\frac{1}{7}}$Cr$_{\\frac{1}{7}}$Mn$_{\\frac{1}{7}}$Fe$_{\\frac{1}{7}}$Co$_{\\frac{1}{7}}$Ni$_{\\frac{1}{7}}$Cu$_{\\frac{1}{7}}$. Bulk magnetometry measurements for A5M7O$_3$, as well as for A = La, Gd and La$_{\\frac{1}{2}}$Gd$_{\\frac{1}{2}}$, show that all these compounds magnetically order as ferrimagnets between 89 and 115 K. We find that the magnetic properties are influenced by considering a combination of the size disorder parameter alongside the A-site cationic radii and valence electrons.",
+    "conclusion": "在单相钙钛矿中同时置入五种 A 位和七种过渡金属，目标是检验 A 位平均半径与尺寸无序如何改变磁序温度，而不能把名义混合直接当成微观均匀。",
+    "summary": "研究问题与直接证据：摘要给出组成 A=La/Sm/Gd/Nd/Dy 各 1/5 与 M=Ti/Cr/Mn/Fe/Co/Ni/Cu 各 1/7；制备温程、逐位点偏析和批次离散度本轮未核正文。\n证据边界与下一炉/下一测量：将同批样品的 STEM-EDS 面扫、氧含量与磁化转变宽度并列，避免把氧空位效应归因于 A 位尺寸。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-01",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.39303",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2609.39303",
+    "reportUrl": "/reports/2026-10-01/#paper-9",
+    "access": "摘要级：本轮只核对 arXiv 官方摘要/元数据；制备与测量未在摘要给出的项目均为待核正文。",
+    "rating": "B",
+    "sections": [
+      {
+        "title": "研究问题与直接证据",
+        "text": "摘要给出组成 A=La/Sm/Gd/Nd/Dy 各 1/5 与 M=Ti/Cr/Mn/Fe/Co/Ni/Cu 各 1/7；制备温程、逐位点偏析和批次离散度本轮未核正文。"
+      },
+      {
+        "title": "证据边界与下一炉/下一测量",
+        "text": "将同批样品的 STEM-EDS 面扫、氧含量与磁化转变宽度并列，避免把氧空位效应归因于 A 位尺寸。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B｜成分工程参考",
+      "first": "先读摘要中材料、方法和实际观测三项；本轮未核正文，按需转入公开 PDF。",
+      "focus": "摘要给出组成 A=La/Sm/Gd/Nd/Dy 各 1/5 与 M=Ti/Cr/Mn/Fe/Co/Ni/Cu 各 1/7；制备温程、逐位点偏析和批次离散度本轮未核正文。",
+      "next": "将同批样品的 STEM-EDS 面扫、氧含量与磁化转变宽度并列，避免把氧空位效应归因于 A 位尺寸。"
+    },
+    "growthRecipe": {
+      "material": "A₅M₇O₃ 高熵钙钛矿",
+      "actualComposition": "EDS 面扫、氧含量与磁化转变宽度并列，避免把氧空位效应归因于 A 位尺寸",
+      "method": "多阳离子固溶；磁化",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "purity": "纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "vessel": "",
+      "atmosphere": "真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "后处理、晶体尺寸与产率不由经验补写",
+      "crystalSize": "",
+      "yield": "产率不由经验补写",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 6,
+        "total": 15,
+        "ratio": 0.4
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "研究问题与直接证据",
+        "text": "摘要给出组成 A=La/Sm/Gd/Nd/Dy 各 1/5 与 M=Ti/Cr/Mn/Fe/Co/Ni/Cu 各 1/7；制备温程、逐位点偏析和批次离散度本轮未核正文。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "证据边界与下一炉/下一测量",
+        "text": "将同批样品的 STEM-EDS 面扫、氧含量与磁化转变宽度并列，避免把氧空位效应归因于 A 位尺寸。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+        "type": "作者推断"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "EDS、TEM、磁化；证据仍可补强",
+      "reproducibility": "6/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2609.39986",
+    "title": "Atomic-Scale Imaging of Lattice Relaxation and Topological Flat Bands in Helical Trilayer Graphene",
+    "authors": "Jiang, Shudan, Li, Zonglin, Gu, Yu, Liu, Liang, Guan, Dandan, Li, Yaoyi, Zheng, Hao, Liu, Canhua, Watanabe, Kenji, Taniguchi, Takashi, Jiang, Shengwei, Liu, Xiaoxue, Shi, Zhiwen, Chen, Guorui, Jia, Jinfeng, Li, Tingxin, Li, Can, Wang, Shiyong",
+    "institutions": "作者单位见 arXiv 原文；本轮未逐一归一化机构名称",
+    "journal": "arXiv（cond-mat；独立预印本）",
+    "material": "螺旋三层石墨烯",
+    "method": "近场光学；低温 STM",
+    "category": "二维材料与量子器件",
+    "tags": [
+      "arXiv v1",
+      "摘要级"
+    ],
+    "abstract": "Helical trilayer graphene (HTG) has emerged as a highly tunable moire quantum material that hosts strong electronic correlations and nontrivial band topology. However, the atomic-scale lattice structure and local electronic properties have remained largely unexplored. Here we present a comprehensive real-space study of HTG using a combination of scanning near-field optical microscopy and low-temperature scanning tunneling microscopy. We directly image supermoire lattice relaxation, revealing large triangular domains separated by sharp domain walls, as well as stripe domains connected by smoothly varying boundaries. Atomic-scale spectroscopy uncovers flat bands with a honeycomb electronic texture and one-dimensional boundary states confined to domain walls. By systematically varying the twist angle, we identify a magic angle of approximately 1.9°, substantially larger than the 1.6 degree predicted by theory. Our results establish a direct microscopic link between lattice relaxation and flat bands in HTG.",
+    "conclusion": "近场与 STM 在实空间看见超莫尔晶格弛豫、三角畴及其边界，把平带和拓扑响应连接到真实局域结构，而非只由平均扭角模型推断。",
+    "summary": "研究问题与直接证据：摘要确认同时使用扫描近场光学与低温 STM；层间角分布、隧穿设定、电学器件对照未在本轮核正文。\n证据边界与下一炉/下一测量：在同一位置配准莫尔畴边与局域态密度，再与局部应变图交叉比较。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-01",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.39986",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2609.39986",
+    "reportUrl": "/reports/2026-10-01/#paper-10",
+    "access": "摘要级：本轮只核对 arXiv 官方摘要/元数据；制备与测量未在摘要给出的项目均为待核正文。",
+    "rating": "A",
+    "sections": [
+      {
+        "title": "研究问题与直接证据",
+        "text": "摘要确认同时使用扫描近场光学与低温 STM；层间角分布、隧穿设定、电学器件对照未在本轮核正文。"
+      },
+      {
+        "title": "证据边界与下一炉/下一测量",
+        "text": "在同一位置配准莫尔畴边与局域态密度，再与局部应变图交叉比较。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A｜二维材料与 STM",
+      "first": "先读摘要中材料、方法和实际观测三项；本轮未核正文，按需转入公开 PDF。",
+      "focus": "摘要确认同时使用扫描近场光学与低温 STM；层间角分布、隧穿设定、电学器件对照未在本轮核正文。",
+      "next": "在同一位置配准莫尔畴边与局域态密度，再与局部应变图交叉比较。"
+    },
+    "growthRecipe": {
+      "material": "螺旋三层石墨烯",
+      "actualComposition": "",
+      "method": "近场光学；低温 STM",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "purity": "纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "vessel": "",
+      "atmosphere": "真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "后处理、晶体尺寸与产率不由经验补写",
+      "crystalSize": "",
+      "yield": "产率不由经验补写",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 6,
+        "total": 15,
+        "ratio": 0.4
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "研究问题与直接证据",
+        "text": "摘要确认同时使用扫描近场光学与低温 STM；层间角分布、隧穿设定、电学器件对照未在本轮核正文。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "证据边界与下一炉/下一测量",
+        "text": "在同一位置配准莫尔畴边与局域态密度，再与局部应变图交叉比较。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+        "type": "本站判断"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "STM；证据仍可补强",
+      "reproducibility": "6/15 项参数可提取",
+      "physicalEvidence": "单一或未报告",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2609.40002",
+    "title": "Entropy-Driven Altermagnetism from Thermal Magnons",
+    "authors": "Halder, Tanaya, Nandy, Ashis K., Mukherjee, Anamitra",
+    "institutions": "作者单位见 arXiv 原文；本轮未逐一归一化机构名称",
+    "journal": "arXiv（cond-mat；独立预印本）",
+    "material": "方格反铁磁模型",
+    "method": "热磁振子理论",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "arXiv v1",
+      "摘要级"
+    ],
+    "abstract": "We identify a route to altermagnetism driven by entropy upon heating and demonstrate it in a minimal square-lattice antiferromagnet. An exchange modulation is entropically favored because the resulting momentum-dependent magnon splitting increases the magnon entropy, thereby lowering the free energy and favoring altermagnetism. We derive an instability criterion for this exchange-modulated state, predict its temperature-driven reentrant behavior, and show that its overlap with Néel order defines a finite-temperature altermagnetic phase. Variational spin-wave theory, spin--lattice Monte Carlo, and cluster diagonalization establish the entropy-driven instability and its coexistence with magnetic order. The resulting state supports a transverse spin conductivity. The mechanism provides a route to thermally induced altermagnetism in compensated magnets coupled to sufficiently soft physical modes.",
+    "conclusion": "该理论提出升温后磁振子熵可偏好动量依赖的自旋劈裂，从而使交替磁序反常地由热涨落稳定，并预言再入行为。",
+    "summary": "研究问题与直接证据：证据为最小模型自由能与变分计算；没有具体晶体生长或直接磁谱，不能把模型相图当作材料实验事实。\n证据边界与下一炉/下一测量：对候选交替磁体计算温度依赖 magnon 分支，再找偏振中子散射可辨认的再入窗口。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-01",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.40002",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2609.40002",
+    "reportUrl": "/reports/2026-10-01/#paper-11",
+    "access": "摘要级：本轮只核对 arXiv 官方摘要/元数据；制备与测量未在摘要给出的项目均为待核正文。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "研究问题与直接证据",
+        "text": "证据为最小模型自由能与变分计算；没有具体晶体生长或直接磁谱，不能把模型相图当作材料实验事实。"
+      },
+      {
+        "title": "证据边界与下一炉/下一测量",
+        "text": "对候选交替磁体计算温度依赖 magnon 分支，再找偏振中子散射可辨认的再入窗口。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜理论方向",
+      "first": "先读摘要中材料、方法和实际观测三项；本轮未核正文，按需转入公开 PDF。",
+      "focus": "证据为最小模型自由能与变分计算；没有具体晶体生长或直接磁谱，不能把模型相图当作材料实验事实。",
+      "next": "对候选交替磁体计算温度依赖 magnon 分支，再找偏振中子散射可辨认的再入窗口。"
+    },
+    "growthRecipe": {
+      "material": "方格反铁磁模型",
+      "actualComposition": "",
+      "method": "热磁振子理论",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "purity": "纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "vessel": "",
+      "atmosphere": "真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "后处理、晶体尺寸与产率不由经验补写",
+      "crystalSize": "",
+      "yield": "产率不由经验补写",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 6,
+        "total": 15,
+        "ratio": 0.4
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "研究问题与直接证据",
+        "text": "证据为最小模型自由能与变分计算；没有具体晶体生长或直接磁谱，不能把模型相图当作材料实验事实。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-2",
+        "title": "证据边界与下一炉/下一测量",
+        "text": "对候选交替磁体计算温度依赖 magnon 分支，再找偏振中子散射可辨认的再入窗口。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "质量表征信息不足",
+      "reproducibility": "6/15 项参数可提取",
+      "physicalEvidence": "单一或未报告",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2609.40059",
+    "title": "Fingerprints of unconventional pairing in superconductor-hole-gas heterostructures",
+    "authors": "Babkin, Serafim S., Flensberg, Karsten, Danon, Jeroen, Serbyn, Maksym",
+    "institutions": "作者单位见 arXiv 原文；本轮未逐一归一化机构名称",
+    "journal": "arXiv（cond-mat；独立预印本）",
+    "material": "超导体/二维空穴气",
+    "method": "超流刚度与动感电感理论",
+    "category": "二维材料与量子器件",
+    "tags": [
+      "arXiv v1",
+      "摘要级"
+    ],
+    "abstract": "Superconductor and two-dimensional hole gas heterostructures are promising platforms for quantum devices, but their intrinsic properties, e.g., unconventional pairings, are hard to access experimentally. Here, we show that the in-plane-field dependence of the superfluid stiffness and spin susceptibility exhibits nonanalyticities encoding the induced gap structure in the hole gas. Additionally, Fourier harmonics of the stiffness tensor's field-angle dependence, accessible via kinetic-inductance measurements, provide fingerprints of unconventional pairing and cubic Rashba coupling.",
+    "conclusion": "面内场改变超流刚度和自旋磁化率的非解析性，可用动感电感角向谐波区分诱导配对结构。",
+    "summary": "研究问题与直接证据：这是理论判据，摘要没有给出具体异质结材料、生长参数或已完成实测。\n证据边界与下一炉/下一测量：为具体 Ge/SiGe 或 III–V 空穴器件计算有限厚度与无序误差下的角谐波，再设计面内旋转测量。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-01",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.40059",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2609.40059",
+    "reportUrl": "/reports/2026-10-01/#paper-12",
+    "access": "摘要级：本轮只核对 arXiv 官方摘要/元数据；制备与测量未在摘要给出的项目均为待核正文。",
+    "rating": "B",
+    "sections": [
+      {
+        "title": "研究问题与直接证据",
+        "text": "这是理论判据，摘要没有给出具体异质结材料、生长参数或已完成实测。"
+      },
+      {
+        "title": "证据边界与下一炉/下一测量",
+        "text": "为具体 Ge/SiGe 或 III–V 空穴器件计算有限厚度与无序误差下的角谐波，再设计面内旋转测量。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B｜量子器件理论",
+      "first": "先读摘要中材料、方法和实际观测三项；本轮未核正文，按需转入公开 PDF。",
+      "focus": "这是理论判据，摘要没有给出具体异质结材料、生长参数或已完成实测。",
+      "next": "为具体 Ge/SiGe 或 III–V 空穴器件计算有限厚度与无序误差下的角谐波，再设计面内旋转测量。"
+    },
+    "growthRecipe": {
+      "material": "超导体/二维空穴气",
+      "actualComposition": "",
+      "method": "超流刚度与动感电感理论",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "purity": "纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "vessel": "",
+      "atmosphere": "真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "后处理、晶体尺寸与产率不由经验补写",
+      "crystalSize": "",
+      "yield": "产率不由经验补写",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 6,
+        "total": 15,
+        "ratio": 0.4
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "研究问题与直接证据",
+        "text": "这是理论判据，摘要没有给出具体异质结材料、生长参数或已完成实测。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "证据边界与下一炉/下一测量",
+        "text": "为具体 Ge/SiGe 或 III–V 空穴器件计算有限厚度与无序误差下的角谐波，再设计面内旋转测量。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "磁化；证据仍可补强",
+      "reproducibility": "6/15 项参数可提取",
+      "physicalEvidence": "单一或未报告",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2609.39878",
+    "title": "Multi-Branch Transport in a Back-gated WS$_2$ Transistor at Deep-Cryogenic Temperature",
+    "authors": "Powell, Megan, Patil, Vilas, Neill, Hazel, O'Sullivan, Stephen, Hurley, Paul K., Ansari, Lida, Gity, Farzan, Rossi, Alessandro",
+    "institutions": "作者单位见 arXiv 原文；本轮未逐一归一化机构名称",
+    "journal": "arXiv（cond-mat；独立预印本）",
+    "material": "WS₂ 低温晶体管",
+    "method": "背栅多层 WS₂；20 mK 输运",
+    "category": "二维材料与量子器件",
+    "tags": [
+      "arXiv v1",
+      "摘要级"
+    ],
+    "abstract": "Two-dimensional materials are promising candidates for electronic applications beyond the operating limits of conventional semiconductor technologies. Within this class, transition-metal dichalcogenides offer attractive properties for field-effect transistor operation, with tungsten disulphide (WS$_2$) emerging as a particularly promising material for operation at cryogenic temperatures. Here, we investigate the electrical performance of a back-gated multilayer WS$_2$ transistor at deep cryogenic temperature, down to 20 mK. The device remains strongly gate-tunable throughout the cryogenic regime, with an effective on/off current ratio exceeding $10^{5}$. Most notably, the low-temperature turn-on characteristics exhibit reproducible shoulder-like features, which we describe using a phenomenological model comprising multiple effective conduction branches operating in parallel.",
+    "conclusion": "多层 WS₂ 背栅晶体管在深低温仍可调控，出现多个输运分支，提示低温器件评估不能只看室温迁移率。",
+    "summary": "研究问题与直接证据：摘要给出最低 20 mK；沟道尺寸、接触电阻、层数分布及扫栅滞后本轮未核正文。\n证据边界与下一炉/下一测量：按升/降栅压与温度方向分别保存原始曲线，先排除陷阱态和接触效应再解释分支。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-01",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.39878",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2609.39878",
+    "reportUrl": "/reports/2026-10-01/#paper-13",
+    "access": "摘要级：本轮只核对 arXiv 官方摘要/元数据；制备与测量未在摘要给出的项目均为待核正文。",
+    "rating": "B",
+    "sections": [
+      {
+        "title": "研究问题与直接证据",
+        "text": "摘要给出最低 20 mK；沟道尺寸、接触电阻、层数分布及扫栅滞后本轮未核正文。"
+      },
+      {
+        "title": "证据边界与下一炉/下一测量",
+        "text": "按升/降栅压与温度方向分别保存原始曲线，先排除陷阱态和接触效应再解释分支。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B｜低温器件",
+      "first": "先读摘要中材料、方法和实际观测三项；本轮未核正文，按需转入公开 PDF。",
+      "focus": "摘要给出最低 20 mK；沟道尺寸、接触电阻、层数分布及扫栅滞后本轮未核正文。",
+      "next": "按升/降栅压与温度方向分别保存原始曲线，先排除陷阱态和接触效应再解释分支。"
+    },
+    "growthRecipe": {
+      "material": "WS₂ 低温晶体管",
+      "actualComposition": "",
+      "method": "背栅多层 WS₂；20 mK 输运",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "purity": "纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "vessel": "",
+      "atmosphere": "真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "后处理、晶体尺寸与产率不由经验补写",
+      "crystalSize": "",
+      "yield": "产率不由经验补写",
+      "qualityMetrics": [
+        "迁移率"
+      ],
+      "completeness": {
+        "reported": 6,
+        "total": 15,
+        "ratio": 0.4
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "研究问题与直接证据",
+        "text": "摘要给出最低 20 mK；沟道尺寸、接触电阻、层数分布及扫栅滞后本轮未核正文。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "证据边界与下一炉/下一测量",
+        "text": "按升/降栅压与温度方向分别保存原始曲线，先排除陷阱态和接触效应再解释分支。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+        "type": "本站判断"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "输运；证据仍可补强",
+      "reproducibility": "6/15 项参数可提取",
+      "physicalEvidence": "单一或未报告",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2609.38825",
+    "title": "Optical observation of interlayer spin correlation",
+    "authors": "Park, Akiyoshi, Upadhyay, Pranshoo, Grankin, Andrey, Boström, Emil Viñas, Ghafariasl, Mahdi, Alnatah, Hassan, Mohammadi-Arzanagh, Masoud, Nambiar, Gautam, Gao, Beini, Alvandi, Alireza, Kumar, Sakthi Rajmano Madhan, Alshalan, Ghadah, Sherwood, Isaac, Mehrabad, Mahmoud Jalali, Zhou, You, Ramanathan, Arun, Roy, Xavier, Rubio, Angel, Hafezi, Mohammad",
+    "institutions": "作者单位见 arXiv 原文；本轮未逐一归一化机构名称",
+    "journal": "arXiv（cond-mat；独立预印本）",
+    "material": "层状磁体界面",
+    "method": "光学探测层间自旋关联",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "arXiv v1",
+      "摘要级"
+    ],
+    "abstract": "Spin correlations govern numerous collective behaviors of quantum materials, underpinning exotic phenomena such as unconventional superconductivity and topological magnetism. In layered materials, the interlayer spin correlation is important because it characterizes the magnetic ground state and determines spin transport across the interface. Yet interlayer spin correlations have remained hard to measure directly, leaving one of the most basic quantities of two-dimensional magnetism out of experimental reach. Here we provide the first direct optical probe of interlayer spin correlations, using two-magnon Raman scattering in the van der Waals antiferromagnet (AFM) CrSBr, in remarkable agreement with a microscopic spin-wave model without any fitting parameter. Moreover, the two-magnon channel switches on only in the AFM state and vanishes when a magnetic field takes the crystal to a ferromagnetic state. We furthermore establish an exciton-mediated variant of the technique, where tuning the laser near the exciton resonance enhances the signal roughly tenfold due to the exciton's large oscillator strength. Magnon-pair Raman spectroscopy thus opens a direct optical window into interlayer spin correlations in van der Waals magnets, extendable to twisted bilayers and proximity-coupled heterostructures.",
+    "conclusion": "提出对层间自旋关联的光学直接读出，弥补以往从总磁化或输运间接猜测层间序的缺口。",
+    "summary": "研究问题与直接证据：目前只核摘要，具体材料、泵探条件、选择定则和替代光学机制仍需全文核对。\n证据边界与下一炉/下一测量：同样品联测层数依赖光谱、磁光和结构堆垛，明确光学信号是否真随层间关联变化。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-01",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.38825",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2609.38825",
+    "reportUrl": "/reports/2026-10-01/#paper-14",
+    "access": "摘要级：本轮只核对 arXiv 官方摘要/元数据；制备与测量未在摘要给出的项目均为待核正文。",
+    "rating": "A−",
+    "sections": [
+      {
+        "title": "研究问题与直接证据",
+        "text": "目前只核摘要，具体材料、泵探条件、选择定则和替代光学机制仍需全文核对。"
+      },
+      {
+        "title": "证据边界与下一炉/下一测量",
+        "text": "同样品联测层数依赖光谱、磁光和结构堆垛，明确光学信号是否真随层间关联变化。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A−｜二维磁性光学",
+      "first": "先读摘要中材料、方法和实际观测三项；本轮未核正文，按需转入公开 PDF。",
+      "focus": "目前只核摘要，具体材料、泵探条件、选择定则和替代光学机制仍需全文核对。",
+      "next": "同样品联测层数依赖光谱、磁光和结构堆垛，明确光学信号是否真随层间关联变化。"
+    },
+    "growthRecipe": {
+      "material": "层状磁体界面",
+      "actualComposition": "",
+      "method": "光学探测层间自旋关联",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "purity": "纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "vessel": "",
+      "atmosphere": "真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "后处理、晶体尺寸与产率不由经验补写",
+      "crystalSize": "",
+      "yield": "产率不由经验补写",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 6,
+        "total": 15,
+        "ratio": 0.4
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "研究问题与直接证据",
+        "text": "目前只核摘要，具体材料、泵探条件、选择定则和替代光学机制仍需全文核对。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "证据边界与下一炉/下一测量",
+        "text": "同样品联测层数依赖光谱、磁光和结构堆垛，明确光学信号是否真随层间关联变化。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+        "type": "本站判断"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "磁化、输运；证据仍可补强",
+      "reproducibility": "6/15 项参数可提取",
+      "physicalEvidence": "双探针支持",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2609.39108",
+    "title": "Nature of the 175-180 cm$^{-1}$ Raman Feature in Altermagnetic $\\alpha$-MnTe",
+    "authors": "Bhardwaj, Pankaj, Sarkar, Rajib, Shyaga, Naresh, Negi, Subhransu Kumar, Biswas, Kartick, Jana, Susmita, Nukala, Pavan, Nanda, B. R. K., Suri, Dhavala",
+    "institutions": "作者单位见 arXiv 原文；本轮未逐一归一化机构名称",
+    "journal": "arXiv（cond-mat；独立预印本）",
+    "material": "α-MnTe",
+    "method": "计量受控 MBE；Raman",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "arXiv v1",
+      "全文精读"
+    ],
+    "abstract": "The 175 cm$^{-1}$ Raman mode in $\\alpha$-MnTe has long been assigned to the material's only symmetry-allowed phonon ($E_{2g}$), yet first-principles calculations consistently place this mode below 100 cm$^{-1}$. Recent works have offered three competing explanations for the discrepancy: a weak symmetry-lowering ($D_{6h}\\rightarrow D_{3h}$) phonon, an electronic plasmon arising from intrinsic hole self-doping, or an extrinsic MnTe$_2$ impurity signature. Here we resolve this controversy using stoichiometry-controlled molecular beam epitaxy (MBE). We deliberately vary the fraction of pyrite-type MnTe$_2$ secondary phase relative to the $\\alpha$-MnTe matrix. Across this series, the 175 cm$^{-1}$ mode tracks the presence of MnTe$_2$ essentially one-to-one -- present wherever MnTe$_2$ is detectable, absent in stoichiometric, single-phase $\\alpha$-MnTe at nominal LASER powers. When LASER power is ramped up, an additional mode emerges in MnTe as well positioned close to $\\approx$ 175 cm$^{-1}$; our detailed temperatures dependendent Raman analysis identifies the LASER power scorched region close to a distorted MnTe phase, confirmed via transmission electron microscopy. This direct, growth-controlled correlation identifies the mode as an extrinsic MnTe$_2$ impurity signature or as a distorted MnTe feature, rather than an intrinsic phonon or plasmon feature, providing a practical diagnostic for phase purity in MBE-grown $\\alpha$-MnTe and clarifying which Raman features can be reliably attributed to the intrinsic altermagnetic phase.",
+    "conclusion": "175–180 cm⁻¹ Raman 峰并非可随意称作 α-MnTe 本征 E₂g：在常规激光功率下该峰随 MnTe₂ 杂相出现，单相 α-MnTe 中消失；把激光功率提高后，受灼伤的畸变 MnTe 区域也会出现邻近峰。",
+    "summary": "研究问题与直接证据：公开正文 Fig.1–4：Si(111) 基底上 MBE 生长 200、270、300、400、500 °C 序列；200/270 °C 的 XRD 有 MnTe₂ 峰且 Raman 为 178/177 cm⁻¹，300–500 °C 单相区无此峰。400/500 °C 的 RHEED 连续条纹优于 300 °C 岛状形貌。Fig.4 同片高功率激光灼伤区出现约 175 cm⁻¹ 峰，TEM/选区电子衍射表明局部畸变与富 Mn；这说明单靠峰位不能区分杂相与测量诱生损伤。正文未给精确 Mn/Te 束流、真空度及薄膜厚度。\n证据边界与下一炉/下一测量：做 Mn/Te 通量、200–500 °C 温度与 Raman 功率三轴扫描，记录每片 XRD 杂相、Hall 与 175 cm⁻¹ 强度，并在同一测点做照前照后 TEM。 其余未在已读部分报告的参数应在复现前向作者确认。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-01",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.39108",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/html/2609.39108",
+    "reportUrl": "/reports/2026-10-01/#paper-15",
+    "access": "全文精读：已读公开 HTML 的正文与实验段；未另取补充材料。",
+    "rating": "A",
+    "sections": [
+      {
+        "title": "研究问题与直接证据",
+        "text": "公开正文 Fig.1–4：Si(111) 基底上 MBE 生长 200、270、300、400、500 °C 序列；200/270 °C 的 XRD 有 MnTe₂ 峰且 Raman 为 178/177 cm⁻¹，300–500 °C 单相区无此峰。400/500 °C 的 RHEED 连续条纹优于 300 °C 岛状形貌。Fig.4 同片高功率激光灼伤区出现约 175 cm⁻¹ 峰，TEM/选区电子衍射表明局部畸变与富 Mn；这说明单靠峰位不能区分杂相与测量诱生损伤。正文未给精确 Mn/Te 束流、真空度及薄膜厚度。"
+      },
+      {
+        "title": "证据边界与下一炉/下一测量",
+        "text": "做 Mn/Te 通量、200–500 °C 温度与 Raman 功率三轴扫描，记录每片 XRD 杂相、Hall 与 175 cm⁻¹ 强度，并在同一测点做照前照后 TEM。 其余未在已读部分报告的参数应在复现前向作者确认。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A｜外延/光谱人员",
+      "first": "先看具体 Methods/Experimental 与图1–3，再用摘要确定作者的因果主张。",
+      "focus": "公开正文 Fig.1–4：Si(111) 基底上 MBE 生长 200、270、300、400、500 °C 序列；200/270 °C 的 XRD 有 MnTe₂ 峰且 Raman 为 178/177 cm⁻¹，300–500 °C 单相区无此峰。400/500 °C 的 RHEED 连续条纹优于 300 °C 岛状形貌。Fig.4 同片高功率激光灼伤区出现约 175 cm⁻¹ 峰，TEM/选区电子衍射表明局部畸变与富 Mn；这说明单靠峰位不能区分杂相与测量诱生损伤。正文未给精确 Mn/Te 束流、真空度及薄膜厚度。",
+      "next": "做 Mn/Te 通量、200–500 °C 温度与 Raman 功率三轴扫描，记录每片 XRD 杂相、Hall 与 175 cm⁻¹ 强度，并在同一测点做照前照后 TEM。"
+    },
+    "growthRecipe": {
+      "material": "α-MnTe",
+      "actualComposition": "",
+      "method": "MBE",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "",
+      "purity": "",
+      "vessel": "",
+      "atmosphere": "真空度及薄膜厚度",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "",
+      "crystalSize": "180 cm",
+      "yield": "",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 3,
+        "total": 15,
+        "ratio": 0.2
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "研究问题与直接证据",
+        "text": "公开正文 Fig.1–4：Si(111) 基底上 MBE 生长 200、270、300、400、500 °C 序列；200/270 °C 的 XRD 有 MnTe₂ 峰且 Raman 为 178/177 cm⁻¹，300–500 °C 单相区无此峰。400/500 °C 的 RHEED 连续条纹优于 300 °C 岛状形貌。Fig.4 同片高功率激光灼伤区出现约 175 cm⁻¹ 峰，TEM/选区电子衍射表明局部畸变与富 Mn；这说明单靠峰位不能区分杂相与测量诱生损伤。正文未给精确 Mn/Te 束流、真空度及薄膜厚度。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "证据边界与下一炉/下一测量",
+        "text": "做 Mn/Te 通量、200–500 °C 温度与 Raman 功率三轴扫描，记录每片 XRD 杂相、Hall 与 175 cm⁻¹ 强度，并在同一测点做照前照后 TEM。 其余未在已读部分报告的参数应在复现前向作者确认。",
+        "type": "本站判断"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "正文 + Methods + SI",
+      "sampleCredibility": "XRD、TEM、Raman；证据仍可补强",
+      "reproducibility": "3/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "强"
+    }
+  },
+  {
+    "id": "arxiv:2609.39094",
+    "title": "Three-Dimensional Topology from Stacking-Controlled Umklapp Scattering in Large-Angle Twisted Graphite",
+    "authors": "Li, Juncheng, Chen, Cong, Yao, Wang",
+    "institutions": "作者单位见 arXiv 原文；本轮未逐一归一化机构名称",
+    "journal": "arXiv（cond-mat；独立预印本）",
+    "material": "大角度扭转石墨",
+    "method": "对称约束有效模型",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "arXiv v1",
+      "摘要级"
+    ],
+    "abstract": "Large-angle twisted graphene lies beyond the local-stacking description of conventional moiré systems: inequivalent rotation centers define distinct commensurate interfaces whose low-energy interlayer hybridization is governed by intervalley Umklapp tunneling. For three-dimensional twisted graphite assembled from interfaces with different crystalline symmetries, a symmetry-constrained effective model reveals that competition between nonchiral and chiral tunneling produces one-ring and two-ring nodal-line phases and a $C_3$-protected higher-order topological insulator in the presence of sublattice (chiral) symmetry. The nodal rings carry integer winding numbers, allowing oppositely wound rings to annihilate into the gapped phase. We further examine how sublattice-symmetry breaking modifies these phases. Density functional theory (DFT) and atomistic calculations for $21.8^\\circ$ twisted graphite identify the equilibrium structure as a higher-order topological insulator, while compression drives it into a topological Weyl semimetal phase. These findings establish the stacking sequence of symmetry-inequivalent interfaces as a means of engineering band topology in three-dimensional twisted structures.",
+    "conclusion": "大角度扭转界面的谷间 Umklapp 让堆垛中心成为真正的拓扑控制量，理论产生单环/双环节线与高阶拓扑区。",
+    "summary": "研究问题与直接证据：目前为有效模型和对称分析，没有被测材料的温程或直接实验能谱。\n证据边界与下一炉/下一测量：制作两种旋转中心对照堆垛，利用角分辨光电子或量子振荡判别节线数。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+    "year": 2026,
+    "published": "",
+    "date": "2026-10-01",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.39094",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2609.39094",
+    "reportUrl": "/reports/2026-10-01/#paper-16",
+    "access": "摘要级：本轮只核对 arXiv 官方摘要/元数据；制备与测量未在摘要给出的项目均为待核正文。",
+    "rating": "B",
+    "sections": [
+      {
+        "title": "研究问题与直接证据",
+        "text": "目前为有效模型和对称分析，没有被测材料的温程或直接实验能谱。"
+      },
+      {
+        "title": "证据边界与下一炉/下一测量",
+        "text": "制作两种旋转中心对照堆垛，利用角分辨光电子或量子振荡判别节线数。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B｜拓扑理论",
+      "first": "先读摘要中材料、方法和实际观测三项；本轮未核正文，按需转入公开 PDF。",
+      "focus": "目前为有效模型和对称分析，没有被测材料的温程或直接实验能谱。",
+      "next": "制作两种旋转中心对照堆垛，利用角分辨光电子或量子振荡判别节线数。"
+    },
+    "growthRecipe": {
+      "material": "大角度扭转石墨",
+      "actualComposition": "",
+      "method": "对称约束有效模型",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "purity": "纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "vessel": "",
+      "atmosphere": "真空、全部温程、后处理、晶体尺寸与产率不由经验补写",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "后处理、晶体尺寸与产率不由经验补写",
+      "crystalSize": "",
+      "yield": "产率不由经验补写",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 6,
+        "total": 15,
+        "ratio": 0.4
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "研究问题与直接证据",
+        "text": "目前为有效模型和对称分析，没有被测材料的温程或直接实验能谱。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-2",
+        "title": "证据边界与下一炉/下一测量",
+        "text": "制作两种旋转中心对照堆垛，利用角分辨光电子或量子振荡判别节线数。 未核对的原料纯度、具体配比、容器、气氛/真空、全部温程、后处理、晶体尺寸与产率不由经验补写；应返回正文逐项核实。",
+        "type": "本站判断"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "质量表征信息不足",
+      "reproducibility": "6/15 项参数可提取",
+      "physicalEvidence": "单一或未报告",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2609.36125",
+    "title": "Far-field terahertz spectroscopy across the charge-density-wave transition in 2H-NbSe$_2$",
+    "authors": "Dmitriy Yavorskiy, Adil Rehman, Wojciech Brzezicki, Jan Skolimowski, Marcin Białek, Wojciech Knap, Dawid Wutke, Natalia Olszowska, Andrzej Wiśniewski, Ashutosh S. Wadge",
+    "institutions": "波兰科学院高压物理研究所 CENTERA、华沙理工大学与 SOLARIS 同步辐射中心等",
+    "journal": "arXiv（Materials Science (cond-mat.mtrl-sci)）",
+    "material": "2H-NbSe₂",
+    "method": "I₂-CVT；THz/ARPES",
+    "category": "晶体生长和物性调控",
+    "tags": [
+      "arXiv v1",
+      "全文精读",
+      "实际读正文"
+    ],
+    "abstract": "Charge-density-wave (CDW) formation in 2H-NbSe$_2$ modifies the low-energy electronic structure and gives rise to collective excitations coupled to the lattice. Here, we investigate bulk 2H-NbSe$_2$ single crystals using far-field terahertz time-domain spectroscopy (THz-TDS) in reflection geometry across the CDW transition at $T_{\\mathrm{CDW}} \\approx 33$~K. Below $T_{\\mathrm{CDW}}$, the THz response shows a pronounced high-frequency feature near 1.5~THz together with longer-lived sub-THz oscillations. Both responses progressively weaken upon warming and are strongly suppressed across the CDW transition, supporting their association with the CDW state. Using time-dependent Ginzburg--Landau simulations, we reproduce the main features of the experimental THz response, associating the high-frequency response mainly with CDW amplitude dynamics and the sub-THz response with defect-pinned phase dynamics. The $\\sim1.5$~THz feature lies close to the frequency range reported for the Raman CDW amplitude mode, while coupling to lattice degrees of freedom may also influence its spectral position. We also performed complementary angle-resolved photoemission spectroscopy measurements, which reveal momentum-selective redistribution of near-Fermi-level spectral weight across the transition. Together, these results show that far-field THz spectroscopy provides a sensitive probe of collective CDW dynamics in bulk 2H-NbSe$_2$.",
+    "conclusion": "用可复现的 I₂-CVT 大块单晶把 33 K CDW 的集体振荡从背景中分出：约 1.5 THz 高频特征和亚 THz 长寿命振荡随升温消失。高频归于振幅模、低频归于缺陷钉扎相位模是时间依赖 GL 模型解释，ARPES 只给出互补的动量选择性谱重分布。",
+    "summary": "问题、对照与样品：2H-NbSe₂ 的 CDW 约在 33 K 形成，而其集体响应常受声子、缺陷、超导和仪器窗函数混叠。作者要解决的是：远场 THz 在大块单晶上能否同时辨认振幅与相位相关响应。文章以 52 K 无 CDW 时域反射为参考，在 12–52 K 每 1 K 记录一次，用温度差谱找出两个时间尺度，并辅以 ARPES 看费米能附近的动量选择性重排。这样排除了“任何 THz 峰都是温度漂移”的简单说法，却不能仅凭温度相关性唯一指定每一个集体模。作者还用时间依赖 Ginzburg–Landau 模型拟合，其中高频响应主要接近振幅模、亚 THz 长寿命项被解释成缺陷钉扎相位动力学；后者是模型归属，不是直接实空间观测。\nCVT 配方和质量边界：Methods 4.1 给出高纯 Nb 与 Se 按化学计量投料，置氧化铝坩埚，I₂ 用量 3 mg/cm³；石英安瓿先以超高纯 Ar 冲洗后抽至约 10⁻⁵ mbar。三温区水平炉内源区 850 °C、生长区 700 °C，维持七天、炉冷至室温。产物为有光泽六角厚片，XRD 支持单相 2H 结构；全文用于 THz 的片尺寸约 3×5×0.3 mm³，ARPES 前重新在超高真空内剥离 (001) 表面。原料具体纯度数值、安瓿长度/内径、I₂ 总质量、源/生长区升温速率、每炉晶体数、Laue/摇摆半高宽、EDS 的 Nb:Se 偏差均正文未报告。也未给出同一片 THz 与 ARPES 的对应编号，因此两探针互证属于同类样品、未必同颗晶体；想复现缺陷钉扎解释，应把分片编号与缺陷密度记录下来。\n测量、数值和证据分层：THz-TDS 用 TOPTICA 光电导天线及反射几何，入射角约 8°，时窗 50 ps，氮气吹扫光路；FFT 前从 50 ps 零填充到 250 ps 只加密频率采样网格，不提升真实谱分辨率。低于 CDW 温度出现约 1.5 THz 特征和亚 THz 慢振荡，越过 33 K 后显著减弱。ARPES 于 SOLARIS URANOS 站、30–120 eV 光子能和约 3.7×10⁻¹¹ Torr 真空下进行，20–286 K 覆盖转变；它看到的是动量选择性谱权转移，并未直接把某条能带与单个 THz 共振一对一配对。【直接观察】时域差谱及 ARPES 温度演化；【模型拟合】GL 的振幅/相位分解；【作者推断】低频受缺陷钉扎；【本站判断】温度、频率和独立探针共同支持“CDW 相关”，而“缺陷钉扎”需不同缺陷密度晶体的系统证据。\n局限与下一炉：最强证据是大块晶体上跨 33 K 的密集温扫，最弱是生长缺陷未量化却被用来解释低频模式。建议保留 I₂ 3 mg/cm³、850/700 °C 七天作为基准炉，另外扫描 I₂ 1/3/5 mg/cm³ 或时间 5/7/10 天，逐晶体测 XRD 摇摆宽度、EDS、STM 缺陷密度和 RRR。用同一母晶切出的 THz 与 ARPES 片检查 1.5 THz 强度及亚 THz 寿命是否随缺陷变化；同时报告原始 E(t) 与温差 ΔE(t)，排除参考温度选择和水汽背景。若只复现 1.5 THz 而慢振荡随缺陷大幅变化，才更能区分振幅模与钉扎相位模。",
+    "year": 2026,
+    "published": "2026-09-28",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.36125",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/html/2609.36125",
+    "reportUrl": "/reports/2026-09-30/#paper-1",
+    "access": "全文精读：实际读取 arXiv 公开正文、所列 Methods/实验段及关键图注；未另取 SI 不声称已读 SI。已核正文 Results 2.1–2.3、Methods 4.1–4.3 与 Fig.1–3 图注。",
+    "rating": "A+",
+    "sections": [
+      {
+        "title": "问题、对照与样品",
+        "text": "2H-NbSe₂ 的 CDW 约在 33 K 形成，而其集体响应常受声子、缺陷、超导和仪器窗函数混叠。作者要解决的是：远场 THz 在大块单晶上能否同时辨认振幅与相位相关响应。文章以 52 K 无 CDW 时域反射为参考，在 12–52 K 每 1 K 记录一次，用温度差谱找出两个时间尺度，并辅以 ARPES 看费米能附近的动量选择性重排。这样排除了“任何 THz 峰都是温度漂移”的简单说法，却不能仅凭温度相关性唯一指定每一个集体模。作者还用时间依赖 Ginzburg–Landau 模型拟合，其中高频响应主要接近振幅模、亚 THz 长寿命项被解释成缺陷钉扎相位动力学；后者是模型归属，不是直接实空间观测。"
+      },
+      {
+        "title": "CVT 配方和质量边界",
+        "text": "Methods 4.1 给出高纯 Nb 与 Se 按化学计量投料，置氧化铝坩埚，I₂ 用量 3 mg/cm³；石英安瓿先以超高纯 Ar 冲洗后抽至约 10⁻⁵ mbar。三温区水平炉内源区 850 °C、生长区 700 °C，维持七天、炉冷至室温。产物为有光泽六角厚片，XRD 支持单相 2H 结构；全文用于 THz 的片尺寸约 3×5×0.3 mm³，ARPES 前重新在超高真空内剥离 (001) 表面。原料具体纯度数值、安瓿长度/内径、I₂ 总质量、源/生长区升温速率、每炉晶体数、Laue/摇摆半高宽、EDS 的 Nb:Se 偏差均正文未报告。也未给出同一片 THz 与 ARPES 的对应编号，因此两探针互证属于同类样品、未必同颗晶体；想复现缺陷钉扎解释，应把分片编号与缺陷密度记录下来。"
+      },
+      {
+        "title": "测量、数值和证据分层",
+        "text": "THz-TDS 用 TOPTICA 光电导天线及反射几何，入射角约 8°，时窗 50 ps，氮气吹扫光路；FFT 前从 50 ps 零填充到 250 ps 只加密频率采样网格，不提升真实谱分辨率。低于 CDW 温度出现约 1.5 THz 特征和亚 THz 慢振荡，越过 33 K 后显著减弱。ARPES 于 SOLARIS URANOS 站、30–120 eV 光子能和约 3.7×10⁻¹¹ Torr 真空下进行，20–286 K 覆盖转变；它看到的是动量选择性谱权转移，并未直接把某条能带与单个 THz 共振一对一配对。【直接观察】时域差谱及 ARPES 温度演化；【模型拟合】GL 的振幅/相位分解；【作者推断】低频受缺陷钉扎；【本站判断】温度、频率和独立探针共同支持“CDW 相关”，而“缺陷钉扎”需不同缺陷密度晶体的系统证据。"
+      },
+      {
+        "title": "局限与下一炉",
+        "text": "最强证据是大块晶体上跨 33 K 的密集温扫，最弱是生长缺陷未量化却被用来解释低频模式。建议保留 I₂ 3 mg/cm³、850/700 °C 七天作为基准炉，另外扫描 I₂ 1/3/5 mg/cm³ 或时间 5/7/10 天，逐晶体测 XRD 摇摆宽度、EDS、STM 缺陷密度和 RRR。用同一母晶切出的 THz 与 ARPES 片检查 1.5 THz 强度及亚 THz 寿命是否随缺陷变化；同时报告原始 E(t) 与温差 ΔE(t)，排除参考温度选择和水汽背景。若只复现 1.5 THz 而慢振荡随缺陷大幅变化，才更能区分振幅模与钉扎相位模。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A+｜实验人员优先",
+      "first": "优先看 Methods 的 850/700 °C 温区与 Fig.1–3 的时域减法，核对 52 K 参考曲线的选择。",
+      "focus": "核对 3 mg/cm³ I₂、850/700 °C 七天生长是否与 3×5×0.3 mm³ 测量片为同一批，并追踪 52 K 参考扣除和 THz 零填充。",
+      "next": "重复不同 I₂ 浓度/缺陷密度的 THz 线宽与 XRD 摇摆曲线对照。"
+    },
+    "growthRecipe": {
+      "material": "2H-NbSe₂",
+      "actualComposition": "EDS 的 Nb:Se 偏差均正文未报告",
+      "method": "CVT",
+      "transportAgent": "I₂",
+      "flux": "",
+      "ratio": "原料具体纯度数值、安瓿长度/内径、I₂ 总质量、源/生长区升温速率、每炉晶体数、Laue/摇摆半高宽、EDS 的 Nb:Se 偏差均正文未报告",
+      "purity": "纯度数值、安瓿长度/内径、I₂ 总质量、源/生长区升温速率、每炉晶体数、Laue/摇摆半高宽、EDS 的 Nb:Se 偏差均正文未报告",
+      "vessel": "坩埚，I₂ 用量 3 mg/cm³",
+      "atmosphere": "真空内剥离 (001) 表面",
+      "sourceTemperature": "源区 850 °C、生长区 700 °C",
+      "growthTemperature": "生长区 700 °C",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "",
+      "crystalSize": "尺寸约 3×5×0.3 mm",
+      "yield": "",
+      "qualityMetrics": [
+        "RRR"
+      ],
+      "completeness": {
+        "reported": 9,
+        "total": 15,
+        "ratio": 0.6
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题、对照与样品",
+        "text": "2H-NbSe₂ 的 CDW 约在 33 K 形成，而其集体响应常受声子、缺陷、超导和仪器窗函数混叠。作者要解决的是：远场 THz 在大块单晶上能否同时辨认振幅与相位相关响应。文章以 52 K 无 CDW 时域反射为参考，在 12–52 K 每 1 K 记录一次，用温度差谱找出两个时间尺度，并辅以 ARPES 看费米能附近的动量选择性重排。这样排除了“任何 THz 峰都是温度漂移”的简单说法，却不能仅凭温度相关性唯一指定每一个集体模。作者还用时间依赖 Ginzburg–Landau 模型拟合，其中高频响应主要接近振幅模、亚 THz 长寿命项被解释成缺陷钉扎相位动力学；后者是模型归属，不是直接实空间观测。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-2",
+        "title": "CVT 配方和质量边界",
+        "text": "Methods 4.1 给出高纯 Nb 与 Se 按化学计量投料，置氧化铝坩埚，I₂ 用量 3 mg/cm³；石英安瓿先以超高纯 Ar 冲洗后抽至约 10⁻⁵ mbar。三温区水平炉内源区 850 °C、生长区 700 °C，维持七天、炉冷至室温。产物为有光泽六角厚片，XRD 支持单相 2H 结构；全文用于 THz 的片尺寸约 3×5×0.3 mm³，ARPES 前重新在超高真空内剥离 (001) 表面。原料具体纯度数值、安瓿长度/内径、I₂ 总质量、源/生长区升温速率、每炉晶体数、Laue/摇摆半高宽、EDS 的 Nb:Se 偏差均正文未报告。也未给出同一片 THz 与 ARPES 的对应编号，因此两探针互证属于同类样品、未必同颗晶体；想复现缺陷钉扎解释，应把分片编号与缺陷密度记录下来。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-3",
+        "title": "测量、数值和证据分层",
+        "text": "THz-TDS 用 TOPTICA 光电导天线及反射几何，入射角约 8°，时窗 50 ps，氮气吹扫光路；FFT 前从 50 ps 零填充到 250 ps 只加密频率采样网格，不提升真实谱分辨率。低于 CDW 温度出现约 1.5 THz 特征和亚 THz 慢振荡，越过 33 K 后显著减弱。ARPES 于 SOLARIS URANOS 站、30–120 eV 光子能和约 3.7×10⁻¹¹ Torr 真空下进行，20–286 K 覆盖转变；它看到的是动量选择性谱权转移，并未直接把某条能带与单个 THz 共振一对一配对。【直接观察】时域差谱及 ARPES 温度演化；【模型拟合】GL 的振幅/相位分解；【作者推断】低频受缺陷钉扎；【本站判断】温度、频率和独立探针共同支持“CDW 相关”，而“缺陷钉扎”需不同缺陷密度晶体的系统证据。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-4",
+        "title": "局限与下一炉",
+        "text": "最强证据是大块晶体上跨 33 K 的密集温扫，最弱是生长缺陷未量化却被用来解释低频模式。建议保留 I₂ 3 mg/cm³、850/700 °C 七天作为基准炉，另外扫描 I₂ 1/3/5 mg/cm³ 或时间 5/7/10 天，逐晶体测 XRD 摇摆宽度、EDS、STM 缺陷密度和 RRR。用同一母晶切出的 THz 与 ARPES 片检查 1.5 THz 强度及亚 THz 寿命是否随缺陷变化；同时报告原始 E(t) 与温差 ΔE(t)，排除参考温度选择和水汽背景。若只复现 1.5 THz 而慢振荡随缺陷大幅变化，才更能区分振幅模与钉扎相位模。",
+        "type": "本站判断"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "正文 + Methods",
+      "sampleCredibility": "XRD、Laue、EDS、STM 多方法互证",
+      "reproducibility": "9/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "中等"
+    }
+  },
+  {
+    "id": "arxiv:2609.36128",
+    "title": "Altermagnetism produces pair emission and absorption from dark excitons and magnons in La$_2$O$_3$Mn$_2$Se$_2$",
+    "authors": "Birender Singh, Xian Xu, Sabrina R. Hatt, Suvodeep Paul, Yu-Mi Wu, Chao-Chun Wei, Violet Williams, Kyung-Mo Kim, Yihao Zhang, Mohamed Shehabeldin, Cameron Grant, April Li, Michael Geiwitz, Xiaoyin Li, Garrett E. Granroth, Feng Liu, Qiong Ma, Benedetta Flebus, Judy J. Cha, Vinod M. Menon, Benjamin A. Frandsen, Diana Y. Qiu, Huiwen Ji, Kenneth S. Burch",
+    "institutions": "作者机构需从论文首页逐一核对；本期不凭姓名猜测",
+    "journal": "arXiv（Materials Science (cond-mat.mtrl-sci)）",
+    "material": "La₂O₃Mn₂Se₂",
+    "method": "光谱、非弹中子散射",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "arXiv v1",
+      "摘要级",
+      "待全文补读"
+    ],
+    "abstract": "Altermagnets' (AMs) non-relativistic spin splitting enables novel states, spintronic and magneto-optical devices, though their optical signatures remain elusive. Here, we report exciton-magnon emission and absorption: optical sidebands from a spin-forbidden dark exciton, a direct consequence of altermagnetic symmetry. Combined optical spectroscopy and first-principles calculations reveal that La$_2$O$_3$Mn$_2$Se$_2$ is an altermagnetic insulator, hosting a strongly bound, spin-forbidden dark exciton and a higher-energy bright exciton. Photoluminescence (PL) and absorption reveal mirror-image sidebands, Stokes-shifted in emission and anti-Stokes-shifted in absorption, symmetric about the dark exciton, whose energy shifts and spectral shapes match the magnon energy scale and density of states measured independently by inelastic neutron scattering. The PL intensity tracks the full equal-time spin-spin correlator, combining static and dynamical contributions, and rules out alternative processes. This directly couples PL to magnetism, with potential for magneto-optical devices. These results establish exciton-magnon spectroscopy as a new route for optically identifying and exploiting AMs.",
+    "conclusion": "反铁磁替代磁体的暗激子与磁振子耦合在发射和吸收中产生镜像边带；光谱能标与独立中子散射吻合，让光学谱成为自旋关联的间接探针，但光谱对磁序的唯一性仍需看温场对照。",
+    "summary": "问题—样品—证据：摘要所能确定的范围：【仅基于摘要/元数据】Altermagnets' (AMs) non-relativistic spin splitting enables novel states, spintronic and magneto-optical devices, though their optical signatures remain elusive. Here, we report exciton-magnon emission and absorption: optical sidebands from a spin-forbidden dark exciton, a direct consequence of altermagnetic symmetry. Combined optical spectroscopy and first-principles calculations reveal that La$_2$O$_3$Mn$_2$Se$_2$ is an altermagnetic insulator, hosting a strongly bound, spin-forbidden dark exciton and a higher-energy bright exciton. Photoluminescence (PL) and absorption reveal mirror-image sidebands, Stokes-shifted in emission and anti-Stokes-shifted in absorption, symmetric about the dark exciton, whose energy shifts and spectral shapes match the magnon energy scale and density of states measured independently by inelastic neutron scattering. The PL intensity tracks the full equal-time spin-spin correlator, combining static and dynamical contributions, and rules out alternative processes. This directly couples PL to magnetism, with potential for magneto-optical devices. These results establish exciton-magnon spectroscopy as a new route for optically identifying and exploiting AMs.。本站判断：反铁磁替代磁体的暗激子与磁振子耦合在发射和吸收中产生镜像边带；光谱能标与独立中子散射吻合，让光学谱成为自旋关联的间接探针，但光谱对磁序的唯一性仍需看温场对照。。摘要只给研究主张，不能据此确定所有对照或因果。\n生长、质量与测量：待补读边界：材料/模型：La₂O₃Mn₂Se₂；摘要描述方法：光谱、非弹中子散射。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。\n证据等级、局限与复现建议：【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先比对 PL/吸收镜像边带和中子散射的磁振子能量，再看暗激子选择定则。；随后：同一样品做偏振与磁场依赖 PL，检验边带对磁畴是否敏感。。",
+    "year": 2026,
+    "published": "2026-09-28",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.36128",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2609.36128",
+    "reportUrl": "/reports/2026-09-30/#paper-2",
+    "access": "仅基于摘要/元数据：本次未实际核查正文和关键图，已列入正文补读清单；不计入精读。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Altermagnets' (AMs) non-relativistic spin splitting enables novel states, spintronic and magneto-optical devices, though their optical signatures remain elusive. Here, we report exciton-magnon emission and absorption: optical sidebands from a spin-forbidden dark exciton, a direct consequence of altermagnetic symmetry. Combined optical spectroscopy and first-principles calculations reveal that La$_2$O$_3$Mn$_2$Se$_2$ is an altermagnetic insulator, hosting a strongly bound, spin-forbidden dark exciton and a higher-energy bright exciton. Photoluminescence (PL) and absorption reveal mirror-image sidebands, Stokes-shifted in emission and anti-Stokes-shifted in absorption, symmetric about the dark exciton, whose energy shifts and spectral shapes match the magnon energy scale and density of states measured independently by inelastic neutron scattering. The PL intensity tracks the full equal-time spin-spin correlator, combining static and dynamical contributions, and rules out alternative processes. This directly couples PL to magnetism, with potential for magneto-optical devices. These results establish exciton-magnon spectroscopy as a new route for optically identifying and exploiting AMs.。本站判断：反铁磁替代磁体的暗激子与磁振子耦合在发射和吸收中产生镜像边带；光谱能标与独立中子散射吻合，让光学谱成为自旋关联的间接探针，但光谱对磁序的唯一性仍需看温场对照。。摘要只给研究主张，不能据此确定所有对照或因果。"
+      },
+      {
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：La₂O₃Mn₂Se₂；摘要描述方法：光谱、非弹中子散射。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。"
+      },
+      {
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先比对 PL/吸收镜像边带和中子散射的磁振子能量，再看暗激子选择定则。；随后：同一样品做偏振与磁场依赖 PL，检验边带对磁畴是否敏感。。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜方向跟踪、待正文复核",
+      "first": "先比对 PL/吸收镜像边带和中子散射的磁振子能量，再看暗激子选择定则。",
+      "focus": "核对摘要主张所依赖的具体图、对照样品及误差，不能据标题直接采用生长参数。",
+      "next": "同一样品做偏振与磁场依赖 PL，检验边带对磁畴是否敏感。"
+    },
+    "growthRecipe": {
+      "material": "La₂O₃Mn₂Se₂",
+      "actualComposition": "EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对",
+      "method": "Flux",
+      "transportAgent": "",
+      "flux": "助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核",
+      "ratio": "原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "purity": "纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "vessel": "坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "atmosphere": "真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "crystalSize": "",
+      "yield": "产率：正文未报告或本次未核验",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 8,
+        "total": 15,
+        "ratio": 0.5333333333333333
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Altermagnets' (AMs) non-relativistic spin splitting enables novel states, spintronic and magneto-optical devices, though their optical signatures remain elusive. Here, we report exciton-magnon emission and absorption: optical sidebands from a spin-forbidden dark exciton, a direct consequence of altermagnetic symmetry. Combined optical spectroscopy and first-principles calculations reveal that La$_2$O$_3$Mn$_2$Se$_2$ is an altermagnetic insulator, hosting a strongly bound, spin-forbidden dark exciton and a higher-energy bright exciton. Photoluminescence (PL) and absorption reveal mirror-image sidebands, Stokes-shifted in emission and anti-Stokes-shifted in absorption, symmetric about the dark exciton, whose energy shifts and spectral shapes match the magnon energy scale and density of states measured independently by inelastic neutron scattering. The PL intensity tracks the full equal-time spin-spin correlator, combining static and dynamical contributions, and rules out alternative processes. This directly couples PL to magnetism, with potential for magneto-optical devices. These results establish exciton-magnon spectroscopy as a new route for optically identifying and exploiting AMs.。本站判断：反铁磁替代磁体的暗激子与磁振子耦合在发射和吸收中产生镜像边带；光谱能标与独立中子散射吻合，让光学谱成为自旋关联的间接探针，但光谱对磁序的唯一性仍需看温场对照。。摘要只给研究主张，不能据此确定所有对照或因果。",
+        "type": "本站判断"
+      },
+      {
+        "id": "evidence-2",
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：La₂O₃Mn₂Se₂；摘要描述方法：光谱、非弹中子散射。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先比对 PL/吸收镜像边带和中子散射的磁振子能量，再看暗激子选择定则。；随后：同一样品做偏振与磁场依赖 PL，检验边带对磁畴是否敏感。。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "EDS、WDS、输运；证据仍可补强",
+      "reproducibility": "8/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2609.36258",
+    "title": "Magnetic properties and Fermi-surface topology of kagome magnet HoV$_6$Sn$_6$",
+    "authors": "Tucker Beekmann, Ganesh Pokharel, Wyatt Edward Ackerman, Stephen D. Wilson, David E. Graf, Keshav Shrestha",
+    "institutions": "文章作者所列合作机构包括美国国家强磁场实验室；完整机构列表见原文首页",
+    "journal": "arXiv（Strongly Correlated Electrons (cond-mat.str-el)）",
+    "material": "HoV₆Sn₆",
+    "method": "Sn 助熔剂；TDO 量子振荡",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "arXiv v1",
+      "全文精读",
+      "实际读正文"
+    ],
+    "abstract": "We report a study of the magnetic properties and Fermi-surface topology of the kagome magnet HoV$_6$Sn$_6$ using magnetization and tunnel-diode-oscillator (TDO) measurements. The temperature-dependent magnetization exhibits Curie-Weiss behavior at high temperatures and reveals long-range magnetic order below $T_c$ $\\approx$ 2.4 K. Below Tc, the field-dependent magnetization reveals pronounced magnetic anisotropy, with saturation moments of $\\approx$ 9.5 and 7 $\\mu_B$ /Ho for fields applied along the out-of-plane and in-plane directions, respectively. To probe the Fermi surface, we perform TDO measurements in magnetic fields up to 41.5 T and at temperatures down to 0.35 K. The TDO signal exhibits well-defined quantum oscillations with multiple frequencies extending up to $\\sim$ 9 kT. Angular- and temperature-dependent measurements are used to determine the Fermi-surface geometry and cyclotron effective masses, respectively. To elucidate the electronic structure, we perform first-principles calculations of the electronic bands, density of states (DOS), and Fermi surface. The calculated band structure exhibits flat-band features, van Hove singularities, and Dirac-like crossings near the Fermi level. The DOS near the Fermi level is dominated by the V-d orbitals, indicating that the V kagome layers play a major role in determining the low-energy electronic properties of HoV6Sn6. Our calculations further support a ferromagnetic ground state with the Ho moments oriented along the c axis, consistent with neutron-scattering measurements. The calculated quantum-oscillation frequencies from the Fermi-surface pockets of HoV6Sn6 are in overall good agreement with the experimentally observed frequencies. Our combined experimental and theoretical results provide insight into the magnetic anisotropy and electronic structure of HoV$_6$Sn$_6$ and reveal its multiband Fermi-surface topology.",
+    "conclusion": "HoV₆Sn₆ 的 Sn Flux 片晶同时表现 2.4 K 磁序、强 c 轴易磁化和高达约 9 kT 的多频量子振荡。角度依赖提示三维费米面，计算能解释部分分支，却漏掉约 600 T 分支，因此不能把 DFT 拟合当成完整费米面证明。",
+    "summary": "科学问题与对照：HoV₆Sn₆ 是 166 kagome 家族成员，磁性稀土层和 V kagome 能带共存。作者用同一材料的磁化与 TDO 高场振荡追问：2.4 K 磁序以及强各向异性之外，费米面是近二维柱面还是三维多片。χ(T) 的 Curie–Weiss 结果给出 θ≈6.63 K、μeff≈11.11 μB/f.u.，2 K 时 H∥c 的磁矩约 9.5 μB/Ho，H∥ab 至 7 T 约 7.2 μB/Ho 尚无明确饱和。高场 TDO 在 0.35 K、至 41.5 T 检出多频：低频约 54/150 T、高频近 8.95 kT；约 17.61 kT 信号只在两角出现，可能是二次谐波，不能当独立费米面。角度和温度依赖及 DFT+U 一同构成“磁序—能带”的证据链，但 DFT 漏掉约 600 T 分支，留下真实结构、化学势或相互作用的缺口。\nSn Flux 与晶体质量：Ho 99.9%、Sn 99.99%、V 99.7% 以 Ho:V:Sn=1:6:20 装 Canfield 坩埚组，石英管充约三分之一大气压 Ar。以 200 °C/h 升到 1125 °C 保温 12 h，再以 2 °C/h 降到 780 °C 离心；作者强调低于约 760 °C 易形成 V–Sn 二元相，因此倾析温度具有相纯度意义。片晶长约数毫米、厚约 200 μm，部分残 Sn 用稀 HCl 和棉签去除。坩埚容量、单炉产率、HCl 浓度和接触时间、晶体间成分分布、XRD 摇摆宽度及残 Sn 定量正文未报告；这些因素特别可能影响低频振荡的样品间重复性。该路线清晰可试，但不能把“有几毫米片晶”等同费米面测量片的逐个结构放行。\n物性、拟合与局限：MPMS 测磁化，高场 TDO 把片放入自谐振 LC 线圈，频率变化受样品磁化率和电导耦合影响。高频振荡主要在约 30 T 以上可见，低频在 10 T 以上可见；FFT 频率经 Onsager 关系转换为极值截面积，温度阻尼再给回旋质量，均为模型提取量。计算的 Band 93/94 对应若干分支，说明 V-d 主导的多片三维费米面有合理性；但约 600 T 未复现说明不能以“计算总体吻合”抹平差异。【直接观察】χ、M、TDO 原始频移；【拟合】FFT、有效质量和 DFT 轨道映射；【本站判断】多频和角度依赖的证据强于具体分支标号。下一步用同炉多片 dHvA、SdH 与 Laue；把酸洗前后表面 Sn 含量、RRR 与 600 T 分支强度列入质量表。",
+    "year": 2026,
+    "published": "2026-09-28",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.36258",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/html/2609.36258",
+    "reportUrl": "/reports/2026-09-30/#paper-3",
+    "access": "全文精读：实际读取 arXiv 公开正文、所列 Methods/实验段及关键图注；未另取 SI 不声称已读 SI。已核生长/测量段、Fig.2–4、Fig.7–8 与结论。",
+    "rating": "A",
+    "sections": [
+      {
+        "title": "科学问题与对照",
+        "text": "HoV₆Sn₆ 是 166 kagome 家族成员，磁性稀土层和 V kagome 能带共存。作者用同一材料的磁化与 TDO 高场振荡追问：2.4 K 磁序以及强各向异性之外，费米面是近二维柱面还是三维多片。χ(T) 的 Curie–Weiss 结果给出 θ≈6.63 K、μeff≈11.11 μB/f.u.，2 K 时 H∥c 的磁矩约 9.5 μB/Ho，H∥ab 至 7 T 约 7.2 μB/Ho 尚无明确饱和。高场 TDO 在 0.35 K、至 41.5 T 检出多频：低频约 54/150 T、高频近 8.95 kT；约 17.61 kT 信号只在两角出现，可能是二次谐波，不能当独立费米面。角度和温度依赖及 DFT+U 一同构成“磁序—能带”的证据链，但 DFT 漏掉约 600 T 分支，留下真实结构、化学势或相互作用的缺口。"
+      },
+      {
+        "title": "Sn Flux 与晶体质量",
+        "text": "Ho 99.9%、Sn 99.99%、V 99.7% 以 Ho:V:Sn=1:6:20 装 Canfield 坩埚组，石英管充约三分之一大气压 Ar。以 200 °C/h 升到 1125 °C 保温 12 h，再以 2 °C/h 降到 780 °C 离心；作者强调低于约 760 °C 易形成 V–Sn 二元相，因此倾析温度具有相纯度意义。片晶长约数毫米、厚约 200 μm，部分残 Sn 用稀 HCl 和棉签去除。坩埚容量、单炉产率、HCl 浓度和接触时间、晶体间成分分布、XRD 摇摆宽度及残 Sn 定量正文未报告；这些因素特别可能影响低频振荡的样品间重复性。该路线清晰可试，但不能把“有几毫米片晶”等同费米面测量片的逐个结构放行。"
+      },
+      {
+        "title": "物性、拟合与局限",
+        "text": "MPMS 测磁化，高场 TDO 把片放入自谐振 LC 线圈，频率变化受样品磁化率和电导耦合影响。高频振荡主要在约 30 T 以上可见，低频在 10 T 以上可见；FFT 频率经 Onsager 关系转换为极值截面积，温度阻尼再给回旋质量，均为模型提取量。计算的 Band 93/94 对应若干分支，说明 V-d 主导的多片三维费米面有合理性；但约 600 T 未复现说明不能以“计算总体吻合”抹平差异。【直接观察】χ、M、TDO 原始频移；【拟合】FFT、有效质量和 DFT 轨道映射；【本站判断】多频和角度依赖的证据强于具体分支标号。下一步用同炉多片 dHvA、SdH 与 Laue；把酸洗前后表面 Sn 含量、RRR 与 600 T 分支强度列入质量表。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A｜重点阅读",
+      "first": "先读 Fig.3–4 的 FFT 场窗和角度分支，再读生长段 1:6:20、780 °C 倾析。",
+      "focus": "核对 Sn Flux 1:6:20、2 °C/h、780 °C 离心与 FFT 的场窗；600 T 分支未被计算复现。",
+      "next": "用同炉多晶体交叉做 dHvA、SdH 和 Laue，追踪 600 T 未解释分支。"
+    },
+    "growthRecipe": {
+      "material": "HoV₆Sn₆",
+      "actualComposition": "",
+      "method": "Flux",
+      "transportAgent": "",
+      "flux": "助熔剂",
+      "ratio": "1:6:20",
+      "purity": "纯度意义",
+      "vessel": "坩埚组，石英管充约三分之一大气压 Ar",
+      "atmosphere": "",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "保温 12 h，再以 2 °C/h",
+      "coolingRate": "以 200 °C/h 升到 1125 °C 保温 12 h，再以 2 °C/",
+      "postTreatment": "离心",
+      "crystalSize": "200 μm",
+      "yield": "产率、HCl 浓度和接触时间、晶体间成分分布、XRD 摇摆宽度及残 Sn 定量正文未报告",
+      "qualityMetrics": [
+        "RRR 与 600 T 分支强度列入质量表"
+      ],
+      "completeness": {
+        "reported": 10,
+        "total": 15,
+        "ratio": 0.6666666666666666
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "科学问题与对照",
+        "text": "HoV₆Sn₆ 是 166 kagome 家族成员，磁性稀土层和 V kagome 能带共存。作者用同一材料的磁化与 TDO 高场振荡追问：2.4 K 磁序以及强各向异性之外，费米面是近二维柱面还是三维多片。χ(T) 的 Curie–Weiss 结果给出 θ≈6.63 K、μeff≈11.11 μB/f.u.，2 K 时 H∥c 的磁矩约 9.5 μB/Ho，H∥ab 至 7 T 约 7.2 μB/Ho 尚无明确饱和。高场 TDO 在 0.35 K、至 41.5 T 检出多频：低频约 54/150 T、高频近 8.95 kT；约 17.61 kT 信号只在两角出现，可能是二次谐波，不能当独立费米面。角度和温度依赖及 DFT+U 一同构成“磁序—能带”的证据链，但 DFT 漏掉约 600 T 分支，留下真实结构、化学势或相互作用的缺口。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-2",
+        "title": "Sn Flux 与晶体质量",
+        "text": "Ho 99.9%、Sn 99.99%、V 99.7% 以 Ho:V:Sn=1:6:20 装 Canfield 坩埚组，石英管充约三分之一大气压 Ar。以 200 °C/h 升到 1125 °C 保温 12 h，再以 2 °C/h 降到 780 °C 离心；作者强调低于约 760 °C 易形成 V–Sn 二元相，因此倾析温度具有相纯度意义。片晶长约数毫米、厚约 200 μm，部分残 Sn 用稀 HCl 和棉签去除。坩埚容量、单炉产率、HCl 浓度和接触时间、晶体间成分分布、XRD 摇摆宽度及残 Sn 定量正文未报告；这些因素特别可能影响低频振荡的样品间重复性。该路线清晰可试，但不能把“有几毫米片晶”等同费米面测量片的逐个结构放行。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-3",
+        "title": "物性、拟合与局限",
+        "text": "MPMS 测磁化，高场 TDO 把片放入自谐振 LC 线圈，频率变化受样品磁化率和电导耦合影响。高频振荡主要在约 30 T 以上可见，低频在 10 T 以上可见；FFT 频率经 Onsager 关系转换为极值截面积，温度阻尼再给回旋质量，均为模型提取量。计算的 Band 93/94 对应若干分支，说明 V-d 主导的多片三维费米面有合理性；但约 600 T 未复现说明不能以“计算总体吻合”抹平差异。【直接观察】χ、M、TDO 原始频移；【拟合】FFT、有效质量和 DFT 轨道映射；【本站判断】多频和角度依赖的证据强于具体分支标号。下一步用同炉多片 dHvA、SdH 与 Laue；把酸洗前后表面 Sn 含量、RRR 与 600 T 分支强度列入质量表。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "正文 + Methods",
+      "sampleCredibility": "XRD、Laue、磁化；证据仍可补强",
+      "reproducibility": "10/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "中等"
+    }
+  },
+  {
+    "id": "arxiv:2609.36261",
+    "title": "Unveiling Three-Dimensional Skyrmion Transitions Through Vortices and Monopoles",
+    "authors": "Melissa E. Henderson, Daichi Kurebayashi, Benjamin Heacock, Wangchun Chen, Charles W. Clark, David G. Cory, Dusan Sarenac, Shannon Watson, Jonathan S. White, Lisa DeBeer-Schmitt, Oleg A. Tretiakov, Dmitry A. Pushin",
+    "institutions": "作者机构需从论文首页逐一核对；本期不凭姓名猜测",
+    "journal": "arXiv（Mesoscale and Nanoscale Physics (cond-mat.mes-hall); Materials Science (cond-mat.mtrl-sci)）",
+    "material": "Co₈Zn₈Mn₄",
+    "method": "中子散射三维层析",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "arXiv v1",
+      "摘要级",
+      "待全文补读"
+    ],
+    "abstract": "Magnetic skyrmions represent vortex-like spin configurations that provide a robust platform for next-generation spintronic technologies. Although they are often treated as two-dimensional objects with integer topological charge, their extension into three-dimensional strings realizes other composite structures with unique device functionalities that transcend planar frameworks. Unfortunately, a lack of bulk probes has failed to realize such higher-dimensional topological structures and their implementations. Here, we report the first experimental visualization of three-dimensional topological $Q = 0$ skyrmion structures using neutron scattering tomography techniques across the equilibrium phase of a Co$_8$Zn$_8$Mn$_4$ sample. Disordered skyrmion states reveal metastable skyrmioniums and composite topological objects novel to bulk systems. Vortex-antivortex lattices mediate changes in topology, with unprecedented transition pathways via a coupling of merons and monopoles. The present realization of bulk Q = 0 quasiparticles and meron-mediated dynamics paves the way for higher-dimensional spintronic frameworks through multi-bit encoding architectures, unidirectional transport schemes, and monopole-mediated controls.",
+    "conclusion": "中子层析在 Co₈Zn₈Mn₄ 的平衡与无序 skyrmion 态中重建体三维 Q=0 对象及涡旋、单极点连接，说明二维表面成像不足以识别整条 skyrmion 线；拓扑跃迁的时间因果仍需动态成像。",
+    "summary": "问题—样品—证据：摘要所能确定的范围：【仅基于摘要/元数据】Magnetic skyrmions represent vortex-like spin configurations that provide a robust platform for next-generation spintronic technologies. Although they are often treated as two-dimensional objects with integer topological charge, their extension into three-dimensional strings realizes other composite structures with unique device functionalities that transcend planar frameworks. Unfortunately, a lack of bulk probes has failed to realize such higher-dimensional topological structures and their implementations. Here, we report the first experimental visualization of three-dimensional topological $Q = 0$ skyrmion structures using neutron scattering tomography techniques across the equilibrium phase of a Co$_8$Zn$_8$Mn$_4$ sample. Disordered skyrmion states reveal metastable skyrmioniums and composite topological objects novel to bulk systems. Vortex-antivortex lattices mediate changes in topology, with unprecedented transition pathways via a coupling of merons and monopoles. The present realization of bulk Q = 0 quasiparticles and meron-mediated dynamics paves the way for higher-dimensional spintronic frameworks through multi-bit encoding architectures, unidirectional transport schemes, and monopole-mediated controls.。本站判断：中子层析在 Co₈Zn₈Mn₄ 的平衡与无序 skyrmion 态中重建体三维 Q=0 对象及涡旋、单极点连接，说明二维表面成像不足以识别整条 skyrmion 线；拓扑跃迁的时间因果仍需动态成像。。摘要只给研究主张，不能据此确定所有对照或因果。\n生长、质量与测量：待补读边界：材料/模型：Co₈Zn₈Mn₄；摘要描述方法：中子散射三维层析。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。\n证据等级、局限与复现建议：【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：看三维中子重建与 Q=0 判据，再核对亚稳态是否与平衡态同温场。；随后：进行场扫路径和时间分辨中子对照，区分成核与弛豫。。",
+    "year": 2026,
+    "published": "2026-09-28",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.36261",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2609.36261",
+    "reportUrl": "/reports/2026-09-30/#paper-4",
+    "access": "仅基于摘要/元数据：本次未实际核查正文和关键图，已列入正文补读清单；不计入精读。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Magnetic skyrmions represent vortex-like spin configurations that provide a robust platform for next-generation spintronic technologies. Although they are often treated as two-dimensional objects with integer topological charge, their extension into three-dimensional strings realizes other composite structures with unique device functionalities that transcend planar frameworks. Unfortunately, a lack of bulk probes has failed to realize such higher-dimensional topological structures and their implementations. Here, we report the first experimental visualization of three-dimensional topological $Q = 0$ skyrmion structures using neutron scattering tomography techniques across the equilibrium phase of a Co$_8$Zn$_8$Mn$_4$ sample. Disordered skyrmion states reveal metastable skyrmioniums and composite topological objects novel to bulk systems. Vortex-antivortex lattices mediate changes in topology, with unprecedented transition pathways via a coupling of merons and monopoles. The present realization of bulk Q = 0 quasiparticles and meron-mediated dynamics paves the way for higher-dimensional spintronic frameworks through multi-bit encoding architectures, unidirectional transport schemes, and monopole-mediated controls.。本站判断：中子层析在 Co₈Zn₈Mn₄ 的平衡与无序 skyrmion 态中重建体三维 Q=0 对象及涡旋、单极点连接，说明二维表面成像不足以识别整条 skyrmion 线；拓扑跃迁的时间因果仍需动态成像。。摘要只给研究主张，不能据此确定所有对照或因果。"
+      },
+      {
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：Co₈Zn₈Mn₄；摘要描述方法：中子散射三维层析。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。"
+      },
+      {
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：看三维中子重建与 Q=0 判据，再核对亚稳态是否与平衡态同温场。；随后：进行场扫路径和时间分辨中子对照，区分成核与弛豫。。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜方向跟踪、待正文复核",
+      "first": "看三维中子重建与 Q=0 判据，再核对亚稳态是否与平衡态同温场。",
+      "focus": "核对摘要主张所依赖的具体图、对照样品及误差，不能据标题直接采用生长参数。",
+      "next": "进行场扫路径和时间分辨中子对照，区分成核与弛豫。"
+    },
+    "growthRecipe": {
+      "material": "Co₈Zn₈Mn₄",
+      "actualComposition": "EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对",
+      "method": "Flux",
+      "transportAgent": "",
+      "flux": "助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核",
+      "ratio": "原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "purity": "纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "vessel": "坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "atmosphere": "真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "crystalSize": "",
+      "yield": "产率：正文未报告或本次未核验",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 8,
+        "total": 15,
+        "ratio": 0.5333333333333333
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Magnetic skyrmions represent vortex-like spin configurations that provide a robust platform for next-generation spintronic technologies. Although they are often treated as two-dimensional objects with integer topological charge, their extension into three-dimensional strings realizes other composite structures with unique device functionalities that transcend planar frameworks. Unfortunately, a lack of bulk probes has failed to realize such higher-dimensional topological structures and their implementations. Here, we report the first experimental visualization of three-dimensional topological $Q = 0$ skyrmion structures using neutron scattering tomography techniques across the equilibrium phase of a Co$_8$Zn$_8$Mn$_4$ sample. Disordered skyrmion states reveal metastable skyrmioniums and composite topological objects novel to bulk systems. Vortex-antivortex lattices mediate changes in topology, with unprecedented transition pathways via a coupling of merons and monopoles. The present realization of bulk Q = 0 quasiparticles and meron-mediated dynamics paves the way for higher-dimensional spintronic frameworks through multi-bit encoding architectures, unidirectional transport schemes, and monopole-mediated controls.。本站判断：中子层析在 Co₈Zn₈Mn₄ 的平衡与无序 skyrmion 态中重建体三维 Q=0 对象及涡旋、单极点连接，说明二维表面成像不足以识别整条 skyrmion 线；拓扑跃迁的时间因果仍需动态成像。。摘要只给研究主张，不能据此确定所有对照或因果。",
+        "type": "本站判断"
+      },
+      {
+        "id": "evidence-2",
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：Co₈Zn₈Mn₄；摘要描述方法：中子散射三维层析。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：看三维中子重建与 Q=0 判据，再核对亚稳态是否与平衡态同温场。；随后：进行场扫路径和时间分辨中子对照，区分成核与弛豫。。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "EDS、WDS、TEM、输运 多方法互证",
+      "reproducibility": "8/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2609.36343",
+    "title": "Directional strain control of magnetism in MnBi$_2$Se$_4$, MnSb$_2$Se$_4$, and MnSb$_2$Te$_4$ freestanding monolayers",
+    "authors": "Swarnava Ghosh, Tanvir Sohail, Markus Eisenbach",
+    "institutions": "作者机构需从论文首页逐一核对；本期不凭姓名猜测",
+    "journal": "arXiv（Materials Science (cond-mat.mtrl-sci); Applied Physics (physics.app-ph); Computational Physics (physics.comp-ph)）",
+    "material": "MnBi₂Se₄/MnSb₂Se₄/MnSb₂Te₄ 单层",
+    "method": "第一性原理双轴应变扫描",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "arXiv v1",
+      "摘要级",
+      "待全文补读"
+    ],
+    "abstract": "MnBi$_2$Se$_4$, MnSb$_2$Se$_4$, and MnSb$_2$Te$4$ are layered magnetic quantum materials of interest for spintronic and topological electronic applications, where control of magnetic order at the atomic scale is essential. These materials are particularly sensitive to strain. We investigate their strain-dependent magnetism in the monolayer limit using first-principles calculations across the full two-dimensional strain space spanned by independent variations of the two in-plane strain components. Our results show that the Mn-projected local moments depend primarily on the volumetric strain, whereas the magnetic ground state, exchange interactions, magnetocrystalline anisotropy, and ordering temperature show pronounced directional and composition-dependent responses. We also observe strain-induced competition between the phases, with MnBi$_2$Se$_4$, and MnSb$_2$Se$_4$ monolayers exhibiting a more diverse range of competing magnetic states, while MnSb$_2$Te$_4$ monolayer remains ferromagnetic over a larger portion of strain space. MnSb$_2$Te$_4$ also exhibits a substantially larger out-of-plane magnetocrystalline anisotropy, while showing a weaker dependence on strain than the Se-based materials. The calculated magnetic ordering temperature maps further highlight the role of two-dimensional strain to tune thermal magnetic stability in these materials. These results establish magnetoelastic trends across this family of Mn-based chalcogenide monolayers.",
+    "conclusion": "独立扫描两个面内应变分量发现局域磁矩主要受面积变化控制，交换、磁各向异性和有序温度却对方向与成分更敏感；MnSb₂Te₄ 的面外各向异性较强。结果是可测试的应变设计图，不是已完成实验器件。",
+    "summary": "问题—样品—证据：摘要所能确定的范围：【仅基于摘要/元数据】MnBi$_2$Se$_4$, MnSb$_2$Se$_4$, and MnSb$_2$Te$4$ are layered magnetic quantum materials of interest for spintronic and topological electronic applications, where control of magnetic order at the atomic scale is essential. These materials are particularly sensitive to strain. We investigate their strain-dependent magnetism in the monolayer limit using first-principles calculations across the full two-dimensional strain space spanned by independent variations of the two in-plane strain components. Our results show that the Mn-projected local moments depend primarily on the volumetric strain, whereas the magnetic ground state, exchange interactions, magnetocrystalline anisotropy, and ordering temperature show pronounced directional and composition-dependent responses. We also observe strain-induced competition between the phases, with MnBi$_2$Se$_4$, and MnSb$_2$Se$_4$ monolayers exhibiting a more diverse range of competing magnetic states, while MnSb$_2$Te$_4$ monolayer remains ferromagnetic over a larger portion of strain space. MnSb$_2$Te$_4$ also exhibits a substantially larger out-of-plane magnetocrystalline anisotropy, while showing a weaker dependence on strain than the Se-based materials. The calculated magnetic ordering temperature maps further highlight the role of two-dimensional strain to tune thermal magnetic stability in these materials. These results establish magnetoelastic trends across this family of Mn-based chalcogenide monolayers.。本站判断：独立扫描两个面内应变分量发现局域磁矩主要受面积变化控制，交换、磁各向异性和有序温度却对方向与成分更敏感；MnSb₂Te₄ 的面外各向异性较强。结果是可测试的应变设计图，不是已完成实验器件。。摘要只给研究主张，不能据此确定所有对照或因果。\n生长、质量与测量：待补读边界：材料/模型：MnBi₂Se₄/MnSb₂Se₄/MnSb₂Te₄ 单层；摘要描述方法：第一性原理双轴应变扫描。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。\n证据等级、局限与复现建议：【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先读二维应变相图和磁各向异性定义，检查独立应变范围。；随后：在可转移薄片上用弯曲基底分别施加 a/b 轴应变并测磁光 Kerr。。",
+    "year": 2026,
+    "published": "2026-09-28",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.36343",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2609.36343",
+    "reportUrl": "/reports/2026-09-30/#paper-5",
+    "access": "仅基于摘要/元数据：本次未实际核查正文和关键图，已列入正文补读清单；不计入精读。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】MnBi$_2$Se$_4$, MnSb$_2$Se$_4$, and MnSb$_2$Te$4$ are layered magnetic quantum materials of interest for spintronic and topological electronic applications, where control of magnetic order at the atomic scale is essential. These materials are particularly sensitive to strain. We investigate their strain-dependent magnetism in the monolayer limit using first-principles calculations across the full two-dimensional strain space spanned by independent variations of the two in-plane strain components. Our results show that the Mn-projected local moments depend primarily on the volumetric strain, whereas the magnetic ground state, exchange interactions, magnetocrystalline anisotropy, and ordering temperature show pronounced directional and composition-dependent responses. We also observe strain-induced competition between the phases, with MnBi$_2$Se$_4$, and MnSb$_2$Se$_4$ monolayers exhibiting a more diverse range of competing magnetic states, while MnSb$_2$Te$_4$ monolayer remains ferromagnetic over a larger portion of strain space. MnSb$_2$Te$_4$ also exhibits a substantially larger out-of-plane magnetocrystalline anisotropy, while showing a weaker dependence on strain than the Se-based materials. The calculated magnetic ordering temperature maps further highlight the role of two-dimensional strain to tune thermal magnetic stability in these materials. These results establish magnetoelastic trends across this family of Mn-based chalcogenide monolayers.。本站判断：独立扫描两个面内应变分量发现局域磁矩主要受面积变化控制，交换、磁各向异性和有序温度却对方向与成分更敏感；MnSb₂Te₄ 的面外各向异性较强。结果是可测试的应变设计图，不是已完成实验器件。。摘要只给研究主张，不能据此确定所有对照或因果。"
+      },
+      {
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：MnBi₂Se₄/MnSb₂Se₄/MnSb₂Te₄ 单层；摘要描述方法：第一性原理双轴应变扫描。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。"
+      },
+      {
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先读二维应变相图和磁各向异性定义，检查独立应变范围。；随后：在可转移薄片上用弯曲基底分别施加 a/b 轴应变并测磁光 Kerr。。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜方向跟踪、待正文复核",
+      "first": "先读二维应变相图和磁各向异性定义，检查独立应变范围。",
+      "focus": "核对摘要主张所依赖的具体图、对照样品及误差，不能据标题直接采用生长参数。",
+      "next": "在可转移薄片上用弯曲基底分别施加 a/b 轴应变并测磁光 Kerr。"
+    },
+    "growthRecipe": {
+      "material": "MnBi₂Se₄/MnSb₂Se₄/MnSb₂Te₄ 单层",
+      "actualComposition": "EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对",
+      "method": "Flux",
+      "transportAgent": "i₂",
+      "flux": "助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核",
+      "ratio": "原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "purity": "纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "vessel": "坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "atmosphere": "真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "crystalSize": "",
+      "yield": "产率：正文未报告或本次未核验",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 9,
+        "total": 15,
+        "ratio": 0.6
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】MnBi$_2$Se$_4$, MnSb$_2$Se$_4$, and MnSb$_2$Te$4$ are layered magnetic quantum materials of interest for spintronic and topological electronic applications, where control of magnetic order at the atomic scale is essential. These materials are particularly sensitive to strain. We investigate their strain-dependent magnetism in the monolayer limit using first-principles calculations across the full two-dimensional strain space spanned by independent variations of the two in-plane strain components. Our results show that the Mn-projected local moments depend primarily on the volumetric strain, whereas the magnetic ground state, exchange interactions, magnetocrystalline anisotropy, and ordering temperature show pronounced directional and composition-dependent responses. We also observe strain-induced competition between the phases, with MnBi$_2$Se$_4$, and MnSb$_2$Se$_4$ monolayers exhibiting a more diverse range of competing magnetic states, while MnSb$_2$Te$_4$ monolayer remains ferromagnetic over a larger portion of strain space. MnSb$_2$Te$_4$ also exhibits a substantially larger out-of-plane magnetocrystalline anisotropy, while showing a weaker dependence on strain than the Se-based materials. The calculated magnetic ordering temperature maps further highlight the role of two-dimensional strain to tune thermal magnetic stability in these materials. These results establish magnetoelastic trends across this family of Mn-based chalcogenide monolayers.。本站判断：独立扫描两个面内应变分量发现局域磁矩主要受面积变化控制，交换、磁各向异性和有序温度却对方向与成分更敏感；MnSb₂Te₄ 的面外各向异性较强。结果是可测试的应变设计图，不是已完成实验器件。。摘要只给研究主张，不能据此确定所有对照或因果。",
+        "type": "本站判断"
+      },
+      {
+        "id": "evidence-2",
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：MnBi₂Se₄/MnSb₂Se₄/MnSb₂Te₄ 单层；摘要描述方法：第一性原理双轴应变扫描。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先读二维应变相图和磁各向异性定义，检查独立应变范围。；随后：在可转移薄片上用弯曲基底分别施加 a/b 轴应变并测磁光 Kerr。。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "EDS、WDS、TEM、输运 多方法互证",
+      "reproducibility": "9/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2609.36353",
+    "title": "Quantum metric induced nonlinear transport in the hidden loop-current phase of kagome metal RbV$_3$Sb$_5$",
+    "authors": "Jia-Chen Shi, Shupeng Xu, Utkarsh Khandelwal, Nashra Pistawala, Luminita Harnagea, Steven J. May, Ritesh Agarwal",
+    "institutions": "作者机构需从论文首页逐一核对；本期不凭姓名猜测",
+    "journal": "arXiv（Strongly Correlated Electrons (cond-mat.str-el); Materials Science (cond-mat.mtrl-sci)）",
+    "material": "RbV₃Sb₅",
+    "method": "三次谐波非线性输运",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "arXiv v1",
+      "摘要级",
+      "待全文补读"
+    ],
+    "abstract": "A hidden low-temperature phase with possible loop-current order has been proposed in the kagome metals AV$_3$Sb$_5$ (A=K, Rb or Cs), but its experimental signatures remain subtle and indirect. Here, we use third-order nonlinear transport to probe this hidden phase in RbV$_3$Sb$_5$. At ~35 K, the longitudinal cubic response develops a strong kink and pronounced directional anisotropy with a strong departure from common relaxation time scaling, while the transverse cubic response acquires a magnetic field-odd component at the same temperature. Their coincident onset identifies the third-harmonic response as a sensitive marker of the low-temperature electronic reconstruction with time-reversal broken symmetry. Crucially, we find that the quantum metric quadrupole contributes directly to the longitudinal third-order response. In a loop-current charge-density-wave model, its direction selective enhancement captures the observed angular reconstruction. Our work shows how higher-order nonlinear transport translates subtle changes in electronic symmetry and quantum metric into measurable electrical signatures in quantum materials that is important for studying complex electronic phases of matter.",
+    "conclusion": "约 35 K 时 RbV₃Sb₅ 的纵向三次响应出现拐点和角向各向异性，横向三次响应同时出现磁场奇分量。量子度规四极矩与环流 CDW 模型能解释方向选择性，但“环流序”仍是模型归因而非直接成像。",
+    "summary": "问题—样品—证据：摘要所能确定的范围：【仅基于摘要/元数据】A hidden low-temperature phase with possible loop-current order has been proposed in the kagome metals AV$_3$Sb$_5$ (A=K, Rb or Cs), but its experimental signatures remain subtle and indirect. Here, we use third-order nonlinear transport to probe this hidden phase in RbV$_3$Sb$_5$. At ~35 K, the longitudinal cubic response develops a strong kink and pronounced directional anisotropy with a strong departure from common relaxation time scaling, while the transverse cubic response acquires a magnetic field-odd component at the same temperature. Their coincident onset identifies the third-harmonic response as a sensitive marker of the low-temperature electronic reconstruction with time-reversal broken symmetry. Crucially, we find that the quantum metric quadrupole contributes directly to the longitudinal third-order response. In a loop-current charge-density-wave model, its direction selective enhancement captures the observed angular reconstruction. Our work shows how higher-order nonlinear transport translates subtle changes in electronic symmetry and quantum metric into measurable electrical signatures in quantum materials that is important for studying complex electronic phases of matter.。本站判断：约 35 K 时 RbV₃Sb₅ 的纵向三次响应出现拐点和角向各向异性，横向三次响应同时出现磁场奇分量。量子度规四极矩与环流 CDW 模型能解释方向选择性，但“环流序”仍是模型归因而非直接成像。。摘要只给研究主张，不能据此确定所有对照或因果。\n生长、质量与测量：待补读边界：材料/模型：RbV₃Sb₅；摘要描述方法：三次谐波非线性输运。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。\n证据等级、局限与复现建议：【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先核对三次谐波对电流幅值的立方标度及 35 K 两通道共同起始。；随后：做同晶体热循环与畴训练，排除接触非线性和焦耳热。。",
+    "year": 2026,
+    "published": "2026-09-28",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.36353",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2609.36353",
+    "reportUrl": "/reports/2026-09-30/#paper-6",
+    "access": "仅基于摘要/元数据：本次未实际核查正文和关键图，已列入正文补读清单；不计入精读。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】A hidden low-temperature phase with possible loop-current order has been proposed in the kagome metals AV$_3$Sb$_5$ (A=K, Rb or Cs), but its experimental signatures remain subtle and indirect. Here, we use third-order nonlinear transport to probe this hidden phase in RbV$_3$Sb$_5$. At ~35 K, the longitudinal cubic response develops a strong kink and pronounced directional anisotropy with a strong departure from common relaxation time scaling, while the transverse cubic response acquires a magnetic field-odd component at the same temperature. Their coincident onset identifies the third-harmonic response as a sensitive marker of the low-temperature electronic reconstruction with time-reversal broken symmetry. Crucially, we find that the quantum metric quadrupole contributes directly to the longitudinal third-order response. In a loop-current charge-density-wave model, its direction selective enhancement captures the observed angular reconstruction. Our work shows how higher-order nonlinear transport translates subtle changes in electronic symmetry and quantum metric into measurable electrical signatures in quantum materials that is important for studying complex electronic phases of matter.。本站判断：约 35 K 时 RbV₃Sb₅ 的纵向三次响应出现拐点和角向各向异性，横向三次响应同时出现磁场奇分量。量子度规四极矩与环流 CDW 模型能解释方向选择性，但“环流序”仍是模型归因而非直接成像。。摘要只给研究主张，不能据此确定所有对照或因果。"
+      },
+      {
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：RbV₃Sb₅；摘要描述方法：三次谐波非线性输运。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。"
+      },
+      {
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先核对三次谐波对电流幅值的立方标度及 35 K 两通道共同起始。；随后：做同晶体热循环与畴训练，排除接触非线性和焦耳热。。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜方向跟踪、待正文复核",
+      "first": "先核对三次谐波对电流幅值的立方标度及 35 K 两通道共同起始。",
+      "focus": "核对摘要主张所依赖的具体图、对照样品及误差，不能据标题直接采用生长参数。",
+      "next": "做同晶体热循环与畴训练，排除接触非线性和焦耳热。"
+    },
+    "growthRecipe": {
+      "material": "RbV₃Sb₅",
+      "actualComposition": "EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对",
+      "method": "Flux",
+      "transportAgent": "",
+      "flux": "助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核",
+      "ratio": "原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "purity": "纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "vessel": "坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "atmosphere": "真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "crystalSize": "",
+      "yield": "产率：正文未报告或本次未核验",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 8,
+        "total": 15,
+        "ratio": 0.5333333333333333
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】A hidden low-temperature phase with possible loop-current order has been proposed in the kagome metals AV$_3$Sb$_5$ (A=K, Rb or Cs), but its experimental signatures remain subtle and indirect. Here, we use third-order nonlinear transport to probe this hidden phase in RbV$_3$Sb$_5$. At ~35 K, the longitudinal cubic response develops a strong kink and pronounced directional anisotropy with a strong departure from common relaxation time scaling, while the transverse cubic response acquires a magnetic field-odd component at the same temperature. Their coincident onset identifies the third-harmonic response as a sensitive marker of the low-temperature electronic reconstruction with time-reversal broken symmetry. Crucially, we find that the quantum metric quadrupole contributes directly to the longitudinal third-order response. In a loop-current charge-density-wave model, its direction selective enhancement captures the observed angular reconstruction. Our work shows how higher-order nonlinear transport translates subtle changes in electronic symmetry and quantum metric into measurable electrical signatures in quantum materials that is important for studying complex electronic phases of matter.。本站判断：约 35 K 时 RbV₃Sb₅ 的纵向三次响应出现拐点和角向各向异性，横向三次响应同时出现磁场奇分量。量子度规四极矩与环流 CDW 模型能解释方向选择性，但“环流序”仍是模型归因而非直接成像。。摘要只给研究主张，不能据此确定所有对照或因果。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-2",
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：RbV₃Sb₅；摘要描述方法：三次谐波非线性输运。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先核对三次谐波对电流幅值的立方标度及 35 K 两通道共同起始。；随后：做同晶体热循环与畴训练，排除接触非线性和焦耳热。。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "EDS、WDS、TEM、输运 多方法互证",
+      "reproducibility": "8/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2609.36402",
+    "title": "Enhanced Critical Currents and Irreversibility Fields in YBa$_2$Cu$_4$O$_8$ Films through Ca-Substitution",
+    "authors": "Jiangteng Liu, Shuhei Funaki, Yuki Ogimoto, Bryan Zhang, Ryoya Nagaura, Ryuji Yoshida, Takeharu Kato, Masashi Miura, Serena Eley",
+    "institutions": "作者所在单位见原文首页；本期重点核对其公开 Methods，不凭单位推断实验条件",
+    "journal": "arXiv（Superconductivity (cond-mat.supr-con)）",
+    "material": "(Y,Ca)Ba₂Cu₄O₈ 薄膜",
+    "method": "KOH 熔融氢氧化物 Flux 外延",
+    "category": "高温与非常规超导",
+    "tags": [
+      "arXiv v1",
+      "全文精读",
+      "实际读正文"
+    ],
+    "abstract": "The intrinsic carrier concentration of superconducting materials may not be optimal, and different superconducting properties may have distinct optimal doping levels. Here, we show that Ca substitution increases the hole concentration in intrinsically underdoped epitaxial (Y$_{1-x}$Ca$_x$)Ba$_2$Cu$_4$O$_8$ (YCa124) films with $x \\leq 0.10$, driving YCa124 toward optimal doping, increasing $T_c$ and $J_c$. At 40 K, 10% Ca doping increases $J_c$ by factors of 2.4 and 10 at 0.03 and 6 T, respectively, compared with the undoped film. The field dependence of $J_c$ follows $J_c \\propto B^{-0.5}$, independent of Ca content, indicating that Ca substitution does not alter the dominant pinning mechanism. This field dependence is consistent with pinning by planar Y-125 stacking-fault intergrowths observed by electron microscopy. In addition, Ca substitution slows thermally activated vortex motion (creep) at $T \\gtrsim 15$ K, while at lower temperatures the creep rate $S$ shows an unusual decrease with increasing field. Finally, we consider how doping tunes the upper bound on $J_c$, set by the depairing current density $J_d$, and the lower bound on creep, set by the Ginzburg parameter $G_i$. We find positive correlations between $J_c$ and $J_d$, and between $S$ and $G_i$, and compare them with trends across a broad range of superconductors.",
+    "conclusion": "Ca 掺杂把本征欠掺杂 Y124 推向优化空穴浓度，40 K、6 T 的 Jc 相对未掺杂提高约 10 倍，蠕变减慢；STEM 看到 Y125 层错可能作为钉扎中心。Bean 模型提取的 Jc 与层错因果需要固定膜厚、形貌和真实掺杂来复核。",
+    "summary": "问题和对照：YBa₂Cu₄O₈（Y124）的氧化学计量相对稳定，却处于欠掺杂。若用 Ca²⁺ 代 Y³⁺ 增加空穴，Tc、退相干电流 Jd、实际临界电流 Jc 和涡旋蠕变未必同步变好。作者在 NdGaO₃(001) 基片上做 (Y₁₋ₓCaₓ)Ba₂Cu₄O₈ 膜，比较多浓度的 ZFC/FC 磁响应、磁滞回线、STEM 层错与蠕变；这比只比较 Tc 更贴近应用。正文列五个 x=0、0.025、0.05、0.075、0.10，而 Methods 生长段写“四个水平”并列 0、0.05、0.075、0.10，0.025 的配方表述有内部不一致，复现实验前应查 SI/勘误。\nKOH 生长与质量：Y₂O₃、CaCO₃、BaCO₃、CuO 按 Y:Ca:Ba:Cu=(1−x):x:2:4 称料，总前驱体 10 g，和熔融 KOH 作溶剂/Flux，浸入 NdGaO₃(001) 单晶基片，在空气中的马弗炉 650 °C 保温 12 h。KOH 的实际质量/前驱体摩尔比、容器材质、装液深度、降温与洗涤程序、每片实际 Ca 含量及膜厚均须核原文表格或正文未报告，不可用惯常配方补齐。HAADF-STEM 指出平面 Y125 嵌层及部分位错回路，支持缺陷钉扎背景，但需跨浓度量化层错密度；若 Ca 同时改变载流子和缺陷，单变量因果就不成立。\n测量与定量判断：MPMS3 中 H∥c，低场约 0.3 mT 的 m(T) 以 ZFC/FC 差值门槛定义 Tc，温扫约 1.5 K/min。磁滞环以约 100 Oe/s 扫场，先把 NdGaO₃ 基片的可逆顺磁背景用上下支平均扣掉，再用矩形 Bean 临界态公式由环宽 Δm 推 Jc；它不是直接输运 Jc，需几何尺寸与不可逆电流路径假设。摘要指出 40 K、0.03 T 与 6 T 时 10% Ca 的 Jc 分别提高约 2.4 和 10 倍；4.2 K、1 T 插值约 0.097→0.194 MA/cm²，Jc∝B⁻⁰·⁵ 的场幂律近似未随 Ca 显著变化。低温 STEM 的 Y125 层错与幂律相容，但并不能唯一证明钉扎来自此类缺陷。\n推断与下一炉：【观察】磁响应、STEM、磁滞环的浓度趋势；【模型】Bean Jc、Jd/Gi 上下界与蠕变 S；【作者推断】Ca 改善载流子与缺陷协同；【本站判断】性能提升可确认，但“改善究竟有多少来自空穴、多少来自层错”仍待分离。建议先核对 x=0.025 是否漏写，并测实际 Ca、氧含量、膜厚；做相同缺陷密度下不同 Ca 的组或同 Ca 不同退火组，叠图比较 Tc、Jc(1 T,4.2 K) 与 S。装置用直接微桥输运 Jc 检验 Bean 几何误差；若在相同膜厚/层错密度下仍提升，载流子机制才更扎实。",
+    "year": 2026,
+    "published": "2026-09-28",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.36402",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/html/2609.36402",
+    "reportUrl": "/reports/2026-09-30/#paper-7",
+    "access": "全文精读：实际读取 arXiv 公开正文、所列 Methods/实验段及关键图注；未另取 SI 不声称已读 SI。已核正文掺杂/钉扎分析、Methods Film Growth/Magnetometry、Fig.2–6。",
+    "rating": "A+",
+    "sections": [
+      {
+        "title": "问题和对照",
+        "text": "YBa₂Cu₄O₈（Y124）的氧化学计量相对稳定，却处于欠掺杂。若用 Ca²⁺ 代 Y³⁺ 增加空穴，Tc、退相干电流 Jd、实际临界电流 Jc 和涡旋蠕变未必同步变好。作者在 NdGaO₃(001) 基片上做 (Y₁₋ₓCaₓ)Ba₂Cu₄O₈ 膜，比较多浓度的 ZFC/FC 磁响应、磁滞回线、STEM 层错与蠕变；这比只比较 Tc 更贴近应用。正文列五个 x=0、0.025、0.05、0.075、0.10，而 Methods 生长段写“四个水平”并列 0、0.05、0.075、0.10，0.025 的配方表述有内部不一致，复现实验前应查 SI/勘误。"
+      },
+      {
+        "title": "KOH 生长与质量",
+        "text": "Y₂O₃、CaCO₃、BaCO₃、CuO 按 Y:Ca:Ba:Cu=(1−x):x:2:4 称料，总前驱体 10 g，和熔融 KOH 作溶剂/Flux，浸入 NdGaO₃(001) 单晶基片，在空气中的马弗炉 650 °C 保温 12 h。KOH 的实际质量/前驱体摩尔比、容器材质、装液深度、降温与洗涤程序、每片实际 Ca 含量及膜厚均须核原文表格或正文未报告，不可用惯常配方补齐。HAADF-STEM 指出平面 Y125 嵌层及部分位错回路，支持缺陷钉扎背景，但需跨浓度量化层错密度；若 Ca 同时改变载流子和缺陷，单变量因果就不成立。"
+      },
+      {
+        "title": "测量与定量判断",
+        "text": "MPMS3 中 H∥c，低场约 0.3 mT 的 m(T) 以 ZFC/FC 差值门槛定义 Tc，温扫约 1.5 K/min。磁滞环以约 100 Oe/s 扫场，先把 NdGaO₃ 基片的可逆顺磁背景用上下支平均扣掉，再用矩形 Bean 临界态公式由环宽 Δm 推 Jc；它不是直接输运 Jc，需几何尺寸与不可逆电流路径假设。摘要指出 40 K、0.03 T 与 6 T 时 10% Ca 的 Jc 分别提高约 2.4 和 10 倍；4.2 K、1 T 插值约 0.097→0.194 MA/cm²，Jc∝B⁻⁰·⁵ 的场幂律近似未随 Ca 显著变化。低温 STEM 的 Y125 层错与幂律相容，但并不能唯一证明钉扎来自此类缺陷。"
+      },
+      {
+        "title": "推断与下一炉",
+        "text": "【观察】磁响应、STEM、磁滞环的浓度趋势；【模型】Bean Jc、Jd/Gi 上下界与蠕变 S；【作者推断】Ca 改善载流子与缺陷协同；【本站判断】性能提升可确认，但“改善究竟有多少来自空穴、多少来自层错”仍待分离。建议先核对 x=0.025 是否漏写，并测实际 Ca、氧含量、膜厚；做相同缺陷密度下不同 Ca 的组或同 Ca 不同退火组，叠图比较 Tc、Jc(1 T,4.2 K) 与 S。装置用直接微桥输运 Jc 检验 Bean 几何误差；若在相同膜厚/层错密度下仍提升，载流子机制才更扎实。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A+｜实验人员优先",
+      "first": "先读 Fig.2 的 Y125 层错和 Fig.3 的 Jc(B)，再核对 Methods 的 KOH 与 650 °C/12 h。",
+      "focus": "Methods 的样品数有“正文五个 x、方法列四个 x”差异，核对 x=0.025 是否遗漏；Bean 模型和不同膜厚。",
+      "next": "制备同厚同基片的 Ca 浓度序列，补 WDS/厚度误差和直接输运 Jc。"
+    },
+    "growthRecipe": {
+      "material": "(Y,Ca)Ba₂Cu₄O₈ 薄膜",
+      "actualComposition": "",
+      "method": "Flux",
+      "transportAgent": "",
+      "flux": "Flux 外延 Ca 掺杂把本征欠掺杂 Y124 推向优化空穴浓度，40 K、6 T 的 Jc 相对未掺杂提高约 10",
+      "ratio": "摩尔比、容器材质、装液深度、降温与洗涤程序、每片实际 Ca 含量及膜厚均须核原文表格或正文未报告，不可用惯常配方补齐",
+      "purity": "10%",
+      "vessel": "",
+      "atmosphere": "",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "保温 12 h",
+      "coolingRate": "以 ZFC/FC 差值门槛定义 Tc，温扫约 1.5 K/",
+      "postTreatment": "退火组，叠图比较 Tc、Jc(1 T,4.2 K) 与 S",
+      "crystalSize": "",
+      "yield": "",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 7,
+        "total": 15,
+        "ratio": 0.4666666666666667
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题和对照",
+        "text": "YBa₂Cu₄O₈（Y124）的氧化学计量相对稳定，却处于欠掺杂。若用 Ca²⁺ 代 Y³⁺ 增加空穴，Tc、退相干电流 Jd、实际临界电流 Jc 和涡旋蠕变未必同步变好。作者在 NdGaO₃(001) 基片上做 (Y₁₋ₓCaₓ)Ba₂Cu₄O₈ 膜，比较多浓度的 ZFC/FC 磁响应、磁滞回线、STEM 层错与蠕变；这比只比较 Tc 更贴近应用。正文列五个 x=0、0.025、0.05、0.075、0.10，而 Methods 生长段写“四个水平”并列 0、0.05、0.075、0.10，0.025 的配方表述有内部不一致，复现实验前应查 SI/勘误。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "KOH 生长与质量",
+        "text": "Y₂O₃、CaCO₃、BaCO₃、CuO 按 Y:Ca:Ba:Cu=(1−x):x:2:4 称料，总前驱体 10 g，和熔融 KOH 作溶剂/Flux，浸入 NdGaO₃(001) 单晶基片，在空气中的马弗炉 650 °C 保温 12 h。KOH 的实际质量/前驱体摩尔比、容器材质、装液深度、降温与洗涤程序、每片实际 Ca 含量及膜厚均须核原文表格或正文未报告，不可用惯常配方补齐。HAADF-STEM 指出平面 Y125 嵌层及部分位错回路，支持缺陷钉扎背景，但需跨浓度量化层错密度；若 Ca 同时改变载流子和缺陷，单变量因果就不成立。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-3",
+        "title": "测量与定量判断",
+        "text": "MPMS3 中 H∥c，低场约 0.3 mT 的 m(T) 以 ZFC/FC 差值门槛定义 Tc，温扫约 1.5 K/min。磁滞环以约 100 Oe/s 扫场，先把 NdGaO₃ 基片的可逆顺磁背景用上下支平均扣掉，再用矩形 Bean 临界态公式由环宽 Δm 推 Jc；它不是直接输运 Jc，需几何尺寸与不可逆电流路径假设。摘要指出 40 K、0.03 T 与 6 T 时 10% Ca 的 Jc 分别提高约 2.4 和 10 倍；4.2 K、1 T 插值约 0.097→0.194 MA/cm²，Jc∝B⁻⁰·⁵ 的场幂律近似未随 Ca 显著变化。低温 STEM 的 Y125 层错与幂律相容，但并不能唯一证明钉扎来自此类缺陷。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-4",
+        "title": "推断与下一炉",
+        "text": "【观察】磁响应、STEM、磁滞环的浓度趋势；【模型】Bean Jc、Jd/Gi 上下界与蠕变 S；【作者推断】Ca 改善载流子与缺陷协同；【本站判断】性能提升可确认，但“改善究竟有多少来自空穴、多少来自层错”仍待分离。建议先核对 x=0.025 是否漏写，并测实际 Ca、氧含量、膜厚；做相同缺陷密度下不同 Ca 的组或同 Ca 不同退火组，叠图比较 Tc、Jc(1 T,4.2 K) 与 S。装置用直接微桥输运 Jc 检验 Bean 几何误差；若在相同膜厚/层错密度下仍提升，载流子机制才更扎实。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "正文 + Methods + SI",
+      "sampleCredibility": "TEM、输运；证据仍可补强",
+      "reproducibility": "7/15 项参数可提取",
+      "physicalEvidence": "双探针支持",
+      "certainty": "中等"
+    }
+  },
+  {
+    "id": "arxiv:2609.36493",
+    "title": "Enabling the Ambient Pressure Growth of ScB2 Crystals for AlGaN Power Electronics",
+    "authors": "Satya K. Kushwaha, Ahamed Raihan, Astrid D. Kengne, Daniel Joel Harrison, R. Shipra, Han Xie, Evan N. Crites, Allana G. Iwanicki, Luke J. Meiler, Sharad Mahatara, Maxime A. Siegler, Renae N. Gannon, Steven R. Spurgeon, Rajeswari Kolagani, Amitayush Jhu Thakur, Stephan Lany, Patrick E. Hopkins, Jessica L. McChesney, Nancy Haegel, Tyrel M. McQueen, Michael G. Spencer, MVS Chandrashekhar",
+    "institutions": "作者单位见 arXiv PDF 首页；本期未以单位代替实验参数",
+    "journal": "arXiv（Materials Science (cond-mat.mtrl-sci)）",
+    "material": "ScB₂",
+    "method": "激光浮区移动溶剂；Sc/B 自助熔剂",
+    "category": "晶体生长和物性调控",
+    "tags": [
+      "arXiv v1",
+      "全文精读",
+      "实际读正文"
+    ],
+    "abstract": "Here we report the growth of single crystalline ScB2, an ultrahigh-temperature ceramic, at ambient pressure in a laser-heated Optical Floating Zone via the travelling solvent method. Crystals have been grown from both Sc-rich (55-65 at% Sc) and B-rich self-flux (80-83 at% B) at growth rates in the range of 0.2-2 mm/hr. The structure of grown crystals is in good agreement with an AlB2-type layered hexagonal phase, space group P6/mmm, with lattice constants a = 3.1423(2) Å (resp. 3.1502(3) Å) and c = 3.5084(3) Å (resp. 3.5041(3) Å) for crystals grown under Sc-rich (resp. B-rich) conditions. Crystals natively grow along the in-plane [100] direction. Electron backscattered diffraction shows that Sc-flux growth results in boules with multiple domains containing Sc inclusions, with the domains highly aligned. In contrast, B-flux boules are single domain after the initial nucleation region. Rocking-curve measurements of B-flux crystals for the (h000) and (000l) reflections show single peaks, establishing that the crystals are free from grain boundaries; the asymmetry in the scattered-intensity tails suggests the presence of point defects. Surface X-ray photoemission spectroscopy shows that the electronic environment in B-flux crystals is superior to that of Sc-flux crystals and produces highly resolved binding-energy peaks for B 1s and Sc 2p. Work-function measurements for the (11-20) plane give a value of approximately 5 eV, consistent with the highly electrically conductive nature of ScB2. These results demonstrate the viable ambient-pressure growth of ScB2, establish it as a lattice-matched substrate candidate for Al-rich AlGaN power microelectronics, and show that this growth route enables scalable manufacturing of ScB2 substrates.",
+    "conclusion": "ScB₂ 可在常压激光浮区用 Sc 富或 B 富移动熔区生长；B 富条件绕开 Sc 金属夹杂，初始成核段后形成单畴晶棒。摇摆曲线与 EBSD 支持晶体连续性，但散射尾暗示点缺陷，电子器件应用还需要缺陷与电输运一一对应。",
+    "summary": "问题与对照：ScB₂ 对 AlGaN 功率电子学有衬底价值，但高熔点、B/Sc 化学活性与熔体挥发使常压大单晶难得。作者在激光辅助浮区炉内采用移动溶剂，而非简单化学计量直接熔融，对比 Sc 富与 B 富自助熔剂两条相图路径。摘要给出 Sc 富熔区约 55–65 at% Sc、B 富约 80–83 at% B，移动速率总体 0.2–2 mm/h；正文若干成功炉次集中在约 1–1.5 mm/h。两条路线均生成 P6/mmm AlB₂ 型 ScB₂，但 Sc 富晶棒有多畴与 Sc 夹杂，B 富在初始成核之后成为单畴。这个比较把“能长出来”与“晶体能作为器件衬底”分开，最有实验价值。\n晶体质量与测量：Sc 富样品晶格 a≈3.1423(2) Å、c≈3.5084(3) Å；B 富 a≈3.1502(3) Å、c≈3.5041(3) Å，细微差异不能在缺少缺陷定量时直接解释成固定化学计量偏离。晶体自然沿面内 [100] 方向生长。EBSD 看到 Sc 富多畴虽取向相近，B 富单畴；B 富 (h000)/(000l) 摇摆曲线为单峰，排除了大量晶界，但散射尾不对称提示点缺陷，不能写作“完美无缺陷”。XPS 只表征近表面，不能替代体化学计量；室温电/热输运是应用相关的后续证据。论文未给出每炉完整良率、所有速率的同法 XPS 深度分布与摇摆半高宽分布。\n复现建议与证据级别：【直接观察】可抽出晶棒、EBSD 畴、摇摆峰与 XPS/输运；【作者推断】B 富移动熔区减小金属夹杂并利于单畴；【本站判断】两种相图路径的对照强，但晶棒长度方向的成分均匀性与点缺陷仍未闭环。建议以 B 80/81.5/83 at% 和 0.5/1/1.5 mm/h 建矩阵；按棒头—中—尾编号测 EBSD、XRD rocking、四探针/霍尔和表面—深度 XPS；同时保留 Sc 富对照并记录挥发损失。图中 rocking 单峰支持晶域连续，不足以单独保证 AlGaN 器件界面低缺陷。",
+    "year": 2026,
+    "published": "2026-09-29",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.36493",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/pdf/2609.36493",
+    "reportUrl": "/reports/2026-09-30/#paper-8",
+    "access": "全文精读：实际读取 arXiv 公开正文、所列 Methods/实验段及关键图注；未另取 SI 不声称已读 SI。已下载并阅读公开 arXiv PDF 的摘要、晶体生长、EBSD/摇摆曲线、表面 XPS 与输运段及图注；非机构受限 PDF。",
+    "rating": "A+",
+    "sections": [
+      {
+        "title": "问题与对照",
+        "text": "ScB₂ 对 AlGaN 功率电子学有衬底价值，但高熔点、B/Sc 化学活性与熔体挥发使常压大单晶难得。作者在激光辅助浮区炉内采用移动溶剂，而非简单化学计量直接熔融，对比 Sc 富与 B 富自助熔剂两条相图路径。摘要给出 Sc 富熔区约 55–65 at% Sc、B 富约 80–83 at% B，移动速率总体 0.2–2 mm/h；正文若干成功炉次集中在约 1–1.5 mm/h。两条路线均生成 P6/mmm AlB₂ 型 ScB₂，但 Sc 富晶棒有多畴与 Sc 夹杂，B 富在初始成核之后成为单畴。这个比较把“能长出来”与“晶体能作为器件衬底”分开，最有实验价值。"
+      },
+      {
+        "title": "晶体质量与测量",
+        "text": "Sc 富样品晶格 a≈3.1423(2) Å、c≈3.5084(3) Å；B 富 a≈3.1502(3) Å、c≈3.5041(3) Å，细微差异不能在缺少缺陷定量时直接解释成固定化学计量偏离。晶体自然沿面内 [100] 方向生长。EBSD 看到 Sc 富多畴虽取向相近，B 富单畴；B 富 (h000)/(000l) 摇摆曲线为单峰，排除了大量晶界，但散射尾不对称提示点缺陷，不能写作“完美无缺陷”。XPS 只表征近表面，不能替代体化学计量；室温电/热输运是应用相关的后续证据。论文未给出每炉完整良率、所有速率的同法 XPS 深度分布与摇摆半高宽分布。"
+      },
+      {
+        "title": "复现建议与证据级别",
+        "text": "【直接观察】可抽出晶棒、EBSD 畴、摇摆峰与 XPS/输运；【作者推断】B 富移动熔区减小金属夹杂并利于单畴；【本站判断】两种相图路径的对照强，但晶棒长度方向的成分均匀性与点缺陷仍未闭环。建议以 B 80/81.5/83 at% 和 0.5/1/1.5 mm/h 建矩阵；按棒头—中—尾编号测 EBSD、XRD rocking、四探针/霍尔和表面—深度 XPS；同时保留 Sc 富对照并记录挥发损失。图中 rocking 单峰支持晶域连续，不足以单独保证 AlGaN 器件界面低缺陷。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A+｜实验人员优先",
+      "first": "先看 PDF 生长 Methods、Sc–B 相图和 EBSD/rocking curve，核对 B 富 80–83 at% 与 0.2–2 mm/h。",
+      "focus": "PDF 中区分 Sc 富 55–65 at% 与 B 富 80–83 at%，核对 0.2–2 mm/h 全范围和各样品实用速率。",
+      "next": "设计 80/81.5/83 at% B 和生长速率矩阵，逐段做 EBSD、XPS 和霍尔。"
+    },
+    "growthRecipe": {
+      "material": "ScB₂",
+      "actualComposition": "",
+      "method": "Flux",
+      "transportAgent": "",
+      "flux": "自助熔剂 ScB₂ 可在常压激光浮区用 Sc 富或 B 富移动熔区生长",
+      "ratio": "",
+      "purity": "",
+      "vessel": "",
+      "atmosphere": "",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "",
+      "crystalSize": "2 mm",
+      "yield": "",
+      "qualityMetrics": [
+        "摇摆曲线与 EBSD 支持晶体连续性，但散射尾暗示点缺陷，电子器件应用还需要缺陷与电输运一一对应",
+        "摇摆曲线为单峰，排除了大量晶界，但散射尾不对称提示点缺陷，不能写作“完美无缺陷”"
+      ],
+      "completeness": {
+        "reported": 3,
+        "total": 15,
+        "ratio": 0.2
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题与对照",
+        "text": "ScB₂ 对 AlGaN 功率电子学有衬底价值，但高熔点、B/Sc 化学活性与熔体挥发使常压大单晶难得。作者在激光辅助浮区炉内采用移动溶剂，而非简单化学计量直接熔融，对比 Sc 富与 B 富自助熔剂两条相图路径。摘要给出 Sc 富熔区约 55–65 at% Sc、B 富约 80–83 at% B，移动速率总体 0.2–2 mm/h；正文若干成功炉次集中在约 1–1.5 mm/h。两条路线均生成 P6/mmm AlB₂ 型 ScB₂，但 Sc 富晶棒有多畴与 Sc 夹杂，B 富在初始成核之后成为单畴。这个比较把“能长出来”与“晶体能作为器件衬底”分开，最有实验价值。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "晶体质量与测量",
+        "text": "Sc 富样品晶格 a≈3.1423(2) Å、c≈3.5084(3) Å；B 富 a≈3.1502(3) Å、c≈3.5041(3) Å，细微差异不能在缺少缺陷定量时直接解释成固定化学计量偏离。晶体自然沿面内 [100] 方向生长。EBSD 看到 Sc 富多畴虽取向相近，B 富单畴；B 富 (h000)/(000l) 摇摆曲线为单峰，排除了大量晶界，但散射尾不对称提示点缺陷，不能写作“完美无缺陷”。XPS 只表征近表面，不能替代体化学计量；室温电/热输运是应用相关的后续证据。论文未给出每炉完整良率、所有速率的同法 XPS 深度分布与摇摆半高宽分布。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-3",
+        "title": "复现建议与证据级别",
+        "text": "【直接观察】可抽出晶棒、EBSD 畴、摇摆峰与 XPS/输运；【作者推断】B 富移动熔区减小金属夹杂并利于单畴；【本站判断】两种相图路径的对照强，但晶棒长度方向的成分均匀性与点缺陷仍未闭环。建议以 B 80/81.5/83 at% 和 0.5/1/1.5 mm/h 建矩阵；按棒头—中—尾编号测 EBSD、XRD rocking、四探针/霍尔和表面—深度 XPS；同时保留 Sc 富对照并记录挥发损失。图中 rocking 单峰支持晶域连续，不足以单独保证 AlGaN 器件界面低缺陷。",
+        "type": "作者推断"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "正文 + Methods",
+      "sampleCredibility": "XRD、输运；证据仍可补强",
+      "reproducibility": "3/15 项参数可提取",
+      "physicalEvidence": "双探针支持",
+      "certainty": "强"
+    }
+  },
+  {
+    "id": "arxiv:2609.36538",
+    "title": "Frustrated Gd3+ Double Perovskites as High-Performance Magnetocaloric Materials for Sub-100 mK Adiabatic Demagnetization Refrigeration",
+    "authors": "Tim Treu, Marvin Klinger, Christian Heil, Hans-Albrecht Krug von Nidda, Vinicius E. S. Frehse, Mamoun Hemmida, Anton Jesche, Alexander A. Tsirlin, Philipp Gegenwart",
+    "institutions": "作者机构见原文首页；该研究为多晶磁制冷材料，并非单晶报道",
+    "journal": "arXiv（Materials Science (cond-mat.mtrl-sci); Strongly Correlated Electrons (cond-mat.str-el)）",
+    "material": "Ba₂GdSbO₆/Sr₂GdSbO₆",
+    "method": "多晶固相合成；绝热去磁",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "arXiv v1",
+      "全文精读",
+      "实际读正文"
+    ],
+    "abstract": "Achieving temperatures below 100 mK is essential for advancing quantum technologies and exploring fundamental quantum phenomena. While paramagnetic salts have traditionally enabled adiabatic demagnetization refrigeration (ADR), their limitations have driven the search for more effective alternatives. In this work, we present Gd3+-based double perovskites, Ba2GdSbO6 and Sr2GdSbO6, as high-performance magnetocaloric materials. Starting ADR from 2 K and 5 T, these compounds reach 67 mK and 68 mK in small finite magnetic fields, and 83 mK and 78 mK in zero field, respectively, which are the lowest reported ADR temperatures for Gd3+ magnets (S = 7/2) under these conditions. The frustrated geometry and the complex interplay of exchange and dipolar interactions suppress their antiferromagnetic ordering temperatures to 100 and 166 mK for Ba2GdSbO6 and 190 mK for Sr2GdSbO6, while maintaining an outstanding entropy density of 189 mJ K-1 cm-3 and 201 mJ K-1 cm-3, respectively. Notably, Ba2GdSbO6 sustains sub-100 mK cooling even at finite fields of 0.5 T, making it particularly promising for practical ADR applications.",
+    "conclusion": "Gd³⁺ 双钙钛矿利用 fcc 几何与交换/偶极竞争压低有序温度，在 2 K/5 T 去磁后达到约 67–68 mK 的有限场最低温。比热与磁熵解释了冷却能力，但样品为多晶颗粒，不能伪写为单晶生长配方。",
+    "summary": "问题与实验设计：绝热去磁制冷常把低有序温与高磁熵密度视作竞争指标。Gd³⁺ 的 S=7/2 提供较高 Rln8 熵，但交换容易使磁序升温。作者选 Ba₂GdSbO₆ 与 Sr₂GdSbO₆ 双钙钛矿，以 Gd 子晶格的 fcc 几何挫折和交换/偶极竞争压低序参量，再把 χ、比热、熵积分、ESR、DFT 和实际 ADR 曲线连接。此处是多晶压片/粉末研究；没有可用于单晶生长的 Flux/CVT 配方，不能虚构安瓿、晶体尺寸。\n结构与定量物性：室温同步辐射粉末 XRD 与结构精修提供相别，Fig.1 比 Ba/Sr 两种结构局域 Gd 配位；χ(T) 给高低温 Curie–Weiss，磁比热与熵曲线区分单纯 Schottky 与长程序。在从 2 K、5 T 扫至小有限场时 Ba/Sr 分别约 67/68 mK，扫至零场后约 83/78 mK；两个数字对应不同终态，不能混称零场基温。回温热容提示 Ba 相约 100(5)、166(10) mK 两异常，Sr 相约 190(7) mK；该峰形自身不能确定具体 AFM 结构，需中子散射。体积磁熵密度约 189 和 201 mJ K⁻¹ cm⁻³，体现高 Gd 密度而仍低序温。\n证据边界与下一步：【直接观察】ADR T(t,B)、比热峰及粉末衍射；【模型】熵差外推、交换常数与 DFT；【作者推断】fcc 挫折加偶极/交换竞争是低温原因；【本站判断】其与传统盐/其他 Gd 冷媒的对比方向清楚，但热绝缘、粉末压实度和退磁速率影响最低温，必须统一装置才可直接排名。若服务低温物性平台，可先复制压片密度、热链接和 2 K/5 T 测程，再扫描起始场/质量。论文的实际冷量与连续运行时间比极限最低温更接近用户工作场景；在有场中保持 <100 mK 是亮点。",
+    "year": 2026,
+    "published": "2026-09-29",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.36538",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/html/2609.36538",
+    "reportUrl": "/reports/2026-09-30/#paper-9",
+    "access": "全文精读：实际读取 arXiv 公开正文、所列 Methods/实验段及关键图注；未另取 SI 不声称已读 SI。已核正文磁熵与 ADR 对照、Fig.1–6、Methods/Appendix 的样品与测量说明。",
+    "rating": "A",
+    "sections": [
+      {
+        "title": "问题与实验设计",
+        "text": "绝热去磁制冷常把低有序温与高磁熵密度视作竞争指标。Gd³⁺ 的 S=7/2 提供较高 Rln8 熵，但交换容易使磁序升温。作者选 Ba₂GdSbO₆ 与 Sr₂GdSbO₆ 双钙钛矿，以 Gd 子晶格的 fcc 几何挫折和交换/偶极竞争压低序参量，再把 χ、比热、熵积分、ESR、DFT 和实际 ADR 曲线连接。此处是多晶压片/粉末研究；没有可用于单晶生长的 Flux/CVT 配方，不能虚构安瓿、晶体尺寸。"
+      },
+      {
+        "title": "结构与定量物性",
+        "text": "室温同步辐射粉末 XRD 与结构精修提供相别，Fig.1 比 Ba/Sr 两种结构局域 Gd 配位；χ(T) 给高低温 Curie–Weiss，磁比热与熵曲线区分单纯 Schottky 与长程序。在从 2 K、5 T 扫至小有限场时 Ba/Sr 分别约 67/68 mK，扫至零场后约 83/78 mK；两个数字对应不同终态，不能混称零场基温。回温热容提示 Ba 相约 100(5)、166(10) mK 两异常，Sr 相约 190(7) mK；该峰形自身不能确定具体 AFM 结构，需中子散射。体积磁熵密度约 189 和 201 mJ K⁻¹ cm⁻³，体现高 Gd 密度而仍低序温。"
+      },
+      {
+        "title": "证据边界与下一步",
+        "text": "【直接观察】ADR T(t,B)、比热峰及粉末衍射；【模型】熵差外推、交换常数与 DFT；【作者推断】fcc 挫折加偶极/交换竞争是低温原因；【本站判断】其与传统盐/其他 Gd 冷媒的对比方向清楚，但热绝缘、粉末压实度和退磁速率影响最低温，必须统一装置才可直接排名。若服务低温物性平台，可先复制压片密度、热链接和 2 K/5 T 测程，再扫描起始场/质量。论文的实际冷量与连续运行时间比极限最低温更接近用户工作场景；在有场中保持 <100 mK 是亮点。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A｜重点阅读",
+      "first": "先看 Fig.3 的磁熵和 Fig.4–5 的去磁/回温曲线，区分有限场最低温与零场温度。",
+      "focus": "分别读 2 K/5 T 到有限场 67/68 mK 与零场 83/78 mK；核对热链接和回温曲线。",
+      "next": "对不同压片密度重复 ADR 曲线，记录热链接和场扫速率。"
+    },
+    "growthRecipe": {
+      "material": "Ba₂GdSbO₆/Sr₂GdSbO₆",
+      "actualComposition": "",
+      "method": "CVT",
+      "transportAgent": "",
+      "flux": "Flux/CVT 配方，不能虚构安瓿、晶体尺寸",
+      "ratio": "",
+      "purity": "",
+      "vessel": "安瓿、晶体尺寸",
+      "atmosphere": "",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "",
+      "crystalSize": "",
+      "yield": "",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 3,
+        "total": 15,
+        "ratio": 0.2
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题与实验设计",
+        "text": "绝热去磁制冷常把低有序温与高磁熵密度视作竞争指标。Gd³⁺ 的 S=7/2 提供较高 Rln8 熵，但交换容易使磁序升温。作者选 Ba₂GdSbO₆ 与 Sr₂GdSbO₆ 双钙钛矿，以 Gd 子晶格的 fcc 几何挫折和交换/偶极竞争压低序参量，再把 χ、比热、熵积分、ESR、DFT 和实际 ADR 曲线连接。此处是多晶压片/粉末研究；没有可用于单晶生长的 Flux/CVT 配方，不能虚构安瓿、晶体尺寸。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-2",
+        "title": "结构与定量物性",
+        "text": "室温同步辐射粉末 XRD 与结构精修提供相别，Fig.1 比 Ba/Sr 两种结构局域 Gd 配位；χ(T) 给高低温 Curie–Weiss，磁比热与熵曲线区分单纯 Schottky 与长程序。在从 2 K、5 T 扫至小有限场时 Ba/Sr 分别约 67/68 mK，扫至零场后约 83/78 mK；两个数字对应不同终态，不能混称零场基温。回温热容提示 Ba 相约 100(5)、166(10) mK 两异常，Sr 相约 190(7) mK；该峰形自身不能确定具体 AFM 结构，需中子散射。体积磁熵密度约 189 和 201 mJ K⁻¹ cm⁻³，体现高 Gd 密度而仍低序温。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据边界与下一步",
+        "text": "【直接观察】ADR T(t,B)、比热峰及粉末衍射；【模型】熵差外推、交换常数与 DFT；【作者推断】fcc 挫折加偶极/交换竞争是低温原因；【本站判断】其与传统盐/其他 Gd 冷媒的对比方向清楚，但热绝缘、粉末压实度和退磁速率影响最低温，必须统一装置才可直接排名。若服务低温物性平台，可先复制压片密度、热链接和 2 K/5 T 测程，再扫描起始场/质量。论文的实际冷量与连续运行时间比极限最低温更接近用户工作场景；在有场中保持 <100 mK 是亮点。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "正文 + Methods",
+      "sampleCredibility": "XRD、比热；证据仍可补强",
+      "reproducibility": "3/15 项参数可提取",
+      "physicalEvidence": "双探针支持",
+      "certainty": "强"
+    }
+  },
+  {
+    "id": "arxiv:2609.36703",
+    "title": "Interlayer coupling between twisted graphenes through atomically-precise barriers",
+    "authors": "Yueyang Wang, Ben Fuller, Hongxia Xue, Tianyu Zhang, Kenji Watanabe, Takashi Taniguchi, Vladimir Falko, Dong-Keun Ki",
+    "institutions": "作者机构需从论文首页逐一核对；本期不凭姓名猜测",
+    "journal": "arXiv（Mesoscale and Nanoscale Physics (cond-mat.mes-hall)）",
+    "material": "扭转双层石墨烯/hBN",
+    "method": "原子层厚度 hBN 隔层器件",
+    "category": "二维材料与量子器件",
+    "tags": [
+      "arXiv v1",
+      "摘要级",
+      "待全文补读"
+    ],
+    "abstract": "Understanding and controlling interlayer coupling in van der Waals (vdW) materials is crucial for engineering novel electronic phenomena, including correlated states, topological phases, and superconductivity. Twisted bilayer graphene (TBG) offers a highly tunable platform to explore how interlayer orientation and separation influence quantum transport and moiré physics. Here, we introduce a method for achieving precise, atomic-scale control of interlayer coupling in TBG using dual-gated devices separated by ultrathin, thickness-tunable hBN spacers. This approach enables systematic control of interlayer interactions, demonstrating that the critical displacement field required for electron-hole bilayer behavior decreases as the layer separation increases at a fixed twist angle. Remarkably, at small twist angles, moiré-related side peaks persist even when layers are separated by tetralayers of hBN (approximately 1.3 nm), indicating robust interlayer band hybridization. By combining atomic-layer-precise control of interlayer coupling with independent twist angle tunability, our platform opens new avenues for discovering novel moiré physics governed by engineered interlayer coupling and moiré patterns.",
+    "conclusion": "通过 hBN 隔层原子层数与栅压分别调耦合和电场，莫尔侧峰在约 1.3 nm 四层 hBN 隔开后仍存在，提示非平凡层间杂化。电学峰位提供耦合证据，但需排除层内势涨落与扭角不均。",
+    "summary": "问题—样品—证据：摘要所能确定的范围：【仅基于摘要/元数据】Understanding and controlling interlayer coupling in van der Waals (vdW) materials is crucial for engineering novel electronic phenomena, including correlated states, topological phases, and superconductivity. Twisted bilayer graphene (TBG) offers a highly tunable platform to explore how interlayer orientation and separation influence quantum transport and moiré physics. Here, we introduce a method for achieving precise, atomic-scale control of interlayer coupling in TBG using dual-gated devices separated by ultrathin, thickness-tunable hBN spacers. This approach enables systematic control of interlayer interactions, demonstrating that the critical displacement field required for electron-hole bilayer behavior decreases as the layer separation increases at a fixed twist angle. Remarkably, at small twist angles, moiré-related side peaks persist even when layers are separated by tetralayers of hBN (approximately 1.3 nm), indicating robust interlayer band hybridization. By combining atomic-layer-precise control of interlayer coupling with independent twist angle tunability, our platform opens new avenues for discovering novel moiré physics governed by engineered interlayer coupling and moiré patterns.。本站判断：通过 hBN 隔层原子层数与栅压分别调耦合和电场，莫尔侧峰在约 1.3 nm 四层 hBN 隔开后仍存在，提示非平凡层间杂化。电学峰位提供耦合证据，但需排除层内势涨落与扭角不均。。摘要只给研究主张，不能据此确定所有对照或因果。\n生长、质量与测量：待补读边界：材料/模型：扭转双层石墨烯/hBN；摘要描述方法：原子层厚度 hBN 隔层器件。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。\n证据等级、局限与复现建议：【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看器件层数/扭角矩阵与双栅测图，核对四层隔层的有效厚度。；随后：同扭角系列扫描 1–5 层 hBN 并做局域莫尔成像。。",
+    "year": 2026,
+    "published": "2026-09-29",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.36703",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2609.36703",
+    "reportUrl": "/reports/2026-09-30/#paper-10",
+    "access": "仅基于摘要/元数据：本次未实际核查正文和关键图，已列入正文补读清单；不计入精读。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Understanding and controlling interlayer coupling in van der Waals (vdW) materials is crucial for engineering novel electronic phenomena, including correlated states, topological phases, and superconductivity. Twisted bilayer graphene (TBG) offers a highly tunable platform to explore how interlayer orientation and separation influence quantum transport and moiré physics. Here, we introduce a method for achieving precise, atomic-scale control of interlayer coupling in TBG using dual-gated devices separated by ultrathin, thickness-tunable hBN spacers. This approach enables systematic control of interlayer interactions, demonstrating that the critical displacement field required for electron-hole bilayer behavior decreases as the layer separation increases at a fixed twist angle. Remarkably, at small twist angles, moiré-related side peaks persist even when layers are separated by tetralayers of hBN (approximately 1.3 nm), indicating robust interlayer band hybridization. By combining atomic-layer-precise control of interlayer coupling with independent twist angle tunability, our platform opens new avenues for discovering novel moiré physics governed by engineered interlayer coupling and moiré patterns.。本站判断：通过 hBN 隔层原子层数与栅压分别调耦合和电场，莫尔侧峰在约 1.3 nm 四层 hBN 隔开后仍存在，提示非平凡层间杂化。电学峰位提供耦合证据，但需排除层内势涨落与扭角不均。。摘要只给研究主张，不能据此确定所有对照或因果。"
+      },
+      {
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：扭转双层石墨烯/hBN；摘要描述方法：原子层厚度 hBN 隔层器件。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。"
+      },
+      {
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看器件层数/扭角矩阵与双栅测图，核对四层隔层的有效厚度。；随后：同扭角系列扫描 1–5 层 hBN 并做局域莫尔成像。。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜方向跟踪、待正文复核",
+      "first": "先看器件层数/扭角矩阵与双栅测图，核对四层隔层的有效厚度。",
+      "focus": "核对摘要主张所依赖的具体图、对照样品及误差，不能据标题直接采用生长参数。",
+      "next": "同扭角系列扫描 1–5 层 hBN 并做局域莫尔成像。"
+    },
+    "growthRecipe": {
+      "material": "扭转双层石墨烯/hBN",
+      "actualComposition": "EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对",
+      "method": "Flux",
+      "transportAgent": "",
+      "flux": "助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核",
+      "ratio": "原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "purity": "纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "vessel": "坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "atmosphere": "真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "crystalSize": "厚度 hBN 隔层器件 通过 hBN 隔层原子层数与栅压分别调耦合和电场，莫尔侧峰在约 1.3 nm",
+      "yield": "产率：正文未报告或本次未核验",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 9,
+        "total": 15,
+        "ratio": 0.6
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Understanding and controlling interlayer coupling in van der Waals (vdW) materials is crucial for engineering novel electronic phenomena, including correlated states, topological phases, and superconductivity. Twisted bilayer graphene (TBG) offers a highly tunable platform to explore how interlayer orientation and separation influence quantum transport and moiré physics. Here, we introduce a method for achieving precise, atomic-scale control of interlayer coupling in TBG using dual-gated devices separated by ultrathin, thickness-tunable hBN spacers. This approach enables systematic control of interlayer interactions, demonstrating that the critical displacement field required for electron-hole bilayer behavior decreases as the layer separation increases at a fixed twist angle. Remarkably, at small twist angles, moiré-related side peaks persist even when layers are separated by tetralayers of hBN (approximately 1.3 nm), indicating robust interlayer band hybridization. By combining atomic-layer-precise control of interlayer coupling with independent twist angle tunability, our platform opens new avenues for discovering novel moiré physics governed by engineered interlayer coupling and moiré patterns.。本站判断：通过 hBN 隔层原子层数与栅压分别调耦合和电场，莫尔侧峰在约 1.3 nm 四层 hBN 隔开后仍存在，提示非平凡层间杂化。电学峰位提供耦合证据，但需排除层内势涨落与扭角不均。。摘要只给研究主张，不能据此确定所有对照或因果。",
+        "type": "作者推断"
+      },
+      {
+        "id": "evidence-2",
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：扭转双层石墨烯/hBN；摘要描述方法：原子层厚度 hBN 隔层器件。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看器件层数/扭角矩阵与双栅测图，核对四层隔层的有效厚度。；随后：同扭角系列扫描 1–5 层 hBN 并做局域莫尔成像。。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "EDS、WDS、TEM、输运 多方法互证",
+      "reproducibility": "9/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2609.36706",
+    "title": "Probing the electronic structure of $\\mathrm{UTe}_2$ with ARPES and high-energy spectroscopy",
+    "authors": "Shin-ichi Fujimori",
+    "institutions": "UTe₂ 光电子/高能谱学综述合作团队；完整作者机构见 arXiv 首页",
+    "journal": "arXiv（Strongly Correlated Electrons (cond-mat.str-el)）",
+    "material": "UTe₂",
+    "method": "综述：ARPES/XAS/RIXS/DFT+DMFT",
+    "category": "重费米子与量子临界",
+    "tags": [
+      "arXiv v1",
+      "全文精读",
+      "实际读正文"
+    ],
+    "abstract": "$\\mathrm{UTe}_2$ has emerged as one of the most intensively studied strongly correlated materials in recent years owing to its unconventional superconductivity and the possible realization of a spin-triplet, topologically nontrivial pairing state. A central open issue concerns the nature of the $\\mathrm{U}\\,5f$ electrons and their participation in low-energy quasiparticle states. In this review, we summarize recent spectroscopic studies of $\\mathrm{UTe}_2$ using momentum-resolved angle-resolved photoemission spectroscopy (ARPES) and element- and configuration-sensitive X-ray probes, including X-ray absorption spectroscopy (XAS), X-ray absorption near-edge structure (XANES), X-ray magnetic circular dichroism (XMCD), resonant X-ray emission spectroscopy (RXES), and resonant inelastic X-ray scattering (RIXS). A key finding is the pronounced technique dependence of the inferred electronic structure. We synthesize the present spectroscopic picture by integrating these results with modern electronic-structure calculations such as density functional theory plus dynamical mean-field theory (DFT+DMFT). These findings support an intermediate-valence ground state with significant admixture of $5f^2$ and $5f^3$ configurations in $\\mathrm{UTe}_2$, and they delineate key experimental and theoretical benchmarks needed to connect the normal-state electronic structure to the superconducting mechanism.",
+    "conclusion": "这是一篇关于 UTe₂ 正常态 5f 电子的综述：表面敏感与体敏感 ARPES、X 射线价态探针给出的图像并不等价，作者用关联计算整理成介于局域和巡游之间的价态叙述。它不报告一炉新晶体，不能把综述文献中的生长条件当本文 Methods。",
+    "summary": "综述问题：UTe₂ 的奇宇称、自旋三重态和拓扑配对争论高度依赖正常态 5f 电子是局域还是巡游、费米面有无闭合 3D 小口袋。作者不是报告新一炉晶体，而是把 ARPES、dHvA、QPI、XAS/XMCD/RXES/RIXS 与 DFT+DMFT 摆在同一能量/深度坐标上。Fig.2 对照 UTe₂ GGA+U 与类局域 ThTe₂ 计算，Fig.3 用 dHvA 角度频率测试计算费米面；低光子能 ARPES 更表面敏感，高能量探针对体内 5f 混成的推断又受末态库仑相互作用影响。\n最关键的证据冲突：综述认为一些 ARPES 给准一维片，量子振荡也支持准一维主片，但三维 Γ 口袋是否存在并不一致。某些 ThTe₂ 类局域极限对低能 Γ 带底位置不符，而 GGA+U 虽能给总体拓扑，也常把低能质量重整化描述不足。XAS 边线与 U 4f 光电子的价态敏感度不同：Fig.11 的“看见同一个 5f”并不等于同一终态，不能把每种谱学的整数价态读数直接平均。DFT+DMFT 能统合温度依赖、相干准粒子与非相干 Hubbard 成分，但 U/J 参数和结构输入仍影响输出。\n研究者如何用：【直接观察】本文引用的已有各实验谱；【模型】DFT、DFT+DMFT 与谱学末态模型；【作者推断】UTe₂ 处于中间价态且有可观 5f 混成；【本站判断】最有用的是实验条件/表面敏感性清单，而不是把综述算作新物性发现。读完应建立同母晶、同取向的低能/软 X ARPES、硬 X 核能级、dHvA 和 Laue/WDS 档案；用同一晶体不同表面处理区分极性终止带。生长配方、退火与 Tc 分布是各引用文献的内容，本综述正文没有统一新生长工艺，不能转写成本文复现参数。",
+    "year": 2026,
+    "published": "2026-09-29",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.36706",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/html/2609.36706",
+    "reportUrl": "/reports/2026-09-30/#paper-11",
+    "access": "全文精读：实际读取 arXiv 公开正文、所列 Methods/实验段及关键图注；未另取 SI 不声称已读 SI。已核综述第 2–6 节、Table 1–3 与 Fig.2、3、6、11 图注；无新增样品 Methods。",
+    "rating": "A+",
+    "sections": [
+      {
+        "title": "综述问题",
+        "text": "UTe₂ 的奇宇称、自旋三重态和拓扑配对争论高度依赖正常态 5f 电子是局域还是巡游、费米面有无闭合 3D 小口袋。作者不是报告新一炉晶体，而是把 ARPES、dHvA、QPI、XAS/XMCD/RXES/RIXS 与 DFT+DMFT 摆在同一能量/深度坐标上。Fig.2 对照 UTe₂ GGA+U 与类局域 ThTe₂ 计算，Fig.3 用 dHvA 角度频率测试计算费米面；低光子能 ARPES 更表面敏感，高能量探针对体内 5f 混成的推断又受末态库仑相互作用影响。"
+      },
+      {
+        "title": "最关键的证据冲突",
+        "text": "综述认为一些 ARPES 给准一维片，量子振荡也支持准一维主片，但三维 Γ 口袋是否存在并不一致。某些 ThTe₂ 类局域极限对低能 Γ 带底位置不符，而 GGA+U 虽能给总体拓扑，也常把低能质量重整化描述不足。XAS 边线与 U 4f 光电子的价态敏感度不同：Fig.11 的“看见同一个 5f”并不等于同一终态，不能把每种谱学的整数价态读数直接平均。DFT+DMFT 能统合温度依赖、相干准粒子与非相干 Hubbard 成分，但 U/J 参数和结构输入仍影响输出。"
+      },
+      {
+        "title": "研究者如何用",
+        "text": "【直接观察】本文引用的已有各实验谱；【模型】DFT、DFT+DMFT 与谱学末态模型；【作者推断】UTe₂ 处于中间价态且有可观 5f 混成；【本站判断】最有用的是实验条件/表面敏感性清单，而不是把综述算作新物性发现。读完应建立同母晶、同取向的低能/软 X ARPES、硬 X 核能级、dHvA 和 Laue/WDS 档案；用同一晶体不同表面处理区分极性终止带。生长配方、退火与 Tc 分布是各引用文献的内容，本综述正文没有统一新生长工艺，不能转写成本文复现参数。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A+｜实验人员优先",
+      "first": "先看 Table 2 的光子能量/表面敏感性与 Fig.11 的不同 X 射线末态，再读第 6 节未解费米面争议。",
+      "focus": "用 Table 2 比较低光子能与软 X 射线 ARPES 的表面/体敏感性，并核对 Fig.11 XAS/RIXS 不同末态。",
+      "next": "为同一 UTe₂ 母晶安排硬 X 射线/软 X 射线/低能 ARPES 与 dHvA 联测。"
+    },
+    "growthRecipe": {
+      "material": "UTe₂",
+      "actualComposition": "WDS 档案",
+      "method": "综述：ARPES/XAS/RIXS/DFT+DMFT",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "",
+      "purity": "",
+      "vessel": "",
+      "atmosphere": "",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "退火与 Tc 分布是各引用文献的内容，本综述正文没有统一新生长工艺，不能转写成本文复现参数",
+      "crystalSize": "",
+      "yield": "",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 2,
+        "total": 15,
+        "ratio": 0.13333333333333333
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "综述问题",
+        "text": "UTe₂ 的奇宇称、自旋三重态和拓扑配对争论高度依赖正常态 5f 电子是局域还是巡游、费米面有无闭合 3D 小口袋。作者不是报告新一炉晶体，而是把 ARPES、dHvA、QPI、XAS/XMCD/RXES/RIXS 与 DFT+DMFT 摆在同一能量/深度坐标上。Fig.2 对照 UTe₂ GGA+U 与类局域 ThTe₂ 计算，Fig.3 用 dHvA 角度频率测试计算费米面；低光子能 ARPES 更表面敏感，高能量探针对体内 5f 混成的推断又受末态库仑相互作用影响。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-2",
+        "title": "最关键的证据冲突",
+        "text": "综述认为一些 ARPES 给准一维片，量子振荡也支持准一维主片，但三维 Γ 口袋是否存在并不一致。某些 ThTe₂ 类局域极限对低能 Γ 带底位置不符，而 GGA+U 虽能给总体拓扑，也常把低能质量重整化描述不足。XAS 边线与 U 4f 光电子的价态敏感度不同：Fig.11 的“看见同一个 5f”并不等于同一终态，不能把每种谱学的整数价态读数直接平均。DFT+DMFT 能统合温度依赖、相干准粒子与非相干 Hubbard 成分，但 U/J 参数和结构输入仍影响输出。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-3",
+        "title": "研究者如何用",
+        "text": "【直接观察】本文引用的已有各实验谱；【模型】DFT、DFT+DMFT 与谱学末态模型；【作者推断】UTe₂ 处于中间价态且有可观 5f 混成；【本站判断】最有用的是实验条件/表面敏感性清单，而不是把综述算作新物性发现。读完应建立同母晶、同取向的低能/软 X ARPES、硬 X 核能级、dHvA 和 Laue/WDS 档案；用同一晶体不同表面处理区分极性终止带。生长配方、退火与 Tc 分布是各引用文献的内容，本综述正文没有统一新生长工艺，不能转写成本文复现参数。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "正文 + Methods",
+      "sampleCredibility": "Laue、WDS、ARPES；证据仍可补强",
+      "reproducibility": "2/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "强"
+    }
+  },
+  {
+    "id": "arxiv:2609.36868",
+    "title": "Quantized Hyperfine Field at an Implanted $μ^+$ Site in PrPb$_3$: Interplay between Localized $f$ Electrons and an Interstitial Charged Particle",
+    "authors": "T. U. Ito, W. Higemoto, K. Ohishi, N. Nishida, R. H. Heffner, Y. Aoki, A. Amato, T. Onimaru, H. S. Suzuki",
+    "institutions": "作者机构需从论文首页逐一核对；本期不凭姓名猜测",
+    "journal": "arXiv（Strongly Correlated Electrons (cond-mat.str-el); Materials Science (cond-mat.mtrl-sci)）",
+    "material": "PrPb₃",
+    "method": "μSR 局域超精细谱",
+    "category": "重费米子与量子临界",
+    "tags": [
+      "arXiv v1",
+      "摘要级",
+      "待全文补读"
+    ],
+    "abstract": "The local effect of an interstitial hydrogen-like particle on localized $f$ electrons was studied in PrPb$_3$ by means of $\\mu^+$ spin rotation and relaxation. Spontaneous $\\mu^+$ spin precession with harmonic frequencies was observed for the first time in $f$ electron compounds. We demonstrate that the signal is derived from a coupling between the $\\mu^+$ spin and the hyperfine-enhanced nuclear spin of nearest neighbor (nn) $^{141}$Pr with Ising-like anisotropy. The signal also suggests a marked suppression of spin dynamics of the nn $^{141}$Pr in comparison with that of the bulk $^{141}$Pr. These facts strongly indicate modification of the $f$ electronic state due to the interstitial charged particle.",
+    "conclusion": "PrPb₃ 的 μ⁺ 自旋进动出现谐波频率，作者归于近邻 ¹⁴¹Pr 核自旋超精细增强，并提示植入 μ⁺ 本身改变局域 4f 动力学。它提醒实验者 μSR 探针可能扰动被测系统，不宜把局域谱直接等同无扰动体态。",
+    "summary": "问题—样品—证据：摘要所能确定的范围：【仅基于摘要/元数据】The local effect of an interstitial hydrogen-like particle on localized $f$ electrons was studied in PrPb$_3$ by means of $\\mu^+$ spin rotation and relaxation. Spontaneous $\\mu^+$ spin precession with harmonic frequencies was observed for the first time in $f$ electron compounds. We demonstrate that the signal is derived from a coupling between the $\\mu^+$ spin and the hyperfine-enhanced nuclear spin of nearest neighbor (nn) $^{141}$Pr with Ising-like anisotropy. The signal also suggests a marked suppression of spin dynamics of the nn $^{141}$Pr in comparison with that of the bulk $^{141}$Pr. These facts strongly indicate modification of the $f$ electronic state due to the interstitial charged particle.。本站判断：PrPb₃ 的 μ⁺ 自旋进动出现谐波频率，作者归于近邻 ¹⁴¹Pr 核自旋超精细增强，并提示植入 μ⁺ 本身改变局域 4f 动力学。它提醒实验者 μSR 探针可能扰动被测系统，不宜把局域谱直接等同无扰动体态。。摘要只给研究主张，不能据此确定所有对照或因果。\n生长、质量与测量：待补读边界：材料/模型：PrPb₃；摘要描述方法：μSR 局域超精细谱。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。\n证据等级、局限与复现建议：【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先读频谱谐波的场温依赖与近邻 Pr 模型，再看体核磁或比热对照。；随后：改变 μ⁺ 停止位模型并寻找 NMR 对照。。",
+    "year": 2026,
+    "published": "2026-09-29",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.36868",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2609.36868",
+    "reportUrl": "/reports/2026-09-30/#paper-12",
+    "access": "仅基于摘要/元数据：本次未实际核查正文和关键图，已列入正文补读清单；不计入精读。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】The local effect of an interstitial hydrogen-like particle on localized $f$ electrons was studied in PrPb$_3$ by means of $\\mu^+$ spin rotation and relaxation. Spontaneous $\\mu^+$ spin precession with harmonic frequencies was observed for the first time in $f$ electron compounds. We demonstrate that the signal is derived from a coupling between the $\\mu^+$ spin and the hyperfine-enhanced nuclear spin of nearest neighbor (nn) $^{141}$Pr with Ising-like anisotropy. The signal also suggests a marked suppression of spin dynamics of the nn $^{141}$Pr in comparison with that of the bulk $^{141}$Pr. These facts strongly indicate modification of the $f$ electronic state due to the interstitial charged particle.。本站判断：PrPb₃ 的 μ⁺ 自旋进动出现谐波频率，作者归于近邻 ¹⁴¹Pr 核自旋超精细增强，并提示植入 μ⁺ 本身改变局域 4f 动力学。它提醒实验者 μSR 探针可能扰动被测系统，不宜把局域谱直接等同无扰动体态。。摘要只给研究主张，不能据此确定所有对照或因果。"
+      },
+      {
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：PrPb₃；摘要描述方法：μSR 局域超精细谱。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。"
+      },
+      {
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先读频谱谐波的场温依赖与近邻 Pr 模型，再看体核磁或比热对照。；随后：改变 μ⁺ 停止位模型并寻找 NMR 对照。。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜方向跟踪、待正文复核",
+      "first": "先读频谱谐波的场温依赖与近邻 Pr 模型，再看体核磁或比热对照。",
+      "focus": "核对摘要主张所依赖的具体图、对照样品及误差，不能据标题直接采用生长参数。",
+      "next": "改变 μ⁺ 停止位模型并寻找 NMR 对照。"
+    },
+    "growthRecipe": {
+      "material": "PrPb₃",
+      "actualComposition": "EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对",
+      "method": "Flux",
+      "transportAgent": "",
+      "flux": "助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核",
+      "ratio": "原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "purity": "纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "vessel": "坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "atmosphere": "真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "crystalSize": "",
+      "yield": "产率：正文未报告或本次未核验",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 8,
+        "total": 15,
+        "ratio": 0.5333333333333333
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】The local effect of an interstitial hydrogen-like particle on localized $f$ electrons was studied in PrPb$_3$ by means of $\\mu^+$ spin rotation and relaxation. Spontaneous $\\mu^+$ spin precession with harmonic frequencies was observed for the first time in $f$ electron compounds. We demonstrate that the signal is derived from a coupling between the $\\mu^+$ spin and the hyperfine-enhanced nuclear spin of nearest neighbor (nn) $^{141}$Pr with Ising-like anisotropy. The signal also suggests a marked suppression of spin dynamics of the nn $^{141}$Pr in comparison with that of the bulk $^{141}$Pr. These facts strongly indicate modification of the $f$ electronic state due to the interstitial charged particle.。本站判断：PrPb₃ 的 μ⁺ 自旋进动出现谐波频率，作者归于近邻 ¹⁴¹Pr 核自旋超精细增强，并提示植入 μ⁺ 本身改变局域 4f 动力学。它提醒实验者 μSR 探针可能扰动被测系统，不宜把局域谱直接等同无扰动体态。。摘要只给研究主张，不能据此确定所有对照或因果。",
+        "type": "作者推断"
+      },
+      {
+        "id": "evidence-2",
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：PrPb₃；摘要描述方法：μSR 局域超精细谱。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先读频谱谐波的场温依赖与近邻 Pr 模型，再看体核磁或比热对照。；随后：改变 μ⁺ 停止位模型并寻找 NMR 对照。。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "EDS、WDS、NMR、比热 多方法互证",
+      "reproducibility": "8/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2609.37075",
+    "title": "Defect-controlled electrical and optical properties of CrN thin films: experiment and first-principles study",
+    "authors": "J. Bulíř, U. D. Wdowik, J. More-Chevalier, P. Hubík, E. de Prado, M. Vondráček, L. Fekete, M. Novotný, J. Lančok, D. Legut",
+    "institutions": "作者机构需从论文首页逐一核对；本期不凭姓名猜测",
+    "journal": "arXiv（Materials Science (cond-mat.mtrl-sci)）",
+    "material": "CrN 薄膜",
+    "method": "反应 RF 磁控溅射",
+    "category": "晶体生长和物性调控",
+    "tags": [
+      "arXiv v1",
+      "摘要级",
+      "待全文补读"
+    ],
+    "abstract": "Thin chromium nitride (CrN) films were deposited by RF magnetron sputtering in a reactive atmosphere of Ar-N$_2$ on fused silica and MgO (001) substrates at temperatures between 400 $^o$C and 800 $^o$C. The influence of nitrogen content and substrate temperature on structural, electrical, and optical properties was systematically investigated. The overstoichiometric CrN films exhibited a reduced resistivity below 6 m$\\Omega \\cdot$cm with stable p-type behavior, while increasing the substrate temperature above 600 $^o$C induced a transition to n-type conductivity. Spectroscopic ellipsometry in the UV-Vis-NIR and infrared spectral ranges revealed a strong dependence of the dielectric function and the absorption edge on film stoichiometry and deposition conditions. Structural characterization using X-ray diffraction and atomic force microscopy confirmed substrate-dependent crystallinity and grain growth. Density functional theory calculations showed that cation and anion vacancies strongly modify the electronic structure and optical response, explaining the experimentally observed conductivity transitions. The results demonstrate that the deposition parameters provide an effective means to tailor CrN thin films via defect engineering.",
+    "conclusion": "CrN 在 400–800 °C 的反应溅射中因氮含量与基底温度改变空位构型，电导载流子类型及光学边缘随之变化。XRD/AFM 与第一性原理支持缺陷解释，但实际空位浓度和氧污染需定量才可判定因果。",
+    "summary": "问题—样品—证据：摘要所能确定的范围：【仅基于摘要/元数据】Thin chromium nitride (CrN) films were deposited by RF magnetron sputtering in a reactive atmosphere of Ar-N$_2$ on fused silica and MgO (001) substrates at temperatures between 400 $^o$C and 800 $^o$C. The influence of nitrogen content and substrate temperature on structural, electrical, and optical properties was systematically investigated. The overstoichiometric CrN films exhibited a reduced resistivity below 6 m$\\Omega \\cdot$cm with stable p-type behavior, while increasing the substrate temperature above 600 $^o$C induced a transition to n-type conductivity. Spectroscopic ellipsometry in the UV-Vis-NIR and infrared spectral ranges revealed a strong dependence of the dielectric function and the absorption edge on film stoichiometry and deposition conditions. Structural characterization using X-ray diffraction and atomic force microscopy confirmed substrate-dependent crystallinity and grain growth. Density functional theory calculations showed that cation and anion vacancies strongly modify the electronic structure and optical response, explaining the experimentally observed conductivity transitions. The results demonstrate that the deposition parameters provide an effective means to tailor CrN thin films via defect engineering.。本站判断：CrN 在 400–800 °C 的反应溅射中因氮含量与基底温度改变空位构型，电导载流子类型及光学边缘随之变化。XRD/AFM 与第一性原理支持缺陷解释，但实际空位浓度和氧污染需定量才可判定因果。。摘要只给研究主张，不能据此确定所有对照或因果。\n生长、质量与测量：待补读边界：材料/模型：CrN 薄膜；摘要描述方法：反应 RF 磁控溅射。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。\n证据等级、局限与复现建议：【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先比 MgO 与石英两种基底、氮分压和 600 °C 两侧霍尔符号。；随后：固定膜厚做 ERDA/XPS 氮定量与温变 Hall。。",
+    "year": 2026,
+    "published": "2026-09-29",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.37075",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2609.37075",
+    "reportUrl": "/reports/2026-09-30/#paper-13",
+    "access": "仅基于摘要/元数据：本次未实际核查正文和关键图，已列入正文补读清单；不计入精读。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Thin chromium nitride (CrN) films were deposited by RF magnetron sputtering in a reactive atmosphere of Ar-N$_2$ on fused silica and MgO (001) substrates at temperatures between 400 $^o$C and 800 $^o$C. The influence of nitrogen content and substrate temperature on structural, electrical, and optical properties was systematically investigated. The overstoichiometric CrN films exhibited a reduced resistivity below 6 m$\\Omega \\cdot$cm with stable p-type behavior, while increasing the substrate temperature above 600 $^o$C induced a transition to n-type conductivity. Spectroscopic ellipsometry in the UV-Vis-NIR and infrared spectral ranges revealed a strong dependence of the dielectric function and the absorption edge on film stoichiometry and deposition conditions. Structural characterization using X-ray diffraction and atomic force microscopy confirmed substrate-dependent crystallinity and grain growth. Density functional theory calculations showed that cation and anion vacancies strongly modify the electronic structure and optical response, explaining the experimentally observed conductivity transitions. The results demonstrate that the deposition parameters provide an effective means to tailor CrN thin films via defect engineering.。本站判断：CrN 在 400–800 °C 的反应溅射中因氮含量与基底温度改变空位构型，电导载流子类型及光学边缘随之变化。XRD/AFM 与第一性原理支持缺陷解释，但实际空位浓度和氧污染需定量才可判定因果。。摘要只给研究主张，不能据此确定所有对照或因果。"
+      },
+      {
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：CrN 薄膜；摘要描述方法：反应 RF 磁控溅射。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。"
+      },
+      {
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先比 MgO 与石英两种基底、氮分压和 600 °C 两侧霍尔符号。；随后：固定膜厚做 ERDA/XPS 氮定量与温变 Hall。。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜方向跟踪、待正文复核",
+      "first": "先比 MgO 与石英两种基底、氮分压和 600 °C 两侧霍尔符号。",
+      "focus": "核对摘要主张所依赖的具体图、对照样品及误差，不能据标题直接采用生长参数。",
+      "next": "固定膜厚做 ERDA/XPS 氮定量与温变 Hall。"
+    },
+    "growthRecipe": {
+      "material": "CrN 薄膜",
+      "actualComposition": "EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对",
+      "method": "Flux",
+      "transportAgent": "",
+      "flux": "助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核",
+      "ratio": "原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "purity": "纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "vessel": "坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "atmosphere": "真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "crystalSize": "",
+      "yield": "产率：正文未报告或本次未核验",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 8,
+        "total": 15,
+        "ratio": 0.5333333333333333
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Thin chromium nitride (CrN) films were deposited by RF magnetron sputtering in a reactive atmosphere of Ar-N$_2$ on fused silica and MgO (001) substrates at temperatures between 400 $^o$C and 800 $^o$C. The influence of nitrogen content and substrate temperature on structural, electrical, and optical properties was systematically investigated. The overstoichiometric CrN films exhibited a reduced resistivity below 6 m$\\Omega \\cdot$cm with stable p-type behavior, while increasing the substrate temperature above 600 $^o$C induced a transition to n-type conductivity. Spectroscopic ellipsometry in the UV-Vis-NIR and infrared spectral ranges revealed a strong dependence of the dielectric function and the absorption edge on film stoichiometry and deposition conditions. Structural characterization using X-ray diffraction and atomic force microscopy confirmed substrate-dependent crystallinity and grain growth. Density functional theory calculations showed that cation and anion vacancies strongly modify the electronic structure and optical response, explaining the experimentally observed conductivity transitions. The results demonstrate that the deposition parameters provide an effective means to tailor CrN thin films via defect engineering.。本站判断：CrN 在 400–800 °C 的反应溅射中因氮含量与基底温度改变空位构型，电导载流子类型及光学边缘随之变化。XRD/AFM 与第一性原理支持缺陷解释，但实际空位浓度和氧污染需定量才可判定因果。。摘要只给研究主张，不能据此确定所有对照或因果。",
+        "type": "本站判断"
+      },
+      {
+        "id": "evidence-2",
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：CrN 薄膜；摘要描述方法：反应 RF 磁控溅射。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先比 MgO 与石英两种基底、氮分压和 600 °C 两侧霍尔符号。；随后：固定膜厚做 ERDA/XPS 氮定量与温变 Hall。。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "XRD、EDS、WDS、TEM 多方法互证",
+      "reproducibility": "8/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2609.37129",
+    "title": "Evolution of Magnetism in Ce$_4$Ge$_7$ under Magnetic Field and Pressure",
+    "authors": "Kaixin Ye, Qihe Yu, Yongjian Li, Yanan Zhang, Ye Chen, Rui Li, Lin Jiao, M. Smidman, Yongjun Zhang, Yu Liu, Huiqiu Yuan",
+    "institutions": "浙江大学关联物质中心/物理学院、湖北师范大学材料学院等",
+    "journal": "arXiv（Strongly Correlated Electrons (cond-mat.str-el); Materials Science (cond-mat.mtrl-sci)）",
+    "material": "Ce₄Ge₇",
+    "method": "In 助熔剂单晶；压力/霍尔",
+    "category": "重费米子与量子临界",
+    "tags": [
+      "arXiv v1",
+      "全文精读",
+      "实际读正文"
+    ],
+    "abstract": "We report the magnetic and transport properties of single-crystalline Ce$_4$Ge$_7$, which crystallizes in a non-centrosymmetric orthorhombic structure (space group C222$_1$). It undergoes an antiferromagnetic transition at $T_N$ = 7.3 K. When a magnetic field is applied along the $b$-axis, a metamagnetic transition occurs at 1.3 T (at 2 K). Correspondingly, this transition gives rise to an anomalous Hall effect, which is dominated by the intrinsic Karplus-Luttinger mechanism. Under hydrostatic pressure, $T_N$ of Ce$_4$Ge$_7$ initially increases slightly and is then gradually suppressed. For pressures above $P_c$ = 10.2 GPa, no magnetic order is observed. The divergence of the $A$ coefficient, the maximum of the residual resistivity, and the non-Fermi liquid behavior around $P_c$ indicate the possible existence of an antiferromagnetic quantum critical point in Ce$_4$Ge$_7$.",
+    "conclusion": "Ce₄Ge₇ 的有序 Ge 空位超结构把此前 CeGe₂₋ₓ 的成分争议落实到单晶结构。7.3 K 反铁磁在 b 轴约 1.3 T 变磁时伴异常霍尔，压力到约 10.2 GPa 后有序消失且 A 系数、ρ₀ 异常，支持量子临界候选但尚非直接证明连续零温临界点。",
+    "summary": "问题、对照和结构：CeGe₂₋ₓ 在 x≈0.2–0.3 的结构和磁性报道不一致，可能源于 Ge 空位的有序化与成分波动。作者先用单晶 XRD 定出 Nd₄Ge₇ 型非中心对称 C222₁（No.20），h0l 超结构反射与周期性 Ge 空位链形成四倍单胞；EDS 多区域平均 Ce:Ge≈1:1.80(2)。将“Ce₄Ge₇”当作名义化学式时，应注意实测 1:1.80 并非理想 1:1.75，XRD 空位占位、EDS 误差与体内成分梯度要并列看。单晶精修 GoF=1.094、R1=0.0529、wR2=0.1195；这些值支持有序结构，但局域缺陷与微量 In 包裹仍需显微截面。\nIn Flux 生长全过程：Ce 块、Ge 颗粒、In 锭以 1:1:40 摩尔比置氧化铝坩埚，真空石英封管；加热至 1150 °C 保温 20 h，再慢冷到 500 °C 离心去 In，得到约 2–5 mm 发亮立方状单晶。原料纯度、升温时间、慢冷的 °C/h 数值、离心转速/时间、单炉产率和后退火正文未报告，不能把“慢冷”改写成明确速率。Fig.1 的 SEM/元素面分布给局域均匀性，单晶 XRD 决定空间群/取向；正文注明磁化、Hall/MR 与电阻测量使用三块独立晶体，场温相图相互一致，但不是同一颗晶体所有探针原位联测。下一炉要给每块编号及 EDS 多点统计，尤其用单晶超结构峰强度标记 Ge 空位有序程度。\n测量与量化证据：MPMS 磁化、PPMS 比热/常压电阻及 Hall 建立 7.3 K AFM 转变；γ≈92 mJ mol-Ce⁻¹ K⁻²，说明中等重电子关联。2 K、H∥b 时约 1.3 T 变磁，升/降场有磁滞；Hall 与 MR 在同场出现特征。Hall 拆分用 ρxy=R₀μ₀H+S_Aρxx²M，温度拟合再把内禀与外禀分量区分；“以内禀 Karplus–Luttinger 为主”依赖这一缩放模型，不能简单把异常霍尔峰叫 Weyl 证据。压力用 DAC、Daphne 7373 近静水介质、红宝石荧光标压，微片约 15×70×120 μm³，银浆与 15 μm 金线、ac 面电流 31.6 μA。P≈10.2 GPa 以上未见磁序，ρ₀ 峰、T² 系数 A 增强和非费米液体行为并行出现；它们共同支持 QCP 候选，但极低温零场热容/磁化在压力下尚待补证。\n证据层级与实验计划：【直接观察】超结构衍射、7.3 K 的多探针异常、1.3 T 变磁、压力下转变消失；【拟合】Hall 内禀/外禀分离、A 系数及 Pc 外推；【作者推断】Ce 4f 的 RKKY/Kondo 竞争走向 AFM QCP；【本站判断】最强是从有序空位单晶到磁/输运压力相图的闭环，最弱是压力介质偏离静水、不同晶片成分差和有限温度的“临界点”外推。建议一炉至少 5–10 片单晶做 WDS/Laue/磁化的样品表，再挑成分与超结构峰一致的几片 DAC 测量；在 8–12 GPa 细扫压力，每点报告低温拟合窗口、ρ₀/A 置信区间和红宝石压力分布，并增添原位压力 XRD 排除结构转变。",
+    "year": 2026,
+    "published": "2026-09-29",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.37129",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/html/2609.37129",
+    "reportUrl": "/reports/2026-09-30/#paper-14",
+    "access": "全文精读：实际读取 arXiv 公开正文、所列 Methods/实验段及关键图注；未另取 SI 不声称已读 SI。已核 Experimental Methods、Table 2、Fig.1–4、压力相图及总结；SI 只见正文引用，未另读。",
+    "rating": "A+",
+    "sections": [
+      {
+        "title": "问题、对照和结构",
+        "text": "CeGe₂₋ₓ 在 x≈0.2–0.3 的结构和磁性报道不一致，可能源于 Ge 空位的有序化与成分波动。作者先用单晶 XRD 定出 Nd₄Ge₇ 型非中心对称 C222₁（No.20），h0l 超结构反射与周期性 Ge 空位链形成四倍单胞；EDS 多区域平均 Ce:Ge≈1:1.80(2)。将“Ce₄Ge₇”当作名义化学式时，应注意实测 1:1.80 并非理想 1:1.75，XRD 空位占位、EDS 误差与体内成分梯度要并列看。单晶精修 GoF=1.094、R1=0.0529、wR2=0.1195；这些值支持有序结构，但局域缺陷与微量 In 包裹仍需显微截面。"
+      },
+      {
+        "title": "In Flux 生长全过程",
+        "text": "Ce 块、Ge 颗粒、In 锭以 1:1:40 摩尔比置氧化铝坩埚，真空石英封管；加热至 1150 °C 保温 20 h，再慢冷到 500 °C 离心去 In，得到约 2–5 mm 发亮立方状单晶。原料纯度、升温时间、慢冷的 °C/h 数值、离心转速/时间、单炉产率和后退火正文未报告，不能把“慢冷”改写成明确速率。Fig.1 的 SEM/元素面分布给局域均匀性，单晶 XRD 决定空间群/取向；正文注明磁化、Hall/MR 与电阻测量使用三块独立晶体，场温相图相互一致，但不是同一颗晶体所有探针原位联测。下一炉要给每块编号及 EDS 多点统计，尤其用单晶超结构峰强度标记 Ge 空位有序程度。"
+      },
+      {
+        "title": "测量与量化证据",
+        "text": "MPMS 磁化、PPMS 比热/常压电阻及 Hall 建立 7.3 K AFM 转变；γ≈92 mJ mol-Ce⁻¹ K⁻²，说明中等重电子关联。2 K、H∥b 时约 1.3 T 变磁，升/降场有磁滞；Hall 与 MR 在同场出现特征。Hall 拆分用 ρxy=R₀μ₀H+S_Aρxx²M，温度拟合再把内禀与外禀分量区分；“以内禀 Karplus–Luttinger 为主”依赖这一缩放模型，不能简单把异常霍尔峰叫 Weyl 证据。压力用 DAC、Daphne 7373 近静水介质、红宝石荧光标压，微片约 15×70×120 μm³，银浆与 15 μm 金线、ac 面电流 31.6 μA。P≈10.2 GPa 以上未见磁序，ρ₀ 峰、T² 系数 A 增强和非费米液体行为并行出现；它们共同支持 QCP 候选，但极低温零场热容/磁化在压力下尚待补证。"
+      },
+      {
+        "title": "证据层级与实验计划",
+        "text": "【直接观察】超结构衍射、7.3 K 的多探针异常、1.3 T 变磁、压力下转变消失；【拟合】Hall 内禀/外禀分离、A 系数及 Pc 外推；【作者推断】Ce 4f 的 RKKY/Kondo 竞争走向 AFM QCP；【本站判断】最强是从有序空位单晶到磁/输运压力相图的闭环，最弱是压力介质偏离静水、不同晶片成分差和有限温度的“临界点”外推。建议一炉至少 5–10 片单晶做 WDS/Laue/磁化的样品表，再挑成分与超结构峰一致的几片 DAC 测量；在 8–12 GPa 细扫压力，每点报告低温拟合窗口、ρ₀/A 置信区间和红宝石压力分布，并增添原位压力 XRD 排除结构转变。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A+｜实验人员优先",
+      "first": "先看 Fig.1 的 Ge 空位超晶格与 XRD，再看 Fig.4 的 Hall 分解和压力 A 系数。",
+      "focus": "对照 Fig.1 超结构反射、Ce:Ge=1:1.80(2)、Fig.4 Hall 拟合与压力 10.2 GPa 的多指标。",
+      "next": "逐晶体追踪 Ce:Ge、超结构峰、RRR 与 DAC 压力梯度。"
+    },
+    "growthRecipe": {
+      "material": "Ce₄Ge₇",
+      "actualComposition": "EDS 多区域平均 Ce:Ge≈1:1.80(2)",
+      "method": "Flux",
+      "transportAgent": "",
+      "flux": "助熔剂单晶",
+      "ratio": "摩尔比置氧化铝坩埚，真空石英封管",
+      "purity": "纯度、升温时间、慢冷的 °C/h 数值、离心转速/时间、单炉产率和后退火正文未报告，不能把“慢冷”改写成明确速率",
+      "vessel": "坩埚，真空石英封管",
+      "atmosphere": "真空石英封管",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "加热至 1150 °C 保温 20 h，再慢冷到 500 °C",
+      "holdTime": "保温 20 h",
+      "coolingRate": "",
+      "postTreatment": "离心去 In，得到约 2–5 mm 发亮立方状单晶",
+      "crystalSize": "5 mm",
+      "yield": "产率和后退火正文未报告，不能把“慢冷”改写成明确速率",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 11,
+        "total": 15,
+        "ratio": 0.7333333333333333
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题、对照和结构",
+        "text": "CeGe₂₋ₓ 在 x≈0.2–0.3 的结构和磁性报道不一致，可能源于 Ge 空位的有序化与成分波动。作者先用单晶 XRD 定出 Nd₄Ge₇ 型非中心对称 C222₁（No.20），h0l 超结构反射与周期性 Ge 空位链形成四倍单胞；EDS 多区域平均 Ce:Ge≈1:1.80(2)。将“Ce₄Ge₇”当作名义化学式时，应注意实测 1:1.80 并非理想 1:1.75，XRD 空位占位、EDS 误差与体内成分梯度要并列看。单晶精修 GoF=1.094、R1=0.0529、wR2=0.1195；这些值支持有序结构，但局域缺陷与微量 In 包裹仍需显微截面。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "In Flux 生长全过程",
+        "text": "Ce 块、Ge 颗粒、In 锭以 1:1:40 摩尔比置氧化铝坩埚，真空石英封管；加热至 1150 °C 保温 20 h，再慢冷到 500 °C 离心去 In，得到约 2–5 mm 发亮立方状单晶。原料纯度、升温时间、慢冷的 °C/h 数值、离心转速/时间、单炉产率和后退火正文未报告，不能把“慢冷”改写成明确速率。Fig.1 的 SEM/元素面分布给局域均匀性，单晶 XRD 决定空间群/取向；正文注明磁化、Hall/MR 与电阻测量使用三块独立晶体，场温相图相互一致，但不是同一颗晶体所有探针原位联测。下一炉要给每块编号及 EDS 多点统计，尤其用单晶超结构峰强度标记 Ge 空位有序程度。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-3",
+        "title": "测量与量化证据",
+        "text": "MPMS 磁化、PPMS 比热/常压电阻及 Hall 建立 7.3 K AFM 转变；γ≈92 mJ mol-Ce⁻¹ K⁻²，说明中等重电子关联。2 K、H∥b 时约 1.3 T 变磁，升/降场有磁滞；Hall 与 MR 在同场出现特征。Hall 拆分用 ρxy=R₀μ₀H+S_Aρxx²M，温度拟合再把内禀与外禀分量区分；“以内禀 Karplus–Luttinger 为主”依赖这一缩放模型，不能简单把异常霍尔峰叫 Weyl 证据。压力用 DAC、Daphne 7373 近静水介质、红宝石荧光标压，微片约 15×70×120 μm³，银浆与 15 μm 金线、ac 面电流 31.6 μA。P≈10.2 GPa 以上未见磁序，ρ₀ 峰、T² 系数 A 增强和非费米液体行为并行出现；它们共同支持 QCP 候选，但极低温零场热容/磁化在压力下尚待补证。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-4",
+        "title": "证据层级与实验计划",
+        "text": "【直接观察】超结构衍射、7.3 K 的多探针异常、1.3 T 变磁、压力下转变消失；【拟合】Hall 内禀/外禀分离、A 系数及 Pc 外推；【作者推断】Ce 4f 的 RKKY/Kondo 竞争走向 AFM QCP；【本站判断】最强是从有序空位单晶到磁/输运压力相图的闭环，最弱是压力介质偏离静水、不同晶片成分差和有限温度的“临界点”外推。建议一炉至少 5–10 片单晶做 WDS/Laue/磁化的样品表，再挑成分与超结构峰一致的几片 DAC 测量；在 8–12 GPa 细扫压力，每点报告低温拟合窗口、ρ₀/A 置信区间和红宝石压力分布，并增添原位压力 XRD 排除结构转变。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "正文 + Methods",
+      "sampleCredibility": "XRD、Laue、EDS、WDS 多方法互证",
+      "reproducibility": "11/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "中等"
+    }
+  },
+  {
+    "id": "arxiv:2609.37191",
+    "title": "Uniform-Charge-Density $d$-Wave Superconductivity in the Pure $t$-$J$ Model at $1/8$ Doping on an Infinite Cylinder",
+    "authors": "Guangyu Yu, Zheng Zhu",
+    "institutions": "作者机构需从论文首页逐一核对；本期不凭姓名猜测",
+    "journal": "arXiv（Strongly Correlated Electrons (cond-mat.str-el); Superconductivity (cond-mat.supr-con)）",
+    "material": "t-J 模型 1/8 掺杂",
+    "method": "VUMPS 无限圆柱数值模拟",
+    "category": "高温与非常规超导",
+    "tags": [
+      "arXiv v1",
+      "摘要级",
+      "待全文补读"
+    ],
+    "abstract": "The ground state of the square-lattice $t$-$J$ model at $1/8$ hole doping has been the subject of a long-standing controversy, with conflicting numerical reports of stripe order versus superconductivity. Here, we address this debate using the variational uniform matrix product state (VUMPS) method, which optimizes the wave function directly in the thermodynamic limit along the cylinder axis and eliminates the boundary pinning effects that can arise in finite-cylinder calculations. On an infinite cylinder of circumference $L_y = 8$, we find a uniform-charge-density $d$-wave superconducting ground state with quasi-long-range pairing correlations. The dominant pairing occurs at zero center-of-mass momentum, while no sizable finite-momentum pairing component is detected. Twisted-boundary-condition calculations reveal a finite superconducting phase stiffness, with the order-parameter phase winding smoothly to follow the applied flux, providing an independent probe of the robustness of the superconductivity. Moreover, both charge and spin correlations decay rapidly, with no signatures of long-range stripe or magnetic order, in contrast to an $L_y=6$ cylinder at $1/6$ doping where the same method readily identifies stripe order. Our results provide methodologically distinct evidence in the long-standing stripe--superconductivity debate in the pure $t$-$J$ model and reveal uniform $d$-wave superconductivity in a minimal model of doped Mott insulators.",
+    "conclusion": "在 Lᵧ=8 的无限圆柱上，VUMPS 找到均匀电荷密度的 d 波准长程配对和有限相位刚度，与有限圆柱上的条纹结论相冲突。它解决的是边界钉扎影响的一种数值测试，不能直接推出二维无限平面真实材料必无条纹。",
+    "summary": "问题—样品—证据：摘要所能确定的范围：【仅基于摘要/元数据】The ground state of the square-lattice $t$-$J$ model at $1/8$ hole doping has been the subject of a long-standing controversy, with conflicting numerical reports of stripe order versus superconductivity. Here, we address this debate using the variational uniform matrix product state (VUMPS) method, which optimizes the wave function directly in the thermodynamic limit along the cylinder axis and eliminates the boundary pinning effects that can arise in finite-cylinder calculations. On an infinite cylinder of circumference $L_y = 8$, we find a uniform-charge-density $d$-wave superconducting ground state with quasi-long-range pairing correlations. The dominant pairing occurs at zero center-of-mass momentum, while no sizable finite-momentum pairing component is detected. Twisted-boundary-condition calculations reveal a finite superconducting phase stiffness, with the order-parameter phase winding smoothly to follow the applied flux, providing an independent probe of the robustness of the superconductivity. Moreover, both charge and spin correlations decay rapidly, with no signatures of long-range stripe or magnetic order, in contrast to an $L_y=6$ cylinder at $1/6$ doping where the same method readily identifies stripe order. Our results provide methodologically distinct evidence in the long-standing stripe--superconductivity debate in the pure $t$-$J$ model and reveal uniform $d$-wave superconductivity in a minimal model of doped Mott insulators.。本站判断：在 Lᵧ=8 的无限圆柱上，VUMPS 找到均匀电荷密度的 d 波准长程配对和有限相位刚度，与有限圆柱上的条纹结论相冲突。它解决的是边界钉扎影响的一种数值测试，不能直接推出二维无限平面真实材料必无条纹。。摘要只给研究主张，不能据此确定所有对照或因果。\n生长、质量与测量：待补读边界：材料/模型：t-J 模型 1/8 掺杂；摘要描述方法：VUMPS 无限圆柱数值模拟。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。\n证据等级、局限与复现建议：【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看电荷/自旋关联长度与边界扭曲下相位刚度，再核对 Lᵧ=6、8 的差异。；随后：做 Lᵧ 扩展及能量误差外推，比较条纹竞争态。。",
+    "year": 2026,
+    "published": "2026-09-29",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.37191",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2609.37191",
+    "reportUrl": "/reports/2026-09-30/#paper-15",
+    "access": "仅基于摘要/元数据：本次未实际核查正文和关键图，已列入正文补读清单；不计入精读。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】The ground state of the square-lattice $t$-$J$ model at $1/8$ hole doping has been the subject of a long-standing controversy, with conflicting numerical reports of stripe order versus superconductivity. Here, we address this debate using the variational uniform matrix product state (VUMPS) method, which optimizes the wave function directly in the thermodynamic limit along the cylinder axis and eliminates the boundary pinning effects that can arise in finite-cylinder calculations. On an infinite cylinder of circumference $L_y = 8$, we find a uniform-charge-density $d$-wave superconducting ground state with quasi-long-range pairing correlations. The dominant pairing occurs at zero center-of-mass momentum, while no sizable finite-momentum pairing component is detected. Twisted-boundary-condition calculations reveal a finite superconducting phase stiffness, with the order-parameter phase winding smoothly to follow the applied flux, providing an independent probe of the robustness of the superconductivity. Moreover, both charge and spin correlations decay rapidly, with no signatures of long-range stripe or magnetic order, in contrast to an $L_y=6$ cylinder at $1/6$ doping where the same method readily identifies stripe order. Our results provide methodologically distinct evidence in the long-standing stripe--superconductivity debate in the pure $t$-$J$ model and reveal uniform $d$-wave superconductivity in a minimal model of doped Mott insulators.。本站判断：在 Lᵧ=8 的无限圆柱上，VUMPS 找到均匀电荷密度的 d 波准长程配对和有限相位刚度，与有限圆柱上的条纹结论相冲突。它解决的是边界钉扎影响的一种数值测试，不能直接推出二维无限平面真实材料必无条纹。。摘要只给研究主张，不能据此确定所有对照或因果。"
+      },
+      {
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：t-J 模型 1/8 掺杂；摘要描述方法：VUMPS 无限圆柱数值模拟。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。"
+      },
+      {
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看电荷/自旋关联长度与边界扭曲下相位刚度，再核对 Lᵧ=6、8 的差异。；随后：做 Lᵧ 扩展及能量误差外推，比较条纹竞争态。。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜方向跟踪、待正文复核",
+      "first": "先看电荷/自旋关联长度与边界扭曲下相位刚度，再核对 Lᵧ=6、8 的差异。",
+      "focus": "核对摘要主张所依赖的具体图、对照样品及误差，不能据标题直接采用生长参数。",
+      "next": "做 Lᵧ 扩展及能量误差外推，比较条纹竞争态。"
+    },
+    "growthRecipe": {
+      "material": "t-J 模型 1/8 掺杂",
+      "actualComposition": "EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对",
+      "method": "Flux",
+      "transportAgent": "",
+      "flux": "flux, providing an independent probe of the robustness of t",
+      "ratio": "原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "purity": "纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "vessel": "坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "atmosphere": "真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "crystalSize": "",
+      "yield": "产率：正文未报告或本次未核验",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 8,
+        "total": 15,
+        "ratio": 0.5333333333333333
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】The ground state of the square-lattice $t$-$J$ model at $1/8$ hole doping has been the subject of a long-standing controversy, with conflicting numerical reports of stripe order versus superconductivity. Here, we address this debate using the variational uniform matrix product state (VUMPS) method, which optimizes the wave function directly in the thermodynamic limit along the cylinder axis and eliminates the boundary pinning effects that can arise in finite-cylinder calculations. On an infinite cylinder of circumference $L_y = 8$, we find a uniform-charge-density $d$-wave superconducting ground state with quasi-long-range pairing correlations. The dominant pairing occurs at zero center-of-mass momentum, while no sizable finite-momentum pairing component is detected. Twisted-boundary-condition calculations reveal a finite superconducting phase stiffness, with the order-parameter phase winding smoothly to follow the applied flux, providing an independent probe of the robustness of the superconductivity. Moreover, both charge and spin correlations decay rapidly, with no signatures of long-range stripe or magnetic order, in contrast to an $L_y=6$ cylinder at $1/6$ doping where the same method readily identifies stripe order. Our results provide methodologically distinct evidence in the long-standing stripe--superconductivity debate in the pure $t$-$J$ model and reveal uniform $d$-wave superconductivity in a minimal model of doped Mott insulators.。本站判断：在 Lᵧ=8 的无限圆柱上，VUMPS 找到均匀电荷密度的 d 波准长程配对和有限相位刚度，与有限圆柱上的条纹结论相冲突。它解决的是边界钉扎影响的一种数值测试，不能直接推出二维无限平面真实材料必无条纹。。摘要只给研究主张，不能据此确定所有对照或因果。",
+        "type": "本站判断"
+      },
+      {
+        "id": "evidence-2",
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：t-J 模型 1/8 掺杂；摘要描述方法：VUMPS 无限圆柱数值模拟。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看电荷/自旋关联长度与边界扭曲下相位刚度，再核对 Lᵧ=6、8 的差异。；随后：做 Lᵧ 扩展及能量误差外推，比较条纹竞争态。。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "EDS、WDS、输运；证据仍可补强",
+      "reproducibility": "8/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2609.37299",
+    "title": "Atomic-scale control of spin transport in exchange-coupled molecules",
+    "authors": "A. Fétida, R. Robles, F. Scheurer, M. Romeo, J. Kröger, N. Lorente, L. Limot",
+    "institutions": "作者机构需从论文首页逐一核对；本期不凭姓名猜测",
+    "journal": "arXiv（Mesoscale and Nanoscale Physics (cond-mat.mes-hall)）",
+    "material": "交换耦合分子自旋结",
+    "method": "分子功能化 STM 尖端",
+    "category": "二维材料与量子器件",
+    "tags": [
+      "arXiv v1",
+      "摘要级",
+      "待全文补读"
+    ],
+    "abstract": "Spin transport between coupled spins is governed by tunneling and exchange interactions, yet their microscopic relation in real space has remained experimentally elusive. To address this, we functionalize the tip of a scanning tunneling microscope with a single molecule and use it as a movable spin sensor positioned above a second molecule on a ferromagnetic surface, forming an exchange-coupled molecular junction. From the same spectroscopic dataset, we independently extract the junction conductance, exchange coupling, and spin polarization with atomic-scale resolution. Conductance and exchange display nearly identical spatial dependences, consistent with a minimal Hubbard description in which both are governed by the same hopping matrix between the molecular frontier orbitals. In contrast, the spin polarization depends on the orbital composition and the relative weight of the resulting transport channels. These results establish a real-space connection between tunneling, exchange, and spin transport in magnetically coupled molecules.",
+    "conclusion": "移动分子化 STM 探针同时测电导、交换和自旋极化：前两者空间分布近同，支持共享跃迁矩阵，极化则受轨道通道权重控制。结论依赖最简 Hubbard 映射，应检验针尖状态稳定性。",
+    "summary": "问题—样品—证据：摘要所能确定的范围：【仅基于摘要/元数据】Spin transport between coupled spins is governed by tunneling and exchange interactions, yet their microscopic relation in real space has remained experimentally elusive. To address this, we functionalize the tip of a scanning tunneling microscope with a single molecule and use it as a movable spin sensor positioned above a second molecule on a ferromagnetic surface, forming an exchange-coupled molecular junction. From the same spectroscopic dataset, we independently extract the junction conductance, exchange coupling, and spin polarization with atomic-scale resolution. Conductance and exchange display nearly identical spatial dependences, consistent with a minimal Hubbard description in which both are governed by the same hopping matrix between the molecular frontier orbitals. In contrast, the spin polarization depends on the orbital composition and the relative weight of the resulting transport channels. These results establish a real-space connection between tunneling, exchange, and spin transport in magnetically coupled molecules.。本站判断：移动分子化 STM 探针同时测电导、交换和自旋极化：前两者空间分布近同，支持共享跃迁矩阵，极化则受轨道通道权重控制。结论依赖最简 Hubbard 映射，应检验针尖状态稳定性。。摘要只给研究主张，不能据此确定所有对照或因果。\n生长、质量与测量：待补读边界：材料/模型：交换耦合分子自旋结；摘要描述方法：分子功能化 STM 尖端。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。\n证据等级、局限与复现建议：【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看同一谱组提取三个量的过程和空间图，而非只看模型拟合线。；随后：更换分子端基并记录针尖重构前后重复性。。",
+    "year": 2026,
+    "published": "2026-09-29",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.37299",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2609.37299",
+    "reportUrl": "/reports/2026-09-30/#paper-16",
+    "access": "仅基于摘要/元数据：本次未实际核查正文和关键图，已列入正文补读清单；不计入精读。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Spin transport between coupled spins is governed by tunneling and exchange interactions, yet their microscopic relation in real space has remained experimentally elusive. To address this, we functionalize the tip of a scanning tunneling microscope with a single molecule and use it as a movable spin sensor positioned above a second molecule on a ferromagnetic surface, forming an exchange-coupled molecular junction. From the same spectroscopic dataset, we independently extract the junction conductance, exchange coupling, and spin polarization with atomic-scale resolution. Conductance and exchange display nearly identical spatial dependences, consistent with a minimal Hubbard description in which both are governed by the same hopping matrix between the molecular frontier orbitals. In contrast, the spin polarization depends on the orbital composition and the relative weight of the resulting transport channels. These results establish a real-space connection between tunneling, exchange, and spin transport in magnetically coupled molecules.。本站判断：移动分子化 STM 探针同时测电导、交换和自旋极化：前两者空间分布近同，支持共享跃迁矩阵，极化则受轨道通道权重控制。结论依赖最简 Hubbard 映射，应检验针尖状态稳定性。。摘要只给研究主张，不能据此确定所有对照或因果。"
+      },
+      {
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：交换耦合分子自旋结；摘要描述方法：分子功能化 STM 尖端。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。"
+      },
+      {
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看同一谱组提取三个量的过程和空间图，而非只看模型拟合线。；随后：更换分子端基并记录针尖重构前后重复性。。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜方向跟踪、待正文复核",
+      "first": "先看同一谱组提取三个量的过程和空间图，而非只看模型拟合线。",
+      "focus": "核对摘要主张所依赖的具体图、对照样品及误差，不能据标题直接采用生长参数。",
+      "next": "更换分子端基并记录针尖重构前后重复性。"
+    },
+    "growthRecipe": {
+      "material": "交换耦合分子自旋结",
+      "actualComposition": "EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对",
+      "method": "Flux",
+      "transportAgent": "",
+      "flux": "助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核",
+      "ratio": "原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "purity": "纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "vessel": "坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "atmosphere": "真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "crystalSize": "",
+      "yield": "产率：正文未报告或本次未核验",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 8,
+        "total": 15,
+        "ratio": 0.5333333333333333
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Spin transport between coupled spins is governed by tunneling and exchange interactions, yet their microscopic relation in real space has remained experimentally elusive. To address this, we functionalize the tip of a scanning tunneling microscope with a single molecule and use it as a movable spin sensor positioned above a second molecule on a ferromagnetic surface, forming an exchange-coupled molecular junction. From the same spectroscopic dataset, we independently extract the junction conductance, exchange coupling, and spin polarization with atomic-scale resolution. Conductance and exchange display nearly identical spatial dependences, consistent with a minimal Hubbard description in which both are governed by the same hopping matrix between the molecular frontier orbitals. In contrast, the spin polarization depends on the orbital composition and the relative weight of the resulting transport channels. These results establish a real-space connection between tunneling, exchange, and spin transport in magnetically coupled molecules.。本站判断：移动分子化 STM 探针同时测电导、交换和自旋极化：前两者空间分布近同，支持共享跃迁矩阵，极化则受轨道通道权重控制。结论依赖最简 Hubbard 映射，应检验针尖状态稳定性。。摘要只给研究主张，不能据此确定所有对照或因果。",
+        "type": "本站判断"
+      },
+      {
+        "id": "evidence-2",
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：交换耦合分子自旋结；摘要描述方法：分子功能化 STM 尖端。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看同一谱组提取三个量的过程和空间图，而非只看模型拟合线。；随后：更换分子端基并记录针尖重构前后重复性。。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "EDS、WDS、STM、输运 多方法互证",
+      "reproducibility": "8/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2609.37303",
+    "title": "Vapor phase growth and characterization of van der Waals BiSbTeSe platelets on semiconducting MoS2",
+    "authors": "M. Zhezhu, V. Torosyan, V. Mehrabyan, A. Vasilev",
+    "institutions": "作者机构需从论文首页逐一核对；本期不凭姓名猜测",
+    "journal": "arXiv（Materials Science (cond-mat.mtrl-sci); Chemical Physics (physics.chem-ph)）",
+    "material": "BiSbTeSe/MoS₂ 片晶",
+    "method": "气相输运/沉积",
+    "category": "晶体生长和物性调控",
+    "tags": [
+      "arXiv v1",
+      "摘要级",
+      "待全文补读"
+    ],
+    "abstract": "Three dimensional topological insulators of the tetradymite family, such as BiSbTeSe (BSTS), are attractive for spintronic and quantum device applications because of their compensated, bulk-insulating character. Nanostructured BSTS platelets are promising for practical TI based devices. However, their growth often requires complex equipment, organometallic precursors, or electrically insulating substrates. Simple growth on technologically relevant semiconducting substrates remains largely unexplored. Here, we report the vapor phase growth of van der Waals BSTS platelets directly on semiconducting MoS2 using a presynthesized BiSbTe1.5Se1.5 crystal as the source material. The grown BSTS platelets exhibit thicknesses ranging from 4 nm to 246 nm, with an average lateral size of 1.4 mkm for individual platelets. Raman spectra of platelets, acquired in correlation with AFM thickness measurements, reveal contributions from both BSTS and the underlying MoS2 substrate. Among the characteristic BSTS modes, A21g mode shows the highest sensitivity to platelet thickness and local composition. EDS analysis reveals a systematic thickness dependence of the platelet composition, with an apparent crossover around 49 nm that coincides with a change in the thickness dependence of the low-wavenumber component of the E2g Raman band. This correlation suggests a composition-related origin of the Raman behavior, with the compositional variations tentatively attributed to the differential volatility of the constituent elements during growth. These results demonstrate that MoS2 is a promising van der Waals platform for BSTS deposition and provide a structural and compositional baseline for future studies of BSTS-MoS2 heterostructures.",
+    "conclusion": "预制 BiSbTe₁.₅Se₁.₅ 作为源，在半导体 MoS₂ 上直接长出 4–246 nm 的拓扑绝缘体片晶；厚度相关 Raman 与 EDS 表明尺寸和局域成分耦合。报告摘要尚不足以确认源/生长区温度，不能将其作为可直接复现的 CVT 温区。",
+    "summary": "问题—样品—证据：摘要所能确定的范围：【仅基于摘要/元数据】Three dimensional topological insulators of the tetradymite family, such as BiSbTeSe (BSTS), are attractive for spintronic and quantum device applications because of their compensated, bulk-insulating character. Nanostructured BSTS platelets are promising for practical TI based devices. However, their growth often requires complex equipment, organometallic precursors, or electrically insulating substrates. Simple growth on technologically relevant semiconducting substrates remains largely unexplored. Here, we report the vapor phase growth of van der Waals BSTS platelets directly on semiconducting MoS2 using a presynthesized BiSbTe1.5Se1.5 crystal as the source material. The grown BSTS platelets exhibit thicknesses ranging from 4 nm to 246 nm, with an average lateral size of 1.4 mkm for individual platelets. Raman spectra of platelets, acquired in correlation with AFM thickness measurements, reveal contributions from both BSTS and the underlying MoS2 substrate. Among the characteristic BSTS modes, A21g mode shows the highest sensitivity to platelet thickness and local composition. EDS analysis reveals a systematic thickness dependence of the platelet composition, with an apparent crossover around 49 nm that coincides with a change in the thickness dependence of the low-wavenumber component of the E2g Raman band. This correlation suggests a composition-related origin of the Raman behavior, with the compositional variations tentatively attributed to the differential volatility of the constituent elements during growth. These results demonstrate that MoS2 is a promising van der Waals platform for BSTS deposition and provide a structural and compositional baseline for future studies of BSTS-MoS2 heterostructures.。本站判断：预制 BiSbTe₁.₅Se₁.₅ 作为源，在半导体 MoS₂ 上直接长出 4–246 nm 的拓扑绝缘体片晶；厚度相关 Raman 与 EDS 表明尺寸和局域成分耦合。报告摘要尚不足以确认源/生长区温度，不能将其作为可直接复现的 CVT 温区。。摘要只给研究主张，不能据此确定所有对照或因果。\n生长、质量与测量：待补读边界：材料/模型：BiSbTeSe/MoS₂ 片晶；摘要描述方法：气相输运/沉积。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。\n证据等级、局限与复现建议：【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先查正文的安瓿几何、源/衬底温度与厚度相关 EDS，而非仅看平均横向尺寸 1.4 μm。；随后：做厚度分箱的 EDS/WDS 与低温双栅输运。。",
+    "year": 2026,
+    "published": "2026-09-29",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.37303",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2609.37303",
+    "reportUrl": "/reports/2026-09-30/#paper-17",
+    "access": "仅基于摘要/元数据：本次未实际核查正文和关键图，已列入正文补读清单；不计入精读。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Three dimensional topological insulators of the tetradymite family, such as BiSbTeSe (BSTS), are attractive for spintronic and quantum device applications because of their compensated, bulk-insulating character. Nanostructured BSTS platelets are promising for practical TI based devices. However, their growth often requires complex equipment, organometallic precursors, or electrically insulating substrates. Simple growth on technologically relevant semiconducting substrates remains largely unexplored. Here, we report the vapor phase growth of van der Waals BSTS platelets directly on semiconducting MoS2 using a presynthesized BiSbTe1.5Se1.5 crystal as the source material. The grown BSTS platelets exhibit thicknesses ranging from 4 nm to 246 nm, with an average lateral size of 1.4 mkm for individual platelets. Raman spectra of platelets, acquired in correlation with AFM thickness measurements, reveal contributions from both BSTS and the underlying MoS2 substrate. Among the characteristic BSTS modes, A21g mode shows the highest sensitivity to platelet thickness and local composition. EDS analysis reveals a systematic thickness dependence of the platelet composition, with an apparent crossover around 49 nm that coincides with a change in the thickness dependence of the low-wavenumber component of the E2g Raman band. This correlation suggests a composition-related origin of the Raman behavior, with the compositional variations tentatively attributed to the differential volatility of the constituent elements during growth. These results demonstrate that MoS2 is a promising van der Waals platform for BSTS deposition and provide a structural and compositional baseline for future studies of BSTS-MoS2 heterostructures.。本站判断：预制 BiSbTe₁.₅Se₁.₅ 作为源，在半导体 MoS₂ 上直接长出 4–246 nm 的拓扑绝缘体片晶；厚度相关 Raman 与 EDS 表明尺寸和局域成分耦合。报告摘要尚不足以确认源/生长区温度，不能将其作为可直接复现的 CVT 温区。。摘要只给研究主张，不能据此确定所有对照或因果。"
+      },
+      {
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：BiSbTeSe/MoS₂ 片晶；摘要描述方法：气相输运/沉积。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。"
+      },
+      {
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先查正文的安瓿几何、源/衬底温度与厚度相关 EDS，而非仅看平均横向尺寸 1.4 μm。；随后：做厚度分箱的 EDS/WDS 与低温双栅输运。。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜方向跟踪、待正文复核",
+      "first": "先查正文的安瓿几何、源/衬底温度与厚度相关 EDS，而非仅看平均横向尺寸 1.4 μm。",
+      "focus": "核对摘要主张所依赖的具体图、对照样品及误差，不能据标题直接采用生长参数。",
+      "next": "做厚度分箱的 EDS/WDS 与低温双栅输运。"
+    },
+    "growthRecipe": {
+      "material": "BiSbTeSe/MoS₂ 片晶",
+      "actualComposition": "EDS 表明尺寸和局域成分耦合",
+      "method": "CVT",
+      "transportAgent": "",
+      "flux": "助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核",
+      "ratio": "原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "purity": "纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "vessel": "坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "atmosphere": "真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "crystalSize": "厚度相关 EDS，而非仅看平均横向尺寸 1.4 μm",
+      "yield": "产率：正文未报告或本次未核验",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 9,
+        "total": 15,
+        "ratio": 0.6
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Three dimensional topological insulators of the tetradymite family, such as BiSbTeSe (BSTS), are attractive for spintronic and quantum device applications because of their compensated, bulk-insulating character. Nanostructured BSTS platelets are promising for practical TI based devices. However, their growth often requires complex equipment, organometallic precursors, or electrically insulating substrates. Simple growth on technologically relevant semiconducting substrates remains largely unexplored. Here, we report the vapor phase growth of van der Waals BSTS platelets directly on semiconducting MoS2 using a presynthesized BiSbTe1.5Se1.5 crystal as the source material. The grown BSTS platelets exhibit thicknesses ranging from 4 nm to 246 nm, with an average lateral size of 1.4 mkm for individual platelets. Raman spectra of platelets, acquired in correlation with AFM thickness measurements, reveal contributions from both BSTS and the underlying MoS2 substrate. Among the characteristic BSTS modes, A21g mode shows the highest sensitivity to platelet thickness and local composition. EDS analysis reveals a systematic thickness dependence of the platelet composition, with an apparent crossover around 49 nm that coincides with a change in the thickness dependence of the low-wavenumber component of the E2g Raman band. This correlation suggests a composition-related origin of the Raman behavior, with the compositional variations tentatively attributed to the differential volatility of the constituent elements during growth. These results demonstrate that MoS2 is a promising van der Waals platform for BSTS deposition and provide a structural and compositional baseline for future studies of BSTS-MoS2 heterostructures.。本站判断：预制 BiSbTe₁.₅Se₁.₅ 作为源，在半导体 MoS₂ 上直接长出 4–246 nm 的拓扑绝缘体片晶；厚度相关 Raman 与 EDS 表明尺寸和局域成分耦合。报告摘要尚不足以确认源/生长区温度，不能将其作为可直接复现的 CVT 温区。。摘要只给研究主张，不能据此确定所有对照或因果。",
+        "type": "作者推断"
+      },
+      {
+        "id": "evidence-2",
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：BiSbTeSe/MoS₂ 片晶；摘要描述方法：气相输运/沉积。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先查正文的安瓿几何、源/衬底温度与厚度相关 EDS，而非仅看平均横向尺寸 1.4 μm。；随后：做厚度分箱的 EDS/WDS 与低温双栅输运。。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "EDS、WDS、TEM、Raman 多方法互证",
+      "reproducibility": "9/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2609.37406",
+    "title": "Topological Hall Effect Induced by Chiral Spin Textures at the Ferroelectric/Ferromagnetic Interface",
+    "authors": "Jingkuan Xiao, Yaqing Han, Jianfeng Guo, Renjun Du, Jiawei Jiang, Baoshan Cui, Runnong Zhou, Siqin Wang, Siqi Jiang, Fuzhuo Lian, Di Zhang, Guodong Ma, Jiabei Huang, Zhaochen Qu, Wanting Xu, Kenji Watanabe, Takashi Taniguchi, Alexander S. Mayorov, Jinsheng Wen, Haifeng Ding, Gong Chen, Ahmet Avsar, Hongxin Yang, Lihong Bao, Hong-Jun Gao, Shiyu Zhu, Lei Wang, Geliang Yu",
+    "institutions": "作者机构需从论文首页逐一核对；本期不凭姓名猜测",
+    "journal": "arXiv（Materials Science (cond-mat.mtrl-sci); Mesoscale and Nanoscale Physics (cond-mat.mes-hall)）",
+    "material": "Fe₃GeTe₂/α-In₂Se₃",
+    "method": "二维铁磁/铁电异质结",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "arXiv v1",
+      "摘要级",
+      "待全文补读"
+    ],
+    "abstract": "Chiral spin textures, largely driven by the Dzyaloshinskii-Moriya interaction, offer significant potential for next-generation computing technologies due to their chirality and topological stability. Ferroelectric/ferromagnetic van der Waals heterostructures are particularly appealing because they can combine interfacial inversion-symmetry breaking and spin-orbit coupling to promote interfacial Dzyaloshinskii-Moriya interaction, while switchable ferroelectric polarization provides a nonvolatile tuning knob. This study investigates interfacial chiral spin textures in few-layer Fe$_3$GeTe$_2$/$\\alpha$-In$_2$Se$_3$ heterostructures. Two groups of topological Hall signals are identified just below and above the coercive field, and thickness-dependent transport reveals a notable reduction in critical temperature with increasing Fe$_3$GeTe$_2$ layer thickness. Low-temperature magnetic force microscopy images reveal two types of magnetic bubbles with opposite magnetic contrasts near the coercive field, each associated with distinct topological Hall signals. Together with atomistic spin-dynamics simulations and first-principles calculations, these results support the formation of interfacial DMI-stabilized chiral spin textures. Switching the ferroelectric polarization of the $\\alpha$-In$_2$Se$_3$ layer further enables nonvolatile modulation of both anomalous and topological Hall effects. The resulting ferroelectric and magnetic bistabilities generate four distinguishable Hall resistance states programmable by electric and magnetic fields. These findings highlight the potential of van der Waals interfaces for advanced device applications.",
+    "conclusion": "在 Fe₃GeTe₂/α-In₂Se₃ 界面，矫顽场附近出现两组拓扑霍尔信号，低温 MFM 有相反磁对比气泡，模拟支持界面手性纹理。霍尔凸起并非 skyrmion 唯一证据，必须控制多通道普通霍尔与畴壁运动。",
+    "summary": "问题—样品—证据：摘要所能确定的范围：【仅基于摘要/元数据】Chiral spin textures, largely driven by the Dzyaloshinskii-Moriya interaction, offer significant potential for next-generation computing technologies due to their chirality and topological stability. Ferroelectric/ferromagnetic van der Waals heterostructures are particularly appealing because they can combine interfacial inversion-symmetry breaking and spin-orbit coupling to promote interfacial Dzyaloshinskii-Moriya interaction, while switchable ferroelectric polarization provides a nonvolatile tuning knob. This study investigates interfacial chiral spin textures in few-layer Fe$_3$GeTe$_2$/$\\alpha$-In$_2$Se$_3$ heterostructures. Two groups of topological Hall signals are identified just below and above the coercive field, and thickness-dependent transport reveals a notable reduction in critical temperature with increasing Fe$_3$GeTe$_2$ layer thickness. Low-temperature magnetic force microscopy images reveal two types of magnetic bubbles with opposite magnetic contrasts near the coercive field, each associated with distinct topological Hall signals. Together with atomistic spin-dynamics simulations and first-principles calculations, these results support the formation of interfacial DMI-stabilized chiral spin textures. Switching the ferroelectric polarization of the $\\alpha$-In$_2$Se$_3$ layer further enables nonvolatile modulation of both anomalous and topological Hall effects. The resulting ferroelectric and magnetic bistabilities generate four distinguishable Hall resistance states programmable by electric and magnetic fields. These findings highlight the potential of van der Waals interfaces for advanced device applications.。本站判断：在 Fe₃GeTe₂/α-In₂Se₃ 界面，矫顽场附近出现两组拓扑霍尔信号，低温 MFM 有相反磁对比气泡，模拟支持界面手性纹理。霍尔凸起并非 skyrmion 唯一证据，必须控制多通道普通霍尔与畴壁运动。。摘要只给研究主张，不能据此确定所有对照或因果。\n生长、质量与测量：待补读边界：材料/模型：Fe₃GeTe₂/α-In₂Se₃；摘要描述方法：二维铁磁/铁电异质结。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。\n证据等级、局限与复现建议：【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先比同一场区 MFM 气泡、Hall 双峰和铁电极化翻转，核对厚度依赖。；随后：做极化写入前后的空间 Hall 成像与多带背景拟合。。",
+    "year": 2026,
+    "published": "2026-09-29",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.37406",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2609.37406",
+    "reportUrl": "/reports/2026-09-30/#paper-18",
+    "access": "仅基于摘要/元数据：本次未实际核查正文和关键图，已列入正文补读清单；不计入精读。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Chiral spin textures, largely driven by the Dzyaloshinskii-Moriya interaction, offer significant potential for next-generation computing technologies due to their chirality and topological stability. Ferroelectric/ferromagnetic van der Waals heterostructures are particularly appealing because they can combine interfacial inversion-symmetry breaking and spin-orbit coupling to promote interfacial Dzyaloshinskii-Moriya interaction, while switchable ferroelectric polarization provides a nonvolatile tuning knob. This study investigates interfacial chiral spin textures in few-layer Fe$_3$GeTe$_2$/$\\alpha$-In$_2$Se$_3$ heterostructures. Two groups of topological Hall signals are identified just below and above the coercive field, and thickness-dependent transport reveals a notable reduction in critical temperature with increasing Fe$_3$GeTe$_2$ layer thickness. Low-temperature magnetic force microscopy images reveal two types of magnetic bubbles with opposite magnetic contrasts near the coercive field, each associated with distinct topological Hall signals. Together with atomistic spin-dynamics simulations and first-principles calculations, these results support the formation of interfacial DMI-stabilized chiral spin textures. Switching the ferroelectric polarization of the $\\alpha$-In$_2$Se$_3$ layer further enables nonvolatile modulation of both anomalous and topological Hall effects. The resulting ferroelectric and magnetic bistabilities generate four distinguishable Hall resistance states programmable by electric and magnetic fields. These findings highlight the potential of van der Waals interfaces for advanced device applications.。本站判断：在 Fe₃GeTe₂/α-In₂Se₃ 界面，矫顽场附近出现两组拓扑霍尔信号，低温 MFM 有相反磁对比气泡，模拟支持界面手性纹理。霍尔凸起并非 skyrmion 唯一证据，必须控制多通道普通霍尔与畴壁运动。。摘要只给研究主张，不能据此确定所有对照或因果。"
+      },
+      {
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：Fe₃GeTe₂/α-In₂Se₃；摘要描述方法：二维铁磁/铁电异质结。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。"
+      },
+      {
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先比同一场区 MFM 气泡、Hall 双峰和铁电极化翻转，核对厚度依赖。；随后：做极化写入前后的空间 Hall 成像与多带背景拟合。。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜方向跟踪、待正文复核",
+      "first": "先比同一场区 MFM 气泡、Hall 双峰和铁电极化翻转，核对厚度依赖。",
+      "focus": "核对摘要主张所依赖的具体图、对照样品及误差，不能据标题直接采用生长参数。",
+      "next": "做极化写入前后的空间 Hall 成像与多带背景拟合。"
+    },
+    "growthRecipe": {
+      "material": "Fe₃GeTe₂/α-In₂Se₃",
+      "actualComposition": "EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对",
+      "method": "Flux",
+      "transportAgent": "",
+      "flux": "助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核",
+      "ratio": "原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "purity": "纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "vessel": "坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "atmosphere": "真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "crystalSize": "",
+      "yield": "产率：正文未报告或本次未核验",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 8,
+        "total": 15,
+        "ratio": 0.5333333333333333
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Chiral spin textures, largely driven by the Dzyaloshinskii-Moriya interaction, offer significant potential for next-generation computing technologies due to their chirality and topological stability. Ferroelectric/ferromagnetic van der Waals heterostructures are particularly appealing because they can combine interfacial inversion-symmetry breaking and spin-orbit coupling to promote interfacial Dzyaloshinskii-Moriya interaction, while switchable ferroelectric polarization provides a nonvolatile tuning knob. This study investigates interfacial chiral spin textures in few-layer Fe$_3$GeTe$_2$/$\\alpha$-In$_2$Se$_3$ heterostructures. Two groups of topological Hall signals are identified just below and above the coercive field, and thickness-dependent transport reveals a notable reduction in critical temperature with increasing Fe$_3$GeTe$_2$ layer thickness. Low-temperature magnetic force microscopy images reveal two types of magnetic bubbles with opposite magnetic contrasts near the coercive field, each associated with distinct topological Hall signals. Together with atomistic spin-dynamics simulations and first-principles calculations, these results support the formation of interfacial DMI-stabilized chiral spin textures. Switching the ferroelectric polarization of the $\\alpha$-In$_2$Se$_3$ layer further enables nonvolatile modulation of both anomalous and topological Hall effects. The resulting ferroelectric and magnetic bistabilities generate four distinguishable Hall resistance states programmable by electric and magnetic fields. These findings highlight the potential of van der Waals interfaces for advanced device applications.。本站判断：在 Fe₃GeTe₂/α-In₂Se₃ 界面，矫顽场附近出现两组拓扑霍尔信号，低温 MFM 有相反磁对比气泡，模拟支持界面手性纹理。霍尔凸起并非 skyrmion 唯一证据，必须控制多通道普通霍尔与畴壁运动。。摘要只给研究主张，不能据此确定所有对照或因果。",
+        "type": "本站判断"
+      },
+      {
+        "id": "evidence-2",
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：Fe₃GeTe₂/α-In₂Se₃；摘要描述方法：二维铁磁/铁电异质结。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先比同一场区 MFM 气泡、Hall 双峰和铁电极化翻转，核对厚度依赖。；随后：做极化写入前后的空间 Hall 成像与多带背景拟合。。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "EDS、WDS、TEM、输运 多方法互证",
+      "reproducibility": "8/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2609.37547",
+    "title": "Screening of Coulomb Interactions in MoS2 Nanoribbons: Enhanced Coulomb interactions, Antiscreening, and Edge Magnetism",
+    "authors": "A. Montaghemi, H. Hadipour, A. Khademi, A. Yazdani",
+    "institutions": "作者机构需从论文首页逐一核对；本期不凭姓名猜测",
+    "journal": "arXiv（Materials Science (cond-mat.mtrl-sci)）",
+    "material": "MoS₂ 纳米带",
+    "method": "cRPA/第一性原理",
+    "category": "二维材料与量子器件",
+    "tags": [
+      "arXiv v1",
+      "摘要级",
+      "待全文补读"
+    ],
+    "abstract": "MoS2 has attracted significant attention for its promising applications in optoelectronics, owing to the remarkable stability of its excitons and trions. These quasiparticles have large binding energies that arise from the MoS2 moderate band gap and the unconventional screening of Coulomb interactions in low dimensions. Here, we investigate the screening of long-range Coulomb interactions in the 1H and 1T' phases of MoS2 across different dimensionalities, with particular emphasis on nanoribbons. Our analysis is based on first-principles calculations combined with the constrained random-phase approximation. This work presents a comparative study of MoS2, h-BN, black phosphorene, and graphene nanoribbons, with emphasis on the role of Coulomb interactions in shaping their electronic and magnetic properties. In one-dimensional nanoribbons, quantum confinement leads to a substantial enhancement of Coulomb interactions relative to 2D MoS2. Calculations show that the Hubbard U increases from 2.6 eV in the 2D system to nearly 3.5 eV in the semiconducting nanoribbons. In these systems, the Coulomb interaction is long-ranged, with its tail extending over more than 100 A, nearly twice of that in the 2D structure. The presence of asymmetric edge states involving d and p orbitals in non-hydrogen-passivated zigzag MoS2 nanoribbons, in contrast to phosphorene, h-BN, and graphene nanoribbons, results in a finite net magnetization.",
+    "conclusion": "计算把 MoS₂ 从二维片裁为纳米带后发现 Hubbard U 由约 2.6 eV 增至近 3.5 eV，长程库仑尾和边缘磁性随宽度/边界改变。它是结构与屏蔽的理论预测，不应写成已测磁性。",
+    "summary": "问题—样品—证据：摘要所能确定的范围：【仅基于摘要/元数据】MoS2 has attracted significant attention for its promising applications in optoelectronics, owing to the remarkable stability of its excitons and trions. These quasiparticles have large binding energies that arise from the MoS2 moderate band gap and the unconventional screening of Coulomb interactions in low dimensions. Here, we investigate the screening of long-range Coulomb interactions in the 1H and 1T' phases of MoS2 across different dimensionalities, with particular emphasis on nanoribbons. Our analysis is based on first-principles calculations combined with the constrained random-phase approximation. This work presents a comparative study of MoS2, h-BN, black phosphorene, and graphene nanoribbons, with emphasis on the role of Coulomb interactions in shaping their electronic and magnetic properties. In one-dimensional nanoribbons, quantum confinement leads to a substantial enhancement of Coulomb interactions relative to 2D MoS2. Calculations show that the Hubbard U increases from 2.6 eV in the 2D system to nearly 3.5 eV in the semiconducting nanoribbons. In these systems, the Coulomb interaction is long-ranged, with its tail extending over more than 100 A, nearly twice of that in the 2D structure. The presence of asymmetric edge states involving d and p orbitals in non-hydrogen-passivated zigzag MoS2 nanoribbons, in contrast to phosphorene, h-BN, and graphene nanoribbons, results in a finite net magnetization.。本站判断：计算把 MoS₂ 从二维片裁为纳米带后发现 Hubbard U 由约 2.6 eV 增至近 3.5 eV，长程库仑尾和边缘磁性随宽度/边界改变。它是结构与屏蔽的理论预测，不应写成已测磁性。。摘要只给研究主张，不能据此确定所有对照或因果。\n生长、质量与测量：待补读边界：材料/模型：MoS₂ 纳米带；摘要描述方法：cRPA/第一性原理。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。\n证据等级、局限与复现建议：【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看 cRPA 的筛选子空间与边缘终止模型，再核对 >100 Å 库仑尾。；随后：制备宽度序列，用 STS 测边缘谱和介电环境效应。。",
+    "year": 2026,
+    "published": "2026-09-29",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.37547",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2609.37547",
+    "reportUrl": "/reports/2026-09-30/#paper-19",
+    "access": "仅基于摘要/元数据：本次未实际核查正文和关键图，已列入正文补读清单；不计入精读。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】MoS2 has attracted significant attention for its promising applications in optoelectronics, owing to the remarkable stability of its excitons and trions. These quasiparticles have large binding energies that arise from the MoS2 moderate band gap and the unconventional screening of Coulomb interactions in low dimensions. Here, we investigate the screening of long-range Coulomb interactions in the 1H and 1T' phases of MoS2 across different dimensionalities, with particular emphasis on nanoribbons. Our analysis is based on first-principles calculations combined with the constrained random-phase approximation. This work presents a comparative study of MoS2, h-BN, black phosphorene, and graphene nanoribbons, with emphasis on the role of Coulomb interactions in shaping their electronic and magnetic properties. In one-dimensional nanoribbons, quantum confinement leads to a substantial enhancement of Coulomb interactions relative to 2D MoS2. Calculations show that the Hubbard U increases from 2.6 eV in the 2D system to nearly 3.5 eV in the semiconducting nanoribbons. In these systems, the Coulomb interaction is long-ranged, with its tail extending over more than 100 A, nearly twice of that in the 2D structure. The presence of asymmetric edge states involving d and p orbitals in non-hydrogen-passivated zigzag MoS2 nanoribbons, in contrast to phosphorene, h-BN, and graphene nanoribbons, results in a finite net magnetization.。本站判断：计算把 MoS₂ 从二维片裁为纳米带后发现 Hubbard U 由约 2.6 eV 增至近 3.5 eV，长程库仑尾和边缘磁性随宽度/边界改变。它是结构与屏蔽的理论预测，不应写成已测磁性。。摘要只给研究主张，不能据此确定所有对照或因果。"
+      },
+      {
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：MoS₂ 纳米带；摘要描述方法：cRPA/第一性原理。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。"
+      },
+      {
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看 cRPA 的筛选子空间与边缘终止模型，再核对 >100 Å 库仑尾。；随后：制备宽度序列，用 STS 测边缘谱和介电环境效应。。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜方向跟踪、待正文复核",
+      "first": "先看 cRPA 的筛选子空间与边缘终止模型，再核对 >100 Å 库仑尾。",
+      "focus": "核对摘要主张所依赖的具体图、对照样品及误差，不能据标题直接采用生长参数。",
+      "next": "制备宽度序列，用 STS 测边缘谱和介电环境效应。"
+    },
+    "growthRecipe": {
+      "material": "MoS₂ 纳米带",
+      "actualComposition": "EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对",
+      "method": "Flux",
+      "transportAgent": "",
+      "flux": "助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核",
+      "ratio": "原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "purity": "纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "vessel": "坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "atmosphere": "真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "crystalSize": "",
+      "yield": "产率：正文未报告或本次未核验",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 8,
+        "total": 15,
+        "ratio": 0.5333333333333333
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】MoS2 has attracted significant attention for its promising applications in optoelectronics, owing to the remarkable stability of its excitons and trions. These quasiparticles have large binding energies that arise from the MoS2 moderate band gap and the unconventional screening of Coulomb interactions in low dimensions. Here, we investigate the screening of long-range Coulomb interactions in the 1H and 1T' phases of MoS2 across different dimensionalities, with particular emphasis on nanoribbons. Our analysis is based on first-principles calculations combined with the constrained random-phase approximation. This work presents a comparative study of MoS2, h-BN, black phosphorene, and graphene nanoribbons, with emphasis on the role of Coulomb interactions in shaping their electronic and magnetic properties. In one-dimensional nanoribbons, quantum confinement leads to a substantial enhancement of Coulomb interactions relative to 2D MoS2. Calculations show that the Hubbard U increases from 2.6 eV in the 2D system to nearly 3.5 eV in the semiconducting nanoribbons. In these systems, the Coulomb interaction is long-ranged, with its tail extending over more than 100 A, nearly twice of that in the 2D structure. The presence of asymmetric edge states involving d and p orbitals in non-hydrogen-passivated zigzag MoS2 nanoribbons, in contrast to phosphorene, h-BN, and graphene nanoribbons, results in a finite net magnetization.。本站判断：计算把 MoS₂ 从二维片裁为纳米带后发现 Hubbard U 由约 2.6 eV 增至近 3.5 eV，长程库仑尾和边缘磁性随宽度/边界改变。它是结构与屏蔽的理论预测，不应写成已测磁性。。摘要只给研究主张，不能据此确定所有对照或因果。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-2",
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：MoS₂ 纳米带；摘要描述方法：cRPA/第一性原理。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看 cRPA 的筛选子空间与边缘终止模型，再核对 >100 Å 库仑尾。；随后：制备宽度序列，用 STS 测边缘谱和介电环境效应。。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "EDS、WDS、TEM、输运 多方法互证",
+      "reproducibility": "8/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2609.37689",
+    "title": "Switching Anomalous Hall and Nernst Responses by Nonmagnetic N Occupation at Fixed Noncoplanar Mn Antiferromagnetic Order",
+    "authors": "Xin Liu, Jiyuan Xu, Li Ma, Guoke Li, Dewei Zhao, Congmian Zhen, Denglu Hou",
+    "institutions": "作者机构需从论文首页逐一核对；本期不凭姓名猜测",
+    "journal": "arXiv（Materials Science (cond-mat.mtrl-sci)）",
+    "material": "γ-Mn/Mn₄N/MnN",
+    "method": "对称性与 Berry 曲率计算",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "arXiv v1",
+      "摘要级",
+      "待全文补读"
+    ],
+    "abstract": "Nonmagnetic atomic occupation can control anomalous transverse transport by modifying magnetic symmetry without changing the underlying magnetic order. We demonstrate this effect using controlled $\\gamma$-Mn, Mn$_4$N, and MnN reference states with the same lattice constant and identical noncoplanar all-in-all-out Mn magnetic configurations, while varying only the occupation of the N sublattice. The anomalous Hall and anomalous Nernst responses exhibit a pronounced zero--finite--zero evolution across the series despite the unchanged Mn spin order. In $\\gamma$-Mn and MnN, the high magnetic symmetry enforces complete cancellation of the Brillouin-zone-integrated Berry curvature. In Mn$_4$N, N occupation lowers the magnetic symmetry while preserving inversion and breaking the relevant twofold rotational symmetries, thereby lifting the cancellation constraint and permitting an uncompensated Berry-curvature contribution along the [111] direction. The resulting finite anomalous Hall conductivity reaches $-126$~S/cm near the Fermi level. These results establish nonmagnetic sublattice occupation as a symmetry-control parameter for Berry-curvature-driven transport in compensated antiferromagnets, independent of changes in the magnetic order.",
+    "conclusion": "在固定同一非共线 Mn 自旋构型和晶格常数时，只改非磁性 N 子晶格占位，异常霍尔/能斯特出现零—非零—零；Mn₄N 计算的异常霍尔电导约 −126 S/cm。控制变量设计明确，但固定自旋序的模型比较不代表三材料在实验中真有相同磁态。",
+    "summary": "问题—样品—证据：摘要所能确定的范围：【仅基于摘要/元数据】Nonmagnetic atomic occupation can control anomalous transverse transport by modifying magnetic symmetry without changing the underlying magnetic order. We demonstrate this effect using controlled $\\gamma$-Mn, Mn$_4$N, and MnN reference states with the same lattice constant and identical noncoplanar all-in-all-out Mn magnetic configurations, while varying only the occupation of the N sublattice. The anomalous Hall and anomalous Nernst responses exhibit a pronounced zero--finite--zero evolution across the series despite the unchanged Mn spin order. In $\\gamma$-Mn and MnN, the high magnetic symmetry enforces complete cancellation of the Brillouin-zone-integrated Berry curvature. In Mn$_4$N, N occupation lowers the magnetic symmetry while preserving inversion and breaking the relevant twofold rotational symmetries, thereby lifting the cancellation constraint and permitting an uncompensated Berry-curvature contribution along the [111] direction. The resulting finite anomalous Hall conductivity reaches $-126$~S/cm near the Fermi level. These results establish nonmagnetic sublattice occupation as a symmetry-control parameter for Berry-curvature-driven transport in compensated antiferromagnets, independent of changes in the magnetic order.。本站判断：在固定同一非共线 Mn 自旋构型和晶格常数时，只改非磁性 N 子晶格占位，异常霍尔/能斯特出现零—非零—零；Mn₄N 计算的异常霍尔电导约 −126 S/cm。控制变量设计明确，但固定自旋序的模型比较不代表三材料在实验中真有相同磁态。。摘要只给研究主张，不能据此确定所有对照或因果。\n生长、质量与测量：待补读边界：材料/模型：γ-Mn/Mn₄N/MnN；摘要描述方法：对称性与 Berry 曲率计算。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。\n证据等级、局限与复现建议：【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看磁空间群消零条件和 [111] Berry 曲率图，核对相同自旋输入。；随后：在同一外延平台调氮含量并直接测中子/霍尔。。",
+    "year": 2026,
+    "published": "2026-09-29",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.37689",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2609.37689",
+    "reportUrl": "/reports/2026-09-30/#paper-20",
+    "access": "仅基于摘要/元数据：本次未实际核查正文和关键图，已列入正文补读清单；不计入精读。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Nonmagnetic atomic occupation can control anomalous transverse transport by modifying magnetic symmetry without changing the underlying magnetic order. We demonstrate this effect using controlled $\\gamma$-Mn, Mn$_4$N, and MnN reference states with the same lattice constant and identical noncoplanar all-in-all-out Mn magnetic configurations, while varying only the occupation of the N sublattice. The anomalous Hall and anomalous Nernst responses exhibit a pronounced zero--finite--zero evolution across the series despite the unchanged Mn spin order. In $\\gamma$-Mn and MnN, the high magnetic symmetry enforces complete cancellation of the Brillouin-zone-integrated Berry curvature. In Mn$_4$N, N occupation lowers the magnetic symmetry while preserving inversion and breaking the relevant twofold rotational symmetries, thereby lifting the cancellation constraint and permitting an uncompensated Berry-curvature contribution along the [111] direction. The resulting finite anomalous Hall conductivity reaches $-126$~S/cm near the Fermi level. These results establish nonmagnetic sublattice occupation as a symmetry-control parameter for Berry-curvature-driven transport in compensated antiferromagnets, independent of changes in the magnetic order.。本站判断：在固定同一非共线 Mn 自旋构型和晶格常数时，只改非磁性 N 子晶格占位，异常霍尔/能斯特出现零—非零—零；Mn₄N 计算的异常霍尔电导约 −126 S/cm。控制变量设计明确，但固定自旋序的模型比较不代表三材料在实验中真有相同磁态。。摘要只给研究主张，不能据此确定所有对照或因果。"
+      },
+      {
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：γ-Mn/Mn₄N/MnN；摘要描述方法：对称性与 Berry 曲率计算。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。"
+      },
+      {
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看磁空间群消零条件和 [111] Berry 曲率图，核对相同自旋输入。；随后：在同一外延平台调氮含量并直接测中子/霍尔。。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜方向跟踪、待正文复核",
+      "first": "先看磁空间群消零条件和 [111] Berry 曲率图，核对相同自旋输入。",
+      "focus": "核对摘要主张所依赖的具体图、对照样品及误差，不能据标题直接采用生长参数。",
+      "next": "在同一外延平台调氮含量并直接测中子/霍尔。"
+    },
+    "growthRecipe": {
+      "material": "γ-Mn/Mn₄N/MnN",
+      "actualComposition": "EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对",
+      "method": "Flux",
+      "transportAgent": "",
+      "flux": "助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核",
+      "ratio": "原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "purity": "纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "vessel": "坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "atmosphere": "真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "crystalSize": "",
+      "yield": "产率：正文未报告或本次未核验",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 8,
+        "total": 15,
+        "ratio": 0.5333333333333333
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Nonmagnetic atomic occupation can control anomalous transverse transport by modifying magnetic symmetry without changing the underlying magnetic order. We demonstrate this effect using controlled $\\gamma$-Mn, Mn$_4$N, and MnN reference states with the same lattice constant and identical noncoplanar all-in-all-out Mn magnetic configurations, while varying only the occupation of the N sublattice. The anomalous Hall and anomalous Nernst responses exhibit a pronounced zero--finite--zero evolution across the series despite the unchanged Mn spin order. In $\\gamma$-Mn and MnN, the high magnetic symmetry enforces complete cancellation of the Brillouin-zone-integrated Berry curvature. In Mn$_4$N, N occupation lowers the magnetic symmetry while preserving inversion and breaking the relevant twofold rotational symmetries, thereby lifting the cancellation constraint and permitting an uncompensated Berry-curvature contribution along the [111] direction. The resulting finite anomalous Hall conductivity reaches $-126$~S/cm near the Fermi level. These results establish nonmagnetic sublattice occupation as a symmetry-control parameter for Berry-curvature-driven transport in compensated antiferromagnets, independent of changes in the magnetic order.。本站判断：在固定同一非共线 Mn 自旋构型和晶格常数时，只改非磁性 N 子晶格占位，异常霍尔/能斯特出现零—非零—零；Mn₄N 计算的异常霍尔电导约 −126 S/cm。控制变量设计明确，但固定自旋序的模型比较不代表三材料在实验中真有相同磁态。。摘要只给研究主张，不能据此确定所有对照或因果。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-2",
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：γ-Mn/Mn₄N/MnN；摘要描述方法：对称性与 Berry 曲率计算。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看磁空间群消零条件和 [111] Berry 曲率图，核对相同自旋输入。；随后：在同一外延平台调氮含量并直接测中子/霍尔。。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "EDS、WDS、输运；证据仍可补强",
+      "reproducibility": "8/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2609.37707",
+    "title": "Chemical-Disorder-Induced Non-metallic Transport in Thermodynamically Metallic Mo4TGa16Ge (T = Co, Rh or Ir)",
+    "authors": "Chaoguo Wang, Jiaqi Tian, Xin Gui",
+    "institutions": "作者机构需从论文首页逐一核对；本期不凭姓名猜测",
+    "journal": "arXiv（Materials Science (cond-mat.mtrl-sci); Strongly Correlated Electrons (cond-mat.str-el)）",
+    "material": "Mo₄TGa₁₆Ge（T=Co/Rh/Ir）",
+    "method": "新化合物结构/输运",
+    "category": "晶体生长和物性调控",
+    "tags": [
+      "arXiv v1",
+      "摘要级",
+      "待全文补读"
+    ],
+    "abstract": "Flat-band electronic states can be highly sensitive to chemical perturbations, offering opportunities to access a broader range of electronic behaviors beyond that of parent materials. Here, we report the discovery of a new series of compounds, Mo4TGa16Ge (T = Co, Rh, or Ir), derived from the strongly correlated flat-band superconductor, Mo4PtGa17, via nominally preserving the total valence electron counts. All three materials crystallize in a noncentrosymmetric cubic space group, F-43m, with Ge selectively occupying one of the Ga sites in the parent compound. Although the total electron count remains the same, Mo4TGa16Ge exhibits significantly distinct properties from Mo4PtGa17. Theoretical calculations predict metallic electronic structures with narrow, dominant Mo-d states at the Fermi energy, while low-temperature heat capacity results demonstrate finite Sommerfeld coefficients. However, electrical transport measurements show predominantly non-metallic behaviors with small observed activation energies, excluding the possibilities of conventional semiconducting behaviors. Combining chemical bonding analysis, electronic structure and compositional determination from X-ray crystallography and spectroscopy, we propose that the coexistence of the non-metallic transport features and the thermodynamically metallic behaviors can be attributed to the high sensitivity of the narrow-band materials to chemical disorders. Thus, the discovery and investigation of Mo4TGa16Ge provide a chemically tunable platform for studying disorder-controlled transport in flat-band intermetallics.",
+    "conclusion": "从平带超导 Mo₄PtGa₁₇ 的电子计数等价替换得到三种非中心对称 F-43m 新相；计算与比热指向金属态，实际电阻却呈非金属型，作者归于化学无序。比热 γ 与小激活能说明简单半导体图像不足，但局域无序分布仍需直接成像。",
+    "summary": "问题—样品—证据：摘要所能确定的范围：【仅基于摘要/元数据】Flat-band electronic states can be highly sensitive to chemical perturbations, offering opportunities to access a broader range of electronic behaviors beyond that of parent materials. Here, we report the discovery of a new series of compounds, Mo4TGa16Ge (T = Co, Rh, or Ir), derived from the strongly correlated flat-band superconductor, Mo4PtGa17, via nominally preserving the total valence electron counts. All three materials crystallize in a noncentrosymmetric cubic space group, F-43m, with Ge selectively occupying one of the Ga sites in the parent compound. Although the total electron count remains the same, Mo4TGa16Ge exhibits significantly distinct properties from Mo4PtGa17. Theoretical calculations predict metallic electronic structures with narrow, dominant Mo-d states at the Fermi energy, while low-temperature heat capacity results demonstrate finite Sommerfeld coefficients. However, electrical transport measurements show predominantly non-metallic behaviors with small observed activation energies, excluding the possibilities of conventional semiconducting behaviors. Combining chemical bonding analysis, electronic structure and compositional determination from X-ray crystallography and spectroscopy, we propose that the coexistence of the non-metallic transport features and the thermodynamically metallic behaviors can be attributed to the high sensitivity of the narrow-band materials to chemical disorders. Thus, the discovery and investigation of Mo4TGa16Ge provide a chemically tunable platform for studying disorder-controlled transport in flat-band intermetallics.。本站判断：从平带超导 Mo₄PtGa₁₇ 的电子计数等价替换得到三种非中心对称 F-43m 新相；计算与比热指向金属态，实际电阻却呈非金属型，作者归于化学无序。比热 γ 与小激活能说明简单半导体图像不足，但局域无序分布仍需直接成像。。摘要只给研究主张，不能据此确定所有对照或因果。\n生长、质量与测量：待补读边界：材料/模型：Mo₄TGa₁₆Ge（T=Co/Rh/Ir）；摘要描述方法：新化合物结构/输运。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。\n证据等级、局限与复现建议：【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先比三成员单晶结构占位、EDS 与 ρ(T) 激活窗口。；随后：做退火/生长速率矩阵，看无序和 RRR/γ 的协变。。",
+    "year": 2026,
+    "published": "2026-09-29",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.37707",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2609.37707",
+    "reportUrl": "/reports/2026-09-30/#paper-21",
+    "access": "仅基于摘要/元数据：本次未实际核查正文和关键图，已列入正文补读清单；不计入精读。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Flat-band electronic states can be highly sensitive to chemical perturbations, offering opportunities to access a broader range of electronic behaviors beyond that of parent materials. Here, we report the discovery of a new series of compounds, Mo4TGa16Ge (T = Co, Rh, or Ir), derived from the strongly correlated flat-band superconductor, Mo4PtGa17, via nominally preserving the total valence electron counts. All three materials crystallize in a noncentrosymmetric cubic space group, F-43m, with Ge selectively occupying one of the Ga sites in the parent compound. Although the total electron count remains the same, Mo4TGa16Ge exhibits significantly distinct properties from Mo4PtGa17. Theoretical calculations predict metallic electronic structures with narrow, dominant Mo-d states at the Fermi energy, while low-temperature heat capacity results demonstrate finite Sommerfeld coefficients. However, electrical transport measurements show predominantly non-metallic behaviors with small observed activation energies, excluding the possibilities of conventional semiconducting behaviors. Combining chemical bonding analysis, electronic structure and compositional determination from X-ray crystallography and spectroscopy, we propose that the coexistence of the non-metallic transport features and the thermodynamically metallic behaviors can be attributed to the high sensitivity of the narrow-band materials to chemical disorders. Thus, the discovery and investigation of Mo4TGa16Ge provide a chemically tunable platform for studying disorder-controlled transport in flat-band intermetallics.。本站判断：从平带超导 Mo₄PtGa₁₇ 的电子计数等价替换得到三种非中心对称 F-43m 新相；计算与比热指向金属态，实际电阻却呈非金属型，作者归于化学无序。比热 γ 与小激活能说明简单半导体图像不足，但局域无序分布仍需直接成像。。摘要只给研究主张，不能据此确定所有对照或因果。"
+      },
+      {
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：Mo₄TGa₁₆Ge（T=Co/Rh/Ir）；摘要描述方法：新化合物结构/输运。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。"
+      },
+      {
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先比三成员单晶结构占位、EDS 与 ρ(T) 激活窗口。；随后：做退火/生长速率矩阵，看无序和 RRR/γ 的协变。。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜方向跟踪、待正文复核",
+      "first": "先比三成员单晶结构占位、EDS 与 ρ(T) 激活窗口。",
+      "focus": "核对摘要主张所依赖的具体图、对照样品及误差，不能据标题直接采用生长参数。",
+      "next": "做退火/生长速率矩阵，看无序和 RRR/γ 的协变。"
+    },
+    "growthRecipe": {
+      "material": "Mo₄TGa₁₆Ge（T=Co/Rh/Ir）",
+      "actualComposition": "EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对",
+      "method": "Flux",
+      "transportAgent": "",
+      "flux": "助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核",
+      "ratio": "原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "purity": "纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "vessel": "坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "atmosphere": "真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "crystalSize": "",
+      "yield": "产率：正文未报告或本次未核验",
+      "qualityMetrics": [
+        "RRR/γ 的协变"
+      ],
+      "completeness": {
+        "reported": 8,
+        "total": 15,
+        "ratio": 0.5333333333333333
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Flat-band electronic states can be highly sensitive to chemical perturbations, offering opportunities to access a broader range of electronic behaviors beyond that of parent materials. Here, we report the discovery of a new series of compounds, Mo4TGa16Ge (T = Co, Rh, or Ir), derived from the strongly correlated flat-band superconductor, Mo4PtGa17, via nominally preserving the total valence electron counts. All three materials crystallize in a noncentrosymmetric cubic space group, F-43m, with Ge selectively occupying one of the Ga sites in the parent compound. Although the total electron count remains the same, Mo4TGa16Ge exhibits significantly distinct properties from Mo4PtGa17. Theoretical calculations predict metallic electronic structures with narrow, dominant Mo-d states at the Fermi energy, while low-temperature heat capacity results demonstrate finite Sommerfeld coefficients. However, electrical transport measurements show predominantly non-metallic behaviors with small observed activation energies, excluding the possibilities of conventional semiconducting behaviors. Combining chemical bonding analysis, electronic structure and compositional determination from X-ray crystallography and spectroscopy, we propose that the coexistence of the non-metallic transport features and the thermodynamically metallic behaviors can be attributed to the high sensitivity of the narrow-band materials to chemical disorders. Thus, the discovery and investigation of Mo4TGa16Ge provide a chemically tunable platform for studying disorder-controlled transport in flat-band intermetallics.。本站判断：从平带超导 Mo₄PtGa₁₇ 的电子计数等价替换得到三种非中心对称 F-43m 新相；计算与比热指向金属态，实际电阻却呈非金属型，作者归于化学无序。比热 γ 与小激活能说明简单半导体图像不足，但局域无序分布仍需直接成像。。摘要只给研究主张，不能据此确定所有对照或因果。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-2",
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：Mo₄TGa₁₆Ge（T=Co/Rh/Ir）；摘要描述方法：新化合物结构/输运。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先比三成员单晶结构占位、EDS 与 ρ(T) 激活窗口。；随后：做退火/生长速率矩阵，看无序和 RRR/γ 的协变。。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "EDS、WDS、TEM、比热 多方法互证",
+      "reproducibility": "8/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2609.37720",
+    "title": "Pronounced Site Preference in Cr-Doped Mn-Based M-Type Hexaferrites and Its Chemical Origins",
+    "authors": "Dylan Correll, Susheng Tan, Evan Wang, Xin Gui",
+    "institutions": "作者机构需从论文首页逐一核对；本期不凭姓名猜测",
+    "journal": "arXiv（Materials Science (cond-mat.mtrl-sci)）",
+    "material": "Cr 掺杂 KSb₃Mn₉O₁₉",
+    "method": "掺杂晶体结构与磁性",
+    "category": "晶体生长和物性调控",
+    "tags": [
+      "arXiv v1",
+      "摘要级",
+      "待全文补读"
+    ],
+    "abstract": "Cation distribution plays a critical role in determining the properties of crystalline oxides. Understanding the chemical factors that govern cation distribution is therefore essential for the rational design of cation-ordered materials, particularly frustrated magnets in which structural disorder can strongly affect the magnetic ground state. Here, we investigate the origin and evolution of cation distribution in the extensively studied M-type hexaferrite structure using the first Mn-based M-type hexaferrite, KSb3Mn9O19, as a model system. A systematic Cr3+-doped series, KSb3(Mn1-xCrx)9O19, was examined using powder and single-crystal X-ray diffraction, electron microscopy, and energy-dispersive X-ray spectroscopy. Cr3+ exhibits a pronounced preference for the Mn Kagome sublattice, accompanied by the evolution of Mn vacancies and Mn3+/Sb3+ disorder on neighboring sites. Analysis of the local coordination environments and their evolution with Cr content suggests that crystal-field effects, chemical bonding, and local structural strain collectively govern this site selectivity. The magnetic properties of the Cr-doped compounds show similar behaviors as the undoped parent compound, other than the doping-induced spin-glass state at the highest Cr concentration, supported by heat capacity measurements. These results establish a chemical picture of cation site distribution and selection in M-type hexaferrites and demonstrate how substitution at one crystallographic site can induce coupled redistribution and disorder across neighboring sublattices. Moreover, this work establishes local coordination chemistry as a route toward understanding and ultimately controlling cation distribution in complex oxides, providing chemical design principles for structurally well-defined frustrated magnetic materials.",
+    "conclusion": "Cr³⁺ 优先占据 Mn kagome 子晶格，同时牵动 Mn 空位与 Mn³⁺/Sb³⁺ 邻位无序；磁性对掺杂并非简单线性响应。单晶 XRD/显微成分能约束平均占位，但局部键价和缺陷关联仍待测。",
+    "summary": "问题—样品—证据：摘要所能确定的范围：【仅基于摘要/元数据】Cation distribution plays a critical role in determining the properties of crystalline oxides. Understanding the chemical factors that govern cation distribution is therefore essential for the rational design of cation-ordered materials, particularly frustrated magnets in which structural disorder can strongly affect the magnetic ground state. Here, we investigate the origin and evolution of cation distribution in the extensively studied M-type hexaferrite structure using the first Mn-based M-type hexaferrite, KSb3Mn9O19, as a model system. A systematic Cr3+-doped series, KSb3(Mn1-xCrx)9O19, was examined using powder and single-crystal X-ray diffraction, electron microscopy, and energy-dispersive X-ray spectroscopy. Cr3+ exhibits a pronounced preference for the Mn Kagome sublattice, accompanied by the evolution of Mn vacancies and Mn3+/Sb3+ disorder on neighboring sites. Analysis of the local coordination environments and their evolution with Cr content suggests that crystal-field effects, chemical bonding, and local structural strain collectively govern this site selectivity. The magnetic properties of the Cr-doped compounds show similar behaviors as the undoped parent compound, other than the doping-induced spin-glass state at the highest Cr concentration, supported by heat capacity measurements. These results establish a chemical picture of cation site distribution and selection in M-type hexaferrites and demonstrate how substitution at one crystallographic site can induce coupled redistribution and disorder across neighboring sublattices. Moreover, this work establishes local coordination chemistry as a route toward understanding and ultimately controlling cation distribution in complex oxides, providing chemical design principles for structurally well-defined frustrated magnetic materials.。本站判断：Cr³⁺ 优先占据 Mn kagome 子晶格，同时牵动 Mn 空位与 Mn³⁺/Sb³⁺ 邻位无序；磁性对掺杂并非简单线性响应。单晶 XRD/显微成分能约束平均占位，但局部键价和缺陷关联仍待测。。摘要只给研究主张，不能据此确定所有对照或因果。\n生长、质量与测量：待补读边界：材料/模型：Cr 掺杂 KSb₃Mn₉O₁₉；摘要描述方法：掺杂晶体结构与磁性。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。\n证据等级、局限与复现建议：【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看 Cr 占位精修及 EDS/显微对照，核对名义 x 与实际 x。；随后：沿 x 做逐粒 WDS 和磁转变宽度关联。。",
+    "year": 2026,
+    "published": "2026-09-29",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.37720",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2609.37720",
+    "reportUrl": "/reports/2026-09-30/#paper-22",
+    "access": "仅基于摘要/元数据：本次未实际核查正文和关键图，已列入正文补读清单；不计入精读。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Cation distribution plays a critical role in determining the properties of crystalline oxides. Understanding the chemical factors that govern cation distribution is therefore essential for the rational design of cation-ordered materials, particularly frustrated magnets in which structural disorder can strongly affect the magnetic ground state. Here, we investigate the origin and evolution of cation distribution in the extensively studied M-type hexaferrite structure using the first Mn-based M-type hexaferrite, KSb3Mn9O19, as a model system. A systematic Cr3+-doped series, KSb3(Mn1-xCrx)9O19, was examined using powder and single-crystal X-ray diffraction, electron microscopy, and energy-dispersive X-ray spectroscopy. Cr3+ exhibits a pronounced preference for the Mn Kagome sublattice, accompanied by the evolution of Mn vacancies and Mn3+/Sb3+ disorder on neighboring sites. Analysis of the local coordination environments and their evolution with Cr content suggests that crystal-field effects, chemical bonding, and local structural strain collectively govern this site selectivity. The magnetic properties of the Cr-doped compounds show similar behaviors as the undoped parent compound, other than the doping-induced spin-glass state at the highest Cr concentration, supported by heat capacity measurements. These results establish a chemical picture of cation site distribution and selection in M-type hexaferrites and demonstrate how substitution at one crystallographic site can induce coupled redistribution and disorder across neighboring sublattices. Moreover, this work establishes local coordination chemistry as a route toward understanding and ultimately controlling cation distribution in complex oxides, providing chemical design principles for structurally well-defined frustrated magnetic materials.。本站判断：Cr³⁺ 优先占据 Mn kagome 子晶格，同时牵动 Mn 空位与 Mn³⁺/Sb³⁺ 邻位无序；磁性对掺杂并非简单线性响应。单晶 XRD/显微成分能约束平均占位，但局部键价和缺陷关联仍待测。。摘要只给研究主张，不能据此确定所有对照或因果。"
+      },
+      {
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：Cr 掺杂 KSb₃Mn₉O₁₉；摘要描述方法：掺杂晶体结构与磁性。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。"
+      },
+      {
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看 Cr 占位精修及 EDS/显微对照，核对名义 x 与实际 x。；随后：沿 x 做逐粒 WDS 和磁转变宽度关联。。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜方向跟踪、待正文复核",
+      "first": "先看 Cr 占位精修及 EDS/显微对照，核对名义 x 与实际 x。",
+      "focus": "核对摘要主张所依赖的具体图、对照样品及误差，不能据标题直接采用生长参数。",
+      "next": "沿 x 做逐粒 WDS 和磁转变宽度关联。"
+    },
+    "growthRecipe": {
+      "material": "Cr 掺杂 KSb₃Mn₉O₁₉",
+      "actualComposition": "EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对",
+      "method": "Flux",
+      "transportAgent": "",
+      "flux": "助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核",
+      "ratio": "原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "purity": "纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "vessel": "坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "atmosphere": "真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "crystalSize": "",
+      "yield": "产率：正文未报告或本次未核验",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 8,
+        "total": 15,
+        "ratio": 0.5333333333333333
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Cation distribution plays a critical role in determining the properties of crystalline oxides. Understanding the chemical factors that govern cation distribution is therefore essential for the rational design of cation-ordered materials, particularly frustrated magnets in which structural disorder can strongly affect the magnetic ground state. Here, we investigate the origin and evolution of cation distribution in the extensively studied M-type hexaferrite structure using the first Mn-based M-type hexaferrite, KSb3Mn9O19, as a model system. A systematic Cr3+-doped series, KSb3(Mn1-xCrx)9O19, was examined using powder and single-crystal X-ray diffraction, electron microscopy, and energy-dispersive X-ray spectroscopy. Cr3+ exhibits a pronounced preference for the Mn Kagome sublattice, accompanied by the evolution of Mn vacancies and Mn3+/Sb3+ disorder on neighboring sites. Analysis of the local coordination environments and their evolution with Cr content suggests that crystal-field effects, chemical bonding, and local structural strain collectively govern this site selectivity. The magnetic properties of the Cr-doped compounds show similar behaviors as the undoped parent compound, other than the doping-induced spin-glass state at the highest Cr concentration, supported by heat capacity measurements. These results establish a chemical picture of cation site distribution and selection in M-type hexaferrites and demonstrate how substitution at one crystallographic site can induce coupled redistribution and disorder across neighboring sublattices. Moreover, this work establishes local coordination chemistry as a route toward understanding and ultimately controlling cation distribution in complex oxides, providing chemical design principles for structurally well-defined frustrated magnetic materials.。本站判断：Cr³⁺ 优先占据 Mn kagome 子晶格，同时牵动 Mn 空位与 Mn³⁺/Sb³⁺ 邻位无序；磁性对掺杂并非简单线性响应。单晶 XRD/显微成分能约束平均占位，但局部键价和缺陷关联仍待测。。摘要只给研究主张，不能据此确定所有对照或因果。",
+        "type": "作者推断"
+      },
+      {
+        "id": "evidence-2",
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：Cr 掺杂 KSb₃Mn₉O₁₉；摘要描述方法：掺杂晶体结构与磁性。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看 Cr 占位精修及 EDS/显微对照，核对名义 x 与实际 x。；随后：沿 x 做逐粒 WDS 和磁转变宽度关联。。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "XRD、EDS、WDS、TEM 多方法互证",
+      "reproducibility": "8/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2609.37792",
+    "title": "From Chemical Complexity to Tunable Magnetic Ordering in Highly Disordered High-Entropy Spinel Oxides",
+    "authors": "Neha Sharma, Sushanta Mandal, Nikita Sharma, Amritpal, Sangeeta Thakur, Viktor Ukleev, Chen Luo, Florin Radu, S. D. Kaushik, Tirthankar Chakraborty, Sanjoy Kr. Mahatha, Denis Pelloquin, Sourav Marik",
+    "institutions": "作者高熵氧化物合作团队；逐位机构见公开稿首页",
+    "journal": "arXiv（Materials Science (cond-mat.mtrl-sci); Strongly Correlated Electrons (cond-mat.str-el)）",
+    "material": "高熵尖晶石 (Ni,Mg,Co,Cu,Zn)B₂O₄",
+    "method": "多组分 B 位固相合成",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "arXiv v1",
+      "全文精读",
+      "实际读正文"
+    ],
+    "abstract": "High-entropy stabilization chemistry is redefining materials design by transforming configurational disorder, arising from the deliberate incorporation of multiple principal cations, into a thermodynamic advantage that promotes phase stability and enables emergent functionalities. In this work, we investigate the evolution of magnetic ordering in spinel-type high entropy oxides by systematically varying the cation composition of the B site within a fixed high-entropy A-site matrix, (Ni$_{0.2}$Mg$_{0.2}$Co$_{0.2}$Cu$_{0.2}$Zn$_{0.2}$)B$_2$O$_4$. Upon introducing multicomponent B-site configurations, we uncover a strikingly linear dependence of the magnetic transition temperature (T$_C$) on the T$_C$s of the corresponding single B-site high-entropy systems. Remarkably, this trend persists even in highly complex (Ni$_{0.2}$Mg$_{0.2}$Co$_{0.2}$Cu$_{0.2}$Zn$_{0.2}$)(Cr$_{0.2}$Mn$_{0.2}$Fe$_{0.2}$Ga$_{0.2}$X$_{0.2}$)$_2$O$_4$, X = Al and Ti. Despite the material's extremely high degree of disorder, absence of a dominant magnetic ion or a straightforward superexchange pathway, detailed magnetization measurements, low-temperature X-ray magnetic circular dichroism, and neutron powder diffraction studies reveal robust long-range ferrimagnetic ordering. These results reveal an emergent predictability in ferrimagnetic high-entropy spinel oxides, where, despite extreme configurational disorder and competing interactions, robust ferrimagnetic order can arise from, rather than be hindered by, extreme configurational disorder. This establishes a pathway for predictively tuning magnetic transition temperatures in high-entropy oxides beyond conventional ordered systems.",
+    "conclusion": "固定五元 A 位而系统改变 B 位，磁转变温度近似随单组分参照体系线性组合，尽管磁离子和超交换路径高度无序。磁化、XMCD、中子粉末衍射一起约束磁序；线性律是否跨所有阳离子价态仍需盲测。",
+    "summary": "问题与配方结构：高熵氧化物中磁性几乎总伴多阳离子无序，很难判断 Tc 是平均化学、局域团簇还是某一主导交换路径决定。作者固定 A=(Ni₀.₂Mg₀.₂Co₀.₂Cu₀.₂Zn₀.₂)，系统改变 B 位 Cr/Mn/Fe/Ga/Al/Ti 等配比，以统一基体比较不同复杂度。其核心不是“高熵必然有新磁序”，而是把多 B 位样品的 Tc 与单 B 位基准样品 Tc 作线性预测，发现强无序下仍有近线性规律。材料为多晶尖晶石研究，不能误写为单晶 Flux 产物。\n样品与证据：Fig.1 展示组成—转变温度矩阵；室温粉末 XRD 和 Raman 检查尖晶石相及局域振动，HAADF-STEM 检查纳米尺度结构；磁化给宏观 Tc，元素分辨低温 XMCD 与中子粉末衍射为磁性来源和序结构提供互证。粉末 XRD 单相并不保证阳离子在所有长度尺度随机混合，中子精修与 XMCD 的局域/元素敏感证据尤关键。作者比较含 B=(Cr₀.₂Mn₀.₂Fe₀.₂Ga₀.₂X₀.₂) 且 X=Al/Ti 的极端无序配方，说明线性趋势没有只停留在二元掺杂。\n分析边界与下一批：【直接观察】各配方磁转变、结构谱、XMCD/中子数据；【拟合】Tc 与基准线性权重关系；【作者推断】平均交换能有效支配转变温度；【本站判断】经验预测力值得关注，但若氧非化学计量、阳离子价态或局部相分离同步变化，线性相关不等于简单平均超交换机制。建议开展留一配方交叉验证，先用已有单 B 位样品预报未制备的混合 B 位 Tc，然后盲测；每批记录氧含量、XPS/XANES 价态、XRD 粒径和磁滞宽度。若未来能生长单晶，应以相同配方比较多晶应力和颗粒边界影响。",
+    "year": 2026,
+    "published": "2026-09-29",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.37792",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/html/2609.37792",
+    "reportUrl": "/reports/2026-09-30/#paper-23",
+    "access": "全文精读：实际读取 arXiv 公开正文、所列 Methods/实验段及关键图注；未另取 SI 不声称已读 SI。已核正文组成矩阵、Fig.1–4 图注、XRD/Raman、XMCD/中子与结论。",
+    "rating": "A",
+    "sections": [
+      {
+        "title": "问题与配方结构",
+        "text": "高熵氧化物中磁性几乎总伴多阳离子无序，很难判断 Tc 是平均化学、局域团簇还是某一主导交换路径决定。作者固定 A=(Ni₀.₂Mg₀.₂Co₀.₂Cu₀.₂Zn₀.₂)，系统改变 B 位 Cr/Mn/Fe/Ga/Al/Ti 等配比，以统一基体比较不同复杂度。其核心不是“高熵必然有新磁序”，而是把多 B 位样品的 Tc 与单 B 位基准样品 Tc 作线性预测，发现强无序下仍有近线性规律。材料为多晶尖晶石研究，不能误写为单晶 Flux 产物。"
+      },
+      {
+        "title": "样品与证据",
+        "text": "Fig.1 展示组成—转变温度矩阵；室温粉末 XRD 和 Raman 检查尖晶石相及局域振动，HAADF-STEM 检查纳米尺度结构；磁化给宏观 Tc，元素分辨低温 XMCD 与中子粉末衍射为磁性来源和序结构提供互证。粉末 XRD 单相并不保证阳离子在所有长度尺度随机混合，中子精修与 XMCD 的局域/元素敏感证据尤关键。作者比较含 B=(Cr₀.₂Mn₀.₂Fe₀.₂Ga₀.₂X₀.₂) 且 X=Al/Ti 的极端无序配方，说明线性趋势没有只停留在二元掺杂。"
+      },
+      {
+        "title": "分析边界与下一批",
+        "text": "【直接观察】各配方磁转变、结构谱、XMCD/中子数据；【拟合】Tc 与基准线性权重关系；【作者推断】平均交换能有效支配转变温度；【本站判断】经验预测力值得关注，但若氧非化学计量、阳离子价态或局部相分离同步变化，线性相关不等于简单平均超交换机制。建议开展留一配方交叉验证，先用已有单 B 位样品预报未制备的混合 B 位 Tc，然后盲测；每批记录氧含量、XPS/XANES 价态、XRD 粒径和磁滞宽度。若未来能生长单晶，应以相同配方比较多晶应力和颗粒边界影响。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A｜重点阅读",
+      "first": "先看 Fig.1 的 B 位配方与 Fig.2/4 的 XRD/Raman，再核对 XMCD 中元素分辨磁矩。",
+      "focus": "核对固定 A 位五元组、B 位组成线性组合与 Fig.2 XRD、XMCD 磁矩的对应批次。",
+      "next": "做留一配方外推，比较实测 Tc 与线性预测误差。"
+    },
+    "growthRecipe": {
+      "material": "高熵尖晶石 (Ni,Mg,Co,Cu,Zn)B₂O₄",
+      "actualComposition": "",
+      "method": "Flux",
+      "transportAgent": "",
+      "flux": "Flux 产物",
+      "ratio": "配比，以统一基体比较不同复杂度",
+      "purity": "",
+      "vessel": "",
+      "atmosphere": "",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "",
+      "crystalSize": "",
+      "yield": "",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 3,
+        "total": 15,
+        "ratio": 0.2
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题与配方结构",
+        "text": "高熵氧化物中磁性几乎总伴多阳离子无序，很难判断 Tc 是平均化学、局域团簇还是某一主导交换路径决定。作者固定 A=(Ni₀.₂Mg₀.₂Co₀.₂Cu₀.₂Zn₀.₂)，系统改变 B 位 Cr/Mn/Fe/Ga/Al/Ti 等配比，以统一基体比较不同复杂度。其核心不是“高熵必然有新磁序”，而是把多 B 位样品的 Tc 与单 B 位基准样品 Tc 作线性预测，发现强无序下仍有近线性规律。材料为多晶尖晶石研究，不能误写为单晶 Flux 产物。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "样品与证据",
+        "text": "Fig.1 展示组成—转变温度矩阵；室温粉末 XRD 和 Raman 检查尖晶石相及局域振动，HAADF-STEM 检查纳米尺度结构；磁化给宏观 Tc，元素分辨低温 XMCD 与中子粉末衍射为磁性来源和序结构提供互证。粉末 XRD 单相并不保证阳离子在所有长度尺度随机混合，中子精修与 XMCD 的局域/元素敏感证据尤关键。作者比较含 B=(Cr₀.₂Mn₀.₂Fe₀.₂Ga₀.₂X₀.₂) 且 X=Al/Ti 的极端无序配方，说明线性趋势没有只停留在二元掺杂。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-3",
+        "title": "分析边界与下一批",
+        "text": "【直接观察】各配方磁转变、结构谱、XMCD/中子数据；【拟合】Tc 与基准线性权重关系；【作者推断】平均交换能有效支配转变温度；【本站判断】经验预测力值得关注，但若氧非化学计量、阳离子价态或局部相分离同步变化，线性相关不等于简单平均超交换机制。建议开展留一配方交叉验证，先用已有单 B 位样品预报未制备的混合 B 位 Tc，然后盲测；每批记录氧含量、XPS/XANES 价态、XRD 粒径和磁滞宽度。若未来能生长单晶，应以相同配方比较多晶应力和颗粒边界影响。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "正文 + Methods",
+      "sampleCredibility": "XRD、TEM、Raman、磁化 多方法互证",
+      "reproducibility": "3/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "中等"
+    }
+  },
+  {
+    "id": "arxiv:2609.37812",
+    "title": "Correlation-assisted topological and metamagnetic transitions in Rashba-coupled superconductors: $t$-$J$-$U$ model study",
+    "authors": "Tushar Dey, Maciej Fidrysiak, Józef Spałek",
+    "institutions": "作者机构需从论文首页逐一核对；本期不凭姓名猜测",
+    "journal": "arXiv（Strongly Correlated Electrons (cond-mat.str-el); Superconductivity (cond-mat.supr-con)）",
+    "material": "Rashba t-J-U 模型",
+    "method": "关联变分/拓扑 Chern 数计算",
+    "category": "高温与非常规超导",
+    "tags": [
+      "arXiv v1",
+      "摘要级",
+      "待全文补读"
+    ],
+    "abstract": "Unconventional superconductivity commonly emerges in systems characterized by strong electronic correlations, with layered copper-oxides serving as a canonical example. Observation of spin-momentum locking within Bi-family of the cuprates, compatible with the presence of non-negligible Rashba-type spin-orbit coupling (RSOC), calls for an investigation of the joint effects of electronic correlations and RSOC on pairing in copper-oxide and related superconductors. Employing statistically-consistent variational approximation (SGA), we carry out such an analysis by constructing the phase diagram for the case of square-lattice \\textit{t-J-U} model incorporating RSOC. We also investigate the effects of time-reversal-symmetry breaking by Zeeman field, as well as characterize emergent topological superconducting (TSC) states. Chern number $C = \\pm 4$ TSC is found in a broad regime of on-site Coulomb repulsion close to half-filling. The latter is not governed by correlations and emerges also within the weak-coupling Bogoliubov-de Gennes (BdG) scheme. Yet, we identify a distinct $C = \\pm 2$ TSC state that is driven specifically by electronic correlations via a topological transition occurring with no bulk quasiparticle gap closure, and is accompanied by discontinuous metamagnetic and Lifshitz transitions. Moreover, a qualitatively distinct doping evolution of the $d$- and $p$-wave components of the underlying mixed-parity SC order parameter above the metal-to-insulator transition is demonstrated. Our work points toward the relevance of joint correlation and RSOC effects beyond BdG scheme to phase diagrams of RSOC-coupled superconductors.",
+    "conclusion": "模型把关联与 Rashba 自旋轨道耦合共同作用于铜氧化物候选；C=±4 态在弱耦合也有，C=±2 态才更依赖相关驱动的变磁转变。它提供配对相图，不是实验材料的拓扑超导证据。",
+    "summary": "问题—样品—证据：摘要所能确定的范围：【仅基于摘要/元数据】Unconventional superconductivity commonly emerges in systems characterized by strong electronic correlations, with layered copper-oxides serving as a canonical example. Observation of spin-momentum locking within Bi-family of the cuprates, compatible with the presence of non-negligible Rashba-type spin-orbit coupling (RSOC), calls for an investigation of the joint effects of electronic correlations and RSOC on pairing in copper-oxide and related superconductors. Employing statistically-consistent variational approximation (SGA), we carry out such an analysis by constructing the phase diagram for the case of square-lattice \\textit{t-J-U} model incorporating RSOC. We also investigate the effects of time-reversal-symmetry breaking by Zeeman field, as well as characterize emergent topological superconducting (TSC) states. Chern number $C = \\pm 4$ TSC is found in a broad regime of on-site Coulomb repulsion close to half-filling. The latter is not governed by correlations and emerges also within the weak-coupling Bogoliubov-de Gennes (BdG) scheme. Yet, we identify a distinct $C = \\pm 2$ TSC state that is driven specifically by electronic correlations via a topological transition occurring with no bulk quasiparticle gap closure, and is accompanied by discontinuous metamagnetic and Lifshitz transitions. Moreover, a qualitatively distinct doping evolution of the $d$- and $p$-wave components of the underlying mixed-parity SC order parameter above the metal-to-insulator transition is demonstrated. Our work points toward the relevance of joint correlation and RSOC effects beyond BdG scheme to phase diagrams of RSOC-coupled superconductors.。本站判断：模型把关联与 Rashba 自旋轨道耦合共同作用于铜氧化物候选；C=±4 态在弱耦合也有，C=±2 态才更依赖相关驱动的变磁转变。它提供配对相图，不是实验材料的拓扑超导证据。。摘要只给研究主张，不能据此确定所有对照或因果。\n生长、质量与测量：待补读边界：材料/模型：Rashba t-J-U 模型；摘要描述方法：关联变分/拓扑 Chern 数计算。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。\n证据等级、局限与复现建议：【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看 SGA 与 BdG 的并排相图，核对 Chern 数闭隙条件。；随后：计算实际 Bi 系铜氧化物的可测边缘谱或热霍尔响应。。",
+    "year": 2026,
+    "published": "2026-09-29",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.37812",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2609.37812",
+    "reportUrl": "/reports/2026-09-30/#paper-24",
+    "access": "仅基于摘要/元数据：本次未实际核查正文和关键图，已列入正文补读清单；不计入精读。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Unconventional superconductivity commonly emerges in systems characterized by strong electronic correlations, with layered copper-oxides serving as a canonical example. Observation of spin-momentum locking within Bi-family of the cuprates, compatible with the presence of non-negligible Rashba-type spin-orbit coupling (RSOC), calls for an investigation of the joint effects of electronic correlations and RSOC on pairing in copper-oxide and related superconductors. Employing statistically-consistent variational approximation (SGA), we carry out such an analysis by constructing the phase diagram for the case of square-lattice \\textit{t-J-U} model incorporating RSOC. We also investigate the effects of time-reversal-symmetry breaking by Zeeman field, as well as characterize emergent topological superconducting (TSC) states. Chern number $C = \\pm 4$ TSC is found in a broad regime of on-site Coulomb repulsion close to half-filling. The latter is not governed by correlations and emerges also within the weak-coupling Bogoliubov-de Gennes (BdG) scheme. Yet, we identify a distinct $C = \\pm 2$ TSC state that is driven specifically by electronic correlations via a topological transition occurring with no bulk quasiparticle gap closure, and is accompanied by discontinuous metamagnetic and Lifshitz transitions. Moreover, a qualitatively distinct doping evolution of the $d$- and $p$-wave components of the underlying mixed-parity SC order parameter above the metal-to-insulator transition is demonstrated. Our work points toward the relevance of joint correlation and RSOC effects beyond BdG scheme to phase diagrams of RSOC-coupled superconductors.。本站判断：模型把关联与 Rashba 自旋轨道耦合共同作用于铜氧化物候选；C=±4 态在弱耦合也有，C=±2 态才更依赖相关驱动的变磁转变。它提供配对相图，不是实验材料的拓扑超导证据。。摘要只给研究主张，不能据此确定所有对照或因果。"
+      },
+      {
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：Rashba t-J-U 模型；摘要描述方法：关联变分/拓扑 Chern 数计算。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。"
+      },
+      {
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看 SGA 与 BdG 的并排相图，核对 Chern 数闭隙条件。；随后：计算实际 Bi 系铜氧化物的可测边缘谱或热霍尔响应。。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜方向跟踪、待正文复核",
+      "first": "先看 SGA 与 BdG 的并排相图，核对 Chern 数闭隙条件。",
+      "focus": "核对摘要主张所依赖的具体图、对照样品及误差，不能据标题直接采用生长参数。",
+      "next": "计算实际 Bi 系铜氧化物的可测边缘谱或热霍尔响应。"
+    },
+    "growthRecipe": {
+      "material": "Rashba t-J-U 模型",
+      "actualComposition": "EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对",
+      "method": "Flux",
+      "transportAgent": "",
+      "flux": "助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核",
+      "ratio": "原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "purity": "纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "vessel": "坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "atmosphere": "真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "crystalSize": "",
+      "yield": "产率：正文未报告或本次未核验",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 8,
+        "total": 15,
+        "ratio": 0.5333333333333333
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Unconventional superconductivity commonly emerges in systems characterized by strong electronic correlations, with layered copper-oxides serving as a canonical example. Observation of spin-momentum locking within Bi-family of the cuprates, compatible with the presence of non-negligible Rashba-type spin-orbit coupling (RSOC), calls for an investigation of the joint effects of electronic correlations and RSOC on pairing in copper-oxide and related superconductors. Employing statistically-consistent variational approximation (SGA), we carry out such an analysis by constructing the phase diagram for the case of square-lattice \\textit{t-J-U} model incorporating RSOC. We also investigate the effects of time-reversal-symmetry breaking by Zeeman field, as well as characterize emergent topological superconducting (TSC) states. Chern number $C = \\pm 4$ TSC is found in a broad regime of on-site Coulomb repulsion close to half-filling. The latter is not governed by correlations and emerges also within the weak-coupling Bogoliubov-de Gennes (BdG) scheme. Yet, we identify a distinct $C = \\pm 2$ TSC state that is driven specifically by electronic correlations via a topological transition occurring with no bulk quasiparticle gap closure, and is accompanied by discontinuous metamagnetic and Lifshitz transitions. Moreover, a qualitatively distinct doping evolution of the $d$- and $p$-wave components of the underlying mixed-parity SC order parameter above the metal-to-insulator transition is demonstrated. Our work points toward the relevance of joint correlation and RSOC effects beyond BdG scheme to phase diagrams of RSOC-coupled superconductors.。本站判断：模型把关联与 Rashba 自旋轨道耦合共同作用于铜氧化物候选；C=±4 态在弱耦合也有，C=±2 态才更依赖相关驱动的变磁转变。它提供配对相图，不是实验材料的拓扑超导证据。。摘要只给研究主张，不能据此确定所有对照或因果。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-2",
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：Rashba t-J-U 模型；摘要描述方法：关联变分/拓扑 Chern 数计算。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看 SGA 与 BdG 的并排相图，核对 Chern 数闭隙条件。；随后：计算实际 Bi 系铜氧化物的可测边缘谱或热霍尔响应。。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "EDS、WDS、TEM、输运 多方法互证",
+      "reproducibility": "8/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2609.38003",
+    "title": "Reversible field-free superconducting diode effect controlled by an antiferromagnet",
+    "authors": "Filip Krizek, Kamil Olejník, Tobias Edwinson, August Jacobi, Athira Suresh, Andrej Farkaš, Jan Kraus, Vít Novák, Christoph Müller, Vojtěch Pařízek, Niclas Heinsdorf, Peter Wadley, Oliver Amin, Kevin Edmonds, Tomas Jungwirth, Libor Šmejkal, Anna Birk Hellenes, Sumit Ghosh, Michal Mazur, Dominik Kriegner, Lucas Casparis, Saulius Vaitiekėnas",
+    "institutions": "作者反铁磁超导异质结合作团队；详细机构见 arXiv 首页",
+    "journal": "arXiv（Superconductivity (cond-mat.supr-con); Mesoscale and Nanoscale Physics (cond-mat.mes-hall)）",
+    "material": "CuMnAs/AlAs/Al",
+    "method": "MBE 反铁磁近邻超导二极管",
+    "category": "高温与非常规超导",
+    "tags": [
+      "arXiv v1",
+      "全文精读",
+      "实际读正文"
+    ],
+    "abstract": "The semiconductor diode, which allows current to flow preferentially in one direction, is a fundamental building block of numerous modern electronic circuits. Its superconducting analogue---the superconducting diode effect---enables directional dissipationless current flow and may provide similar functionality in future superconducting quantum circuits. Realization of such a nonreciprocal supercurrent requires broken time-reversal symmetry. At zero applied field, this has been typically associated either with intrinsic unconventional superconductivity or extrinsic spin-split electronic states induced by magnetic proximity. Here we demonstrate a field-free superconducting diode effect in conventional superconducting Al proximitized by collinear antiferromagnetic CuMnAs, whose electronic structure breaks time-reversal symmetry without generating spin splitting. By tuning the proximity effect through an insulating AlAs interlayer and correlating the reversal of the diode polarity with the reversal of the remanent Néel state, we establish that the antiferromagnet controls the superconducting diode effect. Our results show that neither spin-split bands nor net magnetization is required for a magnetically controlled field-free superconducting diode effect, extending superconducting nonreciprocity to a broader class of collinear compensated magnets.",
+    "conclusion": "常规 Al 与共线反铁磁 CuMnAs 的邻近结构产生零外场超导二极管；改变 AlAs 隔层并翻转剩余 Néel 态时二极管极性随之反向，证明磁序是关键控制旋钮，但局部漏场和界面非均匀仍需严格排查。",
+    "summary": "科学问题和关键对照：零场超导二极管要求超电流的方向性，而既有讨论常依赖铁磁净磁矩或自旋劈裂。文章用共线 AFM CuMnAs/AlAs/常规 Al 结构追问：仅反铁磁 Néel 态能否控制二极管极性。作者不仅展示正/反临界电流不等，还改变 AlAs 隔层厚度以调邻近效应，并对剩余 Néel 态做可逆写入，观察二极管极性随之翻转。这比“某器件出现非互易性”强得多，但必须与净漏场、热整流和接触几何造成的假信号分开。\nMBE 样品谱系：GaP(001) 2 英寸晶圆在 P 过压下约 640 °C 去吸附；80 nm GaP 缓冲在 550 °C、P:Ga=1.3:1、0.2 Å/s 生长。约 13 nm CuMnAs 在 220 °C、生长通量接近 1:1:1、0.05 Å/s；随后降温形成自组装约 2 nm AlAs 隔层，约 12 nm Al 在低于 30 °C、0.3 Å/s 生长。文中实际测试结构另给 CuMnAs 12.4 nm/AlAs 2 nm/Al 9.2 nm，名义与测得层厚不可混用。参考组 AlAs 约 1.5 nm，通过改变冷却/暴露过程实现；图中外延 XRD 支持晶相，层间原子混合仍需截面表征。任何重复制程都要记录 As₄ 背景、样品离腔时间与所有层厚，而非只记录最终器件电流。\n直接证据和局限：【直接观察】零场正反临界电流差及磁训练翻转后的极性；【模型】邻近耦合与 AFM 对电子态的影响；【作者推断】不需净磁化/常规自旋劈裂即可获得超导二极管；【本站判断】Néel 态与二极管极性的可逆一一对应是最强证据，但同一磁训练也可能改变残余应力或局域漏场。建议对同片器件增加 NV 漏场成像与磁畴/结构同步，随机化写入顺序，记录每次临界电流的统计分布与升降电流方向，隔层系列至少三种厚度。论文并不意味着所有共线 AFM 与 Al 都会有同样效应，界面晶体对称性是关键。",
+    "year": 2026,
+    "published": "2026-09-29",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.38003",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/html/2609.38003",
+    "reportUrl": "/reports/2026-09-30/#paper-25",
+    "access": "全文精读：实际读取 arXiv 公开正文、所列 Methods/实验段及关键图注；未另取 SI 不声称已读 SI。已核正文临界电流对照、Fig.2、Methods MBE/器件加工及扩展图注。",
+    "rating": "A+",
+    "sections": [
+      {
+        "title": "科学问题和关键对照",
+        "text": "零场超导二极管要求超电流的方向性，而既有讨论常依赖铁磁净磁矩或自旋劈裂。文章用共线 AFM CuMnAs/AlAs/常规 Al 结构追问：仅反铁磁 Néel 态能否控制二极管极性。作者不仅展示正/反临界电流不等，还改变 AlAs 隔层厚度以调邻近效应，并对剩余 Néel 态做可逆写入，观察二极管极性随之翻转。这比“某器件出现非互易性”强得多，但必须与净漏场、热整流和接触几何造成的假信号分开。"
+      },
+      {
+        "title": "MBE 样品谱系",
+        "text": "GaP(001) 2 英寸晶圆在 P 过压下约 640 °C 去吸附；80 nm GaP 缓冲在 550 °C、P:Ga=1.3:1、0.2 Å/s 生长。约 13 nm CuMnAs 在 220 °C、生长通量接近 1:1:1、0.05 Å/s；随后降温形成自组装约 2 nm AlAs 隔层，约 12 nm Al 在低于 30 °C、0.3 Å/s 生长。文中实际测试结构另给 CuMnAs 12.4 nm/AlAs 2 nm/Al 9.2 nm，名义与测得层厚不可混用。参考组 AlAs 约 1.5 nm，通过改变冷却/暴露过程实现；图中外延 XRD 支持晶相，层间原子混合仍需截面表征。任何重复制程都要记录 As₄ 背景、样品离腔时间与所有层厚，而非只记录最终器件电流。"
+      },
+      {
+        "title": "直接证据和局限",
+        "text": "【直接观察】零场正反临界电流差及磁训练翻转后的极性；【模型】邻近耦合与 AFM 对电子态的影响；【作者推断】不需净磁化/常规自旋劈裂即可获得超导二极管；【本站判断】Néel 态与二极管极性的可逆一一对应是最强证据，但同一磁训练也可能改变残余应力或局域漏场。建议对同片器件增加 NV 漏场成像与磁畴/结构同步，随机化写入顺序，记录每次临界电流的统计分布与升降电流方向，隔层系列至少三种厚度。论文并不意味着所有共线 AFM 与 Al 都会有同样效应，界面晶体对称性是关键。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A+｜实验人员优先",
+      "first": "先看 Fig.2 的正反临界电流、Néel 态翻转与 1.5/2 nm 隔层对照，再看 MBE 参数。",
+      "focus": "核对 1.5 与 2 nm AlAs 的势垒跨越、Néel 态翻转与器件左右临界电流是否同步反号。",
+      "next": "同片器件测漏场、畴结构和冷热循环后的二极管极性。"
+    },
+    "growthRecipe": {
+      "material": "CuMnAs/AlAs/Al",
+      "actualComposition": "",
+      "method": "MBE",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "1.3:1",
+      "purity": "",
+      "vessel": "",
+      "atmosphere": "",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "",
+      "crystalSize": "80 nm",
+      "yield": "",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 3,
+        "total": 15,
+        "ratio": 0.2
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "科学问题和关键对照",
+        "text": "零场超导二极管要求超电流的方向性，而既有讨论常依赖铁磁净磁矩或自旋劈裂。文章用共线 AFM CuMnAs/AlAs/常规 Al 结构追问：仅反铁磁 Néel 态能否控制二极管极性。作者不仅展示正/反临界电流不等，还改变 AlAs 隔层厚度以调邻近效应，并对剩余 Néel 态做可逆写入，观察二极管极性随之翻转。这比“某器件出现非互易性”强得多，但必须与净漏场、热整流和接触几何造成的假信号分开。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "MBE 样品谱系",
+        "text": "GaP(001) 2 英寸晶圆在 P 过压下约 640 °C 去吸附；80 nm GaP 缓冲在 550 °C、P:Ga=1.3:1、0.2 Å/s 生长。约 13 nm CuMnAs 在 220 °C、生长通量接近 1:1:1、0.05 Å/s；随后降温形成自组装约 2 nm AlAs 隔层，约 12 nm Al 在低于 30 °C、0.3 Å/s 生长。文中实际测试结构另给 CuMnAs 12.4 nm/AlAs 2 nm/Al 9.2 nm，名义与测得层厚不可混用。参考组 AlAs 约 1.5 nm，通过改变冷却/暴露过程实现；图中外延 XRD 支持晶相，层间原子混合仍需截面表征。任何重复制程都要记录 As₄ 背景、样品离腔时间与所有层厚，而非只记录最终器件电流。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-3",
+        "title": "直接证据和局限",
+        "text": "【直接观察】零场正反临界电流差及磁训练翻转后的极性；【模型】邻近耦合与 AFM 对电子态的影响；【作者推断】不需净磁化/常规自旋劈裂即可获得超导二极管；【本站判断】Néel 态与二极管极性的可逆一一对应是最强证据，但同一磁训练也可能改变残余应力或局域漏场。建议对同片器件增加 NV 漏场成像与磁畴/结构同步，随机化写入顺序，记录每次临界电流的统计分布与升降电流方向，隔层系列至少三种厚度。论文并不意味着所有共线 AFM 与 Al 都会有同样效应，界面晶体对称性是关键。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "正文 + Methods",
+      "sampleCredibility": "XRD、磁化；证据仍可补强",
+      "reproducibility": "3/15 项参数可提取",
+      "physicalEvidence": "双探针支持",
+      "certainty": "中等"
+    }
+  },
+  {
+    "id": "arxiv:2609.38033",
+    "title": "Interlayer dark excitons in a van der Waals heterostructure",
+    "authors": "Rundong Ma, Konstantin Davydov, Liuxin Gu, Lifu Zhang, Hassan Alnatah, Beini Gao, Ruihao Ni, Suji Park, Houk Jang, Takashi Taniguchi, Kenji Watanabe, You Zhou",
+    "institutions": "作者机构需从论文首页逐一核对；本期不凭姓名猜测",
+    "journal": "arXiv（Mesoscale and Nanoscale Physics (cond-mat.mes-hall); Materials Science (cond-mat.mtrl-sci); Optics (physics.optics)）",
+    "material": "WSe₂/hBN/WSe₂",
+    "method": "双栅层间暗激子光谱",
+    "category": "二维材料与量子器件",
+    "tags": [
+      "arXiv v1",
+      "摘要级",
+      "待全文补读"
+    ],
+    "abstract": "Interlayer excitons in transition metal dichalcogenide (TMD) heterostructures exhibit long lifetimes and long-range transport, making them promising for excitonic devices and quantum many-body phases, such as Bose-Einstein condensates. Achieving these goals requires a precise understanding of spin-allowed bright and nominally spin-forbidden dark excitons, because the lowest-energy exciton species governs population, transport, and condensation. Despite substantial progress, unambiguously distinguishing singlet and triplet interlayer excitons has been challenging, as moiré excitons in these heterostructures can mimic their optical signatures. Here, we report the direct spectroscopic identification of bright (singlet) and dark (triplet) interlayer excitons in high-quality, dual-gated WSe$_2$/hBN/WSe$_2$ homobilayers. Electric-field-dependent photoluminescence and reflectance reveal two momentum-direct interlayer transitions with distinct spin configurations. The interlayer dark excitons obey selection rules that differ from those of bright excitons. Strikingly, interlayer dark excitons retain strong valley polarization, even with their ultralong lifetime exceeding microseconds. Finally, we demonstrate twist-angle control, wherein twist-induced electron-hole momentum mismatch modulates interlayer exciton emission. These results provide critical insights into the electronic and excitonic structure of TMD heterostructures, opening new avenues for excitonic many-body physics and optoelectronic devices.",
+    "conclusion": "高质量 WSe₂/hBN/WSe₂ 双栅同质双层分出自旋允许与禁戒的层间激子，暗态仍有强谷极化和微秒寿命。场依赖发光/反射让暗亮态区分更可信，但莫尔局域效应需具体层角和 hBN 厚度控制。",
+    "summary": "问题—样品—证据：摘要所能确定的范围：【仅基于摘要/元数据】Interlayer excitons in transition metal dichalcogenide (TMD) heterostructures exhibit long lifetimes and long-range transport, making them promising for excitonic devices and quantum many-body phases, such as Bose-Einstein condensates. Achieving these goals requires a precise understanding of spin-allowed bright and nominally spin-forbidden dark excitons, because the lowest-energy exciton species governs population, transport, and condensation. Despite substantial progress, unambiguously distinguishing singlet and triplet interlayer excitons has been challenging, as moiré excitons in these heterostructures can mimic their optical signatures. Here, we report the direct spectroscopic identification of bright (singlet) and dark (triplet) interlayer excitons in high-quality, dual-gated WSe$_2$/hBN/WSe$_2$ homobilayers. Electric-field-dependent photoluminescence and reflectance reveal two momentum-direct interlayer transitions with distinct spin configurations. The interlayer dark excitons obey selection rules that differ from those of bright excitons. Strikingly, interlayer dark excitons retain strong valley polarization, even with their ultralong lifetime exceeding microseconds. Finally, we demonstrate twist-angle control, wherein twist-induced electron-hole momentum mismatch modulates interlayer exciton emission. These results provide critical insights into the electronic and excitonic structure of TMD heterostructures, opening new avenues for excitonic many-body physics and optoelectronic devices.。本站判断：高质量 WSe₂/hBN/WSe₂ 双栅同质双层分出自旋允许与禁戒的层间激子，暗态仍有强谷极化和微秒寿命。场依赖发光/反射让暗亮态区分更可信，但莫尔局域效应需具体层角和 hBN 厚度控制。。摘要只给研究主张，不能据此确定所有对照或因果。\n生长、质量与测量：待补读边界：材料/模型：WSe₂/hBN/WSe₂；摘要描述方法：双栅层间暗激子光谱。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。\n证据等级、局限与复现建议：【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先比电场扫描下 PL 与反射的两条跃迁及偏振选择定则。；随后：测不同扭角和隔层厚度的寿命/谷极化。。",
+    "year": 2026,
+    "published": "2026-09-29",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.38033",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2609.38033",
+    "reportUrl": "/reports/2026-09-30/#paper-26",
+    "access": "仅基于摘要/元数据：本次未实际核查正文和关键图，已列入正文补读清单；不计入精读。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Interlayer excitons in transition metal dichalcogenide (TMD) heterostructures exhibit long lifetimes and long-range transport, making them promising for excitonic devices and quantum many-body phases, such as Bose-Einstein condensates. Achieving these goals requires a precise understanding of spin-allowed bright and nominally spin-forbidden dark excitons, because the lowest-energy exciton species governs population, transport, and condensation. Despite substantial progress, unambiguously distinguishing singlet and triplet interlayer excitons has been challenging, as moiré excitons in these heterostructures can mimic their optical signatures. Here, we report the direct spectroscopic identification of bright (singlet) and dark (triplet) interlayer excitons in high-quality, dual-gated WSe$_2$/hBN/WSe$_2$ homobilayers. Electric-field-dependent photoluminescence and reflectance reveal two momentum-direct interlayer transitions with distinct spin configurations. The interlayer dark excitons obey selection rules that differ from those of bright excitons. Strikingly, interlayer dark excitons retain strong valley polarization, even with their ultralong lifetime exceeding microseconds. Finally, we demonstrate twist-angle control, wherein twist-induced electron-hole momentum mismatch modulates interlayer exciton emission. These results provide critical insights into the electronic and excitonic structure of TMD heterostructures, opening new avenues for excitonic many-body physics and optoelectronic devices.。本站判断：高质量 WSe₂/hBN/WSe₂ 双栅同质双层分出自旋允许与禁戒的层间激子，暗态仍有强谷极化和微秒寿命。场依赖发光/反射让暗亮态区分更可信，但莫尔局域效应需具体层角和 hBN 厚度控制。。摘要只给研究主张，不能据此确定所有对照或因果。"
+      },
+      {
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：WSe₂/hBN/WSe₂；摘要描述方法：双栅层间暗激子光谱。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。"
+      },
+      {
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先比电场扫描下 PL 与反射的两条跃迁及偏振选择定则。；随后：测不同扭角和隔层厚度的寿命/谷极化。。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜方向跟踪、待正文复核",
+      "first": "先比电场扫描下 PL 与反射的两条跃迁及偏振选择定则。",
+      "focus": "核对摘要主张所依赖的具体图、对照样品及误差，不能据标题直接采用生长参数。",
+      "next": "测不同扭角和隔层厚度的寿命/谷极化。"
+    },
+    "growthRecipe": {
+      "material": "WSe₂/hBN/WSe₂",
+      "actualComposition": "EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对",
+      "method": "Flux",
+      "transportAgent": "",
+      "flux": "助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核",
+      "ratio": "原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "purity": "纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "vessel": "坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "atmosphere": "真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "crystalSize": "",
+      "yield": "产率：正文未报告或本次未核验",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 8,
+        "total": 15,
+        "ratio": 0.5333333333333333
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Interlayer excitons in transition metal dichalcogenide (TMD) heterostructures exhibit long lifetimes and long-range transport, making them promising for excitonic devices and quantum many-body phases, such as Bose-Einstein condensates. Achieving these goals requires a precise understanding of spin-allowed bright and nominally spin-forbidden dark excitons, because the lowest-energy exciton species governs population, transport, and condensation. Despite substantial progress, unambiguously distinguishing singlet and triplet interlayer excitons has been challenging, as moiré excitons in these heterostructures can mimic their optical signatures. Here, we report the direct spectroscopic identification of bright (singlet) and dark (triplet) interlayer excitons in high-quality, dual-gated WSe$_2$/hBN/WSe$_2$ homobilayers. Electric-field-dependent photoluminescence and reflectance reveal two momentum-direct interlayer transitions with distinct spin configurations. The interlayer dark excitons obey selection rules that differ from those of bright excitons. Strikingly, interlayer dark excitons retain strong valley polarization, even with their ultralong lifetime exceeding microseconds. Finally, we demonstrate twist-angle control, wherein twist-induced electron-hole momentum mismatch modulates interlayer exciton emission. These results provide critical insights into the electronic and excitonic structure of TMD heterostructures, opening new avenues for excitonic many-body physics and optoelectronic devices.。本站判断：高质量 WSe₂/hBN/WSe₂ 双栅同质双层分出自旋允许与禁戒的层间激子，暗态仍有强谷极化和微秒寿命。场依赖发光/反射让暗亮态区分更可信，但莫尔局域效应需具体层角和 hBN 厚度控制。。摘要只给研究主张，不能据此确定所有对照或因果。",
+        "type": "本站判断"
+      },
+      {
+        "id": "evidence-2",
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：WSe₂/hBN/WSe₂；摘要描述方法：双栅层间暗激子光谱。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先比电场扫描下 PL 与反射的两条跃迁及偏振选择定则。；随后：测不同扭角和隔层厚度的寿命/谷极化。。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "EDS、WDS、输运；证据仍可补强",
+      "reproducibility": "8/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2609.38045",
+    "title": "Interlayer Fermi Polarons in Bilayer MoTe$_2$",
+    "authors": "Ruihao Ni, Eugen Dizer, Maximilian Wolf, Son T. Le, Sharadh Jois, Jeffrey J. Schwartz, Liuxin Gu, Rundong Ma, Suji Park, Beini Gao, Lifu Zhang, Houk Jang, Takashi Taniguchi, Kenji Watanabe, Aubrey T. Hanbicki, Adam L. Friedman, Richard Schmidt, You Zhou",
+    "institutions": "作者机构需从论文首页逐一核对；本期不凭姓名猜测",
+    "journal": "arXiv（Mesoscale and Nanoscale Physics (cond-mat.mes-hall); Quantum Gases (cond-mat.quant-gas); Strongly Correlated Electrons (cond-mat.str-el)）",
+    "material": "双层 MoTe₂",
+    "method": "双栅光谱/掺杂极化子",
+    "category": "二维材料与量子器件",
+    "tags": [
+      "arXiv v1",
+      "摘要级",
+      "待全文补读"
+    ],
+    "abstract": "Atomic bilayers of transition metal dichalcogenides (TMDs) host quantum phases governed by the layer degree of freedom, including bilayer Wigner crystals, fractional Chern insulators, and exciton condensates. These phases are probed primarily through exciton spectroscopy, yet it remains poorly understood how excitons and carriers interact to form Fermi polarons in bilayers, where both the impurity and the Fermi sea carry a layer pseudospin. Progress has been limited because most TMD bilayers have momentum-indirect optical bandgaps, in which non-radiative decay and inhomogeneous broadening obscure the intrinsic spectra. Here, we show that bilayer MoTe$_2$, unlike most TMD bilayers, retains a direct optical bandgap, providing a clean platform for studying bilayer Fermi-polaron physics. In a dual-gated device, an out-of-plane electric field continuously tunes the hybridization between intralayer and interlayer excitons, forming layer-coherent excitons. Upon electrostatic doping, the excitonic spectrum evolves into multiple polaron branches, controlled by both carrier doping and the out-of-plane electric field. Among these, we identify a polaron with no analog in monolayers, in which a layer-coherent exciton is dressed by carriers in the opposite layer, and is quantitatively captured by our field-theoretic model. Our results establish that pseudospin structure in both the impurity and the bath reshapes polaron formation, opening new avenues to many-body states such as Bose-Einstein condensates with interlayer coherence.",
+    "conclusion": "双层 MoTe₂ 保持直接光学带隙，垂直电场调层间/层内激子混合；掺杂后出现受层赝自旋影响的新 Fermi 极化子分支。其拟合需要区分载流子密度、层间位移场和介电环境。",
+    "summary": "问题—样品—证据：摘要所能确定的范围：【仅基于摘要/元数据】Atomic bilayers of transition metal dichalcogenides (TMDs) host quantum phases governed by the layer degree of freedom, including bilayer Wigner crystals, fractional Chern insulators, and exciton condensates. These phases are probed primarily through exciton spectroscopy, yet it remains poorly understood how excitons and carriers interact to form Fermi polarons in bilayers, where both the impurity and the Fermi sea carry a layer pseudospin. Progress has been limited because most TMD bilayers have momentum-indirect optical bandgaps, in which non-radiative decay and inhomogeneous broadening obscure the intrinsic spectra. Here, we show that bilayer MoTe$_2$, unlike most TMD bilayers, retains a direct optical bandgap, providing a clean platform for studying bilayer Fermi-polaron physics. In a dual-gated device, an out-of-plane electric field continuously tunes the hybridization between intralayer and interlayer excitons, forming layer-coherent excitons. Upon electrostatic doping, the excitonic spectrum evolves into multiple polaron branches, controlled by both carrier doping and the out-of-plane electric field. Among these, we identify a polaron with no analog in monolayers, in which a layer-coherent exciton is dressed by carriers in the opposite layer, and is quantitatively captured by our field-theoretic model. Our results establish that pseudospin structure in both the impurity and the bath reshapes polaron formation, opening new avenues to many-body states such as Bose-Einstein condensates with interlayer coherence.。本站判断：双层 MoTe₂ 保持直接光学带隙，垂直电场调层间/层内激子混合；掺杂后出现受层赝自旋影响的新 Fermi 极化子分支。其拟合需要区分载流子密度、层间位移场和介电环境。。摘要只给研究主张，不能据此确定所有对照或因果。\n生长、质量与测量：待补读边界：材料/模型：双层 MoTe₂；摘要描述方法：双栅光谱/掺杂极化子。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。\n证据等级、局限与复现建议：【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看双栅密度—位移场二维图与多极化子分支演化。；随后：做磁场分辨谷选择性，排除陷阱态。。",
+    "year": 2026,
+    "published": "2026-09-29",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.38045",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2609.38045",
+    "reportUrl": "/reports/2026-09-30/#paper-27",
+    "access": "仅基于摘要/元数据：本次未实际核查正文和关键图，已列入正文补读清单；不计入精读。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Atomic bilayers of transition metal dichalcogenides (TMDs) host quantum phases governed by the layer degree of freedom, including bilayer Wigner crystals, fractional Chern insulators, and exciton condensates. These phases are probed primarily through exciton spectroscopy, yet it remains poorly understood how excitons and carriers interact to form Fermi polarons in bilayers, where both the impurity and the Fermi sea carry a layer pseudospin. Progress has been limited because most TMD bilayers have momentum-indirect optical bandgaps, in which non-radiative decay and inhomogeneous broadening obscure the intrinsic spectra. Here, we show that bilayer MoTe$_2$, unlike most TMD bilayers, retains a direct optical bandgap, providing a clean platform for studying bilayer Fermi-polaron physics. In a dual-gated device, an out-of-plane electric field continuously tunes the hybridization between intralayer and interlayer excitons, forming layer-coherent excitons. Upon electrostatic doping, the excitonic spectrum evolves into multiple polaron branches, controlled by both carrier doping and the out-of-plane electric field. Among these, we identify a polaron with no analog in monolayers, in which a layer-coherent exciton is dressed by carriers in the opposite layer, and is quantitatively captured by our field-theoretic model. Our results establish that pseudospin structure in both the impurity and the bath reshapes polaron formation, opening new avenues to many-body states such as Bose-Einstein condensates with interlayer coherence.。本站判断：双层 MoTe₂ 保持直接光学带隙，垂直电场调层间/层内激子混合；掺杂后出现受层赝自旋影响的新 Fermi 极化子分支。其拟合需要区分载流子密度、层间位移场和介电环境。。摘要只给研究主张，不能据此确定所有对照或因果。"
+      },
+      {
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：双层 MoTe₂；摘要描述方法：双栅光谱/掺杂极化子。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。"
+      },
+      {
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看双栅密度—位移场二维图与多极化子分支演化。；随后：做磁场分辨谷选择性，排除陷阱态。。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜方向跟踪、待正文复核",
+      "first": "先看双栅密度—位移场二维图与多极化子分支演化。",
+      "focus": "核对摘要主张所依赖的具体图、对照样品及误差，不能据标题直接采用生长参数。",
+      "next": "做磁场分辨谷选择性，排除陷阱态。"
+    },
+    "growthRecipe": {
+      "material": "双层 MoTe₂",
+      "actualComposition": "EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对",
+      "method": "Flux",
+      "transportAgent": "",
+      "flux": "助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核",
+      "ratio": "原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "purity": "purity and the Fermi sea carry a layer pseudospin. Progress has been limited",
+      "vessel": "坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "atmosphere": "真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "crystalSize": "",
+      "yield": "产率：正文未报告或本次未核验",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 8,
+        "total": 15,
+        "ratio": 0.5333333333333333
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Atomic bilayers of transition metal dichalcogenides (TMDs) host quantum phases governed by the layer degree of freedom, including bilayer Wigner crystals, fractional Chern insulators, and exciton condensates. These phases are probed primarily through exciton spectroscopy, yet it remains poorly understood how excitons and carriers interact to form Fermi polarons in bilayers, where both the impurity and the Fermi sea carry a layer pseudospin. Progress has been limited because most TMD bilayers have momentum-indirect optical bandgaps, in which non-radiative decay and inhomogeneous broadening obscure the intrinsic spectra. Here, we show that bilayer MoTe$_2$, unlike most TMD bilayers, retains a direct optical bandgap, providing a clean platform for studying bilayer Fermi-polaron physics. In a dual-gated device, an out-of-plane electric field continuously tunes the hybridization between intralayer and interlayer excitons, forming layer-coherent excitons. Upon electrostatic doping, the excitonic spectrum evolves into multiple polaron branches, controlled by both carrier doping and the out-of-plane electric field. Among these, we identify a polaron with no analog in monolayers, in which a layer-coherent exciton is dressed by carriers in the opposite layer, and is quantitatively captured by our field-theoretic model. Our results establish that pseudospin structure in both the impurity and the bath reshapes polaron formation, opening new avenues to many-body states such as Bose-Einstein condensates with interlayer coherence.。本站判断：双层 MoTe₂ 保持直接光学带隙，垂直电场调层间/层内激子混合；掺杂后出现受层赝自旋影响的新 Fermi 极化子分支。其拟合需要区分载流子密度、层间位移场和介电环境。。摘要只给研究主张，不能据此确定所有对照或因果。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-2",
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：双层 MoTe₂；摘要描述方法：双栅光谱/掺杂极化子。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看双栅密度—位移场二维图与多极化子分支演化。；随后：做磁场分辨谷选择性，排除陷阱态。。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "EDS、WDS、输运；证据仍可补强",
+      "reproducibility": "8/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2609.38071",
+    "title": "3/8 charge-density wave instability in the kagome metal CsV$_3$Sb$_5$",
+    "authors": "Luca Buiarelli, Hyeonseo H. Park, Ethan T. Ritz, Rafael M. Fernandes, Turan Birol",
+    "institutions": "作者计算/衍射合作团队；具体单位见 arXiv 首页",
+    "journal": "arXiv（Materials Science (cond-mat.mtrl-sci); Strongly Correlated Electrons (cond-mat.str-el)）",
+    "material": "CsV₃Sb₅",
+    "method": "DFPT/有限位移压力相竞争",
+    "category": "磁性、拓扑与自旋",
+    "tags": [
+      "arXiv v1",
+      "全文精读",
+      "实际读正文"
+    ],
+    "abstract": "The kagome metal CsV$_3$Sb$_5$ exhibits charge density wave (CDW) and superconducting transitions, both of which are substantially affected by pressure. Recent x-ray diffraction experiments identify a new charge-ordered phase at a pressure coinciding with the dip of the superconducting dome. This CDW phase displays a distinctive wavevector $\\mathbf{Q} = (3/8, 0, 1/2)$ and monoclinic symmetry, in contrast to the $2\\times2\\times 2$ and $2\\times2\\times 4$ orders reported at ambient pressure. In this letter, we show that density functional perturbation theory (DFPT) calculations on a fine reciprocal-space grid predict the leading lattice instability of CsV$_3$Sb$_5$ to be at this wavevector. Finite-displacement calculations reveal that while anharmonic effects stabilize the conventional $L_2^-$ CDW at ambient pressure, the competing $3/8$ instability becomes energetically favorable above $\\sim$1 GPa, consistent with experimental observations. Interestingly, the nesting function displays a peak at the same wavevector. A Landau free energy analysis explains the emergence of the monoclinic distortion observed in x-ray diffraction, in addition to several bond-ordering patterns that may be relevant to the observed trends in the superconducting $T_c$.",
+    "conclusion": "精细 Q 网格发现 CsV₃Sb₅ 的 3/8 波矢谐波不稳定性；常压非谐项稳定常见 2×2 CDW，压力使 3/8 态相对降低，与衍射的新相位置相容。计算没有确定其是否严格锁定在 3/8，也不能单凭相邻的超导穹顶推断因果。",
+    "summary": "问题与模型验证：CsV₃Sb₅ 同时有 CDW 和超导，在压力下出现新 3/8 调制，与超导双穹顶低谷相邻。若只做惯常高对称点声子采样，容易把不在 M/L 的软模漏掉。作者用 4×4×4 与 8×8×4 Q 网格对比：后者显露 Q=(3/8,0,1/2) 的 R₃ 谐波不稳定性；再以有限位移计算非谐势能，解释为何常压最终选择常见 L₂⁻ 模式而非谐波最低 R₃。这个“双层判据”区分最先软化与真正自由能最低，不应把虚频大小直接当稳定相排序。\n压力、能带与边界：压力焓 H=E+pV 曲线在约 1 GPa 让 L₂⁻ 与 R₃ 相关构型相对稳定性反转，符合新 CDW 在压力下出现的方向。文中 Fig.2 的压力标签 0、0.5、1 GPa；若渲染的文本将“1 GPa”串成“11 GPa”是公式抽取错误，需以图轴为准。费米面 nesting 函数在 3/8 处也有峰，但 nesting 与声子—晶格耦合共同作用，不能说单一 nesting 完全决定 CDW。Landau 展开允许三线性耦合和多个畴/波矢组合；计算超胞不能分辨严格 3/8 锁定或微小非公度，作者在结论也承认这一点。\n实验指向：【直接观察】本论文直接结果是数值计算的虚频、焓极小、能带展开；它引用的压力单晶衍射是他人实验，不是本文新测量。【模型拟合】Landau 系数与多模耦合；【作者推断】压力 CDW 相与超导谷关联；【本站判断】Q 网格收敛对实验波矢有说服力，但 CDW 是否驱动 Tc 谷仍未做同样品的压点因果实验。建议实验用同一 CsV₃Sb₅ 晶体在 0–2 GPa 以小步长同步测单晶 XRD 卫星峰、ρ(T) 和 Tc，并报告波矢误差；比较 3/8 与邻近非公度拟合。",
+    "year": 2026,
+    "published": "2026-09-29",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.38071",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/html/2609.38071",
+    "reportUrl": "/reports/2026-09-30/#paper-28",
+    "access": "全文精读：实际读取 arXiv 公开正文、所列 Methods/实验段及关键图注；未另取 SI 不声称已读 SI。已核正文 DFPT 网格、Fig.1–3、压力焓曲线与结论；这是计算论文，无自制样品。",
+    "rating": "A",
+    "sections": [
+      {
+        "title": "问题与模型验证",
+        "text": "CsV₃Sb₅ 同时有 CDW 和超导，在压力下出现新 3/8 调制，与超导双穹顶低谷相邻。若只做惯常高对称点声子采样，容易把不在 M/L 的软模漏掉。作者用 4×4×4 与 8×8×4 Q 网格对比：后者显露 Q=(3/8,0,1/2) 的 R₃ 谐波不稳定性；再以有限位移计算非谐势能，解释为何常压最终选择常见 L₂⁻ 模式而非谐波最低 R₃。这个“双层判据”区分最先软化与真正自由能最低，不应把虚频大小直接当稳定相排序。"
+      },
+      {
+        "title": "压力、能带与边界",
+        "text": "压力焓 H=E+pV 曲线在约 1 GPa 让 L₂⁻ 与 R₃ 相关构型相对稳定性反转，符合新 CDW 在压力下出现的方向。文中 Fig.2 的压力标签 0、0.5、1 GPa；若渲染的文本将“1 GPa”串成“11 GPa”是公式抽取错误，需以图轴为准。费米面 nesting 函数在 3/8 处也有峰，但 nesting 与声子—晶格耦合共同作用，不能说单一 nesting 完全决定 CDW。Landau 展开允许三线性耦合和多个畴/波矢组合；计算超胞不能分辨严格 3/8 锁定或微小非公度，作者在结论也承认这一点。"
+      },
+      {
+        "title": "实验指向",
+        "text": "【直接观察】本论文直接结果是数值计算的虚频、焓极小、能带展开；它引用的压力单晶衍射是他人实验，不是本文新测量。【模型拟合】Landau 系数与多模耦合；【作者推断】压力 CDW 相与超导谷关联；【本站判断】Q 网格收敛对实验波矢有说服力，但 CDW 是否驱动 Tc 谷仍未做同样品的压点因果实验。建议实验用同一 CsV₃Sb₅ 晶体在 0–2 GPa 以小步长同步测单晶 XRD 卫星峰、ρ(T) 和 Tc，并报告波矢误差；比较 3/8 与邻近非公度拟合。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A｜重点阅读",
+      "first": "先看 Fig.1 的 4³ 与 8³ Q 网格对照、Fig.2 焓曲线，再核对 Landau 三线性耦合。",
+      "focus": "比较 4×4×4 与 8×8×4 Q 网格遗漏的 R₃ 模式，并核对焓曲线交点约 1 GPa 而非 11 GPa。",
+      "next": "在 0–2 GPa 做密集单晶散射和输运同压点关联。"
+    },
+    "growthRecipe": {
+      "material": "CsV₃Sb₅",
+      "actualComposition": "",
+      "method": "DFPT/有限位移压力相竞争",
+      "transportAgent": "",
+      "flux": "",
+      "ratio": "",
+      "purity": "",
+      "vessel": "",
+      "atmosphere": "",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "",
+      "crystalSize": "",
+      "yield": "",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 1,
+        "total": 15,
+        "ratio": 0.06666666666666667
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题与模型验证",
+        "text": "CsV₃Sb₅ 同时有 CDW 和超导，在压力下出现新 3/8 调制，与超导双穹顶低谷相邻。若只做惯常高对称点声子采样，容易把不在 M/L 的软模漏掉。作者用 4×4×4 与 8×8×4 Q 网格对比：后者显露 Q=(3/8,0,1/2) 的 R₃ 谐波不稳定性；再以有限位移计算非谐势能，解释为何常压最终选择常见 L₂⁻ 模式而非谐波最低 R₃。这个“双层判据”区分最先软化与真正自由能最低，不应把虚频大小直接当稳定相排序。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-2",
+        "title": "压力、能带与边界",
+        "text": "压力焓 H=E+pV 曲线在约 1 GPa 让 L₂⁻ 与 R₃ 相关构型相对稳定性反转，符合新 CDW 在压力下出现的方向。文中 Fig.2 的压力标签 0、0.5、1 GPa；若渲染的文本将“1 GPa”串成“11 GPa”是公式抽取错误，需以图轴为准。费米面 nesting 函数在 3/8 处也有峰，但 nesting 与声子—晶格耦合共同作用，不能说单一 nesting 完全决定 CDW。Landau 展开允许三线性耦合和多个畴/波矢组合；计算超胞不能分辨严格 3/8 锁定或微小非公度，作者在结论也承认这一点。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-3",
+        "title": "实验指向",
+        "text": "【直接观察】本论文直接结果是数值计算的虚频、焓极小、能带展开；它引用的压力单晶衍射是他人实验，不是本文新测量。【模型拟合】Landau 系数与多模耦合；【作者推断】压力 CDW 相与超导谷关联；【本站判断】Q 网格收敛对实验波矢有说服力，但 CDW 是否驱动 Tc 谷仍未做同样品的压点因果实验。建议实验用同一 CsV₃Sb₅ 晶体在 0–2 GPa 以小步长同步测单晶 XRD 卫星峰、ρ(T) 和 Tc，并报告波矢误差；比较 3/8 与邻近非公度拟合。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "正文 + Methods",
+      "sampleCredibility": "XRD；证据仍可补强",
+      "reproducibility": "1/15 项参数可提取",
+      "physicalEvidence": "单一或未报告",
+      "certainty": "强"
+    }
+  },
+  {
+    "id": "arxiv:2609.38148",
+    "title": "Anisotropic interface-confined superconductivity in FeTe-based heterostructures",
+    "authors": "Bicky Singh Moirangthem, Kamal R. Joshi, Zi-Jie Yan, Pu Xiao, Lok-Kan Lai, Cui-Zu Chang, Ruslan Prozorov",
+    "institutions": "美国 Ames/Iowa State 与 Penn State 等合作团队",
+    "journal": "arXiv（Superconductivity (cond-mat.supr-con)）",
+    "material": "FeTe/拓扑层异质结构",
+    "method": "MBE；10 MHz ffTDR/输运",
+    "category": "高温与非常规超导",
+    "tags": [
+      "arXiv v1",
+      "全文精读",
+      "实际读正文"
+    ],
+    "abstract": "Interface-confined superconductivity emerges from the interaction of electronic states across chemically distinct boundaries, providing a route to engineer superconducting phases where magnetism and topology coexist. Determining the intrinsic nature of such superconductivity, however, is challenging because the superconducting layer is only a few nanometers thick and buried beneath several normal layers. Here, we measure the whole-sample Meissner response of six $\\mathrm{FeTe}$-based heterostructures in a uniform magnetic field using a frequency-domain tunnel-diode resonator. In the ultrathin limit, the conventional normalization of the measured susceptibility, $\\chi(T\\to0)=-1$, fails by tens of percent. We establish the appropriate calibration and invert $\\chi(T)$ to determine the London penetration depth $\\lambda(T)$. Two key results emerge. First, the broad transitions observed in $\\chi(T)$ arise naturally from the extreme geometry and large $\\lambda$, without requiring chemical or structural inhomogeneity; the extracted $\\lambda(T)$ closely tracks the resistive transition. Second, $\\lambda(T)$ and the corresponding superfluid density are inconsistent with a fully gapped isotropic $s$-wave state and instead indicate a strongly anisotropic order parameter possibly with line nodes or deep gap minima. The inferred $\\lambda(0)$ is of order $1\\,\\mu$m, consistent with an independent analysis of the 2D phase stiffness. Despite the distinct chemical, magnetic, and topological character of the three overlayers, all six FeTe heterostructures exhibit similar low-temperature power-law behavior, with no systematic dependence of the superconducting response on overlayer identity. These results point to the interfacial $\\mathrm{FeTe}$ layer as the common origin of superconductivity.",
+    "conclusion": "对六种 FeTe 界面异质结构同时测穿透深度与电阻，校正超薄膜 χ(0) 不能硬设 −1 后，宽磁响应不再必须归咎化学不均；低温 λ(T) 指向各向异性或节点附近能隙，但不能仅凭幂律唯一判定配对对称性。",
+    "summary": "问题与对照：FeTe 仅在与 Bi₂Te₃、MnBi₂Te₄、CrTe₂ 等不同覆盖层形成界面后呈现薄层超导。该层仅数 nm，整体磁响应极弱；若套用厚块体 χ(T→0)=−1 归一化，穿透深度 λ(T) 就会系统偏差数十个百分点，且宽的 χ 转变可能被误判为化学不均。作者测六种 MBE 异质结构，用约 10 MHz 的平面双线圈 ffTDR 测整体 Meissner，再通过有限元几何校准反解 λ(T)，并与同一生长片切分的电阻测量比较。关键对照是同片两半、不同覆盖层及对常规归一化的敏感性。\n制备谱系和质量：SrTiO₃(100) 基片约 3×10 mm²、厚 0.5 mm，先 80 °C 去离子水浸约 2 h、4.5 wt% 稀 HCl 约 2 h，再流氧下 974 °C 约 3 h、入 MBE 后 600 °C 脱气约 1 h。基压 <2×10⁻¹⁰ mbar；Fe/Te/Cr/Bi/Mn 的标称纯度依次 99.995/99.9999/99.999/99.9999/99.9998%。FeTe、CrTe₂、Bi₂Te₃、MnBi₂Te₄ 的基片温度约 340/300/210/270 °C。每片生长后切成两个约 3×4 mm² 伴片，分别用于 TDR 和输运，故不存在同一测量位置直接互证。原子级界面证据来自正文显微和衍射，批次间层厚与氧化时间的误差仍须单独评估。\n测量、模型与边界：ffTDR 在约 10 MHz、AC 场约 20 mOe 测 0.5–12 K；作者估计此激励低于边缘涡旋进入阈值约 0.2 Oe。电阻在 PPMS DynaCool 1.7–12 K、9 T 内，以约 1 μA 电流测 Hall-bar；从 MBE 腔转出后约 30 min 内完成测量以抑制氧化。直接观察是频移和 R(T)，穿透深度/超流密度需结合片几何与有限元反演；Fig.4 的低温幂律更吻合各向异性能隙，但非磁杂质、残余金属层和多带效应也可造成类似趋势。最强证据是六片、两探针、校正后的趋势一致，最弱是依赖模型把整体 χ 投影到纳米界面 λ。下一轮应在同母片上做不同切片方位/面积的几何灵敏度测试，结合截面 STEM、局域扫描 SQUID 和电流方向变化，报告 λ 拟合区间及残差，而不只报配对符号。",
+    "year": 2026,
+    "published": "2026-09-29",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.38148",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/html/2609.38148",
+    "reportUrl": "/reports/2026-09-30/#paper-29",
+    "access": "全文精读：实际读取 arXiv 公开正文、所列 Methods/实验段及关键图注；未另取 SI 不声称已读 SI。已核正文几何校准、Fig.1–4、Methods VII.1–VII.2。",
+    "rating": "A+",
+    "sections": [
+      {
+        "title": "问题与对照",
+        "text": "FeTe 仅在与 Bi₂Te₃、MnBi₂Te₄、CrTe₂ 等不同覆盖层形成界面后呈现薄层超导。该层仅数 nm，整体磁响应极弱；若套用厚块体 χ(T→0)=−1 归一化，穿透深度 λ(T) 就会系统偏差数十个百分点，且宽的 χ 转变可能被误判为化学不均。作者测六种 MBE 异质结构，用约 10 MHz 的平面双线圈 ffTDR 测整体 Meissner，再通过有限元几何校准反解 λ(T)，并与同一生长片切分的电阻测量比较。关键对照是同片两半、不同覆盖层及对常规归一化的敏感性。"
+      },
+      {
+        "title": "制备谱系和质量",
+        "text": "SrTiO₃(100) 基片约 3×10 mm²、厚 0.5 mm，先 80 °C 去离子水浸约 2 h、4.5 wt% 稀 HCl 约 2 h，再流氧下 974 °C 约 3 h、入 MBE 后 600 °C 脱气约 1 h。基压 <2×10⁻¹⁰ mbar；Fe/Te/Cr/Bi/Mn 的标称纯度依次 99.995/99.9999/99.999/99.9999/99.9998%。FeTe、CrTe₂、Bi₂Te₃、MnBi₂Te₄ 的基片温度约 340/300/210/270 °C。每片生长后切成两个约 3×4 mm² 伴片，分别用于 TDR 和输运，故不存在同一测量位置直接互证。原子级界面证据来自正文显微和衍射，批次间层厚与氧化时间的误差仍须单独评估。"
+      },
+      {
+        "title": "测量、模型与边界",
+        "text": "ffTDR 在约 10 MHz、AC 场约 20 mOe 测 0.5–12 K；作者估计此激励低于边缘涡旋进入阈值约 0.2 Oe。电阻在 PPMS DynaCool 1.7–12 K、9 T 内，以约 1 μA 电流测 Hall-bar；从 MBE 腔转出后约 30 min 内完成测量以抑制氧化。直接观察是频移和 R(T)，穿透深度/超流密度需结合片几何与有限元反演；Fig.4 的低温幂律更吻合各向异性能隙，但非磁杂质、残余金属层和多带效应也可造成类似趋势。最强证据是六片、两探针、校正后的趋势一致，最弱是依赖模型把整体 χ 投影到纳米界面 λ。下一轮应在同母片上做不同切片方位/面积的几何灵敏度测试，结合截面 STEM、局域扫描 SQUID 和电流方向变化，报告 λ 拟合区间及残差，而不只报配对符号。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "A+｜实验人员优先",
+      "first": "先看 Fig.1 的六样品配对曲线与 Fig.2 的几何校准，再读 MBE 温度和 20 mOe 激励。",
+      "focus": "先核 Fig.2 的超薄膜 χ(λ) 校准及 Fig.4 λ(T) 幂律，再看同片切出的 TDR/输运配对。",
+      "next": "同母片切分做 TDR、输运与截面 TEM，系统检查氧化时间。"
+    },
+    "growthRecipe": {
+      "material": "FeTe/拓扑层异质结构",
+      "actualComposition": "",
+      "method": "MBE",
+      "transportAgent": "i₂",
+      "flux": "",
+      "ratio": "",
+      "purity": "纯度依次 99.995/99.9999/99.999/99.9999/99.9998%",
+      "vessel": "",
+      "atmosphere": "",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "",
+      "crystalSize": "3×10 mm",
+      "yield": "",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 4,
+        "total": 15,
+        "ratio": 0.26666666666666666
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题与对照",
+        "text": "FeTe 仅在与 Bi₂Te₃、MnBi₂Te₄、CrTe₂ 等不同覆盖层形成界面后呈现薄层超导。该层仅数 nm，整体磁响应极弱；若套用厚块体 χ(T→0)=−1 归一化，穿透深度 λ(T) 就会系统偏差数十个百分点，且宽的 χ 转变可能被误判为化学不均。作者测六种 MBE 异质结构，用约 10 MHz 的平面双线圈 ffTDR 测整体 Meissner，再通过有限元几何校准反解 λ(T)，并与同一生长片切分的电阻测量比较。关键对照是同片两半、不同覆盖层及对常规归一化的敏感性。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-2",
+        "title": "制备谱系和质量",
+        "text": "SrTiO₃(100) 基片约 3×10 mm²、厚 0.5 mm，先 80 °C 去离子水浸约 2 h、4.5 wt% 稀 HCl 约 2 h，再流氧下 974 °C 约 3 h、入 MBE 后 600 °C 脱气约 1 h。基压 <2×10⁻¹⁰ mbar；Fe/Te/Cr/Bi/Mn 的标称纯度依次 99.995/99.9999/99.999/99.9999/99.9998%。FeTe、CrTe₂、Bi₂Te₃、MnBi₂Te₄ 的基片温度约 340/300/210/270 °C。每片生长后切成两个约 3×4 mm² 伴片，分别用于 TDR 和输运，故不存在同一测量位置直接互证。原子级界面证据来自正文显微和衍射，批次间层厚与氧化时间的误差仍须单独评估。",
+        "type": "直接观察"
+      },
+      {
+        "id": "evidence-3",
+        "title": "测量、模型与边界",
+        "text": "ffTDR 在约 10 MHz、AC 场约 20 mOe 测 0.5–12 K；作者估计此激励低于边缘涡旋进入阈值约 0.2 Oe。电阻在 PPMS DynaCool 1.7–12 K、9 T 内，以约 1 μA 电流测 Hall-bar；从 MBE 腔转出后约 30 min 内完成测量以抑制氧化。直接观察是频移和 R(T)，穿透深度/超流密度需结合片几何与有限元反演；Fig.4 的低温幂律更吻合各向异性能隙，但非磁杂质、残余金属层和多带效应也可造成类似趋势。最强证据是六片、两探针、校正后的趋势一致，最弱是依赖模型把整体 χ 投影到纳米界面 λ。下一轮应在同母片上做不同切片方位/面积的几何灵敏度测试，结合截面 STEM、局域扫描 SQUID 和电流方向变化，报告 λ 拟合区间及残差，而不只报配对符号。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "正文 + Methods",
+      "sampleCredibility": "TEM、输运；证据仍可补强",
+      "reproducibility": "4/15 项参数可提取",
+      "physicalEvidence": "双探针支持",
+      "certainty": "强"
+    }
+  },
+  {
+    "id": "arxiv:2609.38150",
+    "title": "Neural-quantum-state based downfolding of the three-band Emery model for cuprates and nickelates",
+    "authors": "Hannah Lange, Julius F. A. Tirpitz, Annabelle Bohrdt",
+    "institutions": "作者机构需从论文首页逐一核对；本期不凭姓名猜测",
+    "journal": "arXiv（Strongly Correlated Electrons (cond-mat.str-el); Disordered Systems and Neural Networks (cond-mat.dis-nn); Quantum Gases (cond-mat.quant-gas); Superconductivity (cond-mat.supr-con)）",
+    "material": "铜氧化物/镍酸盐 Emery 模型",
+    "method": "神经量子态下折叠",
+    "category": "高温与非常规超导",
+    "tags": [
+      "arXiv v1",
+      "摘要级",
+      "待全文补读"
+    ],
+    "abstract": "Understanding the physics underlying high-temperature superconductivity in cuprates and, more recently, infinite-layer nickelates has remained a central challenge in condensed-matter physics. We establish neural quantum states (NQS), specifically Hidden Fermion Determinant States (HFDS), as a scalable variational approach to the three-band Emery model of the copper- and nickel-oxide layers in these materials. After benchmarking HFDS against matrix product states on width-two geometries, we study ground states of fully two-dimensional (2D) systems of up to $10\\times10$ unit cells ($300$ sites). We characterize the momentum-space distribution of dopants and find a pronounced electron-hole dichotomy similar to cuprate experiments. We further downfold the three-band model to effective single-band descriptions by constructing interacting Wannier functions. We consider a wide range of parameters -- from the charge-transfer regime relevant to cuprates to the Hubbard-Mott regime of nickelates, as well as systematic scans of the charge-transfer gap that has been demonstrated to impact the critical superconducting temperatures. Across all regimes, the effective model significantly deviates from the usual Fermi-Hubbard model: The typical ratio $U/t$ is enhanced, some parameters experience a significant doping dependence, and sizable terms beyond the conventional Hubbard model are present, most notably a density-assisted hopping $t_n$. Notably, in all effective models, $t_n$ has the largest contribution to particle-hole asymmetry, rather than next-nearest-neighbor hopping contributions. The effective parameters sensitively depend on the charge-transfer energy, doping, and interaction ratios. Our results establish HFDS as an efficient tool for studying the 2D Emery model and demonstrate that single-band descriptions can require interaction terms generated by the underlying multi-band models.",
+    "conclusion": "隐藏费米子行列式态把三带 Emery 模型推到 10×10、300 站点范围，并分析电子/空穴不对称与单带下折叠误差。它为解释高温超导提供数值基线，不是新晶体或新 Tc。",
+    "summary": "问题—样品—证据：摘要所能确定的范围：【仅基于摘要/元数据】Understanding the physics underlying high-temperature superconductivity in cuprates and, more recently, infinite-layer nickelates has remained a central challenge in condensed-matter physics. We establish neural quantum states (NQS), specifically Hidden Fermion Determinant States (HFDS), as a scalable variational approach to the three-band Emery model of the copper- and nickel-oxide layers in these materials. After benchmarking HFDS against matrix product states on width-two geometries, we study ground states of fully two-dimensional (2D) systems of up to $10\\times10$ unit cells ($300$ sites). We characterize the momentum-space distribution of dopants and find a pronounced electron-hole dichotomy similar to cuprate experiments. We further downfold the three-band model to effective single-band descriptions by constructing interacting Wannier functions. We consider a wide range of parameters -- from the charge-transfer regime relevant to cuprates to the Hubbard-Mott regime of nickelates, as well as systematic scans of the charge-transfer gap that has been demonstrated to impact the critical superconducting temperatures. Across all regimes, the effective model significantly deviates from the usual Fermi-Hubbard model: The typical ratio $U/t$ is enhanced, some parameters experience a significant doping dependence, and sizable terms beyond the conventional Hubbard model are present, most notably a density-assisted hopping $t_n$. Notably, in all effective models, $t_n$ has the largest contribution to particle-hole asymmetry, rather than next-nearest-neighbor hopping contributions. The effective parameters sensitively depend on the charge-transfer energy, doping, and interaction ratios. Our results establish HFDS as an efficient tool for studying the 2D Emery model and demonstrate that single-band descriptions can require interaction terms generated by the underlying multi-band models.。本站判断：隐藏费米子行列式态把三带 Emery 模型推到 10×10、300 站点范围，并分析电子/空穴不对称与单带下折叠误差。它为解释高温超导提供数值基线，不是新晶体或新 Tc。。摘要只给研究主张，不能据此确定所有对照或因果。\n生长、质量与测量：待补读边界：材料/模型：铜氧化物/镍酸盐 Emery 模型；摘要描述方法：神经量子态下折叠。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。\n证据等级、局限与复现建议：【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看宽度 2 基准与 10×10 大系统能量误差，再核对电荷转移能扫描。；随后：用不同氧轨道参数做外部数值基准。。",
+    "year": 2026,
+    "published": "2026-09-29",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.38150",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2609.38150",
+    "reportUrl": "/reports/2026-09-30/#paper-30",
+    "access": "仅基于摘要/元数据：本次未实际核查正文和关键图，已列入正文补读清单；不计入精读。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Understanding the physics underlying high-temperature superconductivity in cuprates and, more recently, infinite-layer nickelates has remained a central challenge in condensed-matter physics. We establish neural quantum states (NQS), specifically Hidden Fermion Determinant States (HFDS), as a scalable variational approach to the three-band Emery model of the copper- and nickel-oxide layers in these materials. After benchmarking HFDS against matrix product states on width-two geometries, we study ground states of fully two-dimensional (2D) systems of up to $10\\times10$ unit cells ($300$ sites). We characterize the momentum-space distribution of dopants and find a pronounced electron-hole dichotomy similar to cuprate experiments. We further downfold the three-band model to effective single-band descriptions by constructing interacting Wannier functions. We consider a wide range of parameters -- from the charge-transfer regime relevant to cuprates to the Hubbard-Mott regime of nickelates, as well as systematic scans of the charge-transfer gap that has been demonstrated to impact the critical superconducting temperatures. Across all regimes, the effective model significantly deviates from the usual Fermi-Hubbard model: The typical ratio $U/t$ is enhanced, some parameters experience a significant doping dependence, and sizable terms beyond the conventional Hubbard model are present, most notably a density-assisted hopping $t_n$. Notably, in all effective models, $t_n$ has the largest contribution to particle-hole asymmetry, rather than next-nearest-neighbor hopping contributions. The effective parameters sensitively depend on the charge-transfer energy, doping, and interaction ratios. Our results establish HFDS as an efficient tool for studying the 2D Emery model and demonstrate that single-band descriptions can require interaction terms generated by the underlying multi-band models.。本站判断：隐藏费米子行列式态把三带 Emery 模型推到 10×10、300 站点范围，并分析电子/空穴不对称与单带下折叠误差。它为解释高温超导提供数值基线，不是新晶体或新 Tc。。摘要只给研究主张，不能据此确定所有对照或因果。"
+      },
+      {
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：铜氧化物/镍酸盐 Emery 模型；摘要描述方法：神经量子态下折叠。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。"
+      },
+      {
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看宽度 2 基准与 10×10 大系统能量误差，再核对电荷转移能扫描。；随后：用不同氧轨道参数做外部数值基准。。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜方向跟踪、待正文复核",
+      "first": "先看宽度 2 基准与 10×10 大系统能量误差，再核对电荷转移能扫描。",
+      "focus": "核对摘要主张所依赖的具体图、对照样品及误差，不能据标题直接采用生长参数。",
+      "next": "用不同氧轨道参数做外部数值基准。"
+    },
+    "growthRecipe": {
+      "material": "铜氧化物/镍酸盐 Emery 模型",
+      "actualComposition": "EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对",
+      "method": "Flux",
+      "transportAgent": "",
+      "flux": "助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核",
+      "ratio": "原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "purity": "纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "vessel": "坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "atmosphere": "真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "crystalSize": "",
+      "yield": "产率：正文未报告或本次未核验",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 8,
+        "total": 15,
+        "ratio": 0.5333333333333333
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】Understanding the physics underlying high-temperature superconductivity in cuprates and, more recently, infinite-layer nickelates has remained a central challenge in condensed-matter physics. We establish neural quantum states (NQS), specifically Hidden Fermion Determinant States (HFDS), as a scalable variational approach to the three-band Emery model of the copper- and nickel-oxide layers in these materials. After benchmarking HFDS against matrix product states on width-two geometries, we study ground states of fully two-dimensional (2D) systems of up to $10\\times10$ unit cells ($300$ sites). We characterize the momentum-space distribution of dopants and find a pronounced electron-hole dichotomy similar to cuprate experiments. We further downfold the three-band model to effective single-band descriptions by constructing interacting Wannier functions. We consider a wide range of parameters -- from the charge-transfer regime relevant to cuprates to the Hubbard-Mott regime of nickelates, as well as systematic scans of the charge-transfer gap that has been demonstrated to impact the critical superconducting temperatures. Across all regimes, the effective model significantly deviates from the usual Fermi-Hubbard model: The typical ratio $U/t$ is enhanced, some parameters experience a significant doping dependence, and sizable terms beyond the conventional Hubbard model are present, most notably a density-assisted hopping $t_n$. Notably, in all effective models, $t_n$ has the largest contribution to particle-hole asymmetry, rather than next-nearest-neighbor hopping contributions. The effective parameters sensitively depend on the charge-transfer energy, doping, and interaction ratios. Our results establish HFDS as an efficient tool for studying the 2D Emery model and demonstrate that single-band descriptions can require interaction terms generated by the underlying multi-band models.。本站判断：隐藏费米子行列式态把三带 Emery 模型推到 10×10、300 站点范围，并分析电子/空穴不对称与单带下折叠误差。它为解释高温超导提供数值基线，不是新晶体或新 Tc。。摘要只给研究主张，不能据此确定所有对照或因果。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-2",
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：铜氧化物/镍酸盐 Emery 模型；摘要描述方法：神经量子态下折叠。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看宽度 2 基准与 10×10 大系统能量误差，再核对电荷转移能扫描。；随后：用不同氧轨道参数做外部数值基准。。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "EDS、WDS、TEM、输运 多方法互证",
+      "reproducibility": "8/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "推测"
+    }
+  },
+  {
+    "id": "arxiv:2609.38174",
+    "title": "Imaging phase winding in topological superconductors with a fork-tip Josephson STM",
+    "authors": "Vladislav Poliakov, Archisman Panigrahi",
+    "institutions": "作者机构需从论文首页逐一核对；本期不凭姓名猜测",
+    "journal": "arXiv（Superconductivity (cond-mat.supr-con); Strongly Correlated Electrons (cond-mat.str-el)）",
+    "material": "拓扑超导 Josephson STM 方案",
+    "method": "双尖端 Josephson 干涉数值",
+    "category": "二维材料与量子器件",
+    "tags": [
+      "arXiv v1",
+      "摘要级",
+      "待全文补读"
+    ],
+    "abstract": "The complex phase winding in a topological superconductor remains challenging to access by conventional real-space probes. We propose a scheme to probe this winding with a fork-tip Josephson STM near an impurity, where two superconducting tips form an interferometer sensitive to phase differences between two positions. The signal remains accessible even if the relative phase between the fork-tip and sample fluctuates, establishing a route towards a local phase-sensitive STM probe of topological superconductivity. We numerically compute the interference pattern to demonstrate that the magnitude and phase of the order parameter can be reconstructed as a function of angle, providing a route towards resolving the longstanding open experimental problem of directly detecting phase winding in topological superconductors.",
+    "conclusion": "提出叉形双尖 Josephson STM 在杂质附近比较两点相位，即便整体尖端相位漂移仍可重建角向相位绕转。论文是理论可行性研究，尚未展示真实超导样品数据。",
+    "summary": "问题—样品—证据：摘要所能确定的范围：【仅基于摘要/元数据】The complex phase winding in a topological superconductor remains challenging to access by conventional real-space probes. We propose a scheme to probe this winding with a fork-tip Josephson STM near an impurity, where two superconducting tips form an interferometer sensitive to phase differences between two positions. The signal remains accessible even if the relative phase between the fork-tip and sample fluctuates, establishing a route towards a local phase-sensitive STM probe of topological superconductivity. We numerically compute the interference pattern to demonstrate that the magnitude and phase of the order parameter can be reconstructed as a function of angle, providing a route towards resolving the longstanding open experimental problem of directly detecting phase winding in topological superconductors.。本站判断：提出叉形双尖 Josephson STM 在杂质附近比较两点相位，即便整体尖端相位漂移仍可重建角向相位绕转。论文是理论可行性研究，尚未展示真实超导样品数据。。摘要只给研究主张，不能据此确定所有对照或因果。\n生长、质量与测量：待补读边界：材料/模型：拓扑超导 Josephson STM 方案；摘要描述方法：双尖端 Josephson 干涉数值。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。\n证据等级、局限与复现建议：【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看相位漂移鲁棒性测试和空间分辨率假设。；随后：制作可控双针距器件，在已知 d 波样品上先验证相位响应。。",
+    "year": 2026,
+    "published": "2026-09-29",
+    "date": "2026-09-30",
+    "type": "preprint",
+    "citations": null,
+    "citationDate": "",
+    "source": "https://arxiv.org/abs/2609.38174",
+    "doi": "",
+    "openAccess": true,
+    "dataSource": "arXiv",
+    "fullText": "https://arxiv.org/abs/2609.38174",
+    "reportUrl": "/reports/2026-09-30/#paper-31",
+    "access": "仅基于摘要/元数据：本次未实际核查正文和关键图，已列入正文补读清单；不计入精读。",
+    "rating": "B+",
+    "sections": [
+      {
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】The complex phase winding in a topological superconductor remains challenging to access by conventional real-space probes. We propose a scheme to probe this winding with a fork-tip Josephson STM near an impurity, where two superconducting tips form an interferometer sensitive to phase differences between two positions. The signal remains accessible even if the relative phase between the fork-tip and sample fluctuates, establishing a route towards a local phase-sensitive STM probe of topological superconductivity. We numerically compute the interference pattern to demonstrate that the magnitude and phase of the order parameter can be reconstructed as a function of angle, providing a route towards resolving the longstanding open experimental problem of directly detecting phase winding in topological superconductors.。本站判断：提出叉形双尖 Josephson STM 在杂质附近比较两点相位，即便整体尖端相位漂移仍可重建角向相位绕转。论文是理论可行性研究，尚未展示真实超导样品数据。。摘要只给研究主张，不能据此确定所有对照或因果。"
+      },
+      {
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：拓扑超导 Josephson STM 方案；摘要描述方法：双尖端 Josephson 干涉数值。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。"
+      },
+      {
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看相位漂移鲁棒性测试和空间分辨率假设。；随后：制作可控双针距器件，在已知 d 波样品上先验证相位响应。。"
+      }
+    ],
+    "readingGuide": {
+      "priority": "B+｜方向跟踪、待正文复核",
+      "first": "先看相位漂移鲁棒性测试和空间分辨率假设。",
+      "focus": "核对摘要主张所依赖的具体图、对照样品及误差，不能据标题直接采用生长参数。",
+      "next": "制作可控双针距器件，在已知 d 波样品上先验证相位响应。"
+    },
+    "growthRecipe": {
+      "material": "拓扑超导 Josephson STM 方案",
+      "actualComposition": "EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对",
+      "method": "Flux",
+      "transportAgent": "",
+      "flux": "助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核",
+      "ratio": "原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "purity": "purity, where two superconducting tips form an interferometer sensitive to p",
+      "vessel": "坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "atmosphere": "真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "sourceTemperature": "",
+      "growthTemperature": "",
+      "peakTemperature": "",
+      "holdTime": "",
+      "coolingRate": "",
+      "postTreatment": "退火、晶体尺寸与产率：正文未报告或本次未核验",
+      "crystalSize": "",
+      "yield": "产率：正文未报告或本次未核验",
+      "qualityMetrics": [],
+      "completeness": {
+        "reported": 8,
+        "total": 15,
+        "ratio": 0.5333333333333333
+      }
+    },
+    "evidenceSegments": [
+      {
+        "id": "evidence-1",
+        "title": "问题—样品—证据：摘要所能确定的范围",
+        "text": "【仅基于摘要/元数据】The complex phase winding in a topological superconductor remains challenging to access by conventional real-space probes. We propose a scheme to probe this winding with a fork-tip Josephson STM near an impurity, where two superconducting tips form an interferometer sensitive to phase differences between two positions. The signal remains accessible even if the relative phase between the fork-tip and sample fluctuates, establishing a route towards a local phase-sensitive STM probe of topological superconductivity. We numerically compute the interference pattern to demonstrate that the magnitude and phase of the order parameter can be reconstructed as a function of angle, providing a route towards resolving the longstanding open experimental problem of directly detecting phase winding in topological superconductors.。本站判断：提出叉形双尖 Josephson STM 在杂质附近比较两点相位，即便整体尖端相位漂移仍可重建角向相位绕转。论文是理论可行性研究，尚未展示真实超导样品数据。。摘要只给研究主张，不能据此确定所有对照或因果。",
+        "type": "本站判断"
+      },
+      {
+        "id": "evidence-2",
+        "title": "生长、质量与测量：待补读边界",
+        "text": "材料/模型：拓扑超导 Josephson STM 方案；摘要描述方法：双尖端 Josephson 干涉数值。原料纯度与名义/实际配比、助熔剂或输运剂用量、坩埚/安瓿、气氛/真空、温区及升降温程序、保温/倾析/退火、晶体尺寸与产率：正文未报告或本次未核验；理论论文则不适用。空间群、结构精修残差、EDS/WDS 批次统计、测量接线及温场压范围、误差与拟合窗口：除摘要明示者外均待核对。",
+        "type": "模型拟合"
+      },
+      {
+        "id": "evidence-3",
+        "title": "证据等级、局限与复现建议",
+        "text": "【直接可核验】题目、全体作者、官方新稿批次与摘要数字；【模型拟合/作者推断】摘要中的机制解释，暂不当成独立事实。【本站判断】最强的是摘要明确的对照或多探针线索，最弱是未见原图和实验细节。先补读：先看相位漂移鲁棒性测试和空间分辨率假设。；随后：制作可控双针距器件，在已知 d 波样品上先验证相位响应。。",
+        "type": "模型拟合"
+      }
+    ],
+    "evidenceProfile": {
+      "fullText": "摘要 / 元数据",
+      "sampleCredibility": "EDS、WDS、STM、输运 多方法互证",
+      "reproducibility": "8/15 项参数可提取",
+      "physicalEvidence": "多探针互证",
+      "certainty": "推测"
+    }
+  },
+  {
     "id": "arxiv:2609.31721",
     "title": "Growth and Interface Engineering of Superconducting TiN on Sapphire by Thermal-Laser Epitaxy",
     "authors": "Anthony Hyatt, Anand Ithepalli, Eegene Clara Chung, Yorick A. Birkholzer, Brendan Faeth, Huili Grace Xing, David A. Muller, Darrell G. Schlom, Debdeep Jena",
-    "institutions": "正文或作者机构列表待核对；不凭姓名猜测单位",
+    "institutions": "Cornell University，材料科学与工程系/物理系",
     "journal": "arXiv（Superconductivity (cond-mat.supr-con); Materials Science (cond-mat.mtrl-sci)）",
     "material": "TiN/蓝宝石外延薄膜",
     "method": "热激光外延 TLE",
@@ -122,7 +6662,7 @@ export default [
     "id": "arxiv:2609.35004",
     "title": "Unconventional superconductivity in locally non-centrosymmetric CeNi$_2$As$_2$",
     "authors": "Félix Morineau, Jan Knapp, Javier Landaeta, Thomas Lühmann, Lea Richter, Petra Knappova, Soumen Ash, Sushma Lakshmi Ravi Sankar, Konstantin Semeniuk, Elena Hassinger, Christoph Geibel, Manuel Brando, Daniel F. Agterberg, Andrew P. Mackenzie, Seunghyun Khim",
-    "institutions": "正文或作者机构列表待核对；不凭姓名猜测单位",
+    "institutions": "Max Planck Institute for Chemical Physics of Solids；Karlsruhe Institute of Technology",
     "journal": "arXiv（Superconductivity (cond-mat.supr-con); Strongly Correlated Electrons (cond-mat.str-el)）",
     "material": "β-CeNi₂As₂",
     "method": "Bi 助熔剂单晶",
@@ -235,7 +6775,7 @@ export default [
     "id": "arxiv:2609.32012",
     "title": "Chiral Weyl-Kondo semimetallic state through enhanced correlation in CeGaGe",
     "authors": "Arushi, Kevin Allen, Yuan Fang, Kuan-Sen Lin, Mounica Mahankali, Hari Bhandari, Karthik Rao, Alberto Ruiz Biestro, Christopher Lane, Jian-Xin Zhu, Sanu Mishra, Geoffroy Hautier, Qimiao Si, Emilia Morosan",
-    "institutions": "正文或作者机构列表待核对；不凭姓名猜测单位",
+    "institutions": "Rice University / Rice Center for Quantum Materials",
     "journal": "arXiv（Strongly Correlated Electrons (cond-mat.str-el)）",
     "material": "CeGaGe",
     "method": "In 助熔剂单晶",
@@ -348,7 +6888,7 @@ export default [
     "id": "arxiv:2609.34569",
     "title": "Enhanced sliding in the coexisting Charge Density Wave phase of strained TbTe3",
     "authors": "Antoine Gallo Frantz, Aleksander Sinchenko, Luc Ortega, Abdellali Hadj Azzem, Jose Emilio Lorenzo, Pierre Monceau, David Le Bolloch, Vincent Jacques",
-    "institutions": "正文或作者机构列表待核对；不凭姓名猜测单位",
+    "institutions": "Université Paris-Saclay / CNRS；Institut Néel",
     "journal": "arXiv（Strongly Correlated Electrons (cond-mat.str-el); Materials Science (cond-mat.mtrl-sci)）",
     "material": "TbTe₃",
     "method": "自助熔剂单晶；原位单轴应变",
@@ -461,7 +7001,7 @@ export default [
     "id": "arxiv:2609.32121",
     "title": "Temperature Dependent Evolution of the Electronic Structure in EuZn2As2 across the Neel Transition",
     "authors": "Milo Sprague, Anup Pradhan Sakhya, Barun Ghosh, Mazharul Islam Mondal, Arun K. Kumay, Himanshu Sheokand, Kapil Gope, Tetiana Romanova, Dariusz Kaczorowski, Arun Bansil, Madhab Neupane",
-    "institutions": "正文或作者机构列表待核对；不凭姓名猜测单位",
+    "institutions": "University of Central Florida；Hiroshima University；Northeastern University",
     "journal": "arXiv（Materials Science (cond-mat.mtrl-sci); Mesoscale and Nanoscale Physics (cond-mat.mes-hall)）",
     "material": "EuZn₂As₂",
     "method": "Zn–As 助熔剂单晶",
@@ -1013,7 +7553,7 @@ export default [
     "title": "Stoichiometric Epitaxial Strontium Titanate Thin Films on Silicon by High-Temperature Sr Segregation",
     "authors": "Andries Boelen; Marina Baryshnikova; Maxim Korytov; Sean R. C. McMitchell; Felix Cahyadi; Christian Haffner; Clement Merckling",
     "institutions": "出版社元数据未完整列示主要单位，待正文核对",
-    "journal": "Crystal Growth &amp; Design",
+    "journal": "Crystal Growth & Design",
     "material": "SrTiO₃/Si 外延薄膜",
     "method": "高温 Sr 偏析诱导外延",
     "category": "晶体生长和物性调控",
