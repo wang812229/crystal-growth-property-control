@@ -13,7 +13,7 @@
     "ACS Crystal Growth & Design：官网 HTTP 403；命中未知、纳入 0；留待期刊目录恢复复核。",
     "Elsevier Journal of Crystal Growth：官网 HTTP 403；命中未知、纳入 0；不凭接口空值断言零。",
     "其他同等级期刊：Crossref published-online 10/6 元数据 1460 条，关键词候选 75；核 DOI、期刊和材料相关性后另纳入 ACS Applied Materials & Interfaces 2；其余主要为非凝聚态、无明确材料关联或重复稿。",
-    "arXiv 官方 cond-mat/new：页面明确 Tuesday, 6 October 2026；120 new、50 cross、117 replacement 共 287 条。逐题筛 287 条、复核相关摘要；本期纳入 23 条独立 arXiv 主条目（含 2 条仅标版本待核的旧稿修订），其余为主题不符、无具体材料/实验关联、综述或没有核实的新增证据。",
+    "arXiv 官方 cond-mat/new：页面明确 Tuesday, 6 October 2026；120 new、50 cross、117 replacement 共 287 条。逐题筛 287 条、复核相关摘要；本期纳入 21 条独立 arXiv 主条目；另有 2 条旧稿修订因未核实实质新增内容仅入待核清单，不计作当日新收录，其余为主题不符、无具体材料/实验关联、综述或没有核实的新增证据。",
     "访问与去重：按 DOI、arXiv ID、题名对本站历史报告去重；Nature Communications 与 Nano Letters 对应公开作者稿只作为全文来源，不双计独立 arXiv；出版社正文直达失败，浙江大学机构认证未成功/未操作登录，未下载或公开任何订阅 PDF。全文未读的逐篇列具体缺口。"
   ],
   "papers": [
@@ -1180,82 +1180,6 @@
         "next": "用同批样品测三种响应并固定模型参数交叉预测。"
       },
       "versionNote": "arXiv 官方 10 月 6 日新投稿或交叉投稿批次；版本与真正提交时间以 arXiv 历史记录为准，未核实正式 DOI。"
-    },
-    {
-      "material": "Ba₂CoMoO₆ 双钙钛矿单晶",
-      "title": "Single-Crystal Growth and Physical Properties of the Antiferromagnetic Double Perovskite Ba_2CoMoO_6",
-      "authors": "A.R.N. Hanna; M. M. Ferreira-Carvalho; S.H. Chen; C. F. Chang; C. Y. Kuo; A.T.M.N. Islam; R. Feyerherm; L.H. Tjeng; B. Lake",
-      "institutions": "完整作者见 arXiv；单位以正文署名为准",
-      "journal": "arXiv:2603.15485（10 月 6 日官方列表）",
-      "date": "2026-10-06 官方列表",
-      "doi": "https://arxiv.org/abs/2603.15485",
-      "fullText": "https://arxiv.org/pdf/2603.15485",
-      "access": "仅摘要/元数据：已核对 arXiv 官方题名、完整作者和摘要；正文/Methods/SI 未读，需后续补读。",
-      "rating": "A-",
-      "method": "浮区/Czochralski；磁性和比热",
-      "category": "晶体生长和物性调控",
-      "tags": [
-        "arXiv",
-        "摘要级",
-        "晶体生长和物性调控"
-      ],
-      "abstract": "This work presents a comprehensive investigation of the structural, magnetic, and electronic properties of the double perovskite Ba$_2$CoMoO$_6$ (BCMO). Single crystals were grown via floating-zone and Czochralski growth techniques and characterized using a set of complementary methods. X-ray diffraction analysis confirmed that BCMO crystallizes in a face-centered cubic (FCC) structure with space group $Fm\\overline{3}m$. Magnetic susceptibility measurements exhibit antiferromagnetic ordering below $T_{\\mathrm{N}} = 20.1(1)$~K. A spin-flop transition is observed at 26.5~kOe. Heat capacity measurements and entropy analysis are consistent with a $J_{\\mathrm{eff}} = 1/2$ ground state for Co$^{2+}$ ions. X-ray absorption spectroscopy provided insight into the local electronic structure, revealing the spin-orbit and crystal field effects. The cluster-model analysis yields a $g$-factor of 4.36, consistent with a spin-orbit-entangled ground state. Surface photovoltage spectroscopy demonstrates a strong near surface optical response with an onset near 1.5~eV and a pronounced feature at 2.65~eV, consistent with visible range Co--O--Mo transitions in line with related Ba-based double perovskites, highlighting its potential for spintronic and energy conversion applications.",
-      "conclusion": "10 月 6 日列表的修订稿摘要明确以浮区和 Czochralski 两种路线制单晶，Fm-3m 结构、TN≈20.1 K、26.5 kOe 自旋翻转，适合比对两种生长法的杂质和残余应力。但原始提交在 3 月，修订差异未核，本期仅作“需版本对照”不把整篇当新论文。",
-      "sections": [
-        {
-          "title": "版本与质量边界",
-          "text": "修订页出现不代表新实验。具体炉次、纯度、氧分压、拉速/转速、XRD 精修、两法各自晶体尺寸：当前仅摘要，正文未报告。XAS+cluster model 得 g≈4.36 为模型，与热容磁熵相合但不能单独确定所有局域态。"
-        },
-        {
-          "title": "复现",
-          "text": "下载 v1 与当前修订版比对图表和 Methods，再以生长法作为样品标签分别统计 TN、晶格常数和摇摆曲线；无实质新增时不作为新增科研结论。"
-        }
-      ],
-      "readingGuide": {
-        "priority": "A-｜Ba₂CoMoO₆ 双钙钛矿单晶",
-        "first": "先做 v1/v2 的浮区/Czochralski Methods 差异，再看 20.1 K 和 26.5 kOe。",
-        "focus": "核是否新增数据而非排版修正；一般背景可略。",
-        "next": "按两种生长法分别记录氧化程度与磁转变宽度。"
-      },
-      "versionNote": "官方 10 月 6 日 cond-mat/new 的修订稿；初始提交早于本日。本期只记录新增修订信息，未核实完整版本差异，不把旧结果充作当天新发现。"
-    },
-    {
-      "material": "α-RuCl₃ 多型单晶",
-      "title": "A thermodynamic reference for field-induced phenomena in α-RuCl_3: two coexisting polymorphs account for multiple magnetic phase transitions",
-      "authors": "Hamza Nasir; Daniel Balazs; Muhammad Nauman; Vikram Nagarajan; Ezekiel Horsley; Subin Kim; Young-June Kim; K. A. Modic",
-      "institutions": "完整作者见 arXiv；单位以正文署名为准",
-      "journal": "arXiv:2605.13444（10 月 6 日官方列表）",
-      "date": "2026-10-06 官方列表",
-      "doi": "https://arxiv.org/abs/2605.13444",
-      "fullText": "https://arxiv.org/html/2605.13444v2",
-      "access": "仅摘要/元数据：已核对 arXiv 官方题名、完整作者和摘要；正文/Methods/SI 未读，需后续补读。",
-      "rating": "A-",
-      "method": "纳克单晶磁转矩；结构多型相图",
-      "category": "磁性、拓扑与自旋",
-      "tags": [
-        "arXiv",
-        "摘要级",
-        "磁性、拓扑与自旋"
-      ],
-      "abstract": "The majority of research on $\\alpha$-RuCl$_3$ has focused on applying in-plane magnetic fields to suppress the antiferromagnetic order and induce a quantum spin liquid (QSL). However, interpreting field-induced phenomena has been complicated by the material's temperature- and sample-size-dependent crystal structure and its sensitivity to strain-induced stacking disorder. Here, we isolate the monoclinic ($C2/m$) phase in nanogram-scale single crystals, providing the opportunity to study Kitaev physics in a new setting. We perform high-resolution magnetotropic susceptibility measurements on a structurally well-defined crystal within several crystal planes. Mapping the antiferromagnetic (AFM) phase boundary as a function of temperature, magnetic field, and field orientation, we find that the monoclinic phase diagram closely resembles that of rhombohedral crystals, but is systematically shifted to higher transition temperatures and critical fields. We find that the critical fields coincide quantitatively with anomalies observed across the $\\sim$7-11~T field range, where Kitaev spin liquid physics has been widely reported across numerous independent studies and experimental techniques. Our study shows that these anomalies arise from the magnetic phase boundaries of coexisting monoclinic and rhombohedral structural domains, rather than an exotic phase. These results provide a thermodynamic reference against which past studies can determine their structural composition, and toward which future studies can look for genuine signatures of spin-liquid phenomena beyond the close vicinity of the AFM boundary under in-",
-      "conclusion": "10 月 6 日修订列表的作者稿指出 C2/m 单斜纳克单晶与菱方样品的相边界相似但整体向较高温/临界场移动，多型共存可解释部分“多磁转变”争议。未完成 v1/v2 差异核对，暂不把旧结果当当天新发现。",
-      "sections": [
-        {
-          "title": "样品与版本缺口",
-          "text": "摘要称隔离单斜 C2/m 的纳克级单晶并做多晶面磁转矩；原始晶体生长、结构判定批次、尺寸/应变、v2 新增图表：正文未核，不能凭摘要填。"
-        },
-        {
-          "title": "下一测量",
-          "text": "同炉分出 C2/m 与菱方纯相微晶，封装前后做微区衍射/拉曼，跨 7–11 T 角分辨磁转矩并保存冷却应力史，区分多型与磁场新相。"
-        }
-      ],
-      "readingGuide": {
-        "priority": "A-｜α-RuCl₃ 多型单晶",
-        "first": "先比较 v1/v2 结构鉴定与磁转矩相图，再看 7–11 T 的异常。",
-        "focus": "核多型比例和纳克样品装夹应变；QSL 背景可略。",
-        "next": "做同母晶多型分离后的同角度相图。"
-      },
-      "versionNote": "官方 10 月 6 日 cond-mat/new 的修订稿；初始提交早于本日。本期只记录新增修订信息，未核实完整版本差异，不把旧结果充作当天新发现。"
     }
   ]
 }
