@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 export const metadata:Metadata={title:'往期归档｜每日文献简报',description:'按日期浏览每日文献简报。'};
 const issues=[
+['2026-10-07','2026.10.07','第 043 期 · 32 篇 · 6 篇全文精读','CVD 喷嘴、扭转石墨烯与磁谱证据链','Al/TiN/Si · tBG · α-Fe₂O₃ · LuInCo₄ · LuFe₆Ge₆'],
 ['2026-10-06','2026.10.06','第 042 期 · 26 篇 · 13 篇全文精读','Al flux、PLD、8 GPa 与氧化物界面的可复现证据','Tb₆Ti₄Al₄₃ · HoCo₂ · Na-CCOC · NbN · 莫尔石墨烯'],
 ['2026-10-05','2026.10.05','第 041 期 · 21 篇 · 9 篇全文精读','BN 生长窗口、Mn₃Sn 与二维器件证据链','Fe–B/rBN · Mn₃Sn · CuCrP₂S₆'],
 ['2026-10-04','2026.10.04','第 040 期 · 3 篇 · 3 篇全文精读','周末回溯：单晶水合史与模型边界','Na₂IrCl₆ · NaSn₂As₂ · Bi₂Se₃'],
