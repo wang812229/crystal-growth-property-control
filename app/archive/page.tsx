@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 export const metadata:Metadata={title:'往期归档｜每日文献简报',description:'按日期浏览每日文献简报。'};
 const issues=[
+['2026-10-08','2026.10.08','第 044 期 · 51 篇 · 8 篇全文精读','界面、掺杂与测量几何改变可见量','CrSBr/BSCCO · Pr₄Ni₃O₁₀ · Cr:Mn₃Sn · 光纤端自旋太赫兹'],
 ['2026-10-07','2026.10.07','第 043 期 · 32 篇 · 6 篇全文精读','CVD 喷嘴、扭转石墨烯与磁谱证据链','Al/TiN/Si · tBG · α-Fe₂O₃ · LuInCo₄ · LuFe₆Ge₆'],
 ['2026-10-06','2026.10.06','第 042 期 · 26 篇 · 13 篇全文精读','Al flux、PLD、8 GPa 与氧化物界面的可复现证据','Tb₆Ti₄Al₄₃ · HoCo₂ · Na-CCOC · NbN · 莫尔石墨烯'],
 ['2026-10-05','2026.10.05','第 041 期 · 21 篇 · 9 篇全文精读','BN 生长窗口、Mn₃Sn 与二维器件证据链','Fe–B/rBN · Mn₃Sn · CuCrP₂S₆'],
@@ -43,7 +44,7 @@ const issues=[
  ['2026-08-30','2026.08.30','第 005 期 · 3 篇 · 全部全文','测量条件与材料推断都要校准','RuO₂ · CeNiC₂ · YbMnBi₂'],
  ['2026-08-29','2026.08.29','第 004 期 · 3 篇 · 全部全文','缺陷、光生相变与器件可靠性','KTN 晶体 · NiPS₃ · Si/SiGe'],
  ['2026-08-28','2026.08.28','第 003 期 · 4 篇','以 CrSb 和 g 因子为线索','CVT · Flux · 反铁磁 · 超导 · 半导体']];
-export default function Archive(){return <main className="archive-page"><header className="site-header"><a className="brand" href="/"><span className="brand-mark">文</span><span>每日文献简报</span></a><nav aria-label="主导航"><a href="/reports/2026-10-06">今日简报</a><a href="/materials">材料时间线</a><a href="/search">智能检索</a><a href="/weekly">本周趋势</a><a href="/workspace">我的研究</a><a className="active" href="/archive">归档</a></nav><div className="live-chip"><span/> 核验后更新</div></header><section className="archive-hero"><p className="eyebrow">DAILY ARCHIVE</p><h1>每日简报归档</h1><p>按日期回看研究判断、全文访问状态、原创图解和实验建议。</p></section><section className="archive-list">{issues.map(i=><a href={`/reports/${i[0]}`} key={i[0]}><time>{i[1]}</time><div><span>{i[2]}</span><h2>{i[3]}</h2><p>{i[4]}</p></div><b>阅读 →</b></a>)}<div className="archive-placeholder"><time>每日更新</time><div><h2>下一期将在完成来源核验后归档</h2><p>当天无相关新增时，回溯最近三个自然日并明确说明。</p></div></div></section></main>}
+export default function Archive(){return <main className="archive-page"><header className="site-header"><a className="brand" href="/"><span className="brand-mark">文</span><span>每日文献简报</span></a><nav aria-label="主导航"><a href="/reports/2026-10-08">今日简报</a><a href="/materials">材料时间线</a><a href="/search">智能检索</a><a href="/weekly">本周趋势</a><a href="/workspace">我的研究</a><a className="active" href="/archive">归档</a></nav><div className="live-chip"><span/> 核验后更新</div></header><section className="archive-hero"><p className="eyebrow">DAILY ARCHIVE</p><h1>每日简报归档</h1><p>按日期回看研究判断、全文访问状态、原创图解和实验建议。</p></section><section className="archive-list">{issues.map(i=><a href={`/reports/${i[0]}`} key={i[0]}><time>{i[1]}</time><div><span>{i[2]}</span><h2>{i[3]}</h2><p>{i[4]}</p></div><b>阅读 →</b></a>)}<div className="archive-placeholder"><time>每日更新</time><div><h2>下一期将在完成来源核验后归档</h2><p>当天无相关新增时，回溯最近三个自然日并明确说明。</p></div></div></section></main>}
 
 
 
