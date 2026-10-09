@@ -1,0 +1,206 @@
+{
+  "date": "2026-10-09",
+  "issue": "045",
+  "searchWindow": "北京时间 2026-10-09 00:00–14:15；出版社官网/目录先查，Crossref published-online 当日索引交叉核验，再逐题筛 arXiv 官方 Friday 9 October 2026 批次。4 篇入选均在 10/9 官方新稿批次、v1 提交为 10/8 UTC，时区/公告批次已区别注明；当天有高相关稿，未回溯旧文凑数。",
+  "headline": "精选 4 篇直接关乎晶体生长、压力超导、外延结与二维磁性的实验论文，4 篇均读到公开正文、实验方法与关键图。先看 Fe₃GaTe₂ 的 CVT 完整温区和 Ta-kagome 的压力判据，再对 CrSb 的三重态解释及 FePS₃/Au 的零场磁性保持证据边界。",
+  "hotspot": "今天的共同线索不是材料名字，而是对照能否隔离制备变量：Fe₃GaTe₂ 的层间耦合须与畴壁动力学拆开，Ta-kagome 的双穹顶须与压力梯度和短程 CDW 拆开，CrSb 的长程超流与三重态机制不可等同，FePS₃/Au 的 XMCD 场诱导信号不能被写成自发铁磁。4 篇公开 HTML 可读且已读正文、Methods/Experiment 和图；各文独立 SI 未读。没有机构已登录会话，未尝试登录或获取订阅 PDF。",
+  "searchTerms": [
+    "APS/Physical Review：PRL、PRB、PR Materials、PR Research、PR Applied、PRX recent 官网逐一打开；截至本次核查可见最新正式 Published 多为 10/8，10/9 高相关条目确认 0。期次日期不等于单篇上线日；列表全量命中数不据首屏冒称零。",
+    "Nature Portfolio：Nature、Nature Physics、Nature Communications、npj Quantum Materials 检索 10/9 Published/Online First 与超导、磁性、外延关键词；未核实当天符合本实验主题的单篇 0。部分目录/筛选页受页面动态限制，完整命中未知。",
+    "Science/AAAS：官方 Current 目录 HTTP 403，命中未知、确认纳入 0；未将访问受阻说成零新增。",
+    "Wiley：Advanced Materials、Advanced Functional Materials 官网目录检查，可见 Advanced Materials 10/8 最新条目主要为非本题材；10/9 高相关确认 0，动态列表全量命中未知。",
+    "ACS：Nano Letters、ACS Nano、JACS、Chemistry of Materials 四个官方 TOC 均返回 fetch/403；命中未知、确认纳入 0。Crossref 当日索引题名交叉检查未发现可确认的强相关条目。",
+    "Crystal Growth & Design：官方 TOC fetch/403，命中未知、确认纳入 0；不可声称零投稿。",
+    "Journal of Crystal Growth：官方 Articles in Press 页面访问受限，命中未知、确认纳入 0。",
+    "其他同等级及高相关期刊：Crossref online-date=2026-10-09 返回 2519 条，宽题名初筛 5 条；其中 Chinese Physics B DOI 10.1088/1674-1056/aeb24c 为 CsV₃Sb₅₋ₓSnₓ vortex/CDW 高相关候选，但 IOP 正文机器人限制、CPB in-press 未独立定位该页，仅有 DOI 元数据，暂列待核而不占本期 4 篇精读名额；另 4 条为纯理论自旋链、半金属第一性原理、泛量子线路、Creutz 模型，缺用户实验工作直接关联而排除。",
+    "arXiv 官方 cond-mat/new：Friday 9 October 2026、195 total=99 new+25 cross submissions+71 replacements。逐题并查看强相关摘要，最终纳入新投独立稿 4，排除软物质、化学催化、泛量子器件/算法、纯分类理论，以及虽有磁/超导词但无可操作生长与物性证据的稿。官方 4 个 ID 与 export.arxiv.org API id_list 的 v1 及 10/8 UTC 提交时刻交叉核验一致。替换版未因更新日期自动重复收录。",
+    "去重与权限：用 DOI/arXiv ID、规范化题目同历史简报比对；4 篇为独立当日新稿。正式期刊高相关候选留待出版社日期和正文补核；浙江大学 aTrust/RVPN、WebVPN/CARSI 无有效已登录会话，本次机构访问未发生，无订阅 PDF 进入公开仓库。"
+  ],
+  "papers": [
+    {
+      "material": "Fe₃GaTe₂ CVT 单晶",
+      "title": "Interlayer ferromagnetic order revealed through pressure-enhanced interlayer exchange coupling in Fe3GaTe2",
+      "authors": "Riku Iimori; Takashi Kimura",
+      "institutions": "大阪大学工程科学研究科",
+      "journal": "arXiv cond-mat（新提交）",
+      "date": "2026-10-09 官方 new 列表；v1 提交 2026-10-08 UTC",
+      "doi": "https://arxiv.org/abs/2610.11731",
+      "fullText": "https://arxiv.org/html/2610.11731",
+      "access": "全文精读：实际读取公开 HTML 的引言、实验/Methods、Results、关键图及讨论；独立 SI 未读。",
+      "rating": "A",
+      "method": "I₂ 化学气相输运；MPMS 压力磁化；HAADF-STEM/EDX/XRD；DFT",
+      "category": "晶体生长和物性调控",
+      "tags": [
+        "arXiv",
+        "全文精读",
+        "晶体生长和物性调控"
+      ],
+      "abstract": "CVT 单晶在约 1 GPa 内的两个 dM/dT 异常随压力反向移动；作者将低温异常归为磁畴壁热激活去钉扎，将高温异常归为层间磁相干建立。",
+      "conclusion": "这项工作用一炉参数充分公开的 Fe₃GaTe₂ 单晶，把“一个居里温度之外为何还有两处磁异常”拆成磁畴动力学和层间交换两个问题。压力使约 160 K 的 Tinf1 降约 40 K、约 250 K 的 Tinf2 升约 25 K，而 Tc 仅变约 5 K；这组反向响应是层间耦合解释的核心，但 Tinf2 是磁化曲线间接推断的特征温度，并非中子散射直接看到的新磁结构。",
+      "sections": [
+        {
+          "title": "问题—样品—生长",
+          "text": "Fe₃GaTe₂ 是 P6₃/mmc 层状铁磁体，层内与层间交换能标差很大。作者要判断高质量晶体的 160 K 和 250 K 磁化拐点是否都由普通畴壁钉扎造成。先按 Fe:Ga:Te=3:1:2 在约 8×10⁻⁶ Pa 的抽真空石英管中 1000 °C 熔融 24 h 制成多晶锭，研粉后在另一支 <1×10⁻⁴ Pa 石英安瓿中加入 I₂ 约 1.2 mg/cm³。约 1 °C/min 升至源区 770 °C、沉积端 700 °C，保持 10 天；撤去温差后约 1 °C/min 冷至室温。得到空气稳定、可胶带剥离的金属光泽片晶，横向数毫米至约 1 cm。元素原料各自纯度、石英管直径、装料总质量、产率以及不同炉次统计在已读正文未报告；详细生长 Sec S1 被引述但本次未读，不能补写。该炉次与自助熔法旧工作做压力趋势交叉对照，降低只是一炉偶然现象的风险。"
+        },
+        {
+          "title": "质量—测量—直接观察",
+          "text": "Fig.1 的截面 HAADF-STEM 分辨 (1̄20)/(100) 原子面和层状结构，Cu Kα XRD 只见 (00l) 峰，说明样品以 c 轴定向；EDX 原子百分比 Fe:Ga:Te=45.71:17.98:36.31，接近名义化学计量。不过仅 (00l) 不能排除面内旋转畴、局域 Fe/Ga 混占或微量杂相；Laue、WDS/ICP、摇摆曲线 FWHM、Rietveld R 因子、各片分布正文未报告。MPMS 在 2–400 K、最高 7 T 测量，压力池为 CuBe 筒、氧化锆活塞、Teflon 管及 Daphne 7373。Fig.2 的 H∥c 约 0.6 T 饱和，H∥ab 到 7 T 未饱和；0.05 T FC 升温的 dM/dT 在约 160/250 K 出现局部极小，Tc 约 350 K。Fig.3 表明第一个异常随场下移并伴低温较宽磁滞，第二个异常略随场上移且对应温区几乎无磁滞。"
+        },
+        {
+          "title": "判断链、拟合与排他解释",
+          "text": "Fig.4/5 的可逆压缩—卸压对照最有力：Tinf1 约降 40 K、Tinf2 约升 25 K，Tc 只升约 5 K；同时 FC–ZFC 差在 Tinf2 以下才对压力敏感。作者用热激活 τDW=τ₀exp(UB/kBT) 写出 Tinf1≈UB/[kB ln(τm/τ₀)]，把下降解释为畴壁阻塞能下降；这是模型关系，UB、τ₀、测量等待时间及误差条不能从单一拐点独立确定。Fig.7 的 2 K 剩磁在压力下下降，约 43 nm 薄片中两个拐点消失，这些是反对纯层内 Tc 解释的控制证据。DFT 用 Quantum ESPRESSO、PBE+PAW、DFT-D3、70 Ry、12×12×4 k 网格和 <0.02 eV/Å 收敛；交换常数随压力的计算支持层间交换增加，却依赖所选磁构型和电子关联近似。此处“层间长程有序”属作者由磁化与计算共同推断，并无直接磁衍射序参量。压力介质冻结、压力梯度、晶片应力与缺陷钉扎仍是替代来源。"
+        },
+        {
+          "title": "复现与阅读路线",
+          "text": "下一炉保留安瓿位置—尺寸—EDX—XRD—同一片 M(H,T,P) 的样品谱系，至少三炉对照 I₂ 浓度 0.8/1.2/1.6 mg/cm³，以免把输运造成的 Fe 缺位差异当作层间交换效应。下一次在相同晶片做升/降温速率和等待时间扫描，检验 Tinf1 是否遵循热激活时间尺度；用交流磁化频率依赖与压力中磁光畴成像检查 160 K；若可行做压力中衍射或 μSR 直接验证 250 K 是否出现层间相干。先看 Fig.1、Fig.2/3、Fig.4/5 的反向压强趋势，再核对 Fig.7 的厚度对照与 DFT Fig.8；一般二维磁体综述可略读。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜单晶生长、磁性与压力物性读者",
+        "first": "先读 Fig.1 的 CVT 质量和 Fig.4–5 两个拐点的反向压力曲线。",
+        "focus": "核对 0.05 T、约 1 GPa、卸压恢复及 43 nm 薄片缺失异常；热激活公式中的 τm 未实测。",
+        "next": "用同片频率依赖 AC 磁化与压力原位磁畴成像区分去钉扎/层间相干。"
+      },
+      "versionNote": "arXiv:2610.11731v1；未发现本稿正式 DOI，公开稿为主条目。"
+    },
+    {
+      "material": "Cs(V₀.₈₆Ta₀.₁₄)₃Sb₅",
+      "title": "Pressure-induced double-dome superconductivity in doped kagome metal Cs(V0.86Ta0.14)3Sb5 without charge density wave",
+      "authors": "Haochen Sun; Jing Wang; Deng Hu; Zhiwei Wang; Shiyan Li",
+      "institutions": "复旦大学、上海量子科学研究中心、北京理工大学、合肥国家实验室上海分部",
+      "journal": "arXiv cond-mat（新提交）",
+      "date": "2026-10-09 官方 new 列表；v1 提交 2026-10-08 UTC",
+      "doi": "https://arxiv.org/abs/2610.12257",
+      "fullText": "https://arxiv.org/html/2610.12257",
+      "access": "全文精读：实际读取公开 HTML 的引言、实验/Methods、Results、关键图及讨论；独立 SI 未读。",
+      "rating": "A",
+      "method": "自助熔单晶；DAC 至 47.7 GPa；四探针/van der Pauw 电输运；MPMS",
+      "category": "高温与非常规超导",
+      "tags": [
+        "arXiv",
+        "全文精读",
+        "高温与非常规超导"
+      ],
+      "abstract": "无可见长程 CDW 电阻异常的 Ta 掺杂 kagome 晶体在 47.7 GPa 内仍出现双超导穹顶，抵触“第二穹顶必须由长程 CDW 崩塌造成”的简单解释。",
+      "conclusion": "论文用 Ta 替位先压掉可见长程 CDW，再把同类 kagome 晶体推到 47.7 GPa：Tc 从常压 5.29 K 小幅波动后降到 12.3 GPa 的 0.98 K，随后升到 47.7 GPa 的 4.46 K。电阻零值、磁场抑制和压力曲线支持双穹顶存在；高压 Lifshitz 转变、短程 CDW 或配对对称性仍是候选解释，论文没有在压力中直接测到费米面或短程电荷序。",
+      "sections": [
+        {
+          "title": "问题、材料与生长边界",
+          "text": "母体 CsV₃Sb₅ 在约 94 K 有长程 CDW 和约 2.5 K 超导，压力下也有双穹顶；但长程 CDW 究竟是高压再现超导的必要条件不明。此处 x=0.14 的 Cs(V₀.₈₆Ta₀.₁₄)₃Sb₅ 为 P6/mmm 层状 kagome 单晶，Ta/V 占据网格位置。Methods 明写自助熔法，用 Cs 块 99.8%、V 片 99.97%、Ta 粉 99.99%、Sb 粒 99.9999%，Ta 含量按此前工作的 EDX 鉴定。初始配比、助熔剂比例、坩埚/安瓿、惰性气氛或真空、峰值温度、保温、降温斜率、离心温度、退火和收率在这篇正文未报告，不能从引用文献默写为本炉条件。晶体尺寸、取向批次、参与不同压力段是否同一片也未完整给出，必须留在下一轮复现清单。"
+        },
+        {
+          "title": "样品质量与基线",
+          "text": "Fig.1 的零场冷/场冷 MPMS 2.4–10 K 显示抗磁起点约 4.7 K，常压面内四探针电阻约 4.92 K 到零；磁化起点与电阻 90% 判据并不相同，不能混用。ρ(T) 金属性、RRR=4.22，明显低于高质量母体，提示 Ta 替位引入散射。电阻曲线没有母体的 CDW 异常，说明测量灵敏度内没有可见长程转变；它不能单独排除短程 CDW、结构不均或压力诱导密度波。正文缺粉末/单晶 XRD 精修、Laue、WDS/ICP、横截面 EDX 方差、批次 RRR 分布，故“完全均匀替位”尚未证明。可读正文未提供高压原位衍射，P6/mmm 是常压结构而非各压力点结构鉴定。"
+        },
+        {
+          "title": "压力设计、原始量与模型",
+          "text": "常压 PPMS 用面内四探针；BeCu 金刚石压砧 800 与 300 μm culet 两套，低压硅油、高压 KBr 传压介质，室温前后用红宝石荧光校压；高压电阻用 van der Pauw、PPMS 和 ³He 低温系统。Fig.2 定义 Tc90 为法向电阻 90%，宽度 ΔTc=Tc90−Tc10：5.29 K（常压）→4.90 K（0.33 GPa）→5.70 K（0.61 GPa）。Fig.3 扩展到 47.7 GPa，12.3 GPa 低谷 0.98 K，最高压回升 4.46 K；第二穹顶高压转变明显变宽，作者归因压力梯度，但硅油/KBr 与砧面切换也可能造成系统偏差。5.5 与 47.7 GPa 的磁场将电阻转变推向低温，是判定超导而非任意金属转变的重要控制。经验 GL 函数 Hc2(T)=Hc2(0)[1−(T/Tc)²]/[1+(T/Tc)²] 得 0.32 与 6.61 T；它是拟合外推，不是直接零温测量，也不能据低于 Pauli 限值排除所有自旋效应。"
+        },
+        {
+          "title": "证据边界与可执行复现",
+          "text": "最强判断是“没有可见长程 CDW 的掺杂晶体仍有高压双穹顶”，来自宽压力窗与场抑制。作者推断第二穹顶可能关联 Sb 带的维度交叉/Lifshitz 转变，低压非单调或与短程 CDW、van Hove 奇点有关；本站判断这两种解释现阶段都未被本实验排除。下次应在同批次至少三片 x≈0.14 单晶中同时测 EDX/WDS 成分地图、RRR、压力前后电阻与 90/10/零值定义；DAC 中增加同步辐射 XRD、Raman 和高压 Hall 或量子振荡。如果 12.3 GPa 附近重新分配载流子或出现结构改变，就不能直接把 Tc 最低点等同于纯电子 Lifshitz。先读 Fig.1 的基线及 Fig.2/3 原始电阻，再核对 Fig.4 的构图与 Hc2 外推；概念性母体史可略读。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜kagome 超导、压力输运及晶体质量研究者",
+        "first": "先比 Fig.1 的 4.7/4.92 K 判据与 Fig.2–4 的 5.29→0.98→4.46 K 序列。",
+        "focus": "核对 Tc90、Tc10、零电阻、KBr/硅油切换及 47.7 GPa 转变展宽；GL 拟合不是配对对称性证据。",
+        "next": "同批次样品做压力中 XRD+Hall，另用 WDS 面扫评价 x=0.14 均一性。"
+      },
+      "versionNote": "arXiv:2610.12257v1；未发现本稿正式 DOI，公开稿为主条目。"
+    },
+    {
+      "material": "CrSb/Nb 外延约瑟夫森结",
+      "title": "Strain-engineered long-distance supercurrent in an altermagnetic CrSb based Josephson junction",
+      "authors": "Yifan Gao; Jin Yan; Junjie Wei; Yifan Zhang; Zhiyuan Zhou; Tong Zou; Ruiyue Chu; Gui Wang; Kaiwen Shen; Zhiwei Zhang; Fang Chen; Yingfen Wei; Hao Jiang; Xumeng Zhang; Ming Wang; Liyang Liao; Jingli Wang; Yijun Yu; Wu Shi; Qi Yao; Xiaobing Chen; Qihang Liu; Yizheng Wu; Yuhang Li; Xufeng Kou; Cheng Song; Xianzhe Chen; Qi Liu; Xincheng Xie; Ming Liu",
+      "institutions": "复旦大学、上海科技大学/上海微系统所、清华大学、南方科技大学、南开大学等",
+      "journal": "arXiv cond-mat（新提交）",
+      "date": "2026-10-09 官方 new 列表；v1 提交 2026-10-08 UTC",
+      "doi": "https://arxiv.org/abs/2610.11341",
+      "fullText": "https://arxiv.org/html/2610.11341",
+      "access": "全文精读：实际读取公开 HTML 的引言、实验/Methods、Results、关键图及讨论；独立 SI 未读。",
+      "rating": "A",
+      "method": "Al₂O₃ 上 MBE-CrSb；Nb 横向结；XRD/RHEED/霍尔/四端输运",
+      "category": "磁性、拓扑与自旋",
+      "tags": [
+        "arXiv",
+        "全文精读",
+        "磁性、拓扑与自旋"
+      ],
+      "abstract": "应变 CrSb 薄膜 150 nm 弱链接显示温变零电阻与磁场干涉；无应变同几何对照无类似超流。150 nm 长程现象清楚，但等自旋三重态仍为机制推断。",
+      "conclusion": "作者在 Al₂O₃ 上生长 10 nm CrSb、接 50 nm Nb 电极，跨越 150 nm 看到约 0.55 K 的零电阻支路与 ±4 mT 干涉节点。无应变同几何结未见相同结果，显示应变/结构对超导近邻至关重要；把长程超流进一步定性为等自旋三重态，需要自旋敏感的相位和自旋轨道耦合控制，不能只依赖一个扩散长度估算。",
+      "sections": [
+        {
+          "title": "问题、结构、生长与对照",
+          "text": "CrSb 属 P6₃/mmc 六方 A 型反铁磁、动量依赖自旋分裂的交替磁候选。课题是补偿磁序能否在不引入大杂散场的情况下承载长距离超流。论文用 MBE 在 Al₂O₃ 上制备 10 nm CrSb，随后形成横向 Nb(50 nm)/CrSb/Nb 结，电极边缘间 150 nm；另做相同间距的 pristine 与 strained 薄膜对照。Fig.2 的原子尺度图和条纹状 RHEED 说明局部有序、表面较平；(0002) XRD 从 32.13° 移至 31.35°，按 Bragg 换算 c 从约 0.2784 到 0.2851 nm，膨胀约 2.4%。但正文已读部分没有给 Cr/Sb 束流比、源纯度、基底清洗、MBE 生长温度和速率、退火、通量稳定性、薄膜全片厚度误差、器件良率与批次数；这些逐项是“正文未报告”，不能从同组旧文默认补上。面内应变未由 XRD 直接量到，作者借异常霍尔出现推断对称性改变。"
+        },
+        {
+          "title": "质量与测量链",
+          "text": "Fig.2 的 STEM/RHEED/XRD 是互补的结构证据，却缺 reciprocal-space map、面内晶格和粗糙度统计，也缺 EDS/ICP 的 Cr:Sb 成分误差。Fig.3 SEM 有 0.5 μm 标尺；作者用 SR830 锁相及 DC/AC 四端偏压，在 250–750 mK 和垂直 ±20 mT 内测 R(T)、I–V 与 dV/dI。应变结在约 0.55 K 进入零电阻、低偏流零电压支路，温度升高临界电流单调缩小；pristine 同几何结没有相当的零电阻转变。Fig.4 250 mK 的 dV/dI(B,I) 显示中心峰与约 ±4 mT 节点，表明磁通调制的相干约瑟夫森耦合。计算均匀结 Ic(B)=Ic(0)|sin(πΦ/Φ₀)/(πΦ/Φ₀)| 预期约 8 mT 周期，与图案一致。首旁瓣增强可能为边缘电流，也可能来自电流分布非均匀，不能直接指认拓扑边态。"
+        },
+        {
+          "title": "拟合假设、最强与最弱证据",
+          "text": "作者用 ξ=[ℏD/(4πkBTs)]¹ᐟ²、D≈0.01 m²/s、磁序温度约 700 K 估计传统单态 ξ≈3 nm；250 mK 热长度给三重态约 160 nm。150 nm 与 3 nm 相比非常大，是反对普通交换破对单态的强烈尺度论据，但 D 和 Ts 非本器件原位测得，若实际弱链接有金属短路、界面层或扩散参数变化，ξ 比值会改变。相同几何未应变对照、场干涉、零电压支路共同降低普通接触短路解释概率，是本文最强证据。应变诱生 SOC 将 m=0 转为等自旋三重态则是作者的机制模型；AHE 显示对称性响应而非直接测 Cooper 对自旋。不存在通量量子化的自旋敏感测量，也未给跨不同 50/100/150/200 nm 器件的批次统计。不能把“长程超流”写成“直接看见三重态”。"
+        },
+        {
+          "title": "复现路线",
+          "text": "下一次应固定 Nb 电极、桥宽、接触电阻与 CrSb 成分，把应变 c 轴增量、面内 reciprocal-space map、AHE 与 IcRn 逐片关联；做至少四种结距与多器件统计，用同片加热退火/机械释放应变控制。若长程信号仅在某一接触工艺出现，需先排除 Nb 边缘短接和薄膜缺口；若多个结距衰减与温度尺度一致，再进一步用自旋过滤电极或相位敏感 SQUID 判断配对。阅读从 Fig.2 的结构轴开始，再对照 Fig.3 的 pristine/strained 及 Fig.4 的节点；宏观应用宣传可略读。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜外延生长、交替磁和超导器件读者",
+        "first": "先读 Fig.2 的 32.13°→31.35°，再看 Fig.3 同几何对照、Fig.4 的 ±4 mT 节点。",
+        "focus": "核对 150 nm 与 ξ≈3 nm 比值依赖 D=0.01 m²/s、磁序温度 700 K；AHE 并非三重态直证。",
+        "next": "做应变梯度+结距系列与接触截面 TEM，随后测相位敏感电流。"
+      },
+      "versionNote": "arXiv:2610.11341v1；未发现本稿正式 DOI，公开稿为主条目。"
+    },
+    {
+      "material": "单层 FePS₃/Au 界面",
+      "title": "Emergent gold-induced interfacial magnetism in monolayer FePS3",
+      "authors": "Giuseppe Buccoliero; Anita Polli; Marli dos Reis Cantarino; Rachel Nickel; Aloïs Arrighi; Roberto Sant; Tristan Riccardi; Valérie Reita; Nedjma Bendiab; Laëtitia Marty; Kurt Kummer; Johann Coraux; Nicholas B. Brookes",
+      "institutions": "欧洲同步辐射光源 ESRF、格勒诺布尔阿尔卑斯大学/Institut Néel、米兰比可卡大学、CEA",
+      "journal": "arXiv cond-mat（新提交）",
+      "date": "2026-10-09 官方 new 列表；v1 提交 2026-10-08 UTC",
+      "doi": "https://arxiv.org/abs/2610.12041",
+      "fullText": "https://arxiv.org/html/2610.12041",
+      "access": "全文精读：实际读取公开 HTML 的引言、实验/Methods、Results、关键图及讨论；独立 SI 未读。",
+      "rating": "A",
+      "method": "Au 辅助机械剥离；AFM/Raman；Fe L 边 XAS/XMCD/RIXS；原子多重态计算",
+      "category": "二维材料与量子器件",
+      "tags": [
+        "arXiv",
+        "全文精读",
+        "二维材料与量子器件"
+      ],
+      "abstract": "同厚 SiO₂ 对照加 Fe L 边元素选择性光谱表明 Au 不是惰性衬底：单层 9 T、5 K 的 XMCD 达约 18.5%，约为绝缘衬底的三倍，RIXS 的局域 d–d 激发塌缩。",
+      "conclusion": "这篇论文把二维磁体的“基底选择”提升为电子结构控制旋钮：Au 邻接使 FePS₃ 单层的 Fe 位磁响应增强，而不是只改善剥离。相同厚度 SiO₂ 对照、层数级联、XAS/XMCD 与 RIXS 相互支撑界面电荷转移/杂化；但 9 T 下的 XMCD 是场诱导响应，不等同零场自发铁磁，拟合电荷转移能也不是直接测得的电子化学势。",
+      "sections": [
+        {
+          "title": "材料、制备与对照",
+          "text": "材料母晶来自 HQ Graphene，作者没有在本工作生长体晶，体晶助熔剂、纯度、温程、产率正文未报告。FePS₃ 为层状 zigzag 反铁磁，体晶约 118 K 进入磁序。将体晶机械剥离到两种底板：300 nm SiO₂/Si 与 Au(2–4 nm)/Ti(2 nm)/SiO₂/Si。Ti/Au 电子束蒸发速率 0.1 Å/s、基压 <10⁻⁶ mbar；沉积前氧等离子活化 1 min，刚镀金 5 min 内剥离，避免 Au 表面污染。S1 是手套箱中的 SiO₂ 双层、S2 是手套箱中的 Au 4 nm 单层、S3 是空气剥离后立刻送入手套箱的 Au 2 nm、1–5 层系列。该三组设计能拆开厚度和衬底效应，但 S2/S3 的剥离气氛和 Au 厚度并非完全匹配，应防把全部差异归于金属接触。片区达数百微米；S1 参考双层约 70 μm²。"
+        },
+        {
+          "title": "质量、几何与直接观察",
+          "text": "AFM 台阶给 1L<1 nm、2L<2 nm，相对于底板约 0.2 nm 粗糙度；Raman 的 Ag² 从体晶约 245 cm⁻¹ 移到单层 242 cm⁻¹，结合 AFM 验证层数。ESRF ID32 在 5±0.5 K、最高 9 T、Fe L₃,₂ 边进行正常入射；光束 FWHM 约 10×20 μm²，先用 700 eV 离共振吸收地图定位与光学图匹配区域，随后以总电子产额 TEY 采 XAS。XMCD 为两圆偏振差、按 XAS edge jump 归一，用正负场反对称消除场无关伪影，残留对称项作为误差。SiO₂ 双层在 9 T/5 K 已有约 6% XMCD；Au 单层约 18.5%，即约三倍。Fe L₃ 边几乎不位移，反对“氧化导致的 Fe 价态变化”这一替代解释，但不排除隐蔽缺陷/表面吸附。"
+        },
+        {
+          "title": "谱学、拟合与证据边界",
+          "text": "Au 单层在 Fig.3 的 XAS 多重态预峰消失、谱变宽；轨道/自旋矩比 m_l/m_s 相对体晶约 0.37 降至约 0.19，作者据求和规则推断轨道矩淬灭。这里忽略磁偶极项 Tz，二维几何下它可能并不小，绝对矩值应谨慎。Fig.4 的 1L→10L 层级显示效应前数层衰减、五层附近趋于体性质。Fig.5/6 RIXS 在约 707 eV 入射、|q|≈0.51 Å⁻¹、5 K、无外场，能量分辨约 220 meV：体晶约 1/1.3 eV d–d 峰和 1.8–3.6 eV LMCT 特征在 Au 单层变为较宽连续谱。原子多重态拟合给体晶 Δ≈1.6 eV、SiO₂ 双层 Δ≈0.8 eV；Au 单层谱已经超出局域多重态模型适用范围，不能硬拟合一个“Au 的 Δ”。这些数字是拟合参数/谱峰标记，不是直接电荷转移电子数。最强证据是相同厚度/条件的 SiO₂–Au 对照加同区域 XMCD/RIXS；最弱环节是金层厚度、转移工艺与零场静态磁序未完全隔离。"
+        },
+        {
+          "title": "实验建议与阅读路线",
+          "text": "复现时把 S1/S2/S3 改为同一母晶、同次剥离、相同气氛和 Au 厚度系列 0/2/4 nm，每个层数至少多片；存 AFM/Raman 坐标与 XAS 光斑覆盖率，防衬底信号和边缘混入。再用零场 MOKE、NV 磁测或 XMLD 区分场诱导净矩和自发磁序，并用 UPS/XPS 或门压直接跟踪界面电荷转移。先读 Table 1 样品对应、Fig.3 厚度匹配对照、Fig.4 层数衰减，再看 Fig.6 RIXS，最后核 Methods 的 ±H 反对称及 220 meV 分辨率；宏观二维应用背景可略读。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜二维磁体、界面工程和同步辐射谱学读者",
+        "first": "先读 Table 1 的 S1/S2/S3 差别、Fig.3 的 6%→18.5% 对照，再看 Fig.6。",
+        "focus": "核对 9 T/5 K 场诱导而非零场铁磁、Tz 忽略、Au 2/4 nm 与手套箱/空气剥离差异。",
+        "next": "同次同母晶做 Au 厚度/层数矩阵，并补零场磁成像与 XPS。"
+      },
+      "versionNote": "arXiv:2610.12041v1；未发现本稿正式 DOI，公开稿为主条目。"
+    }
+  ]
+}
+
