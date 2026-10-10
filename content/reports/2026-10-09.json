@@ -5,8 +5,8 @@
   "headline": "精选 4 篇直接关乎晶体生长、压力超导、外延结与二维磁性的实验论文，4 篇均读到公开正文、实验方法与关键图。先看 Fe₃GaTe₂ 的 CVT 完整温区和 Ta-kagome 的压力判据，再对 CrSb 的三重态解释及 FePS₃/Au 的零场磁性保持证据边界。",
   "hotspot": "今天的共同线索不是材料名字，而是对照能否隔离制备变量：Fe₃GaTe₂ 的层间耦合须与畴壁动力学拆开，Ta-kagome 的双穹顶须与压力梯度和短程 CDW 拆开，CrSb 的长程超流与三重态机制不可等同，FePS₃/Au 的 XMCD 场诱导信号不能被写成自发铁磁。4 篇公开 HTML 可读且已读正文、Methods/Experiment 和图；各文独立 SI 未读。没有机构已登录会话，未尝试登录或获取订阅 PDF。",
   "searchTerms": [
-    "APS/Physical Review：PRL、PRB、PR Materials、PR Research、PR Applied、PRX recent 官网逐一打开；截至本次核查可见最新正式 Published 多为 10/8，10/9 高相关条目确认 0。期次日期不等于单篇上线日；列表全量命中数不据首屏冒称零。",
-    "Nature Portfolio：Nature、Nature Physics、Nature Communications、npj Quantum Materials 检索 10/9 Published/Online First 与超导、磁性、外延关键词；未核实当天符合本实验主题的单篇 0。部分目录/筛选页受页面动态限制，完整命中未知。",
+    "APS/Physical Review 检索纠错（2026-10-10 复核）：本期原记录“10/9 高相关条目确认 0”不正确。PRB 官方 recent 实际在 10/9 发表 DOI 10.1103/6285-5rms（SECNO 镍酸盐）与 10.1103/85bz-sslm（UBe₁₃）。前者先前遗漏，后者 9/18 曾按 arXiv 预印本收录；两篇均在第 046 期补读/版本跟踪。本期原有 4 篇 arXiv 新稿与统计保持不变，检索缺口如实保留。",
+    "Nature Portfolio 复核补注（2026-10-10）：Nature Communications 10/9 Fe₃GaTe₂ 表面偶极扭转 DOI 10.1038/s41467-026-78513-w 为高相关候选；AIP HTML 仅摘要，公开 PDF 后续重定向访问不稳定，尚待完整核对 Methods/SI，未硬塞入本期 4 篇。原“无确认单篇”仅代表首轮检索缺口，不能作真实零命中。",
     "Science/AAAS：官方 Current 目录 HTTP 403，命中未知、确认纳入 0；未将访问受阻说成零新增。",
     "Wiley：Advanced Materials、Advanced Functional Materials 官网目录检查，可见 Advanced Materials 10/8 最新条目主要为非本题材；10/9 高相关确认 0，动态列表全量命中未知。",
     "ACS：Nano Letters、ACS Nano、JACS、Chemistry of Materials 四个官方 TOC 均返回 fetch/403；命中未知、确认纳入 0。Crossref 当日索引题名交叉检查未发现可确认的强相关条目。",
@@ -203,4 +203,3 @@
     }
   ]
 }
-
