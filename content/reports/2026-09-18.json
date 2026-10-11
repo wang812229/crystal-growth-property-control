@@ -132,7 +132,7 @@
         "微结构输运"
       ],
       "abstract": "The symmetry of the superconducting gap is related to the symmetry of the crystal structure. In unconventional superconductors, big changes of the critical temperature, critical field or even the gap structure can happen even for small perturbations of the lattice. In this letter, we use microstructuring to study aluminium-free crystals of UBe$_{13}$ which are expected to be closer to \"perfect\" material than previously studied aluminium-grown single crystals. We compare the effect of minuscule imperfections on the value of the critical temperature and critical field, which, in the case of UBe$_{13}$, has drastic effects, supporting its unconventional nature. We conjecture that this likely arises from the oxidation state of uranium, which is sensitive to its crystal environment. Our findings suggests that uranium-based materials provide not only an excellent reservoir of new unconventional phenomena, but also a way to identify the gap symmetry of unconventional superconductors.",
-      "conclusion": "这篇文章把“样品里几乎看不见的缺陷”推成重费米子超导的主角：传统Al助熔剂单晶会有约0.1 at.% Al占据Be位，退火又可能留下Be空位；作者改由不含Al的U–Be二元熔体制备大晶粒，再从多晶块中微加工出局域单晶通道。晶格体积仅约0.006%的变化就对应约28%的Tc变化，说明比较UBe₁₃的配对或Hc2前必须先分清Al残留、Be空位和微结构历史。",
+      "conclusion": "这篇文章把“样品里几乎看不见的缺陷”推成重费米子超导的主角：传统Al助熔剂单晶会有约0.1 at.% Al占据Be位，退火又可能留下Be空位；作者改由不含Al的U–Be二元熔体制备大晶粒，再从多晶块中微加工出局域单晶通道。晶格常数 a 仅约0.006%的变化就对应约28%的Tc变化，说明比较UBe₁₃的配对或Hc2前必须先分清Al残留、Be空位和微结构历史。",
       "sections": [
         {
           "title": "研究问题与为何重要",
@@ -144,7 +144,7 @@
         },
         {
           "title": "结构—输运证据与定量结论",
-          "text": "图2先以EBSD估算晶粒及取向，再以显微图识别U/Be夹杂，用多个电压端子避开夹杂区域；同一器件还取片作TEM检查原子尺度缺陷。晶格常数、显微组织与局部电阻被放进同一批次链条，避免把混相块体总电阻当本征UBe₁₃。图1比较不同合成历史，作者指出约0.006%体积差可伴随约28% Tc变化，远大于普通微小弹性压缩直觉预期。这里“Be空位导致”的说法是结合合成历史和TEM的机制推断，而不是逐个位点定量计数；U价态敏感性也是作者的解释框架，未由本工作直接做价态空间映射证实。切勿把相关性写成已测得空位—Tc单值函数。\n\n质量表征采用Cu Kα₁单色粉末XRD，混入LaB₆内标后用峰位最小二乘精修晶格参数；SEM-EDS在30 keV下未见坩埚反应产生的杂质元素，高分辨TEM/STEM进一步查看局部结构。但EDS对轻元素Be及微量空位的定量灵敏度有限，所以“未见杂质”不等于Be占位无误。补充图S1把U富样和Be富样的晶界二相分开显示；图S2约160 K的磁异常只在U过量样明显，作者更倾向把它归于含Be的U二相，而不是UBe₁₃固有转变。高于200 K的Curie–Weiss拟合给出有效磁矩和Weiss温度，最大Tc样的这两项绝对值较小；相关性提示电子态对组成敏感，却未建立一个可独立预测Tc的定量模型。"
+          "text": "图2先以EBSD估算晶粒及取向，再以显微图识别U/Be夹杂，用多个电压端子避开夹杂区域；同一器件还取片作TEM检查原子尺度缺陷。晶格常数、显微组织与局部电阻被放进同一批次链条，避免把混相块体总电阻当本征UBe₁₃。图1比较不同合成历史，作者指出晶格常数 a 约0.006%的差异可伴随约28% Tc变化，远大于普通微小弹性压缩直觉预期。这里“Be空位导致”的说法是结合合成历史和TEM的机制推断，而不是逐个位点定量计数；U价态敏感性也是作者的解释框架，未由本工作直接做价态空间映射证实。切勿把相关性写成已测得空位—Tc单值函数。\n\n质量表征采用Cu Kα₁单色粉末XRD，混入LaB₆内标后用峰位最小二乘精修晶格参数；SEM-EDS在30 keV下未见坩埚反应产生的杂质元素，高分辨TEM/STEM进一步查看局部结构。但EDS对轻元素Be及微量空位的定量灵敏度有限，所以“未见杂质”不等于Be占位无误。补充图S1把U富样和Be富样的晶界二相分开显示；图S2约160 K的磁异常只在U过量样明显，作者更倾向把它归于含Be的U二相，而不是UBe₁₃固有转变。高于200 K的Curie–Weiss拟合给出有效磁矩和Weiss温度，最大Tc样的这两项绝对值较小；相关性提示电子态对组成敏感，却未建立一个可独立预测Tc的定量模型。"
         },
         {
           "title": "证据边界与可执行建议",
@@ -154,7 +154,7 @@
       "readingGuide": {
         "priority": "A+｜重费米子超导、微结构输运和生长实验人员",
         "first": "先看图1 Tc–晶格常数的三类区域与图2电流路径，再看SI“Sample synthesis”的Be损失和退火。",
-        "focus": "核对0.006%体积变化对应的误差、Be空位定量与显微器件应力；不要把Al-flux样与无Al样混为同一材料。",
+        "focus": "核对晶格常数 a 约0.006%变化对应的误差、Be空位定量与显微器件应力；不要把Al-flux样与无Al样混为同一材料。",
         "next": "可略读一般无序配对背景；下一步做配方质量守恒、原子占位和同一晶粒多端输运。"
       },
       "institutions": "Max Planck Institute for Chemical Physics of Solids; TU Dresden; KIT",
