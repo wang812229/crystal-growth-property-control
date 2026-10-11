@@ -1,19 +1,19 @@
 {
   "date": "2026-10-11",
   "issue": "047",
-  "searchWindow": "北京时间 2026-10-11 15:05–15:25 检索。周日未发现可由官网独立核定的 10 月 11 日强相关新稿，回溯最近三个自然日 10 月 9–11 日；本期补入 10 月 9 日 Nature Communications Article in Press。10 月 9 日 arXiv 批次和当日已有四篇独立稿已在第 045 期收录，不重复。日期是简报整理日，不冒称论文于 11 日发表。",
-  "headline": "精选 1 篇 Fe₃GaTe₂ 室温表面磁纹理实验：零场表面偶极扭转与体内条纹域不同，电流脉冲下也有不同动力学。已精读 36 页合法公开 SI 的结构、Lorentz TEM 对照、微器件和模拟图注；出版社早期正文尚未开放，正文 Methods 不冒充已读。",
-  "hotspot": "与 10 月 9 日同材料 CVT 单晶的压力磁化论文不同，这篇研究二维磁体表面和体内不同磁拓扑态，证据主轴是深度分辨 Lorentz TEM、机械剥离对照与微器件原位电流。最强的排他性对照是未受 Ga 离子/FIB 处理的剥离片仍显示表面扭转对比；最弱的是早期正文尚不可读，定量拓扑电荷、完整生长条件与批次统计不能只靠摘要或 SI 图注补齐。无已登录浙大机构会话，未尝试代替用户认证或获取订阅 PDF。",
+  "searchWindow": "北京时间 2026-10-11 15:05–15:25 首次检索；同日复核至晚间。周日无独立核定的当天新批次，回溯 10 月 9–11 日。修订版补查 10 月 9 日 PRL 与 Communications Materials；两篇均为正式期刊新发表，并非 11 日新发。10 月 9 日 arXiv 99 篇新投、25 篇交叉稿、71 篇替换稿；高相关独立 arXiv 已在第 045 期收录，不重复。",
+  "headline": "复核后由 1 篇修订为 3 篇：Fe₃GaTe₂ 表面磁纹理、Ni–Mn–Ga 外延膜 5 ns 马氏体循环、Ho₃Fe₅O₁₂ 单晶 THz 磁光读出。Ni–Mn–Ga 读到合法作者稿全文，PRL 仅摘要；这两条在首版逐刊筛选中遗漏，现公开更正。",
+  "hotspot": "本期的可复现实验主线是把材料形态与测量时标写清：Fe₃GaTe₂ 的剥离/FIB 对照限定表面磁纹理伪影；Ni₅₃Mn₁₈Ga₂₆Cu₃ 的 50 nm 外延膜以时分辨倒易空间图直接跟踪马氏体—奥氏体双向相变；Ho₃Fe₅O₁₂ 的 THz 电场磁光响应则提出稀土晶场跃迁作为超快读出机制。前两篇分别精读公开 SI 与公开作者稿，第三篇仅见 APS 摘要，生长和仪器细节待机构授权补读。首版“仅 1 篇”反映漏检，不能据此推断三日内只有一篇相关论文。",
   "searchTerms": [
-    "APS/Physical Review：逐查 PRL、PRB、PR Materials、PR Research、PR Applied recent/accepted；PRB 10/9 可见至少 4 个材料实验高相关命中（SECNO、UBe₁₃、Cr₁/₄−δNbSe₂、Ni₃(BO₃)₂），前两篇已在 046 期、Cr 插层物已在 025 期以 accepted 稿收录且未确认新增结果，Ni 正硼酸盐与用户生长主线相较较弱，均排除；本期纳入 0。其他系列未核得本窗强相关新稿，动态目录全量命中未知。",
-    "Nature Portfolio：Nature、Nature Physics、Nature Communications、npj Quantum Materials 及相关官网核查；高相关候选 1，即 Nature Communications 10/9 Fe₃GaTe₂ 表面偶极扭转，纳入 1。Nature 早期 HTML 仅摘要和链接，公开 SI 36 页可读；正文 PDF 访问重定向至认证，不能声称读到正文。其余版面高相关确认 0；动态全量数未知。",
+    "APS/Physical Review：10/9 窗口内核得 PRL Ho₃Fe₅O₁₂ THz 磁光读出（1 命中、1 纳入；首版漏检）；PRB SECNO 与 UBe₁₃ 已入 046 期、Cr₁/₄−δNbSe₂ 已入 025 期，Ni₃(BO₃)₂ 光谱物性更偏窄题，排除。PR Applied Co 1.7 nm 顶层 Ru/Ta/W/Pt 控制 PMA/iDMI（1 命中、0 纳入），虽有定量 −1.23 pJ/m，但本期优先与晶体样品/相变直接关联的论文，泛自旋器件题材暂列备选。PR Materials/PR Research 等本窗口确认高相关 0，动态全量命中未知。",
+    "Nature Portfolio：Nature、Nature Physics、Nature Communications、npj Quantum Materials 及相关 Communications Materials 官网交叉核查，确认 2 篇强相关新正式论文、纳入 2：10/9 Fe₃GaTe₂ 表面磁纹理和 10/9 Ni–Mn–Ga 外延膜马氏体动力学。后者首版漏检；正式 DOI 为主，作者公开 arXiv:2509.06513v2 为实际精读正文来源，正式页数值差异另列。其余动态目录全量命中未知，不写零新增。",
     "Science/AAAS：当前目录访问错误，命中未知、纳入 0；不把访问失败当作零新增。",
     "Wiley：Advanced Materials 与 Advanced Functional Materials 官网 Early View/目录检索，入口有动态访问限制；强相关确认 0、纳入 0、全量命中未知。",
     "ACS：Nano Letters、ACS Nano、JACS、Chemistry of Materials 官网目录/题名检索；Nano Letters 当前期 10/7 可见，位于本期三日窗外；窗口内强相关确认 0、纳入 0，其他轨动态全量命中未知。",
     "Crystal Growth & Design：官方目录入口访问受限，命中未知、纳入 0。Journal of Crystal Growth：可见 10/7 在线稿（钙钛矿单晶薄膜），超出 9–11 日窗，不以旧文凑数；窗内确认 0、纳入 0，In Press 全量未知。",
-    "其他同等级高相关期刊：题名/日期交叉搜索遇旧文和弱相关器件稿，未确认窗口内未收录的直接实验新稿；命中全量未知、纳入 0。",
+    "其他同等级高相关期刊：补查 Communications Materials 10/9 Ni–Mn–Ga 外延薄膜论文，已归 Nature Portfolio 轨计数，避免重复计算；其余题名/日期搜索遇旧文和弱相关器件稿，未确认本窗其他未收录强关联实验稿。",
     "arXiv 官方 cond-mat/new：10/11 15:18 核到页面仍显示 Friday 9 October 2026，总 195＝99 new、25 cross、71 replacements；逐条筛题名与摘要，四篇直接实验稿已入第 045 期，理论模型、软物质、泛器件稿排除。本期新独立 arXiv 纳入 0；无 10/11 新批次，不把 API 空结果视作零新增。Nature DOI 与出版社日期交叉核验；本期并非新 arXiv 稿。",
-    "历史去重：本站 9/9–10/10 报告按 DOI、规范题名和 arXiv ID 查重，Nature DOI 10.1038/s41467-026-78513-w 尚未正式入站；10/9 另一篇 Fe₃GaTe₂ 压力磁化稿问题与证据不同，不能因为材料相同就误判重复。9/18 UBe₁₃ 报告把 0.006% 错称体积变化，现按公开作者稿更正为晶格常数 a 变化，保留历史报告。"
+    "历史去重及修订：以本站 9/9–10/10 报告的 DOI、规范题名和 arXiv ID 查重，新增 PRL 10.1103/rpfv-7nm6 与 Communications Materials 10.1038/s43246-026-01317-4 均未入站；后者 arXiv:2509.06513v2 于 2025-11-13 更新，此次因 10/9 正式发表而入站，绝非 2026-10-11 arXiv 新投。10/9 Fe₃GaTe₂ 压力稿与本期表面磁纹理论文问题不同。"
   ],
   "papers": [
     {
@@ -66,6 +66,104 @@
         "next": "同炉制两片厚度匹配的剥离/FIB 对照，做等能量变脉宽电脉冲及温度标定，再用多倾角 Lorentz TEM 验证表面态的空间定位。"
       },
       "versionNote": "以 2026-10-09 Nature Communications Article in Press 的正式 DOI 作主条目；作者公开稿未找到。本次只读到公开 36 页 SI，正式主文因早期页面仅摘要且 PDF 认证/重定向而未读。与第 045 期 Fe₃GaTe₂ 压力磁化稿是不同论文、不同证据问题。"
+    },
+    {
+      "material": "Ni₅₃Mn₁₈Ga₂₆Cu₃ 外延磁性形状记忆薄膜",
+      "title": "Sub-nanosecond structural dynamics of the martensitic transformation in Ni-Mn-Ga",
+      "authors": "Yuru Ge; Fabian Ganss; Daniel Schmidt; Daniel Hensel; Mike J. Bruckhoff; Sakshath Sadashivaiah; Bruno Neumann; Mariana Brede; Markus E. Gruner; Peter Gaal; Klara Lünser; Sebastian Fähler",
+      "institutions": "Helmholtz-Zentrum Dresden-Rossendorf；TU Dresden；Leibniz-Institut für Kristallzüchtung；Helmholtz-Institut Jena；University of Duisburg-Essen 等（作者稿首页）",
+      "journal": "Communications Materials，正式发表；公开作者稿 arXiv:2509.06513v2",
+      "date": "正式在线 2026-10-09；作者稿 v1 2025-09-08、v2 2025-11-13",
+      "doi": "https://doi.org/10.1038/s43246-026-01317-4",
+      "fullText": "https://arxiv.org/pdf/2509.06513",
+      "access": "全文精读（作者公开稿）：实际读取 v2 正文引言、结果第 2–8 节、Methods 的 Film preparation、R(T)、静态/时分辨 XRD、Data Reduction、ML-FF，以及图 1–6、表 1 和 SI 图号说明；正式版网页经 Nature 身份认证跳转，未把未读正式正文冒充已读。",
+      "rating": "A",
+      "method": "DC 磁控溅射外延；EDS；温变电阻；静态/时分辨 XRD；270 fs 光泵浦；机器学习力场 MD",
+      "category": "晶体生长和物性调控",
+      "tags": [
+        "正式期刊",
+        "全文精读",
+        "作者公开稿",
+        "外延",
+        "磁控溅射",
+        "Ni-Mn-Ga",
+        "马氏体相变",
+        "时分辨XRD",
+        "晶体质量"
+      ],
+      "abstract": "50 nm、3 at.% Cu 掺杂 Ni–Mn–Ga 外延膜在 270 fs 激光泵浦与约 100 ps X 射线探测下，马氏体到奥氏体可在探针时宽内完成，5 ns 内几乎完成往返；双相衍射峰、热应变与模拟共同约束机制。",
+      "conclusion": "这篇论文讲的是“相变有多快”必须由晶体结构直接计时，不能只看电阻或磁光代理信号。作者把 50 nm Cu 掺杂 Ni–Mn–Ga 膜长在高导热 Si/SrTiO₃/Cr 层堆栈上，用飞秒激光加热，在同步辐射上追踪马氏体 (202)₁₄M 与奥氏体 (022)A 两个峰：最低 5 mJ/cm² 已让前者消失、后者出现，约 5 ns 几乎回到初态。相变上限受 X 射线脉冲宽度限制，不能声称固有动力学恰为 90 或 100 ps；较高能量反而使拟合变宽，作者用基底约束热应变与非平衡电子/自旋能量来解释。这对下一炉薄膜的厚度、缓冲层和热沉选择，比单纯追求更强激光更有指导性。",
+      "sections": [
+        {
+          "title": "问题—样品—与既有测量的差异",
+          "text": "磁性形状记忆合金的马氏体相变是无扩散但有大晶格畸变的结构转换，速率决定高频致动与量热循环的上限。此前 7 ns 激光实验的转变时间明显被泵浦时长限制，而仅看一个衍射相的工作难排除中间相。作者用 270 fs 光脉冲和双相峰实时成图，问清升温 M→A、降温 A→M、温度过热与基底约束应变各起什么作用。所选膜为 Cu 掺杂 Ni₅₃Mn₁₈Ga₂₆Cu₃（EDS 给出的原子百分比），50 nm 厚；在室温共存非调制 NM 与正交 14M 马氏体，静态倒易空间图可分辨两者。空间群、单个晶粒尺寸、表面粗糙度、摇摆曲线 FWHM、跨片/跨批重复性在已读作者稿中未报告，不能据“外延”二字自动判定缺陷密度很低。"
+        },
+        {
+          "title": "生长—结构质量—真正可复现的配方",
+          "text": "已读作者稿 Methods 明示：725 µm 单晶 Si(100) 上先有 4 nm 外延 SrTiO₃，再于 300 °C 溅射 40 nm Cr 缓冲层，用 Bestec DC 磁控溅射装置在 400 °C 沉积 50 nm Ni–Mn–Ga:Cu；同一腔室 400 °C 退火 20 min，冷至室温形成马氏体。EDS 使用 Zeiss SIGMA 300 SEM/Smart EDX 得 Ni₅₃Mn₁₈Ga₂₆Cu₃；3 at.% Cu 的目标是提高相变温度。原料靶纯度、溅射气体种类/压力、功率、基底清洗、沉积速率、冷却速率、靶到基底距离和产率，在所读 Methods 中未报告，复现实验须向作者或引用的前期工艺核查，不能用常见 Ar 压强猜填。电阻 R(T) 零外场、380→180→380 K、6 K/min，读到 M_s=326.5 K、M_f=314.1 K、A_s=315.3 K、A_f=329.0 K。300 K 的 {022}M 分裂与 360 K 的 (022)A 出现是结构切换直接证据；奥氏体峰和 Cr(011) 重叠，后续拟合必须扣 Cr 背景。这是信号处理的一处关键，而不只是制图细节。"
+        },
+        {
+          "title": "测量—数值—证据层级",
+          "text": "DESY PETRA III/P08 用 1030 nm、270 fs、13 kHz 激光泵浦，9 keV、约 100 ps 同步辐射探测；样品置 150 K 氮气流中，激光面能量 5、7.5、9、11、13、15 mJ/cm²，时延 −1 至 5 ns。作者选非对称 (202)₁₄M 看面内/面外晶格，(022)A 对应高温相；数据经 xrayutilities 转倒易空间、Qx 积分投影、双 ROI 裁剪，再用旋转的二维 pseudo-Voigt 拟合积分强度 A·2πσxσy。奥氏体扣除 Cr(011) 背景，并分别用扫描最大峰强归一化；表 1 的误差仅非线性最小二乘标准差，不含束流抖动、样品热循环或 EDS 误差。图 2 的 5 mJ/cm² 在 −63 ps 见马氏体、139 ps 见奥氏体、5 ns 接近初态；图 3 两相归一化峰强合计约 100%，限制了大量第三相解释，但因积分峰强未必严格等于体积分数，极弱中间相仍可能被探测阈值掩盖。作者稿表 1 将 10–90% 转换时间拟合为 70±3 到 126±7 ps（马氏体峰，5–13 mJ/cm²），最短值小于约 100 ps 探针时宽，所以这些是仪器卷积下的拟合量，不能当成固有响应时间精确值。正式版检索摘要用“90 ps”探针/转变界限，作者稿写“约 100 ps”，以两版本各自陈述为准。"
+        },
+        {
+          "title": "机制—替代解释—下一炉与下一次测量",
+          "text": "直接观察是两个结构峰随时延互换与 5 ns 回返；误差函数拟合给 10–90% Δt 与斜率 r；作者推断是高能量未必更快，因为薄膜面内被厚 Si 钳制，热膨胀带来有利于马氏体的压应力，和升温有利于奥氏体互相竞争。图 6 利用奥氏体面内/面外晶格常数分离热应变；作者稿估计 15 mJ/cm² 时测得约 0.98% 应变，对应约 147 MPa、约 67 K 的转变温度偏移。这是借用体相模量与 Clausius–Clapeyron 系数后的模型估算，不能看作直接测得应力。ML-FF 模拟支持大畸变需要集体原子运动，但模型用化学计量 Ni₂MnGa、完整铁磁有序，而实验是 Ni₅₃Mn₁₈Ga₂₆Cu₃，并忽略非平衡电子/磁自由度；正式版网页检索到 MD 原子数约 8000，作者稿 v2 为约 4000，版本差异需在正式全文可读后复核。本站判断最强的是双相 XRD 与 Cr 背景处理，最弱的是探针时间分辨率与强泵浦下实际电子/晶格温度的分离。下一炉做 25/50/100 nm 厚度矩阵并固定 Cu=3 at.% 与缓冲层；逐片做 EDS、XRD 反射/摇摆曲线和 R(T) 滞后宽度，避免把厚度与质量变化混为一谈。下一次泵浦—探针同步记录电阻或反射率热标定，用更短 X 射线脉冲检验 <100 ps 内是否真存在中间结构；至少在 5、9、13 mJ/cm² 重复多片、报告峰位/峰宽/相分数误差。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A：做外延、结构相变、快速物性测量的研究生优先；可实际复用其样品堆栈和数据管线。",
+        "first": "先读作者稿 Fig.1 与 Methods Film preparation 确认 Si(100)/4 nm SrTiO₃/40 nm Cr/50 nm Ni–Mn–Ga:Cu，再看 Fig.2–4 与 Table 1 的双相峰和拟合，最后看 Fig.6 热应变。",
+        "focus": "核对 5 mJ/cm² 的 −63/139 ps/5 ns 三个时点、Cr(011) 与 (022)A 峰重叠的背景扣除，以及表 1 只含拟合误差。可略读宽泛应用背景与 ML-FF 基础公式，除非要复算模拟。",
+        "next": "用同一溅射批次做 25/50/100 nm 厚度和等 Cu=3 at.% 对照，测 R(T) 及双相 RSM，并把光泵浦热标定纳入原始数据流水线。"
+      },
+      "versionNote": "正式 DOI 10.1038/s43246-026-01317-4 于 10/9 在线，是本期纳入理由；实际读到的是合法公开 arXiv:2509.06513v2（2025-11-13），题名相同。正式网页因认证跳转未读全，检索摘要出现约 90 ps 探针与约 8000 原子 MD，而 v2 作者稿为约 100 ps、约 4000 原子；不把版本数据混写。"
+    },
+    {
+      "material": "Ho₃Fe₅O₁₂ 单晶稀土铁石榴石",
+      "title": "Optical Readout of the Magnetic State Using Terahertz Electric Fields",
+      "authors": "T. G. H. Blank; C. Bauer; M. X. Na; E. A. Mashkovich; A. K. Zvezdin; A. M. Kalashnikova; A. V. Kimel",
+      "institutions": "Radboud University；University of Cologne；Prokhorov General Physics Institute；Ioffe Institute 等（APS 作者信息）",
+      "journal": "Physical Review Letters 137, 156901；Editors’ Suggestion",
+      "date": "正式发表 2026-10-09；收稿 2025-11-12；接受 2026-09-11",
+      "doi": "https://doi.org/10.1103/rpfv-7nm6",
+      "fullText": "",
+      "access": "仅摘要/元数据：APS 正文与 SI 显示需要订阅/机构认证，当前无有效浙大会话；按题名/作者未找到可核验的公开作者稿或 arXiv，未读正文、Methods 或图表。",
+      "rating": "B+（待全文）",
+      "method": "单晶；单周期 THz 电场脉冲；磁光 Faraday 读出；晶场跃迁（摘要披露）",
+      "category": "磁性、拓扑与自旋",
+      "tags": [
+        "正式期刊",
+        "仅摘要",
+        "Ho₃Fe₅O₁₂",
+        "稀土铁石榴石",
+        "磁光Faraday",
+        "THz",
+        "单晶"
+      ],
+      "abstract": "单周期 THz 脉冲显著改变 Ho₃Fe₅O₁₂ 单晶的 Faraday 效应；在磁化补偿温度以下出现，作者将其解释为非中心对称氧环境中 Ho³⁺ 晶场分裂 f–f 跃迁的共振 THz 电场诱导磁光效应；Tb₃Fe₅O₁₂ 亦有类似信号。",
+      "conclusion": "这篇论文讲的是“看磁态”也可以用 THz 电场瞬时改写磁光读出通道。APS 摘要给出的直接实验事实是 Ho₃Fe₅O₁₂ 单晶在磁化补偿温度以下出现显著的 THz 诱导 Faraday 响应，且 Tb₃Fe₅O₁₂ 也有信号；把它归因于 Ho³⁺ 晶场 f–f 共振属于作者机制解释。由于正文与 SI 需机构权限，具体谱线、温度、场强、样品生长和误差均未核验，不能把作者的亚 100 nm 读出前景当作已经做出的空间分辨实验。",
+      "sections": [
+        {
+          "title": "问题—样品—公开摘要可证之处",
+          "text": "常规 Faraday 旋转是磁态读出的光学代理量，这篇 PRL 问：单周期 THz 电场能否在稀土铁石榴石中产生独立、超快且受磁构型选择的磁光响应。APS 确认样品为 Ho₃Fe₅O₁₂ 单晶，Tb₃Fe₅O₁₂ 作跨材料验证；Ho 样品在磁化补偿温度以下发生晶胞畸变，Ho³⁺ 自旋形成非共线 double-umbrella 结构。摘要描述随该结构出现强 THz 诱导 Faraday 效应，区别于只用静态磁光系数推断磁态。具体样品切向、晶面、尺寸、缺陷与批次关系：正文未报告于可读范围。"
+        },
+        {
+          "title": "生长—质量—测量缺口",
+          "text": "原料纯度、化学配比、Flux/Czochralski/浮区等生长路线、坩埚与气氛、升降温、退火及产率：正文未报告于可读范围，不能因为石榴石单晶常见某工艺而补写。XRD/Laue/EDS/ICP、摇摆曲线、晶场能级测定及磁化补偿点数值：可读摘要未给。THz 场强、波形、偏振、光探针能量、温度/外场范围和 Faraday 旋转角误差也未见；无从独立评估电场效应与磁场分量、瞬态加热、双折射的分离质量。需要实际取得正式正文/SI 才能定量评价。"
+        },
+        {
+          "title": "证据与复现建议",
+          "text": "“THz 脉冲后 Faraday 信号变化”“补偿温度以下增强”“Tb 石榴石也存在”是摘要披露的直接观察层级；Ho³⁺ 晶场分裂 f–f 共振与非中心对称氧环境是作者模型解释；“亚 100 nm 磁位读出”是应用推断。本站判断其材料特异的温度阈值和跨稀土对照有价值，但缺少可读的偏振/频谱/场翻转图不能排除磁场分量驱动或普通电光贡献。下一次实验应先独立测 M(T) 锁定补偿温度与晶向，THz 扫频/旋偏振/反转初始磁化，补做非稀土铁石榴石与 Tb₃Fe₅O₁₂ 等参照，把每个效应的绝对 Faraday 角与 THz E、B 场校准一并发布。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "B+：适合磁光、THz 泵探和稀土磁体读者；取得正文后再作定量方案参考。",
+        "first": "先读 APS 摘要中“补偿温度以下”和 Ho/Tb 跨材料对照；拿到机构授权正文后优先看 THz 偏振、波形与 Faraday 信号随温度和磁化翻转的主图、SI 光路。",
+        "focus": "核对 Ho³⁺ f–f 共振频率是否与 THz 光谱重合，以及磁场分量/热效应对照；一般应用展望可略读。当前无法核对具体图号，不虚构。",
+        "next": "在现有石榴石样品做 M(T) 确定补偿点，再用 THz 偏振和温度矩阵区分电偶极晶场与磁偶极响应。"
+      },
+      "versionNote": "以 2026-10-09 PRL 正式 DOI 为主条目；未找到可核验公开稿。APS 页面正文、SI 需要授权，当前仅摘要，列入后续补读清单。"
     }
   ]
 }

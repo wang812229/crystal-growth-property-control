@@ -4,6 +4,9 @@ import report from '../../../content/reports/2026-10-11.json';
 
 export const metadata:Metadata={title:'2026-10-11 简报｜每日文献简报',description:report.headline};
 const figures:Record<string,{src:string;title:string;caption:string}>={
+ "Sub-nanosecond structural dynamics of the martensitic transformation in Ni-Mn-Ga":{src:"/reports/2026-10-11/nimnga-fluence.svg",title:"Ni–Mn–Ga 作者稿 Table 1：泵浦能量与拟合相变时间",caption:"根据 Ge 等公开作者稿 arXiv:2509.06513v2 Table 1 数值重绘，并非论文原图。横轴激光面能量 5、7.5、9、11、13 mJ/cm²；纵轴马氏体峰 10–90% 拟合转换时间 70、74、100、128、126 ps，误差 ±3、3、4、6、7 ps。正式版网页检索摘要用约 90 ps 探测界限，作者稿约 100 ps；本图仅证拟合时间在高 fluence 未缩短，因探针时宽及非平衡温度，不能证明材料固有转变时间随激发强度变慢。"},
+ "Sub-nanosecond structural dynamics of the martensitic transformation in Ni-Mn-Ga":{src:"/reports/2026-10-11/nimnga-fluence.svg",title:"Ni–Mn–Ga 作者稿 Table 1：泵浦能量与拟合相变时间",caption:"根据 Ge 等公开作者稿 arXiv:2509.06513v2 Table 1 数值重绘，并非论文原图。横轴激光面能量 5、7.5、9、11、13 mJ/cm²；纵轴马氏体峰 10–90% 拟合转换时间 70、74、100、128、126 ps，误差 ±3、3、4、6、7 ps。正式版网页检索摘要用约 90 ps 探测界限，作者稿约 100 ps；本图仅证拟合时间在高 fluence 未缩短，因探针时宽及非平衡温度，不能证明材料固有转变时间随激发强度变慢。"},
+ "Sub-nanosecond structural dynamics of the martensitic transformation in Ni-Mn-Ga":{src:"/reports/2026-10-11/nimnga-fluence.svg",title:"Ni–Mn–Ga 作者稿 Table 1：泵浦能量与拟合相变时间",caption:"根据 Ge 等公开作者稿 arXiv:2509.06513v2 Table 1 数值重绘，并非论文原图。横轴激光面能量 5、7.5、9、11、13 mJ/cm²；纵轴马氏体峰 10–90% 拟合转换时间 70、74、100、128、126 ps，误差 ±3、3、4、6、7 ps。正式版网页检索摘要用约 90 ps 探测界限，作者稿约 100 ps；本图仅证拟合时间在高 fluence 未缩短，因探针时宽及非平衡温度，不能证明材料固有转变时间随激发强度变慢。"},
  "Topological diversity and scintillating dynamics of dipolar surface twists in a van der Waals magnet":{src:"/reports/2026-10-11/fgt-pulse.svg",title:"Fe₃GaTe₂ 微器件电脉冲的实验坐标",caption:"根据 Nature Communications DOI 10.1038/s41467-026-78513-w 公开 SI Fig.19–20 数值重绘，并非论文原图。横轴脉冲时间 0–40 ns，纵轴电流密度 2.20×10¹¹ A/m²，条件为室温、0 mT，器件厚约 77 nm；矩形仅示标称脉冲窗口，不是实测电流波形，也不能单独证明 STT 主导而排除 Joule 热。"}
 };
 export default function Report(){
