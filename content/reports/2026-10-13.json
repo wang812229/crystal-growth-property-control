@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-13",
+  "issue": "049",
+  "searchWindow": "北京时间2026-10-13自14:26起检查当天出版社与arXiv。今日已核实13日正式新刊1篇，不为数量回溯凑数。arXiv官方经重试仍为12日71新投/29交叉/55替换，13日批次尚未核准；12日待补精读3篇归回12日报。Crossref额外查询11–13日用于排除日期误判，不把这段窗口全部算今日新刊。",
+  "headline": "今日正式新刊：气流与垂直悬挂退火制备Cu(111)/Ni(111)单晶箔；实读ACS公开17页SI，重点核查残余亚晶界、工作压力与气体模拟边界。昨日另补3篇正文精读，日期与数量分开。",
+  "hotspot": "本期价值在可执行的工艺与质量审计：1030/1400°C、Ar/H2流量、支架和EBSD/极图比“100%单晶”更有用。公开SI支持方法与局部质量，但主文受限，压力定义和全幅统计仍需确认。未证实13日arXiv批次，不发布零篇断言；已将TiAs、扩散激活外延、Bi2Se3应变输运补入12日简报，保留原来3篇与图解。",
+  "searchTerms": [
+    "APS：逐查PRL/PRB/PR Materials/PR Research/PR Applied Recent及Accepted。查询时最新发布日期/接收日期仍为10/9；每个可见目录首页约20条，未核实13日全量更新，窗内独立正式新纳入0。SECNO、UBe13等已入历史简报；9日稿超出今日窗口，不当13日新稿。全量新稿命中未知，不声称APS全刊零新增。",
+    "正式期刊Crossref补查（online日期11–13日，单刊rows100，无截断）：Science 0条；Science Advances 0条；Advanced Materials 13条；Advanced Functional Materials 45条；Nano Letters 14条；ACS Nano 12条；JACS 22条；Chemistry of Materials 7条；Crystal Growth & Design 9条；Journal of Crystal Growth 0条；Nature 10条；Nature Physics 2条；Nature Communications 49条；npj Quantum Materials 0条。这些是索引命中数，不等于出版社全部新增数，0也可能是元数据延迟。逐刊官网和高相关题名复核后，今日实际在线新纳入Nano Letters金属箔1篇。",
+    "Nature/Nature Physics/Nature Communications/npj Quantum Materials：官网Research/Articles页重试，部分cookie/身份重定向。Crossref分别10/2/49/0；Nature多为新闻/生物，NatPhys光子skyrmion及细胞旋涡不是本期材料生长/输运主线；NatComm Ni/NiMoO4为电催化，排除。已收录Fe3GaTe2/扭转二极管不重复。官网动态日期不全，不以接口0作零发表断言。",
+    "Science/AAAS：Science和Science Advances官网目录访问异常，Crossref11–13日分别0/0。确认纳入0；来源全量未知。两次官网访问和索引补查均记录，未宣称逐篇官网全量已取得。",
+    "Wiley Advanced Materials/Advanced Functional Materials：Early View官网可见12日稿，Crossref13/45条；钙钛矿光伏、储能、催化和医学排除，Nitrospinics/晶圆TMD为观点综述。MoSe2/CrOCl/Fe3GaTe2磁性激子及α-In2Se3应变晶体管记候补，11日而非13日；本期不为扩展篇数追器件相关稿。今日纳入0，未把正文不可访问当唯一排除理由。",
+    "ACS Nano Letters/ACS Nano/JACS/Chemistry of Materials：官网旧toc/ASAP路径403，补以Crossref online元数据14/12/22/7条。Nano Letters金属箔13日、官方17页SI公开，纳入1；NbSe2 CDW动力学实际12日，记补读候补不塞13日。Co/W开关、双栅/铁电器件、光催化、离子储能、COF与生物探针排除；相关JACS原子化学开关另列候补，不伪写全文已读。",
+    "Crystal Growth & Design：官网403/动态失败，Crossref11–13日9条，含缺陷硒化物非线性、β-Bi2O3膜、Fe-qsal自旋交叉、GaN缓冲层等；本期与用户块体生长/物性主线的直接收益低于选定金属基底，未纳入。命中9是索引数，未获得官网完整全文目录。",
+    "Journal of Crystal Growth：In Press官网403，日期题名搜索及Crossref补查窗内0。可见15日卷期日期不能代替在线首发；7日单晶膜及2024光学浮区参考均不充数。纳入0；全量在线新稿仍未知。",
+    "其他高相关期刊：Communications Materials官方目录可读，10日FAPbI3亚稳晶格在今日外；6日YbCu2重费米子、3日GdRu2Si2应变稿更早，排除旧文。本次其他正式新纳入0。",
+    "arXiv：直接官网new、show2000、recent及本机官方HTTP重试，仍显示Monday12October2026：71new、29cross、55replacement。逐题/摘要初筛100条新/交叉，55替换稿查题名与历史身份；未确认13日发布批次，不能据此写13日零新增。Atom API对3个已读ID返回匹配元数据。TiAs/DAE/Bi2Se3属于12日发布批次，在12日报中补录；不放入13日数量。NiRuMnGa/α-MnTe已收录去重。",
+    "arXiv排除/候补：YbZn2GaO5虽然新上传v1，查正式DOI10.1103/n1ly-lsck确认已于8/14发表，未证实新增结果，排除当日新成果。Ba3LnRu2O9、BFO p-wave、Te手性输运、MoSe2/WSe2隔层重构为材料相关候补；本轮优先生长、结构模型和宏观输运3项，候补未宣称精读。量子气体、数学证明、泛算法、催化/电池、生物和纯预测无当前实验样品者排除。",
+    "访问与阅读审计：今日出版社主文403，官方ACS Figshare SI17页实际精读，主文待补；12日新增3项公开正文实读，其中Bi2Se3与DAE独立SI尚未取得，TiAs未见单独SI。无可用已登录浙大机构会话，不声称aTrust/WebVPN/CARSI访问成功；未获取受限PDF、未绕过付费墙。未调用OpenAI API。"
+  ],
+  "papers": [
+    {
+      "category": "晶体生长和物性调控",
+      "rating": "A",
+      "tags": [
+        "全文精读",
+        "实验论文",
+        "正式期刊",
+        "CVD",
+        "金属单晶",
+        "气氛退火",
+        "晶界",
+        "Cu",
+        "Ni"
+      ],
+      "material": "Cu(111)/Ni(111) 大面积单晶金属箔",
+      "title": "Directional Manufacturing of Defect Mitigation and Large-Scale Single-Crystalline Metal Foils via Gas Flow Optimization toward Commercialization",
+      "authors": "The-Hung Mai; Thi H. Ho; Shi-Hui Liu; Santhoshkumar S.; Muhammad Adnan; Arvind Chandrasekar; Tuan V. Vu; Chien-Cheng Kuo; Hung-Duen Yang; Liuwen Chang; Wei-Lung Tseng; Trung Nguyen-Thoi; Chung-Li Dong; Phuong V. Pham",
+      "institutions": "台湾中山大学物理、材料与光电、化学、晶体研究及量子材料中心；越南文郎大学；台湾淡江大学物理系",
+      "journal": "Nano Letters，正式在线论文",
+      "date": "2026-10-13 在线；ACS 官方 SI 同日公开",
+      "doi": "https://doi.org/10.1021/acs.nanolett.6c03824",
+      "fullText": "https://acs.figshare.com/articles/journal_contribution/34403086",
+      "method": "垂直悬挂 CVD 退火、气流控制晶粒竞争、EBSD/极图/XAS 与 MD",
+      "access": "全文精读（仅公开 SI）：实际读取 ACS 官方17页 SI 的 Materials and Methods、图S1–S12及MD/LJ参数表；主文网页返回403，未读到主文，不宣称主文全文已读。",
+      "versionNote": "正式 DOI 为主条目。Crossref online日期及ACS Figshare发布时刻均为2026-10-13；SI许可CC BY-NC 4.0。本期只依据公开摘要及实读SI建立证据链，主文机制和商业化统计尚待补读。",
+      "abstract": "工业多晶Cu/Ni箔垂直悬挂退火获得(111)取向；公开SI给温度、气流、EBSD与极图，但低角亚晶界仍存在，压力/流量定义和全幅统计需复核。",
+      "conclusion": "作者希望把昂贵的大块单晶或外延，换成工业多晶金属箔在气流中的取向竞争。Cu与Ni垂直悬挂在氧化铝支架上，分别在1030和1400 °C退火；Ni的远距离EBSD和极图支持连续(111)择向，但6–9°低角亚晶界说明“单晶”不等于零缺陷。模拟中气体促进较少FCC晶域恢复，只提供表面尺度的机制支持，不能代替毫米厚宏观材料的热史。对下一炉最有价值的是支架、气流、压力与全幅取向分布的可追溯记录，而不是照抄“100%单晶”的标签。",
+      "readingGuide": {
+        "priority": "A：做金属单晶基底、石墨烯CVD或退火择向的读者；目前为SI限定精读。",
+        "first": "先看SI第2页图S1温程与第4页支架，再看第5–6页图S5/S6中R4、R5、R6的错取向及极图；最后读第11–14页MD边界和晶域恢复。",
+        "focus": "核对700 sccm进气时10⁻³ Torr指实际工作压还是基压、图S1的分段时间、6–9°亚晶界与“100%”的统计定义。可略读SI文献列表；不能用MD最高温度代替实验温度。",
+        "next": "同批箔做位置和气流对照，保留原始EBSD/取向分布与表面氧化数据；先向作者确认工作压力和排气配置，再编排复现实验。"
+      },
+      "sections": [
+        {
+          "title": "问题、假设与工艺对照",
+          "text": "金属单晶基底的价值并不只在衍射图上只有一个强峰：面内取向一致性、晶界密度、表面粗糙度和化学状态会共同影响后续二维材料成核。本文正式摘要提出通过垂直悬挂和气流改变多晶箔的晶粒旋转/竞争，从邻晶被消耗的过程中得到Cu(111)、Ni(111)。这是作者的机制解释，不是本简报从SI独立证实的原子运动。公开SI能核对制样、远距离取向、局部化学和计算条件；主文不可访问，因此气流优化矩阵、最优与非最优样品的完整统计以及规模化成本尚未知。不能将“toward commercialization”改写为已经商业量产。其直接实验意义是将廉价箔材转化为外延基底；对只做块体磁性单晶的读者优先级略低，但支架接触、气流和批次管理的逻辑可迁移。"
+        },
+        {
+          "title": "样品—生长—气氛：实际读到的配方与一处待核查条件",
+          "text": "原料是Nilaco工业多晶Cu箔75 μm、99.8%，Ni箔100 μm、99.8%。SI第2页报告Cu退火1030 °C、Ni1400 °C，气流500 sccm Ar加200 sccm H₂，箔材垂直固定于氧化铝支架，置于3英寸氧化铝CVD管。图S1分别标注稳压30 min、加热90 min、退火540 min、冷却180 min；这是读图得到的阶段标注，不能误认540 min为总时长。冷却为自然冷却、Ar50 sccm。升温阶段图中也标Ar50 sccm。文字称系统保持10⁻³ Torr，但没有给出抽速、压力计位置，也未区分基压与700 sccm气流下的工作压：这一条件必须向作者确认，不能凭炉型擅自改成常压或另一个压力。SI支架尺寸文字“300 in height”有单位/方向歧义，另明确杆间距15 mm、竖杆55 mm高和3 mm直径；不替作者补单位。全幅箔长宽、箔材清洗、表面预处理、退火良率、逐炉偏差及持箔张力在实读SI中未完整报告。"
+        },
+        {
+          "title": "结构—质量：局部连续取向与真正全幅单晶之间的距离",
+          "text": "图S5在Ni箔上标出三个相隔较远的区域R4–R6，SEM与IPF-Z显示一致的[111]表面法向。EBSD条件为20 kV、倾角70°，索引命中率99.53%；这些是采样区域的技术指标，不能扩展成整幅面积99.53%无缺陷。文字给R4约51°高角错取向占扫描区不足0.0175%，R5主分布约3°，R6集中6–9°低角亚晶界。图S6的{111}极图有中心极点及三个相隔120°外围极点，支持共同面内取向而非随机方位的(111)织构环；但取样面积、步长和贯穿全部厚度的检验尚未读到。图S9 Cu LEED检验表面有序，不能单独证明宏观体积无晶界。最强证据是远距离EBSD与极图共同限制法向和面内旋转；最弱环节是用有限扫描区将“100%连续取向”扩大为全幅严格无缺陷单晶。下一次XRD不应只测对称(111)峰，应搭配倾斜几何、极图或至少多位置Laue。"
+        },
+        {
+          "title": "化学状态与后续石墨烯：直接观察和解释分开",
+          "text": "SI第7–9页比较多晶及(111)金属的K边XANES/EXAFS，Cu/Ni与金属参考相似，未见相应氧化物Cu–O或Ni–O明显壳层，作者认为H₂处理未显著改变局部电子/原子结构。正文SI没有列完整拟合N、σ²、R及误差表，故不能量化“去氧化率”或断言氧含量为零。Cu₂O段同时出现Cu⁺与Cu²⁺的表述，应视为待澄清的价态文字问题，不能照抄为化学结论。SI第3页另给石墨烯CVD：2英寸炉，1060 °C，Ar200/H₂65/CH₄50 sccm，20 min后自然冷却；该温度和气流属于后续石墨烯步骤，不是金属箔退火。图S12提供石墨烯Raman比较，但实读材料未给足够完整的层数、缺陷密度、迁移率、统计位置与跨幅均匀性，不把应用演示升级为电子器件性能承诺。"
+        },
+        {
+          "title": "模型、替代解释与机制边界",
+          "text": "计算用LAMMPS、EAM金属势和Lennard–Jones气体/金属相互作用；Atomsk造随机取向多晶，x/y周期、z自由边界。27 °C的NPT放松5 ns后，NVT/Nosé–Hoover加热，每50 ps升20 °C；模拟最高温Cu1060 °C、Ni1430 °C，保温5 ns再降温并放松5 ns。模拟温度与实际1030/1400 °C不同，纳米表面模型和9 h宏观退火的时间尺度也不同。图S11在最高温失去可识别晶域，冷却后气体体系恢复更多FCC、较少晶粒；SI明确不应解释为实验宏观箔完全熔化。模拟支持“气体可能改变表面原子迁移”，并不直接测得H₂促进界面迁移的唯一势垒。表面能择向、支架应力、温场非均匀与气体化学清洁均可贡献，需独立对照；不能用少数可视化轨迹排除它们。"
+        },
+        {
+          "title": "复现风险与下一炉可执行检查",
+          "text": "先把压力定义、支架尺寸歧义和温程确认完，再用同批号箔做基线，不凭本简报直接搬用有歧义的700 sccm/10⁻³ Torr组合。记录管径、炉温校准、样品在恒温区的位置、夹持与相邻箔间距；Cu和Ni分开校核温度及H₂使用的设备安全规程。设计Ar/H₂组成与竖挂/接触支撑的对照时保持总流量、热史和接触条件可比较，不一次改多个因素。先做足够多位置EBSD/极图，以错取向分布、残余高角界、翘曲和表面粗糙度作为验收，而不仅用单一择优取向峰。重复样品和失败箔也应保存原图。之后才用同炉石墨烯覆盖与Raman网格判断基底改进有没有传递到应用。本简报当前补读项是受限主文的最优气流矩阵、跨幅/跨炉统计和完整成本论证；不因SI可读而宣称全部机制已确认。"
+        }
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "src": "/reports/2026-10-13/metal-anneal-temperature.svg",
+      "title": "Cu/Ni 箔的实验退火温度",
+      "caption": "根据公开SI第2页Methods重绘，并非论文原图。Cu1030°C、Ni1400°C，Ar500/H₂200sccm。它展示实际温度差，不证明最佳气流或整个金属箔无缺陷；10⁻³Torr的压力定义需作者确认。",
+      "source": "https://acs.figshare.com/articles/journal_contribution/34403086"
+    },
+    {
+      "src": "/reports/2026-10-13/metal-stage-times.svg",
+      "title": "公开SI图S1的阶段时间",
+      "caption": "根据论文信息重绘，并非论文原图。稳压/加热/退火/冷却标注30/90/540/180min；分段标注不是温度实测点列，不推算自然冷却的恒定速率。公开SI许可CC BY-NC 4.0。",
+      "source": "https://acs.figshare.com/articles/journal_contribution/34403086"
+    }
+  ]
+}
