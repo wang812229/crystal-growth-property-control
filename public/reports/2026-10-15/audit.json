@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-15",
+  "window": "北京时间2026-10-15检索；本期采用2026-10-13至10-15三个自然日的正式发表/官方公告窗口，入选实际均为14日。arXiv仍返回14日批次，15日批次未核实，不作15日零新增断言。预印本提交日期逐篇分列（10、10、12日UTC），以14日官方公告身份回溯补读。",
+  "sourceAudit": [
+    {
+      "source": "Science",
+      "crossrefOnlineHits": 0,
+      "officialFullDayCount": null,
+      "included": 0,
+      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+    },
+    {
+      "source": "Science Advances",
+      "crossrefOnlineHits": 0,
+      "officialFullDayCount": null,
+      "included": 0,
+      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+    },
+    {
+      "source": "Advanced Materials",
+      "crossrefOnlineHits": 0,
+      "officialFullDayCount": null,
+      "included": 0,
+      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+    },
+    {
+      "source": "Advanced Functional Materials",
+      "crossrefOnlineHits": 0,
+      "officialFullDayCount": null,
+      "included": 0,
+      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+    },
+    {
+      "source": "Nano Letters",
+      "crossrefOnlineHits": 2,
+      "officialFullDayCount": null,
+      "included": 0,
+      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+    },
+    {
+      "source": "ACS Nano",
+      "crossrefOnlineHits": 0,
+      "officialFullDayCount": null,
+      "included": 0,
+      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+    },
+    {
+      "source": "JACS",
+      "crossrefOnlineHits": 1,
+      "officialFullDayCount": null,
+      "included": 0,
+      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+    },
+    {
+      "source": "Chemistry of Materials",
+      "crossrefOnlineHits": 0,
+      "officialFullDayCount": null,
+      "included": 0,
+      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+    },
+    {
+      "source": "Crystal Growth & Design",
+      "crossrefOnlineHits": 0,
+      "officialFullDayCount": null,
+      "included": 0,
+      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+    },
+    {
+      "source": "Journal of Crystal Growth",
+      "crossrefOnlineHits": 0,
+      "officialFullDayCount": null,
+      "included": 0,
+      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+    },
+    {
+      "source": "Nature",
+      "crossrefOnlineHits": 0,
+      "officialFullDayCount": null,
+      "included": 0,
+      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+    },
+    {
+      "source": "Nature Physics",
+      "crossrefOnlineHits": 0,
+      "officialFullDayCount": null,
+      "included": 0,
+      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+    },
+    {
+      "source": "Nature Communications",
+      "crossrefOnlineHits": 1,
+      "officialFullDayCount": null,
+      "included": 0,
+      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+    },
+    {
+      "source": "npj Quantum Materials",
+      "crossrefOnlineHits": 0,
+      "officialFullDayCount": null,
+      "included": 0,
+      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+    },
+    {
+      "source": "APS/Physical Review",
+      "officialFullDayCount": null,
+      "included": 1,
+      "note": "回溯14日PRX赤铁矿；Accepted和Recent日期分别核对"
+    },
+    {
+      "source": "arXiv",
+      "officialDate": "2026-10-14",
+      "new": 260,
+      "cross": 60,
+      "replacements": 158,
+      "included": 3,
+      "note": "15日批次未核实，回溯14日候补；非15日零新增"
+    }
+  ],
+  "arxiv": {
+    "requestedDate": "2026-10-15",
+    "batchPending": true,
+    "officialDate": "Wednesday, 14 October 2026",
+    "new": 260,
+    "cross": 60,
+    "replacements": 158,
+    "notes": [
+      "arXiv最后核对：canonical new、show=2000与recent均仍显示Wednesday 14 October 2026；new260、cross60、replacement158，共478，recent显示该日324（与new+cross320不同）。记录页面口径不一致和批次滞后，不据此声称15日无稿。官方API交叉核验尝试返回Rate exceeded/超时，不能将接口空或失败作排除证据。",
+      "arXiv纳入3：PtSe2约束生长、hBN晶面选择、分子Josephson。v1提交分别10/10/12日，均在14日官方new中，按公告日纳入13–15窗口，不能表述成提交也在近三天。14日简报6篇全部保留且不重复计数。hBN复用2022实验，新增DFT与索引讨论单列。"
+    ]
+  },
+  "reading": {
+    "candidateAccessibleFullTexts": 4,
+    "fullReads": 4,
+    "abstractOnly": 0,
+    "institutionalSuccess": false,
+    "pending": [
+      {
+        "id": "2610.15022v1",
+        "reason": "独立SI S1–S4未附公开PDF，正文已读"
+      },
+      {
+        "source": "arXiv 15日公告",
+        "reason": "官方new/recent仍显示14日，API交叉核验受限；批次/摘要全量人工复核和更新稿逐版diff待补"
+      }
+    ]
+  },
+  "coverage": "固定来源访问异常、逐版diff待核验及专题候补见日志；不声称全量无遗漏。"
+}
