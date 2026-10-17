@@ -13,3 +13,15 @@ test('research ideas have a hub, daily section, uncertainty and a complete expor
  const data=JSON.parse(await readFile(new URL('research-ideas/2026-10-15.json',dir),'utf8'));assert.equal(data.ideas.length,2);assert(data.ideas.every(i=>i.falsifiers.length&&i.priorArt.length&&i.remainingChecks.length));
  const css=await readFile(new URL('assets/research-ideas.css',dir),'utf8');assert(css.includes(':focus-visible'));assert(css.includes('@media'));
 });
+
+test('three-day selections retain their date, reading levels, audit and quantitative figures',async()=>{
+ const html=await readFile(new URL('reports/2026-10-17/index.html',dir),'utf8');
+ assert(html.includes('三日回溯 6'));assert(!html.includes('今日公告 0 / 前日补读 0'));
+ assert(html.includes('主文可访问 4 / 主文实读 4'));assert(html.includes('仅摘要 2'));
+ for(const name of ['audit.json','crn-afm.svg','fev-domain.svg','ceru-gaps.svg'])await access(new URL('reports/2026-10-17/'+name,dir));
+ const audit=JSON.parse(await readFile(new URL('reports/2026-10-17/audit.json',dir),'utf8'));
+ assert.equal(audit.coverageComplete,false);assert.equal(audit.reading.length,6);
+ assert(audit.reading.filter(p=>p.access.startsWith('全文精读')).every(p=>p.bodyChineseCharacters>=1500));
+ const index=JSON.parse(await readFile(new URL('assets/search-index.json',dir),'utf8'));
+ assert.equal(index.filter(p=>p.reportUrl.includes('/reports/2026-10-17/')).length,6);
+});
