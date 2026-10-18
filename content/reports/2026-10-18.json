@@ -1,0 +1,1296 @@
+{
+  "date": "2026-10-18",
+  "issue": "054",
+  "searchWindow": "北京时间2026-10-18优先检索；已核对来源未确认18日高相关新稿，但部分官网403，不能断言全领域零新增。采用最近三个自然日10-16—10-18，收录4篇16日正式发表/登记、此前未收录的强相关论文；均不冒充18日新发。arXiv官方仍显示Friday,16 October2026：78新投、20交叉、65替换。",
+  "headline": "三日回溯4篇：Fe/Cr占位与交换偏置、CsCr₃Sb₅的Raman耦合、Tb₂Ir₂O₇的低能磁态；3篇正文精读，GaN传质模型仅摘要待补。",
+  "hotspot": "样品历史和模型边界决定结论能走多远：名义ZFC可能仍有俘获剩磁；少数Raman模式外推的总λ不是全部声子的测定；两个晶场参数族仍可并存；数值优化的GaN生长速率不能当实验成果。",
+  "papers": [
+    {
+      "category": "晶体生长和物性调控",
+      "material": "Fe₃₋ₓCrₓSe₄：成分、占位与磁热史共同控制交换偏置",
+      "title": "Magnetic competition and exchange bias driven by cationic inhomogeneity in Fe3−xCrxSe4",
+      "authors": "V. A. Komarova; N. V. Selezneva; A. A. Golubiatnikova; D. A. Shishkin; N. V. Baranov",
+      "institutions": "M.N. Miheev Institute of Metal Physics , Ural Branch of the Russian Academy of Sciences, 620108 Ekaterinburg, Russia；Institute of Natural Science and Mathematics, Ural Federal University , 620083 Ekaterinburg, Russia",
+      "journal": "Physical Review Materials 10, 104411 (2026)",
+      "date": "2026-10-16正式在线发表；本期为16–18日三日回溯，非18日新发",
+      "doi": "https://doi.org/10.1103/xtc1-jh14",
+      "fullText": "https://journals.aps.org/prmaterials/pdf/10.1103/xtc1-jh14",
+      "method": "真空封管固相900 °C/170 h＋800 °C/120 h；XRD/中子占位精修、磁热史控制",
+      "access": "全文精读：出版社11页PDF的§I–IV、Experiment、主图1–7与表I；2页Supplemental Material及两幅图已读并视觉核对。重点视觉检查主图4/5/7、表I和SI图2。本轮PDF可直接访问，未确认开放再使用许可；不转载PDF或原图。",
+      "versionNote": "按DOI、规范题名与51期历史报告去重，本期未收录过该论文。此前Accepted或正文参考文献链接不自动等同本论文作者公开稿；未核实的arXiv关系不编写。本次正式发表在三日窗口内。",
+      "abstract": "",
+      "conclusion": "近补偿成分并不只让磁矩变小，还使微弱冷却场足以选择低温回线偏置方向。作者将这种敏感性与Fe/Cr层间非随机占位、可能的富Cr团簇联系起来。真正需要复现的是配方、热处理、残余场和回线分解的一整套关系；15 kOe是扣除线性反铁磁背景后铁磁/亚铁磁分量的开关偏置，不能当未经处理的整条回线直接位移。",
+      "readingGuide": {
+        "priority": "A＋｜固相制样、成分调控和磁测量读者",
+        "first": "先读§II与图4的冷却/扫场协议，再并排看图5b/c与表I，最后读2页SI的弛豫曲线。",
+        "focus": "核对原始回线与扣背景回线、HcL的符号约定及磁铁剩磁。5±3 nm来自模型估算，不是TEM实测；一般交换偏置历史可略。",
+        "next": "优先重测同片残余场、正反首扫与磁热史；再做同批x=0.9/1.0/1.1的实际成分检验，避免一开始按最大15 kOe优化。"
+      },
+      "sections": [
+        {
+          "title": "问题—差异：把窄成分窗当作实验变量",
+          "text": "这项研究扩展了此前只在Fe₂CrSe₄发现交换偏置的结果，系统考察Fe被Cr替代后的结构、补偿温度与低温回线。作者没有合成新的元素组合，新增价值在成分序列和中子占位证据。纯Fe₃Se₄的有空位层与完整层磁矩不等，原本就是亚铁磁；Cr进入哪一层，会改变两个子晶格相减后的净磁矩。\n\n需要区分三个问题：化学式的平均x、层间择优占位、同一层内是否聚成纳米团簇。粉末平均衍射能约束前两者的一部分，却不能自动回答第三个。本简报把“非随机层间占位”列为实验支持较强的结果，把“准二维Cr团簇导致全部偏置”保留为作者模型。图2相图还包含旧文数据，不能把所有相界点都当本批新测。"
+        },
+        {
+          "title": "样品—制备：两段长时间热处理，不是单晶生长",
+          "text": "样品为多晶Fe₃₋ₓCrₓSe₄。高纯Se 99.999%、Fe 99.98%、Cr 99.99%在抽空石英管中由室温逐渐加至900 °C保温170 h；产物研磨、压片后800 °C均匀化120 h，再将安瓿取出炉外于空气中冷却。本文未给升温速率、封管基压、各成分称量质量、石英管尺寸、压片压力、粒径、样品尺寸与产率；不能补成经验流程，也不能把“出炉空冷”改写为水淬。\n\n特别加密了x=0.9和1.1成分以比较x=1附近的敏感性。正文提到此前1000 °C一小时加冰水淬火会消除补偿点，这属于旧研究，不是本文全部样品的标准热程。对下一炉而言，额外退火不是无害的整理步骤：它可能改变阳离子分布、晶粒和应力，必须作为新的批次变量登记。部分样品做Rh靶能量色散X射线荧光分析，但完整逐成分实测x及均匀性误差正文未报告。"
+        },
+        {
+          "title": "质量—结构：中子区分Fe/Cr，但低残差不等于唯一空间群",
+          "text": "室温Bruker D8 Advance、Cu Kα粉末XRD及FullProf精修支持单斜NiAs衍生结构I2/m，未见额外样品衍射峰；中子在Dubna IBR-2/RTD上测Fe₂CrSe₄，温度320 K，高于其约300 K磁有序温度。中子谱中Al峰来自低温设备，不应当成样品杂相。表I给I2/m的a≈6.231 Å、b=3.586(1) Å、c=11.583(1) Å、β=91.40(9)°，Rwₚ=8.69%、χ²=9.90；另一B2设置Rwₚ=9.20%、χ²=11.50，也可较好拟合。\n\n因此原文关于局域非中心对称畸变的推测，不等于已经唯一确立B2结构或测出宏观极性。表中不同晶胞轴/体积约定需要统一再比较；a的括号误差写作(0)，不应解释成没有实验误差。Fe在空位层2a的占位约0.493，完整层4i的Fe/Cr约0.5/0.5。Fe与Cr中子散射对比支持层间偏好，但本次主要测x=1；更高x的替代顺序还结合了旧文x=2和晶格趋势。"
+        },
+        {
+          "title": "测量—关键数据：低场历史比“零场”标签更重要",
+          "text": "PPMS DynaCool在2–350 K、最高90 kOe测磁化；Lake Shore VSM 7407补充80–350 K、最高17 kOe。x=0.9/1.0/1.1的补偿温度约80/140/240 K，少量配比变化便移动很大；相邻样品有序温度却约317/300/301 K。2 K净磁化最小与矫顽峰值在x≈0.9附近，不能把补偿点和磁有序温度混成一条Tc。\n\n作者比较0→+90→−90→+90 kOe及反向首扫两种ZFC协议，偏置并未随首扫反向简单翻转，因而不支持把它直接叫作首磁化建立的自发交换偏置。正文指出超导磁体俘获剩余场不超过20 Oe，足以在冷却时设定偏置；不同时间的ZFC回线甚至变号。图4冷却场效应约25 kOe后饱和，但名义ZFC并不是已独立校准的严格H=0。下一次磁测先保存磁体退磁和冷却历史，比增加拟合参数更重要。"
+        },
+        {
+          "title": "证据—模型：15 kOe、团簇尺寸与界面能各有前提",
+          "text": "整体x=1回线约6.6 kOe偏置，与把M(H)分为线性反铁磁/倾斜贡献和非线性亚铁磁贡献后的H′EB不同。x=0.9扣背景后两侧开关场幅值约15.7和46 kOe，得到约15 kOe的分量偏置；这是分解后指标，不能替代原始回线。导出时应保存带符号的两个交点，并自行明确中点与半宽；原文HcL/HcR及两公式的记号须连同其绝对值习惯一起核对，不能直接复制到自动数据处理程序。\n\n界面能约0.06 erg/cm²采用Fe局域磁化约118 G、有效厚度c/2≈0.6 nm与特定分量偏置估算，不是直接量到真实团簇界面面积。5±3 nm则来自Néel–Arrhenius阻塞模型、约50 K消失温度、球形假设、测量时间约100 s和旧文各向异性常数；这个宽范围不是显微镜直径分布。SI的x=1.5在200 K、10 kOe约0.2%慢弛豫、β≈0.4只与受挫动力学相容，不能单凭一条弛豫曲线唯一确认自旋玻璃。"
+        },
+        {
+          "title": "结论—复现风险：先保留可推翻模型的数据",
+          "text": "最强证据是窄成分窗、层间占位、磁矩补偿和冷却史之间的相互约束；最弱处是层内团簇的直接证据与背景分解唯一性。XRD无杂峰不能排除检出限以下氧化物或非晶相，成分局域不均匀也尚需空间探针。作者自己建议小角中子散射检验团簇，不能把这条建议算作本网站未有人做过的新方向。\n\n建议首先重复制样与热程，在同批多片上保存实际成分、原始XRD、正反场及不同最大扫场回线，预先固定高场背景拟合窗，并比较不扣背景和多种合理背景下偏置是否稳定。如果偏置随最大扫场仍不收敛，要先排查次回线；若换背景就消失，不报告唯一团簇开关场。然后再用可控退火比较结构/成分与磁性共同变化，不能把任意退火后EB变小都归因于团簇均匀化。原始研究数据未公开，不能声称本简报已独立重算作者全部误差或提取真实团簇形貌。"
+        },
+        {
+          "title": "给工作平台数据处理模块的具体规则",
+          "text": "磁回线的自动化处理应将带符号的左、右交点、扫场方向、首次到达的最大场、扣除背景前后的曲线分开保存。用同一程序比较不同成分时，不能为每条谱分别挑选最有利的高场窗口；拟合窗变化引起的偏置差异应作为模型不确定度，而不是隐藏在最后一个有效数字中。退磁修正、磁矩归一化所用质量与压片形状也应一并保留。这里的数值重绘只展示正文明确给出的补偿温度，未从图片臆造完整相图、误差棒或样品间的连续插值。"
+        }
+      ],
+      "tags": [
+        "正式期刊",
+        "主文精读"
+      ],
+      "rating": "A",
+      "selectionStatus": "three-day-fallback"
+    },
+    {
+      "category": "磁性、拓扑与自旋",
+      "material": "CsCr₃Sb₅：Raman支持的对称性与两类耦合分离",
+      "title": "Suppression of electron-phonon coupling and emergence of spin-phonon coupling in orthorhombic CsCr3Sb5",
+      "authors": "Bingru Lu; Yi Liu; Keyi Li; Jing Kang; Hao Li; Xiang Li; Wenbo Sang; Anmin Zhang; Jianting Ji; Guanghan Cao; Feng Jin; Qingming Zhang",
+      "institutions": "School of Physical Science and Technology, Key Laboratory of Quantum Theory and Applications of MoE, Lanzhou University , Lanzhou 730000, China；Beijing National Laboratory for Condensed Matter Physics, Institute of Physics, Chinese Academy of Sciences , Beijing 100190, China；School of Physics, Zhejiang University , Hangzhou 310027, China；State Key Laboratory of Silicon Materials , Zhejiang University , Hangzhou 310027, China；Collaborative Innovation Centre of Advanced Microstructures , Nanjing 210093, China",
+      "journal": "Physical Review B 114, 204106 (2026)",
+      "date": "2026-10-16正式在线发表；本期为16–18日三日回溯，非18日新发",
+      "doi": "https://doi.org/10.1103/2pky-pm78",
+      "fullText": "https://journals.aps.org/prb/pdf/10.1103/2pky-pm78",
+      "method": "自助熔剂单晶；1.8–300 K、0–9 T偏振Raman与SHG；声子线宽/张量模型",
+      "access": "全文精读：出版社8页PDF的主文§I–IV、Experimental Methods、图1–6及Appendices A–C完整方法推导；重点视觉核对图2/3/4。页面未列独立SI。本轮PDF可读，未确认开放再使用许可；不转载原图/PDF。",
+      "versionNote": "按DOI、规范题名与51期历史报告去重，本期未收录过该论文。此前Accepted或正文参考文献链接不自动等同本论文作者公开稿；未核实的arXiv关系不编写。本次正式发表在三日窗口内。",
+      "abstract": "",
+      "conclusion": "新声子、角分辨选择定则和低温磁场响应，使作者提出约55 K以下的正交结构及自旋—声子耦合。最值得带走的不是把λ=1.08当成全部声子都已测定，而是区分观测到的谱峰、拟合出的单模耦合、由少数模式外推的总耦合，以及尚未在压力超导态直接验证的配对推断。",
+      "readingGuide": {
+        "priority": "A｜kagome晶体、低温Raman与磁弹耦合读者",
+        "first": "先看图2两种角响应及Appendix B张量，再读图3/4及公式3–5；最后读Appendix C新模的温度行为。",
+        "focus": "重点核对λtotal从3支代表模式推27支的假设、SHG阴性的检测限，以及图2的180–360°为0–180°复用。kagome通史可略。",
+        "next": "先做激光功率和畴位置依赖，再以同片温场序列检查线宽/强度；有压力设备时还需结构与磁性共同标定，不能把常压Raman直接当压力态配对机制。"
+      },
+      "sections": [
+        {
+          "title": "问题—差异：先确认是哪一种对称性降低",
+          "text": "CsCr₃Sb₅含局域磁性与流动电子自由度，与非磁性的CsV₃Sb₅不能只按化学式替换理解。已有工作报告约55 K磁/结构异常及高压超导；本篇实际测的是常压晶体Raman和SHG，不是新增一组高压超导测量。研究重点是低温对称性，以及跨转变后声子衰减通道如何变化。\n\n新增弱模和C₆破缺并不自动唯一给出空间群。作者用29.3与86.1 cm⁻¹两支模式在交叉偏振下不同的角分布，支持不同不可约表示，进而反对其采用的单斜C2/m面内选择定则、支持D₂h正交点群。本文没有完成完整低温单晶衍射空间群精修；本简报不补一个未给出的精确正交空间群编号。"
+        },
+        {
+          "title": "样品—生长—质量：新鲜解理与光斑位置需归档",
+          "text": "晶体采用自助熔剂法，生长细节引用参考文献19；约0.5×0.5×0.02 mm³银白片状样品，在空气中解理新鲜(001)面后立刻进AttoDRY 2100氦交换闭循环低温系统。实际原料纯度、Cs/Cr/Sb配比、装料量、坩埚/封管、温程、倾析和产率本文正文未报告，本轮未精读被引用生长文，不能自动补写一炉配方。\n\n主文高温采用P6/mmm结构，低温提出D₂h点群；没有本批完整XRD/Laue/EDS、杂相体积分数或畴尺寸误差。约5 μm光斑相对晶体很小，晶面内移动可能采到不同畴或局部应变区域。要复现角选择定则，应保存晶轴与测点坐标、解理后暴露时间和照片，而不仅保留最终极坐标图。"
+        },
+        {
+          "title": "测量几何与对照：转样品、固定偏振，不是任意转分析器",
+          "text": "Horiba LABRAM HR Evolution与液氮冷CCD，785 nm激光，入射功率低于0.7 mW，约5 μm光斑，背散射测ab面；温度1.8–300 K、磁场最高9 T。平行和交叉线偏振测量时，入射与分析器方向在实验室固定，旋转的是样品。磁场沿c轴时改用圆偏振，并经同一四分之一波片分析RR/RL，以减小Faraday旋转造成的假强度变化。\n\nSHG另用1068 nm脉冲激光、T64000三光栅与PPMS控温，1.8/60 K未见显著信号，Nb₃Cl₈作正响应对照。阴性SHG支持中心对称解释，但不是数学上证明反演对称完全存在：检测限、取向、表面与畴平均需要同时考虑。正文未给足功率依赖的局部测温和所有极化串扰校准；不能仅以低于0.7 mW就宣称完全没有激光加热。"
+        },
+        {
+          "title": "直接谱学证据与拟合：窄化并非只可能来自一个机制",
+          "text": "跨约55 K，A₁g硬化约0.5 cm⁻¹，两高温可见模式显著变窄。作者以非谐模型拟合频率和线宽，再把温度近似独立项分配给电子—声子散射；所得Γe-ph约2.4 cm⁻¹（E₂g）与1.1 cm⁻¹（A₁g）。这些是拟合分量，不是直接分离出来的独立寿命。缺陷、分辨率、未分辨分裂和背景选取都可能影响常数项，原始数据未公开，本简报不添加拟合置信区间。\n\n低温约70 cm⁻¹的两支模式线宽约6.3和3.0 cm⁻¹，相比137 cm⁻¹模式约0.8 cm⁻¹更宽；9 T抑制1.8 K的部分峰强，但70 K几乎无响应。这个温场对照支持自旋/磁序参与，并比只看温度窄化更有辨识力。然而“EPC减弱”不意味着所有电子贡献严格为零，磁场还可能改变畴分布、矩阵元或共振条件；强度变化本身不是对唯一微观J的直接测量。"
+        },
+        {
+          "title": "模型边界：总λ=1.08的关键是未测模式的相似假设",
+          "text": "Allen公式使用旧文D(EF)=7.7 states eV⁻¹ f.u.⁻¹和拟合展宽，给两重简并E₂g各约0.05、A₁g约0.02。先平均三支得到约0.04，再假定原胞全部27支声子都有相近耦合，外推λtotal≈1.08。该数不是27支声子的逐支测定，也不是压力超导态的Eliashberg谱积分；若未见模式的耦合不同，总量会改变。正常态“强EPC”与低温特定谱峰EPC下降不应被简化成一条温区通用材料常数。\n\n自旋—声子微观图景是Sb振动调节Cr–Sb–Cr键角与超交换，属物理解释，文中未独立测定每个键的dJ/du。进而推测高压超导可能由自旋涨落驱动，仍跨越了常压光谱到另一压力/结构状态；本次没有直接测压下能隙、配对对称性或相同光谱机制，不能据此宣布已排除所有声子配对方案。"
+        },
+        {
+          "title": "图表阅读风险：角度复用、点群与完整结构要分开",
+          "text": "图2标注180–360°数据由实测0–180°利用线偏振等价性复制，不是第二圈独立重复实验。Appendix B从I∝|eₛᵀReᵢ|²给平行/交叉角函数，复现时须保持同一坐标约定，并检查偏振漏光及有限数值孔径。Appendix A的几个平行偏振角点有助于约束a/b，但不足以代替空间群精修。\n\nAppendix C显示低波数Ag模式接近转变时未见明显软化，弱B₁g未纳入频率分析；这既是负结果，也是模式可见性边界，不能写成所有声子波矢都不存在软化。既有文献对低温结构及电荷/磁序关系存在不同描述，应通过同批样品的衍射与光谱统一坐标核对，而不是仅凭某一张角响应图删除冲突数据。"
+        },
+        {
+          "title": "本站判断与下一次测量：先让参数对分析选择稳健",
+          "text": "本篇最强证据是对称性、温度和磁场三个维度的同向约束；最弱处是完整结构唯一性、展宽通道分离与总耦合外推。建议同片多位置、多个低功率重复角扫描，用固定光学路径测对照样，保留背景、峰形、分辨率卷积和不同可接受拟合窗。若额外分裂或畴比例变化能同样解释线宽，不要强行把全部差异归到EPC/SPC。\n\n下一次应先输出逐模式的频率、FWHM、积分强度及各自误差，避免拿峰高下降当积分谱重减少。只有低温磁场响应在重装样、不同圆偏振通道和归一化方案下稳定，才进一步讨论键交换机制。若安排压力研究，要记录压力介质、校准和结构相变；这些是验证条件，不是已通过查新的新材料方向。"
+        },
+        {
+          "title": "将谱学输出保存为可复核数据",
+          "text": "建议把峰高、积分强度、FWHM与仪器分辨率分别导出；不同波数的Raman模式不能只用峰高排序耦合强弱。模式命名在高低温相中也需建立对应表，避免把分裂后的一个分量当成高温整支模式。将这些字段保留下来，才能在重新选择背景或加入有限分辨率后检验结论是否仍然成立。"
+        }
+      ],
+      "tags": [
+        "正式期刊",
+        "主文精读"
+      ],
+      "rating": "A",
+      "selectionStatus": "three-day-fallback"
+    },
+    {
+      "category": "磁性、拓扑与自旋",
+      "material": "Tb₂Ir₂O₇：偏离Ising轴的磁矩与仍不唯一的低能模型",
+      "title": "Origin of the magnetic ground state of Tb2Ir2O7",
+      "authors": "Y. Alexanian; E. Lhotel; J. Robert; S. Petit; E. Lefrançois; P. Lejay; A. Hadj-Azzem; F. Damay; J. Ollivier; B. Fåk; S. De Brion; R. Ballou; V. Simonet",
+      "institutions": "Université Grenoble Alpes , CNRS , Institut Néel , 38000 Grenoble, France；Institut Laue Langevin , 38000 Grenoble, France；Laboratoire Léon Brillouin , CEA , CNRS , Université Paris-Saclay , 91191 Gif-sur-Yvette, France",
+      "journal": "Physical Review Research 8, 043060 (2026), Editors’ Suggestion",
+      "date": "2026-10-16正式在线发表；本期为16–18日三日回溯，非18日新发",
+      "doi": "https://doi.org/10.1103/x6n8-hz3k",
+      "fullText": "https://journals.aps.org/prresearch/pdf/10.1103/x6n8-hz3k",
+      "method": "多晶固相/Flux样；26 mK中子衍射、45 mK非弹性中子、热容；晶场＋平均场/RPA",
+      "access": "全文精读：出版社15页开放PDF中主文§I–V、Methods、图1–11与Tables I–VII、Appendices A–G已读；参考文献未声称逐篇精读。重点视觉核对图1、4、5及表VI；未列独立SI，扩展方法在正文附录。CC BY 4.0；本期仅原创数值重绘。",
+      "versionNote": "按DOI、规范题名与51期历史报告去重，本期未收录过该论文。此前Accepted或正文参考文献链接不自动等同本论文作者公开稿；未核实的arXiv关系不编写。本次正式发表在三日窗口内。",
+      "abstract": "",
+      "conclusion": "实验确认Tb磁矩既有沿局域〈111〉的AIAO分量，也有垂直它的反铁磁分量，且在1.5 K以下到毫开尔文区基本不变。作者找到了能重现许多观测的晶场—交换模型，但两组不同波函数仍无法唯一取舍，转变温度与低能谱细节也没有被同时解释。保留这些失败，比把标题理解成磁性起源已彻底解决更有价值。",
+      "readingGuide": {
+        "priority": "A｜稀土受挫磁性、热容和中子精修读者",
+        "first": "先读图1的两个正交分量与杂相屏蔽，再并排看图4/5中两个参数组；方法复现读Appendices C–G。",
+        "focus": "核对Ir磁矩固定0.36 μB、Γ₅只取一组基矢、Eu₂Ir₂O₇热容背景、两种低能波函数及平均场不能描述纠缠态。通用焦绿石介绍可略。",
+        "next": "先复核同批样品背景和热容扣除，再用多探针比较两参数组可区分的低能谱；普通粉末XRD不能独立确认磁矩分量或Weyl拓扑。"
+      },
+      "sections": [
+        {
+          "title": "问题—差异：Ising材料为何仍有平面磁矩",
+          "text": "Tb与Ir形成互穿焦绿石子晶格。Ir约130 K的AIAO序给Tb沿局域〈111〉的分子场，按简单Ising直觉应进一步固定Tb方向；实验却在约10 K以下出现垂直该轴的Γ₅反铁磁分量。本文不是首次提出该分量，而是把同一问题推进至稀释制冷温区并系统测激发、热容和模型。磁序、能级与转变温度必须由一套参数共同解释，这使模型的成功与失败都可核查。\n\n“拓扑材料可能性”属于家族背景，本次没有直接测Weyl节点、轴子响应或能带拓扑。不能因Ir的强自旋轨道耦合就把这份中子实验写成拓扑相发现。其直接价值是揭示稀土局域各向异性、低激发晶场双重态与过渡金属磁序之间的竞争。"
+        },
+        {
+          "title": "样品—制备—质量：有少量杂相，不隐藏在漂亮精修之后",
+          "text": "使用固相反应结合Flux路线制成的多晶Tb₂Ir₂O₇，具体生长/合成沿用参考文献13。原料纯度、助熔剂成分与比例、炉温/时间/气氛、洗脱、退火、粒径、片重和产率本篇正文未报告，本轮没有阅读全文13，不能补写工艺。室温XRD给a=10.2368(5) Å、48f氧位置参数x=0.35(2)，发现少于3%的Tb₂O₃杂相；未检测到反位或非化学计量，不等于已证绝对没有微量无序。\n\n图1的杂相反射区被排除；主相衍射磁结构在FullProf中联合精修。下次复现应保存被排除角区和杂相比例依据，比较删区前后参数稳定性，而不是只报告最小残差。本篇对样品质量的启发是把小杂相、吸收和热化全部写进证据链；少量杂相可能对不同探针有不同权重。"
+        },
+        {
+          "title": "测量—条件：毫开尔文样品温度不能只看温度计",
+          "text": "G4.1/LLB粉末中子衍射入射λ=2.426 Å，130 K至26 mK；低温用稀释制冷机，样品装在减小Ir吸收的环形铜样品架内，再置于充He铜盒改善热化。ILL的IN4c用0.8/1.2 Å、IN5用4.8 Å测至1.5 K，IN6用5.1 Å测至45 mK。26 mK是衍射下限、45 mK是非弹性实验下限，不能混写为所有探针都在26 mK测过。\n\nPPMS热容用压片、Apiezon脂固定，另测addenda并扣除；晶格背景由等结构、稀土位非磁性的Eu₂Ir₂O₇按比例缩放。Eu参照仍含磁性Ir子晶格，不应笼统称整个参照物完全无磁；Appendix A在不同外场下仍减去零场参照背景，这项近似需随场检查。正文未给完整原始热化等待和系统误差预算，不能因为低温两谱重合就排除所有未热化可能。"
+        },
+        {
+          "title": "直接结构证据：三个磁矩数值不是三个可相加标量",
+          "text": "磁峰用k=0描述，Ir磁矩固定为AIAO的0.36 μB以稳定精修。10 K以上Tb以Γ₃（AIAO）为主；低温额外(111)强度与Γ₅相容，而(002)/(311)无磁强度排斥若干其他序。1.5 K所得Tb总有序矩5.42±0.15 μB，沿轴Γ₃为5.18±0.12、垂轴Γ₅为1.59±0.12 μB。后两者正交，不能相加得到总矩；粉末谱也无法分辨Γ₅二维表示内基矢的混合，所以只选一组基矢。\n\n1.5 K与26 mK衍射、1.5 K与45 mK低能谱没有明显继续变化，支持低温态已形成；这不是证明所有时间尺度上严格静止。磁热容仅见约7 K宽峰，外场使其减弱并向高温移动，未见常规二阶转变的尖峰；因此不能把7 K宽峰直接写成无歧义的唯一长程序临界温度。"
+        },
+        {
+          "title": "激发—拟合：晶场、声子与分辨率有不同身份",
+          "text": "低能散射在约0.4和1.5 meV有结构，低能信号在Q≈1.1 Å⁻¹附近增强；升温后准弹性信号增宽并遮蔽部分激发。高能约10、16、36 meV峰用晶场跃迁/混合声子贡献分析，表I的Lorentz半宽不能误作FWHM。Appendix C用高Q=6–8 Å⁻¹、高温谱估计声子，再按详细平衡和Q依赖缩放到1–3 Å⁻¹，晶场线形采用与仪器分辨率卷积的Voigt。\n\n这套扣除使物理解释更具体，也引入背景近似。36 meV附近同时有磁性和声子特征，本简报不把它全部归为单一晶场峰。下一步应将能量依赖分辨率、背景缩放和可达Q窗作为同一拟合输入保存；否则峰变宽可能来自处理差异。作者公开中子数据线索而热容需向作者索取，本简报未取得全部原始文件重新拟合。"
+        },
+        {
+          "title": "模型与未解释项：两组可接受波函数必须保留",
+          "text": "反Monte Carlo模拟退火约10⁴步先拟合高能晶场参数，再固定晶场、通过随机初态平均场搜索Tb–Tb的Jzz/J±和Ir分子场，最后RPA算低能谱。保留完整Tb³⁺的J=6、13能级多重态，使基态和首激发双重态可混合；若只投影到纯Ising非Kramers基态双重态，就预先排除了平面分量。Appendix E也明确单点平均场是张量积近似，不包含纠缠态。\n\n表IV两组代表参数的Ir分子场约1.8/1.7 T，Jzz约0.028/0.005 K、J±约0.051/0.046 K；两组低双重态的主|±5〉与|±4〉身份相反，却都可拟合不少数据。Set2较好匹配15 meV强度与热容，Set1较好匹配低能谱。二者均把Γ₅消失温度压到约1.5 K，而实验到约8 K仍可见；增加J±提高转变温度又把平面矩推到约4 μB，与实验不符。不能挑其中一张好图后宣布Hamiltonian唯一确定。"
+        },
+        {
+          "title": "本站判断与复现建议：让不一致成为下一轮检验目标",
+          "text": "最强证据是静态磁矩、低能色散和热容的联合约束；最弱项是Ir只被当作沿轴分子场、相互作用截断以及粉末平均带来的参数简并。作者已讨论显式Tb–Ir/Ir–Ir耦合、额外交互作用与超越平均场；这不是本站尚无人做过的新方向，也不能把所有不匹配统一归到无序。\n\n建议先保留两类参数组与每个探针各自残差，做背景与固定Ir磁矩变化的敏感性，不仅给单一最优参数。实验上按同批样品比较杂相、热容addenda和多温点中子谱，优先寻找两组模型预测明显不同的能区。若替换合理声子背景就改变双重态指派，应降低对波函数唯一性的表述；若模型只能同时错误预测转变温度和尖锐热容峰，就不应仅通过增加展宽掩盖问题。"
+        },
+        {
+          "title": "能级、温度与谱宽的单位检查",
+          "text": "约0.4 meV是谱学能量尺度，不是0.4 K的温度；用作热容计算前需要明确kB换算及能级简并度。拟合出的Lorentz宽度与仪器Gaussian分辨率也不能直接相加当总FWHM。原文以Voigt卷积处理这些差别，本简报没有用示意柱图反演寿命或传播不存在的系统误差。"
+        }
+      ],
+      "tags": [
+        "正式期刊",
+        "主文精读",
+        "开放获取"
+      ],
+      "rating": "A",
+      "selectionStatus": "three-day-fallback"
+    },
+    {
+      "category": "晶体生长和物性调控",
+      "material": "GaN酸性氨热法：挡板优化是待验证的数值建议",
+      "title": "Achieving Mass Transfer and Saturation Homogeneity in the Acidic Ammonothermal Process for Uniform GaN Growth",
+      "authors": "Jianzhi Li; Chengmin Chen; Haolong You; Lei Zhang; Hengyi Fang; Rongkai Kang; Feipeng Cai; Krishnaswamy Nandakumar",
+      "institutions": "齐鲁工业大学（山东省科学院）；山东大学（Crossref作者单位元数据，院系待正文核对）",
+      "journal": "Crystal Growth & Design — online article metadata",
+      "date": "Crossref登记2026-10-16在线；出版社页面本轮403，页面日期仍待核对",
+      "doi": "https://doi.org/10.1021/acs.cgd.6c01217",
+      "fullText": "https://pubs.acs.org/doi/10.1021/acs.cgd.6c01217",
+      "method": "二维轴对称层流＋传热＋稀物质输运计算；酸性矿化剂氨热生长模型，非已验证工艺",
+      "access": "仅摘要/元数据：已读Crossref作者摘要。出版社正文/目录403，重试仍受限；没有可用浙大登录会话。公开作者稿、机构仓储与SI尚未取得，不计正文精读。",
+      "versionNote": "16–18日窗口内的未收录建模论文，非18日新发；没有把摘要中的模拟生长速率包装为真实长晶实验。",
+      "abstract": "",
+      "conclusion": "作者模拟了酸性氨热釜内传热、对流和溶质输运，提出垂直挡板可改善种晶表面供料均匀性。摘要最关键的边界是热化学参数有不确定性、仍需实验验证；1.93 μm/h不是本简报确认的真实晶体生长纪录，不能据此直接改造高压釜。",
+      "readingGuide": {
+        "priority": "B｜氨热生长与传质建模读者，正文待补",
+        "first": "先核对摘要“numerical findings”和实验验证限制；取得正文后优先读几何定义、边界条件、溶解度/扩散参数及网格收敛，不能猜图号。",
+        "focus": "核对rT定义、非均匀度0.0002的归一化、0.36过饱和度及模拟/实验边界；不能略读热化学参数不确定性。",
+        "next": "先整理真实釜体几何、测温与安全边界，待正文核实后做参数敏感性；不直接按摘要开釜或声明实现该速率。"
+      },
+      "sections": [
+        {
+          "title": "摘要可支持的结论",
+          "text": "作者建立二维轴对称多物理场模型，讨论垂直挡板径向位置与底加热对环流和输运的影响。其摘要列出的一个优化条件为挡板半径1.1rT、底温798.15 K，模拟平均种晶表面生长速率1.93 μm/h、表面非均匀度0.0002、相对过饱和度0.36。rT只在摘要称参考管半径，具体几何需正文；不能将该数当绝对挡板毫米尺寸或把模拟均匀度当实测厚度误差。"
+        },
+        {
+          "title": "正文未取得，逐项待核",
+          "text": "尚未核实矿化剂化学成分及浓度、压力、釜体/籽晶尺寸与取向、原料纯度/比例、流体密度黏度扩散系数、溶解度与表面反应定律；顶侧壁热边界、浮力近似、是否考虑湍流/三维非轴对称、网格/时间步收敛和不确定度传播均未核实。未获得实验晶体、XRD/缺陷/成分或物性数据，不能写成已有该质量的单晶。"
+        },
+        {
+          "title": "为何收录及补读顺序",
+          "text": "它直接涉及生长传质与工艺均匀性，因此作为明确标级的生长建模线索保留；证据等级低于本期三篇正文已读实验稿。最小下一步是取得正文验证参数和模型适用域，再对热化学参数作灵敏度扫描；如果最佳挡板位置随合理参数误差显著漂移，应先报告不确定区间，不给唯一装置改造方案。高温高压氨体系需要设施和专业安全评估，本简报不据摘要给开釜操作指令。"
+        }
+      ],
+      "tags": [
+        "正式期刊",
+        "仅摘要",
+        "生长模拟",
+        "氨热法"
+      ],
+      "rating": "B",
+      "selectionStatus": "three-day-fallback"
+    }
+  ],
+  "figures": [
+    {
+      "src": "/reports/2026-10-18/fecr-compensation.svg",
+      "title": "补偿温度对成分的敏感性",
+      "caption": "据主文图5讨论重绘，x=0.9/1.0/1.1分别约80/140/240 K；非磁有序温度，无虚构误差和插值。",
+      "source": "https://doi.org/10.1103/xtc1-jh14"
+    },
+    {
+      "src": "/reports/2026-10-18/cscr-linewidth.svg",
+      "title": "单模拟合与总耦合外推的区别",
+      "caption": "据主文公式3–5与附近数值重绘；Γe-ph=2.4/1.1 cm⁻¹是非谐拟合分量，不等同全部模式的实测耦合。",
+      "source": "https://doi.org/10.1103/2pky-pm78"
+    },
+    {
+      "src": "/reports/2026-10-18/tb-moments.svg",
+      "title": "总磁矩与两个正交分量",
+      "caption": "据主文图1讨论重绘，1.5 K的Γ₃=5.18±0.12、Γ₅=1.59±0.12、总量5.42±0.15 μB；不作线性相加，粉末模型并不唯一选择Γ₅基矢。",
+      "source": "https://doi.org/10.1103/x6n8-hz3k"
+    }
+  ],
+  "auditUrl": "/reports/2026-10-18/audit.json",
+  "searchTerms": [
+    "10-18优先；未确认当日强相关稿且部分官网受限，采用10-16—10-18未收录补读。四篇均属16日正式发表/在线登记，不能称18日新发。",
+    "APS全18系列recent与accepted首屏逐题核查；三篇实验入选并读出版社PDF。Nature/NPhys/NC/npjQM/NMat及Communications Physics、Materials、npj2D逐轨核查；18日NC可见细胞壁生物论文不相关，不能把当天有论文误写成无更新。",
+    "Science/Science Advances；Advanced Materials/AFM；Nano Letters/ACS Nano/JACS/Chemistry of Materials/Crystal Growth & Design；Journal of Crystal Growth均已请求官网并正常重试，仍403。Crossref在线日期16–18日返回只是元数据窗口，不是全部来源零新增证明。",
+    "arXiv最后检查：cond-mat/new仍16日78新投/20交叉/65替换；163条ID、题名、摘要与已读16/17日快照完全一致，复用98摘要筛选并作一致性核对。65替换未逐篇版本差分。官方API200，最新返回v1提交15日；公告日不等于提交日。",
+    "去重：DOI、规范题名与51期历史；本期四篇未收录。出版社引用的arXiv链接不是自动对应作者稿，未验证关系不合并、不冒称最新版本。",
+    "全文访问：三篇出版社PDF实际可读取，Fe–Cr–Se的2页SI、CsCr附录A–C和Tb附录A–G已读。GaN出版社/目录403，无有效浙大会话；作者公开稿、仓储/SI尚未取得，列明补读。",
+    "待审线索包括Ga₂O₃亚稳相模拟、其他Raman/受挫磁体和二维体系；未因未读而一律判弱相关。各来源命中/纳入/排除/待审及初筛层级见audit.json，覆盖不是穷尽。",
+    "查新范围：本期精确题名、FeCrSe exchange bias、CsCr3Sb5 electron phonon spin phonon、Tb2Ir2O7 ground state检索线索与正文最近邻文献/历史简报；专利及学位论文未完成。SANS团簇、压力配对与显式Tb–Ir均为作者已提或既有内容，移入排除记录；不强凑“无人做过”。"
+  ],
+  "sourceAudit": [
+    {
+      "source": "APS/prl",
+      "url": "https://journals.aps.org/prl/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:00.207397+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 8,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 8,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 8
+      }
+    },
+    {
+      "source": "APS/prx",
+      "url": "https://journals.aps.org/prx/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:00.029980+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 0,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {}
+    },
+    {
+      "source": "APS/prb",
+      "url": "https://journals.aps.org/prb/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:36:59.925921+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 20,
+      "crossrefMetadataHits": null,
+      "included": 1,
+      "excluded": 13,
+      "pending": 6,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [
+        "10.1103/2pky-pm78"
+      ],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 13,
+        "pending": 6,
+        "included": 1
+      }
+    },
+    {
+      "source": "APS/pra",
+      "url": "https://journals.aps.org/pra/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:00.046488+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 18,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 16,
+      "pending": 2,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 16,
+        "pending": 2
+      }
+    },
+    {
+      "source": "APS/prc",
+      "url": "https://journals.aps.org/prc/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:01.163308+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 8,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 6,
+      "pending": 2,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 6,
+        "pending": 2
+      }
+    },
+    {
+      "source": "APS/prd",
+      "url": "https://journals.aps.org/prd/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:01.551567+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 13,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 12,
+      "pending": 1,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 12,
+        "pending": 1
+      }
+    },
+    {
+      "source": "APS/pre",
+      "url": "https://journals.aps.org/pre/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:02.019160+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 9,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 9,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 9
+      }
+    },
+    {
+      "source": "APS/prresearch",
+      "url": "https://journals.aps.org/prresearch/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:01.430412+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 9,
+      "crossrefMetadataHits": null,
+      "included": 1,
+      "excluded": 6,
+      "pending": 2,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [
+        "10.1103/x6n8-hz3k"
+      ],
+      "crossSourceDecisionCounts": {
+        "pending": 2,
+        "excluded-at-title": 5,
+        "included": 1,
+        "historical-duplicate": 1
+      }
+    },
+    {
+      "source": "APS/prapplied",
+      "url": "https://journals.aps.org/prapplied/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:02.025878+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 5,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 4,
+      "pending": 1,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 4,
+        "pending": 1
+      }
+    },
+    {
+      "source": "APS/prmaterials",
+      "url": "https://journals.aps.org/prmaterials/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:04.271923+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 4,
+      "crossrefMetadataHits": null,
+      "included": 1,
+      "excluded": 2,
+      "pending": 1,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [
+        "10.1103/xtc1-jh14"
+      ],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 2,
+        "pending": 1,
+        "included": 1
+      }
+    },
+    {
+      "source": "APS/prfluids",
+      "url": "https://journals.aps.org/prfluids/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:04.034224+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 1,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 1,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 1
+      }
+    },
+    {
+      "source": "APS/prper",
+      "url": "https://journals.aps.org/prper/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:04.290376+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 0,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {}
+    },
+    {
+      "source": "APS/prxenergy",
+      "url": "https://journals.aps.org/prxenergy/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:03.534580+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 0,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {}
+    },
+    {
+      "source": "APS/prxlife",
+      "url": "https://journals.aps.org/prxlife/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:04.647123+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 0,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {}
+    },
+    {
+      "source": "APS/prxquantum",
+      "url": "https://journals.aps.org/prxquantum/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:06.195487+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 1,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 1,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 1
+      }
+    },
+    {
+      "source": "APS/rmp",
+      "url": "https://journals.aps.org/rmp/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:05.675942+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 0,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {}
+    },
+    {
+      "source": "APS/prab",
+      "url": "https://journals.aps.org/prab/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:05.707412+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 0,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {}
+    },
+    {
+      "source": "APS/prxintelligence",
+      "url": "https://journals.aps.org/prxintelligence/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:05.778081+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 0,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {}
+    },
+    {
+      "source": "APS/prl/accepted",
+      "url": "https://journals.aps.org/prl/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:06.639564+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 9,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 7,
+      "pending": 2,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 7,
+        "pending": 2
+      }
+    },
+    {
+      "source": "APS/prx/accepted",
+      "url": "https://journals.aps.org/prx/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:06.401929+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 1,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 1,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 1
+      }
+    },
+    {
+      "source": "APS/prb/accepted",
+      "url": "https://journals.aps.org/prb/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:06.794079+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 20,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 11,
+      "pending": 9,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "pending": 9,
+        "excluded-at-title": 11
+      }
+    },
+    {
+      "source": "APS/pra/accepted",
+      "url": "https://journals.aps.org/pra/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:07.292180+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 9,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 7,
+      "pending": 2,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 7,
+        "pending": 2
+      }
+    },
+    {
+      "source": "APS/prc/accepted",
+      "url": "https://journals.aps.org/prc/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:07.764113+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 1,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 1,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 1
+      }
+    },
+    {
+      "source": "APS/prd/accepted",
+      "url": "https://journals.aps.org/prd/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:07.594485+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 20,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 20,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 20
+      }
+    },
+    {
+      "source": "APS/pre/accepted",
+      "url": "https://journals.aps.org/pre/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:08.750608+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 2,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 2,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 2
+      }
+    },
+    {
+      "source": "APS/prresearch/accepted",
+      "url": "https://journals.aps.org/prresearch/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:08.250253+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 4,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 3,
+      "pending": 1,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "pending": 1,
+        "excluded-at-title": 3
+      }
+    },
+    {
+      "source": "APS/prapplied/accepted",
+      "url": "https://journals.aps.org/prapplied/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:08.504511+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 4,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 2,
+      "pending": 2,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 2,
+        "pending": 2
+      }
+    },
+    {
+      "source": "APS/prmaterials/accepted",
+      "url": "https://journals.aps.org/prmaterials/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:08.743983+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 2,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 2,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "historical-duplicate": 2
+      }
+    },
+    {
+      "source": "APS/prfluids/accepted",
+      "url": "https://journals.aps.org/prfluids/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:09.001273+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 3,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 3,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 3
+      }
+    },
+    {
+      "source": "APS/prper/accepted",
+      "url": "https://journals.aps.org/prper/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:10.144334+00:00",
+      "visibleCards": 19,
+      "officialWindowHits": 0,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {}
+    },
+    {
+      "source": "APS/prxenergy/accepted",
+      "url": "https://journals.aps.org/prxenergy/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:09.591093+00:00",
+      "visibleCards": 7,
+      "officialWindowHits": 0,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {}
+    },
+    {
+      "source": "APS/prxlife/accepted",
+      "url": "https://journals.aps.org/prxlife/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:10.299090+00:00",
+      "visibleCards": 15,
+      "officialWindowHits": 1,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 1,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 1
+      }
+    },
+    {
+      "source": "APS/prxquantum/accepted",
+      "url": "https://journals.aps.org/prxquantum/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:10.143333+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 1,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 1,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 1
+      }
+    },
+    {
+      "source": "APS/rmp/accepted",
+      "url": "https://journals.aps.org/rmp/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:10.665970+00:00",
+      "visibleCards": 13,
+      "officialWindowHits": 0,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {}
+    },
+    {
+      "source": "APS/prab/accepted",
+      "url": "https://journals.aps.org/prab/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:10.933028+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 5,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 4,
+      "pending": 1,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 4,
+        "pending": 1
+      }
+    },
+    {
+      "source": "APS/prxintelligence/accepted",
+      "url": "https://journals.aps.org/prxintelligence/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:11.174038+00:00",
+      "visibleCards": 18,
+      "officialWindowHits": 0,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {}
+    },
+    {
+      "source": "Nature",
+      "url": "https://www.nature.com/nature/research-articles",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:14.109037+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 0,
+      "crossrefMetadataHits": 6,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 6
+      }
+    },
+    {
+      "source": "Nature Physics",
+      "url": "https://www.nature.com/nphys/research-articles",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:14.327994+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 2,
+      "crossrefMetadataHits": 3,
+      "included": 0,
+      "excluded": 2,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 5
+      }
+    },
+    {
+      "source": "Nature Communications",
+      "url": "https://www.nature.com/ncomms/research-articles",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:14.541163+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 20,
+      "crossrefMetadataHits": 74,
+      "included": 0,
+      "excluded": 17,
+      "pending": 3,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 84,
+        "pending": 9,
+        "historical-duplicate": 1
+      }
+    },
+    {
+      "source": "npj Quantum Materials",
+      "url": "https://www.nature.com/npjquantmats/research-articles",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:15.276338+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 0,
+      "crossrefMetadataHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {}
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://www.nature.com/nmat/research-articles",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:17.512910+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 0,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {}
+    },
+    {
+      "source": "Communications Physics",
+      "url": "https://www.nature.com/commsphys/research-articles",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:17.811765+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 2,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 2,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 2
+      }
+    },
+    {
+      "source": "Communications Materials",
+      "url": "https://www.nature.com/commsmat/research-articles",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:18.055714+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 0,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {}
+    },
+    {
+      "source": "npj 2D Materials and Applications",
+      "url": "https://www.nature.com/npj2dmaterials/research-articles",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-18T04:37:18.829623+00:00",
+      "visibleCards": 20,
+      "officialWindowHits": 0,
+      "crossrefMetadataHits": null,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {}
+    },
+    {
+      "source": "Science",
+      "url": "https://www.science.org/toc/science/current",
+      "officialStatus": "403",
+      "checkedAt": "2026-10-18T04:37:17.800768+00:00",
+      "visibleCards": 0,
+      "officialWindowHits": null,
+      "crossrefMetadataHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {}
+    },
+    {
+      "source": "Science Advances",
+      "url": "https://www.science.org/toc/sciadv/current",
+      "officialStatus": "403",
+      "checkedAt": "2026-10-18T04:37:18.070589+00:00",
+      "visibleCards": 0,
+      "officialWindowHits": null,
+      "crossrefMetadataHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {}
+    },
+    {
+      "source": "Advanced Materials",
+      "url": "https://advanced.onlinelibrary.wiley.com/toc/15214095/0/0",
+      "officialStatus": "403",
+      "checkedAt": "2026-10-18T04:37:18.565777+00:00",
+      "visibleCards": 0,
+      "officialWindowHits": null,
+      "crossrefMetadataHits": 16,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "pending": 1,
+        "excluded-at-title": 15
+      }
+    },
+    {
+      "source": "Advanced Functional Materials",
+      "url": "https://advanced.onlinelibrary.wiley.com/toc/16163028/0/0",
+      "officialStatus": "403",
+      "checkedAt": "2026-10-18T04:37:18.556274+00:00",
+      "visibleCards": 0,
+      "officialWindowHits": null,
+      "crossrefMetadataHits": 22,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 14,
+        "pending": 8
+      }
+    },
+    {
+      "source": "Nano Letters",
+      "url": "https://pubs.acs.org/toc/nalefd/0/0",
+      "officialStatus": "403",
+      "checkedAt": "2026-10-18T04:37:18.344060+00:00",
+      "visibleCards": 0,
+      "officialWindowHits": null,
+      "crossrefMetadataHits": 6,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 5,
+        "pending": 1
+      }
+    },
+    {
+      "source": "ACS Nano",
+      "url": "https://pubs.acs.org/toc/ancac3/0/0",
+      "officialStatus": "403",
+      "checkedAt": "2026-10-18T04:37:18.626354+00:00",
+      "visibleCards": 0,
+      "officialWindowHits": null,
+      "crossrefMetadataHits": 8,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 5,
+        "pending": 3
+      }
+    },
+    {
+      "source": "JACS",
+      "url": "https://pubs.acs.org/toc/jacsat/0/0",
+      "officialStatus": "403",
+      "checkedAt": "2026-10-18T04:37:18.845850+00:00",
+      "visibleCards": 0,
+      "officialWindowHits": null,
+      "crossrefMetadataHits": 26,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 20,
+        "pending": 6
+      }
+    },
+    {
+      "source": "Chemistry of Materials",
+      "url": "https://pubs.acs.org/toc/cmatex/0/0",
+      "officialStatus": "403",
+      "checkedAt": "2026-10-18T04:37:19.047923+00:00",
+      "visibleCards": 0,
+      "officialWindowHits": null,
+      "crossrefMetadataHits": 3,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {
+        "excluded-at-title": 3
+      }
+    },
+    {
+      "source": "Crystal Growth & Design",
+      "url": "https://pubs.acs.org/toc/cgdefu/0/0",
+      "officialStatus": "403",
+      "checkedAt": "2026-10-18T04:37:18.875353+00:00",
+      "visibleCards": 0,
+      "officialWindowHits": null,
+      "crossrefMetadataHits": 7,
+      "included": 1,
+      "excluded": 0,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [
+        "10.1021/acs.cgd.6c01217"
+      ],
+      "crossSourceDecisionCounts": {
+        "pending": 5,
+        "included": 1,
+        "excluded-at-title": 1
+      }
+    },
+    {
+      "source": "Journal of Crystal Growth",
+      "url": "https://www.sciencedirect.com/journal/journal-of-crystal-growth/articles-in-press",
+      "officialStatus": "403",
+      "checkedAt": "2026-10-18T04:37:19.464175+00:00",
+      "visibleCards": 0,
+      "officialWindowHits": null,
+      "crossrefMetadataHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "reason": "官网首屏可见记录，不声称全分页穷尽；受限官网的命中数为null，不写0。Crossref只作在线日期元数据交叉，出版商仍需核验。",
+      "error": "",
+      "includedDOIs": [],
+      "crossSourceDecisionCounts": {}
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "url": "https://arxiv.org/list/cond-mat/new",
+      "officialStatus": 200,
+      "displayDate": "Friday,16 October2026",
+      "newSubmissions": 78,
+      "crossLists": 20,
+      "replacements": 65,
+      "hits": 98,
+      "included": 0,
+      "counts": {
+        "excluded-at-title": 73,
+        "pending": 20,
+        "historical-duplicate": 5,
+        "replacement-title-only": 65
+      },
+      "reason": "直接读取18日请求返回的官方页面，163条ID/题名/摘要与16/17日快照逐字段完全一致。复用16日已完成的98条新投/交叉摘要审阅，并本轮一致性与重点复核；65替换仍仅题名，不冒称18日批次。官方API200返回最新提交15日，与公告日期差异如实保留。"
+    }
+  ],
+  "readingAudit": {
+    "candidateAccessibleFullTexts": 3,
+    "fullReads": 3,
+    "siOnly": 0,
+    "abstractOnly": 1,
+    "institutionalSuccess": false,
+    "pending": [
+      "GaN正文与SI尚未取得；出版社403、无可用机构会话，作者稿/仓储需继续补查。",
+      "强相关候补、65替换版本差分与受限官网覆盖缺口见审计，不纳入本期可访问全文3篇的分母。"
+    ]
+  },
+  "researchIdeas": {
+    "schemaVersion": 1,
+    "reviewedAt": "2026-10-18",
+    "scope": "2026-10-18；限本期实际读过的Fe₃₋ₓCrₓSe₄、CsCr₃Sb₅、Tb₂Ir₂O₇主文/扩展方法及其最近邻文献、历史简报与精确题名检索。没有完成专利、学位论文与所有等价工作查新。",
+    "limitations": [
+      "未合成、未计算、未测量任何新候选。",
+      "查新不充分，没有达到最低新颖性证据的立项候选；不声称无人做过。",
+      "GaN只有摘要，不能依据未核实Methods提出新工艺。"
+    ],
+    "ideas": [],
+    "rejected": [
+      {
+        "title": "Fe–Cr–Se团簇的小角中子检验及退火调控",
+        "url": "https://doi.org/10.1103/xtc1-jh14",
+        "reason": "主文已直接建议SANS并讨论此前热处理实验；不能当本网站首次方向。"
+      },
+      {
+        "title": "CsCr₃Sb₅压力下自旋涨落与超导配对",
+        "url": "https://doi.org/10.1103/2pky-pm78",
+        "reason": "正文结论与其既有高压超导引用已经讨论；本轮未完成更广泛专利/学位论文查新。"
+      },
+      {
+        "title": "Tb₂Ir₂O₇显式Tb–Ir耦合与超越平均场",
+        "url": "https://doi.org/10.1103/x6n8-hz3k",
+        "reason": "作者讨论部分已明确列出；目前应作为模型缺口，不包装为未经研究的新方向。"
+      }
+    ]
+  }
+}

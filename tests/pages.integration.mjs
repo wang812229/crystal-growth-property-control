@@ -25,3 +25,15 @@ test('three-day selections retain their date, reading levels, audit and quantita
  const index=JSON.parse(await readFile(new URL('assets/search-index.json',dir),'utf8'));
  assert.equal(index.filter(p=>p.reportUrl.includes('/reports/2026-10-17/')).length,6);
 });
+
+test('October 18 separates measured refinements from the abstract-only growth simulation',async()=>{
+ const page=await readFile(new URL('reports/2026-10-18/index.html',dir),'utf8');
+ assert(page.includes('三日回溯 4'));assert(page.includes('主文可访问 3 / 主文实读 3'));assert(page.includes('仅摘要 1'));
+ assert(page.includes('GaN'));assert(page.includes('数值'));assert(page.includes('尚未核实'));
+ const audit=JSON.parse(await readFile(new URL('reports/2026-10-18/audit.json',dir),'utf8'));
+ assert.equal(audit.reading.length,4);assert.equal(audit.coverageComplete,false);
+ const reads=audit.reading.filter(p=>p.access.startsWith('全文精读'));assert.equal(reads.length,3);assert(reads.every(p=>p.bodyChineseCharacters>=1500));
+ for(const file of ['fecr-compensation.svg','cscr-linewidth.svg','tb-moments.svg'])await access(new URL('reports/2026-10-18/'+file,dir));
+ const index=JSON.parse(await readFile(new URL('assets/search-index.json',dir),'utf8'));
+ assert.equal(index.filter(p=>p.reportUrl.includes('/reports/2026-10-18/')).length,4);
+});
