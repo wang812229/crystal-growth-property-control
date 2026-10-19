@@ -1,6 +1,40 @@
 // 从已审阅报告生成，研究设想不计入论文目录。
 export default [
   {
+    "date": "2026-10-19",
+    "schemaVersion": 1,
+    "reviewedAt": "2026-10-19",
+    "scope": "本期已读正文/SI与参考文献、精确题名及CoNb4Se8 termination、In2Bi surface superconductivity、Fe Se sequential intercalation graphene SiC、ErFeO3 crystal field phonon coupling检索；未完成专利/学位论文及所有等价工作的系统查新。",
+    "limitations": [
+      "没有合成、计算或测量任何新候选。",
+      "本期普通复现与质量控制建议不冒充未经研究的新材料路线。",
+      "查新覆盖不足，暂无达到最低新颖性标准的立项候选。"
+    ],
+    "ideas": [],
+    "rejected": [
+      {
+        "title": "In₂Bi表面拓扑超导验证",
+        "url": "https://arxiv.org/abs/2610.22917v1",
+        "reason": "本稿结论及已引用表面态文献已明确建议，不能当本网站首创。"
+      },
+      {
+        "title": "CoNb₄Se₈终止面分辨ARPES",
+        "url": "https://arxiv.org/abs/2610.23375v1",
+        "reason": "就是本期论文完成的工作；下一步重复劈裂是复现设计而非新方向。"
+      },
+      {
+        "title": "石墨烯下顺序Fe/Se插层制FeSe",
+        "url": "https://arxiv.org/abs/2610.23728v1",
+        "reason": "作者已直接尝试并报告失败，不能忽略原有负结果包装新设想。"
+      },
+      {
+        "title": "ErFeO₃晶场—声子混成及Dicke协同性",
+        "url": "https://arxiv.org/abs/2511.18862",
+        "reason": "查新已见2025年同材料magneto-Raman协同性预印本线索；本轮只核对其官方题名/摘要，未精读全文，不计入本期收录。不能把增加Raman写成全新方向。"
+      }
+    ]
+  },
+  {
     "date": "2026-10-18",
     "schemaVersion": 1,
     "reviewedAt": "2026-10-18",

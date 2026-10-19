@@ -1,0 +1,1277 @@
+{
+  "date": "2026-10-19",
+  "issue": "055",
+  "searchWindow": "北京时间2026-10-19的正式在线发表与arXiv官方新稿公告；arXiv批次为19日86新投/22交叉/80替换。所选预印本v1首次提交较早（14或16日），按本次首次公告纳入，不冒称19日上传。17–19日Crossref只作查漏，不以回溯稿补本期篇数。",
+  "headline": "从“拟合好”走向“解释对”：六篇全文关注XRD可信度、全能隙、多谱混成与界面反应",
+  "hotspot": "今日不是零新增，也不是只有一篇。以实际生长、样品质量和物性证据为优先，精选1篇正式期刊和5篇独立arXiv全文：晶体生长/物性调控2、超导1、磁性拓扑自旋3。未把所有理论关键词稿堆入目录；薄膜自旋输运等仍相关但非本期重点的线索列候补。六篇均实际读主文，两篇读到随文SI；独立SI未取得者逐篇说明。",
+  "papers": [
+    {
+      "category": "晶体生长和物性调控",
+      "material": "Ti–6Al–4V：自动XRD分析为什么不能只看误差",
+      "title": "Trustworthy machine learning of diffractograms to prevent silent failure of apparently accurate models",
+      "authors": "Redad Mehdi; Weiqi Yue; Ozan Dernek; Matthew A. Willard; Roger H. French; Frank Ernst",
+      "institutions": "Case Western Reserve University：Materials Science and Engineering、Materials Data Science for Stockpile Stewardship、Computer and Data Sciences",
+      "journal": "Communications Materials · Article in Press (2026)",
+      "date": "2026-10-19 正式在线发表",
+      "doi": "https://doi.org/10.1038/s43246-026-01354-z",
+      "fullText": "https://www.nature.com/articles/s43246-026-01354-z_reference.pdf",
+      "method": "两套同步辐射二维衍射序列；模拟预训练、留一热处理实验验证及物理扰动测试",
+      "access": "全文精读：14页Article in Press主文（Methods、Results、Discussion、Conclusions）、表1–3及图1–8；7页SI文字与图S1–S5；核对官方图5数值CSV。图4及S5作视觉核查。主文CC BY-NC-ND 4.0，不改编/转载原图，本站仅独立绘制表中数值。",
+      "versionNote": "与52期历史报告按DOI/arXiv ID/规范化题名核对，未重复收录。公告日期与首次提交日期分开记录；不自动将相同材料的其他论文合并为本稿。",
+      "abstract": "",
+      "conclusion": "两种网络在相分数上都可能给出小误差，但一种主要识别背景和噪声，另一种更依赖Bragg环。对你的平台，这是一篇精修结果验收方法论文，不是一个可替代GSAS-II的自动Rietveld引擎；低MAE或低Rwp都不能单独证明结构正确。",
+      "sections": [
+        {
+          "title": "问题—对照：同样准确，为什么物理逻辑不同？",
+          "text": "作者以Ti–6Al–4V中的α/β相分数为任务，比较同一MiT-B2架构的四种训练路径：随机初始化后直接学实验RE；ImageNet后学模拟但不微调IS；ImageNet直接学实验IE；ImageNet、模拟、实验依次学习ISE。这里检验的是训练先验和证据依赖，不是在宣布所有自然图像预训练都无用。模拟中还加入容器的γ-(Fe–18Cr–12Ni)，所以建模包含三相，而主要性能表针对Ti合金二相比例。质量标签来自Rietveld精修，误差衡量的是对该标签的符合程度，不是对独立化学计量真值的误差。"
+        },
+        {
+          "title": "样品—条件—质量：这些不是Ultima IV的仪器参数",
+          "text": "第一套数据来自CHESS FAST线站，两类增材制样和锻造参照经历热处理；67.31 keV、波长18.42 pm、GE41RT的2048×2048探测器，像素0.2×0.2 mm²，单帧0.16 s。每10帧平均、扣暗电流，约78000帧变为7800幅，再用全局而非逐图min–max归一化。第二套为69.53 keV，样品—探测器距离811–1630 mm，1041/1113/1281 K热处理各保温7.20 ks，每11 s一帧。样品具体尺寸、各热程全部升降温速率和相分数标注的不确定度在本篇正文未完整报告，需回到原始实验。不能把这些同步辐射几何复制成你实验室Cu靶衍射仪的标定文件。"
+        },
+        {
+          "title": "模型—验证：防止时间相邻数据泄漏",
+          "text": "模拟用KDS、随机取向晶粒及Weibull粒径分布，300–1300 K每100 K生成，加入热膨胀、Debye–Waller、随机pseudo-Voigt、Poisson噪声和七系数Chebyshev背景。相混合区分晶胞数分数与体积分数，不能直接把不同晶胞的原始强度当成体积分数相加。训练采用单相到三相课程，遮蔽弧区/矩形区并随机放大0.9–1.5倍；A100 80 GB、梯度累积和早停用于训练，并非浏览器内免费即时计算。实验验证按整次热处理留出：第一套V7-8、第二套WR2，避免近邻帧同时进入训练和测试。第一套训练池6210/测试1474，第二套3008/1100；各取最多250幅微调。ISE各样本量阶段连续训练，IE每阶段重置，因此少样本稳定性差异还包含训练历史的差别，不能简单归因一个因素。"
+        },
+        {
+          "title": "数据—证据：表3比宣传句更值得看",
+          "text": "250幅微调后，第一套IE的MAE=0.069，比ISE=0.101更小；第二套IE=0.084、ISE=0.045，排序相反。不能说ISE在所有数据上误差最低。更有力的证据来自改变几何、遮蔽Bragg环及Grad-CAM：IE在证据被挡住后仍保持相分数，ISE随信息缺失调整。作者还在50幅随机实验图上检验，SI给出第二套对应结果。权重距离或UMAP聚类本身不证明物理因果，需与扰动结果共同判断；注意遮蔽后改变预测并不等于输出已经校准的不确定度。"
+        },
+        {
+          "title": "局限—文本核对：不要替论文抹平矛盾",
+          "text": "这是19日提前发表稿，图2–4部分图注与画面互相错位：例如第8页实际是预测—实际散点，图注却写样本量；正文关于低样本发散量级也不完全一致。因此本站以表3和实际坐标标注为准，不引用未核实的发散倍数。表2第二套测试标签仅0.042–0.256，不支持把两套测试都说成覆盖0到1。SI图S5的稳定误差较高，与“保持不变才正确”的简单说法相反；SI说明放大后β环移出视场，预测变化恰恰合理。因而验收规则必须先判定变换有没有丢失物理信息，不能固定要求所有缩放都不变。"
+        },
+        {
+          "title": "复现建议—平台应保留什么",
+          "text": "首先保存原始计数、暗场、掩膜、积分几何、训练/测试实验批次及Rietveld标签来源，严禁按随机帧切分制造漂亮精度。对你的1D粉末数据，保持GSAS-II的晶体学前向模型、仪器标定、约束和残差输出；神经网络若用于初始相筛选，应以独立批次及适当背景扰动检验，不能输出一个相分数就叫精修完成。建议先拿标准混合物作盲样，比较手动审阅精修、自动精修和任何ML助手，报告错误相、参数相关性及缺峰的失败案例。该路线是质量控制建议，不是本网站已经运行的全新算法；论文实验数据仍需向作者申请，本站未复训模型，也未宣称独立重算其全部性能。"
+        },
+        {
+          "title": "本站判断：如何把物理可靠性变成可检验条件",
+          "text": "对平台而言，第一层验收应是数据身份，而非输出曲线：同一文件是否被重复导入，训练样本与盲样是否来自同一炉、同一热处理连续帧，标注是否使用了后来才确定的物相。一个算法若先看了全部实验再挑测试帧，误差再低也不构成未知样品预测。建议把炉号、测量批次、时间段和标注版本列成可导出的清单，并在选定模型之前锁定测试集。论文的整次实验留出是一个起点，不足以自动保证换仪器、换合金和换噪声条件后的泛化。这里是本站提出的验收设计，没有声称已经在你的历史数据上做过这项盲测。"
+        },
+        {
+          "title": "本站判断：缺峰与背景扰动必须分成两类",
+          "text": "保持峰位、积分强度和计数统计的可控背景改变，主要检查模型会不会偷用背景；删除一条真实物相独有峰，却会减少相辨识信息，正确行为可能是不确定度增大或拒绝给定量结果，而不是必须转向另一相。若把这两类扰动合并为一个稳定分数，就会鼓励模型在证据被删除后继续自信。用于一维粉末谱时，还应把裁切角度范围、零点偏移、样品位移和真实晶格变化分开；后两类会改变物理几何或结构，不能任意平移再要求晶格参数不变。验收脚本应先列变换的物理含义及适用范围，再选择要比较的量。"
+        },
+        {
+          "title": "本站判断：与GSAS-II精修的接口边界",
+          "text": "相识别助手可以提出候选结构、初始晶格和可能杂相，但最后的全谱前向计算、仪器展宽、择优取向和参数相关性仍要由实际精修过程给出。不能把网络输出的相分数配上一张模拟谱，就称完成了对用户样品的最小二乘精修。导出给Origin时，应保留观测、计算、差值、背景与各相Bragg位置以及单位，另附输入哈希、结构来源、参数约束和不确定度。若没有运行引擎，导出应明确标作准备文件而非精修结果；若运行失败，也不能自动用上次成功曲线替代本次数据。"
+        },
+        {
+          "title": "本站判断：一个小规模、可否定的验证计划",
+          "text": "最省时间的验证不是重新生成几百万幅训练图，而是先准备少量已知配比、独立称量并按不同顺序测量的标准混合物，把真实配比封存为盲值。比较原始精修与助手流程时，固定角度窗、标定和背景选择，重复装样检查择优取向。若对背景形式的小改变导致相分数跳变超过装样重复性，应首先报告模型不稳定，不能挑选与称量最接近的一次。即使盲样通过，也只证明该材料、测量配置和配比范围内可用；未知相、强吸收差和非晶背景仍需单独测试，不能把通过率写成通用精修保证。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜所有使用自动XRD/相分析的人优先读",
+        "first": "先读表3、第9–12页物理扰动与SI第7页，再回Methods的LOSO切分；图注与实际图像交叉核对。",
+        "focus": "区分Rietveld标签、独立真值与模型自信；重点核对第二套标签范围和遮蔽是否丢失衍射环。架构大综述可略读。",
+        "next": "先设计一个独立批次标准混合物的盲测，不先训练大模型；无法解释扰动失败时停止用其相分数作定量结论。"
+      },
+      "tags": [
+        "正式期刊",
+        "主文精读"
+      ],
+      "rating": "A",
+      "selectionStatus": "today-announcement"
+    },
+    {
+      "category": "高温与非常规超导",
+      "material": "In₂Bi：多探针支持全能隙，但参数不能无条件互认",
+      "title": "Fully Gapped Superconductivity in the Nonsymmorphic Centrosymmetric Superconductor In2Bi",
+      "authors": "Atul Gangwar; Kunal Yadav; Barnabha bandyopadhyay; S. Patnaik; K. G. Suresh; Sandip Chatterjee",
+      "institutions": "IIT (BHU) Varanasi；Jawaharlal Nehru University；IIT Bombay",
+      "journal": "arXiv:2610.22917v1（未经同行评议的预印本）",
+      "date": "2026-10-19官方新稿公告；v1首次提交 2026-10-16T04:27:14Z（UTC），并非19日上传",
+      "doi": "https://arxiv.org/abs/2610.22917v1",
+      "fullText": "https://arxiv.org/pdf/2610.22917v1",
+      "method": "熔体多步热处理；电阻、MPMS磁化、TDO穿透深度、PPMS热容",
+      "access": "全文精读：11页PDF主文§I–IV、Experimental Procedure、图1–7和表I；视觉核对热容页。文内引用的独立SI未随PDF提供，本轮未读，空气暴露细节只据主文描述。",
+      "versionNote": "与52期历史报告按DOI/arXiv ID/规范化题名核对，未重复收录。公告日期与首次提交日期分开记录；不自动将相同材料的其他论文合并为本稿。",
+      "abstract": "",
+      "conclusion": "这不是高Tc突破：约6 K的非对称型空间群材料，在多种体相探针下更支持无节点s波。价值在于可复现的低温合金热程和多探针交叉，而不是凭一个BCS拟合宣布拓扑超导不存在；稿件中退磁、热容归一和耦合参数还有必须核对的疑点。",
+      "sections": [
+        {
+          "title": "问题—样品：全能隙不等于已经否定表面拓扑",
+          "text": "材料具有中心对称的P6₃/mmc，非对称型操作与反演可以共存。作者针对此前单晶工作关于表面态、多带的讨论，测电阻、磁化、穿透深度和热容，认为体相可用单一s波描述。摘要和多数图文称多晶，实验段却写single crystal，这是样品身份的原稿不一致；本简报不擅自把它升级成定向单晶。图1没有杂峰支持主相，但正文未给Laue、完整精修、实际In/Bi化学分析与不同测量试片的批次对应，因此仅据金属光泽和高RRR不能证明所有探针来自完全相同微结构。"
+        },
+        {
+          "title": "生长—保存：最值得带回实验室的实际热程",
+          "text": "In球和Bi块纯度均99.9999%，按2:1配比，在氩气处理、约10⁻⁶ mbar抽空的石英管中封装。先50 ℃/h升至500 ℃，保温48 h，自然降至室温；再200 ℃保温24 h，以5 ℃/h到100 ℃，再1 ℃/h降至75 ℃。这一步慢冷程序可直接记录到炉次模板，但最终到室温的冷却速率、装料总量、石英管尺寸、成品率及剩余熔体分离正文未报告。样品保存在高纯氩手套箱，以避免分解成In₅Bi₃或InBi。主文说空气暴露24 h后约4.2 K出现杂相磁异常，但未读到对应SI图，不能自行补写氧化层厚度。"
+        },
+        {
+          "title": "测量—临界场：把定义与单位留在结果中",
+          "text": "电阻四探针、10 mA、1.8–300 K，Tc约5.86 K、宽0.1 K，RRR=ρ(300 K)/ρ(7 K)=57.32。磁化10 Oe给5.93 K，TDO约5.68 K，热容约5.69 K，不能把差异平均成一个精确Tc。电阻onset和zero经经验GL外推分别2448.08与1961.15 Oe，磁化给2619 Oe；对应约0.20–0.26 T，远小于约10.79 T的Pauli标度。这个比较支持轨道限制，但GL曲线拟合好本身不能决定配对对称性。以磁化Hc2算ξ≈35.43 nm，以电阻onset则约36.6 nm，两者不能在同一表里不标来源地混用。"
+        },
+        {
+          "title": "证据—能隙：四个比值分别来自哪里",
+          "text": "作者表I列2Δ/kBTc：Hc1推算的超流密度3.467、TDO低温Δλ拟合3.82、TDO超流密度4.02、电子热容4.05。它们共同偏向全能隙，但不是四个同精度、彼此独立的绝对标尺；穿透深度归一还使用磁化分析给出的λ(0)=101.9 nm。TDO最低约1.6 K，T/Tc≈0.28，尚非极低温极限，不能仅凭指数比T²好就排除所有弱小第二能隙或各向异性。热容跳ΔC/γTc=1.61较弱耦合1.43偏大，支持增强耦合；不构成直接测到声子配对胶水。"
+        },
+        {
+          "title": "必须核对的原稿问题：不能直接抄进自动计算",
+          "text": "矩形尺寸3.260×2.683×0.367 mm³，沿长轴退磁因子约0.062。原文Hc1校正写法出现1+N，而由其Hint=Happ−NM与理想抗磁定义通常得到不同形式；需先统一单位、因子定义和进入场判据，不能默默选最漂亮数值。热容段算Debye温度时说每化学式N=6，In₂Bi实际为3个原子，后面Dulong–Petit又按9R，存在归一矛盾。λe-ph同页既出现0.67又按McMillan给1.05，必须向作者核对。低温电阻残余项也随拟合窗从1.0097变为2.211 μΩ cm，不能取其中一个当模型无关真值。"
+        },
+        {
+          "title": "结论—下一炉与下一次测量",
+          "text": "最强证据是热容与电磁响应共同支持体相无节点；最弱处是样品批次、低温覆盖和若干参数计算口径。建议先复现热程并在封存、抛光、空气暴露各阶段保留XRD/质量和独立试片，比较4.2 K杂相是否出现。每种探针分别保存Tc定义、几何、场方向、热容的每摩尔基准及背景模型；未解决N与退磁公式前，不把本稿的λ、ξ、λe-ph当作标定标准。之后若有条件延伸TDO到更低T，对单隙/双隙模型比较置信范围和残差，而非只比较曲线外观。表面敏感或相位敏感验证是作者已经列出的未来任务，不算本网站首次新方向。"
+        },
+        {
+          "title": "本站判断：热容归一问题应先于机理讨论",
+          "text": "当一个化学式的原子数与所用摩尔基准不一致时，改变的不只是表格末位数字，Debye温度、电子比热系数的每化学式解释及后续耦合估计都可能联动。建议从原始质量、摩尔质量、热容单位开始重建一份可追溯表：一列是每摩尔In₂Bi，一列是每摩尔原子，禁止混用。只有得到一致定义后，才比较声子模型与高温经典极限。这里指出的是原文自相矛盾的核查需求，不是本站取得原始数据后给出的更正值；没有原始标定就直接替作者改一个数字，也会制造新的错误。"
+        },
+        {
+          "title": "本站判断：高RRR与dirty-limit标签需要不同证据",
+          "text": "残余电阻率比主要反映相对散射与正常态温度依赖，不直接给出电子平均自由程。要判断脏极限，至少应说明载流子密度、费米速度或相关长度的估计来源，并与相干长度比较；多晶几何、接触误差和各向异性也会影响从电阻率反推的结果。因此不能一边把大RRR作为洁净证据，一边不作长度尺度分析就采用脏极限的全部公式。复现时可先保留原始电压、电流、接触间距与截面误差，必要时改变电流检查转变是否受焦耳热影响，而不是只保存已经换算好的漂亮电阻率曲线。"
+        },
+        {
+          "title": "本站判断：如何比较单能隙与多能隙",
+          "text": "不同模型的参数数目不相等，双能隙模型拟合更好并不自动正确，单能隙曲线看起来贴合也不自动排除第二小能隙。实际比较应在同一温区、同一背景和同一误差权重下进行，报告残差结构、参数相关性与可识别范围。若低温数据没有进入能区分指数项的范围，最诚实的结论是当前精度支持全能隙、尚不能分辨某些多带情形。应将体相热容与表面敏感信号分开归档，前者体积分数权重大，不应被用来否定极薄表面的少量态。这样的证据分层比简单给材料贴“常规”或“拓扑”标签更有复用价值。"
+        },
+        {
+          "title": "本站判断：低成本的样品对照矩阵",
+          "text": "建议同一封管样品切出有明确位置编号的多个小块，分别用于电阻、磁化、热容与结构检查；保存初始质量、表面处理、封存时间及空气暴露累计时长。先看不同位置的转变温度分散，再谈探针原理导致的差别。如果四种测量来自不同炉或不同暴露史，应先补结构和成分对照，不能把温差一律解释成物理新现象。实验停止条件也应写清：出现可辨杂相或暴露后异常时，暂停用该片提取本征能隙；不是把异常点裁掉后继续宣称单相。该建议属于可执行的复现控制，不作为未被研究的新课题。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜低温合金生长与超导表征优先",
+        "first": "先读§II热程和表I，再图5/7；用图2/3核对各临界场的onset与zero。",
+        "focus": "核对热容每摩尔定义、N=6/3矛盾、1±N退磁与λe-ph两种数字。引言材料清单可略读。",
+        "next": "先重算单位和归一并向作者确认SI，再在同炉试片比较惰性保存与受控空气暴露。"
+      },
+      "tags": [
+        "arXiv独立稿",
+        "主文精读"
+      ],
+      "rating": "A",
+      "selectionStatus": "today-announcement"
+    },
+    {
+      "category": "磁性、拓扑与自旋",
+      "material": "ErFeO₃：升温后再出现的晶场谱峰从哪里来？",
+      "title": "Crystal Field-Phonon Coupling in ErFeO3 Single Crystal Via Inelastic Neutron Scattering",
+      "authors": "Guochu Deng; Xiaoxuan Ma; Wanting Yang; Wei Ren; Shixun Cao; Zhenxiang Cheng; Garry J. McIntyre",
+      "institutions": "ANSTO Australian Centre for Neutron Scattering；上海大学Materials Genome Institute；University of Wollongong",
+      "journal": "arXiv:2610.23015v1（未经同行评议的预印本）",
+      "date": "2026-10-19官方新稿公告；v1首次提交 2026-10-16T06:50:34Z（UTC），并非19日上传",
+      "doi": "https://arxiv.org/abs/2610.23015v1",
+      "fullText": "https://arxiv.org/pdf/2610.23015v1",
+      "method": "光学溶剂浮区单晶；Taipan三轴中子、分辨卷积拟合与DFT声子",
+      "access": "全文精读：14页PDF主文Introduction、Experiment and Calculation、Results A–C、Conclusion，图1–5；视觉核对图2的能量/强度/宽度。PDF未附独立SI。",
+      "versionNote": "与52期历史报告按DOI/arXiv ID/规范化题名核对，未重复收录。公告日期与首次提交日期分开记录；不自动将相同材料的其他论文合并为本稿。",
+      "abstract": "",
+      "conclusion": "局域4f晶场激发靠近声学声子后，能量、强度与线宽一起变化，甚至在热占据本应削弱晶场峰时重新变清楚。重点是建立动量、温度和分辨率一致的证据链；它尚未给出一个可拿来预测所有稀土材料耦合强度的完整定量模型。",
+      "sections": [
+        {
+          "title": "问题—差异：不是看到软化就叫耦合",
+          "text": "Er³⁺晶场低激发约5.5/12.5 meV，与低能声学支重叠，允许磁弹相互作用。作者讨论Fe子晶格约670 K有序、Er约4.2 K以及88–100 K自旋重取向作为背景，实际本轮谱测温度为300、650、750 K，不是低温重取向实验。已有CeAl₂、CeCu₂、YbPO₄、CeAuAl₃等晶场—声子工作，因而创新是ErFeO₃特定动量与升温谱演化，不能宣传为第一次发现稀土晶场声子耦合。本站不把文中背景能级量子数的文字当作已复核的原子能级数据库。"
+        },
+        {
+          "title": "样品—生长—质量：浮区法有，但完整炉方没有",
+          "text": "上海大学用光学travelling-solvent floating-zone炉生长单晶，ANSTO的Joey中子Laue验证质量与定向。正文未报告原料纯度、Er/Fe起始配比、溶剂组成、气氛/压强、进给及生长速度、转速、晶棒直径、退火和产率，也未给EDS/WDS/ICP与氧含量。不能根据常见正铁氧体流程填入这些空项。若你要复现，首要任务是索取生长记录与Laue宽度，而不是照着“高质量浮区单晶”一句话自行设炉。质量和取向经过检查并不等于不存在孪晶、应变梯度或氧缺陷；本篇没有提供这些因素的定量排除界限。"
+        },
+        {
+          "title": "测量—计算：两个方向必须分开记录",
+          "text": "Taipan热中子三轴采用固定末能模式、open–40′–40′–open准直和闭循环高温装置，谱由TasVisAn/InsPy作分辨卷积拟合。末能具体值、样品质量、mosaic、每点计数时间和绝对强度标准正文未报告，因此不能复建唯一的分辨函数。横向为(2+q,0,4−q)，纵向为(2−q,0,4−2q)，q=0.1–0.5；它们不是同一个|Q|或同一个偏振因子。DFT用PAW/VASP、PBEsol+U，Er/Fe的U=5.0/4.5 eV、600 eV截断、5×5×3网格，有限位移Phonopy和Euphonic。超胞大小、位移幅度、磁构型细节与收敛扫描正文未完整报告，不能声称本站已经复算。"
+        },
+        {
+          "title": "直接观察—横向：热抑制背景中的强峰",
+          "text": "300 K时第一晶场峰几乎不随q动，第二峰在q≥0.3从约12.5降至q=0.5的11.8 meV并变窄。650/750 K时5.5 meV峰通常受热占据削弱，低q的第二峰也难辨，但较大q附近约11.8 meV的峰重新清晰，部分强度和宽度优于300 K。作者把与声子接近时的软化、强度转移、窄化及弱色散共同解释为混成。最应检查图1原始扫描和图2三种拟合量，而不是只截能量曲线；峰强变化还受背景、Bose因子、磁形状因子与分辨椭球影响，不能仅凭更亮就等同耦合增强。"
+        },
+        {
+          "title": "纵向—模型边界：不可把未分辨的声子画成已测分支",
+          "text": "300 K低q约3.7 meV的LA可见，较高q晶场峰近5.3/12.5 meV变化小。升温后q≈0.2约10 meV的峰更可能来自声子；到q≈0.3第一晶场峰移至约6.9–7 meV，较高q第二峰可软至约11.4 meV。高q的LA强度弱至不能直接分辨时，归属依赖DFT和连续趋势，证据弱于同时看到两条分支互斥。正文关于avoided crossing有条件性叙述，未给统一耦合哈密顿量拟合的g、反交叉隙误差与全部替代模型比较，不能把“与混成相容”升级为精确测定耦合常数。"
+        },
+        {
+          "title": "复现建议—从可区分的反证入手",
+          "text": "最强证据是同一Q区多种谱参数在温度/动量上协同变化，且具有方向差异；最薄弱处是高q声子不可直接见与模型定量不足。下一次测量应在预计接近的q处加密，做远离共振的Q对照、空炉背景、相同分辨与计数归一，并比较无耦合两峰模型和卷积后的耦合振子模型。若改背景或峰数即消失的反交叉，不报告唯一g；若只有Bose占据便解释强度，则不能只凭强度主张借谱重。常规磁测/Raman可先判断样品一致性，但Raman近零动量不能替代这里有限q的中子图。生长与中子时间较昂贵，先拿到完整炉方和原始扫描比随机换稀土更有效。"
+        },
+        {
+          "title": "本站判断：高温谱学要先确认样品没有变",
+          "text": "三个温度横跨Fe子晶格有序的背景尺度，但升温还可能带来氧交换、晶体位移、炉窗背景和样品马赛克变化。若没有升温前后结构、相同位置重复扫描与冷却回程，不能把所有峰变窄或强度恢复归于内禀耦合增强。可优先在一个离共振较远的Q点反复测量作为稳定性监视，再用同一标准归一化共振区。若回到室温后谱不能恢复，要先判断不可逆化学或几何变化；这时停止提取统一温度依赖的耦合参数，比继续添加拟合峰更合理。上述是本站建议的控制流程，不代表本文已经报告了全部对照。"
+        },
+        {
+          "title": "本站判断：怎样定义一个真正可测的反交叉",
+          "text": "要声称反交叉，关键是两支在接近处偏离各自未耦合趋势，而不是只有一条可见峰随温度移动。可先用远离交点的数据拟合裸声子色散与局域激发，再在相同分辨卷积下比较耦合与不耦合模型，检查间隙能否超过参数相关性和能量分辨。若两种模型都可解释同一数据，不能只报告最佳曲线及一个耦合常数；应给出可接受参数范围或声明未能唯一识别。尤其在另一支强度低于背景时，模型预测出的隐支需要明确标作计算，不可混进“观测数据点”。"
+        },
+        {
+          "title": "本站判断：强度、线宽与寿命不要过快互换",
+          "text": "三轴扫描的拟合峰宽包含仪器分辨、色散斜率、样品马赛克和内禀阻尼，只有在相应卷积与几何确定后，才可能把某部分宽度解释为寿命。单独比较高低温的拟合半高宽，可能把不同Q处的聚焦效应误认为激发寿命延长。峰面积也比峰高更接近谱重，但仍需温度占据、探测效率和背景校正。建议在结果表中同时导出原始扫描、分辨模型、峰面积、峰宽及协方差，不只导出最后一张色散图；这能让后续合作者判断“变强”和“变窄”是否来自同一个可靠拟合。"
+        },
+        {
+          "title": "本站判断：对现有实验设备的实际意义",
+          "text": "你的常规粉末衍射仪适合先检查主相与热处理前后变化，不能替代有限动量中子测量，更不能由室温XRD直接计算出已验证的晶场—声子耦合强度。若暂时没有中子机时，可先做可控热程后的相纯、取向和低温磁性重复，减少送测样品的不确定性；Raman作为互补需要注明选择定则和动量范围。待获得机时，再按预期交点、参考Q和回程控制分配计数时间。这样把昂贵谱学问题拆成先验质量检查与真正区分模型的扫描，能节省重复测量，而不是用不适用的常规表征凑齐证据。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜稀土磁体、浮区生长与谱学",
+        "first": "先看图1/2与图3/4对比，再看实验准直和DFT参数，最后读Discussion式的混成解释。",
+        "focus": "把5.5/12.5 meV局域峰与声子色散、Bose权重、分辨卷积分开。前人材料长列表可略读。",
+        "next": "补齐生长/末能/mosaic记录，设计同分辨的共振与非共振Q对照；不先追求拟合出一个很大的g。"
+      },
+      "tags": [
+        "arXiv独立稿",
+        "主文精读"
+      ],
+      "rating": "A",
+      "selectionStatus": "today-announcement"
+    },
+    {
+      "category": "磁性、拓扑与自旋",
+      "material": "La₀.₁₉Ca₀.₈₁MnO₃：精修单相与磁性团簇并不矛盾",
+      "title": "Coexistence of Griffiths phase and superparamagnetic-like behavior in La-doped antiferromagnetic CaMnO3",
+      "authors": "Koustav Pal; Shuvendu Ghosh; N. N. S. V. Rama Raju; Chitrada Prasad; Kalipada Das; I. Das",
+      "institutions": "华南理工大学Spin-X；Aditya University；NSRIT；Seth Anandram Jaipuria College；Saha Institute of Nuclear Physics/HBNI",
+      "journal": "arXiv:2610.22844v1（未经同行评议的预印本）",
+      "date": "2026-10-19官方新稿公告；v1首次提交 2026-10-16T02:37:13Z（UTC），并非19日上传",
+      "doi": "https://arxiv.org/abs/2610.22844v1",
+      "fullText": "https://arxiv.org/pdf/2610.22844v1",
+      "method": "空气固相反应；FullProf、SEM-EDS、SQUID与磁熵标度",
+      "access": "全文精读：10页PDF主文§I–IV、表I/II及图1–3；视觉核对结构精修表。正文引用的独立补充图S1/S2未附在该PDF，本轮未读。",
+      "versionNote": "与52期历史报告按DOI/arXiv ID/规范化题名核对，未重复收录。公告日期与首次提交日期分开记录；不自动将相同材料的其他论文合并为本稿。",
+      "abstract": "",
+      "conclusion": "一个衍射上近似单相、微米EDS均匀的氧化物，仍可有磁性不均匀团簇。作者用磁化拟合给出Griffiths-like和超顺磁-like温区，但这些标签不能替代局域结构、交流动力学或氧含量证据；这也是“Rwp很低”不等于成分和机制都确定的例子。",
+      "sections": [
+        {
+          "title": "问题—材料：先分清化学与磁性均匀",
+          "text": "La³⁺替代Ca²⁺改变载流子和局域交换，作者针对富Ca、以反铁磁关联为背景的组分，寻找双交换与超交换竞争产生的团簇。称single-phase与称磁性不均匀并不逻辑冲突：前者是给定衍射检出限下的结构描述，后者是磁关联分布。此稿没有直接成像纳米磁簇，不能把模型拟合出的平均磁矩称TEM测到的粒径。正文又把4位小数称量0.1875/0.8125与最终0.19/0.81分开，本站按其实际化学精度报告，不输出伪精确成分。"
+        },
+        {
+          "title": "制备—完整可用的部分与缺项",
+          "text": "La₂O₃、CaCO₃为99.99%，MnO₂为99.9%；La₂O₃先500 ℃预热12 h去水/碳酸盐，按名义组分研磨数小时。空气900 ℃24 h，重磨，1100 ℃24 h，压圆片后1300 ℃36 h，炉冷。总装料量、升温速率、压片压力、最终尺寸、坩埚材料、实际氧分压和产率正文未报告，不能用普通固相经验补齐。对于Mn价态竞争，氧缺位会和A位掺杂同时改变交换；没有滴定/TGA或其他氧定量时，不能把所有变化唯一归于A位无序。"
+        },
+        {
+          "title": "质量—精修：低残差不是独立成分分析",
+          "text": "Rigaku TTRAX-III用18 kW旋转阳极、50 kV/300 mA、Cu Kα，20–90°、0.02°步长、10°/min，FullProf得到Pnma、a/b/c=5.334(1)/5.397(1)/7.543(2) Å、Rwp1.88%、Rexp0.56%，S=3.36。不能把S误写成χ²=3.36，也不能把18 kW光学搬到你3 kW的Ultima IV。La/Ca共享坐标与Biso、总占位约束；O坐标作窄范围正则化，实际自由度受到先验限制，括号误差不覆盖全部模型系统误差。March–Dollase处理择优取向，并不能一般性替代粒径/应变的各向异性线宽模型。"
+        },
+        {
+          "title": "局域化学—直接测得的范围",
+          "text": "SEM-EDS在一个代表区、21 kV、出射角约35.8°、eZAF无标样校正，给O/Mn/Ca/La约57.4/21.3/17.35/3.95 at%。这些值支持近似配比和微米尺度无明显偏析，不是四位小数定量，也不能精确确定氧。按理想O₃、电中性，平均Mn价约+3.81，所以表中将Mn标作Mn⁴⁺不能解读成全体Mn均四价。若要把生长缺陷与磁性联系起来，应保留多区域WDS/ICP及氧量对照，而不是让精修占位同时承担化学分析的角色。"
+        },
+        {
+          "title": "磁测—证据与模型层级",
+          "text": "5–400 K、最高7 T的SQUID，500 Oe的ZFC/FC约240 K以下分岔，约210 K宽异常与100 K较尖特征，二者在文中有不同有序解释，不宜未经中子验证就当唯一TN。高温CW给θW=123.22 K、有效矩约4.17 μB，280 K以下逆磁化率下弯。修正CW的λGP≈0.98(2)，但280–370 K拟合λ仍约0.39，370 K以上才近零；因此参考温度与拟合窗特别敏感。300–370 K的M/Ms对H/T近似塌缩与超顺磁-like相容，不排除相互作用团簇；无交流频移/阻塞时间标度不能强证独立超顺磁粒子。"
+        },
+        {
+          "title": "局限—下一次磁测怎样避免过度解释",
+          "text": "磁熵由M(H)数值温差和Maxwell关系求得，稿中ΔS及−ΔS符号、把250 K说为TG以上等表述有需核对之处，不能把其表达式不经符号检查写入平台。n约1.86的偏离、λ与H/T塌缩是互相关联的同一批磁化证据，并非三套独立微观验证。优先复测不同场下χ(T)，预先固定CW/Griffiths窗口，报告背景和参考温度扫描后的λ区间；若结论随窗而变，应降级为团簇关联候选。再比较同成分不同氧退火与多批次，并加交流χ频率/记忆弛豫来区分阻塞与集体玻璃。这样既保留本文有价值的物性线索，也不把高质量XRD当成排除了所有微观替代解释。"
+        },
+        {
+          "title": "本站判断：氧非化学计量是需要单列的控制轴",
+          "text": "固定La/Ca称量并不能固定Mn价态；不同烧结、冷却和保存过程可能改变氧含量，进而同时改变晶格、导电和磁性。若想归因于A位无序，应至少比较同批粉末不同氧热史，配合可行的氧量分析，并把烧结气氛、冷却方式和称量变化存为独立字段。只有观察到氧状态相近而磁性仍稳定变化，才有更强依据讨论A位效应。相反，若氧退火就改变主要异常，应暂停“唯一由A位随机性导致”的说法；不能把这种不符合预期的炉次当作失败数据删除。"
+        },
+        {
+          "title": "本站判断：占位、热参数与比例因子为何会互相补偿",
+          "text": "粉末峰重叠时，一个原子位置或占位改变引起的强度变化，可能被比例、热位移、吸收和择优取向部分补偿。多初值收敛到同一点只说明在当前约束及优化路径下有稳定解，不说明该解的化学精度等于软件括号误差。平台应导出固定与自由参数清单、约束方式、相关性以及替代背景/取向模型的结果，并把EDS或其他独立成分约束标注来源。如果只能靠很窄的先验范围防止氧坐标发散，应把相应键角称模型下估计，不能再拿这些高精度键角作唯一磁性机理证据。"
+        },
+        {
+          "title": "本站判断：Griffiths指数的稳健性检查",
+          "text": "建议预先定义一组允许的高温基线窗和背景形式，对同一原始磁化率批量计算，而不是人工挑到λ最接近一。每次拟合保留参考温度、实际数据点、权重和残差，并展示λ随窗变化的范围；若只有某个极窄窗口产生预期值，结论应降级。不同外场可以压制团簇响应，但也可能改变非线性背景，因此场依赖本身不是某一种相的唯一指纹。交流磁化率的频率变化、等待时间和热历史对照能提供与静态曲线不同的信息，才更接近区分阻塞与集体冻结，而不是重复拟合同一数据换三个名称。"
+        },
+        {
+          "title": "本站判断：磁熵与实际制冷能力不是同一指标",
+          "text": "用相邻温度磁化差分积分时，温度步长、回线历史和是否达到准平衡都会影响磁熵，特别在不可逆区可能产生人为峰。即使熵变曲线平滑、宽，也不自动证明循环损耗低或适合制冷；还需热容、导热、可逆性和实际场范围。对当前材料，更有价值的第一步是统一ΔS符号与单位，检查升降场/升降温重复性，并在图中标明差分温区。若不同协议下积分不一致，应先报告非平衡限制，不把模型推导的熵变当成已经测得的绝热温变。这里的质控建议不作为对本稿原始数据的独立重分析。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜氧化物固相与磁化拟合",
+        "first": "先读§II、表I约束，再图2中不同场的1/χ和H/T塌缩，最后看图3磁熵。",
+        "focus": "核对实际氧含量缺项、Rwp/Rexp定义、参考温度敏感性；引言里的普适性宣称可略读。",
+        "next": "先做固定窗的多场拟合与同成分氧热史对照，无法稳定得到λ就不宣布已确证Griffiths相。"
+      },
+      "tags": [
+        "arXiv独立稿",
+        "主文精读"
+      ],
+      "rating": "A",
+      "selectionStatus": "today-announcement"
+    },
+    {
+      "category": "磁性、拓扑与自旋",
+      "material": "CoNb₄Se₈：先知道劈开了哪一面，再谈自旋分裂",
+      "title": "Termination-dependent surface Fermiology in the intercalated altermagnet CoNb4Se8",
+      "authors": "Pietro Maria Forcella; Alessandro De Vita; Matthew D. Watson; Sammar Tayyab; Chiara Bigi; Iulia Cojocariu; Marcin Szpytma; Matteo Jugovac; Andrea Locatelli; Tevfik Onur Mentes; My Bang Petersen; Paolo Moras; Polina M. Sheverdyaeva; Christopher Candelora; Ilija Zeljkovic; Federico Motti; Jill A. Miwa; Vincent Polewczyk; Matthieu Jamet; Matteo Calandra; Younghun Hwang; Davide Romanin; Federico Mazzola",
+      "institutions": "Université Paris-Saclay/CNRS C2N；Fritz Haber Institute；Diamond Light Source；SOLEIL；Elettra；CNR；Aarhus；Boston College；University of Padova；Trento；IBS及Ulsan College等（完整作者见API核对名单）",
+      "journal": "arXiv:2610.23375v1（未经同行评议的预印本）",
+      "date": "2026-10-19官方新稿公告；v1首次提交 2026-10-16T12:27:47Z（UTC），并非19日上传",
+      "doi": "https://arxiv.org/abs/2610.23375v1",
+      "fullText": "https://arxiv.org/pdf/2610.23375v1",
+      "method": "碘CVT单晶；<4 μm micro-ARPES、XPS与终止面slab-DFT",
+      "access": "全文精读：34页合并PDF的主文第3–14页、图1–4，以及第19–34页SI A–I/图S1–S6；图2及SI生长、XPS衰减、slab参数逐项核对。",
+      "versionNote": "与52期历史报告按DOI/arXiv ID/规范化题名核对，未重复收录。公告日期与首次提交日期分开记录；不自动将相同材料的其他论文合并为本稿。",
+      "abstract": "",
+      "conclusion": "同一Co插层晶体劈开后，Co面与Se面具有不能靠一个刚性费米能移动互换的谱。微区、光子能与slab模型共同分离表面贡献，提醒实验不能把表面态的另一条支当成交替磁体的体相自旋分裂；它并不是在推翻该材料已有交替磁性。",
+      "sections": [
+        {
+          "title": "问题—版本关系：同材料不等于同一新发现",
+          "text": "该稿明确部分数据来自此前实验campaign，有些同一样品不同劈裂；与10月18日上线的Advanced Materials DOI10.1002/adma.75367同团队相关，但题目、问题和数据关系不同。本站本期只把2610.23375v1计为独立预印本，不把正式论文也当第二个全新材料成果。已有2a₀×2a₀调制是Co有序插层共有结构，不是某终止面唯一指纹；STM对比随隧穿矩阵元、表面缺陷变化，不能只凭一张蜂窝像判断Co/Se面。"
+        },
+        {
+          "title": "生长—质量：SI里的CVT炉程可转成实验表",
+          "text": "Co/Nb/Se纯度99.99/99.999/99.9999%，清洗及真空退火石英管，直径10 mm、长150 mm，加碘5 mg/cm³。源区960–980 ℃，生长区由880升到900 ℃历时100 h，再恒温300 h；100 h降到源区200 ℃、生长区100 ℃后自然回室温。典型晶体约5×5×0.1 mm³，甲醇去残碘，EDS估Co含量，SQUID性质引用前作。实际装料总量、准确抽空值、产率、全部批次成分分布与结构精修参数本篇未报告，不能以理想CoNb₄Se₈式子替代实测偏离。高温密封含Se/I₂有压力和腐蚀风险，完整炉方需本地安全审查。"
+        },
+        {
+          "title": "测量—判断：地图是找点工具，不是自动标签",
+          "text": "Diamond I05-Nano空间分辨优于4 μm，先光谱指纹地图定位，再在同一点核能级与近EF能带确认，作者没有用一个强度阈值自动分面。120 eV的Se3d/Co3p比较只能辅助，因峰互叠和逃逸深度不确定。SI的ISe/ICo从2.41589到1.79734，模型给Co信号约增强34.4%；以d/Λ≈0.28–0.33推覆盖约0.22–0.27 ML，依赖衰减假设，不能称直接测出0.2500 ML。地图坐标随倾斜/边缘失序变差的点应剔除，不能把噪声连续变化都解释成成分梯度。"
+        },
+        {
+          "title": "证据—对照：刚性掺杂和表面态的区分",
+          "text": "两面在相同光子能、偏振条件下比较费米面与−25 meV等能面，花瓣、纺锤及Γ–M附近平坦/菱形特征不同。约40 meV总体位移不足以解释形状和连通性；即便匹配中央口袋面积，其余轮廓仍不重合。扫描37.5/44/47.5/55 eV及LH/LV，相关特征无明显kz色散支持表面贡献，但有限逃逸深度使体态也有kz平均，不能把不色散当唯一证明。必须结合bulk投影连续谱：落在连续谱外且随终止面变的叫孤立表面态，与连续谱重叠则称表面共振。"
+        },
+        {
+          "title": "计算—约束：表面与体相都要算",
+          "text": "Quantum ESPRESSO、共线自旋PBE，Se norm-conserving、Nb/Co ultrasoft，体相45/540 Ry、9×9×16、展宽0.005 Ry；能谱网格和Lorentzian半宽各0.005 eV。Se slab为5层NbSe₂、4Co、45 Å真空，Co slab为3层NbSe₂、4Co、55 Å真空；松弛60/720 Ry、9×9×1、力阈10⁻⁴ Ry/Bohr。模型厚度不同，需用收敛性排除有限slab差异；原文未给所有厚度扫描，本站不把DFT一致性叫作无歧义元素定量。SI外层/内层PDOS说明近EF含混合贡献，不能将所有漂亮细线统称纯表面态。"
+        },
+        {
+          "title": "复现—下一炉及下一次ARPES",
+          "text": "最强证据是空间选择、终止面指纹、刚性位移对照和slab谱共同约束；薄弱处是核心能级定量与缺陷/逃逸深度下的非唯一性。建议同一炉多片、每片多次劈裂，统一记录位置、偏振、温度、光子能、对准与核心能级，再比较同一面不同域和两种面。正文没有完整列测量温度、所有分辨率及统计误差，安排beamtime前要补齐，而非把“高分辨”当参数。对体相交替磁性还需体相/自旋分辨与对称方向对照，本稿不直接给出独立自旋极化新测定。终止面处理与前作数据复用应在论文和平台catalog关联说明，不能将两个相关题目当作两个不相干的新体系。"
+        },
+        {
+          "title": "本站判断：表面谱的“多支”需要一套排除顺序",
+          "text": "观察到两条近邻色散后，应先检查它们是否来自同一空间域、同一终止面和同一几何，再排除不同kz投影、结构折叠与表面共振，最后才比较对称性要求的自旋分裂。这个顺序不否认交替磁性，而是让证据可以被其他实验重复。若用大光斑把不同域平均后出现双支，不能倒过来以双支为依据证明每个域都存在体相分裂。建议把空间地图、选点理由与被排除的失序点一同保存，避免后续分析只看经过挑选的高分辨能带图，遗失样品真实的不均匀性。"
+        },
+        {
+          "title": "本站判断：如何安排CVT与谱学之间的样品链",
+          "text": "炉次管理应将源/生长区温度、管体积、运输剂浓度、位置和成品编号关联到实际送测小片，尤其要防止同一理想式子掩盖不同Co占位。CVT所得毫米晶体适合进一步切片，但不同位置的插层与缺陷可能不同；至少保留同炉多晶体的EDS和磁性分布，而不是只测一片最亮晶体。送测时记录最后清洗、暴露和劈裂时刻，避免把表面吸附变化归于体相掺杂。若同一晶体每次劈裂的谱差很大，应优先做终止面筛选，而非立即调整生长成分寻找所谓新相。"
+        },
+        {
+          "title": "本站判断：谱线展宽不能自动翻译成相互作用强",
+          "text": "表面缺陷、光斑跨域、kz平均和真实多体散射都能使谱变宽，但各自对能量、光子能及空间位置的响应不同。先用同一终止面中心与边缘作对照，再改变光子能；若峰宽主要随位置而变，不能只拟合自能并称强关联增强。DFT中人为Lorentzian宽度是绘图/谱函数处理参数，不等于实验寿命。导出数据时最好同时保存能量分辨、角分辨、空间足迹和拟合窗；没有这些条件，跨样品比较某个毫电子伏宽度并没有看起来那么精确。"
+        },
+        {
+          "title": "本站判断：把既有结论与新数据拆开，才能避免重复计数",
+          "text": "本稿的核心增量是终止面和表面—体相归属，不是重新宣布插层产生交替磁性。平台材料时间线可以关联前作与本稿，但文献条目要保留各自题名、作者、日期和实际新增证据，不能因材料相同就合并掉重要方法进展，也不能因题目不同就把重用的样品和数据算作独立复现。后续若提出调节终止面改善体态可见度，应先列出本文已做的空间筛选，再解释新的控制变量和可证伪结果；没有查清等价研究前，只能称实验策略，不能称无人研究的新方向。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜CVT与ARPES合作优先",
+        "first": "先读SI A炉程、主文图1/2，再SI S2刚性位移测试及DFT bulk/slab比较。",
+        "focus": "分清核心能级比值的模型误差与真实覆盖；不要把花瓣状双支自动认作体相自旋分裂。背景交替磁性综述可略读。",
+        "next": "同炉多片劈裂做微区配对测量，保留没有成功分面的点；与前作逐数据对应后再提出新物性结论。"
+      },
+      "tags": [
+        "arXiv独立稿",
+        "主文精读"
+      ],
+      "rating": "A",
+      "selectionStatus": "today-announcement"
+    },
+    {
+      "category": "晶体生长和物性调控",
+      "material": "Fe/石墨烯/SiC：稳定的铁磁界面，不等于能顺序长出FeSe",
+      "title": "Intercalation of Ultrathin Ferromagnetic Iron Films at the Graphene/SiC Interface",
+      "authors": "Niels Rösch; Rico Ehrler; Stefanie Suzanne Brinkman; Xin Liang Tan; Anders Christian Mathisen; Marc Stevens; Sascha Hermann; Olav Hellwig; Philip Schädlich; Hendrik Bentmann; Susanne Wolff; Thomas Seyller; Fabian Göhler",
+      "institutions": "Chemnitz University of Technology/MAIN；NTNU Center for Quantum Spintronics；Fraunhofer ENAS",
+      "journal": "arXiv:2610.23728v1（未经同行评议的预印本）",
+      "date": "2026-10-19官方新稿公告；v1首次提交 2026-10-14T14:04:49Z（UTC），并非19日上传",
+      "doi": "https://arxiv.org/abs/2610.23728v1",
+      "fullText": "https://arxiv.org/pdf/2610.23728v1",
+      "method": "PASG零层石墨烯；Fe热沉积—退火插层，XPS/LEED/ARPES/Raman与SQUID",
+      "access": "全文精读：12页PDF的主文Introduction、Experimental Details、Results全部小节及Conclusions、图1–6；视觉核对图5。独立SI引用位置仍是出版社URL占位符，本轮未读S1–S3/完整3D数据。",
+      "versionNote": "与52期历史报告按DOI/arXiv ID/规范化题名核对，未重复收录。公告日期与首次提交日期分开记录；不自动将相同材料的其他论文合并为本稿。",
+      "abstract": "",
+      "conclusion": "Fe在高质量零层石墨烯下的插层需要热沉积与后退火，却同时生成硅化物和额外碳；界面能保有室温铁磁且抗氧化，但后续加Se会把Fe换走，未得到目标FeSe。失败路线和不可重现性比一句“成功制得二维铁磁膜”更值得保存。",
+      "sections": [
+        {
+          "title": "问题—起点：同叫石墨烯，插层入口并不相同",
+          "text": "PASG制备的4H-SiC(0001)零层石墨烯仍与衬底共价键合，与已有单层/多层石墨烯下的多gallery并不等价。作者要先确定Fe是否真的进入ZLG/SiC界面，再测磁性，最终尝试顺序加入Se。既有Fe/Co插层、硅化物及二维铁氧化物研究是明确前史，因此本文不是首次把铁和石墨烯放在一起；差别是高质量PASG起始样品和插层、反应、磁性的联合诊断。样品形态为表面覆盖界面膜，不能称游离、完整、单晶Fe原子层。"
+        },
+        {
+          "title": "制备—正负对照：热沉积是必要但非充分条件",
+          "text": "n型4H-SiC经PASG形成ZLG，Fe源纯度>99.99%、电子束蒸发速率约0.4 nm/min，石英晶振并以厚膜轮廓交叉检查，UHV基压优于3×10⁻¹⁰ mbar。路线A室温沉积1–2 nm再750 ℃退火，几乎不插层；B约310 ℃沉积后750 ℃可促解耦，550 ℃已少量开始、750 ℃附近平台。正文未报告各退火完整保温时间、统一升温速率、PASG聚合物配方与全部生长热程，不能当可一键复制的SOP。即便同片晶圆、同参数也出现完全不插层样品，不能只留下成功谱而删除失败批次。"
+        },
+        {
+          "title": "质量—反应：多一个石墨烯峰不代表多一点目标相",
+          "text": "XPS看C1s的ZLG组分转为约284.5 eV非对称QFG峰，Si2p约99.4 eV的Fe–Si也增强；LEED超结构改变。增加沉积后QFG峰继续上升，即使ZLG已难辨，说明可能是SiC分解后额外石墨碳，而不只是解耦面积变大。为折中，作者后续选总沉积3.5–4 min，约1.4–1.6 nm名义沉积量，不能等同最终界面厚度。XPS衰减模型在全Fe都进入界面的假设下只给2–8 Å；覆盖不全、硅化物、表面残Fe和新增碳都让估计非唯一。"
+        },
+        {
+          "title": "物性—磁性：哪些确证了，哪些没有",
+          "text": "21.2 eV ARPES显示π带与Dirac点约EF下0.4 eV，支持解耦后的n型石墨烯；谱较宽，作者不以此单独宣布近邻交换分裂。532 nm、4 mW Raman比H插层样品更强D峰与展宽，提示缺陷、有限域及残ZLG/碳共同作用。300 K SQUID见面内易轴铁磁，ZLG、H-QFG与Si参照控制基底/夹具背景。假设体Fe饱和磁化估磁厚约6 Å，是模型量，不是显微截面。22 K、707 eV共振CD随磁化反向变号支持Fe相关磁性；285 eV碳共振不随磁化反号，不能说已经测到铁磁石墨烯。"
+        },
+        {
+          "title": "化学—失败路线：抗氧化不等于抗Se交换",
+          "text": "完成插层的Fe2p在空气暴露前后保持相近，只有沉积未高温退火的样品明显氧化；在所测条件可稳定多天，不可外推无限寿命。随后在足以促进Se插层的温度、Se富气氛处理，Fe2p几乎消失而QFG仍在，更符合界面Fe被Se替换，而非FeSe已生成。反过来先Se再Fe也失败，Fe脱附或残表面团簇。Se分压、具体处理温度/时间在本篇正文未完整给出，不能把“宽温区尝试”写成已知工艺窗口。未见FeSe相的结构与超导证据，不能因目标是FeSe就归为新超导制备成果。"
+        },
+        {
+          "title": "复现建议—先建立材料收支与停止条件",
+          "text": "最有价值的是XPS、LEED、ARPES与磁测对合成副反应的交叉，最弱处是最终Fe化学相、覆盖率和磁性归因到纯Fe的唯一性。应按同一片坐标记录每步峰面积、基底衰减、形貌和失败率，分别比较热预算、沉积量、基底台阶/缺陷，而不是持续加Fe直到峰最大。若Fe增加伴随FeSi和石墨碳上升，应停止把它当提高插层效率。做Se后先守恒检查Fe/Se/Si/C及杂相，再决定是否值得寻找低温反应路线；不能以石墨烯仍解耦为FeSe形成的证据。原稿SI还是占位链接，完整三维谱和磁测背景尚不能由本站独立复算；所有下一步都须以原始数据审阅为先。"
+        },
+        {
+          "title": "本站判断：把失败窗口保存为与成功一样完整的记录",
+          "text": "该研究直接说明同片晶圆和相同名义参数仍可能得到不同插层程度。对平台的实验记录，应该允许保存“没有插层”“出现硅化物”“Se置换后Fe消失”等结果，并附原始谱、加热实测曲线和样品位置，而非只给成功/失败二选一。这样下一次可以区分入口缺陷、台阶、沉积覆盖和热预算的影响。如果失败记录缺失，优化程序会只学到幸存者样本，反而把偶然成功当成稳健窗口；增加自动化并不能弥补这种实验设计偏差。"
+        },
+        {
+          "title": "本站判断：磁矩归一要避免用目标相厚度反证目标相",
+          "text": "超薄膜总磁矩很小，衬底、胶和样品杆背景能与信号同量级。应先比较同形状、同安装方向的空白和非磁处理对照，再决定背景模型，并保留扣背景前数据。用体Fe磁化估厚，只在化学相和饱和程度已知时有意义；若界面同时有硅化物和不完整覆盖，这只是等效磁厚，不能拿它与XPS的粗估一致就证明膜一定为纯Fe。未来做不同沉积量系列时，先检查磁矩是否随独立测到的界面Fe量变化，而不是随名义蒸镀时间线性就宣布单层磁性。"
+        },
+        {
+          "title": "本站判断：顺序合成需要反应收支而不仅是最终谱形",
+          "text": "Fe先进入后再加Se，可能涉及置换、脱附、扩散或副产物形成，最终Fe信号减弱本身不能告诉你所有Fe去了哪里。可执行的改进是每步在可比几何下测核心能级、总量与表面形貌，必要时保留反应后基底和收集物作分析；先回答元素是否仍在样品内，再讨论目标相。若只能看到QFG特征保持，却没有Fe/Se共存与结构证据，应停止把流程记为FeSe生长成功。本文的负结果是限定温区和路径下的约束，不是对一切可能FeSe界面合成方法的数学否定。"
+        },
+        {
+          "title": "本站判断：先做低风险筛选，再增加化学自由度",
+          "text": "为了节省时间，不建议一开始同时改变基底质量、沉积温度、Fe剂量、Se供给和退火时长；那样即使偶然得到好结果也难确定控制因素。先用小矩阵确定在当前PASG样品上可重复的Fe解耦程度与副反应比例，锁定可接受的失败率，再考虑是否值得引入Se。新增试验必须有明确停止条件，例如副相持续增长、目标元素大幅流失或磁性仅随夹具背景变化。这个顺序是本文失败经验导出的复现建议，尚未在你的样品上实际实施，也不能称已经找到绕过置换的全新工艺。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜界面制备和失败炉次管理优先",
+        "first": "先图1两条路线、图2峰面积，再图6顺序Se交换；磁性读图5与非磁参照。",
+        "focus": "名义沉积厚度≠界面厚度，碳CD≠磁性，QFG≠FeSe。大篇文献回顾可略读。",
+        "next": "先做每一步元素收支和同片多点重复；Fe2p消失即暂停FeSe成功判定，不能继续追逐不存在的超导信号。"
+      },
+      "tags": [
+        "arXiv独立稿",
+        "主文精读"
+      ],
+      "rating": "A",
+      "selectionStatus": "today-announcement"
+    }
+  ],
+  "figures": [
+    {
+      "src": "/reports/2026-10-19/xrd-mae.svg",
+      "title": "误差排名并不等于物理可靠性",
+      "caption": "独立重绘主文表3：D1的IE=0.069低于ISE=0.101，而D2反转；可靠性需看丢失证据时的响应与独立批次，不从误差单独下结论。",
+      "source": "https://doi.org/10.1038/s43246-026-01354-z"
+    },
+    {
+      "src": "/reports/2026-10-19/inbi-gaps.svg",
+      "title": "四探针保留各自模型边界",
+      "caption": "独立重绘表I的3.467/3.82/4.02/4.05；无原始统计误差，不添加误差棒。所有值不必等同，热容归一与退磁公式仍需核查。",
+      "source": "https://arxiv.org/abs/2610.22917v1"
+    },
+    {
+      "src": "/reports/2026-10-19/conb-xps.svg",
+      "title": "XPS模型推断与直接观察分开",
+      "caption": "SI数值2.41589→1.79734为强度比变化，不能直接当覆盖率；衰减长度和峰重叠带来较大模型不确定度。",
+      "source": "https://arxiv.org/abs/2610.23375v1"
+    }
+  ],
+  "auditUrl": "/reports/2026-10-19/audit.json",
+  "searchTerms": [
+    "北京时间10月19日：54条官网轨道（APS18系列recent+accepted，Nature Portfolio8轨及固定Science/Wiley/ACS/JCG），对应访问状态和可见题名逐项记录。当天官网可见XRD论文已入选，不借三日回溯填数。",
+    "arXiv官方批次已更新为19日：86新投、22交叉、80替换。108摘要逐条筛选，5篇实验预印本精读；80替换只有题名筛选，版本新增结果仍待核查。",
+    "arXiv API最新列表100条，以及入选5篇id_list请求均200；独立核对版本、作者、提交时间。Fe界面v1首次提交14日，其余入选预印本16日首次提交，但均在本次19日官方新稿批次。",
+    "Crossref的17–19日在线日期查漏包括hBN、CoNb₄Se₈、手性声子等相关稿，保留补读；已发表封面不计研究论文。Science Advances429后重试200，Chemistry of Materials仍429；不把异常当0。",
+    "6篇主文全部实际读，XRD的7页SI和CoNb合并SI A–I已读；其他独立SI未取得者逐篇明示，不借主文的SI描述冒充已读SI。入选全文6/实读6，不是全部候选可访问数的断言。",
+    "去重52期历史报告：6篇DOI/arXiv ID和规范题名均未在历史收录。CoNb表面稿与同团队18日正式论文有数据campaign关系，本期只收新终止面问题这一稿，不双重统计。",
+    "没有已验证的机构登录，不打开或使用无关登录会话；公开出版商/预印本读取，不绕过权限，不上传原PDF。",
+    "查新：精确材料与题名、最近邻引用；ErFeO₃已有2025年Raman协同性工作线索，In₂Bi表面态验证和顺序FeSe合成已被前人/本稿讨论。专利、学位论文和等价研究范围未完，研究设想暂不产出，不声称无人做过。"
+  ],
+  "sourceAudit": [
+    {
+      "source": "APS/prl",
+      "url": "https://journals.aps.org/prl/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:08.181248+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prx",
+      "url": "https://journals.aps.org/prx/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:09.007975+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prb",
+      "url": "https://journals.aps.org/prb/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:07.708697+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/pra",
+      "url": "https://journals.aps.org/pra/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:08.127595+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prc",
+      "url": "https://journals.aps.org/prc/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:09.181890+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prd",
+      "url": "https://journals.aps.org/prd/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:10.513029+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/pre",
+      "url": "https://journals.aps.org/pre/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:10.169138+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prresearch",
+      "url": "https://journals.aps.org/prresearch/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:10.613706+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prapplied",
+      "url": "https://journals.aps.org/prapplied/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:11.046334+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prmaterials",
+      "url": "https://journals.aps.org/prmaterials/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:11.447743+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prfluids",
+      "url": "https://journals.aps.org/prfluids/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:13.013852+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prper",
+      "url": "https://journals.aps.org/prper/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:12.655418+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prxenergy",
+      "url": "https://journals.aps.org/prxenergy/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:12.383307+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prxlife",
+      "url": "https://journals.aps.org/prxlife/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:12.964066+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prxquantum",
+      "url": "https://journals.aps.org/prxquantum/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:14.027182+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/rmp",
+      "url": "https://journals.aps.org/rmp/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:14.388727+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prab",
+      "url": "https://journals.aps.org/prab/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:14.288518+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prxintelligence",
+      "url": "https://journals.aps.org/prxintelligence/recent",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:14.351063+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prl/accepted",
+      "url": "https://journals.aps.org/prl/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:15.387306+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prx/accepted",
+      "url": "https://journals.aps.org/prx/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:15.379798+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prb/accepted",
+      "url": "https://journals.aps.org/prb/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:15.709522+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/pra/accepted",
+      "url": "https://journals.aps.org/pra/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:15.575371+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prc/accepted",
+      "url": "https://journals.aps.org/prc/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:16.992690+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prd/accepted",
+      "url": "https://journals.aps.org/prd/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:16.490222+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/pre/accepted",
+      "url": "https://journals.aps.org/pre/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:16.847676+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prresearch/accepted",
+      "url": "https://journals.aps.org/prresearch/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:17.042596+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prapplied/accepted",
+      "url": "https://journals.aps.org/prapplied/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:17.721066+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prmaterials/accepted",
+      "url": "https://journals.aps.org/prmaterials/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:18.132523+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prfluids/accepted",
+      "url": "https://journals.aps.org/prfluids/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:18.467045+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prper/accepted",
+      "url": "https://journals.aps.org/prper/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:18.253236+00:00",
+      "visibleCards": 19,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prxenergy/accepted",
+      "url": "https://journals.aps.org/prxenergy/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:19.431223+00:00",
+      "visibleCards": 7,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prxlife/accepted",
+      "url": "https://journals.aps.org/prxlife/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:19.499624+00:00",
+      "visibleCards": 15,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prxquantum/accepted",
+      "url": "https://journals.aps.org/prxquantum/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:19.311610+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/rmp/accepted",
+      "url": "https://journals.aps.org/rmp/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:19.511978+00:00",
+      "visibleCards": 13,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prab/accepted",
+      "url": "https://journals.aps.org/prab/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:20.642148+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "APS/prxintelligence/accepted",
+      "url": "https://journals.aps.org/prxintelligence/accepted",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:20.779119+00:00",
+      "visibleCards": 18,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "Nature",
+      "url": "https://www.nature.com/nature/research-articles",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:22.913021+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": 0,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "Nature Physics",
+      "url": "https://www.nature.com/nphys/research-articles",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:23.427863+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": 0,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "Nature Communications",
+      "url": "https://www.nature.com/ncomms/research-articles",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:23.953092+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 8,
+      "included": 0,
+      "excluded": 8,
+      "pending": 0,
+      "crossrefMetadataHits": 45,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "npj Quantum Materials",
+      "url": "https://www.nature.com/npjquantmats/research-articles",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:24.532509+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": 0,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://www.nature.com/nmat/research-articles",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:26.239610+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "Communications Physics",
+      "url": "https://www.nature.com/commsphys/research-articles",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:26.717063+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "Communications Materials",
+      "url": "https://www.nature.com/commsmat/research-articles",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:27.320458+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 1,
+      "included": 1,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "npj 2D Materials and Applications",
+      "url": "https://www.nature.com/npj2dmaterials/research-articles",
+      "officialStatus": "200",
+      "checkedAt": "2026-10-19T05:56:27.781491+00:00",
+      "visibleCards": 20,
+      "officialTodayHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
+      "crossrefMetadataHits": null,
+      "reason": "官网首屏逐题；当天命中与17–19日Crossref元数据窗口分开。非全分页穷尽。",
+      "error": ""
+    },
+    {
+      "source": "Science",
+      "url": "https://www.science.org/toc/science/current",
+      "officialStatus": "403",
+      "checkedAt": "2026-10-19T05:56:26.610024+00:00",
+      "visibleCards": null,
+      "officialTodayHits": null,
+      "included": 0,
+      "excluded": null,
+      "pending": null,
+      "crossrefMetadataHits": 0,
+      "reason": "官网GET及普通HEAD重试均403，无法审阅目录全文，不得写零命中；用Crossref/精确题名补查，仍有覆盖缺口。",
+      "error": ""
+    },
+    {
+      "source": "Science Advances",
+      "url": "https://www.science.org/toc/sciadv/current",
+      "officialStatus": "403",
+      "checkedAt": "2026-10-19T05:56:26.898188+00:00",
+      "visibleCards": null,
+      "officialTodayHits": null,
+      "included": 0,
+      "excluded": null,
+      "pending": null,
+      "crossrefMetadataHits": null,
+      "reason": "官网GET及普通HEAD重试均403，无法审阅目录全文，不得写零命中；用Crossref/精确题名补查，仍有覆盖缺口。",
+      "error": ""
+    },
+    {
+      "source": "Advanced Materials",
+      "url": "https://advanced.onlinelibrary.wiley.com/toc/15214095/0/0",
+      "officialStatus": "403",
+      "checkedAt": "2026-10-19T05:56:27.006384+00:00",
+      "visibleCards": null,
+      "officialTodayHits": null,
+      "included": 0,
+      "excluded": null,
+      "pending": null,
+      "crossrefMetadataHits": 14,
+      "reason": "官网GET及普通HEAD重试均403，无法审阅目录全文，不得写零命中；用Crossref/精确题名补查，仍有覆盖缺口。",
+      "error": ""
+    },
+    {
+      "source": "Advanced Functional Materials",
+      "url": "https://advanced.onlinelibrary.wiley.com/toc/16163028/0/0",
+      "officialStatus": "403",
+      "checkedAt": "2026-10-19T05:56:27.193350+00:00",
+      "visibleCards": null,
+      "officialTodayHits": null,
+      "included": 0,
+      "excluded": null,
+      "pending": null,
+      "crossrefMetadataHits": 9,
+      "reason": "官网GET及普通HEAD重试均403，无法审阅目录全文，不得写零命中；用Crossref/精确题名补查，仍有覆盖缺口。",
+      "error": ""
+    },
+    {
+      "source": "Nano Letters",
+      "url": "https://pubs.acs.org/toc/nalefd/0/0",
+      "officialStatus": "403",
+      "checkedAt": "2026-10-19T05:56:28.135551+00:00",
+      "visibleCards": null,
+      "officialTodayHits": null,
+      "included": 0,
+      "excluded": null,
+      "pending": null,
+      "crossrefMetadataHits": 2,
+      "reason": "官网GET及普通HEAD重试均403，无法审阅目录全文，不得写零命中；用Crossref/精确题名补查，仍有覆盖缺口。",
+      "error": ""
+    },
+    {
+      "source": "ACS Nano",
+      "url": "https://pubs.acs.org/toc/ancac3/0/0",
+      "officialStatus": "403",
+      "checkedAt": "2026-10-19T05:56:27.705877+00:00",
+      "visibleCards": null,
+      "officialTodayHits": null,
+      "included": 0,
+      "excluded": null,
+      "pending": null,
+      "crossrefMetadataHits": 4,
+      "reason": "官网GET及普通HEAD重试均403，无法审阅目录全文，不得写零命中；用Crossref/精确题名补查，仍有覆盖缺口。",
+      "error": ""
+    },
+    {
+      "source": "JACS",
+      "url": "https://pubs.acs.org/toc/jacsat/0/0",
+      "officialStatus": "403",
+      "checkedAt": "2026-10-19T05:56:27.853621+00:00",
+      "visibleCards": null,
+      "officialTodayHits": null,
+      "included": 0,
+      "excluded": null,
+      "pending": null,
+      "crossrefMetadataHits": 4,
+      "reason": "官网GET及普通HEAD重试均403，无法审阅目录全文，不得写零命中；用Crossref/精确题名补查，仍有覆盖缺口。",
+      "error": ""
+    },
+    {
+      "source": "Chemistry of Materials",
+      "url": "https://pubs.acs.org/toc/cmatex/0/0",
+      "officialStatus": "403",
+      "checkedAt": "2026-10-19T05:56:28.404509+00:00",
+      "visibleCards": null,
+      "officialTodayHits": null,
+      "included": 0,
+      "excluded": null,
+      "pending": null,
+      "crossrefMetadataHits": null,
+      "reason": "官网GET及普通HEAD重试均403，无法审阅目录全文，不得写零命中；用Crossref/精确题名补查，仍有覆盖缺口。",
+      "error": ""
+    },
+    {
+      "source": "Crystal Growth & Design",
+      "url": "https://pubs.acs.org/toc/cgdefu/0/0",
+      "officialStatus": "403",
+      "checkedAt": "2026-10-19T05:56:28.651152+00:00",
+      "visibleCards": null,
+      "officialTodayHits": null,
+      "included": 0,
+      "excluded": null,
+      "pending": null,
+      "crossrefMetadataHits": 3,
+      "reason": "官网GET及普通HEAD重试均403，无法审阅目录全文，不得写零命中；用Crossref/精确题名补查，仍有覆盖缺口。",
+      "error": ""
+    },
+    {
+      "source": "Journal of Crystal Growth",
+      "url": "https://www.sciencedirect.com/journal/journal-of-crystal-growth/articles-in-press",
+      "officialStatus": "403",
+      "checkedAt": "2026-10-19T05:56:28.465147+00:00",
+      "visibleCards": null,
+      "officialTodayHits": null,
+      "included": 0,
+      "excluded": null,
+      "pending": null,
+      "crossrefMetadataHits": 0,
+      "reason": "官网GET及普通HEAD重试均403，无法审阅目录全文，不得写零命中；用Crossref/精确题名补查，仍有覆盖缺口。",
+      "error": ""
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "url": "https://arxiv.org/list/cond-mat/new",
+      "officialStatus": "200",
+      "date": "2026-10-19",
+      "new": 86,
+      "cross": 22,
+      "replacement": 80,
+      "officialTodayHits": 108,
+      "included": 5,
+      "excluded": 63,
+      "relatedNotSelected": 40,
+      "pendingVersionDiff": 80,
+      "reason": "108条新投/交叉逐题逐摘要筛选，80替换仅题名初筛；selected id_list API200交叉核对v1/作者/首次提交；公告日不等于提交日。"
+    }
+  ],
+  "readingAudit": {
+    "candidateAccessibleFullTexts": 6,
+    "fullReads": 6,
+    "siOnly": 0,
+    "abstractOnly": 0,
+    "institutionalSuccess": false,
+    "pending": [
+      "入选中的In₂Bi、LaCaMnO₃、Fe界面独立SI未读：PDF未附；Fe稿仍为出版社URL占位符。ErFeO₃未列独立SI。",
+      "原始数据、薄膜磁性/自旋输运等候补、80篇替换的版本差分尚未完成，不将它们计入所选全文6篇分母。"
+    ]
+  },
+  "researchIdeas": {
+    "schemaVersion": 1,
+    "reviewedAt": "2026-10-19",
+    "scope": "本期已读正文/SI与参考文献、精确题名及CoNb4Se8 termination、In2Bi surface superconductivity、Fe Se sequential intercalation graphene SiC、ErFeO3 crystal field phonon coupling检索；未完成专利/学位论文及所有等价工作的系统查新。",
+    "limitations": [
+      "没有合成、计算或测量任何新候选。",
+      "本期普通复现与质量控制建议不冒充未经研究的新材料路线。",
+      "查新覆盖不足，暂无达到最低新颖性标准的立项候选。"
+    ],
+    "ideas": [],
+    "rejected": [
+      {
+        "title": "In₂Bi表面拓扑超导验证",
+        "url": "https://arxiv.org/abs/2610.22917v1",
+        "reason": "本稿结论及已引用表面态文献已明确建议，不能当本网站首创。"
+      },
+      {
+        "title": "CoNb₄Se₈终止面分辨ARPES",
+        "url": "https://arxiv.org/abs/2610.23375v1",
+        "reason": "就是本期论文完成的工作；下一步重复劈裂是复现设计而非新方向。"
+      },
+      {
+        "title": "石墨烯下顺序Fe/Se插层制FeSe",
+        "url": "https://arxiv.org/abs/2610.23728v1",
+        "reason": "作者已直接尝试并报告失败，不能忽略原有负结果包装新设想。"
+      },
+      {
+        "title": "ErFeO₃晶场—声子混成及Dicke协同性",
+        "url": "https://arxiv.org/abs/2511.18862",
+        "reason": "查新已见2025年同材料magneto-Raman协同性预印本线索；本轮只核对其官方题名/摘要，未精读全文，不计入本期收录。不能把增加Raman写成全新方向。"
+      }
+    ]
+  }
+}

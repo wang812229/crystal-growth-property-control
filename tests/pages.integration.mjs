@@ -37,3 +37,16 @@ test('October 18 separates measured refinements from the abstract-only growth si
  const index=JSON.parse(await readFile(new URL('assets/search-index.json',dir),'utf8'));
  assert.equal(index.filter(p=>p.reportUrl.includes('/reports/2026-10-18/')).length,4);
 });
+
+test('October 19 records the new arXiv batch and six actual full reads without relabeling older uploads',async()=>{
+ const page=await readFile(new URL('reports/2026-10-19/index.html',dir),'utf8');
+ assert(page.includes('今日公告 6'));assert(page.includes('主文可访问 6 / 主文实读 6'));assert(page.includes('仅摘要 0'));
+ assert(page.includes('14或16日'));assert(page.includes('CC BY-NC-ND'));assert(page.includes('独立SI'));
+ const audit=JSON.parse(await readFile(new URL('reports/2026-10-19/audit.json',dir),'utf8'));
+ assert.equal(audit.reading.length,6);assert(audit.reading.every(p=>p.bodyChineseCharacters>=1500));
+ const arxiv=audit.sources.find(s=>s.source==='arXiv cond-mat/new');assert.equal(arxiv.new,86);assert.equal(arxiv.cross,22);assert.equal(arxiv.pendingVersionDiff,80);
+ assert.equal(audit.decisions.filter(d=>d.source==='arXiv'&&d.screenedLevel==='title-and-abstract').length,108);
+ for(const f of ['xrd-mae.svg','inbi-gaps.svg','conb-xps.svg'])await access(new URL('reports/2026-10-19/'+f,dir));
+ const index=JSON.parse(await readFile(new URL('assets/search-index.json',dir),'utf8'));
+ assert.equal(index.filter(p=>p.reportUrl.includes('/reports/2026-10-19/')).length,6);
+});
