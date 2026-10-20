@@ -50,3 +50,16 @@ test('October 19 records the new arXiv batch and six actual full reads without r
  const index=JSON.parse(await readFile(new URL('assets/search-index.json',dir),'utf8'));
  assert.equal(index.filter(p=>p.reportUrl.includes('/reports/2026-10-19/')).length,6);
 });
+
+test('October 20 preserves a stale arXiv batch as unknown and two genuine journal full reads',async()=>{
+ const page=await readFile(new URL('reports/2026-10-20/index.html',dir),'utf8');
+ assert(page.includes('今日公告 2'));assert(page.includes('主文可访问 2 / 主文实读 2'));assert(page.includes('仅摘要 0'));
+ assert(page.includes('批次'));assert(page.includes('待'));assert(page.includes('1.45 TW/cm²'));assert(page.includes('MOESM1'));
+ const audit=JSON.parse(await readFile(new URL('reports/2026-10-20/audit.json',dir),'utf8'));
+ assert.equal(audit.reading.length,2);assert(audit.reading.every(p=>p.bodyChineseCharacters>=1500));
+ const arxiv=audit.sources.find(s=>s.source==='arXiv cond-mat/new');assert.equal(arxiv.date,'2026-10-19');assert.equal(arxiv.targetDate,'2026-10-20');assert.equal(arxiv.officialTodayHits,null);
+ assert.equal(audit.coverageComplete,false);assert(audit.decisions.some(d=>d.decision==='related-backlog'));
+ for(const f of ['rixs-energy-ranges.svg','hhg-exponents.svg'])await access(new URL('reports/2026-10-20/'+f,dir));
+ const index=JSON.parse(await readFile(new URL('assets/search-index.json',dir),'utf8'));
+ assert.equal(index.filter(p=>p.reportUrl.includes('/reports/2026-10-20/')).length,2);
+});
