@@ -63,3 +63,17 @@ test('October 20 preserves a stale arXiv batch as unknown and two genuine journa
  const index=JSON.parse(await readFile(new URL('assets/search-index.json',dir),'utf8'));
  assert.equal(index.filter(p=>p.reportUrl.includes('/reports/2026-10-20/')).length,2);
 });
+
+test('October 21 distinguishes announcement, previous formal publication, and actual full-read versions',async()=>{
+ const page=await readFile(new URL('reports/2026-10-21/index.html',dir),'utf8');
+ assert(page.includes('今日公告 5'));assert(page.includes('主文可访问 5 / 主文实读 5'));assert(page.includes('仅摘要 0'));
+ assert(page.includes('9月12日'));assert(page.includes('1200'));assert(page.includes('正式版本待核')||page.includes('正式版'));
+ const audit=JSON.parse(await readFile(new URL('reports/2026-10-21/audit.json',dir),'utf8'));
+ assert.equal(audit.reading.length,5);assert(audit.reading.every(p=>p.bodyChineseCharacters>=1500));
+ const arxiv=audit.sources.find(s=>s.source==='arXiv cond-mat/new');assert.equal(arxiv.date,'2026-10-21');assert.equal(arxiv.new,96);assert.equal(arxiv.cross,29);assert.equal(arxiv.replacement,78);
+ assert.equal(audit.decisions.filter(d=>d.source==='arXiv'&&d.readScope==='title-and-abstract').length,125);
+ assert(audit.decisions.some(d=>d.decision==='earlier-formal-publication'));assert.equal(audit.coverageComplete,false);
+ for(const f of ['bas-orientation.svg','nacso-le-bail.svg','diffpxrd-variability.svg'])await access(new URL('reports/2026-10-21/'+f,dir));
+ const index=JSON.parse(await readFile(new URL('assets/search-index.json',dir),'utf8'));
+ assert.equal(index.filter(p=>p.reportUrl.includes('/reports/2026-10-21/')).length,5);
+});
