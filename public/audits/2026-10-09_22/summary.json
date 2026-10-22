@@ -1,0 +1,2729 @@
+{
+  "start": "2026-10-09",
+  "end": "2026-10-22",
+  "checkedAt": "2026-10-22T04:18:27.575194+00:00",
+  "title": "近两周大期刊补漏复核",
+  "stats": {
+    "totalUnique": 3947,
+    "officialUnique": 2273,
+    "publishedDirectory": 1434,
+    "acceptedOnly": 839,
+    "manualItems": 151,
+    "abstractsActuallyRead": 133,
+    "historicalExact": 37,
+    "priorities": {
+      "C": 3651,
+      "B": 91,
+      "A": 57,
+      "H": 36,
+      "D": 112
+    },
+    "sourceTracks": 68,
+    "journalMetadataScopes": 48,
+    "sourcePages": 160,
+    "fullReadsInThisAudit": 0
+  },
+  "coverageComplete": false,
+  "limitations": [
+    "原期刊58轨+扩展Nature/PNAS/NSR等10轨；48种ISSN在线日期元数据查全返回总数，但不等于全部原创论文。",
+    "Science/Science Advances补查出版日期及新登记；Journal of Crystal Growth/Acta Materialia仍缺可验证精确在线日，0不代表无新增。Science Bulletin官网403；在线日及出版日查询均0，新登记35条只有月份，没有可验证在线日，不能计为窗口内已发表新稿。",
+    "APS Accepted目录条目不可误标为正式在线发表；详情页404时保留已接受状态。",
+    "全部目录中有新闻、勘误、无关领域和待确认日期；只能以最终统计为准，不能当相关论文总数。",
+    "人工摘要复核与全文精读分开，本轮没有精读正文/SI；历史精读标签仅沿用记录用于去重。",
+    "未命中目录不证明全球首次或本站从未以改题版本讨论；正式版/预印本关系仍需逐篇核对。",
+    "仅公开书目元数据与本站筛选意见，不发布全文PDF、整段作者摘要、受限图或机构内容。"
+  ],
+  "sources": [
+    {
+      "source": "APS/prl",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prl/recent",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-20",
+          "maxDate": "2026-10-21"
+        },
+        {
+          "page": 2,
+          "url": "https://journals.aps.org/prl/recent?page=2",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-15",
+          "maxDate": "2026-10-20"
+        },
+        {
+          "page": 3,
+          "url": "https://journals.aps.org/prl/recent?page=3",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-14",
+          "maxDate": "2026-10-15"
+        },
+        {
+          "page": 4,
+          "url": "https://journals.aps.org/prl/recent?page=4",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-13",
+          "maxDate": "2026-10-14"
+        },
+        {
+          "page": 5,
+          "url": "https://journals.aps.org/prl/recent?page=5",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 13,
+          "minDate": "2026-10-08",
+          "maxDate": "2026-10-13"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 93,
+      "crossrefOnlineTotal": 168,
+      "crossrefOnlineRetrieved": 168,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 168,
+      "manualAbstracts": 4,
+      "priorityA": 7,
+      "historicalMatches": 2,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prx",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prx/recent",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 11,
+          "minDate": "2026-10-02",
+          "maxDate": "2026-10-21"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 11,
+      "crossrefOnlineTotal": 21,
+      "crossrefOnlineRetrieved": 21,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 21,
+      "manualAbstracts": 0,
+      "priorityA": 2,
+      "historicalMatches": 1,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prb",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prb/recent",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-20",
+          "maxDate": "2026-10-21"
+        },
+        {
+          "page": 2,
+          "url": "https://journals.aps.org/prb/recent?page=2",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-19",
+          "maxDate": "2026-10-20"
+        },
+        {
+          "page": 3,
+          "url": "https://journals.aps.org/prb/recent?page=3",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-19",
+          "maxDate": "2026-10-19"
+        },
+        {
+          "page": 4,
+          "url": "https://journals.aps.org/prb/recent?page=4",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-16",
+          "maxDate": "2026-10-19"
+        },
+        {
+          "page": 5,
+          "url": "https://journals.aps.org/prb/recent?page=5",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-15",
+          "maxDate": "2026-10-16"
+        },
+        {
+          "page": 6,
+          "url": "https://journals.aps.org/prb/recent?page=6",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-14",
+          "maxDate": "2026-10-15"
+        },
+        {
+          "page": 7,
+          "url": "https://journals.aps.org/prb/recent?page=7",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-14",
+          "maxDate": "2026-10-14"
+        },
+        {
+          "page": 8,
+          "url": "https://journals.aps.org/prb/recent?page=8",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-13",
+          "maxDate": "2026-10-14"
+        },
+        {
+          "page": 9,
+          "url": "https://journals.aps.org/prb/recent?page=9",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-09",
+          "maxDate": "2026-10-13"
+        },
+        {
+          "page": 10,
+          "url": "https://journals.aps.org/prb/recent?page=10",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 14,
+          "minDate": "2026-10-08",
+          "maxDate": "2026-10-09"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 194,
+      "crossrefOnlineTotal": 385,
+      "crossrefOnlineRetrieved": 385,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 385,
+      "manualAbstracts": 5,
+      "priorityA": 5,
+      "historicalMatches": 10,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/pra",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/pra/recent",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-19",
+          "maxDate": "2026-10-21"
+        },
+        {
+          "page": 2,
+          "url": "https://journals.aps.org/pra/recent?page=2",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-16",
+          "maxDate": "2026-10-19"
+        },
+        {
+          "page": 3,
+          "url": "https://journals.aps.org/pra/recent?page=3",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-15",
+          "maxDate": "2026-10-16"
+        },
+        {
+          "page": 4,
+          "url": "https://journals.aps.org/pra/recent?page=4",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-13",
+          "maxDate": "2026-10-15"
+        },
+        {
+          "page": 5,
+          "url": "https://journals.aps.org/pra/recent?page=5",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-13",
+          "maxDate": "2026-10-13"
+        },
+        {
+          "page": 6,
+          "url": "https://journals.aps.org/pra/recent?page=6",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-09",
+          "maxDate": "2026-10-13"
+        },
+        {
+          "page": 7,
+          "url": "https://journals.aps.org/pra/recent?page=7",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 8,
+          "minDate": "2026-10-07",
+          "maxDate": "2026-10-09"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 128,
+      "crossrefOnlineTotal": 243,
+      "crossrefOnlineRetrieved": 243,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 243,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prc",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prc/recent",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-16",
+          "maxDate": "2026-10-21"
+        },
+        {
+          "page": 2,
+          "url": "https://journals.aps.org/prc/recent?page=2",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-13",
+          "maxDate": "2026-10-16"
+        },
+        {
+          "page": 3,
+          "url": "https://journals.aps.org/prc/recent?page=3",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 9,
+          "minDate": "2026-10-06",
+          "maxDate": "2026-10-13"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 49,
+      "crossrefOnlineTotal": 80,
+      "crossrefOnlineRetrieved": 80,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 80,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prd",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prd/recent",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-21",
+          "maxDate": "2026-10-21"
+        },
+        {
+          "page": 2,
+          "url": "https://journals.aps.org/prd/recent?page=2",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-20",
+          "maxDate": "2026-10-21"
+        },
+        {
+          "page": 3,
+          "url": "https://journals.aps.org/prd/recent?page=3",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-19",
+          "maxDate": "2026-10-20"
+        },
+        {
+          "page": 4,
+          "url": "https://journals.aps.org/prd/recent?page=4",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-15",
+          "maxDate": "2026-10-19"
+        },
+        {
+          "page": 5,
+          "url": "https://journals.aps.org/prd/recent?page=5",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-14",
+          "maxDate": "2026-10-15"
+        },
+        {
+          "page": 6,
+          "url": "https://journals.aps.org/prd/recent?page=6",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-13",
+          "maxDate": "2026-10-14"
+        },
+        {
+          "page": 7,
+          "url": "https://journals.aps.org/prd/recent?page=7",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-13",
+          "maxDate": "2026-10-13"
+        },
+        {
+          "page": 8,
+          "url": "https://journals.aps.org/prd/recent?page=8",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-09",
+          "maxDate": "2026-10-13"
+        },
+        {
+          "page": 9,
+          "url": "https://journals.aps.org/prd/recent?page=9",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 13,
+          "minDate": "2026-10-08",
+          "maxDate": "2026-10-09"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 173,
+      "crossrefOnlineTotal": 363,
+      "crossrefOnlineRetrieved": 363,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 363,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/pre",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/pre/recent",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-19",
+          "maxDate": "2026-10-21"
+        },
+        {
+          "page": 2,
+          "url": "https://journals.aps.org/pre/recent?page=2",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-15",
+          "maxDate": "2026-10-19"
+        },
+        {
+          "page": 3,
+          "url": "https://journals.aps.org/pre/recent?page=3",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-13",
+          "maxDate": "2026-10-15"
+        },
+        {
+          "page": 4,
+          "url": "https://journals.aps.org/pre/recent?page=4",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 10,
+          "minDate": "2026-10-08",
+          "maxDate": "2026-10-13"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 70,
+      "crossrefOnlineTotal": 132,
+      "crossrefOnlineRetrieved": 132,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 132,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prresearch",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prresearch/recent",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-19",
+          "maxDate": "2026-10-21"
+        },
+        {
+          "page": 2,
+          "url": "https://journals.aps.org/prresearch/recent?page=2",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-14",
+          "maxDate": "2026-10-16"
+        },
+        {
+          "page": 3,
+          "url": "https://journals.aps.org/prresearch/recent?page=3",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 19,
+          "minDate": "2026-10-08",
+          "maxDate": "2026-10-14"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 59,
+      "crossrefOnlineTotal": 115,
+      "crossrefOnlineRetrieved": 115,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 115,
+      "manualAbstracts": 1,
+      "priorityA": 1,
+      "historicalMatches": 3,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prapplied",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prapplied/recent",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-16",
+          "maxDate": "2026-10-21"
+        },
+        {
+          "page": 2,
+          "url": "https://journals.aps.org/prapplied/recent?page=2",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 19,
+          "minDate": "2026-10-08",
+          "maxDate": "2026-10-15"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 39,
+      "crossrefOnlineTotal": 69,
+      "crossrefOnlineRetrieved": 69,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 69,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 1,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prmaterials",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prmaterials/recent",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-15",
+          "maxDate": "2026-10-21"
+        },
+        {
+          "page": 2,
+          "url": "https://journals.aps.org/prmaterials/recent?page=2",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-09",
+          "maxDate": "2026-10-15"
+        },
+        {
+          "page": 3,
+          "url": "https://journals.aps.org/prmaterials/recent?page=3",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 2,
+          "minDate": "2026-10-01",
+          "maxDate": "2026-10-09"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 42,
+      "crossrefOnlineTotal": 42,
+      "crossrefOnlineRetrieved": 42,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 61,
+      "manualAbstracts": 6,
+      "priorityA": 8,
+      "historicalMatches": 3,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prfluids",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prfluids/recent",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-13",
+          "maxDate": "2026-10-21"
+        },
+        {
+          "page": 2,
+          "url": "https://journals.aps.org/prfluids/recent?page=2",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 4,
+          "minDate": "2026-10-05",
+          "maxDate": "2026-10-13"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 24,
+      "crossrefOnlineTotal": 57,
+      "crossrefOnlineRetrieved": 57,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 57,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prper",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prper/recent",
+          "status": "200",
+          "datedCards": 13,
+          "inWindow": 7,
+          "minDate": "2026-10-01",
+          "maxDate": "2026-10-21"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 7,
+      "crossrefOnlineTotal": 11,
+      "crossrefOnlineRetrieved": 11,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 11,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prxenergy",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prxenergy/recent",
+          "status": "200",
+          "datedCards": 3,
+          "inWindow": 2,
+          "minDate": "2026-10-08",
+          "maxDate": "2026-10-21"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 2,
+      "crossrefOnlineTotal": 3,
+      "crossrefOnlineRetrieved": 3,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 3,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prxlife",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prxlife/recent",
+          "status": "200",
+          "datedCards": 2,
+          "inWindow": 1,
+          "minDate": "2026-10-08",
+          "maxDate": "2026-10-15"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 1,
+      "crossrefOnlineTotal": null,
+      "crossrefOnlineRetrieved": null,
+      "crossrefOnlineComplete": null,
+      "uniqueMerged": 5,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prxquantum",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prxquantum/recent",
+          "status": "200",
+          "datedCards": 15,
+          "inWindow": 9,
+          "minDate": "2026-10-01",
+          "maxDate": "2026-10-21"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 9,
+      "crossrefOnlineTotal": 20,
+      "crossrefOnlineRetrieved": 20,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 20,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/rmp",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/rmp/recent",
+          "status": "200",
+          "datedCards": 1,
+          "inWindow": 0,
+          "minDate": "2026-10-07",
+          "maxDate": "2026-10-07"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 0,
+      "crossrefOnlineTotal": 2,
+      "crossrefOnlineRetrieved": 2,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 2,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prab",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prab/recent",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 13,
+          "minDate": "2026-10-01",
+          "maxDate": "2026-10-21"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 13,
+      "crossrefOnlineTotal": 25,
+      "crossrefOnlineRetrieved": 25,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 25,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prxintelligence",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prxintelligence/recent",
+          "status": "200",
+          "datedCards": 8,
+          "inWindow": 5,
+          "minDate": "2026-10-01",
+          "maxDate": "2026-10-21"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 5,
+      "crossrefOnlineTotal": null,
+      "crossrefOnlineRetrieved": null,
+      "crossrefOnlineComplete": null,
+      "uniqueMerged": 7,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prl/accepted",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prl/accepted",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-20",
+          "maxDate": "2026-10-21"
+        },
+        {
+          "page": 2,
+          "url": "https://journals.aps.org/prl/accepted?page=2",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-16",
+          "maxDate": "2026-10-20"
+        },
+        {
+          "page": 3,
+          "url": "https://journals.aps.org/prl/accepted?page=3",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-13",
+          "maxDate": "2026-10-16"
+        },
+        {
+          "page": 4,
+          "url": "https://journals.aps.org/prl/accepted?page=4",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 15,
+          "minDate": "2026-10-08",
+          "maxDate": "2026-10-13"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 75,
+      "crossrefOnlineTotal": 168,
+      "crossrefOnlineRetrieved": 168,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 168,
+      "manualAbstracts": 4,
+      "priorityA": 7,
+      "historicalMatches": 2,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prx/accepted",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prx/accepted",
+          "status": "200",
+          "datedCards": 19,
+          "inWindow": 10,
+          "minDate": "2026-10-02",
+          "maxDate": "2026-10-20"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 10,
+      "crossrefOnlineTotal": 21,
+      "crossrefOnlineRetrieved": 21,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 21,
+      "manualAbstracts": 0,
+      "priorityA": 2,
+      "historicalMatches": 1,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prb/accepted",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prb/accepted",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-20",
+          "maxDate": "2026-10-21"
+        },
+        {
+          "page": 2,
+          "url": "https://journals.aps.org/prb/accepted?page=2",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-20",
+          "maxDate": "2026-10-20"
+        },
+        {
+          "page": 3,
+          "url": "https://journals.aps.org/prb/accepted?page=3",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 19,
+          "minDate": "2026-10-19",
+          "maxDate": "2026-10-20"
+        },
+        {
+          "page": 4,
+          "url": "https://journals.aps.org/prb/accepted?page=4",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-16",
+          "maxDate": "2026-10-19"
+        },
+        {
+          "page": 5,
+          "url": "https://journals.aps.org/prb/accepted?page=5",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 19,
+          "minDate": "2026-10-15",
+          "maxDate": "2026-10-16"
+        },
+        {
+          "page": 6,
+          "url": "https://journals.aps.org/prb/accepted?page=6",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-14",
+          "maxDate": "2026-10-15"
+        },
+        {
+          "page": 7,
+          "url": "https://journals.aps.org/prb/accepted?page=7",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-13",
+          "maxDate": "2026-10-14"
+        },
+        {
+          "page": 8,
+          "url": "https://journals.aps.org/prb/accepted?page=8",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-09",
+          "maxDate": "2026-10-13"
+        },
+        {
+          "page": 9,
+          "url": "https://journals.aps.org/prb/accepted?page=9",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-09",
+          "maxDate": "2026-10-09"
+        },
+        {
+          "page": 10,
+          "url": "https://journals.aps.org/prb/accepted?page=10",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 11,
+          "minDate": "2026-10-08",
+          "maxDate": "2026-10-09"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 189,
+      "crossrefOnlineTotal": 385,
+      "crossrefOnlineRetrieved": 385,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 385,
+      "manualAbstracts": 5,
+      "priorityA": 5,
+      "historicalMatches": 10,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/pra/accepted",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/pra/accepted",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-20",
+          "maxDate": "2026-10-21"
+        },
+        {
+          "page": 2,
+          "url": "https://journals.aps.org/pra/accepted?page=2",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-19",
+          "maxDate": "2026-10-20"
+        },
+        {
+          "page": 3,
+          "url": "https://journals.aps.org/pra/accepted?page=3",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-15",
+          "maxDate": "2026-10-19"
+        },
+        {
+          "page": 4,
+          "url": "https://journals.aps.org/pra/accepted?page=4",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-15",
+          "maxDate": "2026-10-15"
+        },
+        {
+          "page": 5,
+          "url": "https://journals.aps.org/pra/accepted?page=5",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-13",
+          "maxDate": "2026-10-14"
+        },
+        {
+          "page": 6,
+          "url": "https://journals.aps.org/pra/accepted?page=6",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 15,
+          "minDate": "2026-10-08",
+          "maxDate": "2026-10-13"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 115,
+      "crossrefOnlineTotal": 243,
+      "crossrefOnlineRetrieved": 243,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 243,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prc/accepted",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prc/accepted",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-19",
+          "maxDate": "2026-10-21"
+        },
+        {
+          "page": 2,
+          "url": "https://journals.aps.org/prc/accepted?page=2",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 11,
+          "minDate": "2026-10-07",
+          "maxDate": "2026-10-16"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 31,
+      "crossrefOnlineTotal": 80,
+      "crossrefOnlineRetrieved": 80,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 80,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prd/accepted",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prd/accepted",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-20",
+          "maxDate": "2026-10-21"
+        },
+        {
+          "page": 2,
+          "url": "https://journals.aps.org/prd/accepted?page=2",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 19,
+          "minDate": "2026-10-20",
+          "maxDate": "2026-10-20"
+        },
+        {
+          "page": 3,
+          "url": "https://journals.aps.org/prd/accepted?page=3",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-19",
+          "maxDate": "2026-10-20"
+        },
+        {
+          "page": 4,
+          "url": "https://journals.aps.org/prd/accepted?page=4",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-16",
+          "maxDate": "2026-10-19"
+        },
+        {
+          "page": 5,
+          "url": "https://journals.aps.org/prd/accepted?page=5",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-16",
+          "maxDate": "2026-10-16"
+        },
+        {
+          "page": 6,
+          "url": "https://journals.aps.org/prd/accepted?page=6",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-15",
+          "maxDate": "2026-10-16"
+        },
+        {
+          "page": 7,
+          "url": "https://journals.aps.org/prd/accepted?page=7",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-14",
+          "maxDate": "2026-10-15"
+        },
+        {
+          "page": 8,
+          "url": "https://journals.aps.org/prd/accepted?page=8",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-13",
+          "maxDate": "2026-10-14"
+        },
+        {
+          "page": 9,
+          "url": "https://journals.aps.org/prd/accepted?page=9",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-09",
+          "maxDate": "2026-10-13"
+        },
+        {
+          "page": 10,
+          "url": "https://journals.aps.org/prd/accepted?page=10",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 10,
+          "minDate": "2026-10-08",
+          "maxDate": "2026-10-09"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 189,
+      "crossrefOnlineTotal": 363,
+      "crossrefOnlineRetrieved": 363,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 363,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/pre/accepted",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/pre/accepted",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-20",
+          "maxDate": "2026-10-21"
+        },
+        {
+          "page": 2,
+          "url": "https://journals.aps.org/pre/accepted?page=2",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 18,
+          "minDate": "2026-10-14",
+          "maxDate": "2026-10-20"
+        },
+        {
+          "page": 3,
+          "url": "https://journals.aps.org/pre/accepted?page=3",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-09",
+          "maxDate": "2026-10-14"
+        },
+        {
+          "page": 4,
+          "url": "https://journals.aps.org/pre/accepted?page=4",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 2,
+          "minDate": "2026-10-07",
+          "maxDate": "2026-10-09"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 60,
+      "crossrefOnlineTotal": 132,
+      "crossrefOnlineRetrieved": 132,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 132,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prresearch/accepted",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prresearch/accepted",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-19",
+          "maxDate": "2026-10-21"
+        },
+        {
+          "page": 2,
+          "url": "https://journals.aps.org/prresearch/accepted?page=2",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 16,
+          "minDate": "2026-10-14",
+          "maxDate": "2026-10-19"
+        },
+        {
+          "page": 3,
+          "url": "https://journals.aps.org/prresearch/accepted?page=3",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 16,
+          "minDate": "2026-10-07",
+          "maxDate": "2026-10-14"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 52,
+      "crossrefOnlineTotal": 115,
+      "crossrefOnlineRetrieved": 115,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 115,
+      "manualAbstracts": 1,
+      "priorityA": 1,
+      "historicalMatches": 3,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prapplied/accepted",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prapplied/accepted",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-14",
+          "maxDate": "2026-10-21"
+        },
+        {
+          "page": 2,
+          "url": "https://journals.aps.org/prapplied/accepted?page=2",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 10,
+          "minDate": "2026-10-06",
+          "maxDate": "2026-10-14"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 30,
+      "crossrefOnlineTotal": 69,
+      "crossrefOnlineRetrieved": 69,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 69,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 1,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prmaterials/accepted",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prmaterials/accepted",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 19,
+          "minDate": "2026-10-08",
+          "maxDate": "2026-10-21"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 19,
+      "crossrefOnlineTotal": 42,
+      "crossrefOnlineRetrieved": 42,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 61,
+      "manualAbstracts": 6,
+      "priorityA": 8,
+      "historicalMatches": 3,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prfluids/accepted",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prfluids/accepted",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-13",
+          "maxDate": "2026-10-21"
+        },
+        {
+          "page": 2,
+          "url": "https://journals.aps.org/prfluids/accepted?page=2",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 13,
+          "minDate": "2026-10-06",
+          "maxDate": "2026-10-13"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 33,
+      "crossrefOnlineTotal": 57,
+      "crossrefOnlineRetrieved": 57,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 57,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prper/accepted",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prper/accepted",
+          "status": "200",
+          "datedCards": 9,
+          "inWindow": 4,
+          "minDate": "2026-10-01",
+          "maxDate": "2026-10-19"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 4,
+      "crossrefOnlineTotal": 11,
+      "crossrefOnlineRetrieved": 11,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 11,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prxenergy/accepted",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prxenergy/accepted",
+          "status": "200",
+          "datedCards": 2,
+          "inWindow": 1,
+          "minDate": "2026-10-08",
+          "maxDate": "2026-10-14"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 1,
+      "crossrefOnlineTotal": 3,
+      "crossrefOnlineRetrieved": 3,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 3,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prxlife/accepted",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prxlife/accepted",
+          "status": "200",
+          "datedCards": 5,
+          "inWindow": 4,
+          "minDate": "2026-10-06",
+          "maxDate": "2026-10-19"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 4,
+      "crossrefOnlineTotal": null,
+      "crossrefOnlineRetrieved": null,
+      "crossrefOnlineComplete": null,
+      "uniqueMerged": 5,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prxquantum/accepted",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prxquantum/accepted",
+          "status": "200",
+          "datedCards": 18,
+          "inWindow": 11,
+          "minDate": "2026-10-02",
+          "maxDate": "2026-10-21"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 11,
+      "crossrefOnlineTotal": 20,
+      "crossrefOnlineRetrieved": 20,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 20,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/rmp/accepted",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/rmp/accepted",
+          "status": "200",
+          "datedCards": 2,
+          "inWindow": 2,
+          "minDate": "2026-10-13",
+          "maxDate": "2026-10-14"
+        }
+      ],
+      "windowReached": true,
+      "stop": "no-next-page",
+      "publisherWindowRecords": 2,
+      "crossrefOnlineTotal": 2,
+      "crossrefOnlineRetrieved": 2,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 2,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prab/accepted",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prab/accepted",
+          "status": "200",
+          "datedCards": 13,
+          "inWindow": 12,
+          "minDate": "2026-10-05",
+          "maxDate": "2026-10-21"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 12,
+      "crossrefOnlineTotal": 25,
+      "crossrefOnlineRetrieved": 25,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 25,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "APS/prxintelligence/accepted",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://journals.aps.org/prxintelligence/accepted",
+          "status": "200",
+          "datedCards": 5,
+          "inWindow": 2,
+          "minDate": "2026-10-02",
+          "maxDate": "2026-10-19"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 2,
+      "crossrefOnlineTotal": null,
+      "crossrefOnlineRetrieved": null,
+      "crossrefOnlineComplete": null,
+      "uniqueMerged": 7,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "Nature",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://www.nature.com/nature/research-articles",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-21",
+          "maxDate": "2026-10-21"
+        },
+        {
+          "page": 2,
+          "url": "https://www.nature.com/nature/research-articles?searchType=journalSearch&sort=PubDate&page=2",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-14",
+          "maxDate": "2026-10-21"
+        },
+        {
+          "page": 3,
+          "url": "https://www.nature.com/nature/research-articles?searchType=journalSearch&sort=PubDate&page=3",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 14,
+          "minDate": "2026-10-07",
+          "maxDate": "2026-10-14"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 54,
+      "crossrefOnlineTotal": 175,
+      "crossrefOnlineRetrieved": 175,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 175,
+      "manualAbstracts": 4,
+      "priorityA": 4,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "Nature Physics",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://www.nature.com/nphys/research-articles",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 14,
+          "minDate": "2026-09-28",
+          "maxDate": "2026-10-21"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 14,
+      "crossrefOnlineTotal": 24,
+      "crossrefOnlineRetrieved": 24,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 24,
+      "manualAbstracts": 4,
+      "priorityA": 4,
+      "historicalMatches": 1,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "Nature Communications",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://www.nature.com/ncomms/research-articles",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-21",
+          "maxDate": "2026-10-21"
+        },
+        {
+          "page": 2,
+          "url": "https://www.nature.com/ncomms/research-articles?searchType=journalSearch&sort=PubDate&page=2",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-20",
+          "maxDate": "2026-10-21"
+        },
+        {
+          "page": 3,
+          "url": "https://www.nature.com/ncomms/research-articles?searchType=journalSearch&sort=PubDate&page=3",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-19",
+          "maxDate": "2026-10-20"
+        },
+        {
+          "page": 4,
+          "url": "https://www.nature.com/ncomms/research-articles?searchType=journalSearch&sort=PubDate&page=4",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-19",
+          "maxDate": "2026-10-19"
+        },
+        {
+          "page": 5,
+          "url": "https://www.nature.com/ncomms/research-articles?searchType=journalSearch&sort=PubDate&page=5",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-17",
+          "maxDate": "2026-10-19"
+        },
+        {
+          "page": 6,
+          "url": "https://www.nature.com/ncomms/research-articles?searchType=journalSearch&sort=PubDate&page=6",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-17",
+          "maxDate": "2026-10-17"
+        },
+        {
+          "page": 7,
+          "url": "https://www.nature.com/ncomms/research-articles?searchType=journalSearch&sort=PubDate&page=7",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-16",
+          "maxDate": "2026-10-17"
+        },
+        {
+          "page": 8,
+          "url": "https://www.nature.com/ncomms/research-articles?searchType=journalSearch&sort=PubDate&page=8",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-16",
+          "maxDate": "2026-10-16"
+        },
+        {
+          "page": 9,
+          "url": "https://www.nature.com/ncomms/research-articles?searchType=journalSearch&sort=PubDate&page=9",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-15",
+          "maxDate": "2026-10-16"
+        },
+        {
+          "page": 10,
+          "url": "https://www.nature.com/ncomms/research-articles?searchType=journalSearch&sort=PubDate&page=10",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-15",
+          "maxDate": "2026-10-15"
+        },
+        {
+          "page": 11,
+          "url": "https://www.nature.com/ncomms/research-articles?searchType=journalSearch&sort=PubDate&page=11",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-14",
+          "maxDate": "2026-10-15"
+        },
+        {
+          "page": 12,
+          "url": "https://www.nature.com/ncomms/research-articles?searchType=journalSearch&sort=PubDate&page=12",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-14",
+          "maxDate": "2026-10-14"
+        },
+        {
+          "page": 13,
+          "url": "https://www.nature.com/ncomms/research-articles?searchType=journalSearch&sort=PubDate&page=13",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-12",
+          "maxDate": "2026-10-13"
+        },
+        {
+          "page": 14,
+          "url": "https://www.nature.com/ncomms/research-articles?searchType=journalSearch&sort=PubDate&page=14",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-12",
+          "maxDate": "2026-10-12"
+        },
+        {
+          "page": 15,
+          "url": "https://www.nature.com/ncomms/research-articles?searchType=journalSearch&sort=PubDate&page=15",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-11",
+          "maxDate": "2026-10-12"
+        },
+        {
+          "page": 16,
+          "url": "https://www.nature.com/ncomms/research-articles?searchType=journalSearch&sort=PubDate&page=16",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 5,
+          "minDate": "2026-10-10",
+          "maxDate": "2026-10-12"
+        },
+        {
+          "page": 17,
+          "url": "https://www.nature.com/ncomms/research-articles?searchType=journalSearch&sort=PubDate&page=17",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-09",
+          "maxDate": "2026-10-10"
+        },
+        {
+          "page": 18,
+          "url": "https://www.nature.com/ncomms/research-articles?searchType=journalSearch&sort=PubDate&page=18",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 20,
+          "minDate": "2026-10-09",
+          "maxDate": "2026-10-09"
+        },
+        {
+          "page": 19,
+          "url": "https://www.nature.com/ncomms/research-articles?searchType=journalSearch&sort=PubDate&page=19",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 18,
+          "minDate": "2026-10-08",
+          "maxDate": "2026-10-09"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 363,
+      "crossrefOnlineTotal": 400,
+      "crossrefOnlineRetrieved": 400,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 401,
+      "manualAbstracts": 6,
+      "priorityA": 5,
+      "historicalMatches": 5,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "npj Quantum Materials",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://www.nature.com/npjquantmats/research-articles",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 0,
+          "minDate": "2026-08-02",
+          "maxDate": "2026-10-08"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 0,
+      "crossrefOnlineTotal": 0,
+      "crossrefOnlineRetrieved": 0,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 0,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "Nature Materials",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://www.nature.com/nmat/research-articles",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 1,
+          "minDate": "2026-09-03",
+          "maxDate": "2026-10-19"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 1,
+      "crossrefOnlineTotal": 5,
+      "crossrefOnlineRetrieved": 5,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 5,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "Communications Physics",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://www.nature.com/commsphys/research-articles",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 19,
+          "minDate": "2026-10-08",
+          "maxDate": "2026-10-21"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 19,
+      "crossrefOnlineTotal": 20,
+      "crossrefOnlineRetrieved": 20,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 20,
+      "manualAbstracts": 1,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "Communications Materials",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://www.nature.com/commsmat/research-articles",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 10,
+          "minDate": "2026-10-03",
+          "maxDate": "2026-10-19"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 10,
+      "crossrefOnlineTotal": 11,
+      "crossrefOnlineRetrieved": 11,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 11,
+      "manualAbstracts": 1,
+      "priorityA": 1,
+      "historicalMatches": 2,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "npj 2D Materials and Applications",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://www.nature.com/npj2dmaterials/research-articles",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 2,
+          "minDate": "2026-08-07",
+          "maxDate": "2026-10-13"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 2,
+      "crossrefOnlineTotal": 2,
+      "crossrefOnlineRetrieved": 2,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 2,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "Science",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://www.science.org/toc/science/current",
+          "status": "403",
+          "datedCards": 0,
+          "inWindow": 0,
+          "minDate": null,
+          "maxDate": null
+        }
+      ],
+      "windowReached": false,
+      "stop": "blocked-or-unparsed",
+      "publisherWindowRecords": 0,
+      "crossrefOnlineTotal": 2,
+      "crossrefOnlineRetrieved": 2,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 41,
+      "manualAbstracts": 2,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "官网403或日期目录不可解析，不能据此断言0新增；见元数据补查。",
+      "metadataFallbacks": [
+        {
+          "mode": "pub",
+          "status": "200",
+          "total": 41,
+          "retrieved": 41,
+          "complete": true,
+          "url": "https://api.crossref.org/journals/0036-8075/works?filter=from-pub-date:2026-10-09,until-pub-date:2026-10-22,type:journal-article&rows=1000",
+          "checkedAt": "2026-10-22T03:25:39.018640+00:00"
+        },
+        {
+          "mode": "created",
+          "status": "200",
+          "total": 38,
+          "retrieved": 38,
+          "complete": true,
+          "url": "https://api.crossref.org/journals/0036-8075/works?filter=from-created-date:2026-10-09,until-created-date:2026-10-22,type:journal-article&rows=1000",
+          "checkedAt": "2026-10-22T03:25:38.219325+00:00"
+        }
+      ]
+    },
+    {
+      "source": "Science Advances",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://www.science.org/toc/sciadv/current",
+          "status": "403",
+          "datedCards": 0,
+          "inWindow": 0,
+          "minDate": null,
+          "maxDate": null
+        }
+      ],
+      "windowReached": false,
+      "stop": "blocked-or-unparsed",
+      "publisherWindowRecords": 0,
+      "crossrefOnlineTotal": 0,
+      "crossrefOnlineRetrieved": 0,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 224,
+      "manualAbstracts": 5,
+      "priorityA": 2,
+      "historicalMatches": 1,
+      "limitation": "官网403或日期目录不可解析，不能据此断言0新增；见元数据补查。",
+      "metadataFallbacks": [
+        {
+          "mode": "pub",
+          "status": "200",
+          "total": 180,
+          "retrieved": 180,
+          "complete": true,
+          "url": "https://api.crossref.org/journals/2375-2548/works?filter=from-pub-date:2026-10-09,until-pub-date:2026-10-22,type:journal-article&rows=1000",
+          "checkedAt": "2026-10-22T03:25:41.786473+00:00"
+        },
+        {
+          "mode": "created",
+          "status": "200",
+          "total": 180,
+          "retrieved": 180,
+          "complete": true,
+          "url": "https://api.crossref.org/journals/2375-2548/works?filter=from-created-date:2026-10-09,until-created-date:2026-10-22,type:journal-article&rows=1000",
+          "checkedAt": "2026-10-22T03:25:42.105397+00:00"
+        }
+      ]
+    },
+    {
+      "source": "Advanced Materials",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://advanced.onlinelibrary.wiley.com/toc/15214095/0/0",
+          "status": "403",
+          "datedCards": 0,
+          "inWindow": 0,
+          "minDate": null,
+          "maxDate": null
+        }
+      ],
+      "windowReached": false,
+      "stop": "blocked-or-unparsed",
+      "publisherWindowRecords": 0,
+      "crossrefOnlineTotal": 134,
+      "crossrefOnlineRetrieved": 134,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 134,
+      "manualAbstracts": 7,
+      "priorityA": 2,
+      "historicalMatches": 1,
+      "limitation": "官网403或日期目录不可解析，不能据此断言0新增；见元数据补查。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "Advanced Functional Materials",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://advanced.onlinelibrary.wiley.com/toc/16163028/0/0",
+          "status": "403",
+          "datedCards": 0,
+          "inWindow": 0,
+          "minDate": null,
+          "maxDate": null
+        }
+      ],
+      "windowReached": false,
+      "stop": "blocked-or-unparsed",
+      "publisherWindowRecords": 0,
+      "crossrefOnlineTotal": 255,
+      "crossrefOnlineRetrieved": 255,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 255,
+      "manualAbstracts": 14,
+      "priorityA": 2,
+      "historicalMatches": 2,
+      "limitation": "官网403或日期目录不可解析，不能据此断言0新增；见元数据补查。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "Nano Letters",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://pubs.acs.org/toc/nalefd/0/0",
+          "status": "403",
+          "datedCards": 0,
+          "inWindow": 0,
+          "minDate": null,
+          "maxDate": null
+        }
+      ],
+      "windowReached": false,
+      "stop": "blocked-or-unparsed",
+      "publisherWindowRecords": 0,
+      "crossrefOnlineTotal": 76,
+      "crossrefOnlineRetrieved": 76,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 76,
+      "manualAbstracts": 17,
+      "priorityA": 3,
+      "historicalMatches": 3,
+      "limitation": "官网403或日期目录不可解析，不能据此断言0新增；见元数据补查。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "ACS Nano",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://pubs.acs.org/toc/ancac3/0/0",
+          "status": "403",
+          "datedCards": 0,
+          "inWindow": 0,
+          "minDate": null,
+          "maxDate": null
+        }
+      ],
+      "windowReached": false,
+      "stop": "blocked-or-unparsed",
+      "publisherWindowRecords": 0,
+      "crossrefOnlineTotal": 85,
+      "crossrefOnlineRetrieved": 85,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 85,
+      "manualAbstracts": 12,
+      "priorityA": 1,
+      "historicalMatches": 0,
+      "limitation": "官网403或日期目录不可解析，不能据此断言0新增；见元数据补查。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "JACS",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://pubs.acs.org/toc/jacsat/0/0",
+          "status": "403",
+          "datedCards": 0,
+          "inWindow": 0,
+          "minDate": null,
+          "maxDate": null
+        }
+      ],
+      "windowReached": false,
+      "stop": "blocked-or-unparsed",
+      "publisherWindowRecords": 0,
+      "crossrefOnlineTotal": 186,
+      "crossrefOnlineRetrieved": 186,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 186,
+      "manualAbstracts": 10,
+      "priorityA": 1,
+      "historicalMatches": 1,
+      "limitation": "官网403或日期目录不可解析，不能据此断言0新增；见元数据补查。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "Chemistry of Materials",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://pubs.acs.org/toc/cmatex/0/0",
+          "status": "403",
+          "datedCards": 0,
+          "inWindow": 0,
+          "minDate": null,
+          "maxDate": null
+        }
+      ],
+      "windowReached": false,
+      "stop": "blocked-or-unparsed",
+      "publisherWindowRecords": 0,
+      "crossrefOnlineTotal": 27,
+      "crossrefOnlineRetrieved": 27,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 27,
+      "manualAbstracts": 6,
+      "priorityA": 1,
+      "historicalMatches": 0,
+      "limitation": "官网403或日期目录不可解析，不能据此断言0新增；见元数据补查。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "Crystal Growth & Design",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://pubs.acs.org/toc/cgdefu/0/0",
+          "status": "403",
+          "datedCards": 0,
+          "inWindow": 0,
+          "minDate": null,
+          "maxDate": null
+        }
+      ],
+      "windowReached": false,
+      "stop": "blocked-or-unparsed",
+      "publisherWindowRecords": 0,
+      "crossrefOnlineTotal": 49,
+      "crossrefOnlineRetrieved": 49,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 49,
+      "manualAbstracts": 11,
+      "priorityA": 3,
+      "historicalMatches": 1,
+      "limitation": "官网403或日期目录不可解析，不能据此断言0新增；见元数据补查。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "Journal of Crystal Growth",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://www.sciencedirect.com/journal/journal-of-crystal-growth/articles-in-press",
+          "status": "403",
+          "datedCards": 0,
+          "inWindow": 0,
+          "minDate": null,
+          "maxDate": null
+        }
+      ],
+      "windowReached": false,
+      "stop": "blocked-or-unparsed",
+      "publisherWindowRecords": 0,
+      "crossrefOnlineTotal": 0,
+      "crossrefOnlineRetrieved": 0,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 7,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "官网403或日期目录不可解析，不能据此断言0新增；见元数据补查。",
+      "metadataFallbacks": [
+        {
+          "mode": "pub",
+          "status": "200",
+          "total": 0,
+          "retrieved": 0,
+          "complete": true,
+          "url": "https://api.crossref.org/journals/0022-0248/works?filter=from-pub-date:2026-10-09,until-pub-date:2026-10-22,type:journal-article&rows=1000",
+          "checkedAt": "2026-10-22T03:25:42.778248+00:00"
+        },
+        {
+          "mode": "created",
+          "status": "200",
+          "total": 7,
+          "retrieved": 7,
+          "complete": true,
+          "url": "https://api.crossref.org/journals/0022-0248/works?filter=from-created-date:2026-10-09,until-created-date:2026-10-22,type:journal-article&rows=1000",
+          "checkedAt": "2026-10-22T03:25:43.746609+00:00"
+        }
+      ]
+    },
+    {
+      "source": "npj Computational Materials",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://www.nature.com/npjcompumats/research-articles",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 14,
+          "minDate": "2026-10-05",
+          "maxDate": "2026-10-20"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 14,
+      "crossrefOnlineTotal": 14,
+      "crossrefOnlineRetrieved": 14,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 14,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "Applied Physics Letters",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://pubs.aip.org/apl/issue",
+          "status": "403",
+          "datedCards": 0,
+          "inWindow": 0,
+          "minDate": null,
+          "maxDate": null
+        }
+      ],
+      "windowReached": false,
+      "stop": "blocked-or-unparsed",
+      "publisherWindowRecords": 0,
+      "crossrefOnlineTotal": 83,
+      "crossrefOnlineRetrieved": 83,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 83,
+      "manualAbstracts": 4,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "官网403或日期目录不可解析，不能据此断言0新增；见元数据补查。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "2D Materials",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://iopscience.iop.org/journal/2053-1583",
+          "status": "200",
+          "datedCards": 0,
+          "inWindow": 0,
+          "minDate": null,
+          "maxDate": null
+        }
+      ],
+      "windowReached": false,
+      "stop": "blocked-or-unparsed",
+      "publisherWindowRecords": 0,
+      "crossrefOnlineTotal": 11,
+      "crossrefOnlineRetrieved": 11,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 11,
+      "manualAbstracts": 2,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "官网403或日期目录不可解析，不能据此断言0新增；见元数据补查。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "Acta Materialia",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://www.sciencedirect.com/journal/acta-materialia/articles-in-press",
+          "status": "403",
+          "datedCards": 0,
+          "inWindow": 0,
+          "minDate": null,
+          "maxDate": null
+        }
+      ],
+      "windowReached": false,
+      "stop": "blocked-or-unparsed",
+      "publisherWindowRecords": 0,
+      "crossrefOnlineTotal": 0,
+      "crossrefOnlineRetrieved": 0,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 26,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "官网403或日期目录不可解析，不能据此断言0新增；见元数据补查。",
+      "metadataFallbacks": [
+        {
+          "mode": "pub",
+          "status": "200",
+          "total": 0,
+          "retrieved": 0,
+          "complete": true,
+          "url": "https://api.crossref.org/journals/1359-6454/works?filter=from-pub-date:2026-10-09,until-pub-date:2026-10-22,type:journal-article&rows=1000",
+          "checkedAt": "2026-10-22T03:25:43.704609+00:00"
+        },
+        {
+          "mode": "created",
+          "status": "200",
+          "total": 26,
+          "retrieved": 26,
+          "complete": true,
+          "url": "https://api.crossref.org/journals/1359-6454/works?filter=from-created-date:2026-10-09,until-created-date:2026-10-22,type:journal-article&rows=1000",
+          "checkedAt": "2026-10-22T03:25:46.048221+00:00"
+        }
+      ]
+    },
+    {
+      "source": "Nature Nanotechnology",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://www.nature.com/nnano/research-articles",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 6,
+          "minDate": "2026-09-02",
+          "maxDate": "2026-10-20"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 6,
+      "crossrefOnlineTotal": 19,
+      "crossrefOnlineRetrieved": 19,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 19,
+      "manualAbstracts": 4,
+      "priorityA": 3,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "Nature Electronics",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://www.nature.com/natelectron/research-articles",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 1,
+          "minDate": "2026-07-17",
+          "maxDate": "2026-10-19"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 1,
+      "crossrefOnlineTotal": 4,
+      "crossrefOnlineRetrieved": 4,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 4,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "Nature Synthesis",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://www.nature.com/natsynth/research-articles",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 13,
+          "minDate": "2026-09-28",
+          "maxDate": "2026-10-19"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 13,
+      "crossrefOnlineTotal": 18,
+      "crossrefOnlineRetrieved": 18,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 18,
+      "manualAbstracts": 1,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "Nature Chemistry",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://www.nature.com/nchem/research-articles",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 4,
+          "minDate": "2026-09-10",
+          "maxDate": "2026-10-21"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 4,
+      "crossrefOnlineTotal": 5,
+      "crossrefOnlineRetrieved": 5,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 5,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "Nature Photonics",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://www.nature.com/nphoton/research-articles",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 10,
+          "minDate": "2026-09-24",
+          "maxDate": "2026-10-20"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 10,
+      "crossrefOnlineTotal": 11,
+      "crossrefOnlineRetrieved": 11,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 11,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "Nature Reviews Materials",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://www.nature.com/natrevmats/reviews-and-analysis",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 2,
+          "minDate": "2026-06-03",
+          "maxDate": "2026-10-19"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 2,
+      "crossrefOnlineTotal": 3,
+      "crossrefOnlineRetrieved": 3,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 3,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "Nature Reviews Physics",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://www.nature.com/natrevphys/reviews-and-analysis",
+          "status": "200",
+          "datedCards": 20,
+          "inWindow": 2,
+          "minDate": "2026-06-17",
+          "maxDate": "2026-10-19"
+        }
+      ],
+      "windowReached": true,
+      "stop": "passed-window-start",
+      "publisherWindowRecords": 2,
+      "crossrefOnlineTotal": 4,
+      "crossrefOnlineRetrieved": 4,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 4,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "成功翻至日期窗口边界；Accepted与Published分开，不直接相加当独立论文。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "PNAS",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://www.pnas.org/toc/pnas/current",
+          "status": "403",
+          "datedCards": 0,
+          "inWindow": 0,
+          "minDate": null,
+          "maxDate": null
+        }
+      ],
+      "windowReached": false,
+      "stop": "blocked-or-unparsed",
+      "publisherWindowRecords": 0,
+      "crossrefOnlineTotal": 198,
+      "crossrefOnlineRetrieved": 198,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 198,
+      "manualAbstracts": 4,
+      "priorityA": 2,
+      "historicalMatches": 0,
+      "limitation": "官网403或日期目录不可解析，不能据此断言0新增；见元数据补查。",
+      "metadataFallbacks": []
+    },
+    {
+      "source": "Science Bulletin",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://www.sciencedirect.com/journal/science-bulletin/articles-in-press",
+          "status": "403",
+          "datedCards": 0,
+          "inWindow": 0,
+          "minDate": null,
+          "maxDate": null
+        }
+      ],
+      "windowReached": false,
+      "stop": "blocked-or-unparsed",
+      "publisherWindowRecords": 0,
+      "crossrefOnlineTotal": 0,
+      "crossrefOnlineRetrieved": 0,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 35,
+      "manualAbstracts": 0,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "官网403或日期目录不可解析，不能据此断言0新增；见元数据补查。",
+      "metadataFallbacks": [
+        {
+          "mode": "pub",
+          "status": "200",
+          "total": 0,
+          "retrieved": 0,
+          "complete": true,
+          "url": "https://api.crossref.org/journals/2095-9273/works?filter=from-pub-date:2026-10-09,until-pub-date:2026-10-22,type:journal-article&rows=1000",
+          "checkedAt": "2026-10-22T04:17:06.694420+00:00"
+        },
+        {
+          "mode": "created",
+          "status": "200",
+          "total": 35,
+          "retrieved": 35,
+          "complete": true,
+          "url": "https://api.crossref.org/journals/2095-9273/works?filter=from-created-date:2026-10-09,until-created-date:2026-10-22,type:journal-article&rows=1000",
+          "checkedAt": "2026-10-22T04:16:52.009652+00:00"
+        }
+      ]
+    },
+    {
+      "source": "National Science Review",
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://academic.oup.com/nsr/advance-articles",
+          "status": "403",
+          "datedCards": 0,
+          "inWindow": 0,
+          "minDate": null,
+          "maxDate": null
+        }
+      ],
+      "windowReached": false,
+      "stop": "blocked-or-unparsed",
+      "publisherWindowRecords": 0,
+      "crossrefOnlineTotal": 27,
+      "crossrefOnlineRetrieved": 27,
+      "crossrefOnlineComplete": true,
+      "uniqueMerged": 27,
+      "manualAbstracts": 2,
+      "priorityA": 0,
+      "historicalMatches": 0,
+      "limitation": "官网403或日期目录不可解析，不能据此断言0新增；见元数据补查。",
+      "metadataFallbacks": []
+    }
+  ]
+}

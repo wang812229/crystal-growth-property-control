@@ -31,6 +31,7 @@ const paperCard = (paper,i) => `<details class="home-paper-card"><summary><span 
 const categories=[...new Set(latest.papers.map(p=>p.category??'未分类'))];
 const home = shell({title:`${brand}｜量子材料研究证据库`,description:'每日追踪晶体生长和物性调控、超导、重费米子、磁性拓扑与二维材料研究。',active:'',body:`
 <main><section class="hero"><div><p class="eyebrow">DAILY LITERATURE BRIEF · EVIDENCE FIRST</p><h1>每天读透一批论文，<br><em>留下可核查的证据</em></h1><p class="lead">从正式论文、作者公开稿与 arXiv 全文，整理问题、样品、生长、质量、测量、证据、局限与下一步实验。</p><form class="home-quick-search" action="${url('/search/')}"><input name="query" aria-label="首页文献关键词" placeholder="材料、作者或生长方法"><button>检索文献 →</button></form><a class="button" href="${url(`/reports/${latest.date}/`)}">阅读最新简报 →</a><a class="button" style="margin-left:8px;background:transparent;color:var(--ink);border:1px solid var(--ink)" href="${url('/search/')}">智能检索与证据问答</a></div><div class="lattice"><i></i><i></i><i></i><strong>${latest.papers.length} PAPERS</strong><small>${esc(latest.date)} · ${latest.papers.filter(p=>p.access.includes('全文精读')).length} 篇全文精读</small></div></section>
+<section class="section"><p class="eyebrow">2026.10.09–10.22 · 正式期刊补查</p><h2>近两周大期刊补漏复核</h2><p>57条优先补核线索；本轮133篇摘要复核，尚未新增正文精读。与每日简报、历史已读目录分开。</p><a class="button" href="${url('/audits/2026-10-09_22/')}">查看逐刊审计与补读队列 →</a></section>
 <section class="section">${renderResearchIdeas(latest.researchIdeas,latest.date,{basePath:base,compact:true})}</section>
 <section id="home-personal-root" data-base="${esc(base)}" data-index="${url('/assets/search-index.json')}"></section>
 <section class="section research-entry-section"><div class="section-title"><div><p class="eyebrow">RESEARCH OPERATING SYSTEM</p><h2>从阅读，走到实验与追踪</h2></div></div><div class="research-entry-grid"><a href="${url('/materials/')}"><small>01 · MATERIAL TRACKS</small><h3>跨期材料时间线</h3><p>沿着生长、结构、物性、调控与争议追踪 α-RuCl₃、La₃Ni₂O₇、UTe₂。</p><b>进入材料脉络 →</b></a><a href="${url('/workspace/')}"><small>02 · PERSONAL LAB</small><h3>我的研究面板</h3><p>管理关注方向、实验记录和项目化收藏；数据只保存在当前设备。</p><b>打开个人工作台 →</b></a><a href="${url('/weekly/')}"><small>03 · WEEKLY SIGNALS</small><h3>本周趋势仪表盘</h3><p>用站内真实收录记录呈现热点材料、方法、测量与期刊分布。</p><b>查看本周信号 →</b></a></div></section>
@@ -67,6 +68,7 @@ const extraCss=`.figure-img{display:block;width:100%;height:auto;border-radius:1
 await rm(out, { recursive:true, force:true });
 await mkdir(join(out, 'assets'), { recursive:true });
 await writeFile(join(out, 'index.html'), home);
+await cp(join(root,'public','audits'),join(out,'audits'),{recursive:true});
 await mkdir(join(out,'ideas'),{recursive:true});
 await writeFile(join(out,'ideas','index.html'),ideasPage);
 await cp(join(root,'public','research-ideas.css'),join(out,'assets','research-ideas.css'));
