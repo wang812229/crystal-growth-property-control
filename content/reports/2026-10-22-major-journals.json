@@ -1,0 +1,3564 @@
+{
+  "date": "2026-10-22",
+  "slug": "2026-10-22-major-journals",
+  "kind": "supplement",
+  "issue": "补刊01",
+  "headline": "近两周大期刊补充专刊：逐篇阅读状态、证据边界与补读队列",
+  "searchWindow": "北京时间2026-10-09至2026-10-22；本补刊于10月22日整理，不替代当日新稿检索。正式发表、Accepted及元数据日期分别标明；公开预印本可能早于窗口，以正式期刊事件作为补录理由。",
+  "hotspot": "57条强相关线索单独成刊并进入智能检索，目前正文精读15篇、仅摘要35篇，其余题名/元数据待核。能取得的正文及SI继续逐篇补读，不把网页200、参考文献、扩展图或仅摘要当作全文访问。原始3947条目录含大量无关项，不整体灌入研究文献库。",
+  "papers": [
+    {
+      "auditId": 1674,
+      "category": "晶体生长和物性调控",
+      "material": "R₂Co₆Al₂₀₋δ",
+      "title": "Physical properties of R 2 Co 6 Al 20 − δ ( R = Gd-Tm, Y) single crystals",
+      "authors": "Sushma Kumari; Fernando A. Garcia; Juan Schmidt; Tyler J. Slade; Aashish Sapkota; Ajay Kumar; Yaroslav Mudryk; Paul C. Canfield; Raquel A. Ribeiro",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Physical Review Materials",
+      "date": "2026-10-21 已接受",
+      "publicationDate": "",
+      "publicationStatus": "accepted",
+      "doi": "https://doi.org/10.1103/8zq6-17p6",
+      "fullText": "https://arxiv.org/abs/2606.04241v1",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅题名/元数据；正文未精读；公开HTML已定位，待逐篇补读",
+      "versionNote": "正式已接受；非正式发表日。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "仅题名线索：尚不据此总结结果；先核对公开稿和正式接受状态。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。正式已接受；非正式发表日。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "题名/元数据待核",
+        "已接受稿",
+        "晶体生长和物性调控"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://journals.aps.org/prmaterials/accepted/10.1103/8zq6-17p6",
+        "publisherStatus": "200",
+        "authorManuscript": {
+          "auditId": 1674,
+          "arxivId": "2606.04241v1",
+          "title": "Physical properties of R$_2$Co$_6$Al$_{20-δ}$ (R = Gd-Tm, Y) single crystals",
+          "url": "https://arxiv.org/html/2606.04241v1",
+          "status": "200",
+          "paragraphs": 127,
+          "chars": 79238,
+          "candidateFullText": true,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:10.791355+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 2904,
+      "category": "晶体生长和物性调控",
+      "material": "超长构筑单晶",
+      "title": "Additive manufacturing of ultralong and architected single crystals",
+      "authors": "Changmeng Liu; Yinan Cui; Jiachen Wang; Xiao Han; Zhongao Ji; Zhun Liang; Chongle Zhang; Jaime Marian; Zixiang Li; Tao Lu; Tianqiu Xu; Jinyu Zhang; Wei Cui; Wei Liu; Daining Fang; Y. Morris Wang",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Nature",
+      "date": "2026-10-21 出版社/元数据日期",
+      "publicationDate": "2026-10-21",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1038/s41586-026-11185-0",
+      "fullText": "https://doi.org/10.1038/s41586-026-11185-0",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读",
+      "versionNote": "已正式发表目录核实。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：交替脉冲热输入定向长出米级/复杂结构单晶，Ti合金及W/Mo/Nb体系，最高优先生长补读。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "交替脉冲热输入定向长出米级/复杂结构单晶，Ti合金及W/Mo/Nb体系，最高优先生长补读。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。已正式发表目录核实。实际阅读范围见本条记录。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "交替脉冲热输入定向长出米级/复杂结构单晶，Ti合金及W/Mo/Nb体系，最高优先生长补读。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "正式目录已核",
+        "晶体生长和物性调控"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://www.nature.com/articles/s41586-026-11185-0",
+        "publisherStatus": "200",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 1663,
+      "category": "晶体生长和物性调控",
+      "material": "PtCoO₂",
+      "title": "Chemical-state evolution and phase stability of epitaxial PtCoO 2 thin films probed by XPS, HAXPES, and in situ XRD",
+      "authors": "Kerry Hazeldine; Jean-Philippe Soulié; Robin Petit; Christophe Detavernier; Silvia Armini; Christoph Adelmann",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Physical Review Materials",
+      "date": "2026-10-19 出版社/元数据日期",
+      "publicationDate": "2026-10-19",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1103/n9ds-9x2h",
+      "fullText": "https://doi.org/10.1103/n9ds-9x2h",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读",
+      "versionNote": "已正式发表目录核实。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。已正式发表目录核实。实际阅读范围见本条记录。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "正式目录已核",
+        "晶体生长和物性调控"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://journals.aps.org/prmaterials/abstract/10.1103/n9ds-9x2h",
+        "publisherStatus": "200",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 3502,
+      "category": "晶体生长和物性调控",
+      "material": "Ga₂O₃ / MoS₂",
+      "title": "Charge-mediated remote epitaxy of Ga 2 O 3 via MoS 2",
+      "authors": "Gyeong Ryul Lee; Dong-Gwan Kim; Wonwoo Suh; Yoonho Choi; Donghan Kim; Mohammad M. Afandi; Juhui Oh; Hongsik Park; Celesta S. Chang; Hyun S. Kum; Taehoon Lee; Roy B. Chung",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Science Advances",
+      "date": "2026-10-16 出版社/元数据日期",
+      "publicationDate": "2026-10-16",
+      "publicationStatus": "metadata-date-unconfirmed",
+      "doi": "https://doi.org/10.1126/sciadv.aee9510",
+      "fullText": "https://doi.org/10.1126/sciadv.aee9510",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读",
+      "versionNote": "DOI元数据核实；出版社目录/详情尚未确认。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：蓝宝石/MoS₂上的α-Ga₂O₃远程外延及Ni应力剥离，需检查针孔和直接外延替代解释。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "蓝宝石/MoS₂上的α-Ga₂O₃远程外延及Ni应力剥离，需检查针孔和直接外延替代解释。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。DOI元数据核实；出版社目录/详情尚未确认。实际阅读范围见本条记录。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "蓝宝石/MoS₂上的α-Ga₂O₃远程外延及Ni应力剥离，需检查针孔和直接外延替代解释。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "期刊日期待核",
+        "晶体生长和物性调控"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://doi.org/10.1126/sciadv.aee9510",
+        "publisherStatus": "403",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 2449,
+      "category": "晶体生长和物性调控",
+      "material": "PrTaN₂",
+      "title": "Molecular Beam Epitaxy Synthesis of Ternary Nitride PrTaN2 and its Crystal Structure Determination",
+      "authors": "Kosuke Takiguchi; Yoshiharu Krockenberger; Eisuke Magome; Yoji Kunihashi; Hideki Yamamoto",
+      "institutions": "Basic Research Laboratories, NTT Inc., 3-1 Morinosato-Wakamiya, Atsugi, Kanagawa 243-0198, Japan；SAGA Light Source, 8-7 Yayoigaoka, Tosu, Saga 841-0005, Japan",
+      "journal": "Crystal Growth & Design",
+      "date": "2026-10-14 出版社/元数据日期",
+      "publicationDate": "2026-10-14",
+      "publicationStatus": "metadata-date-unconfirmed",
+      "doi": "https://doi.org/10.1021/acs.cgd.6c01142",
+      "fullText": "https://arxiv.org/abs/2607.28909v1",
+      "method": "见本条正文分析及明确标记的未报告项",
+      "access": "全文精读：对应作者公开稿主文；正式版与独立SI未逐段核同",
+      "versionNote": "DOI元数据核实；出版社目录/详情尚未确认。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "强活性氮MBE在YAO上直接生长出Pr–Ta–N取向薄膜，结合多晶面衍射与STEM约束提出PrTaN₂的平均结构。最值得学习的是有限衍射如何排除候选；P222及氮位点仍有拟合非唯一、间隙氮和结构因子不一致的边界，不能当作无争议的完整结构解决。",
+      "sections": [
+        {
+          "title": "问题与制备：不是常规氨化炉方",
+          "text": "该工作利用电子束蒸发难熔Ta和Pr、RF活性氮建立高氮化学势，绕开部分块体氮化物的高压/叠氮化物路线。YAO(001)c衬底上800℃生长，Pr:Ta供给比1:1，以EIES与石英晶振校准，成膜阳离子比例用ICP核对。生长速率0.025 nm/s，20 min得到约30 nm膜。\n\nN₂纯度99.9999%，流量2.0 sccm、背景压1×10⁻⁵ Torr，RF13.56 MHz、400 W，测温用辐射高温计。Pr/Ta源材纯度、独立束流绝对值、衬底预处理、升降温及空气稳定性在已读主文未报告。名义PrTaN₂并不意味着ICP已经测定了准确氮含量，间隙氮仍是作者明确未排除的问题。"
+        },
+        {
+          "title": "衬底与物相：取向生长不等于共格外延",
+          "text": "a=3.97±0.08、b=4.00±0.08、c=4.02±0.01 Å，作者在误差内以正交平均晶胞描述；单斜角可在89.9°–90.1°内变化，并非仪器已经排除任意微小单斜畸变。00l最高观察至006，但同时存在Ta₃N₅第二相。后者与强氮化环境相符，却不能把“高阶峰清楚”写成相纯单晶膜。\n\nRSM中膜与YAO峰的绝对q位置明显不同，qz/qx约相同反映轴向关系，不是峰重合锁定的面内共格；作者称基本无应变、衬底诱导择优取向。YAO伪立方约3.71 Å并非最佳晶格匹配，选择它主要考虑抗氮化还原；STO/KTO虽晶格更接近，表面在活性氮下可能缺氧降质。引用的氧空位能来自不同参考计算，不直接比较成同一条件的定量稳定性排名。"
+        },
+        {
+          "title": "测量设计：峰位与峰强使用不同光源",
+          "text": "弱峰和面内扫描用SAGA-LS波长1.00 Å，强度较高；强度拟合采用Bruker D8 Cu源约1.54 Å，因为作者认为其长期强度更稳定。不能把两套原始峰强不经归一化直接混在一次拟合里。STEM沿[100]/[110]给出Pr/Ta柱的相对位置，Z对比提供阳离子定位，不能同等敏感地测定轻元素氮。\n\n已查看图3各晶面扫描，确认102/204等弱峰与衬底峰共存、111未显现但222出现，强度跨多个数量级。表1提供8组d间距与误差；(102)实测1.79±0.01 Å，(222)1.16±0.004 Å。多晶面、RSM和原子列的交叉约束，比只有一条00l谱可靠，也要求复现者保存倾角、背景和积分强度定义。"
+        },
+        {
+          "title": "结构推定：有化学约束而非只追最低残差",
+          "text": "消光与候选结构排除涉及Pr₃Ta₂N₆、钙钛矿/RP、棕榈石、Pr₂TaN₃和六方同分异构型。拟合以最小平移周期Z=1平均晶胞为假设，STEM把Ta固定(0,0,0)、Pr固定(½,½,½)，利用Wyckoff限制减少未知坐标。候选RMS最优前五仅0.1735–0.1750，作者承认不能仅凭该微小差异唯一选结构；再利用Pr–N合理键长筛选，提出P222。\n\n所给N1(½,0,0)、N2(0,0,½)，Pr–N约2.84–2.85 Å、Ta–N约1.95–1.97 Å。它是受约束结构因子拟合，不是粉末全谱Rietveld，RMS也不是Rwp。不能因为空间群名称非中心对称，就在没有相应测量与更充分结构检验时宣称已证明铁电或特殊非线性物性。"
+        },
+        {
+          "title": "最需要保留的反证与未解问题",
+          "text": "作者指出F204/F102实验约2.8，而已选结构的氮空位模型给不低于6.0或7.7，无法解释观测。间隙过量氮可能缓解差异，但位置太多，尚无唯一模型；低对称P2可到RMS0.173，改善不足并不等于所有局域无序都不存在。正文对一般P222无系统消光与特定原子相消的区分也要保留，不能把111未见说成P222的普遍消光规则。\n\n室温高电阻及顺磁性仅在主文简述、详细数据指向SI；当前不据此预测超导温度、带隙或磁基态。化学计量、氮分布和第二相是最弱证据环节，作者自己也提出需要更敏感的结构实验，而非结构问题已全部解决。"
+        },
+        {
+          "title": "下一炉与下一次结构测量",
+          "text": "有活性氮MBE条件时优先在固定800℃与30 nm厚度下小范围比较Pr:Ta通量及氮源功率，定量追踪Ta₃N₅比例、表面/界面成分和F204/F102，而非马上扩大性能宣称。需以独立的氮含量/深度测量约束占位，再作多候选模型对比并导出预测未测反射作为检验。\n\n对用户XRD精修模块的直接启示是：有限取向薄膜谱不能硬套粉末Rietveld；必须识别测量类型，展示约束、非唯一模型、化学合理性和未解释峰。若追加独立反射仍系统偏离，应停止把最低RMS模型作为确定结构。仪器功率/测角半径本身也不能替代真实峰形标准样校准。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜新相薄膜生长、结构判定及XRD精修优先",
+        "first": "Methods与图3/表1→图4取向关系→结构因子拟合及氮空位反证段；图5流程最后看。",
+        "focus": "重点核对Ta₃N₅、非共格取向、RMS非唯一和F204/F102失败。一般氮化物背景可略读，氮含量及SI不能略过。",
+        "next": "先取得额外独立反射与氮含量约束，再比较平均结构；不要只增加自由参数降低残差。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读正文",
+        "期刊日期待核",
+        "晶体生长和物性调控"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [
+          "公开稿引言、Methods、全部结果/讨论/结论",
+          "结构因子推导文字与Tables1—5；图1—5图注，图3各晶面XRD原图",
+          "独立Supporting Information未取得，磁性/电阻与部分模拟细节未精读"
+        ],
+        "publisherUrl": "https://doi.org/10.1021/acs.cgd.6c01142",
+        "publisherStatus": "403",
+        "authorManuscript": {
+          "auditId": 2449,
+          "arxivId": "2607.28909v1",
+          "title": "Molecular beam epitaxy synthesis of ternary nitride PrTaN$_2$ and its crystal structure determination",
+          "url": "https://arxiv.org/html/2607.28909v1",
+          "status": "200",
+          "paragraphs": 120,
+          "chars": 46443,
+          "candidateFullText": true,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:13.335046+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功",
+        "authorListScope": "实际阅读的作者公开稿首页作者表；正式版如有变更须另核"
+      }
+    },
+    {
+      "auditId": 3061,
+      "category": "晶体生长和物性调控",
+      "material": "PEA₂SnI₄等溶液半导体",
+      "title": "Universal crystallization kinetics of solution-processed semiconductors",
+      "authors": "Zhitian Ling; Mateusz Brzezinski; Shuanglong Wang; Konstantinos Bidinakis; Lei Gao; Chongyao Li; Xin Zhou; Hai I. Wang; Stefan A. L. Weber; Paul W. M. Blom; Wojciech Pisula; Tomasz Marszalek",
+      "institutions": "Max Planck Institute for Polymer Research, Ackermannweg 10, Mainz, Germany；Institute of Physical Chemistry Polish Academy of Sciences, Kasprzaka 44/52, Warsaw, Poland；Nanophotonics, Debye Institute for Nanomaterials Science, Utrecht University, Princetonplein 1, Utrecht, The Netherlands；Department of Molecular Physics, Faculty of Chemistry, Lodz University of Technology, Zeromskiego 116, Lodz, Poland",
+      "journal": "Nature Communications",
+      "date": "2026-10-14 出版社/元数据日期",
+      "publicationDate": "2026-10-14",
+      "publicationStatus": "metadata-date-unconfirmed",
+      "doi": "https://doi.org/10.1038/s41467-026-78354-7",
+      "fullText": "https://www.nature.com/articles/s41467-026-78354-7",
+      "method": "见本条正文分析及明确标记的未报告项",
+      "access": "全文精读：正式版Introduction/Results/Methods、图1–4图注；SI DOCX模型S1–S52、Figs1–25图注、TablesS1–S4已读，图像待核",
+      "versionNote": "DOI元数据核实；出版社目录/详情尚未确认。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "在旋涂湿膜的指定时刻用机械扰动触发成核，可以把成核与生长尽量拆开，得到大畴、定向畴或小畴。定向畴改善长程输运的关键是连续路径及晶界安排，而不是简单让每个晶体内部迁移率都提高一个数量级。",
+      "sections": [
+        {
+          "title": "问题—假设：先控制何时成核，才谈怎么长",
+          "text": "传统旋涂中不同晶核在不同时间出现，最后的晶粒尺寸混合了成核先后、溶剂蒸发和后续传质，直接套整体Avrami曲线不容易拆因果。作者提出时间确定的诱导成核TDIN：旋涂达到指定时间后机械划过湿膜，借局部三相尖点降低成核势垒，然后退火。经典成核图中的体相、界面、尖点势垒是模型解释，不是直接显微测得每个临界晶核半径。低浓度划过时晶核难保留，后来随机成核形成大畴LD；中间窗口形成连续前沿、定向畴UD；晚期已出现大量自发成核，最后是小畴SD。这三者对应浓度轨迹，不是普适的固定秒数。"
+        },
+        {
+          "title": "样品与制备：不同配方的窗口不能混用",
+          "text": "模型体系(PEA)₂SnI₄用PEAI:SnI₂=2:1，DMF/DMSO=1:1，0.06–0.12 M，手套箱40 ℃过夜搅拌后冷却，2000 rpm旋涂并在指定32–52 s扰动，随后60 ℃约10 min结晶、100 ℃10 min去残余溶剂。SnI₂纯度99.999%，未进一步纯化；p型Si/SiO₂及玻璃先用水、丙酮、异丙醇超声清洗，再氧等离子20 min。0.1 M代表条件约34–36 s偏LD、38–48 s进入UD、50 s以后偏SD，不能套到0.06 M或其他溶剂。另验证MeOPEA/Cs/SnI₂=1.8:0.1:1、TIPS-pentacene和NaH₂PO₄；MAPbI₃段写MAI:PbI₂=2:1，应按原文保留过量前驱配方并核对，不能擅自改成化学计量1:1。"
+        },
+        {
+          "title": "生长模型与最强检验：归一化不是无条件普适性",
+          "text": "模型假定表面反应快于扩散、蒸发面内均匀、基底相对畴足够大、达到体相自发成核阈值后定向生长终止；样品转移小于约1 s的浓度变化被忽略。材料相关传质系数视为常数，再用溶解度与阈值浓度比R、SSi归一化。真正比最终尺寸拟合更有力的是：先从终态长度取得参数，再对时序影像中的不同初始浓度、扰动时刻及先后自发成核畴比较轨迹。PEA体系拟合R=0.85、SSi=1.01，可描述0.06/0.12 M及不同起始时刻的数据。然而每种材料仍需自己的参数；不能把曲线塌缩当作无需标定即可预测任意成分、任意厚膜和反应受限生长。"
+        },
+        {
+          "title": "质量—输运证据：降低跨晶界代价比局域迁移率更关键",
+          "text": "代表PEA膜的SD、LD、UD粗糙度约9.6、6.7、1.9 nm；GIWAXS由更多高阶(00l)峰及相干长度约373、414、421 Å支持有序性变化，但Scherrer长度不是光学畴的几百微米尺寸，也不等于消除了所有缺陷。图4的KPFM在源接地、漏−9 V、栅−44 V下显示UD电势下降更连续。FET前扫迁移率依次约0.2、0.6、2.6 cm²/(V·s)，而作者给出的局域OPTP量约6.3、8.9、8.4。LD与UD局域响应接近，支持长程路径/晶界几何主导器件差异。Methods明确THz首先测光生载流子量子产率与迁移率的乘积φμ，比较“本征迁移率”仍依赖量子产率及薄膜近似，不能无条件直接相除。"
+        },
+        {
+          "title": "测量几何和统计口径：复现不能只抄一条高迁移率",
+          "text": "FET为底栅顶接触，300 nm SiO₂介电层、50 nm蒸镀Au电极；钙钛矿沟道长宽80×1000 μm，TIPS为30×1000 μm；电测脉冲开0.05 s、关1 s，器件曲线与KPFM的偏置不同。GIWAXS在DELTA同步辐射、约0.1°入射、523 mm样品—探测器距离、约1 mbar环境，UD特意使光束覆盖定向区，代表性需要多位置检验。30 fps视频通过手选ROI、阈值、对比度、剔除规则及子区域厚度识别边界，主观选择必须留档。图注和Methods对标准差/标准误的描述不完全一致，Methods末尾甚至写ROI均值标准差除以ROI数，而通常标准误应除以平方根；未获原始分析脚本澄清前，不应直接沿用这套误差条计算。"
+        },
+        {
+          "title": "SI补核：独立器件统计与有限使用寿命",
+          "text": "SI TablesS2–S4给出每类10个独立器件的统计；PEA体系迁移率SD 0.2±0.06、LD 0.6±0.2、UD 2.6±0.7 cm²/(V·s)，误差需与电影ROI误差分开。图S20说明划痕位于沟道外、沟道紧邻划痕，不能在复制时直接把沟道划断。图S25在Vds=Vg=−10 V连续1000 s后UD、LD、SD电流仅保留约40%、36%、29%，因此“更稳定”是相对改善，不代表长期稳定器件。归一化模型明确由忽略2L/Lsubstrate的有限尺寸耗尽近似得到；S51/S52的kB、体积符号和单位需核对，不把排版提取式直接当作可用的绝对成核半径计算器。高拟合优度0.989–0.995不是独立外推验证。"
+        },
+        {
+          "title": "复现建议、局限和停止条件",
+          "text": "先看图1浓度—扰动窗口与图3时间轨迹，再Methods的配比、旋涂及图像分析，最后图4器件。下一批可保持配方/转速/气氛相同，只在窗口附近细扫扰动时刻，并做不扰动、假接触和不同划痕压力对照；记录湿度、手套箱氧水、膜厚、转移时间、划痕工具与方向。影像分析需预先固定阈值策略，盲选ROI，公开全部重复及失败样，不为提高模型一致性逐片手调。若只有最终图像可拟合、时间轨迹不能跨条件预测，或性能优势在沟道方向交换/接触电阻校正后消失，应停止宣称通用生长机制和材料内禀迁移率提升。该方案服务溶液薄膜结晶，不直接替代Flux/CVT块体生长；Sn/Pb盐及DMF等应按实验室规范操作。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜结晶动力学、薄膜形貌与实验数据可信度",
+        "first": "图1诱导窗口、图3跨时刻轨迹，再Methods的旋涂和影像统计。",
+        "focus": "归一化仍需每材料标定；φμ不自动等于纯迁移率；SD/LD/UD尺寸、Scherrer相干长度与误差算法不能混用。",
+        "next": "固定成分与蒸发环境细扫扰动时刻，预注册ROI/阈值，并做接触电阻和沟道方向对照。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读正文",
+        "期刊日期待核",
+        "晶体生长和物性调控"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [
+          "Introduction全文",
+          "Results and discussion全文",
+          "Methods全部小节",
+          "图1–4图注；图像及SI待核",
+          "SI DOCX：模型推导S1–S52、Figs1–25及TablesS1–S4；Movies尚未逐帧核验"
+        ],
+        "publisherUrl": "https://doi.org/10.1038/s41467-026-78354-7",
+        "publisherStatus": "200",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 2151,
+      "category": "晶体生长和物性调控",
+      "material": "Cantor合金薄膜",
+      "title": "Controlling BCC‐FCC Phase Selection in Cantor Thin Films Grown by Molecular Beam Epitaxy",
+      "authors": "Vincent Boucher; Salah‐Eddine Benrazzouq; Abdelkader Kara; Gwladys Steciuk; Pascal Boulet; Stéphane Suire; Jean‐François Pierson; Vincent Fournée; Julian Ledieu; Stéphane Andrieu",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Advanced Materials",
+      "date": "2026-10-09 出版社/元数据日期",
+      "publicationDate": "2026-10-09",
+      "publicationStatus": "metadata-date-unconfirmed",
+      "doi": "https://doi.org/10.1002/adma.75307",
+      "fullText": "https://doi.org/10.1002/adma.75307",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读",
+      "versionNote": "DOI元数据核实；出版社目录/详情尚未确认。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：MBE Cantor薄膜由缓冲层选择FCC/BCC并改变室温磁性，直接连接生长和物性。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "MBE Cantor薄膜由缓冲层选择FCC/BCC并改变室温磁性，直接连接生长和物性。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。DOI元数据核实；出版社目录/详情尚未确认。实际阅读范围见本条记录。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "MBE Cantor薄膜由缓冲层选择FCC/BCC并改变室温磁性，直接连接生长和物性。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "期刊日期待核",
+        "晶体生长和物性调控"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://doi.org/10.1002/adma.75307",
+        "publisherStatus": "403",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 791,
+      "category": "高温与非常规超导",
+      "material": "TiN",
+      "title": "Energy relaxation in superconducting single-crystal TiN films probed by flux-flow instability",
+      "authors": "E. M. Baeva; N. A. Titova; M. A. Kirsanova; S. A. Evlashin; A. V. Semenov; D. Yu. Vodolazov; A. I. Kolbatova; G. N. Goltsman",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Physical Review B",
+      "date": "2026-10-21 出版社/元数据日期",
+      "publicationDate": "2026-10-21",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1103/28sl-jtv2",
+      "fullText": "https://doi.org/10.1103/28sl-jtv2",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读",
+      "versionNote": "已正式发表目录核实。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。已正式发表目录核实。实际阅读范围见本条记录。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "正式目录已核",
+        "高温与非常规超导"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://journals.aps.org/prb/abstract/10.1103/28sl-jtv2",
+        "publisherStatus": "200",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 3341,
+      "category": "高温与非常规超导",
+      "material": "六层菱方石墨烯",
+      "title": "Superconductivity and ferroelectric orbital magnetism in semimetallic rhombohedral hexalayer graphene",
+      "authors": "Jinghao Deng; Jiabin Xie; Hongyuan Li; Takashi Taniguchi; Kenji Watanabe; Jie Shan; Kin Fai Mak; Xiaomeng Liu",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Nature Physics",
+      "date": "2026-10-21 出版社/元数据日期",
+      "publicationDate": "2026-10-21",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1038/s41567-026-03443-9",
+      "fullText": "https://arxiv.org/abs/2508.15909v2",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读；公开稿HTML未成功，继续核查PDF/作者稿",
+      "versionNote": "已正式发表目录核实。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：半金属六层菱方石墨烯电子/空穴共存区的SC-like口袋与铁电轨道磁性，需区分不同超导证据等级。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "半金属六层菱方石墨烯电子/空穴共存区的SC-like口袋与铁电轨道磁性，需区分不同超导证据等级。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。已正式发表目录核实。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "半金属六层菱方石墨烯电子/空穴共存区的SC-like口袋与铁电轨道磁性，需区分不同超导证据等级。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "正式目录已核",
+        "高温与非常规超导"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://www.nature.com/articles/s41567-026-03443-9",
+        "publisherStatus": "200",
+        "authorManuscript": {
+          "auditId": 3341,
+          "arxivId": "2508.15909v2",
+          "title": "Superconductivity and Ferroelectric Orbital Magnetism in Semimetallic Rhombohedral Hexalayer Graphene",
+          "url": "https://arxiv.org/html/2508.15909v2",
+          "status": "404",
+          "paragraphs": 0,
+          "chars": 0,
+          "candidateFullText": false,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:17.709442+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 3896,
+      "category": "高温与非常规超导",
+      "material": "4Hb-TaS₂",
+      "title": "Anomalous narrow-band correlation in a natural superconducting heterostructure",
+      "authors": "Xiupeng Sun; Zhiyuan Wei; Min Shan; Shuting Peng; Zhuying Wang; Ping Wu; Yang Luo; Jianchang Shen; Linwei Huai; Yu Miao; Zhipeng Ou; Mehmet Onbasli; Zhenyu Wang; Tao Wu; Junfeng He; Xianhui Chen",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "PNAS",
+      "date": "2026-10-21 出版社/元数据日期",
+      "publicationDate": "2026-10-21",
+      "publicationStatus": "metadata-date-unconfirmed",
+      "doi": "https://doi.org/10.1073/pnas.2609173123",
+      "fullText": "https://arxiv.org/abs/2508.18099v1",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读；公开稿HTML未成功，继续核查PDF/作者稿",
+      "versionNote": "DOI元数据核实；出版社目录/详情尚未确认。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：4Hb-TaS₂ ARPES显示1T终止表面与埋藏层窄带差异，直接影响天然超导异质结构解释。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "4Hb-TaS₂ ARPES显示1T终止表面与埋藏层窄带差异，直接影响天然超导异质结构解释。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。DOI元数据核实；出版社目录/详情尚未确认。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "4Hb-TaS₂ ARPES显示1T终止表面与埋藏层窄带差异，直接影响天然超导异质结构解释。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "期刊日期待核",
+        "高温与非常规超导"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://doi.org/10.1073/pnas.2609173123",
+        "publisherStatus": "403",
+        "authorManuscript": {
+          "auditId": 3896,
+          "arxivId": "2508.18099v1",
+          "title": "Anomalous narrow-band correlation in a natural superconducting heterostructure",
+          "url": "https://arxiv.org/html/2508.18099v1",
+          "status": "404",
+          "paragraphs": 0,
+          "chars": 0,
+          "candidateFullText": false,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:19.545746+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 1577,
+      "category": "高温与非常规超导",
+      "material": "无限层镍酸盐",
+      "title": "Optical conductivity signatures of strong correlations and multiband superconductivity in infinite-layer nickelates",
+      "authors": "Woo Jin Kim; Kyuho Lee; Eun Kyo Ko; Jaeseok Son; Yonghun Lee; Yijun Yu; Soon Jae Moon; Tae Won Noh; Harold Y. Hwang",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Physical Review Letters",
+      "date": "2026-10-20 已接受",
+      "publicationDate": "",
+      "publicationStatus": "accepted",
+      "doi": "https://doi.org/10.1103/6mmg-k9yp",
+      "fullText": "https://arxiv.org/abs/2602.09567v1",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅题名/元数据；正文未精读；公开稿HTML未成功，继续核查PDF/作者稿",
+      "versionNote": "正式已接受；非正式发表日。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "仅题名线索：尚不据此总结结果；先核对公开稿和正式接受状态。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。正式已接受；非正式发表日。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "题名/元数据待核",
+        "已接受稿",
+        "高温与非常规超导"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://journals.aps.org/prl/accepted/10.1103/6mmg-k9yp",
+        "publisherStatus": "200",
+        "authorManuscript": {
+          "auditId": 1577,
+          "arxivId": "2602.09567v1",
+          "title": "Optical conductivity signatures of strong correlations and multiband superconductivity in infinite-layer nickelates",
+          "url": "https://arxiv.org/html/2602.09567v1",
+          "status": "404",
+          "paragraphs": 0,
+          "chars": 0,
+          "candidateFullText": false,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:08.163813+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 3340,
+      "category": "高温与非常规超导",
+      "material": "光激发铜氧化物",
+      "title": "Light-induced asymmetric pseudogap below the critical temperature in cuprates",
+      "authors": "D. Armanno; O. Gingras; F. Goto; J.-M. Parent; A. Longa; A. Jabed; B. Frimpong; R. D. Zhong; J. Schneeloch; G. D. Gu; G. Jargot; H. Ibrahim; F. Légaré; B. J. Siwick; N. Gauthier; A. Georges; A. J. Millis; F. Boschini",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Nature Physics",
+      "date": "2026-10-20 出版社/元数据日期",
+      "publicationDate": "2026-10-20",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1038/s41567-026-03446-6",
+      "fullText": "https://doi.org/10.1038/s41567-026-03446-6",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读",
+      "versionNote": "已正式发表目录核实。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：Bi系铜氧化物trARPES破坏超导后显粒子–空穴不对称赝能隙，需核对电子温度/泵浦功率。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "Bi系铜氧化物trARPES破坏超导后显粒子–空穴不对称赝能隙，需核对电子温度/泵浦功率。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。已正式发表目录核实。实际阅读范围见本条记录。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "Bi系铜氧化物trARPES破坏超导后显粒子–空穴不对称赝能隙，需核对电子温度/泵浦功率。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "正式目录已核",
+        "高温与非常规超导"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://www.nature.com/articles/s41567-026-03446-6",
+        "publisherStatus": "200",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 711,
+      "category": "高温与非常规超导",
+      "material": "FeSe / SrTiO₃",
+      "title": "Field misalignment effect on the in-plane magnetoresistance in the high-temperature superconductor FeSe / SrTiO 3",
+      "authors": "Jie Liu; Zihan Cui; Xiaorong Liu; Yanzhao Liu; Ziqiao Wang; Jian Wang; Yi Liu",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Physical Review B",
+      "date": "2026-10-19 出版社/元数据日期",
+      "publicationDate": "2026-10-19",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1103/cnsg-z5kp",
+      "fullText": "https://doi.org/10.1103/cnsg-z5kp",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读",
+      "versionNote": "已正式发表目录核实。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。已正式发表目录核实。实际阅读范围见本条记录。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "正式目录已核",
+        "高温与非常规超导"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://journals.aps.org/prb/abstract/10.1103/cnsg-z5kp",
+        "publisherStatus": "200",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 2095,
+      "category": "高温与非常规超导",
+      "material": "应变铜氧化物",
+      "title": "Switching Superconductivity with Uniaxial Strain in a high‐Tc Cuprate Superconductor",
+      "authors": "Baizhi Gao; Qianli Ma; Bruce D. Gaulin; Young‐June Kim",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Advanced Functional Materials",
+      "date": "2026-10-19 出版社/元数据日期",
+      "publicationDate": "2026-10-19",
+      "publicationStatus": "metadata-date-unconfirmed",
+      "doi": "https://doi.org/10.1002/adfm.79027",
+      "fullText": "https://doi.org/10.1002/adfm.79027",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读",
+      "versionNote": "DOI元数据核实；出版社目录/详情尚未确认。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：铜氧化物单轴压应变调超导，摘要没完整化学式和数值，优先取得正文/SI再给实验建议。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "铜氧化物单轴压应变调超导，摘要没完整化学式和数值，优先取得正文/SI再给实验建议。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。DOI元数据核实；出版社目录/详情尚未确认。实际阅读范围见本条记录。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "铜氧化物单轴压应变调超导，摘要没完整化学式和数值，优先取得正文/SI再给实验建议。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "期刊日期待核",
+        "高温与非常规超导"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://doi.org/10.1002/adfm.79027",
+        "publisherStatus": "403",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 3338,
+      "category": "高温与非常规超导",
+      "material": "La₂₋ₓCeₓCuO₄",
+      "title": "Evidence for spin-fluctuation-mediated superconductivity in electron-doped cuprates",
+      "authors": "C. M. Duffy; S. J. Tu; Q. H. Chen; J. S. Zhang; A. Cuoghi; R. D. H. Hinlopen; T. Sarkar; R. L. Greene; K. Jin; N. E. Hussey",
+      "institutions": "High Field Magnet Laboratory (HFML-FELIX) and Institute for Molecules and Materials, Radboud University, Nijmegen, Netherlands；INSA-T, Université Grenoble Alpes, CNRS, LNCMI-EMFL, Université de Toulouse, Toulouse, France；Beijing National Laboratory for Condensed Matter Physics, Institute of Physics, Chinese Academy of Sciences, Beijing, China；Songshan Lake Materials Laboratory, Dongguan, China；H. H. Wills Physics Laboratory, University of Bristol, Bristol, UK；Maryland Quantum Materials Centre and Department of Physics, University of Maryland, College Park, MD, USA；Key Laboratory of Vacuum Physics, School of Physical Sciences, University of Chinese Academy of Sciences, Beijing, China",
+      "journal": "Nature Physics",
+      "date": "2026-10-19 出版社/元数据日期",
+      "publicationDate": "2026-10-19",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1038/s41567-026-03454-6",
+      "fullText": "https://www.nature.com/articles/s41567-026-03454-6",
+      "method": "见本条正文分析及明确标记的未报告项",
+      "access": "全文精读：正式版Main/Methods、Extended Data1–7；8页SI正文、FigsS1–S5及图注已读，图像待核",
+      "versionNote": "已正式发表目录核实。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "LCCO的电阻、磁阻和Hall趋势被组合起来约束散射模型：随掺杂削弱的各向异性T线性散射与Tc一起下降，支持反铁磁自旋涨落参与电子掺杂铜氧化物配对。它仍是有明确假设的输运证据，不是直接测出配对胶，更不能推广成所有空穴铜氧化物的统一答案。",
+      "sections": [
+        {
+          "title": "问题—样品—生长：连续组分膜降低变量，但不消除系统误差",
+          "text": "本文希望从A₁与Tc相关性更进一步，识别真正与配对相关的散射通道，而不是只把线性电阻贴上普朗克耗散标签。样品为SrTiO₃上组合外延La₂₋ₓCeₓCuO₄，由x=0.10和0.19靶材得到连续组分展宽；S1覆盖0.116–0.159，S2覆盖0.159–0.188，以微桥抽取19个不同组分，间隔约不超过0.003。具体沉积温度、氧压、后退火、膜厚、微桥几何及逐通道组分校准主要转引文献10，本篇未完整重列，不能根据常用PLD流程补写。连续梯度让同膜条件更可比，却也带来Hall电压混入和组分不均匀引起线性MR的替代解释。"
+        },
+        {
+          "title": "测量和批次关系：S2电阻有1.5倍缩放",
+          "text": "零场用标准四探针交流锁相，最多同时测7通道；高场在Nijmegen的35 T Bitter磁体测面内输运，磁场分别垂直或平行CuO₂面，样品台用GE varnish固定取向。文中65 T线性磁阻是引用既有研究，不是本次同一测量装置达到65 T。两膜共用x=0.159作为桥接，但S2全部电阻先除以1.5才与S1在70 K以下重合，必须保留这一标度处理及几何/厚度系统误差的可能。S1零场值多来自扫场零点离散采样，S2另作三日升温连续曲线；两种数据采样不能当作等质量的完整温扫。75 K纵向MR很小为轨道解释提供对照，低温又有超导涨落，不宜无条件跨温区套用。"
+        },
+        {
+          "title": "直接观察：降温时更金属，磁阻却变小",
+          "text": "在过掺杂正常态，磁阻随降温先增大，在约50–75 K达到最大，随后下降，且幅度随掺杂增大而下降；简单Kohler标度的直觉是散射更弱、平均自由程更长时磁阻更大，因而这一反趋势约束散射各向异性。LCCO也不满足空穴铜氧化物中常讨论的H/T quadrature塌缩。单凭高场H线性MR不能宣布量子极限或奇异金属：作者用半经典轨道模型，加上强散射热点，也能得到类似形状。低组分的负MR及FS重构附近现象应从主要模型适用的T>T*、x>xFSR范围分开。"
+        },
+        {
+          "title": "模型与最强证据：磁阻本身不能区分自旋与电荷",
+          "text": "Shockley–Chambers框架将近各向同性Fermi速度与强角度依赖散射分开，包含杂质项、T²项、g(x)T项和热点；热散射各向异性及高场阻断轨道的热点分别承担不同拟合任务。两种热点位置——反铁磁BZ交点与短Q电荷相关的反节点——都能相当好地拟合磁阻，因此主文明确不能仅由MR选配对机制。进一步加入电流顶角修正CVC的Hall趋势，反铁磁波矢连接可降低RH，而所试电荷热点版本更倾向增加RH，才形成更有辨别力的联合约束。Hall处理仍被作者称为半定量，使用低场Jones–Zener展开及近似速度修正；不能把它说成无假设地唯一反演出散射函数，或已经精确重现全部RH变号。"
+        },
+        {
+          "title": "拟合关联与局限：g(x)不是独立测到的谱学耦合常数",
+          "text": "跨S1用40 K零场电阻与20 T分数MR主要调整g(x)，得到约一个数量级的下降，与Tc从约25 K趋零及A₁减小相伴。S2的g(x)部分直接从线性电阻系数取得并在共同组分归一，所以不能把S2再当作完全独立的双重验证。TB参数及FS形状随组分改变，热点宽高和光滑各向异性的形式也非唯一；“一个随掺杂变量”是在其余参数化选择固定后的陈述。作者承认高温T²电阻、低温持久在线性MR以及强散射各向异性的微观幅度尚未完全解释。小角无序散射放大热点效应是建议机制，不是本篇已完成的微观计算。"
+        },
+        {
+          "title": "SI补核：S2不是完整MR独立验证，绝对电阻也有系统差异",
+          "text": "SI说明新膜绝对电阻约为2022年参考膜的三分之一，可能同时来自膜厚原先按工艺估算而本次用台阶仪、以及质量/氧均匀性改善；不能把全部变化解释成电子耦合变弱。S2每通道有低场负MR，作者因此没有在x>0.159继续用同一套MR定量反演g，而改由A₁推得并对齐S1。SI FigS3用相近宽高的Gaussian和sin¹²形式给相似MR，证明特定函数形式并非唯一，但宽度变化仍会影响结果。SI还明确Boltzmann只追踪速度/动量弛豫，本身不识别散射玻色子的种类；自旋及非弹性性质要靠波矢/CVC和温度依赖推断，并假设自旋涨落可通过Umklapp或无序有效耗散动量而维持平衡。"
+        },
+        {
+          "title": "复现建议与读法：用联合数据反驳模型而非只比拟合R²",
+          "text": "先图2的温度/掺杂MR反趋势与Extended Data2纵横几何，再图4两种都能拟合MR的情形和Hall部分，最后图5耦合参数。下一次测量应在同一组分微桥完成正负场、纵横场及独立Hall，保留原始电压、反对称/对称组合、角度误差和接触布局；再用均匀组分膜排除梯度带来的线性磁阻。拟合需交叉验证保留温区/场区，比较允许FS/残余散射变化后的g(x)稳定性，并报告参数协方差。若结论对S2的1.5倍缩放或热点宽度极敏感，或均匀膜不再显示对应联合趋势，就应降低机制归因强度。高场合作不具备时先做几何与组分质控，不能把常规低场拟合当成已复现35 T结果。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜铜氧化物磁输运、散射反演与配对机制",
+        "first": "图2、Extended Data2；再图4自旋/电荷均可拟合MR与Hall顶角修正；最后图5。",
+        "focus": "S2的1.5倍缩放、g(x)来源、Hall半定量近似和组合梯度伪影；不要将相关性称作直接探测配对胶。",
+        "next": "同微桥正负场、纵横场与Hall联合测量，增加均匀组分膜对照并对热点参数交叉验证。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读正文",
+        "正式目录已核",
+        "高温与非常规超导"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [
+          "Main全文",
+          "Methods全文",
+          "图1–5、Extended Data Figs1–7图注；原表1–3/图像待核",
+          "SI 8页：零场对比、散射率/Tc、CVC对MR、非弹性过程与FigsS1–S5"
+        ],
+        "publisherUrl": "https://www.nature.com/articles/s41567-026-03454-6",
+        "publisherStatus": "200",
+        "authorManuscript": {
+          "auditId": 3338,
+          "arxivId": "2502.13612v1",
+          "title": "Evidence for spin-fluctuation-mediated superconductivity in electron-doped cuprates",
+          "url": "https://arxiv.org/html/2502.13612v1",
+          "status": "200",
+          "paragraphs": 106,
+          "chars": 86991,
+          "candidateFullText": true,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:17.944410+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 1817,
+      "category": "高温与非常规超导",
+      "material": "双层镍酸盐",
+      "title": "Superconducting half-dome in bilayer nickelates",
+      "authors": "Yidi Liu; Bai Yang Wang; Jiarui Li; Yaoju Tarn; Lopa Bhatt; Michael Colletta; Yi-Ming Wu; Sang-Jun Lee; Cheng-Tai Kuo; Jun-Sik Lee; Berit H. Goodge; David A. Muller; Zhi-Xun Shen; Srinivas Raghu; Harold Y. Hwang; Yijun Yu",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Physical Review X",
+      "date": "2026-10-15 已接受",
+      "publicationDate": "",
+      "publicationStatus": "accepted",
+      "doi": "https://doi.org/10.1103/b884-4h1s",
+      "fullText": "https://arxiv.org/abs/2603.12196v1",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅题名/元数据；正文未精读；公开稿HTML未成功，继续核查PDF/作者稿",
+      "versionNote": "正式已接受；非正式发表日。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "仅题名线索：尚不据此总结结果；先核对公开稿和正式接受状态。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。正式已接受；非正式发表日。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "题名/元数据待核",
+        "已接受稿",
+        "高温与非常规超导"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://journals.aps.org/prx/accepted/10.1103/b884-4h1s",
+        "publisherStatus": "200",
+        "authorManuscript": {
+          "auditId": 1817,
+          "arxivId": "2603.12196v1",
+          "title": "A superconducting half-dome in bilayer nickelates",
+          "url": "https://arxiv.org/html/2603.12196v1",
+          "status": "404",
+          "paragraphs": 0,
+          "chars": 0,
+          "candidateFullText": false,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:10.912874+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 3802,
+      "category": "高温与非常规超导",
+      "material": "高压四方UTe₂",
+      "title": "Superconductivity in the high-pressure tetragonal phase of UTe 2",
+      "authors": "Yuhang Deng; Gabriel Mee; Tyler Wannamaker; Keke Feng; Mingyu Xu; Weiwei Xie; M. Brian Maple",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "PNAS",
+      "date": "2026-10-15 出版社/元数据日期",
+      "publicationDate": "2026-10-15",
+      "publicationStatus": "metadata-date-unconfirmed",
+      "doi": "https://doi.org/10.1073/pnas.2621369123",
+      "fullText": "https://arxiv.org/abs/2606.07903v1",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读；公开稿HTML未成功，继续核查PDF/作者稿",
+      "versionNote": "DOI元数据核实；出版社目录/详情尚未确认。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：UTe₂高压四方相SC约4 K，Hc₂较小与正交相不同；常规/非常规归属不能仅靠Hc₂唯一判定。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "UTe₂高压四方相SC约4 K，Hc₂较小与正交相不同；常规/非常规归属不能仅靠Hc₂唯一判定。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。DOI元数据核实；出版社目录/详情尚未确认。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "UTe₂高压四方相SC约4 K，Hc₂较小与正交相不同；常规/非常规归属不能仅靠Hc₂唯一判定。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "期刊日期待核",
+        "高温与非常规超导"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://doi.org/10.1073/pnas.2621369123",
+        "publisherStatus": "403",
+        "authorManuscript": {
+          "auditId": 3802,
+          "arxivId": "2606.07903v1",
+          "title": "Superconductivity in the high-pressure tetragonal phase of UTe2",
+          "url": "https://arxiv.org/html/2606.07903v1",
+          "status": "404",
+          "paragraphs": 0,
+          "chars": 0,
+          "candidateFullText": false,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:18.702907+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 553,
+      "category": "高温与非常规超导",
+      "material": "La₀.₈Sr₀.₂NiO₂",
+      "title": "Positive pressure effect on the superconducting transition in an infinite-layer nickelate La 0.8 Sr 0.2 NiO 2 thin film",
+      "authors": "Jianping Sun; Wenjie Sun; Wenfeng Wu; Qingxin Dong; Tong Shi; Lin Zhu; Yingpeng Yu; Karsten Held; Bosen Wang; Liang Si; Yuefeng Nie; Jinguang Cheng",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Physical Review B",
+      "date": "2026-10-14 出版社/元数据日期",
+      "publicationDate": "2026-10-14",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1103/4h3v-tjwz",
+      "fullText": "https://doi.org/10.1103/4h3v-tjwz",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读",
+      "versionNote": "已正式发表目录核实。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。已正式发表目录核实。实际阅读范围见本条记录。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "正式目录已核",
+        "高温与非常规超导"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://journals.aps.org/prb/abstract/10.1103/4h3v-tjwz",
+        "publisherStatus": "200",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 569,
+      "category": "高温与非常规超导",
+      "material": "Bi-2212 / Bi-2223",
+      "title": "Discriminating superconducting fluctuations from the pseudogap in Bi 2 Sr 2 Ca n − 1 Cu n O 2 n + 4 + δ ( n = 2, 3): A magnetotransport study",
+      "authors": "Shunpei Yamaguchi; Nae Sasaki; Shintaro Adachi; Keiichi Harada; Yuki Teramoto; Shintaro Matsuda; Tomohiro Usui; Takenori Fujii; Takashi Noji; Itsuhiro Kakeya; Haruka Taniguchi; Michiaki Matsukawa; Atsushi Miyake; Hajime Ishikawa; Koichi Kindo; Takao Watanabe",
+      "institutions": "Graduate School of Science and Technology, Hirosaki University, Hirosaki, Aomori, 036-8561 Japan；Faculty of Engineering/Graduate School of Engineering, Kyoto University of Advanced Science (KUAS), 615-8577 Japan；Cryogenic Research Center, University of Tokyo, Bunkyo, Tokyo 113-0032, Japan；Graduate School of Engineering, Tohoku University, Sendai 980-8579, Japan；Department of Electronic Science and Engineering, Kyoto University, Kyoto 615-8510, Japan；Graduate School of Engineering, Iwate University, Morioka 020-8551, Japan；Institute for Solid State Physics, University of Tokyo, Kashiwa, Chiba 277-8581, Japan；Physics Department, College of Engineering, Nihon University, Fukushima 963-8642, Japan；Department of Advanced Materials Science, University of Tokyo, Kashiwa, Chiba 277-8561, Japan",
+      "journal": "Physical Review B",
+      "date": "2026-10-14 出版社/元数据日期",
+      "publicationDate": "2026-10-14",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1103/d532-8q2d",
+      "fullText": "https://arxiv.org/abs/2608.11284v1",
+      "method": "见本条正文分析及明确标记的未报告项",
+      "access": "全文精读：对应作者公开稿主文；正式版与独立SI未逐段核同",
+      "versionNote": "已正式发表目录核实。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "Bi-2212/2223的赝能隙特征温度与磁场敏感超导涨落起始温度不同，说明不能把前者简单等同于后者。预形成对及BCS–BEC跨越是作者进一步提出的解释，而不是本次磁输运已经唯一证明的配对机制。",
+      "sections": [
+        {
+          "title": "问题：分清三种温标",
+          "text": "本文同时比较电阻赝能隙特征温度T**、修改Kohler标度失效的Tscf和零电阻Tc，不把它们统称为“超导开始温度”。Bi-2223具有内外不等价CuO₂面，Bi-2212还掺Pb，二者并非仅层数不同的完全控制组。作者利用两体系、多掺杂以及纵横输运交叉检验，讨论赝能隙是否只是普通超导涨落。\n\n当前阅读的是arXiv公开稿及同稿SI，期刊正式排版版没有逐段核同。主文引用的ARPES能隙、CDW和STS结果是既有外部证据，不计作本文新测量，也不能把输运测得的标度写成直接观察到了预形成Cooper对。"
+        },
+        {
+          "title": "样品和生长：SI中的具体可用参数",
+          "text": "Bi-2212在空气中用移动溶剂浮区TSFZ生长，近最佳至过掺杂晶体实配Bi₁.₆Pb₀.₄Sr₂CaCu₂O₈₊δ，名义进料Pb为0.6；欠掺杂组为Bi₂Pb₀.₄Sr₁.₈CaCu₂O₈₊δ，其名义Pb同为0.6。组分差异必须保留。SI表I给出600℃、2 Pa O₂、24 h对应p=.126/Tc72 K；600℃、2 Pa、12 h对应.179/89 K；600℃、100 Pa、12 h对应.194/83 K；600℃、1%氧气、18 h对应.206/76 K；400℃、1 atm氧、200 h对应.220/64 K。1%只给浓度，表中没有同时给总压，不擅自换算分压。\n\nBi-2223进料Bi:Sr:Ca:Cu=2.2–2.25:1.9–2.0:2.0:2.9–3.0，10%氧的O₂–Ar气氛，速率0.05 mm/h。SI表II：500℃/2 Pa/1 h→p.09、Tc75 K；600℃/100 Pa/5 h→.10、95 K；500℃/1 atm/50 h→.17、104 K；400℃/400 atm/50 h→.20、105 K。400 atm氧处理需要专用高压氧设备，不能在普通石英封管照搬。原料纯度、浮区温度、转速、尺寸和相纯比例在已读正文/SI未报告。"
+        },
+        {
+          "title": "掺杂和测量：同一退火不等于同一片ARPES",
+          "text": "Bi-2212的p由Tc经验抛物线推算，采用两个不同Tcmax=91.7/76.0 K；曲线在最佳掺杂两侧数学上不是全域单值，分支判断与系统校准不能因为误差条小就省略。Bi-2223不遵循同一关系，其p=(pIP+2pOP)/3来自同退火条件的ARPES标定，作者额外放大误差以容纳不同样品差异。\n\nPPMS与Cernox温度计、五电极、最高14 T、B∥c的面内磁输运；假设纵向磁阻比横向小于10%，因此主要看轨道项。精确测量电流、几何尺寸和电极接触误差未报告，磁阻仅百分之几以下，系统误差必须与信号幅度一起评估。原始数据不是公开下载，作者称合理申请可得。"
+        },
+        {
+          "title": "直接数据与操作定义：阈值影响不可藏起来",
+          "text": "主文图3实际曲线中，最佳Bi-2212约125 K以上、Bi-2223约145 K以上MR对tan²θH近似合并，降温后偏离。SI以斜率超过高温基线10%定义Tscf，用零场/高场dρ/dT相差1%交叉确认。两者都是操作性标准，不是无阈值的直接序参量。\n\n赝能隙温度也依样品取高温线性偏离或导数极值。SI测试0.5%、1%、2%偏离时，Bi-2212欠掺杂得到225/206/183 K，Bi-2223最佳得到229/213/186 K，说明温标的不确定区间可达数十K；本文保留范围，不只挑一个精确点。欠掺杂Bi-2223的低温T**取导数最大值，不能与其他样品的高温T**不加区分连成同一边界。"
+        },
+        {
+          "title": "物理解释：与涨落区分不等于证明BCS–BEC",
+          "text": "cotθH∝T²和修改Kohler标度能跨越T**，作者用反铁磁关联长度及CVC理论解释。130–140 K窄窗又能出现普通Kohler和ρ∝T²，强调不同温区的表象不必来自完全不同基态；但理论包容数据不是对理论的唯一验证。\n\n作者用外部ARPES能隙与T**给2Δ₀/kBT**约5.0，接近d波均场量级约4.3，进而提出预形成对。这个能隙跨研究、跨样品且Bi-2223还做内外面加权，不能当作同样品闭合证据。化学势未显现跨越理论预期移向带底，作者诉诸强关联钉扎并承认待解决。结论宜写成“普通涨落不足，预形成对为候选”，而非彻底终结赝能隙争议。"
+        },
+        {
+          "title": "复核与下一次测量",
+          "text": "SI明确14 T仍未完全压制涨落；因此9或14 T不能自动充当完全正常态背景。优先取得更高场、同一片的纵横电阻和热/光谱交叉测量，系统改变10%与1%阈值并报告温标分离是否超过误差。对氧退火建立称量、尺寸、组分和重复周期记录，不能只用目标p值代替实际样品历史。\n\n若T**—Tscf分离在合理背景或阈值变化后不再稳健，应削弱“两个独立物理尺度”的强度；若分离稳定，也只排除所检验的简单涨落描述。将这套分析迁移其他铜氧化物时先核对平面翘曲、掺杂标定和磁阻机制，不能把一套标度当作所有材料通用算法。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜铜氧化物磁输运和氧退火优先",
+        "first": "图3标度和误差范围→SI B/E阈值与高场边界→SI表I/II样品退火；图4配对解释最后读。",
+        "focus": "重点核对Bi-2212不同Pb/Sr组分、p标定分支与14 T未完全压制涨落。一般赝能隙背景可略读，不略读阈值敏感性。",
+        "next": "以同一片更高场和阈值扫描复核温标分离，再讨论预形成对，避免从一个T²拟合直接推出配对机制。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读正文",
+        "正式目录已核",
+        "高温与非常规超导"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [
+          "公开稿全部主文与图1—4图注",
+          "同一HTML附录SI A—E全部文字、表I—II、图S1—S9图注及显示公式",
+          "主文图3原图：Kohler标度与相图；未逐一查看全部SI曲线原图"
+        ],
+        "publisherUrl": "https://journals.aps.org/prb/abstract/10.1103/d532-8q2d",
+        "publisherStatus": "200",
+        "authorManuscript": {
+          "auditId": 569,
+          "arxivId": "2608.11284v1",
+          "title": "Discriminating superconducting fluctuations from the pseudogap in Bi$_2$Sr$_2$Ca$_{n-1}$Cu$_n$O$_{2n+4+δ} (n = 2,3)$: A magnetotransport study",
+          "url": "https://arxiv.org/html/2608.11284v1",
+          "status": "200",
+          "paragraphs": 75,
+          "chars": 39116,
+          "candidateFullText": true,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:06.141641+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功",
+        "authorListScope": "实际阅读的作者公开稿首页作者表；正式版如有变更须另核"
+      }
+    },
+    {
+      "auditId": 2207,
+      "category": "高温与非常规超导",
+      "material": "LiNbO₂ / LiNbO₃",
+      "title": "Synthesis of Bulk Superconducting LiNbO 2 Crystals Through CaH 2 Reduction",
+      "authors": "Ryan Paxson; Stephanie J. Hong; Bicky S. Moirangthem; Parham Kabirifar; Saya Takeuchi; Tianyu Li; Chih-Yu Lee; Haotong Liang; Keenan Avers; Kamal R. Joshi; Amlan Datta; Makariy A. Tanatar; Shanta Saha; Joseph A. Dura; Peter Zavalij; Johnpierre Paglione; Ruslan Prozorov; Alexander J. Grutter; Efrain E. Rodriguez; Ichiro Takeuchi",
+      "institutions": "University of Maryland：Materials Science and Engineering、Maryland Quantum Materials Center、Chemistry & Biochemistry、AIM Lab；NIST Center for Neutron Research；Ames Laboratory及Iowa State University",
+      "journal": "Advanced Materials",
+      "date": "2026-10-14 出版社/元数据日期",
+      "publicationDate": "2026-10-14",
+      "publicationStatus": "metadata-date-unconfirmed",
+      "doi": "https://doi.org/10.1002/adma.75377",
+      "fullText": "https://arxiv.org/abs/2607.06819v3",
+      "method": "见本条正文分析及明确标记的未报告项",
+      "access": "全文精读：arXiv v3的Introduction、Results、Discussion、Conclusion、Methods，图1–9及附S1–S3图注；PDF第5/9页图像核查；正式版尚待取得",
+      "versionNote": "DOI元数据核实；出版社目录/详情尚未确认。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "CaH₂使大块LiNbO₃发生重构性还原，得到有择优取向、含残余母相的LiNbO₂区域，并出现体磁屏蔽与约14 K超导。它不是把一整片母单晶无损变成纯LiNbO₂单晶；26 T是低场数据外推，77%也不是整片原晶体的无条件体积分数。",
+      "sections": [
+        {
+          "title": "问题—结构：极端还原不一定保持母晶的取向",
+          "text": "本文把氢化物还原从纳米薄膜拓展到约200 mg规模的块体前驱晶体。母相LiNbO₃为R3c结构，产物LiNbO₂属P6₃/mmc；阳离子骨架需要重组，因此作者称为非拓扑保持的重构相变，不是镍酸盐式简单抽氧后保留整个骨架。起始是单晶不代表产物仍是高质量单晶。Laue环及展宽局域反射、2D HRXRD中的(00L)织构与约9 μm柱状晶粒表明还原层同时存在多晶和偏好取向区域。对于生长实验，最重要的创新是大体积重构相形成与超导共存，而不是一条无需精修即可确认单晶纯相的工艺。"
+        },
+        {
+          "title": "制备参数与样品对应：原文存在需要澄清的不一致",
+          "text": "起始晶体为Y-cut、Z-cut、Y-128°，代表尺寸10×10×0.5 mm³，用约0.5 g CaH₂覆盖/埋置，石英封管还原，温度扫描350–700 ℃、时长72–720 h；Methods给升温10 ℃/min并重点650 ℃处理，随后用稀NH₄Cl/甲醇清洗，氮气吹干。结果段真空约0.133 Pa，Methods却写约10⁻³ Pa，不能悄悄挑一个作为准确炉方。最高Tc样品的反应时长在文字中出现240 h和120 h，而图7图注标480 h；需要作者或原始编号澄清后才能比较最佳时间。CaH₂遇湿和封管压力风险必须由有资质的实验室评估，不因“低温还原”就省略安全设计。原料纯度、封管自由体积和产率等完整细节尚未报告。"
+        },
+        {
+          "title": "质量与相分数：80.2 wt%不是整个原晶体转化率",
+          "text": "截面观察到LiNbO₂/未反应LiNbO₃/LiNbO₂的层状块体，EDS氧信号变化支持一个相形成前沿。粉末XRD取自剥离的还原区域再压碎，并非把完整母晶均匀取粉；GSAS-II两相Rietveld得到LiNbO₂约80.2(3) wt%、LiNbO₃约19.8(3) wt%。因此不能把80.2%写成整片转化率，也不能把其余峰以背景或峰形参数拟合掉。Laue和HRXRD显示c轴偏好垂直表面，但有马赛克/纤维织构；这与局部柱状生长相容，不证明单一取向贯穿整块。未检出Nb金属峰支持排除大量金属杂相，不是严格证明零纳米金属团簇。"
+        },
+        {
+          "title": "成分—掺杂：SIMS与XPS并未给唯一的均匀化学式",
+          "text": "SIMS比较Li₂⁺/NbO⁺、H⁻/NbO₂⁻，显示近表面Li信号降低、H信号增强以及Li富集层；其相对强度受基体效应影响，不能直接变成绝对Li含量或H占位。抛光后XPS拟合Li约0.96±0.225、O约1.83±0.187，Li测值跨度0.61–1.13，Li 1s与Nb 4s重叠是重要误差来源。Nb³⁺/Nb⁵⁺混合也可能同时包含残余母相和表面化学态，平均+3.86不能直接当作均匀LiNbO₂的空穴浓度。S1/S3显示表面Li富集及横向团簇，作者据此提出Li从晶格析出、局部贫Li区域超导的图像；局域Li图与局域超导尚未逐点共定位，仍是待验证机制。"
+        },
+        {
+          "title": "超导证据与数值边界：体屏蔽、零电阻和外推临界场分开",
+          "text": "代表样品起始约14.4 K、零电阻约13.3 K，室温电阻率约0.45 mΩ·cm；转变温度和样品时间对应需按前述矛盾核对。SQUID在1 mT的ZFC体屏蔽与约14 MHz、2 μT激励的TDR共同支持非微量的超导响应。77%估算用4×3 mm²、还原层总厚约370 μm的有效区域并作N约0.86退磁校正，已排除未反应母相；不能说整片晶体77%都是超导。输运/磁响应给Hc₂(0)约25.92/24.28 T来自近似Helfand–Werthamer拟合，而实际磁体最大9 T，不能写成直接测到26 T仍零电阻。孔隙、连通性、织构及低温邻近效应仍影响体积分数和临界场解释。"
+        },
+        {
+          "title": "下一炉与阅读建议：先验证还原前沿，不先追最高Tc",
+          "text": "先读图2截面、图3两相精修、图4织构，再看图7–9超导及Methods；XPS谱拟合必须连着SIMS横向非均匀性一起读。下一批在相同尺寸和取向下只改时长，逐片保留截面、残余母相比例、实际炉温/真空和质量变化，把输运、磁化、XRD关联到同一编号；取向比较要控制可比的表面积和粗糙度。增加分层/多位置XRD与局部Li/价态测量，避免只挑最黑表面。若零电阻只来自细连通层且退磁修正后磁屏蔽不稳定，先降低“均匀体超导”的结论。若某相占比或Tc对批次极敏感，停止推广为可复制的纯相单晶生长方案。普通Ultima IV可做粉末两相精修，但不能替代二维HRXRD、Laue及低温磁性闭环。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜块体还原、织构、相纯及超导证据链",
+        "first": "图2–4及Methods的真空/时长，再图7–9；特别核对120/240/480 h的样品对应。",
+        "focus": "80.2 wt%仅指取出的还原区域；77%排除了母相且依赖退磁；26 T为9 T内数据外推。",
+        "next": "同批逐时长截面—两相Rietveld—磁屏蔽闭环，先澄清样品编号和真空口径，再优化Tc。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读正文",
+        "期刊日期待核",
+        "高温与非常规超导"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [
+          "公开稿PDF第1–13页主文及Methods全文",
+          "第18–19页S1–S3；参考文献列表另核对",
+          "PDF第5页图3及第9页图7视觉核查"
+        ],
+        "publisherUrl": "https://doi.org/10.1002/adma.75377",
+        "publisherStatus": "403",
+        "authorManuscript": {
+          "auditId": 2207,
+          "arxivId": "2607.06819v3",
+          "title": "Synthesis of Bulk Superconducting LiNbO$_2$ Crystals through CaH$_2$ Reduction",
+          "url": "https://arxiv.org/html/2607.06819v3",
+          "status": "404",
+          "paragraphs": 0,
+          "chars": 0,
+          "candidateFullText": false,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:11.703532+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功",
+        "authorListScope": "arXiv 2607.06819v3 PDF首页20名作者；正式版另核"
+      }
+    },
+    {
+      "auditId": 2801,
+      "category": "高温与非常规超导",
+      "material": "三角烯链 / Au / Nb",
+      "title": "Parity-dependent coupling of molecular spin chains to a superconductor",
+      "authors": "Katerina Vaxevani; Jon Ortuzar; Stefano Trivini; Georg Monninger; Dongfei Wang; Manuel Vilas-Varela; Lucía Gómez-Rodrigo; Diego Peña; Jose Ignacio Pascual",
+      "institutions": "CIC nanoGUNE-BRTA, 20018 Donostia-San Sebastián, Spain；Quantronics group, Service de Physique de l’État Condensé (CNRS, UMR 3680) , IRAMIS, CEA-Saclay, Université Paris-Saclay, 91191 Gif-sur-Yvette, France；School of Physics, Beijing Institute of Technology, Beijing 100081, China；Centro Singular de Investigación en Química Biolóxica e Materiais Moleculares (CiQUS) and Departamento de Química Orgánica, Universidad de Santiago de Compostela, 15782 Santiago de Compostela, Spain；Oportunius, Galician Innovation Agency (GAIN), 15702 Santiago de Compostela, Spain；Ikerbasque, Basque Foundation for Science, 48013 Bilbao, Spain",
+      "journal": "Nature",
+      "date": "2026-10-14 出版社/元数据日期",
+      "publicationDate": "2026-10-14",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1038/s41586-026-11117-y",
+      "fullText": "https://arxiv.org/abs/2608.22736v1",
+      "method": "见本条正文分析及明确标记的未报告项",
+      "access": "全文精读：对应作者公开稿主文；正式版与独立SI未逐段核同",
+      "versionNote": "已正式发表目录核实。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "在邻近超导Au/Nb表面，三角烯自旋链的奇偶长度决定端态之间的交换与总自旋，从而决定是否显现YSR束缚态。它展示了拓扑边缘自旋与超导环境的可控耦合，不等于已经制成容错量子比特或发现Majorana。",
+      "sections": [
+        {
+          "title": "问题与平台：让表面合成与超导兼容",
+          "text": "三角烯单元构成的S=1反铁磁链可在端部出现分数化S=1/2自由度，但常规表面化学依赖Au催化，纯金又不是体超导体。作者在Nb(110)单晶上用Ag作表面活性剂生长薄Au膜，兼顾Au(111)表面化学及Nb邻近超导。这是实验构型的创新核心，而不是把任意分子放在超导体上看一条零偏峰。\n\nAu层保留人字重构与Shockley表面态，厚度小于底层超导相干长度，出现小于Nb体能隙的de Gennes–Saint James共振。干净Au/Nb与裸Nb参考谱共同确认背景环境；这些尖峰本身不是链端YSR信号，不能混同标注。"
+        },
+        {
+          "title": "制备与结构质量：可确认和仍待SI的部分",
+          "text": "有机前驱体在Au/Nb上分步退火，先Ullmann耦合再环脱氢，形成不同长度共价连接的三角烯链。CO功能化超导STM针尖的恒高键分辨图像显示N=8、11等链的完整骨架。退火后重构与超导能隙仍存在，说明合成没有直接毁掉近邻超导平台。\n\n但主文把Au/Ag生长、前驱体剂量、实际退火温度时间、真空、Nb清洁和膜厚详细参数交给SI或前文。当前尚未取得独立SI，这些均不能写成已核实的工艺值；也不提供未经阅读支持的合成温程。链长可逐个计数，不等于所有链在相同局域耦合和缺陷环境下完全可比。"
+        },
+        {
+          "title": "测量几何与奇偶对照",
+          "text": "约1.2 K使用超导STM针尖增强能量分辨，低能谱设定示例5 mV、500 pA，宽能窗示例50 mV、1 nA。N=11奇链端部出现能隙内YSR共振，空间图集中在两端；N=8偶链主要显示隙外单重态—三重态激发。链内与端部谱、干净基底谱、不同长度以及单端钝化构成多层对照，远强于只根据一条异常峰命名磁端态。\n\n超导针尖测得的偏压是针尖与样品态密度卷积后的结果，不能直接把所有峰位当作样品本征能量。图3为去除针尖差异把dGSJ共振对齐，因此比较束缚能要追踪同一参考而非直接比原始横轴；针尖状态和背景归一化必须随原始谱保存。"
+        },
+        {
+          "title": "模型：奇偶性改变有效Kondo耦合",
+          "text": "有限链两端交换J随长度减弱，奇链总S=1、偶链总S=0。在两自旋各耦合到单点超导体的近似模型中，|J|远大于J_K时偶链有效耦合趋零，奇链趋2J_K/3；长链端部近似独立后逐渐趋J_K。作者通过针尖诱导单端钝化削弱端间交换，另一端出现更深YSR，并估计J_K约0.6±0.2 meV。这个数是模型提取值，不是独立直接测得的裸交换常数。\n\n底层人字重构可能改变各端J_K，导致奇链束缚能明显散布。偶链也不是永远不出现YSR：正文提到N=12和14的初始信号，而图3图注强调N≥14。两处表述的精确阈值需回看SI，不能把偶数/奇数写成无条件二值定律。"
+        },
+        {
+          "title": "关键图与证据强弱",
+          "text": "已查看图4实际图像：N=11链端和中段在不同能量有明显不同的谱权重，高能集体模图出现随能量变化的节点；N=8线谱叠加模型圆点，较强的端部激发与贯穿链的集体激发分开。双线性—双二次自旋模型能重现模式分布及链长奇偶变化，支持Haldane链解释。\n\n最强证据是原子级链长、端态空间位置、隙内/外谱以及钝化对照的一致性。较弱环节是从谱的匹配进一步推导可用于量子计算的保护：本文没有报告相干时间、门操作、读写保真度或纠错，不能写成已实现量子比特。YSR不是Majorana，有限链偶数端态耦合也不表示拓扑分数化从材料中消失。"
+        },
+        {
+          "title": "复现风险与下一步",
+          "text": "需要低温超高真空STM、稳定的超导/CO针尖、原子级可重复表面合成，远超普通粉末XRD设备能力。若实验室无这些条件，优先可做模型复算，而不是按本文主文不全的温程直接合成。复算时分别放开左右端J_K、加入局域背景差异并比较整条链空间谱，检查结论是否依赖对称耦合近似。\n\n进一步实验应在相同表面区域比较相邻奇偶链、单端钝化前后及温度/场压制超导的谱变化；若所谓YSR不随超导能隙变化，或与端态无空间关联，应停止沿该归因解释。这里是合理复核路径，不声称属于未被报道的新研究方向。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜STM、自旋链和超导杂化平台；普通生长实验作方法参考",
+        "first": "图2键分辨链长与端态→图3奇偶/钝化模型→图4空间集体模；先看干净Au/Nb对照图1。",
+        "focus": "核对超导针尖卷积、dGSJ对齐和N=12/14边界；拓扑量子比特远景可略读，SI表面制备不可跳过。",
+        "next": "先用不对称双端耦合复算YSR和集体模，具备STM条件时再做单端钝化前后同位比较。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读正文",
+        "正式目录已核",
+        "高温与非常规超导"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [
+          "公开稿引言、全部主文结果、两自旋—超导模型与结论",
+          "图1—4完整图注；图4空间分布及链长依赖实际图像",
+          "SI S1—S6仅见主文引用，未取得独立SI，不能声称已读其制备温程"
+        ],
+        "publisherUrl": "https://www.nature.com/articles/s41586-026-11117-y",
+        "publisherStatus": "200",
+        "authorManuscript": {
+          "auditId": 2801,
+          "arxivId": "2608.22736v1",
+          "title": "Parity-dependent coupling of molecular spin chains to a superconductor",
+          "url": "https://arxiv.org/html/2608.22736v1",
+          "status": "200",
+          "paragraphs": 21,
+          "chars": 22852,
+          "candidateFullText": true,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:14.251663+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功",
+        "authorListScope": "实际阅读的作者公开稿首页作者表；正式版如有变更须另核"
+      }
+    },
+    {
+      "auditId": 1469,
+      "category": "高温与非常规超导",
+      "material": "Nd₁₋ₓSrₓNiO₂",
+      "title": "Evolution of the superfluid density in infinite-layer nickelates",
+      "authors": "Bai Yang Wang; Shannon P. Harvey; Kyuho Lee; Yijun Yu; Yonghun Lee; Motoki Osada; Chaitanya Murthy; Srinivas Raghu; Harold Y. Hwang",
+      "institutions": "Stanford Institute for Materials and Energy Sciences, SLAC National Accelerator Laboratory, Menlo Park, CA USA；Department of Physics, Stanford University, Stanford, CA, USA；Department of Applied Physics, Stanford University, Stanford, CA, USA；Department of Physics and Astronomy, University of Rochester, Rochester, NY, USA",
+      "journal": "Physical Review Letters",
+      "date": "2026-10-13 已接受",
+      "publicationDate": "",
+      "publicationStatus": "accepted",
+      "doi": "https://doi.org/10.1103/25gn-bfgw",
+      "fullText": "https://arxiv.org/abs/2603.05606v2",
+      "method": "见本条正文分析及明确标记的未报告项",
+      "access": "全文精读：公开稿v2主文、文内制备/互感测量说明及图1–4图注；独立SI尚未取得，正式Accepted稿待差分",
+      "versionNote": "正式已接受；非正式发表日。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "约5 nm的Nd₁₋ₓSrₓNiO₂膜在整个超导穹顶上表现出较弱相位刚度，Tc与扣除Nd磁性影响后估计的λ₀⁻²相关。低温超流信号反常下降提示Nd磁矩与超导耦合，但尚不能仅凭互感就确认一种具体长程磁结构或精确平方根普适定律。",
+      "sections": [
+        {
+          "title": "问题—样品—制备：不是再测一个零电阻Tc",
+          "text": "研究关注镍酸盐超导究竟受配对幅度还是相位刚度限制，选择Nd₁₋ₓSrₓNiO₂、x=0.12–0.25跨穹顶样品。膜厚约5 nm，先在LSAT上脉冲激光沉积钙钛矿前驱体，SrTiO₃封帽，再化学还原成无限层；具体温度、氧压、激光能量、还原剂剂量及温程主要转引既有合成文献，所读主文未完整报告。LSAT通过失配管理改善这一组的结晶与转变均匀性，但不能据此推定所有组分具有相同缺陷、氧含量和有效膜厚。需保留同批结构/成分质量证据，不能只凭“高结晶度系列”作为无序完全受控的证明。"
+        },
+        {
+          "title": "测量：λ⁻²是nₛ/m*的代理，不是直接数出载流子",
+          "text": "双线圈互感在30–60 kHz测复电导，最低约150 mK；耗散σ₁在超导转变附近出现峰，感性σ₂经薄膜反演得到穿透深度λ，进而以λ⁻²表征超流刚度。信号由线圈几何、有效厚度及磁性响应共同影响，所以并非直接独立测出nₛ和m*。10个代表组分耗散转变宽约2–3 K支持宏观均匀性，并不排除更小尺度杂相或还原非均匀。本文的Tc定义为超流信号下降至最大值约1%的温度，不能与四探针电阻起始、中点或零电阻无条件混合。"
+        },
+        {
+          "title": "BKT与维度：近Tc和低温的有效厚度不是同一命题",
+          "text": "图1比较互感、电阻与BKT热涨落能标；部分样品接近转变时刚度快速塌落，可用含涡旋芯能量和非均匀参数的重整化群模型描述。作者用整个约5 nm膜厚估算相位锁定长度，得到TΘ约为1–4倍Tc，并把较低相位刚度视为Tc受限的重要因素。这个选择被作者作为保守上界；它不是直接成像涡旋或量出所有组分的c轴相干长度。近Tc表现出BKT式行为，与低温尺度下可能更接近三维相干并不矛盾，不能简单贴成“严格二维量子临界点已证实”。独立SI中的拟合与更多样品尚需取得后核对。"
+        },
+        {
+          "title": "低温Nd效应：观测与磁序推断必须分开",
+          "text": "低于约3–4 K，λ⁻²反而随降温明显减小，某些样品在更低温略恢复，伴随耗散信号增加；这比简单Nd³⁺顺磁背景常见的弱修正更大，也不服从简单Curie–Weiss形式。La/Pr镍酸盐的对比及外场响应支持Nd磁矩参与，但本篇并没有以中子或μSR给出Nd长程磁结构。图2以穿透深度最小的温度作为假设磁转变尺度，线性外推到x≈0.29；它不是在0.29实际测到量子临界点。稀土磁响应对互感反演、可能的磁序导致费米面重构及真实配对破坏仍需分离，不应把一个曲线拐点直接当作磁结构定论。"
+        },
+        {
+          "title": "拟合—误差—替代解释：0.43±0.03不应改写成精确1/2",
+          "text": "为估计没有Nd磁性时的λ₀⁻²，作者在低温磁性异常以上、BKT下降以下选区间做二次温度外推，并以拟合窗口两端结果给范围。跨组分拟合Tc=(10.9±0.2)(λ₀⁻²)^(0.43±0.03)，单位为Tc的K和λ的μm；可称近似平方根关系，不能舍去不确定度后宣布指数严格为0.5。误差包含线圈几何及去磁性拟合，温度判据改变后的稳健性另需SI。无序同时压低Tc与刚度也能造成间接相关，作者没有排除它；正相关与低TΘ共同支持相位涨落重要，却未唯一确定配对对称性或可达到的最高Tc。"
+        },
+        {
+          "title": "复现建议与阅读顺序",
+          "text": "先图1的σ₁/σ₂及Tc定义，再图2低温反常和去磁性外推，最后图3拟合指数及图4跨材料比较。下一轮同片上做低频互感、输运和磁场方向/频率依赖，检查低温压制是否随探测频率、激励幅度与非线性改变；增加相同封帽/基底、相近无序的La/Pr对照，并独立标定膜厚与线圈几何。若指数随去磁性拟合窗或有效厚度设定大幅漂移，就先报告模型区间而非普适律；若Nd信号主要是线圈磁背景，不能把它全部归为真实超流减少。与镍酸盐光学双带研究比较时，要保持不同代理量和同一样品假设，不把两组不同膜的数据拼成已完成的微观闭环。"
+        },
+        {
+          "title": "参数追溯与可执行的数据归档",
+          "text": "这组实验的可复现性尤其依赖电磁反演与样品几何，而不仅是温度分辨率。保存时应将原始互感实部/虚部、线圈距离、频率、膜面积与有效厚度、封帽和基底信息同编号关联，另存每个去磁性拟合窗口的结果；不要只保存最终λ(T)图片。当前主文没有给出足够独立信息使本站重新执行完整反演，因此本简报是对原文方法和结果的精读审查，不声称已经重跑作者数据。若采用不同Tc判据对跨材料图重新排序，应同步标注，而不是保留同一坐标标签让电阻Tc和刚度Tc混在一条普适线上。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜镍酸盐超流密度、相位刚度与稀土磁性",
+        "first": "图1的耗散/感性及Tc定义，图2的去磁性拟合窗口，最后图3指数。",
+        "focus": "λ⁻²代理nₛ/m*；Nd磁序为推断，x≈0.29为外推；0.43±0.03不是精确1/2。",
+        "next": "同片多频率/多激励互感与输运，独立校准厚度及磁背景并与La/Pr同质量样品对照。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读正文",
+        "已接受稿",
+        "高温与非常规超导"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [
+          "arXiv v2主文全文，包括Author Contributions前全部讨论",
+          "图1–4图注；图像待核",
+          "正文引用的独立Supplementary Material未取得"
+        ],
+        "publisherUrl": "https://journals.aps.org/prl/accepted/10.1103/25gn-bfgw",
+        "publisherStatus": "200",
+        "authorManuscript": {
+          "auditId": 1469,
+          "arxivId": "2603.05606v2",
+          "title": "Evolution of the Superfluid Density in Infinite-Layer Nickelates",
+          "url": "https://arxiv.org/html/2603.05606v2",
+          "status": "200",
+          "paragraphs": 24,
+          "chars": 23935,
+          "candidateFullText": true,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:06.211109+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功",
+        "authorListScope": "实际阅读的作者公开稿首页作者表；正式版如有变更须另核"
+      }
+    },
+    {
+      "auditId": 1478,
+      "category": "高温与非常规超导",
+      "material": "KTaO₃界面",
+      "title": "Enhanced superconductivity at quantum-critical KTaO3 interfaces",
+      "authors": "Jieun Kim; Muqing Yu; Ahmed Omran; Jiangfeng Yang; Ranjani Ramachandran; William O. Nachlas; Patrick Irvin; Jeremy Levy; Chang-Beom Eom",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Physical Review Letters",
+      "date": "2026-10-13 已接受",
+      "publicationDate": "",
+      "publicationStatus": "accepted",
+      "doi": "https://doi.org/10.1103/jkkp-z93h",
+      "fullText": "https://arxiv.org/abs/2511.12904",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅题名/元数据；正文未精读；公开稿HTML未成功，继续核查PDF/作者稿",
+      "versionNote": "正式已接受；非正式发表日。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "仅题名线索：尚不据此总结结果；先核对公开稿和正式接受状态。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。正式已接受；非正式发表日。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "题名/元数据待核",
+        "已接受稿",
+        "高温与非常规超导"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://journals.aps.org/prl/accepted/10.1103/jkkp-z93h",
+        "publisherStatus": "200",
+        "authorManuscript": {
+          "auditId": 1478,
+          "arxivId": "2511.12904",
+          "title": "Enhanced Superconductivity at Quantum-Critical KTaO3 Interfaces",
+          "url": "https://arxiv.org/html/2511.12904",
+          "status": "404",
+          "paragraphs": 0,
+          "chars": 0,
+          "candidateFullText": false,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:19.790352+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 1892,
+      "category": "高温与非常规超导",
+      "material": "4Hb-Nb₀.₉₅Ti₀.₀₅Se₂",
+      "title": "Weak Superconducting Anisotropy in 4 H b ‐Nb 0.95 Ti 0.05 Se 2 With 1 T /1 H Heterostructure",
+      "authors": "Fanyu Meng; Hanru Wang; Zhixiao He; Saizheng Cao; Lan Song; Peng Gao; Yu Song; Shancai Wang; Shiyan Li; Hechang Lei",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Advanced Functional Materials",
+      "date": "2026-10-09 出版社/元数据日期",
+      "publicationDate": "2026-10-09",
+      "publicationStatus": "metadata-date-unconfirmed",
+      "doi": "https://doi.org/10.1002/adfm.78830",
+      "fullText": "https://doi.org/10.1002/adfm.78830",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读",
+      "versionNote": "DOI元数据核实；出版社目录/详情尚未确认。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：4Hb-Nb₀.₉₅Ti₀.₀₅Se₂单晶约3.3 K超导、弱各向异性，适合生长—层堆垛—多带检验。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "4Hb-Nb₀.₉₅Ti₀.₀₅Se₂单晶约3.3 K超导、弱各向异性，适合生长—层堆垛—多带检验。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。DOI元数据核实；出版社目录/详情尚未确认。实际阅读范围见本条记录。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "4Hb-Nb₀.₉₅Ti₀.₀₅Se₂单晶约3.3 K超导、弱各向异性，适合生长—层堆垛—多带检验。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "期刊日期待核",
+        "高温与非常规超导"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://doi.org/10.1002/adfm.78830",
+        "publisherStatus": "403",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 493,
+      "category": "重费米子与量子临界",
+      "material": "CeCu₃Ru₃.₂₅O₁₂",
+      "title": "Emergent heavy-fermion behavior from f – d and d – d hybridization in the quadruple perovskite CeCu 3 Ru 3.25 O 12",
+      "authors": "Hiroaki Anzai; Yasuaki Kikuchi; Yuta Kato; Kyoichi Otsuki; Toshiaki Iwazumi; Yukimi Tanimoto; Hitoshi Sato; Masashi Arita; Ikuya Yamada",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Physical Review B",
+      "date": "2026-10-13 出版社/元数据日期",
+      "publicationDate": "2026-10-13",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1103/3ktt-1x4q",
+      "fullText": "https://doi.org/10.1103/3ktt-1x4q",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读",
+      "versionNote": "已正式发表目录核实。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。已正式发表目录核实。实际阅读范围见本条记录。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "正式目录已核",
+        "重费米子与量子临界"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://journals.aps.org/prb/abstract/10.1103/3ktt-1x4q",
+        "publisherStatus": "200",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 1485,
+      "category": "重费米子与量子临界",
+      "material": "莫尔Kondo体系",
+      "title": "Emergence of a symmetry-broken Chern insulator near a moire Kondo breakdown",
+      "authors": "Wanghao Tian; Bowen Shen; Lizhong Li; Mingjie Zhang; Feng Liu; Chushan Li; Yaotian Liu; Fan Xu; Kenji Watanabe; Takashi Taniguchi; Peiling Li; Li Lu; Yang Xu; Shengwei Jiang; Tingxin Li; Jie Shan; Kin Fai Mak",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Physical Review Letters",
+      "date": "2026-10-13 已接受",
+      "publicationDate": "",
+      "publicationStatus": "accepted",
+      "doi": "https://doi.org/10.1103/szcj-44xj",
+      "fullText": "https://arxiv.org/abs/2602.17349v1",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅题名/元数据；正文未精读；公开稿HTML未成功，继续核查PDF/作者稿",
+      "versionNote": "正式已接受；非正式发表日。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "仅题名线索：尚不据此总结结果；先核对公开稿和正式接受状态。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。正式已接受；非正式发表日。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "题名/元数据待核",
+        "已接受稿",
+        "重费米子与量子临界"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://journals.aps.org/prl/accepted/10.1103/szcj-44xj",
+        "publisherStatus": "200",
+        "authorManuscript": {
+          "auditId": 1485,
+          "arxivId": "2602.17349v1",
+          "title": "Emergence of a symmetry-broken Chern insulator near a moiré Kondo breakdown",
+          "url": "https://arxiv.org/html/2602.17349v1",
+          "status": "404",
+          "paragraphs": 0,
+          "chars": 0,
+          "candidateFullText": false,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:06.700959+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 1601,
+      "category": "磁性、拓扑与自旋",
+      "material": "BiFeO₃",
+      "title": "Selective Strain Tuning of Nonequilibrium Multiferroic Dynamics in BiFeO 3",
+      "authors": "Chenhang Xu; Patrick Liu; Bo Zhang; Minyong Han; Henry G. Bell; Cameron J. R. Duncan; Yusong Liu; Patrick L. Kramer; Randy Lemons; Jake D. Koralek; Alexander H. Reid; Dong Qian; Harold Y. Hwang; Alfred Zong",
+      "institutions": "Department of Applied Physics, Stanford University, Stanford, CA 94305, USA；Stanford Institute for Materials and Energy Sciences, SLAC National Accelerator Laboratory, Menlo Park, CA 94025, USA；School of Physics and Astronomy, Shanghai Jiao Tong University, Shanghai 200240, China；Tsung-Dao Lee Institute, Shanghai Jiao Tong University, Shanghai 201210, China；Linac Coherent Light Source, SLAC National Accelerator Laboratory, Menlo Park, CA 94025, USA；Department of Physics, Stanford University, Stanford, CA 94305, USA",
+      "journal": "Physical Review Letters",
+      "date": "2026-10-21 出版社/元数据日期",
+      "publicationDate": "2026-10-21",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1103/6789-9w6m",
+      "fullText": "https://arxiv.org/abs/2609.29472v3",
+      "method": "见本条正文分析及明确标记的未报告项",
+      "access": "全文精读：对应作者公开稿主文；正式版与独立SI未逐段核同",
+      "versionNote": "已正式发表目录核实。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "自由悬空BiFeO₃膜上约0.2%拉伸选择性减弱光激发引起的铁电位移下降，而八面体旋转响应在误差内基本不变。44个衍射峰支持两个结构通道分离，但并非直接测量磁序动力学，载流子俘获/小极化子仍是解释假设。",
+      "sections": [
+        {
+          "title": "问题与实验对象：结构通道不是直接磁矩",
+          "text": "BiFeO₃铁电位移与氧八面体反铁畸变AFD旋转相互耦合，后者又与磁交换关联。本文问静态应变能否只改一个非平衡通道，而不是使两个序都同时改变。测量是电子衍射反演原子位移、旋转与热振动，不是时间分辨磁散射；故“选择性调控多铁性”不能改写成已独立直接测到磁矩保持不变。\n\n样品为30 nm悬空膜，跨约90 μm硅片间隙置于钛板和压电应变台上，[110]单轴拉伸最高约0.2%，再高会破膜。实际应变由Bragg峰位移测定，而不是直接用压电电压或平台位移充当晶格应变；回线中的滞后提示逐点标定必要。"
+        },
+        {
+          "title": "完整SI可核实的制备条件",
+          "text": "KrF248 nm PLD，以多晶BiFeO₃陶瓷靶在STO(001)生长。系统基压5×10⁻¹⁰ Torr；衬底先1000℃、1×10⁻⁶ Torr氧、1 h处理。SAO牺牲层10 nm在880℃、5×10⁻⁶ Torr氧下，以5 Hz、1.5 J/cm²沉积，厚度经RHEED振荡校准；随后BFO30 nm在850℃、10 mTorr氧、5 Hz、1 J/cm²沉积。去离子水溶解SAO，膜浮于水面后转移跨隙。\n\n靶材原料纯度、独立Bi过量、沉积后氧退火和冷却速率、转移时间及良率在已读SI未报告，不补写。水洗/转移带来的残余应力、裂纹、污染和不同畴分布应列为样品质量变量，不能只写“单晶膜”便跳过。"
+        },
+        {
+          "title": "泵浦与衍射：为什么不是简单热效应",
+          "text": "3.1 MeV电子探针，射频枪360 Hz，电子束斑约100 μm、150 fs FWHM；267 nm光泵约65 fs、300 μm FWHM，与探针平行正常入射。主文入射能流5 mJ/cm²、延迟至7 ps，SI补3 mJ/cm²至70 ps；均为入射量，不假设全部吸收。\n\n已看图2实际图像，100峰比110峰更快、更大下降；晚延迟log强度变化不沿|q|²单一直线，不能仅由各向同性Debye–Waller加热解释。FE与AFD各自模拟产生不同的峰强空间模式，使44峰联合拟合有辨识依据，不能只拟一个峰再给两个原子运动命名。"
+        },
+        {
+          "title": "结构反演的约束与数值",
+          "text": "模型采用2×2×2伪立方超胞、参考a=b=c=3.947 Å、R3c等角八面体旋转，Fe/O极性位移比固定。不同畴按非相干强度相加，只保留该入射几何能区分的两类投影；反平行畴衍射相同，所以不能用这一数据确定极化正负。热振动各元素比例固定于既有中子结果，拟合同时受这些先验约束。\n\n无应变FE时间常数0.27±.09 ps、AFD约1.1±.5 ps，AFD与Debye–Waller约1–1.5 ps接近。拉伸使FE瞬态抑制幅度减小，但AFD、加热幅度和各时间常数在误差内未显著变。图中1标准差是拟合不确定度，不等于已经包括转移、吸收、取向与模型系统误差。应变下“未测到变化”也不能写成数学上严格零耦合。"
+        },
+        {
+          "title": "机制：筛选过模型但仍不是唯一微观证明",
+          "text": "TDGL加入快速FE屏蔽项与较慢热项，作者发现固定屏蔽、只改非谐系数/FE–AFD耦合无法重现选择性，需让拉伸降低有效屏蔽。该方案在选定模型族内有区分力，但屏蔽项瞬时近似来自小于仪器响应的文献尺度，不是本次直接解析到载流子生成。\n\n小极化子形成与缺陷俘获减少移动载流子，是作者提出的合理微观来源；正文没有同步测载流子寿命或极化子谱，不能当作观察事实。SI还讨论静态应变本身使FE位移略降、AFD近似不变，说明起始态和缺陷变化也参与。所谓非热FE过程不表示样品完全不加热，热通道仍在后续明显存在。"
+        },
+        {
+          "title": "复现与下一次测量",
+          "text": "首先验证转移膜完整性和真实晶格应变，在同一膜上应变往返并以峰位/峰宽、畴比例和总强度监测损伤。保留44峰拟合残差、参数相关性与固定参数敏感性；若放开Fe/O比或各向异性热振动后FE/AFD分离不稳，应减弱定量结论。\n\n进一步用瞬态电导或极化子敏感光谱在同应变/光泵条件下测移动载流子，才可检验俘获抑制屏蔽的具体路径；要谈磁序则加入真正磁性探针。普通实验室可借鉴牺牲层/真实应变标定思路，但MeV-UED需大设施；不能将平台里的静态XRD拟合包装为同等飞秒实验。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜薄膜释放、应变与超快结构研究",
+        "first": "SI S1制备→图2非纯热判据→图3与SI S3联合拟合→SI S5替代模型；图4机制示意最后读。",
+        "focus": "检查44峰的约束、反平行畴不可分辨和AFD并非直接磁序。引言一般多铁背景可略，误差及SI低能流重复不可略。",
+        "next": "同应变同步测移动载流子/极化子并对结构拟合做先验敏感性检验，区分机制推断与直接衍射观察。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读正文",
+        "正式目录已核",
+        "磁性、拓扑与自旋"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [
+          "公开稿全部主文、图1—4图注及图2实际图像",
+          "同稿SI S1—S7全部文字、结构拟合公式与图S1—S8图注",
+          "结构坐标表仅核对参数化假设，未独立复算结构或TDGL数值"
+        ],
+        "publisherUrl": "https://journals.aps.org/prl/abstract/10.1103/6789-9w6m",
+        "publisherStatus": "200",
+        "authorManuscript": {
+          "auditId": 1601,
+          "arxivId": "2609.29472v3",
+          "title": "Selective strain tuning of nonequilibrium multiferroic dynamics in BiFeO$_\\text3$",
+          "url": "https://arxiv.org/html/2609.29472v3",
+          "status": "200",
+          "paragraphs": 68,
+          "chars": 46702,
+          "candidateFullText": true,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:09.154493+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功",
+        "authorListScope": "实际阅读的作者公开稿首页作者表；正式版如有变更须另核"
+      }
+    },
+    {
+      "auditId": 1679,
+      "category": "磁性、拓扑与自旋",
+      "material": "CsCr₃Sb₅",
+      "title": "Anomalous low-temperature magnetotransport in kagome metal CsCr 3 Sb 5 under pressure",
+      "authors": "Zikai Zhou; Wenyan Wang; Deng Hu; Zheyu Wang; Ying Kit Tsui; Tsz Fung Poon; Zhiwei Wang; Swee K. Goh",
+      "institutions": "Department of Physics, The Chinese University of Hong Kong, Shatin, Hong Kong, China；State Key Laboratory of Quantum Information Technologies and Materials, The Chinese University of Hong Kong, Shatin, Hong Kong, China；Centre for Quantum Physics, Key Laboratory of Advanced Optoelectronic Quantum Architecture and Measurement (MOE), School of Physics, Beijing Institute of Technology, Beijing 100081, China；Beijing Key Laboratory of Quantum Matter State Control and Ultra-Precision Measurement Technology, Beijing Institute of Technology, Beijing 100081, China；Quantum Science Center of Guangdong-Hong Kong-Macao Greater Bay Area, Shenzhen, China；International Centre for Quantum Materials, Beijing Institute of Technology, Zhuhai 519000, China",
+      "journal": "Physical Review Materials",
+      "date": "2026-10-21 已接受",
+      "publicationDate": "",
+      "publicationStatus": "accepted",
+      "doi": "https://doi.org/10.1103/xv9d-r25g",
+      "fullText": "https://arxiv.org/abs/2604.13553v1",
+      "method": "见本条正文分析及明确标记的未报告项",
+      "access": "全文精读：对应作者公开稿主文；正式版与独立SI未逐段核同",
+      "versionNote": "正式已接受；非正式发表日。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "CsCr₃Sb₅约30 K的电阻驼峰与霍尔系数回升、非线性霍尔分量一起出现，压力主要放大低温迁移率和磁阻，并未明显移动该温标。迁移率谱为多载流子解释提供支持，但还没有证明出现了新的破时反电子序。",
+      "sections": [
+        {
+          "title": "问题与样品：将30 K异常从背景中分离",
+          "text": "这篇工作不是再证明CsCr₃Sb₅能在压力下超导，而是研究已有相图中常被忽略的约30 K驼峰T₃。作者把纵向电阻、横向霍尔和磁阻放在同一温度—压力框架中，检查它是否伴随独立输运通道的变化。已知较高温T₁、T₂的密度波样转变是比较背景，不应把T₃直接命名为另一个已确定的CDW或磁转变。\n\nK1、K2两块约550 nm薄片来自同一批块体单晶；K1测5和19 kbar，K2只测5 kbar。它们是同批样品而非同一片的全部重复，图1低压磁阻使用K2、高压使用K1，跨压力幅度比较必须保留这个批次边界。主文称CsSb为助熔剂、采用Flux生长并以EDS表征；原料纯度、装料比例、坩埚、封管、升降温、保温、离心温度和产率在当前已读主文未报告，不能从同族材料常见做法补写。"
+        },
+        {
+          "title": "方法与质量：压力和几何并非可省略的细节",
+          "text": "实验使用带预制电极的器件集成金刚石压砧DIDAC、甘油传压介质，室温红宝石荧光定压。六电极Hall bar在PPMS内最低2 K、最高14 T测量，磁场沿c轴、输运在面内。低温实际压力及压力梯度、注入电流和接触电阻的数值在已读主文未报告；因此温标几乎不动的判断还应结合压力不确定度理解。\n\n5 kbar被作者当作近常压代表，并不是真正0 kbar：其T₁约58 K、T₃约30 K与既有常压结果接近。19 kbar时T₁约50 K，出现约46 K的T₂，而T₃仍约30 K。样品质量依据除EDS外主要是输运与同批重复；未读SI前不声称已核对单晶衍射、杂相比例和精确化学计量。"
+        },
+        {
+          "title": "直接观察：电阻降低和磁阻增大",
+          "text": "主文报告低压残余电阻率约0.2 mΩ·cm，高压约0.06 mΩ·cm，后者约为前者30%；2 K、14 T磁阻由约16%增至230%，约14倍。磁阻按[ρ(B)−ρ(0)]/ρ(0)定义，因此电阻率下降本身也改变归一化磁阻的分母，不能把14倍全部解释成新序参量增强。\n\n原文把RRR写成ρ(2 K)/ρ(300 K)，同时给3.6；这与曲线降温电阻下降和通常RRR定义方向不一致。本站保留这一原文内部待核项，不照抄倒置公式计算新参数。K1、K2重复的是定性趋势，不足以提供多批统计误差。"
+        },
+        {
+          "title": "霍尔与模型：AHLE不等于已证实反常霍尔效应",
+          "text": "低于约30 K，低场|B|≤5 T霍尔曲线非线性增强；作者用高场斜率定义R_H，低温R_H回升并约15 K换号。这说明不同迁移率加权的输运贡献变化，不能在多带体系把符号改变直接写成真实总载流子从电子变为空穴，更不能把高温单带1/eR_H解释成准确电子密度。\n\n非线性分量由|B|≥10 T外推的线性项扣除，但高压数据连高场也有非线性，基线选择会影响所谓AHLE幅度。迁移率谱同时描述纵、横向电导，19 kbar下出现更宽分布和较强的>5000 cm²/(V·s)高迁移率贡献，并随升温减弱。它支持多通道方案，但逆问题的正则化、有限场窗及几何误差仍需SI和代码进一步检查；没有预设载流子数，不代表反演唯一。"
+        },
+        {
+          "title": "结论强弱与替代解释",
+          "text": "最强证据是T₃、电阻快速下降、R_H回升及非线性信号在两种压力下共同出现。最弱环节是从关联直接确定微观有序性质：高迁移率小口袋、Berry曲率、磁性或环流贡献可以竞争或共存。文中讨论交错磁性和环流属于候选解释，不是本次输运直接观察；既没有直接磁序测量，也没有证明自发霍尔和时间反演破缺。与CsV₃Sb₅相似只是建立比较对象，不足以移植其所有机理。"
+        },
+        {
+          "title": "复现与下一次测量",
+          "text": "优先在同一K1器件上重复5→19→5 kbar循环，保持电极几何，记录低温压力和正负场反对称化前后的原始电压；同步做纵向对称化并检查接触漂移。对同一组ρxx、ρyx分别比较两/多带和迁移率谱拟合，改变高场扣背景区间，展示参数稳定性，而不只展示最低残差。\n\n若要把T₃升格为相变，应在20–40 K细扫热容、衍射或局域磁探针，并用同批薄片与块体交叉检查。停止条件是换一种可靠基线或几何校准后AHLE显著消失，或T₃只随接触/压力非均匀性变化。上述是针对本文证据短板的复核建议，未声称这些实验全球未做过。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜压力输运与kagome材料研究优先",
+        "first": "先读图2温标与霍尔换号，再读图3高场扣除及迁移率谱；图1同时核对K1/K2标识。",
+        "focus": "不要把AHLE缩写当作TRS破缺证明；复查RRR倒置、室温定压及高压高场非线性。背景文献可略读，SI生长和反对称化细节不可跳过。",
+        "next": "同一器件压力往返和多种扣背景区间的稳健性测试，比继续增加单条磁阻曲线更有判别力。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读正文",
+        "已接受稿",
+        "磁性、拓扑与自旋"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [
+          "公开稿主文全部段落，含样品、压力和输运方法",
+          "图1—3图注；本轮未查看SVG曲线原图",
+          "独立补充材料尚未取得，Flux温程和EDS细节待补"
+        ],
+        "publisherUrl": "https://journals.aps.org/prmaterials/accepted/10.1103/xv9d-r25g",
+        "publisherStatus": "200",
+        "authorManuscript": {
+          "auditId": 1679,
+          "arxivId": "2604.13553v1",
+          "title": "Anomalous Low-temperature Magnetotransport in Kagome Metal CsCr$_3$Sb$_5$ under Pressure",
+          "url": "https://arxiv.org/html/2604.13553v1",
+          "status": "200",
+          "paragraphs": 19,
+          "chars": 19658,
+          "candidateFullText": true,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:10.323187+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功",
+        "authorListScope": "实际阅读的作者公开稿首页作者表；正式版如有变更须另核"
+      }
+    },
+    {
+      "auditId": 2735,
+      "category": "磁性、拓扑与自旋",
+      "material": "CrPS₄",
+      "title": "Unidirectional Magnetoresistance Driven by Nonequilibrium Antiferromagnetic Magnons",
+      "authors": "Xue He; Hans Gløckner Giil; Caiqiong Xu; Jicheng Wang; Arne Brataas; Jinbo Yang; Yanglong Hou; Zhaochu Luo; Rui Wu; Shilei Ding",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Nano Letters",
+      "date": "2026-10-21 出版社/元数据日期",
+      "publicationDate": "2026-10-21",
+      "publicationStatus": "metadata-date-unconfirmed",
+      "doi": "https://doi.org/10.1021/acs.nanolett.6c04307",
+      "fullText": "https://arxiv.org/abs/2512.11552v2",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读；公开稿HTML未成功，继续核查PDF/作者稿",
+      "versionNote": "DOI元数据核实；出版社目录/详情尚未确认。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：CrPS₄/Pt反铁磁非平衡magnon USMR，电流热效应与化学势模型须补读。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "CrPS₄/Pt反铁磁非平衡magnon USMR，电流热效应与化学势模型须补读。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。DOI元数据核实；出版社目录/详情尚未确认。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "CrPS₄/Pt反铁磁非平衡magnon USMR，电流热效应与化学势模型须补读。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "期刊日期待核",
+        "磁性、拓扑与自旋"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://doi.org/10.1021/acs.nanolett.6c04307",
+        "publisherStatus": "403",
+        "authorManuscript": {
+          "auditId": 2735,
+          "arxivId": "2512.11552v2",
+          "title": "Unidirectional magnetoresistance driven by nonequilibrium antiferromagnetic magnons",
+          "url": "https://arxiv.org/html/2512.11552v2",
+          "status": "404",
+          "paragraphs": 0,
+          "chars": 0,
+          "candidateFullText": false,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:13.006692+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 2899,
+      "category": "磁性、拓扑与自旋",
+      "material": "PtMn₃结",
+      "title": "Octupole-driven spin torque switching of antiferromagnetic tunnel junctions",
+      "authors": "Jaimin Kang; Mohammad Hamdi; Shun Kong Cheung; Lin-Ding Yuan; Mohamed Elekhtiar; Eric Matt; William Rogers; Andrea Meo; Peter G. Lim; M. S. Nicholas Tey; Anthony D’Addario; Shiva T. Konakanchi; Jordan Athas; Sevdenur Arpaci; Antoine Devincenti; Lei Wan; Sanjay C. Mehta; Nicholas Zogbi; Vinod K. Sangwan; Jean Anne C. Incorvia; Jennifer Fowlie; Pramey Upadhyaya; Mario Carpentieri; Vinayak P. Dravid; Mark C. Hersam; Jordan A. Katine; Gregory D. Fuchs; Giovanni Finocchio; Evgeny Y. Tsymbal; James M. Rondinelli; Pedram Khalili Amiri",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Nature",
+      "date": "2026-10-21 出版社/元数据日期",
+      "publicationDate": "2026-10-21",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1038/s41586-026-11172-5",
+      "fullText": "https://arxiv.org/abs/2509.03026v2",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读；公开稿HTML未成功，继续核查PDF/作者稿",
+      "versionNote": "已正式发表目录核实。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：PtMn₃/MgO/PtMn₃反铁磁隧道结八极矩自旋转移力矩，室温读写与对照强相关。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "PtMn₃/MgO/PtMn₃反铁磁隧道结八极矩自旋转移力矩，室温读写与对照强相关。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。已正式发表目录核实。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "PtMn₃/MgO/PtMn₃反铁磁隧道结八极矩自旋转移力矩，室温读写与对照强相关。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "正式目录已核",
+        "磁性、拓扑与自旋"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://www.nature.com/articles/s41586-026-11172-5",
+        "publisherStatus": "200",
+        "authorManuscript": {
+          "auditId": 2899,
+          "arxivId": "2509.03026v2",
+          "title": "Octupole-driven spin torque switching of antiferromagnetic tunnel junctions",
+          "url": "https://arxiv.org/html/2509.03026v2",
+          "status": "404",
+          "paragraphs": 0,
+          "chars": 0,
+          "candidateFullText": false,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:14.255666+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 2722,
+      "category": "磁性、拓扑与自旋",
+      "material": "Cr₂Te₃",
+      "title": "Magnetic Phase Diagram of Cr2Te3: The Hidden Role of Layer Stacking",
+      "authors": "Cyriack Jego; Thierry Sauvage; Nicolas Gauthier; Quentin Guillet; Jean-François Jacquot; Isabelle Gomes de Moraes; Damien Caliste; Pascal Pochet; Denis Jalabert; Hanako Okuno; Thomas Olsen; Alain Marty; Matthieu Jamet",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Nano Letters",
+      "date": "2026-10-20 出版社/元数据日期",
+      "publicationDate": "2026-10-20",
+      "publicationStatus": "metadata-date-unconfirmed",
+      "doi": "https://doi.org/10.1021/acs.nanolett.6c03322",
+      "fullText": "https://doi.org/10.1021/acs.nanolett.6c03322",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读",
+      "versionNote": "DOI元数据核实；出版社目录/详情尚未确认。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：Cr₂Te₃退火调堆垛/层距及Tc，须区分375 ℃退火和303 K磁转变温度。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "Cr₂Te₃退火调堆垛/层距及Tc，须区分375 ℃退火和303 K磁转变温度。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。DOI元数据核实；出版社目录/详情尚未确认。实际阅读范围见本条记录。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "Cr₂Te₃退火调堆垛/层距及Tc，须区分375 ℃退火和303 K磁转变温度。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "期刊日期待核",
+        "磁性、拓扑与自旋"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://doi.org/10.1021/acs.nanolett.6c03322",
+        "publisherStatus": "403",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 3256,
+      "category": "磁性、拓扑与自旋",
+      "material": "MnPS₃",
+      "title": "Terahertz field-induced giant symmetry modulations in a van der Waals antiferromagnet",
+      "authors": "Sheikh Rubaiat Ul Haque; Martin J. Cross; Sangeeta Rajpurohit; Jonah B. Haber; Christopher J. Ciccarino; Alexandra C. Zimmerman; Isabelle J. Sealey; Vadym Kulichenko; Monique Tie; Huaiyu Wang; Sharon S. Philip; Choongwon Seo; Jake D. Koralek; Luis Balicas; Mykhaylo Ozerov; Dmitry Smirnov; Liang Z. Tan; Felipe H. da Jornada; Tadashi Ogitsu; Matthias C. Hoffmann; Tony F. Heinz; Aaron M. Lindenberg",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Nature Communications",
+      "date": "2026-10-20 出版社/元数据日期",
+      "publicationDate": "2026-10-20",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1038/s41467-026-78519-4",
+      "fullText": "https://arxiv.org/abs/2510.00605v1",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读；公开HTML已定位，待逐篇补读",
+      "versionNote": "已正式发表目录核实。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：MnPS₃强THz泵浦RA-SHG动态镜面对称性；AFM→ferrimagnetic是模拟支持的解释，非直接磁结构测定。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "MnPS₃强THz泵浦RA-SHG动态镜面对称性；AFM→ferrimagnetic是模拟支持的解释，非直接磁结构测定。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。已正式发表目录核实。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "MnPS₃强THz泵浦RA-SHG动态镜面对称性；AFM→ferrimagnetic是模拟支持的解释，非直接磁结构测定。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "正式目录已核",
+        "磁性、拓扑与自旋"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://www.nature.com/articles/s41467-026-78519-4",
+        "publisherStatus": "200",
+        "authorManuscript": {
+          "auditId": 3256,
+          "arxivId": "2510.00605v1",
+          "title": "Terahertz field-induced giant symmetry modulations in a van der Waals antiferromagnet",
+          "url": "https://arxiv.org/html/2510.00605v1",
+          "status": "200",
+          "paragraphs": 177,
+          "chars": 96145,
+          "candidateFullText": true,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:16.602085+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 1778,
+      "category": "磁性、拓扑与自旋",
+      "material": "Ni₃In₂S₂",
+      "title": "Evidence for four-carrier transport in kagome Ni 3 In 2 S 2 nanoflakes",
+      "authors": "Xingchen Liu; Jinying Yang; Yibo Wang; Meng Lyu; Xuebin Dong; Yang Liu; Binbin Wang; Xiyang Li; Enke Liu",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Physical Review Research",
+      "date": "2026-10-19 已接受",
+      "publicationDate": "",
+      "publicationStatus": "accepted",
+      "doi": "https://doi.org/10.1103/nyl7-h1dl",
+      "fullText": "https://doi.org/10.1103/nyl7-h1dl",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅题名/元数据；正文未精读",
+      "versionNote": "正式已接受；非正式发表日。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "仅题名线索：尚不据此总结结果；先核对公开稿和正式接受状态。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。正式已接受；非正式发表日。实际阅读范围见本条记录。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "题名/元数据待核",
+        "已接受稿",
+        "磁性、拓扑与自旋"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://journals.aps.org/prresearch/accepted/10.1103/nyl7-h1dl",
+        "publisherStatus": "200",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 2715,
+      "category": "磁性、拓扑与自旋",
+      "material": "CoBr₂界面",
+      "title": "Magnetism beyond the Monolayer: Long-Range Order in an Interfacial Phase of CoBr2",
+      "authors": "Samuel Kerschbaumer; David Serrate; Adriana Elizabet Candia; Andrea Aguirre; Danilo Longo; Fadi Choueikani; Jorge Lobo-Checa; Pavel Jelínek; Maxim Ilyn; Celia Rogero; Sebastien E. Hadjadj",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Nano Letters",
+      "date": "2026-10-19 出版社/元数据日期",
+      "publicationDate": "2026-10-19",
+      "publicationStatus": "metadata-date-unconfirmed",
+      "doi": "https://doi.org/10.1021/acs.nanolett.6c03267",
+      "fullText": "https://doi.org/10.1021/acs.nanolett.6c03267",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读",
+      "versionNote": "DOI元数据核实；出版社目录/详情尚未确认。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：CoBr₂/Au(111)前驱界面相已有长程磁序，直接联系生长阶段和磁性。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "CoBr₂/Au(111)前驱界面相已有长程磁序，直接联系生长阶段和磁性。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。DOI元数据核实；出版社目录/详情尚未确认。实际阅读范围见本条记录。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "CoBr₂/Au(111)前驱界面相已有长程磁序，直接联系生长阶段和磁性。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "期刊日期待核",
+        "磁性、拓扑与自旋"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://doi.org/10.1021/acs.nanolett.6c03267",
+        "publisherStatus": "403",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 3053,
+      "category": "磁性、拓扑与自旋",
+      "material": "Fe₂Mo₃O₈",
+      "title": "Signatures of bi-altermagnetism revealed by sublattice-specific circular dichroism in resonant inelastic X-ray scattering",
+      "authors": "Ganesha Channagowdra; Amol Singh; Hsiao-Yu Huang; Mizuki Furo; Bin Gao; Pengcheng Dai; Chein-Te Chen; Jan Kuneš; Atsushi Fujimori; Sang-Wook Cheong; Atsushi Hariki; Di-Jing Huang",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Nature Communications",
+      "date": "2026-10-14 出版社/元数据日期",
+      "publicationDate": "2026-10-14",
+      "publicationStatus": "metadata-date-unconfirmed",
+      "doi": "https://doi.org/10.1038/s41467-026-78163-y",
+      "fullText": "https://arxiv.org/abs/2512.00737v3",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读；公开HTML已定位，待逐篇补读",
+      "versionNote": "DOI元数据核实；出版社目录/详情尚未确认。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：Fe₂Mo₃O₈亚晶格选择RIXS圆二色性支持bi-altermagnetism，需要模型对照而非零磁矩即定性。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "Fe₂Mo₃O₈亚晶格选择RIXS圆二色性支持bi-altermagnetism，需要模型对照而非零磁矩即定性。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。DOI元数据核实；出版社目录/详情尚未确认。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "Fe₂Mo₃O₈亚晶格选择RIXS圆二色性支持bi-altermagnetism，需要模型对照而非零磁矩即定性。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "期刊日期待核",
+        "磁性、拓扑与自旋"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://doi.org/10.1038/s41467-026-78163-y",
+        "publisherStatus": "200",
+        "authorManuscript": {
+          "auditId": 3053,
+          "arxivId": "2512.00737v3",
+          "title": "Signatures of bi-altermagnetism revealed by sublattice-specific circular dichroism in resonant inelastic X-ray scattering",
+          "url": "https://arxiv.org/html/2512.00737v3",
+          "status": "200",
+          "paragraphs": 107,
+          "chars": 61657,
+          "candidateFullText": true,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:15.754853+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 3072,
+      "category": "磁性、拓扑与自旋",
+      "material": "CrSBr / YIG",
+      "title": "Observation of dark magnons in a van der Waals antiferromagnet/ferromagnet interface",
+      "authors": "Kanglin Yu; Hanchen Wang; Chenyan Hu; Yu He; Haoyu Zhuang; He Song; Tianyu Yang; Lutong Sheng; Dekun Shen; Guang Yang; Richeng Yu; Xiufeng Han; Song Liu; Dapeng Yu; Jean-Philippe Ansermet; Timothy Ziman; Haiming Yu; Jilei Chen",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Nature Communications",
+      "date": "2026-10-14 出版社/元数据日期",
+      "publicationDate": "2026-10-14",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1038/s41467-026-78521-w",
+      "fullText": "https://doi.org/10.1038/s41467-026-78521-w",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读",
+      "versionNote": "已正式发表目录核实。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：CrSBr/YIG界面耦合使暗magnon可见，需区分本征暗模与混成后可检测性。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "CrSBr/YIG界面耦合使暗magnon可见，需区分本征暗模与混成后可检测性。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。已正式发表目录核实。实际阅读范围见本条记录。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "CrSBr/YIG界面耦合使暗magnon可见，需区分本征暗模与混成后可检测性。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "正式目录已核",
+        "磁性、拓扑与自旋"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://www.nature.com/articles/s41467-026-78521-w",
+        "publisherStatus": "200",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 3673,
+      "category": "磁性、拓扑与自旋",
+      "material": "四层石墨烯",
+      "title": "Gate-induced layer sliding drives non-volatile switching of magnetism in tetralayer graphene",
+      "authors": "Daniel Brandon; Tixuan Tan; Yiwen Ai; Kyle Nadel; Peter Golemis; Akshat Gandhi; Lujin Min; Wenjun Zheng; Kenji Watanabe; Takashi Taniguchi; Mengkun Liu; Trithep Devakul; Kenji Yasuda",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Nature Nanotechnology",
+      "date": "2026-10-14 出版社/元数据日期",
+      "publicationDate": "2026-10-14",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1038/s41565-026-02306-x",
+      "fullText": "https://doi.org/10.1038/s41565-026-02306-x",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读",
+      "versionNote": "已正式发表目录核实。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：四层石墨烯栅控Bernal↔菱方滑移改变磁态，Hall可能涉及畴边界，需区分体态。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "四层石墨烯栅控Bernal↔菱方滑移改变磁态，Hall可能涉及畴边界，需区分体态。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。已正式发表目录核实。实际阅读范围见本条记录。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "四层石墨烯栅控Bernal↔菱方滑移改变磁态，Hall可能涉及畴边界，需区分体态。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "正式目录已核",
+        "磁性、拓扑与自旋"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://www.nature.com/articles/s41565-026-02306-x",
+        "publisherStatus": "200",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 1627,
+      "category": "磁性、拓扑与自旋",
+      "material": "ScV₆Sn₆",
+      "title": "Identifying short- and long-range charge density wave orders in kagome-lattice ScV 6 Sn 6 via NMR spectroscopy",
+      "authors": "Xin Zhang; Yue Lu; Hang Li; Feng Zhou; Xuekui Xi; Yong-Chang Lau; Zhiwei Wang; Wenhong Wang",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Physical Review Materials",
+      "date": "2026-10-13 出版社/元数据日期",
+      "publicationDate": "2026-10-13",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1103/5pky-5cwq",
+      "fullText": "https://doi.org/10.1103/5pky-5cwq",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读",
+      "versionNote": "已正式发表目录核实。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。已正式发表目录核实。实际阅读范围见本条记录。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "正式目录已核",
+        "磁性、拓扑与自旋"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://journals.aps.org/prmaterials/abstract/10.1103/5pky-5cwq",
+        "publisherStatus": "200",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 1628,
+      "category": "磁性、拓扑与自旋",
+      "material": "K₂CsYb(PO₄)₂",
+      "title": "Anisotropic exchange in the spin-orbit entangled J eff = 1 / 2 triangular-lattice antiferromagnet K 2 CsYb ( PO 4 ) 2",
+      "authors": "Wenjing Zhang; Lei Wang; Zhijian Chen; Yancong Huo; Chengwei Hou; Zhenxing Wang; Jingxin Li; Zhen Ma; Zhongwen Ouyang",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Physical Review Materials",
+      "date": "2026-10-13 出版社/元数据日期",
+      "publicationDate": "2026-10-13",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1103/ddgx-ydyb",
+      "fullText": "https://doi.org/10.1103/ddgx-ydyb",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读",
+      "versionNote": "已正式发表目录核实。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。已正式发表目录核实。实际阅读范围见本条记录。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "正式目录已核",
+        "磁性、拓扑与自旋"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://journals.aps.org/prmaterials/abstract/10.1103/ddgx-ydyb",
+        "publisherStatus": "200",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 1633,
+      "category": "磁性、拓扑与自旋",
+      "material": "Ce₂Te₅",
+      "title": "Hidden magnetic complexity in the simple van der Waals ferromagnet Ce 2 Te 5",
+      "authors": "Rajesh Tripathi; D. T. Adroja; C. Ritter; Leandro Liborio; Manuel dos Santos Dias; Leon Petit; D. Khalyavin; Yu Liu; T. Shiroka; M. Aouane; S. Langridge; S. Patil; Eric D. Bauer",
+      "institutions": "ISIS Neutron and Muon Source, STFC, Rutherford Appleton Laboratory, Chilton, Oxon OX11 0QX, United Kingdom；Jawaharlal Nehru Centre for Advanced Scientific Research, Jakkur, Bangalore 560064, India；Department of Physics, Indian Institute of Technology (BHU) Varanasi, 221005 Uttar Pradesh, India；Highly Correlated Matter Research Group, Physics Department, University of Johannesburg, Auckland Park 2006, South Africa；Institut Laue-Langevin, 71 Avenue des Martyrs, CS 20156, 38042, Grenoble Cedex 9, France；Scientific Computing Department, STFC, Rutherford Appleton Laboratory, Harwell Campus, Didcot OX11 0QX, United Kingdom；Scientific Computing Department, STFC Daresbury Laboratory, Sci-Tech Daresbury, Keckwick Lane, Daresbury WA4 4AD, United Kingdom；MPA-Q, Los Alamos National Laboratory, Los Alamos, New Mexico 87545, USA；PSI Center for Neutron and Muon Sciences, Paul Scherrer Institut, CH-5232 Villigen PSI, Switzerland；European Spallation Source ERIC,SE-221 00, Lund, Sweden",
+      "journal": "Physical Review Materials",
+      "date": "2026-10-13 出版社/元数据日期",
+      "publicationDate": "2026-10-13",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1103/qbm7-4gh3",
+      "fullText": "https://arxiv.org/abs/2609.15815v1",
+      "method": "见本条正文分析及明确标记的未报告项",
+      "access": "全文精读：对应作者公开稿主文；正式版与独立SI未逐段核同",
+      "versionNote": "已正式发表目录核实。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "Ce₂Te₅约5 K以下的长程磁序以b轴铁磁、Ce2子晶格主导描述；2.3 K局域异常没有对应的新磁Bragg结构。两个CEF激发支持强各向异性，但另一Ce位点及弱27 meV信号仍未解决，不能把未检出有序矩写成该位点没有磁自由度。",
+      "sections": [
+        {
+          "title": "问题：多个热力学异常不自动等于多个磁相",
+          "text": "先前单晶工作报告约5、2.3、0.9甚至0.4 K异常，本文用局域μSR、长程中子衍射及单离子INS分别看不同尺度。最重要的是将“局域场分布或慢涨落改变”与“传播矢量/对称性改变的新长程序”区分。Ce₂Te₅有两种不等价Ce，单、双Te层交替沿长b轴堆积，因此可能产生子晶格选择性；不能只贴上简单二维铁磁标签。\n\n室温核结构Cmcm(No.63)，a=4.42940(14)、b=44.29740(149)、c=4.44298(14) Å，a与c接近不等于严格四方。正文个别一般层状材料表述采用另一轴约定，实际结构分析和易轴需按本材料长b轴统一核对。"
+        },
+        {
+          "title": "样品与实验：哪些谱不适合可靠精修",
+          "text": "单晶按既有文献制备，本稿未给装料、Flux/CVT方式的具体参数、温程、纯度、尺寸及产率；不能猜成某种助熔剂炉方。实验将单晶磨粉，μSR用13 mm直径、2 mm厚压片，温区约.27–5.4 K；INS约2.6 g粉末。粉碎和择优取向对层状材料尤其重要。\n\nD20 λ=2.42 Å低温铜罐/稀释制冷机数据含容器、杂质和明显择优取向，作者明确只用它追踪磁散射，不作可靠Rietveld定量。改钒罐在1.7/8 K各9 h增强差谱，D2B λ=1.594 Å核对取向；WISH同粉末最低.05 K。此处是精修质量控制的重要范例：不是所有能拟合的谱都适合给精确占位和磁矩。"
+        },
+        {
+          "title": "μSR：局域异常与“临界指数”边界",
+          "text": "低于约5 K出现振荡，分振荡和尾部分量拟合，Tc=5.0±.1 K，局域温度演化在约2.3±.2 K另有变化。饱和频率约7.3–7.5 MHz，对应内部场54–55 mT；其近似不变支持主要有序幅度未大幅改变，但不能仅凭总初始不对称度近恒定就排除全部非磁背景和分布效应。\n\nμSR幂律拟合β约.19、低温有效β约.08，作者明确它们不宜当作真正普适类临界指数；局域场不是未经加权的体磁化序参量。低于1 K点少、变化小，未足以单独确认第三转变。用这些数宣称二维普适类或量子临界性都超出本次证据。"
+        },
+        {
+          "title": "中子：长程序及子晶格选择性",
+          "text": "主文图3实际显示核结构精修、1.7−8 K磁差谱，以及021/130/041磁峰强度温度变化；低温近饱和后向5 K消失，在T₂没有清楚额外拐点。FullProf/BasIreps描述k=(0,0,0)、磁空间群Cm′cm′、磁矩沿b，Ce2约.85±.03 μB/Ce，Ce1在精修灵敏度内未检测到有序矩。\n\n摘要/正文有的将该.85值关联.05 K，讨论/结论又关联1.7 K；两个仪器差谱都支持相近量级，但温度对应写法需回查正式版，本站不把它当作已精确测定的温度依赖。未见新反射限制新长程磁结构，却不排除短程、局域、动力学或灵敏度以下小矩重排。差谱大正负峰也可能来自热膨胀/样品环境扣除，不能全部当新磁峰。"
+        },
+        {
+          "title": "INS与CEF：简化模型及未解决信号",
+          "text": "MARI用Ei=8/40/60 meV及重复率倍增，8 K主要测基态双重态，100/200 K作温度对照。低Q增强的约8和21 meV峰以Ce³⁺磁形状因子和温度行为支持磁性；没有La₂Te₅等非磁参考，采用低Q减缩放高Q扣声子，残留背景明确存在。\n\n尽管正交、双Ce位点，拟合近似一个主导位点的C4v环境，Stevens三参数B₂⁰=−.5497(2)、B₄⁰=.0605(8)、B₄⁴=−.0100(6) meV，得到7.94、21.46 meV双重态，基态主要|∓3/2〉。参数小拟合误差不包括单站点/近四方假设的系统误差。弱宽27 meV结构可能来自另一位点、声子或多重散射，作者不作确定赋值，不能额外统计为已确认第三个CEF激发。"
+        },
+        {
+          "title": "最强证据、复现风险与下一次测量",
+          "text": "53 mT计算局域场与54–55 mT实验相符，计算采用CASTEP/PBE、600 eV、3×2×3网格、Ce-f U=5 eV及超胞弛豫；这支持候选μ停位点，但不自动证明其唯一。最强的是多尺度探针对单一主要长程序的相容性，最弱的是Ce1为何不显著有序以及局域异常的微观来源。\n\n可先在同批晶体细扫2.3 K附近磁化、交流磁化率频率依赖和热容，监测粉碎前后变化；若申请大设施，再做单晶/偏振INS区分27 meV来源，补非磁参考，并在两Ce模型下检查可分辨性。停止把“新磁相”作为既定结论的条件是没有独立对称性或长程证据；相反若新反射/偏振选择出现，则需更新现有单相方案。这些是证据导向复核，不是未经查新的首次研究宣称。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜稀土磁体、低温异常及磁结构精修优先",
+        "first": "图3长程证据→μSR图2与有效指数警告→INS/CEF及附录；先读实验段哪些谱不能可靠精修。",
+        "focus": "重点核对双Ce单站点近似、.85μB温度写法及27 meV未赋值。一般vdW材料背景可略读，背景扣除/择优取向不可略过。",
+        "next": "同批细扫局域异常和粉碎前后对照，再用偏振INS与非磁参考检验未解决位点，避免按异常数直接数磁相。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读正文",
+        "正式目录已核",
+        "磁性、拓扑与自旋"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [
+          "公开稿全部主文：实验、μSR、中子衍射、INS/CEF与讨论",
+          "附录A—C、Tables1—3、图1—9图注及CEF显示公式",
+          "图3实际精修谱、磁峰温度依赖与磁结构；未独立复算FullProf/Mantid"
+        ],
+        "publisherUrl": "https://journals.aps.org/prmaterials/abstract/10.1103/qbm7-4gh3",
+        "publisherStatus": "200",
+        "authorManuscript": {
+          "auditId": 1633,
+          "arxivId": "2609.15815v1",
+          "title": "Hidden Magnetic Complexity Within a Simple van der Waals Ferromagnet Ce$_2$Te$_5$",
+          "url": "https://arxiv.org/html/2609.15815v1",
+          "status": "200",
+          "paragraphs": 71,
+          "chars": 47920,
+          "candidateFullText": true,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:09.263332+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功",
+        "authorListScope": "实际阅读的作者公开稿首页作者表；正式版如有变更须另核"
+      }
+    },
+    {
+      "auditId": 1640,
+      "category": "磁性、拓扑与自旋",
+      "material": "CrSb",
+      "title": "Multicarrier electrical and thermal magnetotransport in altermagnetic CrSb",
+      "authors": "Sajal Naduvile Thadathil; Christoph Müller; Reza Firouzmandi; Lorenz Farin; Srikanta Goswami; Antonin Badura; Pascal Manuel; Fabio Orlandi; Philipp Ritzinger; Václav Petříček; Marc Uhlarz; Sven Luther; Tommy Kotte; Michal Baj; Marein C. Rahn; Thanassis Speliotis; Markéta Žáčková; Jiří Pospíšil; Bernd Büchner; Jochen Wosnitza; Helena Reichlová; Vilmos Kocsis; Toni Helm; Dominik Kriegner",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Physical Review Materials",
+      "date": "2026-10-13 出版社/元数据日期",
+      "publicationDate": "2026-10-13",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1103/xn7y-df6x",
+      "fullText": "https://doi.org/10.1103/xn7y-df6x",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读",
+      "versionNote": "已正式发表目录核实。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。已正式发表目录核实。实际阅读范围见本条记录。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "正式目录已核",
+        "磁性、拓扑与自旋"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://journals.aps.org/prmaterials/abstract/10.1103/xn7y-df6x",
+        "publisherStatus": "200",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 2380,
+      "category": "磁性、拓扑与自旋",
+      "material": "Na₂Mn₂OS₂",
+      "title": "Magnetic and Electrochemical Properties of the Altermagnetic Layered Antiperovskite Na2Mn2OS2",
+      "authors": "James I. Murrell; Aurélie Champagne; Kohei Daijo; Antonella Iadecola; Baptiste Vignolle; Sophie Tencé; Fabio Denis Romero; Emmanuel Petit; Jacob Olchowka; Hiroshi Kageyama; Cédric Tassel",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Chemistry of Materials",
+      "date": "2026-10-13 出版社/元数据日期",
+      "publicationDate": "2026-10-13",
+      "publicationStatus": "metadata-date-unconfirmed",
+      "doi": "https://doi.org/10.1021/acs.chemmater.6c01897",
+      "fullText": "https://doi.org/10.1021/acs.chemmater.6c01897",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读",
+      "versionNote": "DOI元数据核实；出版社目录/详情尚未确认。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：HPHT合成Na₂Mn₂OS₂，磁化/中子约束144 K磁序；交错磁自旋劈裂仍含计算证据。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "HPHT合成Na₂Mn₂OS₂，磁化/中子约束144 K磁序；交错磁自旋劈裂仍含计算证据。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。DOI元数据核实；出版社目录/详情尚未确认。实际阅读范围见本条记录。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "HPHT合成Na₂Mn₂OS₂，磁化/中子约束144 K磁序；交错磁自旋劈裂仍含计算证据。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "期刊日期待核",
+        "磁性、拓扑与自旋"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://doi.org/10.1021/acs.chemmater.6c01897",
+        "publisherStatus": "403",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 2773,
+      "category": "磁性、拓扑与自旋",
+      "material": "KV₂Se₂O",
+      "title": "Atomic-scale spin sensing of a 2D d-wave altermagnet via helical tunneling",
+      "authors": "Zhuying Wang; Shuikang Yu; Xingkai Cheng; Xiaoyu Xiao; Wanru Ma; Yitian Ma; Feixiong Quan; Hongxi Song; Kunming Zhang; Yunmei Zhang; Wenhao Liu; Priti Yadav; Haohao Sheng; Aifeng Wang; Xiangbiao Shi; Zhijun Wang; Qian Niu; Yang Gao; Bin Xiang; Junwei Liu; Zhenyu Wang; Xianhui Chen",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Nature",
+      "date": "2026-10-13 出版社/元数据日期",
+      "publicationDate": "2026-10-13",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1038/s41586-026-11257-1",
+      "fullText": "https://arxiv.org/abs/2512.23290v1",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读；公开稿HTML未成功，继续核查PDF/作者稿",
+      "versionNote": "已正式发表目录核实。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：α-Bi₄Br₄螺旋边态STM探针测KV₂Se₂O表面d波交错磁，实/动量空间证据关键。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "α-Bi₄Br₄螺旋边态STM探针测KV₂Se₂O表面d波交错磁，实/动量空间证据关键。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。已正式发表目录核实。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "α-Bi₄Br₄螺旋边态STM探针测KV₂Se₂O表面d波交错磁，实/动量空间证据关键。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "正式目录已核",
+        "磁性、拓扑与自旋"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://www.nature.com/articles/s41586-026-11257-1",
+        "publisherStatus": "200",
+        "authorManuscript": {
+          "auditId": 2773,
+          "arxivId": "2512.23290v1",
+          "title": "Atomic-scale spin sensing of a 2D $d$-wave altermagnet via helical tunneling",
+          "url": "https://arxiv.org/html/2512.23290v1",
+          "status": "404",
+          "paragraphs": 0,
+          "chars": 0,
+          "candidateFullText": false,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:13.620568+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 2987,
+      "category": "磁性、拓扑与自旋",
+      "material": "NiPS₃",
+      "title": "Anomalous spin–lattice coupling in a 2D antiferromagnetic semiconductor revealed by surface acoustic Rayleigh waves",
+      "authors": "Zahra Ebrahim Nataj; Md Sabbir Hossen Bijoy; Vladislav Korostelev; Jordan Teeter; Dylan Wright; Mohammad Zeinolabedini; Konstantin Klyukin; Fariborz Kargar; Alexander A. Balandin",
+      "institutions": "Department of Materials Science and Engineering, University of California, Los Angeles, CA, USA；California NanoSystems Institute, University of California, Los Angeles, CA, USA；Department of Mechanical Engineering, Materials Research and Education Center, Auburn University, Auburn, AL, USA",
+      "journal": "Nature Communications",
+      "date": "2026-10-12 出版社/元数据日期",
+      "publicationDate": "2026-10-12",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1038/s41467-026-77234-4",
+      "fullText": "https://www.nature.com/articles/s41467-026-77234-4",
+      "method": "见本条正文分析及明确标记的未报告项",
+      "access": "全文精读：正式版Introduction、Results/Methods，图1–5图注及图5图像；14页SI Sections1–8、Table1、Figs1–12已读，图像待进一步核查",
+      "versionNote": "已正式发表目录核实。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "NiPS₃的光学拉曼声子跨磁转变变化不大，但长波长表面Rayleigh声波速度有明显下降。磁序对宏观弹性与对局部键振动的影响不同；实验幅度显著大于零温DFT近似，机制仍不能算定量闭环。",
+      "sections": [
+        {
+          "title": "问题—样品：为什么拉曼不明显，声学响应却明显",
+          "text": "作者研究的是NiPS₃而非同族MnPS₃。NiPS₃为C2/m单斜范德华反铁磁体，Ni²⁺形成蜂窝层，约155 K以下有面内为主的zigzag序。光学拉曼主要看到晶胞内相对运动和局部交换路径，长波声学模则受整个弹性张量及边界条件控制，因此拉曼峰不明显不代表自旋—晶格耦合弱。两种探针并排比较，是本篇最值得保留的实验逻辑。样品从2D Semiconductors商购晶体机械剥离到300 nm SiO₂/Si，重点研究厚约220和260 nm两片膜；它们不是单层，也不是相同厚度下的一组重复样。原晶体的原料纯度、生长温程、运输剂、产率和批次数正文未报告，不能给出假定的CVT配方。"
+        },
+        {
+          "title": "质量和取向证据：TEM不是同一片声学样品",
+          "text": "原子力显微镜用于确定厚度，光学图显示超过100 μm横向尺度与约60°边缘；偏振拉曼区分Ag/Bg模，低频Ni相关模和高频P₂S₆内振动与已有谱线相容。高分辨TEM在另一份液相剥离样品上看到0.28–0.29 nm晶格间距与约60°方向，不能把这张TEM当作两片BMS膜逐点无缺陷的证明。作者还沿三个剥离边缘法向做声学测量，差异不显著，支持所测面内方向依赖较弱，但不等于整个材料三维各向同性。应保留实际波矢方向、基底应力和厚度，而不是只写一个“高质量单晶”标签。"
+        },
+        {
+          "title": "测量—对照：把薄膜模和基底模拆开",
+          "text": "BMS使用532 nm连续激光和3+3串联Fabry–Perot干涉仪，在背散射几何中改变入射角30–50°；面内波矢q=(4π/λ)sinθ，声速按v=2πf/q计算。薄膜小于光波长并不意味着只含一种表面模，因此裸SiO₂/Si在同几何下的对照很重要：其Rayleigh、Sezawa、Lamb谱与NiPS₃膜上的单色散峰不同。220 nm片温变固定35°、q约0.0135 nm⁻¹；260 nm片固定40°、约0.0152 nm⁻¹，不能直接用两条原始GHz频率高低比较材料刚度。拉曼系统每次用Si的520 cm⁻¹线校准，低功率0.024 mW以减小加热；BMS光斑与激光功率等复现数值尚需补核，不能从拉曼设置移植过去。"
+        },
+        {
+          "title": "直接观察与数值口径：软化不等于一个弹性常数下降",
+          "text": "255 cm⁻¹光学模在转变附近只有窄范围变化，线宽偏差约0.3 cm⁻¹；588 cm⁻¹模没有清楚异常。作者自己的分辨率下也没有复现文献所报176 cm⁻¹细分裂，这不是证明先前研究错误。相比之下，Rayleigh模过渡附近软化约0.23和0.30 GHz。文中用约1920→1815 m/s与1610→1500 m/s描述两片膜的速度变化，并报告约6%和7.3%；这些为舍入数字，直接计算的百分比与标签略有差别，不能把它们当作高精度原始数据。v平方对应有效模量约12%的变化是密度及模式组成近似下的推导，不是独立测量出每个cij都下降12%。"
+        },
+        {
+          "title": "计算—最弱环节：0.54%与实验6%不是定量吻合",
+          "text": "DFT采用VASP/PBE-D3，600 eV截断、3×2×3网格、1×4×2超胞；应变幅度0.015做应力—应变计算。把非磁NM当作高温顺磁PM代理，是关键近似，忽略局域磁矩涨落和有限温度。将两组张量送入NiPS₃/SiO₂/Si的COMSOL线弹性模型，表面自由、Si底固定，面内用Floquet周期边界。计算Rayleigh频率4.603→4.578 GHz，只有0.54%下降，远小于实验约6%；它支持趋势，不构成机制幅度已被解释的证据。c66反而47.4→55.4 GPa增加，而一些非对角项下降，说明不能用单一“剪切模量降低”概括。灵敏度分析提示c33、c44较重要，但反演仍受膜厚、基底及边界约束，不是唯一弹性张量测定。"
+        },
+        {
+          "title": "SI补核：薄膜方向和模型验证的条件不同",
+          "text": "SI图7列三个剥离边缘法向的声速约1598.15±4.04、1616.43±3.56及1596.20±5.38 m/s。相对差异约1%，只能称相较跨TN软化较弱，不能把方向差异精确设为零。拉曼Ag/Bg重叠及Ag近面内等强使a、b轴不能仅靠本次偏振拉曼可靠指认。SI图8是300 nm SiO₂/Si的实测基底对照；图9验证COMSOL却采用文献225 nm氧化层、514.5 nm激光与67°，不是本次532 nm、300 nm基底下原样复算，条件转换必须保留。SI图10的较大q让模式更局限在膜内；图11/12的零温AFM/NM声子无虚频不等于真实有限温度顺磁态已经被完整模拟。"
+        },
+        {
+          "title": "复现、阅读顺序与否定条件",
+          "text": "先读图4的波矢/色散及裸基底对照，再读图5固定q的温变，然后Methods与表1/2，最后阅读拉曼背景。复现时应把每片膜的AFM厚度、固定波矢、升降温路径及激光功率关联到同一编号；在磁转变附近加密温点，并测试功率和裸基底同温变。若所谓突变随激光功率或扫描方向显著改变，而不是稳定跟随磁序温度，就先排除加热、基底和拟合漂移。进一步用多q、多厚度联合拟合，报告cij相关性及边界模型敏感性，才谈弹性定量反演。普通粉末XRD可做相鉴别，但没有高分辨BMS时不能直接复现实验声速；可合作或先用温变拉曼建立不含过度解释的对照。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜磁弹耦合、低温光谱与支撑膜声学",
+        "first": "图4波矢和裸基底、图5固定q温变，再Methods和弹性张量比较。",
+        "focus": "膜厚/基底参与、TEM的不同样品、NM不等于PM；0.54%计算软化并未解释6%实验幅度。",
+        "next": "同片温变中固定q并加密TN附近温点，做激光功率、裸基底和升降温对照。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读正文",
+        "正式目录已核",
+        "磁性、拓扑与自旋"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [
+          "Introduction全文",
+          "Results and discussions全文",
+          "Methods全文",
+          "图1–5图注；表1/2原表与图像待核",
+          "14页SI：Sections1–8、Supplementary Table1、Figs1–12及图注"
+        ],
+        "publisherUrl": "https://www.nature.com/articles/s41467-026-77234-4",
+        "publisherStatus": "200",
+        "authorManuscript": {
+          "auditId": 2987,
+          "arxivId": "2511.21968v1",
+          "title": "Anomalous spin-lattice coupling in a 2D antiferromagnetic semiconductor revealed by surface acoustic Rayleigh waves",
+          "url": "https://arxiv.org/html/2511.21968v1",
+          "status": "404",
+          "paragraphs": 0,
+          "chars": 0,
+          "candidateFullText": false,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:15.040779+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 14,
+      "category": "磁性、拓扑与自旋",
+      "material": "二维拓扑绝缘体",
+      "title": "Millimeter-Scale, Atomically Controlled 2D Topological Insulators Revealed by Multimodal Spectroscopy",
+      "authors": "Woojoo Lee; Qiang Gao; Yufei Zhao; Hui Li; Albert Tsui; Yichao Zhang; Yunhe Bai; Haoran Lin; Khanh Duy Nguyen; Gabriele Berruto; Gangbin Yan; Jianchen Dang; Tongyao Wu; Hossein Rokni; Thomas S. Marchese; Ying Shirley Meng; Chao-Xing Liu; Xiao-Xiao Zhang; Chong Liu; Pinshane Y. Huang; Mark C. Hersam; Binghai Yan; Shuolong Yang",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "ACS Nano",
+      "date": "2026-10-09 出版社/元数据日期",
+      "publicationDate": "2026-10-09",
+      "publicationStatus": "metadata-date-unconfirmed",
+      "doi": "https://doi.org/10.1021/acsnano.6c10210",
+      "fullText": "https://arxiv.org/abs/2603.14199v1",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读；公开稿HTML未成功，继续核查PDF/作者稿",
+      "versionNote": "DOI元数据核实；出版社目录/详情尚未确认。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：逐层生长的两层Bi₂Te₃及MnBi₂Te₄/Bi₂Te₃，ARPES/STM约束带反转与边缘态；毫米尺度制备直接相关。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "逐层生长的两层Bi₂Te₃及MnBi₂Te₄/Bi₂Te₃，ARPES/STM约束带反转与边缘态；毫米尺度制备直接相关。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。DOI元数据核实；出版社目录/详情尚未确认。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "逐层生长的两层Bi₂Te₃及MnBi₂Te₄/Bi₂Te₃，ARPES/STM约束带反转与边缘态；毫米尺度制备直接相关。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "期刊日期待核",
+        "磁性、拓扑与自旋"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://doi.org/10.1021/acsnano.6c10210",
+        "publisherStatus": "403",
+        "authorManuscript": {
+          "auditId": 14,
+          "arxivId": "2603.14199v1",
+          "title": "Millimeter-Scale, Atomically Controlled 2D Topological Insulators Revealed by Multimodal Spectroscopy",
+          "url": "https://arxiv.org/html/2603.14199v1",
+          "status": "404",
+          "paragraphs": 0,
+          "chars": 0,
+          "candidateFullText": false,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:05.166596+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 3342,
+      "category": "二维材料与量子器件",
+      "material": "WTe₂",
+      "title": "Coherent phonon control beyond amplitude saturation in a sliding ferroelectric",
+      "authors": "Jan Gerrit Horstmann; Christoph Emeis; Andrin Caviezel; Quintin N. Meier; Nicolas Wyler; Thomas Lottermoser; Fabio Caruso; Manfred Fiebig",
+      "institutions": "Institut für Physikalische und Theoretische Chemie, Universität Würzburg, Würzburg, Germany；Department of Materials, ETH Zurich, Zurich, Switzerland；Institute of Theoretical Physics and Astrophysics, Kiel University, Kiel, Germany；Université Grenoble Alpes, CNRS, Institut Néel, Grenoble, France；Institute of Physics, University of Rostock, Rostock, Germany",
+      "journal": "Nature Physics",
+      "date": "2026-10-21 出版社/元数据日期",
+      "publicationDate": "2026-10-21",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1038/s41567-026-03491-1",
+      "fullText": "https://www.nature.com/articles/s41567-026-03491-1",
+      "method": "见本条正文分析及明确标记的未报告项",
+      "access": "全文精读：正式版Main、Methods、图1–4图注/图3图像；18页SI的Notes1–8、Table1、Figs1–8及图注已读，SI图1视觉核查",
+      "versionNote": "已正式发表目录核实。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "WTe₂的滑移声子并不随单脉冲能量无限增强。把相同总能量按声子相位分成两次激发，可以避开高能电子态的抵消作用，并把滑移振幅提高约50%。这证明的是瞬态晶格操控效率提升，不是已经完成可保持的铁电翻转。",
+      "sections": [
+        {
+          "title": "问题与结构：滑移不是一条自动通往1T′的路径",
+          "text": "这篇研究把一个常见的实验直觉变成了可检验问题：想更强地驱动晶格，是不是把泵浦能量继续加大就够了？样品是Td-WTe₂块体，极性空间群Pmn2₁；相邻层位移关联c轴极化。作者把非极性的Pnma选作共同高对称参照，而不是直接把Td滑移等同于转为P2₁/m的1T′。这两个低对称相不是简单群—子群关系，真正连接还牵涉层内剪切。因此，0.24 THz层间滑移与2.7 THz层内剪切必须分开；检测到滑移振荡不能单独宣布结构相变，更不能宣布完成非易失铁电写入。"
+        },
+        {
+          "title": "样品、生长和质量：商购晶体的边界要保留",
+          "text": "Methods明确晶体购自HQ Graphene，剥离去除氧化表层后立即装入显微光学低温样品环境，持续通氮以减少氧化；本次实验均在室温进行，样品厚度为数十微米量级。SHG及振荡信号在数周中衰减小于2%，是作者提供的稳定性证据，但它不能替代独立的化学计量、XRD、缺陷密度与批次统计。该文没有提供商购晶体的原料纯度、装料比、温程、助熔剂或CVT条件，不能给它补上一套常见WTe₂炉方。光学探测主要来自表面以下不足50 nm，因而测量结果不等于对整块样品体极化的直接均匀采样。"
+        },
+        {
+          "title": "测量与对照：固定总能量，再改变脉冲相位",
+          "text": "单泵浦中心波长1.5 μm、约0.83 eV，130 fs、1 kHz，沿b轴偏振且近法向入射，吸收通量0.4–6.5 mJ/cm²；探测光0.8 μm、1.55 eV、120 fs，约45°入射，SHG在交叉偏振几何采集。泵浦光斑约280×280 μm²，大于80×40 μm²探测斑，以减小非均匀激发。每点平均5000脉冲、约5 s；用样品位置的BBO和频校准时间零点。双脉冲由Mach–Zehnder型干涉仪产生，分别调节能量及偏振；实际测量用正交泵浦偏振抑制两束在零延时的相干光学伪影。这一对照是必要条件，否则增强或压制可能来自光场干涉，而非晶格动力学。"
+        },
+        {
+          "title": "直接观察、拟合和机制推断分别是什么",
+          "text": "图1显示滑移振幅随吸收通量先增大，在约1.6 mJ/cm²附近饱和并回落；频率软化、平衡位置偏移和寿命来自时域SHG拟合，不是直接量出的原子绝对位移。图3在合计2.1 mJ/cm²条件下比较脉冲重叠与约8.3 ps间隔，即约两个滑移周期，双脉冲振幅可比单次同能量激发高约50%。短于约2 ps的间隔仍受抑制，与电子寿命尺度相容。电子占据较高能态后产生反向驱动力，是电子—声子计算支持的解释；它不是单凭SHG就唯一确定的微观过程。图中误差带用69%置信区间，不能换写成95%或当作样品间标准差。"
+        },
+        {
+          "title": "计算与非线性：实验没有直接测到电子温度3100 K",
+          "text": "计算使用Quantum ESPRESSO、含自旋轨道耦合的PBE与全相对论赝势，80 Ry截断，10×6×4电子网格与5×3×2声子网格，再通过Wannier/EPW插值到40×24×16。时间依赖Boltzmann方程用1 fs步长、费米能附近4 eV能窗；以高电子温度分布匹配沉积能量。约3100 K是滑移振幅饱和对应的模型电子温度，不能写作晶体整体升温到这个温度。图4在总通量不变时改变滑移振幅，发现振幅越大阻尼越强、频率越低；受激Klemens型衰变是作者的微观解释，振幅相关的频率修正也含现象学拟合参数。数据支持非谐性和模式选择性，但没有逐一实测全部声学分支的占据。"
+        },
+        {
+          "title": "SI补核：拟合并非无模型，热与相变边界不能省略",
+          "text": "SI将单脉冲SHG分解为慢平衡位移、阻尼滑移振荡和快速电子压制项；双脉冲分析只拟合第二次激发后的窗口，故拟合窗和参数相关性会影响振幅、寿命与频率。SI图1直接对比平行和正交泵浦偏振，前者近重叠的吸收干涉显著，后者被抑制；还检查不同偏振导致的激发各向异性较弱。SI Note5用反射率0.49、密度9.43×10³ kg/m³、300 K比热177 J/(kg·K)及48 nm泵浦穿透深度估算加热，这不是温度实测，且入射/吸收通量口径必须统一。Note6明确指出当前数据缺乏阈值及足够层内剪切证据，更符合势能最低点连续偏向Pnma的解释，而非已经证明进入亚稳1T′。Note8的Landau参数来自势能拟合，VASP用于对称性/势能、QE用于能量分辨耦合，不能误称全篇只用一个计算程序。"
+        },
+        {
+          "title": "复现建议与停止条件",
+          "text": "优先复核图3e–g及Methods的交叉偏振、总吸收通量、光斑和时间零点，然后再读图1的单脉冲饱和曲线。下一次实验先固定总吸收能量扫描双脉冲间隔，保留重叠、半周期与整数周期对照；再交换两泵浦偏振、比较新鲜/氧化表面，并对拟合窗口、背景项及振幅—阻尼相关性做敏感性分析。若所谓增强在保持总吸收能量后消失，或仅在平行偏振近零延时出现，就应停止把它解释成晶格相干放大。没有超快双脉冲/SHG平台时，可以合作开展；常规Ultima IV粉末XRD无法独立验证皮秒滑移过程。图2计算与图4阻尼机制可在实验对照核实后再细读，普通仪器介绍可以略读。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜超快晶格调控与滑移铁电",
+        "first": "先图3的固定总通量与延时扫描，再Methods中交叉偏振和时间零点，最后图1饱和曲线。",
+        "focus": "区分表面SHG、绝对原子位移、模型电子温度；图4阻尼的非唯一微观解释需保留。",
+        "next": "保持总吸收能量扫描双脉冲间隔，先排除光场干涉与表面氧化，未见可保持翻转前不声称非易失写入。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读正文",
+        "正式目录已核",
+        "二维材料与量子器件"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [
+          "Main全部小节",
+          "Methods：Sample preparation、Experimental set-up、Computational details及Ab initio description",
+          "图1–4图注；图像与SI待核",
+          "SI：Notes1–8、Table1、Figs1–8；PDF第3–18页，目录/封面另核对"
+        ],
+        "publisherUrl": "https://www.nature.com/articles/s41567-026-03491-1",
+        "publisherStatus": "200",
+        "authorManuscript": {
+          "auditId": 3342,
+          "arxivId": "2508.16422v2",
+          "title": "Coherent phonon control beyond amplitude saturation in a sliding ferroelectric",
+          "url": "https://arxiv.org/html/2508.16422v2",
+          "status": "200",
+          "paragraphs": 58,
+          "chars": 54533,
+          "candidateFullText": true,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:19.195575+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 1824,
+      "category": "二维材料与量子器件",
+      "material": "1T-TiSe₂",
+      "title": "Ferroaxial and nematic transitions in the charge density wave phase of 1T-TiSe2",
+      "authors": "Sarah P. Edwards; Elliott Rosenberg; Ilaria Maccari; Jiaqin Wen; Chaowei Hu; Xiaodong Xu; Jong-Woo Kim; Philip J. Ryan; Rafael M. Fernandes; Fernando de Juan; Maria N. Gastiasoro; Jiun-Haw Chu",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Physical Review X",
+      "date": "2026-10-20 已接受",
+      "publicationDate": "",
+      "publicationStatus": "accepted",
+      "doi": "https://doi.org/10.1103/x2k1-7dst",
+      "fullText": "https://arxiv.org/abs/2603.14614v2",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅题名/元数据；正文未精读；公开HTML已定位，待逐篇补读",
+      "versionNote": "正式已接受；非正式发表日。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "仅题名线索：尚不据此总结结果；先核对公开稿和正式接受状态。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。正式已接受；非正式发表日。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "题名/元数据待核",
+        "已接受稿",
+        "二维材料与量子器件"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://journals.aps.org/prx/accepted/10.1103/x2k1-7dst",
+        "publisherStatus": "200",
+        "authorManuscript": {
+          "auditId": 1824,
+          "arxivId": "2603.14614v2",
+          "title": "Ferroaxial and nematic transitions in the charge density wave phase of 1T-TiSe$_2$",
+          "url": "https://arxiv.org/html/2603.14614v2",
+          "status": "200",
+          "paragraphs": 112,
+          "chars": 71556,
+          "candidateFullText": true,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:12.197367+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 3677,
+      "category": "二维材料与量子器件",
+      "material": "In₂Se₃",
+      "title": "Stacking-specific two-dimensional In2Se3 for ferroelectric homojunctions",
+      "authors": "Xiaodong Zheng; Tong Yang; Xiaoyu He; Wen Zhang; Chi Shing Tsang; Yuhuan Li; Lok Wing Wong; Zhangyuan Yan; Jiafeng Zhang; Tianren Chen; Honglin Chen; Runmeng Jia; Chun-Sing Lee; Shu Ping Lau; Shijian Zheng; Jiong Zhao; Ming Yang; Thuc Hue Ly",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Nature Nanotechnology",
+      "date": "2026-10-20 出版社/元数据日期",
+      "publicationDate": "2026-10-20",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1038/s41565-026-02309-8",
+      "fullText": "https://doi.org/10.1038/s41565-026-02309-8",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读",
+      "versionNote": "已正式发表目录核实。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：In₂Se₃ CVD堆垛选择改变铁电性与同质结势垒，强生长—物性关联。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "In₂Se₃ CVD堆垛选择改变铁电性与同质结势垒，强生长—物性关联。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。已正式发表目录核实。实际阅读范围见本条记录。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "In₂Se₃ CVD堆垛选择改变铁电性与同质结势垒，强生长—物性关联。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "正式目录已核",
+        "二维材料与量子器件"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://www.nature.com/articles/s41565-026-02309-8",
+        "publisherStatus": "200",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 2460,
+      "category": "二维材料与量子器件",
+      "material": "B掺杂Ge/Si(100)",
+      "title": "Ultra-High Boron In Situ Doping of Germanium Layers Grown on Si(100) Substrates via Low-Temperature UHV-CVD Methods",
+      "authors": "Caile Wang; Yue Li; Junyu Chang; Zhengjie Wu; Fenghe Fu; Ziyu Liu; Dong Han; Chao Zhao; Hui Cong; Chi Xu; Chunlai Xue",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Crystal Growth & Design",
+      "date": "2026-10-19 出版社/元数据日期",
+      "publicationDate": "2026-10-19",
+      "publicationStatus": "metadata-date-unconfirmed",
+      "doi": "https://doi.org/10.1021/acs.cgd.6c01311",
+      "fullText": "https://doi.org/10.1021/acs.cgd.6c01311",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读",
+      "versionNote": "DOI元数据核实；出版社目录/详情尚未确认。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：Ge:B UHV-CVD高掺杂/活化/界面质量；最大总B、最大载流子与最低电阻来自不同样品。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "Ge:B UHV-CVD高掺杂/活化/界面质量；最大总B、最大载流子与最低电阻来自不同样品。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。DOI元数据核实；出版社目录/详情尚未确认。实际阅读范围见本条记录。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "Ge:B UHV-CVD高掺杂/活化/界面质量；最大总B、最大载流子与最低电阻来自不同样品。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "期刊日期待核",
+        "二维材料与量子器件"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://doi.org/10.1021/acs.cgd.6c01311",
+        "publisherStatus": "403",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 2458,
+      "category": "二维材料与量子器件",
+      "material": "hBN",
+      "title": "High-Quality, Low-Cost Quasi-Bulk Hexagonal Boron Nitride Crystals by LP-HVPE: Machine Learning-Assisted Process Optimization via XRD and Raman Characterization",
+      "authors": "Xi Chen; Ziting Han; Weibo Xu; Yalei Zhou; Xiaohang Liu; Lixin Hou; Yanjun Gao; Zhanguo Chen",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Crystal Growth & Design",
+      "date": "2026-10-18 出版社/元数据日期",
+      "publicationDate": "2026-10-18",
+      "publicationStatus": "metadata-date-unconfirmed",
+      "doi": "https://doi.org/10.1021/acs.cgd.6c00635",
+      "fullText": "https://doi.org/10.1021/acs.cgd.6c00635",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读",
+      "versionNote": "DOI元数据核实；出版社目录/详情尚未确认。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：hBN LP-HVPE实测24组条件及ML优化，优先核查训练/测试划分、相纯和层厚。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "hBN LP-HVPE实测24组条件及ML优化，优先核查训练/测试划分、相纯和层厚。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。DOI元数据核实；出版社目录/详情尚未确认。实际阅读范围见本条记录。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "hBN LP-HVPE实测24组条件及ML优化，优先核查训练/测试划分、相纯和层厚。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "期刊日期待核",
+        "二维材料与量子器件"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://doi.org/10.1021/acs.cgd.6c00635",
+        "publisherStatus": "403",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 2570,
+      "category": "二维材料与量子器件",
+      "material": "有机—无机超晶格",
+      "title": "Layer Engineering of Quantum Organic–Inorganic Superlattices by Thermodynamic Design",
+      "authors": "Yang Liu; Ziren Wang; Xiaolin Tai; Xuzhe Song; Minghao Wang; Yuqiao Guo; Ying Yang; Yiwei Zhang; Zhengming Shang; Baidu Zhang; Guoliang Hu; Yi Liu; Zhe Sun; Haifeng Lv; Yue Lin; Xiaojun Wu; Yi Xie; Changzheng Wu",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "JACS",
+      "date": "2026-10-16 出版社/元数据日期",
+      "publicationDate": "2026-10-16",
+      "publicationStatus": "metadata-date-unconfirmed",
+      "doi": "https://doi.org/10.1021/jacs.6c11170",
+      "fullText": "https://doi.org/10.1021/jacs.6c11170",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读",
+      "versionNote": "DOI元数据核实；出版社目录/详情尚未确认。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：化学势与弹性能竞争设计SnSe₂有机插层级数，ARPES与超导变化，强相关。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "化学势与弹性能竞争设计SnSe₂有机插层级数，ARPES与超导变化，强相关。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。DOI元数据核实；出版社目录/详情尚未确认。实际阅读范围见本条记录。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "化学势与弹性能竞争设计SnSe₂有机插层级数，ARPES与超导变化，强相关。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "期刊日期待核",
+        "二维材料与量子器件"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://doi.org/10.1021/jacs.6c11170",
+        "publisherStatus": "403",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 2397,
+      "category": "二维材料与量子器件",
+      "material": "Nb₂C MXene",
+      "title": "Surface diffusion strategies for chemical vapor deposition of 2D Nb2C MXene films",
+      "authors": "Xinming Xing; Azra Khan; Mauro Ramos Jiménez; Rem Elnahas; Tayfun Kutlu; Ignacio Romero-Muñiz; Francisco Javier Palomares Simón; Hasan Sahin; Javier Pérez-Carvajal; Jimmy A. Faria Albanese; Miguel Muñoz Rojo",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Communications Materials",
+      "date": "2026-10-15 出版社/元数据日期",
+      "publicationDate": "2026-10-15",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1038/s43246-026-01397-2",
+      "fullText": "https://doi.org/10.1038/s43246-026-01397-2",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读",
+      "versionNote": "已正式发表目录核实。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：液态Cu表面Nb/C分布控制无端基Nb₂C CVD，单晶薄片与连续膜均值得核实。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "液态Cu表面Nb/C分布控制无端基Nb₂C CVD，单晶薄片与连续膜均值得核实。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。已正式发表目录核实。实际阅读范围见本条记录。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "液态Cu表面Nb/C分布控制无端基Nb₂C CVD，单晶薄片与连续膜均值得核实。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "正式目录已核",
+        "二维材料与量子器件"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://www.nature.com/articles/s43246-026-01397-2",
+        "publisherStatus": "200",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 1492,
+      "category": "二维材料与量子器件",
+      "material": "ErTe₃",
+      "title": "Revealing the Nature of the Charge Density Wave Order of ErTe 3 via Raman Scattering under Anisotropic Strain",
+      "authors": "Théotime Freitas; Mattia Udina; Alexandr Alekhin; Niloufar Nilforoushan; Sarah Houver; Alain Sacuto; Benito A. Gonzalez; Ian R. Fisher; Indranil Paul; Yann Gallais",
+      "institutions": "Université Paris Cité, CNRS, Laboratoire Matériaux et Phénomènes Quantiques, Paris, France；Institut de Physique et Chimie des Matériaux de Strasbourg (UMR 7504), Université de Strasbourg and CNRS, Strasbourg, 67200, France；Department of Applied Physics, Stanford University, Stanford, CA, USA；Geballe Laboratory for Advanced Materials, Stanford University, Stanford, California 94305, USA；Stanford Institute for Materials and Energy Sciences, SLAC, Menlo Park, California 94025, USA；Institut Universitaire de France (IUF)",
+      "journal": "Physical Review Letters",
+      "date": "2026-10-14 出版社/元数据日期",
+      "publicationDate": "2026-10-14",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1103/2ypb-byqq",
+      "fullText": "https://arxiv.org/abs/2604.08440v2",
+      "method": "见本条正文分析及明确标记的未报告项",
+      "access": "全文精读：对应作者公开稿主文；正式版与独立SI未逐段核同",
+      "versionNote": "已正式发表目录核实。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "ErTe₃两种镜面对称性破缺指标在温度与应变变化时近似线性跟随。作者据此支持单分量、略偏离高对称轴的CDW波矢，而非必须引入两个独立序参量；波矢微小倾角仍需高分辨衍射直接验证。",
+      "sections": [
+        {
+          "title": "问题：多破缺对称性是否意味着多分量序参量",
+          "text": "稀土三碲化物中CDW不仅选择近四方Te网格中的一个方向，偏振Raman与SHG还提示额外镜面对称性破缺。本文关键不是再看到一个振幅模，而是借a轴应力分别追踪两种镜面指标Σm′与Σm，问它们是否能独立转变。若两个序参量独立，解除简并的应变通常可能分裂其温标；若二者来自同一个偏斜波矢，则可同步变化。这个因果问题比“应变调控CDW”这一宽泛标签更具体。"
+        },
+        {
+          "title": "样品、制备与实际应变边界",
+          "text": "样品为ErTe₃薄单晶，CDW温度约265 K，粘在钛平台上，压电应变台沿a轴施加拉伸与压缩。平台位移由电容传感器给出ε=δL/L₀，但作者明确说明并非完全传递，图中名义应变高估样品实际应变。因此约0.1%的切换位置不可直接作为另一装置所需的真实晶格应变配方。\n\n轻微取向偏差还引入估计小于面内应变差5%的残余剪切分量，这可能偏置单斜畴的选择，不是可以忽略的装样误差。主文未报告本批单晶的生长装料、Flux组成、温程、原料纯度、厚度尺寸、退火和批次数，也没有给出完整空间群精修。正交近四方结构及滑移面是分析背景，不把它们冒充本批XRD质量报告。"
+        },
+        {
+          "title": "测量：偏振差分如何成为对称性证据",
+          "text": "使用532 nm激光、背散射、10倍长工作距离物镜，光斑直径约6 μm，测aa、cc及a′c′/c′a′等偏振构型，原始强度需做Bose因子校正。作者在0–60 cm⁻¹积分低能连续谱并构造镜面敏感差分量；因此复现要保存原谱、背景与校正步骤，不能只拟合一个峰高。170 K时振幅模约50 cm⁻¹，接近T_CDW软化。270 K高于转变时各构型应变响应较弱，255和240 K以下差异突出，这是重要的正常态对照。\n\n入射功率、升温速率、频谱分辨率和胶层厚度在已读主文未报告，需补SI；光热造成的局部温差尤其会影响靠近265 K的解释。"
+        },
+        {
+          "title": "结果：方向翻转与两个指标的共同标度",
+          "text": "压缩时Icc<Iaa、拉伸时相反，Σm′在名义拉伸约0.1%附近换号，两侧趋于饱和；作者解释为CDW取向由c切向a。中间区空间依赖明显，支持不同取向畴共存，不能与材料更低温均匀双向CDW混为同一相。\n\n已实际查看的图4把约240–300 K、名义应变约−0.2%至+0.3%的两个指标画成并列相图；跨多个温度的散点在Σm—Σm′图中近似落在同一直线上。相图由8个温度、各至少10个应变点插值而来，连续颜色不代表每一个像素均被直接测量。最有力的是两个不同偏振组合跨温度和应变的共同关系，而不是单张彩色相图的视觉相似。"
+        },
+        {
+          "title": "理论与不能过度声称之处",
+          "text": "紧束缚模型包含Te轨道最近邻、次近邻及杂化，采用相对x′轴方向(1+r)π/4的波矢；r=−0.01的偏斜情形能解释175 K角分辨差分Raman的主要特征，而沿高对称方向r=0不能同时给出额外镜面指标。r是模型参数，不是本次X射线直接测到的精确倾角；图5支持机制的一致性，不是独立结构测定。\n\n两个指标线性相关、未见应变下分裂转变，使单分量方案较经济，但不能逻辑上排除被精细耦合锁定的多分量方案；作者也承认偶然简并可协调后者。残余剪切选畴、应变传递非均匀、偏振串扰、空间采样不足都是需要排查的替代来源。不同论文对“铁轴性”的定义和对称性约定也须逐项对齐，不能仅凭名称判定谁已被彻底推翻。"
+        },
+        {
+          "title": "下一步实验与阅读建议",
+          "text": "最直接的复核是同一片、同一应变与温度点同步测高分辨倒空间CDW卫星峰，检查波矢偏离主轴是否随两个Raman指标变化；将应变方向反转或微调角度以改变剪切符号，检验Σm是否随之选畴。平台位移之外应补样品上的实际应变标定与空间Raman地图。\n\n若校正偏振串扰或剪切后两个指标不再共享标度，或者衍射在足够角分辨率下始终排除所需偏斜，便应停止把单一倾斜波矢当作唯一解释。本文对用户的价值是用可控扰动检验序参量独立性，而不是提供可以照搬的生长炉方。"
+        },
+        {
+          "title": "标度图的系统误差与后续归档",
+          "text": "两个偏振指标来自同一套光路、同一温度和积分窗口，误差可能相关，因此近直线散点应结合偏振串扰、参考背景及强度归一化共同评估。当前已读主文未给完整协方差和替代积分窗口的统计检验，不替作者填一个R²或显著性数值。后续保存原始四构型光谱、每个空间点的位置、平台位移与实际应变校准，才能检验切换区究竟是空间畴混合还是局域连续旋转；只导出相图图片会丢失这个判别能力。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜CDW、应变及偏振光谱优先",
+        "first": "图4共同标度→图3切换及共存区→图5角分辨模型；实验设置段核对钛平台和名义应变定义。",
+        "focus": "先核对0–60 cm⁻¹积分、Bose校正及残余剪切，再看单/双分量论证。一般CDW背景可略读，实际应变校准不可略过。",
+        "next": "在同一应变点联合衍射与Raman，优先证伪“偏斜Q”而不是继续增加同类峰位曲线。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读正文",
+        "正式目录已核",
+        "二维材料与量子器件"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [
+          "公开稿引言、实验设置、全部结果与紧束缚讨论",
+          "图1—5图注；图4二维相图与标度实际图像",
+          "独立SI尚未取得，生长细节及完整应变传递校准待补"
+        ],
+        "publisherUrl": "https://journals.aps.org/prl/abstract/10.1103/2ypb-byqq",
+        "publisherStatus": "200",
+        "authorManuscript": {
+          "auditId": 1492,
+          "arxivId": "2604.08440v2",
+          "title": "Revealing the nature of the charge density wave order of ErTe$_3$ via Raman scattering under anisotropic strain",
+          "url": "https://arxiv.org/html/2604.08440v2",
+          "status": "200",
+          "paragraphs": 24,
+          "chars": 23559,
+          "candidateFullText": true,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:07.418582+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功",
+        "authorListScope": "实际阅读的作者公开稿首页作者表；正式版如有变更须另核"
+      }
+    },
+    {
+      "auditId": 1514,
+      "category": "二维材料与量子器件",
+      "material": "Ba/Nb共掺SrTiO₃",
+      "title": "Optical Poling of a Quantum Ferroelectric Metal across the Order-Disorder Phase Transition",
+      "authors": "Mohamed Kandil; Yasuhide Tomioka; Yafei Ren; Ryan Comes; Isao H. Inoue; Wencan Jin",
+      "institutions": "Department of Physics, Auburn University, Auburn, AL 36849, USA；National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba 305-8565, Japan；Department of Physics, University of Delaware, Newark, DE 19716, USA；Department of Materials Science and Engineering, University of Delaware, Newark, DE 19716, USA",
+      "journal": "Physical Review Letters",
+      "date": "2026-10-14 出版社/元数据日期",
+      "publicationDate": "2026-10-14",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1103/nx3d-1mqf",
+      "fullText": "https://arxiv.org/abs/2608.18427v1",
+      "method": "见本条正文分析及明确标记的未报告项",
+      "access": "全文精读：对应作者公开稿主文；正式版与独立SI未逐段核同",
+      "versionNote": "已正式发表目录核实。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "Ba/Nb共掺SrTiO₃在铁电温标以上仍存在局域极性波动，飞秒光场可偏置其取向分布。所谓80%排列来自SHG统计模型拟合，非直接拍到80%的畴；也尚未证明永久光写入或光调控超导Tc。",
+      "sections": [
+        {
+          "title": "问题：金属屏蔽下怎样看局域极性",
+          "text": "样品是Sr₀.₉₅Ba₀.₀₅Ti₁₋xNbxO₃块体单晶，主要研究x=.0035，对应Hall电子浓度约5.04×10¹⁹ cm⁻³，铁电相关电阻异常约44 K，已有输运资料给超导Tc约0.69 K。Ba调节铁电/反铁畸变，Nb提供电子，两个旋钮不应混成一种掺杂作用。本文泵浦SHG主要在10–55 K等温区进行，远高于Tc，并没有直接展示光照下超导转变被提高。\n\n块体平台避免外延应变诱导极性这一额外来源，但不等于没有表面贡献、畴壁或内应力。问题是局域预存偶极如何取向，而不仅是总SHG强度是否增加。"
+        },
+        {
+          "title": "制备与测量条件：能复用与不能补全之处",
+          "text": "SI称采用浮区法生长，详细温程参引前文；当前未报告源料纯度、装料配比的称量、气氛压力、转速、速率、退火和单晶尺寸。不能仅因“浮区法”就写完整生长流程。室温XRD确定晶轴，测量前新鲜解理，置于闭循环氦低温台，热循环基压3×10⁻⁷ Torr。\n\nRA-SHG正常入射，800 nm探测光、50 fs、200 kHz、直径50 μm光斑；泵浦700 nm、70 fs、200 kHz、80 μm光斑，同轴重叠，EMCCD探测反射SHG。低温输运用稀释制冷机与LR700，5–300 K用PPMS。平均功率与单脉冲能流密度不是同一个量，比较光写入阈值时必须同时保留重复率和光斑定义。"
+        },
+        {
+          "title": "局域偶极的模型与观测边界",
+          "text": "4/mmm和4mm的常规体SHG在该理想正常入射几何有禁止条件，作者因此以局域Ti偏心扰动与非线性张量展开解释有限信号。RA-SHG耦合类似〈P²〉统计量，即使〈P〉=0仍可非零；因此看到SHG不自动意味着宏观极化或电场可翻转的铁电记忆。\n\n10 K处拟合用100×100“单元”表示光斑内的极性纳米区，约80%取向在±10°附近，其余随机。这里100×100是计算网格、80%是模型抽取比例，不是纳米分辨真实空间成像。文中约10 pm位移尺度来自应变薄膜既有研究，不能写成该块体样品的直接结构测量。SI也明确SHG不能直接分辨畴或畴壁。"
+        },
+        {
+          "title": "温度与泵浦结果：最强证据在哪里",
+          "text": "加热10→80 K时SHG减弱约两数量级，模型中的优选取向比例从约80%降到10%，并在44 K以上仍有局域信号、可延续到230 K。支持预存极性区域有序—无序的描述，但具体统计反演仍依赖张量、偶极幅度及相干/非相干叠加假设，不能把一个最佳拟合等同于唯一微观分布。\n\n已实际查看图3：泵浦后最大SHG变化在约0.4 ps，响应约1 ps；靠近44 K增强明显，拟合临界指数γ=.99±.11，符合最小Curie–Weiss量级。55 K功率响应比10 K陡，符合无序相取向更易偏置。该指数来自选定温窗和模型，不能独立定性整套普适类或排除所有位移型分量。"
+        },
+        {
+          "title": "取向控制、替代解释及未实现功能",
+          "text": "55 K把泵浦偏振0–180°按15°转动，RA-SHG图形随之变化，模型给取向偏置超过80%。作者解释为光场改变双阱势而非直接共振驱动软模；700/800 nm确实远高于声子频率。但“非共振软模”并不能单独排除载流子激发、瞬态热效应、表面场或光学张量变化，须结合延迟、功率、偏振和温度对照共同判断。\n\n作者用n、有效质量约5me、ε∞=5.5估算Drude等离子尺度约12 THz，说明光频不被静态金属屏蔽简单挡住；它不等于实际穿透深度已被直接测定。光写入是超快瞬态取向操控，不是已证实断光后长时间非易失存储。可编程超导电路是未来应用，不是本文完成的器件。"
+        },
+        {
+          "title": "下一次测量与复现停止条件",
+          "text": "优先保存原始角分辨SHG、空白/未泵浦背景和每个延迟点，比较改变焦点、探测偏振、表面新鲜度时的结果；加入等吸收能量但不同偏振/波长的对照，检测泵浦热效应及表面项。对“80%”应展示允许不同取向分布、偶极幅度和张量参数的拟合不确定度，而不是只报网格热图。\n\n若目标是超导调控，必须真正进入亚K温区并在同一电极/同一光照条件下测Tc、临界电流或超流刚度；不能从55 K局域极性响应外推Tc会提高。若只剩与温升一致的各向同性强度变化、取向随偏振的效果在合理校准后消失，应停止将其归为可控极性排列。普通XRD设备不能替代飞秒光学装置，但可承担同批晶轴与结构质量核验。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜极性金属、超快光谱与STO超导关联研究",
+        "first": "图3延迟/功率/临界拟合→图4偏振控制→SI I/III/IV测量几何与张量→SI VI模型比例边界。",
+        "focus": "先分开〈P〉与〈P²〉、瞬态取向与非易失记忆，以及模型80%与直接成像。应用展望可略读，SI几何与背景不能省。",
+        "next": "用等吸收能量对照和替代分布拟合检验取向操控，再进入亚K区实际测超导，避免跨温区外推。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读正文",
+        "正式目录已核",
+        "二维材料与量子器件"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [
+          "公开稿主文全部、图1—4图注",
+          "同稿SI I—VI、实验设置/载流子表述/张量与显示公式/图S1—S4图注",
+          "图3实际泵浦延迟、温标及功率图像；其余SI图片未逐张查看"
+        ],
+        "publisherUrl": "https://journals.aps.org/prl/abstract/10.1103/nx3d-1mqf",
+        "publisherStatus": "200",
+        "authorManuscript": {
+          "auditId": 1514,
+          "arxivId": "2608.18427v1",
+          "title": "Optical poling of a quantum ferroelectric metal across the order-disorder phase transition",
+          "url": "https://arxiv.org/html/2608.18427v1",
+          "status": "200",
+          "paragraphs": 69,
+          "chars": 34520,
+          "candidateFullText": true,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:07.869878+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功",
+        "authorListScope": "实际阅读的作者公开稿首页作者表；正式版如有变更须另核"
+      }
+    },
+    {
+      "auditId": 3670,
+      "category": "二维材料与量子器件",
+      "material": "菱方石墨",
+      "title": "Cryogenic shock exfoliation for ultrahigh mobility rhombohedral graphite nanoelectronics",
+      "authors": "Ludwig Holleis; Youngjoon Choi; Canxun Zhang; Jack H. Farrell; Gabriel Bargas; Audrey Hsu; Zexing Chen; Ian Sackin; Wenjie Zhou; Yi Guo; Thibault Charpentier; Yifan Jiang; Benjamin A. Foutty; Aidan Keough; Martin E. Huber; Takashi Taniguchi; Kenji Watanabe; Andrew Lucas; Andrea F. Young",
+      "institutions": "Department of Physics, University of California at Santa Barbara, Santa Barbara, California 93106, USA；Department of Physics and Center for Theory of Quantum Matter, University of Colorado, Boulder, Colorado 80309, USA；Departments of Physics and Electrical Engineering, University of Colorado, Denver, Colorado 80204, USA；International Center for Materials Nanoarchitectonics,\nNational Institute for Materials Science, 1-1 Namiki, Tsukuba 305-0044, Japan；Research Center for Functional Materials,\nNational Institute for Materials Science, 1-1 Namiki, Tsukuba 305-0044, Japan",
+      "journal": "Nature Nanotechnology",
+      "date": "2026-10-14 出版社/元数据日期",
+      "publicationDate": "2026-10-14",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1038/s41565-026-02283-1",
+      "fullText": "https://arxiv.org/abs/2604.21912v2",
+      "method": "见本条正文分析及明确标记的未报告项",
+      "access": "全文精读：对应作者公开稿主文；正式版与独立SI未逐段核同",
+      "versionNote": "已正式发表目录核实。阅读的是对应公开稿；正式版及SI不能视为已逐段核同。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "液氮快速冷冲击增加大面积菱方堆垛片源，而悬空膜低压力转移与畴筛选帮助保留它。高成品率依赖整套工艺，输运中的超长平均自由程则是模型支持的下界；二者不能简化成“液氮处理必得90%优质器件”。",
+      "sections": [
+        {
+          "title": "问题：大面积亚稳堆垛如何在制样后保住",
+          "text": "菱方多层石墨烯拥有可调关联相，但天然石墨以Bernal为主，片源中的菱方区域小，转移施压又可能让其松弛。本文将“获得片源”和“保住片源”分成两步解决：热失配冷冲击、低压力转移，再用显微筛选、切割与晶向控制减少局部松弛成核。后续磁成像和输运验证的是最终器件质量，不能单凭剥离成功就宣称整片拥有均匀关联态。"
+        },
+        {
+          "title": "剥离流程与统计选择",
+          "text": "NGS Naturgraphit片状石墨、Uline magic tape，额外加两层胶带以便液氮中整片脱落；285 nm SiO₂/Si上按压后加热110℃，胶带与芯片一起完全浸入液氮，差异热收缩促使脱离。热平衡后立即再加热或在干燥气氛缓慢回室温，以避免凝露。作者强调不先氧等离子处理衬底，否则附着过强妨碍后续低压拾取；更换石墨或聚合物品牌可能明显改变结果。\n\n比较在相同总衬底面积下进行，筛选约3–20层、均匀区域≥400 μm²片，剔除裂纹、褶皱、污染、窄边≤5 μm、IR可见微畴及<80 μm²区域。平均片面积约1200→3100 μm²，非Bernal比例约12%→32%；这些是筛选后的统计，不代表每块原始石墨的转化率。应力诱发部分堆垛转变是机制推断，本文未直接逐原子拍摄冷却中的滑移路径。"
+        },
+        {
+          "title": "转移：90%是累计流程结果",
+          "text": "以SU8制10 μm深、约500×250 μm腔体模具，PDMS约1–2 mm厚并固化2–3天，较厚PC膜张紧覆盖微腔；室温在指定商业PDMS上预贴合以调附着。先IR、再sMIM排微畴，用AFM切出均匀区并移走多余石墨，周围约500×500 μm²清洁后装配。\n\n首层hBN在70℃贴合，短暂升到约125–130℃后降至110℃、等2 min再拾取；RMG在110℃下沿贴合前沿慢进、≤1 s快速拾取。后续hBN/石墨栅连续组装，110℃落片、200℃熔PC后氯仿清除并AFM清洁。氯仿与液氮操作需实验室通风和低温防护，非居家操作。普通转移约30%、低压法>80%分别基于24和62器件；约90%叠加显微筛选/切割/晶向/连续转移等措施，不能归因到冷冲击单因子。"
+        },
+        {
+          "title": "质量证据：成像范围与全器件不同",
+          "text": "实际看过图1原图，IR亮区对应非Bernal对比，sMIM展示若干连续大畴，面积统计有长尾超过1500 μm²。器件示例13层、菱方面积740 μm²，另有>1300 μm²实例；磁图则在中央10×10 μm²区域测均匀自旋磁化，不能把该100 μm²磁成像范围等同为1300 μm²全部逐点验证。\n\nnSOT约1.6 K、针尖距100 nm、背景场约7.4 mT，通过底栅调制并反演边缘场获得磁化。少数非磁区域与夹层残留相关，说明均匀不是毫无污染；电容相图的无额外特征只是面积平均补充证据，不能独立排除所有纳米杂畴。"
+        },
+        {
+          "title": "输运、模型与不能跨越的推论",
+          "text": "高电子密度约10¹³ cm⁻²、接触距约5 μm，横向磁聚焦可见多次边界反射。通过峰面积与峰高分离散射和热展宽，拟合散射率温度幂约1.56±.05，低温给平均自由程≥200 μm、室温外推约2 μm。Methods承认低温面积饱和使反演发散，不宜精确确定ℓ₀；因此200 μm是下界性质，不是200.0 μm的直接尺量。主文存活概率指数有正号表述，而后续自由程式依赖负对数，复算应回查原公式及代码，不照抄孤立符号。\n\n0.5 μm通道出现15–30 K电阻最低点、大方形无同样最低点，与不同几何的Poiseuille/porous流模型相符。ℓee=50 nm等是参考既有双层结果选入的模型值，不能作为13层独立测量。两速率、近圆费米面及边界50%漫反射均为近似，拟合一致不意味着散射机理唯一。"
+        },
+        {
+          "title": "下一次制样与复现判据",
+          "text": "先对同源石墨做等面积、同筛选规则的热循环/标准剥离对照，分别记录片源产率、非Bernal面积和最终转移保真率。用相同厚度和片形比较悬空膜与普通印章，避免厚片更稳造成伪优势；七位作者参与说明可复现性，但替换原料仍要重新校准。\n\n先复现IR+sMIM转移前后堆垛保持，再安排昂贵的低温磁成像/输运。若仅提高光学大片数量而菱方区域在转移后丢失，就不能声称复现了完整方法。器件中的超导/关联态需各自实际测量，不把文章展望的Josephson结、ARPES或谐振器当作均已实现。本稿数据给出Zenodo链接，有条件应进一步核查原始统计和拟合脚本。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜二维材料制样、亚稳堆垛与低温输运优先",
+        "first": "Methods剥离/印章/装配顺序→图1筛选口径→图2实际磁图范围→图3自由程下界；流体模型最后读。",
+        "focus": "核对90%累计流程、24/62样本数和中央成像面积。一般关联态综述可略读，筛选排除与低温反演饱和不可略。",
+        "next": "先做等面积、同厚度、转移前后堆垛保持率对照，质量达标再进入昂贵低温测量。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读正文",
+        "正式目录已核",
+        "二维材料与量子器件"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [
+          "公开稿主文I—V、Materials and Methods全部",
+          "同稿图S1—S10图注及平均自由程/动力学方程；未观看补充视频",
+          "主文图1原图：冷冲击、IR/sMIM及样品统计"
+        ],
+        "publisherUrl": "https://www.nature.com/articles/s41565-026-02283-1",
+        "publisherStatus": "200",
+        "authorManuscript": {
+          "auditId": 3670,
+          "arxivId": "2604.21912v2",
+          "title": "Cryogenic shock exfoliation for ultrahigh mobility rhombohedral graphite nanoelectronics",
+          "url": "https://arxiv.org/html/2604.21912v2",
+          "status": "200",
+          "paragraphs": 78,
+          "chars": 55342,
+          "candidateFullText": true,
+          "readStatus": "not-yet-read",
+          "checkedAt": "2026-10-22T06:25:17.168985+00:00"
+        },
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功",
+        "authorListScope": "实际阅读的作者公开稿首页作者表；正式版如有变更须另核"
+      }
+    },
+    {
+      "auditId": 1638,
+      "category": "二维材料与量子器件",
+      "material": "graphene / MoS₂",
+      "title": "Chemical and structural inhomogeneity in chemical vapor deposited graphene and molybdenum disulfide based moiré heterostructures",
+      "authors": "Arti Dangwal Pandey; Lars Buß; Chithra H. Sharma; Pai Zhao; Thomas F. Keller; Jens Falta; Robert H. Blick; Jan Ingo Flege; Andreas Stierle",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Physical Review Materials",
+      "date": "2026-10-13 出版社/元数据日期",
+      "publicationDate": "2026-10-13",
+      "publicationStatus": "published",
+      "doi": "https://doi.org/10.1103/tvv8-j4tg",
+      "fullText": "https://doi.org/10.1103/tvv8-j4tg",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读",
+      "versionNote": "已正式发表目录核实。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。已正式发表目录核实。实际阅读范围见本条记录。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "题名及可得摘要已复核；与所列量子材料主题直接相关。尚未读正文，不补写生长、测量或结论细节。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "正式目录已核",
+        "二维材料与量子器件"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://journals.aps.org/prmaterials/abstract/10.1103/tvv8-j4tg",
+        "publisherStatus": "200",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    },
+    {
+      "auditId": 3410,
+      "category": "二维材料与量子器件",
+      "material": "WO₃畴壁",
+      "title": "Correlated one-dimensional electron conduction in ferroelastic domain walls through nematic-like charge stripes",
+      "authors": "Minho Kang; Gyubin Lee; Wooin Yang; Shinhee Yun; Kyung Song; Jeongdae Seo; Si-Young Choi; Tae-Hwan Kim; Yeongkwan Kim; Chan-Ho Yang",
+      "institutions": "主要单位待原文首页逐项核对；不从作者姓名猜测",
+      "journal": "Science Advances",
+      "date": "2026-10-09 出版社/元数据日期",
+      "publicationDate": "2026-10-09",
+      "publicationStatus": "metadata-date-unconfirmed",
+      "doi": "https://doi.org/10.1126/sciadv.aee1472",
+      "fullText": "https://doi.org/10.1126/sciadv.aee1472",
+      "method": "正文未读，制备及测量方法尚未核验",
+      "access": "仅摘要；正文未精读",
+      "versionNote": "DOI元数据核实；出版社目录/详情尚未确认。实际阅读范围见本条记录。 本补刊跨2026-10-09—22，不计为10月22日当天新发表57篇。",
+      "abstract": "",
+      "conclusion": "摘要级线索，非全文结论：WO₃铁弹孪晶壁一维输运，STM/c-AFM/ARPES与VRH共同约束但不能只以幂律唯一归因。",
+      "sections": [
+        {
+          "title": "已核实的相关性与证据边界",
+          "text": "WO₃铁弹孪晶壁一维输运，STM/c-AFM/ARPES与VRH共同约束但不能只以幂律唯一归因。"
+        },
+        {
+          "title": "正文与参数状态",
+          "text": "本条尚未完成正文精读，不据题名或摘要补写原料纯度、配比、温程、气氛、晶格常数、尺寸、取向、批次、测量几何及误差。相关参数仍需逐项核对正文/Methods/SI。DOI元数据核实；出版社目录/详情尚未确认。实际阅读范围见本条记录。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜强相关补读队列",
+        "first": "先核对原文版本、作者和实际全文访问，再读样品制备、关键图及Methods。尚未确认的图号不猜填。",
+        "focus": "WO₃铁弹孪晶壁一维输运，STM/c-AFM/ARPES与VRH共同约束但不能只以幂律唯一归因。",
+        "next": "正文未完成前，不以此条直接制定炉方或对外声称实验已复现。"
+      },
+      "tags": [
+        "两周大期刊补刊",
+        "已读摘要",
+        "期刊日期待核",
+        "二维材料与量子器件"
+      ],
+      "rating": "A",
+      "selectionStatus": "fortnight-supplement",
+      "readingRecord": {
+        "readParts": [],
+        "publisherUrl": "https://doi.org/10.1126/sciadv.aee1472",
+        "publisherStatus": "403",
+        "authorManuscript": null,
+        "institutionAttempt": "用户确认aTrust已登录；代表出版社重试未确认订阅正文访问，未假称机构登录成功"
+      }
+    }
+  ],
+  "searchTerms": [
+    "逐刊目录翻页至两周边界",
+    "DOI/规范题名及公开稿版本交叉核对",
+    "强相关实验/生长/物性证据",
+    "正式版—作者公开稿—arXiv逐篇查找"
+  ],
+  "auditUrl": "/audits/2026-10-09_22/summary.json",
+  "sourceAuditUrl": "/audits/2026-10-09_22/",
+  "readingAudit": {
+    "candidateAccessibleFullTexts": 19,
+    "fullReads": 15,
+    "siOnly": 0,
+    "abstractOnly": 35,
+    "titleOnly": 7
+  },
+  "categoryCounts": {
+    "晶体生长和物性调控": 7,
+    "高温与非常规超导": 17,
+    "重费米子与量子临界": 2,
+    "磁性、拓扑与自旋": 19,
+    "二维材料与量子器件": 12
+  },
+  "updatedAt": "2026-10-22T08:43:46.799063+00:00",
+  "figures": [
+    {
+      "src": "/reports/2026-10-22-major-journals/pseudogap-threshold.svg",
+      "title": "赝能隙温标的判据敏感性",
+      "source": "https://arxiv.org/abs/2608.11284v1",
+      "caption": "据作者公开稿SI B/Fig.S1数值重绘，并非论文原图。点对应0.5%、1%、2%偏离判据；只显示阈值变化，不能据此证明微观配对机制。"
+    },
+    {
+      "src": "/reports/2026-10-22-major-journals/shock-exfoliation.svg",
+      "title": "片源改善不等于整器件90%单因子成功率",
+      "source": "https://arxiv.org/abs/2604.21912v2",
+      "caption": "据公开稿Fig.1及Methods汇总数值重绘，并非论文原图。约1200/3100 μm²及12/32%受层数和排除条件限制；最终90%包含额外转移/筛选流程。"
+    },
+    {
+      "src": "/reports/2026-10-22-major-journals/bfo-response-times.svg",
+      "title": "FE和AFD的拟合时间尺度",
+      "source": "https://arxiv.org/abs/2609.29472v3",
+      "caption": "据公开稿Fig.3无应变拟合0.27±0.09、1.1±0.5 ps重绘，并非论文原图。误差为拟合1 s.d.，不是全部系统误差；不证明直接磁序已测量。"
+    }
+  ]
+}

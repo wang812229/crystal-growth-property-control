@@ -27,7 +27,7 @@
     const limitation=findParagraph(paper,/局限|边界|最弱|替代解释|可复现/i)||'未形成独立局限段；请在完整证据链中核对“正文未报告”项与替代解释。';
     const originalNodes=[...paper.children].filter(node=>node!==paper.querySelector('.paper-kicker')&&node!==paper.querySelector('.paper-head')&&node!==paper.querySelector('h2'));
     const full=document.createElement('div');full.className='paper-mode-panel paper-full-panel';full.dataset.mode='full';originalNodes.forEach(node=>full.append(node));
-    [...full.querySelectorAll('h3')].filter(h=>!h.closest('.paper-conclusion,.reading-guide,.reading')).forEach((h,i)=>h.id=`${paper.id}-evidence-${i+1}`);
+    [...full.querySelectorAll('h3')].filter(h=>!h.closest('.paper-conclusion,.reading-guide,.reading')).forEach((h,i)=>{const id=`${paper.id}-evidence-${i+1}`;if(!full.querySelector(`[id="${id}"]`))h.id=id;});
     const toolbar=document.createElement('div');toolbar.className='reading-mode-tabs';toolbar.setAttribute('role','tablist');toolbar.setAttribute('aria-label','阅读模式');
     toolbar.innerHTML=Object.entries(modeLabels).map(([key,label])=>`<button type="button" role="tab" data-mode="${key}" aria-selected="${key==='quick'}">${label}</button>`).join('');
     const quick=document.createElement('div');quick.className='paper-mode-panel quick-panel';quick.dataset.mode='quick';
@@ -36,7 +36,8 @@
     const fields=[['方法',plain(full.querySelector('.meta-item:nth-child(3) b,.meta div:nth-child(3)'))||findParagraph(full,/生长|方法/i)],['温度窗口',(allText.match(/[^。；]{0,30}\d+(?:\.\d+)?\s*(?:°C|℃|K)[^。；]{0,30}/)||[])[0]],['配比 / 纯度',findParagraph(full,/样品|生长|制备/i)],['后处理',((allText.match(/[^。；]{0,30}(?:离心|淬火|退火|anneal|quench)[^。；]{0,45}/i)||[])[0])],['晶体尺寸',((allText.match(/[^。；]{0,25}\d+(?:\.\d+)?\s*(?:×\s*\d+(?:\.\d+)?\s*){0,2}(?:mm|μm|µm|nm|cm)[^。；]{0,20}/i)||[])[0])],['质量指标',((allText.match(/[^。；]{0,25}(?:RRR|迁移率|摇摆曲线|XRD|EDS|TEM)[^。；]{0,60}/i)||[])[0])]];
     const reported=fields.filter(([,v])=>v).length;
     const probes=['XRD','EDS','WDS','TEM','NMR','STM','ARPES','Raman','比热','输运','磁化'].filter(x=>new RegExp(x,'i').test(allText));
-    const access=/全文精读/.test(allText)?(/补充材料|\bSI\b/i.test(allText)?'正文 + Methods + SI':'正文 + Methods'):'摘要 / 元数据';
+    // A mention of SI can say it was NOT obtained. Never infer a read from it.
+    const access=paper.dataset.readingScope||plain(paper.querySelector('.paper-head b,.paper-kicker b'))||'实际范围请核对原始阅读记录';
     const certainty=/摘要|元数据/.test(access)?'推测':/局限|仍需|不能唯一|替代解释/.test(allText)?'中等':'强';
     experimental.innerHTML=`<div class="evidence-dashboard"><div><small>全文状态</small><b>${esc(access)}</b></div><div><small>样品可信度</small><b>${esc(probes.slice(0,4).join('、')||'信息不足')}</b></div><div><small>生长可复现度</small><b>${reported}/6 项自动提取</b></div><div><small>物性证据</small><b>${probes.length>=3?'多探针互证':probes.length===2?'双探针支持':'需补强'}</b></div><div><small>结论确定性</small><b class="certainty-${certainty}">${certainty}</b></div></div><div class="recipe-grid">${fields.map(([k,v])=>`<div><small>${esc(k)}</small><p>${esc(v||'正文未报告 / 未自动提取')}</p></div>`).join('')}</div><div class="evidence-legend"><span data-evidence="observe">直接观察</span><span data-evidence="fit">模型拟合</span><span data-evidence="author">作者推断</span><span data-evidence="editor">本站判断</span></div><div class="experiment-sections"></div><div class="furnace-actions"><button type="button">导出“下一炉建议” Markdown</button><p>导出内容会明确标出缺失字段，避免把经验值当成论文参数。</p></div>`;
     const sectionBox=experimental.querySelector('.experiment-sections');
