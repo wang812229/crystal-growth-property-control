@@ -77,3 +77,16 @@ test('October 21 distinguishes announcement, previous formal publication, and ac
  const index=JSON.parse(await readFile(new URL('assets/search-index.json',dir),'utf8'));
  assert.equal(index.filter(p=>p.reportUrl.includes('/reports/2026-10-21/')).length,5);
 });
+
+test('October 23 journal-first issue has nine distinct anchors and eight genuine body reads',async()=>{
+ const page=await readFile(new URL('reports/2026-10-23/index.html',dir),'utf8');
+ assert(page.includes('今日公告 9'));assert(page.includes('主文可访问 8 / 主文实读 8'));assert(page.includes('仅摘要 1'));assert(page.includes('已知候选全文可访问 10'));
+ assert(page.includes('10.1038/s41467-026-78016-8'));assert(page.includes('10.1002/adfm.79130'));assert(page.includes('不列正文实读'));
+ const audit=JSON.parse(await readFile(new URL('reports/2026-10-23/audit.json',dir),'utf8'));
+ assert.equal(audit.reading.length,9);assert.equal(audit.reading.filter(p=>p.status==='full-body-read').length,8);assert(audit.reading.filter(p=>p.status==='full-body-read').every(p=>p.bodyChineseCharacters>=1500));
+ assert.equal(audit.sources.length,59);assert.equal(audit.decisions.filter(d=>d.source==='arXiv').length,157);assert.equal(audit.counts.formal,4);assert.equal(audit.counts.arxiv,5);assert.equal(audit.coverageComplete,false);
+ const a=audit.sources.find(s=>s.source==='arXiv cond-mat/new');assert.equal(a.date,'2026-10-23');assert.equal(a.new,77);assert.equal(a.cross,22);assert.equal(a.replacement,58);
+ const index=JSON.parse(await readFile(new URL('assets/search-index.json',dir),'utf8'));const daily=index.filter(p=>p.reportUrl.includes('/reports/2026-10-23/'));assert.equal(daily.length,9);assert.equal(index.length,648);
+ for(const f of ['fgt-slopes.svg','nimnga-transition.svg','pt-drude.svg'])await access(new URL('reports/2026-10-23/'+f,dir));
+ const home=await readFile(new URL('index.html',dir),'utf8');assert(home.includes('reports/2026-10-23'));assert(home.includes('2026-10-22-major-journals'));
+});
