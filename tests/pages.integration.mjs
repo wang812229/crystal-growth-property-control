@@ -86,7 +86,22 @@ test('October 23 journal-first issue has nine distinct anchors and eight genuine
  assert.equal(audit.reading.length,9);assert.equal(audit.reading.filter(p=>p.status==='full-body-read').length,8);assert(audit.reading.filter(p=>p.status==='full-body-read').every(p=>p.bodyChineseCharacters>=1500));
  assert.equal(audit.sources.length,59);assert.equal(audit.decisions.filter(d=>d.source==='arXiv').length,157);assert.equal(audit.counts.formal,4);assert.equal(audit.counts.arxiv,5);assert.equal(audit.coverageComplete,false);
  const a=audit.sources.find(s=>s.source==='arXiv cond-mat/new');assert.equal(a.date,'2026-10-23');assert.equal(a.new,77);assert.equal(a.cross,22);assert.equal(a.replacement,58);
- const index=JSON.parse(await readFile(new URL('assets/search-index.json',dir),'utf8'));const daily=index.filter(p=>p.reportUrl.includes('/reports/2026-10-23/'));assert.equal(daily.length,9);assert.equal(index.length,648);
+ const index=JSON.parse(await readFile(new URL('assets/search-index.json',dir),'utf8'));const daily=index.filter(p=>p.reportUrl.includes('/reports/2026-10-23/'));assert.equal(daily.length,9);assert(index.length>=648);
  for(const f of ['fgt-slopes.svg','nimnga-transition.svg','pt-drude.svg'])await access(new URL('reports/2026-10-23/'+f,dir));
  const home=await readFile(new URL('index.html',dir),'utf8');assert(home.includes('reports/2026-10-23'));assert(home.includes('2026-10-22-major-journals'));
+});
+
+test('October 24 and 25 remain distinct journal-first reports and indexed anchors',async()=>{
+ const index=JSON.parse(await readFile(new URL('assets/search-index.json',dir),'utf8'));
+ assert.equal(index.length,657);
+ for(const [date,n,full] of [['2026-10-24',7,5],['2026-10-25',2,2]]){
+  const page=await readFile(new URL(`reports/${date}/index.html`,dir),'utf8');
+  const audit=JSON.parse(await readFile(new URL(`reports/${date}/audit.json`,dir),'utf8'));
+  assert.equal(index.filter(p=>p.reportSlug===date).length,n);assert.equal(audit.counts.formal,n);assert.equal(audit.counts.arxiv,0);
+  assert.equal(audit.reading.filter(p=>p.status==='full-body-read').length,full);
+  assert(audit.reading.filter(p=>p.status==='full-body-read').every(p=>p.bodyChineseCharacters>=1500));
+  assert(page.includes(`主文可访问 ${full} / 主文实读 ${full}`));assert(page.includes('audit.json'));
+  assert.equal(audit.sources.find(s=>s.source==='arXiv cond-mat/new').date,'2026-10-23');assert.equal(audit.coverageComplete,false);
+ }
+ const home=await readFile(new URL('index.html',dir),'utf8');assert(home.includes('reports/2026-10-24/'));assert(home.includes('reports/2026-10-25/'));
 });

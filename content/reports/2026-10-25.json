@@ -1,0 +1,1100 @@
+{
+  "date": "2026-10-25",
+  "issue": "061",
+  "headline": "从真实微结构到磁动力学与拓扑平带：两篇正式期刊正文解读",
+  "searchWindow": "北京时间2026-10-25的正式在线论文；10月25日截至16:45补查与阅读快照，优先该日，不启用三日回溯填数。逐刊官网58条路由+出版方Crossref在线日期查漏；arXiv官方仍为23日批次（77新投/22交叉/58替换），不称其为25日新投。非全天实时穷尽，后续发表或索引补录可能尚未入本次快照。",
+  "hotspot": "两篇均读到出版社主文与关键补充文字：铁颗粒空间磁导率是计算与整体频谱间接验证；ReAg₂Cl₆平带/FCI为理论预测而非单层实验发现。前者有缺陷尺寸和SI参数口径冲突，后者有限簇/投影相互作用的限制均单列。 不调用OpenAI API生成，不以篇数替代阅读质量。",
+  "papers": [
+    {
+      "category": "磁性、拓扑与自旋",
+      "material": "铁颗粒高频响应：局域负μ″不是材料在发电",
+      "title": "From microstructure to function: spatial visualization of magnetic permeability",
+      "authors": "Pei, Ke; Zhang, Ruixuan; You, Wenbin; Wang, Chao; Yang, Chendi; Lv, Xiaowei; Wu, Zhengchen; Wu, Yizheng; Zhao, Xuebing; Che, Renchao",
+      "institutions": "Laboratory of Advanced Materials, Shanghai Key Lab of Molecular Catalysis and Innovative Materials, State Key Laboratory of Coatings for Advanced Equipment, Electron Microscopy Center, College of Smart Materials and Future Energy, Fudan University, Shanghai, China；Zhejiang Laboratory, Hangzhou, P. R. China；Frontier Institute of Chip and System, College of Integrated Circuits & Micro-Nano Electronics, Fudan University, Shanghai, China；Department of Physics and State Key Laboratory of Surface Physics, Fudan University, Shanghai, P. R. China",
+      "journal": "Nature Communications · Article in Press",
+      "date": "2026-10-25 正式在线；出版社Published及citation_online_date核对",
+      "doi": "https://doi.org/10.1038/s41467-026-79271-5",
+      "fullText": "https://www.nature.com/articles/s41467-026-79271-5",
+      "method": "MuMax3/FFT空间响应；蚀刻羰基铁微球、SEM与整体VNA；机器学习辅助",
+      "access": "全文精读：正式PDF1–9页主文/Methods、图1–5；SI Sections1–6（1–15页，S1–S9/TableS1），未逐式核Section7调参；视觉核查主文图4。",
+      "versionNote": "本期按正式在线日期收录；Article in Press仍可能编辑。主文与实际补充文件按PDF标题辨认，审稿文件不计SI。未合成、测量或运行本文计算；与57期历史报告及两期之间按DOI、arXiv ID和规范化题名去重。",
+      "abstract": "",
+      "conclusion": "把每个微磁网格的相位和响应变成频谱，可解释形貌怎样重排共振。局域μ″<0来自相干能量再分配，不是负的整体耗散；空间图是计算结果，实验只对整体频段响应作了间接检验。",
+      "sections": [
+        {
+          "title": "问题—空间图的证据等级",
+          "text": "常规VNA给整体复磁导率，静态磁畴图又不直接给GHz共振。作者在均匀弱激励下记录每个微磁单元M(t)，FFT后求响应，试图将几何、传播相位和频段损耗连起来。论文的local permeability是依赖边界与网格的介观线性响应泛函，不是每个原子独立的本征标量，也不证明非局域效应可忽略。主文Eq.2用相同外场分母说明各单元求和可重建总响应，实际平均需按体积规范归一；它是数值一致性检查，不是空间图被实验直接测出来的证据。作者明确目前没有直接逐点测量这些μ空间分布的实验方法。"
+        },
+        {
+          "title": "计算—具体参数与稳定窗口",
+          "text": "平面200×200×20 nm³，网格4 nm，初始M沿x，阻尼0.01、A=2.1×10⁻¹¹ J/m、Ms=1.4×10⁶ A/m、单轴K=2.65×10⁵ J/m³。MuMax3 3.10、Muview 2.2、ParaView5.10.1，Python3.12处理。选择MaxErr≤10⁻⁸、约5 mT脉冲、1 ps采样、5 ns窗，Δf=0.2 GHz。网格细化到1–2 nm反而可放大局域FFT噪声，不能以“越细越准”替代收敛验证。SI检查脉冲强弱、100–1000 GHz采样和0.05–2 GHz分辨；其文字关于MaxErr/步长方向有不清之处，应以实际软件误差控制与输出曲线核对，而非照抄一句阈值。"
+        },
+        {
+          "title": "直接数值—相位—能量",
+          "text": "方片代表共振5.56、14.10、21.15、24.70、31.30 GHz；14.10 GHz选点显示局部磁化相对外场不同相位，M–H回线有正/反向环。作者将负μ″区解释为局部向外场释放能量，来源是自旋波相干传播与干涉的再分配，不是无源材料产生净能量。需要区别数值噪声造成的负谱与通过单频激励/相位回线复核后的局部负响应，更不能把局部符号当热力学不稳定或全体负损耗。切口深20 nm可增强一个模式，同时压低/移动其他模式；几何调控不是只提升目标峰且其他量完全不变的单参数设计。"
+        },
+        {
+          "title": "颗粒—制备—缺失参数",
+          "text": "三维模拟用400 nm铁球、5 nm网格、涡旋初态，A=2.1×10⁻¹¹ J/m、Ms=1.71×10⁶ A/m、立方K=4.6×10⁴ J/m³、α=0.01，表面缺口按Fibonacci分布。实验则为羰基铁微球，丙酮超声10 min，分散20 ml乙醇，加入10 ml不同浓度FeCl₃与0.2 ml稀HCl、改变反应时间，磁分离、乙醇/水各清洗三次，60 ℃干3 h。确切FeCl₃/HCl浓度、各类反应时间、原粉粒度分布、纯度、氧化层、产率、石蜡混合比和VNA校准细节正文未完整报告，不能从SEM填成统一400 nm纯铁球。实验命名microspheres与模型nanosphere也须分别记录。"
+        },
+        {
+          "title": "主文—SI的参数冲突",
+          "text": "Methods称球面缺陷直径1–10 nm，但图3和SI S9图注举40 nm直径；SI Table S1列Radius 1–10 nm，单位与半径/直径定义未完全统一。SI Section6把Kc1与Ms的数值/单位排列为1.71×10⁵ J/m³和4.6×10⁴ A/m，也与主文给定铁参数不一致。1–10 nm小于或接近5 nm网格时，几何离散尤其敏感，故不能未经代码复核直接把最优“缺陷半径”拿去蚀刻。缺口数为零、半径标签不同的样本理论上应同几何，SI表仍有频段积分差，提示初始化/数值波动需纳入误差，不应把重复几何当完全独立物理训练样本。"
+        },
+        {
+          "title": "机器学习—验证—最小复现",
+          "text": "210个模拟构型训练RF/GPR/DT/KNN/GBDT/EGB，指标为频段积分而非直接预测所有原始时间序列；集成树表现较优。实验四类表面形貌的VNA频段趋势吻合是有用的间接验证，尚不足证明模型跨材料、任意随机缺陷和温度都可泛化。下一次先公开一组完整几何、M(t)/H(t)、FFT窗与归一单位，检查体积分求和恢复整体谱，并在脉冲幅度/网格/采样三轴上做误差图。实验做同批尺寸、氧化和填充分数对照，再比较蚀刻程度；若频谱差主要随混合密度或氧化层走，应停止把全部变化归因于缺口自旋波。普通VNA可验整体响应，但没有空间原位探针不能宣称拍到了本篇局域负μ″。"
+        },
+        {
+          "title": "负响应和负耗散不能互换",
+          "text": "在空间非均匀系统里，某个小体积可以暂时向外场返还能量，同时接收来自相邻区域的自旋波能流，因此局域磁化相位可能对应负的响应虚部。检验被动性要把外场做功、阻尼耗散和区域之间输运放在同一守恒账本中，而不是只看一个网格的符号。实际微波吸收还涉及介电响应、阻抗匹配、填充及样品厚度，单靠某个频段的磁导率积分不能推出器件反射损耗必然更低。本文把整体谱与空间动力学连接起来有价值，但本站不会把局域负值写成能够无源放大电磁波的材料发现。"
+        },
+        {
+          "title": "为什么零缺陷样本也值得检查",
+          "text": "补充表中缺陷数为零时，半径标签本不应改变球体几何，频段积分却并不完全相同。这可能来自初态弛豫、不同随机过程、数值误差或数据组织方式，当前材料不足以唯一解释。若机器学习把这些点分别随机分到训练和测试，会让相近甚至相同几何同时出现在两边，预测分数便可能高估对新形貌的泛化。复算时应以实际几何和初始化种子分组，给同几何重复计算方差，再将它作为方法误差与实验方差比较，而不是把高决定系数本身当物理机制的额外证明。"
+        },
+        {
+          "title": "实验与模型对应的最低要求",
+          "text": "酸蚀铁粉可能同时改变缺口、颗粒总体体积、氧化与表面化学，因而只用电镜看到凹坑还不能证明频谱变化完全来自几何。应补充蚀刻前后粒径统计、质量/磁化归一和表面相信息，至少保存同石蜡比例、装填密度、试样尺寸与校准方法。模拟采用规则球和均匀缺口分布，实验随机坑型及颗粒间偶极作用并未被逐个还原；将二者作趋势比较合理，称作定量数字孪生则证据不足。任何预测出的最优缺陷尺寸，都应在主文与补充口径统一、网格能分辨该尺度以后再转成制样目标。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜微磁模拟与GHz磁性实验",
+        "first": "先图1d/e相位回线，再Methods末尾的局域定义与SI2–4误差检验，最后图4实验。",
+        "focus": "核对B/H单位、局域与体平均、缺口直径冲突及SI参数笔误；ML算法背景可略读。",
+        "next": "先复现一个方片的数值稳定窗口和整体求和，再做同批铁粉VNA与氧化/填充对照。"
+      },
+      "tags": [
+        "正式期刊",
+        "正文精读",
+        "磁性、拓扑与自旋",
+        "铁颗粒高频响应"
+      ],
+      "rating": "A",
+      "selectionStatus": "today-announcement"
+    },
+    {
+      "category": "磁性、拓扑与自旋",
+      "material": "ReAg₂Cl₆：不靠扭角的平带方案，离真实分数量子态还有多远",
+      "title": "Flat Chern bands and correlated states in spiral magnet",
+      "authors": "Bao, Kejie; Shi, Rui; Wang, Huan; Guo, Jiaxuan; Wang, Jing",
+      "institutions": "State Key Laboratory of Surface Physics and Department of Physics, Fudan University, Shanghai, China；Shanghai Research Center for Quantum Sciences, Shanghai, China；Institute for Nanoelectronic Devices and Quantum Computing, Fudan University, Shanghai, China；Hefei National Laboratory, Hefei, China",
+      "journal": "Communications Physics · Article in Press",
+      "date": "2026-10-25 正式在线；出版社Published及citation_online_date核对",
+      "doi": "https://doi.org/10.1038/s42005-026-02924-w",
+      "fullText": "https://www.nature.com/articles/s42005-026-02924-w",
+      "method": "VASP/PBE+U+SOC、Wannier90、ED/PES、Monte Carlo/LLG；单层理论预测",
+      "access": "全文精读：正式PDF1–7页Results/Methods、图1–6/Tables1–2；SI NotesS1–S6文字1–12页、重点稳定性/ED/载流子与体晶对照，未逐图读13–34页全图版；视觉核查主文图3/Table2。",
+      "versionNote": "本期按正式在线日期收录；Article in Press仍可能编辑。主文与实际补充文件按PDF标题辨认，审稿文件不计SI。未合成、测量或运行本文计算；与57期历史报告及两期之间按DOI、arXiv ID和规范化题名去重。",
+      "abstract": "",
+      "conclusion": "已有体晶ReAg₂Cl₆为合成起点，计算预言单层120°共面反铁磁与SOC联合作用生成孤立Chern平带，有限簇多体证据区分FCI与CDW。单层制备、磁序和分数Hall均未由本篇实验实现，约22 K是模型磁有序温度而非FCI转变温度。",
+      "sections": [
+        {
+          "title": "问题—比莫尔体系多了什么",
+          "text": "莫尔大晶胞利于低密度调填充，但角度不均和小能标限制温度；普通小胞铁磁候选又常需很高载流子密度。作者以三角晶格共面120°磁序自然放大磁胞，配Re 5d强SOC折叠并拓扑开隙，避免依赖制备一个特定扭角。共面序的标量自旋手征为零，没有SOC时不能用非共面磁通的常见直觉解释Chern数；这里拓扑来自SOC与磁背景协同。设想有清晰物理根据，但它不是本站提出的新材料预测，也不等于共面反铁磁体普遍都有理想平带。"
+        },
+        {
+          "title": "材料—结构—已有与预测分开",
+          "text": "单层计算晶格P−3(No.147)、a=6.78 Å，Re被六Cl八面体配位、Ag处于三Cl环境；120°(100)自旋螺旋q=(1/3,1/3,0)使磁对称降低到P1，单Re约2.9 μB。主文给J≈2.35 meV、MAE0.80 meV/胞、TN约22 K、带隙1.24 eV，均是作者计算；26 K体晶磁性与已合成体晶来自引用研究，不是作者本篇新长出的单层。SI体ABC堆垛计算a=6.536、c=33.548 Å与引用实验6.573/33.464 Å对照，不能把体c轴搬给二维真空超胞。原料纯度、CVT/溶液配方、尺寸、产率和单层实测谱本篇未做；不能据“易剥离”一句写出已实现的工艺。"
+        },
+        {
+          "title": "计算—稳定性与风险",
+          "text": "VASP5.4.4、PAW/PBE、500 eV、20 Å真空，基本收敛10⁻⁵ eV/10⁻² eVÅ⁻¹，声子收敛10⁻⁸/10⁻⁴，单胞15×15×1、磁超胞9×9×1，DFT-D3(BJ)、默认Re 5d U=1 eV，并比较U=0–4 eV与HSE06。SI声子5×5×1超胞，AIMD4×4×1、300 K、5 fs步长、>10 ps；这些支持有限条件稳定，不等于空气、水汽或长时器件稳定性。负形成能相对元素并不排除所有竞争二元/三元相。预测剥离能77.2 meV/atom也不能自动换成机械剥离成功率，下一步必须先验证体晶化学纯度、表面分解和单层寿命。"
+        },
+        {
+          "title": "单粒子—平带不等于分数态",
+          "text": "四条近费米孤立带的带宽/ Chern数依次为价带20.8 meV/−1、第一导带22.7/+2、第二导带32.1/−1、第三导带50.2/−1。仅比较带宽会偏爱价带，但Berry曲率波动和量子度量也重要；第三导带δB=1.07、T=1.66，较价带5.10/2.27均匀，可能更有利FCI。U约0.12 eV来自ε≈10的粗估，不是实测屏蔽相互作用；不能将U/W>2直接换成高温分数Hall保证。18个Wannier轨道涵盖三Re×三轨道×双自旋，需冻结窗口/解纠缠保拓扑；本文没有运行本站DFT或重新计算任何Chern数。"
+        },
+        {
+          "title": "多体证据—有限尺寸边界",
+          "text": "对C=−1目标带投影、忽略填满下带、保留现场不同轨道/自旋相互作用，ν=1/3的24与27磁胞ED出现三近简并基态。仅三重简并也可能是CDW，所以作者再看动量扇区、通量插入谱流和粒子纠缠谱。价带/第三导带计数与Laughlin型相容，第二导带更像3×3 CDW。SI S3指出第三导带通量谱有全局隙，而价带在每个θ₂扇区仅局部隙，这削弱把两者同样称完全稳健FCI的说法。两个小簇不构成热力学极限严格证明，带间混合、长程相互作用、无序和真实门极屏蔽仍需进一步检验；文章的宏观可测分数电导并未实际测量。"
+        },
+        {
+          "title": "调控—查新—实验停止条件",
+          "text": "SI S4的LLG例用约3.9×10⁸ A/m²电流及约0.1 T辅助场控制螺旋旋向，不能只宣传纯零场电控；180°翻转可翻Chern符号，120°子格置换保持不变。Os/W替位、ReAg₂X₆/ReCu₂X₆/ReAu₂X₆家族及约1/3填充已在本文展开，本站不把任意换卤素再列为首次新候选。实验路线先获得体晶并验证磁序、封装后厚度依赖，再恒密度扫栅与低温输运；约10¹³ cm⁻²只是理论填充量级，电化学反应与陷阱充电要排除。若单层在所需栅场下分解、磁序不能维持或出现明显多相，不应继续用理想自由单层FCI能带拟合电阻台阶。最值得新增的工作是实际化学/稳定窗口和可达填充验证，但在完整专利/学位论文查新之前不推荐将其当未经做过的独立课题。"
+        },
+        {
+          "title": "怎样读有限尺寸的分数态证据",
+          "text": "三个低能近简并态并非分数拓扑独有，平移对称性破缺的电荷有序也可能给出同样数量。本文继续利用动量扇区、插入磁通后的态交换和纠缠谱计数来区分，正是第二导带被归为电荷密度波的原因。阅读时应先看竞争相的例子再看最成功的第三导带，避免只截取三重简并和一条能隙就宣告分数陈绝缘体。有限簇能隙对边界条件和带几何很敏感，补充中价带与第三导带的谱流差异需要保留；两种尺寸都出现近简并支持稳定性，但不足以给出精确临界温度或任意无序下的鲁棒保证。"
+        },
+        {
+          "title": "计算稳定性与化学可合成性的距离",
+          "text": "没有虚频和短时室温分子动力学稳定，主要测试选定结构附近的局域势能和有限轨迹，不会自动搜索所有分解产物、挥发过程或与衬底反应。单层相对元素的负形成能也不是完整凸包证明，尤其卤化物在真实化学势与水氧环境下可能走其他反应路径。因此应把作者的稳定性证据当优先筛选条件，而不是发出立即开炉的确定配方。若体晶剥离后表面已失卤或出现不同价态，即使粉末衍射仍像母相，也不能将理想单层计算带直接用于解释器件；需要局域结构和成分同片核实。"
+        },
+        {
+          "title": "实验优先级应由可证伪步骤决定",
+          "text": "最小推进不是先追求分数电导平台，而是验证可得到足够均匀、可封装的薄层，并测清磁有序随层数是否保留。在此基础上确定门极能实际引入多少载流子，区分陷阱充电、化学掺杂和真正的可逆带填充，再寻找与理论带序相符的光谱或输运。若基础磁序不是预测的共面螺旋，后续平带与分数态链条都必须重新评估，不应通过再调整有效相互作用强行解释。理论所列相邻元素与卤素家族已属于作者研究范围；本站尚未完成这些路径的专利与学位论文查新，故不把它们列为首次候选。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A−｜拓扑磁体与多体理论，实验先验需补齐",
+        "first": "先Table2与图4的FCI/CDW对照，再SI S3谱流及S1稳定性，最后制样可行性。",
+        "focus": "核对22 K不等于FCI温度、体晶存在不等于单层已制成；SOC简化模型推导可后读。",
+        "next": "先做体晶纯度/磁序、封装单层稳定性与实际门极填充上限，不先宣称高温FCI。"
+      },
+      "tags": [
+        "正式期刊",
+        "正文精读",
+        "磁性、拓扑与自旋",
+        "ReAg₂Cl₆"
+      ],
+      "rating": "A",
+      "selectionStatus": "today-announcement"
+    }
+  ],
+  "figures": [
+    {
+      "source": "https://doi.org/10.1038/s42005-026-02924-w",
+      "src": "/reports/2026-10-25/chern-bandwidth.svg",
+      "title": "带宽较小，不自动意味着更稳健的分数态",
+      "caption": "来源：主文Table2；无实验误差；FCI/CDW判断还需ED、谱流与纠缠谱，不是只比较W。"
+    }
+  ],
+  "sourceAudit": [
+    {
+      "source": "APS/prl",
+      "url": "https://journals.aps.org/prl/recent",
+      "status": "200",
+      "bytes": 149795,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:50.595305+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prx",
+      "url": "https://journals.aps.org/prx/recent",
+      "status": "200",
+      "bytes": 157926,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:50.456669+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prb",
+      "url": "https://journals.aps.org/prb/recent",
+      "status": "200",
+      "bytes": 163835,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:50.587304+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/pra",
+      "url": "https://journals.aps.org/pra/recent",
+      "status": "200",
+      "bytes": 149898,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:50.493532+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prc",
+      "url": "https://journals.aps.org/prc/recent",
+      "status": "200",
+      "bytes": 159411,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:51.508455+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prd",
+      "url": "https://journals.aps.org/prd/recent",
+      "status": "200",
+      "bytes": 156872,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:51.800225+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/pre",
+      "url": "https://journals.aps.org/pre/recent",
+      "status": "200",
+      "bytes": 157072,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:52.041207+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prresearch",
+      "url": "https://journals.aps.org/prresearch/recent",
+      "status": "200",
+      "bytes": 143938,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:51.476530+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prapplied",
+      "url": "https://journals.aps.org/prapplied/recent",
+      "status": "200",
+      "bytes": 142822,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:52.572666+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prmaterials",
+      "url": "https://journals.aps.org/prmaterials/recent",
+      "status": "200",
+      "bytes": 169883,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:52.387181+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prfluids",
+      "url": "https://journals.aps.org/prfluids/recent",
+      "status": "200",
+      "bytes": 187377,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:53.111187+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prper",
+      "url": "https://journals.aps.org/prper/recent",
+      "status": "200",
+      "bytes": 153999,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:53.910973+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prxenergy",
+      "url": "https://journals.aps.org/prxenergy/recent",
+      "status": "200",
+      "bytes": 155494,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:53.445935+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prxlife",
+      "url": "https://journals.aps.org/prxlife/recent",
+      "status": "200",
+      "bytes": 147838,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:54.222825+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prxquantum",
+      "url": "https://journals.aps.org/prxquantum/recent",
+      "status": "200",
+      "bytes": 144672,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:54.397004+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/rmp",
+      "url": "https://journals.aps.org/rmp/recent",
+      "status": "200",
+      "bytes": 156212,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:55.042136+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prab",
+      "url": "https://journals.aps.org/prab/recent",
+      "status": "200",
+      "bytes": 174110,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:54.841812+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prxintelligence",
+      "url": "https://journals.aps.org/prxintelligence/recent",
+      "status": "200",
+      "bytes": 145874,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:54.965448+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prl/accepted",
+      "url": "https://journals.aps.org/prl/accepted",
+      "status": "200",
+      "bytes": 80659,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:55.097840+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prx/accepted",
+      "url": "https://journals.aps.org/prx/accepted",
+      "status": "200",
+      "bytes": 69208,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:55.533205+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prb/accepted",
+      "url": "https://journals.aps.org/prb/accepted",
+      "status": "200",
+      "bytes": 79597,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:55.672243+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/pra/accepted",
+      "url": "https://journals.aps.org/pra/accepted",
+      "status": "200",
+      "bytes": 76966,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:56.672678+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prc/accepted",
+      "url": "https://journals.aps.org/prc/accepted",
+      "status": "200",
+      "bytes": 79865,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:55.908927+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prd/accepted",
+      "url": "https://journals.aps.org/prd/accepted",
+      "status": "200",
+      "bytes": 68922,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:56.257206+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/pre/accepted",
+      "url": "https://journals.aps.org/pre/accepted",
+      "status": "200",
+      "bytes": 75808,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:56.426957+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prresearch/accepted",
+      "url": "https://journals.aps.org/prresearch/accepted",
+      "status": "200",
+      "bytes": 69177,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:56.563618+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prapplied/accepted",
+      "url": "https://journals.aps.org/prapplied/accepted",
+      "status": "200",
+      "bytes": 69918,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:57.039732+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prmaterials/accepted",
+      "url": "https://journals.aps.org/prmaterials/accepted",
+      "status": "200",
+      "bytes": 79272,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:57.099737+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prfluids/accepted",
+      "url": "https://journals.aps.org/prfluids/accepted",
+      "status": "200",
+      "bytes": 83667,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:57.274629+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prper/accepted",
+      "url": "https://journals.aps.org/prper/accepted",
+      "status": "200",
+      "bytes": 67385,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:57.363437+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prxenergy/accepted",
+      "url": "https://journals.aps.org/prxenergy/accepted",
+      "status": "200",
+      "bytes": 59350,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:57.702659+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prxlife/accepted",
+      "url": "https://journals.aps.org/prxlife/accepted",
+      "status": "200",
+      "bytes": 67214,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:57.982332+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prxquantum/accepted",
+      "url": "https://journals.aps.org/prxquantum/accepted",
+      "status": "200",
+      "bytes": 69162,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:58.061244+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/rmp/accepted",
+      "url": "https://journals.aps.org/rmp/accepted",
+      "status": "200",
+      "bytes": 63007,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:58.451679+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prab/accepted",
+      "url": "https://journals.aps.org/prab/accepted",
+      "status": "200",
+      "bytes": 80676,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:58.849340+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "APS/prxintelligence/accepted",
+      "url": "https://journals.aps.org/prxintelligence/accepted",
+      "status": "200",
+      "bytes": 66245,
+      "error": "",
+      "checkedAt": "2026-10-25T08:06:58.807683+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "Nature",
+      "url": "https://www.nature.com/nature/research-articles",
+      "status": "200",
+      "bytes": 217507,
+      "error": "",
+      "checkedAt": "2026-10-25T08:07:00.759819+00:00",
+      "officialDateHits": 1,
+      "included": 0,
+      "excluded": 1,
+      "exclusionReason": "按文章在线/Accepted日期；不匹配日期的旧列表不当今日文章。泛生物、器件、算法或非主线候选排除。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "Nature Physics",
+      "url": "https://www.nature.com/nphys/research-articles",
+      "status": "200",
+      "bytes": 212687,
+      "error": "",
+      "checkedAt": "2026-10-25T08:07:01.536965+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "Nature Communications",
+      "url": "https://www.nature.com/ncomms/research-articles",
+      "status": "200",
+      "bytes": 190134,
+      "error": "",
+      "checkedAt": "2026-10-25T08:07:02.066559+00:00",
+      "officialDateHits": 9,
+      "included": 1,
+      "excluded": 8,
+      "exclusionReason": "按文章在线/Accepted日期；不匹配日期的旧列表不当今日文章。泛生物、器件、算法或非主线候选排除。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "npj Quantum Materials",
+      "url": "https://www.nature.com/npjquantmats/research-articles",
+      "status": "200",
+      "bytes": 182092,
+      "error": "",
+      "checkedAt": "2026-10-25T08:07:02.257020+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://www.nature.com/nmat/research-articles",
+      "status": "200",
+      "bytes": 212620,
+      "error": "",
+      "checkedAt": "2026-10-25T08:07:03.877430+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "Communications Physics",
+      "url": "https://www.nature.com/commsphys/research-articles",
+      "status": "200",
+      "bytes": 180833,
+      "error": "",
+      "checkedAt": "2026-10-25T08:07:04.670720+00:00",
+      "officialDateHits": 1,
+      "included": 1,
+      "excluded": 0,
+      "exclusionReason": "按文章在线/Accepted日期；不匹配日期的旧列表不当今日文章。泛生物、器件、算法或非主线候选排除。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "Communications Materials",
+      "url": "https://www.nature.com/commsmat/research-articles",
+      "status": "200",
+      "bytes": 194685,
+      "error": "",
+      "checkedAt": "2026-10-25T08:07:04.810470+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "npj 2D Materials and Applications",
+      "url": "https://www.nature.com/npj2dmaterials/research-articles",
+      "status": "200",
+      "bytes": 176774,
+      "error": "",
+      "checkedAt": "2026-10-25T08:07:05.445784+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "Science",
+      "url": "https://www.science.org/toc/science/current",
+      "status": "403",
+      "bytes": 5452,
+      "error": "",
+      "checkedAt": "2026-10-25T08:07:04.185316+00:00",
+      "officialDateHits": null,
+      "included": 0,
+      "excluded": null,
+      "exclusionReason": "官网403/访问失败；命中与排除未知，出版方Crossref在线元数据辅助查漏，不称零新增。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "Science Advances",
+      "url": "https://www.science.org/toc/sciadv/current",
+      "status": "403",
+      "bytes": 5449,
+      "error": "",
+      "checkedAt": "2026-10-25T08:07:04.485886+00:00",
+      "officialDateHits": null,
+      "included": 0,
+      "excluded": null,
+      "exclusionReason": "官网403/访问失败；命中与排除未知，出版方Crossref在线元数据辅助查漏，不称零新增。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "Advanced Materials",
+      "url": "https://advanced.onlinelibrary.wiley.com/toc/15214095/0/0",
+      "status": "403",
+      "bytes": 5566,
+      "error": "",
+      "checkedAt": "2026-10-25T08:07:05.196101+00:00",
+      "officialDateHits": null,
+      "included": 0,
+      "excluded": null,
+      "exclusionReason": "官网403/访问失败；命中与排除未知，出版方Crossref在线元数据辅助查漏，不称零新增。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "Advanced Functional Materials",
+      "url": "https://advanced.onlinelibrary.wiley.com/toc/16163028/0/0",
+      "status": "403",
+      "bytes": 5502,
+      "error": "",
+      "checkedAt": "2026-10-25T08:07:05.150610+00:00",
+      "officialDateHits": null,
+      "included": 0,
+      "excluded": null,
+      "exclusionReason": "官网403/访问失败；命中与排除未知，出版方Crossref在线元数据辅助查漏，不称零新增。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "Nano Letters",
+      "url": "https://pubs.acs.org/toc/nalefd/0/0",
+      "status": "403",
+      "bytes": 5412,
+      "error": "",
+      "checkedAt": "2026-10-25T08:07:05.114308+00:00",
+      "officialDateHits": null,
+      "included": 0,
+      "excluded": null,
+      "exclusionReason": "官网403/访问失败；命中与排除未知，出版方Crossref在线元数据辅助查漏，不称零新增。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "ACS Nano",
+      "url": "https://pubs.acs.org/toc/ancac3/0/0",
+      "status": "403",
+      "bytes": 5412,
+      "error": "",
+      "checkedAt": "2026-10-25T08:07:05.387121+00:00",
+      "officialDateHits": null,
+      "included": 0,
+      "excluded": null,
+      "exclusionReason": "官网403/访问失败；命中与排除未知，出版方Crossref在线元数据辅助查漏，不称零新增。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "JACS",
+      "url": "https://pubs.acs.org/toc/jacsat/0/0",
+      "status": "403",
+      "bytes": 5412,
+      "error": "",
+      "checkedAt": "2026-10-25T08:07:05.404396+00:00",
+      "officialDateHits": null,
+      "included": 0,
+      "excluded": null,
+      "exclusionReason": "官网403/访问失败；命中与排除未知，出版方Crossref在线元数据辅助查漏，不称零新增。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "Chemistry of Materials",
+      "url": "https://pubs.acs.org/toc/cmatex/0/0",
+      "status": "403",
+      "bytes": 5412,
+      "error": "",
+      "checkedAt": "2026-10-25T08:07:05.471949+00:00",
+      "officialDateHits": null,
+      "included": 0,
+      "excluded": null,
+      "exclusionReason": "官网403/访问失败；命中与排除未知，出版方Crossref在线元数据辅助查漏，不称零新增。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "Crystal Growth & Design",
+      "url": "https://pubs.acs.org/toc/cgdefu/0/0",
+      "status": "403",
+      "bytes": 5412,
+      "error": "",
+      "checkedAt": "2026-10-25T08:07:05.672869+00:00",
+      "officialDateHits": null,
+      "included": 0,
+      "excluded": null,
+      "exclusionReason": "官网403/访问失败；命中与排除未知，出版方Crossref在线元数据辅助查漏，不称零新增。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "Journal of Crystal Growth",
+      "url": "https://www.sciencedirect.com/journal/journal-of-crystal-growth/articles-in-press",
+      "status": "403",
+      "bytes": 832805,
+      "error": "",
+      "checkedAt": "2026-10-25T08:07:07.902558+00:00",
+      "officialDateHits": null,
+      "included": 0,
+      "excluded": null,
+      "exclusionReason": "官网403/访问失败；命中与排除未知，出版方Crossref在线元数据辅助查漏，不称零新增。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "npj Computational Materials",
+      "url": "https://www.nature.com/npjcompumats/research-articles",
+      "status": "200",
+      "bytes": 177732,
+      "checkedAt": "2026-10-25T08:07:11.085820+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "Applied Physics Letters",
+      "url": "https://pubs.aip.org/apl/issue",
+      "status": "403",
+      "bytes": 5397,
+      "checkedAt": "2026-10-25T08:07:08.350234+00:00",
+      "officialDateHits": null,
+      "included": 0,
+      "excluded": null,
+      "exclusionReason": "官网403/访问失败；命中与排除未知，出版方Crossref在线元数据辅助查漏，不称零新增。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "2D Materials",
+      "url": "https://iopscience.iop.org/journal/2053-1583",
+      "status": "200",
+      "bytes": 223137,
+      "checkedAt": "2026-10-25T08:07:10.674111+00:00",
+      "officialDateHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusionReason": "当前列表无日期匹配卡片；只覆盖此可访问页面，不是整刊全天零新增证明。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "Acta Materialia",
+      "url": "https://www.sciencedirect.com/journal/acta-materialia/articles-in-press",
+      "status": "403",
+      "bytes": 832805,
+      "checkedAt": "2026-10-25T08:07:12.603760+00:00",
+      "officialDateHits": null,
+      "included": 0,
+      "excluded": null,
+      "exclusionReason": "官网403/访问失败；命中与排除未知，出版方Crossref在线元数据辅助查漏，不称零新增。",
+      "coverage": "current first listing page only; no exhaustive pagination"
+    },
+    {
+      "source": "Science",
+      "windowTotal": 0,
+      "todayMetadataHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "retry": null,
+      "error": null,
+      "scope": "publisher-deposited published-online date; metadata may lag/omit items"
+    },
+    {
+      "source": "Science Advances",
+      "windowTotal": 0,
+      "todayMetadataHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "retry": null,
+      "error": null,
+      "scope": "publisher-deposited published-online date; metadata may lag/omit items"
+    },
+    {
+      "source": "Advanced Functional Materials",
+      "windowTotal": 75,
+      "todayMetadataHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "retry": null,
+      "error": null,
+      "scope": "publisher-deposited published-online date; metadata may lag/omit items"
+    },
+    {
+      "source": "Nano Letters",
+      "windowTotal": 23,
+      "todayMetadataHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "retry": null,
+      "error": null,
+      "scope": "publisher-deposited published-online date; metadata may lag/omit items"
+    },
+    {
+      "source": "ACS Nano",
+      "windowTotal": 30,
+      "todayMetadataHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "retry": null,
+      "error": null,
+      "scope": "publisher-deposited published-online date; metadata may lag/omit items"
+    },
+    {
+      "source": "JACS",
+      "windowTotal": 45,
+      "todayMetadataHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "retry": null,
+      "error": null,
+      "scope": "publisher-deposited published-online date; metadata may lag/omit items"
+    },
+    {
+      "source": "Chemistry of Materials",
+      "windowTotal": 7,
+      "todayMetadataHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "retry": null,
+      "error": null,
+      "scope": "publisher-deposited published-online date; metadata may lag/omit items"
+    },
+    {
+      "source": "Crystal Growth & Design",
+      "windowTotal": 14,
+      "todayMetadataHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "retry": null,
+      "error": null,
+      "scope": "publisher-deposited published-online date; metadata may lag/omit items"
+    },
+    {
+      "source": "Journal of Crystal Growth",
+      "windowTotal": 0,
+      "todayMetadataHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "retry": null,
+      "error": null,
+      "scope": "publisher-deposited published-online date; metadata may lag/omit items"
+    },
+    {
+      "source": "Nature",
+      "windowTotal": 16,
+      "todayMetadataHits": 1,
+      "included": 0,
+      "excluded": 1,
+      "retry": null,
+      "error": null,
+      "scope": "publisher-deposited published-online date; metadata may lag/omit items"
+    },
+    {
+      "source": "Nature Physics",
+      "windowTotal": 5,
+      "todayMetadataHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "retry": null,
+      "error": null,
+      "scope": "publisher-deposited published-online date; metadata may lag/omit items"
+    },
+    {
+      "source": "Nature Communications",
+      "windowTotal": 103,
+      "todayMetadataHits": 9,
+      "included": 1,
+      "excluded": 8,
+      "retry": null,
+      "error": null,
+      "scope": "publisher-deposited published-online date; metadata may lag/omit items"
+    },
+    {
+      "source": "npj Quantum Materials",
+      "windowTotal": 0,
+      "todayMetadataHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "retry": null,
+      "error": null,
+      "scope": "publisher-deposited published-online date; metadata may lag/omit items"
+    },
+    {
+      "source": "Advanced Materials",
+      "windowTotal": 7,
+      "todayMetadataHits": 0,
+      "included": 0,
+      "excluded": 0,
+      "retry": "Initial429; online date24–25 retry succeeded",
+      "error": null,
+      "scope": "publisher-deposited published-online date; metadata may lag/omit items"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "url": "https://arxiv.org/list/cond-mat/new",
+      "date": "2026-10-23",
+      "new": 77,
+      "cross": 22,
+      "replacement": 58,
+      "total": 157,
+      "included": 0,
+      "screenedTitleAbstract": 157,
+      "verification": "当前157项ID、题名和摘要与23日已筛快照逐项完全相同；复用该批次逐条记录。24/25日未见独立公告批次，不据API空结果宣称无投稿。",
+      "api": "首请求curl方括号解释失败，-g重试返回窗口totalResults=0；该结果不代表未公告投稿为零，也不替代官方页。"
+    }
+  ],
+  "searchTerms": [
+    "北京时间2026-10-25的正式在线论文；10月25日截至16:45补查与阅读快照，优先该日，不启用三日回溯填数。逐刊官网58条路由+出版方Crossref在线日期查漏；arXiv官方仍为23日批次（77新投/22交叉/58替换），不称其为25日新投。非全天实时穷尽，后续发表或索引补录可能尚未入本次快照。",
+    "正式期刊逐轨：APS/Physical Review18刊recent/accepted；Nature/Nature Physics/Nature Communications/npj Quantum Materials/Nature Materials/Communications Physics/Materials/npj2D；Science/Science Advances；AM/AFM；Nano Letters/ACS Nano/JACS/Chemistry of Materials/CG&D；JCG。另查npj Computational Materials、APL、2D Materials、Acta Materialia。每轨命中/纳入/排除/HTTP异常见audit.json。",
+    "arXiv最后核对：官方23日77新投、22交叉、58替换；157项ID/题名/摘要与既有已筛快照逐项相同。本期不需回溯、不把旧批次当24/25日新发表。API初次请求失败后重试0条只作异常核验，不写零新增结论。",
+    "本期正式期刊2篇，arXiv独立0篇；可访问入选全文2篇、实际正文精读2篇、仅摘要0篇。7篇两期正文中文详解均不少于1500字，实际主文/Methods/图/SI范围逐篇列出。",
+    "AM正式发表与arXiv作者v2关联为同篇，不重复计arXiv；正式正文未取得就不声称逐字核对。按57期历史DOI/arXiv及规范化题名去重；24/25两期之间也去重。",
+    "58官网入口逐一请求，但多源403且只覆盖当前列表页；不声称所有期刊全分页/全天穷尽。",
+    "Crossref仅按在线日期查漏，不把0条等同没有文章；AM初次429，重试恢复7条24/25在线元数据。",
+    "用户报告aTrust已登录，实际Wiley/ACS正文仍403；本轮未确认机构全文成功，不上传受限PDF。",
+    "理论论文按理论证据分级；正文阅读不等于全部SI逐图读毕，未读图版范围逐篇注明。",
+    "新材料设想0项：未完成完整专利/学位论文查新，不把作者已提出的下一步或普通复现包装成首创。不调用OpenAI API；邮件只生成正文，不发送。"
+  ],
+  "auditUrl": "/reports/2026-10-25/audit.json",
+  "readingAudit": {
+    "candidateAccessibleFullTexts": 2,
+    "selectedAccessibleFullTexts": 2,
+    "fullReads": 2,
+    "siOnly": 0,
+    "abstractOnly": 0,
+    "institutionalSuccess": false,
+    "pending": [
+      "关键补充文字已读，未逐图核全部SI图版；几何/单位冲突需作者源代码或更正复核。"
+    ]
+  },
+  "researchIdeas": {
+    "schemaVersion": 1,
+    "reviewedAt": "2026-10-25",
+    "scope": "以2026-10-25本期实际读过的主文、Methods及标注范围的SI为依据，核对文中已有/作者已建议工作：受主促进析出、MoTe₂位移场有限动量、Sr₂RuO₄畴壁器件、单原子脉冲核操控、FGT厚度耦合、Re基卤化物替位。尚未完整检索所有专利权利要求与学位论文，不能声称以前无人做过。",
+    "limitations": [
+      "没有候选达到完整查新门槛，本期不新增研究设想；不计入论文数。",
+      "未合成、未测量、未运行新DFT/声子/微磁；参数来自本文而非本站计算。",
+      "未检出直接报道不等于不存在；普通复核或本文作者未来工作不包装成首创。"
+    ],
+    "ideas": [],
+    "rejected": [
+      {
+        "title": "照搬本篇作者的参数调控或材料家族扩展",
+        "url": "https://doi.org/10.1038/s41467-026-79271-5",
+        "reason": "对应论文已提出或已实现；未完成最近邻专利/学位论文查新，暂不建议以首创方向立项。"
+      }
+    ]
+  }
+}
