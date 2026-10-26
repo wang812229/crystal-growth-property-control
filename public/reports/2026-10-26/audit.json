@@ -1,0 +1,2929 @@
+{
+  "date": "2026-10-26",
+  "checkedAt": "2026-10-26T06:27:42.399844+00:00",
+  "window": "北京时间2026-10-26约13:41起检索的期中快照；以26日cond-mat/new首次公告为当天事件，v1实际提交22/23日另记。58官网入口先查，14刊Crossref在线日期查漏后再查arXiv；当天已有高相关稿，不启用三日旧稿回溯填数。",
+  "coverageComplete": false,
+  "sources": [
+    {
+      "source": "APS/prl",
+      "url": "https://journals.aps.org/prl/recent",
+      "status": "200",
+      "bytes": 149799,
+      "error": "",
+      "checkedAt": "2026-10-26T05:48:54.371183+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prx",
+      "url": "https://journals.aps.org/prx/recent",
+      "status": "200",
+      "bytes": 157922,
+      "error": "",
+      "checkedAt": "2026-10-26T05:48:53.309936+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prb",
+      "url": "https://journals.aps.org/prb/recent",
+      "status": "200",
+      "bytes": 163835,
+      "error": "",
+      "checkedAt": "2026-10-26T05:48:54.607686+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/pra",
+      "url": "https://journals.aps.org/pra/recent",
+      "status": "200",
+      "bytes": 149897,
+      "error": "",
+      "checkedAt": "2026-10-26T05:48:53.695014+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prc",
+      "url": "https://journals.aps.org/prc/recent",
+      "status": "200",
+      "bytes": 159410,
+      "error": "",
+      "checkedAt": "2026-10-26T05:48:54.292320+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prd",
+      "url": "https://journals.aps.org/prd/recent",
+      "status": "200",
+      "bytes": 156876,
+      "error": "",
+      "checkedAt": "2026-10-26T05:48:54.592561+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/pre",
+      "url": "https://journals.aps.org/pre/recent",
+      "status": "200",
+      "bytes": 157077,
+      "error": "",
+      "checkedAt": "2026-10-26T05:48:55.549158+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prresearch",
+      "url": "https://journals.aps.org/prresearch/recent",
+      "status": "200",
+      "bytes": 143943,
+      "error": "",
+      "checkedAt": "2026-10-26T05:48:55.372667+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prapplied",
+      "url": "https://journals.aps.org/prapplied/recent",
+      "status": "200",
+      "bytes": 142826,
+      "error": "",
+      "checkedAt": "2026-10-26T05:48:55.466647+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prmaterials",
+      "url": "https://journals.aps.org/prmaterials/recent",
+      "status": "200",
+      "bytes": 169895,
+      "error": "",
+      "checkedAt": "2026-10-26T05:48:56.170022+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prfluids",
+      "url": "https://journals.aps.org/prfluids/recent",
+      "status": "200",
+      "bytes": 187378,
+      "error": "",
+      "checkedAt": "2026-10-26T05:48:56.343226+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prper",
+      "url": "https://journals.aps.org/prper/recent",
+      "status": "200",
+      "bytes": 153995,
+      "error": "",
+      "checkedAt": "2026-10-26T05:48:57.424030+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prxenergy",
+      "url": "https://journals.aps.org/prxenergy/recent",
+      "status": "200",
+      "bytes": 155490,
+      "error": "",
+      "checkedAt": "2026-10-26T05:48:56.533317+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prxlife",
+      "url": "https://journals.aps.org/prxlife/recent",
+      "status": "200",
+      "bytes": 147846,
+      "error": "",
+      "checkedAt": "2026-10-26T05:48:57.113941+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prxquantum",
+      "url": "https://journals.aps.org/prxquantum/recent",
+      "status": "200",
+      "bytes": 144666,
+      "error": "",
+      "checkedAt": "2026-10-26T05:48:57.414123+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/rmp",
+      "url": "https://journals.aps.org/rmp/recent",
+      "status": "200",
+      "bytes": 156213,
+      "error": "",
+      "checkedAt": "2026-10-26T05:48:59.860904+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prab",
+      "url": "https://journals.aps.org/prab/recent",
+      "status": "200",
+      "bytes": 174109,
+      "error": "",
+      "checkedAt": "2026-10-26T05:48:57.957705+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prxintelligence",
+      "url": "https://journals.aps.org/prxintelligence/recent",
+      "status": "200",
+      "bytes": 145883,
+      "error": "",
+      "checkedAt": "2026-10-26T05:48:58.207262+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prl/accepted",
+      "url": "https://journals.aps.org/prl/accepted",
+      "status": "200",
+      "bytes": 80659,
+      "error": "",
+      "checkedAt": "2026-10-26T05:48:58.191552+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prx/accepted",
+      "url": "https://journals.aps.org/prx/accepted",
+      "status": "200",
+      "bytes": 69200,
+      "error": "",
+      "checkedAt": "2026-10-26T05:48:58.682558+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prb/accepted",
+      "url": "https://journals.aps.org/prb/accepted",
+      "status": "200",
+      "bytes": 79604,
+      "error": "",
+      "checkedAt": "2026-10-26T05:48:59.856619+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/pra/accepted",
+      "url": "https://journals.aps.org/pra/accepted",
+      "status": "200",
+      "bytes": 76976,
+      "error": "",
+      "checkedAt": "2026-10-26T05:48:59.203845+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prc/accepted",
+      "url": "https://journals.aps.org/prc/accepted",
+      "status": "200",
+      "bytes": 79864,
+      "error": "",
+      "checkedAt": "2026-10-26T05:48:59.656951+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prd/accepted",
+      "url": "https://journals.aps.org/prd/accepted",
+      "status": "200",
+      "bytes": 68934,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:00.014243+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/pre/accepted",
+      "url": "https://journals.aps.org/pre/accepted",
+      "status": "200",
+      "bytes": 75804,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:00.459303+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prresearch/accepted",
+      "url": "https://journals.aps.org/prresearch/accepted",
+      "status": "200",
+      "bytes": 69173,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:00.870534+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prapplied/accepted",
+      "url": "https://journals.aps.org/prapplied/accepted",
+      "status": "200",
+      "bytes": 69922,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:00.769747+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prmaterials/accepted",
+      "url": "https://journals.aps.org/prmaterials/accepted",
+      "status": "200",
+      "bytes": 79272,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:01.594511+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prfluids/accepted",
+      "url": "https://journals.aps.org/prfluids/accepted",
+      "status": "200",
+      "bytes": 83659,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:01.650897+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prper/accepted",
+      "url": "https://journals.aps.org/prper/accepted",
+      "status": "200",
+      "bytes": 67372,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:01.713423+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prxenergy/accepted",
+      "url": "https://journals.aps.org/prxenergy/accepted",
+      "status": "200",
+      "bytes": 59350,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:01.540733+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prxlife/accepted",
+      "url": "https://journals.aps.org/prxlife/accepted",
+      "status": "200",
+      "bytes": 67219,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:02.511867+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prxquantum/accepted",
+      "url": "https://journals.aps.org/prxquantum/accepted",
+      "status": "200",
+      "bytes": 69170,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:02.521146+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/rmp/accepted",
+      "url": "https://journals.aps.org/rmp/accepted",
+      "status": "200",
+      "bytes": 63003,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:02.819889+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prab/accepted",
+      "url": "https://journals.aps.org/prab/accepted",
+      "status": "200",
+      "bytes": 80672,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:03.908825+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "APS/prxintelligence/accepted",
+      "url": "https://journals.aps.org/prxintelligence/accepted",
+      "status": "200",
+      "bytes": 66245,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:03.261299+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "Nature",
+      "url": "https://www.nature.com/nature/research-articles",
+      "status": "200",
+      "bytes": 217507,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:05.847281+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "Nature Physics",
+      "url": "https://www.nature.com/nphys/research-articles",
+      "status": "200",
+      "bytes": 212687,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:06.037137+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "Nature Communications",
+      "url": "https://www.nature.com/ncomms/research-articles",
+      "status": "200",
+      "bytes": 190903,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:06.448021+00:00",
+      "hits": 3,
+      "included": 0,
+      "excluded": 3,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "npj Quantum Materials",
+      "url": "https://www.nature.com/npjquantmats/research-articles",
+      "status": "200",
+      "bytes": 182092,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:07.099296+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://www.nature.com/nmat/research-articles",
+      "status": "200",
+      "bytes": 212620,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:08.968933+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "Communications Physics",
+      "url": "https://www.nature.com/commsphys/research-articles",
+      "status": "200",
+      "bytes": 180833,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:09.175010+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "Communications Materials",
+      "url": "https://www.nature.com/commsmat/research-articles",
+      "status": "200",
+      "bytes": 194678,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:09.645594+00:00",
+      "hits": 1,
+      "included": 0,
+      "excluded": 1,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "npj 2D Materials and Applications",
+      "url": "https://www.nature.com/npj2dmaterials/research-articles",
+      "status": "200",
+      "bytes": 176774,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:10.940141+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "Science",
+      "url": "https://www.science.org/toc/science/current",
+      "status": "403",
+      "bytes": 5452,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:09.296733+00:00",
+      "hits": null,
+      "included": 0,
+      "excluded": null,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "官网403或连接失败；命中、排除未知。Crossref查漏不能证明零新增。"
+    },
+    {
+      "source": "Science Advances",
+      "url": "https://www.science.org/toc/sciadv/current",
+      "status": "403",
+      "bytes": 5449,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:09.461121+00:00",
+      "hits": null,
+      "included": 0,
+      "excluded": null,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "官网403或连接失败；命中、排除未知。Crossref查漏不能证明零新增。"
+    },
+    {
+      "source": "Advanced Materials",
+      "url": "https://advanced.onlinelibrary.wiley.com/toc/15214095/0/0",
+      "status": "403",
+      "bytes": 5566,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:11.957516+00:00",
+      "hits": null,
+      "included": 0,
+      "excluded": null,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "官网403或连接失败；命中、排除未知。Crossref查漏不能证明零新增。"
+    },
+    {
+      "source": "Advanced Functional Materials",
+      "url": "https://advanced.onlinelibrary.wiley.com/toc/16163028/0/0",
+      "status": "403",
+      "bytes": 5502,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:09.949436+00:00",
+      "hits": null,
+      "included": 0,
+      "excluded": null,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "官网403或连接失败；命中、排除未知。Crossref查漏不能证明零新增。"
+    },
+    {
+      "source": "Nano Letters",
+      "url": "https://pubs.acs.org/toc/nalefd/0/0",
+      "status": "403",
+      "bytes": 5412,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:09.917798+00:00",
+      "hits": null,
+      "included": 0,
+      "excluded": null,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "官网403或连接失败；命中、排除未知。Crossref查漏不能证明零新增。"
+    },
+    {
+      "source": "ACS Nano",
+      "url": "https://pubs.acs.org/toc/ancac3/0/0",
+      "status": "403",
+      "bytes": 5412,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:10.201744+00:00",
+      "hits": null,
+      "included": 0,
+      "excluded": null,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "官网403或连接失败；命中、排除未知。Crossref查漏不能证明零新增。"
+    },
+    {
+      "source": "JACS",
+      "url": "https://pubs.acs.org/toc/jacsat/0/0",
+      "status": "403",
+      "bytes": 5412,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:10.228925+00:00",
+      "hits": null,
+      "included": 0,
+      "excluded": null,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "官网403或连接失败；命中、排除未知。Crossref查漏不能证明零新增。"
+    },
+    {
+      "source": "Chemistry of Materials",
+      "url": "https://pubs.acs.org/toc/cmatex/0/0",
+      "status": "403",
+      "bytes": 5412,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:10.459037+00:00",
+      "hits": null,
+      "included": 0,
+      "excluded": null,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "官网403或连接失败；命中、排除未知。Crossref查漏不能证明零新增。"
+    },
+    {
+      "source": "Crystal Growth & Design",
+      "url": "https://pubs.acs.org/toc/cgdefu/0/0",
+      "status": "403",
+      "bytes": 5412,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:10.510198+00:00",
+      "hits": null,
+      "included": 0,
+      "excluded": null,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "官网403或连接失败；命中、排除未知。Crossref查漏不能证明零新增。"
+    },
+    {
+      "source": "Journal of Crystal Growth",
+      "url": "https://www.sciencedirect.com/journal/journal-of-crystal-growth/articles-in-press",
+      "status": "403",
+      "bytes": 832805,
+      "error": "",
+      "checkedAt": "2026-10-26T05:49:12.859894+00:00",
+      "hits": null,
+      "included": 0,
+      "excluded": null,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "官网403或连接失败；命中、排除未知。Crossref查漏不能证明零新增。"
+    },
+    {
+      "source": "npj Computational Materials",
+      "url": "https://www.nature.com/npjcompumats/research-articles",
+      "status": "200",
+      "bytes": 177732,
+      "checkedAt": "2026-10-26T05:49:16.364403+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "Applied Physics Letters",
+      "url": "https://pubs.aip.org/apl/issue",
+      "status": "403",
+      "bytes": 5397,
+      "checkedAt": "2026-10-26T05:49:13.342700+00:00",
+      "hits": null,
+      "included": 0,
+      "excluded": null,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "官网403或连接失败；命中、排除未知。Crossref查漏不能证明零新增。"
+    },
+    {
+      "source": "2D Materials",
+      "url": "https://iopscience.iop.org/journal/2053-1583",
+      "status": "200",
+      "bytes": 223137,
+      "checkedAt": "2026-10-26T05:49:16.576295+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "所见日期卡片与量子材料实验主线不足：钴在核石墨迁移为核服役/显微动力学，MOF催化和生物/视觉不入本期；无卡片只表示当前页未见。"
+    },
+    {
+      "source": "Acta Materialia",
+      "url": "https://www.sciencedirect.com/journal/acta-materialia/articles-in-press",
+      "status": "403",
+      "bytes": 832805,
+      "checkedAt": "2026-10-26T05:49:18.673868+00:00",
+      "hits": null,
+      "included": 0,
+      "excluded": null,
+      "coverage": "current first listing; publication snapshot before European/US full day, not exhaustive pagination",
+      "reason": "官网403或连接失败；命中、排除未知。Crossref查漏不能证明零新增。"
+    },
+    {
+      "source": "Science / Crossref",
+      "url": "https://api.crossref.org/journals/0036-8075/works?filter=from-online-pub-date:2026-10-26,until-online-pub-date:2026-10-26&rows=200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "error": null,
+      "retry": null,
+      "reason": "按出版方online日期筛；与官网三篇NComms卡片相符。0条仅是当前索引结果，不是整刊当天无文章。"
+    },
+    {
+      "source": "Science Advances / Crossref",
+      "url": "https://api.crossref.org/journals/2375-2548/works?filter=from-online-pub-date:2026-10-26,until-online-pub-date:2026-10-26&rows=200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "error": null,
+      "retry": null,
+      "reason": "按出版方online日期筛；与官网三篇NComms卡片相符。0条仅是当前索引结果，不是整刊当天无文章。"
+    },
+    {
+      "source": "Advanced Materials / Crossref",
+      "url": "https://api.crossref.org/journals/0935-9648/works?filter=from-online-pub-date:2026-10-26,until-online-pub-date:2026-10-26&rows=200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "error": null,
+      "retry": "Initial429, separate retry succeeded",
+      "reason": "按出版方online日期筛；与官网三篇NComms卡片相符。0条仅是当前索引结果，不是整刊当天无文章。"
+    },
+    {
+      "source": "Advanced Functional Materials / Crossref",
+      "url": "https://api.crossref.org/journals/1616-301X/works?filter=from-online-pub-date:2026-10-26,until-online-pub-date:2026-10-26&rows=200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "error": null,
+      "retry": null,
+      "reason": "按出版方online日期筛；与官网三篇NComms卡片相符。0条仅是当前索引结果，不是整刊当天无文章。"
+    },
+    {
+      "source": "Nano Letters / Crossref",
+      "url": "https://api.crossref.org/journals/1530-6984/works?filter=from-online-pub-date:2026-10-26,until-online-pub-date:2026-10-26&rows=200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "error": null,
+      "retry": null,
+      "reason": "按出版方online日期筛；与官网三篇NComms卡片相符。0条仅是当前索引结果，不是整刊当天无文章。"
+    },
+    {
+      "source": "ACS Nano / Crossref",
+      "url": "https://api.crossref.org/journals/1936-0851/works?filter=from-online-pub-date:2026-10-26,until-online-pub-date:2026-10-26&rows=200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "error": null,
+      "retry": "Initial429, separate retry succeeded",
+      "reason": "按出版方online日期筛；与官网三篇NComms卡片相符。0条仅是当前索引结果，不是整刊当天无文章。"
+    },
+    {
+      "source": "JACS / Crossref",
+      "url": "https://api.crossref.org/journals/0002-7863/works?filter=from-online-pub-date:2026-10-26,until-online-pub-date:2026-10-26&rows=200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "error": null,
+      "retry": null,
+      "reason": "按出版方online日期筛；与官网三篇NComms卡片相符。0条仅是当前索引结果，不是整刊当天无文章。"
+    },
+    {
+      "source": "Chemistry of Materials / Crossref",
+      "url": "https://api.crossref.org/journals/0897-4756/works?filter=from-online-pub-date:2026-10-26,until-online-pub-date:2026-10-26&rows=200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "error": null,
+      "retry": null,
+      "reason": "按出版方online日期筛；与官网三篇NComms卡片相符。0条仅是当前索引结果，不是整刊当天无文章。"
+    },
+    {
+      "source": "Crystal Growth & Design / Crossref",
+      "url": "https://api.crossref.org/journals/1528-7483/works?filter=from-online-pub-date:2026-10-26,until-online-pub-date:2026-10-26&rows=200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "error": null,
+      "retry": null,
+      "reason": "按出版方online日期筛；与官网三篇NComms卡片相符。0条仅是当前索引结果，不是整刊当天无文章。"
+    },
+    {
+      "source": "Journal of Crystal Growth / Crossref",
+      "url": "https://api.crossref.org/journals/0022-0248/works?filter=from-online-pub-date:2026-10-26,until-online-pub-date:2026-10-26&rows=200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "error": null,
+      "retry": null,
+      "reason": "按出版方online日期筛；与官网三篇NComms卡片相符。0条仅是当前索引结果，不是整刊当天无文章。"
+    },
+    {
+      "source": "Nature / Crossref",
+      "url": "https://api.crossref.org/journals/0028-0836/works?filter=from-online-pub-date:2026-10-26,until-online-pub-date:2026-10-26&rows=200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "error": null,
+      "retry": "Initial429, separate retry succeeded",
+      "reason": "按出版方online日期筛；与官网三篇NComms卡片相符。0条仅是当前索引结果，不是整刊当天无文章。"
+    },
+    {
+      "source": "Nature Physics / Crossref",
+      "url": "https://api.crossref.org/journals/1745-2473/works?filter=from-online-pub-date:2026-10-26,until-online-pub-date:2026-10-26&rows=200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "error": null,
+      "retry": null,
+      "reason": "按出版方online日期筛；与官网三篇NComms卡片相符。0条仅是当前索引结果，不是整刊当天无文章。"
+    },
+    {
+      "source": "Nature Communications / Crossref",
+      "url": "https://api.crossref.org/journals/2041-1723/works?filter=from-online-pub-date:2026-10-26,until-online-pub-date:2026-10-26&rows=200",
+      "hits": 3,
+      "included": 0,
+      "excluded": 3,
+      "error": null,
+      "retry": null,
+      "reason": "按出版方online日期筛；与官网三篇NComms卡片相符。0条仅是当前索引结果，不是整刊当天无文章。"
+    },
+    {
+      "source": "npj Quantum Materials / Crossref",
+      "url": "https://api.crossref.org/journals/2397-4648/works?filter=from-online-pub-date:2026-10-26,until-online-pub-date:2026-10-26&rows=200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "error": null,
+      "retry": null,
+      "reason": "按出版方online日期筛；与官网三篇NComms卡片相符。0条仅是当前索引结果，不是整刊当天无文章。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "url": "https://arxiv.org/list/cond-mat/new",
+      "date": "2026-10-26",
+      "new": 80,
+      "cross": 16,
+      "replacement": 63,
+      "total": 159,
+      "included": 9,
+      "excluded": 150,
+      "screenedTitleAbstract": 159,
+      "api": "export.arxiv.org请求45秒超时；arxiv.org/api重试返回Rate exceeded；不以接口失败判断零新增。逐篇官方abs元数据/历史与Crossref题名近邻作交叉核查。"
+    }
+  ],
+  "decisions": [
+    {
+      "source": "Communications-Materials",
+      "title": "Real-time imaging of cobalt mobility in graphite at elevated temperatures for advanced nuclear applications",
+      "date": "2026-10-26",
+      "url": "https://www.nature.com/articles/s43246-026-01412-6",
+      "decision": "exclude",
+      "reason": "核服役石墨迁移而非量子材料生长/物性主线",
+      "readScope": "official listing title/summary, not full body"
+    },
+    {
+      "source": "Nature-Communications",
+      "title": "Trace H 2 O 2 -triggered Fenton-like reaction by secondary coordination sphere in iron-based metal-organic frameworks",
+      "date": "2026-10-26",
+      "url": "https://www.nature.com/articles/s41467-026-79095-3",
+      "decision": "exclude",
+      "reason": "催化/生物医学/视觉神经主题，与本期主线不足",
+      "readScope": "official listing title/summary, not full body"
+    },
+    {
+      "source": "Nature-Communications",
+      "title": "Ureterovesical junction: a stem cell niche for ureteral urothelial renewal and bladder urothelial injury repair",
+      "date": "2026-10-26",
+      "url": "https://www.nature.com/articles/s41467-026-78820-2",
+      "decision": "exclude",
+      "reason": "催化/生物医学/视觉神经主题，与本期主线不足",
+      "readScope": "official listing title/summary, not full body"
+    },
+    {
+      "source": "Nature-Communications",
+      "title": "Neural limits of temporal feature binding in human visual cortex",
+      "date": "2026-10-26",
+      "url": "https://www.nature.com/articles/s41467-026-78974-z",
+      "decision": "exclude",
+      "reason": "催化/生物医学/视觉神经主题，与本期主线不足",
+      "readScope": "official listing title/summary, not full body"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.31676",
+      "title": "Lattice Symmetry Remnants in Spatial and Temporal Entanglement of Quantum Critical Spin Chains",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.31725",
+      "title": "Phonon evidence for a partial, re-entrant spin reorientation near room temperature in LaFe$_{1-x}$Ni$_x$O$_3$",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "candidate-not-in-core",
+      "reason": "LaFeNiO₃磁声子：真实实验相关，未入本期核心精选/待补读，不称弱相关。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.31727",
+      "title": "Nonadiabatic vibrational dynamics of CO on Pt(111) studied with first-principles many-body perturbation theory",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.31732",
+      "title": "Altermagnetism in Folded Iron Chain Systems",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "candidate-not-in-core",
+      "reason": "铁链交变磁理论，实验制备证据不及本期核心。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.31777",
+      "title": "Thermoelectric properties and modulation doping of ultrawide-bandgap nitride monolayers",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.31805",
+      "title": "Low-energy collective electronic excitations in a gold monolayer",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.31830",
+      "title": "Unifying Low-Frequency Raman and Infrared Signatures across Perovskites",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.31843",
+      "title": "Optical signatures of Rashba--Dresselhaus coupling across Franz--Keldysh and Landau regimes in two-dimensional semiconductors",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.31849",
+      "title": "'Dancing' two-dimensional patterns in nematics above the flexoelectric instability threshold",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.31871",
+      "title": "Strontium Titanate Capping Layers as Kinetic Regulators of Redox Phase Transitions in Oxide Heterostructures",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "include",
+      "reason": "主文/Methods已读，逐篇阅读范围见报告"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.31893",
+      "title": "Heat current and noise in a point-like junction between normal metal and fractional quantum hall edge state with $ν= 1/3$",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.31919",
+      "title": "Visualization of Single Spin-chain Propagation using Bragg Coherent Diffraction Imaging",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "candidate-not-in-core",
+      "reason": "人工自旋冰成像方法，材料生长/基础物性优先级较低。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.31924",
+      "title": "Sub-monolayer tracking of molecular states at buried interfaces",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.31926",
+      "title": "Poly(vinylidene fluoride) under finite electric displacement fields: a removable $α\\!\\to\\!δ$ reorientation barrier and a persistent first-order $δ\\!\\to\\!β$ conformational change",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.31934",
+      "title": "Structural characterization of the rutile-GeO2/TiO2 (001) heterointerface",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "candidate-not-in-core",
+      "reason": "GeO₂外延界面强相关候补；当前稿件主线偏宽禁带功率器件，未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.31952",
+      "title": "Dipole chains of Bloch point singularities revealed by X-ray magnetic tomography",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "candidate-not-in-core",
+      "reason": "三维Bloch点层析强相关候补，尚未正文核对材料/制备。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.31976",
+      "title": "Nanoscale origin of thermal anisotropy in monoclinic \\texorpdfstring{$β$-Ga$_2$O$_3$}{beta-Ga2O3}",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32005",
+      "title": "Spatiotemporally-resolved differential dynamic microscopy reveals strain-induced deformations in heterogeneous soft materials",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32072",
+      "title": "Boundary shape controls the stress distribution in two-component elastic materials",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32090",
+      "title": "The Extended Diode Equation",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32097",
+      "title": "Heterogeneous superconductivity emerging from a charge-stripe state in kagome lattices",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "include",
+      "reason": "主文/Methods已读，逐篇阅读范围见报告"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32112",
+      "title": "A Self-Consistent Two-Carrier Drift-Diffusion Framework for p-n Junctions: Extended Diode Equation, Power Dissipation, and Base Transit Time",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32121",
+      "title": "Material criteria for angular-momentum transfer from twisted photons to photoelectrons",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32123",
+      "title": "Kinetic competition controls loss-induced exceptional points of Hubbard pairs",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32136",
+      "title": "Zeeman Shift and Injection Currents under Light Irradiation",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32157",
+      "title": "Compass Correlations in a Square-Lattice Magnet",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "include",
+      "reason": "主文/Methods已读，逐篇阅读范围见报告"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32199",
+      "title": "Magnonic time crystal with lasing coherence",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "candidate-not-in-core",
+      "reason": "YIG磁时间晶体强相关候补，非本期生长/缺陷重点；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32224",
+      "title": "Intrinsic Paramagnetism of Optical Phonons and Thermal Hall Effect in Quantum Paraelectrics",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "candidate-not-in-core",
+      "reason": "量子顺电热Hall理论候补，未核正文模型。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32228",
+      "title": "Interface Control of Second-Harmonic Generation in Layered CuInP2S6 via PbZr0.2Ti0.8O3 Domain Wall",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "candidate-not-in-core",
+      "reason": "铁电畴壁光学调控，非当前实验主线优先。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32249",
+      "title": "Bose-Einstein condensate in a shell: nonlinear modes and symmetry breaking",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32252",
+      "title": "Measurement speed limit and Cramér-Rao bound for time-averaged estimators",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32261",
+      "title": "Intrinsic Raman Modes and Crystal Symmetry of Altermagnetic $α$-MnTe",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "include",
+      "reason": "主文/Methods已读，逐篇阅读范围见报告"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32272",
+      "title": "Nonlocal Thermoelectric Transport in Degenerate Electron Systems",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32283",
+      "title": "Triplon dynamics from partial Kondo screening in frustrated heavy-fermion systems",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "candidate-not-in-core",
+      "reason": "Kondo模型动力学理论，缺材料特定实验；候补而非已精读。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32291",
+      "title": "Existence and Absence of Spin-Glass Phases on Migdal--Kadanoff Hierarchical Lattices: A Complete Classification",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32297",
+      "title": "Banded Chaos and Time-Semicrystalline Order",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32341",
+      "title": "Flexo-Photoresponses from First Principles",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32359",
+      "title": "Strain-tunable van Hove singularity and superconducting dome in monolayer kagome metal CsTi$_3$Bi$_5$",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "candidate-not-in-core",
+      "reason": "单层CsTi₃Bi₅应变理论；未合成/测量，优先级低于本期实际kagome实验。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32378",
+      "title": "Low-Temperature Hybrid Monte Carlo for Perylene and Corannulene: Stabilizing Determinant and Force",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32405",
+      "title": "Quantum Landau Lifshitz Gilbert equation in ferromagnetic conductors and magnetic insulators",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32419",
+      "title": "Electron Wavefronts Capture Nanoscale Movies of Hypersound at Surfaces",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "candidate-not-in-core",
+      "reason": "超快电子显微声学方法，非本期主线。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32434",
+      "title": "On the Role of Atomic Mobility in the Polyamorphism of Metallic Glasses",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32437",
+      "title": "Electronic structure of a persistent excitonic fluid far beyond the Mott limit",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "candidate-not-in-core",
+      "reason": "二维钙钛矿激子强相关候补，尚未精读，不以摘要判断为超导。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32449",
+      "title": "Interplay of Chemical Disorder, Vortex Pinning, and Electron Correlations in the Mechanically Robust Medium-Entropy Alloy Superconductor $\\text{Nb}_{0.45}\\text{Ta}_{0.25}\\text{Ti}_{0.15}\\text{Hf}_{0.15}$",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "include",
+      "reason": "主文/Methods已读，逐篇阅读范围见报告"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32456",
+      "title": "Side-Chain Engineering Controls Molecular Packing and Vertical Electron Transport in Discrete n-Type NDI-T2 Oligomers",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32457",
+      "title": "Multifractal Magnons Around Localized Defects",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32458",
+      "title": "Hybrid Monte Carlo for the extended Kane-Mele-Hubbard model",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32524",
+      "title": "Divalent Yb in the Ca$_3$Pd$_4$Bi$_8$ Structure Type: Crystal Growth and Physical Properties of Yb$_3$Pd$_4$Bi$_8$",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "include",
+      "reason": "主文/Methods已读，逐篇阅读范围见报告"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32529",
+      "title": "Effect of oxygen plasma treatment on the structural and superconducting properties of atomic-layer-deposited NbN thin films",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "include",
+      "reason": "主文/Methods已读，逐篇阅读范围见报告"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32532",
+      "title": "Excitonic Stark Response Induced by Quantum Capacitance in van der Waals Heterostructures",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "candidate-not-in-core",
+      "reason": "量子电容激子实验候补，未核正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32553",
+      "title": "Modification of optical properties in ultrathin ALD-grown NbN layers using oxygen plasma treatment",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "candidate-not-in-core",
+      "reason": "同批NbN光学关联稿；只读摘要，链接到2610.32529补读，不作第二个独立超导发现。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32565",
+      "title": "Magnetic Anisotropy and Magnetization Dynamics in Si/Ni Multilayers Probed by FMR and VSM Magnetometry",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "candidate-not-in-core",
+      "reason": "Si/Ni多层薄膜磁各向异性相关候补，未核正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32642",
+      "title": "High-quality, deep formation and identification of oxygen-vacancy defects in silicon carbide",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "include",
+      "reason": "主文/Methods已读，逐篇阅读范围见报告"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32678",
+      "title": "Probing the limits of forward screening and inverse design of crystal materials",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32683",
+      "title": "Stochastic and quantum autonomous information machine: efficiency fluctuations, precision and optimization",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32710",
+      "title": "Discrete WKB approach to density profiles in inhomogeneous two-band free-fermion chains",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32712",
+      "title": "On the Spontaneous Structural Reconstructions of Chalcogen-Depleted MoS$_2$, MoSe$_2$, and Janus MoSSe Monolayers",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "candidate-not-in-core",
+      "reason": "耗硫族单层MD重构理论候补，未核正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32713",
+      "title": "Machine Learning Accelerated Simulation of Charge Regulation Effects",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32714",
+      "title": "Nano-ARPES observation of a flat band at the \\bar{M} point in 2.4° twisted bilayer graphene",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "candidate-not-in-core",
+      "reason": "2.4°TBG nano-ARPES强相关候补，未读正文，不把远离费米能平带等同超导。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32722",
+      "title": "Controlled Fabrication of Uniform Columnar Porous GaN Architectures by Electrochemical Etching",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "candidate-not-in-core",
+      "reason": "GaN电化学多孔形貌工艺候补，较偏器件/孔结构。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32743",
+      "title": "First- and Second-Order Electron Position Correlators Reveal Topological Phase Transitions",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32754",
+      "title": "Tensor Networks for Materials Simulation and Quantum Chemistry",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32763",
+      "title": "Spontaneous Decay of High Energy Composite Fermions",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32766",
+      "title": "Floquet Engineering of Momentum Gaps in Magnonic Time Crystals: Slow-Drive Amplification and In-Gap Propagation",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32767",
+      "title": "Majorana Edge-to-bound State Transition in Interferometric Superconductor Rings",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "candidate-not-in-core",
+      "reason": "2M-WS₂环输运强相关候补；未核正文，不能由振荡周期直接确认Majorana。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32788",
+      "title": "Generalization properties of the token perceptron: the role of embedding and vocabulary",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32791",
+      "title": "Ginzburg-Landau Theory with Elastic Incompatibility Describes the Liquid-G-phase-Crystal State Diagram",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32797",
+      "title": "Unconventional charge density wave order in ErTe$_{3}$: symmetry breakings and fluctuations probed by Raman scattering",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "include",
+      "reason": "主文/Methods已读，逐篇阅读范围见报告"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32839",
+      "title": "Finite-Temperature Transconductance of Multiterminal Josephson Junctions with Topological Andreev Spectra",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32847",
+      "title": "Magnons and excitons from Bethe-Salpeter equation and its application to graphene-based magnets",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32872",
+      "title": "Field Directed Assembly of Anisotropic Composite Pacman Colloids into Reconfigurable Architectures",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32895",
+      "title": "Time-temperature superposition from multi-temperature chirp rheometry of thermorheologically simple materials via physics-informed Gaussian processes",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32901",
+      "title": "Configuration-Independent Low-Energy Gaps in Graphene Nanoribbons: A $δ$-Scatterer Transfer-Matrix Approach",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32903",
+      "title": "Rationalizing charge transfer: a single-molecule case study across three distinct surfaces",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "candidate-not-in-core",
+      "reason": "分子/表面电荷转移，相关但非本期核心实验。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32905",
+      "title": "Combining Simulations and Spectroscopy to Design Protective Coatings on Sulfide Solid Electrolytes",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32912",
+      "title": "Folding of Free Polymers Under Confinement by Responsive Hydrogels",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32918",
+      "title": "CO2-Induced Shifts in the Confined Phase Transformation of CH4 in Metal-Organic Frameworks",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32929",
+      "title": "Extended Hydrodynamics of Planar Heisenberg Ferromagnetic Systems",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32938",
+      "title": "Vacancy-enhanced Li solid-solution anodes for solid-state batteries: computational screening enabling high critical current density",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32944",
+      "title": "Robustness of Skyrmion-Mediated Magnetization Switching in Perpendicular Magnetic Tunnel Junctions (p-MTJs) to Material Disorder and Elevated Temperature",
+      "announcement": "2026-10-26",
+      "section": "New submissions (showing 80 of 80 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.31736",
+      "title": "Free energy fluctuations of symmetric perceptron models up to and including criticality",
+      "announcement": "2026-10-26",
+      "section": "Cross submissions (showing 16 of 16 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.31737",
+      "title": "Intertwining Defects and Fermion-Boundary Scattering from TQFT",
+      "announcement": "2026-10-26",
+      "section": "Cross submissions (showing 16 of 16 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.31792",
+      "title": "Quantum Complexity and Stabilizer-State Expansions: From Pairing to Deformation in Fermionic Systems",
+      "announcement": "2026-10-26",
+      "section": "Cross submissions (showing 16 of 16 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.31883",
+      "title": "CBTV: Colour Bean Tracking Velocimetry for Dense Granular Flows",
+      "announcement": "2026-10-26",
+      "section": "Cross submissions (showing 16 of 16 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32001",
+      "title": "QuantumMatterExplorer: An Autonomous Agent for the Discovery of Quantum Many-Body Phases of Matter",
+      "announcement": "2026-10-26",
+      "section": "Cross submissions (showing 16 of 16 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32021",
+      "title": "Conviction versus Conformity in a Random-Field Ising Electorate: Antagonistic Ties, Network Density, and a Parameter-Free Prediction",
+      "announcement": "2026-10-26",
+      "section": "Cross submissions (showing 16 of 16 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32032",
+      "title": "Cross-coupled photon avalanche drives room-temperature intrinsic optical bistability",
+      "announcement": "2026-10-26",
+      "section": "Cross submissions (showing 16 of 16 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "candidate-not-in-core",
+      "reason": "光子雪崩双稳器件方向，非本期主线。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32287",
+      "title": "Near-field maps of topological edge states of molecular aggregates",
+      "announcement": "2026-10-26",
+      "section": "Cross submissions (showing 16 of 16 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32328",
+      "title": "From Heterogeneity to Function: Enhanced Modular Dynamic Range in Hierarchical Brain Networks",
+      "announcement": "2026-10-26",
+      "section": "Cross submissions (showing 16 of 16 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32591",
+      "title": "Multi-scale patterns arising from competing chemotactic interactions",
+      "announcement": "2026-10-26",
+      "section": "Cross submissions (showing 16 of 16 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32649",
+      "title": "Approximating the Gibbs Measure of Spherical Spin Glasses to Within $o(N^{-1/2})$ in the Replica Symmetric Phase",
+      "announcement": "2026-10-26",
+      "section": "Cross submissions (showing 16 of 16 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32733",
+      "title": "Entanglement Asymmetry and Asymmetry Contour under Boundary Symmetry Breaking",
+      "announcement": "2026-10-26",
+      "section": "Cross submissions (showing 16 of 16 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32849",
+      "title": "Neural LoFi with Backward Coupling: A Spectral Theory of Cross-Layer Feature Learning",
+      "announcement": "2026-10-26",
+      "section": "Cross submissions (showing 16 of 16 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32856",
+      "title": "Non-singlets and the phase diagram of Matrix Quantum Mechanics",
+      "announcement": "2026-10-26",
+      "section": "Cross submissions (showing 16 of 16 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32936",
+      "title": "Generating entanglement in quantum matter with pathway-entangled photons via resonant inelastic X-ray scattering",
+      "announcement": "2026-10-26",
+      "section": "Cross submissions (showing 16 of 16 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.32973",
+      "title": "Ideal interaction dynamics of defects and background fields in condensed matter",
+      "announcement": "2026-10-26",
+      "section": "Cross submissions (showing 16 of 16 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "exclude",
+      "reason": "抽象模型/软物质/算法或泛应用为主，与本期生长—质量—磁性/超导实验链的直接关联或优先级不足；未读正文。"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2405.06607",
+      "title": "SO(5) multicriticality in two-dimensional quantum magnets",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2503.07945",
+      "title": "Kagome goldene with flat bands and Dirac nodal line fermions via line-graph epitaxy",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2504.06898",
+      "title": "Identification and mitigation of errors in hole spin qubit readout",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2506.10883",
+      "title": "Intrinsic defects and 4d/5d transition metal defects in Cr$_2$O$_3$: pathways for enhancing the Néel temperature",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2508.09063",
+      "title": "Resonant dielectric amplification of superconductivity at the FeSe:SrTiOT$_3$ interface",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2509.15358",
+      "title": "Laser Melting and Loss of Interlayer Coherence of the Charge Density Wave Order in TiSe${_2}$ observed by time-resolved neutron diffraction",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2601.00931",
+      "title": "AI-Guided Computational Design of a Room-Temperature, Ambient- Pressure Superconductor Candidate: Grokene",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2601.02647",
+      "title": "Electronic band structure reconstruction in Ni intercalated ZrTe$_2$",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2602.07351",
+      "title": "AtomMOF: All-Atom Flow Matching for MOF-Adsorbate Structure Prediction",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2602.14549",
+      "title": "Realization of a Synthetic Hall Torus with a Topological Charge Pump in a Spinor Bose-Einstein Condensate",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2602.15687",
+      "title": "Flexoelectricity-driven softening of bend elasticity leads to spontaneous chiral symmetry breaking in a polar fluid",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2602.22310",
+      "title": "Tuning the magnetic properties of Kitaev materials via the antiferromagnetic proximity effect: Novel phases and application to an $α$-RuCl$_3$/MnPS$_3$ bilayer",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2603.00392",
+      "title": "Dissipation and microstructure in sheared active suspensions of squirmers",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2603.06550",
+      "title": "Unifying description of competing chiral and nematic superconducting states in twisted bilayer graphene",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2603.22259",
+      "title": "Emergent relativistic symmetry from interacting fermions on the honeycomb bilayer",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2603.24486",
+      "title": "Revealing Charge Transfer in Defect-Engineered 4Hb-TaS2",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2604.08235",
+      "title": "Topological multicomponent superconductivity with sizable $s$-wave admixture in twisted bilayer cuprates",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2605.00221",
+      "title": "Dilute Zn alloying in biodegradable Mg wires: microstructure, mechanical performance, and degradation behavior",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2605.15140",
+      "title": "Limitations of Debye-Waller lattice temperature extraction under electronic excitation",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2605.20677",
+      "title": "Strain-Tuned Incommensurate Kekulé Spiral Order in Twisted Bilayer Graphene: A Quantum Many-Body Study",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2605.27635",
+      "title": "A method for calculating entropy production without knowing transition rates or dwell times",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2606.04936",
+      "title": "Stabilizing the parquet problem",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2606.16233",
+      "title": "Hidden chirality and half-vortex formation in exciton-polariton condensates",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2606.17865",
+      "title": "Chirality-induced spin selectivity due to an emergent molecular orbital moment",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2606.21323",
+      "title": "Importance of effective Coulomb interactions for $T_c$ in cuprates",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2606.23550",
+      "title": "Approximating velocity fields with planted point attractors via Neural-ODE for classification purposes",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2606.26656",
+      "title": "Analyzing the Gelation Transition through Fractional Viscoelasticity and the Mittag-Leffler-Prabhakar Function",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2607.06812",
+      "title": "Driven square lattice of quantum dots in a magnetic field coupled to a cylindrical FIR-photon cavity",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2607.19818",
+      "title": "Weakly Nonlinear Analysis of Jammed Solids",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2608.01903",
+      "title": "Machine Learning Assisted Design of Complex and High Entropy Alloys by Hybrid HiPIMS/Pulsed-DC PVD Process for Low Carbon Energy Applications in Extreme Environments",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2608.20434",
+      "title": "An LLM agent for end-to-end computational materials discovery",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2609.13070",
+      "title": "Visualizing Chiral Edge Modes in Twisted Cuprate Superconductors via Scanning-Probe Quantum Sensing",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2609.13112",
+      "title": "Laser-induced metastable (anti-)skyrmion states with higher-order topological charge",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2609.27302",
+      "title": "Unmodeled states and uncertain action outcomes in agentic scanning tunneling microscopy",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.08265",
+      "title": "Closed analytical form of many-body free volume and thermodynamics of monodisperse hard disks",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.12132",
+      "title": "A neural density functional for polymer electrolytes with exact structure and transferable Coulomb coupling",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.12348",
+      "title": "Constructing Large and Structured Decoherence-Free Subspaces in Hybrid Quantum Systems",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.16290",
+      "title": "Universal Boolean Computation in Negatively Coupled Circle Map Lattices",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.16599",
+      "title": "Solubility of poorly soluble species in bulk and nanopores from grand-canonical Wang-Landau sampling",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.18994",
+      "title": "Full-Continuum Ultrafast Quantum Gas Microscopy",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.27263",
+      "title": "Soft elasticity of soft shells",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.29218",
+      "title": "Geometry-controlled zeros of resonant Kelvin-wave conversion in four spatial dimensions",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.29848",
+      "title": "Framework to identify defect-insensitive electron transport in topological semimetals",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.31031",
+      "title": "Contact Renormalization of One-Mode Electron Correlation: Validation in Four- and Ten-Electron Systems",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2407.06072",
+      "title": "Freezing and Shielding under Global Quenches for Long-Range Interacting Many-Body Systems",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2505.05437",
+      "title": "Cell size heterogeneity controls crystallization of the developing fruit fly wing",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2508.17871",
+      "title": "Succession of Ising criticality and its threshold in critical quantum Ising model subject to $X+ZZ$ decoherence",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2511.00647",
+      "title": "Thermoelastic wave-based logic for mechanically cognitive materials",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2512.01870",
+      "title": "Testing Transformer Learnability on the Arithmetic Sequence of Rooted Trees",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2512.11679",
+      "title": "Arbitrary-order exceptional points in a nanomechanical cavity",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2601.08606",
+      "title": "Open quantum spin chains with non-reciprocity: a theoretical approach based on the time-dependent generalized Gibbs ensemble",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2601.18869",
+      "title": "Eigenstate condensation in quantum systems with finite-dimensional Hilbert spaces",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2602.18932",
+      "title": "Convex Analysis of Relaxation Dynamics in Chemical Reaction Networks and Generalized Gradient Flows",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2606.11319",
+      "title": "Neural networks become centroid classifiers when trained on heavily corrupted inputs",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2606.20271",
+      "title": "Interpreting Liouvillian Eigenmodes: Quantized Orbits in Dissipative Systems",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2606.24393",
+      "title": "Uniaxial poroelastic tendon model with crimped fibre recruitment reveals hysteresis",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2606.31660",
+      "title": "Contrastive Regularization of Machine Learning Potentials",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2607.20234",
+      "title": "Coupling phase interference effects in a multimode cavity magnonics system",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2609.06605",
+      "title": "Solution-phase fluorination of nanodiamond: near-surface NV$^-$ activation and spin relaxation",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2609.25708",
+      "title": "How do incorrect ligands help detect a correct ligand?",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.06775",
+      "title": "Engineering logical gates with irrep surface codes",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.18750",
+      "title": "Finite temperature Fredholm determinants for dynamical correlation functions",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "id": "2610.28528",
+      "title": "Efficient Ground-State Manifold Amplification for Rydberg Atom Arrays via Houdayer Cluster Updates",
+      "announcement": "2026-10-26",
+      "section": "Replacement submissions (showing 63 of 63 entries)",
+      "readScope": "official title and full abstract screened; main-body scope separately logged",
+      "decision": "version-difference-pending",
+      "reason": "旧稿替换版本：未完成与历史版本逐段差异核查，不能仅凭new列表位置当新发现"
+    }
+  ],
+  "reading": [
+    {
+      "title": "Divalent Yb in the Ca₃Pd₄Bi₈ Structure Type: Crystal Growth and Physical Properties of Yb₃Pd₄Bi₈",
+      "doi": "https://arxiv.org/abs/2610.32524",
+      "access": "全文精读：公开PDF1–8页Introduction、Methods、Results、图1–7/Tables I–III；无独立SI；核查生长与低温异常。",
+      "status": "full-body-read",
+      "bodyChineseCharacters": 1582
+    },
+    {
+      "title": "Strontium Titanate Capping Layers as Kinetic Regulators of Redox Phase Transitions in Oxide Heterostructures",
+      "doi": "https://arxiv.org/abs/2610.31871",
+      "access": "全文精读：公开PDF1–10页主文/Methods、图1–4；文末称SI S1–S5须向作者索取，本轮未获得，不声称读过XRD/XRR补图。",
+      "status": "full-body-read",
+      "bodyChineseCharacters": 1553
+    },
+    {
+      "title": "Heterogeneous superconductivity emerging from a charge-stripe state in kagome lattices",
+      "doi": "https://arxiv.org/abs/2610.32097",
+      "access": "全文精读：公开合并PDF主文1–11页、图1–5；补充PDF总24–26页Note1/2、43–45页Note12及Note13开头、52–53页Note16与Note17开头。未逐页读59页全部SI；图3/4及掺杂表作重点。",
+      "status": "full-body-read",
+      "bodyChineseCharacters": 1505
+    },
+    {
+      "title": "Effect of oxygen plasma treatment on the structural and superconducting properties of atomic-layer-deposited NbN thin films",
+      "doi": "https://arxiv.org/abs/2610.32529",
+      "access": "全文精读：公开PDF1–10页主文、Methods、图1–4/Tables I–II及Appendix A；另篇光学稿2610.32553仅摘要核对，未冒充其正文精读。",
+      "status": "full-body-read",
+      "bodyChineseCharacters": 1549
+    },
+    {
+      "title": "Intrinsic Raman Modes and Crystal Symmetry of Altermagnetic α-MnTe",
+      "doi": "https://arxiv.org/abs/2610.32261",
+      "access": "全文精读：公开PDF1–14页主文/Methods、图1–4/Table1；PDF共17页未附SI，尝试arXiv源码仍未取得可读SI；未读Supplementary Notes1–9。",
+      "status": "full-body-read",
+      "bodyChineseCharacters": 1595
+    },
+    {
+      "title": "Compass Correlations in a Square-Lattice Magnet",
+      "doi": "https://arxiv.org/abs/2610.32157",
+      "access": "全文精读：公开PDF1–5页主文、图1–4及末尾晶场参数附录；arXiv源码仅主文/四图，无被引用SM，未获完整生长或MC补充参数。",
+      "status": "full-body-read",
+      "bodyChineseCharacters": 1511
+    },
+    {
+      "title": "Interplay of Chemical Disorder, Vortex Pinning, and Electron Correlations in the Mechanically Robust Medium-Entropy Alloy Superconductor Nb₀.₄₅Ta₀.₂₅Ti₀.₁₅Hf₀.₁₅",
+      "doi": "https://arxiv.org/abs/2610.32449",
+      "access": "全文精读：公开PDF1–15页Methods、Results、Conclusion、图1–9/Tables I–II；无独立SI；16页参考未逐项核。",
+      "status": "full-body-read",
+      "bodyChineseCharacters": 1623
+    },
+    {
+      "title": "High-quality, deep formation and identification of oxygen-vacancy defects in silicon carbide",
+      "doi": "https://arxiv.org/abs/2610.32642",
+      "access": "全文精读：公开合并PDF主文1–12与Methods15–17页、图1–5；SI总19–20页制备表、28–29页相干统计/侧视对照；其余SI未逐式逐谱核完。",
+      "status": "full-body-read",
+      "bodyChineseCharacters": 1539
+    },
+    {
+      "title": "Unconventional charge density wave order in ErTe₃: symmetry breakings and fluctuations probed by Raman scattering",
+      "doi": "https://arxiv.org/abs/2610.32797",
+      "access": "全文精读：公开PDF1–5页完整主文、实验说明、图1–4；6页为参考；未见附带独立SI。",
+      "status": "full-body-read",
+      "bodyChineseCharacters": 1533
+    }
+  ],
+  "counts": {
+    "total": 9,
+    "formal": 0,
+    "arxiv": 9,
+    "fullReads": 9,
+    "abstractOnly": 0,
+    "selectedAccessibleFullTexts": 9,
+    "knownCandidateAccessibleFullTexts": 9,
+    "categories": {
+      "晶体生长和物性调控": 2,
+      "高温与非常规超导": 3,
+      "磁性、拓扑与自旋": 3,
+      "二维材料与量子器件": 1
+    }
+  },
+  "limitations": [
+    "58官网入口逐轨请求；Science/Wiley/ACS/JCG等403，部分首列表只显示有限数量，正式期刊覆盖不完整，不能说全天零新增。",
+    "本期正式期刊纳入0，原因是当前可核26日卡片未达本期主线；不是因为仅检索arXiv。欧洲/美国出版日尚未结束，后续上线可能未进快照。",
+    "用户此前称aTrust登录，但本轮未确认有效机构正文会话；未借用其他机构代理、未绕过验证码或付费墙。入选9篇均为合法公开稿。",
+    "所有159项题名摘要已筛；部分真实相关候补未入本期核心、正文未读，逐项列出而不伪称弱相关或全部读完。",
+    "正文精读指实际读到正文/方法；若干SI尚待补核。重点内容每篇中文证据详解>=1500字，不据此称全部SI穷尽。",
+    "arXiv API超时/限流，Crossref题名相似结果没有确认对应正式发表，不能把近邻老文DOI错误贴给新稿。"
+  ],
+  "crossrefSelectedCheck": [
+    {
+      "id": "2610.32524",
+      "query": "Divalent Yb in the Ca$_3$Pd$_4$Bi$_8$ Structure Type: Crystal Growth and Physical Properties of Yb$_3$Pd$_4$Bi$_8$",
+      "items": [
+        {
+          "title": [
+            "Ca<sub>3</sub>Pd<sub>4</sub>Bi<sub>8</sub>: Crystal and Electronic Structure."
+          ],
+          "DOI": "10.1002/chin.200305005",
+          "published-online": {
+            "date-parts": [
+              [
+                2003,
+                3,
+                5
+              ]
+            ]
+          },
+          "score": 56.323654
+        },
+        {
+          "title": [
+            "Photoemission Study of Valence Fluctuation in Yb<sub>4</sub>Sb<sub>3</sub>and Yb<sub>4</sub>Bi<sub>3</sub>"
+          ],
+          "DOI": "10.1143/jpsj.56.1465",
+          "published-online": null,
+          "score": 49.849365
+        }
+      ]
+    },
+    {
+      "id": "2610.31871",
+      "query": "Strontium Titanate Capping Layers as Kinetic Regulators of Redox Phase Transitions in Oxide Heterostructures",
+      "items": [
+        {
+          "title": [
+            "Lattice Dynamics and Phase Transitions of Strontium Titanate"
+          ],
+          "DOI": "10.1103/physrev.134.a981",
+          "published-online": {
+            "date-parts": [
+              [
+                1964,
+                5,
+                18
+              ]
+            ]
+          },
+          "score": 34.113575
+        },
+        {
+          "title": [
+            "Photoexcited-carrier transport in barium strontium titanate/strontium titanate heterostructures"
+          ],
+          "DOI": "10.1063/1.4986615",
+          "published-online": {
+            "date-parts": [
+              [
+                2017,
+                9,
+                21
+              ]
+            ]
+          },
+          "score": 34.056664
+        }
+      ]
+    },
+    {
+      "id": "2610.32097",
+      "query": "Heterogeneous superconductivity emerging from a charge-stripe state in kagome lattices",
+      "items": [
+        {
+          "title": [
+            "Superconductivity emerging from a stripe charge order in IrTe2 nanoflakes"
+          ],
+          "DOI": "10.1038/s41467-021-23310-w",
+          "published-online": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                26
+              ]
+            ]
+          },
+          "score": 36.4705
+        },
+        {
+          "title": [
+            "Kagome lattices with chiral charge density"
+          ],
+          "DOI": "10.1038/s41563-021-01095-z",
+          "published-online": {
+            "date-parts": [
+              [
+                2021,
+                9,
+                24
+              ]
+            ]
+          },
+          "score": 31.75764
+        }
+      ]
+    },
+    {
+      "id": "2610.32529",
+      "query": "Effect of oxygen plasma treatment on the structural and superconducting properties of atomic-layer-deposited NbN thin films",
+      "items": [
+        {
+          "title": [
+            "Transmission electron microscopy analysis of atomic layer deposited NbTiN/NbN superconducting thin films"
+          ],
+          "DOI": "10.1063/5.0292737",
+          "published-online": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                4
+              ]
+            ]
+          },
+          "score": 48.7873
+        },
+        {
+          "title": [
+            "Superconducting Characteristics of NbN Films Deposited by Atomic Layer Deposition"
+          ],
+          "DOI": "10.1109/tasc.2017.2655719",
+          "published-online": null,
+          "score": 47.756893
+        }
+      ]
+    },
+    {
+      "id": "2610.32261",
+      "query": "Intrinsic Raman Modes and Crystal Symmetry of Altermagnetic ${\\alpha}$-MnTe",
+      "items": [
+        {
+          "title": [
+            "Magnetization symmetry for the altermagnetic candidate MnTe"
+          ],
+          "DOI": "10.1103/br1r-bjzk",
+          "published-online": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                13
+              ]
+            ]
+          },
+          "score": 38.272087
+        },
+        {
+          "title": [
+            "Altermagnetic MnTe"
+          ],
+          "DOI": "10.1117/12.3100179",
+          "published-online": null,
+          "score": 37.988922
+        }
+      ]
+    },
+    {
+      "id": "2610.32157",
+      "query": "Compass Correlations in a Square-Lattice Magnet",
+      "items": [
+        {
+          "title": [
+            "Quantum compass model on the square lattice"
+          ],
+          "DOI": "10.1103/physrevb.72.024448",
+          "published-online": {
+            "date-parts": [
+              [
+                2005,
+                7,
+                22
+              ]
+            ]
+          },
+          "score": 29.559143
+        },
+        {
+          "title": [
+            "Nanometric square skyrmion lattice in a centrosymmetric tetragonal magnet"
+          ],
+          "DOI": "10.1038/s41565-020-0684-7",
+          "published-online": {
+            "date-parts": [
+              [
+                2020,
+                5,
+                18
+              ]
+            ]
+          },
+          "score": 25.068644
+        }
+      ]
+    },
+    {
+      "id": "2610.32449",
+      "query": "Interplay of Chemical Disorder, Vortex Pinning, and Electron Correlations in the Mechanically Robust Medium-Entropy Alloy Superconductor $\\text{Nb}_{0.45}\\text{Ta}_{0.25}\\text{Ti}_{0.15}\\text{Hf}_{0.15}$",
+      "items": [
+        {
+          "title": [
+            "[15] Text III: Advanced Text Processing"
+          ],
+          "DOI": "10.7551/mitpress/12401.003.0018",
+          "published-online": null,
+          "score": 59.342422
+        },
+        {
+          "title": [
+            "Practice Text #15"
+          ],
+          "DOI": "10.1163/ej.9789004196186.i-584.173",
+          "published-online": null,
+          "score": 57.67919
+        }
+      ]
+    },
+    {
+      "id": "2610.32642",
+      "query": "High-quality, deep formation and identification of oxygen-vacancy defects in silicon carbide",
+      "items": [
+        {
+          "title": [
+            "Phosphorous–vacancy–oxygen defects in silicon"
+          ],
+          "DOI": "10.1039/c3ta12167d",
+          "published-online": null,
+          "score": 34.71874
+        },
+        {
+          "title": [
+            "DEEP LEVEL DEFECTS IN SILICON CARBIDE"
+          ],
+          "DOI": "10.1142/9789812706850_0002",
+          "published-online": {
+            "date-parts": [
+              [
+                2011,
+                11,
+                21
+              ]
+            ]
+          },
+          "score": 33.235058
+        }
+      ]
+    },
+    {
+      "id": "2610.32797",
+      "query": "Unconventional charge density wave order in ErTe$_{3}$: symmetry breakings and fluctuations probed by Raman scattering",
+      "items": [
+        {
+          "title": [
+            "Vector symmetry of fluctuations in nonlinear charge-density-wave conductance"
+          ],
+          "DOI": "10.1103/physrevb.44.8353",
+          "published-online": {
+            "date-parts": [
+              [
+                1991,
+                10,
+                15
+              ]
+            ]
+          },
+          "score": 35.580994
+        },
+        {
+          "title": [
+            "Unconventional Thermophotonic Charge Density Wave"
+          ],
+          "DOI": "10.1103/physrevlett.133.066902",
+          "published-online": {
+            "date-parts": [
+              [
+                2024,
+                8,
+                5
+              ]
+            ]
+          },
+          "score": 35.36718
+        }
+      ]
+    }
+  ],
+  "institutionalAccess": "No valid institutional body session confirmed; public arXiv used",
+  "pending": [
+    "STO稿SI须向作者索取；MnTe和ErRu₂Si₂独立SM未取得。",
+    "CsV₃Sb₅₋ₓSnₓ与SiC已读关键补充，未读完全部59/46页。",
+    "若干更广候选仅题名摘要筛选未入精选，清单和原因见来源审计；不称所有高相关论文已精读。"
+  ]
+}

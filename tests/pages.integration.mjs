@@ -88,12 +88,12 @@ test('October 23 journal-first issue has nine distinct anchors and eight genuine
  const a=audit.sources.find(s=>s.source==='arXiv cond-mat/new');assert.equal(a.date,'2026-10-23');assert.equal(a.new,77);assert.equal(a.cross,22);assert.equal(a.replacement,58);
  const index=JSON.parse(await readFile(new URL('assets/search-index.json',dir),'utf8'));const daily=index.filter(p=>p.reportUrl.includes('/reports/2026-10-23/'));assert.equal(daily.length,9);assert(index.length>=648);
  for(const f of ['fgt-slopes.svg','nimnga-transition.svg','pt-drude.svg'])await access(new URL('reports/2026-10-23/'+f,dir));
- const home=await readFile(new URL('index.html',dir),'utf8');assert(home.includes('reports/2026-10-23'));assert(home.includes('2026-10-22-major-journals'));
+ const home=await readFile(new URL('index.html',dir),'utf8');assert((await readFile(new URL('archive/index.html',dir),'utf8')).includes('reports/2026-10-23'));assert(home.includes('2026-10-22-major-journals'));
 });
 
 test('October 24 and 25 remain distinct journal-first reports and indexed anchors',async()=>{
  const index=JSON.parse(await readFile(new URL('assets/search-index.json',dir),'utf8'));
- assert.equal(index.length,657);
+ assert(index.length>=657);
  for(const [date,n,full] of [['2026-10-24',7,5],['2026-10-25',2,2]]){
   const page=await readFile(new URL(`reports/${date}/index.html`,dir),'utf8');
   const audit=JSON.parse(await readFile(new URL(`reports/${date}/audit.json`,dir),'utf8'));
@@ -104,4 +104,16 @@ test('October 24 and 25 remain distinct journal-first reports and indexed anchor
   assert.equal(audit.sources.find(s=>s.source==='arXiv cond-mat/new').date,'2026-10-23');assert.equal(audit.coverageComplete,false);
  }
  const home=await readFile(new URL('index.html',dir),'utf8');assert(home.includes('reports/2026-10-24/'));assert(home.includes('reports/2026-10-25/'));
+});
+
+test('October 26 public experimental brief preserves evidence and indexing',async()=>{
+ const index=JSON.parse(await readFile(new URL('assets/search-index.json',dir),'utf8'));
+ const day=index.filter(p=>p.reportSlug==='2026-10-26');assert.equal(day.length,9);
+ const audit=JSON.parse(await readFile(new URL('reports/2026-10-26/audit.json',dir),'utf8'));
+ assert.equal(audit.counts.formal,0);assert.equal(audit.counts.fullReads,9);
+ assert.equal(audit.sources.find(s=>s.source==='arXiv cond-mat/new').total,159);
+ assert(audit.reading.every(p=>p.bodyChineseCharacters>=1500));
+ const page=await readFile(new URL('reports/2026-10-26/index.html',dir),'utf8');
+ for(let i=1;i<=9;i++)assert(page.includes(`id="paper-${i}"`));
+ assert(page.includes('sto-kinetic-gate.svg'));assert(page.includes('nbn-switching-current.svg'));
 });
