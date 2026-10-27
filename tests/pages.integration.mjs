@@ -103,7 +103,7 @@ test('October 24 and 25 remain distinct journal-first reports and indexed anchor
   assert(page.includes(`主文可访问 ${full} / 主文实读 ${full}`));assert(page.includes('audit.json'));
   assert.equal(audit.sources.find(s=>s.source==='arXiv cond-mat/new').date,'2026-10-23');assert.equal(audit.coverageComplete,false);
  }
- const home=await readFile(new URL('index.html',dir),'utf8');assert(home.includes('reports/2026-10-24/'));assert(home.includes('reports/2026-10-25/'));
+ const archive=await readFile(new URL('archive/index.html',dir),'utf8');assert(archive.includes('reports/2026-10-24/'));assert(archive.includes('reports/2026-10-25/'));
 });
 
 test('October 26 public experimental brief preserves evidence and indexing',async()=>{
@@ -116,4 +116,17 @@ test('October 26 public experimental brief preserves evidence and indexing',asyn
  const page=await readFile(new URL('reports/2026-10-26/index.html',dir),'utf8');
  for(let i=1;i<=9;i++)assert(page.includes(`id="paper-${i}"`));
  assert(page.includes('sto-kinetic-gate.svg'));assert(page.includes('nbn-switching-current.svg'));
+});
+
+test('October 27 journal-first brief keeps body/abstract levels and historical deduplication',async()=>{
+ const index=JSON.parse(await readFile(new URL('assets/search-index.json',dir),'utf8'));
+ assert(index.length>=677);assert.equal(index.filter(p=>p.reportSlug==='2026-10-27').length,11);
+ const audit=JSON.parse(await readFile(new URL('reports/2026-10-27/audit.json',dir),'utf8'));
+ assert.equal(audit.counts.formal,2);assert.equal(audit.counts.fullReads,10);assert.equal(audit.counts.abstractOnly,1);
+ assert.equal(audit.sources.find(s=>s.source==='arXiv cond-mat/new').total,278);
+ assert(audit.reading.slice(0,10).every(p=>p.bodyChineseCharacters>=1500));
+ assert(audit.decisions.find(p=>p.id==='2610.34168').decision==='exclude-duplicate-or-old');
+ const page=await readFile(new URL('reports/2026-10-27/index.html',dir),'utf8');
+ for(let i=1;i<=11;i++)assert(page.includes(`id="paper-${i}"`));
+ assert(page.includes('fpi-coercive-field.svg'));assert(page.includes('mn3ge-roughness.svg'));assert(page.includes('今日公告 11'));
 });

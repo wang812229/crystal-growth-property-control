@@ -1,0 +1,1685 @@
+{
+  "date": "2026-10-27",
+  "issue": "063",
+  "headline": "从正式期刊合成铁电到Ta/Mn₃Ge生长窗口：11篇独立精选，10篇正文精读",
+  "searchWindow": "北京时间2026-10-27 13:40启动，主要检索/正文核验约13:48–14:44的期中快照；正式期刊按27日online日期、arXiv按27日首次公告归档，v1实际提交24–26日单列。当日已有强相关稿，不启用三日回溯填数；欧美出版日尚未结束。",
+  "hotspot": "正式期刊先查：Nature Communications合成铁电全文及SI精读，JACS高压单晶反应暂为摘要级；另9篇当日arXiv独立实验稿，聚焦晶相、偏析、缺陷、填充与超导/受挫磁性。排除旧译稿与已收录正式论文；不以泛器件或旧稿凑数。",
+  "papers": [
+    {
+      "category": "晶体生长和物性调控",
+      "material": "(s-FBDA)PbI₄：先确认长得出来，再谈铁电性预测",
+      "title": "Synthesis-by-design of ferroelectric Dion–Jacobson two-dimensional hybrid organic–inorganic perovskites",
+      "authors": "Lulu Wang; Weixin He; Shurong Yuan; Chao Yang; Nihang Fu; Xinnan Peng; Kian Ping Loh; Pengfei Ou",
+      "institutions": "新加坡国立大学化学系、NUS人工智能研究所；中国科学院高能物理研究所",
+      "journal": "Nature Communications · Article in Press",
+      "date": "2026-10-27出版社在线；2026-10-08接受",
+      "doi": "https://doi.org/10.1038/s41467-026-78928-5",
+      "fullText": "https://www.nature.com/articles/s41467-026-78928-5",
+      "method": "物理约束筛选、溶液冷却结晶、SCXRD、PFM/双波法P–E、Berry相计算",
+      "access": "全文精读：出版社主文1–9页、Methods、图1–5；SI Note 2/表9–10、表18、图16/19–21；实际查看主文图5及SI图21。SI其余计算表格未逐项复算。",
+      "versionNote": "正式在线日期由出版社citation_date与Crossref交叉确认；下载合法公开主文与MOESM1 SI。没有将预印本和正式版重复计篇；计算值为作者结果，本站没有运行DFT。",
+      "abstract": "【简报中文转述，非原始摘要】面向小样本DJ铁电体，通过结构连通性筛选和分子相似性排序选择s-FBDA，并合成具有可切换极化的PbI₄层状晶体。",
+      "conclusion": "故事不是“11个样本训练出精准预测器”，而是把分子候选、DJ骨架保持、可合成性和实测开关串成闭环；(s-FBDA)PbI₄的铁电性有多种实验证据，但模型的跨样本定量预测明显不可靠。",
+      "readingGuide": {
+        "priority": "A｜生长、分子铁电及材料筛选研究者优先",
+        "first": "先读图5与Methods结晶/薄膜段，再看SI表18、图21；模型部分务必同时读Note 2与表9。",
+        "focus": "区分归一化主图P–E、SI实测回线极化1.14 μC/cm²与Berry相2.79 μC/cm²；不能把三种定义直接当同一准确率标尺。",
+        "next": "先按原配方验证独立批次C2相及双波回线，再改变扫场频率和电极间距排查漏电；模型架构图可略读，留一误差不能略读。"
+      },
+      "tags": [
+        "正式期刊",
+        "正文精读",
+        "溶液结晶",
+        "铁电",
+        "小样本边界"
+      ],
+      "rating": "A",
+      "selectionStatus": "today-announcement",
+      "sections": [
+        {
+          "title": "问题与设计：结构存在性先于性能数字",
+          "text": "Dion–Jacobson层状杂化钙钛矿由二价有机间隔阳离子桥接相邻无机层，比单价间隔层体系更强约束，但一个看似合适的分子未必能稳定目标连接方式。论文从已知十一种铁电化合物和三十七个结构、相互作用及畸变描述符出发，用符号回归组织经验，再通过分子相似性和结构筛选缩小实验空间。原始分子池有83924项，经过元素、尺寸、形状及质子化过滤剩1012种二铵阳离子；每种生成二百个初始构型，先加压松弛、再零压优化，并在最低能十个构型中检查DJ连通性，最终338种至少保留一次连接。这里的338不是已合成材料数，也不是338种已确认铁电体。二十五个已知DJ结构的正对照全部恢复连接，证明流程能找回已知正例，却没有确定假阳性率或实际结晶概率。"
+        },
+        {
+          "title": "样品与生长：可照着执行的配方及未报告项",
+          "text": "实验目标为(s-FBDA)PbI₄，作者选用市售的(2S)-2-氟丁烷-1,4-二胺二盐酸盐，与三水乙酸铅各0.3 mmol，溶于3 mL、57 wt%的氢碘酸水溶液。油浴100 ℃保持三十分钟后自然冷却至室温，得到橙色晶体；真空过滤，再在60 ℃真空干燥十二小时。自然冷却的实际速率、容器体积、密封方式、试剂批号和纯度、单批产率及晶体典型尺寸，已读Methods未报告，不能将“自然冷却”改成某个每小时降温值。薄膜用晶体在DMF中配成0.5 M，基底等离子体处理三十分钟，500 rpm五秒、3000 rpm三十秒旋涂，再90 ℃退火；退火时长正文未报告。PFM使用导电硅基底，宏观回线使用二氧化硅基底上的平面电极，间距200 μm，不能把两套器件几何混为一谈。含铅和强酸操作必须按实验室通风、废液和个人防护规范执行。"
+        },
+        {
+          "title": "质量与测量：极性结构不等于已经证明开关",
+          "text": "室温单晶衍射给出单斜C2，SI表18列a=12.1994(8)、b=12.3052(8)、c=11.7317(7) Å，β=115.937(2)°，Z=4，观测反射R值0.0352；粉末谱与结构模拟一致，支持主相归属，但不能据此宣称任何痕量杂质都不存在。800 nm激发得到400 nm二次谐波，说明反演对称性破缺，单独这一项不能证明可逆铁电性。薄膜PFM在氮气手套箱中进行，探针为SCM-PIT-V2，共振约818 kHz；五微米见方扫描中存在近180°畴反差，探针偏压从−11到+11 V产生相位翻转和蝶形振幅。双波法宏观回线给出约6.5 kV/cm矫顽场；SI图21实测回线极化幅值约1.14 μC/cm²，而主文图5画的是归一化极化。晶体结构、局域开关与宏观回线形成互补证据，而不是用一张PFM相位图代替全部判断。"
+        },
+        {
+          "title": "模型和数据：最应防止被漂亮训练拟合掩盖的限制",
+          "text": "对十一点训练集，矫顽场和极化的样本内均方根误差分别仅0.02 kV/cm和0.03 μC/cm²，乍看非常准确；但全部留一验证的矫顽场误差达到4.37×10⁹ kV/cm，极化误差3.68 μC/cm²。SI明确解释其中一个折因接近零的分母数值发散，排除两个病态折后矫顽场误差仍有6.94 kV/cm。这不是可用于新材料绝对性能预报的标定工具。对新样品，模型给出3.31 kV/cm及0.98 μC/cm²，只能作描述符范围内的一致性检查，不能说准确命中实验。Berry相得到2.79 μC/cm²，参考态为C222₁反铁电构型，计算极化与器件回线的物理定义、边界条件不同。作者采用VASP、PBE-D3、500 eV截断等设置；本站没有重算这些数值，更不能把模型输出当新实验发现。"
+        },
+        {
+          "title": "结论、替代解释与复现路线",
+          "text": "最强证据是一个事先筛选、可采购分子最终形成了衍射明确的极性晶相，并同时具有局域与宏观开关响应；最弱环节是小样本模型外推以及薄膜器件中非铁电电荷效应的排除程度。PFM会受静电、离子迁移和接触共振影响，宏观回线也可能含漏电，因此复现不应只追求回线看起来方正。建议先复制原配方，分别记录晶体批次与由该批次制备的薄膜，保存完整粉末谱、单晶精修文件和电极几何；再对同片做频率与扫速扫描、正反极化写入后延时读取和空白基底对照。若回线对扫速高度敏感、断电后相位快速消失，或漏电积分可以解释主要极化，就应暂停“稳定铁电开关”的推广判断。下一步可以检验这些已知风险，但在未完成专利和学位论文查新前，不将它们包装为以前无人做过的新课题。"
+        },
+        {
+          "title": "对生长实验的具体启示",
+          "text": "这篇工作的实验价值在于明确区分三种失败：分子可采购但不能形成目标层状连接、形成层状连接却不是极性晶相、形成极性相却没有可保持的电场翻转。复现记录应让这三类失败分别进入数据库，而不是把没有回线的样品直接删掉。对于每次结晶，母液浓度、冷热位置、冷却实际时间和过滤后形貌值得同步保留，因为这些未在原文全部定量报告的变量可能决定晶体尺寸和杂相；补记它们是本简报的操作建议，不代表作者已经做过系统优化。尤其不建议一开始同时改酸浓度、分子手性和金属组分，否则得到新物相也难以区分是哪一个变量造成。"
+        },
+        {
+          "title": "怎样判断模型是否对下一炉有帮助",
+          "text": "一个可证伪的模型检验应在结果未知前固定候选排序和筛选阈值，并完整记录失败样品，而不是合成后再挑一个落在描述符范围内的结构称为成功预测。本文的连通性测试和铁电一致性筛选各自有用，但前者没有等价于形成能凸包稳定性，后者也没有非铁电负样本的完整分类标定。对于希望迁移到自己材料体系的研究者，最小下一步应先选几个已知成功与已知失败的同族间隔分子，检验结构连通性、极性和开关三层标准能否被分别区分；若没有这个控制，即使又做出一种材料，也只能证明一次合成可行，不能量化预测器的普适准确性。"
+        }
+      ]
+    },
+    {
+      "category": "晶体生长和物性调控",
+      "material": "Ta薄膜：痕量氧改变α取向，高氧低温才偏向β相",
+      "title": "Growth Phase Map of α and β Tantalum as a Function of Growth Temperature and Oxygen Partial Pressure",
+      "authors": "Eji, Marius O.; Kirkpatrick, Tyler J.; Cawein, Ty J.; Corbett, Joseph P.",
+      "institutions": "美国迈阿密大学物理系",
+      "journal": "arXiv · v1公开实验稿，未确认正式发表",
+      "date": "2026-10-27官方首次公告；v1提交2026-10-26T17:12:52Z",
+      "doi": "https://arxiv.org/abs/2610.35768",
+      "fullText": "https://arxiv.org/pdf/2610.35768v1",
+      "method": "DC磁控溅射；RGA氧分压；吸收修正XRD织构；Voigt线形/AFM",
+      "access": "全文精读：主文4–17页实验、结果、讨论、结论；图6/表I及图注；实际渲染图6检查坐标。参考文献未逐条精读；未报告独立SI。",
+      "versionNote": "本期按27日官方公告归档，实际提交时间另列；已与官方API核对v1。没有复现实验或运行作者计算，不能把建议当作已完成结果。",
+      "abstract": "Tantalum thin films are used in low-loss superconducting quantum circuits, yet the growth conditions governing selection of $\\alpha$-Ta(110), $\\alpha$-Ta(111), and metastable $\\beta$-Ta on c-plane sapphire remain uncertain. We deposited 100 nm Ta films by dc magnetron sputtering on Al$_2$O$_3$(0001) at 300-900 $^\\circ$C while varying the O$_2$ partial pressure from a $5.5\\times10^{-11}$ Torr ultrahigh-vacuum baseline to $2.23\\times10^{-4}$ Torr. Absorption-corrected X-ray diffraction texture coefficients were used to construct a ternary phase-orientation growth map in terms of temperature and the oxygen-to-Ta impingement flux ratio ($2\\Phi_{O_2}/\\Phi_{Ta}\\leq4.8\\times10^{-6}$ to 19). Without added oxygen, $\\alpha$-Ta(110) dominated at every temperature. At an O$_2$ pressure of only $2.5\\times10^{-9}$ Torr ($2\\Phi_{O_2}/\\Phi_{Ta}=2.2\\times10^{-4}$), $\\alpha$-Ta(111) accounted for 98-99% of the normalized texture weight from 300 to 700 $^\\circ$C, decreasing to 65% at 900 $^\\circ$C. Substantial $\\beta$-Ta formed only at the highest oxygen dose, dominating at 300 $^\\circ$C and disappearing at 900 $^\\circ$C. The apparent $\\beta$(001)/$\\alpha$(110) selection energy of $1.07\\pm0.16$ eV is comparable to the activation energy for oxygen diffusion in Ta, consistent with oxygen transport influencing phase selection. Oxygen also produced orientation-dependent changes in crystallite size and microstrain. These findings establish oxygen-controlled processing windows for phase- and orientation-selective growth of Ta films for superconducting devices.",
+      "conclusion": "同一套蓝宝石溅射工艺中，极少的入射氧就能改变α-Ta择优取向；更高氧剂量与低温促进β-Ta。但图中的颜色是极密度权重，不是独立测出的相体积分数，更没有直接证明量子器件损耗变好。",
+      "sections": [
+        {
+          "title": "问题与样品：为什么相同温度也长出不同Ta",
+          "text": "Ta可用于超导量子电路，但α相取向和亚稳β相的选择受界面、杂质及粒子能量共同影响，不能仅归结为基底温度。作者在c面Al₂O₃上制备约100 nm薄膜，只改变300、500、700、900 ℃四个温度和六档氧供给，Ar工作压、功率及时间保持不变，形成二十四片样品的过程矩阵。α为体心立方Im-3m，β使用四方P-42₁m结构参考。标题中的生长相图是该设备和边界条件下的实验地图，并非普适热力学平衡相图；没有测超导转变、谐振器品质因子或界面微波损耗，不能将结构优化直接等同于量子比特性能提升。"
+        },
+        {
+          "title": "生长参数：压力不是膜内氧浓度",
+          "text": "蓝宝石先在超高真空1200 ℃退火二十四小时，同时用紫外照明促进水脱附，期间压力不高于3×10⁻¹⁰ Torr。溅射系统基压约10⁻¹⁰ Torr，Ta靶直径1.33英寸、纯度99.95%；Ar工作压3.2×10⁻² Torr，100 W直流溅射六十七秒，AFM台阶标定沉积速率1.49 nm/s。残余氧分压5.5×10⁻¹¹ Torr，五档有意加氧为2.5×10⁻⁹、4×10⁻⁸、2.2×10⁻⁷、10⁻⁶及2.23×10⁻⁴ Torr，通Ar前用RGA记录。对应入射氧/钽原子通量比约≤4.8×10⁻⁶、2.2×10⁻⁴、0.0035、0.019、0.087、19.3。这个比值来自气体动力学和沉积速率，既不是氧的固溶量，也不能假定粘附概率为一；本文没有直接测膜内氧含量或深度分布。"
+        },
+        {
+          "title": "质量与XRD：三种权重究竟测了什么",
+          "text": "Cu Kα平行束对称扫描范围4–120°，步长0.02°、每步一秒，以刚玉粉末标准测仪器展宽，并用包含双线的Voigt函数拟合。α-Ta的(111)本身是体心立方禁戒反射，作者用允许的(222)识别{111}出平面取向，不能在复现时把弱的33.7°峰误贴成α(111)。强吸收薄膜需要角度相关衍射体积修正；作者再将各反射与随机粉末参考比较，并在153个候选反射上归一化。最终α{110}、α{111}、β{001}的三元权重反映特定出平面极密度贡献，不能直接作三相体积分数或单晶比例。对称扫描也不能证明面内外延关系，需要摇摆曲线、方位角和极图补充。线形推得晶粒相干长度与微应变，共用拟合宽度，协方差和标准样品条件必须保留。"
+        },
+        {
+          "title": "直接结果与作者推断：氧的作用分三个层次",
+          "text": "无意加氧时四个温度均以α(110)为主；仅2.5×10⁻⁹ Torr氧就使300–700 ℃下α(111)占归一化权重98–99%，900 ℃仍约65%。最高氧剂量下β相在300 ℃为唯一检出的Ta相，500 ℃权重0.66、700 ℃0.07，900 ℃未检出。两个混相温度点的对数比拟合给出1.07±0.16 eV表观选择能，与引用的氧扩散能接近；相似能量尺度支持动力学解释，却不能唯一确定扩散机制。作者还注意到沉积前约五分钟的基底氧暴露比六十七秒生长期间的总入射量更大，说明早期成核终止层可能重要。氧最终位置、吸附覆盖率、真实成核能差和水蒸气是否等价，均未测定，必须保留为未知。"
+        },
+        {
+          "title": "原图核查、误差与下一炉建议",
+          "text": "本文给织构系数相对不确定度约25%，相干长度约±20 nm、微应变约±0.75×10⁻³；7±20 nm这种尺寸估计不宜解读为精确超细晶。主文还有若干交叉引用错误；实际查看图6发现顶部氧分压标签与底部通量比的左右排序疑似不一致，复现应首先以表I的明确对应关系和原始样品编号为准，并向作者索取原始数据，不能照色块盲选配方。下一炉建议只在一个温度先比较残氧基线和微量加氧，固定预暴露时长与基底处理，分别测RGA、完整衍射、摇摆曲线和电阻；没有RGA时不要声称已控制十亿分之一级氧压。若取向变化跟清洗批次而不跟氧剂量走，应暂停归因并检查水与界面污染。该路线是对作者结论的验证，不是已获查新确认的新材料预测。"
+        },
+        {
+          "title": "把地图迁移到另一台设备需要哪些记录",
+          "text": "本篇用入射通量比而不是只有气压，提供了跨设备比较的起点，但仍不能直接照抄气压设定。另一台溅射机的钽沉积速率、气体温度、靶到基底距离、离子轰击及漏气位置都可能不同；相同压力不必产生相同生长前表面暴露史。建议先独立标定厚度与时间，记录通气前后的残气谱，并把预暴露、沉积和冷却分成三个阶段。若无法测到分子氧而只能记录总压，就应写残氧未知，不能通过总压减去氩气设定值精确推算微量氧。对于水蒸气，作者没有完成分离实验；把水和氧都当同一个氧供给数会掩盖吸附和氢参与的差别。"
+        },
+        {
+          "title": "线形分析与器件结果的边界",
+          "text": "单线Voigt分解把高斯与洛伦兹部分映射到应变和相干长度，但参数存在协方差；拟合残差很小并不保证尺寸和应变各自唯一。复核时应先检查空白基底和标准粉末是否同一狭缝、光路与扫描步长，再对允许的同族高阶反射做一致性检验。作者以相同极族系数比的离散度估计约四分之一相对误差，是比只报峰面积拟合误差更保守的做法。若不同反射给出的趋势相互矛盾，应先检查吸收和背景，而不是立即解释为不同氧溶解能。即便某条件得到更强目标取向，也必须在独立器件上测微波损耗、界面氧化与寿命；本文没有给这些结果，优化晶相只是通往器件结论的前置步骤。"
+        },
+        {
+          "title": "结果保存的最低要求",
+          "text": "建议每片样品保留未经归一化的原始计数谱、仪器标准、背景函数、双线拟合参数及协方差，并将样品编号与生长日志逐一连接。只导出三元颜色图会丢失弱峰检测限和误差，后续无法判断颜色改变究竟来自主峰增强还是另一分量减小。也应保留未检出这一状态，与人为填零的精确数值区分。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜薄膜生长和XRD分析优先",
+        "first": "先读实验A/B和表I，再读图6、第三节E及讨论B。",
+        "focus": "核对氧分压与通量比、α(111)由(222)允许峰识别、两个温度点拟合的表观能垒；图6上下氧轴存在顺序疑点。",
+        "next": "先做固定温度、同批基底、残氧与微量加氧对照，保存RGA全谱；背景综述可略读，吸收/织构归一化不能略过。"
+      },
+      "tags": [
+        "正文精读",
+        "当日arXiv公告",
+        "Ta",
+        "痕量氧",
+        "磁控溅射",
+        "XRD织构"
+      ],
+      "rating": "A",
+      "selectionStatus": "today-announcement"
+    },
+    {
+      "category": "晶体生长和物性调控",
+      "material": "Mn₃Ge：先长四方相，再退火转为六方kagome薄膜",
+      "title": "Optimised growth of epitaxial D019 Mn3Ge(0001) thin films via single target sputtering",
+      "authors": "Ozdemir, Servet; Ho, Ping-Luen; Brennan-Rich, Callum; Rogers, Matthew; Shepley, Philippa; Yagmur, Ahmet; Gelen, Ismet; Song, Sehwan; Aslam, Zabeada; Ali, Mannan; Conroy, Shelly; Heutz, Sandrine; Burnell, Gavin; Hickey, B J",
+      "institutions": "英国利兹大学物理与天文学院、化学与过程工程学院；帝国理工材料系",
+      "journal": "arXiv · v1公开实验稿，未确认正式发表",
+      "date": "2026-10-27官方首次公告；v1提交2026-10-26T02:38:09Z",
+      "doi": "https://arxiv.org/abs/2610.34736",
+      "fullText": "https://arxiv.org/pdf/2610.34736v1",
+      "method": "Mn₅Ge单靶溅射；Ru种子；500 ℃相变退火；XRD/XRR/4D-STEM/SQUID",
+      "access": "全文精读：主文1–6页Methods和Results、图1–5；附录9–19页SI图S1–S13、表S1/S2，表格另经渲染核对。",
+      "versionNote": "本期按27日官方公告归档，实际提交时间另列；已与官方API核对v1。没有复现实验或运行作者计算，不能把建议当作已完成结果。",
+      "abstract": "Materials with chemical identity Mn3X, where X is Sn, Ga, or Ge, are Heusler alloys with intriguing properties that are fundamentally and technologically interesting. They have topological properties with a non-trivial band structure that identify them as Weyl semimetals in the bulk. Their magnetic properties, which give rise to the topological band structure through spin-orbit coupling, are determined by their Kagome lattice structure, making them chiral non-collinear antiferromagnets. Among these materials, Mn3Ge is particularly interesting because it has a larger Berry curvature, leading to a large anomalous Hall conductivity and motivating potential spintronic applications. The desirable properties are only obtained when Mn3Ge has the D019 crystal structure, so producing an easily reproducible growth recipe is the main objective of this paper. Here we show that ultra-high-quality thin films of Mn3Ge with D019 symmetry can be grown from a Mn5Ge target on an Al2O3(0001) substrate with a Ru(0001) seed layer. The expected non-collinear antiferromagnetic order was confirmed by the finding of weak zero-field magnetisation (0.0086 +/- 0.0002) mu_B/Mn that does not saturate at high magnetic fields and has a Neel temperature of (291 +/- 2) K.",
+      "conclusion": "Mn₅Ge靶不等于薄膜一定是Mn₅Ge：通过Ru种子和退火，实际膜成分约Mn:Ge=3.4:1，从四方D0₂₂转成六方D0₁₉，表面更平、磁性接近非共线反铁磁特征。但本文没有直接完成大反常Hall或Weyl节点测量。",
+      "sections": [
+        {
+          "title": "研究问题：单靶工艺的关键不是一步直接长目标相",
+          "text": "六方D0₁₉-Mn₃Ge的kagome晶格和非共线反铁磁性引出很大的拓扑输运兴趣，但同一化学式可形成性质不同的四方D0₂₂相。过去共溅射可调通量，而单一合金靶更方便，却常得到混相或混取向。本文的设计是利用Ru(0001)种子，在250 ℃先制备四方(112)织构薄膜，再500 ℃退火一小时转为六方(0001)薄膜。对照因此是同一工艺路径上的退火前后，而非任意两片不同设备样品。这里的进步是一个可操作的结构转换窗口；背景所述大Berry曲率、反常Hall与Weyl性质来自既有研究，不能全部算成本篇新增实测。"
+        },
+        {
+          "title": "样品与完整可得工艺参数",
+          "text": "样品堆叠为c面蓝宝石/Ru/Mn₃Ge/AlOₓ，典型Ru约7 nm、盖层约5 nm，磁性和部分显微图对应约40 nm Mn₃Ge；XRR拟合的另一组薄膜厚约32 nm，不能将这些厚度当成同一片。系统基压约10⁻¹⁰ mbar，Ar工作压4.6×10⁻³ mbar。先在450 ℃、25 W下溅射Ru，速率约0.25 Å/s；冷却至250 ℃后用Mn₅Ge靶、20 W制Mn₃Ge，速率约0.30 Å/s，再500 ℃一小时退火，最后RF溅射氧化铝盖层。靶材纯度、靶基距离、实际温度校准误差及样品逐片升降温速率，已读Methods未报告，不用常规经验填空。前人所需Mn:Ge通量约5:1，是本篇选靶动机；实际薄膜成分仍需EDS实测，不能按靶成分直接赋值。"
+        },
+        {
+          "title": "结构和成分证据：重叠峰之外再看外延关系",
+          "text": "退火前后主衍射峰只移动约0.1°，所以仅看单峰不能可靠区分两相。作者综合RHEED、对称XRD、方位角扫描及原子分辨STEM；SI明确四方I4/mmm与六方P6₃/mmc相的归属，退火后面内参数约5.36 Å、c约4.30 Å。SI图S2显示Ru(0002)和Mn₃Ge(0002)峰相近，需分别拟合；Scherrer相干长度40.4±0.2 nm接近膜厚，但这不是无缺陷单晶的充分条件。4D-STEM聚类反映衍射图样相似区域，并非自动等于独立晶粒。截面EDS给Mn:Ge=3.4±0.2，并见部分元素扩散到Ru/基底附近；氧在膜内未检出只限于EDS灵敏度，不能称零氧。盖层使表面避免明显氧化，为磁性解释减少一个干扰源。"
+        },
+        {
+          "title": "粗糙度与磁性：数值必须绑定样品和背景扣除",
+          "text": "XRR这组薄膜从32.1±0.5 nm变为31.5±0.2 nm，而Mn₃Ge界面RMS粗糙度从1.41±0.07 nm降至0.92±0.05 nm，支持退火平整化。主文、SI图S11和表S1/S2相互一致，但表中Ru层拟合密度约2.32 g/cm³明显需要核对模型定义和约束，不能据拟合表直接宣称Ru体密度测准。磁性采用MPMS3，温区约1.6–400 K、最高7 T；六方膜在7 mT下的温度曲线给Néel温度291±2 K，10 K回线在扣除蓝宝石抗磁背景后没有高场饱和，零场净磁矩约0.0086±0.0002 μB/Mn。四方膜的面内矫顽场约0.75 T，显示不同磁响应。弱磁矩和不饱和趋势与非共线反铁磁相容，但没有在本篇直接做中子自旋结构精修。"
+        },
+        {
+          "title": "局限、替代解释和复现方案",
+          "text": "最强链条是退火诱导相变同时被衍射、局部显微和磁性追踪，最弱处是跨样品统计、精确相含量和输运功能尚未闭环。小量铁磁污染、基底背景误差或Mn非化学计量都可改变很弱的净磁矩，因此不能只凭一条M(H)判定“超高质量”。复现时先同时保留未退火、标准退火、空白Ru/蓝宝石三组，保存原始磁矩而不只保存扣背景后的曲线；用同一面积和膜厚误差传播计算每Mn磁矩。再用极图、摇摆曲线和截面EDS确认取向及成分，达标后做Hall和角度依赖输运。若退火只改变磁矩却没有结构相变，或背景选择就能改变不饱和结论，应先停下器件解释。该工艺在室温附近有磁序，但291 K不能直接等同于所有室温环境稳定运行，更不应把本篇尚未测量的高温器件寿命写成结果。"
+        },
+        {
+          "title": "为什么一个衍射峰不能结束验相",
+          "text": "这里两相的强峰又恰好靠近钌种子峰，若把整个峰包络拟合成一个峰，退火造成的相对强度和应力变化就可能伪装成连续晶格收缩。作者增加面内方位角与局部电子衍射，是为了让相变解释不完全依赖这一峰位。复现需要同时问：是否出现六方取向的允许反射、面内对称性是否一致、截面局部结构能否对应、不同区域是否有残余四方组分。只有这些约束一致时，再讨论退火诱导的磁性改变才可靠。薄膜峰窄也可能因少量强织构晶粒主导散射，不能推出整片所有区域都同样外延。对氧化铝盖层保护效果，能谱未见明显氧进入只能给灵敏度内约束，还应避免用它为无限期空气稳定性背书。"
+        },
+        {
+          "title": "弱磁矩实验的误差预算",
+          "text": "每个锰原子的净磁矩很小，必须区分仪器能测到磁矩与归一化后结论可靠这两件事。空白基底、钌层、胶和样品杆都有背景，厚度及面积误差也会影响归一化；若只保存扣除后的图，之后难以重做背景选择。建议在同次测量中用相同几何测空白堆叠，并把高场线性项、低场剩磁和场冷交换偏置分别拟合，避免一个函数吸收全部信号。作者报告约八毫特斯拉交换偏置，可作为另一个观察量，但没有因此排除所有界面或不均匀磁性来源。真正把非共线磁序与输运连接起来，还需要相同样品上的角度响应或更直接磁结构探测，而不是从微小剩磁一步跳到拓扑节点。"
+        },
+        {
+          "title": "下一炉的停止条件",
+          "text": "如果增加退火只造成锰损失、表面岛化或元素穿过种子层扩散，应暂停延长保温，重新确认成分和热预算。如果所谓改善只在一个局部显微区域出现而宏观衍射仍有多相，也不宜将局部最好区域代表整片器件。先把相纯度与面积均匀性验证清楚，再增加功能性测量，比只寻找更小粗糙度更有效。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜磁性薄膜制备与杂相诊断",
+        "first": "先读Methods、图1/2和SI图S2/S3，再读图5与SI图S12。",
+        "focus": "区分靶材、实际成分和相结构；Ru/Mn₃Ge相近衍射峰需解卷积，弱净磁矩不是单独决定自旋结构的证据。",
+        "next": "复制Ru种子与两阶段温程，留一片不退火作对照，先验相再制Hall器件；引言的器件应用展望可略读。"
+      },
+      "tags": [
+        "正文精读",
+        "当日arXiv公告",
+        "Mn₃Ge",
+        "Ru种子",
+        "相变退火",
+        "磁性薄膜"
+      ],
+      "rating": "A",
+      "selectionStatus": "today-announcement"
+    },
+    {
+      "category": "晶体生长和物性调控",
+      "material": "α-MnTe：相同体晶格，不同基底让表面完全不同",
+      "title": "Control of the Electronic and Atomic Structure of the Altermagnetic α-MnTe Surface via Substrate-Induced Surfactants",
+      "authors": "Heinrich, Martin; Hajlaoui, Mahdi; Takashiro, Takuya; Zakusylo, Tetiana; Babor, Petr; Caha, Ondrej; Wutke, Dawid; Olszowska, Natalia; Springholz, Gunther; Muntwiler, Matthias",
+      "institutions": "瑞士巴塞尔大学/PSI；奥地利林茨大学；东北大学；布尔诺理工/马萨里克大学；波兰SOLARIS",
+      "journal": "arXiv · v1公开实验稿，未确认正式发表",
+      "date": "2026-10-27官方首次公告；v1提交2026-10-26T11:21:43Z",
+      "doi": "https://arxiv.org/abs/2610.35236",
+      "fullText": "https://arxiv.org/pdf/2610.35236v1",
+      "method": "MBE基底对照；InTe表面干预；STM/LEED/XPS/SIMS/ARPES",
+      "access": "全文精读：主文1–16页生长、原子结构、表面态、Methods，图1–6与表1；实际查看ARPES图4。独立SI未取得，涉及SI的原始拟合未复核。",
+      "versionNote": "本期按27日官方公告归档，实际提交时间另列；已与官方API核对v1。没有复现实验或运行作者计算，不能把建议当作已完成结果。",
+      "abstract": "Altermagnets are a novel class of materials with unique momentum dependent spin-polarization of the electronic band structure, which opens up new avenues for spintronic devices. Altermagnetic {\\alpha}-MnTe is particularly interesting for such applications due to its giant spin splitting and the persistence of altermagnetic order up to room temperature. Growth of thin films is, however, challenging and governed by interactions with the substrate. As a result, the surface of {\\alpha}-MnTe thin films exhibits very different atomic structures in dependence of the substrate material. Whereas on SrF2(111) an atomically clean, perfectly (2x2) reconstructed surface forms, on InP(111)A the MnTe surface is always InTe terminated due to super-segregation of In from the substrate to the surface. Most strikingly, the InTe surfactant layer displays a quasi-periodic dislocation network to accommodate the InTe/MnTe lattice mismatch. This leads to the emergence of distinct surface states in dependence of surface termination that strongly affect the electronic band structure at the surface as shown by angle resolved photoemission and tunneling spectroscopy. Thus, control and characterization of the atomic structure of the surface is fundamentally important for understanding the properties of altermagnets and provides room for engineering and tailoring of spin-polarized states in actual devices.",
+      "conclusion": "InP中的In可一路偏析到MnTe最上层，形成InTe终止层和位错网；SrF₂上则是干净的2×2重构。两者XRD体结构相似，但ARPES和STS看到的表面态不同，不能把所有光电子能带差异都归因于体交变磁性。",
+      "sections": [
+        {
+          "title": "问题与设计：为什么体结构正确仍可能测错表面",
+          "text": "α-MnTe是NiAs型P6₃/mmc反铁磁材料，交变磁自旋劈裂讨论依赖晶体和磁对称性；但表面本来就截断非对称操作。本文没有只比较两套基底上的ARPES，而是把生长、表面原子排列、化学成分和局域谱关联起来：一组在SrF₂(111)，一组在InP(111)A，另在SrF₂上的干净MnTe表面人为加InTe作为干预对照。三组都可能有平整台阶和相似体XRD，却有完全不同的终止层。核心问题因此不是“是否长出MnTe”而是“探测器实际看到哪一层，以及那一层是否携带独立电子态”。"
+        },
+        {
+          "title": "生长与转移：有些基底条件不能互换",
+          "text": "Varian GEN II系统以元素Mn和Te束生长。InP(111)A先在超高真空约500 ℃脱氧至出现条纹RHEED，SrF₂表面无需同样脱氧；共同生长条件约360 ℃、Te/Mn束流比3:1、速率约1 Å/s，典型研究厚度200–400 nm，结束后迅速冷至室温以避免非预期退火。InP上立即二维润湿，而SrF₂上初始为岛生长，约100–200 nm后恢复平整表面。为了绝缘SrF₂上的STM/光电子接地，作者采用双次生长：先MnTe缓冲并Te封盖，取出接Ta条，再回系统脱盖、续长200–500 nm。真空箱转移保持低于10⁻¹⁰ mbar，不能把空气暴露样品与这种超高真空路径直接比较。元素纯度、逐片束流绝对标定误差和全部样品尺寸，正文未报告。"
+        },
+        {
+          "title": "直接观察：重构、表面元素和人工覆盖对照",
+          "text": "SrF₂上RHEED/LEED出现半级斑点，STM给约8.3 Å表面周期，对应2×2重构，台阶约3.5 Å；InP上的1×1表面则有间距约10–14 nm的三角位错网。最关键的是在干净MnTe/SrF₂上加一单层InTe后，出现相似位错网络和1×1结构，支持终止层而不只是基底应变的作用。XPS在MnTe/InP上检出In，并且掠出射更富集：表1中In比例从20°的20.7%到60°的25.6%，这是有限探测深度的谱学比例，不是整个200 nm膜的整体掺杂浓度。角度XPS模型和SIMS共同支持表面富集，深部In迅速降到约1%以下；对SrF₂膜没有相同Sr/F体扩散特征。"
+        },
+        {
+          "title": "电子结构与模型：表面态会遮住体能带",
+          "text": "ARPES用约21–100 eV光子、低于30 K测量，分辨率估计7.5 meV和0.1°；正文相关段称30 K、图4图注称20 K，具体图需以原始测量元数据再核对，不能统一臆定成某个温度。InTe终止层产生几乎不随垂直动量色散的表面带，骆驼背形谱权重甚至遮住部分体带；干净2×2表面也有自身重构态，不能将“无In”理解成“没有表面态”。4.4 K的STS在位错间看到约1.2 eV能隙，在位错附近约1.6 eV，局部变化主要在价带一侧。作者以弹性模型拟合约60±4 pm凹陷，估计位错深度6.8 Å、边缘Burgers分量1.9±0.2 Å；模型忽略弹性各向异性和核区非线性，只是深度与形貌的约束，不是逐原子直接成像。"
+        },
+        {
+          "title": "证据强弱、复现风险与下一步测量",
+          "text": "最强证据是表面化学、衍射和人工覆盖的相互验证：不能用体XRD相同否定表面改变。最弱环节包括InTe具体原子堆垛模型的唯一性、深层成分标定以及表面态如何定量改变自旋输运；主文给出的能带DFT是体模型，对表面谱并非完整终止层第一性原理拟合。本站未取得独立SI，因而角度XPS原始拟合、全部SIMS校准仍列补读。复现建议固定一个MnTe批次，在保持真空的前提下逐步加InTe，分别保存LEED、角分辨XPS与同区域STS；空白基底和未覆盖表面同时保留。若表面元素变化可解释主要谱线位移，就不应直接宣布新的体交换劈裂。试图用600 ℃以上退火去除InTe可能损伤表面，作者已经报告此风险；更稳妥的是先选无In基底，而不是把高温清理当无损通用方案。"
+        },
+        {
+          "title": "如何避免把表面能带误判为体磁性变化",
+          "text": "本篇指出某些表面态对光子能变化弱，但体带会随垂直动量改变。复现可先做多光子能量切片，而不是只选一个能量、一个截面展示看似分裂的曲线；还要记录不同终止层的化学势偏移，避免把整谱刚性位移叫成交换劈裂增强。低温表面谱中的弱态可以与体态叠加，导数处理又会强化细窄结构，因此原始强度图、导数图和能量分布曲线应同时保存。表面对称性和探测深度改变后，测得自旋极化也可能变，不必代表体反铁磁序本身被重构。尤其当某条带在人工加铟后才出现，优先检验终止层来源，比直接给它贴新拓扑标签更符合证据顺序。"
+        },
+        {
+          "title": "同位点测量和成分模型的约束",
+          "text": "位错附近能隙变化与表面凹陷同位相关，是比两片样品平均能隙不同更强的局域证据，但仍不能唯一分离应变、局部成分与隧穿矩阵元。建议保留相同线扫位置的形貌、完整电导谱和针尖状态，并在位错交点、位错线与远离线的区域分别统计，避免只展示最明显一条线。角分辨光电子成分模型假设层内原子密度和电子衰减长度，实际重构层可能偏离；在有限深度上拟合较好，不表示更深处的铟分布已唯一确定。作者因此用二次离子深度分析补充，但这种方法自身有溅射混合、离子产额差异与表面污染的误差，定量外推需要标准。"
+        },
+        {
+          "title": "材料选择的实用边界",
+          "text": "无铟基底给更干净终止面，却不意味着所有用途都应排斥表面活性层。若目标是研究可控表面态，人工覆盖反而是有价值的旋钮；若目标是测体交变磁劈裂，就应优先减少覆盖态遮挡。两种目标应在实验计划中分开写，不能同一次样品优化既以表面态最强为好，又以纯体谱最清晰为好。本文没有测完整器件性能，也未证明位错网络形成的能隙调制已经带来可用量子器件。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜外延、生长污染和表面谱学研究者",
+        "first": "先读图1–3与Methods生长，再读图4–6和表1。",
+        "focus": "人为加一层InTe的干预对照比单纯换基底更有说服力；注意STS偏压加在针尖，正负号与常用样品偏压相反。",
+        "next": "同一SrF₂/MnTe样品做加InTe前后XPS和LEED再测谱；一般交变磁综述可略读，表面元素与真空转移不能略读。"
+      },
+      "tags": [
+        "正文精读",
+        "当日arXiv公告",
+        "MnTe",
+        "表面终止",
+        "MBE",
+        "In偏析"
+      ],
+      "rating": "A",
+      "selectionStatus": "today-announcement"
+    },
+    {
+      "category": "晶体生长和物性调控",
+      "material": "TiO₂：电流控制缺陷稳态，不能把电阻直接当缺陷计数器",
+      "title": "Harnessing Electrostructural Bistability to Control Defects in Polarizable Materials",
+      "authors": "Sterling, Tyler C.; Glier, Tomke E.; Abbe, David; Nandkishore, Rahul; Reznik, Dmitry",
+      "institutions": "美国科罗拉多大学博尔德分校；德国汉堡大学；Sterling Independent Study and Research",
+      "journal": "arXiv · v1公开实验稿，未确认正式发表",
+      "date": "2026-10-27官方首次公告；v1提交2026-10-24T14:24:32Z",
+      "doi": "https://arxiv.org/abs/2610.33698",
+      "fullText": "https://arxiv.org/pdf/2610.33698v1",
+      "method": "受限流电致结构双稳；Raman详细平衡测温；四探针与淬火",
+      "access": "全文精读：公开PDF4–7、9–10、12–14页模型、TiO₂结果、结论和Appendix A；图1/3/4/A5。Si对照部分未逐段穷尽，独立SM未取得。",
+      "versionNote": "本期按27日官方公告归档，实际提交时间另列；已与官方API核对v1。没有复现实验或运行作者计算，不能把建议当作已完成结果。",
+      "abstract": "Structural defects are central to the functionalities of materials. However, conventional approaches to defect control are often slow and imprecise. This work identifies and characterizes a distinct physical phenomenon of electrostructural bistability that provides a rapid and precise pathway for engineering materials with defect-controlled physical properties. A generalized theory of conductivity bistability is developed and experimentally validated to unify two distinct regimes: previously reported electrothermal bistability in weakly polarizable insulators, such as silicon, and electrostructural bistability in strongly polarizable materials, such as TiO$_2$. In agreement with the theory, experiments on TiO$_2$ demonstrate that bulk-homogeneous defect concentrations in electrostructurally bistable materials can be tuned rapidly and deterministically by controlling applied electric current. Abruptly interrupting the current quenches the system into long-lived, room-temperature metastable states with distinct properties. This establishes a practical, rapid, and scalable pathway for defect engineering with direct relevance to nonvolatile memory devices.",
+      "conclusion": "作者用限流阻止热失控熔毁，把TiO₂推入可逆低阻稳态并淬火保留；独立测温说明不仅是热激发。不过缺陷浓度来自迁移率等假设下的电阻反演，还不是直接数出多少氧空位。",
+      "sections": [
+        {
+          "title": "问题与设计：从热失控走向可保存的材料状态",
+          "text": "许多氧化物加电后电阻陡降，可能只是焦耳加热，也可能同时生成提供载流子的结构缺陷。作者把弱极化Si的电热双稳与强极化TiO₂的电结构双稳放在统一能量平衡中比较，关键实验干预是在电流达到预设限值时从恒压转恒流，阻止进一步失控和熔毁，并使原本不稳定的负微分电阻支路能够连续追踪。随后改变电流、测温和电阻，再断电迅速冷却，比较是否留下低阻和不透明状态。因此这不是一个只看开关比的微型存储器演示，而是讨论体块缺陷生成和保存的过程；更不能把它误写为完全无热效应的低温电场处理。"
+        },
+        {
+          "title": "样品与操作窗口：有可复现参数也有明显缺口",
+          "text": "主研究对象为金红石TiO₂，作者在约600 ℃浴温附近触发过程，典型起始电压约500 V，稳定后样品自身温度约600–1000 ℃，电流密度可到若干A/cm²；例如约5 A/cm²时样品温度约750 ℃。这是高温、高电压和正反馈耦合的实验，不适合未经审查直接在普通输运样品台复刻。已读Appendix没有完整列出晶体供应商、纯度、实际全部尺寸、取向、接触金属与附着工艺、所有升流速率；这些应向作者补询，不能从示意的一厘米样品推定真实样品长度。淬火通过关电后迅速移出炉体完成，更精确的强制冷却是作者讨论方案，并非本篇所有样品都采用的事实。透明度可经后续退火恢复，支持处理在一定窗口可逆，但没有因此证明无限次耐久。"
+        },
+        {
+          "title": "测量质量：把样品测温从炉温中分离",
+          "text": "作者用532 nm激光测Si约520 cm⁻¹声子Stokes/anti-Stokes强度比，依据详细平衡求声子温度；室温标定因子g=0.9用于补偿光谱响应。对TiO₂，不直接用其复杂Raman谱，而是在表面以绝缘耐高温胶固定约1×1 mm的Si薄片测温。带Si片时TiO₂的两端测温/电流实验与随后独立的四探针电阻实验通过电流密度关联，故温度和电阻不是同一瞬时同一几何的无误差直接对照，热接触与接触电阻应纳入复现评估。其关键结果是在相同实际温度下，加电稳态的电阻显著低于仅炉热的原始晶体，同时发生白光发射和淬火后不透明；白光和变色是辅助证据，不足以唯一确定缺陷种类或浓度。"
+        },
+        {
+          "title": "模型与可证伪性：缺陷数是如何反演出来的",
+          "text": "理论令热耗散与焦耳热平衡，用有效形成能E(V)=E₀−ζV描述场对缺陷的促进；TiO₂估计E₀约513 meV，ζ约6.5×10⁻⁴ e，并把电阻尺度取约0.16 Ω·cm。作者采用每晶胞一个可用缺陷位、每缺陷一个载流子等简化，使满占位对应1.6×10²² cm⁻³，然后以n∝1/ρ反演缺陷浓度。这些数字是模型尺度，不是直接测量的绝对空位计数。电离度和迁移率随温度、局域化及缺陷聚集变化都可改写反演；作者也承认不能排除纳米团簇。五倍光学显微镜未见宏观丝状通道，不能推出纳米尺度完全均匀。正反馈热模型拟合与浓度“符合模型”并非两个完全独立的证据源，评估时必须避免循环论证。"
+        },
+        {
+          "title": "结论、风险和面向实验的下一步",
+          "text": "最值得借鉴的是恒温对照、独立测温及受控电流历史：相同电流可回到类似稳态，随后淬火将状态保存，说明热处理之外多了一个可调旋钮。最弱的环节是具体缺陷身份、绝对浓度与空间均匀性未被本轮主文直接定量封闭。下一步应先在安全范围建立电流—真实温度—电阻基线，记录电极几何和热接触；再对淬火前后做EPR、XPS或氧含量/漫散射中至少一种独立缺陷探测，并测Hall或其他迁移率约束，以检验电阻下降究竟有多少来自载流子数增加。若不同接触或热边界就显著改变状态，先暂停“普适唯一n(j)”的推广；若出现裂纹、局域热点或不可恢复损伤应立即停止升流。正文没有给出的完整制样细节仍待补读，不把建议性浓度标定当已经实现的可追溯标准。"
+        },
+        {
+          "title": "把电场、温度与接触效应拆开的对照矩阵",
+          "text": "最小可行对照不只是有电和无电两组，而应有相同真实温度的炉热组、相同热历史但不同电流的处理组，以及处理后在小探测电流下读出的组。热电偶贴在炉壁只能给环境温度，无法替代样品在电流下的测温；反过来，粘贴硅测温片也可能改变局部散热，因此应检查不同位置或不同胶量是否改变响应。若处理前后用不同接触重新测电阻，接触几何变化又可能混入材料变化。四端电阻、实际尺寸和端点位置必须可追溯；实验若只能稳定做两端测量，应明确接触贡献没有排除，而不是直接反演绝对缺陷密度。"
+        },
+        {
+          "title": "为什么保存后的状态还需要做时间维度检验",
+          "text": "淬火后室温低阻和不透明是状态被保存的实验证据，但它们没有单独规定长期寿命、缺陷迁移路径或微观均匀性。建议在相同小探测偏置下追踪电阻随时间和再退火的变化，同时检查样品外观、裂纹及空间发光分布，分离真正缺陷恢复与接触老化。如果不同位置恢复速率差异很大，体均匀的近似就需要修正；若保持低阻依赖持续偏置，也不能叫无源稳定存储。本篇模型将耗散简化为辐射温度四次项，真实炉体中的导热和对流会改写稳态，因此其拟合常数不能跨设备不经标定照搬。模型提供因果假设和实验组织方式，而不是一张通用缺陷浓度计量证书。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜氧化物缺陷调控，具备高温高压电安全条件者",
+        "first": "先读图4与Appendix A.1，再回图1和式2/3。",
+        "focus": "样品真实温度不等于炉温；n(j)依赖单一缺陷、固定电离和迁移率近似。",
+        "next": "先测安全的小电流热基线与独立测温，设计自动限流/断电联锁；文献展望可略读，温度校准和模型假设必须保留。"
+      },
+      "tags": [
+        "正文精读",
+        "当日arXiv公告",
+        "TiO₂",
+        "缺陷工程",
+        "电流淬火",
+        "模型反演"
+      ],
+      "rating": "A",
+      "selectionStatus": "today-announcement"
+    },
+    {
+      "category": "磁性、拓扑与自旋",
+      "material": "Ni–Mn–Sn粉末：转变越尖，并不意味着热滞后越小",
+      "title": "First-order magnetostructural transition in Ni-Mn-Sn powder - A matter of particle and grain size",
+      "authors": "Puy, Johannes; Koch, David; Bruder, Enrico; Ghorai, Sagar; Beckmann, Benedikt; Gutte, Heiner; Baran, Volodymyr; Gutfleisch, Oliver; Scheibel, Franziska",
+      "institutions": "德国达姆施塔特工业大学；弗赖贝格工业大学；DESY",
+      "journal": "arXiv · v1公开实验稿，未确认正式发表",
+      "date": "2026-10-27官方首次公告；v1提交2026-10-24T09:14:45Z",
+      "doi": "https://arxiv.org/abs/2610.33556",
+      "fullText": "https://arxiv.org/pdf/2610.33556v1",
+      "method": "真空惰性气体雾化；筛分/均匀化；EBSD、同步辐射XRD、单颗粒VSM/DSC",
+      "access": "全文精读：主文1–14页制备、结果、讨论；SI19–24页表S1与图S1–S7；主图5/6和单颗粒对照；未逐条阅读参考文献。",
+      "versionNote": "本期按27日官方公告归档，实际提交时间另列；已与官方API核对v1。没有复现实验或运行作者计算，不能把建议当作已完成结果。",
+      "abstract": "In Ni-Mn-based Heusler alloys, the magnetocaloric effect originates from a first-order magnetostructural transition (FOMST). However, the influence of particle and grain size on thermal hysteresis, transition width, and nucleation and growth mechanism remains poorly understood, as mechanical grinding can introduce residual stresses and processing-induced defects. In this study, we examined the size dependence of the FOMST in gas-atomized Ni-Mn-Sn powder by combining microstructural characterization with temperature-dependent XRD, magnetometry, calorimetry and single-particle measurements, enabling decoupling of size dependence from processing-related influences. We observed a pronounced size dependence of the transition ranges (Ms-Mf) and (Af-As), which decrease with decreasing particle size and approach zero for single-crystalline particles below ~20-30 micrometer. The thermal hysteresis decreases with increasing particle size, reaching a lower limit of 17 K for large polycrystalline particles above 100 micrometer. EBSD reveals a nearly constant grain size, implying a transition from polycrystalline to single-crystalline particles as particle size decreases. In polycrystalline particles, multiple grains transform gradually over an extended temperature interval because grain boundaries act as barriers to the progression of transformation. In contrast, single-grain particles lack preferred nucleation sites, resulting in larger hysteresis, while the absence of barriers to transformation propagation causes the entire particle to transform in a narrow range. These results demonstrate that the size dependence of the FOMST is governed by the interplay between particle size, grain boundaries, and the free particle surface.",
+      "conclusion": "把粉末直径和内部晶粒数分开后，小单颗粒可在约0.1 K内突变，却有更大的成核滞后；大多晶颗粒则转变较宽但滞后更小。平均粉末曲线会把这种差别掩盖，不能只按尖峰筛选最好磁热样品。",
+      "sections": [
+        {
+          "title": "问题与对照：怎样把粒径效应从磨粉损伤中分出来",
+          "text": "Ni–Mn–Sn的磁热响应依赖一阶磁结构转变，粒度、晶界、成分和残余应力都可能改变转变温度及滞后。磨碎后颗粒更小，但同时引入位错、反相界和应力，所以简单磨粉系列并不能唯一说明尺寸效应。作者采用气雾化近球形粉末再筛分，尽量去掉机械粉碎这个混杂因素，并把整体粉末测量与二十八颗13–127 μm单颗粒的磁性测量相连。设计的要点是把颗粒直径和内部晶粒数分开，检验晶界既帮助成核、又阻碍界面传播这一可能导致相反趋势的机制。"
+        },
+        {
+          "title": "制备、成分与尺寸：不能把所有小颗粒都叫单晶",
+          "text": "名义Ni₅₀Mn₃₆Sn₁₄由Ni₅₀Mn₅₀预合金与Ni、Sn颗粒配成，三者所用原料纯度分别按Methods为99.9%、99.99%、99.9%；文中给0.98 kg Ni、4.30 kg预合金及1.72 kg Sn，合金化三小时后VIGA雾化。筛成150–75、75–63、63–50、50–20和小于20 μm五组，每组筛两遍，包钢箔、封石英管，在Ar下1173 K均匀化六小时后水淬。具体雾化压力、喷嘴参数与熔体过热度转引既有文献，当前主文未完整报告，不补写数值。ICP-OES各组接近Ni₄₉.₆Mn₃₆.₉Sn₁₃.₅且在误差内一致；大于20 μm各组平均晶粒约13.4–19.0 μm，小于20 μm组SI平均约8.1 μm。因此“粒度小于二十微米”并不保证每一颗只有一个晶粒，SI单颗粒衍射甚至显示近二十微米例子包含低角度亚晶。"
+        },
+        {
+          "title": "结构与测量条件：相分数、热流和磁曲线交叉约束",
+          "text": "同步辐射波长0.207 Å，温区300–150 K，在转变区约每3 K采点、区外每15 K采点，JANA2006用超空间方法精修。高温为L2₁奥氏体，约5.99 Å立方晶格；低温为4O马氏体，参数约4.36、5.64、4.30 Å，残余奥氏体少且没有单调粒径趋势。VSM温度循环在1 T、2 K/min下测150–350 K；DSC为5 K/min，不能把两个速率得到的转变宽度当严格相同。单颗粒用少量VGE-7031固定在Kapton上再装石英半杆，整体粉末约25 mg另装胶囊；这样的样品质量、背景和热接触差别也需保留。热滞后按磁化温导峰间距定义，而起止温用切线法，这些操作定义会影响跨论文比较。"
+        },
+        {
+          "title": "直接数据：尖锐程度和不可逆损耗走向相反",
+          "text": "127 μm单颗粒的正、逆转变宽度约20.3 K和17.8 K，热滞后约17 K；19 μm颗粒的转变宽度均约0.1 K，却有约27 K滞后。相应小粒径粉末仍有约9–11 K宽度，主要是许多突变温度略不同的颗粒叠加，而不是单颗粒本征连续宽化。大于一百微米的颗粒趋向多晶，晶界提供可能成核位置同时阻挡相界推进，所以更易启动、却更慢完成；这是作者基于EBSD与原位显微的解释，不是直接测出的每个成核能垒。场诱导时小颗粒临界场在重复循环中显著波动，SI重装对照给2.75–4.25 T范围；热诱导转变则更可重现。没有单向随循环演化，作者不将其归为简单训练效应。"
+        },
+        {
+          "title": "局限与下一次测量：先查单颗粒，再优化平均曲线",
+          "text": "最强证据是跨粒径的成分一致、EBSD晶粒分布以及单颗粒与粉末曲线的直接比较；最弱处是每个单颗粒的晶界、表面缺陷与实际成核事件尚未一一同位关联。气雾化也并非无孔隙无应力：较大颗粒中可见孔，衍射展宽仍有随温度相区改变的应力贡献。转变熵在各组约25–28 J/(kg·K)量级，组间差别不足以证明稳定粒度趋势，不要从更尖的DSC峰推断更大总熵变。复现建议保留同一颗粒的光学直径、EBSD截面或低损伤取向判定、热循环和场循环完整记录，固定初始全马氏体或全奥氏体状态，再统计临界场分布，而不只选一条最好曲线。若成分漂移或固定胶造成的应力足以解释变化，应先停止尺寸归因；若目标是低滞后制冷，也不能仅选转变最尖的小颗粒。"
+        },
+        {
+          "title": "用同一相变把三个容易混淆的宽度分开",
+          "text": "热循环两方向峰间距是热滞后，单一升温或降温过程中开始到完成的间隔是转变宽度，粉末中各颗粒转变温度的分布又是另一层展宽。它们会同时出现在一条平均曲线上，却对应不同过程：成核困难可以放大过冷或过热，而少晶界可能使一旦成核就迅速完成；许多这样的突变叠加又会让粉末看上去缓慢转变。本文十九微米颗粒与整体小粒径粉末的对照正说明这一点。所以选择磁热循环材料时不能用峰高一个指标代表可逆温变、循环损耗和传热效率，更不能把小颗粒测得更尖当作质量必然更高。"
+        },
+        {
+          "title": "怎样安排重复实验以检验随机成核",
+          "text": "单颗粒场扫描出现临界场波动时，应先固定每次初态，明确是否先退回完整马氏体，再升到目标温度，且保持场扫速和等待时间一致。作者用相同颗粒重装、旋转后再返回原方向检验，发现波动不只是固定取向差异；但少量重复也不能给出完整随机过程分布。更有用的复现记录是每次转变临界场、是否出现中间台阶及转变前热史，并同时保留没有漂亮突变的循环。若多次循环单调朝同一方向漂移，应重新考虑训练或损伤；若与固定胶硬化或温度延迟相关，应先修正实验误差。统计问题不能用一条代表曲线替代。"
+        },
+        {
+          "title": "表征过程也可能改变被研究对象",
+          "text": "本文为了做电子背散射取向图，会把粉末包埋、磨到截面再精抛；这些制样条件不能直接当作未经损伤颗粒的原始表面。作者也指出部分大颗粒裂纹来自制样。若要将显微结构与单颗粒磁性逐一关联，最好先测磁性再做破坏性截面，明确两阶段的样品编号。否则容易把制样引入的裂纹当成驱动相变的原生缺陷，进而错误估计晶界和自由表面的作用。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜磁结构相变、粒度和热滞后研究者",
+        "first": "先读图5/6、Methods与SI图S3/S6，再看图8和EBSD图2。",
+        "focus": "比较同一物理量、同一速率和同一颗粒；粉末转变宽度不能直接赋给每个单颗粒。",
+        "next": "挑同粒径但不同晶粒数的颗粒重复热/场循环；全球制冷背景可略读，初态重置与误差定义必须保留。"
+      },
+      "tags": [
+        "正文精读",
+        "当日arXiv公告",
+        "Ni–Mn–Sn",
+        "晶粒与粒径",
+        "磁结构相变",
+        "滞后"
+      ],
+      "rating": "A",
+      "selectionStatus": "today-announcement"
+    },
+    {
+      "category": "晶体生长和物性调控",
+      "material": "YV₆Sn₆₋ₓSbₓ：移费米能而尽量不破坏kagome色散",
+      "title": "Rigid Band Shift in Electron-Doped Kagome Metal",
+      "authors": "Pinterić, M.; Uykur, E.; Salters, S.; Pokharel, G.; Wilson, S. D.; Dressel, M.; Wenzel, M.",
+      "institutions": "德国斯图加特大学、HZDR；斯洛文尼亚马里博尔大学；美国UCSB、西乔治亚大学",
+      "journal": "arXiv · v1公开实验稿，未确认正式发表",
+      "date": "2026-10-27官方首次公告；v1提交2026-10-26T08:10:02Z",
+      "doi": "https://arxiv.org/abs/2610.34996",
+      "fullText": "https://arxiv.org/pdf/2610.34996v1",
+      "method": "Sn自助熔剂；EDX实际掺杂；红外反射/KK/Drude–Lorentz；WIEN2k",
+      "access": "全文精读：公开主文1–7页Methods/Results/Conclusions、图1–7；未提供独立SI链接，未复算能带。",
+      "versionNote": "本期按27日官方公告归档，实际提交时间另列；已与官方API核对v1。没有复现实验或运行作者计算，不能把建议当作已完成结果。",
+      "abstract": "We study the effects of Sn-site doping on the electronic structure of nonmagnetic kagome metal YV$_6$Sn$_{6-x}$Sb$_x$ by infrared spectroscopy and density-functional theory. The results for samples with $x$ = 0 and 1.4 demonstrate that partial substitution of Sn by Sb acts as a rigid shift of the Fermi level while leaving the band dispersion largely intact. Our findings establish Sn-site substitution in YV$_6$Sn$_6$ as a route to systematically investigate band-filling-dependent electronic properties of nonmagnetic kagome metals.",
+      "conclusion": "Sb替Sn使YV₆Sn₆的光学跃迁和电输运随载流子填充改变，刚性能带移动能解释主要变化；但合金无序仍升高残余电阻，掺杂占哪个Sn位点主要是谱学与计算推断，不是已直接精修出的事实。",
+      "sections": [
+        {
+          "title": "问题与样品：避开R位尺寸效应，改调p区元素",
+          "text": "166型kagome金属的物性既受费米能位置影响，也受晶格畸变、轨道杂化和无序影响，因此元素替换不一定等价于简单加电子。作者选择无磁YV₆Sn₆，比较未掺杂与实测YV₆Sn₄.₆Sb₁.₄两组，试图在相对保留V-kagome色散的条件下改变填充。与直接替换kagome层上的V相比，Sn位替换可能对骨架扰动更小，但不同Sn层与V的杂化程度不同，因此作者还计算三种不等价Sn位点的替换情形。问题不是宣称发现了新的超导相，而是证明一种可用的带填充调控路径；本文没有报告该序列出现超导或新的CDW。"
+        },
+        {
+          "title": "自助熔剂生长：每个可得温程都要绑定真实成分",
+          "text": "粉末在手套箱称量，以过量Sn助熔剂约30:1装入Canfield坩埚，再封入安瓿保持惰性气氛，快速升至1125 ℃，以2 ℃/h缓冷至780 ℃，取出离心去Sn。晶面上残Sn需抛光后才做光学实验，并用EDX确定Sb掺杂量；不能将投料x直接当实晶x。主文没有完整列出各元素原始摩尔配比、纯度、最高温保温时长、安瓿尺寸及产率，需向作者补询。光学样品约1×1 mm²、厚约500 μm，测ab面；这是表面经抛光后的同批晶体，不是自然解理后立即进入真空的薄片。残留Sn、抛光损伤、取向误差和同一晶体不同区域的成分波动，都应在复现时分别记录而不是用单一“高质量单晶”标签代替。"
+        },
+        {
+          "title": "测量和质量：先用直流给红外外推设约束",
+          "text": "先测四探针电阻，再用Bruker多套傅里叶光谱仪覆盖约80–18000 cm⁻¹、温区约10 K至室温；用蒸镀金参比和原位覆金获取绝对反射率。低于80 cm⁻¹采用Hagen–Rubens外推，高能采用X射线散射函数，再经Kramers–Kronig变换求光电导。未掺杂样品RRR约12.5，ρ₀=11.89 μΩ·cm，掺Sb后ρ₀=27.04 μΩ·cm；低温T²系数从0.00285降至0.000964 μΩ·cm/K²。因此不能笼统写掺杂后电阻处处更小或晶体变得更纯；其室温金属性增强与残余无序增大同时存在。电阻没有新相变异常，光谱随温度连续变化与此一致，但这不是排除所有微弱局域或短程关联的证据。"
+        },
+        {
+          "title": "直接谱学证据与拟合：刚性移动是解释而非直接相机",
+          "text": "掺Sb使等离子体边移向高能，约0.3 eV带间谱重减少，并在低于0.1 eV出现新的跃迁权重；DFT逐步增加电子后能再现实验变化，1.4电子/化学式的计算与实际成分相符。图6显式替Sn计算表明Y层附近Sn位最符合近刚性移动，而靠近V层的Sn位替换更明显重构色散，故作者推断Sb主要偏好前者。这个推断还需要占位敏感衍射或局域结构独立验证，EDX本身不能分辨位点。Drude–Lorentz分解还包含温度依赖的位移Drude/局域化贡献；原文承认两Drude模型也可合理描述部分谱。约180 cm⁻¹声子掺杂后不再分辨，可能是更强载流子屏蔽，不自动意味着结构相变。"
+        },
+        {
+          "title": "结论和复现建议：把填充、散射及位点分别检验",
+          "text": "最强证据是同样品的直流、绝对红外和有位点分辨的计算在带间跃迁上相互约束，最弱环节是仅两种实测成分与模型分解的非唯一性。DFT采用WIEN2k/PBE，结构取既有实验，常规网格12×12×6，光学更密可到57×57×30；作者能量约需1/1.3重标度改善吻合，不应把刚性带近似说成完全无关联。下一炉可先围绕相邻实际x制一小序列，用EDX面扫确认均匀性、测Hall与红外检验光学加电子图像，并保留抛光前后及残Sn空白检查。若同样实际x的不同批次谱形变化比x趋势更大，应先查无序和表面而不是宣布新电子相；若低频外推稍改就改变主要结论，则应扩展更低频实验。以上是可执行验证路线，未完成专利/学位查新前不作为全新课题承诺。"
+        },
+        {
+          "title": "从光谱推断占位时最需要的独立检验",
+          "text": "元素分析能确认有多少锑，却不能确认锑进入哪一种锡位点；不同位点模型与实验光谱的比较提供了有用筛选，但实际合金可能是混合占位且有局域畸变。作者计算单个位点替换的化学式与实际较高掺杂样品也不是完全相同的超胞化学环境。建议先以占位敏感单晶衍射、异常散射或局域吸收谱补充，再在同一实际浓度上比较光谱，而不是先将最符合的一种计算写成已测实晶结构。若混合占位同样能解释主要吸收特征，结论应保留概率和不确定性；对于下一炉，控制熔剂比例和去锡程度也可能改变局部成分，不能只改投料标签。"
+        },
+        {
+          "title": "如何检查低能光学结论不被外推支配",
+          "text": "反射测量的下限高于零频，最窄的自由载流子峰可能部分落在测量窗外，因此直流电阻是必要约束。复现应改变合理范围内的低频外推，并比较单德鲁德、双德鲁德及带局域化峰的模型残差和参数稳定性；如果都能同样描述数据，就应把区分这些模型所需的更低频测量列为下一步，而不是挑最符合预期的一个。带间跃迁随填充变化相对稳健，不表示每个低频散射参数同样唯一。误差还包括绝对反射标定和抛光表面的几何损耗，重复覆金或不同晶面的结果应单独留存。原始光谱、外推段和最终光电导的单位必须一起导出，以便后续重新分析。"
+        },
+        {
+          "title": "从调填充到发现新态还有多远",
+          "text": "把费米能靠近平带或鞍点是机制上的动机，不是已经观察到重费米子、超导或电荷序的证明。本文两组样品仍高度金属化，下一步若发现热力学异常，需要先排查残锡、合金不均匀和表面损伤，再用不同测量确认。仅靠计算费米能经过某条平带，不能给出新相的转变温度或稳定范围；本简报不会为尚未合成的中间成分补出这些数字。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜kagome单晶生长、掺杂与红外物性",
+        "first": "先看图1、5、6及Methods，再读图4的拟合分解。",
+        "focus": "区分EDX的x=1.4、计算加1.4电子/化学式与Hall实测载流子；别把消失的180 cm⁻¹峰直接叫软模。",
+        "next": "用实际成分而非投料量建掺杂序列，测同批电阻/红外/Hall；家族背景可略读，低频外推与位点推断必须核。"
+      },
+      "tags": [
+        "正文精读",
+        "当日arXiv公告",
+        "YV₆Sn₆",
+        "Sb替位",
+        "Sn助熔剂",
+        "能带填充"
+      ],
+      "rating": "A",
+      "selectionStatus": "today-announcement"
+    },
+    {
+      "category": "高温与非常规超导",
+      "material": "NiBi₂.₈Pb₀.₂：8.1 K电阻起始不是8.1 K体超导",
+      "title": "Chemical Substitution as a Route to Anomalous Surface Superconductivity in NiBi₃",
+      "authors": "Barik, Anupam; Chakrabarty, Subhadip; Low, Achintya; Pal, Sudip; Thirupathaiah, Setti",
+      "institutions": "印度S. N. Bose国家基础科学中心；UGC–DAE科研联盟",
+      "journal": "arXiv · v1公开实验稿，未确认正式发表",
+      "date": "2026-10-27官方首次公告；v1提交2026-10-24T05:36:27Z",
+      "doi": "https://arxiv.org/abs/2610.33463",
+      "fullText": "https://arxiv.org/pdf/2610.33463v1",
+      "method": "Bi自助熔剂；XRD/Rietveld、EDS、比热/磁性/角分辨输运",
+      "access": "全文精读：主文1–12、21–26页结构、输运、比热、二维分析与Experimental；图1/2/3/6/7和表1；源文件中无独立SM，补充批次资料未得。",
+      "versionNote": "本期按27日官方公告归档，实际提交时间另列；已与官方API核对v1。没有复现实验或运行作者计算，不能把建议当作已完成结果。",
+      "abstract": "Stabilizing two-dimensional superconductivity in a bulk superconducting material provides a unique route to exploring the interplay between superconducting condensates of different dimensionalities. Here, we present evidence for a distinct surface-associated superconducting state in Pb-substituted NiBi$_3$. NiBi$_{2.8}$Pb$_{0.2}$ exhibits a resistive onset at $T_{c,\\mathrm{onset}}^{*}\\approx8.1$~K, nearly twice the bulk superconducting transition temperature of approximately 4.1~K. The absence of a corresponding Meissner response or specific-heat anomaly at the higher-temperature transition supports its non-bulk origin. A cusp-like angular dependence of the critical field, well described by the two-dimensional Tinkham model, together with nonlinear current--voltage characteristics and signatures of a Berezinskii--Kosterlitz--Thouless transition, establishes the low-dimensional character of this superconducting state. Remarkably, the surface-associated superconductivity persists well beyond the bulk upper critical field, reaching a maximum ratio of $H_{c3}/H_{c2}\\approx4.3$, far exceeding the conventional Saint-James--de Gennes value of 1.695. These results demonstrate that Pb substitution can stabilize an anomalously enhanced low-dimensional superconducting state in NiBi$_3$, providing a platform for investigating superconductivity at the boundary of a bulk superconductor.",
+      "conclusion": "Pb替换后的NiBi₃保留约4 K体超导，却多出约8.1 K的面内电阻下降。二维角度响应与无体热容/Meissner异常支持表面相关超导，但尚未直接证明表面相的微观化学组成，需严查Pb–Bi残留和接触路径。",
+      "sections": [
+        {
+          "title": "问题与样品：化学替换究竟提高了哪一种Tc",
+          "text": "未掺杂NiBi₃是约4.1 K的正交超导金属。Pb替换后出现约8.1 K的电阻起始下降，同时低温仍有约4 K体转变，作者因此提出表面相关二维超导而不是均匀体Tc翻倍。名义NiBi₂.₈Pb₀.₂，EDS平均约Ni₀.₉₂Bi₂.₈₈Pb₀.₂₀，母体约Ni₀.₉₆Bi₃，说明实际化学计量必须单独报告，不能假设Ni严格满占位。XRD保持Pnma、没有检出Pb含杂相主峰，但两组均有弱Bi反射，残余助熔剂与表面成分问题并未因此完全消失。材料的准一维针状形态与拟议二维超导通道还不是同一个维度概念，叙述时需分别指明结构、输运几何和有效超导层。"
+        },
+        {
+          "title": "可执行生长温程与质量证据",
+          "text": "Ni粉99.9%、Bi块99.99%、Pb块99.9%，按Ni:Bi:Pb=1:(10−x):x装氧化铝坩埚，封入抽空石英管，1050 ℃保温二十四小时，以2 ℃/h降至360 ℃离心去Bi助熔剂。母体典型针晶约3×0.3×0.3 mm³，掺Pb晶体更小，具体掺杂晶体分布尺寸及产率正文未报告。母体与替换样品均做粉末Rietveld、单晶表面(00l)反射、EDS和HRTEM；替换后晶格参数约a=8.890(2)、b=4.092(2)、c=11.493(8) Å。粉末XRD未见额外Pb相只能给检测限内约束，不能排除体积分数很小但可连通导电的Pb–Bi表面薄层。高分辨晶格条纹有一致性帮助，但局部取样也不能代替整个样品的化学均匀性图。"
+        },
+        {
+          "title": "电阻、比热和磁性：多证据为何支持非体起源",
+          "text": "电流沿b轴时可见约8.1 K和4.1 K两步下降，而沿c轴的高温异常很弱，直至最低约1.8 K仍可能有有限电阻。高温电阻特征在磁场中被压低，不同场向约数特斯拉可抑制，支持超导相关而非任意电阻台阶。比热在约4 K有明显跳变，熵平衡Tc约3.95 K，而8.1 K无可分辨对应异常；磁化也没有相应高温Meissner响应。因而更强的结论是高温部分不是大体积分数均匀体相，尚不能只靠“无热容峰”唯一确定它必在原子级表面。作者用9 T PPMS测输运/比热，7 T MPMS测磁化；小体积分数夹层、表面合金或电流分流仍须额外空间探针区分。"
+        },
+        {
+          "title": "二维判据、模型与数值风险",
+          "text": "2 K角度临界场在近面内方向呈尖 cusp，Tinkham形式优于平滑的三维各向异性GL形式；I–V非线性和Halperin–Nelson电阻拟合给约8.1 K的BKT温度。它们支持低维响应，但不能把一个BKT拟合值与起始值相近当作单独决定性证明，还需检查拟合窗、有限尺寸与电流加热。Hc₃从电阻起始取、Hc₂按正常态电阻50%取，外推零温分别约4.7/2.3 T和3.9/0.91 T，得到约2.04和4.30。经典1.695值适用于理想表面、特定场向和边界条件；作者自己提示几何、失准和展宽会改变提取比值。表1不同方向的ξ、λ和κ与Hc₂对应关系需要进一步验算，本站不将所有表列长度未经核算继续传播。"
+        },
+        {
+          "title": "最强证据、替代解释及下一炉",
+          "text": "最强链条是高温电阻与低温体热力学转变分离，并有角度响应共同约束低维性；最弱处是高温相在哪里、Pb如何改变局部配比及电子态没有直接显微闭环。作者引用Pb–Bi体系也能在相近温度超导，恰好说明必须认真排查而非据此宣布已证明本征机制。复现可保留同一晶体先后更换电极布局、轻微表面去除前后输运，并做WDS/微区成分面扫，选择合适温度的局域磁成像检验超导是否沿边界。生长上复制原温程，分别留存离心后的残余助熔剂和母体对照；若残余物可重现高温转变，应暂停“替位诱导本征表面态”的定性。批次可重复并不自动排除每批都形成相似表面合金。本轮未取得作者引用的独立SM，跨批次原曲线与退磁处理仍列后续补读，不在此冒充已逐项核完。"
+        },
+        {
+          "title": "怎样把表面超导和表面杂相真正区分",
+          "text": "表面相关响应与少量表面第二相并不是同义词，也不是互相排斥的实验位置描述。一个薄而连通的铅铋层可以对电阻产生很大影响，却对整体比热贡献很小，因此“无高温比热异常”同时符合多种非体路径。对本体系，最有价值的是同一位置的成分、晶体结构与局域磁响应关联，而不仅是提高整体粉末衍射信噪比。可先比较自然表面、轻微去表层及重新接触后的高温转变；必须确认处理没有引入新应变或改变有效截面。若只是接触换边就显著改变转变，也应考虑电流通道与裂隙，而不立刻把它归为独特的序参量表面增强。"
+        },
+        {
+          "title": "对高临界场数字的再核查",
+          "text": "不同判据混用会把宽化转变转化为很大的场比，因此复现应同时公布起始、中点与零阻等多个判据的相图，不能只保留最大比值。零温值又来自有限温区外推，需与实际测到的温场范围分开。表中长度若按通常轨道上临界场关系估算，应先核磁场方向和各向异性定义，再检查是否与穿透深度、相干长度和参数乘积相容；不能因为原表已有数字就免除内部一致性检查。作者把几何和粗糙度等限制写出来是必要的，本站也保留这些条件，不把一个实验比值用于否定所有常规表面理论。"
+        },
+        {
+          "title": "下一批样品的批次设计",
+          "text": "可以将母体、相同铅投料的多个独立生长批次和分离的残余助熔剂同时测量，并记录离心温度与表面清理历史。每批不要只挑最大晶体，要对几种尺寸和不同面接触重复，检验高温转变是否随表面积体积比、实际成分或助熔剂残留程度变化。如果这些控制尚未完成，最稳妥的标签仍是“作者提出的表面相关超导证据”，而不是已经确认的本征新相。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜助熔剂单晶与低维超导辨析",
+        "first": "先看图1–3、图7与Experimental，再读21–22页Hc₃/Hc₂定义。",
+        "focus": "Hc₃用起始、Hc₂用50%判据，不能把比值4.3当无条件突破通用理论上限；表1若干长度应重新验算。",
+        "next": "同晶体换接触/表面处理并做微区成分与局域磁测量；标准GL推导可略读，杂相排除与判据不可略读。"
+      },
+      "tags": [
+        "正文精读",
+        "当日arXiv公告",
+        "NiBi₃",
+        "Pb替换",
+        "表面超导",
+        "Bi助熔剂"
+      ],
+      "rating": "A",
+      "selectionStatus": "today-announcement"
+    },
+    {
+      "category": "高温与非常规超导",
+      "material": "单层FeSe：有全能隙，为什么仍可能是d波",
+      "title": "Nodeless d-wave pairing in monolayer FeSe revealed by intra-unit-cell Josephson interferometry",
+      "authors": "Li, Runxin; Huo, Yuchen; Mei, Jiong; Ren, Ming-Qiang; Wang, Miaomiao; Wei, Quanxing; Yao, Fengyu; Zheng, Maowen; Qu, Qing; Ding, Cui; Yuan, Hongtao; Chen, Zhuoyu; Chen, Wei-Qiang; Jiang, Kun; Xue, Qi-Kun; Sun, Yu-Jie",
+      "institutions": "南方科技大学；清华大学；中科院物理所；南京大学；粤港澳大湾区量子科学中心",
+      "journal": "arXiv · v1公开实验稿，未确认正式发表",
+      "date": "2026-10-27官方首次公告；v1提交2026-10-25T15:38:46Z",
+      "doi": "https://arxiv.org/abs/2610.34382",
+      "fullText": "https://arxiv.org/pdf/2610.34382v1",
+      "method": "MBE单层FeSe；超导Nb针尖原子尺度Josephson成像；Wannier–BdG模型",
+      "access": "全文精读：主文1–7页、图1–4图注11–14页、Methods15–17页；实际渲染图2/3。官方source返回同一17页PDF，未包含独立SI，S1–S4和补图5未读。",
+      "versionNote": "本期按27日官方公告归档，实际提交时间另列；已与官方API核对v1。没有复现实验或运行作者计算，不能把建议当作已完成结果。",
+      "abstract": "The Josephson effect provides a direct phase-sensitive probe of superconducting order and has played a central role in identifying unconventional pairing symmetries1-6. Conventional Josephson interferometry, however, extracts phase information through engineered junction geometries and crystallographic orientations, rather than by resolving the internal phase structure of the pair state within a single unit cell. Here, we use a superconducting Nb tip to realize atomic-scale Josephson interferometry in monolayer FeSe/SrTiO3. Despite a fully gapped quasiparticle spectrum, the local Josephson response exhibits a striking intra-unit-cell pattern, with maxima centred on Fe-Fe bonds and robust nodal lines along the Fe-Se directions. We show that these nodal lines arise from destructive interference between Josephson tunnelling amplitudes associated with opposite-sign pairing components. Microscopic calculations reproduce the observed spatial pattern and identify it as a fingerprint of nodeless d-wave pairing. Our results establish intra-unit-cell Josephson interferometry as a local phase-sensitive probe of pairing symmetry in unconventional superconductors.",
+      "conclusion": "原子尺度Josephson响应在Fe–Se方向形成节点，但准粒子谱仍有完整能隙。作者用相反符号配对分量的隧穿干涉解释，支持无节点d波；这不是直接在实空间拍到能隙变成零，也不能省略隧穿模型和针尖对照。",
+      "sections": [
+        {
+          "title": "问题与背景：能隙大小测量缺少哪一块信息",
+          "text": "单层FeSe的费米面主要是布里渊区边界电子口袋，区中心空穴带在费米能以下。常规隧道或光电子谱擅长测激发能隙大小，却不直接区分不同口袋间序参量的正负号。即使是具有变号的d波，对称性节点也可以避开实际费米面而出现全能隙，因此“没有能隙节点”并不自动证明s波。作者的核心尝试是用可移动的超导针尖，在一个晶胞内改变对不同配对分量的隧穿权重，使相位信息变成空间干涉图案。真正的新测量对象是局域库珀对隧穿响应，而不是普通电子态密度图中一个深色条纹。"
+        },
+        {
+          "title": "制备与针尖校准：两个超导体都必须可靠",
+          "text": "单层FeSe在Nb掺杂STO(001)上MBE生长，基底先600 ℃除气再1200 ℃退火得到平整TiO₂终止面，约400 ℃下富Se共蒸，约十分钟对应一个晶胞，随后约500 ℃真空退火十小时。元素纯度、Fe/Se绝对束流比及全部退火升降温速率正文未报告，不应套用另一篇FeSe的1:20或450 ℃配方。低温STM基温约30 mK、基压低于5×10⁻¹¹ Torr；Nb针尖先电子束加热，再在清洁Nb(100)上压入和脉冲调制，必须先以Nb参比验证超导谱，针尖能隙约1.4 meV。FeSe普通针尖谱见约10与15 meV特征。锁相频率973 Hz，具体调制幅和结点参数按各图另定，不能把一套设定替代所有图。"
+        },
+        {
+          "title": "观测与对照：先确认零偏峰真是对隧穿",
+          "text": "随着结透明度增加，零偏电导峰及约±0.4 meV负微分电导谷出现，伴随近针尖能隙的Andreev结构；零偏与Andreev电导都随结电导平方变化，为两电子传输提供约束。图2在约−30 mV、80 nA设定下同时取得原子形貌及多种响应图；零偏峰在近Fe–Fe键中心增强，在Fe–Se方向形成延伸的近零线。晶格配准决定节点朝向，因此同一扫描的原子像不是装饰性插图。用同样超导针尖配置测普通s波NbSe₂时只有弱晶胞内起伏，没有对应节点线；该对照排除了某些一般原子起伏和真空结几何效应，但不同材料轨道与表面性质不完全相同，不能据此排除所有材料特定矩阵元解释。"
+        },
+        {
+          "title": "模型如何把相位变号变成空间节点",
+          "text": "作者采用单轨道、展开单Fe区的紧束缚模型，在Fe–Fe近邻键上设置正负相反的d波配对，利用Wannier函数把格点反常格林函数投影到真空针尖位置，再与s波Nb针尖做相干求和。沿特定镜面对称线，正负贡献权重相等，净Josephson振幅相消；移到键中心权重不同，响应恢复。这解释为何局域Josephson节点不要求准粒子能隙关闭。模型忽略SOC，NbSe₂对照另用多轨道双层模型；理论图是归一化临界电流绝对值，实验图是零偏电导，后者约与电流振幅平方成正比，不能逐像素把两种色标视为相同物理量。作者称主要s态候选不能产生同样镜面对称节点，但详细比较在未取得的SI补图5中，本简报保留该排他检验缺口。"
+        },
+        {
+          "title": "证据层级与替代解释",
+          "text": "直接观察是全能隙谱、晶胞内节点方向、与结电阻的标度及NbSe₂参比无节点；无节点d波是结合这些观察、晶体对称性和隧穿计算作出的作者解释。四个响应最大值的相对强弱随针尖变化，作者承认可能来自针尖细节或本征对称破缺，但节点位置较稳。尚不能把所有强弱不等都称为新向列序，也不能将理论输入的d波作为实验已无条件证明的前提。多轨道、轨道选择隧穿、局域应变、针尖对称性和实际表面缺陷是否能产生等价图样，是进一步排他验证的关键。没有独立取得S1–S4的所有模型参数与候选态比较，故不会使用“配对对称性争论已经彻底终结”这种表述。"
+        },
+        {
+          "title": "复现路线：让相敏测量具有可追溯性",
+          "text": "优先保存原始形貌、漂移校正、每个像素的完整谱和结电阻，而不只保存平滑后的节点图；不同方向线扫应共享同一晶格配准规则。重复不同针尖、不同设定电阻和多个干净区域，检验节点方向随晶体而非针尖扫描轴转动。再以正常针尖对照、温度超过针尖超导转变或可控抑制针尖超导的条件检验零偏结构消失，同时避免把针尖变化引入的几何漂移误作相位改变。若节点只在特定针尖出现或在结透明度范围改变时漂移，应先停止对配对符号的唯一解释；若主要特征稳健，再补齐多轨道替代态计算。这里的计算均是建议，不是本站已经运行的结果。受限设备条件下可先复核数据分析和原文SI，不需要为了复现标题就跳过基底、参比和针尖质量控制。"
+        },
+        {
+          "title": "为什么相位图不是序参量的直接照片",
+          "text": "实验测的是针尖与样品之间的净对隧穿响应，它经过电子轨道在真空中的衰减、针尖波函数和各条键贡献的相干叠加。某处响应接近零，既不是该处没有电子，也不是该处超导能隙必为零。本文的价值是把节点的晶体对称性、参比材料和微观模型一起使用，而不是把一张亮暗图直接贴成配对波函数。阅读时可先自己写出两项振幅相加与强度相加的差别，理解为何正负贡献会消掉净电流，却仍保留有限准粒子能隙；这是判断相敏证据比普通谱学多提供了什么信息的关键。"
+        },
+        {
+          "title": "后续验证的最低标准",
+          "text": "模型对几种备选配对态的比较应共享合理的能带和隧穿参数，不宜为每一种候选任意改变针尖权重后再比较最漂亮图。待取得补充材料后，应核对作者是否展示参数稳定范围、不同针尖与不同区域重复，以及实验电导平方关系如何映射到理论电流。若仅在很窄的参数窗口产生排他节点，证据强度应相应降低。这些未完成检验是明确补读项，不是对作者已经完成全部排他实验的假定。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜非常规配对、低温STM与相敏测量",
+        "first": "先读图2的NbSe₂对照，再看图3/4和Methods的相干求和。",
+        "focus": "测得g₀与计算|Iⱼ|不是同一量，前者约正比后者平方；单轨道忽略SOC模型不能代替多轨道完备排他证明。",
+        "next": "重复不同针尖/结电阻并校准晶格配准；配对综述可略读，Nb针尖验证和备选s态的SI补图不可略过。"
+      },
+      "tags": [
+        "正文精读",
+        "当日arXiv公告",
+        "FeSe/STO",
+        "无节点d波",
+        "Josephson STM",
+        "相敏证据"
+      ],
+      "rating": "A",
+      "selectionStatus": "today-announcement"
+    },
+    {
+      "category": "磁性、拓扑与自旋",
+      "material": "YCOB：极少缺陷就能毁掉磁化平台",
+      "title": "Tuning from intrinsic to disorder-dominated quantum states in a kagome antiferromagnet",
+      "authors": "Tanaka, Y.; Kumakura, R.; Yamaguchi, T.; Kato, M.; Totsuka, K.; Li, B.; Zhao, Y.; Li, Y.; Grasset, R.; Cavani, O.; Alessi, A.; Sharma, V.; Kohama, Y.; Suetsugu, S.",
+      "institutions": "东京大学、京都大学；华中科技大学；法国LSI/École Polytechnique/CEA/CNRS",
+      "journal": "arXiv · v1公开实验稿，未确认正式发表",
+      "date": "2026-10-27官方首次公告；v1提交2026-10-25T11:57:32Z",
+      "doi": "https://arxiv.org/abs/2610.34230",
+      "fullText": "https://arxiv.org/pdf/2610.34230v1",
+      "method": "水热单晶；2.5 MeV电子辐照；57 T磁转矩；低温比热标度",
+      "access": "全文精读：主文1–6页Methods/Results/Discussion，图1–5；附录13–18页表S1与图S1–S6，实际查看比热及标度图。水热原配方转引文献未另取得。",
+      "versionNote": "本期按27日官方公告归档，实际提交时间另列；已与官方API核对v1。没有复现实验或运行作者计算，不能把建议当作已完成结果。",
+      "abstract": "The spin-1/2 kagome Heisenberg antiferromagnet (AFM) provides a paradigmatic platform for realizing quantum spin-liquid (QSL) and magnetization-plateau states. Experimental progress, however, has been hindered by structural disorder, whose effects on these quantum states remain elusive. A key experimental challenge is therefore to connect intrinsic and disorder-dominated regimes through controlled disorder and identify emergent degrees of freedom associated with disorder. Here we introduce controlled point defects through electron irradiation into the spin-1/2 kagome AFM YCu3(OH)6.5Br2.5 (YCOB) and track the resulting evolution of its low-energy magnetic states. High-field magnetic torque measurements reveal that the 1/9 and 1/3 magnetization plateaus are strongly suppressed by only ~0.05% irradiation-induced defects, demonstrating that these delicate quantum many-body states are extraordinarily fragile against dilute disorder. Moreover, the irradiation induces a sign reversal of the magnetic torque only at low temperatures and low fields, indicating the emergence of correlated defect-induced moments rather than isolated free spins. Remarkably, the characteristic scaling of the magnetic specific heat, absent in pristine YCOB, progressively emerges with increasing disorder. These findings establish dilute disorder as an effective tuning parameter that drives the kagome AFM from intrinsic quantum states toward a disorder-dominated regime. The contrasting responses further identify pristine YCOB as an exceptionally clean kagome AFM for accessing intrinsic quantum states.",
+      "conclusion": "对YCu₃(OH)₆.₅Br₂.₅逐步加辐照缺陷，原本的1/9和1/3平台迅速被抹平，而无序相关比热标度逐渐出现。标度出现不是原始材料更理想的证据，缺陷剂量估算也只是热恢复前的上限。",
+      "sections": [
+        {
+          "title": "问题与样品：怎样区分内禀量子态和无序制造的信号",
+          "text": "自旋二分之一kagome反铁磁体YCOB因Cu/Y离子尺寸不同，避免了某些材料中强烈的磁性离子错位，但Br/OH占位和键随机性仍引发争论。若所有低温异常都可由无序解释，就难以确认量子自旋液体相关低能响应。作者不只拿另一种更脏材料比较，而是在已显示磁化平台的同类YCOB单晶中有控制地引入点缺陷，观察从原始样品到不同辐照剂量的连续演化。重要的是，这样可把平均交换能尺度是否改变，与缺陷是否破坏精细多体态分开；平台消失不需要整个晶格坍塌，也不等同于所有磁相互作用大幅变弱。"
+        },
+        {
+          "title": "制备、辐照与缺陷标定的边界",
+          "text": "单晶按既有水热法生长，使用此前测到1/9和1/3平台的同类样品；本篇未重列水热前驱物纯度、配比、温度、压力、时长及产率，不能以常见水热流程填空。辐照在SIRIUS用2.5 MeV电子束、约20 K液氢环境下进行，剂量为0、1、5 C/cm²，之后升到室温。散射截面估计一库仑剂量的Cu空位约0.052%，五库仑约0.261%；Y、O、H、Br位缺陷不同，SI表S1分别列出，不能只写一个“全材料0.05%缺陷”。升温会部分退火Frenkel对，因此这些是实际存留缺陷密度的上限，并非直接化学计量测量。毫米量级电子穿透有利于体分布均匀，却没有自动确定每种残留缺陷的微观身份。"
+        },
+        {
+          "title": "测量几何和质量：转矩不是未经修正的直接M",
+          "text": "高场用压阻悬臂和脉冲磁体到57 T，最低相关平台数据约1.5 K。先通过低场转矩过零确定c轴，再让场与c轴有小夹角；原始、低剂量和高剂量样品分别约5.7°、13.0°和10.1°。转矩除以场近似反映磁化，但不同倾角可能影响各向异性分量，比较时不能隐去这些几何差别。比热用长弛豫法，场沿c轴到14 T；磁化用SQUID到7 T。高温居里–外斯温度约−89、−93、−84 K，显示主交换尺度未显著改变。这个对照支持缺陷主要改变低能响应，却不能据相近居里–外斯温度证明所有局部交换常数和各向异性完全相同。"
+        },
+        {
+          "title": "直接数据：低剂量抹平台，高剂量生成另一套低能贡献",
+          "text": "原始样品在约20 T和50 T附近有1/9和1/3平台特征；低剂量已几乎抹掉1/9平台，一库仑下1/3平台的导数下降从近乎完全降低到约20%，五库仑下在误差内不再分辨。与此同时，低场转矩出现反号，说明新增响应并非纯各向同性孤立自由自旋。零场比热除温度曲线在原始样品约1.3 K有峰，低剂量先压低，高剂量又增强，反映内禀激发被抑制和缺陷贡献增加两个过程竞争。若只看高剂量曲线更大，容易错说电子态密度或内禀量子临界涨落增强；真正需要的是相同剂量下磁场依赖、原始曲线及背景处理共同解释。"
+        },
+        {
+          "title": "模型与排他性：数据塌缩不唯一确定随机单态",
+          "text": "拟合最优标度指数随剂量约为0.16、0.37、0.53，原始样品的磁化似乎可塌缩，但指数近零时近似只是普通线性响应，原始比热并不支持同样标度。高剂量比热才出现更合理的数据塌缩，然而低温幂律与标准随机单态模型仍有定量差异，作者因此谨慎称为相关缺陷磁矩主导区，而非确证某个随机单态基态。声子背景对辐照组用Debye–Einstein模型拟合再外推扣除；SI图S6显示不扣声子的原始低温曲线也有同样趋势，为排除扣背景伪影提供独立检查。十四特斯拉曲线用于提峰差分背景，并不意味着高场下所有磁性贡献都严格为零。"
+        },
+        {
+          "title": "结论、局限与下一批实验",
+          "text": "最强证据是点缺陷剂量变化同时影响高场平台、低温转矩和比热，而且平均交换尺度相对稳定；最弱处是缺陷种类、升温恢复后的真实浓度及不同样品几何仍未完全分离。平台对微量缺陷敏感支持原始YCOB较干净，却不直接证明其严格等于理想最近邻Heisenberg模型，也不唯一判定零场自旋液体类型。复现可先从同一生长批次分样，逐一保存质量、取向、辐照后在各温度停留时长及重复升温次数，低场磁化和比热作为基础，再联合高场实验。对每组同时展示扣背景和未扣背景数据，并在相近倾角下重复。若所谓剂量效应主要随室温放置时间而变，应先测缺陷恢复而非继续外推量子相图；若只有一个任意标度指数让曲线看似重合，必须同时检查其他可观测量和误差，而不以图像漂亮代替模型证据。"
+        },
+        {
+          "title": "从结构干净到磁性干净的距离",
+          "text": "原始晶体没有明显磁性离子错位，是重要优势，但不是所有键随机性和附加相互作用都自动消失。受控辐照提供了一把校准尺：可以比较引入少量点缺陷后平台和热力学如何变化，却不能简单把原始样品等价于辐照剂量精确为零的理想模型。不同缺陷可能影响自旋占位、交换路径和局域各向异性，其作用不必只由总数决定。因此用一个估计浓度归一化所有样品之前，应先检查缺陷类型和恢复过程是否相同，避免把不同散射中心混成一个普适无序参数。"
+        },
+        {
+          "title": "怎样保存可用于再分析的热力学数据",
+          "text": "低温比热应同时导出总热容、平台附加热容、声子模型参数及误差，保留每个磁场的原始温点，不能只有塌缩后的无量纲曲线。磁转矩则应记录倾角标定、空悬臂背景和脉冲升降场差异。若后续更换声子背景或重新标定样品质量，可以从原始数据重做结论，而不是只能讨论图片形状。对所谓幂律，应报告拟合温区并检验指数在窗口变化下是否稳定；一个最佳指数不是独立的磁性相身份证明。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A｜受挫磁性、样品质量与低温热力学",
+        "first": "先读图2/4、Methods和SI表S1，再看图5及其讨论。",
+        "focus": "0.052%是Cu位缺陷上限，不是全元素统一浓度；不同样品场倾角和转矩近似必须保留。",
+        "next": "同批晶体分剂量并记录室温恢复史，先做低场/比热再争取高场；QSL综述可略读，声子扣除和原始比热对照不可略读。"
+      },
+      "tags": [
+        "正文精读",
+        "当日arXiv公告",
+        "YCOB",
+        "辐照缺陷",
+        "磁化平台",
+        "受挫磁性"
+      ],
+      "rating": "A",
+      "selectionStatus": "today-announcement"
+    },
+    {
+      "category": "晶体生长和物性调控",
+      "material": "二维杂化铅卤化物：压力驱动单晶到单晶二聚化（仅摘要）",
+      "title": "Pressure-Induced Single-Crystal-to-Single-Crystal Dimerization and Irreversible Optical Reconstruction in a 2D Hybrid Lead Halide",
+      "authors": "Xiaofan Xu; Hao Yu; Jiang Han; Zewei Quan",
+      "institutions": "南方科技大学，深圳（以Crossref作者单位记录为准）",
+      "journal": "Journal of the American Chemical Society",
+      "date": "2026-10-27 online（Crossref出版方记录）；出版社正文403",
+      "doi": "https://doi.org/10.1021/jacs.6c15243",
+      "fullText": "https://pubs.acs.org/doi/10.1021/jacs.6c15243",
+      "method": "压力诱导单晶到单晶反应；高压光谱/衍射与回收结构，参数待正文",
+      "access": "仅摘要/元数据：Crossref出版方摘要已读；ACS页面和PDF403，官方Figshare接口403，作者公开稿未检得；未确认有效机构正文会话。未读正文。",
+      "versionNote": "正式期刊在线稿，不按相似题名的旧高压论文补写Methods。压力阈值、温程、压力介质、反应收率及仪器条件均未核实。",
+      "abstract": "【简报中文转述，非原始摘要】出版方摘要描述(S-MAMBA)₂PbBr₄在压力下发生[2+2]二聚化并保留卸压后的结构和光学改变；尚需阅读正文检验完整证据。",
+      "conclusion": "摘要提出压力可在保留晶体有序性的同时重构有机层共价连接，并改变铅卤层相关发光。它是值得优先补读的正式期刊新稿，但本期不能给出可靠复现压力或据此宣布具体反应机制已被本站全文验证。",
+      "sections": [
+        {
+          "title": "已知与未知必须分开",
+          "text": "依据出版方摘要，体系为带丙烯酸酯官能团有机阳离子的(S-MAMBA)₂PbBr₄，作者讨论压力促成环丁烷[2+2]二聚化、卸压后保持有序以及不可逆光学重构。摘要还称高压振动/衍射、回收单晶结构和DFT支持有机无机耦合，并描述自陷激子向自由激子响应改变。本站尚未阅读对应图表、原始结构或计算设置，因此这些是作者摘要中的主张，不是已独立核验的完整证据链。"
+        },
+        {
+          "title": "为什么暂不写制备与复现参数",
+          "text": "ACS正文和出版方PDF均返回403；官方Figshare接口也未成功，搜索未找到该篇合法作者公开稿。用户此前表示aTrust已登录，但本轮没有确认能读该正文的有效会话，不能据此声称机构访问成功。原料纯度与配比、结晶方式、空间群、晶体尺寸、加压速率、压力介质和标定、反应阈值、卸压条件、发光温度、光功率、误差及对照均为未知/尚未核实，而不是“正文未报告”。没有利用相似旧论文推测具体数字。"
+        },
+        {
+          "title": "补读优先级和验证问题",
+          "text": "优先级A-待补读，适合高压结构化学及杂化晶体研究者。取得正文后先看加压/回收单晶结构、二聚化键长和光谱对照，再看压力介质、可逆性及对照分子；计算框架可后读，但不能跳过计算与结构实测的对应。最重要的检验是区分普通压致畸变、共价反应及局部无定形化，不宜先在自己的样品上盲目尝试高压合成。正文/SI未得前不提供可执行压力配方，也不把这一作者已提出的材料改造思路包装成本站无人做过的研究预测。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A-待补读｜正式期刊高相关候选，当前摘要级",
+        "first": "待取得正文后先读高压/卸压单晶结构和反应键长证据，再看光谱压力循环。",
+        "focus": "阈值和压力介质未知；须排除纯畸变与非晶化，核对是否为同一晶体追踪。",
+        "next": "先申请合法正文和SI，未读前不制定合成参数；不以旧论文替代本篇Methods。"
+      },
+      "tags": [
+        "正式期刊",
+        "仅摘要",
+        "高压",
+        "单晶转化"
+      ],
+      "rating": "A-待补读",
+      "selectionStatus": "today-announcement"
+    }
+  ],
+  "sourceAudit": [
+    {
+      "source": "APS/prl",
+      "url": "https://journals.aps.org/prl/recent",
+      "status": "200",
+      "bytes": 150548,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:27.670739+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prx",
+      "url": "https://journals.aps.org/prx/recent",
+      "status": "200",
+      "bytes": 157195,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:27.988181+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prb",
+      "url": "https://journals.aps.org/prb/recent",
+      "status": "200",
+      "bytes": 159158,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:26.786973+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/pra",
+      "url": "https://journals.aps.org/pra/recent",
+      "status": "200",
+      "bytes": 154306,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:27.285906+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prc",
+      "url": "https://journals.aps.org/prc/recent",
+      "status": "200",
+      "bytes": 157162,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:27.824061+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prd",
+      "url": "https://journals.aps.org/prd/recent",
+      "status": "200",
+      "bytes": 140525,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:28.377144+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/pre",
+      "url": "https://journals.aps.org/pre/recent",
+      "status": "200",
+      "bytes": 157939,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:28.691297+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prresearch",
+      "url": "https://journals.aps.org/prresearch/recent",
+      "status": "200",
+      "bytes": 140454,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:28.728362+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prapplied",
+      "url": "https://journals.aps.org/prapplied/recent",
+      "status": "200",
+      "bytes": 147222,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:28.907097+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prmaterials",
+      "url": "https://journals.aps.org/prmaterials/recent",
+      "status": "200",
+      "bytes": 169197,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:30.533643+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prfluids",
+      "url": "https://journals.aps.org/prfluids/recent",
+      "status": "200",
+      "bytes": 187631,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:30.028964+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prper",
+      "url": "https://journals.aps.org/prper/recent",
+      "status": "200",
+      "bytes": 153671,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:32.349835+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prxenergy",
+      "url": "https://journals.aps.org/prxenergy/recent",
+      "status": "200",
+      "bytes": 155490,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:29.865160+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prxlife",
+      "url": "https://journals.aps.org/prxlife/recent",
+      "status": "200",
+      "bytes": 148323,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:31.102664+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prxquantum",
+      "url": "https://journals.aps.org/prxquantum/recent",
+      "status": "200",
+      "bytes": 145382,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:31.008256+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/rmp",
+      "url": "https://journals.aps.org/rmp/recent",
+      "status": "200",
+      "bytes": 157015,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:32.335903+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prab",
+      "url": "https://journals.aps.org/prab/recent",
+      "status": "200",
+      "bytes": 174109,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:31.863485+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prxintelligence",
+      "url": "https://journals.aps.org/prxintelligence/recent",
+      "status": "200",
+      "bytes": 145887,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:32.195874+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prl/accepted",
+      "url": "https://journals.aps.org/prl/accepted",
+      "status": "200",
+      "bytes": 80008,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:32.613369+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prx/accepted",
+      "url": "https://journals.aps.org/prx/accepted",
+      "status": "200",
+      "bytes": 69283,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:32.992085+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prb/accepted",
+      "url": "https://journals.aps.org/prb/accepted",
+      "status": "200",
+      "bytes": 78625,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:33.346187+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/pra/accepted",
+      "url": "https://journals.aps.org/pra/accepted",
+      "status": "200",
+      "bytes": 76229,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:33.388966+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prc/accepted",
+      "url": "https://journals.aps.org/prc/accepted",
+      "status": "200",
+      "bytes": 79893,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:33.366093+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prd/accepted",
+      "url": "https://journals.aps.org/prd/accepted",
+      "status": "200",
+      "bytes": 68956,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:33.728468+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/pre/accepted",
+      "url": "https://journals.aps.org/pre/accepted",
+      "status": "200",
+      "bytes": 76327,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:34.457901+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prresearch/accepted",
+      "url": "https://journals.aps.org/prresearch/accepted",
+      "status": "200",
+      "bytes": 69173,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:34.204391+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prapplied/accepted",
+      "url": "https://journals.aps.org/prapplied/accepted",
+      "status": "200",
+      "bytes": 69971,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:34.113930+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prmaterials/accepted",
+      "url": "https://journals.aps.org/prmaterials/accepted",
+      "status": "200",
+      "bytes": 79227,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:34.826909+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prfluids/accepted",
+      "url": "https://journals.aps.org/prfluids/accepted",
+      "status": "200",
+      "bytes": 83603,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:35.083452+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prper/accepted",
+      "url": "https://journals.aps.org/prper/accepted",
+      "status": "200",
+      "bytes": 65979,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:34.924114+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prxenergy/accepted",
+      "url": "https://journals.aps.org/prxenergy/accepted",
+      "status": "200",
+      "bytes": 60031,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:35.152071+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prxlife/accepted",
+      "url": "https://journals.aps.org/prxlife/accepted",
+      "status": "200",
+      "bytes": 65866,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:35.668556+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prxquantum/accepted",
+      "url": "https://journals.aps.org/prxquantum/accepted",
+      "status": "200",
+      "bytes": 69166,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:35.851004+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/rmp/accepted",
+      "url": "https://journals.aps.org/rmp/accepted",
+      "status": "200",
+      "bytes": 62372,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:35.903434+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prab/accepted",
+      "url": "https://journals.aps.org/prab/accepted",
+      "status": "200",
+      "bytes": 80671,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:36.613354+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "APS/prxintelligence/accepted",
+      "url": "https://journals.aps.org/prxintelligence/accepted",
+      "status": "200",
+      "bytes": 66245,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:36.476722+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "Nature",
+      "url": "https://www.nature.com/nature/research-articles",
+      "status": "200",
+      "bytes": 217507,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:41.999209+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "Nature Physics",
+      "url": "https://www.nature.com/nphys/research-articles",
+      "status": "200",
+      "bytes": 212592,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:41.984026+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "Nature Communications",
+      "url": "https://www.nature.com/ncomms/research-articles",
+      "status": "303",
+      "bytes": 0,
+      "error": "curl: (28) Connection timed out after 20197 milliseconds\r\n",
+      "checkedAt": "2026-10-27T05:48:59.221956+00:00",
+      "hits": 6,
+      "included": 1,
+      "excluded": 5,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "重试200；6条当日卡片中1条合成铁电入选、1条通用量子光子平台及4条生医主题排除",
+      "retry": "initial303/timeout; later official HTML200"
+    },
+    {
+      "source": "npj Quantum Materials",
+      "url": "https://www.nature.com/npjquantmats/research-articles",
+      "status": "200",
+      "bytes": 182092,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:42.322604+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://www.nature.com/nmat/research-articles",
+      "status": "200",
+      "bytes": 212620,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:46.611880+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "Communications Physics",
+      "url": "https://www.nature.com/commsphys/research-articles",
+      "status": "200",
+      "bytes": 180833,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:46.548910+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "Communications Materials",
+      "url": "https://www.nature.com/commsmat/research-articles",
+      "status": "200",
+      "bytes": 194727,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:46.634241+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "npj 2D Materials and Applications",
+      "url": "https://www.nature.com/npj2dmaterials/research-articles",
+      "status": "200",
+      "bytes": 176774,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:50.896593+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "Science",
+      "url": "https://www.science.org/toc/science/current",
+      "status": "403",
+      "bytes": 5473,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:46.901167+00:00",
+      "hits": null,
+      "included": 0,
+      "excluded": null,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "官网访问403/失败；命中数未知，Crossref仅作查漏"
+    },
+    {
+      "source": "Science Advances",
+      "url": "https://www.science.org/toc/sciadv/current",
+      "status": "403",
+      "bytes": 5449,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:46.912923+00:00",
+      "hits": null,
+      "included": 0,
+      "excluded": null,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "官网访问403/失败；命中数未知，Crossref仅作查漏"
+    },
+    {
+      "source": "Advanced Materials",
+      "url": "https://advanced.onlinelibrary.wiley.com/toc/15214095/0/0",
+      "status": "403",
+      "bytes": 5502,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:47.416100+00:00",
+      "hits": null,
+      "included": 0,
+      "excluded": null,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "官网访问403/失败；命中数未知，Crossref仅作查漏"
+    },
+    {
+      "source": "Advanced Functional Materials",
+      "url": "https://advanced.onlinelibrary.wiley.com/toc/16163028/0/0",
+      "status": "403",
+      "bytes": 5502,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:47.416100+00:00",
+      "hits": null,
+      "included": 0,
+      "excluded": null,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "官网访问403/失败；命中数未知，Crossref仅作查漏"
+    },
+    {
+      "source": "Nano Letters",
+      "url": "https://pubs.acs.org/toc/nalefd/0/0",
+      "status": "403",
+      "bytes": 5412,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:47.711985+00:00",
+      "hits": null,
+      "included": 0,
+      "excluded": null,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "官网访问403/失败；命中数未知，Crossref仅作查漏"
+    },
+    {
+      "source": "ACS Nano",
+      "url": "https://pubs.acs.org/toc/ancac3/0/0",
+      "status": "403",
+      "bytes": 5412,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:47.685465+00:00",
+      "hits": null,
+      "included": 0,
+      "excluded": null,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "官网访问403/失败；命中数未知，Crossref仅作查漏"
+    },
+    {
+      "source": "JACS",
+      "url": "https://pubs.acs.org/toc/jacsat/0/0",
+      "status": "403",
+      "bytes": 5412,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:47.968672+00:00",
+      "hits": null,
+      "included": 0,
+      "excluded": null,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "官网访问403/失败；命中数未知，Crossref仅作查漏"
+    },
+    {
+      "source": "Chemistry of Materials",
+      "url": "https://pubs.acs.org/toc/cmatex/0/0",
+      "status": "403",
+      "bytes": 5412,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:47.989280+00:00",
+      "hits": null,
+      "included": 0,
+      "excluded": null,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "官网访问403/失败；命中数未知，Crossref仅作查漏"
+    },
+    {
+      "source": "Crystal Growth & Design",
+      "url": "https://pubs.acs.org/toc/cgdefu/0/0",
+      "status": "403",
+      "bytes": 5412,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:48.269088+00:00",
+      "hits": null,
+      "included": 0,
+      "excluded": null,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "官网访问403/失败；命中数未知，Crossref仅作查漏"
+    },
+    {
+      "source": "Journal of Crystal Growth",
+      "url": "https://www.sciencedirect.com/journal/journal-of-crystal-growth/articles-in-press",
+      "status": "403",
+      "bytes": 832806,
+      "error": "",
+      "checkedAt": "2026-10-27T05:48:50.152414+00:00",
+      "hits": null,
+      "included": 0,
+      "excluded": null,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "官网访问403/失败；命中数未知，Crossref仅作查漏"
+    },
+    {
+      "source": "npj Computational Materials",
+      "url": "https://www.nature.com/npjcompumats/research-articles",
+      "status": "200",
+      "bytes": 176442,
+      "checkedAt": "2026-10-27T05:49:03.870805+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "Applied Physics Letters",
+      "url": "https://pubs.aip.org/apl/issue",
+      "status": "403",
+      "bytes": 5397,
+      "checkedAt": "2026-10-27T05:48:59.669813+00:00",
+      "hits": null,
+      "included": 0,
+      "excluded": null,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "官网访问403/失败；命中数未知，Crossref仅作查漏"
+    },
+    {
+      "source": "2D Materials",
+      "url": "https://iopscience.iop.org/journal/2053-1583",
+      "status": "200",
+      "bytes": 223530,
+      "checkedAt": "2026-10-27T05:49:03.406014+00:00",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "所见首列表未见27日卡片；不代表整刊当天零新增"
+    },
+    {
+      "source": "Acta Materialia",
+      "url": "https://www.sciencedirect.com/journal/acta-materialia/articles-in-press",
+      "status": "403",
+      "bytes": 832806,
+      "checkedAt": "2026-10-27T05:49:05.949905+00:00",
+      "hits": null,
+      "included": 0,
+      "excluded": null,
+      "coverage": "current listing first page only; no exhaustive pagination",
+      "reason": "官网访问403/失败；命中数未知，Crossref仅作查漏"
+    },
+    {
+      "source": "Science / Crossref online-date",
+      "url": "https://api.crossref.org/journals/0036-8075/works?filter=from-online-pub-date:2026-10-27,until-online-pub-date:2026-10-27&rows=200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "error": null,
+      "retry": null,
+      "coverage": "rows=200; publisher-deposited online-date metadata; current index snapshot"
+    },
+    {
+      "source": "Science Advances / Crossref online-date",
+      "url": "https://api.crossref.org/journals/2375-2548/works?filter=from-online-pub-date:2026-10-27,until-online-pub-date:2026-10-27&rows=200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "error": null,
+      "retry": null,
+      "coverage": "rows=200; publisher-deposited online-date metadata; current index snapshot"
+    },
+    {
+      "source": "Advanced Materials / Crossref online-date",
+      "url": "https://api.crossref.org/journals/0935-9648/works?filter=from-online-pub-date:2026-10-27,until-online-pub-date:2026-10-27&rows=200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "error": null,
+      "retry": null,
+      "coverage": "rows=200; publisher-deposited online-date metadata; current index snapshot"
+    },
+    {
+      "source": "Advanced Functional Materials / Crossref online-date",
+      "url": "https://api.crossref.org/journals/1616-301X/works?filter=from-online-pub-date:2026-10-27,until-online-pub-date:2026-10-27&rows=200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "error": null,
+      "retry": null,
+      "coverage": "rows=200; publisher-deposited online-date metadata; current index snapshot"
+    },
+    {
+      "source": "Nano Letters / Crossref online-date",
+      "url": "https://api.crossref.org/journals/1530-6984/works?filter=from-online-pub-date:2026-10-27,until-online-pub-date:2026-10-27&rows=200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "error": null,
+      "retry": null,
+      "coverage": "rows=200; publisher-deposited online-date metadata; current index snapshot"
+    },
+    {
+      "source": "ACS Nano / Crossref online-date",
+      "url": "https://api.crossref.org/journals/1936-0851/works?filter=from-online-pub-date:2026-10-27,until-online-pub-date:2026-10-27&rows=200",
+      "hits": 1,
+      "included": 0,
+      "excluded": 1,
+      "error": null,
+      "retry": null,
+      "coverage": "rows=200; publisher-deposited online-date metadata; current index snapshot"
+    },
+    {
+      "source": "JACS / Crossref online-date",
+      "url": "https://api.crossref.org/journals/0002-7863/works?filter=from-online-pub-date:2026-10-27,until-online-pub-date:2026-10-27&rows=200",
+      "hits": 4,
+      "included": 1,
+      "excluded": 3,
+      "error": null,
+      "retry": null,
+      "coverage": "rows=200; publisher-deposited online-date metadata; current index snapshot"
+    },
+    {
+      "source": "Chemistry of Materials / Crossref online-date",
+      "url": "https://api.crossref.org/journals/0897-4756/works?filter=from-online-pub-date:2026-10-27,until-online-pub-date:2026-10-27&rows=200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "error": null,
+      "retry": null,
+      "coverage": "rows=200; publisher-deposited online-date metadata; current index snapshot"
+    },
+    {
+      "source": "Crystal Growth & Design / Crossref online-date",
+      "url": "https://api.crossref.org/journals/1528-7483/works?filter=from-online-pub-date:2026-10-27,until-online-pub-date:2026-10-27&rows=200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "error": null,
+      "retry": null,
+      "coverage": "rows=200; publisher-deposited online-date metadata; current index snapshot"
+    },
+    {
+      "source": "Journal of Crystal Growth / Crossref online-date",
+      "url": "https://api.crossref.org/journals/0022-0248/works?filter=from-online-pub-date:2026-10-27,until-online-pub-date:2026-10-27&rows=200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "error": null,
+      "retry": "429后独立重试200",
+      "coverage": "rows=200; publisher-deposited online-date metadata; current index snapshot"
+    },
+    {
+      "source": "Nature / Crossref online-date",
+      "url": "https://api.crossref.org/journals/0028-0836/works?filter=from-online-pub-date:2026-10-27,until-online-pub-date:2026-10-27&rows=200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "error": null,
+      "retry": null,
+      "coverage": "rows=200; publisher-deposited online-date metadata; current index snapshot"
+    },
+    {
+      "source": "Nature Physics / Crossref online-date",
+      "url": "https://api.crossref.org/journals/1745-2473/works?filter=from-online-pub-date:2026-10-27,until-online-pub-date:2026-10-27&rows=200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "error": null,
+      "retry": null,
+      "coverage": "rows=200; publisher-deposited online-date metadata; current index snapshot"
+    },
+    {
+      "source": "Nature Communications / Crossref online-date",
+      "url": "https://api.crossref.org/journals/2041-1723/works?filter=from-online-pub-date:2026-10-27,until-online-pub-date:2026-10-27&rows=200",
+      "hits": 7,
+      "included": 1,
+      "excluded": 6,
+      "error": null,
+      "retry": null,
+      "coverage": "rows=200; publisher-deposited online-date metadata; current index snapshot"
+    },
+    {
+      "source": "npj Quantum Materials / Crossref online-date",
+      "url": "https://api.crossref.org/journals/2397-4648/works?filter=from-online-pub-date:2026-10-27,until-online-pub-date:2026-10-27&rows=200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "error": null,
+      "retry": null,
+      "coverage": "rows=200; publisher-deposited online-date metadata; current index snapshot"
+    },
+    {
+      "source": "arXiv cond-mat/new",
+      "url": "https://arxiv.org/list/cond-mat/new",
+      "date": "2026-10-27",
+      "new": 130,
+      "cross": 39,
+      "replacement": 109,
+      "total": 278,
+      "included": 9,
+      "notIncluded": 269,
+      "screenedTitleAbstract": 278,
+      "api": "官方export API独立核对10稿返回200；其中失准稿正式DOI核为历史重复，最终独立9篇。Crossref题名近邻不作自动匹配。"
+    }
+  ],
+  "searchTerms": [
+    "北京时间2026-10-27 13:40启动，主要检索/正文核验约13:48–14:44的期中快照；正式期刊按27日online日期、arXiv按27日首次公告归档，v1实际提交24–26日单列。当日已有强相关稿，不启用三日回溯填数；欧美出版日尚未结束。",
+    "58官网入口、14刊Crossref先查；Nature Communications重试见6条当日卡片，2条正式期刊高相关入选，访问受阻源的命中数保留未知。",
+    "最后核对arXiv官方27日批次：130新投/39交叉/109替换，278项逐题逐摘要；9篇独立入选，API成功与正式DOI核对相互补充。",
+    "与60份历史报告按DOI、arXiv ID及题名去重；失准FeSe虽首次上arXiv，已19日正式发表并收入两周补刊，不再次计篇。",
+    "候选正文实际成功打开12篇：本期入选并正文精读10篇，2篇因旧译稿/重复排除；JACS仅摘要1篇。其余相关候补的可访问性/正文尚未全部核完，见逐条审计。",
+    "逐一请求58个官网入口（APS18刊recent和accepted、Nature家族及Science/Wiley/ACS/JCG等）；Science、Wiley、ACS、JCG等403，访问异常不写成零命中。当前列表首屏有范围限制，不声称全天穷尽。",
+    "Nature Communications初始303后连接超时，重试成功，27日当前列表见6条；Crossref见7条，一条尚未在当前首列表出现。两种覆盖范围分别保留。",
+    "14刊Crossref按online日期查漏：JCG初429后重试200、0条。元数据为0不等于期刊当天无论文；APS额外逐篇DOI核对发现旧稿重复。",
+    "arXiv官方27日278条（130新投、39交叉、109替换），本轮逐题逐摘要筛查；入选9篇v1与官方API/abs核对。替换稿未逐段完成与历史版本对比，不把它们全部当新发现。",
+    "强相关但未入本期核心的候补逐项列入审计，正文未读者明确待补读；不声称所有相关论文都已全文精读。",
+    "用户此前表示aTrust已登录，但本轮未确认有效机构正文会话；没有声称机构访问成功，也未绕过验证码或付费墙。JACS正文/PDF和官方Figshare接口403，保留摘要级。",
+    "全文精读指已实际阅读正文/Methods及所列图表，不等于所有SI和原始数据已穷尽；FeSe Josephson、MnTe、NiBi3及TiO2的独立SI缺口逐篇保留。",
+    "两份新上arXiv稿被排除：Co/Nb-SrTiO3是六月正式论文的作者译稿；FeSe失准稿已10月19日正式发表并收录两周补刊，无已证实新增内容。",
+    "研究设想0条通过门槛：作者已做/已提出方向不能包装为新颖课题；专利与学位论文查新未完成，不声称全球首次。",
+    "邮件仅生成完整HTML正文，未创建草稿、未发送；不调用OpenAI API。"
+  ],
+  "auditUrl": "/reports/2026-10-27/audit.json",
+  "readingAudit": {
+    "candidateAccessibleFullTexts": 12,
+    "selectedAccessibleFullTexts": 10,
+    "fullReads": 10,
+    "siOnly": 0,
+    "abstractOnly": 1,
+    "institutionalSuccess": 0,
+    "pending": [
+      "JACS 10.1021/jacs.6c15243正文/SI待合法访问。",
+      "FeSe Josephson独立SI S1–S4/补图5未取得；官方source为同一17页PDF。",
+      "MnTe、TiO2和NiBi3独立SI未取得，所缺参数/批次细节不由经验补写。",
+      "Nature SI只读所列实验/验证部分，其他计算表格未逐项复算。",
+      "逐条审计中的相关候补尚待正文核验；重费米子/二维主板块本期0篇，不以弱相关填数。"
+    ]
+  },
+  "researchIdeas": {
+    "schemaVersion": 1,
+    "reviewedAt": "2026-10-27",
+    "scope": "基于本期实际阅读的10篇正文核对作者已完成和已提出方向；未完成跨数据库、专利和学位论文系统查新，暂无达到新颖性最低证据门槛的新候选。",
+    "limitations": [
+      "没有合成、运行DFT或做测量；所有下一步为建议。",
+      "未完成专利/学位论文核查，不保证以前无人做过。",
+      "研究设想不计入论文或精读数，历史候选保持不变。"
+    ],
+    "ideas": [],
+    "rejected": [
+      {
+        "title": "Ta痕量氧与界面微波损耗的关联",
+        "url": "https://arxiv.org/abs/2610.35768",
+        "reason": "作者讨论已提出界面取向/器件损耗检验，不能包装为本站全新方向。"
+      },
+      {
+        "title": "MnTe表面位错网络的局域能级调控",
+        "url": "https://arxiv.org/abs/2610.35236",
+        "reason": "作者已报告位错附近能隙变化并讨论纳米结构用途，进一步测量不是未经报道的新颖性证明。"
+      },
+      {
+        "title": "FPI的铁电回线和小样本模型验证",
+        "url": "https://doi.org/10.1038/s41467-026-78928-5",
+        "reason": "作者已合成并做开关/留一验证；改一个间隔分子或补常规表征不足以证明新方向。"
+      }
+    ]
+  },
+  "figures": [
+    {
+      "source": "https://doi.org/10.1038/s41467-026-78928-5",
+      "src": "/reports/2026-10-27/fpi-coercive-field.svg",
+      "title": "FPI：模型一致性输出与实验矫顽场不同",
+      "caption": "来源：主文图5、SI图21。留一验证外推不稳；实验未给此值误差棒，不能视为零误差。"
+    },
+    {
+      "source": "https://arxiv.org/abs/2610.34736",
+      "src": "/reports/2026-10-27/mn3ge-roughness.svg",
+      "title": "Mn₃Ge：500 ℃退火后的界面RMS粗糙度降低",
+      "caption": "来源：SI图S11/表S1–S2；误差±0.07/±0.05 nm。拟合模型相关，不代表消除所有缺陷。"
+    }
+  ]
+}
