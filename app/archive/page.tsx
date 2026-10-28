@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 export const metadata:Metadata={title:'往期归档｜每日文献简报',description:'按日期浏览每日文献简报。'};
 const issues=[
+['2026-10-28','2026.10.28','第064期 · 10篇 · 1正式期刊/9预印本 · 9正文实读','从晶体质量到非互易响应的证据边界','Sm–Ir–Al · LaNiGa₂ · CoSn · BST · UTe₂ · Er₂Be₂GeO₇ · MoTe₂ · Bi-2212 · CoTa₃S₆'],
 ['2026-10-27','2026.10.27','第063期 · 11篇 · 2正式期刊/9预印本 · 10正文实读','合成、晶相、缺陷与超导的证据链','FPI · Ta · Mn₃Ge · MnTe · TiO₂ · Ni–Mn–Sn · YV₆Sn₆ · NiBi₃ · FeSe · YCOB'],
 ['2026-10-26','2026.10.26','第062期 · 9篇预印本 · 9篇主文实读','氧扩散、生长质量与超导/磁性证据链','STO · Yb₃Pd₄Bi₈ · CsV₃Sb₅ · NbN · MnTe · ErRu₂Si₂ · SiC'],
 ['2026-10-25','2026.10.25','第061期 · 2篇正式期刊 · 2篇正文精读','磁导率空间动力学与共面螺旋拓扑平带','铁颗粒 · ReAg₂Cl₆'],

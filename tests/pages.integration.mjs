@@ -130,3 +130,15 @@ test('October 27 journal-first brief keeps body/abstract levels and historical d
  for(let i=1;i<=11;i++)assert(page.includes(`id="paper-${i}"`));
  assert(page.includes('fpi-coercive-field.svg'));assert(page.includes('mn3ge-roughness.svg'));assert(page.includes('今日公告 11'));
 });
+
+test('October 28 evidence-reviewed daily brief is independently indexed',async()=>{
+ const index=JSON.parse(await readFile(new URL('assets/search-index.json',dir),'utf8'));
+ assert(index.length>=687);assert.equal(index.filter(p=>p.reportSlug==='2026-10-28').length,10);
+ const audit=JSON.parse(await readFile(new URL('reports/2026-10-28/audit.json',dir),'utf8'));
+ assert.equal(audit.counts.formal,1);assert.equal(audit.counts.fullReads,9);assert.equal(audit.counts.abstractOnly,1);
+ assert(audit.reading.slice(0,9).every(p=>p.bodyChineseCharacters>=1500));
+ assert.equal(audit.sources.find(s=>s.source==='arXiv cond-mat/new').total,198);
+ const page=await readFile(new URL('reports/2026-10-28/index.html',dir),'utf8');
+ for(let i=1;i<=10;i++)assert(page.includes(`id="paper-${i}"`));
+ assert(page.includes('今日公告 10'));assert(page.includes('cosn-torque.svg'));assert(page.includes('bi2212-raman.svg'));
+});
