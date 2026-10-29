@@ -16,7 +16,7 @@ export const synonyms=[['flux','self-flux','助熔剂','自助熔剂','熔盐'],
 export const normalize=(v:unknown)=>String(v??'').normalize('NFKC').toLowerCase().replace(/[‐‑–−]/g,'-').replace(/\s+/g,' ').trim();
 export function expand(term:string){const key=normalize(term);return [...new Set([key,...synonyms.filter(g=>g.some(v=>normalize(v)===key)).flat().map(normalize)])].filter(Boolean)}
 export function safeUrl(value:string){return /^https?:\/\//i.test(value)?value:'#'}
-export function accessLevel(p:Paper){return p.access.includes('补充材料精读')?'si':p.access.includes('全文精读')?'full':'abstract'}
+export function accessLevel(p:Paper){return p.access.includes('补充材料精读')||/^仅公开\s*SI\s*精读/i.test(p.access)?'si':p.access.includes('全文精读')?'full':'abstract'}
 
 type Node={kind:'term';value:string;field?:string}|{kind:'not';child:Node}|{kind:'and'|'or';left:Node;right:Node};
 type Token={value:string;quoted:boolean};

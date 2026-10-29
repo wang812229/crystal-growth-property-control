@@ -8,6 +8,14 @@ import {providerUrl} from '../lib/literature-sources.ts';
 const fixture=(id,overrides={})=>({id,title:'Flux growth of FePS₃',authors:'Alice Zhang; Bob Liu',institutions:'Zhejiang University; National Laboratory',journal:'Physical Review B',material:'FePS₃',method:'CVT',category:'晶体生长和物性调控',tags:['CVT','magnetism'],abstract:'Chemical vapor transport of a layered crystal',conclusion:'',summary:'助熔剂法和磁振子测量。缺陷来自生长过程。',year:2026,published:'2026-09-05',date:'2026-09-06',type:'article',citations:null,citationDate:'',source:'https://doi.org/10.1234/'+id,doi:'10.1234/'+id,openAccess:null,dataSource:'Crossref',fullText:'',reportUrl:'/reports/2026-09-06/#paper-1',access:'全文精读',rating:'A',sections:[],readingGuide:null,...overrides});
 const papers=[fixture('a'),fixture('b',{title:'Superconductivity in nickelates',authors:'Carol Smith',abstract:'High pressure superconducting state',tags:['superconductor'],summary:'超导转变与压力。',year:2025,published:'2025-06-01',type:'preprint',source:'https://arxiv.org/abs/2506.12345',access:'仅摘要',citations:20}),fixture('c',{title:'Heavy-fermion quantum criticality',authors:'Alice Wang',abstract:'',summary:'重费米子和量子临界',tags:['Kondo'],year:2024,published:'2024-08-01',citations:0}),fixture('d',{title:'Unknown year',year:null,published:'',abstract:'',summary:'',tags:[],authors:'',access:'补充材料精读'})];
 const find=(q,f={})=>search(papers,{...defaults,query:q,...f}).all.map(p=>p.id);
+
+test('public SI-only reviews remain searchable without counting as full main text',()=>{
+ const si=fixture('si',{access:'仅公开 SI 精读：已读S1–S5，主文未获'});
+ assert.equal(accessLevel(si),'si');
+ assert.equal(search([si],{...defaults,access:'si'}).total,1);
+ assert.equal(search([si],{...defaults,access:'full'}).total,0);
+ assert.equal(accessLevel(fixture('main',{access:'全文精读：作者公开稿主文和公开SI'})),'full');
+});
 test('mixed Chinese and English with NFKC chemical formulas',()=>{assert.deepEqual(find('磁振子 AND FePS3'),['a']);assert.deepEqual(find('title:ＦｅＰＳ３ AND 方法:化学气相输运'),['a'])});
 test('bilingual synonyms work in both directions',()=>{assert.deepEqual(find('超导'),['b']);assert.deepEqual(find('heavy fermion'),['c']);assert.deepEqual(find('助熔剂',{field:'title'}),['a'])});
 test('AND is implicit and missing terms do not produce partial OR matches',()=>{assert.deepEqual(find('FePS3 absent'),[]);assert.deepEqual(find('FePS3 磁振子'),['a'])});
