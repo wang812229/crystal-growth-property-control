@@ -1,20 +1,21 @@
 {
   "date": "2026-10-30",
-  "checkedAt": "2026-10-30T06:28:50.775514+00:00",
+  "checkedAt": "2026-10-30T12:14:19.740106+00:00",
   "coverageComplete": false,
-  "window": "北京时间2026年10月30日核查：当日提交时间窗为UTC10月29日16:00至30日16:00；同时补核27–29日尚未收录的强相关正式期刊。逐篇保留正式online、作者稿提交/版本和漏录补读日期，不把所有论文都称为30日新发表。JACS混合Q与AgSbTe₂两稿的Crossref30日与官方SI出版时间29日冲突，单列待核。",
+  "window": "北京时间2026年10月30日分阶段核查：先筛当日在线记录并补读27–29日未收录正式期刊；arXiv最初new/recent滞后于API，之后官方页面已更新为30日357条（178新投、56交叉、123替换），全部题名与完整摘要完成筛选。新增4篇超导实验精读，保留初版9篇与原锚点；5篇预印本均已在30日官方公告核验，不把旧修订当新投。",
   "counts": {
-    "total": 9,
+    "total": 13,
     "formal": 8,
-    "arxiv": 1,
-    "fullReads": 8,
+    "arxiv": 5,
+    "fullReads": 12,
     "siOnly": 1,
     "abstractOnly": 0,
     "categories": {
       "晶体生长和物性调控": 3,
       "磁性、拓扑与自旋": 2,
       "重费米子与量子临界": 1,
-      "二维材料与量子器件": 3
+      "二维材料与量子器件": 3,
+      "高温与非常规超导": 4
     }
   },
   "reading": [
@@ -71,13 +72,36 @@
       "doi": "https://arxiv.org/abs/2610.40423",
       "scope": "全文精读：24页PDF中主文Introduction/Results/Discussion及Methods（第2–19页）、图1–6已读，实际查看图4/6。独立SI未取得；合法arXiv源码包仅含主文、图及SI标签文件，未含正文引用的完整SI，S1–S48与表S4–S6的细节不伪称已读。",
       "bodyChineseCharacters": 1585
+    },
+    {
+      "title": "Separating the Density Wave Phase from Zero-Resistance Superconductivity in La₄Ni₃O₁₀",
+      "doi": "https://arxiv.org/abs/2610.38959",
+      "scope": "全文精读：v1 PDF共10页，主文1–8页含Methods、图1–4图注；实际查看第3–5页图2–4。arXiv源包仅main.tex及主图/文献文件，没有SM；补充材料与原始XRD数据链接仍为xxx，SM未获，未声称SI精读。",
+      "bodyChineseCharacters": 1749
+    },
+    {
+      "title": "Selective effects of selenium substitution on superconductivity and magnetic memory in 4Hb-TaS2",
+      "doi": "https://arxiv.org/abs/2610.39969",
+      "scope": "全文精读：15页公开PDF，主文第1–10页、图1–3、生长与SQUID方法及合并SI第13–15页图S1–S4已读；实际查看主图1和SI图S3。未把参考文献中的旧STM或CDW结果算本篇新测量。",
+      "bodyChineseCharacters": 1544
+    },
+    {
+      "title": "Direct real-space imaging of sign-reversal superconducting state by scanning Josephson tunneling",
+      "doi": "https://arxiv.org/abs/2610.38421",
+      "scope": "全文精读：完整42页公开PDF，主文第1–11页和图1–5、SI Materials/Methods第17页、对称性与相位敏感性讨论第17–23页实际阅读；实际查看主图3。SI后续全部图谱未逐页精读，不伪称已核42页全部推导。首次PDF下载不完整，重下验证20999516字节、42页后才阅读。",
+      "bodyChineseCharacters": 1507
+    },
+    {
+      "title": "Evidence for an effective gauge field in flakes of superconducting 4Hb-TaS₂",
+      "doi": "https://arxiv.org/abs/2610.39979",
+      "scope": "全文精读：21页PDF的主文第1–9页、图1–3及Methods；第10页数据声明和第11页参考文献已读。合并SI第12–21页图S1–S7、S7.1–S7.3推导均已读；实际视觉核查第3/5/7/12/14/16/19/20页。",
+      "bodyChineseCharacters": 1829
     }
   ],
   "limits": [
-    "本期是当日新提交与近期正式期刊漏录补读的组合，不是用旧论文凑当日篇数；无机械篇数配额，未声称全天或所有分页已穷尽。",
+    "本期是当日官方新公告与近期正式期刊漏录补读的组合，不是用旧论文凑当日篇数；无机械篇数配额，未声称全天或所有分页已穷尽。",
+    "官方批次已在补核阶段更新：30日357条，178新投、56交叉、123替换，三段完整题名/摘要筛选合并去重。初版API29条核查记录保留；后续不再把28日旧页面当当前状态，也不把旧稿替换直接算新增。",
     "先逐一检查54个固定官网入口和4个补充入口，再检查arXiv；Science/Wiley/ACS/JCG部分入口403，Crossref online日期用于查漏，不能代替正文或证明整刊无文章。",
-    "官方cond-mat/new和recent及三个子分类new仍显示10月28日；new为115新投、20交叉、63替换。官方API已更新并返回北京时间30日提交窗口29条，全部题名与完整摘要筛读；公告日期与提交日期不可混用。",
-    "API首投时间筛选不能覆盖所有旧稿替换；官方公告页滞后时，未核实的替换批次仍是缺口，绝不能据此发布30日零新增结论。",
     "8篇正式期刊包含合法作者稿正文来源，不等于获得全部正式出版主文。逐篇注明实际版本、主文/Methods/图/SI范围；未读到的SI或版本差异列待补。",
     "历史曾获用户确认aTrust登录，本轮未验证机构授权全文读取成功，机构成功数0。未操作登录、验证码、网络模式或付费墙；下载PDF/截图仅留本地非公开目录，不提交网站、GitHub或邮件。",
     "APS当前首列表和Crossref不是完整数据库；仍有强相关候补、摘要缺口和待补读。排除不相关与未完成访问的候补严格分开，不把仅下载稿件计精读。",
@@ -24719,11 +24743,11 @@
     }
   ],
   "arxivOfficialCounts": {
-    "displayedDate": "2026-10-28",
-    "new": 115,
-    "cross": 20,
-    "replacement": 63,
-    "total": 198
+    "displayedDate": "2026-10-30",
+    "new": 178,
+    "cross": 56,
+    "replacement": 123,
+    "total": 357
   },
   "institutionalSuccess": 0,
   "noveltyAudit": {
@@ -24910,5 +24934,3971 @@
   },
   "readingCorrections": [
     "氧化物正式SI实际物理页数47页；作者稿27页。代理原笔记46页已在本期评述纠正。"
-  ]
+  ],
+  "initialArxivOfficialCounts": {
+    "displayedDate": "2026-10-28",
+    "new": 115,
+    "cross": 20,
+    "replacement": 63,
+    "total": 198
+  },
+  "officialBatchDecisions": [
+    {
+      "index": 0,
+      "id": "2610.37736",
+      "title": "Tuning La0.7Sr0.3MnO3 magnetic anisotropy via interfacial coupling in homometallic trilayers",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-secondary-experiment-or-method",
+      "reason": "LSMO/SMO三层MOKE与磁阻实验，界面耦合控制易轴/交换偏置；氧化物异质结候补。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 1,
+      "id": "2610.37746",
+      "title": "A $B_{1g}$ phonon unlocks $d$-wave superconductivity in the repulsive Hubbard model",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory-context",
+      "reason": "有限温QMC的Hubbard+B1g声子理论，无新真实材料实验；高Tc机制理论候补。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 2,
+      "id": "2610.37753",
+      "title": "Approaching Landauer's limit in a single superconducting vortex memory bit",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-secondary-experiment-or-method",
+      "reason": "超导涡旋双阱记忆实验，但接近Landauer的结论主要来自数值且驱动不等同擦除协议；器件候补。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 3,
+      "id": "2610.37754",
+      "title": "Meta-Altermagnetism and Enhanced Spin-Splitting",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "扩展t-J均场meta-altermagnetism相图，非材料实测。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 4,
+      "id": "2610.37760",
+      "title": "MoireKP: An Automated Workflow for Symmetry-Constrained Moiré Continuum Models",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "MoireKP连续模型自动构建工具，材料算例为计算验证；非新实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 5,
+      "id": "2610.37761",
+      "title": "Field theory of competing phases in the interacting Kitaev chain",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "相互作用Kitaev链玻色化/DMRG理论，非材料生长或实测。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 6,
+      "id": "2610.37765",
+      "title": "Long-Range Toric Code: Finite-Temperature Topological Order in Two Dimensions",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "长程toric-code自纠错量子存储模型，非固体材料实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 7,
+      "id": "2610.37770",
+      "title": "Spin Space Symmetry Without Spin Space Groups",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "磁序自旋空间表示/响应选择规则理论，方法论优先级低于新实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 8,
+      "id": "2610.37781",
+      "title": "Evidence for a charged vortex lattice in an exciton superfluid",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-high-priority-experiment",
+      "reason": "双石墨烯/hBN激子凝聚体STM成像带电涡旋晶格，周期与过剩电荷标度互证；最高优先关联二维实验候选。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 9,
+      "id": "2610.37793",
+      "title": "Parity-Resolved Many-Body Kinetics of a Topological Qubit under Nonequilibrium Phonon Pulses",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "Majorana器件受声子脉冲的微观动力学模拟，未报告新实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 10,
+      "id": "2610.37812",
+      "title": "Geometry-controlled active transport in smectic textures",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "活性粒子在近晶纹理中的数值/解析输运，非量子材料方向。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 11,
+      "id": "2610.37889",
+      "title": "GæniceN: a minimal model to relax magnetization states self-consistently in general artificial spin ices",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "人工自旋冰磁化弛豫计算工具，无新材料实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 12,
+      "id": "2610.37925",
+      "title": "Planar energetics do not determine twin persistence in nanocrystalline aluminium",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "铝纳米晶孪晶持久性机器学习势模拟，结构力学而非目标量子物性。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 13,
+      "id": "2610.37939",
+      "title": "Anomalous Hall Conductivity as an Intrinsic Property of a Tight-Binding Graph",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "紧束缚图嵌入与反常Hall响应理论，非新材料实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 14,
+      "id": "2610.37950",
+      "title": "Few-Electron Partitioning in the Fractional Quantum Hall Regime",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "分数量子Hall点接触少电子分配计数理论，受旧实验启发而非新实测。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 15,
+      "id": "2610.37957",
+      "title": "Analytical framework for interpreting thermoreflectance measurements of nanoline gratings under finite spot illumination",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "FDTR纳米线栅热扩散模型和Au/普通衬底验证；表征方法相邻，不是核心量子物性。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 16,
+      "id": "2610.37964",
+      "title": "Electronic-morphological decoupling in mixed-dimensional halide perovskite heterostructures",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "混维钙钛矿光伏钝化形貌/光学均匀性实验，偏光伏可靠性。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 17,
+      "id": "2610.38012",
+      "title": "Finite-step statistical mechanics of scale-invariant learning: spectral equations of state and curvature transport",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "神经网络学习动力学的统计物理理论，超出材料方向。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 18,
+      "id": "2610.38025",
+      "title": "From a Lifshitz Transition to Spin-Density-Wave Order: Sr$_2$RuO$_4$ under Uniaxial Strain",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory-context",
+      "reason": "应变Sr2RuO4谱与SDW多体理论，真实材料相关但无新实验；机制背景候补。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 19,
+      "id": "2610.38060",
+      "title": "Coherent control and high purity single-photon emission from telecom quantum dots on metamorphic InGaAs",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-secondary-experiment-or-method",
+      "reason": "InAs/InGaAs量子点激发方案与单光子纯度实验；量子光源相邻候补。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 20,
+      "id": "2610.38070",
+      "title": "Thermal laser evaporation of superconducting Nb films",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-high-priority-experiment",
+      "reason": "Nb/蓝宝石热激光蒸发生长实验，报告通量、粗糙度、RRR及近块体Tc；最高优先生长-超导关联候选。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 21,
+      "id": "2610.38138",
+      "title": "Emergent higher-order optical nonlinearity in self-assembled polar supertextures",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-secondary-experiment-or-method",
+      "reason": "极性超晶格/斯格明子高阶非线性SHG实验+相场；真实铁电纹理候补，需核正式稿重叠。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 22,
+      "id": "2610.38156",
+      "title": "Incoherent dark excitons extend Floquet-like physics across time and momentum",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-high-priority-experiment",
+      "reason": "WSe2/MoS2稠密暗层间激子trARPES，近纳秒Floquet-like杂化/扭角动量可调；高优先二维谱学实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 23,
+      "id": "2610.38190",
+      "title": "Level ordering in the linear $E \\otimes e$ dynamic Jahn-Teller model",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "线性动态Jahn-Teller能级排序严格证明，非新实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 24,
+      "id": "2610.38195",
+      "title": "Crystoria: A Large-Scale Crystal Dataset Linking Thermodynamic and Dynamical Stability for Materials AI",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "百万晶体结构/声子稳定性AI数据集，非实验生长或实测量子物性。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 25,
+      "id": "2610.38250",
+      "title": "Influences of $N_2$ flow rate on the superconducting properties and dimensionality of epitaxial TiN thin films",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-secondary-experiment-or-method",
+      "reason": "MgO上外延TiN溅射氮流/背景真空与Tc/RRR/Hc2/维度实验；可直接借鉴生长控制。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 26,
+      "id": "2610.38251",
+      "title": "Charge Filling-Dependent Valley Polarization and its Dynamics Driven by Correlated Interlayer Exciton States in WSe2/WS2 Heterobilayer",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-secondary-experiment-or-method",
+      "reason": "WSe2/WS2莫尔异质结时间分辨光谱，整数填充下激子与谷弛豫异常；关联二维实验候补。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 27,
+      "id": "2610.38302",
+      "title": "Finite-Temperature Magnetism and Longitudinal Spin Transport in Compensated Half-Metal Ferrimagnets with Near-Zero Magnetization",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "Mn3Al半金属补偿亚铁磁/MTJ的DFT与MC预测，不是实测室温TMR。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 28,
+      "id": "2610.38305",
+      "title": "The Flexoelectric Twist: Persistence of Heavy Fermion Picture in Small-Angle Twisted Bilayer Graphene",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-high-priority-experiment",
+      "reason": "小角TBG的STM晶格重构与局域谱，局域f/巡游c共存重费米子解释；高优先关联二维实验，模型归属需核。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 29,
+      "id": "2610.38321",
+      "title": "First-Principles Identification of Higher-Order Configurational Energy Terms and Their Magnetic-State Dependence in Lithium-Rich Oxyfluorides: From QUBO to HUBO",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "富锂氧氟化物QUBO/HUBO构型能DFT拟合，偏电池材料计算。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 30,
+      "id": "2610.38338",
+      "title": "Time evolution in the multi-component dynamical Keldysh models",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "多分量动态Keldysh模型Green函数理论，非新材料实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 31,
+      "id": "2610.38375",
+      "title": "Structural Determination vs Stochastic Events: Relaxation Dynamics in a Supercooled Liquid",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "过冷液体等构型系综弛豫随机性理论/模拟，非目标量子材料。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 32,
+      "id": "2610.38399",
+      "title": "Strain-overlap and surface-confinement engineering in AlScN/YIG magnetoacoustic devices",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-secondary-experiment-or-method",
+      "reason": "AlScN/YIG/GGG声表面波-自旋波电传输及有限元，厚度/应变重叠控制磁弹耦合；器件候补。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 33,
+      "id": "2610.38421",
+      "title": "Direct real-space imaging of sign-reversal superconducting state by scanning Josephson tunneling",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "include",
+      "reason": "30日公告确认；本期实际正文精读，章节/图/SI范围逐篇标注",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。",
+      "readingScope": "全文精读：完整42页公开PDF，主文第1–11页和图1–5、SI Materials/Methods第17页、对称性与相位敏感性讨论第17–23页实际阅读；实际查看主图3。SI后续全部图谱未逐页精读，不伪称已核42页全部推导。首次PDF下载不完整，重下验证20999516字节、42页后才阅读。"
+    },
+    {
+      "index": 34,
+      "id": "2610.38449",
+      "title": "Layer-Parity Control of the Superconducting Diode Effect in Monolayer NbSe$_2$",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory-context",
+      "reason": "单层NbSe2磁近邻层宇称/二极管的自洽BdG计算，无新实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 35,
+      "id": "2610.38476",
+      "title": "Coherent Electronic Lensing in Proximitized Graphene",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-secondary-experiment-or-method",
+      "reason": "石墨烯Josephson结扫描栅映射切换电流/干涉，超导电子透镜实验；器件/Andreev态候补。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 36,
+      "id": "2610.38477",
+      "title": "Strain-Induced BCC-to-FCC Transformation in Tungsten Uncovered by Molecular Dynamics Simulations with Machine Learning Potentials",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "钨BCC-FCC应变转变ML势MD，结构力学计算而非核心量子材料。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 37,
+      "id": "2610.38491",
+      "title": "Two-Dimensional Magnetic Materials from Ferromagnetism to Altermagnetism: Fabrication, Symmetry, Evidence, and Device Readiness",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-nonprimary",
+      "reason": "二维铁磁至交错磁性Review，非新原始实验；与已筛AFM综述题名对应。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 38,
+      "id": "2610.38492",
+      "title": "Far Tails of the Positional Distribution in random walk: A Saddle-Point Approach",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "随机游走尾分布鞍点理论，非材料主线。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 39,
+      "id": "2610.38501",
+      "title": "Ordered patches cap the stability of disordered frameworks",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "无序刚性框架局域稳定性/力学模型，无量子材料实测。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 40,
+      "id": "2610.38504",
+      "title": "Extraordinary stiffening and reciprocal control in a DNA condensate/actin composite",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "DNA液滴/肌动蛋白复合软物质增刚实验，非目标方向。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 41,
+      "id": "2610.38506",
+      "title": "Reciprocal transverse Seebeck and Peltier effects in MoSi2",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-secondary-experiment-or-method",
+      "reason": "MoSi2单晶横向Seebeck/Peltier互易性与锁相热成像；真实本征输运候补。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 42,
+      "id": "2610.38512",
+      "title": "Tan's Contact for Trapped Spin-Orbit-Coupled Fermi Gases at Finite Temperature",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "自旋轨道耦合冷原子Fermi气Tan接触PIMC，不是固体新材料实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 43,
+      "id": "2610.38528",
+      "title": "Giant piezomagnetic response driven by spin reorientation in the topological Kagome magnet TbMn6Sn6",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-high-priority-experiment",
+      "reason": "TbMn6Sn6单晶磁致伸缩/磁化/输运/Raman，自旋重取向带来巨微分压磁；高优先拓扑磁体物性。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 44,
+      "id": "2610.38594",
+      "title": "Swimming versus Screening: How Activity Reshapes the Ionic Cloud of a Charged Particle",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "带电游泳粒子活性电解质屏蔽理论，非量子材料。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 45,
+      "id": "2610.38597",
+      "title": "Nonreciprocal Floquet tunneling dynamics of spin-orbit-coupled bosonic atoms in a non-Hermitian double-well potential",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "非厄米双阱冷原子Floquet隧穿解析理论，非新固体实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 46,
+      "id": "2610.38622",
+      "title": "High-Performance Nuclear Demagnetization Refrigerator Reaching 50 $μ$K",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-secondary-experiment-or-method",
+      "reason": "50微开尔文核退磁制冷平台实测，低温技术有用但不以新材料性质为主。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 47,
+      "id": "2610.38626",
+      "title": "Topology of Wannierizable Insulators",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "Wannier可构造绝缘体与Wyckoff/绝热等价拓扑分类理论，无新实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 48,
+      "id": "2610.38627",
+      "title": "Uniaxial strain tuning of functional properties in antiferroelectric PbZrO3 membrane capacitors",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-secondary-experiment-or-method",
+      "reason": "金键合转移PZO膜单轴应变调AFE-FE切换，实验+原子模拟；膜应变工程候补。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 49,
+      "id": "2610.38643",
+      "title": "Amorphous selenium-alloyed TeOx thin-film solar cells",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "TeOx:Se非晶薄膜太阳电池，主目标光伏效率而非本期量子物性。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 50,
+      "id": "2610.38651",
+      "title": "Information-Theoretic Reliability--Safety Bounds and Finite-Alignment Dynamics in AI Knowledge Distillation",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "AI蒸馏可靠性/安全性信息论模型，超出材料方向。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 51,
+      "id": "2610.38653",
+      "title": "Finite-time minimum-work protocols for underdamped traps driven by active forces",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "活性受控谐振阱最小功/惯性理论，非量子材料。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 52,
+      "id": "2610.38689",
+      "title": "The effects of hydrodynamic interactions on the swimming velocity and stability of a swarm of microswimmers",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "微游泳群流体相互作用理论，非量子材料。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 53,
+      "id": "2610.38692",
+      "title": "Symmetries and Propagation of Surface Plasmon Polaritons in Axion Electrodynamics",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "轴子电动力学界面SPP现象学色散理论，无真实材料实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 54,
+      "id": "2610.38704",
+      "title": "Gravitational anomaly spectroscopy of a Kitaev spin liquid",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "Kitaev边界引力反常谱学理论/数值与量子处理器协议模拟，非实验自旋液体新证据。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 55,
+      "id": "2610.38724",
+      "title": "Large connectivity expansion of Ising Spin Glasses on random graphs",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "随机图Ising自旋玻璃高连接度解析展开，模型理论。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 56,
+      "id": "2610.38741",
+      "title": "Mixed-State Topological Transition and Emergent Fractionalized Supersymmetry in the Non-Abelian Kitaev Spin Liquid",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "Kitaev混态拓扑/超对称无符号MC模型，非材料实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 57,
+      "id": "2610.38762",
+      "title": "A Luminescent Organic Triradical as an Optically Addressable Qudit",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-secondary-experiment-or-method",
+      "reason": "有机三自由基合成后光学初始化/相干控制/室温ODMR的分子qudit实验；分子自旋候补。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 58,
+      "id": "2610.38783",
+      "title": "Multiscale evaluation of the elastic response of polycrystalline NiAl using molecular statics, EBSD-based finite element and analytical homogenization methods",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "NiAl弹性多尺度模拟/EBSD验证，结构力学方向。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 59,
+      "id": "2610.38801",
+      "title": "Transverse momentum transport and collective-mode localization in dipolar tube arrays",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "偶极一维Bose管阵列Bogoliubov动量输运理论，非固体材料。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 60,
+      "id": "2610.38805",
+      "title": "Spectrum of the steady-state distribution function of disordered Lindbladian fermions at large channel number",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "无序Lindblad自由费米子稳态占据谱理论，无新实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 61,
+      "id": "2610.38850",
+      "title": "Autonomous Quantum Measurement with Agentic AI",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-secondary-experiment-or-method",
+      "reason": "QUANTA代理PPMS自动测TaP/Co2MnGa，实验测量自动化方法；并非优先新材料本征发现。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 62,
+      "id": "2610.38874",
+      "title": "Effect of the surface on the energy levels in PbS and PbSe nanocrystals",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "PbS/PbSe纳晶表面边界条件有效质量计算，非新实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 63,
+      "id": "2610.38876",
+      "title": "Learning Between the Lines: Interaction Interpolation in a Multi Element Machine Learning Interatomic Potential",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "十二元素合金轻量ML势与插值转移学习，材料建模工具。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 64,
+      "id": "2610.38925",
+      "title": "Thermodynamic cost of locally maintaining a steady state",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "局域维持非平衡稳态的信息/熵产生界理论，非材料实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 65,
+      "id": "2610.38928",
+      "title": "Collective sliding relaxor ferroelectricity across thousand-layer van der Waals superstructures",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-secondary-experiment-or-method",
+      "reason": "rBN堆垛相工程/层间滑移产生千层弛豫铁电与低温电致伸缩，真实结构控制实验；优先候补。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 66,
+      "id": "2610.38937",
+      "title": "Development and application of a machine learning potential for diamond surfaces and their sliding interfaces with silicon nitride and silica: effect of passivation, orientation and load",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "金刚石-SiN/SiO2摩擦ML势和滑移模拟，非量子本征物性。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 67,
+      "id": "2610.38943",
+      "title": "Comment on \"Is there a density-gradient expansion for the electronic exchange energy?\"",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-nonprimary",
+      "reason": "交换梯度展开系数争论Comment，非新原始实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 68,
+      "id": "2610.38959",
+      "title": "Separating the Density Wave Phase from Zero-Resistance Superconductivity in La$_4$Ni$_3$O$_{10}$",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "include",
+      "reason": "30日公告确认；本期实际正文精读，章节/图/SI范围逐篇标注",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。",
+      "readingScope": "全文精读：v1 PDF共10页，主文1–8页含Methods、图1–4图注；实际查看第3–5页图2–4。arXiv源包仅main.tex及主图/文献文件，没有SM；补充材料与原始XRD数据链接仍为xxx，SM未获，未声称SI精读。"
+    },
+    {
+      "index": 69,
+      "id": "2610.38966",
+      "title": "Coexistence of superconductivity and magnetic order in BaFe$_2$S$_3$: evidence for orbital-selective delocalization",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-high-priority-experiment",
+      "reason": "BaFe2S3高压XRD/中子/XES/输运显示磁长程序与超导并存而局域矩下降，轨道选择性解释；最高优先多轨道超导。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 70,
+      "id": "2610.38989",
+      "title": "Magnetism in a homometallic square-planar Cu$({\\mathrm{II})}$$_4$Cu$({\\mathrm{II})}$ metallacrown",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-secondary-experiment-or-method",
+      "reason": "Cu4Cu金属冠配体设计抑制分子间作用，磁化/EPR+DFT提取交换与自旋态；分子磁性候补。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 71,
+      "id": "2610.39013",
+      "title": "Spectral theory of large data with power-law latent features",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "幂律潜特征协方差矩阵谱理论，非材料方向。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 72,
+      "id": "2610.39037",
+      "title": "Nonreciprocity Propels Nematic Defects",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "非互易向列缺陷自推进格点/连续模型，无目标材料实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 73,
+      "id": "2610.39039",
+      "title": "Response of Hydrogels and Microgels to Nanoparticle Crowding",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "水凝胶/微凝胶纳颗粒拥挤Flory-Rehner与MC，软物质方向。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 74,
+      "id": "2610.39074",
+      "title": "HERA: Assessing an Autonomous Agent for Quantum Device Measurement",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-secondary-experiment-or-method",
+      "reason": "HERA自主低温量子器件测量及盲试，实验自动化方法；非首要新材料本征稿。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 75,
+      "id": "2610.39081",
+      "title": "A rhombic spin-1 interpretation of a room-temperature GaN emitter",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "已有GaN发射体谱的自旋1/3/2拟合重释，明确不唯一，未报告新原始实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 76,
+      "id": "2610.39098",
+      "title": "The End of Chaos at the Ideal Glass Transition",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "玻璃理想转变Lyapunov指数MD与景观理论，非量子材料。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 77,
+      "id": "2610.39121",
+      "title": "Two faces of symmetry match in gear-like coupled rotary motors",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "耦合分子转子能量转导Fokker-Planck模型，非目标材料。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 78,
+      "id": "2610.39141",
+      "title": "The Constructive Cavity Method for the Ising Perceptron",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "Ising感知器构造腔方法解析理论，非材料实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 79,
+      "id": "2610.39150",
+      "title": "Atomic Charge Chirality from Electric Multipoles",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "电多极子/原子电荷手性群论准则，非新实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 80,
+      "id": "2610.39186",
+      "title": "Berry curvature dipole circuit quantum electrodynamics",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "Berry曲率偶极量子电路三波混频理论提案，无器件实测。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 81,
+      "id": "2610.39192",
+      "title": "Local Josephson response near nonmagnetic impurities and vortices in a two-orbital $s_{\\pm}$ superconductor",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory-context",
+      "reason": "两轨道s±近杂质/涡旋局域Josephson符号计算；解释SJTM的重要理论候补，非新实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 82,
+      "id": "2610.39206",
+      "title": "Nodal magnon spin current at an antiferromagnet/altermagnet junction",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "AFM/交错磁体界面磁振子阀角选择隧穿理论，无新实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 83,
+      "id": "2610.39213",
+      "title": "Lone-Pair Stereoactivity Overrides Mass Scaling of Thermal Expansion and Heat Conduction in Non-vander Waals Layered Bismuth Oxychalcogenides",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-secondary-experiment-or-method",
+      "reason": "Bi2O2X孤对电子热输运模拟+Bi2O2Se单晶热反射/原位XRD验证，结构-热物性相邻候补。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 84,
+      "id": "2610.39218",
+      "title": "Colossal magnetoresistance in narrow-gap magnetic semiconductor Eu$_2$CdAs$_2$",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-high-priority-experiment",
+      "reason": "Eu2CdAs2 Zintl合成、AFM相变和窄隙巨磁阻实验，蝴蝶磁阻/局域极化子机制需区分；高优先生长-磁输运。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 85,
+      "id": "2610.39250",
+      "title": "Polarization-locked chiral persistent spin textures in two-dimensional lead-halide perovskites",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "手性二维铅卤钙钛矿持续自旋纹理DFT/kp拟合，无新实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 86,
+      "id": "2610.39271",
+      "title": "Dissipation dilution enhances SiV coupling to vdW diamond nanomechanics",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-secondary-experiment-or-method",
+      "reason": "张紧金刚石纳梁SiV应变耦合与机械相干同时增强实验，混合量子器件候补。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 87,
+      "id": "2610.39288",
+      "title": "Th$^{4+}$ ion cluster structures and electric field gradients in $^{229}$Th:CaF$_2$",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "Th:CaF2电荷补偿团簇EFG第一性原理，比对旧核钟谱，非新生长实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 88,
+      "id": "2610.39307",
+      "title": "Ten-loop fixed-dimension renormalization-group functions of the three-dimensional O(N) model from distributed GPU-accelerated parametric integration",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "三维O(N)十环RG/GPU积分，纯统计场论。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 89,
+      "id": "2610.39349",
+      "title": "A Zoo of Fermionic Relative Rényi Negativities in the Sachdev-Ye-Kitaev Models",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "SYK混态纠缠Rényi负性大N理论，非新材料实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 90,
+      "id": "2610.39361",
+      "title": "Metastability, collective excitations, and traveling states of one-dimensional spin-orbit-coupled quantum droplets",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "自旋轨道耦合Bose液滴变分/Bogoliubov理论，非固体材料。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 91,
+      "id": "2610.39405",
+      "title": "Aging and protocol dependence of thermal activation events in structural glasses",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "结构玻璃老化/势能景观模拟，非目标量子物性。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 92,
+      "id": "2610.39428",
+      "title": "Graphene Islands as a Platform for Band-Structure Engineering",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "石墨烯纳米岛近邻能带工程紧束缚理论，非新实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 93,
+      "id": "2610.39436",
+      "title": "Hop rates of H and D on Pt(111) at finite coverage: the memory equation and the collective friction",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "已发表H/D在Pt表面散射数据的记忆方程重分析，无新材料实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 94,
+      "id": "2610.39465",
+      "title": "Resisting Drying Stress in Laponite Bentonite Clay Composites, Two Step Yielding and Crack Peel Selection",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "黏土干燥抗裂/屈服实验，非目标方向。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 95,
+      "id": "2610.39495",
+      "title": "Predicting unstable planar fault energies in multicomponent alloys from pure elemental components",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "合金不稳定层错能EAM/DFT预测，结构力学计算。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 96,
+      "id": "2610.39511",
+      "title": "Itô versus Stratonovich for shot noise with state-dependent amplitude: why the answer is Marcus",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "状态依赖shot noise的Marcus积分/随机微分方程理论，非材料新实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 97,
+      "id": "2610.39514",
+      "title": "Tunable periodic cascade of delocalization transitions in non-Hermitian IAAF model",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "非厄米IAA-Fibonacci局域化级联模型计算，非材料实测。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 98,
+      "id": "2610.39523",
+      "title": "Thermalization-Controlled Superconducting Diode-Like Transport in Disordered Molybdenum and NbN Thin Films",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-high-priority-experiment",
+      "reason": "Mo/NbN薄膜伪超导二极管随热化环境改善而抑制，扫序/热边界对照；重要实验纠偏候补，不能叫本征非互易。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 99,
+      "id": "2610.39529",
+      "title": "Multiple Current Enhancement Regimes and Interaction Induced Re-entrant Transport in a Quasiperiodic Hubbard Ring with Antiferromagnetic Order",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "准周期Hubbard环AFM持续电流均场/ED/DMRG理论，无新实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 100,
+      "id": "2610.39555",
+      "title": "Edge-Plasmon-Induced Magnetization in Higher Chern Insulators",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "高Chern边界等离激元诱导磁化半经典模型，非新实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 101,
+      "id": "2610.39568",
+      "title": "Diffusion models for the $O(3)$ nonlinear sigma model",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "O(3)Heisenberg扩散模型采样/诊断工具，无真实材料实测。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 102,
+      "id": "2610.39575",
+      "title": "Hidden Phase Transition in Single-Polymer Stretching under Elongational Flow",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "聚合物伸长流第二转变ML/模型并有DNA支持，软物质方向。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 103,
+      "id": "2610.39604",
+      "title": "Spin-Polarized Weyl Fermions and Unconventional Spin Transport",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "BiAs等二维铁电体自旋Weyl与输运第一性原理预测，非实测。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 104,
+      "id": "2610.39612",
+      "title": "Fractal dimensions of paths on three-dimensional random-walk traces",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "三维随机游走路径分形维数MC，非材料方向。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 105,
+      "id": "2610.39622",
+      "title": "Ultrasound-Assisted Facile Nanoconfinement of Luminescent Guests in Zirconium Metal-Organic Frameworks",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "超声UiO-MOF染料封装/发光，合成快速但偏照明/传感而非量子材料主线。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 106,
+      "id": "2610.39623",
+      "title": "Origin and photoluminescence of a shallow hydrogen-related donor in silicon",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "硅氢浅施主缺陷HSE/DFT归属，结合旧光谱，非新实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 107,
+      "id": "2610.39624",
+      "title": "Fluctuation-dissipation relation in branching particle systems",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "分支粒子/细胞克隆涨落耗散理论，非材料方向。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 108,
+      "id": "2610.39625",
+      "title": "Non-Volatile Memory Devices for Neuromorphic Computing",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-nonprimary",
+      "reason": "神经形态非易失存储章节综述，非新原始实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 109,
+      "id": "2610.39632",
+      "title": "Temporal Correlations and Optimal Feedback Control of an Active Information Engine",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "宏观bristle机器人信息引擎反馈实验，非量子材料。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 110,
+      "id": "2610.39669",
+      "title": "High-Field Heat Capacity of Atacamite Cu$_2$Cl(OH)$_3$ for $\\mathbf{H} \\parallel b$ axis: From Antiferromagnetic Order to Correlated Disorder",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-high-priority-experiment",
+      "reason": "atacamite Cu2Cl(OH)3至35T比热，AFM向关联无序/自旋隙演化；高优先受挫磁性实验，spin-liquid-like非确定自旋液体。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 111,
+      "id": "2610.39694",
+      "title": "Exceptional Superconducting Interfaces between Graphene and Atomic Chains in A15-MoRe",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-high-priority-experiment",
+      "reason": "石墨烯/MoRe低温输运+XRD+原子TEM，A15沉积态/退火hcp与Josephson透明度关联；最高优先生长/界面超导。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 112,
+      "id": "2610.39695",
+      "title": "Observation of light-induced topological state in graphene",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-high-priority-experiment",
+      "reason": "圆偏泵浦石墨烯时间分辨动量显微ARPES，helicity反转二色性与理论对应；高优先Floquet拓扑谱学，模型归属须核。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 113,
+      "id": "2610.39696",
+      "title": "Pulse Laser Deposited GaFeO3 Thin Film Grown on FTO: Correlated Ferroic Orders and Strong Magnetodielectric Coupling at Room Temperature",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-secondary-experiment-or-method",
+      "reason": "FTO上PLD GaFeO3磁/铁电/磁介电实验，但摘要tanδ≈2.83并非低损耗，磁电归因须强漏电/电阻对照；保留低优先。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 114,
+      "id": "2610.39710",
+      "title": "Phonon Fluctuations Enhanced Superconductivity in a Three-Band Cuprate Model",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory-context",
+      "reason": "三带铜氧化物B1g声子促进d波配对模型计算，非新实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 115,
+      "id": "2610.39713",
+      "title": "I$_4$ complex acting as near-infrared emitter with a quantum memory in silicon",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "硅I4近红外发射与量子存储的HSE预测/旧谱归属，非新实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 116,
+      "id": "2610.39736",
+      "title": "Influence of hydrophobic polyelectrolyte composition on pH-dependent solubilization of lipid bilayer membranes",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "疏水聚电解质溶解脂双层实验，生物软物质方向。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 117,
+      "id": "2610.39737",
+      "title": "Moiré-enabled chiral plasmons in twisted bilayer graphene nanoislands",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope-or-theory",
+      "reason": "扭转石墨烯纳米岛手性等离激元紧束缚/密度矩阵计算，无新实验。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 118,
+      "id": "2610.39748",
+      "title": "Direct Observation of Electron Trapping States in SiO$_2$ by Constant-Final-State Photoelectron Yield Spectroscopy: Insights into the Electron-Transfer Model of Contact Electrification",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-secondary-experiment-or-method",
+      "reason": "非晶SiO2 CFS光电子产额谱直接测陷阱态/退火作用，方法与界面电子相邻候补。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 119,
+      "id": "2610.39749",
+      "title": "Sign reversal of ST-FMR signals in CoFeB/Pt explained by contributions beyond spin-orbit torque",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-secondary-experiment-or-method",
+      "reason": "CoFeB/Pt ST-FMR符号反转源于非力矩寄生电压的互补几何实验，磁性表征纠偏候补。",
+      "duplicateCheck": {
+        "report64": false,
+        "catalog706": false
+      },
+      "screeningScope": "完整题名与摘要已逐条阅读；未读正文，不能据摘要确认生长参数/配对对称性/内禀机制。"
+    },
+    {
+      "index": 120,
+      "id": "2610.39770",
+      "title": "Growth and morphology of core-shell nanowires incorporating dissimilar hexagonal semiconductors: the case of InAs-ZnTe",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "priority-experiment-growth",
+      "reason": "InAs–ZnTe双腔MBE核壳与TEM，晶面竞争/初始高粘附率/单层至25nm外延直接关联生长。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39770"
+    },
+    {
+      "index": 121,
+      "id": "2610.39793",
+      "title": "Two-dimensional binary Lennard-Jones mixtures with ECMC",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope",
+      "reason": "二维Lennard-Jones混合物ECMC算法与耗尽效应基准，非目标晶体电子材料新实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39793"
+    },
+    {
+      "index": 122,
+      "id": "2610.39815",
+      "title": "High-temperature expansion of the inverse-square Ising chain in a magnetic field: exact coefficients and finite-size reconstruction",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory",
+      "reason": "逆平方Ising链高温展开精确系数；磁性理论相关，无材料生长或测量。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39815"
+    },
+    {
+      "index": 123,
+      "id": "2610.39822",
+      "title": "Steering interfacial molecular structures by substrate-molecule charge transfer",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-experiment",
+      "reason": "Ag(111)上C60/Zn-TAPP混合自组装STS/KPFS实测，界面电荷与结构相关，但非本轮磁/超导重点。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39822"
+    },
+    {
+      "index": 124,
+      "id": "2610.39841",
+      "title": "Epitaxial Magnon Junctions with Y3Fe5O12/Gd3Ga5O12/Pt-nanoparticles/Y3Fe5O12",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "priority-experiment-growth",
+      "reason": "YIG/GGG/Pt纳米粒/YIG外延磁振子结实验，晶体质量/阻尼及43%MJR直接相关。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39841"
+    },
+    {
+      "index": 125,
+      "id": "2610.39886",
+      "title": "Quantum Hamiltonian time crystals from covariant quantum Landau--Lifshitz--Gilbert relaxation",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory",
+      "reason": "量子Hamiltonian时间晶体与LLG松弛模型，Cu3仅模型动机，未报新实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39886"
+    },
+    {
+      "index": 126,
+      "id": "2610.39887",
+      "title": "Ammonium thiocyanate enables in-situ structural templating of MAPbI3 via quasi-2D perovskite scaffold",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-experiment-growth",
+      "reason": "NH4SCN调准二维钙钛矿成核窗口与3D模板生长，结构/光谱实验；光伏方向次于磁超导。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39887"
+    },
+    {
+      "index": 127,
+      "id": "2610.39894",
+      "title": "Excitons in solid molecular hydrogen from quantum Monte Carlo",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory",
+      "reason": "固态氢激子QMC/BSE/TDDFT比较，计算方法与高压理论，无新生长实测。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39894"
+    },
+    {
+      "index": 128,
+      "id": "2610.39909",
+      "title": "Kelvin-Wave Multiplication by Sound Emission",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory",
+      "reason": "Kelvin波声发射与Gross-Pitaevskii模拟，量子流体理论，非固态超导实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39909"
+    },
+    {
+      "index": 129,
+      "id": "2610.39929",
+      "title": "Ensemble-dependent effect of disorder on multicritical points in a system with long-range interactions",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope",
+      "reason": "长程BEG模型微正则/正则系综与无序多临界性，未指向目标材料实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39929"
+    },
+    {
+      "index": 130,
+      "id": "2610.39942",
+      "title": "Majorana Zero Modes in Fractional Vortices",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory",
+      "reason": "分数涡旋Majorana局域/非局域谱预测，铁基实验为动机，本文是理论。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39942"
+    },
+    {
+      "index": 131,
+      "id": "2610.39943",
+      "title": "Monte Carlo simulation of mixed spin-orbit ordering",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory",
+      "reason": "Kugel-Khomskii混合自旋轨道准经典Monte Carlo，无新材料实测。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39943"
+    },
+    {
+      "index": 132,
+      "id": "2610.39961",
+      "title": "Microscopic Mechanism and Control of Reentrant Localization",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory",
+      "reason": "准周期二聚链再入局域机制及阈值解析，无目标材料实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39961"
+    },
+    {
+      "index": 133,
+      "id": "2610.39969",
+      "title": "Selective effects of selenium substitution on superconductivity and magnetic memory in 4Hb-TaS2",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "include",
+      "reason": "30日公告确认；本期实际正文精读，章节/图/SI范围逐篇标注",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39969",
+      "readingScope": "全文精读：15页公开PDF，主文第1–10页、图1–3、生长与SQUID方法及合并SI第13–15页图S1–S4已读；实际查看主图1和SI图S3。未把参考文献中的旧STM或CDW结果算本篇新测量。"
+    },
+    {
+      "index": 134,
+      "id": "2610.39973",
+      "title": "Nonequilibrium statistical thermodynamics of a small quantum system coupled to quantum reservoirs",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope",
+      "reason": "小量子系统与库的非平衡热力学形式主义，未报目标晶体实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39973"
+    },
+    {
+      "index": 135,
+      "id": "2610.39974",
+      "title": "Confinement Controlled Phase-Pure 2D Layered Perovskites for Band-Edge Engineering",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-experiment-growth",
+      "reason": "限域合成高n相纯二维铅溴钙钛矿微晶粉，XRD/EDS/光谱及压片光电，生长/相纯直接相关。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39974"
+    },
+    {
+      "index": 136,
+      "id": "2610.39978",
+      "title": "Electronic liquid crystals and superconductivity from doping a moiré Mott insulator",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "high-related-pending-read",
+      "reason": "扭转双层WSe2条纹—超导相变实验强相关，但根已改列候补；仅完成题名/完整摘要筛选，未精读正文或SI。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39978"
+    },
+    {
+      "index": 137,
+      "id": "2610.39979",
+      "title": "Evidence for an effective gauge field in flakes of superconducting 4Hb-TaS2",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "include",
+      "reason": "30日公告确认；本期实际正文精读，章节/图/SI范围逐篇标注",
+      "abstractRead": "题名/完整摘要及正文Methods/关键图/SI已读，范围见fresh-reading-audit.json",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39979",
+      "readingScope": "全文精读：21页PDF的主文第1–9页、图1–3及Methods；第10页数据声明和第11页参考文献已读。合并SI第12–21页图S1–S7、S7.1–S7.3推导均已读；实际视觉核查第3/5/7/12/14/16/19/20页。"
+    },
+    {
+      "index": 138,
+      "id": "2610.39986",
+      "title": "Thermodynamic Crossovers in Supercritical Matter: One, No One, and One Hundred Thousand",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope",
+      "reason": "超临界流体交叉线定义/普适性讨论，非目标晶体磁超导实测。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39986"
+    },
+    {
+      "index": 139,
+      "id": "2610.39994",
+      "title": "Non-Bloch Dynamical Quantum Phase Transitions with Memory",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory",
+      "reason": "带记忆基底的开放链非Bloch动力学相变/点隙绕数理论，无材料实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39994"
+    },
+    {
+      "index": 140,
+      "id": "2610.40059",
+      "title": "Influence of pairing and correlations on transport properties in three-terminal superconducting nanostructure",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory",
+      "reason": "三端量子点配对/Kondo/Andreev导电热电理论，未报新器件测量。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40059"
+    },
+    {
+      "index": 141,
+      "id": "2610.40060",
+      "title": "Dynamical mean-field theory for associative memory with block-correlated patterns",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope",
+      "reason": "相关模式联想记忆神经网络DMFT，不是电子材料DMFT新结果。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40060"
+    },
+    {
+      "index": 142,
+      "id": "2610.40066",
+      "title": "Quantum Metric Scaling and Its Exceptions in Classical Flat Bands",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope",
+      "reason": "经典质量弹簧平带局域长度/量子度规标度，非电子晶体平带实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40066"
+    },
+    {
+      "index": 143,
+      "id": "2610.40083",
+      "title": "Magnetotransport experiments on side-contacted topological insulator three-terminal Josephson junctions",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-experiment-superconductivity",
+      "reason": "侧接拓扑绝缘体三端Josephson结磁输运/临界电流轮廓实验，MZM仍为未来目标。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40083"
+    },
+    {
+      "index": 144,
+      "id": "2610.40093",
+      "title": "Static Response of the Strongly Coupled Electron Gas from Diffusion Monte Carlo",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory",
+      "reason": "均匀电子气静态响应DMC与局域场因子数据，计算背景而非新材料测量。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40093"
+    },
+    {
+      "index": 145,
+      "id": "2610.40098",
+      "title": "Single-atom billiards in an ultracold bath with energy-tunable collisions and threshold-sensitive detection",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope",
+      "reason": "Cs单原子在Rb超冷浴中的碰撞实验，非固态晶体生长/本征磁性。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40098"
+    },
+    {
+      "index": 146,
+      "id": "2610.40104",
+      "title": "Continuous tuning of quantum critical behavior in hybrid Josephson junction arrays",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-experiment-superconductivity",
+      "reason": "混合Josephson阵列双栅调量子临界电阻和标度实验，SC/金属/绝缘调控直接相关。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40104"
+    },
+    {
+      "index": 147,
+      "id": "2610.40113",
+      "title": "Non-Gaussian transport in tempered fractional Laplace motion",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope",
+      "reason": "非Gaussian随机输运模型匹配阿米巴细胞载物，生物活性输运。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40113"
+    },
+    {
+      "index": 148,
+      "id": "2610.40117",
+      "title": "Adiabatic Variational Principle: Born-Oppenheimer Theory for Emergent Electronic-Order Dynamics",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory",
+      "reason": "相场式电子序动力学的微观AVP方法，CDW/SDW模拟，无新实测。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40117"
+    },
+    {
+      "index": 149,
+      "id": "2610.40139",
+      "title": "Investigation of perovskite related oxides: structural and magnetic properties",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-unresolved",
+      "reason": "钙钛矿稀土/过渡金属磁相摘要未给明确化学式、测量条件或关键数值，不能据宽泛摘要提升优先。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40139"
+    },
+    {
+      "index": 150,
+      "id": "2610.40149",
+      "title": "Spin-Orbit Coupling Response Theory within the Oriented Spin Space Group Framework",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory",
+      "reason": "有向自旋空间群SOC响应与MAGNDATA高通量分类，非新材料实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40149"
+    },
+    {
+      "index": 151,
+      "id": "2610.40157",
+      "title": "Cubic-Zn(1-x)Mn(x)Te optical modes across the phonon and phonon-polariton regimes",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-experiment-magnetism",
+      "reason": "ZnMnTe合金前向Raman与非弹中子探测局域键环境，实验物性/合金结构相关。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40157"
+    },
+    {
+      "index": 152,
+      "id": "2610.40170",
+      "title": "Coexistence of Superconductivity and Chern insulators with |C| $\\geq 1$ in twisted rhombohedral bilayer-trilayer graphene",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "priority-experiment-superconductivity",
+      "reason": "扭转菱方双层—三层石墨烯同器件超导与Chern绝缘实验，Tc180mK/BKT135mK/面内场2T；强候选。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40170"
+    },
+    {
+      "index": 153,
+      "id": "2610.40176",
+      "title": "Cage-related crystal-field effects in the paramagnetic range of PrB$_6$",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "priority-experiment-magnetism",
+      "reason": "PrB6热容、热膨胀与磁测关联笼内CEF分裂，稀土本征物性直接相关，机制仍属解释。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40176"
+    },
+    {
+      "index": 154,
+      "id": "2610.40215",
+      "title": "Néel vector switching by magnetization-dependent layer-resolved spin-orbit torque",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory",
+      "reason": "MnBi2Te4层分辨SOC转矩/反铁磁翻转第一性原理与动力学，无新实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40215"
+    },
+    {
+      "index": 155,
+      "id": "2610.40222",
+      "title": "Stabilizing fluctuating Cooper pairs with a terahertz resonator",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory",
+      "reason": "THz腔提升无序二维超导Tc平衡理论，约1%为代表参数计算非实测。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40222"
+    },
+    {
+      "index": 156,
+      "id": "2610.40251",
+      "title": "Chiral superconductivity on a closed Klein bottle: a chirality wall and its Majorana seam spectrum",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory",
+      "reason": "Klein瓶格点超导模型与Majorana缝谱，作者不宣称保护零模或自洽畴壁。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40251"
+    },
+    {
+      "index": 157,
+      "id": "2610.40296",
+      "title": "Large Magnetocaloric Effect and Adiabatic Temperature Change in the Tellurate: Gd2TeO6",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "candidate-experiment-magnetism",
+      "reason": "Gd2TeO6多晶结构/磁化/热容磁热实验，绝热温变22.7K为估计，非直接测得。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40296"
+    },
+    {
+      "index": 158,
+      "id": "2610.40297",
+      "title": "Topological Quantum Spin Liquids in a Ladder with Majorana fermions and p-wave Superconductivity",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory",
+      "reason": "可解Majorana自旋梯子拓扑液体与DMRG，无材料实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40297"
+    },
+    {
+      "index": 159,
+      "id": "2610.40298",
+      "title": "Structural signatures of primary and secondary relaxation during physical aging of a metallic glass",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-experiment",
+      "reason": "PdCuNiP金属玻璃老化原位总散射/快速量热，结构动力学方法相关但非晶体磁超导重点。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40298"
+    },
+    {
+      "index": 160,
+      "id": "2610.40317",
+      "title": "Transport in spinful non-Hermitian gauge lattices",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory",
+      "reason": "自旋非Hermitian规范晶格传输矩阵理论，无新材料实测。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40317"
+    },
+    {
+      "index": 161,
+      "id": "2610.40353",
+      "title": "Multidimensional revival dynamics in a bosonic many-body system",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope",
+      "reason": "两站Bose-Hubbard多体复现半经典理论，非目标凝聚态材料新实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40353"
+    },
+    {
+      "index": 162,
+      "id": "2610.40399",
+      "title": "Soliton-Lattice Origin of Incommensurability in High-Pressure Antimony",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory",
+      "reason": "高压Sb-II主客体孤子晶格DFT/ML势机制，对照已有衍射，未报新合成测量。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40399"
+    },
+    {
+      "index": 163,
+      "id": "2610.40410",
+      "title": "Light-induced chiral altermagnets from conventional antiferromagnets",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory",
+      "reason": "Fe2TeO6中红外驱动瞬态手性交变磁性第一性原理/非线性声子预测，非已做光泵实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40410"
+    },
+    {
+      "index": 164,
+      "id": "2610.40416",
+      "title": "Micromagnetic Lagrangian and Hamiltonian Normal-Mode Formulation of Cavity Magnon-Photon Interactions",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory",
+      "reason": "YIG腔磁振子-光子多模Hamiltonian/微磁形式理论，无新晶体测量。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40416"
+    },
+    {
+      "index": 165,
+      "id": "2610.40417",
+      "title": "Seeding and Amplification of Chaos in Long-Range Interacting Spin Chains",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory",
+      "reason": "长程经典Heisenberg链扰动传播与混沌模拟，磁理论背景。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40417"
+    },
+    {
+      "index": 166,
+      "id": "2610.40423",
+      "title": "Electric field control of anisotropic spin traffic between spin-filtering and magnon-scattering in a layered antiferromagnet",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "include",
+      "reason": "30日公告确认；本期实际正文精读，章节/图/SI范围逐篇标注",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [
+        {
+          "id": "arxiv:2610.40423",
+          "title": "Electric field control of anisotropic spin traffic between spin-filtering and magnon-scattering in a layered antiferromagnet",
+          "reportUrl": "/reports/2026-10-30/#paper-9",
+          "source": "https://arxiv.org/abs/2610.40423"
+        }
+      ],
+      "reportIdHits": [
+        "2026-10-30.json"
+      ],
+      "sourceUrl": "https://arxiv.org/abs/2610.40423",
+      "readingScope": "全文精读：24页PDF中主文Introduction/Results/Discussion及Methods（第2–19页）、图1–6已读，实际查看图4/6。独立SI未取得；合法arXiv源码包仅含主文、图及SI标签文件，未含正文引用的完整SI，S1–S48与表S4–S6的细节不伪称已读。"
+    },
+    {
+      "index": 167,
+      "id": "2610.40428",
+      "title": "Teleported free energy simulations",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope",
+      "reason": "自由能模拟流场加teleportation算法与可解势阱，不是新材料合成或物性。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40428"
+    },
+    {
+      "index": 168,
+      "id": "2610.40442",
+      "title": "Time Reflection-Refraction Crossover at Topological Kramers Edge States",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory",
+      "reason": "时间调制量子自旋Hall边缘态反射理论，未报材料实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40442"
+    },
+    {
+      "index": 169,
+      "id": "2610.40460",
+      "title": "Static dipolar impurity in a Fermi gas",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope",
+      "reason": "Fermi气中偶极杂质极化子理论，建议超冷极性分子验证，非固态实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40460"
+    },
+    {
+      "index": 170,
+      "id": "2610.40469",
+      "title": "Chiral $p$-Wave Superconductivity Proximate to a Fractional Chern Insulator and a Topological Charge Density Wave in a Moiré Chern Band",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory",
+      "reason": "扭转MoTe2手性p波超导近FCI/拓扑CDW的ED与Kohn-Luttinger计算，非新超导测量。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40469"
+    },
+    {
+      "index": 171,
+      "id": "2610.40506",
+      "title": "High-throughput quantification of interfacial protein load in monodisperse oil-in-water emulsions",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope",
+      "reason": "食品蛋白乳液界面负载高通量实验，非目标电子材料。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40506"
+    },
+    {
+      "index": 172,
+      "id": "2610.40526",
+      "title": "Quasi-Phases of Quantum Matter",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory",
+      "reason": "量子quasi-phases/临界理论与界面模分类，无材料实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40526"
+    },
+    {
+      "index": 173,
+      "id": "2610.40581",
+      "title": "Odd Elasticity in Strain-Gradient Continua: Anisotropy Classification and Non-Hermitian Elastodynamics",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope",
+      "reason": "主动应变梯度连续介质奇弹性/非Hermitian弹性波，非电子晶体材料。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40581"
+    },
+    {
+      "index": 174,
+      "id": "2610.40596",
+      "title": "Algebraic theory of abelian fractons and beyond",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory",
+      "reason": "分形子/阿贝尔拓扑序代数理论，无实验材料。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40596"
+    },
+    {
+      "index": 175,
+      "id": "2610.40648",
+      "title": "Light-Cone Friedel Oscillations: a Window into van Hove Superconductivity",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory",
+      "reason": "van Hove超导的STM Friedel振荡诊断协议理论，不能称已测STM证据。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40648"
+    },
+    {
+      "index": 176,
+      "id": "2610.40651",
+      "title": "Renormalization for Robust Memory without Synchronization",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "exclude-scope",
+      "reason": "无同步随机规则的经典纠错/存储稳定性证明，不是材料磁记忆实测。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40651"
+    },
+    {
+      "index": 177,
+      "id": "2610.40657",
+      "title": "Variational wavefunctions for ideal anyon gas: superfluid and skyrmion Hall crystal",
+      "section": "New submissions (showing 178 of 178 entries)",
+      "decision": "reserve-theory",
+      "reason": "理想任意子气变分波函数/色超导解释扭转MoTe2，未直接观测新的超导序。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40657"
+    },
+    {
+      "index": 178,
+      "id": "2401.09007",
+      "title": "Operator quantum singular value transformation: Spectral mapping, design and topological invariants",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "cross-reserve-theory",
+      "reason": "2024起始ID的QSVT谱映射/拓扑算法交叉列表，非本轮新材料稿；版本差异未核。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2401.09007"
+    },
+    {
+      "index": 179,
+      "id": "2610.36131",
+      "title": "Universal Critical Jump for Inverse-Square Ising Ferromagnets",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "cross-reserve-theory",
+      "reason": "逆平方Ising临界跃变严格证明，无材料实测；交叉公告不改写原提交日期。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.36131"
+    },
+    {
+      "index": 180,
+      "id": "2610.37745",
+      "title": "Defining 2-group symmetries on lattices and extracting their anomalies",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "高群对称/反常的格点与量子比特数学构造，无目标材料实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.37745"
+    },
+    {
+      "index": 181,
+      "id": "2610.37880",
+      "title": "Interpretable neural equation learning for high-dimensional materials data",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "reserve-method",
+      "reason": "方程学习用于有限元/高通量薄膜沉积数据，数据分析方法候补，非明确新材料物性。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.37880"
+    },
+    {
+      "index": 182,
+      "id": "2610.37930",
+      "title": "Quantum gravity phenomenology in quadrupolar Bose-Einstein condensates: Finite-temperature thermodynamics and projected bounds",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "GUP量子引力在四极BEC的热力学预测，非固态多极磁材料。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.37930"
+    },
+    {
+      "index": 183,
+      "id": "2610.37990",
+      "title": "Symmetry-resolved periods in a cyclic-dominance automaton: separating intrinsic from lattice-induced periodicity",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "循环支配细胞自动机周期/对称商数学模拟，非晶体物性。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.37990"
+    },
+    {
+      "index": 184,
+      "id": "2610.37991",
+      "title": "Reducing the cost of ancilla purification for Majorana quantum computation",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "Majorana量子计算辅助态纯化开销算法，非材料MZM观测。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.37991"
+    },
+    {
+      "index": 185,
+      "id": "2610.38028",
+      "title": "Sample Complexity for Generative Learning of Quantum Measurement Data",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "量子测量数据生成学习样本复杂度，非目标材料新测量。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.38028"
+    },
+    {
+      "index": 186,
+      "id": "2610.38166",
+      "title": "Nonequilibrium Thermodynamics of Semilinear Stochastic Partial Differential Equations",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "半线性SPDE非平衡热力学严格数学框架，无材料实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.38166"
+    },
+    {
+      "index": 187,
+      "id": "2610.38348",
+      "title": "Drift-induced nonreciprocity in image-polariton-mediated dipole emission",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "reserve-theory",
+      "reason": "漂移偏压石墨烯/hBN像极化激元非互易发射理论，二维光学候补。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.38348"
+    },
+    {
+      "index": 188,
+      "id": "2610.38437",
+      "title": "Capacity of the Hopfield-Hebbian dynamics with correlated patterns",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "相关模式Hopfield神经网络容量理论，非材料磁性。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.38437"
+    },
+    {
+      "index": 189,
+      "id": "2610.38533",
+      "title": "Exploring Fractional Quantum Hall States with Deep Learning: From Abelian to Non-Abelian Phases",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "reserve-theory",
+      "reason": "FQH神经网络波函数与有限尺寸拓扑相计算，非新实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.38533"
+    },
+    {
+      "index": 190,
+      "id": "2610.38571",
+      "title": "Nonlinear response and retarded three-point correlators of charge transport",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "相对论无质量带电气体Boltzmann非线性响应，非目标固态输运实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.38571"
+    },
+    {
+      "index": 191,
+      "id": "2610.38614",
+      "title": "Conformal Spectrum of (Super) Chiral Ising and XY Models",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "Gross-Neveu-Yukawa/NJL模型CFT缩放维数理论，非新材料结果。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.38614"
+    },
+    {
+      "index": 192,
+      "id": "2610.38635",
+      "title": "Quantum Gate Engineering in Superconducting NISQ Platforms: Experimental Methods and Emerging Directions",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "reserve-review",
+      "reason": "超导NISQ量子门实验方法综述，偏量子处理器而非新超导材料；交叉列表。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.38635"
+    },
+    {
+      "index": 193,
+      "id": "2610.38663",
+      "title": "Bootstrapping Wilson lines in Critical Bosonic QED$_3$ Part 1: Large-$N$ endpoint correlators and CFT data",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "QED3 Wilson线与bootstrap理论，无材料实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.38663"
+    },
+    {
+      "index": 194,
+      "id": "2610.38702",
+      "title": "The Effective Field Theory Origin of the Fuzzy Sphere Method",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "模糊球CFT有效场论来源，非目标实验材料。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.38702"
+    },
+    {
+      "index": 195,
+      "id": "2610.38780",
+      "title": "An Eigenvector-Continued Green's Function Method",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "reserve-method",
+      "reason": "Green函数降阶代理/矩匹配，计算方法候补，未报新生长或磁测。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.38780"
+    },
+    {
+      "index": 196,
+      "id": "2610.38807",
+      "title": "Generating Multipartite Entanglement via Structured-Bath Engineering",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "结构化浴制备多体纠缠理论与离子实施建议，非材料物性新实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.38807"
+    },
+    {
+      "index": 197,
+      "id": "2610.38821",
+      "title": "From Entanglement Bootstrap to DHR Theory",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "纠缠bootstrap到DHR任意子算符理论证明，非材料实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.38821"
+    },
+    {
+      "index": 198,
+      "id": "2610.38893",
+      "title": "Universality in randomly connected neural networks: old and new on a conjecture of Geman and Hwang",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "随机神经网络普适性/平均场数学，非凝聚态材料DMFT。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.38893"
+    },
+    {
+      "index": 199,
+      "id": "2610.38907",
+      "title": "Generalized Symmetries of QED$_4$ on Non-Spin Manifolds",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "非spin流形QED4广义对称/反常，非磁拓扑材料实测。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.38907"
+    },
+    {
+      "index": 200,
+      "id": "2610.38961",
+      "title": "A First-Order Phase Transition in Spin-Imbalanced BCS Theory of Superconductivity",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "reserve-theory",
+      "reason": "自旋不平衡BCS一阶转变严格证明，无超导材料新观测。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.38961"
+    },
+    {
+      "index": 201,
+      "id": "2610.39059",
+      "title": "Fate of Quantum Magic",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "reserve-theory",
+      "reason": "量子magic热/动力学理论，末尾提出中子见证协议，非已做中子材料测量。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39059"
+    },
+    {
+      "index": 202,
+      "id": "2610.39106",
+      "title": "virasoro_blocks: Software for the 2d bootstrap",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "Virasoro块CFT数值bootstrap软件，非材料实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39106"
+    },
+    {
+      "index": 203,
+      "id": "2610.39169",
+      "title": "Resonance and Transition-Channel Competition in Cavity-Assisted Floquet-State Stabilization",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "腔耗散Floquet稳态选择理论，非目标材料生长/本征物性新实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39169"
+    },
+    {
+      "index": 204,
+      "id": "2610.39338",
+      "title": "Position- and Temperature-Dependent Responsivity in a KID-Based Phonon-Mediated Detector",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "reserve-instrument",
+      "reason": "KID声子探测器MEMS光斑位置/温度响应实验，低温传感器方法而非新超导材料。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39338"
+    },
+    {
+      "index": 205,
+      "id": "2610.39513",
+      "title": "Distilling Large-Scale Machine Learning Interatomic Potentials to Predict Long-Timescale Electrolyte Transport Properties",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "reserve-method",
+      "reason": "ML势蒸馏液态电解质长时输运，计算方法/电池方向非本轮重点。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39513"
+    },
+    {
+      "index": 206,
+      "id": "2610.39703",
+      "title": "Computing with Coupled Oscillator Networks: Optimization, Memory, and Modern AI Primitives",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "耦合振子网络AI优化/记忆/attention综述，非材料本征磁测。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39703"
+    },
+    {
+      "index": 207,
+      "id": "2610.39707",
+      "title": "Non-Markovian quantum-emitter dynamics and bound-state formation in an Aubry--André--Harper photonic lattice",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "AAH光子晶格发射体非Markov/束缚态理论，非目标磁拓扑晶体实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39707"
+    },
+    {
+      "index": 208,
+      "id": "2610.39712",
+      "title": "Maximum-Entropy Ensemble of Quantum Subsystems with a Fixed Average State",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "固定平均态最大熵随机矩阵集合理论，无材料实测。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39712"
+    },
+    {
+      "index": 209,
+      "id": "2610.39731",
+      "title": "Going deep, reaching further: What can Boltzmann machines efficiently represent?",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "Boltzmann机器表示能力/复杂度证明，非材料磁性。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39731"
+    },
+    {
+      "index": 210,
+      "id": "2610.39968",
+      "title": "Ghosts in the nanomachine: dynamical slowing-down in the phase-space of nanomechanical strings",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "reserve-instrument",
+      "reason": "纳米机械Duffing双音ringdown实验，非目标电子材料本征磁超导。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39968"
+    },
+    {
+      "index": 211,
+      "id": "2610.39993",
+      "title": "A physics-informed uncertainty-aware surrogate for $p$-$n$ junction diodes",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "p-n结物理信息代理/不确定度基准，非新材料器件实测。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39993"
+    },
+    {
+      "index": 212,
+      "id": "2610.39997",
+      "title": "Electrochemical functionalization of graphene rationalized by Hammett and Swain-Lupton parameters",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "candidate-experiment-2d-cross",
+      "reason": "单层石墨烯非水电化学官能化/5000循环导电调制实验；今日交叉公告，原始提交/正式状态仍需核。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.39997"
+    },
+    {
+      "index": 213,
+      "id": "2610.40072",
+      "title": "Dissipative controller as a hidden source of errors in quantum gates",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "经典耗散控制器导致量子门噪声的最小模型理论，非材料实测。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40072"
+    },
+    {
+      "index": 214,
+      "id": "2610.40081",
+      "title": "The coupled spread of information and potential-driven motion in evacuating agent populations",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "人群疏散信息/运动耦合代理模拟，非材料。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40081"
+    },
+    {
+      "index": 215,
+      "id": "2610.40084",
+      "title": "Multi-excited random walks on general trees",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "树上多激发随机游走与觅食数学，非晶体物性。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40084"
+    },
+    {
+      "index": 216,
+      "id": "2610.40123",
+      "title": "Multistable nematic liquid crystal pores as reconfigurable optical vortex metasurfaces",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "液晶孔近场光涡旋超表面建模及微米光学验证，非二维电子晶体拓扑。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40123"
+    },
+    {
+      "index": 217,
+      "id": "2610.40125",
+      "title": "Scale-free wave localization at topological multicriticality",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "声学超材料多临界边界模实验，不能混称电子拓扑材料。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40125"
+    },
+    {
+      "index": 218,
+      "id": "2610.40126",
+      "title": "Does System Size Matter in Uncertainty Quantification for Machine Learning Interatomic Potentials?",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "reserve-method",
+      "reason": "ML原子势不确定度系统尺寸标定，计算方法非材料新实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40126"
+    },
+    {
+      "index": 219,
+      "id": "2610.40235",
+      "title": "Three-dimensional QCA that are not stably circuits",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "三维Clifford量子元胞自动机与电路稳定化数学证明。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40235"
+    },
+    {
+      "index": 220,
+      "id": "2610.40299",
+      "title": "Bulk gap stability and spectral flow for fermions with weak long-range interactions",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "reserve-theory",
+      "reason": "弱长程相互作用费米子体隙稳定/谱流证明，超导配对仅一般项，无实测。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40299"
+    },
+    {
+      "index": 221,
+      "id": "2610.40337",
+      "title": "Local determination of low-energy states in gapped fermion systems with weak long-range interactions",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "reserve-theory",
+      "reason": "有隙费米子局域低能态确定性/扰动界理论，无材料实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40337"
+    },
+    {
+      "index": 222,
+      "id": "2610.40371",
+      "title": "Exact holographic superfluid at the Bogomolny point: transport, large charge, and Rényi entropies",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "AdS5全息超流解析解，不是实际固态超导合成/测量。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40371"
+    },
+    {
+      "index": 223,
+      "id": "2610.40443",
+      "title": "Framework-Conditional Open Materials Generation",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "reserve-method",
+      "reason": "框架条件无机晶体生成模型及SUN基准，只是预测稳定结构，未合成。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40443"
+    },
+    {
+      "index": 224,
+      "id": "2610.40445",
+      "title": "ML-COHP: predicting bond descriptors using latent space of a universal interatomic potentials",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "reserve-method",
+      "reason": "ML-COHP从MACE预测键强/晶界与纳米颗粒，DFT计算方法无新生长实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40445"
+    },
+    {
+      "index": 225,
+      "id": "2610.40471",
+      "title": "Nonlinear Dynamical Systems as Scalable and Efficient Physical Neural Networks",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "物理神经网络MNIST/CIFAR模拟与估算能效，非材料物性。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40471"
+    },
+    {
+      "index": 226,
+      "id": "2610.40515",
+      "title": "Single-Temperature Ranked Greedy Cluster Exchange for Max-Cut on Two-Dimensional Tori",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "二维环面Ising/MaxCut优化算法，不是自旋玻璃材料测量。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40515"
+    },
+    {
+      "index": 227,
+      "id": "2610.40567",
+      "title": "Algebraic strong-to-weak symmetry breaking and partial decodability in the surface code",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "表面码噪声解码/混态对称性与sigma模型，非目标材料实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40567"
+    },
+    {
+      "index": 228,
+      "id": "2610.40592",
+      "title": "Toric codes all the way down: decoupling translation-invariant topological CSS codes in higher dimensions",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "高维CSS码解耦/toric码算法理论，非晶体拓扑实测。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40592"
+    },
+    {
+      "index": 229,
+      "id": "2610.40593",
+      "title": "Probing fluctuations in photon emission statistics of spin injected quantum dots with time dependent electronic excitation",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "reserve-experiment",
+      "reason": "CoFeB/MgO自旋注入InGaAs量子点光子统计实验，器件自旋光子方向，次于磁材料本征重点。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40593"
+    },
+    {
+      "index": 230,
+      "id": "2610.40598",
+      "title": "On Zeros and Algorithms for Disordered Systems II: The Antiferromagnetic Ising Model up to Kesten-Stigum",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "随机图反铁磁Ising配分函数多项式算法，无材料实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40598"
+    },
+    {
+      "index": 231,
+      "id": "2610.40612",
+      "title": "Exceptional Points as Witnesses of Non-Gaussian Noise",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "非Gaussian噪声exceptional-point见证与原子干涉读出理论，非磁拓扑晶体实测。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40612"
+    },
+    {
+      "index": 232,
+      "id": "2610.40628",
+      "title": "Locality in Dissipative Ground-State Preparation",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "reserve-theory",
+      "reason": "自由费米子耗散基态制备局域性Lindblad定理，无实验材料。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40628"
+    },
+    {
+      "index": 233,
+      "id": "2610.40638",
+      "title": "Entanglement diagnostics of stochastic-resetting steady states: theory and measurement on superconducting qubits",
+      "section": "Cross submissions (showing 56 of 56 entries)",
+      "decision": "exclude-scope",
+      "reason": "IBM超导处理器随机重置纠缠测量，非超导材料本征性质新结果。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2610.40638"
+    },
+    {
+      "index": 234,
+      "id": "2005.12704",
+      "title": "Dynamic Peach-Koehler self-force, inertia, and radiation damping of a regularized dislocation",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "replacement-not-new",
+      "reason": "2020起始ID的位错Peach-Koehler自力弹性理论修订，不能作为30日独立新稿；版本差分未核。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2005.12704"
+    },
+    {
+      "index": 235,
+      "id": "2311.07725",
+      "title": "Disorder as a route to topological spin textures in amorphous magnets",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "replacement-reserve-theory",
+      "reason": "2023起始非晶FeGe无序拓扑纹理DFT/Monte Carlo修订，非本期新实验；未核新增内容不独立计数。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2311.07725"
+    },
+    {
+      "index": 236,
+      "id": "2312.11206",
+      "title": "GAnnET: A principled approach to automatically annotating charge stability diagrams",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "replacement-not-new",
+      "reason": "2023量子点电荷稳定图自动标注算法修订，非目标新材料实验。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2312.11206"
+    },
+    {
+      "index": 237,
+      "id": "2406.17778",
+      "title": "Quantum Hall transformer in a quantum point contact over the full range of transmission",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "replacement-reserve-theory",
+      "reason": "2024量子Hall变压器理论修订，摘要引用既有实验；未核版本差分，不当新实验稿。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2406.17778"
+    },
+    {
+      "index": 238,
+      "id": "2407.16257",
+      "title": "Computational quantum transport: a scattering approach perspective",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "replacement-reserve-review",
+      "reason": "2024量子输运散射/Green函数计算综述修订，非独立当日新稿。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2407.16257"
+    },
+    {
+      "index": 239,
+      "id": "2409.19084",
+      "title": "Active morphodynamics of intracellular organelles in the trafficking pathway",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "replacement-not-new",
+      "reason": "2024胞内细胞器主动形态动力学修订，题域不符且非独立新稿。",
+      "abstractRead": "题名及完整摘要逐条阅读；未读主文/SI",
+      "catalogHits": [],
+      "reportIdHits": [],
+      "sourceUrl": "https://arxiv.org/abs/2409.19084"
+    },
+    {
+      "index": 240,
+      "id": "2501.11964",
+      "title": "Chiral Geometric Qubit in a Frustrated Molecular Spin Triangle",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "Cu₃分子自旋三角形手性几何量子位，主要为DFT/多参考理论；分子量子计算次优先。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 241,
+      "id": "2502.04439",
+      "title": "Quantum noise spectroscopy of superconducting dynamics in a cuprate thin film",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "candidate-replacement-version-delta-unverified",
+      "reason": "BSCCO薄膜NV量子噪声谱同时分辨准粒子、临界涨落与涡旋动力学，强实验物性候选。 本条仅旧稿修订；未核新版本相对旧版的新增内容，暂不纳入当日新文。"
+    },
+    {
+      "index": 242,
+      "id": "2503.12632",
+      "title": "Long-range correlations in a locally constrained exclusion process",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "局域约束排斥过程的聚集与非平衡长程关联，抽象模型，无具体材料生长或实测。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 243,
+      "id": "2503.14091",
+      "title": "Raman Circular Dichroism and spinon Quantum Geometry of Chiral Quantum Spin Liquids",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "手性量子自旋液体Raman圆二色性与自旋子量子几何理论，相关但非直接实验新证据。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 244,
+      "id": "2510.23064",
+      "title": "LightPFP: A Lightweight Route to Ab Initio Accuracy at Scale",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "蒸馏机器学习势与MgO熔点校准，计算工具方法，低于具体材料生长/物性。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 245,
+      "id": "2511.14404",
+      "title": "Shape dependence of Edelstein and magnetoelectric effects in the V-shaped model",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "V形链Edelstein/磁电响应的形状依赖理论，模型清楚但无具体实样。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 246,
+      "id": "2511.19725",
+      "title": "Crystal Orbital Guided Iteration to Atomic Orbitals: A Pathway to Chemically Adaptive Atomic Orbitals from DFT",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "COGITO局域原子轨道与紧束缚插值方法，成键分析工具候选，非材料实验。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 247,
+      "id": "2511.22557",
+      "title": "Curvature-stabilized three-dimensional spiral states and local-field nucleation of skyrmions on spherical caps",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "candidate-replacement-version-delta-unverified",
+      "reason": "曲面Pt/Co/Ta磁螺旋与MFM探针诱导斯格明子，制备和无扰成像对照直接相关。 本条仅旧稿修订；未核新版本相对旧版的新增内容，暂不纳入当日新文。"
+    },
+    {
+      "index": 248,
+      "id": "2512.09466",
+      "title": "A First Look at Hydrogen Generation in an Ultramafic Rock with Micro-CT and SEM-BEX",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "超镁铁质岩水反应的气体微CT与产氢，地质反应和孔隙输运，非目标固体物性。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 249,
+      "id": "2601.04104",
+      "title": "Point-Group Equivariant Neural Networks for Local Dynamics in Lattice Systems",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "点群等变网络模拟Holstein电荷密度波畴粗化，计算动力学方法次优先。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 250,
+      "id": "2601.12656",
+      "title": "Kineo-Elasticity and Nonreciprocal Phonons by Rashba-induced Interfacial Spin-Lattice Coupling",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "界面Rashba自旋—晶格耦合驱动非互易声子，磁异质结构理论候选。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 251,
+      "id": "2602.01786",
+      "title": "Rheologically tuned diffusion modulates quorum sensing in Vibrio fischeri",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "细菌泳动、流变和群体感应生物物理，排除本轮材料主题。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 252,
+      "id": "2602.05899",
+      "title": "Giant bubbles of Fisher zeros in the quantum XY chain",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "量子XY链Fisher零点与谱形因子，纯多体模型次优先。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 253,
+      "id": "2602.05900",
+      "title": "Reducing the Computational Cost Scaling of Tensor Network Algorithms via Field-Programmable Gate Array Parallelism",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "FPGA并行张量网络复杂度改进，计算硬件算法，非材料证据。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 254,
+      "id": "2602.05901",
+      "title": "Spontaneous Parity Breaking in Quantum Antiferromagnets on the Triangular Lattice",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "三角XXZ及双层反铁磁模型的宇称破缺和超固体，理论次优先。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 255,
+      "id": "2602.11932",
+      "title": "Thermal Strain-Driven Periodic Ripples in Ultrathin Sb2Te3/Graphene Heterostructures and their Implications for Strain Engineering",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "candidate-replacement-version-delta-unverified",
+      "reason": "石墨烯上外延超薄Sb₂Te₃约8.7nm波纹，冷却热应变与电子结构联动，强生长/物性候选。 本条仅旧稿修订；未核新版本相对旧版的新增内容，暂不纳入当日新文。"
+    },
+    {
+      "index": 256,
+      "id": "2603.11517",
+      "title": "Meta-generalized gradient approximation made in the Hartree gauge",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "Hartree规范下交换能密度泛函构造，电子结构方法，非目标实样。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 257,
+      "id": "2603.19769",
+      "title": "Increasing valley splitting in Si/SiGe by practically achievable heterostructure profiles",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "candidate-replacement-version-delta-unverified",
+      "reason": "Si/SiGe可MBE实现的Ge剖面设计提高谷劈裂，具工艺可行性导向的理论候选。 本条仅旧稿修订；未核新版本相对旧版的新增内容，暂不纳入当日新文。"
+    },
+    {
+      "index": 258,
+      "id": "2603.27590",
+      "title": "First-order polarization process as an alternative to antiferroelectricity",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "candidate-replacement-version-delta-unverified",
+      "reason": "CaTiO₃/NdGaO₃外延取向与应变诱导双P–E回线，区分一阶极化旋转和反铁电性，强实验候选。 本条仅旧稿修订；未核新版本相对旧版的新增内容，暂不纳入当日新文。"
+    },
+    {
+      "index": 259,
+      "id": "2604.01512",
+      "title": "Variational Iterative Rotation Algorithm: Combinatorial Optimization with Classical Kicked Tops",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "经典踢陀螺实现组合优化及QAOA比较，非材料生长/物性主线。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 260,
+      "id": "2604.10483",
+      "title": "Geometric assembly of topology in hybrid bosonic bands: magnon-phonon excitations in skyrmion crystals",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "斯格明子晶格磁振子—声子混合Berry曲率分解，相关拓扑激发理论。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 261,
+      "id": "2604.13752",
+      "title": "Dynamic Behaviors of Materials Under Angle-Resolved Experiments: A Matrix Framework for Nonlinear Physics",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "动态角分辨SHG矩阵框架并以Td-WTe₂实验拟合示范，非线性测量方法候选。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 262,
+      "id": "2604.15417",
+      "title": "Ultrastrong Coupling Signatures in Photon Statistics from Terahertz Higgs-Polaritons",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "腔嵌2H-NbSe₂的Higgs极化激元光子统计理论，具体平台但无新实测。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 263,
+      "id": "2604.16026",
+      "title": "Micromechanical insights into unconstrained grain boundary sliding",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "candidate-replacement-version-delta-unverified",
+      "reason": "Ni双晶微柱隔离晶界滑移，温度/应变率与位错机制关联，直接结构力学候选。 本条仅旧稿修订；未核新版本相对旧版的新增内容，暂不纳入当日新文。"
+    },
+    {
+      "index": 264,
+      "id": "2604.17600",
+      "title": "Activation and Avalanche Length Scales in the Finite-Temperature Creep of an Elastic Interface",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "弹性线有限温度蠕变的激活和雪崩长度标度，泛统计模型。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 265,
+      "id": "2604.19661",
+      "title": "Intrinsic $i$-wave altermagnetism in 2D graphene superlattices",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "石墨烯反点阵单/双层i波交错磁性紧束缚及第一性原理，二维磁性理论候选。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 266,
+      "id": "2604.28187",
+      "title": "Enhancement of superconducting stiffness in hybrid superconducting-metallic bilayers",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "超导—金属双层掺杂及相刚度竞争，强关联模型，非实样增强结果。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 267,
+      "id": "2605.03448",
+      "title": "Single-stripe magnetic order and bilayer spin dynamics in single-crystalline La3Ni2O7",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "candidate-replacement-version-delta-unverified",
+      "reason": "La₃Ni₂O₇大单晶中子自旋谱揭示单条纹、能隙与层间反铁磁耦合，最高实验物性优先。 本条仅旧稿修订；未核新版本相对旧版的新增内容，暂不纳入当日新文。"
+    },
+    {
+      "index": 268,
+      "id": "2605.06293",
+      "title": "Solvent-induced memory effects in a model electrolyte",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "电解液中离子—溶剂记忆与广义Langevin理论，软物质方法非主线。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 269,
+      "id": "2605.07615",
+      "title": "Hydrodynamics and boundary-induced phase transitions in the $n$-species particle-exchange process",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "多物种粒子交换过程Burgers流体力学和边界相图，抽象统计模型。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 270,
+      "id": "2605.08490",
+      "title": "Antiferro-Chiral Phonons as Conjugate Fields to Néel Order in $\\mathcal{P}\\mathcal{T}$-Symmetric Antiferromagnets",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "PT反铁磁体交错手性声子耦合Néel序的共轭场机制，相关声子/磁性理论。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 271,
+      "id": "2605.10191",
+      "title": "Computing eigenpairs of quantum many-body systems with Polfed.jl",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "Polfed.jl多体谱中段本征对算法及GPU，计算工具非具体材料。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 272,
+      "id": "2605.11012",
+      "title": "Inverse Design of Metainterfaces towards Static Friction Control: Beyond the Hertzian Limit",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "静摩擦元界面逆设计与BEM验证，接触力学工程低优先。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 273,
+      "id": "2605.12333",
+      "title": "Link length and energy fluctuations in extensible freely jointed chains",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "可伸长自由连接高分子链长度/能量涨落，非晶体/量子材料主题。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 274,
+      "id": "2605.12588",
+      "title": "Coherent control of spinmons",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "Andreev准粒子与transmon混合spinmon控制及相干理论，量子器件次优先。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 275,
+      "id": "2605.20869",
+      "title": "The Topography Trap: Sifting Interlayer Excitons from Strain-Related Artifacts in Real-World 2D Heterostructures",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "candidate-replacement-version-delta-unverified",
+      "reason": "TMDC异质结PL与AFM逐点关联，排查气泡/应变伪层间激子，强实验判据候选。 本条仅旧稿修订；未核新版本相对旧版的新增内容，暂不纳入当日新文。"
+    },
+    {
+      "index": 276,
+      "id": "2605.26927",
+      "title": "Structure and energetics of grain boundaries in self-assembled double-gyroid block copolymer networks",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "双螺旋嵌段共聚物晶界结构与熵能学，软晶体SCFT次优先。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 277,
+      "id": "2605.28286",
+      "title": "Photon-energy-programmable subnanometric electron birth-site control",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "单分子发射电子出生位点的光子能量切换，分子发射非目标晶体主线。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 278,
+      "id": "2605.29617",
+      "title": "Finite-temperature micromagnetic model bridging atomic- and macro-scale magnetism",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "LLBe有限温度微磁多尺度模型及热辅助记录，模拟工具候选。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 279,
+      "id": "2606.01785",
+      "title": "Excitonic-Superconducting Coexistence and Emergent Nematic Superconductivity Driven by Spontaneous Symmetry Breaking",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "费米面失配下激子与向列超导共存，MoTe₂/NaAlSi是候选而非实验证实。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 280,
+      "id": "2606.13143",
+      "title": "A first-principles approach for predicting infrared optical properties of solids",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "包含四声子散射/重整化的红外常数第一性原理方法，以MgO/TiO₂验证。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 281,
+      "id": "2606.14542",
+      "title": "Boltzmann-like occupation of nonequilibrium steady states on dense disordered networks",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "稠密无序网络非平衡稳态Boltzmann样占据定理，泛统计理论。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 282,
+      "id": "2606.14588",
+      "title": "Tailoring the properties of YBa$_{2}$Cu$_{3}$O$_{7-δ}$ thin films by 30-keV He$^+$ irradiation: An enabling route to superconducting device nanopatterning",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "candidate-replacement-version-delta-unverified",
+      "reason": "30keV He⁺照射YBCO外延膜，XRD/Raman/Hall把缺陷散射与氧耗尽分开，强工艺窗口候选。 本条仅旧稿修订；未核新版本相对旧版的新增内容，暂不纳入当日新文。"
+    },
+    {
+      "index": 283,
+      "id": "2606.23043",
+      "title": "Altered temporal scaling of semantic similarity fluctuations in psychosis",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "精神病语言语义涨落标度，临床/语言分析，排除。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 284,
+      "id": "2607.02236",
+      "title": "Efficient Large-Scale STEM-EELS Simulations With Torched-TACAW",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "Torched-TACAW振动/磁振子STEM-EELS大尺度模拟，表征方法相关但非实样新结果。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 285,
+      "id": "2607.06378",
+      "title": "Hybrid Dynamical Simulation Reveals Apparent Stiffening of Flexible Protein Lattices Driving Membrane Bending",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "蛋白晶格与膜弯曲粗粒化模拟，生物膜非本轮主题。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 286,
+      "id": "2607.08992",
+      "title": "Vacancy Effect on the Ground-State Energy of a Bose Gas Trapped by 1D Imperfect Artificial Crystal",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "人工一维Dirac梳晶格中Bose气空位基态，冷原子模型非真实晶体缺陷。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 287,
+      "id": "2607.13870",
+      "title": "Phonon down-conversion by normal metals for superconducting devices",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "正常金属层对破对声子下转换的超导器件理论，器件噪声方法候选。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 288,
+      "id": "2607.13922",
+      "title": "Modified Family-Vicsek Scaling and Probability Distributions for Brownian Castle Interfaces",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "Brownian Castle界面生长普适标度，抽象粗糙化理论。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 289,
+      "id": "2607.15777",
+      "title": "Reversible and irreversible dynamical topological transitions of magnetic Hopfions",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "交流场驱动磁Hopfion可逆/不可逆拓扑切换的微磁理论，相关但无实样。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 290,
+      "id": "2607.15988",
+      "title": "Fast temperature up steps as a test of the Tool-Narayanaswamy formalism",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "玻璃液体温度阶跃检验Tool–Narayanaswamy形式，软物质老化次优先。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 291,
+      "id": "2607.18096",
+      "title": "Optimal transition states for polaron hopping transport without supercells",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "无超胞极化子跃迁过渡态方法，LiF/TiO₂载流子迁移验证，计算方法候选。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 292,
+      "id": "2607.27839",
+      "title": "Ensemble theory of thermodiffusion",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "热扩散的路径系综与Soret系数图模型，泛非平衡输运。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 293,
+      "id": "2607.29639",
+      "title": "Structure, Diffusion, and Relaxation in a Charge-Neutral ProTalpha-Histone H1 Condensate",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "ProTalpha/HistoneH1蛋白凝聚体扩散与松弛，生物软物质排除。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 294,
+      "id": "2608.02722",
+      "title": "1+1d Lattice Dirac Fermions from Non-Onsite Vector and Axial Symmetries",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "非在位对称构造1+1维Dirac/Luttinger格点模型，纯理论非材料主线。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 295,
+      "id": "2608.04841",
+      "title": "Structural Chirality from Short-Range Order in Heteroanionic Materials",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "candidate-replacement-version-delta-unverified",
+      "reason": "NbO₂F异阴离子短程有序强制手性，DFT/簇展开/MonteCarlo预测494K转变，结构理论强候选。 本条仅旧稿修订；未核新版本相对旧版的新增内容，暂不纳入当日新文。"
+    },
+    {
+      "index": 296,
+      "id": "2608.06056",
+      "title": "Criteria for Feasible Monte Carlo Stochastic Simulations of Bosonic Markovian Open Quantum Dynamics",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "开放玻色多体MonteCarlo随机方程可行性条件，算法与数学而非材料。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 297,
+      "id": "2608.08827",
+      "title": "Time-Reversal-Invariant Altermagnetic Acoustic Crystals",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "保持真实时间反演的声学赝自旋交错磁晶体，人工波类比，不能称电子磁性材料。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 298,
+      "id": "2608.19126",
+      "title": "Avalanche-like Plasticity in Complex Concentrated Alloys: A Review Across Scales",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "复杂集中合金雪崩塑性综述，非新原始材料研究。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 299,
+      "id": "2608.21525",
+      "title": "Machine-learned exchange-correlation functionals for molecules, solids, and reactive surfaces",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "CIDER26SS机器学习交换关联泛函与CO/Pt表面问题，电子结构方法。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 300,
+      "id": "2608.26364",
+      "title": "Laser-Induced Rashba Spin-Orbit Torques in Multiferroic Semiconductor (Ge,Mn)Te",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "candidate-replacement-version-delta-unverified",
+      "reason": "Ge₀.₈₅Mn₀.₁₅Te超快磁光分离载流子与铁电位移诱导Rashba力矩，强多铁物性候选。 本条仅旧稿修订；未核新版本相对旧版的新增内容，暂不纳入当日新文。"
+    },
+    {
+      "index": 301,
+      "id": "2608.29413",
+      "title": "PINN-Phase: Physics-informed neural integration for accurate, generalizable and scalable multiphase-field evolution",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "PINN-Phase多晶相场逐晶粒演化和时间误差基准，生长动力学工具候选。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 302,
+      "id": "2609.12198",
+      "title": "Pseudo-hybrid density functional ACBN0 for Hubbard $U$ correction in a numeric atom-centered orbital basis",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "FHI-aims数值轨道ACBN0实现与氧化物/氮化物基准，泛函方法。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 303,
+      "id": "2609.24959",
+      "title": "Model of the magnon Kerr effect in a highly anisotropic ferromagnet",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "各向异性铁磁薄膜磁振子Kerr Hamiltonian与腔磁动力学，模型理论。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 304,
+      "id": "2609.38848",
+      "title": "Quantum quenches of scar states in the Affleck-Kennedy-Lieb-Tasaki model via Clifford augmented tensor network simulation",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "AKLT量子疤痕与Clifford增强张量网络淬火，纯多体模拟。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 305,
+      "id": "2609.40113",
+      "title": "Liquid crystalline order and its impact on shape evolution of fluid lipid membranes",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "流体脂质膜液晶序耦合形变，生物软物质非主线。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 306,
+      "id": "2610.04619",
+      "title": "MUTACO: Simulator-Efficient Response Matching in Stochastic Nonlinear Systems via Compatibility-Aware Sequential Design",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "MUTACO昂贵随机模拟器响应匹配优化，以相振子网络验证，通用方法。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 307,
+      "id": "2610.11068",
+      "title": "High-resolution mapping of the phase boundary of the honeycomb-lattice Blume--Capel ferromagnet",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "蜂窝Blume–Capel模型高精度三临界相界，统计模型无具体材料。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 308,
+      "id": "2610.11878",
+      "title": "Benchmarking Universal Machine-Learning Interatomic Potentials for Temperature-Dependent Elasticity of Binary and High-Entropy Refractory Carbides",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "二元/高熵难熔碳化物300–1200K弹性uMLIP基准，材料计算方法候选。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 309,
+      "id": "2610.14361",
+      "title": "Competitive scaling of small-subsystem-optimization heuristics for LABS",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "小子系统优化LABS组合问题，计算算法排除材料研究主线。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 310,
+      "id": "2610.16674",
+      "title": "Topological Chiral Superconductivity from Doping Correlated Charge Transfer Insulator with Orbital Magnetism",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "轨道磁性电荷转移绝缘体掺杂p+ip超导强关联模型，理论候选。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 311,
+      "id": "2610.19261",
+      "title": "Beyond the lemon: Spectra of random Lindblad operators with a Hamiltonian component",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "随机Lindblad谱分布及Hamiltonian成分，开放量子数学非材料。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 312,
+      "id": "2610.19269",
+      "title": "Spectral signatures of spin textures and the emergence of a pseudogap",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "Hubbard均场反相磁畴/金属界面产生赝隙谱，概念理论非具体实验。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 313,
+      "id": "2610.21317",
+      "title": "Solving fractional quantum Hall problems with thermodynamic-limit bootstrap",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "热力学极限分数量子Hall多体bootstrap，算法与基态理论。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 314,
+      "id": "2610.21835",
+      "title": "From Action Principle to Stochastic Thermodynamics of Elastic and Viscous Active Matter",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "活性物质随机热弹动力学与细胞核形变，生物软物质非主线。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 315,
+      "id": "2610.24340",
+      "title": "Maximum-Temperature Theorem for a Nanothermometer",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "纳米温度计稳态温升上界解释细胞测温争议，测量理论非目标晶体。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 316,
+      "id": "2610.24633",
+      "title": "Theory of High-Temperature Fractional Chern Phases in Monolayer van der Waals Kagome Materials A$_2$T$_3$X$_4$",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "单层A₂T₃X₄/Cs₂Pd₃S₄分数Chern态与26meV模型能隙，强二维理论候选但未实测。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 317,
+      "id": "2610.24943",
+      "title": "Scaling Dimensions and Two-Point Amplitudes from Operator Covariance Matrices",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "临界格点模型协方差矩阵提标度维数方法，纯统计方法。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 318,
+      "id": "2610.27811",
+      "title": "A Transport-Information Framework for Continuous-Fiber-Aligned Coarse-Graining Representation Sets",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "粗粒化表示的运输信息几何框架，抽象方法非材料。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 319,
+      "id": "2610.28529",
+      "title": "Symmetry-Guided Machine Learning of Spin-Dependent Nonlinear Hall Response",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "各向异性蜂窝模型Berry偶极非线性Hall对称性机器学习，理论方法。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 320,
+      "id": "2610.28629",
+      "title": "Mechanistic discovery in grain boundary structure and deformation driven by agentic AI",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "GBClaw代理框架研究14种Ni非对称晶界及失配位错，材料机制/方法候选。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 321,
+      "id": "2610.29218",
+      "title": "Geometry-controlled zeros of resonant Kelvin-wave conversion in four spatial dimensions",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "四空间维涡面Kelvin波转换几何零点，抽象量子流体理论。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 322,
+      "id": "2610.29389",
+      "title": "Tuning Thermal Memory and Dissipation in Colloidal Microgel Glasses via Particle Stiffness",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "PNIPAM微凝胶刚度调控Kovacs记忆及流变，软玻璃非主要晶体主题。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 323,
+      "id": "2610.31924",
+      "title": "Sub-monolayer tracking of molecular states at buried interfaces",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "candidate-replacement-version-delta-unverified",
+      "reason": "埋藏有机晶体管界面RSoXS定量亚单层取向/堆积梯度，真实界面生长表征候选。 本条仅旧稿修订；未核新版本相对旧版的新增内容，暂不纳入当日新文。"
+    },
+    {
+      "index": 324,
+      "id": "2610.35153",
+      "title": "Temperature-dependent magnetic properties of the antiferromagnet Mn$_2$Au",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "Mn₂Au单晶温度依赖各向异性/交换刚度自旋模拟，反铁磁器件建模候选。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 325,
+      "id": "2610.35855",
+      "title": "Collinear and Coplanar Altermagnetism in a Penrose Quasicrystal",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "Penrose准晶二维不可约表示交错磁性及Hubbard理论，磁性对称性候选。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 326,
+      "id": "2610.35896",
+      "title": "Same-spin correlation screens the exchange peak of the electron gas near 2kF",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "电子气同自旋关联消除2kF交换峰，基础电子结构理论。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 327,
+      "id": "2610.35973",
+      "title": "Bayesian Inference in Partially Observed Critical Systems",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "部分观测临界系统Bayesian不确定性下界，以Ising与牌洗验证，通用统计。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 328,
+      "id": "2610.36884",
+      "title": "Stability reversal, activated escape, and mechanical response of negative-mobility particles",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "负迁移率粒子势阱稳定性反转与逃逸，抽象非平衡单粒子模型。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 329,
+      "id": "2402.04191",
+      "title": "Strain Functionals: A Complete and Symmetry-adapted Set of Descriptors to Characterize Atomistic Configurations",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "应变泛函完备描述原子局域构型/缺陷，结构表征与模拟方法候选。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 330,
+      "id": "2412.09591",
+      "title": "Dissipative Dynamical Phase Transition as a Complex Ising Model",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "耗散自旋链映射复场Ising动力学相变，纯模型。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 331,
+      "id": "2503.15088",
+      "title": "Classification of locality preserving symmetries on spin chains",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "自旋链保持局域性对称的cohomology分类，数学理论。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 332,
+      "id": "2504.19686",
+      "title": "Four-Fermion Deformations on Line Defects in QED$_4$ with Yukawas",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "四维QED线缺陷与Yukawa四费米算符，粒子场论排除。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 333,
+      "id": "2505.19861",
+      "title": "Tight Generalization of Robertson-Type Uncertainty Relations",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "Robertson/Schrödinger不确定关系严格改进，量子基础非材料。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 334,
+      "id": "2506.02103",
+      "title": "Entanglement Scaling of Motzkin Chains under Spiral Hamiltonian-path Embeddings",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "Motzkin链二维路径嵌入的纠缠标度，数学多体模型。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 335,
+      "id": "2602.18028",
+      "title": "Decoding cell signaling via optimal transport and information theory",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "细胞信号最优输运和信息论，生物信号排除。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 336,
+      "id": "2602.19185",
+      "title": "Some effective operators for graphene monolayer superlattices, from variational perturbation theory",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "石墨烯超晶格有效算符的变分多尺度推导，二维理论但无实样。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 337,
+      "id": "2602.22317",
+      "title": "Partial Reversibility and Counterdiabatic Driving in Nearly Integrable Systems",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "近可积系统反绝热驱动和可逆性，通用动力学模型。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 338,
+      "id": "2603.05430",
+      "title": "Extreme Quantum Cognition Machines for Deliberative Decision Making",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "量子认知机器语言分类与决策，机器学习非材料。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 339,
+      "id": "2603.10751",
+      "title": "Universal purification dynamics in real non-unitary quantum processes",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "非幺正量子过程纯化普适性随机矩阵理论，非材料证据。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 340,
+      "id": "2603.11172",
+      "title": "Bootstrapping Fermionic $R$-operators with Decorated Yang--Baxter Equations",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "装饰Yang–Baxter方程自举费米R算符，精确可积数学。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 341,
+      "id": "2604.01169",
+      "title": "Bridging the Simulation-to-Experiment Gap with Generative Models using Adversarial Distribution Alignment",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "分布对齐连接模拟与部分实验观测，以分子/蛋白验证，通用生成模型。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 342,
+      "id": "2604.19421",
+      "title": "Fast projections of two-dimensional light patterns using acousto-optical deflectors",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "声光偏转器二维快速光场投射，光学仪器方法非目标材料。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 343,
+      "id": "2604.21919",
+      "title": "Algorithmic Locality of Quantum Tensor Network Belief Propagation",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "PEPS强注入条件下belief propagation局域性定理，量子算法。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 344,
+      "id": "2604.24561",
+      "title": "Remotely programming the weights of a spintronic neural network by a radiofrequency broadcast signal",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "22磁隧道结神经网络广播RF编程与任务准确率，实验自旋器件但应用导向次优先。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 345,
+      "id": "2605.17840",
+      "title": "Pole Skipping, Avoided Crossing, and Resonant Excitation in Kerr Quasinormal Modes near Algebraically Special Frequencies",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "Kerr黑洞准正规模pole skipping，重力理论排除。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 346,
+      "id": "2606.03836",
+      "title": "The bulk spectral gap is certifiable from above but uncomputable from below",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "体谱隙上界可证与不可判定理论、kagome模型应用，基础多体数学。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 347,
+      "id": "2606.14649",
+      "title": "Prospective Coding and Path Integration Emerge as Equilibrium Solutions of Self-Organizing Neural Networks with Firing-Rate Adaptation",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "自组织神经网络路径积分与预测编码，神经科学理论排除。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 348,
+      "id": "2608.09913",
+      "title": "Superselection Rigidity of Topological Calderbank--Shor--Steane Codes: From Koszul-Complex Models to Nonsplit Extensions",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "拓扑CSS量子纠错码激发分类，量子信息数学。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 349,
+      "id": "2609.00910",
+      "title": "Explosive Synchronization in Inertial Kuramoto Models: Determining Resilience in Power Grids",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "Kuramoto电网同步与韧性，能源网络非晶体研究。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 350,
+      "id": "2609.07655",
+      "title": "Online Surrogate Repair: Decoupling High-Fidelity Feedback from Search Length in Closed-Loop Discovery",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "在线surrogate repair闭环AI搜索算法，材料发现方法而非具体实样。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 351,
+      "id": "2609.10006",
+      "title": "Signature of Short-Range Order in Static Response of the Three-Dimensional Electron Gas",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "defer-replacement-secondary",
+      "reason": "三维电子气DMC静态响应短程有序基准，电子结构基础理论。 仅replacement且新增未核，不占当日新文名额。"
+    },
+    {
+      "index": 352,
+      "id": "2610.04476",
+      "title": "Wald entropy and Wen-Zee type gauge-curvature coupling in 2+1-dimensional gravity",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "Wen–Zee型引力Wald熵，重力理论非材料。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 353,
+      "id": "2610.09845",
+      "title": "Redundant Records of the Past: Unifying Quantum Darwinism and Decoherent Histories",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "量子Darwinism与退相干历史统一，量子基础排除。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 354,
+      "id": "2610.12929",
+      "title": "An Instability of the Quantum Markov Length",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "量子Markov长度弱局域通道不稳定性，混态理论非实样。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 355,
+      "id": "2610.21478",
+      "title": "Difference between pair creation and anomaly matching: Nontrivial aspects of invertible symmetries and defects in $SU(N)$ models",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "SU(N)WZW模型缺陷与反常匹配，场论数学。 旧稿修订，非当日首次公告；不作为新增。"
+    },
+    {
+      "index": 356,
+      "id": "2610.27321",
+      "title": "Physics-Inspired Optimizers beyond the Edge of Stability: Period-Two Orbits and Delayed Instability",
+      "section": "Replacement submissions (showing 123 of 123 entries)",
+      "decision": "exclude-topic-or-priority",
+      "reason": "优化器稳定边缘周期二轨道和延迟失稳，深度学习算法。 旧稿修订，非当日首次公告；不作为新增。"
+    }
+  ],
+  "officialBatchScreening": {
+    "total": 357,
+    "completeTitleAbstractScreened": 357,
+    "announcementDate": "2026-10-30",
+    "selectedArxiv": 5,
+    "versionDeltaLimits": "123条旧稿替换未全面比较正文版本，不能当作123篇新增"
+  }
 }

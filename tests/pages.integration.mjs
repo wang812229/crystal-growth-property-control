@@ -156,11 +156,11 @@ test('October 29 retrospective keeps formal main reads and SI-only separate',asy
 
 test('October 30 distinguishes API submission and journal backreading',async()=>{
  const index=JSON.parse(await readFile(new URL('assets/search-index.json',dir),'utf8'));
- assert(index.length>=706);assert.equal(index.filter(p=>p.reportSlug==='2026-10-30').length,9);
+ assert(index.length>=710);assert.equal(index.filter(p=>p.reportSlug==='2026-10-30').length,13);
  const audit=JSON.parse(await readFile(new URL('reports/2026-10-30/audit.json',dir),'utf8'));
- assert.equal(audit.counts.formal,8);assert.equal(audit.counts.fullReads,8);assert.equal(audit.arxivDecisions.length,29);
- assert.equal(audit.arxivOfficialCounts.displayedDate,'2026-10-28');assert(audit.arxivDecisions.some(p=>p.id==='2610.40423v1'&&p.decision==='include'));
+ assert.equal(audit.counts.formal,8);assert.equal(audit.counts.fullReads,12);assert.equal(audit.arxivDecisions.length,29);assert.equal(audit.officialBatchDecisions.length,357);
+ assert.equal(audit.arxivOfficialCounts.displayedDate,'2026-10-30');assert(audit.arxivDecisions.some(p=>p.id==='2610.40423v1'&&p.decision==='include'));
  const page=await readFile(new URL('reports/2026-10-30/index.html',dir),'utf8');
- for(let i=1;i<=9;i++)assert(page.includes(`id="paper-${i}"`));
+ for(let i=1;i<=13;i++)assert(page.includes(`id="paper-${i}"`));
  assert(page.includes('crsbr-anisotropy.svg'));assert(!page.includes('今日公告 9'));
 });
