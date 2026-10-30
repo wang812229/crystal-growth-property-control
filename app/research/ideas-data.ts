@@ -1,6 +1,29 @@
 // 从已审阅报告生成，研究设想不计入论文目录。
 export default [
   {
+    "date": "2026-10-30",
+    "schemaVersion": 1,
+    "reviewedAt": "2026-10-30",
+    "scope": "针对实际读过的DyPtBi/NiCo₂O₄做有界查新；详见逐来源审计内noveltyAudit。未完成全面专利/学位正文覆盖，不推出新颖性已确认的新课题。",
+    "limitations": [
+      "未合成、未计算、未测量新候选。",
+      "限定检索未检出也不代表全球无人做过；本期0条通过立项门槛。"
+    ],
+    "ideas": [],
+    "rejected": [
+      {
+        "title": "DyPtBi应力选畴、撤载记忆及外延应变拓扑",
+        "url": "https://doi.org/10.1103/l8fh-cgq7",
+        "reason": "作者已做应力控畴及记忆，并提出相关展望；细化操作顺序不自动带来新颖性，学位全文查新未覆盖。"
+      },
+      {
+        "title": "CrSBr侧接触或上下不对称接触测试",
+        "url": "https://arxiv.org/abs/2610.40423",
+        "reason": "本期作者Discussion已提出，不作为本站首次构想。"
+      }
+    ]
+  },
+  {
     "date": "2026-10-29",
     "schemaVersion": 1,
     "reviewedAt": "2026-10-29",
