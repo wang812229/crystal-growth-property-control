@@ -2,6 +2,9 @@
 import type { Metadata } from 'next';
 export const metadata:Metadata={title:'往期归档｜每日文献简报',description:'按日期浏览每日文献简报。'};
 const issues=[
+["2026-11-01", "2026.11.01", "第068期 · 4篇 · 正文与SI分列", "期刊优先 · 近三日回溯补读", "溅射2H-MoS₂ · RuO₂/TiO₂ · TaₓNbᵧHf_zZr₁₋ₓ₋ᵧ₋zC中熵岩盐碳化物；VEC 4.25→4.188 · Nb薄膜"],
+["2026-10-31", "2026.10.31", "第067期 · 4篇 · 正文与SI分列", "期刊优先 · 近三日回溯补读", "UTe₂ · Fe_Bi三聚体/Bi₂Te₃(4QL)/2H-NbSe₂ · Au(111)/Si(111)剥离膜、Cu₂O(111)/Au/PDMS · SMO/LSMO/SMO"],
+
 ['2026-10-30','2026.10.30','第066期 · 13篇 · 8期刊/5预印本 · 12正文/1SI','正式期刊、API新投与版本核验','原子有序 · 外延磁性 · DyPtBi · 莫尔Kondo · 石墨烯 · CrSBr'],
 ['2026-10-29','2026.10.29','第065期 · 三日回溯10篇 · 8期刊/2预印本 · 5正文/5SI','正式期刊补读与生长、界面证据','Ba₂CoMoO₆ · 五七环碳带 · Ho₂Ir₂O₇ · WS₂ · BiFeO₃ · Mn₅Si₃ · ZrTe₅ · NiPS₃ · Nb₃Sn · Si:Bi'],
 ['2026-10-28','2026.10.28','第064期 · 10篇 · 1正式期刊/9预印本 · 9正文实读','从晶体质量到非互易响应的证据边界','Sm–Ir–Al · LaNiGa₂ · CoSn · BST · UTe₂ · Er₂Be₂GeO₇ · MoTe₂ · Bi-2212 · CoTa₃S₆'],

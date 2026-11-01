@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 510" role="img"><rect width="900" height="510" fill="#f6fafc"/><g font-family="Arial,Microsoft YaHei,sans-serif" fill="#173750">
+<text x="55" y="40" font-size="23">同批标签必须保留测量时间</text>
+<text x="55" y="68" font-size="15">根据论文信息重绘，并非论文原图 · arXiv:2610.38070v1</text>
+<path d="M80 395.0 H850" stroke="#cbd8df"/><text x="40" y="400.0" font-size="16">0</text>
+<path d="M80 341.0 H850" stroke="#cbd8df"/><text x="40" y="346.0" font-size="16">2</text>
+<path d="M80 287.0 H850" stroke="#cbd8df"/><text x="40" y="292.0" font-size="16">4</text>
+<path d="M80 233.0 H850" stroke="#cbd8df"/><text x="40" y="238.0" font-size="16">6</text>
+<path d="M80 179.0 H850" stroke="#cbd8df"/><text x="40" y="184.0" font-size="16">8</text>
+<path d="M80 125.0 H850" stroke="#cbd8df"/><text x="40" y="130.0" font-size="16">10</text>
+<rect x="140.0" y="145.51999999999998" width="95" height="249.48000000000002" fill="#237591"/><text x="187.0" y="135.51999999999998" text-anchor="middle" font-size="20">9.24</text><text x="187.0" y="425" text-anchor="middle" font-size="16">A / initial</text>
+<rect x="360.0" y="150.65" width="95" height="244.35" fill="#237591"/><text x="407.0" y="140.65" text-anchor="middle" font-size="20">9.05</text><text x="407.0" y="425" text-anchor="middle" font-size="16">B / initial</text>
+<rect x="580.0" y="157.94000000000003" width="95" height="237.05999999999997" fill="#237591"/><text x="627.0" y="147.94000000000003" text-anchor="middle" font-size="20">8.78</text><text x="627.0" y="425" text-anchor="middle" font-size="16">B / 2 months</text>
+<text x="55" y="475" font-size="16">Tc / K · resistance midpoint criterion</text></g></svg>

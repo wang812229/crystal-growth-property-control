@@ -164,3 +164,23 @@ test('October 30 distinguishes API submission and journal backreading',async()=>
  for(let i=1;i<=13;i++)assert(page.includes(`id="paper-${i}"`));
  assert(page.includes('crsbr-anisotropy.svg'));assert(!page.includes('今日公告 9'));
 });
+
+test('October 31 and November 1 remain separate searchable evidence reviews',async()=>{
+ const index=JSON.parse(await readFile(new URL('assets/search-index.json',dir),'utf8'));
+ const ids=new Set();
+ for(const [date,figure] of [['2026-10-31','hc-ratios.svg'],['2026-11-01','nb-tc.svg']]){
+  const day=index.filter(p=>p.reportSlug===date);assert.equal(day.length,4);
+  const audit=JSON.parse(await readFile(new URL(`reports/${date}/audit.json`,dir),'utf8'));
+  assert.equal(audit.counts.formal,3);assert.equal(audit.counts.fullReads,3);assert.equal(audit.counts.siOnly,1);assert.equal(audit.counts.abstractOnly,0);
+  assert.equal(audit.coverageComplete,false);assert.equal(audit.officialBatchDecisions.length,357);
+  assert(audit.reading.filter(p=>p.scope.includes('全文精读')).every(p=>p.bodyChineseCharacters>=1500));
+  for(const p of audit.reading){assert(!ids.has(p.doi));ids.add(p.doi);}
+  const page=await readFile(new URL(`reports/${date}/index.html`,dir),'utf8');
+  for(let i=1;i<=4;i++)assert(page.includes(`id="paper-${i}"`));
+  assert(page.includes(figure));assert(page.includes('仅SI'));assert(page.includes('近三日')||page.includes('三日回溯'));
+ }
+ const archive=await readFile(new URL('archive/index.html',dir),'utf8');
+ assert(archive.includes('2026-10-31'));assert(archive.includes('2026-11-01'));
+ // Canonical search merges the previously indexed RuO2 preprint with its VoR.
+ assert.equal(index.length,717);
+});

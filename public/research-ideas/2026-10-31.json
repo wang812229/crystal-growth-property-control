@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-31",
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-31",
+  "scope": "依据本期实读材料核对作者已列未来工作和最近邻研究，现有证据不足以确认全新课题，不强行产出候选。",
+  "limitations": [
+    "未合成、未计算、未测量新候选；专利家族及学位全文覆盖不足。",
+    "检索式：thermal laser niobium substrate rotation；SrMnO3 La0.7Sr0.3MnO3 spin glass exchange bias patent thesis；相应出版社DOI与作者稿。",
+    "Caltech Catherall2026学位论文线索已见，尚未精读全部论文；patents.google.com定向查询未形成完整检索，不能声称无专利。"
+  ],
+  "ideas": [],
+  "rejected": [
+    {
+      "title": "热激光蒸发的衬底旋转/加热及氮化物扩展",
+      "url": "https://arxiv.org/abs/2610.38070",
+      "reason": "本期作者Discussion已经明确提出；不是本站首次提出。"
+    },
+    {
+      "title": "锰氧化物界面自旋玻璃与交换偏置",
+      "url": "https://doi.org/10.1103/PhysRevB.87.054428",
+      "reason": "2013年直接相关先例存在，不能把追加常规表征包装成新方向。"
+    }
+  ]
+}
