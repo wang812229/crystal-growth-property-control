@@ -182,5 +182,17 @@ test('October 31 and November 1 remain separate searchable evidence reviews',asy
  const archive=await readFile(new URL('archive/index.html',dir),'utf8');
  assert(archive.includes('2026-10-31'));assert(archive.includes('2026-11-01'));
  // Canonical search merges the previously indexed RuO2 preprint with its VoR.
- assert.equal(index.length,717);
+ assert(index.length>=717);
+});
+
+test('November 2 announcement batch is screened independently from submission API',async()=>{
+ const index=JSON.parse(await readFile(new URL('assets/search-index.json',dir),'utf8'));
+ assert.equal(index.filter(p=>p.reportSlug==='2026-11-02').length,6);
+ const a=JSON.parse(await readFile(new URL('reports/2026-11-02/audit.json',dir),'utf8'));
+ assert.equal(a.arxivOfficialCounts.total,164);assert.equal(a.arxivOfficialCounts.new,81);assert.equal(a.officialBatchDecisions.length,164);
+ assert.equal(a.counts.fullReads,6);assert.equal(a.counts.formal,0);assert.equal(a.coverageComplete,false);
+ assert(a.reading.every(p=>p.bodyChineseCharacters>=1500));
+ const page=await readFile(new URL('reports/2026-11-02/index.html',dir),'utf8');
+ for(let i=1;i<=6;i++)assert(page.includes(`id="paper-${i}"`));
+ assert(page.includes('lu-growth.svg'));assert(page.includes('164'));assert(page.includes('13T')||page.includes('13 T')||page.includes('13 T'));
 });

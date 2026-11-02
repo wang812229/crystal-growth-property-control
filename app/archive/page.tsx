@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 export const metadata:Metadata={title:'往期归档｜每日文献简报',description:'按日期浏览每日文献简报。'};
 const issues=[
+["2026-11-02", "2026.11.02", "第069期 · 6篇 · 全文证据分级", "当日公告 · 正式期刊逐轨审计", "生长 · 磁输运 · 缺陷调控"],
 ["2026-11-01", "2026.11.01", "第068期 · 4篇 · 正文与SI分列", "期刊优先 · 近三日回溯补读", "溅射2H-MoS₂ · RuO₂/TiO₂ · TaₓNbᵧHf_zZr₁₋ₓ₋ᵧ₋zC中熵岩盐碳化物；VEC 4.25→4.188 · Nb薄膜"],
 ["2026-10-31", "2026.10.31", "第067期 · 4篇 · 正文与SI分列", "期刊优先 · 近三日回溯补读", "UTe₂ · Fe_Bi三聚体/Bi₂Te₃(4QL)/2H-NbSe₂ · Au(111)/Si(111)剥离膜、Cu₂O(111)/Au/PDMS · SMO/LSMO/SMO"],
 
