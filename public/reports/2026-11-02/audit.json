@@ -9518,5 +9518,23 @@
       "bodyChineseCharacters": 1614
     }
   ],
-  "institutionalSuccess": 0
+  "institutionalSuccess": 0,
+  "researchIdeasReview": {
+    "updatedAt": "2026-11-02T07:15:45.987880+00:00",
+    "count": 4,
+    "paperCountsUnchanged": true,
+    "scope": "基于今日6篇实读论文，新增4项具体材料/同位素/占位或深度分布设计。分别检验多带散射、纯质量效应、表层磁性稀释和交换导数。所有候选尚未合成或计算，均待进一步查新。",
+    "ids": [
+      "lu-nb-ta-scattering-cdw",
+      "2026-11-02-feps3-sulfur-isotope-mass-disorder",
+      "mnte-depth-selective-balanced-zn-dilution",
+      "csco-fixed-composition-halide-site-correlations"
+    ],
+    "allStatus": "needs-review",
+    "limitations": [
+      "核查日期2026-11-02；逐项列出实际检索式、最近邻原始论文/预印本、博士论文和专利线索及未完成项。网页索引、摘要和局部正文不等于全文查新完成。",
+      "普通Se替换FePS₃、均匀Zn掺MnTe、Cs₂Co混卤家族均已有先例，本页明确剥离已知部分；具体新差别仍不代表首创证明。",
+      "同位素是材料质量设计，固定组成占位和深度分布是材料架构设计，不统称新化学化合物。用户设备可用性及稳定性均需先过门槛，先做最小筛选。"
+    ]
+  }
 }

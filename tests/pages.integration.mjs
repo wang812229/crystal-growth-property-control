@@ -196,3 +196,12 @@ test('November 2 announcement batch is screened independently from submission AP
  for(let i=1;i<=6;i++)assert(page.includes(`id="paper-${i}"`));
  assert(page.includes('lu-growth.svg'));assert(page.includes('164'));assert(page.includes('13T')||page.includes('13 T')||page.includes('13 T'));
 });
+
+test('November 2 material hypotheses retain four distinct designs and six paper entries',async()=>{
+ const bundle=JSON.parse(await readFile(new URL('research-ideas/2026-11-02.json',dir),'utf8'));
+ assert.equal(bundle.ideas.length,4);assert(bundle.ideas.every(i=>i.status==='needs-review'&&i.controls.length&&i.falsifiers.length&&i.priorArt.length));
+ const page=await readFile(new URL('reports/2026-11-02/index.html',dir),'utf8');
+ const archive=await readFile(new URL('ideas/index.html',dir),'utf8');
+ for(const i of bundle.ideas){assert(page.includes(`id="2026-11-02-${i.id}"`));assert(archive.includes(`id="2026-11-02-${i.id}"`));}
+ assert(page.includes('未合成')&&page.includes('同位素'));assert.equal((page.match(/id="paper-\d+"/g)||[]).length,6);
+});
