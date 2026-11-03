@@ -1,6 +1,265 @@
 // 从已审阅报告生成，研究设想不计入论文目录。
 export default [
   {
+    "date": "2026-11-03",
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-03",
+    "scope": "基于本期真实阅读的Ca₂CoN₂正文、SrTiO₃公开v1和SFRO早期公开稿提出三项可证伪材料设计。查新包括论文、预印本、专利和学位线索，实际范围逐项列出；未检全权利要求及所有学位全文，均标needs-review。",
+    "limitations": [
+      "三个候选均未合成、未测量、未完成新DFT或声子计算；组成点为探索设计，不是最优组成。",
+      "同位素STO、Ca/Sr/Ba端元及磁性稀释本身早有研究；这里只讨论有具体对照的组合判别，不能称全球首次。",
+      "SFRO正式版与2023公开稿存在版本差异，相关假说只能以已读的早期证据为条件。"
+    ],
+    "ideas": [
+      {
+        "id": "ca-co-n-zn-versus-sr-exchange-dilution",
+        "status": "needs-review",
+        "kind": "material",
+        "paperIndex": 1,
+        "title": "Ca₂(Co₁₋ₓZnₓ)N₂与(Ca₁₋ᵧSrᵧ)₂CoN₂：区分磁格点稀释与桥接网络变形",
+        "material": "同一Na₂HgO₂型母相的两条条件性候选固溶系列；具体占位、固溶度与高压相稳定性未知",
+        "evidenceLevel": "11-02正式论文，11-03补读主文/Methods和SI；候选未合成、未计算、未测量，未确认新颖性",
+        "question": "双k调制中较小平均有序磁矩，是能被非磁缺陷选择性钉扎的振幅柔性，还是主要由桥接几何控制的交换比值？",
+        "prediction": "若低比例Zn²⁺能在保留线性配位和N占位时替代Co²⁺，其d10无自旋主要移除磁格点；若Sr²⁺进入Ca位则保持Co磁格点数量，但改变Co—N—(Ca/Sr)—N—Co桥接几何。条件性可证伪预测是：在按实测晶格和局域键几何匹配后，Zn系列可能先显著展宽/钉扎磁卫星峰并降低有序谱重，而Sr系列更主要推动传播矢量k与锁定温度；若两系列所有变化均被结构变量解释，则否定“独立稀释效应”的简单版本。不能预言k必然向0.65移动，更不能保证生成自旋液体。",
+        "basis": "文献事实：Ca₂CoN₂主相I4/mmm，线性Co²⁺d7，5Kk=0.5665(1)，最大振幅约5μB而平均约2μB，约30K锁定；Co—N—Ca—N—Co长路径使J1/J2/J3竞争。最近邻事实：同结构AE₂ZnN₂(AE=Ca,Sr,Ba)已知，支持Zn二价线性氮配位与碱土位化学的讨论，但不证明Co/Zn互溶。物理类比：Co²⁺换Zn²⁺名义电荷不变、磁矩被稀释；Ca²⁺换Sr²⁺同族等价，在相同配位下通常尺寸更大，但真实键角/化学压力方向必须实测。本站假说：用两条系列和结构匹配控制把磁格点变化与桥接几何变化拆开。未知：分配系数、非平衡占位、竞争相与氮缺陷。",
+        "difference": "母文已建议化学掺杂，普通“掺杂找自旋液体”不是新方向。具体差别是以非磁Co位Zn稀释和非磁桥接Ca位Sr替换作为成对变量，检验平均磁矩与卫星峰宽/波矢是否可解耦。Ca₂ZnN₂、Sr₂ZnN₂和Ca₂CoN₂本身都不是新材料；候选固溶系列及比较策略尚待查新，不能称无人做过。",
+        "feasibility": "建议仅在有气敏氮化物/叠氮化物及多砧高压资质合作组探索。母体8GPa、800°C并非两候选的已验证配方。名义x/y=0、0.01、0.03只是初筛设计；须先看实际占位和主相，不能作为最优成分。用户已确认Rigaku UltimaIV可辅助密封粉末主相筛查，但不能独立区分轻元素N占位、钴/锌精细占位和磁双k。WDS/ICP、同位点结构及中子实验均需合作。",
+        "risks": "Zn可能只形成稳定Ca₂ZnN₂独立相或促进Co金属析出；Sr可能引起不同配位/多型而不是温和化学压力；氮空位会同时改价态和交换。母体已有约5%未知相、少量铁磁杂质，掺杂后若杂相变化，磁矩归一化会混淆。两条系列即使同平均晶格也不保证同局域结构。",
+        "nextStep": "先查Co/Zn氮化物互溶与Ca/Sr钴氮化物结构数据库/专利及失败合成记录，再各做一个低比例合作炉次；无位点/主相证据不进入完整低温磁序系列。",
+        "plan": [
+          "对母体和两类低替换粉末密封XRD、WDS/ICP实测Co/Zn/Ca/Sr，独立核查氮含量；相同晶格峰移动不等于目标位点确认。",
+          "主相保留后再比较同批磁化、比热和温变中子卫星；提取k、峰宽、锁定温度、弹性有序谱重，明确仪器分辨率与杂相模型。",
+          "选择实测桥接几何相近的Zn/Sr样品对，比较卫星展宽与k漂移；条件允许做低能非弹性谱，区分冻结无序和动态涨落。",
+          "第一性原理或有效自旋模型仅作为未来最小计算：先验证混合位点结构和价态，检验不同局域构型而非只用平均晶格；目前未执行任何计算。"
+        ],
+        "controls": [
+          "同一高压装配母体重复炉次；密封称量、胶囊背景和Co金属铁磁小分量对照。",
+          "Ca₂ZnN₂/Sr₂ZnN₂已知端元仅作结构竞争相参考，不直接假定全固溶。",
+          "同实测组成不同高压/热历史与多颗微晶成分分布，排查偏析；结构匹配以实际键几何为准。"
+        ],
+        "falsifiers": [
+          "Zn/Sr不进入相应位点或只在第二相：停止候选系列解释。",
+          "出现显著N缺位/价态改变：不能当名义等价替换；先重新定义候选。",
+          "样品几何/杂相修正即可解释有序磁矩变化，否定独立稀释证据。",
+          "低比例就破坏目标结构且无法识别可重复相区：停止向高掺杂或自旋液体外推。"
+        ],
+        "queries": [
+          "2026-11-03: \"Ca2CoN2\" \"Sr\"",
+          "2026-11-03: \"Ca2CoN2\" \"Zn\" solid solution",
+          "2026-11-03: \"Ca2CoN2\" patent thesis substitution",
+          "2026-11-03: \"Ca2ZnN2\" \"Sr2ZnN2\" synthesis"
+        ],
+        "remainingChecks": [
+          "搜索返回LMU原始数据、2019会议研究线索和数据库异构结构，未发现可直接确认本两条系列的完整实验论文；这不是新颖性证明。",
+          "需检索Ca2Co1-xZnxN2/(Ca,Sr)2CoN2及下标/空格变体，查ICSD/MaterialsProject具体多型，不把相同化学式的预测相当本文I4/mmm实验相。",
+          "专利和学位仅完成关键词线索检索，未覆盖专利家族、全部学位全文和未公开研究。",
+          "Co/Zn在N线性配位下的有效半径不能随意套用六配位Shannon数值；需实际结构和成键计算。"
+        ],
+        "priorArt": [
+          {
+            "title": "Complex magnetism in a transition metal nitride",
+            "url": "https://doi.org/10.1038/s41467-026-78995-8",
+            "overlap": "高压母体、双k结构与泛化学掺杂建议均已有，不能称掺杂想法首创。",
+            "access": "本轮全文/Methods与部分SI已读"
+          },
+          {
+            "title": "Data to: Complex Magnetism in a Transition Metal Nitride",
+            "url": "https://data.ub.uni-muenchen.de/853/",
+            "overlap": "原始粉末XRD/中子/磁化数据仓储，可用于复核母体，不是新材料预测。",
+            "access": "官方机构仓储元数据核验"
+          },
+          {
+            "title": "Discovery of earth-abundant nitride semiconductors by computational screening and high-pressure synthesis",
+            "url": "https://doi.org/10.1038/ncomms11962",
+            "overlap": "Ca₂ZnN₂及邻近氮化物已有合成；Zn端元不是本站新预测。",
+            "access": "本轮出版社检索摘录及Methods局部，不计本期精读论文"
+          }
+        ]
+      },
+      {
+        "id": "sfro-ca-ba-variance-matched-lattice",
+        "status": "needs-review",
+        "kind": "material",
+        "paperIndex": 11,
+        "title": "等平均结构而不同A位尺寸方差：Ca/Ba双替换SFRO能否分开平均应变与局域轨道无序？",
+        "material": "候选(Sr₁₋ₓ₋ᵧCaₓBaᵧ)₂FeReO₆低比例A位共替换；x、y与占位/氧含量均须实测",
+        "evidenceLevel": "正式AFM摘要与对应2023早期公开稿正文实际读取；候选未合成、未计算、未测量，查新未完成",
+        "question": "若把平均晶格和长程应变尽量匹配，局域A位尺寸分布能否仍改变氧八面体倾角分布、Re轨道偏振及易轴转变的宽度？平均化学压力是否足以描述SFRO？",
+        "prediction": "条件性猜想：在同样实际Fe/Re比例、氧化态和B位有序度下，Ca/Ba共替换样品若保持与母体近似平均晶格，但增加局域键角分布，应更可能改变磁各向异性转变的空间/温度分布及展宽，而非仅使全部样品按同一个平均晶格参数平移。若局域分布与宏观各向异性均不受影响，或所有变化都能由平均应变/反位解释，则否定局域尺寸方差具有额外控制作用的简单版本。不预言新的Tc数值或必然获得绝缘态。",
+        "basis": "文献事实：早期公开稿在STO/KTO压缩/拉伸约束下发现氧八面体倾转、ReXLD和磁易轴协同反转。物理类比：Ca/Sr/Ba同属碱土族，名义二价A位替换可尽量避免直接电子计数改变；Ca相对Sr较小、Ba较大，但有效配位、键价和局域松弛会改变半径模型的有效性。本站假说：组合两种相反尺寸偏差，可能在较小平均变化下放大局域分布，从而考验“平均应变唯一控制”的解释。未知：共溶范围、A位偏聚、实际价态、局域结构，以及是否能制得满足匹配条件的样品均未证实。",
+        "difference": "A₂FeReO₆的Ca/Sr/Ba端元、简单化学压力、Fe/Re偏比导致绝缘和B位有序控制都已有工作，不能算新材料发现。候选的具体差别是共替换组成配对+实测平均结构匹配+局域结构/易轴分布联合判据，不以“换Ca或换Ba”本身称创新。当前尚未排除已有三元固溶或同等尺寸方差设计，必须needs-review。",
+        "feasibility": "组成初筛可先做母体、低Ca、低Ba及共替换四组少量样品，以实际成分和结构是否可匹配为第一关；例如x=0.02和0.05仅为名义探索点，y由相/结构校核选择，不宣称最优比例。薄膜易轴验证需PLD、RSM、STEM或总散射、磁化及可得的Re谱学协作。用户已确认Rigaku UltimaIV可承担初步相纯度/平均峰位核验，不能单独证明局域氧倾角或轨道偏振；不假定用户有PLD或同步辐射。",
+        "risks": "Ca/Ba替换可能同时改变容忍因子、B位反位、氧缺陷和生长动力学；平均体积相同不等于局域键角或有效应变相同。粉末晶界磁性不可直接对比薄膜面内/面外易轴。若共替换引起杂相、偏聚或严重B位无序，不能将磁响应展宽归为目标机制。未执行形成能、声子或SOC计算。",
+        "nextStep": "先查已知三元A位固溶与尺寸方差研究；并用母体及一个低比例共替换探索样品验证同一主相、真实Ca/Ba含量与平均结构可匹配，未通过不投入完整薄膜生长。",
+        "plan": [
+          "查新关：按Sr–Ca–Ba–Fe–Re–O及省略Sr的(Sr,Ca,Ba)₂FeReO₆、A-site disorder/sizevariance、各向异性关键词核三元固溶、专利家族与学位全文。",
+          "材料关：独立成分定量、相纯度与Fe/Re有序/氧价态分析；匹配平均晶格只是必要条件，不能替代局域结构核验。",
+          "机制关：在一致厚度/衬底/氧压条件下比较纯Sr、单替换与共替换，用RSM分开松弛，用STEM/PDF检验键角分布，再测易轴和重复升降温。",
+          "计算关：若合作计算可得，先在相同平均晶胞中比较多个A位排布和相同氧缺陷/反位模型，再逐项释放结构约束；计算尚未运行，不写结果。"
+        ],
+        "controls": [
+          "母体与Ca-only、Ba-only、Ca/Ba共替换，实际Fe/Re比例及氧含量匹配。",
+          "同薄膜厚度、衬底终止、温场历史和仪器背景；磁化需裸衬底扣背景。",
+          "相同平均晶格但不同局域方差的有效配对；若没有这样的配对，不声称已隔离方差变量。",
+          "B位反位率及成分空间分布独立控制，避免把相分离和磁性杂相当新态。"
+        ],
+        "falsifiers": [
+          "共替换主相无法形成或Ca/Ba偏聚：暂停该组成路线，不外推高比例端元。",
+          "全部磁变化随Fe/Re偏比/氧缺陷而非局域分布变化：否定尺寸方差为主导的当前假说。",
+          "在结构/成分误差内共替换与母体无可分辨差异：不能宣布发现隐蔽新效应。",
+          "查到直接等价三元固溶+匹配结构/各向异性研究：转入既有路线，不继续称新设想。"
+        ],
+        "queries": [
+          "2026-11-03：\"Sr2FeReO6\" \"Ca\" \"Ba\" substitution disorder",
+          "2026-11-03：\"Sr2FeReO6\" \"chemical pressure\" variance",
+          "2026-11-03：\"Sr\" \"Ca\" \"Ba\" \"FeReO6\" disorder variance",
+          "2026-11-03：\"Sr2FeReO6\" \"size variance\"",
+          "2026-11-03：\"Sr2FeReO6\" \"Ca\" \"Ba\" thesis solid solution",
+          "2026-11-03：site.patents.google.com \"FeReO6\" \"Ca\" \"Ba\""
+        ],
+        "remainingChecks": [
+          "尚未覆盖全部化学式变体、订阅数据库、专利家族和学位正文；定向网页检索命中少不证明无人做过。",
+          "补正式AFM全文及SI，确认最终版与2023早期稿的结构/磁谱差别。",
+          "同平均半径是设计启发，实际须用配位与实测结构匹配，不直接使用自由原子半径或假定严格Vegard定律。"
+        ],
+        "priorArt": [
+          {
+            "title": "Orbital Engineering through Strain-Induced Spin–Orbit–Lattice Coupling in Sr₂FeReO₆ Double Perovskites",
+            "url": "https://doi.org/10.1002/adfm.79336",
+            "overlap": "母体应变—八面体—轨道—易轴机制；不能把该机制本身当新方向",
+            "access": "2026正式摘要；2023早期ResearchSquare正文Methods图1–5读完，正式全文未取得"
+          },
+          {
+            "title": "Spin–Orbit-Lattice Locking in Strain-Engineered Sr₂FeReO₆ Double Perovskites",
+            "url": "https://doi.org/10.21203/rs.3.rs-3373483/v1",
+            "overlap": "实际精读母体证据，提出局域分布与平均应变区分",
+            "access": "18页正文/Methods/图1–5；图2–5渲染查看；SI链接TLS失败"
+          },
+          {
+            "title": "Room-Temperature Ferromagnetic Insulating State in Cation-Ordered Double-Perovskite Sr₂Fe₁₊ₓRe₁₋ₓO₆ Films",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30489665/",
+            "overlap": "Fe/Re偏比已能产生绝缘与磁性变化，是必须排除混杂而不是本站新预测",
+            "access": "本次核官方PubMed摘要，未重读全文"
+          },
+          {
+            "title": "B-Site Fe/Re Cation-Ordering Control and Its Influence on Magnetic Properties",
+            "url": "https://doi.org/10.3390/nano12203640",
+            "overlap": "B位有序控制已有，不能以回线变化单独证明A位局域效应",
+            "access": "官方PubMed书目与摘要检索；未作为本期新增论文"
+          },
+          {
+            "title": "Spin field effect logic devices",
+            "url": "https://patents.google.com/patent/US8791515B2/en",
+            "overlap": "已有专利举SFRO为双钙钛矿材料，设备应用不是新颖性依据",
+            "access": "定向检索的专利说明线索，未完成权利要求及家族审查"
+          },
+          {
+            "title": "Substitution Effects and Electronic Structure Studies",
+            "url": "https://openscience.ub.uni-mainz.de/bitstreams/fc0f6e3d-75f3-4c40-95d6-880e357dccf9/download",
+            "overlap": "Ca/Sr/Ba端元和尺寸影响已讨论，需继续检查全文是否含三元固溶",
+            "access": "机构学位论文检索到相关局部文本，未读完全文"
+          }
+        ]
+      },
+      {
+        "id": "sto-oxygen-mass-criticality-cavity-gradient",
+        "status": "needs-review",
+        "kind": "material",
+        "paperIndex": 9,
+        "title": "同位素质量与暗腔的两种“加重”：SrTi(¹⁶O₁₋ᵧ¹⁸Oᵧ)₃何时增强局域极化、何时失去腔调控增益？",
+        "material": "候选：部分氧同位素交换SrTi(¹⁶O₁₋ᵧ¹⁸Oᵧ)₃自由膜，同一厚度/应变梯度下比较暗THz腔增量；不是新化学元素组合",
+        "evidenceLevel": "关联本期实际读过的SrTiO₃腔实验；同位素诱导铁电与腔等效质量机制早有研究，组合判别方案未实验、未计算、查新未完成",
+        "question": "重氧改变离子真实质量，腔在理论中改变集体软模有效质量；在相同裸膜软模失谐与局域应变条件下，两种作用能否简单相加，还是靠近与远离临界区时出现不同的增量响应？",
+        "prediction": "条件性假说：若腔主要通过抑制软模量子涨落起作用，适量重氧接近极化不稳定区时，腔引起的绝对极化增量可能增强；继续交换进入已较强极化区后，裸膜虽更铁电，腔的边际增量却可能变小。若只固定腔频率而不匹配裸膜软模，失谐本身也会制造峰值，所以不能把任何非单调都当作新机制。检验对象是独立标定后同一局域应变条件的极化/对称性增量，而非仅SHG强度比；不预言最佳y、Tc或效应大小。",
+        "basis": "文献事实：本期37nm级STO膜软模与THz腔超强耦合，空间SHG变化正负并存，宏观转变温度没有在5K分辨内显著移动。1999年PRL已证明氧同位素交换可诱导STO铁电，2021年PNAS已提出腔重整化有效质量抑制量子涨落。物理类比：同位素保持名义电子计数、配位和同元素静态半径，比Ba/Ca替位更适合先分离质量与化学压力；仍可能有零点结构变化与交换退火缺陷。本站假说：真实质量与集体模质量重整化存在临界性和模式权重上的非等价，需以匹配失谐的二维实验矩阵判别。未知：重氧在释放膜中的深度分布、保留程度、混合质量无序及膜机械稳定性。",
+        "difference": "“重氧STO可铁电”与“腔像增加离子质量”均非新观点；也不能把普通同位素铁电性再次立项。具体差别限于真实同位素质量×实测软模失谐×同一区域应变梯度的配对实验，检查腔增量是否与裸膜铁电性分离。当前未排除学位论文和相关作者尚未索引工作中的等价组合，暂不作新颖性结论。",
+        "plan": [
+          "先查新与试样关：核对2021腔论文、相关学位全文及专利家族，确认等价同位素-腔矩阵是否已做；否则保留为待查新假说。",
+          "工艺关：在同批外延母片做轻氧热处理空白、部分重氧交换和回交换，SIMS或等效质量谱测实际y及深度；不把气体标称比例当成样品组成。交换温程先按合作实验室成熟流程评估，不在此虚构新配方。",
+          "表征关：同厚度/氧缺陷/载流子基线和形貌条件，先测裸膜软模、线宽、SHG对称性与可得的绝对极化代理；再选择可调腔使归一化失谐和耦合条件有可比较区间。",
+          "判别关：同点装拆、无共振等光路对照与重复温扫；优先比较绝对响应增量和基线误差，不用低基线附近发散的百分比。理论若开展，分别改变质量、势能面与腔耦合，计算尚未执行。"
+        ],
+        "controls": [
+          "同批¹⁶O退火空白、¹⁸O样品、部分交换与回交换；实际氧含量和氧空位需与同位素含量分开测。",
+          "同膜厚、同温度和局域应变梯度；不同时满足这些条件的点不强行配对。",
+          "固定腔频率组与匹配裸模失谐组分列；腔Q、模式体积和探针Fresnel校正分别核对。"
+        ],
+        "falsifiers": [
+          "若所有变化随氧空位/漏电而非实测y演化，停止纯质量机制解释。",
+          "若失谐与应变匹配后不存在超出误差的腔增量差别，则否定所提临界协同的可检出版本，不用更换归一化方式制造效应。",
+          "若同位素退火破坏膜、形成额外相或无法保持深度均匀，不进入昂贵腔/SHG阶段。"
+        ],
+        "feasibility": "用户确认的Rigaku Ultima IV只能协助平均相和晶格核对，无法分辨氧同位素比例或证明局域铁电性；需要氧同位素交换、SIMS、MBE膜与低温THz/SHG合作。先做查新和裸膜质量门槛，再评估同位素气体成本；本轮未购买、未合成。",
+        "risks": "同位素交换处理会同时改变氧缺陷、残余应变和畴钉扎；混合质量会展宽软模；腔模式失谐与基线SHG变化易造成假协同。静态结构相同也不等于零点位移和有效势完全相同。不能保证重氧更好，也不能声称产生新的化学相。",
+        "nextStep": "先读2021腔理论与现有学位论文相关章节，确认是否已有同位素-腔组合；随后在合作条件下用一组轻氧退火/部分重氧小样验证组成和软模可控性，未过关不制作整套腔。",
+        "queries": [
+          "2026-11-03: \"SrTiO3\" \"cavity\" \"isotope\"",
+          "\"SrTi18O3\" \"cavity\"",
+          "\"strontium titanate\" \"oxygen isotope\" \"ferroelectric\" Itoh",
+          "\"cavity\" \"isotope\" \"ferroelectric\" patent thesis",
+          "site:patents.google.com \"strontium titanate\" \"cavity\" \"isotope\"",
+          "\"SrTiO3\" \"cavity\" \"isotope\" thesis",
+          "\"SrTi18O3\" \"dark cavity\""
+        ],
+        "priorArt": [
+          {
+            "title": "本期：Cavity-engineered ferroelectricity in SrTiO₃",
+            "url": "https://arxiv.org/abs/2610.40756v1",
+            "overlap": "本期母体实验证据和应变/挠曲电机制；作者已建议应变场设计，不将单纯改变皱褶称创新。",
+            "access": "实际读取主文与Methods、关键图及Extended Data；独立SI未取得。"
+          },
+          {
+            "title": "Ferroelectricity Induced by Oxygen Isotope Exchange in Strontium Titanate Perovskite（1999）",
+            "url": "https://doi.org/10.1103/PhysRevLett.82.3540",
+            "overlap": "重氧诱导铁电已知，排除把同位素替换本身视为新材料发现。",
+            "access": "官方APS摘要页实际核对；搜索取得官方PDF首页摘要，未精读整篇。"
+          },
+          {
+            "title": "The ferroelectric photo ground state of SrTiO₃: Cavity materials engineering（2021）",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8346861/",
+            "overlap": "腔增强集体有效质量的理论及既有同位素调控背景，二者类似不是本次首创。",
+            "access": "机构公开稿/PMC检索结果实际核对相关段落；尚未逐项核全部SI。"
+          },
+          {
+            "title": "On the origin of oxygen isotope exchange induced ferroelectricity in strontium titanate（2012）",
+            "url": "https://doi.org/10.1140/epjb/e2012-30069-3",
+            "overlap": "同位素效应并非只由单一Barrett拟合参数解释，限制简单质量故事。",
+            "access": "作者所属Manchester研究门户摘要已读，未取得全文。"
+          },
+          {
+            "title": "Cavity Control of Phase Transitions and Nonlinearities in Quantum Materials（学位论文线索）",
+            "url": "https://arts.units.it/bitstream/11368/3093359/2/Shahla_PhD_Thesis%2836%20cycle%29-after%20correction%20PDFA.pdf",
+            "overlap": "涉及STO腔非线性与同位素背景；可能有等价路线必须补核。",
+            "access": "检索得到相关章节摘录，未完整精读全文，不作为已排除先例。"
+          },
+          {
+            "title": "US20250199345A1 Resonant cavity with electro-optical tuning",
+            "url": "https://patents.google.com/patent/US20250199345A1/en",
+            "overlap": "STO等电光材料腔调谐邻近专利，不足以说明同位素暗腔方案被保护或未被保护。",
+            "access": "检索摘要与材料清单；权利要求和专利家族尚未逐项核查。"
+          }
+        ],
+        "remainingChecks": [
+          "2026-11-03仅英文网页/论文索引与公开机构摘要的限定查新；中文/日文相关论文、学位全文与未索引稿未穷尽。",
+          "相关学位论文和2021腔理论SI未逐节核对，专利权利要求未完成；不得称限定检索已确认新颖。",
+          "实际氧同位素分布、缺陷和膜稳定性未测；未运行DFT、动力学或估算精确最优组成。"
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "title": "单纯重氧替换SrTiO₃以诱导铁电",
+        "url": "https://doi.org/10.1103/PhysRevLett.82.3540",
+        "reason": "1999年已有直接研究；不能当作本期新材料发现。"
+      },
+      {
+        "title": "直接将Sr₂FeReO₆换成Ca/Ba端元",
+        "url": "https://doi.org/10.1002/adfm.79336",
+        "reason": "碱土双钙钛矿端元与化学压力已有大量工作，不能以简单换元素声称新颖。"
+      }
+    ]
+  },
+  {
     "date": "2026-11-02",
     "schemaVersion": 1,
     "reviewedAt": "2026-11-02",

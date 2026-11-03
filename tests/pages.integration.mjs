@@ -23,7 +23,10 @@ test('three-day selections retain their date, reading levels, audit and quantita
  assert.equal(audit.coverageComplete,false);assert.equal(audit.reading.length,6);
  assert(audit.reading.filter(p=>p.access.startsWith('全文精读')).every(p=>p.bodyChineseCharacters>=1500));
  const index=JSON.parse(await readFile(new URL('assets/search-index.json',dir),'utf8'));
- assert.equal(index.filter(p=>p.reportUrl.includes('/reports/2026-10-17/')).length,6);
+ // EuPd2Si2 is retained in the historical six-paper report, while its current
+ // catalog record points to the November 3 formal-publication/full-read update.
+ assert.equal(index.filter(p=>p.reportUrl.includes('/reports/2026-10-17/')).length,5);
+ assert.equal(index.filter(p=>p.doi==='10.1103/xmz9-1mb4').length,1);
 });
 
 test('October 18 separates measured refinements from the abstract-only growth simulation',async()=>{
@@ -204,4 +207,15 @@ test('November 2 material hypotheses retain four distinct designs and six paper 
  const archive=await readFile(new URL('ideas/index.html',dir),'utf8');
  for(const i of bundle.ideas){assert(page.includes(`id="2026-11-02-${i.id}"`));assert(archive.includes(`id="2026-11-02-${i.id}"`));}
  assert(page.includes('未合成')&&page.includes('同位素'));assert.equal((page.match(/id="paper-\d+"/g)||[]).length,6);
+});
+
+test('November3 bilingual titles, honest reading scopes, material hypotheses and historical upgrade survive static export',async()=>{
+ const r=JSON.parse(await readFile(new URL('../content/reports/2026-11-03.json',import.meta.url),'utf8'));
+ const page=await readFile(new URL('reports/2026-11-03/index.html',dir),'utf8');
+ const home=await readFile(new URL('index.html',dir),'utf8');
+ for(const p of r.papers){assert(page.includes(p.titleZh));assert(home.includes(p.titleZh));}
+ assert.equal(r.papers.length,25);assert.equal(r.readingAudit.fullReads,18);assert.equal(r.readingAudit.earlyManuscriptReads,1);assert.equal(r.readingAudit.siOnly,1);assert.equal(r.readingAudit.abstractOnly,5);
+ assert(page.includes('历史重复说明'));assert(page.includes('2026-11-02'));assert(page.includes('不能据API空结果'));
+ const ideas=JSON.parse(await readFile(new URL('research-ideas/2026-11-03.json',dir),'utf8'));assert.equal(ideas.ideas.length,3);assert(ideas.ideas.every(i=>i.status==='needs-review'));
+ const index=JSON.parse(await readFile(new URL('assets/search-index.json',dir),'utf8'));const today=index.filter(p=>p.date==='2026-11-03');assert.equal(today.length,25);assert(today.every(p=>p.titleZh));assert.equal(index.filter(p=>p.doi==='10.1103/xmz9-1mb4').length,1);
 });
