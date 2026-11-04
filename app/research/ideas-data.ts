@@ -1,6 +1,232 @@
 // 从已审阅报告生成，研究设想不计入论文目录。
 export default [
   {
+    "date": "2026-11-04",
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-04",
+    "scope": "本期实际阅读母体支持的三项材料/结构假说：Nb-Ta位点替换、VN低碳阴离子替换、MXene C/N短程结构。均未合成或新计算；已有碳氮化物及专利不能包装成新材料。",
+    "limitations": [
+      "所有候选标needs-review，查新尚不足以确认新颖性、稳定性或可合成性。",
+      "组成点仅是筛选设计，不是最佳掺杂；没有运行DFT、声子或新物性实验。",
+      "专利权利要求、全部学位及结构数据库未穷尽，查询范围和未知逐项列明。"
+    ],
+    "ideas": [
+      {
+        "id": "srla-nb-ta-distortion-decoupling",
+        "status": "needs-review",
+        "kind": "material",
+        "paperIndex": 4,
+        "title": "SrLaCo(Nb₁₋ₓTaₓ)O₆：近等尺寸d⁰位替换能否分离键合与几何畸变？",
+        "material": "SrLaCo(Nb₁₋ₓTaₓ)O₆候选固溶体；假定位于Nb位的Ta⁵⁺，实际位点/氧计量/固溶范围未确认",
+        "evidenceLevel": "母体PRB正式正文、实验、图1–13/Table I及Appendix实际读；候选未合成、未测量、未计算。",
+        "question": "保持Co²⁺和A位计量时，Nb⁵⁺/Ta⁵⁺近等尺寸替换能否让局域八面体规则化温度与真正空间群转变发生不同幅度的移动？",
+        "prediction": "条件性预测：若Ta确实占Nb八面体位且保持B位有序、Co价态与氧含量，d⁰的Nb4d→Ta5d会改变氧杂化与力常数，而不会像异价掺杂那样必须引入载流子或氧补偿。因此局域Raman/键长交叉与系统消光相变不必同步移动；不预先断言温度升降方向或磁性增强。若所有变化只随体积和反位比例坍缩，则否定“独立键合调节”的当前版本。",
+        "basis": "文献事实：母体局域畸变交叉与P2₁/n→I2/m消光变化是不同事件，氧坐标和β相关性需要额外约束。物理类比：同族Nb/Ta在同六配位五价条件下尺寸接近，均d⁰；不能用自由原子半径排序，也不能把Ta更重直接等同于声子纯质量缩放。本站假说：以近等尺寸替换优先扰动键共价性和晶格动力学，可检验单纯几何化学压力模型。未知：Ta位点偏好、实际价态、相竞争、互溶和反位形成；更强SOC位于d⁰离子也不保证新拓扑态。",
+        "difference": "不是直接把已知母体重复温扫；具体设计为固定Co子晶格并匹配实际体积/氧量/有序度的Nb-Ta比较。2026-11-04定向化学式及tantalum/substitution/patent/thesis查询未得到可确认的直接候选研究，但专利家族、学位全文和所有化学式变体未检全，不能宣称新材料或首创。",
+        "feasibility": "先小批母体与名义x=0.05/0.10筛选，比例仅为探索点；以母体固相热史为起点，不承诺相同程序即可形成Ta固溶体。用户Ultima IV可筛杂相和晶格，低含量Ta位点/Co价态及氧含量需WDS/ICP、XAS或化学分析合作；高温衍射/Raman须确认附件，现有3kW设备不等于母文SmartLab9kW条件。",
+        "risks": "Ta富竞争相、Co/Nb/Ta反位、氧空位与价态变化可假冒键合效应；表面EDS不能独立确定氧计量。样品热史与颗粒尺寸必须匹配，不能将Rwp更低当同构证据。Ta重元素也会降低XRD对氧的相对灵敏度。",
+        "nextStep": "先补检Ta端元和Nb/Ta系列学位、专利，再完成母体两批重复和低Ta相纯度/位点筛查；材料关未过不进入高成本高温图谱。",
+        "plan": [
+          "材料关：同批原料合成母体、低Ta系列和独立重复；核实际Nb/Ta、Co价态、氧量及主杂相。",
+          "结构关：比较竞争空间群的辨识峰、超结构峰及参数相关性，不仅比较全谱残差。",
+          "机制关：在可用高温附件下同时跟踪局域Raman、键长交叉与系统消光，保存升降温回线。",
+          "尚未执行的计算：显式位点/反位结构的相竞争与振动计算，禁止以假设输入冒充稳定性结果。"
+        ],
+        "controls": [
+          "母体两批与低Ta系列，匹配晶粒尺寸与热史",
+          "若可合成的Ta端元作为边界；未合成前不得假定同构",
+          "氧计量、Co价态、B位有序及实际体积匹配的对照"
+        ],
+        "falsifiers": [
+          "Ta不进目标位或分相：停止固溶调控解释",
+          "差异完全由氧缺失/Co价态变化解释：否定等价替换前提",
+          "局域与平均相变在所有匹配变量下同步、无独立趋势：不支持当前解耦版本",
+          "查得等价系列与目标判据已有：移入已有路线"
+        ],
+        "queries": [
+          "2026-11-04: \"SrLaCoTaO6\"",
+          "2026-11-04: \"SrLaCoNbO6\" tantalum substitution",
+          "2026-11-04: \"SrLaCoNb\" \"Ta\"",
+          "2026-11-04: \"SrLaCoNbO6\" patent thesis"
+        ],
+        "remainingChecks": [
+          "本次定向公开网页与母体文章核对，不是全数据库穷尽查新",
+          "专利权利要求/家族、学位正文和ICSD等结构数据库未完整访问",
+          "端元稳定性、固溶限、实际位点与所有物性趋势尚待实验或计算"
+        ],
+        "priorArt": [
+          {
+            "title": "Disentangling octahedral distortion and symmetry breaking in the ordered double perovskite SrLaCoNbO6",
+            "url": "https://doi.org/10.1103/54pd-ry7l",
+            "overlap": "母体两种结构温度尺度与实验室XRD约束方法已知，本设想不能据此自称发现母体现象",
+            "access": "正式18页正文、实验、Table I、图1–13和Appendix；独立SI未取得"
+          },
+          {
+            "title": "母体作者公开预印本2609.37835",
+            "url": "https://arxiv.org/abs/2609.37835",
+            "overlap": "同题历史公开稿线索，不能将母体温变结构当今天首次结果",
+            "access": "定向检索题名/版本线索；本轮精读以正式正文为准，未重新比较全部旧稿"
+          }
+        ]
+      },
+      {
+        "id": "vn-carbonitride-orbital-texture-control",
+        "status": "needs-review",
+        "kind": "material",
+        "paperIndex": 32,
+        "title": "低碳置换VN能否在保持(111)织构时改变轨道流，而非只增加电阻？",
+        "material": "V(N₁₋ᵧCᵧ)候选薄膜/[Co(0.35nm)/Pt(0.3nm)]₃；名义阴离子替换，真实C/N空位及C位点必须独立测定",
+        "evidenceLevel": "母体AFM正式摘要及对应arXiv:2601.01115v1正文/方法/图1–7已读；候选未合成、未计算、未测量；碳氮化钒本身为已知材料，不宣称新化合物",
+        "question": "在相同VN层厚、(111)织构、磁层磁矩和垂直各向异性下，低C替换能否通过p–d杂化与电子计数改变有效轨道Hall响应，使变化无法仅由电阻率、分流和界面转换解释？",
+        "prediction": "条件性假说：若C确实进入N子晶格且保持单相岩盐衍生结构，C较N少一个价电子及不同p能级可能移动费米能附近反交叉和轨道Berry曲率。母体计算显示响应随能量改变，因此有效力矩电导可能出现非单调组成变化；不能事先断言增强、变号或给最佳y。若所有力矩变化在纠正分流、磁矩、粗糙及织构后完全消失，则否定当前电子结构控制解释；若出现相分离，该结果也不支持目标机制。",
+        "basis": "文献事实：早期稿VN的轨道Hall电导在费米能附近具有能量依赖，5至7.5nm增强但10nm下降，磁层替换又显著改变效率。物理类比：C/N相邻轻元素替换避免直接引入重金属SOC，但不是等价替换；共价半径、键长及电子计数都会改变，不能使用自由原子大小直接推断化学压力。本站假说：在固定转换层下优先扰动源层阴离子杂化，可能区分轨道源与转换界面作用。未知：外延超薄低掺杂碳氮化物的真实位点、阴离子空位、偏析、互溶范围及化学势；不假定严格刚性能带或Vegard定律。",
+        "difference": "VC、VN、V(C,N)已广泛用于硬质涂层，已有反应溅射、学位论文和早期制备专利，因此“合成碳氮化钒”必须排除为新颖点。本候选的具体差别是低C系列的轨道力矩电导与匹配织构/界面/磁各向异性对照。当前未完成专利家族、订阅引文和所有化学式变体检索，不能确认这一组合未有人研究。",
+        "feasibility": "需要有可控C源的反应/共溅射、薄膜结构分析及微加工谐波Hall合作；先做VN母体、低C候选、相同实际N缺失而不加C的对照。y=0.02、0.05只可作为名义初筛点，并非最佳比例，优先由分析检出限与相纯度决定。用户Rigaku UltimaIV可辅助取向/杂相核验，不能识别稀C位点或单独测轨道Hall电导；不假定现有实验室具备此全部条件。",
+        "risks": "C引入可形成游离碳、VC富集相或界面污染，并改变溅射动力学；XPS表面碳不等于晶格替换。C/N/O含量须用合适的深度分析与离子束/谱学方法交叉，结合STEM或掠入射结构核验。不同电子计数可能改变相稳定性、散射和低温超导背景，但不预测Tc。若只见电阻增加、织构破坏或磁死层，优先判为材料质量变化，不包装成轨道增强。",
+        "nextStep": "先查V(C,N)轨道/自旋Hall及CoPt界面既有工作，同时用最小薄膜批验证能否获得真实低C、无游离碳的单相111织构；材料关未过则暂停器件批量制作。",
+        "plan": [
+          "查新：分别搜vanadium carbonitride、V(C,N)、VN carbon substitution、orbital Hall/torque、Co/Pt与专利学位全文，保留已有材料制备路线作为对照。",
+          "材料关：同基底同厚度制备VN、低C系列和氮空位对照；独立测C/N/O及空间分布，结构、XRR和磁性参数一并记录。",
+          "机制关：按实测片电阻分流校正，保留角度全谐波、频率及热背景；比较力矩效率和力矩电导，避免仅用效率绝对值作排名。",
+          "计算可行时：先比较缺陷形成/相竞争与显式C/N排布，再求相同展宽下的轨道/自旋Hall；所有计算尚未运行。"
+        ],
+        "controls": [
+          "VN母体与低C系列，至少两个重复生长批次",
+          "不加C但匹配氮缺失的样品，区分C替换与N空位",
+          "相同CoPt厚度/磁化/各向异性、111织构、表面粗糙与氧含量",
+          "VN厚度固定并另做厚度系列，比较电流分流及频率热电背景"
+        ],
+        "falsifiers": [
+          "C仅为表面污染或独立碳相，停止阴离子替换解释",
+          "单相111织构及界面条件无法匹配，不进入物性归因",
+          "纠正电阻和热背景后响应无显著差异，否定当前可测增强版本",
+          "找到直接等价V(C,N)/CoPt轨道力矩工作，移入已有路线并寻找明确不同假说"
+        ],
+        "queries": [
+          "2026-11-04: \"vanadium carbonitride\" \"orbital\" Hall torque",
+          "2026-11-04: \"V(C,N)\" \"orbital Hall\"",
+          "2026-11-04: \"VN\" \"Nb\" \"orbital torque\"（备选同族替换排查）",
+          "2026-11-04: \"vanadium carbonitride\" patent thesis sputtering"
+        ],
+        "remainingChecks": [
+          "本次只核定向网页检索、公开仓储摘要和专利说明线索；未全文审查专利权利要求与家族",
+          "正式AFM终稿与补充材料未取得，须补核轨道/自旋转换模型及分流误差",
+          "未完成C位点、阴离子空位、相稳定性和界面污染实验核验，不能承诺可合成或性能改善"
+        ],
+        "priorArt": [
+          {
+            "title": "Efficient magnetization switching driven by orbital torque originating from light 3d-transition-metal nitrides",
+            "url": "https://arxiv.org/abs/2601.01115",
+            "overlap": "母体VN/CoPt轨道力矩机制已知；不能把轻金属氮化物轨道流本身当新方向",
+            "access": "v1十二页，正文方法主图及表1实际读，独立SI未得；正式AFM仅摘要"
+          },
+          {
+            "title": "Evolution of microstructure, mechanical and tribological properties of vanadium carbonitride coatings sputtered at different nitrogen partial pressures",
+            "url": "https://sam.ensam.eu/bitstream/handle/10985/19686/LABOMAP_SCT_2019_NOUVEAU_3.pdf?isAllowed=y&sequence=1",
+            "overlap": "碳氮化钒反应溅射及结构调控已有，材料存在与制备方法不能称新",
+            "access": "机构仓储公开稿定向检索的摘要与首页片段；未精读全部方法与图"
+          },
+          {
+            "title": "Formation and sintering of vanadium carbonitride",
+            "url": "https://repository.up.ac.za/items/7e9d9f1b-73af-4669-8dd2-1574dcf3dbbf/full",
+            "overlap": "2020学位论文已有碳氮化钒形成与烧结路线，不能把碳氮混合阴离子视为未经合成物",
+            "access": "官方机构仓储元数据与摘要；未读完整学位论文"
+          },
+          {
+            "title": "US3745209A Process for the preparation of vanadium(carbo)nitride",
+            "url": "https://patents.google.com/patent/US3745209A/en",
+            "overlap": "1973专利已有碳氮化钒制备；本候选只能讨论不同物性与限定器件设计",
+            "access": "专利公开说明及日期线索；未完成权利要求和家族审查"
+          }
+        ]
+      },
+      {
+        "id": "ti-carbonitride-site-correlation-oxidation-localisation",
+        "status": "needs-review",
+        "kind": "material",
+        "paperIndex": 2,
+        "title": "Ti₂(C₀.₅N₀.₅)Tₓ中C/N位点关联设计：氧化阈值是否取决于局域化学环境而非平均掺杂",
+        "material": "已知Ti₂C₀.₅N₀.₅Tₓ组成内的条件性C/N短程关联结构设计；与随机C/N占位及Ti₂CTₓ母体对照，不宣称该化学式为新材料",
+        "evidenceLevel": "本期Ti₂CTₓ主文、Methods与选定SI实际精读；候选结构未合成、未计算、未测量，C/N关联可控性未知，查新未完成",
+        "question": "相同平均C/N含量、端基、层数及氧化剂剂量下，成片的N富集配位环境与随机分散N能否造成不同的氧化前沿连通性，并改变进入跃迁输运的阈值？",
+        "prediction": "条件性假设：若N富集区域改变Ti局域成键且形成不易氧化的连通路径，则在平均N相同和可比总含氧量时，短程关联样品可能仍保留更长电子局域长度；若只形成绝缘氮氧化物或局域势涨落，则关联反而加剧局域化。两种结果都可检验，不能预言电导必然增加。若差异仅由端基/厚度解释，则否定独立C/N关联控制图像。",
+        "basis": "文献事实：Ti₂CTₓ同一折叠片的Ti/O随层数改变，单层绝缘、多层可保持导电；低温W分析区分跃迁与临界幂律。最近邻事实：Ti₂C₀.₅N₀.₅Tₓ及多个C/N比例已有合成和专利，N替换本身不是新预测。物理类比：C和N为相邻非金属而非等价同族替换；N多一个价电子、不同电负性，改变Ti—X共价/电荷分布，不能视作单纯化学压力。本站假说：相同平均成分的位点关联改变局域反应及渗流。未知：端基耦合、实际氧化态、C/N有序稳定性和动力学可控性；没有使用虚构离子半径或DFT能量。",
+        "difference": "排除“把C换N即可得到新MXene”的普通路线；具体差别为固定已知平均Ti₂C₀.₅N₀.₅组成，比较经实测或原子模型定义的C/N短程关联与随机分布，在匹配层数、端基和氧化剂暴露后研究电子局域化，而非重复已有电池容量筛选。该差别尚未确认无等价报道。",
+        "feasibility": "优先进行小模型可验证计算设计：相同超胞与端基、电中性条件下建立随机和团簇C/N配置，先比较结构是否保留，再计算水/氧初始吸附反应路径；计算未实施。实验仅在先证明MAX前驱体/刻蚀后MXene能保留C/N关联时进入输运。用户UltimaIV只能查宏观主相，难分C/N位点，需XPS/NMR/EELS等合作。",
+        "risks": "C/N短程关联可能在合成或刻蚀中消失；端基变化和Al残留会主导反应；N掺入可能是表面有机官能团而非晶格X位；碳氮化物的选择刻蚀窗口不同，不可直接照搬本篇LiF/HCl路线。高分辨C/N化学图可能受束损伤影响。",
+        "nextStep": "先核2021碳氮化物文章与专利家族，排除已有相同位点关联/氧化输运工作，再做电中性的小模型可行性比较；无位点关联证据时暂停实验立项。",
+        "plan": [
+          "母体Ti₂CTₓ、已知碳氮化物平均同组成的随机/关联模型及适当端元；固定表面端基和空位，不把改变N含量与改变关联混在一起。",
+          "先核C/N实际占位和短程关联，结合XPS化学态、EELS/固体NMR及主相衍射；只有N1s信号不足以证明X位取代。",
+          "匹配层数和片径，使用同等氧/水暴露时间，测电导温依赖及W(T)、实际氧化程度；检验相同平均氧含量下是否仍有输运差别。"
+        ],
+        "controls": [
+          "相同平均C/N和端基的随机配置",
+          "Ti₂CTₓ母体与未经暴露样",
+          "同批次厚度和片径匹配",
+          "残Al/氧空位及表面含氮有机物排除"
+        ],
+        "falsification": [
+          "若C/N关联无法合成/保持或只在不同端基样品出现，则暂停该结构设计路线。",
+          "若匹配实际氧化程度、片径/层数后差别消失，则否定独立短程关联效应。",
+          "若主相转成TiN/TiOₓ等竞争相，则不得继续用MXene局域化模型解释。"
+        ],
+        "noveltyChecks": [
+          "检索日期2026-11-04；已检Ti2C nitrogen oxidation MXene、Ti2C1-xNx、Ti2AlC0.5N0.5 MXene oxidation transport及专利/学位关键词。",
+          "已发现2021 Ti₂C₀.₅N₀.₅Tₓ实验论文及TW202026245A多个C/N组成，已排除“组成未报道”主张。",
+          "论文、会议摘要、专利摘要与IITMadras学位官方页面完成线索查验；未覆盖全部专利家族权利要求、原子级占位文献和学位全文。",
+          "下一步必须检Ti2(C,N)短程有序/cluster/random、氧化输运及终端配位关联，当前只能标待查新物理假设。"
+        ],
+        "priorArt": [
+          {
+            "title": "Tunable charge transport in Ti2CTx MXene flakes and printed thin films: a route to designing high-performance MXene devices",
+            "url": "https://doi.org/10.1038/s41699-026-00748-4",
+            "overlap": "氧化、层数与电子局域化的实验母体；已知控制氧化设计并非本假设首创。",
+            "access": "本轮主文/Methods/部分SI实际精读"
+          },
+          {
+            "title": "Synthesis of new two-dimensional titanium carbonitride Ti2C0.5N0.5Tx MXene and its performance as an electrode material for sodium-ion battery",
+            "url": "https://escholarship.org/content/qt5197c5b4/qt5197c5b4_noSplash_8203969a97a2c0603601437c20728ee2.pdf",
+            "overlap": "明确已知C/N混合MXene，禁止称Ti₂C₀.₅N₀.₅为本站新组成。",
+            "access": "机构仓储官方检索摘录，未逐页精读，不计本期论文数"
+          },
+          {
+            "title": "MXene particulate materials, method for producing these particulate materials, and secondary battery",
+            "url": "https://patents.google.com/patent/TW202026245A/en",
+            "overlap": "专利表2列C/N=0.9/0.1至0.1/0.9系列，普通N含量系列已有。",
+            "access": "专利公开检索摘录，未核全家族权利要求"
+          },
+          {
+            "title": "Synthesis and characterization of MAX phases and their 2D derivative MXenes",
+            "url": "https://www.iitm.ac.in/ta/node/12711",
+            "overlap": "MAX碳氮化物与Ti₂CTₓ保存介质的学位线索，不能称相关化学无人研究。",
+            "access": "IITMadras官方学位介绍页摘录，未取得全文"
+          }
+        ],
+        "falsifiers": [
+          "若C/N关联无法合成/保持或只在不同端基样品出现，则暂停该结构设计路线。",
+          "若匹配实际氧化程度、片径/层数后差别消失，则否定独立短程关联效应。",
+          "若主相转成TiN/TiOₓ等竞争相，则不得继续用MXene局域化模型解释。"
+        ],
+        "queries": [
+          "检索日期2026-11-04；已检Ti2C nitrogen oxidation MXene、Ti2C1-xNx、Ti2AlC0.5N0.5 MXene oxidation transport及专利/学位关键词。",
+          "已发现2021 Ti₂C₀.₅N₀.₅Tₓ实验论文及TW202026245A多个C/N组成，已排除“组成未报道”主张。"
+        ],
+        "remainingChecks": [
+          "论文、会议摘要、专利摘要与IITMadras学位官方页面完成线索查验；未覆盖全部专利家族权利要求、原子级占位文献和学位全文。",
+          "下一步必须检Ti2(C,N)短程有序/cluster/random、氧化输运及终端配位关联，当前只能标待查新物理假设。"
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "title": "直接将碳氮化钛或碳氮化钒的存在称为新材料",
+        "url": "https://patents.google.com/patent/US3745209A/en",
+        "reason": "已有制备、论文、学位与专利，候选仅保留有具体物性判据的设计。"
+      }
+    ]
+  },
+  {
     "date": "2026-11-03",
     "schemaVersion": 1,
     "reviewedAt": "2026-11-03",
