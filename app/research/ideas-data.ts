@@ -1,6 +1,167 @@
 // 从已审阅报告生成，研究设想不计入论文目录。
 export default [
   {
+    "date": "2026-11-05",
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-05",
+    "scope": "本期实际阅读母体支持的两项材料/结构假说：STO氧同位素与位错芯热阻、PZT侧向边界化学梯度与PTO/STO涡旋奇偶。均未合成或新计算，既有同位素降热导和PZT涡旋不能包装为本站新发现。",
+    "limitations": [
+      "所有候选标needs-review，查新尚不足以确认新颖性、稳定性或可合成性。",
+      "组成点仅是筛选设计，不是最佳掺杂；没有运行DFT、声子或新物性实验。",
+      "专利权利要求、全部学位及结构数据库未穷尽，查询范围和未知逐项列明。"
+    ],
+    "ideas": [
+      {
+        "id": "pzt-lateral-boundary-chemistry-vortex-parity",
+        "status": "needs-review",
+        "kind": "material",
+        "paperIndex": 1,
+        "title": "Pb(Ti₁₋ₓZrₓ)O₃/STO受限条带：用等平均Zr含量的左右边界化学不对称检验涡旋奇偶选择",
+        "material": "具体结构候选为PTO主体、两侧低比例Zr替Ti的PZT边界窄区/STO；比较左右对称和单侧梯度，PZT本身是已知材料，新颖性仅待核结构设计。",
+        "evidenceLevel": "本期PTO/STO主文Methods、图1–5和真实SI已读；候选未合成、未计算、未测量。",
+        "question": "偶数涡旋偏好在多大程度上依赖左右边界等价？若平均组成与几何不变、只改变边缘局域极化刚度，能否从成对约束走向稳定奇数/缺陷态，或改变恢复阈值？",
+        "prediction": "条件性假说：若低Zr同价替Ti能够在保留外延和铁电性的同时改变边缘局部Landau/梯度/弹性代价，则单侧梯度可能使两端钉扎不等价，让偶数偏好弱化，出现相对均匀参比更稳定的奇数或非对称混合态；左右镜像梯度应给镜像空间响应。若仅整体涡旋消失、或所有结果只随平均应变变化，则否定“独立边界化学调控奇偶”的简单版本。不能保证奇数稳态存在。",
+        "basis": "文献事实：本篇自由能对比显示特定边界下偶数优于邻近奇数，边缘在偏压下更稳定，间隔层会改变上下层混合态。最近邻事实：PZT极化涡旋和纳米点拓扑已知，PZT代替PTO不是本站新材料。物理类比：Ti与Zr同族、常用B位4+，在同八面体配位下Zr通常尺寸更大、4d成键不同，既可改变局部应变也可改变极化能景观；不靠SOC增强作解释。本站假说：用空间分布而非仅平均含量，检验左右边界能量差。未知：Zr位点/扩散、可保留的侧向梯度、畴稳定性及真实参数；未实施DFT或声子计算。",
+        "difference": "排除一般PZT涡旋、PZT纳米点、机械载荷切换和单纯变宽度。具体差别为在有限PTO/STO条带边缘置入同价B位化学梯度，固定平均Zr含量、厚度与加工损伤，比较对称/单侧/镜像三种边界对奇偶能量与撤场恢复的作用。尚未确认无等价文献/专利，不作为已证新课题。",
+        "feasibility": "先做相场灵敏度研究，使用有出处的PZT局部参数范围与实际应变约束，不把任意修改系数当真实新材料。只有预测在合理参数范围稳健且制备可行才尝试PLD/纳米加工合作；纳米侧向Zr梯度比均匀掺杂困难，可能需掩膜沉积和受控扩散，当前未验证。用户常规XRD可主相初筛，但不能分辨侧边数nm占位，需要原子STEM-EDS/EELS与极化图。",
+        "risks": "Zr梯度会与应变、氧空位和边缘非晶层共变；制程可能改变有效L或形成竞争相，PZT扩散可能抹去梯度；相场参数转移与电极屏蔽不确定。Pb/Zr/Ti实测和损伤匹配失败时不可作单因果解释。",
+        "nextStep": "先补查PZT/STO侧向组成梯度及奇偶涡旋相关文献/专利权利要求，再用母文边界条件做参数灵敏度与镜像对照，暂不直接投入制样。",
+        "plan": [
+          "固定母文PTO厚度、STO间隔和外延应变，构造均匀平均Zr、左右对称边界富Zr、单侧梯度及其镜像；低比例只是筛选变量，不设最佳x。",
+          "先用合理有出处参数比较奇偶态自由能、多随机初态和扰动稳定性，区分真正稳态和长寿命亚稳；不以某一次松弛结果定相。",
+          "实验可行时先用STEM成分图核实际Zr位点梯度与Pb/O缺陷，再盲法极化涡旋计数和低剂量偏压撤场循环；同步保存原始图和处理参数。"
+        ],
+        "controls": [
+          "相同平均Zr且均匀分布的PZT参比",
+          "左右镜像梯度与左右对称边界",
+          "相同有效宽度/厚度、氧处理和FIB剂量",
+          "纯PTO/STO与无偏压束照参比"
+        ],
+        "falsifiers": [
+          "若梯度无法保持、出现相分离/明显不同损伤，则暂停候选。",
+          "若匹配实际应变与L后差别消失，则否定独立边界化学机制。",
+          "若所有合理参数下都只稳偶数或整体失去涡旋，不得把数值噪声当奇数新态。"
+        ],
+        "queries": [
+          "2026-11-05: PbTiO3 Zr vortex edge",
+          "2026-11-05: ferroelectric vortex odd confinement",
+          "2026-11-05: PZT SrTiO3 vortex patent thesis"
+        ],
+        "remainingChecks": [
+          "已查普通PZT涡旋、纳米点、机械调控与专利/学位线索，未覆盖所有侧向graded-composition/PZT-STO edge asymmetry同义词。",
+          "专利CN110473873B摘要明确已知PZT阵列制备，未逐项读全家族权利要求；必须查空间组成梯度是否覆盖。",
+          "UCL学位仅核公开摘要/图注线索，未逐页读完整学位。",
+          "需核Zr梯度的可合成性、局域参数与溶解/扩散，不以PZT已知就保证该纳米结构可做。"
+        ],
+        "priorArt": [
+          {
+            "title": "Quantized even number of vortices in a confined PTO/STO ferroelectric heterostructure with edge pinning effect",
+            "url": "https://doi.org/10.1038/s41467-026-79270-6",
+            "overlap": "有限边界、偶数偏好和钉扎已由母文研究，不能包装为新设想。",
+            "access": "本轮主文Methods/图与部分SI实际精读"
+          },
+          {
+            "title": "Atomic imaging of mechanically induced topological transition of ferroelectric vortices",
+            "url": "https://www.nature.com/articles/s41467-020-15616-y",
+            "overlap": "PZT/PTO-STO等极化涡旋和外力控制已有，普通机械切换不是新方向。",
+            "access": "出版社公开检索摘要与引言线索，未计本期精读"
+          },
+          {
+            "title": "Preparation method of ordered ferroelectric topological domain structure array",
+            "url": "https://patents.google.com/patent/CN110473873B/en",
+            "overlap": "SRO/STO上PLD-PZT拓扑阵列已有专利，材料和一般阵列制备均非首创。",
+            "access": "公开专利摘要/步骤线索，未核完整家族权利要求"
+          },
+          {
+            "title": "PbTiO3 Ultrathin Films, Chapman thesis",
+            "url": "https://discovery.ucl.ac.uk/10056036/11/Chapman_10056036_thesis.pdf",
+            "overlap": "学位讨论PTO/PZT涡旋、薄膜应变和边界，需查是否已有等价侧向梯度。",
+            "access": "UCL机构公开检索摘录与图注，未完整精读"
+          }
+        ]
+      },
+      {
+        "id": "sto-isotope-dislocation-thermal-contrast",
+        "status": "needs-review",
+        "kind": "material",
+        "paperIndex": 6,
+        "parentDoi": "10.1002/adma.75575",
+        "title": "SrTi(¹⁶O₁₋ᵧ¹⁸Oᵧ)₃低角晶界：同位素质量无序是否非加性地改变位错芯与体相的热阻反差？",
+        "material": "SrTi(¹⁶O₁₋ᵧ¹⁸Oᵧ)₃低角度双晶系列；氧子晶格同位素替换，实际氧空位及Ti价态须保持并测定；不是新化合物的合成宣称",
+        "evidenceLevel": "母体AM正式摘要已读；对应arXiv:2605.19496v1主文、Methods、图1–3和内附SI/S1–S6已实际读。终稿与旧稿界面热导数值不同，不能将旧稿参数称终稿。候选未合成、未计算、未测量，稳定性及新颖性未确认。",
+        "question": "在位错间距、晶界角、Ti价态和氧空位相当时，改变氧质量能否使位错芯局域振动与体相模式的耦合变化，导致界面热导的变化不能仅用体相热导下降解释？",
+        "prediction": "条件性假说：若位错芯局域化模式和体相传播模式的氧参与程度不同，同位素替换会以不同程度移动和展宽其频谱，可能改变跨芯耦合及相对热阻。可证伪量是相同几何下的界面热阻与体相热导组合，而不是仅观察样品总热导下降。若所有变化都可由实测体相热导及几何解释，否定位错芯特异的非加性机制。方向可能增强也可能减弱，需先取得模式本征矢/频谱；不凭质量平方根直接断言全部模式同幅红移，不预测最佳y或精确热导。",
+        "basis": "文献事实：母体用振动EELS和温度剖面区分位错芯/芯间区，表明边界并非均匀热阻面；但正式摘要与旧稿的定量反演有显著修订。物理类比：¹⁶O/¹⁸O不改变氧的核电荷及名义氧化态，相比Sr/Ca或Ti/Zr替换更有利于隔离质量与键合/电荷因素；同位素仍可经零点运动、软模和退火历史间接改结构，不能称完全无结构影响。本站假说：位错重构使氧相关局域谱与体相谱的质量敏感度不同，因而存在可辨认的界面与体相响应差别。未知：真实同位素在位错芯的分布、交换动力学、缺陷演化、模式局域化和相干/非相干权重。",
+        "difference": "简单用氧同位素无序降低SrTiO₃热导已有J.Phys.Chem.Lett.直接论文，明确排除为新方向。氧示踪扩散与位错/晶界空间电荷关系也已有论文和学位研究。候选的限定差别是匹配价态/缺氧条件的低角度晶界上，对芯区与体相热阻反差和频谱耦合做联合定量检验；本次未完成全引文及专利权利要求核对，只能标待查新。",
+        "feasibility": "需要同位素气体交换、低角STO双晶、同位素深度分析、热输运和振动EELS合作，不能假定用户现有设备全部具备。Rigaku UltimaIV可辅助结构和杂相检查，不能直接判定氧同位素比例、纳米芯温度或氧空位分布。先用较少样品验证交换与缺氧控制；具体温度时间必须据原始工艺及设备重新设计，不能套用常规退火。",
+        "risks": "同位素气体昂贵，退火可能引入还原、Ti³⁺、氧空位、芯重构及空间电荷；有文献表明位错可阻碍而非总是加速氧示踪扩散，均匀交换不能预设。EELS温度反演、参考热导、厚度和束流损伤会带来系统误差。低温软模或铁电关联也会改变热导，须区分质量无序与新相转变；不给出未经计算的稳定性或性能数值。",
+        "nextStep": "先补读终稿Methods/SI及同位素热导既有论文，确认未有等价芯区研究；随后以¹⁶O与部分¹⁸O匹配退火双晶/无晶界对照验证同位素深度和Ti价态。交换不均或缺陷不可匹配时暂停纳米热导归因。",
+        "plan": [
+          "查新关：检索化学式变体、oxygen isotope disorder、low-angle grain boundary、dislocation core、thermal boundary conductance，并追直接热导论文引用、专利与学位论文。",
+          "材料关：同批STO双晶与无晶界参比，分别同条件¹⁶O退火和部分¹⁸O交换；ToF-SIMS等测实际y及深度，结构、厚度、位错间距和价态独立核验。",
+          "物性关：先测体相/无界面热导及振动谱，再比较匹配几何的界面温度降；分析误差传播，不仅比较未经归一化总热阻。",
+          "机制关：如可计算，显式同位素质量排布与相同原子结构下比较模式参与率及界面透射，另做结构/缺氧敏感性；这些计算尚未运行。"
+        ],
+        "controls": [
+          "同热历史¹⁶O样品与部分¹⁸O系列，实际y由分析确定而非以气体配比代替",
+          "相同组成的无晶界参比，以分离体相质量无序散射",
+          "晶界角、芯间距、厚度、氧空位和Ti³⁺水平匹配的重复批次",
+          "温度依赖振动谱和热导，检查软模/相变与简单质量散射的替代解释"
+        ],
+        "falsifiers": [
+          "同位素在界面/体内分布或缺氧水平不可匹配，停止芯特异机制归因",
+          "归一化后界面反差无超出误差的变化，否定当前可测非加性版本",
+          "差别仅随Ti³⁺或晶界重构而变，转为缺陷效应而非质量效应解释",
+          "发现等价同位素晶界芯热输运直接工作，则移入已有路线并重新设计差别"
+        ],
+        "queries": [
+          "2026-11-05: \"SrTiO3\" \"oxygen isotope\" \"dislocation\" thermal",
+          "2026-11-05: \"SrTi18O3\" \"grain boundary\" phonon",
+          "2026-11-05: \"SrTiO3\" \"isotope\" thesis thermal conductivity",
+          "2026-11-05: site:patents.google.com \"strontium titanate\" \"oxygen isotope\""
+        ],
+        "remainingChecks": [
+          "尚未全文读直接同位素热导论文与相关学位论文，未验证全部引文和专利家族/权利要求",
+          "原母体正式Methods/SI未得，定量数据须与VOR核对；当前位错物理依据来自明确标注的早期公开稿",
+          "未验证实验平台同位素交换、EELS合作条件和空间分辨率；不承诺可合成、可分辨或性能提升"
+        ],
+        "priorArt": [
+          {
+            "title": "Nanoscale Thermal Imaging of Dislocation-Mediated Heat Transport",
+            "url": "https://doi.org/10.1002/adma.75575",
+            "overlap": "位错芯/芯间纳米热输运母体，不能把直接分辨位错热阻本身称新方向",
+            "access": "正式摘要，早期arXiv:2605.19496v1二十七页主文、方法、图及内附SI实际读；终稿全文未得"
+          },
+          {
+            "title": "Suppressing Thermal Conductivity in SrTiO3 by Introducing Oxygen Isotope Disorder",
+            "url": "https://pubs.acs.org/doi/10.1021/acs.jpclett.4c03034",
+            "overlap": "已有氧同位素无序降低STO热导直接研究，排除简单同位素降热导为创新",
+            "access": "出版社摘要已读，正文未精读"
+          },
+          {
+            "title": "The blocking effect of surface dislocations on oxygen tracer diffusion in SrTiO3",
+            "url": "https://pubs.rsc.org/en/content/articlelanding/2018/cp/c8cp02191k",
+            "overlap": "位错与空间电荷可阻碍氧示踪扩散，提示交换不均的核心风险",
+            "access": "出版社摘要已读，全文未精读"
+          },
+          {
+            "title": "Sauerstofftransporteigenschaften von SrTiO3-basierten Materialien（学位论文线索）",
+            "url": "https://publications.rwth-aachen.de/record/571463/files/571463.pdf",
+            "overlap": "已有氧同位素交换与低角晶界扩散研究，不能把示踪交换本身称新路线",
+            "access": "仓储检索片段及PDF线索，未全文读取；题名需进一步核定"
+          },
+          {
+            "title": "专利检索：strontium titanate与oxygen isotope",
+            "url": "https://patents.google.com/",
+            "overlap": "定向检索未核出直接等价家族，不能据此宣称不存在",
+            "access": "仅限定检索，未完成专利家族与权利要求审查"
+          }
+        ]
+      }
+    ],
+    "rejected": []
+  },
+  {
     "date": "2026-11-04",
     "schemaVersion": 1,
     "reviewedAt": "2026-11-04",

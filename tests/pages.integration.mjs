@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {readFile,access} from 'node:fs/promises';
+import {readFile,access,readdir} from 'node:fs/promises';
 const dir=new URL('../github-dist/',import.meta.url);
 test('static search entry points to existing prefixed data, CSS and JS',async()=>{const html=await readFile(new URL('search/index.html',dir),'utf8');const base=html.match(/data-base="([^"]*)"/)?.[1]??'';const resources=[...html.matchAll(/(?:src|data-index|href)="([^"]+)"/g)].map(m=>m[1]).filter(v=>v.includes('/assets/'));assert(resources.length>=4);for(const url of resources){assert(url.startsWith(base+'/assets/'));await access(new URL(url.slice(base.length+1),dir))}assert(html.includes('noscript'));assert(html.includes('role="status"'));const js=await readFile(new URL('assets/search-ui/search.js',dir),'utf8');assert(!js.includes('react.development.js'))});
 test('static index preserves all metadata and report anchors exist',async()=>{const catalog=JSON.parse(await readFile(new URL('assets/search-index.json',dir),'utf8'));assert(catalog.length>50);for(const p of catalog){const [path,anchor]=p.reportUrl.split('#');const html=await readFile(new URL(path.slice(1)+'index.html',dir),'utf8');assert(html.includes(`id="${anchor}"`));assert('abstract' in p);assert('citations' in p)}const latest=await readFile(new URL('reports/2026-10-16/index.html',dir),'utf8');assert(latest.includes('今日公告 3 / 前日补读 7'));assert(latest.includes('主文可访问 9 / 主文实读 9'));assert(latest.includes('audit.json'));assert(latest.includes('ruo2-thickness.svg'));});
@@ -222,13 +222,16 @@ test('November3 bilingual titles, honest reading scopes, material hypotheses and
 });
 
 test('current brief preserves bilingual titles, reading counts and screened source audit',async()=>{
- const r=JSON.parse(await readFile(new URL('../content/reports/2026-11-04.json',import.meta.url),'utf8'));
- const page=await readFile(new URL('reports/2026-11-04/index.html',dir),'utf8');
+ const root=new URL('../content/reports/',import.meta.url);
+ const latest=(await readdir(root)).filter(f=>/^\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort().at(-1);
+ const r=JSON.parse(await readFile(new URL(latest,root),'utf8'));
+ const page=await readFile(new URL(`reports/${r.date}/index.html`,dir),'utf8');
  const home=await readFile(new URL('index.html',dir),'utf8');
- const audit=JSON.parse(await readFile(new URL('reports/2026-11-04/audit.json',dir),'utf8'));
+ const audit=JSON.parse(await readFile(new URL(`reports/${r.date}/audit.json`,dir),'utf8'));
  for(const p of r.papers){assert(page.includes(p.titleZh));assert(home.includes(p.titleZh));assert.match(p.doi,/^https:\/\//);}
  assert.equal((page.match(/id="paper-\d+"/g)||[]).length,r.papers.length);
  assert.equal(r.readingAudit.fullReads,r.papers.filter(p=>p.access.startsWith('全文精读')).length);
- assert.equal(audit.officialBatchDecisions.length,197);assert.equal(audit.arxivOfficialCounts.new,100);
- assert.equal(r.researchIdeas.ideas.length,3);assert(r.researchIdeas.ideas.every(i=>i.status==='needs-review'));
+ assert.equal(audit.officialBatchDecisions.length,audit.arxivOfficialCounts.total);
+ assert(r.researchIdeas.ideas.length>=1&&r.researchIdeas.ideas.length<=3);
+ assert(r.researchIdeas.ideas.every(i=>['needs-review','not-found-in-scope'].includes(i.status)));
 });
