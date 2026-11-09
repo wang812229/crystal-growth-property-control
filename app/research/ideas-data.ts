@@ -1,6 +1,264 @@
 // 从已审阅报告生成，研究设想不计入论文目录。
 export default [
   {
+    "date": "2026-11-09",
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-09",
+    "scope": "已知 CrSBr–Cl 固溶体的低温高压极性相边界实验，待查新。",
+    "limitations": [
+      "未开展候选实验或计算。CrSBr–Cl 固溶及其磁性已见报道，不能称新化合物。",
+      "限于本次正式和开放档案检索，专利和学位全文覆盖未穷尽。"
+    ],
+    "ideas": [
+      {
+        "id": "crsbr-cl-polar-phase-control",
+        "kind": "material",
+        "status": "needs-review",
+        "title": "利用已知 CrSBr₁₋ₓClₓ 固溶体检验高压极性相是否由化学压力主导",
+        "material": "CrSBr₁₋ₓClₓ，优先母体及低 Cl 两档；测实际 x",
+        "evidenceLevel": "母体压力正文、Methods和主图已读。固溶系列已有制备，所提极性相图尚未完成查新或实验。",
+        "question": "沿母体 Pmmn→P2₁/m→Pmm2 路径，低 Cl 引起的局部压缩是否能用单一体积映射平移极性相界？",
+        "prediction": "若几何化学压力是主因，按晶格轴压缩或单位胞体积匹配后，低Cl和母体的结构转变应更接近。若平移不能重合且卤素位共价性改变，则交换与层间滑移能需分开考虑。若衍射极性和偏振SHG不共现，先排查孪晶、局部应力或体相贡献过弱。",
+        "basis": "母体CVT单晶在约1.5和6.5 GPa出现两个对称性变化。Cl⁻和Br⁻同族同价，比较相同配位下 Cl⁻ 较小且 3p 比 Br 4p 局域，减弱重卤素自旋轨道项的同时改变共价性与层间轨道重叠。名义替换无载流子补偿要求。旧文已表明磁交换随合金化可变，因此不能只按一个标量体积解释。需核实际占位和均匀性。",
+        "difference": "既有 CVT 合金及磁性、常压结构和静水压物性不能重复包装。待查新目标严格限于低温高压极性空间群相界随低Cl含量的变化和体积匹配的双重对照。",
+        "plan": [
+          "优先采用已知CVT合金路线，WDS/SCXRD核实际Cl与Br占位。",
+          "同炉多片同轴装载，在He介质下低温高压衍射并同时记录卸压。",
+          "以偏振SHG交叉查反演破缺，先比较母体和低Cl，再拟合成分、压力、轴向应变三维关系。"
+        ],
+        "controls": [
+          "x=0 母体，已知低Cl样品与未加压同成分",
+          "压力、体积及各轴晶格常数分别匹配",
+          "加压和卸压，换一片和换装样方向"
+        ],
+        "falsifiers": [
+          "若组成分区或竞争相超过实验分辨限，暂停相界解释。",
+          "若峰裂分只随非静水装载出现，且反射统计与SHG均不支持极性，放弃相变结论。"
+        ],
+        "feasibility": "生长与常压表征可先做。低温同步辐射、DAC和SHG需要平台联合。",
+        "risks": "高Cl掺入受限，已有高投料出现 Cr 卤化物与 Cr₂S₃。卤素挥发、取向与 He/酒精介质差异不可忽略。",
+        "nextStep": "选择一块已知低Cl单晶和母体做同批常压成分、晶格和偏振Raman，明确下一次高压结构测量的相界判据。",
+        "queries": [
+          "2026-11-09 CrSBr1-xClx CrSBr CrSCl Cl substitution pressure Pmm2 polar structure",
+          "2026-11-09 CrSBr pressure high-pressure diffraction polarity Raman alloy patent thesis"
+        ],
+        "remainingChecks": [
+          "需逐表核相关压力合金文章与专利权利要求，尤其已有的低温DAC结构精修。"
+        ],
+        "priorArt": [
+          {
+            "url": "https://arxiv.org/abs/2611.09202",
+            "title": "Pressure-induced symmetry breaking and polarity in the van der Waals magnet CrSBr",
+            "overlap": "给无Cl母体结构转变及压力光谱。",
+            "access": "公开主文 Methods 与图已读"
+          },
+          {
+            "url": "https://doi.org/10.1002/apxr.202300036",
+            "title": "Designing Magnetic Properties in CrSBr through Hydrostatic Pressure and Ligand Substitution",
+            "overlap": "已制 x=0–0.67 CVT 合金，研究化学与物理压力的磁性作用。",
+            "access": "正式HTML与表1核对，非本期独立收录"
+          },
+          {
+            "url": "https://doi.org/10.1016/S0025-5408(00)00433-5",
+            "title": "Preparation and crystal structure of quaternary chromium sulfide halide CrSBr0.67Cl0.33",
+            "overlap": "已报道具体固溶相和Pmmn。",
+            "access": "出版社摘要核读"
+          },
+          {
+            "url": "https://fileserver-az.core.ac.uk/download/482689577.pdf",
+            "title": "Two-Dimensional Magnetoelectronic Van Der Waals Compounds",
+            "overlap": "学位论文第6章已有合金、位点和交换问题。",
+            "access": "章节摘要和6.5.1检索线索"
+          }
+        ],
+        "paperIndex": 2
+      }
+    ],
+    "rejected": [
+      {
+        "title": "把 CrSBr₁₋ₓClₓ 一般固溶和磁性调控称作新发现",
+        "url": "https://doi.org/10.1002/apxr.202300036",
+        "reason": "此前已制备并测量，保留低温高压极性结构的独立检验。"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-08",
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-09",
+    "scope": "固定 Ca、少量 Zr 取代 Ti 的低温电光假设，待进一步查新。",
+    "limitations": [
+      "该候选未合成、未计算、未测量。已存在 BCTZ 体系，候选新意仅针对指定组分和低温对照。"
+    ],
+    "ideas": [
+      {
+        "id": "bcto-zr-quantum-plateau",
+        "kind": "material",
+        "status": "needs-review",
+        "title": "少量 Zr 替换 Ba₀.₇₇Ca₀.₂₃TiO₃ 的 Ti 位，检验低温电光平台与局域无序",
+        "material": "(Ba₀.₇₇Ca₀.₂₃)(Ti₁₋ᵧZrᵧ)O₃；y=0、0.01、0.03 为筛选点",
+        "evidenceLevel": "母体成分仅为已读作者稿的模型，实测母体为应变 BaTiO₃；本系列未合成、计算或测量",
+        "question": "在固定 A 位比例和膜应变时，少量同价 Zr⁴⁺ 是否能改变低温相界而保留低损耗的 Pockels 平台？",
+        "prediction": "若主要是局域八面体几何改变，随实际 Zr 含量移动的介电和极化相界应与低温 r_eff 转折一起移动。若无序主导，可能出现频率色散增大、回线变宽和平台变钝，不能按均匀化学压力解释。",
+        "basis": "Ti 与 Zr 同族，同为六配位的名义 +4 时，Zr 离子半径较大；3d/4d 杂化改变局部键长、位移势和随机弹性场。价电子计数不要求净补偿，但氧亏会掩盖效应。Ba/Ca 保持固定便于把 A 位化学压力与 B 位调节分开。具体位点、氧缺位、应变和固溶稳定仍需实测。母体图3观测应变BaTiO₃平台，图4的无应力Ca系列只提供模型筛选依据。",
+        "difference": "BCTZ 固溶体与 Pockels/Kerr 可调已公开，公式及一般电光效应均排除新颖性。限定假设是固定 Ca/应变、稀 Zr 与低于25 K 的平台、介电色散和相界联动。",
+        "plan": [
+          "先用一套生长路线制备 y=0 和两档低 Zr 同厚膜，锁定基底、氧气和几何。",
+          "用 WDS 或 RBS核验阳离子比例，XRD RSM、AFM 和局部成分图确认相纯、松弛与分相。",
+          "在同电极和波长下同步测低温介电、SHG、Pockels 与漏电，检查频率和温度依赖。"
+        ],
+        "controls": [
+          "无Zr 的 Ba₀.₇₇Ca₀.₂₃TiO₃",
+          "既有压缩 BaTiO₃ 参比",
+          "已知 BCTZ 配方的室温结构作工艺对照，不把高Zr端元外推为低温同相"
+        ],
+        "falsifiers": [
+          "若色散、漏电或畴变化即可重现平台差异，暂停均匀软化解释。",
+          "无可验证 Zr 实际成分或出现竞争相时停止拟合物性。"
+        ],
+        "feasibility": "可先用已有氧化物薄膜平台完成成分和低温介电筛查，样品通过后再做低温电光。",
+        "risks": "Zr 可诱发局域随机场与相共存，压缩失配、氧缺位和畴分布可能比稀掺更强。",
+        "nextStep": "先确认 y=0 薄膜在目标温区保持可测的相纯度和线性电光响应。",
+        "queries": [
+          "2026-11-09 BCTZ cryogenic Pockels quantum saturation Zr Ba0.77Ca0.23TiO3",
+          "2026-11-09 barium calcium zirconate titanate Pockels low temperature patent thesis"
+        ],
+        "remainingChecks": [
+          "待查特定低Zr/固定Ca成分、制备专利权利要求与低于25K数据；正式AM稿和专利号待核。"
+        ],
+        "priorArt": [
+          {
+            "url": "https://doi.org/10.1002/adma.75543",
+            "title": "Quantum Saturation of the Electro‐Optic Effect",
+            "overlap": "有应变 BaTiO₃ 量子饱和，提出 Ca 系列模型。",
+            "access": "早期公开正文、Methods和随稿补充已读"
+          },
+          {
+            "url": "https://doi.org/10.1021/acsami.3c06499",
+            "title": "Lead-Free Perovskite Thin Films with Tailored Pockels-Kerr Effects for Photonics",
+            "overlap": "BCTZ薄膜及成分相关线性、非线性电光已有实验。",
+            "access": "机构公开全文入口、论文主要结果已核；完整低温范围待核"
+          },
+          {
+            "url": "https://doi.org/10.1103/PhysRevLett.103.257602",
+            "title": "Large Piezoelectric Effect in Pb-Free Ceramics",
+            "overlap": "BZT–BCT 陶瓷和高压电响应已知。",
+            "access": "机构公开稿及摘要结果核对"
+          },
+          {
+            "url": "https://patents.justia.com/patent/20220107518",
+            "title": "US20220107518",
+            "overlap": "稳定四方 BaTiO₃ 与低温电光相关。",
+            "access": "公开专利页，权利要求待比较"
+          },
+          {
+            "url": "https://www.research-collection.ethz.ch/items/75dfa25f-fe8d-40d8-bfde-664ab2e1769a",
+            "title": "Integrated cavity electro-optics with thin-film barium titanate",
+            "overlap": "低温薄膜钛酸钡电光学位研究。",
+            "access": "机构仓储题录与摘要"
+          }
+        ],
+        "paperIndex": 1
+      }
+    ],
+    "rejected": [
+      {
+        "title": "一般 BCTZ 薄膜的 Pockels/Kerr 调控",
+        "url": "https://doi.org/10.1021/acsami.3c06499",
+        "reason": "已有直接研究。"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-07",
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-09",
+    "scope": "ABAB 四层单侧 WSe₂/MoSe₂ 的层选择性扰动实验，待查新。",
+    "limitations": [
+      "候选未合成、未计算、未测量。公开查新范围有限。"
+    ],
+    "ideas": [
+      {
+        "id": "abab-four-layer-tmd-asymmetric-screening",
+        "kind": "material",
+        "status": "needs-review",
+        "title": "在 ABAB 四层石墨烯一侧引入 WSe₂ 或 MoSe₂，拆分朗道级的屏蔽与近邻效应",
+        "material": "石墨/hBN/[WSe₂ 或 MoSe₂]/ABAB-4LG/hBN/石墨，另做有一至二层 hBN 间隔的结构",
+        "evidenceLevel": "母体先行正文及 SI 已读；候选未制备、未计算、未测量",
+        "question": "同一位移场和载流子密度下，改变单侧硒化物会只影响有较大邻侧层权重的交叉，还是把所有锯齿近似一起平移？",
+        "prediction": "若层选择性屏蔽主导，校正零位移场后交换接触面应反转若干交叉的偏移方向，加入薄 hBN 间隔时仍可留下电容异常。若差异主要来自杂化或近邻自旋轨道耦合，直接接触的变化应较突出，间隔引入后衰减。若相邻器件在匹配电子温度和展宽后无法重复差异，当前假设受否定。",
+        "basis": "事实来自母体图3、4和S16。层权重会随D在B2/A3等分量之间改换，输运锯齿随磁场和温度变化。Mo和W为同族，在MoSe₂/WSe₂的名义配位下保持二硒化物骨架和价电子计数作对照，4d与5d能级、自旋轨道耦合和带边位置都会变，因此不能直接把测得差异归给重元素。这里不替换石墨烯碳位，无须假设碳晶格内电荷补偿。近邻材料的载流子和介电响应须分别量化。",
+        "difference": "WSe₂/ABAB四层已有异常霍尔研究。此次问题仅限定为同片、Mo/W可换、间隔和接触面对调的半整数填充与分栅电容检验。多层数和ABCA的理论比较已由母体SI讨论。",
+        "plan": [
+          "同片分成相邻Hall bar，固定接触和退火，比较WSe₂、MoSe₂与hBN-only。",
+          "用AFM、Raman和低场朗道扇核实厚度、堆垛和均匀性，独立标定双栅电容。",
+          "在8–12 T及约20 mK附近同步记录电荷响应与输运，拟合固定填充上的交叉位置、半整数激活标度和展宽。"
+        ],
+        "controls": [
+          "空白hBN界面和交换近邻材料所在侧",
+          "相同材料加一至二层hBN间隔",
+          "同片匹配迁移率、接触电阻、光刻流程、电子温度和磁场极性",
+          "石墨栅厚度匹配，以栅态密度振荡作为竞争解释。"
+        ],
+        "falsifiers": [
+          "镜像器件位移场校准后未重现选择性交叉偏移。",
+          "若界面短路、堆垛改变或展宽大于目标偏移，停止解释物性。"
+        ],
+        "feasibility": "干法转移、低频双栅电容和稀释制冷磁输运可执行。先在高于最终测量温度完成电容与漏电标定，再申请稀释制冷时间。",
+        "risks": "扭角或摩尔超晶格、氧化与界面气泡、带边电荷转移和hBN厚度误差都可能改变费米面。材料配对只能形成受控比较。",
+        "nextStep": "先做 hBN-only 与同片一侧 WSe₂ 两个器件，确认可复现锯齿后再加 MoSe₂、间隔和反向结构。",
+        "queries": [
+          "2026-11-09 Bernal tetralayer graphene + WSe2/MoSe2 + fractional quantum Hall / oscillatory charge squeezing",
+          "2026-11-09 graphene/TMD hBN spacer dielectric screening + patent/thesis"
+        ],
+        "remainingChecks": [
+          "需逐页查阅精确四层 WSe₂/MoSe₂ 叠层与分数量子霍尔的学位、专利权利要求和未索引预印本。",
+          "补测电容前无法判断带边电荷转移、堆垛和结构稳定。"
+        ],
+        "priorArt": [
+          {
+            "url": "https://doi.org/10.1038/s41467-026-79149-6",
+            "title": "Fractional quantum Hall states and oscillatory Landau charge squeezing in Bernal tetralayer graphene",
+            "overlap": "已测母体输运，SI 已算其他层数和 ABCA。",
+            "access": "正文及SI实际读"
+          },
+          {
+            "url": "https://doi.org/10.1103/PhysRevB.99.245402",
+            "title": "Graphene on transition-metal dichalcogenides",
+            "overlap": "已有石墨烯/TMD近邻自旋轨道机制。",
+            "access": "索引及出版摘要线索"
+          },
+          {
+            "url": "https://patents.google.com/patent/WO2024158401A2/en",
+            "title": "WO2024158401A2",
+            "overlap": "超洁净石墨烯/TMD堆叠工艺。",
+            "access": "专利公开条目，权利要求待逐项比较"
+          },
+          {
+            "url": "https://etheses.whiterose.ac.uk/33532/1/Veneri_205052612_Thesis.pdf",
+            "title": "Veneri 石墨烯/WSe₂ 电荷与自旋输运学位论文",
+            "overlap": "近邻输运，结构有重叠。",
+            "access": "学位全文入口已定位，未逐章阅读"
+          },
+          {
+            "url": "https://doi.org/10.1088/1674-1056/adb411",
+            "title": "WSe₂/ABAB 四层石墨烯的栅控异常霍尔研究",
+            "overlap": "已有组合，物性和对照不同。",
+            "access": "期刊题录与摘要核对"
+          }
+        ],
+        "paperIndex": 1
+      }
+    ],
+    "rejected": [
+      {
+        "title": "WSe₂/ABAB 四层组合本身",
+        "url": "https://doi.org/10.1088/1674-1056/adb411",
+        "reason": "已有实验，保留界面反向、间隔和分栅电容的新测量目标。"
+      }
+    ]
+  },
+  {
     "date": "2026-11-06",
     "schemaVersion": 1,
     "reviewedAt": "2026-11-06",

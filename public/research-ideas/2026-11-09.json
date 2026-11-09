@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-09",
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-09",
+  "scope": "已知 CrSBr–Cl 固溶体的低温高压极性相边界实验，待查新。",
+  "limitations": [
+    "未开展候选实验或计算。CrSBr–Cl 固溶及其磁性已见报道，不能称新化合物。",
+    "限于本次正式和开放档案检索，专利和学位全文覆盖未穷尽。"
+  ],
+  "ideas": [
+    {
+      "id": "crsbr-cl-polar-phase-control",
+      "kind": "material",
+      "status": "needs-review",
+      "title": "利用已知 CrSBr₁₋ₓClₓ 固溶体检验高压极性相是否由化学压力主导",
+      "material": "CrSBr₁₋ₓClₓ，优先母体及低 Cl 两档；测实际 x",
+      "evidenceLevel": "母体压力正文、Methods和主图已读。固溶系列已有制备，所提极性相图尚未完成查新或实验。",
+      "question": "沿母体 Pmmn→P2₁/m→Pmm2 路径，低 Cl 引起的局部压缩是否能用单一体积映射平移极性相界？",
+      "prediction": "若几何化学压力是主因，按晶格轴压缩或单位胞体积匹配后，低Cl和母体的结构转变应更接近。若平移不能重合且卤素位共价性改变，则交换与层间滑移能需分开考虑。若衍射极性和偏振SHG不共现，先排查孪晶、局部应力或体相贡献过弱。",
+      "basis": "母体CVT单晶在约1.5和6.5 GPa出现两个对称性变化。Cl⁻和Br⁻同族同价，比较相同配位下 Cl⁻ 较小且 3p 比 Br 4p 局域，减弱重卤素自旋轨道项的同时改变共价性与层间轨道重叠。名义替换无载流子补偿要求。旧文已表明磁交换随合金化可变，因此不能只按一个标量体积解释。需核实际占位和均匀性。",
+      "difference": "既有 CVT 合金及磁性、常压结构和静水压物性不能重复包装。待查新目标严格限于低温高压极性空间群相界随低Cl含量的变化和体积匹配的双重对照。",
+      "plan": [
+        "优先采用已知CVT合金路线，WDS/SCXRD核实际Cl与Br占位。",
+        "同炉多片同轴装载，在He介质下低温高压衍射并同时记录卸压。",
+        "以偏振SHG交叉查反演破缺，先比较母体和低Cl，再拟合成分、压力、轴向应变三维关系。"
+      ],
+      "controls": [
+        "x=0 母体，已知低Cl样品与未加压同成分",
+        "压力、体积及各轴晶格常数分别匹配",
+        "加压和卸压，换一片和换装样方向"
+      ],
+      "falsifiers": [
+        "若组成分区或竞争相超过实验分辨限，暂停相界解释。",
+        "若峰裂分只随非静水装载出现，且反射统计与SHG均不支持极性，放弃相变结论。"
+      ],
+      "feasibility": "生长与常压表征可先做。低温同步辐射、DAC和SHG需要平台联合。",
+      "risks": "高Cl掺入受限，已有高投料出现 Cr 卤化物与 Cr₂S₃。卤素挥发、取向与 He/酒精介质差异不可忽略。",
+      "nextStep": "选择一块已知低Cl单晶和母体做同批常压成分、晶格和偏振Raman，明确下一次高压结构测量的相界判据。",
+      "queries": [
+        "2026-11-09 CrSBr1-xClx CrSBr CrSCl Cl substitution pressure Pmm2 polar structure",
+        "2026-11-09 CrSBr pressure high-pressure diffraction polarity Raman alloy patent thesis"
+      ],
+      "remainingChecks": [
+        "需逐表核相关压力合金文章与专利权利要求，尤其已有的低温DAC结构精修。"
+      ],
+      "priorArt": [
+        {
+          "url": "https://arxiv.org/abs/2611.09202",
+          "title": "Pressure-induced symmetry breaking and polarity in the van der Waals magnet CrSBr",
+          "overlap": "给无Cl母体结构转变及压力光谱。",
+          "access": "公开主文 Methods 与图已读"
+        },
+        {
+          "url": "https://doi.org/10.1002/apxr.202300036",
+          "title": "Designing Magnetic Properties in CrSBr through Hydrostatic Pressure and Ligand Substitution",
+          "overlap": "已制 x=0–0.67 CVT 合金，研究化学与物理压力的磁性作用。",
+          "access": "正式HTML与表1核对，非本期独立收录"
+        },
+        {
+          "url": "https://doi.org/10.1016/S0025-5408(00)00433-5",
+          "title": "Preparation and crystal structure of quaternary chromium sulfide halide CrSBr0.67Cl0.33",
+          "overlap": "已报道具体固溶相和Pmmn。",
+          "access": "出版社摘要核读"
+        },
+        {
+          "url": "https://fileserver-az.core.ac.uk/download/482689577.pdf",
+          "title": "Two-Dimensional Magnetoelectronic Van Der Waals Compounds",
+          "overlap": "学位论文第6章已有合金、位点和交换问题。",
+          "access": "章节摘要和6.5.1检索线索"
+        }
+      ],
+      "paperIndex": 2
+    }
+  ],
+  "rejected": [
+    {
+      "title": "把 CrSBr₁₋ₓClₓ 一般固溶和磁性调控称作新发现",
+      "url": "https://doi.org/10.1002/apxr.202300036",
+      "reason": "此前已制备并测量，保留低温高压极性结构的独立检验。"
+    }
+  ]
+}

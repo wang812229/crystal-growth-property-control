@@ -1,0 +1,518 @@
+{
+  "date": "2026-11-08",
+  "checkedAt": "2026-11-09T16:06:06.894288+08:00",
+  "window": "北京时间 11 月 8 日。发现当日正式期刊强相关项，未回溯收录 11 月 6 日的晚出稿。周日无独立 arXiv 公告，已回核周一批次。日历提交 API 返回空，单独记录。",
+  "coverageComplete": false,
+  "counts": {
+    "total": 2,
+    "formal": 2,
+    "arxiv": 0,
+    "fullMainReads": 0,
+    "earlyManuscriptReads": 1,
+    "abstractOnly": 1,
+    "categories": {
+      "晶体生长和物性调控": 2
+    },
+    "ideas": 1
+  },
+  "journalAudit": [
+    {
+      "source": "APS / pra",
+      "urls": [
+        "https://journals.aps.org/pra/recent",
+        "https://journals.aps.org/pra/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prab",
+      "urls": [
+        "https://journals.aps.org/prab/recent",
+        "https://journals.aps.org/prab/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prapplied",
+      "urls": [
+        "https://journals.aps.org/prapplied/recent",
+        "https://journals.aps.org/prapplied/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prb",
+      "urls": [
+        "https://journals.aps.org/prb/recent",
+        "https://journals.aps.org/prb/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prc",
+      "urls": [
+        "https://journals.aps.org/prc/recent",
+        "https://journals.aps.org/prc/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prd",
+      "urls": [
+        "https://journals.aps.org/prd/recent",
+        "https://journals.aps.org/prd/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / pre",
+      "urls": [
+        "https://journals.aps.org/pre/recent",
+        "https://journals.aps.org/pre/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prfluids",
+      "urls": [
+        "https://journals.aps.org/prfluids/recent",
+        "https://journals.aps.org/prfluids/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prl",
+      "urls": [
+        "https://journals.aps.org/prl/recent",
+        "https://journals.aps.org/prl/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prmaterials",
+      "urls": [
+        "https://journals.aps.org/prmaterials/recent",
+        "https://journals.aps.org/prmaterials/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prper",
+      "urls": [
+        "https://journals.aps.org/prper/recent",
+        "https://journals.aps.org/prper/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prresearch",
+      "urls": [
+        "https://journals.aps.org/prresearch/recent",
+        "https://journals.aps.org/prresearch/accepted"
+      ],
+      "hits": 4,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。后续复核发现该日接收4篇，主题为BEC、菌群、自驱集体系统及耗散多体模型，均排除。"
+    },
+    {
+      "source": "APS / prx",
+      "urls": [
+        "https://journals.aps.org/prx/recent",
+        "https://journals.aps.org/prx/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prxenergy",
+      "urls": [
+        "https://journals.aps.org/prxenergy/recent",
+        "https://journals.aps.org/prxenergy/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prxintelligence",
+      "urls": [
+        "https://journals.aps.org/prxintelligence/recent",
+        "https://journals.aps.org/prxintelligence/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prxlife",
+      "urls": [
+        "https://journals.aps.org/prxlife/recent",
+        "https://journals.aps.org/prxlife/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prxquantum",
+      "urls": [
+        "https://journals.aps.org/prxquantum/recent",
+        "https://journals.aps.org/prxquantum/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / rmp",
+      "urls": [
+        "https://journals.aps.org/rmp/recent",
+        "https://journals.aps.org/rmp/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "Nature",
+      "url": "https://www.nature.com/nature/research-articles",
+      "officialHTTP": "200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusion": "未见当日条目",
+      "limits": "出版列表已查，Crossref部分429；页范围内命中。"
+    },
+    {
+      "source": "Nature Physics",
+      "url": "https://www.nature.com/nphys/research-articles",
+      "officialHTTP": "200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusion": "未见当日条目",
+      "limits": "出版列表已查，Crossref部分429；页范围内命中。"
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://www.nature.com/nmat/research-articles",
+      "officialHTTP": "200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusion": "未见当日条目",
+      "limits": "出版列表已查，Crossref部分429；页范围内命中。"
+    },
+    {
+      "source": "Nature Communications",
+      "url": "https://www.nature.com/ncomms/research-articles",
+      "officialHTTP": "200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusion": "未见当日条目",
+      "limits": "出版列表已查，Crossref部分429；页范围内命中。"
+    },
+    {
+      "source": "npj Quantum Materials",
+      "url": "https://www.nature.com/npjquantmats/research-articles",
+      "officialHTTP": "200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusion": "未见当日条目",
+      "limits": "出版列表已查，Crossref部分429；页范围内命中。"
+    },
+    {
+      "source": "Nature Nanotechnology",
+      "url": "https://www.nature.com/nnano/research-articles",
+      "officialHTTP": "200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusion": "未见当日条目",
+      "limits": "出版列表已查，Crossref部分429；页范围内命中。"
+    },
+    {
+      "source": "Nature Electronics",
+      "url": "https://www.nature.com/natelectron/research-articles",
+      "officialHTTP": "200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusion": "未见当日条目",
+      "limits": "出版列表已查，Crossref部分429；页范围内命中。"
+    },
+    {
+      "source": "Communications Physics",
+      "url": "https://www.nature.com/commsphys/research-articles",
+      "officialHTTP": "200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusion": "未见当日条目",
+      "limits": "出版列表已查，Crossref部分429；页范围内命中。"
+    },
+    {
+      "source": "Communications Materials",
+      "url": "https://www.nature.com/commsmat/research-articles",
+      "officialHTTP": "200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusion": "未见当日条目",
+      "limits": "出版列表已查，Crossref部分429；页范围内命中。"
+    },
+    {
+      "source": "npj 2D Materials",
+      "url": "https://www.nature.com/npj2dmaterials/research-articles",
+      "officialHTTP": "200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusion": "未见当日条目",
+      "limits": "出版列表已查，Crossref部分429；页范围内命中。"
+    },
+    {
+      "source": "AM",
+      "url": "https://api.crossref.org/journals/1521-4095/works?filter=from-online-pub-date:2026-11-07,until-online-pub-date:2026-11-09&rows=100&select=DOI,title,published-online,abstract",
+      "hits": 1,
+      "included": 1,
+      "excluded": 0,
+      "items": [
+        {
+          "doi": "10.1002/adma.75543",
+          "title": "Quantum Saturation of the Electro‐Optic Effect",
+          "decision": "include",
+          "reason": "直接相关，逐篇记录阅读证据。"
+        }
+      ],
+      "limits": "出版社 403，Crossref补核。"
+    },
+    {
+      "source": "AFM",
+      "url": "https://api.crossref.org/journals/1616-3028/works?filter=from-online-pub-date:2026-11-07,until-online-pub-date:2026-11-09&rows=100&select=DOI,title,published-online,abstract",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "items": [],
+      "limits": "出版社 403，Crossref补核。"
+    },
+    {
+      "source": "Nano Letters",
+      "url": "https://api.crossref.org/journals/1530-6992/works?filter=from-online-pub-date:2026-11-07,until-online-pub-date:2026-11-09&rows=100&select=DOI,title,published-online,abstract",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "items": [],
+      "limits": "ACS 源站已有访问限制，使用出版元数据。"
+    },
+    {
+      "source": "ACS Nano",
+      "url": "https://api.crossref.org/journals/1936-086X/works?filter=from-online-pub-date:2026-11-07,until-online-pub-date:2026-11-09&rows=100&select=DOI,title,published-online,abstract",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "items": [],
+      "limits": "ACS 源站已有访问限制，使用出版元数据。"
+    },
+    {
+      "source": "JACS",
+      "url": "https://api.crossref.org/journals/1520-5126/works?filter=from-online-pub-date:2026-11-07,until-online-pub-date:2026-11-09&rows=100&select=DOI,title,published-online,abstract",
+      "hits": 2,
+      "included": 1,
+      "excluded": 1,
+      "items": [
+        {
+          "doi": "10.1021/jacs.6c11578",
+          "title": "CHARMM-Compatible Molecular Mechanics Force Fields for Multiscale Modeling of HIV-1 Replication Inhibitors",
+          "decision": "exclude",
+          "reason": "HIV 抑制剂力场，偏生物建模。"
+        },
+        {
+          "doi": "10.1021/jacs.6c19292",
+          "title": "Ambipolar Electrochemical Doping of CsPbBr 3 Nanocrystals",
+          "decision": "include",
+          "reason": "直接相关，逐篇记录阅读证据。"
+        }
+      ],
+      "limits": "ACS 源站已有访问限制，使用出版元数据。"
+    },
+    {
+      "source": "Chemistry of Materials",
+      "url": "https://api.crossref.org/journals/1520-5002/works?filter=from-online-pub-date:2026-11-07,until-online-pub-date:2026-11-09&rows=100&select=DOI,title,published-online,abstract",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "items": [],
+      "limits": "ACS 源站已有访问限制，使用出版元数据。"
+    },
+    {
+      "source": "Crystal Growth & Design",
+      "url": "https://api.crossref.org/journals/1528-7505/works?filter=from-online-pub-date:2026-11-07,until-online-pub-date:2026-11-09&rows=100&select=DOI,title,published-online,abstract",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "items": [],
+      "limits": "ACS 源站已有访问限制，使用出版元数据。"
+    },
+    {
+      "source": "Journal of Crystal Growth",
+      "url": "https://api.crossref.org/journals/0022-0248/works?filter=from-online-pub-date:2026-11-07,until-online-pub-date:2026-11-09&rows=100&select=DOI,title,published-online,abstract",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "items": [],
+      "limits": "出版社 403，Crossref补核。"
+    },
+    {
+      "source": "Science",
+      "url": "https://api.crossref.org/journals/1095-9203/works?filter=from-online-pub-date:2026-11-07,until-online-pub-date:2026-11-09&rows=100&select=DOI,title,published-online,abstract",
+      "hits": 1,
+      "included": 0,
+      "excluded": 1,
+      "items": [
+        {
+          "doi": "10.1126/science.aeh5267",
+          "title": "Melting and resistivity of iron at Earth core conditions using pulsed Joule heating",
+          "decision": "exclude",
+          "reason": "地核条件铁熔融与电阻率，地球物理问题。"
+        }
+      ],
+      "limits": "出版社 403，Crossref补核。"
+    },
+    {
+      "source": "Science Advances",
+      "url": "https://api.crossref.org/journals/2375-2548/works?filter=from-online-pub-date:2026-11-07,until-online-pub-date:2026-11-09&rows=100&select=DOI,title,published-online,abstract",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "items": [],
+      "limits": "出版社 403，Crossref补核。"
+    },
+    {
+      "source": "同级期刊",
+      "hits": null,
+      "included": 0,
+      "items": [],
+      "limits": "AIP、PNAS等目录访问受限，核实范围未穷尽。"
+    }
+  ],
+  "historicalExclusions": [],
+  "limits": [
+    "AAAS、Wiley、ACS 与 JCG 有各自的访问限制。",
+    "正式摘要与作者稿阅读范围分列。"
+  ],
+  "arxivCrosscheck": [
+    {
+      "name": "date-07",
+      "http": "200",
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acond-mat.%2A%20AND%20submittedDate%3A%5B202611061600%20TO%20202611071559%5D&max_results=300",
+      "count": 17,
+      "error": ""
+    },
+    {
+      "name": "date-08",
+      "http": "200",
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acond-mat.%2A%20AND%20submittedDate%3A%5B202611071600%20TO%20202611081559%5D&max_results=300",
+      "count": 0,
+      "error": ""
+    },
+    {
+      "name": "date-09",
+      "http": "200",
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acond-mat.%2A%20AND%20submittedDate%3A%5B202611081600%20TO%20202611091559%5D&max_results=300",
+      "count": 0,
+      "error": ""
+    },
+    {
+      "name": "ids-0",
+      "http": "200",
+      "url": "https://export.arxiv.org/api/query?id_list=2611.08527,2611.08529,2611.08532,2611.08605,2611.08617,2611.08663,2611.08667,2611.08677,2611.08678,2611.08724,2611.08728,2611.08761,2611.08823,2611.08851,2611.08871,2611.08873,2611.08881,2611.08894,2611.08926,2611.08951,2611.08965,2611.08986,2611.09025,2611.09068,2611.09083,2611.09097,2611.09098,2611.09103,2611.09149,2611.09153,2611.09168,2611.09202,2611.09255,2611.09258,2611.09285,2611.09287,2611.09320,2611.09325,2611.09390,2611.09391,2611.09462,2611.09469,2611.09473,2611.09494,2611.09499,2611.09509,2611.09510,2611.09534,2611.09547,2611.09572,2611.09578,2611.09581,2611.09618,2611.09668,2611.09669,2611.09671,2611.09696,2611.09704,2611.09705,2611.09800,2611.09810,2611.09819,2611.09855,2611.09857,2611.09873&max_results=65",
+      "count": 65,
+      "error": ""
+    },
+    {
+      "name": "ids-65",
+      "http": "200",
+      "url": "https://export.arxiv.org/api/query?id_list=2611.09881,2610.40818,2611.07564,2611.08506,2611.08564,2611.08580,2611.08582,2611.08619,2611.08628,2611.08733,2611.08807,2611.08874,2611.08974,2611.09018,2611.09138,2611.09180,2611.09229,2611.09314,2611.09434,2611.09456,2611.09464,2611.09479,2611.09531,2611.09537,2611.09540,2611.09564,2611.09595,2611.09637,2611.09710,2611.09786,2611.09814,2611.09839,2205.02686,2507.03590,2511.23289,2601.00101,2602.07351,2602.09363,2602.10236,2602.14885,2603.17018,2603.18205,2603.19885,2603.21756,2603.22089,2604.25756,2605.04283,2605.05603,2605.15834,2606.02371,2606.04042,2606.10858,2606.22359,2606.24291,2607.07086,2607.12405,2607.13572,2607.13675,2607.13923,2608.01925,2608.23130,2608.26099,2609.00695,2609.02666,2610.08221&max_results=65",
+      "count": 65,
+      "error": ""
+    },
+    {
+      "name": "ids-130",
+      "http": "200",
+      "url": "https://export.arxiv.org/api/query?id_list=2610.10027,2610.23781,2610.38338,2610.41601,2611.03562,2611.08024,1303.7276,1908.03900,1908.09304,2401.17015,2410.23544,2412.19801,2506.00193,2507.02853,2512.06762,2601.04318,2604.12151,2604.27266,2605.18187,2607.01332,2607.24972,2609.31934,2611.00422,2611.08293&max_results=65",
+      "count": 24,
+      "error": ""
+    }
+  ],
+  "reading": [
+    {
+      "index": 1,
+      "doi": "https://doi.org/10.1002/adma.75543",
+      "title": "Quantum Saturation of the Electro‐Optic Effect",
+      "titleZh": "电光效应的量子饱和",
+      "access": "早期公开稿正文精读：arXiv:2603.23486v1 主文、Methods、图1–5及随稿 S1–S2。Wiley 正式主文和正式 SI 未确认取得。",
+      "bodyChineseCharacters": 1574
+    },
+    {
+      "index": 2,
+      "doi": "https://doi.org/10.1021/jacs.6c19292",
+      "title": "Ambipolar Electrochemical Doping of CsPbBr3 Nanocrystals",
+      "titleZh": "CsPbBr₃ 纳米晶的双极性电化学掺杂",
+      "access": "仅摘要：已读 Crossref 出版摘要及作者公开数据图1B、3A–C。ChemRxiv 对应稿及 PDF 重试 403，尚未读 Methods 或 SI 正文。",
+      "bodyChineseCharacters": 272
+    }
+  ],
+  "arxivOfficialCounts": {
+    "date": "2026-11-08",
+    "new": 0,
+    "cross": 0,
+    "replacements": 0,
+    "total": 0,
+    "scope": "无独立周末公告批次；提交日期与下周一公告另列。"
+  },
+  "officialBatchDecisions": []
+}

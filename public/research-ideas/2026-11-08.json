@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-08",
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-09",
+  "scope": "固定 Ca、少量 Zr 取代 Ti 的低温电光假设，待进一步查新。",
+  "limitations": [
+    "该候选未合成、未计算、未测量。已存在 BCTZ 体系，候选新意仅针对指定组分和低温对照。"
+  ],
+  "ideas": [
+    {
+      "id": "bcto-zr-quantum-plateau",
+      "kind": "material",
+      "status": "needs-review",
+      "title": "少量 Zr 替换 Ba₀.₇₇Ca₀.₂₃TiO₃ 的 Ti 位，检验低温电光平台与局域无序",
+      "material": "(Ba₀.₇₇Ca₀.₂₃)(Ti₁₋ᵧZrᵧ)O₃；y=0、0.01、0.03 为筛选点",
+      "evidenceLevel": "母体成分仅为已读作者稿的模型，实测母体为应变 BaTiO₃；本系列未合成、计算或测量",
+      "question": "在固定 A 位比例和膜应变时，少量同价 Zr⁴⁺ 是否能改变低温相界而保留低损耗的 Pockels 平台？",
+      "prediction": "若主要是局域八面体几何改变，随实际 Zr 含量移动的介电和极化相界应与低温 r_eff 转折一起移动。若无序主导，可能出现频率色散增大、回线变宽和平台变钝，不能按均匀化学压力解释。",
+      "basis": "Ti 与 Zr 同族，同为六配位的名义 +4 时，Zr 离子半径较大；3d/4d 杂化改变局部键长、位移势和随机弹性场。价电子计数不要求净补偿，但氧亏会掩盖效应。Ba/Ca 保持固定便于把 A 位化学压力与 B 位调节分开。具体位点、氧缺位、应变和固溶稳定仍需实测。母体图3观测应变BaTiO₃平台，图4的无应力Ca系列只提供模型筛选依据。",
+      "difference": "BCTZ 固溶体与 Pockels/Kerr 可调已公开，公式及一般电光效应均排除新颖性。限定假设是固定 Ca/应变、稀 Zr 与低于25 K 的平台、介电色散和相界联动。",
+      "plan": [
+        "先用一套生长路线制备 y=0 和两档低 Zr 同厚膜，锁定基底、氧气和几何。",
+        "用 WDS 或 RBS核验阳离子比例，XRD RSM、AFM 和局部成分图确认相纯、松弛与分相。",
+        "在同电极和波长下同步测低温介电、SHG、Pockels 与漏电，检查频率和温度依赖。"
+      ],
+      "controls": [
+        "无Zr 的 Ba₀.₇₇Ca₀.₂₃TiO₃",
+        "既有压缩 BaTiO₃ 参比",
+        "已知 BCTZ 配方的室温结构作工艺对照，不把高Zr端元外推为低温同相"
+      ],
+      "falsifiers": [
+        "若色散、漏电或畴变化即可重现平台差异，暂停均匀软化解释。",
+        "无可验证 Zr 实际成分或出现竞争相时停止拟合物性。"
+      ],
+      "feasibility": "可先用已有氧化物薄膜平台完成成分和低温介电筛查，样品通过后再做低温电光。",
+      "risks": "Zr 可诱发局域随机场与相共存，压缩失配、氧缺位和畴分布可能比稀掺更强。",
+      "nextStep": "先确认 y=0 薄膜在目标温区保持可测的相纯度和线性电光响应。",
+      "queries": [
+        "2026-11-09 BCTZ cryogenic Pockels quantum saturation Zr Ba0.77Ca0.23TiO3",
+        "2026-11-09 barium calcium zirconate titanate Pockels low temperature patent thesis"
+      ],
+      "remainingChecks": [
+        "待查特定低Zr/固定Ca成分、制备专利权利要求与低于25K数据；正式AM稿和专利号待核。"
+      ],
+      "priorArt": [
+        {
+          "url": "https://doi.org/10.1002/adma.75543",
+          "title": "Quantum Saturation of the Electro‐Optic Effect",
+          "overlap": "有应变 BaTiO₃ 量子饱和，提出 Ca 系列模型。",
+          "access": "早期公开正文、Methods和随稿补充已读"
+        },
+        {
+          "url": "https://doi.org/10.1021/acsami.3c06499",
+          "title": "Lead-Free Perovskite Thin Films with Tailored Pockels-Kerr Effects for Photonics",
+          "overlap": "BCTZ薄膜及成分相关线性、非线性电光已有实验。",
+          "access": "机构公开全文入口、论文主要结果已核；完整低温范围待核"
+        },
+        {
+          "url": "https://doi.org/10.1103/PhysRevLett.103.257602",
+          "title": "Large Piezoelectric Effect in Pb-Free Ceramics",
+          "overlap": "BZT–BCT 陶瓷和高压电响应已知。",
+          "access": "机构公开稿及摘要结果核对"
+        },
+        {
+          "url": "https://patents.justia.com/patent/20220107518",
+          "title": "US20220107518",
+          "overlap": "稳定四方 BaTiO₃ 与低温电光相关。",
+          "access": "公开专利页，权利要求待比较"
+        },
+        {
+          "url": "https://www.research-collection.ethz.ch/items/75dfa25f-fe8d-40d8-bfde-664ab2e1769a",
+          "title": "Integrated cavity electro-optics with thin-film barium titanate",
+          "overlap": "低温薄膜钛酸钡电光学位研究。",
+          "access": "机构仓储题录与摘要"
+        }
+      ],
+      "paperIndex": 1
+    }
+  ],
+  "rejected": [
+    {
+      "title": "一般 BCTZ 薄膜的 Pockels/Kerr 调控",
+      "url": "https://doi.org/10.1021/acsami.3c06499",
+      "reason": "已有直接研究。"
+    }
+  ]
+}

@@ -1,0 +1,729 @@
+{
+  "date": "2026-11-07",
+  "issue": "074",
+  "headline": "12 篇论文，2 篇实读正文，1 项材料假设",
+  "hotspot": "先看四层石墨烯分数量子霍尔的实验标定与补充数据。正式期刊也有还原保护、GaSe 缺陷氧化和层间电荷控制。 TmI₂、镁插层富勒烯聚合体和 CdSe 晶面也已通过 DOI 与摘要核验。",
+  "searchWindow": "北京时间 11 月 7 日。正式期刊按出版方当日上线日期收录。周六无独立 arXiv 公告，11 月 7 日提交窗 API 后验返回 17 条，初投在周末但于 11 月 9 日公开的论文按 9 日公告集中处理。",
+  "accessSummary": "正式期刊 12 篇，独立 arXiv 0 篇。实际读正文 2 篇，其中早期作者稿 0 篇。仅摘要 10 篇。Nature Communications 两篇读取出版社开放先行正文及 SI。未核实本期有可用的浙江大学机构授权。ACS 源站已有访问限制，所列论文保留补读。",
+  "papers": [
+    {
+      "title": "Fractional quantum Hall states and oscillatory Landau charge squeezing in Bernal tetralayer graphene",
+      "titleZh": "Bernal 堆垛四层石墨烯中的分数量子霍尔态与振荡朗道电荷挤压",
+      "authors": "Yinghai Xu, Yiwei Chen, Yanbo Wang, Xiao-Kai Yue, Dongdong An, Junwei Song, Qingxin Li, Kenji Watanabe, Takashi Taniguchi, Fu-Chun Zhang, Ying-Hai Wu, Wei Chen, Lei Wang",
+      "institutions": "南京大学、四川师范大学、日本物质材料研究机构、中国科学院大学、华中科技大学",
+      "journal": "Nature Communications",
+      "date": "2026-11-07 在线先行",
+      "doi": "https://doi.org/10.1038/s41467-026-79149-6",
+      "fullText": "https://www.nature.com/articles/s41467-026-79149-6_reference.pdf",
+      "material": "ABAB 四层石墨烯",
+      "method": "机械剥离、干法转移、石墨双栅、毫开尔文磁输运",
+      "category": "二维材料与量子器件",
+      "rating": "A",
+      "access": "全文精读：出版社先行主文、Methods、图1–4。已读公开18页SI Notes 1–5及图S1、S5–S6、S11–S18。",
+      "versionNote": "出版社日期仅精确到天。现读先行排版版，记录与后续正式版的区别。",
+      "conclusion": "双栅四层石墨烯在高磁场中出现多个半整数填充的分数量子霍尔特征。层间电势同时改变轨道的层权重和栅压到电荷的转换，输运线条的锯齿成为分层充电的线索。",
+      "sections": [
+        {
+          "title": "问题、对照和逻辑",
+          "text": "四层 ABAB 比单层和双层具有更多由不同子晶格及层组成的低能分支。垂直位移场同时改变能级顺序与波函数在层间的分布，作者把问题拆成两部分。第一部分看半整数填充是否出现纵向电阻谷和霍尔平台，第二部分追踪朗道级交叉附近的锯齿随场、温度和位移场的演变。对照包括两个器件、零场和有限场图，以及同一填充附近的多条场强和温度切线。实验能确认宏观输运特征，候选拓扑序和层电荷则需要模型或额外探针。"
+        },
+        {
+          "title": "样品、制备和质量",
+          "text": "D1、D2 都从机械剥离片选取四层石墨烯，以干法拾取形成 hBN 封装并加上下石墨栅。器件经 300 ℃ 高真空退火 1 h，电子束光刻采用 PMMA，CHF₃/O₂ 反应离子刻蚀定义通道。边接触的 Cr/Pd/Au 分别为 1/15/100 nm。工作对象是堆叠薄片，块体生长温程、原料纯度和产率正文未报告。需要把堆垛鉴别与输运质量分开评估。作者以零场和 1 T 下的 Lifshitz 线及朗道扇与 ABAB 模型交叉比对。正文未给出能独立精修空间群的单晶衍射、每个器件的位错密度与完整批次统计。相邻石墨片和 hBN 界面残留也可能引入局域势起伏。"
+        },
+        {
+          "title": "测量几何和标定",
+          "text": "垂直磁场四端测量，交流约 17.777 Hz、10–100 nA，稀释制冷机最低约 20 mK，变量温装置温区从约 1.5 K 起。作者以双平板电容关系把栅压换算为名义载流子面密度与位移场。电中性线和朗道扇定电容比，霍尔斜率给绝对标定。D1 有效介电常数约 3.13，模型取约 3。四层外侧距离取 1.005 nm。若交叉区重新分配层电荷，真实电化学势对双栅的响应就可能偏离固定电容模型。正式复现实验应保存原始双栅电压、双栅电容标定和磁场方向，避免重作坐标时把锯齿误当精确的密度跳变。"
+        },
+        {
+          "title": "分数量子霍尔证据和可替代解释",
+          "text": "图2重点看 D2 在 12 T、20 mK 的 7/2、11/2、15/2、17/2、21/2。7/2 的明显区域约在 −0.4 至 −0.1 V/nm，17/2 在 −0.35 V/nm 附近浮现。17/2 和 21/2 以热激活模型拟合，标度约 310 和 600 mK。激活标度来自纵向电阻随温度的趋势，依赖拟合窗口、并行通道和电子实际温度。低温饱和点、激励电流改变后的自热、填充分数对应的基线选择应逐一审查。半整数态兼容多种序，包括作者讨论的 Moore–Read 型和双分量 Halperin 331 型。这里没有用交换统计、边缘热导或干涉确证任何一种。"
+        },
+        {
+          "title": "层权重、锯齿与模型",
+          "text": "图3比较模型中的八个子晶格和层分量。位移能量约超过 25 meV 后，B2 和 A3 权重可交替成为主导。图4的 D1 在 D≈−0.35 到 +0.35 V/nm 跨过约十四条锯齿。它们从 12 T 降到 8 T 时减弱，升温约 0.1 到 0.9 K 也变浅。作者把锯齿联系到非均匀充电和朗道级相遇后的层间电荷重排，并在 Hartree 模型用 U=0.2 eV 给出定性图形。最强线索是同一器件中的规律性及热场依赖，最薄弱环节是横轴名义密度与真实层分辨电荷之间缺乏独立标定。平滑无序和双栅电容耦合也可能影响锯齿振幅，必须留在误差预算中。"
+        },
+        {
+          "title": "下一轮实验的验收",
+          "text": "先在同一块四层片制备相邻 Hall bar，要求同堆垛、相同边接触、可比较的迁移率。交换两侧石墨门与样品的距离并单独测几何及量子电容，做 D→−D 的镜像比较。保留正反 B 与电流方向，在半整数窗口上用至少两档小激励复测 Rxx 和 Rxy。用电荷探针或分栅电容定位锯齿，比较电荷模型残差是否随温度、磁场或屏蔽几何协同改变。若输运锯齿仍在而电容没有共址异常，应缩小层重排的解释强度。若能隙排序只随样品迁移率变化，应优先排除无序和接触几何。"
+        },
+        {
+          "title": "补充材料给出的检验边界",
+          "text": "图S1在5 μm标尺下显示选定电极区域未见明显气泡，不能据此量化整个界面污染。S5的 Lifshitz–Kosevich 与 Dingle 分析在2.2 T附近得到约0.0305倍自由电子质量、约750 fs量子寿命与0.439 meV展宽，这是振荡拟合的参数，不能从几何平整直接推导。S11拟合排除了不为正的纵向电阻点，低信号区对基线误差尤其敏感。S12比较每线100 s和200 s、反向扫密度及固定密度扫位移场，说明扫描时间和方向不足以解释所有锯齿。S13在D2补充器件重现，S14–16跟踪温场并和模型比较。S17和S18已经讨论其他层数和ABCA，故这些直接外推不另列为新候选。"
+        },
+        {
+          "title": "如何验证相界和热激活属于同一状态",
+          "text": "两组激活能不是在同一位移场读出。S11中第一组三个填充沿 D=−0.49 V/nm 读取，第二组为 D=−0.34 V/nm。拟合从有限电阻点估计激活尺度，在有并行通道、低温电阻低于测量下限或温标偏离电子温度时会失真。下一次可把每一条 Rxx(T) 的原始电阻、拟合起止温度、残差和非正点处理同时存档，再用对数坐标对比不同驱动电流。电阻谷最深的扫线可能有选择偏差，建议预注册填充定位规则并给同一 D 邻近多个填充的结果。若以不同位移场的两个半整数拟合尺度排序，就需要把每个态随 D 的局部最大值和固定 D 的比较并列。作者图2所示霍尔平台比单条电阻谷更直接，但接触失配会带来纵向电阻混入，可用正反磁场反对称化消除。对可能的两分量态，若后续用热输运，先证实边缘能量在器件尺度充分平衡，再解释热霍尔值。对于输运锯齿，母体同片比较还应锁定石墨栅厚度，独立记录栅电荷与栅引线，防止栅层量子振荡恰好与样品输运同步。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A · 低温输运与双栅器件",
+        "first": "按图2的半整数窗口、图4的温场演变、Methods的双栅标定顺序阅读。",
+        "focus": "核对17/2与21/2的激活窗口及横轴名义密度。单粒子参数综述可先略读。",
+        "next": "在同片器件并测双栅电容与纵向输运，检验锯齿是否伴随层间充电响应。"
+      },
+      "tags": [
+        "中英文标题",
+        "正式期刊"
+      ],
+      "readingStatus": "formal",
+      "titleOriginalMetadata": "Fractional quantum Hall states and oscillatory Landau charge squeezing in Bernal tetralayer graphene",
+      "bodyChineseCharacters": 1530
+    },
+    {
+      "title": "Topological Josephson trijunctions as a Majorana source and path",
+      "titleZh": "作为马约拉纳源与通道的拓扑约瑟夫森三结",
+      "authors": "Kyungtae Kim, June-Young M. Lee, Hyeongseop Kim, H.-S. Sim",
+      "institutions": "韩国科学技术院（KAIST）",
+      "journal": "Nature Communications",
+      "date": "2026-11-07 在线先行",
+      "doi": "https://doi.org/10.1038/s41467-026-79077-5",
+      "fullText": "https://www.nature.com/articles/s41467-026-79077-5_reference.pdf",
+      "material": "拓扑绝缘体表面上的超导约瑟夫森三结（理论结构）",
+      "method": "BdG 短结模型、双三结 Corbino 设计",
+      "category": "磁性、拓扑与自旋",
+      "rating": "B",
+      "access": "全文精读：出版社先行主文、Methods、图1–4及公开SI Notes 1–6、图S10。未读补充视频和同行评议。",
+      "versionNote": "理论论文。器件参数为模型输入。",
+      "conclusion": "同一类约瑟夫森三结可以在相位和磁场设置下充当马约拉纳束缚态的源或传输路径。作者给出双三结的电流谱判据，并指出哪些偏置方式会回到普通周期。",
+      "sections": [
+        {
+          "title": "问题与结构",
+          "text": "研究问的是怎样让短约瑟夫森结的交会点可控地产生或转移马约拉纳束缚态。用拓扑绝缘体表面承载近邻超导，磁场垂直器件，超导岛的相位差沿结变化。输入包括诱导能隙、相位和几何尺寸。材料成分、氧化态、空间群、晶体尺寸和生长配方为理论结构不适用，正文没有生长、衍射、成分图或实际测量。可以讨论模型的验收约束，不能把计算的尺寸误当工艺实测。"
+        },
+        {
+          "title": "模型与证据",
+          "text": "图2把一维结上的有质量模式写成随相位差变化的低能模型。相位差过奇数倍 π 时质量变号，局域解出现在符号反转处。三结中心的模式与奇偶计数关联。源或汇分支在中心生成成对模式并保留一个、释放另一个。通路分支使已有模式沿结移动。反向垂直磁场后空间配置互换，提供有方向性的对照。这样的中心奇偶性只在短结且相位控制足够理想时成立。实际透明度不均、杂散磁通、多个普通 Andreev 束缚态都可能破坏简化计数。"
+        },
+        {
+          "title": "Corbino双三结",
+          "text": "图3把两个三结接入 Corbino 几何，用中心电极小直流偏置使相位随时间变化。相同的总磁通和扫描周期下，源与路径的组合决定束缚态是否发生非平凡演化。作者给出两侧均为源且模式数为 4 的例子。两侧均为通路或模式数很小时，电流回到 2π 周期。图4计算辐射电流的分数边带，频率偏移的相位参数随电压变化，模型给出模一后约 1/4 至 3/4 的区间。单个边带也可能来自非绝热跃迁、准粒子中毒或普通结非线性，设计上的强判据是同一器件切换源与通路时成套改变。"
+        },
+        {
+          "title": "数值输入和复现",
+          "text": "Methods 中示例取诱导能隙 1 meV、化学势为 0.74 倍能隙、费米速度约 4×10⁵ m/s，磁长度参数为约 9.7 μm，另一衰减长度参数约 730 nm，中心直径约 2.06 μm。极限结宽取零是短结近似。8.9 μV 的计算偏置及所选相位用于展示而非标定。建议先数值检查有限结宽、界面透射率、岛间电容和不同电压斜率，再用同一套器件独立测诱导能隙、结正常态电阻和中毒时间。对照为单结、两种双三结状态和反转场，预先规定源模式和通路模式各自预期的谱线集合。若两种状态都出现相同分数边带，先检验普通电路混频。"
+        },
+        {
+          "title": "补充约束与台架预检",
+          "text": "补充材料明确短结和 λB/lB≪1 的适用范围。要同时满足偏置低于中心耦合和激发态所设的绝热尺度，又让相位周期短于准粒子中毒时间。中心尺寸需超过相关衰减长度。若拟做多端结构，首先用独立结构量到实际透明度、诱导谱隙及不同偏置下的非线性背景，然后逐渐增加磁通，确认宽结、磁场聚焦和有限电感下模拟的局域模式没有互相混合。场反转可作为内部交叉对照，因为此时同一几何的源与路径交换。重复偏置扫描并记录回滞，可以区分拓扑模型给出的周期边带与跳变产生的偶然频率分量。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "B · 约瑟夫森结和马约拉纳器件设计",
+        "first": "先读图2的源与路径判据，再按图3、4核对同器件的预测。",
+        "focus": "把短结极限及有限偏置明确视为计算输入。概念综述可略。",
+        "next": "在含有限结宽与中毒速率的模型中检查源态与路径态边带是否仍可分。"
+      },
+      "tags": [
+        "中英文标题",
+        "正式期刊"
+      ],
+      "readingStatus": "formal",
+      "titleOriginalMetadata": "Topological Josephson trijunctions as a Majorana source and path",
+      "bodyChineseCharacters": 888
+    },
+    {
+      "title": "Ultrathin SrTiO3 Capping Stabilizes the Surface Chemistry of Brownmillerite Ferrites during Reduction",
+      "titleZh": "超薄 SrTiO₃ 覆盖层稳定还原过程中棕钙铁石型铁氧化物的表面化学",
+      "authors": "Jiayue Wang, Aarushi Khandelwal, Martin Gonzalez, Yidi Liu, Iradwikanari Waluyo, Adrian Hunt, Harold Y. Hwang",
+      "institutions": "SLAC 国家加速器实验室、斯坦福大学、布鲁克海文国家实验室",
+      "material": "La₀.₀₅Sr₀.₉₅FeO₂.₅₋δ/SrTiO₃",
+      "method": "还原退火与近常压 XPS",
+      "category": "晶体生长和物性调控",
+      "doi": "https://doi.org/10.1021/acs.nanolett.6c04202",
+      "fullText": "https://doi.org/10.1021/acs.nanolett.6c04202",
+      "rating": "B",
+      "journal": "Nano Letters",
+      "date": "2026-11-07 在线（Crossref 日期仅精确到天）",
+      "access": "仅摘要：读取出版社提交给 Crossref 的摘要及作者信息。ACS 源站有既有访问限制，暂未确认合法公开全文及 SI。",
+      "versionNote": "DOI 与在线日期已核。样品和参数仅据摘要。",
+      "conclusion": "摘要给 250/350 ℃ 的 H₂ 还原对照。约 1 nm SrTiO₃ 盖层下金属 Fe 形成的有效速度比裸面慢逾六倍。要区分抑制真实还原与 XPS 探测深度造成的信号衰减。",
+      "sections": [
+        {
+          "title": "实验问题与可核证据",
+          "text": "摘要给 250/350 ℃ 的 H₂ 还原对照。约 1 nm SrTiO₃ 盖层下金属 Fe 形成的有效速度比裸面慢逾六倍。要区分抑制真实还原与 XPS 探测深度造成的信号衰减。"
+        },
+        {
+          "title": "样品质量、条件与证据边界",
+          "text": "摘要可用于建立材料、比较量和后续验收，无法核实具体制样流程、尺寸、晶向、样品批次、完整纯度与温程、误差条、图或补充材料。晶格占位和局域质量参数待正文确认。"
+        },
+        {
+          "title": "复现与补读",
+          "text": "做0/1/2 nm盖层、同炉同气氛的厚度和深度对照。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "B · 摘要预筛",
+        "first": "先核 Fe⁰ 拟合的能量窗口、表面层和信号衰减校正，再看有盖/无盖的时间常数。",
+        "focus": "目前只能比较摘要中明示的条件，取得主文后再核图和 Methods。",
+        "next": "做0/1/2 nm盖层、同炉同气氛的厚度和深度对照。"
+      },
+      "tags": [
+        "中英文标题",
+        "正式期刊"
+      ],
+      "readingStatus": "abstract",
+      "titleOriginalMetadata": "Ultrathin SrTiO3 Capping Stabilizes the Surface Chemistry of Brownmillerite Ferrites during Reduction",
+      "bodyChineseCharacters": 132
+    },
+    {
+      "title": "Defect-Initiated Anisotropic Oxidation in Two-Dimensional GaSe",
+      "titleZh": "二维 GaSe 中由缺陷引发的各向异性氧化",
+      "authors": "Song Hao, Kexuan Li, Mingrui Zhou, Changkai Guo, Xingchi Liu, Ziwen Li, Wenjie Xu, Kailong Yu, Zhaoming Liang, Buwei Wang, Xiangyu Xing, Dong Yang, Zailan Zhang, Zhesheng Chen, Tao Xu, Shi-Jun Liang",
+      "institutions": "南京理工大学、山西省相关重点实验室、东南大学、南京大学",
+      "material": "GaSe 二维薄片",
+      "method": "空气退火、氧化前沿与输运",
+      "category": "晶体生长和物性调控",
+      "doi": "https://doi.org/10.1021/acs.nanolett.6c04301",
+      "fullText": "https://doi.org/10.1021/acs.nanolett.6c04301",
+      "rating": "B",
+      "journal": "Nano Letters",
+      "date": "2026-11-07 在线（Crossref 日期仅精确到天）",
+      "access": "仅摘要：读取出版社提交给 Crossref 的摘要及作者信息。ACS 源站有既有访问限制，暂未确认合法公开全文及 SI。",
+      "versionNote": "DOI 与在线日期已核。样品和参数仅据摘要。",
+      "conclusion": "摘要报告氧化从顶面及边缘推进，出现短暂 Ga₂Se₃ 中间相，器件经历 p 型、双极性到 n 型。约 4.03 与 0.54 eV 是跨氧化物层与范德瓦耳斯间隙的计算势垒，不是实测扩散活化能。",
+      "sections": [
+        {
+          "title": "实验问题与可核证据",
+          "text": "摘要报告氧化从顶面及边缘推进，出现短暂 Ga₂Se₃ 中间相，器件经历 p 型、双极性到 n 型。约 4.03 与 0.54 eV 是跨氧化物层与范德瓦耳斯间隙的计算势垒，不是实测扩散活化能。"
+        },
+        {
+          "title": "样品质量、条件与证据边界",
+          "text": "摘要可用于建立材料、比较量和后续验收，无法核实具体制样流程、尺寸、晶向、样品批次、完整纯度与温程、误差条、图或补充材料。晶格占位和局域质量参数待正文确认。"
+        },
+        {
+          "title": "复现与补读",
+          "text": "同厚同片做封边与封顶两组，空气和惰性气氛退火并留截面。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "B · 摘要预筛",
+        "first": "先查氧化前沿的局部相标定与器件接触处理，区分接触改变和体掺杂。",
+        "focus": "目前只能比较摘要中明示的条件，取得主文后再核图和 Methods。",
+        "next": "同厚同片做封边与封顶两组，空气和惰性气氛退火并留截面。"
+      },
+      "tags": [
+        "中英文标题",
+        "正式期刊"
+      ],
+      "readingStatus": "abstract",
+      "titleOriginalMetadata": "Defect-Initiated Anisotropic Oxidation in Two-Dimensional GaSe",
+      "bodyChineseCharacters": 153
+    },
+    {
+      "title": "Photoinduced Carrier Doping of α-RuCl3 through Interlayer Charge Transfer",
+      "titleZh": "通过层间电荷转移实现 α-RuCl₃ 的光诱导载流子掺杂",
+      "authors": "Ting Zheng, Neema Rafizadeh, Wai-Lun Chan, Zhenhua Ni, Hui Zhao",
+      "institutions": "东南大学、堪萨斯大学",
+      "material": "MoS₂/α-RuCl₃ 异质结",
+      "method": "光致发光和瞬态吸收",
+      "category": "二维材料与量子器件",
+      "doi": "https://doi.org/10.1021/acs.nanolett.6c04835",
+      "fullText": "https://doi.org/10.1021/acs.nanolett.6c04835",
+      "rating": "B",
+      "journal": "Nano Letters",
+      "date": "2026-11-07 在线（Crossref 日期仅精确到天）",
+      "access": "仅摘要：读取出版社提交给 Crossref 的摘要及作者信息。ACS 源站有既有访问限制，暂未确认合法公开全文及 SI。",
+      "versionNote": "DOI 与在线日期已核。样品和参数仅据摘要。",
+      "conclusion": "摘要将 MoS₂ 发光和瞬态吸收变化解释为电子进入 RuCl₃、空穴留在 MoS₂，电荷分离超过100 ps。约 100 cm²/s 是初期有效空穴扩散估计，尚无磁相切换的证据。",
+      "sections": [
+        {
+          "title": "实验问题与可核证据",
+          "text": "摘要将 MoS₂ 发光和瞬态吸收变化解释为电子进入 RuCl₃、空穴留在 MoS₂，电荷分离超过100 ps。约 100 cm²/s 是初期有效空穴扩散估计，尚无磁相切换的证据。"
+        },
+        {
+          "title": "样品质量、条件与证据边界",
+          "text": "摘要可用于建立材料、比较量和后续验收，无法核实具体制样流程、尺寸、晶向、样品批次、完整纯度与温程、误差条、图或补充材料。晶格占位和局域质量参数待正文确认。"
+        },
+        {
+          "title": "复现与补读",
+          "text": "加入hBN隧穿间隔和可栅控对照，同时量光通量与时间零点。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "B · 摘要预筛",
+        "first": "先看不同光通量下的界面与单层瞬态谱，分离载流子和激子信号。",
+        "focus": "目前只能比较摘要中明示的条件，取得主文后再核图和 Methods。",
+        "next": "加入hBN隧穿间隔和可栅控对照，同时量光通量与时间零点。"
+      },
+      "tags": [
+        "中英文标题",
+        "正式期刊"
+      ],
+      "readingStatus": "abstract",
+      "titleOriginalMetadata": "Photoinduced Carrier Doping of α-RuCl3 through Interlayer Charge Transfer",
+      "bodyChineseCharacters": 140
+    },
+    {
+      "title": "Emergent Giant Topological Hall Effect at the van der Waals Ferromagnet/Topological Insulator Interface",
+      "titleZh": "范德瓦耳斯铁磁体与拓扑绝缘体界面涌现的巨拓扑霍尔效应",
+      "authors": "Devyani Sharma, Gagan Rastogi, Abhinab Mohapatra, R. Ganesan, P. S. Anil Kumar",
+      "institutions": "印度科学研究所",
+      "material": "Fe₃GeTe₂/BiSbTeSe₂",
+      "method": "异质结温度和厚度依赖磁输运",
+      "category": "磁性、拓扑与自旋",
+      "doi": "https://doi.org/10.1021/acs.nanolett.6c03255",
+      "fullText": "https://doi.org/10.1021/acs.nanolett.6c03255",
+      "rating": "B",
+      "journal": "Nano Letters",
+      "date": "2026-11-07 在线（Crossref 日期仅精确到天）",
+      "access": "仅摘要：读取出版社提交给 Crossref 的摘要及作者信息。ACS 源站有既有访问限制，暂未确认合法公开全文及 SI。",
+      "versionNote": "DOI 与在线日期已核。样品和参数仅据摘要。",
+      "conclusion": "摘要报告在 10 K 提取约 6.9 μΩ cm 的霍尔附加项，随温度和厚度改变。界面 DMI、不同拓扑荷的磁结构为作者归因。单靠霍尔额外峰不能排除多通道反常霍尔。",
+      "sections": [
+        {
+          "title": "实验问题与可核证据",
+          "text": "摘要报告在 10 K 提取约 6.9 μΩ cm 的霍尔附加项，随温度和厚度改变。界面 DMI、不同拓扑荷的磁结构为作者归因。单靠霍尔额外峰不能排除多通道反常霍尔。"
+        },
+        {
+          "title": "样品质量、条件与证据边界",
+          "text": "摘要可用于建立材料、比较量和后续验收，无法核实具体制样流程、尺寸、晶向、样品批次、完整纯度与温程、误差条、图或补充材料。晶格占位和局域质量参数待正文确认。"
+        },
+        {
+          "title": "复现与补读",
+          "text": "做同批裸铁磁、界面间隔和厚度系列，在输运窗口同步磁成像。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "B · 摘要预筛",
+        "first": "先核背景扣除、不同温场反转以及铁磁单层对照。磁畴归因需独立结构表征。",
+        "focus": "目前只能比较摘要中明示的条件，取得主文后再核图和 Methods。",
+        "next": "做同批裸铁磁、界面间隔和厚度系列，在输运窗口同步磁成像。"
+      },
+      "tags": [
+        "中英文标题",
+        "正式期刊"
+      ],
+      "readingStatus": "abstract",
+      "titleOriginalMetadata": "Emergent Giant Topological Hall Effect at the van der Waals Ferromagnet/Topological Insulator Interface",
+      "bodyChineseCharacters": 148
+    },
+    {
+      "title": "Staged Orientation‐Controlled Epitaxy of Organic Low‐Dimensional Heterostructures",
+      "titleZh": "有机低维异质结构的分阶段取向可控外延",
+      "authors": "Chao‐Fei Xu, Li‐Wei Xie, Shuai Zhao, Ying‐Li Shi, Yi Zong, Qiang Lv, Liang‐Sheng Liao, Xue‐Dong Wang",
+      "institutions": "澳门科技大学、苏州大学及附属第二医院、苏州科技大学、西交利物浦大学",
+      "material": "CDT 基有机共晶",
+      "method": "分阶段定向外延",
+      "category": "晶体生长和物性调控",
+      "doi": "https://doi.org/10.1002/adfm.79541",
+      "fullText": "https://doi.org/10.1002/adfm.79541",
+      "rating": "B",
+      "journal": "Advanced Functional Materials",
+      "date": "2026-11-07 Early View（日期仅精确到天）",
+      "access": "仅摘要：Crossref 的出版社摘要已读。Wiley 正文/PDF 403 或未取得，公开作者稿和机构正文均未核实。",
+      "versionNote": "出版日期与 DOI 已核对。",
+      "conclusion": "两个 CDT 基共晶通过阶段性的分子间距匹配选择晶面。改变两组分摩尔比可调轴向/侧向外延的长度和起始位置。摘要中的导光和滤波演示支持结构用途，未据此赋予量子物性。",
+      "sections": [
+        {
+          "title": "已核实的样品与物性范围",
+          "text": "两个 CDT 基共晶通过阶段性的分子间距匹配选择晶面。改变两组分摩尔比可调轴向/侧向外延的长度和起始位置。摘要中的导光和滤波演示支持结构用途，未据此赋予量子物性。"
+        },
+        {
+          "title": "待正文核对",
+          "text": "具体原料纯度、制备温程、尺寸、空间群、批次、质量表征、测量参数和误差暂未知。"
+        },
+        {
+          "title": "复现",
+          "text": "用组分梯度和同一母晶的重复生长验证轴向到侧向的切换。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "B · 摘要预筛",
+        "first": "先核晶面的单晶索引、各生长阶段的相纯度和摩尔比转折。",
+        "focus": "检查摘要机制能否和独立对照区分。",
+        "next": "用组分梯度和同一母晶的重复生长验证轴向到侧向的切换。"
+      },
+      "tags": [
+        "中英文标题",
+        "正式期刊"
+      ],
+      "readingStatus": "abstract",
+      "titleOriginalMetadata": "Staged Orientation‐Controlled Epitaxy of Organic Low‐Dimensional Heterostructures",
+      "bodyChineseCharacters": 127
+    },
+    {
+      "title": "Thermally Robust Room‐Temperature Interlayer Excitons in a Hybrid van der Waals Heterostructure",
+      "titleZh": "混合范德瓦耳斯异质结构中热稳定的室温层间激子",
+      "authors": "Seoyeon Ko, Hyeon Jun Jeong, Soungmin Bae, Jieun Jo, Chan Kwon, Hayoung Ko, Dong Hyeon Kim, Hyunjung Shin, Mun Seok Jeong, Seokhyun Yoon",
+      "institutions": "梨花女子大学、成均馆大学、东北大学（日本）、汉阳大学",
+      "material": "(PEA)₂PbBr₄/单层 MoS₂",
+      "method": "温变和偏振 PL、界面能带计算",
+      "category": "二维材料与量子器件",
+      "doi": "https://doi.org/10.1002/adfm.79510",
+      "fullText": "https://doi.org/10.1002/adfm.79510",
+      "rating": "B",
+      "journal": "Advanced Functional Materials",
+      "date": "2026-11-07 Early View（日期仅精确到天）",
+      "access": "仅摘要：Crossref 的出版社摘要已读。Wiley 正文/PDF 403 或未取得，公开作者稿和机构正文均未核实。",
+      "versionNote": "出版日期与 DOI 已核对。",
+      "conclusion": "摘要给出新的 PL 峰并报道发光持续到 400 K，偏振各向异性支持面外偶极分量。II 型对齐和电荷重排来自计算解释，缺陷发光或热漂移需要独立对照。",
+      "sections": [
+        {
+          "title": "已核实的样品与物性范围",
+          "text": "摘要给出新的 PL 峰并报道发光持续到 400 K，偏振各向异性支持面外偶极分量。II 型对齐和电荷重排来自计算解释，缺陷发光或热漂移需要独立对照。"
+        },
+        {
+          "title": "待正文核对",
+          "text": "具体原料纯度、制备温程、尺寸、空间群、批次、质量表征、测量参数和误差暂未知。"
+        },
+        {
+          "title": "复现",
+          "text": "在同片比较重叠区、裸两侧和加 hBN 间隔的结构，记录随温度的峰位、寿命和光通量。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "B · 摘要预筛",
+        "first": "优先读能量—温度图和偏振几何，再核两种材料分别测量时的背景。",
+        "focus": "检查摘要机制能否和独立对照区分。",
+        "next": "在同片比较重叠区、裸两侧和加 hBN 间隔的结构，记录随温度的峰位、寿命和光通量。"
+      },
+      "tags": [
+        "中英文标题",
+        "正式期刊"
+      ],
+      "readingStatus": "abstract",
+      "titleOriginalMetadata": "Thermally Robust Room‐Temperature Interlayer Excitons in a Hybrid van der Waals Heterostructure",
+      "bodyChineseCharacters": 120
+    },
+    {
+      "title": "Localized 4f Magnetism and Low-Lying 5d-Mediated Photoresponses in Layered TmI2",
+      "titleZh": "层状 TmI₂ 中的局域 4f 磁性和低能 5d 态介导的光响应",
+      "authors": "Hao Ni, Mingyang Yuan, Lin-Ke Li, Zhe Wang, Lili Zhao, Zhengwei Fu, Yue Zhao, Song Bao, Weigao Xu, Zhaobo Hu, Qiuxiang Wang, Jinsheng Wen, Shuang Chen, Ningxin Jiang",
+      "institutions": "南京大学、江西理工大学、华侨大学",
+      "material": "层状 TmI₂，对照 Cs₄TmI₆ 与稀释 SrI₂:Tm²⁺",
+      "method": "结构、XPS、磁性与光响应",
+      "category": "磁性、拓扑与自旋",
+      "doi": "https://doi.org/10.1021/jacs.6c15247",
+      "fullText": "https://doi.org/10.1021/jacs.6c15247",
+      "journal": "Journal of the American Chemical Society",
+      "date": "2026-11-07 在线（Crossref 日期仅精确到天）",
+      "rating": "B",
+      "access": "仅摘要：正式 DOI 与出版社登记摘要已读。ACS 源站有既有访问限制，未确认作者原文或 SI。",
+      "versionNote": "正式在线，结果只依摘要；不将配套研究或数据目录视为本稿正文。",
+      "conclusion": "摘要以结构和谱学支持主要价态为 Tm²⁺，磁性与三角晶格上 4f¹³ Kramers 离子一致，至2 K未见长程有序。较低的吸收起点、较弱发光和更显著光电流与低位5d态相联系，态的色散来自计算。",
+      "sections": [
+        {
+          "title": "材料问题与已有证据",
+          "text": "摘要以结构和谱学支持主要价态为 Tm²⁺，磁性与三角晶格上 4f¹³ Kramers 离子一致，至2 K未见长程有序。较低的吸收起点、较弱发光和更显著光电流与低位5d态相联系，态的色散来自计算。"
+        },
+        {
+          "title": "复现边界",
+          "text": "实际炉温、气氛、尺寸、纯度、样品批次、完整精修及误差条等需正文核验。只录入摘要所能验证的制备条件和结论。"
+        },
+        {
+          "title": "下一次实验",
+          "text": "先核二价状态的标准样和传输保护，再比较孤立配位与层状样的同波长吸收、光电流和热效应。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "B · 专题补读",
+        "first": "取得正文后先看制样与量化对照，再读应用讨论。",
+        "focus": "摘要以结构和谱学支持主要价态为 Tm²⁺，磁性与三角晶格上 4f¹³ Kramers 离子一致，至2 K未见长程有序。较低的吸收起点、较弱发光和更显著光电流与低位5d态相联系，态的色散来自计算。",
+        "next": "先核二价状态的标准样和传输保护，再比较孤立配位与层状样的同波长吸收、光电流和热效应。"
+      },
+      "tags": [
+        "中英文标题",
+        "正式期刊"
+      ],
+      "readingStatus": "abstract",
+      "titleOriginalMetadata": "Localized 4f Magnetism and Low-Lying 5d-Mediated Photoresponses in Layered TmI2",
+      "bodyChineseCharacters": 151
+    },
+    {
+      "title": "Direct Synthesis and Electrochemical Deintercalation of Mg-Intercalated Graphullerite",
+      "titleZh": "镁插层 Graphullerite 的直接合成与电化学脱插层",
+      "authors": "Sarah N. Candelaria, Kevin J. Fleshman, Zixiao Shi, Guanxing Li, David A. Muller, Xavier Roy, Colin Nuckolls, Malik L. Williams",
+      "institutions": "哥伦比亚大学、康奈尔大学",
+      "material": "(Mg₄C₆₀)∞ 和 (Mg₂C₆₀)∞",
+      "method": "分置前驱体 CVT 和 Mg²⁺ 脱插层",
+      "category": "晶体生长和物性调控",
+      "doi": "https://doi.org/10.1021/jacs.6c14534",
+      "fullText": "https://doi.org/10.1021/jacs.6c14534",
+      "journal": "Journal of the American Chemical Society",
+      "date": "2026-11-07 在线（Crossref 日期仅精确到天）",
+      "rating": "B",
+      "access": "仅摘要：正式 DOI 与出版社登记摘要已读。ACS 源站有既有访问限制，未确认作者原文或 SI。",
+      "versionNote": "正式在线，结果只依摘要；不将配套研究或数据目录视为本稿正文。",
+      "conclusion": "摘要报告毫米级晶体。Mg 箔路线接近完全转化但给两相，Mg₂Si 源得到菱方 Mg₄C₆₀ 主体，分离晶体产率55–62%。转化率与分离晶体产率不同。",
+      "sections": [
+        {
+          "title": "材料问题与已有证据",
+          "text": "摘要报告毫米级晶体。Mg 箔路线接近完全转化但给两相，Mg₂Si 源得到菱方 Mg₄C₆₀ 主体，分离晶体产率55–62%。转化率与分离晶体产率不同。"
+        },
+        {
+          "title": "复现边界",
+          "text": "实际炉温、气氛、尺寸、纯度、样品批次、完整精修及误差条等需正文核验。只录入摘要所能验证的制备条件和结论。"
+        },
+        {
+          "title": "下一次实验",
+          "text": "下一炉保持 C₆₀ 批次、温区与装料几何，分别比较 Mg 箔/Mg₂Si、定量相分数和晶体产率。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "B · 专题补读",
+        "first": "取得正文后先看制样与量化对照，再读应用讨论。",
+        "focus": "摘要报告毫米级晶体。Mg 箔路线接近完全转化但给两相，Mg₂Si 源得到菱方 Mg₄C₆₀ 主体，分离晶体产率55–62%。转化率与分离晶体产率不同。",
+        "next": "下一炉保持 C₆₀ 批次、温区与装料几何，分别比较 Mg 箔/Mg₂Si、定量相分数和晶体产率。"
+      },
+      "tags": [
+        "中英文标题",
+        "正式期刊"
+      ],
+      "readingStatus": "abstract",
+      "titleOriginalMetadata": "Direct Synthesis and Electrochemical Deintercalation of Mg-Intercalated Graphullerite",
+      "bodyChineseCharacters": 121
+    },
+    {
+      "title": "The Structure of Oleate-Capped CdSe Nanocrystals Determined by DNP-Enhanced Dipolar Dephasing Solid-State NMR Spectroscopy",
+      "titleZh": "用 DNP 增强偶极退相固体核磁共振确定油酸根封端 CdSe 纳米晶结构",
+      "authors": "Anuluxan Santhiran, Frédéric A. Perras, Takeshi Kobayashi, Javier Vela, Aaron J. Rossini",
+      "institutions": "Ames 国家实验室、爱荷华州立大学",
+      "material": "油酸根封端闪锌矿 CdSe 纳米晶",
+      "method": "同位素配体交换、DNP–REDOR 核磁和多自旋模拟",
+      "category": "晶体生长和物性调控",
+      "doi": "https://doi.org/10.1021/jacs.6c13454",
+      "fullText": "https://doi.org/10.1021/jacs.6c13454",
+      "journal": "Journal of the American Chemical Society",
+      "date": "2026-11-07 在线（Crossref 日期仅精确到天）",
+      "rating": "B",
+      "access": "仅摘要：正式 DOI 与出版社登记摘要已读。ACS 源站有既有访问限制，未确认作者原文或 SI。",
+      "versionNote": "正式在线，结果只依摘要；不将配套研究或数据目录视为本稿正文。",
+      "conclusion": "用部分 ¹³C 富集油酸根与 Cd、Se 核的多路 REDOR 测得退相，模型支持螯合羧酸根结合 {100} 上的 Cd。表面构型属于模型筛选，具体原子坐标、覆盖度和不确定度待核。",
+      "sections": [
+        {
+          "title": "材料问题与已有证据",
+          "text": "用部分 ¹³C 富集油酸根与 Cd、Se 核的多路 REDOR 测得退相，模型支持螯合羧酸根结合 {100} 上的 Cd。表面构型属于模型筛选，具体原子坐标、覆盖度和不确定度待核。"
+        },
+        {
+          "title": "复现边界",
+          "text": "实际炉温、气氛、尺寸、纯度、样品批次、完整精修及误差条等需正文核验。只录入摘要所能验证的制备条件和结论。"
+        },
+        {
+          "title": "下一次实验",
+          "text": "以未标记配体和不同晶面比例纳米晶为对照，比较双向退相曲线与多自旋模拟。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "B · 专题补读",
+        "first": "取得正文后先看制样与量化对照，再读应用讨论。",
+        "focus": "用部分 ¹³C 富集油酸根与 Cd、Se 核的多路 REDOR 测得退相，模型支持螯合羧酸根结合 {100} 上的 Cd。表面构型属于模型筛选，具体原子坐标、覆盖度和不确定度待核。",
+        "next": "以未标记配体和不同晶面比例纳米晶为对照，比较双向退相曲线与多自旋模拟。"
+      },
+      "tags": [
+        "中英文标题",
+        "正式期刊"
+      ],
+      "readingStatus": "abstract",
+      "titleOriginalMetadata": "The Structure of Oleate-Capped CdSe Nanocrystals Determined by DNP-Enhanced Dipolar Dephasing Solid-State NMR Spectroscopy",
+      "bodyChineseCharacters": 134
+    },
+    {
+      "title": "Ultralow-Loss Femtosecond Laser Slicing of Lithium Niobate Enabled by Anisotropic Thermal Dissipation-Guided Vector Scanning",
+      "titleZh": "各向异性热耗散引导的矢量扫描实现铌酸锂飞秒激光低损耗切片",
+      "authors": "Xin Zhang, Yue-Zhang Sun, De-Rong Sun, Zhi-Yong Hu, Qi-Dai Chen, Xue-Qing Liu",
+      "institutions": "吉林大学",
+      "material": "LiNbO₃ 晶片",
+      "method": "按热耗散方向选择飞秒激光扫描",
+      "category": "晶体生长和物性调控",
+      "doi": "https://doi.org/10.1021/acs.nanolett.6c04565",
+      "fullText": "https://doi.org/10.1021/acs.nanolett.6c04565",
+      "journal": "Nano Letters",
+      "date": "2026-11-07 在线（Crossref 日期仅精确到天）",
+      "rating": "B",
+      "access": "仅摘要：正式 DOI 与出版社登记摘要已读。ACS 源站有既有访问限制，未确认作者原文或 SI。",
+      "versionNote": "正式在线，结果只依摘要；不将配套研究或数据目录视为本稿正文。",
+      "conclusion": "摘要给约 10 μm 亚表面损伤层。主题是各向异性晶体的分片与损伤控制，需核这里的低损耗指加工材料损失，不能直接套作光传播损耗。",
+      "sections": [
+        {
+          "title": "材料问题与已有证据",
+          "text": "摘要给约 10 μm 亚表面损伤层。主题是各向异性晶体的分片与损伤控制，需核这里的低损耗指加工材料损失，不能直接套作光传播损耗。"
+        },
+        {
+          "title": "复现边界",
+          "text": "实际炉温、气氛、尺寸、纯度、样品批次、完整精修及误差条等需正文核验。只录入摘要所能验证的制备条件和结论。"
+        },
+        {
+          "title": "下一次实验",
+          "text": "同一晶棒分成沿主晶轴和偏转角组，盲测截面损伤层、表面粗糙度和畴结构。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "B · 专题补读",
+        "first": "取得正文后先看制样与量化对照，再读应用讨论。",
+        "focus": "摘要给约 10 μm 亚表面损伤层。主题是各向异性晶体的分片与损伤控制，需核这里的低损耗指加工材料损失，不能直接套作光传播损耗。",
+        "next": "同一晶棒分成沿主晶轴和偏转角组，盲测截面损伤层、表面粗糙度和畴结构。"
+      },
+      "tags": [
+        "中英文标题",
+        "正式期刊"
+      ],
+      "readingStatus": "abstract",
+      "titleOriginalMetadata": "Ultralow-Loss Femtosecond Laser Slicing of Lithium Niobate Enabled by Anisotropic Thermal Dissipation-Guided Vector Scanning",
+      "bodyChineseCharacters": 129
+    }
+  ],
+  "figures": [
+    {
+      "src": "/reports/2026-11-07/graphene-activated-minima.svg",
+      "source": "https://doi.org/10.1038/s41467-026-79149-6",
+      "title": "四层石墨烯两组热激活标度",
+      "caption": "拟合误差依次为 ±0.05、0.02、0.07、0.37、0.02、0.23 K。仅按 S11 数据独立作图。S11 未标磁场，两组位移场不同，只宜比较组内标度，不能识别任意子统计。"
+    }
+  ],
+  "sourceAudit": [],
+  "auditUrl": "/reports/2026-11-07/audit.json",
+  "searchTerms": [
+    "逐轨核对出版日期并与 Crossref 交叉核验。",
+    "周末无独立 arXiv 公告，日历提交与公告时间分别统计。"
+  ],
+  "readingAudit": {
+    "candidateAccessibleFullTexts": 2,
+    "selectedAccessibleFullTexts": 2,
+    "fullReads": 2,
+    "earlyManuscriptReads": 0,
+    "abstractOnly": 10,
+    "siOnly": 0,
+    "institutionalSuccess": false,
+    "pending": [
+      {
+        "title": "Ultrathin SrTiO3 Capping Stabilizes the Surface Chemistry of Brownmillerite Ferrites during Reduction",
+        "titleZh": "超薄 SrTiO₃ 覆盖层稳定还原过程中棕钙铁石型铁氧化物的表面化学",
+        "reason": "仅摘要：读取出版社提交给 Crossref 的摘要及作者信息。ACS 源站有既有访问限制，暂未确认合法公开全文及 SI。"
+      },
+      {
+        "title": "Defect-Initiated Anisotropic Oxidation in Two-Dimensional GaSe",
+        "titleZh": "二维 GaSe 中由缺陷引发的各向异性氧化",
+        "reason": "仅摘要：读取出版社提交给 Crossref 的摘要及作者信息。ACS 源站有既有访问限制，暂未确认合法公开全文及 SI。"
+      },
+      {
+        "title": "Photoinduced Carrier Doping of α-RuCl3 through Interlayer Charge Transfer",
+        "titleZh": "通过层间电荷转移实现 α-RuCl₃ 的光诱导载流子掺杂",
+        "reason": "仅摘要：读取出版社提交给 Crossref 的摘要及作者信息。ACS 源站有既有访问限制，暂未确认合法公开全文及 SI。"
+      },
+      {
+        "title": "Emergent Giant Topological Hall Effect at the van der Waals Ferromagnet/Topological Insulator Interface",
+        "titleZh": "范德瓦耳斯铁磁体与拓扑绝缘体界面涌现的巨拓扑霍尔效应",
+        "reason": "仅摘要：读取出版社提交给 Crossref 的摘要及作者信息。ACS 源站有既有访问限制，暂未确认合法公开全文及 SI。"
+      },
+      {
+        "title": "Staged Orientation‐Controlled Epitaxy of Organic Low‐Dimensional Heterostructures",
+        "titleZh": "有机低维异质结构的分阶段取向可控外延",
+        "reason": "仅摘要：Crossref 的出版社摘要已读。Wiley 正文/PDF 403 或未取得，公开作者稿和机构正文均未核实。"
+      },
+      {
+        "title": "Thermally Robust Room‐Temperature Interlayer Excitons in a Hybrid van der Waals Heterostructure",
+        "titleZh": "混合范德瓦耳斯异质结构中热稳定的室温层间激子",
+        "reason": "仅摘要：Crossref 的出版社摘要已读。Wiley 正文/PDF 403 或未取得，公开作者稿和机构正文均未核实。"
+      },
+      {
+        "title": "Localized 4f Magnetism and Low-Lying 5d-Mediated Photoresponses in Layered TmI2",
+        "titleZh": "层状 TmI₂ 中的局域 4f 磁性和低能 5d 态介导的光响应",
+        "reason": "仅摘要：正式 DOI 与出版社登记摘要已读。ACS 源站有既有访问限制，未确认作者原文或 SI。"
+      },
+      {
+        "title": "Direct Synthesis and Electrochemical Deintercalation of Mg-Intercalated Graphullerite",
+        "titleZh": "镁插层 Graphullerite 的直接合成与电化学脱插层",
+        "reason": "仅摘要：正式 DOI 与出版社登记摘要已读。ACS 源站有既有访问限制，未确认作者原文或 SI。"
+      },
+      {
+        "title": "The Structure of Oleate-Capped CdSe Nanocrystals Determined by DNP-Enhanced Dipolar Dephasing Solid-State NMR Spectroscopy",
+        "titleZh": "用 DNP 增强偶极退相固体核磁共振确定油酸根封端 CdSe 纳米晶结构",
+        "reason": "仅摘要：正式 DOI 与出版社登记摘要已读。ACS 源站有既有访问限制，未确认作者原文或 SI。"
+      },
+      {
+        "title": "Ultralow-Loss Femtosecond Laser Slicing of Lithium Niobate Enabled by Anisotropic Thermal Dissipation-Guided Vector Scanning",
+        "titleZh": "各向异性热耗散引导的矢量扫描实现铌酸锂飞秒激光低损耗切片",
+        "reason": "仅摘要：正式 DOI 与出版社登记摘要已读。ACS 源站有既有访问限制，未确认作者原文或 SI。"
+      }
+    ]
+  },
+  "researchIdeas": {
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-09",
+    "scope": "ABAB 四层单侧 WSe₂/MoSe₂ 的层选择性扰动实验，待查新。",
+    "limitations": [
+      "候选未合成、未计算、未测量。公开查新范围有限。"
+    ],
+    "ideas": [
+      {
+        "id": "abab-four-layer-tmd-asymmetric-screening",
+        "kind": "material",
+        "status": "needs-review",
+        "title": "在 ABAB 四层石墨烯一侧引入 WSe₂ 或 MoSe₂，拆分朗道级的屏蔽与近邻效应",
+        "material": "石墨/hBN/[WSe₂ 或 MoSe₂]/ABAB-4LG/hBN/石墨，另做有一至二层 hBN 间隔的结构",
+        "evidenceLevel": "母体先行正文及 SI 已读；候选未制备、未计算、未测量",
+        "question": "同一位移场和载流子密度下，改变单侧硒化物会只影响有较大邻侧层权重的交叉，还是把所有锯齿近似一起平移？",
+        "prediction": "若层选择性屏蔽主导，校正零位移场后交换接触面应反转若干交叉的偏移方向，加入薄 hBN 间隔时仍可留下电容异常。若差异主要来自杂化或近邻自旋轨道耦合，直接接触的变化应较突出，间隔引入后衰减。若相邻器件在匹配电子温度和展宽后无法重复差异，当前假设受否定。",
+        "basis": "事实来自母体图3、4和S16。层权重会随D在B2/A3等分量之间改换，输运锯齿随磁场和温度变化。Mo和W为同族，在MoSe₂/WSe₂的名义配位下保持二硒化物骨架和价电子计数作对照，4d与5d能级、自旋轨道耦合和带边位置都会变，因此不能直接把测得差异归给重元素。这里不替换石墨烯碳位，无须假设碳晶格内电荷补偿。近邻材料的载流子和介电响应须分别量化。",
+        "difference": "WSe₂/ABAB四层已有异常霍尔研究。此次问题仅限定为同片、Mo/W可换、间隔和接触面对调的半整数填充与分栅电容检验。多层数和ABCA的理论比较已由母体SI讨论。",
+        "plan": [
+          "同片分成相邻Hall bar，固定接触和退火，比较WSe₂、MoSe₂与hBN-only。",
+          "用AFM、Raman和低场朗道扇核实厚度、堆垛和均匀性，独立标定双栅电容。",
+          "在8–12 T及约20 mK附近同步记录电荷响应与输运，拟合固定填充上的交叉位置、半整数激活标度和展宽。"
+        ],
+        "controls": [
+          "空白hBN界面和交换近邻材料所在侧",
+          "相同材料加一至二层hBN间隔",
+          "同片匹配迁移率、接触电阻、光刻流程、电子温度和磁场极性",
+          "石墨栅厚度匹配，以栅态密度振荡作为竞争解释。"
+        ],
+        "falsifiers": [
+          "镜像器件位移场校准后未重现选择性交叉偏移。",
+          "若界面短路、堆垛改变或展宽大于目标偏移，停止解释物性。"
+        ],
+        "feasibility": "干法转移、低频双栅电容和稀释制冷磁输运可执行。先在高于最终测量温度完成电容与漏电标定，再申请稀释制冷时间。",
+        "risks": "扭角或摩尔超晶格、氧化与界面气泡、带边电荷转移和hBN厚度误差都可能改变费米面。材料配对只能形成受控比较。",
+        "nextStep": "先做 hBN-only 与同片一侧 WSe₂ 两个器件，确认可复现锯齿后再加 MoSe₂、间隔和反向结构。",
+        "queries": [
+          "2026-11-09 Bernal tetralayer graphene + WSe2/MoSe2 + fractional quantum Hall / oscillatory charge squeezing",
+          "2026-11-09 graphene/TMD hBN spacer dielectric screening + patent/thesis"
+        ],
+        "remainingChecks": [
+          "需逐页查阅精确四层 WSe₂/MoSe₂ 叠层与分数量子霍尔的学位、专利权利要求和未索引预印本。",
+          "补测电容前无法判断带边电荷转移、堆垛和结构稳定。"
+        ],
+        "priorArt": [
+          {
+            "url": "https://doi.org/10.1038/s41467-026-79149-6",
+            "title": "Fractional quantum Hall states and oscillatory Landau charge squeezing in Bernal tetralayer graphene",
+            "overlap": "已测母体输运，SI 已算其他层数和 ABCA。",
+            "access": "正文及SI实际读"
+          },
+          {
+            "url": "https://doi.org/10.1103/PhysRevB.99.245402",
+            "title": "Graphene on transition-metal dichalcogenides",
+            "overlap": "已有石墨烯/TMD近邻自旋轨道机制。",
+            "access": "索引及出版摘要线索"
+          },
+          {
+            "url": "https://patents.google.com/patent/WO2024158401A2/en",
+            "title": "WO2024158401A2",
+            "overlap": "超洁净石墨烯/TMD堆叠工艺。",
+            "access": "专利公开条目，权利要求待逐项比较"
+          },
+          {
+            "url": "https://etheses.whiterose.ac.uk/33532/1/Veneri_205052612_Thesis.pdf",
+            "title": "Veneri 石墨烯/WSe₂ 电荷与自旋输运学位论文",
+            "overlap": "近邻输运，结构有重叠。",
+            "access": "学位全文入口已定位，未逐章阅读"
+          },
+          {
+            "url": "https://doi.org/10.1088/1674-1056/adb411",
+            "title": "WSe₂/ABAB 四层石墨烯的栅控异常霍尔研究",
+            "overlap": "已有组合，物性和对照不同。",
+            "access": "期刊题录与摘要核对"
+          }
+        ],
+        "paperIndex": 1
+      }
+    ],
+    "rejected": [
+      {
+        "title": "WSe₂/ABAB 四层组合本身",
+        "url": "https://doi.org/10.1088/1674-1056/adb411",
+        "reason": "已有实验，保留界面反向、间隔和分栅电容的新测量目标。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-07",
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-09",
+  "scope": "ABAB 四层单侧 WSe₂/MoSe₂ 的层选择性扰动实验，待查新。",
+  "limitations": [
+    "候选未合成、未计算、未测量。公开查新范围有限。"
+  ],
+  "ideas": [
+    {
+      "id": "abab-four-layer-tmd-asymmetric-screening",
+      "kind": "material",
+      "status": "needs-review",
+      "title": "在 ABAB 四层石墨烯一侧引入 WSe₂ 或 MoSe₂，拆分朗道级的屏蔽与近邻效应",
+      "material": "石墨/hBN/[WSe₂ 或 MoSe₂]/ABAB-4LG/hBN/石墨，另做有一至二层 hBN 间隔的结构",
+      "evidenceLevel": "母体先行正文及 SI 已读；候选未制备、未计算、未测量",
+      "question": "同一位移场和载流子密度下，改变单侧硒化物会只影响有较大邻侧层权重的交叉，还是把所有锯齿近似一起平移？",
+      "prediction": "若层选择性屏蔽主导，校正零位移场后交换接触面应反转若干交叉的偏移方向，加入薄 hBN 间隔时仍可留下电容异常。若差异主要来自杂化或近邻自旋轨道耦合，直接接触的变化应较突出，间隔引入后衰减。若相邻器件在匹配电子温度和展宽后无法重复差异，当前假设受否定。",
+      "basis": "事实来自母体图3、4和S16。层权重会随D在B2/A3等分量之间改换，输运锯齿随磁场和温度变化。Mo和W为同族，在MoSe₂/WSe₂的名义配位下保持二硒化物骨架和价电子计数作对照，4d与5d能级、自旋轨道耦合和带边位置都会变，因此不能直接把测得差异归给重元素。这里不替换石墨烯碳位，无须假设碳晶格内电荷补偿。近邻材料的载流子和介电响应须分别量化。",
+      "difference": "WSe₂/ABAB四层已有异常霍尔研究。此次问题仅限定为同片、Mo/W可换、间隔和接触面对调的半整数填充与分栅电容检验。多层数和ABCA的理论比较已由母体SI讨论。",
+      "plan": [
+        "同片分成相邻Hall bar，固定接触和退火，比较WSe₂、MoSe₂与hBN-only。",
+        "用AFM、Raman和低场朗道扇核实厚度、堆垛和均匀性，独立标定双栅电容。",
+        "在8–12 T及约20 mK附近同步记录电荷响应与输运，拟合固定填充上的交叉位置、半整数激活标度和展宽。"
+      ],
+      "controls": [
+        "空白hBN界面和交换近邻材料所在侧",
+        "相同材料加一至二层hBN间隔",
+        "同片匹配迁移率、接触电阻、光刻流程、电子温度和磁场极性",
+        "石墨栅厚度匹配，以栅态密度振荡作为竞争解释。"
+      ],
+      "falsifiers": [
+        "镜像器件位移场校准后未重现选择性交叉偏移。",
+        "若界面短路、堆垛改变或展宽大于目标偏移，停止解释物性。"
+      ],
+      "feasibility": "干法转移、低频双栅电容和稀释制冷磁输运可执行。先在高于最终测量温度完成电容与漏电标定，再申请稀释制冷时间。",
+      "risks": "扭角或摩尔超晶格、氧化与界面气泡、带边电荷转移和hBN厚度误差都可能改变费米面。材料配对只能形成受控比较。",
+      "nextStep": "先做 hBN-only 与同片一侧 WSe₂ 两个器件，确认可复现锯齿后再加 MoSe₂、间隔和反向结构。",
+      "queries": [
+        "2026-11-09 Bernal tetralayer graphene + WSe2/MoSe2 + fractional quantum Hall / oscillatory charge squeezing",
+        "2026-11-09 graphene/TMD hBN spacer dielectric screening + patent/thesis"
+      ],
+      "remainingChecks": [
+        "需逐页查阅精确四层 WSe₂/MoSe₂ 叠层与分数量子霍尔的学位、专利权利要求和未索引预印本。",
+        "补测电容前无法判断带边电荷转移、堆垛和结构稳定。"
+      ],
+      "priorArt": [
+        {
+          "url": "https://doi.org/10.1038/s41467-026-79149-6",
+          "title": "Fractional quantum Hall states and oscillatory Landau charge squeezing in Bernal tetralayer graphene",
+          "overlap": "已测母体输运，SI 已算其他层数和 ABCA。",
+          "access": "正文及SI实际读"
+        },
+        {
+          "url": "https://doi.org/10.1103/PhysRevB.99.245402",
+          "title": "Graphene on transition-metal dichalcogenides",
+          "overlap": "已有石墨烯/TMD近邻自旋轨道机制。",
+          "access": "索引及出版摘要线索"
+        },
+        {
+          "url": "https://patents.google.com/patent/WO2024158401A2/en",
+          "title": "WO2024158401A2",
+          "overlap": "超洁净石墨烯/TMD堆叠工艺。",
+          "access": "专利公开条目，权利要求待逐项比较"
+        },
+        {
+          "url": "https://etheses.whiterose.ac.uk/33532/1/Veneri_205052612_Thesis.pdf",
+          "title": "Veneri 石墨烯/WSe₂ 电荷与自旋输运学位论文",
+          "overlap": "近邻输运，结构有重叠。",
+          "access": "学位全文入口已定位，未逐章阅读"
+        },
+        {
+          "url": "https://doi.org/10.1088/1674-1056/adb411",
+          "title": "WSe₂/ABAB 四层石墨烯的栅控异常霍尔研究",
+          "overlap": "已有组合，物性和对照不同。",
+          "access": "期刊题录与摘要核对"
+        }
+      ],
+      "paperIndex": 1
+    }
+  ],
+  "rejected": [
+    {
+      "title": "WSe₂/ABAB 四层组合本身",
+      "url": "https://doi.org/10.1088/1674-1056/adb411",
+      "reason": "已有实验，保留界面反向、间隔和分栅电容的新测量目标。"
+    }
+  ]
+}

@@ -1,0 +1,920 @@
+{
+  "date": "2026-11-07",
+  "checkedAt": "2026-11-09T16:06:06.875918+08:00",
+  "window": "北京时间 11 月 7 日。正式期刊按出版方当日上线日期收录。周六无独立 arXiv 公告，11 月 7 日提交窗 API 后验返回 17 条，初投在周末但于 11 月 9 日公开的论文按 9 日公告集中处理。",
+  "coverageComplete": false,
+  "counts": {
+    "total": 12,
+    "formal": 12,
+    "arxiv": 0,
+    "fullMainReads": 2,
+    "earlyManuscriptReads": 0,
+    "abstractOnly": 10,
+    "categories": {
+      "二维材料与量子器件": 3,
+      "磁性、拓扑与自旋": 3,
+      "晶体生长和物性调控": 6
+    },
+    "ideas": 1
+  },
+  "journalAudit": [
+    {
+      "source": "APS / pra",
+      "urls": [
+        "https://journals.aps.org/pra/recent",
+        "https://journals.aps.org/pra/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prab",
+      "urls": [
+        "https://journals.aps.org/prab/recent",
+        "https://journals.aps.org/prab/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prapplied",
+      "urls": [
+        "https://journals.aps.org/prapplied/recent",
+        "https://journals.aps.org/prapplied/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prb",
+      "urls": [
+        "https://journals.aps.org/prb/recent",
+        "https://journals.aps.org/prb/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prc",
+      "urls": [
+        "https://journals.aps.org/prc/recent",
+        "https://journals.aps.org/prc/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prd",
+      "urls": [
+        "https://journals.aps.org/prd/recent",
+        "https://journals.aps.org/prd/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / pre",
+      "urls": [
+        "https://journals.aps.org/pre/recent",
+        "https://journals.aps.org/pre/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prfluids",
+      "urls": [
+        "https://journals.aps.org/prfluids/recent",
+        "https://journals.aps.org/prfluids/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prl",
+      "urls": [
+        "https://journals.aps.org/prl/recent",
+        "https://journals.aps.org/prl/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prmaterials",
+      "urls": [
+        "https://journals.aps.org/prmaterials/recent",
+        "https://journals.aps.org/prmaterials/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prper",
+      "urls": [
+        "https://journals.aps.org/prper/recent",
+        "https://journals.aps.org/prper/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prresearch",
+      "urls": [
+        "https://journals.aps.org/prresearch/recent",
+        "https://journals.aps.org/prresearch/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prx",
+      "urls": [
+        "https://journals.aps.org/prx/recent",
+        "https://journals.aps.org/prx/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prxenergy",
+      "urls": [
+        "https://journals.aps.org/prxenergy/recent",
+        "https://journals.aps.org/prxenergy/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prxintelligence",
+      "urls": [
+        "https://journals.aps.org/prxintelligence/recent",
+        "https://journals.aps.org/prxintelligence/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prxlife",
+      "urls": [
+        "https://journals.aps.org/prxlife/recent",
+        "https://journals.aps.org/prxlife/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / prxquantum",
+      "urls": [
+        "https://journals.aps.org/prxquantum/recent",
+        "https://journals.aps.org/prxquantum/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "APS / rmp",
+      "urls": [
+        "https://journals.aps.org/rmp/recent",
+        "https://journals.aps.org/rmp/accepted"
+      ],
+      "hits": 0,
+      "included": 0,
+      "exclusion": "同日所见未达量子材料直接证据门槛；较早公告另外记录。",
+      "limits": "归档 Recent/Accepted 范围，仅可见条目。"
+    },
+    {
+      "source": "Nature",
+      "url": "https://www.nature.com/nature/research-articles",
+      "officialHTTP": "200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusion": "未见当日条目",
+      "limits": "出版列表已查，Crossref部分429；页范围内命中。"
+    },
+    {
+      "source": "Nature Physics",
+      "url": "https://www.nature.com/nphys/research-articles",
+      "officialHTTP": "200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusion": "未见当日条目",
+      "limits": "出版列表已查，Crossref部分429；页范围内命中。"
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://www.nature.com/nmat/research-articles",
+      "officialHTTP": "200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusion": "未见当日条目",
+      "limits": "出版列表已查，Crossref部分429；页范围内命中。"
+    },
+    {
+      "source": "Nature Communications",
+      "url": "https://www.nature.com/ncomms/research-articles",
+      "officialHTTP": "200",
+      "hits": 18,
+      "included": 2,
+      "excluded": 16,
+      "exclusion": "所见为生物医学、能源、仪器等",
+      "limits": "出版列表已查，Crossref部分429；页范围内命中。"
+    },
+    {
+      "source": "npj Quantum Materials",
+      "url": "https://www.nature.com/npjquantmats/research-articles",
+      "officialHTTP": "200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusion": "未见当日条目",
+      "limits": "出版列表已查，Crossref部分429；页范围内命中。"
+    },
+    {
+      "source": "Nature Nanotechnology",
+      "url": "https://www.nature.com/nnano/research-articles",
+      "officialHTTP": "200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusion": "未见当日条目",
+      "limits": "出版列表已查，Crossref部分429；页范围内命中。"
+    },
+    {
+      "source": "Nature Electronics",
+      "url": "https://www.nature.com/natelectron/research-articles",
+      "officialHTTP": "200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusion": "未见当日条目",
+      "limits": "出版列表已查，Crossref部分429；页范围内命中。"
+    },
+    {
+      "source": "Communications Physics",
+      "url": "https://www.nature.com/commsphys/research-articles",
+      "officialHTTP": "200",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "exclusion": "未见当日条目",
+      "limits": "出版列表已查，Crossref部分429；页范围内命中。"
+    },
+    {
+      "source": "Communications Materials",
+      "url": "https://www.nature.com/commsmat/research-articles",
+      "officialHTTP": "200",
+      "hits": 1,
+      "included": 0,
+      "excluded": 1,
+      "exclusion": "竹材光子激光用途，弱相关",
+      "limits": "出版列表已查，Crossref部分429；页范围内命中。"
+    },
+    {
+      "source": "npj 2D Materials",
+      "url": "https://www.nature.com/npj2dmaterials/research-articles",
+      "officialHTTP": "200",
+      "hits": 1,
+      "included": 0,
+      "excluded": 1,
+      "exclusion": "1T-MoS₂氧还原催化为主",
+      "limits": "出版列表已查，Crossref部分429；页范围内命中。"
+    },
+    {
+      "source": "AM",
+      "url": "https://api.crossref.org/journals/1521-4095/works?filter=from-online-pub-date:2026-11-07,until-online-pub-date:2026-11-09&rows=100&select=DOI,title,published-online,abstract",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "items": [],
+      "limits": "出版社 403，Crossref补核。"
+    },
+    {
+      "source": "AFM",
+      "url": "https://api.crossref.org/journals/1616-3028/works?filter=from-online-pub-date:2026-11-07,until-online-pub-date:2026-11-09&rows=100&select=DOI,title,published-online,abstract",
+      "hits": 25,
+      "included": 2,
+      "excluded": 23,
+      "items": [
+        {
+          "doi": "10.1002/adfm.79521",
+          "title": "Glutathione‐Responsive Cu Nanoplatform Enables Quantitative CEST MRI for Predicting Cuproptosis Therapeutic Response",
+          "decision": "exclude",
+          "reason": "能源、通用功能器件、软物质、医疗或材料机制与重点关联不足。"
+        },
+        {
+          "doi": "10.1002/adfm.79522",
+          "title": "Laser‐Architected Hierarchical Wood Evaporator for Salt‐Resistant Solar Desalination and Dual‐Mode Water–Electricity Cogeneration",
+          "decision": "exclude",
+          "reason": "能源、通用功能器件、软物质、医疗或材料机制与重点关联不足。"
+        },
+        {
+          "doi": "10.1002/adfm.79495",
+          "title": "Regulating Resonance‐Related Dynamic Magnetic Response through In Situ MnO Formation in FeCoNiCr 0.4 Mn 0.6 High‐Entropy Alloy for Low‐Frequency Microwave Absorption",
+          "decision": "exclude",
+          "reason": "低频微波吸收工程，虽有磁性但未进入本期低温/量子物性核心。"
+        },
+        {
+          "doi": "10.1002/adfm.79519",
+          "title": "Grape Cluster Inspired Biomimetic Composite Solid Electrolyte for High‐Voltage and Long‐Life Solid‐State Lithium Metal Batteries",
+          "decision": "exclude",
+          "reason": "能源、通用功能器件、软物质、医疗或材料机制与重点关联不足。"
+        },
+        {
+          "doi": "10.1002/adfm.79561",
+          "title": "Self‐Assembly and Humidity‐Adaptive Memristive Behavior of Benzophosphole Nanohoops",
+          "decision": "exclude",
+          "reason": "能源、通用功能器件、软物质、医疗或材料机制与重点关联不足。"
+        },
+        {
+          "doi": "10.1002/adfm.79541",
+          "title": "Staged Orientation‐Controlled Epitaxy of Organic Low‐Dimensional Heterostructures",
+          "decision": "include",
+          "reason": "直接相关，逐篇记录阅读证据。"
+        },
+        {
+          "doi": "10.1002/adfm.79514",
+          "title": "Interfacial Charge Dynamics and Polarization Coupling in Ferroelectric Nematic Liquid Crystal Tailored PVDF Composite Films for High‐Performance Organic Triboelectric Nanogenerator‐Based Electromechanical Energy Harvesting",
+          "decision": "exclude",
+          "reason": "能源、通用功能器件、软物质、医疗或材料机制与重点关联不足。"
+        },
+        {
+          "doi": "10.1002/adfm.79478",
+          "title": "Engineering Intraframework Energy Transfer in Metal‐Organic Frameworks for Luminescent Discrimination of Bisphenol Pollutants",
+          "decision": "exclude",
+          "reason": "能源、通用功能器件、软物质、医疗或材料机制与重点关联不足。"
+        },
+        {
+          "doi": "10.1002/adfm.79477",
+          "title": "Lanthanide MOF‐Perovskite Quantum‐Cutting Circularly Polarized Emitters for Vital Sensing and AI‐Assisted Emotion Recognition",
+          "decision": "exclude",
+          "reason": "能源、通用功能器件、软物质、医疗或材料机制与重点关联不足。"
+        },
+        {
+          "doi": "10.1002/adfm.79496",
+          "title": "3D Solar‐Driven Interfacial Evaporator Based on Tailored TiO 2 Nanotube Arrays by Wireless Anodizing for Efficient Desalination",
+          "decision": "exclude",
+          "reason": "能源、通用功能器件、软物质、医疗或材料机制与重点关联不足。"
+        },
+        {
+          "doi": "10.1002/adfm.79517",
+          "title": "Wireless Electrical Stimulation via Piezoelectric Nanogenerator for Parkinson's Disease Therapy Through Activating Calcium Channels and Mitigating Oxidative Damage",
+          "decision": "exclude",
+          "reason": "能源、通用功能器件、软物质、医疗或材料机制与重点关联不足。"
+        },
+        {
+          "doi": "10.1002/adfm.79549",
+          "title": "A Fluorinated 3D Interphase With Built‐In Si‐Gradient Lithiophilicity Enables Spatially Adaptive Li Deposition for Stable Li Metal Anode",
+          "decision": "exclude",
+          "reason": "能源、通用功能器件、软物质、医疗或材料机制与重点关联不足。"
+        },
+        {
+          "doi": "10.1002/adfm.79504",
+          "title": "Crystalline Seed Identity Selects Assembly Topology in Silk Fibroin",
+          "decision": "exclude",
+          "reason": "能源、通用功能器件、软物质、医疗或材料机制与重点关联不足。"
+        },
+        {
+          "doi": "10.1002/adfm.79132",
+          "title": "Controlling Structure and Stability in Ultrathin Ti 3 C 2 T x MXene Multilayers for Hydrogen Gas Barrier Applications",
+          "decision": "exclude",
+          "reason": "MXene气体阻挡为主要评价，未见相关量子输运。"
+        },
+        {
+          "doi": "10.1002/adfm.79531",
+          "title": "Surfactant Induces Uniform and Stable Self‐Assembled Monolayers for High‐Performance Wide‐Bandgap Perovskite Solar Cells",
+          "decision": "exclude",
+          "reason": "能源、通用功能器件、软物质、医疗或材料机制与重点关联不足。"
+        },
+        {
+          "doi": "10.1002/adfm.79413",
+          "title": "Elastic‐Invisibility‐Enabled Metastructure With Mechanically Programmed Nonlinear Resonators for Vibration Attenuation and Energy Harvesting",
+          "decision": "exclude",
+          "reason": "能源、通用功能器件、软物质、医疗或材料机制与重点关联不足。"
+        },
+        {
+          "doi": "10.1002/adfm.79031",
+          "title": "Breaking the 35% Efficiency Milestone: Material Innovations and Interface Mechanisms in Monolithic Perovskite/Silicon Tandem Solar Cells",
+          "decision": "exclude",
+          "reason": "能源、通用功能器件、软物质、医疗或材料机制与重点关联不足。"
+        },
+        {
+          "doi": "10.1002/adfm.79559",
+          "title": "High‐Entropy Sulfides Enable Dual‐Pathway Sulfur Conversion in PEO‐Based All‐Solid‐State Li–S Batteries",
+          "decision": "exclude",
+          "reason": "能源、通用功能器件、软物质、医疗或材料机制与重点关联不足。"
+        },
+        {
+          "doi": "10.1002/adfm.79508",
+          "title": "Dynamic Liquid Crystal Elastomer Surfaces: From Bulk Responses to Interfacial Functions",
+          "decision": "exclude",
+          "reason": "能源、通用功能器件、软物质、医疗或材料机制与重点关联不足。"
+        },
+        {
+          "doi": "10.1002/adfm.79510",
+          "title": "Thermally Robust Room‐Temperature Interlayer Excitons in a Hybrid van der Waals Heterostructure",
+          "decision": "include",
+          "reason": "直接相关，逐篇记录阅读证据。"
+        },
+        {
+          "doi": "10.1002/adfm.79525",
+          "title": "Ultra‐Robust All‐Weather Perovskite Memristor Protected by Conformal Parylene Nanoscale Coating",
+          "decision": "exclude",
+          "reason": "能源、通用功能器件、软物质、医疗或材料机制与重点关联不足。"
+        },
+        {
+          "doi": "10.1002/adfm.79398",
+          "title": "Coordination Geometry Reconstruction Mitigates α‑Dihedral Angle Restriction of Polyanionic‐Type Cathodes for Ultrafast Sodium Storage",
+          "decision": "exclude",
+          "reason": "能源、通用功能器件、软物质、医疗或材料机制与重点关联不足。"
+        },
+        {
+          "doi": "10.1002/adfm.79560",
+          "title": "Beyond Superlattice Order: Full‐Composition Li Stoichiometry Screening Identifies Interfacial Spinel Passivation as the Decisive Factor for Durable Cobalt‐Free Li‐Rich Cathodes",
+          "decision": "exclude",
+          "reason": "能源、通用功能器件、软物质、医疗或材料机制与重点关联不足。"
+        },
+        {
+          "doi": "10.1002/adfm.79460",
+          "title": "Spatially Programmed 3D‐Bioprinted Tumor–Stromal Assembloids Reveal Progressive Microenvironmental Remodeling and Phase‐Dependent Drug Responses in Hepatocellular Carcinoma",
+          "decision": "exclude",
+          "reason": "能源、通用功能器件、软物质、医疗或材料机制与重点关联不足。"
+        },
+        {
+          "doi": "10.1002/adfm.79552",
+          "title": "Stretchable Antimicrobial Nanomesh Antenna for Robust Epidermal Millimeter‐Wave Wireless Communications",
+          "decision": "exclude",
+          "reason": "能源、通用功能器件、软物质、医疗或材料机制与重点关联不足。"
+        }
+      ],
+      "limits": "出版社 403，Crossref补核。"
+    },
+    {
+      "source": "Nano Letters",
+      "url": "https://api.crossref.org/journals/1530-6992/works?filter=from-online-pub-date:2026-11-07,until-online-pub-date:2026-11-09&rows=100&select=DOI,title,published-online,abstract",
+      "hits": 6,
+      "included": 5,
+      "excluded": 1,
+      "items": [
+        {
+          "doi": "10.1021/acs.nanolett.6c04202",
+          "title": "Ultrathin SrTiO3 Capping Stabilizes the Surface Chemistry of Brownmillerite Ferrites during Reduction",
+          "decision": "include",
+          "reason": "直接相关，逐篇记录阅读证据。"
+        },
+        {
+          "doi": "10.1021/acs.nanolett.6c04565",
+          "title": "Ultralow-Loss Femtosecond Laser Slicing of Lithium Niobate Enabled by Anisotropic Thermal Dissipation-Guided Vector Scanning",
+          "decision": "include",
+          "reason": "直接相关，逐篇记录阅读证据。"
+        },
+        {
+          "doi": "10.1021/acs.nanolett.6c04599",
+          "title": "Photoluminescence-Driven Quasi-BICs in Photonic Nanomembranes for Active Refractometric Sensing",
+          "decision": "exclude",
+          "reason": "折射率传感的准BIC纳膜，主要是器件性能。"
+        },
+        {
+          "doi": "10.1021/acs.nanolett.6c04301",
+          "title": "Defect-Initiated Anisotropic Oxidation in Two-Dimensional GaSe",
+          "decision": "include",
+          "reason": "直接相关，逐篇记录阅读证据。"
+        },
+        {
+          "doi": "10.1021/acs.nanolett.6c04835",
+          "title": "Photoinduced Carrier Doping of α-RuCl3 through Interlayer Charge Transfer",
+          "decision": "include",
+          "reason": "直接相关，逐篇记录阅读证据。"
+        },
+        {
+          "doi": "10.1021/acs.nanolett.6c03255",
+          "title": "Emergent Giant Topological Hall Effect at the van der Waals Ferromagnet/Topological Insulator Interface",
+          "decision": "include",
+          "reason": "直接相关，逐篇记录阅读证据。"
+        }
+      ],
+      "limits": "ACS 源站已有访问限制，使用出版元数据。"
+    },
+    {
+      "source": "ACS Nano",
+      "url": "https://api.crossref.org/journals/1936-086X/works?filter=from-online-pub-date:2026-11-07,until-online-pub-date:2026-11-09&rows=100&select=DOI,title,published-online,abstract",
+      "hits": 7,
+      "included": 0,
+      "excluded": 7,
+      "items": [
+        {
+          "doi": "10.1021/acsnano.6c19623",
+          "title": "Unusual CD-ee Dependence in Self-Assembled Chiral Nanocomposites through Nanoparticle-Mediated Interactions",
+          "decision": "exclude",
+          "reason": "生医、化学工艺、软手性或光器件性能为主。"
+        },
+        {
+          "doi": "10.1021/acsnano.6c17082",
+          "title": "Vitamin E-Engineered Anti-Inflammatory Lipid Nanoparticles for Safer mRNA Delivery",
+          "decision": "exclude",
+          "reason": "生医、化学工艺、软手性或光器件性能为主。"
+        },
+        {
+          "doi": "10.1021/acsnano.6c17157",
+          "title": "Coordinating Photoacid Generators Enable Site-Defined Metal–Oxo Cluster Lithography",
+          "decision": "exclude",
+          "reason": "生医、化学工艺、软手性或光器件性能为主。"
+        },
+        {
+          "doi": "10.1021/acsnano.6c16289",
+          "title": "Self-Dissociating Albumin Nanoclusters for Passive Lymph Node-Targeted Inverse Vaccination in a Rheumatoid Arthritis Model",
+          "decision": "exclude",
+          "reason": "生医、化学工艺、软手性或光器件性能为主。"
+        },
+        {
+          "doi": "10.1021/acsnano.6c16809",
+          "title": "Quantum Dot Colloidosomes as Triggerable Microlasers",
+          "decision": "exclude",
+          "reason": "生医、化学工艺、软手性或光器件性能为主。"
+        },
+        {
+          "doi": "10.1021/acsnano.6c15303",
+          "title": "Biscoordinated Strontium–Phenolic Networks for Bidirectional Repair of Dentin Hypersensitivity",
+          "decision": "exclude",
+          "reason": "生医、化学工艺、软手性或光器件性能为主。"
+        },
+        {
+          "doi": "10.1021/acsnano.6c12325",
+          "title": "Antiambipolar and Bidirectional Photoresponse in Ternary van der Waals Heterostructure Transistors",
+          "decision": "exclude",
+          "reason": "反双极性三元异质结有具体材料，但本稿目标以光晶体管性能为主；未确立Ta₂NiS₅激子序。"
+        }
+      ],
+      "limits": "ACS 源站已有访问限制，使用出版元数据。"
+    },
+    {
+      "source": "JACS",
+      "url": "https://api.crossref.org/journals/1520-5126/works?filter=from-online-pub-date:2026-11-07,until-online-pub-date:2026-11-09&rows=100&select=DOI,title,published-online,abstract",
+      "hits": 11,
+      "included": 3,
+      "excluded": 8,
+      "items": [
+        {
+          "doi": "10.1021/jacs.6c20230",
+          "title": "Ultrastretchable, Tissue-Matched Piezoelectric Gel with Preferentially Oriented Molecular Ferroelectric Crystallization",
+          "decision": "exclude",
+          "reason": "分子/生命化学、吸附、电池或反应机制，超出本期量子晶体直接范围。"
+        },
+        {
+          "doi": "10.1021/jacs.6c15247",
+          "title": "Localized 4f Magnetism and Low-Lying 5d-Mediated Photoresponses in Layered TmI2",
+          "decision": "include",
+          "reason": "直接相关，逐篇记录阅读证据。"
+        },
+        {
+          "doi": "10.1021/jacs.6c21052",
+          "title": "Cation-Effect-Driven Modulation of Interfacial Solvation Structures Enables Fast-Charging Lithium-Ion Batteries",
+          "decision": "exclude",
+          "reason": "分子/生命化学、吸附、电池或反应机制，超出本期量子晶体直接范围。"
+        },
+        {
+          "doi": "10.1021/jacs.6c15293",
+          "title": "Native Mass Spectrometry of Membrane Protein Lipid and Ligand Complexes Using de novo Designed WRAP Domains",
+          "decision": "exclude",
+          "reason": "分子/生命化学、吸附、电池或反应机制，超出本期量子晶体直接范围。"
+        },
+        {
+          "doi": "10.1021/jacs.6c17041",
+          "title": "Geometry-Induced Construction of Sub-Stoichiometric 3D Covalent Organic Frameworks for SO2 Capture",
+          "decision": "exclude",
+          "reason": "分子/生命化学、吸附、电池或反应机制，超出本期量子晶体直接范围。"
+        },
+        {
+          "doi": "10.1021/jacs.6c08768",
+          "title": "De Novo Design of Catalytically Active Salen-Binding Proteins",
+          "decision": "exclude",
+          "reason": "分子/生命化学、吸附、电池或反应机制，超出本期量子晶体直接范围。"
+        },
+        {
+          "doi": "10.1021/jacs.6c13454",
+          "title": "The Structure of Oleate-Capped CdSe Nanocrystals Determined by DNP-Enhanced Dipolar Dephasing Solid-State NMR Spectroscopy",
+          "decision": "include",
+          "reason": "直接相关，逐篇记录阅读证据。"
+        },
+        {
+          "doi": "10.1021/jacs.6c16353",
+          "title": "Asymmetric Total Syntheses of (+)-Asperterpenoids D and E with a Concurrent Synthesis of ent -(−)-Homoverrucosanol",
+          "decision": "exclude",
+          "reason": "分子/生命化学、吸附、电池或反应机制，超出本期量子晶体直接范围。"
+        },
+        {
+          "doi": "10.1021/jacs.6c14534",
+          "title": "Direct Synthesis and Electrochemical Deintercalation of Mg-Intercalated Graphullerite",
+          "decision": "include",
+          "reason": "直接相关，逐篇记录阅读证据。"
+        },
+        {
+          "doi": "10.1021/jacs.6c15198",
+          "title": "Electric Field Catalysis and the Metabolic Origin of Life",
+          "decision": "exclude",
+          "reason": "分子/生命化学、吸附、电池或反应机制，超出本期量子晶体直接范围。"
+        },
+        {
+          "doi": "10.1021/jacs.6c17407",
+          "title": "Quantifying Hidden Metabolites in 31P NMR Spectra by Physics-Based Spectral Subtraction",
+          "decision": "exclude",
+          "reason": "分子/生命化学、吸附、电池或反应机制，超出本期量子晶体直接范围。"
+        }
+      ],
+      "limits": "ACS 源站已有访问限制，使用出版元数据。"
+    },
+    {
+      "source": "Chemistry of Materials",
+      "url": "https://api.crossref.org/journals/1520-5002/works?filter=from-online-pub-date:2026-11-07,until-online-pub-date:2026-11-09&rows=100&select=DOI,title,published-online,abstract",
+      "hits": 4,
+      "included": 0,
+      "excluded": 4,
+      "items": [
+        {
+          "doi": "10.1021/acs.chemmater.6c02193",
+          "title": "Descriptor Logic for Disorder in High-Entropy and Compositionally Complex Fluorite Oxides: A Critical Assessment",
+          "decision": "exclude",
+          "reason": "综述、普通发光体或目标物性关联不足。"
+        },
+        {
+          "doi": "10.1021/acs.chemmater.6c03138",
+          "title": "The Future of Light-Emitting Materials",
+          "decision": "exclude",
+          "reason": "综述、普通发光体或目标物性关联不足。"
+        },
+        {
+          "doi": "10.1021/acs.chemmater.6c01861",
+          "title": "Atomic-Scale Insights into Electron-Driven Ag Migration and Growth Across Zeolitic Imidazolate Framework-8/Ag2SeO3 Interfaces: A Theoretical and Experimental Study",
+          "decision": "exclude",
+          "reason": "电子束驱动银迁移的 ZIF 功能复合体，候补范围弱相关。"
+        },
+        {
+          "doi": "10.1021/acs.chemmater.6c01957",
+          "title": "Template-Guided Crystal Chemical Design of Eu2+-Activated La2Ca3[Si4N4O8] Oxonitridosilicate Phosphor",
+          "decision": "exclude",
+          "reason": "综述、普通发光体或目标物性关联不足。"
+        }
+      ],
+      "limits": "ACS 源站已有访问限制，使用出版元数据。"
+    },
+    {
+      "source": "Crystal Growth & Design",
+      "url": "https://api.crossref.org/journals/1528-7505/works?filter=from-online-pub-date:2026-11-07,until-online-pub-date:2026-11-09&rows=100&select=DOI,title,published-online,abstract",
+      "hits": 4,
+      "included": 0,
+      "excluded": 4,
+      "items": [
+        {
+          "doi": "10.1021/acs.cgd.6c00584",
+          "title": "Innovative Zinc(II) Metal−Organic Frameworks Featuring Pyridine-Sulfonate-Imine Linkers for Microextraction of Plasticizers and Selective Luminescent Detection of Toxic Oxyanions",
+          "decision": "exclude",
+          "reason": "吸附MOF、普通荧光体或分子双折射，目标物性关联不足。"
+        },
+        {
+          "doi": "10.1021/acs.cgd.6c01054",
+          "title": "Optimizing Th(IV) Capture via Side-Chain Carboxyl Configuration in MIL-101(Cr) Adsorbents",
+          "decision": "exclude",
+          "reason": "吸附MOF、普通荧光体或分子双折射，目标物性关联不足。"
+        },
+        {
+          "doi": "10.1021/acs.cgd.6c01225",
+          "title": "Crystal Structure-Guided Design of a Single-Site Blue Phosphor BaHf(BO3)2:Eu2+ with High Color Purity for WLEDs",
+          "decision": "exclude",
+          "reason": "吸附MOF、普通荧光体或分子双折射，目标物性关联不足。"
+        },
+        {
+          "doi": "10.1021/acs.cgd.6c00994",
+          "title": "Significant Enhancement of Birefringence Driven by Carboxylate Site Regulation in Pyridinedicarboxylic Acids",
+          "decision": "exclude",
+          "reason": "吸附MOF、普通荧光体或分子双折射，目标物性关联不足。"
+        }
+      ],
+      "limits": "ACS 源站已有访问限制，使用出版元数据。"
+    },
+    {
+      "source": "Journal of Crystal Growth",
+      "url": "https://api.crossref.org/journals/0022-0248/works?filter=from-online-pub-date:2026-11-07,until-online-pub-date:2026-11-09&rows=100&select=DOI,title,published-online,abstract",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "items": [],
+      "limits": "出版社 403，Crossref补核。"
+    },
+    {
+      "source": "Science",
+      "url": "https://api.crossref.org/journals/1095-9203/works?filter=from-online-pub-date:2026-11-07,until-online-pub-date:2026-11-09&rows=100&select=DOI,title,published-online,abstract",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "items": [],
+      "limits": "出版社 403，Crossref补核。"
+    },
+    {
+      "source": "Science Advances",
+      "url": "https://api.crossref.org/journals/2375-2548/works?filter=from-online-pub-date:2026-11-07,until-online-pub-date:2026-11-09&rows=100&select=DOI,title,published-online,abstract",
+      "hits": 0,
+      "included": 0,
+      "excluded": 0,
+      "items": [],
+      "limits": "出版社 403，Crossref补核。"
+    },
+    {
+      "source": "同级期刊",
+      "hits": null,
+      "included": 0,
+      "items": [],
+      "limits": "AIP、PNAS等目录访问受限，核实范围未穷尽。"
+    }
+  ],
+  "historicalExclusions": [],
+  "limits": [
+    "部分正式期刊源站受限。补刊为事后核查。"
+  ],
+  "arxivCrosscheck": [
+    {
+      "name": "date-07",
+      "http": "200",
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acond-mat.%2A%20AND%20submittedDate%3A%5B202611061600%20TO%20202611071559%5D&max_results=300",
+      "count": 17,
+      "error": ""
+    },
+    {
+      "name": "date-08",
+      "http": "200",
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acond-mat.%2A%20AND%20submittedDate%3A%5B202611071600%20TO%20202611081559%5D&max_results=300",
+      "count": 0,
+      "error": ""
+    },
+    {
+      "name": "date-09",
+      "http": "200",
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acond-mat.%2A%20AND%20submittedDate%3A%5B202611081600%20TO%20202611091559%5D&max_results=300",
+      "count": 0,
+      "error": ""
+    },
+    {
+      "name": "ids-0",
+      "http": "200",
+      "url": "https://export.arxiv.org/api/query?id_list=2611.08527,2611.08529,2611.08532,2611.08605,2611.08617,2611.08663,2611.08667,2611.08677,2611.08678,2611.08724,2611.08728,2611.08761,2611.08823,2611.08851,2611.08871,2611.08873,2611.08881,2611.08894,2611.08926,2611.08951,2611.08965,2611.08986,2611.09025,2611.09068,2611.09083,2611.09097,2611.09098,2611.09103,2611.09149,2611.09153,2611.09168,2611.09202,2611.09255,2611.09258,2611.09285,2611.09287,2611.09320,2611.09325,2611.09390,2611.09391,2611.09462,2611.09469,2611.09473,2611.09494,2611.09499,2611.09509,2611.09510,2611.09534,2611.09547,2611.09572,2611.09578,2611.09581,2611.09618,2611.09668,2611.09669,2611.09671,2611.09696,2611.09704,2611.09705,2611.09800,2611.09810,2611.09819,2611.09855,2611.09857,2611.09873&max_results=65",
+      "count": 65,
+      "error": ""
+    },
+    {
+      "name": "ids-65",
+      "http": "200",
+      "url": "https://export.arxiv.org/api/query?id_list=2611.09881,2610.40818,2611.07564,2611.08506,2611.08564,2611.08580,2611.08582,2611.08619,2611.08628,2611.08733,2611.08807,2611.08874,2611.08974,2611.09018,2611.09138,2611.09180,2611.09229,2611.09314,2611.09434,2611.09456,2611.09464,2611.09479,2611.09531,2611.09537,2611.09540,2611.09564,2611.09595,2611.09637,2611.09710,2611.09786,2611.09814,2611.09839,2205.02686,2507.03590,2511.23289,2601.00101,2602.07351,2602.09363,2602.10236,2602.14885,2603.17018,2603.18205,2603.19885,2603.21756,2603.22089,2604.25756,2605.04283,2605.05603,2605.15834,2606.02371,2606.04042,2606.10858,2606.22359,2606.24291,2607.07086,2607.12405,2607.13572,2607.13675,2607.13923,2608.01925,2608.23130,2608.26099,2609.00695,2609.02666,2610.08221&max_results=65",
+      "count": 65,
+      "error": ""
+    },
+    {
+      "name": "ids-130",
+      "http": "200",
+      "url": "https://export.arxiv.org/api/query?id_list=2610.10027,2610.23781,2610.38338,2610.41601,2611.03562,2611.08024,1303.7276,1908.03900,1908.09304,2401.17015,2410.23544,2412.19801,2506.00193,2507.02853,2512.06762,2601.04318,2604.12151,2604.27266,2605.18187,2607.01332,2607.24972,2609.31934,2611.00422,2611.08293&max_results=65",
+      "count": 24,
+      "error": ""
+    }
+  ],
+  "reading": [
+    {
+      "index": 1,
+      "doi": "https://doi.org/10.1038/s41467-026-79149-6",
+      "title": "Fractional quantum Hall states and oscillatory Landau charge squeezing in Bernal tetralayer graphene",
+      "titleZh": "Bernal 堆垛四层石墨烯中的分数量子霍尔态与振荡朗道电荷挤压",
+      "access": "全文精读：出版社先行主文、Methods、图1–4。已读公开18页SI Notes 1–5及图S1、S5–S6、S11–S18。",
+      "bodyChineseCharacters": 1530
+    },
+    {
+      "index": 2,
+      "doi": "https://doi.org/10.1038/s41467-026-79077-5",
+      "title": "Topological Josephson trijunctions as a Majorana source and path",
+      "titleZh": "作为马约拉纳源与通道的拓扑约瑟夫森三结",
+      "access": "全文精读：出版社先行主文、Methods、图1–4及公开SI Notes 1–6、图S10。未读补充视频和同行评议。",
+      "bodyChineseCharacters": 888
+    },
+    {
+      "index": 3,
+      "doi": "https://doi.org/10.1021/acs.nanolett.6c04202",
+      "title": "Ultrathin SrTiO3 Capping Stabilizes the Surface Chemistry of Brownmillerite Ferrites during Reduction",
+      "titleZh": "超薄 SrTiO₃ 覆盖层稳定还原过程中棕钙铁石型铁氧化物的表面化学",
+      "access": "仅摘要：读取出版社提交给 Crossref 的摘要及作者信息。ACS 源站有既有访问限制，暂未确认合法公开全文及 SI。",
+      "bodyChineseCharacters": 132
+    },
+    {
+      "index": 4,
+      "doi": "https://doi.org/10.1021/acs.nanolett.6c04301",
+      "title": "Defect-Initiated Anisotropic Oxidation in Two-Dimensional GaSe",
+      "titleZh": "二维 GaSe 中由缺陷引发的各向异性氧化",
+      "access": "仅摘要：读取出版社提交给 Crossref 的摘要及作者信息。ACS 源站有既有访问限制，暂未确认合法公开全文及 SI。",
+      "bodyChineseCharacters": 153
+    },
+    {
+      "index": 5,
+      "doi": "https://doi.org/10.1021/acs.nanolett.6c04835",
+      "title": "Photoinduced Carrier Doping of α-RuCl3 through Interlayer Charge Transfer",
+      "titleZh": "通过层间电荷转移实现 α-RuCl₃ 的光诱导载流子掺杂",
+      "access": "仅摘要：读取出版社提交给 Crossref 的摘要及作者信息。ACS 源站有既有访问限制，暂未确认合法公开全文及 SI。",
+      "bodyChineseCharacters": 140
+    },
+    {
+      "index": 6,
+      "doi": "https://doi.org/10.1021/acs.nanolett.6c03255",
+      "title": "Emergent Giant Topological Hall Effect at the van der Waals Ferromagnet/Topological Insulator Interface",
+      "titleZh": "范德瓦耳斯铁磁体与拓扑绝缘体界面涌现的巨拓扑霍尔效应",
+      "access": "仅摘要：读取出版社提交给 Crossref 的摘要及作者信息。ACS 源站有既有访问限制，暂未确认合法公开全文及 SI。",
+      "bodyChineseCharacters": 148
+    },
+    {
+      "index": 7,
+      "doi": "https://doi.org/10.1002/adfm.79541",
+      "title": "Staged Orientation‐Controlled Epitaxy of Organic Low‐Dimensional Heterostructures",
+      "titleZh": "有机低维异质结构的分阶段取向可控外延",
+      "access": "仅摘要：Crossref 的出版社摘要已读。Wiley 正文/PDF 403 或未取得，公开作者稿和机构正文均未核实。",
+      "bodyChineseCharacters": 127
+    },
+    {
+      "index": 8,
+      "doi": "https://doi.org/10.1002/adfm.79510",
+      "title": "Thermally Robust Room‐Temperature Interlayer Excitons in a Hybrid van der Waals Heterostructure",
+      "titleZh": "混合范德瓦耳斯异质结构中热稳定的室温层间激子",
+      "access": "仅摘要：Crossref 的出版社摘要已读。Wiley 正文/PDF 403 或未取得，公开作者稿和机构正文均未核实。",
+      "bodyChineseCharacters": 120
+    },
+    {
+      "index": 9,
+      "doi": "https://doi.org/10.1021/jacs.6c15247",
+      "title": "Localized 4f Magnetism and Low-Lying 5d-Mediated Photoresponses in Layered TmI2",
+      "titleZh": "层状 TmI₂ 中的局域 4f 磁性和低能 5d 态介导的光响应",
+      "access": "仅摘要：正式 DOI 与出版社登记摘要已读。ACS 源站有既有访问限制，未确认作者原文或 SI。",
+      "bodyChineseCharacters": 151
+    },
+    {
+      "index": 10,
+      "doi": "https://doi.org/10.1021/jacs.6c14534",
+      "title": "Direct Synthesis and Electrochemical Deintercalation of Mg-Intercalated Graphullerite",
+      "titleZh": "镁插层 Graphullerite 的直接合成与电化学脱插层",
+      "access": "仅摘要：正式 DOI 与出版社登记摘要已读。ACS 源站有既有访问限制，未确认作者原文或 SI。",
+      "bodyChineseCharacters": 121
+    },
+    {
+      "index": 11,
+      "doi": "https://doi.org/10.1021/jacs.6c13454",
+      "title": "The Structure of Oleate-Capped CdSe Nanocrystals Determined by DNP-Enhanced Dipolar Dephasing Solid-State NMR Spectroscopy",
+      "titleZh": "用 DNP 增强偶极退相固体核磁共振确定油酸根封端 CdSe 纳米晶结构",
+      "access": "仅摘要：正式 DOI 与出版社登记摘要已读。ACS 源站有既有访问限制，未确认作者原文或 SI。",
+      "bodyChineseCharacters": 134
+    },
+    {
+      "index": 12,
+      "doi": "https://doi.org/10.1021/acs.nanolett.6c04565",
+      "title": "Ultralow-Loss Femtosecond Laser Slicing of Lithium Niobate Enabled by Anisotropic Thermal Dissipation-Guided Vector Scanning",
+      "titleZh": "各向异性热耗散引导的矢量扫描实现铌酸锂飞秒激光低损耗切片",
+      "access": "仅摘要：正式 DOI 与出版社登记摘要已读。ACS 源站有既有访问限制，未确认作者原文或 SI。",
+      "bodyChineseCharacters": 129
+    }
+  ],
+  "arxivOfficialCounts": {
+    "date": "2026-11-07",
+    "new": 0,
+    "cross": 0,
+    "replacements": 0,
+    "total": 0,
+    "scope": "无独立周末公告批次；提交日期与下周一公告另列。"
+  },
+  "officialBatchDecisions": []
+}
