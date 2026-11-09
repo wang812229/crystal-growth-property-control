@@ -1,0 +1,167 @@
+{
+  "date": "2026-11-06",
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-06",
+  "scope": "两项具体物理假设：ZnCoP₂O₇非磁位低Mg固溶，用占位核验区分几何与链缺陷；(Ga,Fe)Sb中固定Fe、少量Bi替Sb，分离磁近邻、无序与界面结构。两项均待进一步查新。",
+  "limitations": [
+    "均未合成、未计算、未测量；标needs-review，新颖性、稳定性和可合成性未证。",
+    "已知端元、普通Bi掺GaSb与既有配方不当新材料；本期候选的差异及否定条件按条列。",
+    "限定论文/预印本、专利与学位线索；未穷尽结构库及专利权利要求。"
+  ],
+  "ideas": [
+    {
+      "id": "znmg-cobalt-pyrophosphate-site-selectivity",
+      "status": "needs-review",
+      "kind": "material",
+      "paperIndex": 22,
+      "title": "(Zn₁₋ₓMgₓ)CoP₂O₇：用非磁位替换与占位实测区分几何压力和随机链缺陷",
+      "material": "名义候选(Zn₁₋ₓMgₓ)CoP₂O₇低x固溶；意图Mg²⁺进入Zn²⁺非磁位，真实位点偏好未知。MgCoP₂O₇端元早已有论文/专利，绝非预测新发现该化合物。",
+      "evidenceLevel": "本期ZnCoP₂O₇正式21页正文Methods、表I/II、图1–12与关键渲染图实际已读；候选未合成、未计算、未测量。",
+      "question": "保持Co磁离子名义数不变时，非磁位配位偏好能否改变链间几何与Zn/Co反位倾向？持续动态能否在位点有序度提高时仍存在？",
+      "prediction": "条件性预测：只有Mg确实主要占Zn位且骨架仍为母相时，低替换量可作为改变非磁隔离多面体几何的参数。若反位减少而低温动态平台与无序温区仍保留，更支持本征低维/挫折；若动态强度主要跟Co误占/链断裂而非平均晶格变化走，支持无序驱动态。不能预言必然提高或降低J、Tc或磁序温度；若Mg优先进Co位，原非磁位化学压力假说即被否定。",
+      "basis": "文献事实：母文显示Co八面体磁链、Zn隔离单元，XRD不能排除反位；既有2016母体论文强调Zn为畸变方锥、Co为八面体。物理类比：Zn²⁺为d10、Mg²⁺无d磁矩，等价替换不要求额外载流子补偿，且Mg比Cd更值得优先考虑因为不新增重元素SOC和明显大离子差；但必须比较相同配位半径，不能把Mg八面体半径直接与Zn五配位半径作化学压定量。本站假说：配位偏好比仅名义半径更能检验缺陷来源。未知：Mg实际占位、固溶范围、竞争磷酸盐和反位能量。",
+      "difference": "排除“MgCoP₂O₇是新材料”和普通Mg-Co焦磷酸盐制备。保留限定的低Mg非磁位固溶、退火控制和实测反位共同解释毫开尔文动态的因果设计；是否已有等价低温磁性系列尚未确认。",
+      "feasibility": "先计算或查已有晶体结构的位点能偏好，未做DFT不能报能差。实验先少量粉末筛选：母相、数个低名义x、MgCoP₂O₇已知端元参比；不强迫端元同构。常规Rigaku XRD可查主相及晶格趋势，但区分Zn/Co/Mg占位需联合中子/共振衍射与ICP/WDS，低温先PPMS再合作稀释/μSR。",
+      "risks": "Mg可能偏好Co八面体而直接磁稀释，或促使P₂O₇骨架相变；低名义x不保证单相，Zn挥发/磷损失改变计量，退火也会共变晶粒和缺陷。",
+      "nextStep": "先核母/端元CIF及Mg位点能与相图，再补查固溶磁性/学位专利；现阶段仅待查新假说，不建议直接按未知配方投入大批次单晶。",
+      "plan": [
+        "先由已有母相和MgCoP₂O₇结构核位点配位，检查是否允许连续低x；比较Zn位与Co位替换，保持电中性。",
+        "母相及低x系列用同一温程与至少两个退火条件，小批量实测成分与相含量，不报最优x。",
+        "将占位、晶格和低温动态分别作横坐标，比较热容/交流磁化率/μSR；若无法分辨占位，不作化学压力因果结论。"
+      ],
+      "controls": [
+        "未替换ZnCoP₂O₇母相",
+        "已知MgCoP₂O₇端元但不假设同相",
+        "匹配实际Co含量的直接磁稀释参比",
+        "同名义组成不同退火的反位度参比"
+      ],
+      "falsifiers": [
+        "Mg主要占Co位或出现竞争相则停止非磁位替换路线。",
+        "若提高占位有序度后动态消失并出现磁序，降低本征自旋液体解释。",
+        "若所有变化可由Co实际损失解释，不宣称独立化学压力调控。"
+      ],
+      "queries": [
+        "2026-11-06: \"ZnCoP2O7\" \"Mg\"",
+        "2026-11-06: \"Zn1-xMgxCoP2O7\" OR \"MgCoP2O7\" magnetism",
+        "2026-11-06: \"zinc cobalt pyrophosphate\" magnesium substitution thesis patent",
+        "2026-11-06: \"ZnCoP2O7\" magnesium substitution",
+        "2026-11-06: \"MgCoP2O7\" crystal structure",
+        "2026-11-06: \"ZnCoP2O7\" thesis"
+      ],
+      "remainingChecks": [
+        "限定网页检索已见MgCoP₂O₇端元和封接专利，但未完整检查Zn-Mg-Co-P-O固溶相图及低温磁性；不能断言新颖。",
+        "学位检索未获得直接全文，专利只核公开段落未逐项读全家族权利要求。",
+        "尚未确认非磁Zn位占Mg的配位化学可行性，五/六配位半径不可混比。"
+      ],
+      "priorArt": [
+        {
+          "title": "Frustration-driven spin liquid ground state in the Jeff=1/2 zigzag chain antiferromagnet ZnCoP2O7",
+          "url": "https://doi.org/10.1103/1b15-5ldr",
+          "overlap": "母文已指出反位和无序解释不能排除，不能把普通提高质量包装首创。",
+          "access": "本期正式正文Methods与关键图实际精读"
+        },
+        {
+          "title": "Magnetic and thermodynamic properties and magneto-structural correlation of the diphosphate ZnCoP2O7",
+          "url": "https://doi.org/10.1080/15421406.2015.1137126",
+          "overlap": "2016母体结构与低维反铁磁已有；Zn方锥/Co八面体事实。",
+          "access": "出版社公开摘要，未计本期精读"
+        },
+        {
+          "title": "Bivalent pyrophosphates as high-performance phosphate-based corrosion inhibitors",
+          "url": "https://doi.org/10.1016/j.jece.2026.122323",
+          "overlap": "MgCoP₂O₇已合成且有结构表征，不是本站预测的新化合物；催化/腐蚀数据不能推断低温磁态。",
+          "access": "出版社公开摘要与结构段落检索结果；未读完整全文"
+        },
+        {
+          "title": "EP0536591A1 Sealing material and method",
+          "url": "https://patents.google.com/patent/EP0536591A1/en",
+          "overlap": "1993封接材料已使用MgCoP₂O₇，端元存在和一般制备方向排除。",
+          "access": "公开专利检索段落，未完整权利要求查新"
+        }
+      ]
+    },
+    {
+      "id": "gafesbbi-anion-alloy-proximity-control",
+      "status": "needs-review",
+      "kind": "material",
+      "paperIndex": 16,
+      "title": "Al/InAs/Ga₁₋ₓFeₓSb₁₋ᵧBiᵧ：固定Fe、稀量Bi替Sb能否改变交换近邻与散射的竞争？",
+      "material": "候选为Al/盖层/InAs/Ga₁₋ₓFeₓSb₁₋ᵧBiᵧ外延堆垛；Fe占Ga位、Bi拟占Sb位，x固定母体实际14.6%附近，y为待筛低含量系列，不设最优值。",
+      "evidenceLevel": "母体正式主文Results/Methods/图1–5及SI实际读；GaSbBi最近邻仅核机构/出版社公开摘要、样品段和学位检索线索。候选未合成、未DFT、未测量。",
+      "question": "在不把提高Fe浓度重复当新课题的前提下，能否用同族阴离子替位改变价带/波函数渗透与SOC，使InAs磁近邻的变化独立于铁磁层总磁矩？",
+      "prediction": "条件性假说：若Bi可真正替入Sb位、保留低温闪锌矿单相与相近界面粗糙度，则阴离子p态重构可能改变InAs波函数穿透和Rashba/交换竞争；以独立测得的密度、磁化和散射匹配后，正常态自旋劈裂或非互易响应仍可能随y系统改变。若差别完全由迁移率下降、漏电或杂相解释，或仅总磁矩变化而匹配后消失，则否定独立阴离子能带设计的简单版本。不能预言Tc必升、二极管效率必增或必有π结。",
+      "basis": "文献事实：母体14.6%Fe样品Tc约25K，超流受密度控制，直接栅控交换未证实；GaSbBi本身早已生长，低温MBE与Sb/Ga通量决定Bi并入和液滴。物理类比：Sb/Bi同族等价电子数，拟在同一阴离子位作近等价替换，Bi更重的p轨道可改变SOC、杂化和局域键，但形式价−3仅是III-V价电子记账，不能视作实测离子价态；Fe可能混合价也不能先定。本站假说：固定磁性阳离子，用阴离子小比例改变近邻能带耦合。未知：Fe/Bi共掺位点、并入窗口、互溶与交换变化方向。",
+      "difference": "排除单独GaSbBi、单独提高Fe浓度、普通栅压调密度、BiSb/GaFeSb外加拓扑层。候选差别是在同一磁性层内部作Sb位稀Bi合金化，配套无Fe/有Fe与等密度参比，将磁性、SOC和散射拆开；尚未确认无等价工作。",
+      "feasibility": "先做未覆Al的GaSbBi、GaFeSbBi见证薄膜和能带/成分定量，只有仍为单相且低温电阻满足绝缘下层条件才接InAs、盖层和Al。Bi可能改变价带顶与type-III对齐，但方向和大小需实测或有收敛检验的计算；不能借用GaAsBi的meV/%数字。需要有Bi源的低温MBE和成分/磁性/低温输运合作；用户普通XRD可筛外延峰和杂相，不能证明Bi位点或微量Fe团簇。",
+      "risks": "Bi液滴、Fe富集或Fe–Bi/Sb竞争相、粗糙度和界面互扩散、能带改变导致下层导电分流、载流子补偿与局域应变共变；仅按原子半径断言晶格膨胀尤其不可靠，已有GaSbBi/InSbBi机构报告观察到晶格收缩。",
+      "nextStep": "暂不建议直接做完整Josephson器件。先补查四元GaFeSbBi同义组成及专利/学位，并确定母体盖层19%/81%In矛盾；见证薄膜合格后才讨论磁近邻输运。",
+      "plan": [
+        "固定实测Fe含量，构造y=0和多个低Bi筛选点；另做同y无Fe GaSbBi、原始GaFeSb及不接Al参比。所有含量以实测而非源通量代替，不把系列端元视作已稳定材料。",
+        "RHEED/高分辨XRD/RSM、AFM、STEM-EDS/EELS、SIMS/RBS互核Bi/Fe分布，必要时XAS查占位/价态。检查第二相、液滴、残余导电和界面粗糙度。",
+        "先测Hall/SdH与MCD/SQUID，利用双栅或匹配器件把实际密度与电场变化分开，再按母文磁历史协议测Al近邻超流、MAR和非互易绝对电流；需相位敏感测量才能判断π结。"
+      ],
+      "controls": [
+        "固定Fe实测值和低温热历史的无Bi母体",
+        "相同Bi含量无Fe的GaSbBi，用于分离普通SOC/缺陷效应",
+        "实际载流子密度、迁移率、磁化及粗糙度匹配",
+        "相同Al厚度/结几何与正反磁历史/电流"
+      ],
+      "falsifiers": [
+        "Bi未占Sb位、出现不可控液滴/第二相或强导电分流，停止候选器件制备。",
+        "密度/迁移率/磁化匹配后近邻差别消失，不再宣称独立阴离子调控。",
+        "只有拟合参数变化而无独立自旋/结构证据，不得宣布新相、三重态或π结。"
+      ],
+      "queries": [
+        "2026-11-06: \"(Ga,Fe)\" \"Sb\" \"Bi\" semiconductor",
+        "2026-11-06: \"GaFeSbBi\" OR \"Ga(Fe)SbBi\" OR \"GaFeSb\" \"bismuth\"",
+        "2026-11-06: GaSbBi molecular beam epitaxy bismuth incorporation spin orbit",
+        "2026-11-06: GaFeSbBi patent OR thesis; \"GaSbBi\" patent thesis",
+        "2026-11-06: site:patents.google.com \"GaSbBi\" \"ferromagnetic\"; site:arxiv.org \"GaFeSbBi\"; \"GaSbBi\" \"Fe\" thesis"
+      ],
+      "remainingChecks": [
+        "普通网络全文检索实际访问仅限定公开搜索结果、机构摘要和出版社样品段；没有穷尽专利全文权利要求、所有学位正文或化学数据库同义组成。",
+        "定向检索GaFeSbBi/arxiv及GaSbBi ferromagnetic/patent未返回明确同组成磁性异质结论文或专利，但有GaSbBi学位及研究线索；搜索索引覆盖有限，不代表不存在。候选保持needs-review，不宣称首创。",
+        "必须核验Fe/Bi共同并入窗口、局域占位与相稳定性；GaSbBi存在不保证GaFeSbBi及其Al异质结可合成。"
+      ],
+      "priorArt": [
+        {
+          "title": "Interplay of superconductivity and ferromagnetism in ferromagnetic-semiconductor-based Josephson junctions",
+          "url": "https://doi.org/10.1038/s43246-026-01393-6",
+          "overlap": "母体已实现栅控超流；提高Fe和不同结长已是作者未来工作，排除为新设想。",
+          "access": "正式主文Methods/图和真实SI实际读"
+        },
+        {
+          "title": "Bismuth incorporation and lattice contraction in GaSbBi and InSbBi",
+          "url": "https://research.chalmers.se/publication/149579",
+          "overlap": "同族大原子并入不保证晶格膨胀；GaSbBi本身非新材料。",
+          "access": "机构公开摘要已核，未精读全文"
+        },
+        {
+          "title": "Influence of the Bismuth Content on the Optical Properties and Photoluminescence Decay Time in GaSbBi Films",
+          "url": "https://doi.org/10.1021/acsomega.3c05046",
+          "overlap": "已有GaSbBi低温MBE和组分研究；其生长窗口不能直接搬给Fe共掺。",
+          "access": "出版社公开样品段/机构公开稿检索摘录"
+        },
+        {
+          "title": "Epitaxial phases of high Bi content GaSbBi alloys, included in Joonas Hilska thesis",
+          "url": "https://trepo.tuni.fi/bitstream/10024/161690/2/978-952-03-3703-2.pdf",
+          "overlap": "高Bi外延相与Sb/Ga通量对质量的影响已有论文和学位，必须排除一般GaSbBi生长创新说法。",
+          "access": "机构学位检索线索与内含论文摘要，未逐页读完整学位"
+        },
+        {
+          "title": "Giant gate-controlled odd-parity magnetoresistance in one-dimensional channels with a magnetic proximity effect",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9646711/",
+          "overlap": "无Bi的磁近邻边缘通道、表面钉扎和Rashba效应已有；一般边缘测量不是新方向。",
+          "access": "PMC公开Methods段核验，未计本期新增/精读"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "title": "MgCoP₂O₇作为全新端元",
+      "url": "https://patents.google.com/patent/EP0536591A1/en",
+      "reason": "已检到端元制备与专利；保留的是低浓度位点—无序—低温动力学检验。"
+    }
+  ]
+}
