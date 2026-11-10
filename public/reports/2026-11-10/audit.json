@@ -1,19 +1,19 @@
 {
   "date": "2026-11-10",
-  "checkedAt": "2026-11-10T17:41:33.510034+08:00",
-  "window": "北京时间 11 月 10 日，正式目录快照与当天在线日期并行核查。17:01 直接访问 arXiv cond-mat/new，156 新投、48 交叉、125 替换，共 329 条。按公告归期，初投时间另列。重点 10 条通过 API v1 编号核验；其余批量交叉核验受限。",
+  "checkedAt": "2026-11-10T18:07:44.803261+08:00",
+  "window": "北京时间 11 月 10 日，正式目录快照与当天在线日期并行核查。17:01 直接访问 arXiv cond-mat/new，156 新投、48 交叉、125 替换，共 329 条。按公告归期，初投时间另列。重点 10 条通过 API v1 编号核验；其余批量交叉核验受限。 补读纳入的四条据官方摘要页复核 v1 和初投时间。",
   "coverageComplete": false,
   "counts": {
-    "total": 12,
+    "total": 16,
     "formal": 2,
-    "arxiv": 10,
-    "fullMainReads": 10,
+    "arxiv": 14,
+    "fullMainReads": 14,
     "earlyManuscriptReads": 0,
     "abstractOnly": 2,
     "categories": {
-      "晶体生长和物性调控": 4,
+      "晶体生长和物性调控": 6,
       "高温与非常规超导": 2,
-      "磁性、拓扑与自旋": 2,
+      "磁性、拓扑与自旋": 4,
       "重费米子与量子临界": 3,
       "二维材料与量子器件": 1
     },
@@ -827,7 +827,8 @@
   "limits": [
     "ACS 源站存在访问限制；Wiley、AAAS 与 JCG 部分官网 403；部分 Crossref 和 arXiv API 限流。",
     "较短精读集中在已注明的正文图文；未完整核阅所有 SI 和所有候补。",
-    "329 条逐条生成筛查记录，重点候选人工核题名与摘要；其余摘要的人工逐条复核和批量 API 对账尚未完成。当天篇数只表示已纳入，不作为全量命中结论。"
+    "329 条逐条生成筛查记录，重点候选人工核题名与摘要；其余摘要的人工逐条复核和批量 API 对账尚未完成。当天篇数只表示已纳入，不作为全量命中结论。",
+    "候补 31 条完成摘要复核并增补 4 篇实验论文；其余仍在候补审计。新增四条的批量 API 请求未取得结果，以官方摘要页和 v1 正文双核。"
   ],
   "arxivCrosscheck": [
     {
@@ -976,6 +977,38 @@
       "titleZh": "超离子辉铜矿中动态无序的超快成像",
       "access": "仅摘要：已核 Crossref 出版摘要和在线日期。ACS 源站存在访问限制，公开搜索未核实可用作者稿或 SI，浙大有效会话未核实。",
       "bodyChineseCharacters": 114
+    },
+    {
+      "index": 13,
+      "doi": "https://arxiv.org/abs/2611.10225",
+      "title": "Temperature-Driven Evolution of Magnetization Dynamics in Cobalt-Doped Fe$_5$GeTe$_2$",
+      "titleZh": "钴掺杂 Fe₅GeTe₂ 磁化动力学的温度演化",
+      "access": "全文精读：v1 公开 HTML 的 I.1 实验、I.2 图 1–4 及误差说明。SI 的单独数据尚待补读。",
+      "bodyChineseCharacters": 299
+    },
+    {
+      "index": 14,
+      "doi": "https://arxiv.org/abs/2611.11276",
+      "title": "Strain Controlled Hydrogen Interstitial Site Preference and Hydride Phase Suppression in Epitaxial Vanadium",
+      "titleZh": "外延钒中受应变调控的氢间隙位偏好与氢化物相抑制",
+      "access": "全文精读：v1 公开 HTML II.1–II.2、III.1 与 III.3，图 1、4、5 对应正文。未核独立 SI。",
+      "bodyChineseCharacters": 260
+    },
+    {
+      "index": 15,
+      "doi": "https://arxiv.org/abs/2611.11405",
+      "title": "Industrial RPCVD growth of high-purity 28Si epilayers with 29Si content below 30 ppm for high-fidelity electron spin qubits",
+      "titleZh": "工业 RPCVD 生长用于高保真电子自旋量子比特的高纯 ²⁸Si 外延层，²⁹Si 含量低于 30 ppm",
+      "access": "全文精读：v1 公开 HTML II.1–II.3、III、IV，图 1–5 图文，量子比特数据核至正文讨论；独立 SI 待补。",
+      "bodyChineseCharacters": 251
+    },
+    {
+      "index": 16,
+      "doi": "https://arxiv.org/abs/2611.11425",
+      "title": "Orbital texture of valence band and interband transitions of the type-II multiferroic van der Waals NiI$_2$",
+      "titleZh": "第二类范德华多铁材料 NiI₂ 的价带轨道纹理与带间跃迁",
+      "access": "全文精读：v1 公开 HTML II Methods、III 图 2–3 以及 S1、S2、S8、S9 的正文引用与对应对照说明。独立 SI 未逐图复核。",
+      "bodyChineseCharacters": 237
     }
   ],
   "arxivOfficialCounts": {
@@ -1210,11 +1243,11 @@
       "id": "2611.10225",
       "title": "Temperature-Driven Evolution of Magnetization Dynamics in Cobalt-Doped Fe$_5$GeTe$_2$",
       "section": "New submissions (showing 156 of 156 entries)",
-      "version": null,
+      "version": "2611.10225v1",
       "submitted": null,
       "updated": null,
-      "decision": "pending",
-      "reason": "直接相关或邻近；留待补读或逐版核对，未计入。"
+      "decision": "include",
+      "reason": "材料与物性直接相关，已完成正文阅读。"
     },
     {
       "id": "2611.10232",
@@ -1720,11 +1753,11 @@
       "id": "2611.11276",
       "title": "Strain Controlled Hydrogen Interstitial Site Preference and Hydride Phase Suppression in Epitaxial Vanadium",
       "section": "New submissions (showing 156 of 156 entries)",
-      "version": null,
+      "version": "2611.11276v1",
       "submitted": null,
       "updated": null,
-      "decision": "pending",
-      "reason": "直接相关或邻近；留待补读或逐版核对，未计入。"
+      "decision": "include",
+      "reason": "材料与物性直接相关，已完成正文阅读。"
     },
     {
       "id": "2611.11302",
@@ -1780,21 +1813,21 @@
       "id": "2611.11405",
       "title": "Industrial RPCVD growth of high-purity 28Si epilayers with 29Si content below 30 ppm for high-fidelity electron spin qubits",
       "section": "New submissions (showing 156 of 156 entries)",
-      "version": null,
+      "version": "2611.11405v1",
       "submitted": null,
       "updated": null,
-      "decision": "pending",
-      "reason": "直接相关或邻近；留待补读或逐版核对，未计入。"
+      "decision": "include",
+      "reason": "材料与物性直接相关，已完成正文阅读。"
     },
     {
       "id": "2611.11425",
       "title": "Orbital texture of valence band and interband transitions of the type-II multiferroic van der Waals NiI$_2$",
       "section": "New submissions (showing 156 of 156 entries)",
-      "version": null,
+      "version": "2611.11425v1",
       "submitted": null,
       "updated": null,
-      "decision": "pending",
-      "reason": "直接相关或邻近；留待补读或逐版核对，未计入。"
+      "decision": "include",
+      "reason": "材料与物性直接相关，已完成正文阅读。"
     },
     {
       "id": "2611.11453",

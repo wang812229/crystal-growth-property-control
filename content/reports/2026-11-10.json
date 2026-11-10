@@ -1,10 +1,10 @@
 {
   "date": "2026-11-10",
   "issue": "077",
-  "headline": "12 篇论文，10 篇实读正文，1 项材料假设",
-  "hotspot": "优先读 2M‑WS₂ 的脱嵌工艺与电子质量，以及 La₅Ni₄O₁₀ 常压超导的生长、还原和热容证据。CeAuAl₃、CeAgBi₂ 和 CeRh₂As₂ 分别提供近藤拓扑、共振谱及对称性破缺的互补线索。",
-  "searchWindow": "北京时间 11 月 10 日，正式目录快照与当天在线日期并行核查。17:01 直接访问 arXiv cond-mat/new，156 新投、48 交叉、125 替换，共 329 条。按公告归期，初投时间另列。重点 10 条通过 API v1 编号核验；其余批量交叉核验受限。",
-  "accessSummary": "正式期刊 2 篇，独立 arXiv 10 篇。实际读正文 10 篇，其中早期作者稿 0 篇。仅摘要 2 篇。公开 HTML 和公开 PDF 实读。未核实浙大有效登录。ACS 两篇以出版摘要收录。",
+  "headline": "16 篇论文，14 篇实读正文，1 项材料假设",
+  "hotspot": "优先读 2M‑WS₂ 的脱嵌工艺与电子质量，以及 La₅Ni₄O₁₀ 常压超导的生长、还原和热容证据。CeAuAl₃、CeAgBi₂ 和 CeRh₂As₂ 分别提供近藤拓扑、共振谱及对称性破缺的互补线索。 补读确认外延钒的厚度依赖吸氢响应，以及工业 ²⁸Si 同质外延的同位素纯度与退火窗口。",
+  "searchWindow": "北京时间 11 月 10 日，正式目录快照与当天在线日期并行核查。17:01 直接访问 arXiv cond-mat/new，156 新投、48 交叉、125 替换，共 329 条。按公告归期，初投时间另列。重点 10 条通过 API v1 编号核验；其余批量交叉核验受限。 补读纳入的四条据官方摘要页复核 v1 和初投时间。",
+  "accessSummary": "正式期刊 2 篇，独立 arXiv 14 篇。实际读正文 14 篇，其中早期作者稿 0 篇。仅摘要 2 篇。公开 HTML 和公开 PDF 实读。未核实浙大有效登录。ACS 两篇以出版摘要收录。",
   "papers": [
     {
       "titleZh": "脱嵌平衡控制 2M‑WS₂ 合成的成分、结构与电子质量",
@@ -593,6 +593,186 @@
       "readingStatus": "abstract",
       "titleOriginalMetadata": "Ultrafast Imaging of Dynamic Disorder in Superionic Chalcocite",
       "bodyChineseCharacters": 114
+    },
+    {
+      "titleZh": "钴掺杂 Fe₅GeTe₂ 磁化动力学的温度演化",
+      "institutions": "特文特大学、新加坡国立大学、橡树岭国家实验室、明斯特大学",
+      "material": "约 28% Fe 位被 Co 替换的 Fe₅GeTe₂ 单晶",
+      "method": "碘介导 CVT、宽频铁磁共振与振动样品磁强计",
+      "category": "磁性、拓扑与自旋",
+      "rating": "A−",
+      "access": "全文精读：v1 公开 HTML 的 I.1 实验、I.2 图 1–4 及误差说明。SI 的单独数据尚待补读。",
+      "conclusion": "约 200 K 以下出现随频率移动的第二共振，静态磁化在相同温区没有对应的大异常。这个结果给出了新的动力学特征，其微观来源仍开放。",
+      "sections": [
+        {
+          "title": "生长与批次",
+          "text": "高纯 Fe、Co、Ge、Te 与 I₂ 真空封装石英管，以 120 ℃/h 升至 750 ℃，保温一至两周后冰水淬火。醇洗去除残碘，丙酮末洗。样品与前作 EDS 表征为同一生长批，约 28% 的替换量来自前作；正文未报告元素各自纯度、碘质量、双温区差、片尺寸、产率和本片单晶精修。Fe 位点有多种局域环境，样品内 Co 的占位分布不能由总体含量给出。"
+        },
+        {
+          "title": "直接观察与拟合",
+          "text": "样品面内直流场，微波磁场与之垂直。FMR 从高场扫向零场，每步 3 Oe，频率 2–17 GHz，覆盖 25–350 K。静态磁化 200 Oe 曲线的温度导数给 T_C=335 K。图 3 的 50 K 谱中多支随频率移动，同一片多次热循环复现。室温附近的 g≈2.45、α≈0.15 是拟合参数。图 4 分窗口拟合两支，移动窗口约 ±200 Oe 用于估计系统误差，模式重叠尤其会偏置线宽。"
+        },
+        {
+          "title": "替代解释与复现",
+          "text": "先沿同一片的面内和面外旋转测 FMR，比较不同厚度的分支色散；沿厚度或频率有系统变化时优先检验驻波。不同位置或不同片的共振相差较大时，先测 Co 分布和畴历史。至少用两个独立生长批确认 200 K 动力学尺度。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A−",
+        "first": "图 3b、图 4a 的多支与拟合窗口",
+        "focus": "别把图 3a 的逐温度归一色标用于绝对信号强度比较，应用原始谱检查峰位和线宽。",
+        "next": "先做厚度及角度对照，再检验位点模型。"
+      },
+      "title": "Temperature-Driven Evolution of Magnetization Dynamics in Cobalt-Doped Fe$_5$GeTe$_2$",
+      "authors": "Sourabh Singh, Soumik Aon, Andrew F. May, Joost Ridderbos, Ramanathan Mahendiran, Wilfred G. van der Wiel",
+      "journal": "arXiv · cond-mat",
+      "date": "2026-11-10 公告；北京时间 11月07日 05:14 初投",
+      "doi": "https://arxiv.org/abs/2611.10225",
+      "fullText": "https://arxiv.org/html/2611.10225v1",
+      "versionNote": "v1；初投时间取官方摘要页提交历史。补查 API 未返回可用结果。",
+      "selectionStatus": "today-announcement",
+      "tags": [
+        "中英文标题",
+        "独立预印本"
+      ],
+      "readingStatus": "preprint",
+      "titleOriginalMetadata": "Temperature-Driven Evolution of Magnetization Dynamics in Cobalt-Doped Fe$_5$GeTe$_2$",
+      "bodyChineseCharacters": 299
+    },
+    {
+      "titleZh": "外延钒中受应变调控的氢间隙位偏好与氢化物相抑制",
+      "institutions": "上海电子信息职业技术学院",
+      "material": "MgO(001) 上的 BCC V(001) 薄膜，10 和 50 nm",
+      "method": "超高真空溅射、吸氢原位输运和光学定量、DFT",
+      "category": "晶体生长和物性调控",
+      "rating": "A−",
+      "access": "全文精读：v1 公开 HTML II.1–II.2、III.1 与 III.3，图 1、4、5 对应正文。未核独立 SI。",
+      "conclusion": "同一基底上，厚 V 膜有氢化相关电阻台阶，薄膜的电阻变化连续。位点能量排序来自计算；实验提供厚度依赖的相变代理信号。",
+      "sections": [
+        {
+          "title": "样品和制备",
+          "text": "MgO(001) 原位 1073 K 退火 1 h，以基压低于 5×10⁻⁹ Torr 的超高真空磁控溅射系统在 673 K 制备名义 10、50 nm 膜。XRD θ–2θ 和极图给出 V(001)[100]∥MgO(001)[110]，XRR 与截面 TEM 核厚度。已读方法未列 V 靶纯度、工作压、功率、速率、样品批次统计和产率。"
+        },
+        {
+          "title": "观测与模型边界",
+          "text": "在 393–533 K、氢分压 10⁻³–10³ mbar 范围内以 1 mA 四点法测电阻，每点稳定等待通常 15–30 分钟。639 nm 光透射换算 H/V，以厚膜近体相作为标定假设。图 5 的厚薄差异直接可见；无台阶和无滞后支持相变被抑制，尚需相敏感探针确认。四面体优先来自计算。计算小胞 V:H=2:1，不能把相对位点排序当作稀释极限实测占位。应变松弛、界面份额与厚度共变，难凭两种厚度拆开。"
+        },
+        {
+          "title": "下一次测量",
+          "text": "同片原位衍射与光学/电阻联测，以氢含量独立标定及吸放氢循环复核。增加中间厚度，并在近等厚度下更换基底失配。若仍有分裂衍射峰而电阻平滑，需要修正“均一固溶”解释。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A−",
+        "first": "Methods II.2 与图 5 的厚度对照",
+        "focus": "厚膜近体相既是标定假设又是讨论基线，两个用途要独立验证。",
+        "next": "同厚异基底和同基底厚度系列并行。"
+      },
+      "title": "Strain Controlled Hydrogen Interstitial Site Preference and Hydride Phase Suppression in Epitaxial Vanadium",
+      "authors": "Xin Xiao",
+      "journal": "arXiv · cond-mat",
+      "date": "2026-11-10 公告；北京时间 11月08日 18:02 初投",
+      "doi": "https://arxiv.org/abs/2611.11276",
+      "fullText": "https://arxiv.org/html/2611.11276v1",
+      "versionNote": "v1；初投时间取官方摘要页提交历史。补查 API 未返回可用结果。",
+      "selectionStatus": "today-announcement",
+      "tags": [
+        "中英文标题",
+        "独立预印本"
+      ],
+      "readingStatus": "preprint",
+      "titleOriginalMetadata": "Strain Controlled Hydrogen Interstitial Site Preference and Hydride Phase Suppression in Epitaxial Vanadium",
+      "bodyChineseCharacters": 260
+    },
+    {
+      "titleZh": "工业 RPCVD 生长用于高保真电子自旋量子比特的高纯 ²⁸Si 外延层，²⁹Si 含量低于 30 ppm",
+      "institutions": "北京超弦存储器技术研究院、合肥国家实验室、中国科学技术大学、中国科学院微电子研究所等",
+      "material": "浮区 Si 上 ²⁸Si 同质外延与同位素超晶格",
+      "method": "RPCVD、SIMS、AFM、HRTEM 与低温量子输运",
+      "category": "晶体生长和物性调控",
+      "rating": "A−",
+      "access": "全文精读：v1 公开 HTML II.1–II.3、III、IV，图 1–5 图文，量子比特数据核至正文讨论；独立 SI 待补。",
+      "conclusion": "同位素气源与工业同质外延把 ²⁹Si 降到约 29 ppm。热处理的关键是保住深度剖面与平整度，再用器件级测量核验工艺收益。",
+      "sections": [
+        {
+          "title": "层设计与纯度",
+          "text": "采用电阻率高于 10000 Ω·cm 的浮区硅，650 ℃ 用富集 ²⁸SiH₄ 生长。质谱给气源 ²⁸Si 为 99.99772%±0.00025%；单层约 83 nm。另一组为三层 10 nm 的富集硅，夹两层 10 nm 的天然硅。正文所核方法未列反应器工作压、前驱物流量及全晶圆产率。"
+        },
+        {
+          "title": "分开审查三类证据",
+          "text": "图 1 的 SIMS 给富集单层约 29 ppm ²⁹Si、约 1 ppm ³⁰Si，低含量相对不确定度增大。图 2 的截面 HRTEM 沿 [110] 在有限视野内呈连续金刚石结构；外延层 AFM RMS 约 0.07 nm。图 3–4 将粗化和深度剖面并列：950 ℃ 5 min 已有轻度边界钝化，1050 ℃ 5 min 出现明显互混和粗化。相邻层的 SIMS 溅射混合需与真实热扩散区分。Hall 迁移率峰值约 12858 cm²/(V·s)，结果来自特定栅压和载流子密度，不能代表全片或直接推得高保真器件成品率。"
+        },
+        {
+          "title": "复现与验收",
+          "text": "同片留样跑未退火、850 ℃ 和 950 ℃ 对照，用统一溅射标定比层界面变化。做多位置 SIMS/AFM 和同条件输运，再统计器件相干。外延、氧化物界面与 ²⁹Si 残量需要分别归因。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A−",
+        "first": "图 1–4 与 Methods 的 650 ℃ 设定",
+        "focus": "同位素纯度接近检测下限，应检查标准样、轮廓卷积和片内均匀性。",
+        "next": "先建立片内热预算对照，器件 benchmarking 放在材料验收之后。"
+      },
+      "title": "Industrial RPCVD growth of high-purity 28Si epilayers with 29Si content below 30 ppm for high-fidelity electron spin qubits",
+      "authors": "Zhenzhen Kong, Weizhu Liao, Ning Chu, Yiwen Zhang, Ying Zhang, Jixuan Li, Changyang Xu, Yongliang Hao, Yi Zhou, Yanpeng Song, Xiaomeng Liu, Hailing Wang, Xiangsheng Wang, Jinbiao Liu, Chao Zhao, Hao Meng, Gang Cao, Guo-Ping Guo, Hai-Ou Li, Guilei Wang",
+      "journal": "arXiv · cond-mat",
+      "date": "2026-11-10 公告；北京时间 11月08日 22:20 初投",
+      "doi": "https://arxiv.org/abs/2611.11405",
+      "fullText": "https://arxiv.org/html/2611.11405v1",
+      "versionNote": "v1；初投时间取官方摘要页提交历史。补查 API 未返回可用结果。",
+      "selectionStatus": "today-announcement",
+      "tags": [
+        "中英文标题",
+        "独立预印本"
+      ],
+      "readingStatus": "preprint",
+      "titleOriginalMetadata": "Industrial RPCVD growth of high-purity 28Si epilayers with 29Si content below 30 ppm for high-fidelity electron spin qubits",
+      "bodyChineseCharacters": 251
+    },
+    {
+      "titleZh": "第二类范德华多铁材料 NiI₂ 的价带轨道纹理与带间跃迁",
+      "institutions": "柏林工业大学、马克斯·普朗克学会弗里茨·哈伯研究所、RPTU、OPTIMAS 研究中心",
+      "material": "块体 NiI₂ 单晶的超高真空解理表面",
+      "method": "时间及角分辨光电子能谱与 DFT+U+J",
+      "category": "磁性、拓扑与自旋",
+      "rating": "A−",
+      "access": "全文精读：v1 公开 HTML II Methods、III 图 2–3 以及 S1、S2、S8、S9 的正文引用与对应对照说明。独立 SI 未逐图复核。",
+      "conclusion": "泵浦后动量图显示 K 点附近的导带低能口袋，与价带顶纹理不同。I 5p 到 Ni 3d 的电荷转移归属由谱图和计算互证。",
+      "sections": [
+        {
+          "title": "样品及操作条件",
+          "text": "商业 NiI₂ 单晶，用银环氧固定，在低于 8×10⁻¹¹ mbar 下解理；正文未报告厂家生长温程、组成实测、片尺寸和批次。测量在 300 K，以 21.7 eV XUV 探测，1.91 eV 光泵浦。连续 400 nm 光帮助抑制充电，低计数条件减轻空间电荷。总体能量分辨率约 100 meV。"
+        },
+        {
+          "title": "图区分观测与推断",
+          "text": "图 2 的激发态主要出现在 K 点周围。图 3 在两个动量窗的峰拟合分别为高于价带顶 1.58±0.01 和 1.61±0.02 eV，差 30±20 meV，小于仪器展宽，依赖谱形及窗口。作者对照泵浦偏振和负延迟来约束光致伪信号。I 5p/Ni 3d 由光谱和理论态密度对比指认；300 K 的表面谱不能独自确立低温体相自旋序。"
+        },
+        {
+          "title": "复现建议",
+          "text": "用独立解理、不同光子能量及固定动量窗再比峰差，并检查中和激光开关和泵浦通量下的刚性位移。低温和体敏探针可检验三重强度调制是否主要来自表面层。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "A−",
+        "first": "图 2 的差分纹理、图 3 的两个动量窗",
+        "focus": "优先核 30±20 meV 拟合差异对充电和能量分辨的敏感度。",
+        "next": "盲选动量窗，做两次独立解理和延迟对照。"
+      },
+      "title": "Orbital texture of valence band and interband transitions of the type-II multiferroic van der Waals NiI$_2$",
+      "authors": "A. De Vita, O. E. Giehl, T. Mukherjee, M. Wolf, L. Rettig, R. Ernstorfer, T. Pincelli, L. T. Lloyd",
+      "journal": "arXiv · cond-mat",
+      "date": "2026-11-10 公告；北京时间 11月08日 22:38 初投",
+      "doi": "https://arxiv.org/abs/2611.11425",
+      "fullText": "https://arxiv.org/html/2611.11425v1",
+      "versionNote": "v1；初投时间取官方摘要页提交历史。补查 API 未返回可用结果。",
+      "selectionStatus": "today-announcement",
+      "tags": [
+        "中英文标题",
+        "独立预印本"
+      ],
+      "readingStatus": "preprint",
+      "titleOriginalMetadata": "Orbital texture of valence band and interband transitions of the type-II multiferroic van der Waals NiI$_2$",
+      "bodyChineseCharacters": 237
     }
   ],
   "figures": [
@@ -610,9 +790,9 @@
     "正式论文按 DOI、arXiv ID、规范题名和历史记录去重；旧稿修订待核。"
   ],
   "readingAudit": {
-    "candidateAccessibleFullTexts": 10,
-    "selectedAccessibleFullTexts": 10,
-    "fullReads": 10,
+    "candidateAccessibleFullTexts": 14,
+    "selectedAccessibleFullTexts": 14,
+    "fullReads": 14,
     "earlyManuscriptReads": 0,
     "abstractOnly": 2,
     "siOnly": 0,
