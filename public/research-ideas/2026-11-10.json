@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-10",
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-10",
+  "scope": "本期可证伪的材料假设，查新待续。",
+  "limitations": [
+    "所有候选未合成或计算。Co/Zn 已有组成系列，增量假说仅限相保留的低 Zn 极限与二聚体响应。"
+  ],
+  "ideas": [
+    {
+      "id": "rose-phase-dilute-zn-dimer",
+      "kind": "material",
+      "status": "needs-review",
+      "title": "以低 Zn 稀释检验玫瑰相焦磷酸钴钠的二聚磁性",
+      "material": "名义 Na₂Co₁₋ₓZnₓP₂O₇，x=0、0.02、0.05 为筛选档；以实测组成为准",
+      "evidenceLevel": "母体公开正文 II 与图 1–4 已读。假说未合成、未计算、未测量。",
+      "question": "若只在保持玫瑰相且 Zn 确实进入 Co 位的条件下稀释，能否从新增低温 Curie 项与宽热容峰减弱分离二聚体断裂和相变？",
+      "prediction": "对随机的低浓度等价 Co 位替换，完整 Co–Co 对的比例在简单计数下为 (1−x)²。若低能响应主要由被打断的二聚体引起，低温顺磁尾应随实际 x 增强，宽热容特征的磁熵按完整对的比例下降。该计数是零阶对照，交换、位点偏好与团簇可使其失效。",
+      "basis": "母体论文将约 2.2 K 宽热容峰和各向异性联系到受挫的 Co²⁺ 二聚。Zn²⁺ 为 d¹⁰ 无自旋，同价时无需名义电荷补偿。在相同八面体环境下离子尺寸相近，仍可能改变局部配位、键角和交换路径。Zn 与 Co 的配位偏好及实际固溶度未知。高 Zn 已报道正交或四方竞争相，不能把端元视为三斜同构。",
+      "difference": "既有 Co/Zn 固溶研究已覆盖 x=0.25 起的系列及多型。候选限定为熔体获得、经验证的低 Zn 三斜玫瑰相与亚开尔文断二聚体的定量对照；不把泛 Co/Zn 配方当新材料。",
+      "plan": [
+        "先复现母体和两档低 x；同一 Pt 坩埚路线记录冷却和晶片分离批次。",
+        "用 PXRD、SCXRD 和 EPMA/WDS 成分图核相、占位趋势与偏析。若平均占位不敏感，先比较多个晶片并考虑局域探针。",
+        "同取向量低温磁化与热容，测至低于母体宽峰足够多，按实际 Co 摩尔数和完整对数分别归一。"
+      ],
+      "controls": [
+        "x=0 的同炉玫瑰相",
+        "Zn 端元作衍射参考，不用作直接等结构声子基线",
+        "已报道高 Zn 多型与同批蓝相母体作为杂相对照"
+      ],
+      "falsifiers": [
+        "若 WDS 未检出目标替换、或出现蓝相/富 Zn 分相，停止磁性归因。",
+        "单相且 x 可测时，如未出现可重复的新增顺磁尾，简单的随机断二聚体假设需修正。"
+      ],
+      "feasibility": "Pt 坩埚、箱炉、PXRD、Laue 和 EPMA 可完成首轮；亚开尔文量热需稀释机或低温插入件。",
+      "risks": "Zn 有位点偏好及偏析风险；微量蓝相的低温贡献、残余应变、Co 价态及基线差异可伪装成稀释响应。",
+      "nextStep": "先做母体与最低掺杂各一炉，核相和实际 Zn 后决定是否预约亚开尔文平台。",
+      "queries": [
+        "2026-11-10 Na2CoP2O7 Zn substitution rose dimer magnetism patent thesis",
+        "2026-11-10 Na2ZnP2O7 Na2CoP2O7 polymorph Co Zn P-1",
+        "2026-11-10 Na2Co1-xZnxP2O7 rose triclinic magnetic; patents.google.com Na2CoP2O7 Zn"
+      ],
+      "remainingChecks": [
+        "专利全文、学位附录和低 x 系列完整磁性数据待复核。",
+        "未验证新颖性、相稳定性、固溶度或可合成性。"
+      ],
+      "priorArt": [
+        {
+          "url": "https://doi.org/10.1021/acs.jpcc.1c08753",
+          "title": "Polymorphism in Na₂(Co/Zn)P₂O₇ and Na₂(Co/Fe)P₂O₇ Pyrophosphates",
+          "overlap": "已有 Co/Zn 混晶和 x=0.25、0.50、0.75 的衍射/NMR，列出多型随组成转变。",
+          "access": "可见表 2 与结论；访问来源待复核"
+        },
+        {
+          "url": "https://apo.ansto.gov.au/items/13ef092a-5b7c-4727-ab71-d69444c46a95",
+          "title": "Polymorphism and temperature-induced phase transitions of Na₂CoP₂O₇",
+          "overlap": "原位中子衍射说明熔体冷却与玫瑰相形成。",
+          "access": "ANSTO 机构仓储摘要"
+        },
+        {
+          "url": "https://theses.fr/2010BOR13992.pdf",
+          "title": "Na₂ZnP₂O₇ 单晶相关学位论文",
+          "overlap": "含纯与掺杂焦磷酸锌钠生长及晶体化学。",
+          "access": "检索到章节线索，待核全文"
+        },
+        {
+          "url": "https://patents.google.com/patent/WO2019003904A1/en",
+          "title": "Positive electrode active material for sodium-ion secondary battery",
+          "overlap": "列出三斜和正交 Na₂CoP₂O₇ 正极，目标是电化学；公开组成片段未给低 Zn 三斜相亚开尔文二聚稀释实验。",
+          "access": "公开专利摘要与组成片段"
+        },
+        {
+          "url": "https://doi.org/10.1002/anie.201601022",
+          "title": "Defect-Controlled Formation of Triclinic Na₂CoP₂O₇ for 4 V Sodium-Ion Batteries",
+          "overlap": "三斜 Na₂CoP₂O₇ 可通过缺陷条件选择；应以缺陷和多型对照排除磁性假信号。",
+          "access": "出版页摘要"
+        }
+      ],
+      "paperIndex": 9
+    }
+  ],
+  "rejected": [
+    {
+      "title": "泛 Co/Zn 焦磷酸盐固溶配方",
+      "url": "https://doi.org/10.1021/acs.jpcc.1c08753",
+      "reason": "已有组成、多型和结构研究，排除作为新材料主张。"
+    },
+    {
+      "title": "将 Mo 掺杂 2M‑WS₂ 作为新组成",
+      "url": "https://doi.org/10.1039/D0DT04313C",
+      "reason": "已有实验组成系列与超导性质。"
+    }
+  ]
+}
