@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-11",
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-11",
+  "scope": "根据本期 TbFeO₃ 正式正文和公开补充数据，提出同价 A 位稀释的可证伪假说。仅限本轮可访问来源，查新未完成。",
+  "limitations": [
+    "未合成、未计算、未测量；未验证新颖性、固溶范围或稳定性。普通的混合稀土正交铁氧体已有大量报道。"
+  ],
+  "ideas": [
+    {
+      "id": "tb-y-orthoferrite-raman-decoupling",
+      "kind": "material",
+      "status": "needs-review",
+      "title": "用 Tb₁₋ₓYₓFeO₃ 分离稀土磁矩与晶格化学压力",
+      "material": "名义 Tb₁₋ₓYₓFeO₃；先比较 x=0、0.05、0.10 与 YFeO₃；以实测 A 位比例为准",
+      "evidenceLevel": "读过母体 APS II–IV、图 1、7–9 和公开补充；候选未合成、计算或测量。",
+      "question": "若保留正交 FeO₆ 骨架而减少 Tb 4f 磁矩，约 175 K 的宽 Raman 信号能否与 a 轴主导的负热膨胀解耦？",
+      "prediction": "若宽带主要依赖 Tb–Fe 关联，实际 Y 增加时，按同一非异常声子强度归一后的宽带应减弱，双磁振子可较少改变；若同时观察到 a 轴符号保留，则支持宽带和平均热膨胀至少部分解耦。若宽带与八面体倾角或应变共同变化，转而检验结构基线。",
+      "basis": "Tb³⁺与 Y³⁺ 为相同形式价，预期在相同 A 位配位下尺寸相近，Y³⁺无局域 4f 磁矩且不直接替掉 Fe³⁺。因此比换进有 4f 的 Dy³⁺或改 Fe 的价更适合首轮拆分 Tb–Fe 与 Fe–Fe 贡献。Y 与 Tb 的局域配位及半径仍非完全相同，可能改变键角、局域应变和氧缺陷；此处未假定电子数、磁交换或晶相必然保持。",
+      "difference": "区别在于对实际 Y 占位做同炉梯度，同时量化约 175 K 的 Raman 谱权、两磁振子参照和有符号的轴向晶格响应。既有单一端元和 Sm/Tb、Dy/Tb 研究不等价，仍需核查是否已有直接等效研究。",
+      "plan": [
+        "先用固相法平行制备两炉 x=0 与低 Y 候选；记录气氛、保温、压片、粒径和测量热史。",
+        "用粉末衍射核相，EPMA/WDS 查 Tb:Y 和偏析；监控 Fe/O 计量，若占位和氧计量无法区分，不做磁性因果归因。",
+        "同一批样品做校准后的 5–303 K XRD、低功率 Raman 与磁化；重点对比 175 K 附近的谱权和体积/轴向变化。"
+      ],
+      "controls": [
+        "同热史的无 Y 母相，YFeO₃ 端元用作 Fe 骨架参照",
+        "相同 Raman 几何、功率与归一；以独立装样和同一标准校正 XRD",
+        "若有条件，以母体小范围机械压力作只有结构扰动的近似对照"
+      ],
+      "falsifiers": [
+        "Y 不固溶、分相、氧含量随 x 显著变化或母体自身 ΔV 不能重现时停止该轮机制解释。",
+        "若宽带强度在确认占位且结构近似不变时无系统趋势，则弱化 Tb 磁稀释假说；如归一只随选取背景改变，先否定当前取谱判据。"
+      ],
+      "feasibility": "首轮为常规箱炉、EPMA/PXRD 与温变 Raman；需要足够稳定的低温衍射平台。若粉末结果可重复，再考虑单晶和偏振测量。",
+      "risks": "竞争铁氧体或局域氧非化学计量；样品粒径、弹性应变与平均热膨胀量级相近；微量偏析会使名义 x 失去物理意义。",
+      "nextStep": "先重现无 Y 母体的各轴温变符号和宽 Raman 线，随后并行做最低档替换；未过核相与重复性门槛前不扩大配方。",
+      "queries": [
+        "2026-11-11：Tb1-xYxFeO3 / YxTb1-xFeO3 orthoferrite magnetism Raman",
+        "2026-11-11：TbFeO3 YFeO3 solid solution negative thermal expansion / Raman",
+        "2026-11-11：Google Patents TbFeO3 orthoferrite yttrium；大学仓储 TbFeO3 orthoferrite thesis spin phonon"
+      ],
+      "remainingChecks": [
+        "专利权利要求、非英文学位全文、带空格和不同化学式索引的组合尚待查；未找到直接证据不能证明未做过。",
+        "低 Y 固溶度、实际配位、氧计量和 XRD 系统误差尚未验证。"
+      ],
+      "priorArt": [
+        {
+          "url": "https://www.nature.com/articles/s41598-022-13097-1",
+          "title": "Magnetostructural coupling in RFeO₃ (R = Nd, Tb, Eu and Gd)",
+          "overlap": "端元正交铁氧体已开展 Raman、磁性、结构关联。",
+          "access": "出版者开放页面"
+        },
+        {
+          "url": "https://eprints.lancs.ac.uk/id/eprint/226042/",
+          "title": "Lattice dynamics and mixing of polar phonons in the rare-earth orthoferrite TbFeO₃",
+          "overlap": "母体单晶偏振 IR/Raman、模归属，提醒某些 Raman 模未显示强自旋声子耦合。",
+          "access": "大学机构公开稿与摘要"
+        },
+        {
+          "url": "https://eprints.lancs.ac.uk/id/eprint/234269/1/manuscript_SmTbFeO3.pdf",
+          "title": "Spin and lattice dynamics at the spin-reorientation transitions in Sm₀.₅₅Tb₀.₄₅FeO₃",
+          "overlap": "混稀土组成的自旋重取向与声子已研究；Sm 带磁，与 Y 稀释假说不等价。",
+          "access": "大学机构公开稿"
+        },
+        {
+          "url": "https://eprints.lancs.ac.uk/id/eprint/231254/1/2025_Vovk_PhD.pdf",
+          "title": "Vovk 博士论文：TbFeO₃ 自旋重取向",
+          "overlap": "可查到非 Kramers 离子、Tb/Fe 与超快响应章节；未据此排除所有混晶先例。",
+          "access": "学位论文概要与章节线索"
+        }
+      ],
+      "paperIndex": 1
+    }
+  ],
+  "rejected": [
+    {
+      "title": "把 Fe₃₋ₓGaₓBO₆ 和 Fe₃₋ₓAlₓBO₆ 的一般稀释作为新材料",
+      "url": "https://journals.ioffe.ru/ftt/2003/11/p2025-2027.pdf",
+      "reason": "既有资料明确报告 Ga/Al 替换会改变奈尔温度及重取向温度，排除一般配方。"
+    }
+  ]
+}

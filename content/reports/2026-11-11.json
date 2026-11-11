@@ -1,0 +1,517 @@
+{
+  "date": "2026-11-11",
+  "issue": "078",
+  "headline": "8 篇论文，6 篇实读正文，1 项材料假设",
+  "hotspot": "Te 助熔剂 IrTe₂ 与高压结构相界；TbFeO₃ 的微弱负热膨胀；兼查水热介孔单晶、限域外延和三角晶格磁性。",
+  "searchWindow": "北京时间 2026-11-11 00:00 至上午 10:45 的 API 时间过滤终点（官网首轮约 10:12，随后复查），回溯 11-09 至 11-11 三个自然日。入选正式期刊均为 11 月 10 日在线，arXiv 取 11 月 10 日官网公告；不据此宣称 11 日零新增。",
+  "accessSummary": "正式期刊 6 篇，独立 arXiv 2 篇。实际读正文 6 篇，其中早期作者稿 0 篇。仅摘要 2 篇。已使用当前浙江大学机构访问读取选定 APS 正式正文；未确认 Wiley 的有效机构全文，未发起登录或验证码。",
+  "papers": [
+    {
+      "title": "Negative thermal expansion, lattice dynamics, and complex magnetism in TbFeO₃",
+      "titleZh": "TbFeO₃ 的负热膨胀、晶格动力学与复杂磁性",
+      "authors": "Shubham Farswan, Reshma Kumawat, Dipankar Sarkar, Deeksha Singh, Md. Atif Hasan, Devajyoti Mukherjee, Kaushik Sen",
+      "institutions": "印度理工学院德里分校；印度科学培育协会",
+      "category": "晶体生长和物性调控",
+      "material": "TbFeO₃",
+      "method": "固相反应；温变粉末 XRD、Rietveld、磁化、Raman、XPS",
+      "access": "全文精读｜APS 正式正文 II–IV、图 1–9、表 I；另核对公开作者稿 v2 的补充 A–F。",
+      "conclusion": "降温时体积仅增约 0.017%，主要来自 a 轴伸长；约 175 K 的宽 Raman 响应没有对应的强双磁振子异常，不能据此确定新的长程有序。",
+      "sections": [
+        {
+          "title": "问题｜把微弱负膨胀、声子异常与相变分开",
+          "text": "正交铁氧体同时有 Fe 的 3d 自旋、稀土的 4f 磁矩和氧八面体倾转。它们都能改写温度依赖，但粉末结构精修、拉曼和磁测量对各自由度的敏感性不同。论文的问题是：相同材料上的这些信号能否约束机制，还是只是若干温区接近的异常？读图前先把“体积负热膨胀”“局部自旋—晶格耦合”和“新相变”分成三个命题。第一个可用温变衍射定量检验；第二个需要基线及局域信息；第三个还需要独立的序参量，不能由前两个直接推出。"
+        },
+        {
+          "title": "样品、生长与质量｜固相烧结粉末，不是浮区单晶",
+          "text": "作者使用 99.9% Tb₄O₇、99.9% Fe₂O₃，按名义计量混磨约 3 小时，以约 3 °C/min 升至 1100 °C，保温 12 小时，复磨混匀两次，所得粉末压片供衍射及光谱。气氛细节、压片压力、晶粒尺寸分布、产率、每张图是否来自独立反应批次，正文未报告；不要补成默认空气退火或均匀单晶。室温衍射用正交 Pbnm 精修，χ²=1.44，表 I 给出 a≈5.32 Å、b≈5.59 Å、c≈7.64 Å；这些是表中舍入后的室温值，不可倒推低温 ΔV 的精度。补充 A–F 有粉末图谱、EDX、XPS、磁化与 Raman，尚无独立定量的体相氧含量；Laue、WDS、ICP 和 TEM 未报告。室温 XPS 的拟合价态只针对表层，不能把拟合组分直接写成体相氧空位浓度。"
+        },
+        {
+          "title": "测量｜样品温度、角度零点和谱线宽的三个标尺",
+          "text": "XRD 使用 Rigaku SmartLab 平行光路与 Cu Kα₁（λ=1.5406 Å），不同温度用 FullProf 精修；图 1(e) 的误差条是精修标准不确定度，主要量化该模型下的统计误差。循环冷却时样品高度、角度零点及冷台热平衡的漂移并不自动包含在误差条内。Raman 在约 11–300 K 升温，覆盖约 38–840 cm⁻¹，使用低于 1 mW 的功率、约 2.5 cm⁻¹ 的仪器分辨率，按 Bose 因子处理。磁化包含低温和高温段，在同一 500 Oe 量级记录图中曲线；粉末结果不能直接判定弱铁磁矩在哪一根晶轴。给复现者的关键启示是把不同测量的样品批次、升降温方向和驻温时间记在同一张表，而不要求三条曲线“共用一个转变点”。"
+        },
+        {
+          "title": "直接证据｜先看每根轴，后看相乘得到的体积",
+          "text": "图 1 报告 303→5 K 时，a 约伸长 0.04%，b 和 c 分别约缩短 0.02% 和 0.005%，而 V 约增 0.017%；轴变化是约数，不能用舍入值重新宣称额外精度。温变衍射在该范围内未解析到结构相变；这排除了其分辨能力内显著的平均结构重构，未排除短程畸变、微区多相或残余应变。体积变化远小于不少已知强负膨胀体系，最有价值的是带符号的各向异性图和每个温度点原始峰位；如果校准后只有一条高角峰承担全部温度趋势，先排查重叠与位移，暂缓材料机制讨论。"
+        },
+        {
+          "title": "拟合与推断｜线宽的统计成分不等于磁畴成像",
+          "text": "高频宽带用线性自旋波框架辅助归属双磁振子，谱权变化在相关温区不强；约 175 K 的另一条宽响应与若干声子偏离 Klemens 非简谐基线的温区相近。某些模式的 Voigt 线形需要超出仪器高斯宽度的贡献，降温后更近高斯，这支持局部频率分布，但不能单凭线形区分成分/应变梯度、磁相关或拟合背景。对宽带起始的拟合只是现象学描述，作者也没有识别微观序参量。验证方法应是固定同一谱窗，分别用包含和不包含宽带的背景，检查线宽和谱权不确定度是否一致；若换一种背景即改变起始温度，不能把起始温区写成精确临界点。"
+        },
+        {
+          "title": "多测量为什么不等价｜重点看剩余关联而不是起始温度相似",
+          "text": "平均结构变化和宽 Raman 信号出现在不同量纲，也不是同一温区的阶跃。图 1 的轴向变化跨过约三百开尔文，较低温逐渐变平；图 9 从差谱和谱权拟合定位约 175 K 的宽带开始出现。用同一张坐标纸重画时，不要从低温 ΔV 值减出一个所谓“磁性体积”，应先用高温基线估计平滑背景，再看独立数据的残差是否同温同号。图 5 附近的双磁振子宽峰相对稳定，可以当内部比较，却不能作为绝对强度标尺，因为共振截面和局域偏振本身也随温度变化。若独立测量显示 Raman 宽带强度变化而 XRD 残差仍落在重复装样噪声内，更节制的解释是二者的敏感性不同。"
+        },
+        {
+          "title": "把材料差别写成可比较的表",
+          "text": "建议每条曲线并列注明使用粉末、压片或取向单晶，粉末比例以及激光抽样位置；同次 Raman 对冷台上的多点分布给出中位数和范围，避免一条局部谱被误认为全体积代表。再把轴向应变按同温区的 T0 和晶轴符号分别归一，而不是只保留 V。先检查同批 Raman 模归属能否复现公开偏振单晶文献的强弱序，再用红外模或温变磁化检验配位变形和磁响应是否同期。若见 175 K 宽带在不同晶粒都出现，却与压片应力关系很弱，可支持继续做稀释实验；若室温重装后谱线宽即跨越低温拟合差异，优先做应力和分辨率对照。审稿最容易误用的是把 χ²=1.44 当体积可信度；本地应保留每次峰拟合残差、相关系数和标准的温度漂移原始文件。"
+        },
+        {
+          "title": "下一炉和下一次测量｜先判断 0.017% 是否可重复",
+          "text": "建议两炉独立母体，在相同原料及压片条件下保留一份粉末和一份压片，给两者编盲样号。在 303、约 175、100 和最低稳定温度用具有已知温变参数的标准同时校准；重复装样，并记录升、降温与残差。先比较轴向趋势是否跨批一致，再用偏振单晶或取向样品拆开模对称性；每个温区交替用两种功率检查光热漂移。要识别 Tb–Fe 相关，可用可测实际占位的低量 Y 置换配合 YFeO₃ 和无掺杂母体对照：若宽带变化却与体积信号解耦，则两者不宜共享同一个微观起源。若连母体体积变化符号都对装样敏感，先修正测量学误差，暂停占用更低温设备。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "优先",
+        "first": "图 1(b–e)、表 I、图 7–9，随后 II.2/II.4 与公开 SI 的温变衍射、Raman。",
+        "focus": "独立检查几何系统误差、光谱宽带背景、图 1 拟合误差和重复升降温。",
+        "next": "建议两炉独立母体，在相同原料及压片条件下保留一份粉末和一份压片，给两者编盲样号。在 303、约 175、100 和最低稳定温度用具有已知温变参数的标准同时校准；重复装样，并记录升、降温与残差。先比较轴向趋势是否跨批一致，再用偏振单晶或取向样品拆开模对称性；每个温区交替用两种功率检查光热漂移。要识别 Tb–Fe 相关，可用可测实际占位的低量 Y 置换配合 YFeO₃ 和无掺杂母体对照：若宽带变化却与体积信号解耦，则两者不宜共享同一个微观起源。若连母体体积变化符号都对装样敏感，先修正测量学误差，暂停占用更低温设备。"
+      },
+      "rating": "A",
+      "journal": "Physical Review B",
+      "date": "2026-11-10 正式发表",
+      "doi": "https://doi.org/10.1103/dmqs-y92y",
+      "fullText": "https://journals.aps.org/prb/fulltext/10.1103/dmqs-y92y",
+      "versionNote": "正式发表；已核公开作者稿 arXiv:2608.00469v2，单篇计入。",
+      "selectionStatus": "三日回溯补录",
+      "tags": [
+        "中英文标题",
+        "正式期刊"
+      ],
+      "readingStatus": "formal",
+      "titleOriginalMetadata": "Negative thermal expansion, lattice dynamics, and complex magnetism in TbFeO₃",
+      "bodyChineseCharacters": 1585
+    },
+    {
+      "title": "Pressure-tuned interlayer coupling and structural control of the ground state in 1T-IrTe₂",
+      "titleZh": "压力调控 1T-IrTe₂ 的层间耦合与基态结构控制",
+      "authors": "Rongqi Wu, Ye Yang, Zhiwei Wang, Yanan Pan, Qingyuan Liu, Yuqing Zhang, Yikang Li, Yanjun Li, Xiaopei Cao, Lei Yue, Quanjun Li, Jianjun Ying, Xianhui Chen",
+      "institutions": "中国科学技术大学（含合肥国家实验室）；合肥工业大学；吉林大学；南京大学",
+      "category": "高温与非常规超导",
+      "material": "1T-IrTe₂",
+      "method": "Te 助熔剂单晶；PCC/DAC 输运、原位高压 XRD 与 Raman、DFT",
+      "access": "全文精读｜APS 正式正文 I–III、图 1–5；独立补充文件尚待补读。",
+      "conclusion": "约 4 GPa 附近低温电阻超导特征消失，同时见结构重构；多探针吻合说明晶格值得优先验证，尚不能单独确定配对机制。",
+      "sections": [
+        {
+          "title": "问题｜压力对层间 Te 键的作用能否切断超导通道",
+          "text": "1T-IrTe₂ 的层状骨架允许用压力调整层间距，而无需另加入改变名义载流子浓度的替代元素。母相在常压室温为三方 P−3m1，降温还涉及电荷有序、Ir 二聚与晶格重排；已有研究指出厚度和热史可改变竞争态。本文着重比较电输运、平均结构、振动频谱随压力的变化。要核对的并非一个普适的“压强升高所以超导下降”规则，而是不同测量上结构重构与超导信号的对应范围，以及这种对应对传压条件、样品差别和相共存的敏感度。"
+        },
+        {
+          "title": "样品和助熔剂｜论文给出可复用的部分参数",
+          "text": "以 Ir、Te 粉末按 1:4 配比，封在石英管中，1160 °C 保温 24 小时后降温。过量 Te 作为自助熔剂；名义原料比不是长成晶体的化学式。正文确认用 XRD 与 EDS 检查，图 1 有晶片及衍射；初始纯度、升降温速率、分离余 Te 的工艺、产率和各批次的分布，正文未报告。DAC 输运样品约 80×80×15 µm³；这是切片尺寸，不能据此估计生长所得的最大晶片。没有 Laue、WDS、ICP 或 TEM 的定量数据可在正文中替代成分映射。实验室下一炉先记录晶片位置和表面游离 Te，再比较不同厚度或解理位置；一块接触良好的薄片不能代表整炉的纯度与均匀性。"
+        },
+        {
+          "title": "测量｜两个压力装置、三种信号和不同压力标尺",
+          "text": "活塞圆筒给 S1 至 2.4 GPa，Daphne 7373 传压，Sn 超导转变作标定；DAC 输运采用 Cr/Au 30/150 nm 电极、van der Pauw 几何、Daphne 7373 与室温红宝石标定，覆盖至 10.1 GPa。高压衍射用 Mo Kα 与硅油传压，GSAS-II 做 Rietveld。Raman 是 532 nm 背散射，约 5 µm 光斑、500 µW，避免因局部加热误读峰位。不同介质与温度的等效静水性、差应力和标定误差不同；正文并未给所有三套曲线的统一压力误差预算。复现应逐片记录升压与降压，必要时把红宝石分布宽度或压力梯度作为图中的额外误差条。"
+        },
+        {
+          "title": "证据｜三项证据相互制约，而非把同一张图读三遍",
+          "text": "图 1 与图 4 的输运显示约 4 GPa 后超导电阻特征突然消失。图 2 则独立给出三方至单斜 C2/m 的衍射变化及按每化学式单位归一的体积突变；单斜超胞与三方常胞的几何长度不可直接相减。图 3 的振动峰分裂为对称性降低提供第二种证据。三类探针在同一压力区间变化，比只用零电阻曲线归因更可靠；但输运与衍射并非在同一微区同步测得，过渡区可由多个结构域贡献不同测量。没有磁屏蔽或热容，尚不能由零电阻证明体相超导分数，也不能由没有可分辨电阻下降证明所有微区都不超导。"
+        },
+        {
+          "title": "模型与最弱环节｜先复核层间力，再谈配对",
+          "text": "正文的 PBEsol 计算比较两种候选结构的焓、电子结构和振动，支持压力稳定单斜相。可直接检验的是假设结构能否重现衍射和谱峰；单一泛函或色散修正对相对能量的依赖会影响相界推算。特别要补读补充图 S7：作者讨论色散处理改变常压相排序，正文有关三方相修正的字句还应连同原图核对。不要把计算相对稳定性当作实验的 Tc 或配对强度。单斜相也可能改变电流分布、畴壁短路和电极接触；在没有升降压同片重复及微区相图时，这些是需要排查的替代解释。"
+        },
+        {
+          "title": "相界如何定量复核｜把压力分布和转变宽度一起画出来",
+          "text": "对于约 4 GPa 的判定，建议将每一个压力点的低温曲线统一取三个值：正常态基线、开始偏离基线的温度、分辨限内达到零电阻的温度。若样品未零阻，同样保留电阻下降幅度，不用二元有无超导将过渡区抹掉。结构数据一侧对代表峰的形状与相分数进行模型对比；若两相精修优于单相且参数有明显相关性，应给相分数的可信区间，再用同次 Raman 的峰分裂作为独立支持。不同压力计温度的差别会在跨装置拼接时产生偏差，最好有两台装置都能到达的低压重叠点。写报告时把“压力窗口内的相关性”与“相变必然压制配对”分列，后者在本文证据里仍是机制判断。"
+        },
+        {
+          "title": "为何这比只做输运更能指导长晶",
+          "text": "同批片之间可能随余 Te、裂隙、厚度、接触几何改变可见零电阻阈值，因此制备验证不只看单晶 XRD 中强的面外反射。可另切面内取向片做 Laue 或非对称衍射并记录双晶/堆垛，辅以多点 EDS；如果化学计量在仪器精度内一致而低温结果仍随厚度明显变化，优先区分应变与畴网络。如果后续计划比较 Te 位等价取代与外压，基线必须先在同成分的未掺杂晶体上重现，否则化学替换同时改变散射与电荷重分布，不能直接作为纯化学压力。在成本上先复用常压 XRD、Raman 和电阻流程；只把结构与输运可重复的样片送到高压组，尤其保留加压前的裂纹、光学厚度和接触照片。若多炉找不到相同常压基线，暂停拟合普适压力斜率。"
+        },
+        {
+          "title": "复现实验｜让输运相界和结构相界用同一个压力坐标",
+          "text": "先复现常压曲线及样品厚度依赖，再选同炉两片建立低压 PCC 标尺和过 4 GPa 的 DAC 标尺。在 4 GPa 附近加密压点，记录升压、卸压和热循环后的正常态电阻、起始温度与达到零电阻的温度，三者分开制图。尽可能让邻近区域的微区 Raman 与同一轮电输运配对；若结构双峰和电阻尾在卸压时不同步，先报告共存和滞后，再讨论因果。下一步需要高压微区衍射或体积磁探测时优先在相共存窗口实施；如对传压介质或样品接点异常敏感，应停止宣称窄压强阈值可直接外推给其他生长批次。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "优先",
+        "first": "图 2 的 V/Z 和峰分裂、图 4 压力相图，再回读图 1、3 和 II。",
+        "focus": "核对补充图 S1、S4、S7 的批次、相界、完整输运和色散校正；暂不将电阻转变当体相分数。",
+        "next": "先复现常压曲线及样品厚度依赖，再选同炉两片建立低压 PCC 标尺和过 4 GPa 的 DAC 标尺。在 4 GPa 附近加密压点，记录升压、卸压和热循环后的正常态电阻、起始温度与达到零电阻的温度，三者分开制图。尽可能让邻近区域的微区 Raman 与同一轮电输运配对；若结构双峰和电阻尾在卸压时不同步，先报告共存和滞后，再讨论因果。下一步需要高压微区衍射或体积磁探测时优先在相共存窗口实施；如对传压介质或样品接点异常敏感，应停止宣称窄压强阈值可直接外推给其他生长批次。"
+      },
+      "rating": "A",
+      "journal": "Physical Review B",
+      "date": "2026-11-10 正式发表",
+      "doi": "https://doi.org/10.1103/bszx-hzm6",
+      "fullText": "https://journals.aps.org/prb/fulltext/10.1103/bszx-hzm6",
+      "versionNote": "正式期刊版；通过当前浙江大学机构访问环境阅读。",
+      "selectionStatus": "三日回溯补录",
+      "tags": [
+        "中英文标题",
+        "正式期刊"
+      ],
+      "readingStatus": "formal",
+      "titleOriginalMetadata": "Pressure-tuned interlayer coupling and structural control of the ground state in 1T-IrTe₂",
+      "bodyChineseCharacters": 1534
+    },
+    {
+      "title": "Near itinerancy and slow singlet formation in the triangular lattice NaRuO₂",
+      "titleZh": "三角晶格 NaRuO₂ 中接近巡游极限的电子与缓慢形成的单重态",
+      "authors": "Charles C. Tam, Alon Hendler Avidor, Pritam Bhattacharyya, Yongseong Choi, Daniel Haskel, Sven Luther, Hlynur Gretarsson, Liviu Hozoi, Stephen D. Wilson",
+      "institutions": "加州大学圣巴巴拉分校；Leibniz IFW Dresden；Argonne；HZDR；DESY",
+      "category": "磁性、拓扑与自旋",
+      "material": "NaRuO₂",
+      "method": "固相多晶；SPS；Ru L 边 XAS/RIXS；低温脉冲场磁化；随机单重态模型",
+      "access": "全文精读｜APS 正式正文 II–IV、图 1–6、表 I，并与开放作者稿 v2 对读。",
+      "conclusion": "XAS 支持显著自旋轨道耦合，RIXS 未分辨出窄的自旋轨道激子；低温磁化可以用随机单重态模型解释，但尚不能分辨无序和接近巡游两种贡献。",
+      "sections": [
+        {
+          "title": "问题与样品",
+          "text": "类 delafossite 的 NaRuO₂ 由共边 RuO₆ 三角层和 Na 层堆叠。作者要区分受挫自旋液体式解释与残余 Na/Ru 反位导致的随机交换。多晶为固相反应，配方引用前作；本篇描述 SPS 致密化、抛至镜面、没有原位解理。纯度、反应温程、产率、该批绝对反位浓度和本批 EDS/WDS/ICP、TEM 数值正文未报告；图 1 的缺陷结构是示意。磁化粉末装入石英毛细管并在 Ar 中处理，不能把此步骤理解为合成气氛。"
+        },
+        {
+          "title": "直接数据与拟合",
+          "text": "20 K Ru-L₃ RIXS 约 70 meV 分辨率、入射角 20°、散射角 90°；多晶平均不能定位动量。XAS 分支比 NaRuO₂ 约 3、金属 Ru 约 2，说明明显自旋轨道关联，但不锁定唯一局域波函数。约 0.5 eV 的宽峰由阻尼振子描述，在相应入射能量可过阻尼，峰顶、模型本征频率与探测上限分别报告。脉冲磁化至约 45 T，在约 0.48 K 仍平滑、无明显平台。随机单重态模型固定交换截止 100 K，背景磁化率在多个拟合中共享，指数由此得到，不宜当成无条件普适常数。"
+        },
+        {
+          "title": "独立验证",
+          "text": "先用同批样品交叉核对 XAS/RIXS 归一、入射能量变化与背景，再以实际 Na/Ru 占位而非投料量排序样品。用多批磁化、比热和定向单晶测量检验：若减少反位只让 Curie 尾减弱而宽 RIXS 信号不变，可把局域随机交换和本征巡游性初步分离；若两者同变，需同时控制氧计量与晶粒应变。常温粉末衍射无法充分确认低浓度反位，需高质量结构精修或局域探针。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "优先",
+        "first": "先图 2、3 与图 5、6，再回 Methods 和表 I 的模型约束。",
+        "focus": "比较阻尼参数、宽峰峰顶、磁化背景和不同温度下拟合稳定性。",
+        "next": "先用同批样品交叉核对 XAS/RIXS 归一、入射能量变化与背景，再以实际 Na/Ru 占位而非投料量排序样品。用多批磁化、比热和定向单晶测量检验：若减少反位只让 Curie 尾减弱而宽 RIXS 信号不变，可把局域随机交换和本征巡游性初步分离；若两者同变，需同时控制氧计量与晶粒应变。常温粉末衍射无法充分确认低浓度反位，需高质量结构精修或局域探针。"
+      },
+      "rating": "A",
+      "journal": "Physical Review B",
+      "date": "2026-11-10 正式发表",
+      "doi": "https://doi.org/10.1103/stcm-49fx",
+      "fullText": "https://journals.aps.org/prb/fulltext/10.1103/stcm-49fx",
+      "versionNote": "正式发表；已与公开作者稿 arXiv:2607.05287v2 对读，单篇计入。",
+      "selectionStatus": "三日回溯补录",
+      "tags": [
+        "中英文标题",
+        "正式期刊"
+      ],
+      "readingStatus": "formal",
+      "titleOriginalMetadata": "Near itinerancy and slow singlet formation in the triangular lattice NaRuO₂",
+      "bodyChineseCharacters": 412
+    },
+    {
+      "title": "Polymer‐Directed Crystal Growth Regulation: Template‐Free Synthesis of Mesoporous Single‐Crystalline Mn₂OBO₃",
+      "titleZh": "聚合物引导的晶体生长调控：无模板合成介孔 Mn₂OBO₃ 单晶",
+      "authors": "Yumeng Mao; Zhenshi Wang; Tao Wang; Zhengwen Tan; Wei Li; Siqi Dong; Jiaming Yang; Fei Du; Zhen‐An Qiao",
+      "institutions": "吉林大学；山西大学",
+      "category": "晶体生长和物性调控",
+      "material": "Mn₂OBO₃、MnBO₂OH",
+      "method": "PEI 调控前驱体、水热纳米带、煅烧转化",
+      "access": "仅摘要｜Crossref 收录的出版社摘要。Wiley 正文入口返回 403，未取得补充材料、机构全文或公开作者稿。",
+      "conclusion": "作者在摘要中报告一条无需硬模板的介孔单晶路线，并给出与块体的电化学对比；煅烧后单晶连续性与孔形成机理尚待查看原始图。",
+      "sections": [
+        {
+          "title": "样品、制备与证据（摘要所述）",
+          "text": "PEI 与 Mn²⁺ 配位、与硼酸根形成氢键是作者对水解缩合控制的解释。路线由杂化前驱体进入水热生成的 MnBO₂OH 单晶纳米带，继而煅烧成介孔 Mn₂OBO₃。摘要给出在 0.2 A/g 下约 1440 mAh/g 的可逆比容量，并称超过块体对照两倍；该数值是特定电化学条件下的作者报告，不能当作单晶质量或普适循环能力的证据。Fe、V、Mg 掺杂已由作者列出，不列为本站新想法。"
+        },
+        {
+          "title": "补读与停止条件",
+          "text": "晶相空间群、原料纯度/配比、PEI 分子量、pH、水热温度时间、煅烧气氛与温程、产率、孔径、取向、XRD/TEM/SAED 及容量误差，均未能核实。优先找同一颗粒的多点 SAED 和 HRTEM，检验孔两侧是否共享取向；再读完整水热与热处理表及原始循环条件。无 PEI 对照和衍射证据前，暂不把路线写成可复现配方。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "补读后判断",
+        "first": "补读合成与孔结构、衍射及对照；图号未核实。",
+        "focus": "对照无 PEI、煅烧前后结构和同质量负载下的电化学。",
+        "next": "晶相空间群、原料纯度/配比、PEI 分子量、pH、水热温度时间、煅烧气氛与温程、产率、孔径、取向、XRD/TEM/SAED 及容量误差，均未能核实。优先找同一颗粒的多点 SAED 和 HRTEM，检验孔两侧是否共享取向；再读完整水热与热处理表及原始循环条件。无 PEI 对照和衍射证据前，暂不把路线写成可复现配方。"
+      },
+      "rating": "B",
+      "journal": "Advanced Materials",
+      "date": "2026-11-10 在线（Crossref 出版者存档）",
+      "doi": "https://doi.org/10.1002/adma.75700",
+      "fullText": "",
+      "versionNote": "出版社存档的在线日期；摘要不等同正式正文。",
+      "selectionStatus": "三日回溯补录",
+      "tags": [
+        "中英文标题",
+        "正式期刊"
+      ],
+      "readingStatus": "abstract",
+      "titleOriginalMetadata": "Polymer‐Directed Crystal Growth Regulation: Template‐Free Synthesis of Mesoporous Single‐Crystalline Mn₂OBO₃",
+      "bodyChineseCharacters": 229
+    },
+    {
+      "title": "Confinement‐Enabled Epitaxy of Single‐Crystal InN Fins Enables Room‐Temperature Ohmic Contact to GaN",
+      "titleZh": "限域外延生长 InN 单晶鳍片，实现与 GaN 的室温欧姆接触",
+      "authors": "Tianhai Wu; Po Chun Chen; Atsunori Tanaka; Paul K. L. Yu; Peter M. Asbeck; Shadi A. Dayeh",
+      "institutions": "加州大学圣迭戈分校",
+      "category": "二维材料与量子器件",
+      "material": "InN/GaN；InN/AlN",
+      "method": "选择区域脉冲 MOCVD，异质接触",
+      "access": "仅摘要｜Crossref 出版者摘要；Wiley 正文入口 403，机构全文、SI 与可匹配开放稿未取得。",
+      "conclusion": "摘要报告几何限域下可获得常规平面条件不支持的 InN 单晶鳍片，并形成免退火低阻接触。纳入理由是可转移的限域外延思路。",
+      "sections": [
+        {
+          "title": "问题和直接可读证据",
+          "text": "作者把限域增加局部吸附原子过饱和度作为生长解释。对照是相近条件下不能生长的平面 InN；摘要还报告突变 GaN/InN 与 AlN/InN 界面，以及器件对比中的室温接触。未读界面图、接触电阻提取或模型，因此不能独立判断成核是否发生于窗口底部还是侧壁，或低阻由界面态、重掺杂或表面电子积累中哪一项主导。"
+        },
+        {
+          "title": "补读清单",
+          "text": "窗口线宽及深宽比、晶向和极性、前驱体流量与 V/III 比、脉冲节拍、温压、掺杂、厚度、TEM/成分、接触电阻值及其误差均未核实。优先找同批窗口梯度和平面见证片，核查不同几何下的 TEM 与电阻提取；不从摘要反推外延配方。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "补读后判断",
+        "first": "取得正文后优先读选择区生长、截面界面和接触提取。",
+        "focus": "核对未退火接触与传统合金化接触是否用了等效几何。",
+        "next": "窗口线宽及深宽比、晶向和极性、前驱体流量与 V/III 比、脉冲节拍、温压、掺杂、厚度、TEM/成分、接触电阻值及其误差均未核实。优先找同批窗口梯度和平面见证片，核查不同几何下的 TEM 与电阻提取；不从摘要反推外延配方。"
+      },
+      "rating": "B",
+      "journal": "Advanced Functional Materials",
+      "date": "2026-11-10 在线（Crossref 出版者存档）",
+      "doi": "https://doi.org/10.1002/adfm.79544",
+      "fullText": "",
+      "versionNote": "出版社存档的在线日期；摘要不等同正式正文。",
+      "selectionStatus": "三日回溯补录",
+      "tags": [
+        "中英文标题",
+        "正式期刊"
+      ],
+      "readingStatus": "abstract",
+      "titleOriginalMetadata": "Confinement‐Enabled Epitaxy of Single‐Crystal InN Fins Enables Room‐Temperature Ohmic Contact to GaN",
+      "bodyChineseCharacters": 203
+    },
+    {
+      "title": "Electronic structure, quasiparticle renormalizations, and magnetic correlations in the alternating single-layer bilayer nickelate La₅Ni₃O₁₁",
+      "titleZh": "单层与双层交替的镍酸盐 La₅Ni₃O₁₁ 的电子结构、准粒子重整化与磁关联",
+      "authors": "I. V. Leonov",
+      "institutions": "俄罗斯科学院米赫耶夫金属物理研究所；乌拉尔联邦大学",
+      "category": "高温与非常规超导",
+      "material": "La₅Ni₃O₁₁（1212-LNO）",
+      "method": "DFT+DMFT；晶体结构输入；单层和双层轨道对照",
+      "access": "全文精读｜APS 正式正文 II–IV、图 1–8 与附录图 9。本文为计算，不存在本篇制样和实测。",
+      "conclusion": "理论上同一晶胞的单层、双层 Ni 对关联与压力响应不同。质量重整化和条纹倾向是模型输出，没有在本篇测得，也不等于确定超导配对。",
+      "sections": [
+        {
+          "title": "模型与结构",
+          "text": "使用交替单层/双层镍氧骨架，常压和受压晶体学结构来自外部资料并作为计算输入。计算对照以层和 Ni e_g 轨道为单位；讨论的是正常态电子谱、Fermi 面和磁响应。本文未合成样品，也没有可用本篇的生长气氛、XRD 实测图、Laue、WDS 或输运电流；不能把结构输入与模型拟合写成本篇实验。"
+        },
+        {
+          "title": "结果与替代解释",
+          "text": "双层 Ni 的 x²−y²、3z²−r² 有效质量增强约 3.5 和 4.2，为作者计算估计。单层 3z²−r² 低能有窄隙，x²−y² 不相干；受压输入下前者金属化的判断来自谱函数。磁响应中 (⅓,⅓) 和 (¼,¼) 的竞争说明层分辨的条纹倾向，不是观测到静态条纹。处理相关子空间、压力结构、相互作用和解析延拓的方式都会影响窄隙与条纹排序。"
+        },
+        {
+          "title": "下一次测量",
+          "text": "如果有同成分、同堆垛样品，优先在同压区对比偏振谱和衍射卫星，先检验轨道权重与候选传播向量，再谈配对。对氧含量和互生层先做批次核验；如果压力改变了相分数，宏观谱变化不能只归因单层轨道。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "优先",
+        "first": "先看 II 的结构和计算输入，再读图 3–8 的层分辨谱与磁响应。",
+        "focus": "把模型参数及压力下输入结构和输出谱分开；暂略去配对推断。",
+        "next": "如果有同成分、同堆垛样品，优先在同压区对比偏振谱和衍射卫星，先检验轨道权重与候选传播向量，再谈配对。对氧含量和互生层先做批次核验；如果压力改变了相分数，宏观谱变化不能只归因单层轨道。"
+      },
+      "rating": "A",
+      "journal": "Physical Review B",
+      "date": "2026-11-10 正式发表",
+      "doi": "https://doi.org/10.1103/4dmx-knsn",
+      "fullText": "https://journals.aps.org/prb/fulltext/10.1103/4dmx-knsn",
+      "versionNote": "正式期刊版；通过当前浙江大学机构访问环境阅读。",
+      "selectionStatus": "三日回溯补录",
+      "tags": [
+        "中英文标题",
+        "正式期刊"
+      ],
+      "readingStatus": "formal",
+      "titleOriginalMetadata": "Electronic structure, quasiparticle renormalizations, and magnetic correlations in the alternating single-layer bilayer nickelate La₅Ni₃O₁₁",
+      "bodyChineseCharacters": 297
+    },
+    {
+      "title": "Revealing laser-induced modification of weak ferromagnetism through a spin-reorientation phase transition in iron borate Fe₃BO₆",
+      "titleZh": "借助自旋重取向相变揭示硼酸铁 Fe₃BO₆ 中激光对弱铁磁性的改变",
+      "authors": "A. V. Kuzikova, S. N. Barilo, R. A. Lanovsky, A. V. Sadovnikov, R. V. Pisarev, A. M. Kalashnikova",
+      "institutions": "约费研究所；白俄罗斯国家科学院材料研究中心；萨拉托夫国立大学",
+      "category": "磁性、拓扑与自旋",
+      "material": "Fe₃BO₆",
+      "method": "助熔剂单晶，静态与瞬态 Kerr，BLS",
+      "access": "全文精读｜公开 arXiv v1 II–VI、图 1–2 及 IV.1–IV.4/V 的图注和讨论。",
+      "conclusion": "不同能量泵浦和时间分辨 Kerr 支持先改自旋倾角、后进动重取向；末态光学信号和两磁相共存相容，纯热机制并未在所有条件排除。",
+      "sections": [
+        {
+          "title": "样品与几何",
+          "text": "正交 Pnma 硼酸铁，从两来源的助熔剂单晶切出 (100) 与 (110) 样片。前者在转变以下的弱铁磁分量近面外，以上转入面内 c 轴；后者低温面外投影约为 45°。正文未报告完整助熔剂化学、纯度、温程、产率及用于重复制备的成分与衍射误差。2.4 eV、约 170 fs 的探针配合近 c 轴且微倾的磁场，结合 pMOKE 与 lMOKE 分离投影；图 2 在 385、420 K 对照静态回线，BLS 提供动态模的比较。"
+        },
+        {
+          "title": "时间顺序与解释边界",
+          "text": "早期短延迟回线、随后进动响应和约 200 ps 的混合回线支持不同阶段；混合信号可由 Γ₂/Γ₄ 共存解释，但无同一时刻的空间成像来给出相分数。约 3.0 eV 强吸收区与低吸收区不同的泵浦响应支持电荷转移影响倾角，低吸收区的双光子解释属于作者推断。不能从曲线幅度直接读出磁矩绝对值或每个深度的相态。"
+        },
+        {
+          "title": "下一次测量",
+          "text": "在相同吸收能量密度下比较两泵能，并同步用时间分辨反射监控吸收、测不同探测深度。若两能量的数据按吸收热负荷重合，非热解释需收缩；若不重合，先排除穿透深度差异再归因。公开旧论文已报道 Ga/Al 稀释，本站不把一般换 Ga 或 Al 包装成新材料。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "优先",
+        "first": "先看图 2 静态回线、IV.1 的 3 与 200 ps 回线，再读 IV.4/V.3。",
+        "focus": "把 Kerr 几何投影、泵浦吸收与磁畴相分数区分。",
+        "next": "在相同吸收能量密度下比较两泵能，并同步用时间分辨反射监控吸收、测不同探测深度。若两能量的数据按吸收热负荷重合，非热解释需收缩；若不重合，先排除穿透深度差异再归因。公开旧论文已报道 Ga/Al 稀释，本站不把一般换 Ga 或 Al 包装成新材料。"
+      },
+      "rating": "A",
+      "journal": "arXiv",
+      "date": "2026-11-10 官方公告；v1 提交 2026/11/09；北京时间 11月09日 22:11 初投",
+      "doi": "https://arxiv.org/abs/2611.12460",
+      "fullText": "https://arxiv.org/html/2611.12460v1",
+      "versionNote": "独立预印本 v1；来源是 11 月 10 日官网公告，且未在上一期纳入，不记为 11 日新投。 API 版本 2611.12460v1。",
+      "selectionStatus": "三日回溯补录",
+      "tags": [
+        "中英文标题",
+        "独立预印本"
+      ],
+      "readingStatus": "preprint",
+      "titleOriginalMetadata": "Revealing laser-induced modification of weak ferromagnetism through a spin-reorientation phase transition in iron borate Fe₃BO₆",
+      "bodyChineseCharacters": 341
+    },
+    {
+      "title": "Out-of-plane interference effects in the angle-resolved photoemission of epitaxial graphene",
+      "titleZh": "外延石墨烯角分辨光电子能谱中的面外干涉效应",
+      "authors": "Favorite, E.; Krüger, P.; Rosenzweig, Ph.; Joshi, R.; Williams, S.; Matta, B.; Küster, K.; Hashimoto, M.; Starke, U.; Nakamura, H.",
+      "institutions": "阿肯色大学；千叶大学；斯图加特大学；马克斯普朗克固体研究所；SLAC 等",
+      "category": "二维材料与量子器件",
+      "material": "SiC 上外延单层石墨烯/零层碳缓冲层",
+      "method": "SiC 外延、AFM、LEED、变光子能量 ARPES 与末态计算",
+      "access": "全文精读｜公开 arXiv v1 II–V、图 1–3 与附录 B–D。",
+      "conclusion": "光电子强度及复制带的能量依赖需要考虑垂直路径与末态散射；不能把单光子能量下的亮暗差直接解释成新增本征能带。",
+      "sections": [
+        {
+          "title": "样品、质量与测量",
+          "text": "单层 MLG 位于共价部分键合于 SiC 的零层缓冲 ZLG 上。图 1 中标示的 2.00 Å 与 3.24 Å 为标称层间距，不是本样片误差已知的结构精修结果。AFM 显示约 2–4 µm 台阶平台；80 eV LEED 识别 MLG、SiC 及 (6√3×6√3)R30° 超结构。SSRL 5-2 在约 150 K 测穿过 K 点的切线，读图注意偏振和分析器方向。正文未报告批次产率、全片成分分布或层间距独立精修误差。"
+        },
+        {
+          "title": "证据和下一次测量",
+          "text": "同一母带在改变光子能量后强度呈共振式变化，复制带也随条件改变；作者用时间反演 LEED 与多重散射和简化末态模型比较。层间垂直相位是合理解释，强度调制本身不等于能带位移。把不同光子能量的样片坐标、偏振和归一固定，优先复查同一 K 切面的峰位与强度。如果仅强度变化而峰位稳定，应保留末态解释；若归一后重复见位置系统偏移，再评估界面初态。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "优先",
+        "first": "先读图 1、2、样品制备与光路，再看 IV.1/IV.2 和附录的伪影检验。",
+        "focus": "量峰位置与强度，避免把 2D 材料末态矩阵元当电子结构差。",
+        "next": "同一母带在改变光子能量后强度呈共振式变化，复制带也随条件改变；作者用时间反演 LEED 与多重散射和简化末态模型比较。层间垂直相位是合理解释，强度调制本身不等于能带位移。把不同光子能量的样片坐标、偏振和归一固定，优先复查同一 K 切面的峰位与强度。如果仅强度变化而峰位稳定，应保留末态解释；若归一后重复见位置系统偏移，再评估界面初态。"
+      },
+      "rating": "A",
+      "journal": "arXiv",
+      "date": "2026-11-10 官方公告；v1 提交 2026/11/09；北京时间 11月10日 01:18 初投",
+      "doi": "https://arxiv.org/abs/2611.12733",
+      "fullText": "https://arxiv.org/html/2611.12733v1",
+      "versionNote": "独立预印本 v1；来源是 11 月 10 日官网公告，且未在上一期纳入，不记为 11 日新投。 API 版本 2611.12733v1。",
+      "selectionStatus": "三日回溯补录",
+      "tags": [
+        "中英文标题",
+        "独立预印本"
+      ],
+      "readingStatus": "preprint",
+      "titleOriginalMetadata": "Out-of-plane interference effects in the angle-resolved photoemission of epitaxial graphene",
+      "bodyChineseCharacters": 250
+    }
+  ],
+  "figures": [
+    {
+      "src": "/reports/2026-11-11/tbfeo3-relative-lattice-change.svg",
+      "source": "https://arxiv.org/html/2608.00469v2",
+      "title": "TbFeO₃：降温时晶胞体积增加约 0.017%",
+      "caption": "根据公开作者稿 v2 第 III.1 节与图 1(b–e) 的约数重绘，并非论文原图。CC BY 4.0 公开源；图用绝对长度，符号见标签。未提取每个温度点与误差，不证明材料起因。"
+    }
+  ],
+  "sourceAudit": [],
+  "auditUrl": "/reports/2026-11-11/audit.json",
+  "searchTerms": [
+    "APS Recent/Accepted，2026-11-09 至 2026-11-11",
+    "Crossref by journal ISSN and online publication date",
+    "arXiv cond-mat/new official 156/48/125；API submittedDate + ID",
+    "flux; crystal growth; pressure XRD; NaRuO2; TbFeO3; IrTe2; epitaxy; spin reorientation"
+  ],
+  "readingAudit": {
+    "candidateAccessibleFullTexts": 6,
+    "selectedAccessibleFullTexts": 6,
+    "fullReads": 6,
+    "earlyManuscriptReads": 0,
+    "abstractOnly": 2,
+    "siOnly": 0,
+    "institutionalSuccess": true,
+    "pending": [
+      {
+        "title": "Polymer‐Directed Crystal Growth Regulation: Template‐Free Synthesis of Mesoporous Single‐Crystalline Mn₂OBO₃",
+        "titleZh": "聚合物引导的晶体生长调控：无模板合成介孔 Mn₂OBO₃ 单晶",
+        "reason": "仅摘要｜Crossref 收录的出版社摘要。Wiley 正文入口返回 403，未取得补充材料、机构全文或公开作者稿。"
+      },
+      {
+        "title": "Confinement‐Enabled Epitaxy of Single‐Crystal InN Fins Enables Room‐Temperature Ohmic Contact to GaN",
+        "titleZh": "限域外延生长 InN 单晶鳍片，实现与 GaN 的室温欧姆接触",
+        "reason": "仅摘要｜Crossref 出版者摘要；Wiley 正文入口 403，机构全文、SI 与可匹配开放稿未取得。"
+      }
+    ]
+  },
+  "researchIdeas": {
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-11",
+    "scope": "根据本期 TbFeO₃ 正式正文和公开补充数据，提出同价 A 位稀释的可证伪假说。仅限本轮可访问来源，查新未完成。",
+    "limitations": [
+      "未合成、未计算、未测量；未验证新颖性、固溶范围或稳定性。普通的混合稀土正交铁氧体已有大量报道。"
+    ],
+    "ideas": [
+      {
+        "id": "tb-y-orthoferrite-raman-decoupling",
+        "kind": "material",
+        "status": "needs-review",
+        "title": "用 Tb₁₋ₓYₓFeO₃ 分离稀土磁矩与晶格化学压力",
+        "material": "名义 Tb₁₋ₓYₓFeO₃；先比较 x=0、0.05、0.10 与 YFeO₃；以实测 A 位比例为准",
+        "evidenceLevel": "读过母体 APS II–IV、图 1、7–9 和公开补充；候选未合成、计算或测量。",
+        "question": "若保留正交 FeO₆ 骨架而减少 Tb 4f 磁矩，约 175 K 的宽 Raman 信号能否与 a 轴主导的负热膨胀解耦？",
+        "prediction": "若宽带主要依赖 Tb–Fe 关联，实际 Y 增加时，按同一非异常声子强度归一后的宽带应减弱，双磁振子可较少改变；若同时观察到 a 轴符号保留，则支持宽带和平均热膨胀至少部分解耦。若宽带与八面体倾角或应变共同变化，转而检验结构基线。",
+        "basis": "Tb³⁺与 Y³⁺ 为相同形式价，预期在相同 A 位配位下尺寸相近，Y³⁺无局域 4f 磁矩且不直接替掉 Fe³⁺。因此比换进有 4f 的 Dy³⁺或改 Fe 的价更适合首轮拆分 Tb–Fe 与 Fe–Fe 贡献。Y 与 Tb 的局域配位及半径仍非完全相同，可能改变键角、局域应变和氧缺陷；此处未假定电子数、磁交换或晶相必然保持。",
+        "difference": "区别在于对实际 Y 占位做同炉梯度，同时量化约 175 K 的 Raman 谱权、两磁振子参照和有符号的轴向晶格响应。既有单一端元和 Sm/Tb、Dy/Tb 研究不等价，仍需核查是否已有直接等效研究。",
+        "plan": [
+          "先用固相法平行制备两炉 x=0 与低 Y 候选；记录气氛、保温、压片、粒径和测量热史。",
+          "用粉末衍射核相，EPMA/WDS 查 Tb:Y 和偏析；监控 Fe/O 计量，若占位和氧计量无法区分，不做磁性因果归因。",
+          "同一批样品做校准后的 5–303 K XRD、低功率 Raman 与磁化；重点对比 175 K 附近的谱权和体积/轴向变化。"
+        ],
+        "controls": [
+          "同热史的无 Y 母相，YFeO₃ 端元用作 Fe 骨架参照",
+          "相同 Raman 几何、功率与归一；以独立装样和同一标准校正 XRD",
+          "若有条件，以母体小范围机械压力作只有结构扰动的近似对照"
+        ],
+        "falsifiers": [
+          "Y 不固溶、分相、氧含量随 x 显著变化或母体自身 ΔV 不能重现时停止该轮机制解释。",
+          "若宽带强度在确认占位且结构近似不变时无系统趋势，则弱化 Tb 磁稀释假说；如归一只随选取背景改变，先否定当前取谱判据。"
+        ],
+        "feasibility": "首轮为常规箱炉、EPMA/PXRD 与温变 Raman；需要足够稳定的低温衍射平台。若粉末结果可重复，再考虑单晶和偏振测量。",
+        "risks": "竞争铁氧体或局域氧非化学计量；样品粒径、弹性应变与平均热膨胀量级相近；微量偏析会使名义 x 失去物理意义。",
+        "nextStep": "先重现无 Y 母体的各轴温变符号和宽 Raman 线，随后并行做最低档替换；未过核相与重复性门槛前不扩大配方。",
+        "queries": [
+          "2026-11-11：Tb1-xYxFeO3 / YxTb1-xFeO3 orthoferrite magnetism Raman",
+          "2026-11-11：TbFeO3 YFeO3 solid solution negative thermal expansion / Raman",
+          "2026-11-11：Google Patents TbFeO3 orthoferrite yttrium；大学仓储 TbFeO3 orthoferrite thesis spin phonon"
+        ],
+        "remainingChecks": [
+          "专利权利要求、非英文学位全文、带空格和不同化学式索引的组合尚待查；未找到直接证据不能证明未做过。",
+          "低 Y 固溶度、实际配位、氧计量和 XRD 系统误差尚未验证。"
+        ],
+        "priorArt": [
+          {
+            "url": "https://www.nature.com/articles/s41598-022-13097-1",
+            "title": "Magnetostructural coupling in RFeO₃ (R = Nd, Tb, Eu and Gd)",
+            "overlap": "端元正交铁氧体已开展 Raman、磁性、结构关联。",
+            "access": "出版者开放页面"
+          },
+          {
+            "url": "https://eprints.lancs.ac.uk/id/eprint/226042/",
+            "title": "Lattice dynamics and mixing of polar phonons in the rare-earth orthoferrite TbFeO₃",
+            "overlap": "母体单晶偏振 IR/Raman、模归属，提醒某些 Raman 模未显示强自旋声子耦合。",
+            "access": "大学机构公开稿与摘要"
+          },
+          {
+            "url": "https://eprints.lancs.ac.uk/id/eprint/234269/1/manuscript_SmTbFeO3.pdf",
+            "title": "Spin and lattice dynamics at the spin-reorientation transitions in Sm₀.₅₅Tb₀.₄₅FeO₃",
+            "overlap": "混稀土组成的自旋重取向与声子已研究；Sm 带磁，与 Y 稀释假说不等价。",
+            "access": "大学机构公开稿"
+          },
+          {
+            "url": "https://eprints.lancs.ac.uk/id/eprint/231254/1/2025_Vovk_PhD.pdf",
+            "title": "Vovk 博士论文：TbFeO₃ 自旋重取向",
+            "overlap": "可查到非 Kramers 离子、Tb/Fe 与超快响应章节；未据此排除所有混晶先例。",
+            "access": "学位论文概要与章节线索"
+          }
+        ],
+        "paperIndex": 1
+      }
+    ],
+    "rejected": [
+      {
+        "title": "把 Fe₃₋ₓGaₓBO₆ 和 Fe₃₋ₓAlₓBO₆ 的一般稀释作为新材料",
+        "url": "https://journals.ioffe.ru/ftt/2003/11/p2025-2027.pdf",
+        "reason": "既有资料明确报告 Ga/Al 替换会改变奈尔温度及重取向温度，排除一般配方。"
+      }
+    ]
+  }
+}
