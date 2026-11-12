@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-12",
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-12",
+  "scope": "从 AgCrP₂S₆ 的链内与三维有序温标出发提出低 Se 取代假设；专利与全文查新尚未完成。",
+  "limitations": [
+    "假设尚未合成、计算或测量，固溶范围、位点占据、稳定性及新颖性待验证。"
+  ],
+  "ideas": [
+    {
+      "id": "agcrp2s6-low-se-exchange-dimensionality",
+      "kind": "material",
+      "status": "needs-review",
+      "title": "在 AgCrP₂(S₁₋ₓSeₓ)₆ 的硫化物端测试交换维度",
+      "material": "名义 AgCrP₂(S₁₋ₓSeₓ)₆，先筛 x=0、0.025、0.05、0.10；实际 x 与 S/Se 位点待测。",
+      "evidenceLevel": "母体 v1 图 1–10 与第 II–V 节已读。已知 Se 端元另有实验报道。混晶和趋势尚未计算、合成或测量。",
+      "question": "在保留母体 P2/a 与 Cr 链拓扑的低 Se 区间，能否改变三维有序的相对强度，同时保持明显的高温链关联？",
+      "prediction": "若更易极化的 Se 使跨链/层交换相对链内更强，T_N/Tχ,max 将随实测 Se 比上升，而高温磁化率宽峰仍存在。若比值下降或不变，可能是键长拉大、不同交换符号相消或取代无序主导，需用结构和局域谱重新区分。",
+      "basis": "Se 与 S 同族，均假设为二价阴离子，等价取代不需要名义电荷补偿，Cr³⁺的 3d³ 磁矩预期保留。相同配位下 Se 较大、4p 较弥散且自旋轨道效应可更明显，Cr–Ch–Cr 键角与层间 Ch–Ch 重叠可能同时变化。选择少量 Se 而非 Te 可减少尺寸与价带改动；相比 Cu/Ag 置换，先保留阳离子链拓扑，但仍需实测。",
+      "difference": "S 与 Se 端元已有结构磁性研究，已知 Se 端元的结构不同。这里限定母体结构保留的低 Se 区，联合实际成分、链温标及 ³¹P 静态/动态谱检验相对交换。",
+      "plan": [
+        "先计算或对照已有两个端元晶体学，再用母体与两个低名义浓度试样做最小筛选。",
+        "粉末 XRD 与单晶衍射确定相与链排布，EPMA/WDS 做片内和多晶片 S/Se、Ag/Cr 图，检查输运分馏。",
+        "相纯后沿同轴测 χ(T)、M(H) 和 ³¹P 谱，记录宽峰、T_N、Hsf 与线宽；需要直接拟合交换时再做中子。"
+      ],
+      "controls": [
+        "同炉母体和独立重复；已知 Se 端元作对照但不用于线性外推",
+        "等方向、等场强、等温窗；固定 ³¹P 频率标定",
+        "匹配氧化历史和片厚，分离空间偏析"
+      ],
+      "falsifiers": [
+        "若出现 Se 富集相、由 P2/a 转结构或没有可核验的实际取代，停止对母体链交换的解释。",
+        "若核相后 T_N/Tχ,max 无可重复的上升，否定所提趋势。若峰显著展宽或分裂，先验证无序与多相再判断。"
+      ],
+      "feasibility": "有 CVT、衍射和微探针即可初筛，低温定向核磁需要专项设备。",
+      "risks": "已知端元空间群不同，存在窄固溶、分相、输运分馏和局域键角变化抵消的风险。",
+      "nextStep": "从母体与两个最低名义 Se 含量对照开始。满足组成均匀且晶体结构不变后再投入核磁机时。",
+      "queries": [
+        "2026-11-12 AgCrP2S6 AgCrP2Se6 selenium substitution",
+        "2026-11-12 AgCrP2(S1-xSex)6 / AgCrP2S6-xSex mixed solid solution",
+        "2026-11-12 AgCrP2S6 AgCrP2Se6 thesis patent magnetic NMR"
+      ],
+      "remainingChecks": [
+        "相图、非英文混晶与专利全文需继续查；检索到的电阻器件专利主要涉及母体，权利要求待核。",
+        "还需确认低 Se 配位和不同硫位点的偏好。"
+      ],
+      "priorArt": [
+        {
+          "url": "https://doi.org/10.1021/acs.jpcc.3c07433",
+          "title": "Structural, Magnetic, and Optical Properties of the van der Waals Antiferromagnet AgCrP₂Se₆",
+          "overlap": "已发表 Se 端元的结构、磁性、热容和光谱，空间群 P3₁12，约 42 K 有序。",
+          "access": "出版社摘要及补充目录"
+        },
+        {
+          "url": "https://doi.org/10.1039/D5TC03093E",
+          "title": "Antipolar and short- and long-range magnetic ordering in quasi-two-dimensional AgCrP₂S₆",
+          "overlap": "母体短程和长程磁性、声子，以及与两个近邻端元的比较。",
+          "access": "RSC 公开稿片段"
+        },
+        {
+          "url": "https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa2-751618",
+          "title": "Crystal Growth, Structure and Anisotropic Magnetic Properties of Quasi-2D Materials",
+          "overlap": "博士论文包含 AgCrP₂S₆ 与 CuCrP₂S₆ 生长和各向异性磁性。",
+          "access": "机构仓储摘要"
+        },
+        {
+          "url": "https://lib-repo.pnu.edu.ua/bitstream/123456789/7129/1/755-2371-1-SM.pdf",
+          "title": "CuCrP₂S₆–AgCrP₂S₆ 系统固溶区域研究",
+          "overlap": "已有 Cu/Ag 端元之间固溶相图线索，不能把阳离子混晶当新概念。",
+          "access": "机构仓储图和文献线索"
+        }
+      ],
+      "paperIndex": 2
+    }
+  ],
+  "rejected": [
+    {
+      "title": "将 AgCrP₂Se₆ 端元本身列为新材料",
+      "url": "https://doi.org/10.1021/acs.jpcc.3c07433",
+      "reason": "端元已合成并完成结构、磁学及光谱表征。"
+    }
+  ]
+}
