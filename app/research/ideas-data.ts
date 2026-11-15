@@ -2378,5 +2378,147 @@ export default [
         "reason": "MoS₂同位素受限生长已有研究；必须明确新的材料机制问题与可区分实验，而非给已有方法换材料名。"
       }
     ]
+  },
+  {
+    "date": "2026-10-14",
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-15",
+    "scope": "2026-11-15 回补时检索材料化学式、同义名、目标测量、论文/预印本以及学位论文和专利线索。",
+    "limitations": [
+      "已确认固溶体系有先行工作；差异限定为测量和对照设计。可制备性以及对具体方案的新颖性仍需核对。"
+    ],
+    "ideas": [
+      {
+        "id": "cras-sb-matched-b-axis",
+        "kind": "measurement",
+        "status": "needs-review",
+        "paperIndex": 7,
+        "title": "在等 b 晶格参数下比较 CrAs₁₋ₓSbₓ 与 CrAs 的一阶应力相线",
+        "material": "保留 MnP 型的低 Sb CrAs₁₋ₓSbₓ 单晶，b 轴单轴加载",
+        "evidenceLevel": "既有固溶体系上的结构—应力检验。未生长、未加载、未算能带。",
+        "question": "已知同族 Sb 替换后，调回与纯 CrAs 相同的 b，超弹性平台与磁相界能否重合？",
+        "prediction": "若 b 主导、且替换主要通过晶格作用调节轨道占据，磁与力学转变在相同实测 b 时应在误差内接近。若 b 已匹配而有系统差异，应检查 Cr–Pn 键角、配体共价性/SOC、无序与杂相，单坐标模型即被证伪。",
+        "basis": "母体正式版的近恒应力平台与 b 晶格跳变同量级，计算提示 Cr dxy 对 b 敏感。Sb 与 As 同族、名义电子计数相同，Sb 的 5p 更扩展，自旋轨道更强，替换仍可能改变 Cr–Pn 杂化、超交换和占位分布。不能把化学压力等同于施加反向机械压力。",
+        "difference": "Sb 系列及静水压/结构相图已经发表。这里限定在单相低掺杂样品，直接用原位衍射匹配 b 后比较应力平台、磁相指纹与 a/c 轴对照。",
+        "plan": [
+          "同批做 x=0 和两个低 Sb 实测成分，粉末与 Laue/单晶 XRD 验证 Pnma，WDS 跨晶体扫点确认 Sb 均匀性。",
+          "从同一块石料做等几何微梁，先在母体较安全的温区标定载荷与柔度，再进行可逆 b 轴加载。匹配 b 之后记录 a、c、磁指纹和卸载滞后。"
+        ],
+        "controls": [
+          "母体 x=0，低 Sb 组成系列，纯 CrAs 的 a/c 轴加载与文献静水压作对照。",
+          "CrSb 只作异结构端元参照和竞争相衍射指纹，不用于线性内插。"
+        ],
+        "falsifiers": [
+          "b 匹配后，转变位置分离超过取向、衍射、应力和批次联合误差，则否定单一 b 参数解释。",
+          "如出现新结构、应力平台不可逆、Sb 偏析或低温脆裂，暂停相线比较。"
+        ],
+        "feasibility": "生长、XRD、微探针可先筛；原位单晶微衍射和定量单轴系统需合作，优先室温和相变附近测量。",
+        "risks": "化学无序、不同局域键角和竞争相均可能改变磁性，FIB 损伤与夹具滑移会被误读为应力效应。",
+        "nextStep": "先补读早期固溶相图与学位论文确认单相窗口，再做组合物质验证。",
+        "queries": [
+          "CrAs1-xSbx uniaxial stress matching b lattice parameter",
+          "chromium arsenide antimony combined chemical pressure uniaxial stress patent thesis",
+          "CrAs Sb substitution magnetic helix critical strain"
+        ],
+        "remainingChecks": [
+          "早期高压论文仅见题录，专利全库和非英语单轴加载全文未完成；现有同体系不申报为新组成。"
+        ],
+        "priorArt": [
+          {
+            "title": "Substitution Effects in CrAs Superconductor",
+            "url": "https://eprints.kfupm.edu.sa/id/eprint/139931/",
+            "overlap": "已研究 Sb 替换 CrAs 的体相性质。",
+            "access": "大学学位论文库条目与摘要"
+          },
+          {
+            "title": "Identification de la phase à haute pression des alliages du système CrAs₁₋ₓSbₓ",
+            "url": "https://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail&idt=9097981",
+            "overlap": "既有静水高压衍射和磁相图线索，必须核对全文以辨别等价性。",
+            "access": "INIST 题录"
+          },
+          {
+            "title": "Evolution of Magnetic Double Helix and Quantum Criticality near a Dome of Superconductivity in CrAs",
+            "url": "https://doi.org/10.1103/PhysRevX.8.031017",
+            "overlap": "母体静水压力与 P 替换的磁结构已有实验。",
+            "access": "期刊公开正文摘要及结论"
+          }
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "title": "Substitution Effects in CrAs Superconductor",
+        "url": "https://eprints.kfupm.edu.sa/id/eprint/139931/",
+        "reason": "同一替代体系已有报道，剔除以材料组成自身为创新点的路线。"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-15",
+    "scope": "2026-11-15 回补时检索材料化学式、同义名、目标测量、论文/预印本以及学位论文和专利线索。",
+    "limitations": [
+      "已确认固溶体系有先行工作；差异限定为测量和对照设计。可制备性以及对具体方案的新颖性仍需核对。"
+    ],
+    "ideas": [
+      {
+        "id": "cs-cobalt-mixed-halide-esr",
+        "kind": "measurement",
+        "status": "needs-review",
+        "paperIndex": 2,
+        "title": "混卤 Cs₂CoCl₄₋ₓBrₓ 的局域各向异性是否先于链交换改变",
+        "material": "正交 Cs₂CoCl₄₋ₓBrₓ 的低 Br 组成序列",
+        "evidenceLevel": "已知固溶体系上的待查新测量假设。未生长新样品、未算能级。",
+        "question": "低 Br 取代后，局域双重态间隔和有效链交换能否仍由一套单离子参数解释？",
+        "prediction": "若少量 Br 优先改变 Co 的局域配位且存在明显静态环境差异，15 K 的 A/B 线中心联立拟合将先出现超出纯样误差的展宽或分支，而低温有效链尺度变化较小。若只是统一改变晶场，则应能用一个连续变化的 D 同时拟合 a、b 两方向，无须引入第二配位环境。",
+        "basis": "母体 ESR 中 D/kB≈7.9 K，链内裸交换引用值 J/kB≈0.74 K。Cl⁻→Br⁻ 为同族等价配体替换，名义 Co²⁺仍为 3d⁷，磁位点未被稀释。六配位数值不直接用于四面体；Br 的体积、可极化性和更强配体 SOC 可改变 Co–X 共价性和晶场。交换同时依赖间接卤素重叠及键角，所以 D/J 的方向不预设。",
+        "difference": "学位论文已经制备并研究该固溶系列。本方案的具体差别是用 3–15 K、a/b 两轴、多频 ESR 区分单一 D 漂移与局域 D 分布，并与同片低温交换标尺交叉校准。",
+        "plan": [
+          "先对纯 Cl、两个低 Br 实测组成和可获得的 Br 端元做粉末/单晶 XRD、WDS 或微区 EDS。先复现已有水溶液生长文献。",
+          "每块晶体测两方向 A/B 温变和 15 K 频散，可先用图 1 和 4 的代表频点；固定仪器响应后比较单一晶场与两环境拟合，再用低温磁化或热容约束 J。"
+        ],
+        "controls": [
+          "纯 Cs₂CoCl₄ 作同轴和仪器漂移对照；Br 端元只作光谱参考，只有结构相同才用于连续趋势。",
+          "同一名义成分两批晶体；比较正交主相与高 Cs 杂相，记录实际 Br 与空间均匀性。"
+        ],
+        "falsifiers": [
+          "谱线在整个低 Br 序列均可由同一窄 D 分布描述，或换向后异常不再出现，否定多环境预测。",
+          "出现 Cs₃CoX₅、相分离、铁磁杂质或样品组成无法重现，停止把超额线宽归因于内禀晶场。"
+        ],
+        "feasibility": "水溶液晶体制备和衍射可先独立进行，40–250 GHz 与高场需 ESR 合作平台。",
+        "risks": "已知体系有共晶/非共晶结晶条件、杂相和潜在占位偏好。稀释 Br 后的相稳定性、新颖性与成分均匀性待核。",
+        "nextStep": "先复现纯 Cl 的 a、b 轴双重态参数，再检查低 Br 晶体是否满足衍射与均匀性门槛。",
+        "queries": [
+          "Cs2CoCl4-xBrx mixed system electron spin resonance",
+          "Cs2Co(Cl1-xBrx)4 crystal ESR Br substitution thesis patent",
+          "Cs2CoCl4 Br anisotropy D Kramers resonance"
+        ],
+        "remainingChecks": [
+          "公开网页、学位论文第 5 章和晶体学会议摘要已核，尚未全文排查未索引 ESR 会议、专利权利要求与数据库。"
+        ],
+        "priorArt": [
+          {
+            "title": "Thermodynamics of the Spin-Chain Compounds Cs₂CoCl₄ and Cu(C₄H₄N₂)(NO₃)₂",
+            "url": "https://kups.ub.uni-koeln.de/6256/1/dissertation_breunig_2015.pdf",
+            "overlap": "第 5 章明确已经有混卤晶体和热力学，组成自身已有报道。",
+            "access": "科隆大学公开学位论文第 5 章及目录"
+          },
+          {
+            "title": "混卤铯钴卤化物的晶体学会议报告",
+            "url": "https://dgk-home.de/wp-content/uploads/2025/06/DGK_2019_Abstractband.pdf",
+            "overlap": "报告了母液条件、混溶边界和 214 型若干晶体。",
+            "access": "公开会议摘要"
+          }
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "title": "Thermodynamics of the Spin-Chain Compounds Cs₂CoCl₄ and Cu(C₄H₄N₂)(NO₃)₂",
+        "url": "https://kups.ub.uni-koeln.de/6256/1/dissertation_breunig_2015.pdf",
+        "reason": "同一替代体系已有报道，剔除以材料组成自身为创新点的路线。"
+      }
+    ]
   }
 ] as const;

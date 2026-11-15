@@ -19,7 +19,7 @@ test('similarity explanations and furnace export are specific',()=>{const same={
 
 test('research hypotheses retain prior art, falsifiers and uncertainty without inflating paper counts',async()=>{
  const r=JSON.parse(await readFile(new URL('../content/reports/2026-10-15.json',import.meta.url),'utf8'));
- const entries=buildResearchIdeas([{date:'2026-10-14',papers:[]},r]);assert.equal(entries.length,1);assert.equal(entries[0].ideas.length,2);assert.equal(r.papers.length,4);
+ const entries=buildResearchIdeas([{date:'2026-10-14',papers:[]},r]);assert.equal(entries.length,1);assert.equal(entries[0].ideas.length,2);assert(entries[0].ideas.every(idea=>r.papers[idea.paperIndex-1]));
  const bundle=structuredClone(r.researchIdeas);bundle.ideas[0].status='proven-first';assert.throws(()=>validateResearchIdeas(bundle),/首创/);
  bundle.ideas[0].status='needs-review';bundle.ideas[0].falsifiers=[];assert.throws(()=>validateResearchIdeas(bundle),/falsifiers/);
 });

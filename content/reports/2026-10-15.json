@@ -1,9 +1,9 @@
 {
   "date": "2026-10-15",
   "issue": "051",
-  "searchWindow": "北京时间2026-10-15检索；本期采用2026-10-13至10-15三个自然日的正式发表/官方公告窗口，入选实际均为14日。arXiv仍返回14日批次，15日批次未核实，不作15日零新增断言。预印本提交日期逐篇分列（10、10、12日UTC），以14日官方公告身份回溯补读。",
-  "headline": "4篇强相关补读，4篇公开正文精读：PtSe₂约束生长、hBN选面、分子插层Josephson与正式PRX赤铁矿。15日arXiv批次仍待核实。",
-  "hotspot": "两条主线：盖层和衬底会共同选择生长路径；插层、磁畴和几何会改变物性证据。分清局域形貌/化学稳定、非互易/配对态、多极响应/静态序参量。不是用篇数取代全文核验，亦不把旧提交日期写成今天。",
+  "searchWindow": "北京时间 2026-10-15 00:00–23:59 的初投，以及出版社所列在线日期；于 2026-11-15 回补。官网留档显示美东 10 月 14 日公告，260 新投/60 交叉/158 替换；15 日原留档仍为 14 日，尚未独立核准 15 日公告数。原四篇仍归为 14 日公告或期刊补读。另从 arXiv API 核对北京时间该日的 99 条初投记录。",
+  "headline": "补入 15 日正式发表的铜氧化物莫特界面；保留 14 日补读记录",
+  "hotspot": "铜氧化物 p–n 界面的两种输运几何给出同量级高电阻面积积，支持绝缘势垒；莫特平台及厚度还需要局部载流子证据。另可按当天正式发表日期找到 Nature Physics、PRX、Wiley 的已收录论文。",
   "searchTerms": [
     "实际检索于北京时间2026-10-15约09:59开始。先核查15日正式期刊在线/接受目录与Crossref，再查arXiv；目前未核准可进入本期实验主线的15日新稿，采用13–15日公告/发表窗口补读14日候补。15日arXiv批次尚未从官方页面核实，因此不是“15日零新增”的结论。",
     "APS逐查PRL/PRB/PR Materials/PR Research/PR Applied/PRX/PRX Quantum与PRA/PRC/PRD/PRE/RMP/PRAB/PR Fluids Recent；主要材料刊Accepted也核查，首屏多为14/13日。回溯PRX实验候选1纳入1（赤铁矿）。PRX任意S自旋冰为理论模型，非本期实验优先；其他量子信息/核物理/流体不纳入。Accepted中NiTe2O5压磁、MnBi2Te4掺杂等仍是相关补读候选，未称无关或已经全文读完。官网全量15日数未知。",
@@ -16,7 +16,9 @@
     "arXiv纳入3：PtSe2约束生长、hBN晶面选择、分子Josephson。v1提交分别10/10/12日，均在14日官方new中，按公告日纳入13–15窗口，不能表述成提交也在近三天。14日简报6篇全部保留且不重复计数。hBN复用2022实验，新增DFT与索引讨论单列。",
     "相关但未入选不等于擦边：SnTe退火/WAL、FeTeSe kink、GdRu2Si2 CDW、RuCl3 B/T、Fe5GeTe2 Griffiths、misfit NbS2 STM、Co2MnAl厚膜、GaON等摘要已复核，列待精读。Bi2Te3/FeTe零能峰需要严格区分MZM与普通束缚态；TiSe2已指正式NatComm需核准首发/去重；分子kagome与单anyon器件较专门，本期优先生长与插层。这些没有伪写已精读或全部弱相关。更新稿UTe2、FeSe等未逐版diff，暂不以旧v1凑数。",
     "访问：入选4，公开正文可访问4，实际精读4，仅摘要0；hBN与Josephson附SI已读，赤铁矿附录A–G已读，PtSe2独立SI待补。公开PDF/HTML顺序取得，无可验证已登录浙大aTrust/RVPN/WebVPN/CARSI会话，机构访问未成功；不冒称使用机构权限，不下载受限订阅PDF、不批量下载、不调用OpenAI API。",
-    "本期是强相关补读精选，不是15日来源全量核查已经无遗漏。受限正式目录、15日官方arXiv批次、未逐字复核的摘要/版本差异保留在补查清单；不得发布“零新增状态页”。邮件只写HTML，不建草稿不发送。"
+    "本期是强相关补读精选，不是15日来源全量核查已经无遗漏。受限正式目录、15日官方arXiv批次、未逐字复核的摘要/版本差异保留在补查清单；不得发布“零新增状态页”。邮件只写HTML，不建草稿不发送。",
+    "回补复核按 DOI、规范化题名和 arXiv ID 与历史期去重；已入库的同日论文链接到原精读，不二次计数。",
+    "Crossref 的 online-pub-date 和 pub-date 分开核对，正式在线日期以出版社 Published 或 Published Online 为准；期次、接受和正式日期分列。"
   ],
   "papers": [
     {
@@ -78,7 +80,10 @@
           "title": "复现验收：把“长出来”变成可比较的数据",
           "text": "建议为每炉建立三层验收：先用不挑位置的低倍面扫描统计覆盖率，再在预先规定的网格点测厚度/晶向，最后从其中随机选点做原子分辨。否则盖层样品只展示好区域、无盖层展示孔洞，会产生选择偏差。连续覆盖也不等于电学连续，晶界、rGO并联和残余Pt都能改变导电；后续输运要有独立rGO参照及金属Pt残留上限。若要声称半导体特征，应排除碳膜短路与接触势垒造成的表观激活，不从层数估计直接推带隙。文中优点是已主动收缩热稳定性的措辞，复现者应保留同样边界。温度并非唯一控制量：实际样品温度、气体停留时间、Se蒸气与GO还原先后顺序都会改变反应。单温区简化装置，却让源与样品的化学势耦合更强，跨炉迁移配方时应先建立温度与质量变化标定。"
         }
-      ]
+      ],
+      "titleOriginalMetadata": "Graphene-Confined Growth of Few-Layer PtSe2 via One-Step Selenization",
+      "titleZh": "一步硒化法在石墨烯限域下生长少层 PtSe₂",
+      "readingStatus": "preprint"
     },
     {
       "category": "晶体生长和物性调控",
@@ -139,7 +144,10 @@
           "title": "复算验收：避免把接近的能量差解释得过满",
           "text": "本稿适合作为界面能计算的检查清单。首先问自由hBN参考是否保留与吸附态相同面内应变，否则黏附与应变松弛混在一起。其次问表面积归一和双面薄板因子是否一致，再问不同晶面使用的层厚、固定层、真空和原子数是否已收敛。作者已给出超胞选择与数值精度，读者可据此挑最接近的两个模型做敏感性检查，而不必一开始重算全部大超胞。对实验来说，清洁本身的退火也会重排台阶，需要清洁后未通前驱体、仅热处理的空白。若只有“前后”两张图，不能决定重构发生在吸附、分解、成核还是降温阶段；原位时间分辨将比继续增加终态晶面照片更能区分机制。角度表和文字在少数晶面有不一致，比较必须注明使用的定义，不能静默替作者修正后再宣称误差消失。"
         }
-      ]
+      ],
+      "titleOriginalMetadata": "Selective faceting induced by Hexagonal Boron Nitride on curved Platinum substrate",
+      "titleZh": "六方氮化硼在弯曲铂衬底上诱导的选择性刻面化",
+      "readingStatus": "preprint"
     },
     {
       "category": "高温与非常规超导",
@@ -200,7 +208,10 @@
           "title": "统计验收：效率不是无误差的常数",
           "text": "正负开关分布应保存完整形状、样本数和温漂时间序列，检查扫描顺序是否与缓慢漂移相关。不能将两个均值之差直接除以各自分布宽度就当作配对显著性；应考虑同冷却周期内相关性，并给出跨器件而不只是跨扫描的不确定度。效率的分母也含随机量，宜由原始扫描重采样传播，而不是把正负电流误差当完全独立。本文已做扫向、等待和冷却控制，这正是可复用的实验规范，但尚未提供全部器件台账供外部审计。倒置器件通常是另一只样品，厚度和势垒差异需要纳入；追加插层虽为同器件，化学处理也会改接触及应力。最有说服力的下一步是把相位直接探测与同器件化学控制连接，令“内部相位”的解释具有比普通不均匀结更独特的可证伪预测。"
         }
-      ]
+      ],
+      "titleOriginalMetadata": "Molecule-intercalated van der Waals Josephson junctions uncover complex multiband superconductivity",
+      "titleZh": "分子插层范德华约瑟夫森结揭示复杂多带超导",
+      "readingStatus": "preprint"
     },
     {
       "category": "磁性、拓扑与自旋",
@@ -261,7 +272,73 @@
           "title": "误差验收：百万分之几信号怎样防止过度解释",
           "text": "此类测量的难点不是取得一条有峰曲线，而是在每个反转操作后维持光斑、电极和电子学状态可比。建议交错采集正负畴与参考能量，而不是先扫完一个畴再换另一个，以减小束流与探测器缓慢漂移。锁相同相/正交分量、不同频率及空白电极应一起留档，电容耦合和电热的频率行为可能与目标不同。翻片尤其要记录面内方位和有效电压，避免几何误差被吸收到任意振幅参数。对于计算，拟合得到的统一Fe位移只是所选畸变基底中的有效参数；若其他允许声子模也能给类似谱，应报告参数相关性。用独立介电或结构实验限制畸变幅度，再去分解谱学多极，会比单凭幅度一致更有约束力。实验对称性证据可以很强，同时微观反演仍有不唯一性，两者不矛盾。"
         }
-      ]
+      ],
+      "titleOriginalMetadata": "Electric-Field-Induced X-Ray Nonreciprocal Dichroism in Hematite",
+      "titleZh": "赤铁矿中的电场诱导 X 射线非互易二色性",
+      "readingStatus": "formal"
+    },
+    {
+      "title": "Mott insulating interface in cuprate-based p–n bilayers",
+      "titleZh": "铜氧化物 p–n 双层中的莫特绝缘界面",
+      "doi": "https://doi.org/10.1103/kxk6-55jg",
+      "fullText": "https://journals.aps.org/prb/pdf/10.1103/kxk6-55jg",
+      "journal": "Physical Review B",
+      "material": "PCCO/LSCO 外延双层",
+      "category": "高温与非常规超导",
+      "authors": "Maxime Dion, Guo-zhen Zhu, Guillaume Hardy, Gianluigi A. Botton, Patrick Fournier",
+      "institutions": "舍布鲁克大学、曼尼托巴大学、麦克马斯特大学、加拿大光源",
+      "date": "2026-10-15 正式发表（2017 年公开学位论文已有相关实验）",
+      "access": "全文精读：APS 正式版 10 页，第 II 节 Methods、第 III–V 节、图 1–8；对照第一作者机构公开学位论文第 5、9 章部分。",
+      "method": "STO(001) 上 PLD、截面 STEM-HAADF/EELS、三种四端输运",
+      "conclusion": "双层本身均有超导转变，结构上直接接触的界面却表现出均匀性较好的高阻隧穿。莫特平台是结合结构和输运得出的解释，局部填充数与势垒厚度仍需直接核验。",
+      "sections": [
+        {
+          "title": "问题、样品和生长",
+          "text": "作者用电子掺杂的 Pr₁.₈₅Ce₀.₁₅CuO₄（PCCO）和空穴掺杂的 La₁.₈₅Sr₀.₁₅CuO₄（LSCO）检验界面耗尽能否把 CuO₂ 层带回近半填充。实验是在 STO(001) 上先沉积 c 轴取向 LSCO，再覆盖 c 轴取向 PCCO，两层目标厚度各约 100 nm。样品制备的重点是抑制绝缘杂相而且维持两端超导。衬底于 30 mTorr O₂ 下升至 840 °C，LSCO 在 O₂、PCCO 在 N₂O 下沉积。中间在 O₂ 气氛停 4 min，再换气，同温生长 PCCO，最后关进气并急冷。PCCO 靶过量 CuO，LSCO 靶是否也富 CuO 是一项可对照的工艺变量。主文未给原料纯度、过量 CuO 的精确配比、所有样品的激光能量密度、降温速率或产率。"
+        },
+        {
+          "title": "质量与最重要的对照",
+          "text": "样品 A 只有 PCCO 靶富 CuO，2θ 约 32° 和 32.7° 的峰及截面 HAADF 图皆显示界面有稀土氧化物层。同样富 CuO 的两种靶制成的样品 B 显示直接界面，仍有约每 25 个 LSCO 原胞一个失配位错，与约 4% 失配相符。图 3 的 EELS 在稀土列附近看到有限宽度的 La/Pr 信号过渡，多数显著阳离子扩散不超过约 3 nm，La 是例外。氧 K 边没有明显变化，作者说明极小氧化学计量差异可能低于灵敏度。图 1–3 的截面主要是 A、B，输运用 C、D；两组由相似的衍射筛选条件连接。这个交叉批次关系是复现时应优先收紧的证据缺口。"
+        },
+        {
+          "title": "三种输运几何与数值",
+          "text": "图 4 从 PCCO 顶部接触做横向四探针，100 μA、0 T 测量中样品 C 约 22.5 K 有第一个转变，约 17 K 有电阻峰并在第二个转变后趋零。顶部电流进入底层须穿过界面，因此拐点依赖电压电极位置。图 5 用电压分布拟合电流转移长度 λ=320±20 μm。图 7 用离散岛把电流约束为穿界面，五个面积的电导在 17 K 近似随面积变化，界面电阻面积积 RA 在 2 K 约 0.5 Ω·mm²，17 K 约 0.15 Ω·mm²。由转移长度与膜参数估得约 0.20±0.05 Ω·mm²，提供不同几何的相互校验。上层进入正常态后，面内分流增强，界面岛测量的简化解释不宜外推到该温区。"
+        },
+        {
+          "title": "最强证据、推断和替代解释",
+          "text": "图 8 在 2 K 的归一化微分电导显示不同面积岛曲线接近，并有偏压不对称与零偏凹陷；将 2 K 曲线单纯热展宽到 16 K 得不到实验曲线。两侧超导体在远离界面仍可作低阻电极，而谱中未见典型相干峰。观察数据支持绝缘势垒，作者进一步用半填充附近莫特平台解释高 RA。约 5–50 nm 的厚度来自结合其它材料电阻率的估算，未直接测得界面厚度或载流子逐层分布。氧不足/过量、位错应变与扩散被按所需厚度和数量级讨论，局部氧变化及少数旁路通道仍值得检验。热展宽排查也依赖所选低温曲线及温度模型。"
+        },
+        {
+          "title": "一炉和下一次测量",
+          "text": "同批制成两侧靶都富 CuO 与单侧富 CuO 的样片，保留未刻蚀见证区，并在每片做 XRD 检索杂相。优先从同一输运芯片未刻蚀区取截面 STEM/EELS，先确认化学直接接触，再测至少三种岛面积与零偏电导。需要 PPMS、PLD、光刻和截面合作。面积归一失效先排查边缘漏电、接触几何和离子刻蚀损伤。若高 RA 与稀土氧化物信号同向变化，应先判别制备杂相。要进一步验证莫特解释，可选择成分和氧历史一致的 p–p 双层作基线，在保持氧处理一致的 p–n 组监测可标定的界面载流子谱权重。仅当势垒随界面填充调节而可逆变化并排除热循环漂移，才增强该机制的证据。"
+        },
+        {
+          "title": "为什么两套几何给一致量级很重要",
+          "text": "横向四端测量往往被理解为膜的本征电阻，这个样品只有顶层直接接触，电流路径还受上下层电导及界面阻抗共同决定。电压剖面有独立于端到端电阻的形状约束，用它给模型中的转移长度后，可以预测改变针距对电阻峰的影响。跨界面原位测量通过刻蚀后离散岛约束路由，2 K 温度足够低时，五块不同面积的归一化微分电导近似重合。两种方法都需要检查电流通路假设，但可用不同几何间数量级接近，降低某一套几何接触误差单独导致结果的可能。建议保留岛位置和尺寸的照片，以及所有接线与正负偏压原始值；电导的面积标度若只在一小个温区成立，要与两层各自转变温度同步解读。"
+        },
+        {
+          "title": "原子尺度证据还有什么缺口",
+          "text": "截面图能区分是否有连续稀土氧化物夹层，并可给出典型位错间隔；它也让样品的“干净”有了可以在实验中操作的定义。二维投影里看到结构连续，并不能自动获得三维成分均匀性。EELS 逐面能谱受通道效应、束流展宽和信噪限制，单条氧边谱线平坦不足以把极小氧差完全排除。目标厚度与电阻模型使用的有效导电厚度也可能不同。建议以独立的未刻蚀对照面复核膜厚，再用空间分辨谱对比位错核心和无位错区。如果只有稀少位错通道导电，扩大面积时数据的散布和统计可能不同于均匀夹层，可比较多个面积尺度及芯片内不同位置。"
+        },
+        {
+          "title": "怎样做一次更强的鉴别实验",
+          "text": "选择同一衬底批、同层厚并使用同一刻蚀工艺，做 p–n、p–p 和保留单层的见证片；气体切换流程的单独对照可以监测生长记忆。样品应先以结构表征筛选，再用三个岛电极重复穿层低偏压测试。若准备做局域电子谱，记录温控、电子束剂量和样品制备可能引入的氧损失。在界面氧历史及结构相同条件下，可再改变两侧名义掺杂、检查面积积是否与错配填充程度而非位错密度共变。若仅改变空气暴露或退火就能重现绝缘边界，氧化学过程优先于电荷转移解释；若载流子相关谱权重和界面阻抗随填充同时可逆变化，则更支持莫特平台。此顺序允许较早淘汰因材料制程不稳定而无法解释的样片。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "优先读界面质量与尺度对照",
+        "first": "图 1–3 的两种靶对照；随后读图 7–8 的面积标度和微分电导。",
+        "focus": "区分 RA 实测、λ 拟合和势垒厚度估算。",
+        "next": "同片做 XRD、岛式四端输运和截面谱学，接回工艺批次。"
+      },
+      "tags": [
+        "正式期刊",
+        "中英文标题"
+      ],
+      "rating": "★★★★★",
+      "versionNote": "按 APS 正式卷期和 Published 日期记录；此次补读正文。 第一作者 2017 年学位论文已公开同方向实验，本站历史目录未发现该 DOI；新增统计口径为正式期刊发表日期。",
+      "selectionStatus": "today-formal",
+      "readingStatus": "formal"
     }
   ],
   "figures": [
@@ -276,137 +353,2943 @@
       "title": "赤铁矿电场：峰值电压与RMS的换算",
       "caption": "根据PRX 16,041015 Methods和图2信息重绘，并非论文原图。厚50 μm、999 Hz，按E_RMS=V_peak/(√2t)计算。仅解释实验驱动归一化，不代表额外实测、击穿阈值或拟合谱强度。",
       "source": "https://doi.org/10.1103/p5ry-x2wr"
+    },
+    {
+      "src": "/reports/2026-10-15/mott-interface-ra.svg",
+      "title": "PCCO/LSCO 界面电阻面积积",
+      "caption": "根据论文信息重绘，并非论文原图。APS 正式版图 7、第 V 节，原文版权归 APS。零偏极限 2 K 和 17 K 的 RA 为约值，支持降温时势垒更高阻。仅两个温点，不决定激活模型、局部填充或势垒厚度。",
+      "source": "https://doi.org/10.1103/kxk6-55jg"
     }
   ],
   "readingAudit": {
-    "candidateAccessibleFullTexts": 4,
-    "fullReads": 4,
+    "candidateAccessibleFullTexts": 5,
+    "selectedAccessibleFullTexts": 5,
+    "fullReads": 5,
+    "earlyManuscriptReads": 0,
+    "siOnly": 0,
     "abstractOnly": 0,
     "institutionalSuccess": false,
-    "pending": [
-      {
-        "id": "2610.15022v1",
-        "reason": "独立SI S1–S4未附公开PDF，正文已读"
-      },
-      {
-        "source": "arXiv 15日公告",
-        "reason": "官方new/recent仍显示14日，API交叉核验受限；批次/摘要全量人工复核和更新稿逐版diff待补"
-      }
-    ]
+    "summaryScope": "本期独立入选论文。已入库交叉链接另列。"
   },
   "sourceAudit": [
     {
-      "source": "Science",
-      "crossrefOnlineHits": 0,
-      "officialFullDayCount": null,
-      "included": 0,
-      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+      "source": "PRL",
+      "attempts": [
+        [
+          "online-pub-date",
+          200,
+          59,
+          "https://api.crossref.org/journals/1079-7114/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          200,
+          59,
+          "https://api.crossref.org/journals/1079-7114/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 13,
+      "uniqueInIssue": 0,
+      "rows": [
+        {
+          "doi": "10.1103/rlxh-smd1",
+          "title": "Statistical Limitations on Detecting Diamagnetic Suppression of Reconnection at Earth’s Magnetopause",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题候补，关联强度或在线日期待复核"
+        },
+        {
+          "doi": "10.1103/bpc2-zlx5",
+          "title": "Digital Dissipative State Preparation for Frustration-Free Gapless Quantum Systems",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/ffck-p49v",
+          "title": "Quantum and classical noise characteristics of parametrically driven cavity solitons in dispersive Kerr resonators",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/vzp5-ttyh",
+          "title": "Precision Hypernuclear Structure from Interaction Cross Sections",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/xl66-85fx",
+          "title": "Comment on “Role of matter interactions in superradiant phenomena”",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/clx2-699p",
+          "title": "Realization of valley-controlled orbital angular momentum via inter-orbital coupling",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/52gk-hh7y",
+          "title": "Real-Time String Dynamics in a 2 + 1 D Non-Abelian Lattice Gauge Theory: String Breaking, Glueball Formation, Baryon Blockade, and Tension Reduction",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/wybf-r4gm",
+          "title": "Universal scaling function for giant-graviton operator product expansion coefficients",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/3np8-ljj1",
+          "title": "Stress Relaxation Driven by Elementary Plastic Events in Nonaging Liquid Foams",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/2w21-qs38",
+          "title": "Large-Scale Implementation of Quantum Subspace Expansion with Classical Shadows",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/rmlj-qz1m",
+          "title": "Bosonic correlations are spurious for classical states",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/6dfx-zb87",
+          "title": "Thin-Film Drainage Becomes Singular at Saddles",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/9xzk-bg72",
+          "title": "Thermodynamically Consistent Machine Learning Potentials for Constant-Potential Simulations",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        }
+      ]
     },
     {
-      "source": "Science Advances",
-      "crossrefOnlineHits": 0,
-      "officialFullDayCount": null,
-      "included": 0,
-      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+      "source": "PRB",
+      "attempts": [
+        [
+          "online-pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2469-9969/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "online-pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2469-9969/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2469-9969/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2469-9969/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 0,
+      "uniqueInIssue": 0,
+      "rows": []
     },
     {
-      "source": "Advanced Materials",
-      "crossrefOnlineHits": 0,
-      "officialFullDayCount": null,
-      "included": 0,
-      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+      "source": "PRMaterials",
+      "attempts": [
+        [
+          "online-pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2475-9953/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "online-pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2475-9953/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          200,
+          19,
+          "https://api.crossref.org/journals/2475-9953/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 5,
+      "uniqueInIssue": 0,
+      "rows": [
+        {
+          "doi": "10.1103/l9ny-xs2d",
+          "title": "Fully analytical description of the compositional trends in III-V ternary nanomaterials based on group V intermix",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/dfcj-rb7w",
+          "title": "Oxygen deficiency and valency reconstruction in multiferroic V-doped HfO 2",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/jljs-ldv5",
+          "title": "Development and applications of an extended modified embedded-atom method interatomic potential for binary Ni-V alloys",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/7w7g-bxb2",
+          "title": "Recovering long-range cumulative response to geometric frustration in quasi-one-dimensional systems, mediated by constitutive softness",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/r8z5-fl8r",
+          "title": "Atomic-scale phase-field modeling with many-body interactions",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        }
+      ]
     },
     {
-      "source": "Advanced Functional Materials",
-      "crossrefOnlineHits": 0,
-      "officialFullDayCount": null,
-      "included": 0,
-      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+      "source": "PRX",
+      "attempts": [
+        [
+          "online-pub-date",
+          200,
+          11,
+          "https://api.crossref.org/journals/2160-3308/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2160-3308/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          200,
+          11,
+          "https://api.crossref.org/journals/2160-3308/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 5,
+      "uniqueInIssue": 0,
+      "rows": [
+        {
+          "doi": "10.1103/z8gf-q6rh",
+          "title": "Self-organization of invasive breast cancer driven by the interplay of active and passive nematic dynamics",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/b884-4h1s",
+          "title": "Superconducting half-dome in bilayer nickelates",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "已在 2026-10-22-major-journals 收录，按版本去重"
+        },
+        {
+          "doi": "10.1103/7jwl-k8xg",
+          "title": "Non-Abelian Quantum Signal Processing: A Composite Pulse for Fast Analytic Control of Hybrid Oscillator-Qubit Processors",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/ssn3-44gk",
+          "title": "Emergence of open chemical reaction network thermodynamics within closed systems",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/jxlt-2slk",
+          "title": "Nonsymmorphic Time-Reversal-Doubled Axion Insulators",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        }
+      ]
     },
     {
-      "source": "Nano Letters",
-      "crossrefOnlineHits": 2,
-      "officialFullDayCount": null,
-      "included": 0,
-      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+      "source": "PRResearch",
+      "attempts": [
+        [
+          "online-pub-date",
+          200,
+          32,
+          "https://api.crossref.org/journals/2643-1564/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2643-1564/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2643-1564/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 6,
+      "uniqueInIssue": 0,
+      "rows": [
+        {
+          "doi": "10.1103/7765-s8lk",
+          "title": "Long-time exponential decompositions of non-Markovian Gaussian baths",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/wv9d-2wjc",
+          "title": "SIETAS model: Swarm-informed triggering, earthquake diffusion, and multiscaling applied to the current Campi Flegrei unrest",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/n87d-5krk",
+          "title": "Connectome modulates critical brain dynamics across local and global scales",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/j2db-xh7h",
+          "title": "Efficient simulation of Bose-Einstein condensates in nontrivial topologies",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题候补，关联强度或在线日期待复核"
+        },
+        {
+          "doi": "10.1103/rjj8-wzdq",
+          "title": "Instability-enhanced quantum sensing with tunable multibody interactions",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/y4cy-9l8m",
+          "title": "Remote synchronization and critical-like breakdown in star networks of oscillator populations",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        }
+      ]
     },
     {
-      "source": "ACS Nano",
-      "crossrefOnlineHits": 0,
-      "officialFullDayCount": null,
-      "included": 0,
-      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+      "source": "PR Applied",
+      "attempts": [
+        [
+          "online-pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2331-7019/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "online-pub-date",
+          200,
+          20,
+          "https://api.crossref.org/journals/2331-7019/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          200,
+          20,
+          "https://api.crossref.org/journals/2331-7019/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 6,
+      "uniqueInIssue": 0,
+      "rows": [
+        {
+          "doi": "10.1103/28lc-ykvy",
+          "title": "Editorial: Closing the Collection on Phononics and Metamaterials",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/nfw7-1ft1",
+          "title": "Giant staggered Dzyaloshinskii-Moriya vectors emerged in synthetic antiferromagnets with spatially alternating stress",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题候补，关联强度或在线日期待复核"
+        },
+        {
+          "doi": "10.1103/cr8c-79b6",
+          "title": "Depth-from-focus computing enabled by an optical Laplacian-of-Airy operator",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/vmkn-2hc8",
+          "title": "Unidirectional and collective emission of integrated quantum emitters",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/n5ty-nyzc",
+          "title": "Flat optics for analog computing: From fundamental mechanisms to advanced meta-processors",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/1d7n-ymgr",
+          "title": "Systematic analysis of shielding properties of magnetically shielded rooms",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题候补，关联强度或在线日期待复核"
+        }
+      ]
     },
     {
-      "source": "JACS",
-      "crossrefOnlineHits": 1,
-      "officialFullDayCount": null,
-      "included": 0,
-      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+      "source": "PRA",
+      "attempts": [
+        [
+          "online-pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2469-9934/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "online-pub-date",
+          200,
+          67,
+          "https://api.crossref.org/journals/2469-9934/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          200,
+          67,
+          "https://api.crossref.org/journals/2469-9934/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 16,
+      "uniqueInIssue": 0,
+      "rows": [
+        {
+          "doi": "10.1103/z62b-r5nt",
+          "title": "Reliable global entanglement distribution based on probabilistic photon sources",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/dgmd-fdmh",
+          "title": "Nonlinear subharmonic response and spectral shifts in bichromatically driven atomic magnetic resonance",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题候补，关联强度或在线日期待复核"
+        },
+        {
+          "doi": "10.1103/2xmp-wty8",
+          "title": "Optical trapping of low-refractive-index Mie particles using a single linearly polarized circular Airy beam",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/7kc4-gxhr",
+          "title": "Chirped-pulse adiabatic population transfer in a dissipative three-level ladder: Bath-dependent transfer via the multiple Davydov D 2 ansatz",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/37q3-92p9",
+          "title": "Geometric power capacity of coherent ergotropy in quantum batteries",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/wdz1-sbgg",
+          "title": "In-memory measurement-device-independent quantum key distribution",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/df22-8kb6",
+          "title": "Repulsive gravitational force as a witness of the quantum nature of gravity",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/qr1f-ctyp",
+          "title": "Ghost imaging with zero photons",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/mtyy-l197",
+          "title": "Magnetic atoms with a large electric dipole moment",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题候补，关联强度或在线日期待复核"
+        },
+        {
+          "doi": "10.1103/7zmt-rxc4",
+          "title": "Relativistic configuration-interaction perturbation-theory calculations of energy levels and g -factors in neutral plutonium",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/r1vc-w3dl",
+          "title": "Photons in media: A second-quantization scheme based on the optical Dirac equation",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/5qlk-4w51",
+          "title": "Matrix phase-space representations for quantum symmetries",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/sttx-pbqy",
+          "title": "Quantum analysis of a multifrequency laser with a photonic time crystal",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题候补，关联强度或在线日期待复核"
+        },
+        {
+          "doi": "10.1103/q42c-xphx",
+          "title": "Quantum algorithm for modular flow",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/1cbf-c3z1",
+          "title": "Bistable squeezing in a multimode circuit-quantum-acoustodynamics system",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/y3cj-jv95",
+          "title": "Stochastic multipath routing for high-throughput entanglement distribution in quantum repeater networks",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        }
+      ]
     },
     {
-      "source": "Chemistry of Materials",
-      "crossrefOnlineHits": 0,
-      "officialFullDayCount": null,
-      "included": 0,
-      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+      "source": "PRE",
+      "attempts": [
+        [
+          "online-pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2470-0053/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "online-pub-date",
+          200,
+          37,
+          "https://api.crossref.org/journals/2470-0053/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2470-0053/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2470-0053/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 15,
+      "uniqueInIssue": 0,
+      "rows": [
+        {
+          "doi": "10.1103/92jk-cj5x",
+          "title": "Percolation in the three-dimensional Ising model",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/m6s5-r1cq",
+          "title": "Gate control improves routing efficiency for periodic traffic",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/nxng-f58v",
+          "title": "Size effects in fluctuation-based damage mechanics in the semigrand canonical ensemble",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/g48r-vzs5",
+          "title": "Time-domain transient growth in non-Hermitian cascaded L C circuits",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/k5hq-js7c",
+          "title": "Resilience of hypernetworks under the impact of tolerance thresholds",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/mynf-m79v",
+          "title": "Eddy-viscosity-improved resolvent analysis of compressible turbulent channel flow",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/qbxp-7cbs",
+          "title": "Reply to “Comment on ‘Instabilities of rotating inclined buoyancy layers’ ”",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/8rb1-vlrh",
+          "title": "Getting rid of the ghosts: a toy-model of membrane melting",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/dd9y-9jc4",
+          "title": "Variational formulation of stochastic thermodynamics: Spatially extended systems",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/sy8c-3wkn",
+          "title": "Non-Markovian entropy production fluctuation theorem driven by a time-dependent electric field",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/n7yh-828k",
+          "title": "Full eigenstate thermalization in integrable spin systems",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题候补，关联强度或在线日期待复核"
+        },
+        {
+          "doi": "10.1103/jqyh-bf3d",
+          "title": "Comment on “Instabilities of rotating inclined buoyancy layers”",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/s1kf-3dvn",
+          "title": "Convergence criteria for self-consistent measures in bipartite networks",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/9q9z-5d6k",
+          "title": "Experimental study of the impact of ion wakes on the charges and dynamics of dust particles in a binary complex plasma",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/8jqr-lcb3",
+          "title": "Path-integrated electrostatic energization in laser-driven collisionless cylindrical convergence",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        }
+      ]
     },
     {
-      "source": "Crystal Growth & Design",
-      "crossrefOnlineHits": 0,
-      "officialFullDayCount": null,
-      "included": 0,
-      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+      "source": "PRC",
+      "attempts": [
+        [
+          "online-pub-date",
+          200,
+          22,
+          "https://api.crossref.org/journals/2469-9993/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          200,
+          22,
+          "https://api.crossref.org/journals/2469-9993/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 4,
+      "uniqueInIssue": 0,
+      "rows": [
+        {
+          "doi": "10.1103/rxbt-rh1p",
+          "title": "Measurement and analysis of the incomplete fusion strength function in the C 12 ( E lab = 4 A – 7 A MeV) + Te 130 system to probe entrance-channel dependence",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/h98v-cd4t",
+          "title": "Chiral effective field theory analysis of the (“hep”) reaction S factor and the (“hen”) reaction cross section",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/z145-rfy7",
+          "title": "Direct transfer to K 46 , 48 as a survey of the π ( s 1 / 2 ) − ν ( s d p f ) interaction",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/42rh-6j8x",
+          "title": "Zemach radii and nuclear structure effects in hyperfine splitting of lithium isotopes",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        }
+      ]
     },
     {
-      "source": "Journal of Crystal Growth",
-      "crossrefOnlineHits": 0,
-      "officialFullDayCount": null,
-      "included": 0,
-      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+      "source": "PRD",
+      "attempts": [
+        [
+          "online-pub-date",
+          200,
+          100,
+          "https://api.crossref.org/journals/2470-0029/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          200,
+          100,
+          "https://api.crossref.org/journals/2470-0029/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 18,
+      "uniqueInIssue": 0,
+      "rows": [
+        {
+          "doi": "10.1103/sxkx-sy9g",
+          "title": "Factorization conditions and causality for local measurements in QFT",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/b6jg-p8mr",
+          "title": "Quantum querying based on multicontrolled Toffoli gates for causal Feynman loop configurations and directed acyclic graphs",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/4v3y-d88x",
+          "title": "Demonstrating the use of the spherical Fourier Bessel basis for large scale clustering systematics discovery and mitigation with eBOSS",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/4cp8-sp7s",
+          "title": "Separability from multipartite measures",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/d5yf-3jb4",
+          "title": "Time-domain synthesis of gravitational-wave detector glitches using class-conditional derivative generative adversarial networks",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/8rg8-tmgg",
+          "title": "Calculating extremely high-energy bremsstrahlung in matter",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/fz75-ltnc",
+          "title": "Quasinormal modes as probes of black hole reentrant phase transitions",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/s4rn-6cdz",
+          "title": "Tidal heating and torquing of a rotating black hole by a test mass on generic orbits",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/p6j9-nlsc",
+          "title": "Observation of an altered a 0 ( 980 ) line shape in D + → π + η η",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/bm7v-csk4",
+          "title": "Dark matter in composite Higgs models with a scotogenic EFT",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/7vn8-nqh4",
+          "title": "Rotating Weyssenhoff fluids in linearized Einstein-Cartan theory",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/s66d-875w",
+          "title": "Estimating amplitude of matter density fluctuations in solar and supernova models using neutrino flavor evolution",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/kksx-247v",
+          "title": "Inpainting to search for premerger massive black hole binaries in realistic LISA datasets",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/xjql-1kl2",
+          "title": "Repulsive ultralight dark matter from the Hosotani mechanism",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/myvz-hlyp",
+          "title": "Implications of exclusive photon leptoproduction measurements for the proton charge-radius puzzle",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/jd25-5p7w",
+          "title": "Modular S 4 scotogenic model with flavored resonant leptogenesis",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/tptk-7718",
+          "title": "Finite density lattice QCD without extrapolation: Bulk thermodynamics with physical quark masses from the canonical ensemble",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/yt9z-lxz4",
+          "title": "Discovering the axiverse via fifth forces",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        }
+      ]
+    },
+    {
+      "source": "RMP",
+      "attempts": [
+        [
+          "online-pub-date",
+          200,
+          2,
+          "https://api.crossref.org/journals/1539-0756/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/1539-0756/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          200,
+          2,
+          "https://api.crossref.org/journals/1539-0756/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 0,
+      "uniqueInIssue": 0,
+      "rows": []
+    },
+    {
+      "source": "PRX Quantum",
+      "attempts": [
+        [
+          "online-pub-date",
+          200,
+          7,
+          "https://api.crossref.org/journals/2691-3399/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          200,
+          7,
+          "https://api.crossref.org/journals/2691-3399/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 3,
+      "uniqueInIssue": 0,
+      "rows": [
+        {
+          "doi": "10.1103/w3wp-9wc5",
+          "title": "Typical entanglement in anyon chains: Page curves beyond Lie group symmetries",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/5l6x-4377",
+          "title": "Λ -Enhanced Gray-Molasses Loading and EIT Cooling of Neutral Atoms in Nanophotonic Traps",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/ng8n-h3c6",
+          "title": "Consecutive Measurement Tradeoffs in Quantum Cryptography",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        }
+      ]
+    },
+    {
+      "source": "PRX Energy",
+      "attempts": [
+        [
+          "online-pub-date",
+          200,
+          2,
+          "https://api.crossref.org/journals/2768-5608/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          200,
+          2,
+          "https://api.crossref.org/journals/2768-5608/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 0,
+      "uniqueInIssue": 0,
+      "rows": []
+    },
+    {
+      "source": "PR Fluids",
+      "attempts": [
+        [
+          "online-pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2469-990X/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "online-pub-date",
+          200,
+          16,
+          "https://api.crossref.org/journals/2469-990X/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          200,
+          16,
+          "https://api.crossref.org/journals/2469-990X/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 2,
+      "uniqueInIssue": 0,
+      "rows": [
+        {
+          "doi": "10.1103/h7v1-p8sh",
+          "title": "Characterization of turbulence in a Schwarz Diamond monolith using time-resolved MRI",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1103/t43b-fpf7",
+          "title": "Source mechanism of flow-induced noise of a porous-coated cylinder: A coherence approach",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        }
+      ]
+    },
+    {
+      "source": "PR Accelerators",
+      "attempts": [
+        [
+          "online-pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2469-9885/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "online-pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2469-9885/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2469-9885/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2469-9885/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 0,
+      "uniqueInIssue": 0,
+      "rows": []
     },
     {
       "source": "Nature",
-      "crossrefOnlineHits": 0,
-      "officialFullDayCount": null,
-      "included": 0,
-      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+      "attempts": [
+        [
+          "online-pub-date",
+          200,
+          75,
+          "https://api.crossref.org/journals/1476-4687/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          200,
+          75,
+          "https://api.crossref.org/journals/1476-4687/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 8,
+      "uniqueInIssue": 0,
+      "rows": [
+        {
+          "doi": "10.1038/d41586-026-03336-0",
+          "title": "Daily briefing: Bleached corals revived by healthy neighbour’s touch",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/d41586-026-03233-6",
+          "title": "Margaret Hamilton obituary: computer scientist who pioneered software engineering and helped us get to the Moon",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/d41586-026-03178-w",
+          "title": "Is AI eroding PhD students’ critical thinking and analysis skills?",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/d41586-026-03152-6",
+          "title": "Give me the good news: four science stories to brighten your day",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/d41586-026-03329-z",
+          "title": "World’s timekeepers upend how they adjust time to avoid catastrophic ‘negative second’",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41586-026-11263-3",
+          "title": "Nearly half of reef-building corals face elevated relative risk of extinction",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/d41586-026-03238-1",
+          "title": "Orangutan mothers arrange play dates for their babies",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/d41586-026-03194-w",
+          "title": "ArXiv versus AI slop: will capping preprint submissions work?",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        }
+      ]
     },
     {
       "source": "Nature Physics",
-      "crossrefOnlineHits": 0,
-      "officialFullDayCount": null,
-      "included": 0,
-      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+      "attempts": [
+        [
+          "online-pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/1745-2481/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "online-pub-date",
+          200,
+          6,
+          "https://api.crossref.org/journals/1745-2481/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          200,
+          6,
+          "https://api.crossref.org/journals/1745-2481/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 3,
+      "uniqueInIssue": 0,
+      "rows": [
+        {
+          "doi": "10.1038/s41567-026-03468-0",
+          "title": "Reaction–diffusion competition drives anomalous relaxation of vitrimers",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41567-026-03492-0",
+          "title": "Monolayer van der Waals kagome lattice for high-temperature flat-band physics",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "已在 2026-10-16 收录，按版本去重"
+        },
+        {
+          "doi": "10.1038/s41567-026-03466-2",
+          "title": "Simultaneous high-fidelity single-qubit gates in a spin qubit array",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题候补，关联强度或在线日期待复核"
+        }
+      ]
     },
     {
       "source": "Nature Communications",
-      "crossrefOnlineHits": 1,
-      "officialFullDayCount": null,
-      "included": 0,
-      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+      "attempts": [
+        [
+          "online-pub-date",
+          200,
+          112,
+          "https://api.crossref.org/journals/2041-1723/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          200,
+          112,
+          "https://api.crossref.org/journals/2041-1723/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 42,
+      "uniqueInIssue": 0,
+      "rows": [
+        {
+          "doi": "10.1038/s41467-026-78690-8",
+          "title": "Microscale spatial fragmentation promotes bacterial survival under antibiotics",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78666-8",
+          "title": "USP28 potentiates endothelial necroptosis via deubiquitinating NMMHC IIA in septic male mice",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78657-9",
+          "title": "Electronic tuning of dynamic imine bonds enables programmable pore gating in metal–organic frameworks",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78630-6",
+          "title": "Rapid and versatile water-promoted oxidative [3+2] cycloaddition",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78675-7",
+          "title": "High fiber diet mitigates exposure risk of nanoplastics in male mice",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78615-5",
+          "title": "Genetic diversity and low-level infection of Malawi polyomavirus in pediatric patients in Brazil",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78597-4",
+          "title": "Brain-wide pathways for object identity and location are dominated by internal strategies",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78479-9",
+          "title": "Elevated prenatal IL-6 levels disrupt early patterns of hippocampal electrical activity and chloride homeostasis by targeting GABAergic signaling at perinatal stage",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78259-5",
+          "title": "Thromboxane A2 receptor signalling amplifies osteoclastogenesis in rheumatoid arthritis through ACSL1 associated mitochondrial oxidative metabolism",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78667-7",
+          "title": "Archean subduction-derived noble gases in the lithospheric mantle beneath the São Francisco Craton",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78647-x",
+          "title": "Coupling hfCas13d with Circular gRNA Array Precursors Extends RNA Knockdown and Improves Biocatalysis in Yeast",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78703-6",
+          "title": "Revisiting genome-guided RNA localization in bacteria",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78650-2",
+          "title": "Inherited lithospheric weakness enabled rapid stress transmission across Tibet",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78442-8",
+          "title": "A robust and accurate two-sample Mendelian randomization method with a large number of genetic variants",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-77733-4",
+          "title": "Electric fields control static charge during contact-friction-separation",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78148-x",
+          "title": "Klebsiella-dominant gut communities are associated with impeded oral rotavirus vaccine response in infants",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78660-0",
+          "title": "Polarization-controlled Floquet engineering in twisted photonic lattices",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78506-9",
+          "title": "Absorbing exceptional point of coherent vortex beams",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78352-9",
+          "title": "Photoreversible defect complexation dynamically modulates guest adsorption in metal-organic frameworks",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78344-9",
+          "title": "cPRIME enables endogenous mapping of genetic variant effects at RNA level",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78419-7",
+          "title": "SLITRK2 knockdown rescues axonal and functional neuromuscular junction deficits in human iPSC-derived mutant FUS-ALS motor neurons",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78188-3",
+          "title": "Spatial transcriptomics unveils the in situ cellular and molecular hallmarks of the lung in fatal COVID-19",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78595-6",
+          "title": "Designing nonlinear perturbative metamaterials that compute",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-70344-z",
+          "title": "Author Correction: Obesity-associated macrophages dictate adipose stem cell ferroptosis and visceral fat dysfunction by propagating mitochondrial fragmentation",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78614-6",
+          "title": "Spatial targeting and expansion prevention offer effective pathways to protect African maize from parasitic weeds",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78125-4",
+          "title": "Comparison of three pangolin coronaviruses showing distinct pathogenicity, transmissibility and potential for cross-species infection",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78728-x",
+          "title": "Potential exposure risk of global timber production, carbon stocking, and biodiversity to forest pests",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78287-1",
+          "title": "Divergent asymmetric synthesis of (–)-ganocins A–C and (+)-cochlearol B via a non-biomimetic strategy",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78026-6",
+          "title": "Genome-wide studies define genetic mechanisms of IgA vasculitis",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78272-8",
+          "title": "Human-enhanced tsunami hazard in large lakes",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-74239-x",
+          "title": "Aberrant one-carbon metabolism and ancestral genetics underlie edematous severe acute malnutrition",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78484-y",
+          "title": "Asymmetric synthesis of azabicyclo[2.1.1]hexanes via electrochemical haloamination of methylenecyclobutanes",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78607-5",
+          "title": "Tissue composition shapes differential skeletal integration strategies during axolotl limb regeneration",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-76954-x",
+          "title": "FKS1/2-variant independent mechanisms underlying the emergence of resistance in echinocandin-refractory Candida auris infections",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78696-2",
+          "title": "Closed-loop upcycling of residual lithium in LiFePO4 into tunable thin lithium metal electrodes",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78565-y",
+          "title": "Uhrf1 loss disrupts CTCF-associated chromatin organization during early mouse embryogenesis",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78242-0",
+          "title": "Regulating sodium deposition and interfacial chemistry via sulfur-embedded carbon spheres enables high-power Ah-level sodium-metal batteries",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78643-1",
+          "title": "Myosin filaments of vertebrate skeletal and cardiac muscle are highly similar, but not identical",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78301-6",
+          "title": "Nationwide implementation of digital non-communicable diseases screening in Indonesia’s primary care system",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78641-3",
+          "title": "Mechanistic insights into NET1–UNC5B complex formation and Its targeted disruption by NP137 fab and NET1 peptide competitors",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78681-9",
+          "title": "A multi-model analysis of hydrogen uptake in a climate-neutral Europe",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s41467-026-78411-1",
+          "title": "Acute priming using elevated fluid viscosity recovers young-like single-cell surveillance behaviors in aged human T cells",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        }
+      ]
     },
     {
       "source": "npj Quantum Materials",
-      "crossrefOnlineHits": 0,
-      "officialFullDayCount": null,
-      "included": 0,
-      "note": "15日索引数，不等于官网全量；逐轨异常/排除详见检索日志"
+      "attempts": [
+        [
+          "online-pub-date",
+          200,
+          0,
+          "https://api.crossref.org/journals/2397-4648/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          200,
+          0,
+          "https://api.crossref.org/journals/2397-4648/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 0,
+      "uniqueInIssue": 0,
+      "rows": []
     },
     {
-      "source": "APS/Physical Review",
-      "officialFullDayCount": null,
-      "included": 1,
-      "note": "回溯14日PRX赤铁矿；Accepted和Recent日期分别核对"
+      "source": "npj 2D Materials and Applications",
+      "attempts": [
+        [
+          "online-pub-date",
+          200,
+          1,
+          "https://api.crossref.org/journals/2397-7132/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          200,
+          1,
+          "https://api.crossref.org/journals/2397-7132/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 0,
+      "uniqueInIssue": 0,
+      "rows": []
     },
     {
-      "source": "arXiv",
-      "officialDate": "2026-10-14",
-      "new": 260,
-      "cross": 60,
-      "replacements": 158,
-      "included": 3,
-      "note": "15日批次未核实，回溯14日候补；非15日零新增"
+      "source": "Communications Materials",
+      "attempts": [
+        [
+          "online-pub-date",
+          200,
+          4,
+          "https://api.crossref.org/journals/2662-4443/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2662-4443/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2662-4443/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 2,
+      "uniqueInIssue": 0,
+      "rows": [
+        {
+          "doi": "10.1038/s43246-026-01370-z",
+          "title": "Ultrafast laser-engineered hollow TiO2 Nanoblisters for enhanced flexoelectricity",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s43246-026-01397-2",
+          "title": "Surface diffusion strategies for chemical vapor deposition of 2D Nb2C MXene films",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "已在 2026-10-22-major-journals 收录，按版本去重"
+        }
+      ]
+    },
+    {
+      "source": "Communications Physics",
+      "attempts": [
+        [
+          "online-pub-date",
+          200,
+          9,
+          "https://api.crossref.org/journals/2399-3650/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          200,
+          9,
+          "https://api.crossref.org/journals/2399-3650/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 2,
+      "uniqueInIssue": 0,
+      "rows": [
+        {
+          "doi": "10.1038/s42005-026-02853-8",
+          "title": "Design and Monte Carlo simulation of a phase grating moiré neutron interferometer to measure the gravitational constant",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1038/s42005-026-02911-1",
+          "title": "Capturing attosecond delays in electronic and vibrational dependent photoemission of NO molecules",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        }
+      ]
+    },
+    {
+      "source": "Nature Materials",
+      "attempts": [
+        [
+          "online-pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/1476-4660/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "online-pub-date",
+          200,
+          0,
+          "https://api.crossref.org/journals/1476-4660/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          200,
+          0,
+          "https://api.crossref.org/journals/1476-4660/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 0,
+      "uniqueInIssue": 0,
+      "rows": []
+    },
+    {
+      "source": "Science",
+      "attempts": [
+        [
+          "online-pub-date",
+          200,
+          2,
+          "https://api.crossref.org/journals/1095-9203/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/1095-9203/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/1095-9203/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 2,
+      "uniqueInIssue": 0,
+      "rows": [
+        {
+          "doi": "10.1126/science.aee7961",
+          "title": "Magic state cultivation on a superconducting quantum processor",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题候补，关联强度或在线日期待复核"
+        },
+        {
+          "doi": "10.1126/science.aeh2982",
+          "title": "Atomic functional site scaffolding in biopolymers with RFdiffusion3",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        }
+      ]
+    },
+    {
+      "source": "Science Advances",
+      "attempts": [
+        [
+          "online-pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2375-2548/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "online-pub-date",
+          200,
+          0,
+          "https://api.crossref.org/journals/2375-2548/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2375-2548/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2375-2548/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 0,
+      "uniqueInIssue": 0,
+      "rows": []
+    },
+    {
+      "source": "Advanced Materials",
+      "attempts": [
+        [
+          "online-pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/1521-4095/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "online-pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/1521-4095/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/1521-4095/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          200,
+          45,
+          "https://api.crossref.org/journals/1521-4095/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 9,
+      "uniqueInIssue": 0,
+      "rows": [
+        {
+          "doi": "10.1002/adma.75399",
+          "title": "Boundary Guided Liquid‐Bridge Adhesion for Robotic Pick‐and‐Release",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adma.75351",
+          "title": "Layered Spin‐Crossover Metal‐Organic Frameworks for Light‐Induced Control of Two‐Dimensional Quantum Materials",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "已在 2026-10-16 收录，按版本去重"
+        },
+        {
+          "doi": "10.1002/adma.75378",
+          "title": "A Critical Call for Mechanistic Investigations of Metal‐Bacteria Interactions",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adma.75390",
+          "title": "Advances in Bio‐Integrated Edge Computing Systems for Smart and Connected Health",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adma.75030",
+          "title": "Rare‐Earth‐Cluster‐Mediated Long‐Range Electronic Modulation Activates Zn Atomic Sites for Oxygen Reduction Catalysis",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adma.75398",
+          "title": "Cyclic Nonequilibrium Processing of Halide Solid Electrolytes for Low‐Pressure Operation of all‐Solid‐State Batteries",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adma.75382",
+          "title": "“Water‐in‐Water” Biphasic Electrolyte for Aqueous Zinc‐ion Batteries",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adma.75397",
+          "title": "High‐Performance Low Threshold Voltage n ‐Type OECTs via a Stepwise Cyanation of Quinoxaline‐Based Polymeric Semiconductor",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adma.75384",
+          "title": "Directional Confinement Governed Ion Transport for Efficient Actuation",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        }
+      ]
+    },
+    {
+      "source": "Advanced Functional Materials",
+      "attempts": [
+        [
+          "online-pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/1616-3028/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "online-pub-date",
+          200,
+          100,
+          "https://api.crossref.org/journals/1616-3028/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          200,
+          95,
+          "https://api.crossref.org/journals/1616-3028/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 42,
+      "uniqueInIssue": 0,
+      "rows": [
+        {
+          "doi": "10.1002/adfm.79037",
+          "title": "All‐Sputtered Oxide n‐p Heterojunction Anti‐Ambipolar Transistors for Semantic Segmentation Networks",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.79081",
+          "title": "Defect Engineering in Cesium Cadmium Perovskites Enables Multi‐Stimuli‐Responsive Luminescence for Temperature‐Resilient X‐Ray Radiography and Mechanosensing",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.78994",
+          "title": "Protein‐Engineered Iron Nanoclusters as Hybrid Theranostic Materials for MRI Monitoring and Treatment of Cardiac Fibrosis",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.79079",
+          "title": "Breaking the Psoriatic Inflammation–Proliferation Loop Through a Dual‐Engineered High‐Entropy Alloy Featuring Predictable Multi‐Enzyme Activity and STAT3‐Sponge Function",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.78890",
+          "title": "Electron‑Sponge S‑Scheme Heterojunctions via Mo–N Bridging Enable Highly Selective Photocatalytic CO 2 Methanation",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.78986",
+          "title": "A Miniaturized Autonomous Thermomagnetic Generator",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题候补，关联强度或在线日期待复核"
+        },
+        {
+          "doi": "10.1002/adfm.79093",
+          "title": "Formation of Twisted Copper Phosphide on Cu(111) Surface Predicted by Machine Learning Simulations",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.79069",
+          "title": "Electrostatic‐Sieving Zn 2+ Transport in a Biodegradable HSiO 2 ‐Crosslinked Cationic Hydrogel Enables Ultralong‐Life Zinc‐Ion Batteries",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.78964",
+          "title": "Remote Activation of Wnt Signaling and Cell Proliferation by E‐Cadherin Magnetomechanical Stimulation",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题候补，关联强度或在线日期待复核"
+        },
+        {
+          "doi": "10.1002/adfm.78961",
+          "title": "Photodynamic Therapy‐Primed and Enzyme Cascade‐Fueled in Situ Prodrug Self‐Assemblies for Self‐Amplifying Chemotherapy",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.79018",
+          "title": "Proximity‐Tuned Magnetic and Transport Anomalies in All‐Epitaxial Fe 5− x GeTe 2 /WSe 2 Van der Waals Heterostructures",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "已在 2026-10-16 收录，按版本去重"
+        },
+        {
+          "doi": "10.1002/adfm.79084",
+          "title": "Hydrogen‐Bonded Supramolecular Networks of Carboxyl‐Functionalized Hexaazatriphenylene for Ultradurable Aqueous Proton Batteries",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.79125",
+          "title": "Site‐Preferential Trace Phosphorus Substitution Accelerates and Stabilizes the Activation of Lithium‐Rich Cathode Materials",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.79119",
+          "title": "Bulky Molecules Tailor Solvent Packing Fraction of Electrolytes for High‐Voltage Sodium‐Ion Battery",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.79066",
+          "title": "Optoelectronic Synergy and Multimodal Neuromorphic Computing in SnS 2 /h‐BN/NbOCl 2 Van Der Waals Floating Gate Architecture",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.79086",
+          "title": "In Vivo Dynamic‐Torque Driven DNA Manipulation via a Magnetic Micromotor",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题候补，关联强度或在线日期待复核"
+        },
+        {
+          "doi": "10.1002/adfm.79089",
+          "title": "Low‐Potential Generation of High‐Valence Metal Sites Activates Lattice Oxygen for Ampere‐Level 5‐Hydroxymethylfurfural Electrooxidation",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.79082",
+          "title": "Mechanoluminescence in Sr 3 P 4 O 13 Enabled by Contact Electrification‐Induced Energy Transfer",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.79042",
+          "title": "Flash Joule Heating Enabled Defect Healing and Graphite‐CNT Interfacial Fusion for Spent Graphite Upcycling",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.78985",
+          "title": "Engineering Biohybrid Mycelium Fibers through Hierarchical Structuring and Biomineralization",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.79007",
+          "title": "A Bilayer Bioelectronic Implant with Piezoelectric‐Driven Immunomodulation and Bioactive Whitlockite for Bone Regeneration",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.79107",
+          "title": "Lattice‐Hydrogen Pumping in Ni 2 P@MoO 3 Enables Self‐Buffered and Scaling‐Resistant Hydrogen Evolution in Natural Seawater",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.79011",
+          "title": "Multi‐Functional Hemostatic Materials for Neural Injury",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.79100",
+          "title": "Overcoming the Heterointerface Energetics Changes in Perovskite Photovoltaics With Nondestructive Halide Exchange",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.79092",
+          "title": "Synergistic Passivation Effects of Li‐Al Co‐Doping Enables >15% Efficient Kesterite Photovoltaics",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.79078",
+          "title": "A Phosphide Active‐Hydrogen Valve: Redirecting Interfacial Hydrogen from Hydrogen Evolution into C–N Coupling for Efficient Urea Electrosynthesis",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.79053",
+          "title": "Large‐Scale, Homogeneous Solution Crystallization of 2D Covalent Organic Frameworks with Integrated Crystallinity and Solubility for Ultrafast Noble Metal Recovery",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题候补，关联强度或在线日期待复核"
+        },
+        {
+          "doi": "10.1002/adfm.79000",
+          "title": "Bio‐Inspired Tactile Reflex Architecture for Ultra‐Fast and Context‐Aware Human‐Robot Interaction",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.79060",
+          "title": "Heterojunction‐Associated Low‐Coordinated Copper Sites Enable pH‐Asymmetric Paired Electrolysis of 5‐Hydroxymethylfurfural",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.79114",
+          "title": "Dual‐Site Defect Passivation and δ ‐Phase Engineering for High‐Efficiency and Stable Perovskite Solar Cells",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.78907",
+          "title": "High‐Strength, Environmentally Stable Wood Fiber/Polyamide/Polyethylene Composites Enabled by High‐Temperature Compatibilization With Triple‐Crosslinked Interface",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.79103",
+          "title": "Hydrogen‐Bond‐Anchored Metal‐Free Cationic TADF Glassy Scintillators for High‐Resolution Dynamic X‐Ray Imaging",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.79072",
+          "title": "In Situ Observation of Dynamic Defect Evolution and Phase Transition in Mn‐Doped Sb 2 Te 3",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.78878",
+          "title": "Microstructure–Defect Engineering of Spinels for Self‐Powered and Recoverable Near‐Infrared Mechanoluminescence",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题候补，关联强度或在线日期待复核"
+        },
+        {
+          "doi": "10.1002/adfm.78922",
+          "title": "Unexpected Asymmetric Mn‐Sb Site Mixing and Reentrant Spin‐Glass State of MnSb 2 Te 4",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "已在 2026-10-16 收录，按版本去重"
+        },
+        {
+          "doi": "10.1002/adfm.79021",
+          "title": "Light‐Directed Molecular‐to‐Device Perspective in Azobenzene‐Based Liquid Crystalline Soft Materials",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题候补，关联强度或在线日期待复核"
+        },
+        {
+          "doi": "10.1002/adfm.78997",
+          "title": "Doping‐Vacancy Synergy in Iron Antimony Oxide for Efficient Water Electrolysis",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.77744",
+          "title": "From Atoms to Cells: First‐Principles Mapping of MXene–TMD Heterostructures for Next‐Generation Metal‐Ion Batteries",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.78981",
+          "title": "Architecting Organic Electrochemical Transistors for Bioelectronics: From Channel Micro‐Engineering to Microarray Systems",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.79028",
+          "title": "Programmable Temperature‐Capped Dressing for Enhanced Wound Healing, Bacterial Clearance, and Inflammatory Modulation",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.79029",
+          "title": "PGM‐Free Catalysts for Oxygen Evolution Reaction for Proton Exchange Membrane Water Electrolyzers",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1002/adfm.79116",
+          "title": "Low‐Frequency Vibration Damping Polyurethane Elastomers with High Mechanical Robustness via Constrained Pendant Chains",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        }
+      ]
+    },
+    {
+      "source": "Nano Letters",
+      "attempts": [
+        [
+          "online-pub-date",
+          200,
+          24,
+          "https://api.crossref.org/journals/1530-6992/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/1530-6992/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/1530-6992/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 7,
+      "uniqueInIssue": 0,
+      "rows": [
+        {
+          "doi": "10.1021/acs.nanolett.6c03931",
+          "title": "Adaptive and\nMulticolored Electrochromic Smart Window\nwith Transparent–Opaque Switchable Radiative Cooling",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/acs.nanolett.6c03365",
+          "title": "Molten-Perfusion-Fluorination\nStrategy To Enable Graphite\nLayer Confined Pyrochlore-Phase Iron Hydroxy Fluoride as Sustainable\nConversion-Type Cathode",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/acs.nanolett.6c04436",
+          "title": "Bioinspired\nSelf-Powered Polarization-Adaptive Visual\nSensors Enabled by PbS Quantum-Dots/Oriented ReSe2 Heterojunctions",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/acs.nanolett.6c03394",
+          "title": "Lipoprotein-Driven\nRemodeling of Interfacial Charge\nGoverns Protein-Mediated Implant Integration",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/acs.nanolett.6c03709",
+          "title": "Probing Inner-Tip\nAccess-Resistance Modulation by\nssDNA in a Nanopipette Using a Single-Molecule Nanomanipulation System",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/acs.nanolett.6c03449",
+          "title": "Dimensionality-Driven Charge Stabilization of Group-IV\nColor Centers in Diamond Ultrathin Films",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/acs.nanolett.6c03757",
+          "title": "Gas-Pressure-Driven\nPhase Engineering of PdZn Ordered\nIntermetallics for Enhanced Oxygen Reduction Electrocatalysis",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        }
+      ]
+    },
+    {
+      "source": "ACS Nano",
+      "attempts": [
+        [
+          "online-pub-date",
+          200,
+          31,
+          "https://api.crossref.org/journals/1936-086X/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/1936-086X/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/1936-086X/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 13,
+      "uniqueInIssue": 0,
+      "rows": [
+        {
+          "doi": "10.1021/acsnano.6c09648",
+          "title": "14C-Enabled\nQuantitative Fate Mapping\nof Orally Administered Polystyrene Nanoplastics in Laying Hens",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/acsnano.6c12575",
+          "title": "Seeing Inside a\nPlasmonic Nanogap: Few-Molecule Orientation\nand Preferential Adsorption",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/acsnano.6c12559",
+          "title": "Monitoring\nLiquid Concentration Changes in Nanofluidic\nChannels Using Cross-Grating Wavefront Microscopy",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/acsnano.6c14253",
+          "title": "Navigating the Renal\nBio–Nano Interface: Physicochemical\nRules for Crossing Barriers and Cellular Transport",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/acsnano.6c09440",
+          "title": "Nanoconfined Protein\nScaffold as a Generalizable Platform\nEmpowers Synergistic Enzyme–Nanozyme Catalysis for Cascade\nBiotransformation",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/acsnano.6c13618",
+          "title": "Fluorescence\nEncoding-Enabled Multiplexed Droplet\nDigital Recombinase Polymerase Amplification-CRISPR/Cas12a Assay for\nRapid Screening of Lower Respiratory Tract Infection-Associated Bacterial\nPathogens",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/acsnano.6c08880",
+          "title": "Accelerated Screening\nof Dimension-Controlled Cu3– y A y VS4– x Se x (A\n= K, Rb, Cs) via Soft Chemistry",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/acsnano.6c07965",
+          "title": "Symmetry-Directed\nEngineering of Quantum Defects:\nToward Monodispersed Organic Color Centers in Carbon Nanotubes",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/acsnano.6c06635",
+          "title": "Single-Shot Polarization\nImaging of Vectorial Metasurfaces\nUsing Cross-Grating Wavefront Microscopy",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/acsnano.6c13183",
+          "title": "Flexible\nSingle-Walled Carbon Nanotube Film with Ultrahigh\nAbsolute Electromagnetic Shielding Performance",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题候补，关联强度或在线日期待复核"
+        },
+        {
+          "doi": "10.1021/acsnano.6c09226",
+          "title": "In Vivo Blood Kinetics\nand Transcript Integrity of\nThree mRNA–Lipid Nanoparticle Vaccines in Humans",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/acsnano.6c07579",
+          "title": "Low-Pb Substitution\nUnlocks Cd-Based Ruddlesden–Popper\nPerovskites for Bright Emission and Ambipolar Transport",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/acsnano.6c15105",
+          "title": "Unveiling the Structural\nOrigin of Low-Frequency Noise\nin Organic Photodetectors",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        }
+      ]
+    },
+    {
+      "source": "JACS",
+      "attempts": [
+        [
+          "online-pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/1520-5126/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "online-pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/1520-5126/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/1520-5126/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          200,
+          58,
+          "https://api.crossref.org/journals/1520-5126/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 20,
+      "uniqueInIssue": 0,
+      "rows": [
+        {
+          "doi": "10.1021/jacs.6c17009",
+          "title": "Excited-State Engineering\nof Viologen Photocatalysts\nvia Synergistic Through-Space and Through-Bond Electronic Coupling",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/jacs.6c13395",
+          "title": "High-Resolution\nX-ray Absorption Spectroscopy\nof Soluble Methane Monooxygenase: Room Temperature and Cryogenic Insights\ninto Active Site Electronic Structure Modulation",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/jacs.6c13799",
+          "title": "Interfacial\nQuantum States in ZrO2 Quantum\nDots as a Strategy to Activate Photocatalytic Efficiency",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/jacs.6c17366",
+          "title": "Regioselective and\nStereodivergent C–H Functionalization\nof Internal Alkenes",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/jacs.6c18131",
+          "title": "Iron Intermediates\nin Aminoquinoline-Directed C(sp2)–H Activation/C–C\nCoupling",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/jacs.6c15228",
+          "title": "Structure-Based\nDesign with Arylazopyrazoles to Enable\nHigh-Affinity Photoswitchable Inhibitors of N -Myristoyltransferase",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/jacs.6c13913",
+          "title": "One-Pot\nChirality-Assisted Synthesis of Shape-Persistent\nNanobelts with Very High Dissymmetry Factors",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/jacs.6c17310",
+          "title": "Asymmetric Alkylation\nof α-Cyanoketimines\nwith Alkyl Bromides Catalyzed by Bis-Cinchonium Salts",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/jacs.6c15106",
+          "title": "Solar Biorefinery:\nStoichiometric Coproduction of\nGluconic and Glucaric Acids and Impurity-Free Hydrogen from Lignocellulosic\nBiomass and Water",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/jacs.6c17373",
+          "title": "Photocatalytic Three-Component\nRadical Addition of\nAromatic Compounds",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/jacs.6c14717",
+          "title": "Super-Cross-Reactive\nRecognition Enables Preclinical\nDiagnosis of Alzheimer’s Disease",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/jacs.6c17168",
+          "title": "Construction of Divergent\nEnantioenriched 3D-Fluoro\nScaffolds via Ni(0) π-Lewis Base-Mediated Umpolung of\nFluorodienes",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/jacs.6c17269",
+          "title": "Unilateral\nFunctionalization of Covalent Organic Frameworks:\nLocal Electronic Modulation and Morphology-Enabled Mass Transport\nfor Electrocatalytic Hydrogen Peroxide Production",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/jacs.6c13587",
+          "title": "Autonomous Biogenesis\nof Early and Late Assembly Intermediates\nof a Large Ribosomal Subunit in a Minimal System",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/jacs.6c15425",
+          "title": "Accessing Syndiotactic\nAlternating Poly(lactic- co -glycolic acid) via Dual\nRegio- and Stereocontrol",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/jacs.6c11518",
+          "title": "Dynamics and Structure\nof Room Temperature Ionic Liquids:\nUltrafast IR Experiments and MD Simulations of the Ion Cage Model",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/jacs.6c13542",
+          "title": "Functionalized Olefin-Linked\nCovalent Organic Frameworks\nfor Selective Mercury Capture and Recovery from Vinyl Chloride-Rich\nGas Streams",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/jacs.6c17473",
+          "title": "High-Resolution 6Li Solid-State Nuclear\nMagnetic Resonance Reveals Hidden Lithium Dynamics in All-Solid-State\nCathodes",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题候补，关联强度或在线日期待复核"
+        },
+        {
+          "doi": "10.1021/jacs.6c14445",
+          "title": "Engineering Intrinsic\nMixed Sodium Ionic–Electronic\nConductivity in a Nickel Bis(diimine) Metal–Organic Framework",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        },
+        {
+          "doi": "10.1021/jacs.6c15184",
+          "title": "Divergent Bioinspired\nTotal Syntheses of Caryophyllene\nSesquiterpenoids: Nigrosporinol Sulfoxide B, Punctaporonins C and\nU, and Desuccinoylpunctaporonin C",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        }
+      ]
+    },
+    {
+      "source": "Chemistry of Materials",
+      "attempts": [
+        [
+          "online-pub-date",
+          200,
+          8,
+          "https://api.crossref.org/journals/1520-5002/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          200,
+          8,
+          "https://api.crossref.org/journals/1520-5002/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 1,
+      "uniqueInIssue": 0,
+      "rows": [
+        {
+          "doi": "10.1021/acs.chemmater.6c02591",
+          "title": "Direct Measurements\nand Analysis of Catalyst Diffusion\nand Reaction Fronts in Chemically Amplified Resists",
+          "date": "2026-10-15",
+          "online": "2026-10-15",
+          "published": "2026-10-15",
+          "decision": "标题主题弱相关或偏离实验选题"
+        }
+      ]
+    },
+    {
+      "source": "Crystal Growth & Design",
+      "attempts": [
+        [
+          "online-pub-date",
+          200,
+          9,
+          "https://api.crossref.org/journals/1528-7505/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/1528-7505/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          200,
+          9,
+          "https://api.crossref.org/journals/1528-7505/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 0,
+      "uniqueInIssue": 0,
+      "rows": []
+    },
+    {
+      "source": "Journal of Crystal Growth",
+      "attempts": [
+        [
+          "online-pub-date",
+          200,
+          0,
+          "https://api.crossref.org/journals/0022-0248/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/0022-0248/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          200,
+          0,
+          "https://api.crossref.org/journals/0022-0248/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 0,
+      "uniqueInIssue": 0,
+      "rows": []
+    },
+    {
+      "source": "APL Materials",
+      "attempts": [
+        [
+          "online-pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2166-532X/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "online-pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2166-532X/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          200,
+          0,
+          "https://api.crossref.org/journals/2166-532X/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 0,
+      "uniqueInIssue": 0,
+      "rows": []
+    },
+    {
+      "source": "2D Materials",
+      "attempts": [
+        [
+          "online-pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2053-1583/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "online-pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2053-1583/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2053-1583/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/2053-1583/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 0,
+      "uniqueInIssue": 0,
+      "rows": []
+    },
+    {
+      "source": "Acta Materialia",
+      "attempts": [
+        [
+          "online-pub-date",
+          200,
+          0,
+          "https://api.crossref.org/journals/1359-6454/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/1359-6454/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          200,
+          0,
+          "https://api.crossref.org/journals/1359-6454/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 0,
+      "uniqueInIssue": 0,
+      "rows": []
+    },
+    {
+      "source": "ACS Applied Materials & Interfaces",
+      "attempts": [
+        [
+          "online-pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/1944-8252/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "online-pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/1944-8252/works?filter=from-online-pub-date%3A2026-10-13%2Cuntil-online-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/1944-8252/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ],
+        [
+          "pub-date",
+          "failed",
+          "Expecting value: line 1 column 1 (char 0)",
+          "https://api.crossref.org/journals/1944-8252/works?filter=from-pub-date%3A2026-10-13%2Cuntil-pub-date%3A2026-10-15&rows=100&select=DOI%2Ctitle%2Cpublished%2Cpublished-online"
+        ]
+      ],
+      "datedMetadataHits": 0,
+      "uniqueInIssue": 0,
+      "rows": []
     }
   ],
   "researchIdeas": {
@@ -568,5 +3451,65 @@
         "reason": "MoS₂同位素受限生长已有研究；必须明确新的材料机制问题与可区分实验，而非给已有方法换材料名。"
       }
     ]
-  }
+  },
+  "relatedReads": [
+    {
+      "title": "Monolayer van der Waals kagome lattice for high-temperature flat-band physics",
+      "titleZh": "用于高温平带物理的单层范德华笼目晶格",
+      "doi": "https://doi.org/10.1038/s41567-026-03492-0",
+      "date": "2026-10-16",
+      "href": "/reports/2026-10-16/#paper-10",
+      "note": "Nature Physics 15 日上线；16 日已分项精读公开 SI，正式主文的访问边界见原条目。"
+    },
+    {
+      "title": "Superconducting half-dome in bilayer nickelates",
+      "titleZh": "双层镍酸盐中的超导半穹顶",
+      "doi": "https://doi.org/10.1103/b884-4h1s",
+      "date": "2026-10-22-major-journals",
+      "href": "/reports/2026-10-22-major-journals/#paper-16",
+      "note": "PRX 15 日正式版，已有公开作者稿精读。"
+    },
+    {
+      "title": "Unexpected Asymmetric Mn-Sb Site Mixing and Reentrant Spin-Glass State of MnSb2Te4",
+      "titleZh": "MnSb₂Te₄ 中意外的不对称 Mn–Sb 位点混占与重入自旋玻璃态",
+      "doi": "https://doi.org/10.1002/adfm.78922",
+      "date": "2026-10-16",
+      "href": "/reports/2026-10-16/#paper-5",
+      "note": "Advanced Functional Materials 15 日，已在 16 日读正文。"
+    },
+    {
+      "title": "Proximity-Tuned Magnetic and Transport Anomalies in All-Epitaxial Fe5−xGeTe2/WSe2 Van der Waals Heterostructures",
+      "titleZh": "全外延 Fe₅₋ₓGeTe₂/WSe₂ 范德华异质结构的近邻效应调控磁性和输运异常",
+      "doi": "https://doi.org/10.1002/adfm.79018",
+      "date": "2026-10-16",
+      "href": "/reports/2026-10-16/#paper-6",
+      "note": "Advanced Functional Materials 15 日，已在 16 日读正文。"
+    },
+    {
+      "title": "Layered Spin-Crossover Metal-Organic Frameworks for Light-Induced Control of Two-Dimensional Quantum Materials",
+      "titleZh": "用层状自旋交叉金属有机框架对二维量子材料进行光诱导调控",
+      "doi": "https://doi.org/10.1002/adma.75351",
+      "date": "2026-10-16",
+      "href": "/reports/2026-10-16/#paper-7",
+      "note": "Advanced Materials 15 日，已在 16 日读正文。"
+    },
+    {
+      "title": "Strain-enhanced superconductivity in RuO2 thin films: Joint experimental and theoretical studies",
+      "titleZh": "应变增强 RuO₂ 薄膜中的超导：实验与理论联合研究",
+      "doi": "https://arxiv.org/abs/2610.21163v1",
+      "date": "2026-10-16",
+      "href": "/reports/2026-10-16/#paper-1",
+      "note": "北京时间 15 日初投，16 日公告归档已精读。"
+    },
+    {
+      "title": "Large in-plane optical anisotropy in epitaxial CrN(113) films",
+      "titleZh": "外延 CrN(113) 薄膜中的强面内光学各向异性",
+      "doi": "https://arxiv.org/abs/2610.21856v1",
+      "date": "2026-10-17",
+      "href": "/reports/2026-10-17/#paper-1",
+      "note": "北京时间 15 日初投，17 日归档已精读。"
+    }
+  ],
+  "accessSummary": "5 篇独立条目，3 个板块，正式期刊 2 篇，独立 arXiv 3 篇。主文精读 5 篇，仅 SI 0 篇，仅摘要 0 篇。另有 7 条已收录重点论文的日期索引。未使用机构订阅读取。",
+  "auditUrl": "/reports/2026-10-15/audit.json"
 }

@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-13",
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-15",
+  "scope": "2026-11-15 回补时检索材料化学式、同义名、目标测量、论文/预印本以及学位论文和专利线索。",
+  "limitations": [
+    "已确认固溶体系有先行工作；差异限定为测量和对照设计。可制备性以及对具体方案的新颖性仍需核对。"
+  ],
+  "ideas": [
+    {
+      "id": "cs-cobalt-mixed-halide-esr",
+      "kind": "measurement",
+      "status": "needs-review",
+      "paperIndex": 2,
+      "title": "混卤 Cs₂CoCl₄₋ₓBrₓ 的局域各向异性是否先于链交换改变",
+      "material": "正交 Cs₂CoCl₄₋ₓBrₓ 的低 Br 组成序列",
+      "evidenceLevel": "已知固溶体系上的待查新测量假设。未生长新样品、未算能级。",
+      "question": "低 Br 取代后，局域双重态间隔和有效链交换能否仍由一套单离子参数解释？",
+      "prediction": "若少量 Br 优先改变 Co 的局域配位且存在明显静态环境差异，15 K 的 A/B 线中心联立拟合将先出现超出纯样误差的展宽或分支，而低温有效链尺度变化较小。若只是统一改变晶场，则应能用一个连续变化的 D 同时拟合 a、b 两方向，无须引入第二配位环境。",
+      "basis": "母体 ESR 中 D/kB≈7.9 K，链内裸交换引用值 J/kB≈0.74 K。Cl⁻→Br⁻ 为同族等价配体替换，名义 Co²⁺仍为 3d⁷，磁位点未被稀释。六配位数值不直接用于四面体；Br 的体积、可极化性和更强配体 SOC 可改变 Co–X 共价性和晶场。交换同时依赖间接卤素重叠及键角，所以 D/J 的方向不预设。",
+      "difference": "学位论文已经制备并研究该固溶系列。本方案的具体差别是用 3–15 K、a/b 两轴、多频 ESR 区分单一 D 漂移与局域 D 分布，并与同片低温交换标尺交叉校准。",
+      "plan": [
+        "先对纯 Cl、两个低 Br 实测组成和可获得的 Br 端元做粉末/单晶 XRD、WDS 或微区 EDS。先复现已有水溶液生长文献。",
+        "每块晶体测两方向 A/B 温变和 15 K 频散，可先用图 1 和 4 的代表频点；固定仪器响应后比较单一晶场与两环境拟合，再用低温磁化或热容约束 J。"
+      ],
+      "controls": [
+        "纯 Cs₂CoCl₄ 作同轴和仪器漂移对照；Br 端元只作光谱参考，只有结构相同才用于连续趋势。",
+        "同一名义成分两批晶体；比较正交主相与高 Cs 杂相，记录实际 Br 与空间均匀性。"
+      ],
+      "falsifiers": [
+        "谱线在整个低 Br 序列均可由同一窄 D 分布描述，或换向后异常不再出现，否定多环境预测。",
+        "出现 Cs₃CoX₅、相分离、铁磁杂质或样品组成无法重现，停止把超额线宽归因于内禀晶场。"
+      ],
+      "feasibility": "水溶液晶体制备和衍射可先独立进行，40–250 GHz 与高场需 ESR 合作平台。",
+      "risks": "已知体系有共晶/非共晶结晶条件、杂相和潜在占位偏好。稀释 Br 后的相稳定性、新颖性与成分均匀性待核。",
+      "nextStep": "先复现纯 Cl 的 a、b 轴双重态参数，再检查低 Br 晶体是否满足衍射与均匀性门槛。",
+      "queries": [
+        "Cs2CoCl4-xBrx mixed system electron spin resonance",
+        "Cs2Co(Cl1-xBrx)4 crystal ESR Br substitution thesis patent",
+        "Cs2CoCl4 Br anisotropy D Kramers resonance"
+      ],
+      "remainingChecks": [
+        "公开网页、学位论文第 5 章和晶体学会议摘要已核，尚未全文排查未索引 ESR 会议、专利权利要求与数据库。"
+      ],
+      "priorArt": [
+        {
+          "title": "Thermodynamics of the Spin-Chain Compounds Cs₂CoCl₄ and Cu(C₄H₄N₂)(NO₃)₂",
+          "url": "https://kups.ub.uni-koeln.de/6256/1/dissertation_breunig_2015.pdf",
+          "overlap": "第 5 章明确已经有混卤晶体和热力学，组成自身已有报道。",
+          "access": "科隆大学公开学位论文第 5 章及目录"
+        },
+        {
+          "title": "混卤铯钴卤化物的晶体学会议报告",
+          "url": "https://dgk-home.de/wp-content/uploads/2025/06/DGK_2019_Abstractband.pdf",
+          "overlap": "报告了母液条件、混溶边界和 214 型若干晶体。",
+          "access": "公开会议摘要"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "title": "Thermodynamics of the Spin-Chain Compounds Cs₂CoCl₄ and Cu(C₄H₄N₂)(NO₃)₂",
+      "url": "https://kups.ub.uni-koeln.de/6256/1/dissertation_breunig_2015.pdf",
+      "reason": "同一替代体系已有报道，剔除以材料组成自身为创新点的路线。"
+    }
+  ]
+}
