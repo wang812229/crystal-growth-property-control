@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-15",
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-16",
+  "scope": "补订时按材料、替代位点、目标物性和既有工艺查论文、预印本、学位与专利线索。",
+  "limitations": [
+    "公开网页限定查新；是否新颖以及候选结构能否制备、稳定和均匀仍需验证。"
+  ],
+  "ideas": [
+    {
+      "id": "si-isotope-depth-valley-hyperfine",
+      "kind": "material",
+      "status": "needs-review",
+      "paperIndex": 1,
+      "title": "在 ²⁸Si/SiGe 双量子点的量子阱中移动等剂量的 ²⁹Si 薄层",
+      "material": "SiGe / ²⁸Si 量子阱（插入稀 ²⁹Si 同位素层） / SiGe；比较居中与靠近顶界面的两种深度",
+      "evidenceLevel": "基于当期已读 Results、Methods 和图 1–4。候选结构未制备，未计算或测量。",
+      "question": "在保持 Ge 组成和界面台阶分布可比的条件下，只移动核自旋同位素的深度，能否改变退相干而基本保留谷劈裂和轨道反交叉？",
+      "prediction": "点电子的垂直包络向同位素薄层偏移时，归于这层的准静态超精细噪声应增强，Ramsey T₂* 倾向缩短。若界面分布与有效垂直场相同，谷劈裂分布对核自旋层位置的敏感度应小于退相干；预期不显著改变 (tc) 的校准关系。",
+      "basis": "母体用残余 ²⁹Si 为 800 ppm 的 ²⁸Si 阱，单电子和双电子谱分开约束谷与自旋能标。²⁸Si 与 ²⁹Si 的电子价态、占位、共价尺度和 SOC 近似相同，后者的核自旋提供接触超精细耦合，贡献取决于波函数在该处的权重。相比引入 Ge 或 Sn，这一设计少改变化学压力和名义电子计数。实际同位素偏析、界面合金无序和磁噪声未知。",
+      "difference": "已有同位素富集、扩散抑制和 Ge 剖面设计。这里固定总 ²⁹Si 面剂量和 Si/Ge 化学剖面，比较单个稀释层深度，并在同一点组合低频退相干、谷能谱与无脉冲杂化校准。",
+      "plan": [
+        "同一缓冲层和 Ge 配方外延对照片。用二次离子质谱或原子探针确认实际同位素剂量和深度；以 X 射线和截面 STEM 核对压应变、阱厚与 Si/Ge 界面。",
+        "用同栅版图调等效电场和两点占据，配对测 Ramsey、回波、脉冲谱与电荷噪声；若层深差经热处理无法分辨，暂停制作低温器件。"
+      ],
+      "controls": [
+        "无额外 ²⁹Si 的高纯 ²⁸Si 阱；总同位素量相同的稀均匀层、居中层与靠顶界面层；比较左右点并重复不同外延位置。"
+      ],
+      "falsifiers": [
+        "如果确实移动了包络与同位素层的重叠，且灵敏度足以分辨退相干，但 Ramsey 和噪声无体系差异，则否定可分辨的核自旋层效应。",
+        "若 Ge 剖面、缺陷或阱宽不同，或谱变化主要随电荷噪声而变，暂停核自旋归因。"
+      ],
+      "feasibility": "需要可切换同位素源的外延装置、同位素深度表征和稀释制冷低噪声电测。可先做材料鉴别片再决定是否制作双点。",
+      "risks": "薄层扩散、实际剂量失配、无序主导谷分布，以及额外散射导致看不清自旋差别。",
+      "nextStep": "先验证同剂量的两个深度剖面在器件热预算后能保持可分辨，再做单点 Ramsey 筛选。",
+      "queries": [
+        "Si SiGe isotope silicon 30Si interface mass valley splitting Si quantum well identical strain isotope quantum dots",
+        "isotopically engineered 29Si delta layer SiGe quantum well valley splitting patent dissertation isotope position"
+      ],
+      "remainingChecks": [
+        "已查公开论文、arXiv 对应版本、专利族与代尔夫特学位条目。待查同位素层位置的完整专利权利要求、内部制造资料和低温数据；未确认新颖性与可制备性。"
+      ],
+      "priorArt": [
+        {
+          "title": "Directly visualizing the energy level structure of quantum dot molecules",
+          "url": "https://doi.org/10.1038/s41467-026-79672-6",
+          "overlap": "母体量子阱及双点谱，未报告这一空间同位素系列。",
+          "access": "已读公开正文"
+        },
+        {
+          "title": "Atomistic Compositional Details and Their Importance for Spin Qubits in Isotope-Purified Silicon Quantum Wells",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11558133/",
+          "overlap": "已有同位素与合金深度分辨，以及相干和谷分裂讨论。",
+          "access": "公开论文题录、方法与摘要线索"
+        },
+        {
+          "title": "Structures including an isotopically-depleted semiconductor layer",
+          "url": "https://patents.google.com/patent/EP4618720A1/en",
+          "overlap": "覆盖同位素富集层和退火扩散，尚未核清权利要求对本设计的相关性。",
+          "access": "专利摘要与公开说明"
+        },
+        {
+          "title": "Silicon/silicon-germanium heterostructures for spin-qubit quantum processors",
+          "url": "https://doi.org/10.4233/uuid:955fab3d-fc33-4ccb-8c58-c6eaf7b56c9c",
+          "overlap": "已有富集 Si 阱、谷劈裂及电荷噪声材料设计。",
+          "access": "学位论文摘要与元数据"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

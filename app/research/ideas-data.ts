@@ -1,6 +1,259 @@
 // 从已审阅报告生成，研究设想不计入论文目录。
 export default [
   {
+    "date": "2026-11-15",
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-16",
+    "scope": "补订时按材料、替代位点、目标物性和既有工艺查论文、预印本、学位与专利线索。",
+    "limitations": [
+      "公开网页限定查新；是否新颖以及候选结构能否制备、稳定和均匀仍需验证。"
+    ],
+    "ideas": [
+      {
+        "id": "si-isotope-depth-valley-hyperfine",
+        "kind": "material",
+        "status": "needs-review",
+        "paperIndex": 1,
+        "title": "在 ²⁸Si/SiGe 双量子点的量子阱中移动等剂量的 ²⁹Si 薄层",
+        "material": "SiGe / ²⁸Si 量子阱（插入稀 ²⁹Si 同位素层） / SiGe；比较居中与靠近顶界面的两种深度",
+        "evidenceLevel": "基于当期已读 Results、Methods 和图 1–4。候选结构未制备，未计算或测量。",
+        "question": "在保持 Ge 组成和界面台阶分布可比的条件下，只移动核自旋同位素的深度，能否改变退相干而基本保留谷劈裂和轨道反交叉？",
+        "prediction": "点电子的垂直包络向同位素薄层偏移时，归于这层的准静态超精细噪声应增强，Ramsey T₂* 倾向缩短。若界面分布与有效垂直场相同，谷劈裂分布对核自旋层位置的敏感度应小于退相干；预期不显著改变 (tc) 的校准关系。",
+        "basis": "母体用残余 ²⁹Si 为 800 ppm 的 ²⁸Si 阱，单电子和双电子谱分开约束谷与自旋能标。²⁸Si 与 ²⁹Si 的电子价态、占位、共价尺度和 SOC 近似相同，后者的核自旋提供接触超精细耦合，贡献取决于波函数在该处的权重。相比引入 Ge 或 Sn，这一设计少改变化学压力和名义电子计数。实际同位素偏析、界面合金无序和磁噪声未知。",
+        "difference": "已有同位素富集、扩散抑制和 Ge 剖面设计。这里固定总 ²⁹Si 面剂量和 Si/Ge 化学剖面，比较单个稀释层深度，并在同一点组合低频退相干、谷能谱与无脉冲杂化校准。",
+        "plan": [
+          "同一缓冲层和 Ge 配方外延对照片。用二次离子质谱或原子探针确认实际同位素剂量和深度；以 X 射线和截面 STEM 核对压应变、阱厚与 Si/Ge 界面。",
+          "用同栅版图调等效电场和两点占据，配对测 Ramsey、回波、脉冲谱与电荷噪声；若层深差经热处理无法分辨，暂停制作低温器件。"
+        ],
+        "controls": [
+          "无额外 ²⁹Si 的高纯 ²⁸Si 阱；总同位素量相同的稀均匀层、居中层与靠顶界面层；比较左右点并重复不同外延位置。"
+        ],
+        "falsifiers": [
+          "如果确实移动了包络与同位素层的重叠，且灵敏度足以分辨退相干，但 Ramsey 和噪声无体系差异，则否定可分辨的核自旋层效应。",
+          "若 Ge 剖面、缺陷或阱宽不同，或谱变化主要随电荷噪声而变，暂停核自旋归因。"
+        ],
+        "feasibility": "需要可切换同位素源的外延装置、同位素深度表征和稀释制冷低噪声电测。可先做材料鉴别片再决定是否制作双点。",
+        "risks": "薄层扩散、实际剂量失配、无序主导谷分布，以及额外散射导致看不清自旋差别。",
+        "nextStep": "先验证同剂量的两个深度剖面在器件热预算后能保持可分辨，再做单点 Ramsey 筛选。",
+        "queries": [
+          "Si SiGe isotope silicon 30Si interface mass valley splitting Si quantum well identical strain isotope quantum dots",
+          "isotopically engineered 29Si delta layer SiGe quantum well valley splitting patent dissertation isotope position"
+        ],
+        "remainingChecks": [
+          "已查公开论文、arXiv 对应版本、专利族与代尔夫特学位条目。待查同位素层位置的完整专利权利要求、内部制造资料和低温数据；未确认新颖性与可制备性。"
+        ],
+        "priorArt": [
+          {
+            "title": "Directly visualizing the energy level structure of quantum dot molecules",
+            "url": "https://doi.org/10.1038/s41467-026-79672-6",
+            "overlap": "母体量子阱及双点谱，未报告这一空间同位素系列。",
+            "access": "已读公开正文"
+          },
+          {
+            "title": "Atomistic Compositional Details and Their Importance for Spin Qubits in Isotope-Purified Silicon Quantum Wells",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11558133/",
+            "overlap": "已有同位素与合金深度分辨，以及相干和谷分裂讨论。",
+            "access": "公开论文题录、方法与摘要线索"
+          },
+          {
+            "title": "Structures including an isotopically-depleted semiconductor layer",
+            "url": "https://patents.google.com/patent/EP4618720A1/en",
+            "overlap": "覆盖同位素富集层和退火扩散，尚未核清权利要求对本设计的相关性。",
+            "access": "专利摘要与公开说明"
+          },
+          {
+            "title": "Silicon/silicon-germanium heterostructures for spin-qubit quantum processors",
+            "url": "https://doi.org/10.4233/uuid:955fab3d-fc33-4ccb-8c58-c6eaf7b56c9c",
+            "overlap": "已有富集 Si 阱、谷劈裂及电荷噪声材料设计。",
+            "access": "学位论文摘要与元数据"
+          }
+        ]
+      }
+    ],
+    "rejected": []
+  },
+  {
+    "date": "2026-11-14",
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-16",
+    "scope": "补订时按材料、替代位点、目标物性和既有工艺查论文、预印本、学位与专利线索。",
+    "limitations": [
+      "公开网页限定查新；是否新颖以及候选结构能否制备、稳定和均匀仍需验证。"
+    ],
+    "ideas": [
+      {
+        "id": "isotope-graphullerene-optics",
+        "kind": "material",
+        "status": "needs-review",
+        "paperIndex": 2,
+        "title": "以富集 ¹³C₆₀ 构筑 graphullerene，检验禁戒光学跃迁的零点贡献",
+        "material": "(¹³C₆₀)∞ 与 (¹²C₆₀)∞ 的同构单层",
+        "evidenceLevel": "基于 14 日理论摘要及既有结构论文；未制备、未计算、未测量。",
+        "question": "保持连接拓扑和层数，改变振动质量能否减弱零点运动激活的吸收？",
+        "prediction": "在力常数和对称性不变的谐振近似下，富 ¹³C 样品的相关振动频率应降低且零点位移减小；低温禁戒边的振子强度或声子相关红移应有同方向的可分辨变化。绝对能量差需要计算。",
+        "basis": "换同位素可近似维持价电子、配位与 SOC，较重质量降低振动频率；静态共价结构可能保留，但相纯度、聚合方式和残留离子应逐片核对。比换 Si 更能隔离质量变量，避免改变共价拓扑和电荷补偿。",
+        "difference": "已有天然丰度 graphullerene 的制备与 Raman、富 ¹³C 的分子晶体谱学。这里限定元素同位素富集的共价单层、低温光学边与声子强度联测。",
+        "plan": [
+          "以同一工艺分别处理天然丰度、¹²C/¹³C 富集对照；先做 Raman、AFM、偏振特征，必要时用选区衍射核验一致连接。",
+          "同衬底测低温吸收/反射对比与温变，不从单条 PL 拟合声子零点贡献。"
+        ],
+        "controls": [
+          "未聚合 C₆₀、天然丰度 graphullerene、同位素端点、至少两批同层厚样品。"
+        ],
+        "falsifiers": [
+          "Raman 已确认质量变化但同层吸收边在可分辨精度内完全不变，否定可测的同位素效应假设。",
+          "若连接拓扑或残留掺杂不同，停止进行归因。"
+        ],
+        "feasibility": "小样光谱和层数可先合作测试；富集 C₆₀ 原料与合成路线需先确认。",
+        "risks": "低温吸收信号弱、样品尺寸小、链方向及残留物可能比同位素效应大。",
+        "nextStep": "取得本期正文再估算光谱检测灵敏度；先复现母相 Raman。",
+        "queries": [
+          "graphullerene carbon isotope 13C60 optical transitions",
+          "graphullerene phonon isotope fullerene polymer thesis patent"
+        ],
+        "remainingChecks": [
+          "正文方法尚未取得，须排查其中是否已有同位素计算；化学制备相关专利全文未查完。"
+        ],
+        "priorArt": [
+          {
+            "title": "A few-layer covalent network of fullerenes",
+            "url": "https://doi.org/10.1038/s41586-022-05401-w",
+            "overlap": "已有结构制备、少层结构和振动表征，不能把同一连接拓扑当新材料。",
+            "access": "正式正文及图注"
+          },
+          {
+            "title": "Spectroscopic investigations of C60 fullerene and its endohedral derivatives",
+            "url": "https://eprints.soton.ac.uk/455367/",
+            "overlap": "已有分子 C₆₀ 同位素光谱线索，未等同聚合单层。",
+            "access": "学位库摘要与结论"
+          },
+          {
+            "title": "Vibrational Study of 13C-enriched C60 Crystals",
+            "url": "https://arxiv.org/abs/cond-mat/9411032",
+            "overlap": "富集分子晶体的振动光谱已研究。",
+            "access": "arXiv 摘要"
+          }
+        ]
+      }
+    ],
+    "rejected": []
+  },
+  {
+    "date": "2026-11-13",
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-16",
+    "scope": "补订时按材料、替代位点、目标物性和既有工艺查论文、预印本、学位与专利线索。",
+    "limitations": [
+      "公开网页限定查新；是否新颖以及候选结构能否制备、稳定和均匀仍需验证。"
+    ],
+    "ideas": [
+      {
+        "id": "remote-mose2-moire-kondo",
+        "kind": "material",
+        "status": "needs-review",
+        "paperIndex": 1,
+        "title": "以 MoSe₂ 替换 WS₂/WSe₂/WSe₂ 中的远端 WSe₂",
+        "material": "WS₂/WSe₂/MoSe₂ 顺序固定的范德华三层",
+        "evidenceLevel": "基于已读母相；未堆叠、未计算、未测量。",
+        "question": "保持近层莫尔势时，仅改变远端的价带与自旋轨道耦合，能否使绝缘异常在双栅图中移动？",
+        "prediction": "只有远层参与占据且同样存在 ν总=2 的填充控制时，才预期近藤型信号仍能成立；其最大能隙对应失谐、电场闭隙边界会随远端换层而改变。若远层不填充，预期相应异常消失。",
+        "basis": "母相的热力学跳变约 3–4 meV，且与 ν总=2 及远层占据相关。W 与 Mo 同族且同硒化物价电子计数类似，但 W 5d 与 Mo 4d 的 SOC、价带错位和隧穿不同；保持近层 WSe₂ 避免同时改变原短周期莫尔势。层距、重构及局域层应变仍未知。",
+        "difference": "最近邻 1L WS₂ / 2L WSe₂、MoTe₂/WSe₂ 和 WSe₂/MoSe₂ 两层已经报道。此处固定近层并只换远端色散层，直接判别占据重排。",
+        "plan": [
+          "先测分层 Raman、SHG、低温电荷转移能，核对近零扭角和远端近反向取向。",
+          "同栅介质做对照三层、无远层和换层三层，按实际莫尔密度校准再比较 MIM/四端输运与热力学能标。"
+        ],
+        "controls": [
+          "母相、无远层样品、远端 MoSe₂ 与 WSe₂ 单层光谱，以及反向堆叠。"
+        ],
+        "falsifiers": [
+          "Gate 达安全范围仍没有远端空穴或近层莫尔特征消失，停止对近藤耦合作参数比较。",
+          "若远端已被占据但所有填充和场边界与母相在误差内一致，则否定可分辨的失谐迁移预测。"
+        ],
+        "feasibility": "干转移和光谱可先验证，低温双栅 MIM 与输运需专门条件。",
+        "risks": "带偏置与竞争谷态可能让远端承担局域角色，气泡与电荷杂质也可抹平绝缘响应。",
+        "nextStep": "优先测双层 WSe₂/MoSe₂ 在预期栅场范围内的带边重叠。",
+        "queries": [
+          "WS2 WSe2 MoSe2 trilayer Kondo",
+          "WS2/WSe2/MoSe2 remote layer charge transfer moire patent dissertation",
+          "WSe2 MoSe2 hole filling heavy fermion"
+        ],
+        "remainingChecks": [
+          "未清完不同堆叠写法和未索引论文的权利要求；近邻工作全文待复看。"
+        ],
+        "priorArt": [
+          {
+            "title": "Signatures of a Kondo insulator in a multilayer moiré Superlattice",
+            "url": "https://doi.org/10.1038/s41467-026-78687-3",
+            "overlap": "已有同硒化物远层母相。",
+            "access": "出版者接受后正文"
+          },
+          {
+            "title": "Controlled synthesis and transfer of large area heterostructures made of bilayer and multilayer transition metal dichalocogenides",
+            "url": "https://patents.google.com/patent/US9806164B1/en",
+            "overlap": "涉及部分所需两层组合及一般多层堆叠，不足以排除特定三层物性试验。",
+            "access": "专利说明和摘要"
+          },
+          {
+            "title": "Emergence of a Symmetry-Broken Chern Insulator near a Moiré Kondo Breakdown",
+            "url": "https://doi.org/10.1103/szcj-44xj",
+            "overlap": "既有 MoTe₂/WSe₂ 莫尔近藤体系。",
+            "access": "正式 PDF 与摘要"
+          }
+        ]
+      },
+      {
+        "id": "sige-sn-eupd2-elastic",
+        "kind": "material",
+        "status": "needs-review",
+        "paperIndex": 5,
+        "title": "在 EuPd₂(Si,Ge)₂ 的 Si/Ge 位点加入微量 Sn",
+        "material": "EuPd₂(Si₀.₈₉₋ᵧGe₀.₁₁Snᵧ)₂，y 为试验变量",
+        "evidenceLevel": "基于 13 日公告的已读母相；未合成、未计算、未测量。",
+        "question": "保留四方单相时，较大 p 区元素少量进入 Si/Ge 位点，会改变三临界压力，还是先展宽成分相关峰？",
+        "prediction": "若 Sn 形成均匀同位点固溶且主要表现为负化学压力，与原 Ge 实测值匹配的样品可预期压缩率主峰偏向更高实际压力。若在校正体积后仍显著偏离或只增宽，则局域杂化、取代无序或竞争结构优先。",
+        "basis": "母相在约 14 MPa、41 K 有压缩率增强，成分偏析可造成次峰。Sn 与 Si/Ge 同族可保持名义电子计数，但更大共价尺寸、更强 SOC 和不同 Pd–p 杂化会影响 Eu 价态。避免在 Eu 位用稀土替代，保留磁位点；Sn 具体占位、端元结构及互溶未知。",
+        "difference": "已报道 EuPd₂Si₂ 的 Ge 以及 Pd/Au 材料调节；该设想限定固定实测 Ge、少量 Sn，并将 a/c 压缩率与实测晶格对比。",
+        "plan": [
+          "先做小量低掺杂筛选，XRD 全谱查副相，WDS 扫测母晶、头尾和片内 Sn/Ge.",
+          "单相样品同机做 a/c 等温压扫与电输运，比较外压匹配晶格后的峰位及峰宽。"
+        ],
+        "controls": [
+          "母相、至少两个稀 Sn 成分、母相在多个压力下对照；Sn 端元如异结构仅作竞争相对照。"
+        ],
+        "falsifiers": [
+          "占位无法证实、明显锡析出或 Ge 随 Sn 漂移大于对照误差时停止。",
+          "结构与实际成分可匹配但峰位方向相反，否定单纯负化学压力解释。"
+        ],
+        "feasibility": "先低成本做结构成分筛查。精密氦气压力膨胀需合作。",
+        "risks": "三临界窗口压力很窄，少量偏析或残余 Sn 都可能造成伪峰。",
+        "nextStep": "查清 Eu–Pd–Sn 竞争相和本组三元坐标，再决定是否做微量增量。",
+        "queries": [
+          "EuPd2Si2 Ge Sn solid solution elastic tricritical",
+          "EuPd2(SiGeSn)2 valence pressure EuPd2Sn2 patent thesis"
+        ],
+        "remainingChecks": [
+          "专利和非英语数据库未系统覆盖，含 Sn 的相图、局部配位、可溶性均待查。"
+        ],
+        "priorArt": [
+          {
+            "title": "Elastic tricriticality at the collapse of magnetic order in a valence fluctuating Eu-based compound",
+            "url": "https://arxiv.org/html/2611.15984v1",
+            "overlap": "已有 Ge 固溶、偏析和弹性实验。",
+            "access": "已读正文及 SI"
+          },
+          {
+            "title": "Goethe University Frankfurt research data archive",
+            "url": "https://gude.uni-frankfurt.de/browse/dateissued?scope=f2e31429-119d-406c-86ea-49540c14701d",
+            "overlap": "已报道 Au、Ge 替换单晶，当前查新与其区分。",
+            "access": "机构数据题录"
+          }
+        ]
+      }
+    ],
+    "rejected": []
+  },
+  {
     "date": "2026-11-12",
     "schemaVersion": 1,
     "reviewedAt": "2026-11-12",

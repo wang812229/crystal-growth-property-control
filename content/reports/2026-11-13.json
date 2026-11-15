@@ -1,0 +1,505 @@
+{
+  "date": "2026-11-13",
+  "issue": "080",
+  "headline": "7 篇独立论文，7 篇正文精读，2 项材料假设",
+  "hotspot": "WS₂/WSe₂ 莫尔近藤能隙、MoS₂ 增益叠层、Fe/Co 位点占据、NiO 双磁振子、Eu 价态弹性临界、外延 AlN 势垒与 CeCuAs₂ 表面近藤。",
+  "searchWindow": "北京时间 11 月 13 日正式在线和对应 arXiv 官网 13 日批次；期后回补。官方批次为 169 新投、56 交叉、139 替换；公告日期与初投分列。",
+  "accessSummary": "正式期刊 3 篇，独立 arXiv 4 篇。已选论文可访问且已读正文 7 篇，仅摘要 0 篇。此次使用公开来源，未建立机构订阅访问。",
+  "papers": [
+    {
+      "title": "Signatures of a Kondo insulator in a multilayer moiré Superlattice",
+      "titleZh": "多层莫尔超晶格中的近藤绝缘体迹象",
+      "doi": "https://doi.org/10.1038/s41467-026-78687-3",
+      "fullText": "https://www.nature.com/articles/s41467-026-78687-3_reference.pdf",
+      "material": "1L WS₂ / 2L WSe₂",
+      "category": "重费米子与量子临界",
+      "authors": "Qiran Wu; Jingyuan Cui; Ang-Kun Wu; Yuze Meng; Dongxue Chen; Yueshan Wang; Li Yan; Lei Ma; Takashi Taniguchi; Kenji Watanabe; Shi-Zeng Lin; Su-Fei Shi; Yong-Tao Cui",
+      "institutions": "加州大学河滨分校、洛斯阿拉莫斯国家实验室、卡内基梅隆大学、伦斯勒理工学院、日本 NIMS",
+      "journal": "Nature Communications",
+      "method": "干法堆叠、二次谐波定轴、双栅与微波阻抗显微术",
+      "access": "全文精读：出版者 Article in Press 的正文、Methods、图 1–4，核对对照与模型；独立 SI 链接待补。",
+      "date": "2026-11-13 在线",
+      "versionNote": "已读 DOI 对应的已接受出版者稿。较早作者预印本 arXiv:2507.01329 的题名不同，本期按 DOI 唯一入库。",
+      "conclusion": "同一块石墨烯双栅器件中，绝缘响应沿总莫尔空穴填充 ν₁+ν₂=2 伸入近层欠填充区，磁场抑制异常，局域输运与热力学能标共同支持近藤解释。",
+      "sections": [
+        {
+          "title": "问题与设计",
+          "text": "局域磁矩受巡游载流子屏蔽以后，可以形成杂化能隙。这里不用稀土 f 电子化合物，而把一层 WSe₂ 的窄莫尔带和另一层的色散带分别当作有效局域与巡游自由度。相邻 WS₂/WSe₂ 界面产生莫尔势，远离接口的一层 WSe₂ 仍可参与空穴掺杂。核心实验是沿总空穴密度不变的路径重新分配层占据。若只是单层普通莫特态，主要由该层填充附近的窄区域决定；如果远层自由度参与，绝缘异常可跨入近层低于半填充的区域。在同一个器件上改变垂直电场可减少片间厚度、局域应变和接触差异的干扰。"
+        },
+        {
+          "title": "样品、制备与质量",
+          "text": "由机械剥离得到 WS₂、WSe₂、单层石墨烯、少层石墨与 hBN，在 285 nm 热氧化层 SiO₂/Si 上选片。用干法拾取逐层叠放，近层 WS₂/WSe₂ 接近零扭角，二次谐波确认晶轴。旋转台读数分辨率 0.02° 不能当作样品实际扭角误差。上下栅分别为单层石墨烯和薄石墨，预制 Pt/Au 接触，堆叠后真空中 130 °C 退火 12 h。主体为范德华异质结，未报告块材母晶的炉次、原料纯度、产率、薄片逐器件面积分布或常规粉末 XRD 空间群，不按单一三维结构赋值。光学图和 SHG 验证厚度/取向，无法直接量化气泡附近的局域重构或样品内部扭角分布。"
+        },
+        {
+          "title": "测量与标定",
+          "text": "钨尖置于石英音叉，约 10 GHz、0.1 μW 激发，从反射信号分离 MIM-Im 和 MIM-Re。前者在特定导电窗口单调变化，后者有损耗峰，过强或过弱导电都可能让通道饱和。图 1 的双栅图中，单层石墨烯 Landau 能级产生的轨迹与 TMD 的双栅斜线有不同斜率，不能把所有绝缘条都归给莫尔层。固定完整栅极路径与采点位置，比较两个通道随磁场的同向变化，并和同片邻近整数填充作内部对照。局域 MIM 测的是导纳响应，不直接给整器件直流电阻或 Hall 系数。重复温扫时需保存驱动功率、探针高度与电荷中性点。"
+        },
+        {
+          "title": "证据及强度",
+          "text": "图 2 展示近层 ν₁≤1、远层 ν₂≥1 且总填充为 2 的绝缘响应。6 K 下异常临界磁场约 6.3 T，场越高信号越弱，而若干其它绝缘特征仍见。图 3 从石墨烯 Landau 能级偏移追踪莫尔系统的化学势，约 3–4 meV 跳变是热力学能隙估计；温标 kBTc 给约 3 meV 是不同口径的交叉验证。临界温度对场的变化在约 5 T 以上比较陡，形状不支持简单单粒子线性 Zeeman 闭隙。图 4 用周期 Anderson 模型与奴玻色子近似再现填充趋势和相图，其参数、杂化振幅与准粒子色散均为模型量。论文没有直接测量杂化带、局域磁矩或扩大的费米面。"
+        },
+        {
+          "title": "对照与可复现路径",
+          "text": "最值得复测的是沿同一总填充线扫层间失谐、场和温度，同时用单层栅二维图追踪独立的栅极标定。在一块样品上用远层门控做无占据/有占据两区对照，在第二块器件上以相同扭角范围重复。对电荷密度波机制的判断仍依赖缺少可识别竞争序，以及填充边界和磁场响应；局域失谐或轨道效应可能影响定量阈值。建议加同片无远层、故意转角和直接四端输运对照，优先确认 MIM 暗带、电阻与化学势跳变是否共定位。只要远层占据无法独立标定，先不把转变场差归因于 Kondo 耦合变化。"
+        },
+        {
+          "title": "双栅读数与能标能排除什么",
+          "text": "把总填充作横坐标以外，还应单独保存垂直位移场。实验中的两条栅电压轴经栅电容变换得到填充和层间能差，但层电荷会发生关联重分布，不能把电压增量直接当作某一层的实际空穴数。设计内部对照可以沿同一总填充线取近层填充周围的两侧密集采点，在多档场与温度原地重复。用邻近不随场消失的 MIM 特征作为灵敏度与漂移的参照。石墨烯 Landau 跃迁在这里兼作热力学传感器，比较不同阶数给出的化学势跳变是否一致，可以降低一个读数局域受无序扰动的风险。场标、热标、化学势三个能标相符说明该解释具有自洽性，但后二者共享样品和部分栅标定，重复时不宜把它们当完全独立样本。"
+        },
+        {
+          "title": "模型检验和停止条件",
+          "text": "周期 Anderson 拟合通过改变局域带相对色散带的能级，重现近层占比降低和能隙增长的关联。它解释了为什么总填充固定时能改变局域磁矩/巡游载流子的有效比例，前提是近层窄带的相互作用保持足够大。更直接的判别是变化失谐和温度后仍能观察同一类化学势跳变与可逆峰值，并用弱杂化结构作对照。若单层对照出现同样宽的总填充锁定，或只有 MIM-Re 单通道变化而热力学校验不成立，就应先检验电荷重排和探针灵敏度。相反，若用近似相同扭角换栅厚仍能复现能标、场阈值和绝缘区域拓扑，才值得测受限的能带或磁信号。"
+        },
+        {
+          "title": "定量数据复核顺序",
+          "text": "优先从主图提取有明确样品和测量路径的坐标，再另外记录零场温标和单场曲线，减少把不同栅压、不同器件的能标配成同一条场曲线的风险。模型计算中的能带边缘与化学势跃迁单位不同，先使用实测样品的密度标定确定同一填充截面。拟合保留场误差、温度滞后及栅重复性，只有当三个指标在同一器件复现，才进一步讨论样品间差异。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "优先读近藤证据链",
+        "first": "先读图 1 图例、图 2 两个通道、图 3D 的能隙。",
+        "focus": "分别记录探针响应、临界场和化学势跳变三个层次。",
+        "next": "在同一器件复核层占据和四端输运。"
+      },
+      "rating": "★★★★★",
+      "tags": [
+        "中英文标题",
+        "正式期刊"
+      ],
+      "titleOriginalMetadata": "Signatures of a Kondo insulator in a multilayer moiré Superlattice",
+      "readingStatus": "formal",
+      "selectionStatus": "today-formal",
+      "bodyChineseCharacters": 1531
+    },
+    {
+      "title": "Room-temperature continuous-wave lasing-like emission from solution-processed bulk monolayer MoS₂ thin films",
+      "titleZh": "溶液加工的体相单层式 MoS₂ 薄膜在室温下的连续波类激光发射",
+      "doi": "https://doi.org/10.1038/s41467-026-79012-8",
+      "fullText": "https://www.nature.com/articles/s41467-026-79012-8_reference.pdf",
+      "material": "MoS₂/PVP 叠层薄膜",
+      "category": "二维材料与量子器件",
+      "authors": "Boxuan Zhou; Haoyang Li; Bangyao Hu; Jingxuan Zhou; Chen Li; Jingyuan Zhou; Yu Huang; Xiangfeng Duan",
+      "institutions": "加州大学洛杉矶分校材料科学与工程系、化学与生物化学系、California NanoSystems Institute",
+      "journal": "Nature Communications",
+      "method": "电化学插层、聚合物保护单层、室温喷涂与回音壁微腔",
+      "access": "全文精读：出版者 Article in Press 正文、Methods、图 1–5 与相关图注。独立 SI 和报告表未读。",
+      "date": "2026-11-13 在线",
+      "versionNote": "开放获取；出版者术语 lasing-like 保留原结论强度。",
+      "conclusion": "通过 PVP 把多层堆叠的每片 MoS₂ 保持近似电子解耦，再借反射基底及微球腔增加有效增益体积。约 1.4 nW 处有阈值样变化，但尚无可信二阶相干测量。",
+      "sections": [
+        {
+          "title": "制备问题",
+          "text": "原子单层光学增益可观，体积却很小。多层直接接触时，又容易从单层直接光学跃迁走向层间耦合更强的状态。设计是在每个剥离片上保留 PVP 间隔，让多个单层共享同一腔模，同时尽量保留激子响应。物性要点是层间电子解耦与腔重叠的折中。与 HRTEM 显示的有机间隔同等重要的是薄膜吸收和发光线能否保持单层指纹；仅有喷涂面积数据无法检验解耦。"
+        },
+        {
+          "title": "样品、工艺与质量",
+          "text": "Methods 的电化学插层以 MoS₂ 块晶为阴极、石墨棒为阳极。DMF 电解液中四庚基溴化铵与 PVP 浓度分别为 5、20 mg/mL，四庚基溴化铵纯度 98%，PVP 分子量约 4 万。阴极偏压 −8.5 V，约 150 min，后经剥离形成胶体墨水。使用 Ag 镜/55 nm PMMA 作为反射衬底，喷涂形成 MoS₂/PVP 薄膜；微球靠近薄膜构成回音壁模。图 2 组合 HRTEM、AFM 与 GIWAXS，约 2.64 nm 的层状重复长度须与 AFM 表观单片高度分开。这是重复间隔，不能当作 MoS₂ 无机单层原子厚度。原料块晶的生长炉次与最终晶片单一取向未在本文建立。"
+        },
+        {
+          "title": "测量与模型",
+          "text": "有源膜加厚增大重叠因子 Γ，也改变 Q 和自吸收。对 PMMA 间隔、微球和衬底组合，正文用被动模式模拟估 Q 和场分布，真实吸收峰附近低泵浦 Q 较小；强泵浦时激子附近的 Q 可以上升超过 10³。Q 的变化与净增益相符，但不能单独证明相干发光。不同膜厚还会改变泵浦能量的空间分布，给出的约 1.4 nW 属该腔和光路的入射功率口径，不能直接和另一腔的功率密度或吸收功率作比较。重复测量应记录光斑、入射方向、探测窗口和腔模式号。"
+        },
+        {
+          "title": "结论边界与下一步",
+          "text": "多条证据包括光强转折伴随线宽收窄、功率相关偏振选择和与激子/三激子波段重合的净增益迹象。微球各处辐射叠加、非腔区域 PL 与空间收集会影响 g²(τ)，正文明确未建立可靠相干性，不能把自发发射放大与阈值附近的类激光发射完全区分。建议做同一墨水批次的厚度梯度、无微球/无镜对照，逐层校对吸收、Q 与 PL 线宽，再做单模空间滤波和光子统计。在不同批次排除泵致加热、焦点漂移和模式切换后，再用相干性数据判别真正的连续波激光。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "优先读制备和措辞边界",
+        "first": "图 2 看层间结构，读图 3–5 的泵浦与模式数据。",
+        "focus": "分辨 2.64 nm 重复距离、膜厚、阈值功率和有源 Q。",
+        "next": "固定厚度、改变腔体，校对 g² 与 PL 背景。"
+      },
+      "rating": "★★★★★",
+      "tags": [
+        "中英文标题",
+        "正式期刊"
+      ],
+      "titleOriginalMetadata": "Room-temperature continuous-wave lasing-like emission from solution-processed bulk monolayer MoS₂ thin films",
+      "readingStatus": "formal",
+      "selectionStatus": "today-formal",
+      "bodyChineseCharacters": 639
+    },
+    {
+      "title": "Site-selective substitutions and magnetic structures in (Fe,Co)₂(P,Si) compounds probed by x-ray linear dichroism and neutron diffraction",
+      "titleZh": "用 X 射线线二色性和中子衍射探测 (Fe,Co)₂(P,Si) 化合物的位点选择性取代与磁结构",
+      "doi": "https://doi.org/10.1103/vhbs-v961",
+      "fullText": "https://journals.aps.org/prmaterials/pdf/10.1103/vhbs-v961",
+      "material": "Fe₁.₉₃₋ₓCoₓP₁₋ᵧSiᵧ",
+      "category": "晶体生长和物性调控",
+      "authors": "L. L. Bao; W. Wei; H. Yibole; Jiazheng Hao; Lunhua He; F. Wilhelm; A. Rogalev; F. Guillou",
+      "institutions": "内蒙古师范大学、散裂中子源科学中心、ESRF、卡昂诺曼底大学/ENSICAEN/CNRS CRISMAT",
+      "journal": "Physical Review Materials",
+      "method": "成分系列、K 边 XAS/XLD、粉末中子磁结构精修",
+      "access": "全文精读：APS 正式 PDF 样品与实验段、图 1–5、表 I 与讨论。未独立复算结构模型。",
+      "date": "2026-11-13 正式发表",
+      "versionNote": "正式 DOI 与期刊卷 10、114408 核验。",
+      "conclusion": "Co 优先占四面体 3f，Si 分布在两个非金属位点，故 c/a 相似不能保证两个成分的磁结构相似。",
+      "sections": [
+        {
+          "title": "问题和样品",
+          "text": "六方 Fe₂P 型结构中，3f 与 3g 位点的配位和磁矩不同。作者检查 0≤x≤0.6、0≤y≤0.4 的总体系列，用单晶在特定偏振方向取得吸收与线二色性，用粉末中子探测核散射与有序磁矩。不能把代表单晶的成分直接等同于所有粉末样品。图 2 的单晶标为约 Fe₁.₅₅Co₀.₄₉P₀.₆₈Si₀.₂₈；样品来源与粉末比较条件按各图和表报告。不要用名义配比倒推出逐批纯度或产率。"
+        },
+        {
+          "title": "位点和磁结构证据",
+          "text": "Co K 边偏振差谱与 FDMNES 模拟的占位模型相互校验，支持 Co 偏好 3f。P K 边在 1b/2c 的极限配置明显不同，实验与中子精修相比支持 Si 同时进入 1b、2c，至多弱偏 2c。六方相的有序矩沿 c 轴共线；高 Co 条件出现正交 Co₂P 型，磁矩减小且倾斜。拟合用核峰分清相比例，723 K 的顺磁主相样品仍有 Fe₃Si 杂相磁散射，作者用额外模型处理。由精修得到的分位磁矩依赖占位假设、杂相尺度因子和背景，不能只用磁化强度反算位点。"
+        },
+        {
+          "title": "复现和排错",
+          "text": "图 4 比较金属—金属、金属—类金属距离；同一 c/a 可以由不同局域键长得到。比较单一替换路线和 Co/Si 共替换时，应在同一温度用 WDS 做面内成分图，再用同批粉末做 XRD 与中子。优先选择只保留六方相的成分来检验两类磁矩，再审视正交相分数增加的样品。若替换后出现杂相涌现、位点占据强共线或不确定度超过趋势幅度，停止把拟合的 3f 磁矩差归因于同一种内禀耦合。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "优先读位点证据",
+        "first": "看图 1–2 的对照占位，接表 I 与图 4。",
+        "focus": "注意 x、y 与测量温度，分清纯相与杂相拟合。",
+        "next": "联合 WDS 与中子，对占位和磁矩误差做灵敏度分析。"
+      },
+      "rating": "★★★★☆",
+      "tags": [
+        "中英文标题",
+        "正式期刊"
+      ],
+      "titleOriginalMetadata": "Site-selective substitutions and magnetic structures in (Fe,Co)₂(P,Si) compounds probed by x-ray linear dichroism and neutron diffraction",
+      "readingStatus": "formal",
+      "selectionStatus": "today-formal",
+      "bodyChineseCharacters": 413
+    },
+    {
+      "title": "Long-lived light-driven bimagnons at finite momentum in NiO",
+      "titleZh": "NiO 中有限动量下长寿命的光驱动双磁振子",
+      "doi": "https://arxiv.org/abs/2611.17335v1",
+      "fullText": "https://arxiv.org/html/2611.17335v1",
+      "material": "NiO(100)/MgO(100)",
+      "category": "磁性、拓扑与自旋",
+      "authors": "Xian P. Yang; Christopher T. Parzyck; Martin Cross; Ella Blake; Octave Duros; Yinchuan Lv; Hari Paudyal; Che-Min Lin; Sharon S. Philip; Lingjia Shen; Daniel Jost; Giacomo Coslovich; Joshua J. Turner; Choongwon Seo; Elyse Schriber; Michael E. Flatté; Xiaoqin Li; Yuri Suzuki; Durga Paudyal; Harold Y. Hwang; Georgi L. Dakovski; Matthias C. Hoffmann; Wei-Sheng Lee; Alexander H. Reid",
+      "institutions": "斯坦福大学、SLAC/LCLS、爱荷华大学、台湾科技大学、埃因霍温理工大学、得州大学奥斯汀分校",
+      "journal": "arXiv",
+      "method": "PLD 单晶取向薄膜、中红外泵浦与 Ni L₃ 时间分辨 RIXS",
+      "access": "全文精读：公开 v1 正文、Methods、图 1–3 及随文补充材料中拟合和几何相关内容。",
+      "date": "2026-11-13 官方公告",
+      "versionNote": "v1 美东 11 月 12 日提交；北京时间 11 月 13 日 02:59:55。未经同行评审。 API 所列初投时间（北京时间）2026-11-13 02:59:55。",
+      "conclusion": "在有限动量看见寿命为几十皮秒量级的双磁振子过量占据，早期响应与后期升温基线可分辨；28±11 ps 是模型拟合的弛豫时间。",
+      "sections": [
+        {
+          "title": "样品与生长",
+          "text": "立方岩盐型 NiO 在 MgO(100) 上分两次脉冲激光沉积，每次设定厚度约 60 nm。沉积为 700 °C、10 mTorr O₂，阶段后 700 °C、250 mTorr 保持约 15 min，总膜约 120 nm。薄膜使泵浦体积和 X 射线探测深度的重叠更清楚。需要记录靶纯度、氧历史和实际厚度后再做不同基底的比较；单一几何未确定应变—时间常数的关系，不用典型应变数值替代样品实测值。"
+        },
+        {
+          "title": "测量条件",
+          "text": "在 Ni L₃ 边，散射角 120°、入射约 61.3°，动量接近 (1/2,0,0)×2π/a。共振泵浦约 0.25 eV，约 250 fs，通量 34 mJ/cm²；离共振对照约 1.2 eV、17.9 mJ/cm²。时间分辨率为约 0.50–0.64 ps，能量分辨约 79 meV。对每次运行用 −15 ps 作基线，合并 35 runs、240 条谱。将可重复的能量增益侧响应和实验分辨变化分开，不能用积分窗替代独立色散拟合。"
+        },
+        {
+          "title": "观察、模型与复现",
+          "text": "图 2 比较共振泵浦和 X 射线入射能量依赖，857.5 eV 附近的行为支持双磁振子归属。图 3 在 −260 至 −160 meV 增益窗的信号约 4 ps 达峰，单磁振子 −140 至 −75 meV 窗约 6 ps。4–200 ps 观测用零偏置指数拟合得到 28±11 ps。后期信号含显著热分布，不能把该数当作无阻尼振荡或单个模式的相干寿命。正文报告平衡单磁振子能标约 95.5±2.7 meV，未辨认出稳健的泵致谱线展宽。最强的是频率和 X 射线共振双对照与时间次序，最弱的是只有有限几个动量的时间响应，尚不能直接测出整个布里渊区的能量转移。建议先在同点同步测 0.25 和 1.2 eV 的温升代理，再增加至少一个动量点和多个通量；拟合至少比较含热背景与固定零偏置两种模型。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "优先读 RIXS 证据",
+        "first": "图 2 的共振判据与图 3 的分窗时间轨迹。",
+        "focus": "标出泵浦能量、能量窗、热基线及拟合范围。",
+        "next": "用同片剂量和辅助温标做温升控制。"
+      },
+      "rating": "★★★★★",
+      "tags": [
+        "中英文标题",
+        "独立预印本"
+      ],
+      "titleOriginalMetadata": "Long-lived light-driven bimagnons at finite momentum in NiO",
+      "readingStatus": "preprint",
+      "selectionStatus": "today-announcement",
+      "bodyChineseCharacters": 419
+    },
+    {
+      "title": "Elastic tricriticality at the collapse of magnetic order in a valence fluctuating Eu-based compound",
+      "titleZh": "价态涨落 Eu 基化合物在磁有序崩塌时的弹性三临界性",
+      "doi": "https://arxiv.org/abs/2611.15984v1",
+      "fullText": "https://arxiv.org/html/2611.15984v1",
+      "material": "EuPd₂(Si₀.₈₉Ge₀.₁₁)₂",
+      "category": "重费米子与量子临界",
+      "authors": "Yassine Agarmani; Arif Ata; Lars Franke; Jan Zimmermann; Ulrich Tutsch; Marius Peters; Michelle Ocker; Kristin Kliemt; Cornelius Krellner; Bernd Wolf; Markus Garst; Michael Lang",
+      "institutions": "法兰克福歌德大学、卡尔斯鲁厄理工学院",
+      "journal": "arXiv",
+      "method": "Czochralski 单晶、EDX 成分梯度、氦气压力膨胀与电阻/磁化",
+      "access": "全文精读：公开 v1 正文、Materials and Methods、图 2–4 以及补充方法、图 S2 与样品表。",
+      "date": "2026-11-13 官方公告",
+      "versionNote": "v1 预印本。转载日、arXiv 初投日与公告日分别记录。 API 所列初投时间（北京时间）2026-11-12 04:34:55。",
+      "conclusion": "磁有序终止附近的低压区出现 a 轴等温压缩率增强，热膨胀、电阻和磁性共同约束弹性三临界解释。",
+      "sections": [
+        {
+          "title": "材料与生长",
+          "text": "EuPd₂(Si₁₋ₓGeₓ)₂ 为四方 ThCr₂Si₂ 型。MP807 母晶由 Czochralski 提拉，熔体名义 x=0.2，Ge 偏析使凝固晶体低于名义含量；正文引用同条件的掺入约名义的一半。沿晶体用 EDX 作分段分布，用同母晶邻片开展三种实验，主样品有效 x≈0.11。实际分布决定临界坐标，不能用投料代替。正文与 SI 记录取样，但原料逐项纯度、液固界面细节和单炉产率未完整披露。"
+        },
+        {
+          "title": "测量、对照与拟合",
+          "text": "在氦气压力下变温或等温扫压，电容膨胀仪跟踪面内 a 轴长度。图 2 将同母晶不同片的长度、电阻与磁矩异常对应，磁测场约 10 kOe。图 4 的等温 κa=−(1/La)(∂La/∂p)T 在约 14 MPa、41 K 的邻域有明显增强，作者估计临界坐标 (14±1 MPa, 41±1 K)。约 23 MPa 的次峰作者归为成分微不均，不能据此添加第二个临界点。四方体的体压缩率还包含 c 轴项，文章直接重点跟踪的是 κa，严格的普适发散律仍受压力步长、取样和尖峰展宽限制。"
+        },
+        {
+          "title": "下一次实验",
+          "text": "先沿母晶切两条长条，用 WDS/EDX 成分图和单晶 XRD 做同轴样品对照。相同位置扫 a、c 方向，核对正反压扫的一阶滞后、温标与压缩率峰位，并伴随电阻变化。压力均匀性和实际 x 是首要复现变量。若升卸压力差随扫描速度而变，先排除压力平衡与温滞。若次峰跟着不同切片的成分梯度移动，可支持不均匀性解释；若它稳定对应另一相的独立结构/磁峰，需要重新判断相图。"
+        },
+        {
+          "title": "三临界诊断与样品误差",
+          "text": "三临界点描述连续和一级相变边界相接。判断靠多个信号，不能仅从大的长度突变或某一个电阻极大推断。用近似连续的热膨胀异常去定位有序线，再用温区内的快速体积收缩趋势去定价态交叉，最后看两类标志的相对位置怎样在低压变化。在原研究中同母晶取样降低了跨炉偏差，然而不同位置的实际 Ge 含量、取向与样品体积仍可让数据有系统位移。若拟合临界指数，至少应把压力标定、温度分辨和数值微分的窗宽固定，在相同原始数据上改窗重算，检验峰尖是否主要是导数放大。报告应同时保留 ΔL/L 原始轨迹、平滑/微分参数与电阻危温差，便于核查弱峰。"
+        },
+        {
+          "title": "怎样区分弹性临界和局域成分分布",
+          "text": "均匀样品中如果响应接近真正的临界增强，测得峰形应在缩小压力步长和提高温度稳定性时获得稳定极值位置。对成分分布导致的峰混合，小切片的位置变化可能比步长变化更重要。采用同片相邻两条区域、相同取向和近似几何，先做室温 WDS 或横截面 EDX，并让压扫方向作互换。a/c 两轴热膨胀还可与体弹模量或声速散射的独立结果交叉对照。近相变处机械弹簧和电容读出、液压介质的压力传递必须标定，特别不要用另一装置下标称相同压力的磁化与弹性数据反算同一个指数。若磁有序消失的信号不与 a 轴主峰接近，需要重新检查样品切片和是否有另一个不相关异常。"
+        },
+        {
+          "title": "压力和温度的双向复核",
+          "text": "温扫与压扫给出对相界的不同投影。压扫固定温度靠近 41 K 时直接看到长度对压力的导数增强，温扫固定压力时更直观地比较有序异常与价态交叉的相对位置。若两者共同勾画出相同区域，再把电输运和磁性作为额外读出，才有条件将信号与多自由度耦合联系起来。建议报告每条扫描前等待压力稳定的间隔、升降温方向和热锚方式，以便判断峰位的不确定度是否小于三临界点附近的压力区间。若不同低压装置之间的偏移大于样品间差，优先进行绝对压力标定和炉次控制。"
+        },
+        {
+          "title": "成分开发的优先级",
+          "text": "要工作在半毫米量级的均匀材料而非平均化学式上，从晶锭生长方向做截面化学地图是第一步。挑选主要成分窗口较窄区域制备同轴兄弟样，再分别做衍射、压扫和磁性，会比先追一次最大峰更可靠。四方对称要求从两个相同面内分量和面外分量构造体压缩率。a 轴主峰的方向灵敏度可以成为独立指标，但还需要 c 轴数据核验体积是否同样增强。对于有限测量步长下的圆滑峰，能报告采样范围内的增长和特征尺度，不能把最大值外推到无穷。若加 Sn 或外加应力后相界出现两个峰，需要先用实际占位与局域结构去解释，再考虑扩大材料扫描。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "优先读成分和低压相图",
+        "first": "图 S2 后接图 2 与图 4。",
+        "focus": "记录从 x_nom 到实测 x、以及 κa 与体压缩率。",
+        "next": "同位点测 a/c 轴与压扫速率依赖。"
+      },
+      "rating": "★★★★★",
+      "tags": [
+        "中英文标题",
+        "独立预印本"
+      ],
+      "titleOriginalMetadata": "Elastic tricriticality at the collapse of magnetic order in a valence fluctuating Eu-based compound",
+      "readingStatus": "preprint",
+      "selectionStatus": "today-announcement",
+      "bodyChineseCharacters": 1279
+    },
+    {
+      "title": "Nitride crystalline barrier epitaxial SIS Josephson junctions by MBE",
+      "titleZh": "分子束外延制备具有晶态氮化物势垒的 SIS 约瑟夫森结",
+      "doi": "https://arxiv.org/abs/2611.14968v1",
+      "fullText": "https://arxiv.org/html/2611.14968v1",
+      "material": "NbN / AlN / NbN",
+      "category": "高温与非常规超导",
+      "authors": "Manas Verma; Anand Ithepalli; Amit Rohan Rajapurohita; Eegene Clara Chung; David A. Garcia-Wetten; Naomi Pieczulewski; Danqing Wang; John G. Wright; Archit Shah; Jimy Encomendero; Rishabh Singh; Chandrashekar Savant; Hangwang Yang; Anthony Hyatt; Jaehong Choi; Thomas Varghese; Kushagra Aggarwal; Paul B. Welander; Apurva Mehta; David Schuster; Valla Fatemi; Gregory D. Fuchs; Michael C. Hamilton; Hong X. Tang; David A. Muller; Huili Grace Xing; Debdeep Jena",
+      "institutions": "康奈尔大学、斯坦福大学、耶鲁大学、奥本大学、SLAC/LCLS 等",
+      "journal": "arXiv",
+      "method": "等离子 MBE 全外延三明治、原子尺度表征、低温 I–V 与磁场干涉",
+      "access": "全文精读：公开 v1 主文、Methods 的生长与结制备小节、图 2–3 及表征讨论。独立补充数据待进一步复核。",
+      "date": "2026-11-13 官方公告",
+      "versionNote": "v1 预印本；结参数对应该几何、温度和厚度。 API 所列初投时间（北京时间）2026-11-11 11:28:40。",
+      "conclusion": "连续晶态 AlN 势垒仍允许相干隧穿，材料界面和测得 I–V 同时给力，器件相干时间仍未测出。",
+      "sections": [
+        {
+          "title": "工艺入口",
+          "text": "作者在商业退火 c 面 Al₂O₃ 上用等离子 MBE 生长。NbN 生长热电偶约 600 °C，6N5 N₂ 流量 2 sccm，射频 300 W，Nb 来源 4N5。利用 NbN 与 AlN 之间较好的晶格匹配和富氮生长条件促使 AlN 岛拼合获得连续约 4.5 nm 势垒，顶层 NbN 约 10 nm，全堆垛原位完成。Methods 给出清洁和生长段，实际温度应注明热电偶口径，不能跨腔体直接照搬。势垒连续性需要截面多区域核验，平均厚度不能排除少数极薄通道。"
+        },
+        {
+          "title": "结构与输运条件",
+          "text": "图 2 用台面结、配独立顶部/底部接触，18 mK 的 d.c. I–V 有准粒子隧穿拐点约 3.7 mV，IcRn≈2.5 mV，Jc≈17 A/cm²。出现有滞后的开关行为和 Fraunhofer 型电流磁场调制，支持欠阻尼 SIS 结。图 3 的生长结构和元素剖面支持三层分布；势垒附近有 H/O 浓度升高，结合其测量分辨率判断，不能认定缺陷密度已为零。临界电流变化还可能受面积、边缘刻蚀和界面局域厚度影响。"
+        },
+        {
+          "title": "复现和延伸",
+          "text": "标准应是同炉多面积器件的临界电流与正常态电阻面积标度，再复核 dI/dV 亚隙漏电和磁场调制中心。优先做三档 AlN 厚度及多截面，并比较较厚势垒是否减少 pinhole 的低压异常。若 I–V 的间隙拐点仍有但 Ic 分布与面积无关，先检查旁路和台面损伤；若主瓣和旁瓣重复，才能将变化跟界面制备联系。要确定晶态势垒是否带来更低介电损耗，需要独立测谐振器损耗或量子比特相干，同批非晶势垒/相同电极为对照。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "优先读势垒工艺与电学交叉证据",
+        "first": "先看图 2(c,d) 的 I–V，再到图 3 的截面和浓度分布。",
+        "focus": "区分晶态势垒完整性、隧穿一致性与后续相干性。",
+        "next": "同炉做多面积、多厚度和亚隙 I–V。"
+      },
+      "rating": "★★★★★",
+      "tags": [
+        "中英文标题",
+        "独立预印本"
+      ],
+      "titleOriginalMetadata": "Nitride crystalline barrier epitaxial SIS Josephson junctions by MBE",
+      "readingStatus": "preprint",
+      "selectionStatus": "today-announcement",
+      "bodyChineseCharacters": 405
+    },
+    {
+      "title": "Termination-selective Kondo hybridization of topological surface states in CeCuAs₂",
+      "titleZh": "CeCuAs₂ 拓扑表面态随表面终止而异的近藤杂化",
+      "doi": "https://arxiv.org/abs/2611.15022v1",
+      "fullText": "https://arxiv.org/html/2611.15022v1",
+      "material": "CeCuAs₂",
+      "category": "重费米子与量子临界",
+      "authors": "Bo Chen; Chen Zhang; Hao Liu; Qi-Yi Wu; Zhong-Tuo Fu; Ying Zhou; Chun-Hui Lyu; Yang Luo; Zi-Jie Xu; Hai-Long Deng; Zheng-Tai Liu; Mao Ye; Zhen-Hua Chen; Yao-Bo Huang; Sheng-Tao Cui; Zhe Sun; Da-Wei Shen; Jun He; Yu-Xia Duan; Jian-Qiao Meng",
+      "institutions": "中南大学、上海同步辐射光源、中国科学院上海高等研究院、中国科学技术大学国家同步辐射实验室",
+      "journal": "arXiv",
+      "method": "Bi 助熔剂单晶、终止面分辨和 Ce 共振 ARPES",
+      "access": "全文精读：公开 v1 样品与 ARPES 方法、图 1–4 和表面模拟讨论。助熔剂温程与独立 SI 未取得。",
+      "date": "2026-11-13 官方公告",
+      "versionNote": "v1 预印本；表面终止为图谱与计算联合指认。 API 所列初投时间（北京时间）2026-11-11 12:35:00。",
+      "conclusion": "CeAs₂ 终止上同时出现 Dirac 支与近费米能 Ce 4f 信号，冷却时两区域谱权重联动，提供表面近藤杂化的谱学证据。",
+      "sections": [
+        {
+          "title": "制备与测量",
+          "text": "单晶用 Bi 助熔剂，原料纯度、过量 Bi 比例、升降温与离心窗口正文未报告。样品在约 10 K 原位解理，测量真空优于约 6×10⁻¹¹ mbar。图 1 对 As1/CeAs₂ 的费米面分别用 85/88 eV、10 K、EF±10 meV 窗，终止面指认结合计算的表面投影。两种光子能量矩阵元不同，不能把原始强度差直接做成比例。单片不同位置的结束层与残余 Bi 均应成为复核项。"
+        },
+        {
+          "title": "证据与边界",
+          "text": "图 3–4 共振光电子谱用 Ce 的 4d→4f 增强近费米能窄带，在低温增强的同时 Dirac 区也增长，参照导带区域变化较小。10 K 与 110 K 的谱差及温变 EDC 给出最强的内对照。终止面模拟为贴合参照能带施加刚性能移，说明靠计算匹配无法单独测出表面电势。仅靠谱权重增加也不能直接确定杂化矩阵元；表面污染、重构、热占据和共振矩阵元是替代项。"
+        },
+        {
+          "title": "复现建议",
+          "text": "按同一炉次择两块晶体，先 Laue 定向、EDS 检查 Bi，再以同一光斑扫多个解理台阶，必要时配 STM 或芯能级指认。对准 EF 后在两个终止面的相同偏振、能量分辨与冷却循环中比较 near-EF 峰面积和背景。如果温变只随光斑漂移或表面龄期重现，应暂停近藤解释；如果 Dirac 分支反交叉随谱权重的变化与其他终止在同样条件下不同，再进行定量混成拟合。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "优先读共振谱与反例",
+        "first": "看图 1 的两种终止和图 4 的参照区域。",
+        "focus": "检查光子能量、温度、不同切片与拟合区间。",
+        "next": "用微区结构或芯能级独立检定表面终止。"
+      },
+      "rating": "★★★★☆",
+      "tags": [
+        "中英文标题",
+        "独立预印本"
+      ],
+      "titleOriginalMetadata": "Termination-selective Kondo hybridization of topological surface states in CeCuAs₂",
+      "readingStatus": "preprint",
+      "selectionStatus": "today-announcement",
+      "bodyChineseCharacters": 368
+    }
+  ],
+  "figures": [
+    {
+      "src": "/reports/2026-11-13/nio-time.svg",
+      "source": "https://arxiv.org/html/2611.17335v1",
+      "title": "NiO 光泵浦后的代表时标",
+      "caption": "根据论文信息重绘，并非论文原图。据 arXiv:2611.17335v1 图 3 重绘，拟合 τ=28±11 ps。两条达峰为约值，峰时与弛豫常数不同，不能得出相干寿命。开放预印本，原创重绘。"
+    }
+  ],
+  "sourceAudit": [],
+  "readingAudit": {
+    "candidateAccessibleFullTexts": 7,
+    "selectedAccessibleFullTexts": 7,
+    "fullReads": 7,
+    "earlyManuscriptReads": 0,
+    "siOnly": 0,
+    "abstractOnly": 0,
+    "institutionalSuccess": false,
+    "pending": [],
+    "summaryScope": "已选论文；其他待审候补未用于本期正文统计。"
+  },
+  "researchIdeas": {
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-16",
+    "scope": "补订时按材料、替代位点、目标物性和既有工艺查论文、预印本、学位与专利线索。",
+    "limitations": [
+      "公开网页限定查新；是否新颖以及候选结构能否制备、稳定和均匀仍需验证。"
+    ],
+    "ideas": [
+      {
+        "id": "remote-mose2-moire-kondo",
+        "kind": "material",
+        "status": "needs-review",
+        "paperIndex": 1,
+        "title": "以 MoSe₂ 替换 WS₂/WSe₂/WSe₂ 中的远端 WSe₂",
+        "material": "WS₂/WSe₂/MoSe₂ 顺序固定的范德华三层",
+        "evidenceLevel": "基于已读母相；未堆叠、未计算、未测量。",
+        "question": "保持近层莫尔势时，仅改变远端的价带与自旋轨道耦合，能否使绝缘异常在双栅图中移动？",
+        "prediction": "只有远层参与占据且同样存在 ν总=2 的填充控制时，才预期近藤型信号仍能成立；其最大能隙对应失谐、电场闭隙边界会随远端换层而改变。若远层不填充，预期相应异常消失。",
+        "basis": "母相的热力学跳变约 3–4 meV，且与 ν总=2 及远层占据相关。W 与 Mo 同族且同硒化物价电子计数类似，但 W 5d 与 Mo 4d 的 SOC、价带错位和隧穿不同；保持近层 WSe₂ 避免同时改变原短周期莫尔势。层距、重构及局域层应变仍未知。",
+        "difference": "最近邻 1L WS₂ / 2L WSe₂、MoTe₂/WSe₂ 和 WSe₂/MoSe₂ 两层已经报道。此处固定近层并只换远端色散层，直接判别占据重排。",
+        "plan": [
+          "先测分层 Raman、SHG、低温电荷转移能，核对近零扭角和远端近反向取向。",
+          "同栅介质做对照三层、无远层和换层三层，按实际莫尔密度校准再比较 MIM/四端输运与热力学能标。"
+        ],
+        "controls": [
+          "母相、无远层样品、远端 MoSe₂ 与 WSe₂ 单层光谱，以及反向堆叠。"
+        ],
+        "falsifiers": [
+          "Gate 达安全范围仍没有远端空穴或近层莫尔特征消失，停止对近藤耦合作参数比较。",
+          "若远端已被占据但所有填充和场边界与母相在误差内一致，则否定可分辨的失谐迁移预测。"
+        ],
+        "feasibility": "干转移和光谱可先验证，低温双栅 MIM 与输运需专门条件。",
+        "risks": "带偏置与竞争谷态可能让远端承担局域角色，气泡与电荷杂质也可抹平绝缘响应。",
+        "nextStep": "优先测双层 WSe₂/MoSe₂ 在预期栅场范围内的带边重叠。",
+        "queries": [
+          "WS2 WSe2 MoSe2 trilayer Kondo",
+          "WS2/WSe2/MoSe2 remote layer charge transfer moire patent dissertation",
+          "WSe2 MoSe2 hole filling heavy fermion"
+        ],
+        "remainingChecks": [
+          "未清完不同堆叠写法和未索引论文的权利要求；近邻工作全文待复看。"
+        ],
+        "priorArt": [
+          {
+            "title": "Signatures of a Kondo insulator in a multilayer moiré Superlattice",
+            "url": "https://doi.org/10.1038/s41467-026-78687-3",
+            "overlap": "已有同硒化物远层母相。",
+            "access": "出版者接受后正文"
+          },
+          {
+            "title": "Controlled synthesis and transfer of large area heterostructures made of bilayer and multilayer transition metal dichalocogenides",
+            "url": "https://patents.google.com/patent/US9806164B1/en",
+            "overlap": "涉及部分所需两层组合及一般多层堆叠，不足以排除特定三层物性试验。",
+            "access": "专利说明和摘要"
+          },
+          {
+            "title": "Emergence of a Symmetry-Broken Chern Insulator near a Moiré Kondo Breakdown",
+            "url": "https://doi.org/10.1103/szcj-44xj",
+            "overlap": "既有 MoTe₂/WSe₂ 莫尔近藤体系。",
+            "access": "正式 PDF 与摘要"
+          }
+        ]
+      },
+      {
+        "id": "sige-sn-eupd2-elastic",
+        "kind": "material",
+        "status": "needs-review",
+        "paperIndex": 5,
+        "title": "在 EuPd₂(Si,Ge)₂ 的 Si/Ge 位点加入微量 Sn",
+        "material": "EuPd₂(Si₀.₈₉₋ᵧGe₀.₁₁Snᵧ)₂，y 为试验变量",
+        "evidenceLevel": "基于 13 日公告的已读母相；未合成、未计算、未测量。",
+        "question": "保留四方单相时，较大 p 区元素少量进入 Si/Ge 位点，会改变三临界压力，还是先展宽成分相关峰？",
+        "prediction": "若 Sn 形成均匀同位点固溶且主要表现为负化学压力，与原 Ge 实测值匹配的样品可预期压缩率主峰偏向更高实际压力。若在校正体积后仍显著偏离或只增宽，则局域杂化、取代无序或竞争结构优先。",
+        "basis": "母相在约 14 MPa、41 K 有压缩率增强，成分偏析可造成次峰。Sn 与 Si/Ge 同族可保持名义电子计数，但更大共价尺寸、更强 SOC 和不同 Pd–p 杂化会影响 Eu 价态。避免在 Eu 位用稀土替代，保留磁位点；Sn 具体占位、端元结构及互溶未知。",
+        "difference": "已报道 EuPd₂Si₂ 的 Ge 以及 Pd/Au 材料调节；该设想限定固定实测 Ge、少量 Sn，并将 a/c 压缩率与实测晶格对比。",
+        "plan": [
+          "先做小量低掺杂筛选，XRD 全谱查副相，WDS 扫测母晶、头尾和片内 Sn/Ge.",
+          "单相样品同机做 a/c 等温压扫与电输运，比较外压匹配晶格后的峰位及峰宽。"
+        ],
+        "controls": [
+          "母相、至少两个稀 Sn 成分、母相在多个压力下对照；Sn 端元如异结构仅作竞争相对照。"
+        ],
+        "falsifiers": [
+          "占位无法证实、明显锡析出或 Ge 随 Sn 漂移大于对照误差时停止。",
+          "结构与实际成分可匹配但峰位方向相反，否定单纯负化学压力解释。"
+        ],
+        "feasibility": "先低成本做结构成分筛查。精密氦气压力膨胀需合作。",
+        "risks": "三临界窗口压力很窄，少量偏析或残余 Sn 都可能造成伪峰。",
+        "nextStep": "查清 Eu–Pd–Sn 竞争相和本组三元坐标，再决定是否做微量增量。",
+        "queries": [
+          "EuPd2Si2 Ge Sn solid solution elastic tricritical",
+          "EuPd2(SiGeSn)2 valence pressure EuPd2Sn2 patent thesis"
+        ],
+        "remainingChecks": [
+          "专利和非英语数据库未系统覆盖，含 Sn 的相图、局部配位、可溶性均待查。"
+        ],
+        "priorArt": [
+          {
+            "title": "Elastic tricriticality at the collapse of magnetic order in a valence fluctuating Eu-based compound",
+            "url": "https://arxiv.org/html/2611.15984v1",
+            "overlap": "已有 Ge 固溶、偏析和弹性实验。",
+            "access": "已读正文及 SI"
+          },
+          {
+            "title": "Goethe University Frankfurt research data archive",
+            "url": "https://gude.uni-frankfurt.de/browse/dateissued?scope=f2e31429-119d-406c-86ea-49540c14701d",
+            "overlap": "已报道 Au、Ge 替换单晶，当前查新与其区分。",
+            "access": "机构数据题录"
+          }
+        ]
+      }
+    ],
+    "rejected": []
+  },
+  "auditUrl": "/reports/2026-11-13/audit.json",
+  "searchTerms": [
+    "出版社 Online First、Early View、Accepted 与 Crossref online date。",
+    "arXiv cond-mat/new 与官方 ID API 交叉核验；区分公告、提交、替换。",
+    "按 DOI、arXiv ID 和规范化题名去重。"
+  ]
+}

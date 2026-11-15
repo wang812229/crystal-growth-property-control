@@ -1,0 +1,205 @@
+{
+  "date": "2026-11-14",
+  "issue": "081",
+  "headline": "2 篇独立论文，1 篇正文精读，1 项材料假设",
+  "hotspot": "纯锡压卸载的结构动力学不对称，以及二维富勒烯单层中声子激活跃迁的理论线索。",
+  "searchWindow": "北京时间 11 月 14 日正式上线，期后回补。arXiv 留档仍为官网 13 日批次；未核到独立 14 日公告，不以 API 空批次为零提交证据。",
+  "accessSummary": "正式期刊 2 篇，独立 arXiv 0 篇。已选论文可访问且已读正文 1 篇，仅摘要 1 篇。此次使用公开来源，未建立机构订阅访问。",
+  "papers": [
+    {
+      "title": "Mechanisms of β ↔ γ transformations in tin induce asymmetric kinetics",
+      "titleZh": "锡中 β↔γ 相变的机制导致不对称动力学",
+      "doi": "https://doi.org/10.1038/s43246-026-01418-0",
+      "fullText": "https://www.nature.com/articles/s43246-026-01418-0_reference.pdf",
+      "material": "β–Sn / γ–Sn",
+      "category": "晶体生长和物性调控",
+      "authors": "Robin Fréville; Agnès Dewaele; Charles Pépin; Nicolas Bruzy; Florent Occelli; Matteo Levantino; Nicolas Guignot",
+      "institutions": "CEA/DAM、欧洲同步辐射装置 ESRF、SOLEIL 等",
+      "journal": "Communications Materials",
+      "method": "静态/动态金刚石压砧、原位 XRD、取向与速率追踪",
+      "access": "全文精读：出版者 Article in Press 的 Results、Discussion、Methods，核对静态取向、动态衍射和变速曲线相关图文。",
+      "date": "2026-11-14 在线",
+      "versionNote": "按出版社正式在线日入选，已读公开 Article in Press，未独立复核补充数据集。",
+      "conclusion": "同一元素的正反相变具有不同动力学。300 K 下正向 β→γ 的突变压力约 10.9±0.2 GPa，反向压力明显随卸载速率变动。",
+      "sections": [
+        {
+          "title": "问题与样品",
+          "text": "高压相图里的变换压力常混有动力学过压/欠压。作者让元素锡经历静态压力循环和动态卸载，分开问相变发生压力、首批衍射峰出现时间、娘相晶粒重整时间。静态 Run 1 用 99.8% 的粉粒，衍射判定颗粒为 β-Sn 单晶。Run 2 是 99.95% 的 15 μm 冷轧箔，在真空 450 K 退火 2 h，再切成直径约 80 μm 的片。两种初始样品的表面与位错史不同。若要比较循环后的取向选择，必须先存初始取向图和独立采样位置。"
+        },
+        {
+          "title": "原位测量与直接观察",
+          "text": "静态 DAC 在约 300 K 进行多次变换，用单晶衍射定位母相和变体的取向；动态 DAC 的衍射时间窗约 22 μs，用不同压缩/卸载速度从峰出现和演变提取转变条件。正向压力 10.9±0.2 GPa，在论文覆盖的速率范围变化很小。反向代表性压力由低速条件下的约 9.4±0.8 GPa 变化到高速的约 6.35±0.7 GPa。两者是测得转变条件，不能拿反向转变压力替代平衡相界。强度变化也同时受变体取向、织构和亮斑几何影响，需要多峰互证。"
+        },
+        {
+          "title": "微结构、解释与复现",
+          "text": "静态压缩与回转中多次找到近 (101)β∥(110)γ 的关系，也出现不同变体；作者以马氏体型位移及自协调解释这些取向。回到 β 相后出现新取向和两阶段成长迹象，作者保留再结晶或块状转变等解释。最快的反向压力信号和随后微结构粗化不是同一时间尺度。最好在同一初始批次做细步静态循环作为参考，加入未退火/退火配对，独立保存压力—时间标定、起始方位和峰阈值。若速率依赖随压力介质或初始缺陷改变，应先分析应力不均与成核模型；只有保持相同粒径、介质和几何时才能比较本征正反差异。"
+        },
+        {
+          "title": "对称性与形变的再核对",
+          "text": "静态数据将衍射斑点分组后再为 β 和 γ 两相建立取向关系。重复出现的取向关系比单次衍射的峰强更有鉴别力，因为晶体转动可以改变探测器上可见峰的数量，并不必然改变相含量。接近某一组取向并不等同于确认原子逐步怎样移动。作者用相邻变体的自协调给出候选位移模型，并与文献中的另一种取向模型比较。以同一初始方位重复施压后，若出现不同变体比例，先排查晶体是否旋转、介质是否传递剪应力，再讨论能否用变体之间的抵消降低总形变能。原文部分运行的角度误差约在十度量级；读图时要分开实验定向误差和真实的微小变体倾角。"
+        },
+        {
+          "title": "压力驱动与测量时间的区别",
+          "text": "动态设备在约 19 keV、约 25 μm 斑点的同步辐射下监测少量受压区域。典型曝光约 10 μs，论文给出的约 22 μs 是动态比较使用的时间尺度。压力时序和衍射起峰的相对时标会影响正反两个边界的估算；转换时压力梯度和母相峰宽也会制造表观延迟。把每个压力斜率的数据按同一标准提取峰出现点，并记录受压样品的初始取向、尺度、介质和照射位置，才能比较正向和反向迟滞。反向途中即使先有少量 β 核出现，也不表示随后能立即长成少数大晶粒。看变体强度随时间重分配，比只记第一次 β 峰更能辨认两阶段过程。"
+        },
+        {
+          "title": "什么结果会修正解释",
+          "text": "如果慢扫和快扫在同样的成核判据下给出重合的反向压力，最先应检查原实验中的速率范围是否与重复实验重叠，以及载荷的真实变化如何。如果压力差只跟初始冷轧或退火状态走，却与同态样品的动态速率无关，结论需改为初始缺陷和织构主导。反过来，若同样初始状态下卸载速度改变仍可复现约数 GPa 的阈值差，同时后期相同晶粒会出现新的取向或斑点粗化，才支持正反动力学不同。该思路也适用于外延薄膜的相变测试，但薄膜受衬底钳制，需要额外量应力与温度，不宜把块体压力直接等效为薄膜应变。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "优先读 Methods 和转变对照",
+        "first": "先看图 1–2 的衍射取向，再看动态段的速度—变换压。",
+        "focus": "区分动态变换、平衡相界和合金相图。",
+        "next": "按同一初始晶粒状态重复三档压缩与卸载。"
+      },
+      "rating": "★★★★★",
+      "tags": [
+        "中英文标题",
+        "正式期刊"
+      ],
+      "titleOriginalMetadata": "Mechanisms of β ↔ γ transformations in tin induce asymmetric kinetics",
+      "readingStatus": "formal",
+      "selectionStatus": "today-formal",
+      "bodyChineseCharacters": 1126
+    },
+    {
+      "title": "Phonon-Activated Optical Transitions in Graphullerene Monolayers",
+      "titleZh": "二维富勒烯聚合物单层中由声子激活的光学跃迁",
+      "doi": "https://doi.org/10.1021/acs.nanolett.6c03572",
+      "fullText": "https://api.crossref.org/works/10.1021/acs.nanolett.6c03572",
+      "material": "graphullerene 单层",
+      "category": "二维材料与量子器件",
+      "authors": "Aurélie Champagne; Antonios M. Alvertis; Yoann Olivier; Leeor Kronik; Jeffrey B. Neaton",
+      "institutions": "劳伦斯伯克利国家实验室、加州大学伯克利分校、波尔多大学、UT Austin、那慕尔大学、魏茨曼科学研究所",
+      "journal": "Nano Letters",
+      "method": "第一性原理多体微扰与有限差分，理论候选",
+      "access": "仅摘要：Crossref 返回作者与公开摘要，ACS 正文访问遇到验证页面，未找到可核实的公开作者全文。",
+      "date": "2026-11-14 在线",
+      "versionNote": "ASAP 日期由出版者提交给 Crossref 的 published-online 记录核验；这里的数值为理论结果。",
+      "conclusion": "作者计算声子运动对准粒子和光学带隙的重整化，预测动核破缺对称性后可激活原本禁戒的 Γ 点垂直跃迁。",
+      "sections": [
+        {
+          "title": "对象与已知计算",
+          "text": "研究对象为由共价连接 C₆₀ 单元构成的二维薄层。摘要给出基于多体微扰和非微扰有限差分的处理，300 K 下准粒子带隙和光学带隙的重整化量级分别为 0.22、0.33 eV。作者用类 Herzberg–Teller 机制解释显著光学红移，含零点运动的瞬态构型可放开静态对称性下不允许的跃迁。两数不是本简报计算值，也不是实测温变带隙。"
+        },
+        {
+          "title": "访问与补读",
+          "text": "模型结构、空间群、截断、k/q 网格、声子模态收敛、采样误差、单层制备与谱学对照目前未知。尚未读主图、Methods、SI，实验条件不从相邻文献移植。补读优先检查静态结构构型与所用振动平均方式，确认 0.22/0.33 eV 使用同一参考系。可用偏振光谱与 Raman 温变作为后续检验，但优先要排除层数与缺陷诱导的发光边变化。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "摘要级，先关注实验可验性",
+        "first": "正文开放后先定位声子采样方法和跃迁权重图。",
+        "focus": "比较激子与准粒子能标，以及可见度而非只看红移。",
+        "next": "等待全文，补录数值收敛与样品边界。"
+      },
+      "rating": "★★★☆☆",
+      "tags": [
+        "中英文标题",
+        "正式期刊"
+      ],
+      "titleOriginalMetadata": "Phonon-Activated Optical Transitions in Graphullerene Monolayers",
+      "readingStatus": "abstract",
+      "selectionStatus": "today-formal",
+      "bodyChineseCharacters": 233
+    }
+  ],
+  "figures": [
+    {
+      "src": "/reports/2026-11-14/sn-pressures.svg",
+      "source": "https://www.nature.com/articles/s43246-026-01418-0_reference.pdf",
+      "title": "锡正反转变的代表压力",
+      "caption": "根据论文信息重绘，并非论文原图。据 Communications Materials 公开稿动态转变段重绘，误差分别 ±0.2、±0.8、±0.7 GPa。数据表征实验变换压力，平衡压力需另测。"
+    }
+  ],
+  "sourceAudit": [],
+  "readingAudit": {
+    "candidateAccessibleFullTexts": 1,
+    "selectedAccessibleFullTexts": 1,
+    "fullReads": 1,
+    "earlyManuscriptReads": 0,
+    "siOnly": 0,
+    "abstractOnly": 1,
+    "institutionalSuccess": false,
+    "pending": [
+      {
+        "title": "Phonon-Activated Optical Transitions in Graphullerene Monolayers",
+        "titleZh": "二维富勒烯聚合物单层中由声子激活的光学跃迁",
+        "reason": "仅摘要：Crossref 返回作者与公开摘要，ACS 正文访问遇到验证页面，未找到可核实的公开作者全文。"
+      }
+    ],
+    "summaryScope": "已选论文；其他待审候补未用于本期正文统计。"
+  },
+  "researchIdeas": {
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-16",
+    "scope": "补订时按材料、替代位点、目标物性和既有工艺查论文、预印本、学位与专利线索。",
+    "limitations": [
+      "公开网页限定查新；是否新颖以及候选结构能否制备、稳定和均匀仍需验证。"
+    ],
+    "ideas": [
+      {
+        "id": "isotope-graphullerene-optics",
+        "kind": "material",
+        "status": "needs-review",
+        "paperIndex": 2,
+        "title": "以富集 ¹³C₆₀ 构筑 graphullerene，检验禁戒光学跃迁的零点贡献",
+        "material": "(¹³C₆₀)∞ 与 (¹²C₆₀)∞ 的同构单层",
+        "evidenceLevel": "基于 14 日理论摘要及既有结构论文；未制备、未计算、未测量。",
+        "question": "保持连接拓扑和层数，改变振动质量能否减弱零点运动激活的吸收？",
+        "prediction": "在力常数和对称性不变的谐振近似下，富 ¹³C 样品的相关振动频率应降低且零点位移减小；低温禁戒边的振子强度或声子相关红移应有同方向的可分辨变化。绝对能量差需要计算。",
+        "basis": "换同位素可近似维持价电子、配位与 SOC，较重质量降低振动频率；静态共价结构可能保留，但相纯度、聚合方式和残留离子应逐片核对。比换 Si 更能隔离质量变量，避免改变共价拓扑和电荷补偿。",
+        "difference": "已有天然丰度 graphullerene 的制备与 Raman、富 ¹³C 的分子晶体谱学。这里限定元素同位素富集的共价单层、低温光学边与声子强度联测。",
+        "plan": [
+          "以同一工艺分别处理天然丰度、¹²C/¹³C 富集对照；先做 Raman、AFM、偏振特征，必要时用选区衍射核验一致连接。",
+          "同衬底测低温吸收/反射对比与温变，不从单条 PL 拟合声子零点贡献。"
+        ],
+        "controls": [
+          "未聚合 C₆₀、天然丰度 graphullerene、同位素端点、至少两批同层厚样品。"
+        ],
+        "falsifiers": [
+          "Raman 已确认质量变化但同层吸收边在可分辨精度内完全不变，否定可测的同位素效应假设。",
+          "若连接拓扑或残留掺杂不同，停止进行归因。"
+        ],
+        "feasibility": "小样光谱和层数可先合作测试；富集 C₆₀ 原料与合成路线需先确认。",
+        "risks": "低温吸收信号弱、样品尺寸小、链方向及残留物可能比同位素效应大。",
+        "nextStep": "取得本期正文再估算光谱检测灵敏度；先复现母相 Raman。",
+        "queries": [
+          "graphullerene carbon isotope 13C60 optical transitions",
+          "graphullerene phonon isotope fullerene polymer thesis patent"
+        ],
+        "remainingChecks": [
+          "正文方法尚未取得，须排查其中是否已有同位素计算；化学制备相关专利全文未查完。"
+        ],
+        "priorArt": [
+          {
+            "title": "A few-layer covalent network of fullerenes",
+            "url": "https://doi.org/10.1038/s41586-022-05401-w",
+            "overlap": "已有结构制备、少层结构和振动表征，不能把同一连接拓扑当新材料。",
+            "access": "正式正文及图注"
+          },
+          {
+            "title": "Spectroscopic investigations of C60 fullerene and its endohedral derivatives",
+            "url": "https://eprints.soton.ac.uk/455367/",
+            "overlap": "已有分子 C₆₀ 同位素光谱线索，未等同聚合单层。",
+            "access": "学位库摘要与结论"
+          },
+          {
+            "title": "Vibrational Study of 13C-enriched C60 Crystals",
+            "url": "https://arxiv.org/abs/cond-mat/9411032",
+            "overlap": "富集分子晶体的振动光谱已研究。",
+            "access": "arXiv 摘要"
+          }
+        ]
+      }
+    ],
+    "rejected": []
+  },
+  "auditUrl": "/reports/2026-11-14/audit.json",
+  "searchTerms": [
+    "出版社 Online First、Early View、Accepted 与 Crossref online date。",
+    "arXiv cond-mat/new 与官方 ID API 交叉核验；区分公告、提交、替换。",
+    "按 DOI、arXiv ID 和规范化题名去重。"
+  ]
+}

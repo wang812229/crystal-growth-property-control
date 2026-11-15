@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-14",
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-16",
+  "scope": "补订时按材料、替代位点、目标物性和既有工艺查论文、预印本、学位与专利线索。",
+  "limitations": [
+    "公开网页限定查新；是否新颖以及候选结构能否制备、稳定和均匀仍需验证。"
+  ],
+  "ideas": [
+    {
+      "id": "isotope-graphullerene-optics",
+      "kind": "material",
+      "status": "needs-review",
+      "paperIndex": 2,
+      "title": "以富集 ¹³C₆₀ 构筑 graphullerene，检验禁戒光学跃迁的零点贡献",
+      "material": "(¹³C₆₀)∞ 与 (¹²C₆₀)∞ 的同构单层",
+      "evidenceLevel": "基于 14 日理论摘要及既有结构论文；未制备、未计算、未测量。",
+      "question": "保持连接拓扑和层数，改变振动质量能否减弱零点运动激活的吸收？",
+      "prediction": "在力常数和对称性不变的谐振近似下，富 ¹³C 样品的相关振动频率应降低且零点位移减小；低温禁戒边的振子强度或声子相关红移应有同方向的可分辨变化。绝对能量差需要计算。",
+      "basis": "换同位素可近似维持价电子、配位与 SOC，较重质量降低振动频率；静态共价结构可能保留，但相纯度、聚合方式和残留离子应逐片核对。比换 Si 更能隔离质量变量，避免改变共价拓扑和电荷补偿。",
+      "difference": "已有天然丰度 graphullerene 的制备与 Raman、富 ¹³C 的分子晶体谱学。这里限定元素同位素富集的共价单层、低温光学边与声子强度联测。",
+      "plan": [
+        "以同一工艺分别处理天然丰度、¹²C/¹³C 富集对照；先做 Raman、AFM、偏振特征，必要时用选区衍射核验一致连接。",
+        "同衬底测低温吸收/反射对比与温变，不从单条 PL 拟合声子零点贡献。"
+      ],
+      "controls": [
+        "未聚合 C₆₀、天然丰度 graphullerene、同位素端点、至少两批同层厚样品。"
+      ],
+      "falsifiers": [
+        "Raman 已确认质量变化但同层吸收边在可分辨精度内完全不变，否定可测的同位素效应假设。",
+        "若连接拓扑或残留掺杂不同，停止进行归因。"
+      ],
+      "feasibility": "小样光谱和层数可先合作测试；富集 C₆₀ 原料与合成路线需先确认。",
+      "risks": "低温吸收信号弱、样品尺寸小、链方向及残留物可能比同位素效应大。",
+      "nextStep": "取得本期正文再估算光谱检测灵敏度；先复现母相 Raman。",
+      "queries": [
+        "graphullerene carbon isotope 13C60 optical transitions",
+        "graphullerene phonon isotope fullerene polymer thesis patent"
+      ],
+      "remainingChecks": [
+        "正文方法尚未取得，须排查其中是否已有同位素计算；化学制备相关专利全文未查完。"
+      ],
+      "priorArt": [
+        {
+          "title": "A few-layer covalent network of fullerenes",
+          "url": "https://doi.org/10.1038/s41586-022-05401-w",
+          "overlap": "已有结构制备、少层结构和振动表征，不能把同一连接拓扑当新材料。",
+          "access": "正式正文及图注"
+        },
+        {
+          "title": "Spectroscopic investigations of C60 fullerene and its endohedral derivatives",
+          "url": "https://eprints.soton.ac.uk/455367/",
+          "overlap": "已有分子 C₆₀ 同位素光谱线索，未等同聚合单层。",
+          "access": "学位库摘要与结论"
+        },
+        {
+          "title": "Vibrational Study of 13C-enriched C60 Crystals",
+          "url": "https://arxiv.org/abs/cond-mat/9411032",
+          "overlap": "富集分子晶体的振动光谱已研究。",
+          "access": "arXiv 摘要"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

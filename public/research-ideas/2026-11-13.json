@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-13",
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-16",
+  "scope": "补订时按材料、替代位点、目标物性和既有工艺查论文、预印本、学位与专利线索。",
+  "limitations": [
+    "公开网页限定查新；是否新颖以及候选结构能否制备、稳定和均匀仍需验证。"
+  ],
+  "ideas": [
+    {
+      "id": "remote-mose2-moire-kondo",
+      "kind": "material",
+      "status": "needs-review",
+      "paperIndex": 1,
+      "title": "以 MoSe₂ 替换 WS₂/WSe₂/WSe₂ 中的远端 WSe₂",
+      "material": "WS₂/WSe₂/MoSe₂ 顺序固定的范德华三层",
+      "evidenceLevel": "基于已读母相；未堆叠、未计算、未测量。",
+      "question": "保持近层莫尔势时，仅改变远端的价带与自旋轨道耦合，能否使绝缘异常在双栅图中移动？",
+      "prediction": "只有远层参与占据且同样存在 ν总=2 的填充控制时，才预期近藤型信号仍能成立；其最大能隙对应失谐、电场闭隙边界会随远端换层而改变。若远层不填充，预期相应异常消失。",
+      "basis": "母相的热力学跳变约 3–4 meV，且与 ν总=2 及远层占据相关。W 与 Mo 同族且同硒化物价电子计数类似，但 W 5d 与 Mo 4d 的 SOC、价带错位和隧穿不同；保持近层 WSe₂ 避免同时改变原短周期莫尔势。层距、重构及局域层应变仍未知。",
+      "difference": "最近邻 1L WS₂ / 2L WSe₂、MoTe₂/WSe₂ 和 WSe₂/MoSe₂ 两层已经报道。此处固定近层并只换远端色散层，直接判别占据重排。",
+      "plan": [
+        "先测分层 Raman、SHG、低温电荷转移能，核对近零扭角和远端近反向取向。",
+        "同栅介质做对照三层、无远层和换层三层，按实际莫尔密度校准再比较 MIM/四端输运与热力学能标。"
+      ],
+      "controls": [
+        "母相、无远层样品、远端 MoSe₂ 与 WSe₂ 单层光谱，以及反向堆叠。"
+      ],
+      "falsifiers": [
+        "Gate 达安全范围仍没有远端空穴或近层莫尔特征消失，停止对近藤耦合作参数比较。",
+        "若远端已被占据但所有填充和场边界与母相在误差内一致，则否定可分辨的失谐迁移预测。"
+      ],
+      "feasibility": "干转移和光谱可先验证，低温双栅 MIM 与输运需专门条件。",
+      "risks": "带偏置与竞争谷态可能让远端承担局域角色，气泡与电荷杂质也可抹平绝缘响应。",
+      "nextStep": "优先测双层 WSe₂/MoSe₂ 在预期栅场范围内的带边重叠。",
+      "queries": [
+        "WS2 WSe2 MoSe2 trilayer Kondo",
+        "WS2/WSe2/MoSe2 remote layer charge transfer moire patent dissertation",
+        "WSe2 MoSe2 hole filling heavy fermion"
+      ],
+      "remainingChecks": [
+        "未清完不同堆叠写法和未索引论文的权利要求；近邻工作全文待复看。"
+      ],
+      "priorArt": [
+        {
+          "title": "Signatures of a Kondo insulator in a multilayer moiré Superlattice",
+          "url": "https://doi.org/10.1038/s41467-026-78687-3",
+          "overlap": "已有同硒化物远层母相。",
+          "access": "出版者接受后正文"
+        },
+        {
+          "title": "Controlled synthesis and transfer of large area heterostructures made of bilayer and multilayer transition metal dichalocogenides",
+          "url": "https://patents.google.com/patent/US9806164B1/en",
+          "overlap": "涉及部分所需两层组合及一般多层堆叠，不足以排除特定三层物性试验。",
+          "access": "专利说明和摘要"
+        },
+        {
+          "title": "Emergence of a Symmetry-Broken Chern Insulator near a Moiré Kondo Breakdown",
+          "url": "https://doi.org/10.1103/szcj-44xj",
+          "overlap": "既有 MoTe₂/WSe₂ 莫尔近藤体系。",
+          "access": "正式 PDF 与摘要"
+        }
+      ]
+    },
+    {
+      "id": "sige-sn-eupd2-elastic",
+      "kind": "material",
+      "status": "needs-review",
+      "paperIndex": 5,
+      "title": "在 EuPd₂(Si,Ge)₂ 的 Si/Ge 位点加入微量 Sn",
+      "material": "EuPd₂(Si₀.₈₉₋ᵧGe₀.₁₁Snᵧ)₂，y 为试验变量",
+      "evidenceLevel": "基于 13 日公告的已读母相；未合成、未计算、未测量。",
+      "question": "保留四方单相时，较大 p 区元素少量进入 Si/Ge 位点，会改变三临界压力，还是先展宽成分相关峰？",
+      "prediction": "若 Sn 形成均匀同位点固溶且主要表现为负化学压力，与原 Ge 实测值匹配的样品可预期压缩率主峰偏向更高实际压力。若在校正体积后仍显著偏离或只增宽，则局域杂化、取代无序或竞争结构优先。",
+      "basis": "母相在约 14 MPa、41 K 有压缩率增强，成分偏析可造成次峰。Sn 与 Si/Ge 同族可保持名义电子计数，但更大共价尺寸、更强 SOC 和不同 Pd–p 杂化会影响 Eu 价态。避免在 Eu 位用稀土替代，保留磁位点；Sn 具体占位、端元结构及互溶未知。",
+      "difference": "已报道 EuPd₂Si₂ 的 Ge 以及 Pd/Au 材料调节；该设想限定固定实测 Ge、少量 Sn，并将 a/c 压缩率与实测晶格对比。",
+      "plan": [
+        "先做小量低掺杂筛选，XRD 全谱查副相，WDS 扫测母晶、头尾和片内 Sn/Ge.",
+        "单相样品同机做 a/c 等温压扫与电输运，比较外压匹配晶格后的峰位及峰宽。"
+      ],
+      "controls": [
+        "母相、至少两个稀 Sn 成分、母相在多个压力下对照；Sn 端元如异结构仅作竞争相对照。"
+      ],
+      "falsifiers": [
+        "占位无法证实、明显锡析出或 Ge 随 Sn 漂移大于对照误差时停止。",
+        "结构与实际成分可匹配但峰位方向相反，否定单纯负化学压力解释。"
+      ],
+      "feasibility": "先低成本做结构成分筛查。精密氦气压力膨胀需合作。",
+      "risks": "三临界窗口压力很窄，少量偏析或残余 Sn 都可能造成伪峰。",
+      "nextStep": "查清 Eu–Pd–Sn 竞争相和本组三元坐标，再决定是否做微量增量。",
+      "queries": [
+        "EuPd2Si2 Ge Sn solid solution elastic tricritical",
+        "EuPd2(SiGeSn)2 valence pressure EuPd2Sn2 patent thesis"
+      ],
+      "remainingChecks": [
+        "专利和非英语数据库未系统覆盖，含 Sn 的相图、局部配位、可溶性均待查。"
+      ],
+      "priorArt": [
+        {
+          "title": "Elastic tricriticality at the collapse of magnetic order in a valence fluctuating Eu-based compound",
+          "url": "https://arxiv.org/html/2611.15984v1",
+          "overlap": "已有 Ge 固溶、偏析和弹性实验。",
+          "access": "已读正文及 SI"
+        },
+        {
+          "title": "Goethe University Frankfurt research data archive",
+          "url": "https://gude.uni-frankfurt.de/browse/dateissued?scope=f2e31429-119d-406c-86ea-49540c14701d",
+          "overlap": "已报道 Au、Ge 替换单晶，当前查新与其区分。",
+          "access": "机构数据题录"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,168 @@
+{
+  "date": "2026-11-15",
+  "issue": "082",
+  "headline": "1 篇独立论文，1 篇正文精读，1 项材料假设",
+  "hotspot": "从孤立量子点到成键与反键态：用脉冲门谱拆分 ²⁸Si/SiGe 双量子点的谷、自旋和轨道能标。",
+  "searchWindow": "北京时间 11 月 15 日的正式在线论文，16 日凌晨复核。在线日期经出版社与 Crossref 对齐。未核到 15 日独立 arXiv 官网公告，API 空结果不能作为零提交的依据。",
+  "accessSummary": "正式期刊 1 篇，独立 arXiv 0 篇。已选论文可访问且已读正文 1 篇，仅摘要 0 篇。此次使用公开来源，未建立机构订阅访问。",
+  "papers": [
+    {
+      "title": "Directly visualizing the energy level structure of quantum dot molecules",
+      "titleZh": "直接观测量子点分子的能级结构",
+      "doi": "https://doi.org/10.1038/s41467-026-79672-6",
+      "fullText": "https://www.nature.com/articles/s41467-026-79672-6_reference.pdf",
+      "material": "²⁸Si/SiGe 双量子点",
+      "category": "二维材料与量子器件",
+      "authors": "Heun Mo Yoo; Tanner M. Janda; Connor Nasseraddin; Jason R. Petta",
+      "institutions": "加州大学洛杉矶分校物理与天文学系、量子科学与工程中心、电气与计算机工程系；HRL Laboratories",
+      "journal": "Nature Communications",
+      "method": "低温脉冲门谱、电荷传感、磁场与点间失谐扫描",
+      "access": "全文精读：出版者 Article in Press 的 Results、Methods、图 1–4；已核补充材料的唯象模型、图 S1、S3–S7 及表 S1。",
+      "date": "2026-11-15 在线",
+      "versionNote": "网页与 Crossref 均确认 11 月 15 日上线。公开精读版本为 Article in Press，10 月 27 日接受。",
+      "conclusion": "在同一个 Si/SiGe 双量子点上调节点间隧穿，谱线由弱耦合时的穿越变为强耦合时的反交叉，并能分别测量谷、轨道、自旋与双电子单重态—三重态能标。",
+      "sections": [
+        {
+          "title": "问题和关键实验",
+          "text": "实空间中分离的两个量子点可由栅极势垒调节耦合。以往通过漏源输运读取激发态时，点与储库的耦合可能显著增加能级展宽，也不容易保留自旋量子比特通常使用的工作条件。作者降低点到储库的隧穿速率，由电荷传感器读出周期性装载电子的平均信号。调脉冲高度，让能量更高的装载路径逐一打开，再沿点间失谐扫描，就能画出局域态到分子态的转变。实验能调控同一器件的两个变量，弱耦合和强耦合的差异可以在同一片样品上比较，较少受跨炉次和器件几何影响。读图时所见的是传感电导的导数和能量阈值，成键或反键波函数的空间分布来自对测量的解释。"
+        },
+        {
+          "title": "样品、质量和报告缺口",
+          "text": "器件来自 Intel 的 Si/SiGe 三量子点架构，测量使用 ²⁸Si 量子阱，残余 ²⁹Si 为 800 ppm。P1 和 P2 栅在阱内限定两个点，第三个栅和积累栅下形成用于装载与卸载的电子库；屏蔽栅分开双点阵列和传感点。图 1c 的器件显微图与栅结构标注给出几何关系，稳定图确认可进入空点、单电子和双电子区。Methods 将栅堆叠的更多信息指向引文 35。本文正文未报告这批片的 SiGe 实际 Ge 分数、阱宽、外延温度与速率、退火时序、位错密度、XRD/EDS 定量、批次统计或产率。传感器更靠近右点，同样的原始振幅在左右两点的可见度不同，不能从左点较淡的谱线单独推断其能隙更小。"
+        },
+        {
+          "title": "测量几何与标定",
+          "text": "构造两条补偿互电容的虚拟栅轴。一轴同时移动两点平均电化学势，另一轴扫描 ε，即左右点能级差。以偏压三角形定能量杠杆，再按弱耦合时的直流与脉冲电荷转移线对齐校正脉冲幅度，弱耦合谱的幅值标定误差约 5%。装载与卸载脉冲宽度 0.3–1 μs，点到库的特征隧穿时间约 50 μs。传感器激励为 50 μV、400 kHz。单点积分 10 ms，二维图平均约 10–20 遍。Methods 给出的电子温度由费米函数拟合为 94 mK，分辨率受储库热展宽约 3.5 kBT 限制。仪器条件和实际拟合宽度都要同时记，热分辨率不能用稀释制冷机的底温代替。正文未报告此处测量磁场的样品坐标取向。"
+        },
+        {
+          "title": "单电子证据和替代解释",
+          "text": "弱耦合时图 1e 取到左、右谷劈裂 89±5 与 107±6 μeV；随 ε 改变的局域态近乎直接交叉。将点间势垒调到强耦合，图 2b 的基态反交叉换算 tc 为 97±6 μeV，与无脉冲电荷转移用两能级模型取得的 100 μeV 相符。这个 tc 是半劈裂尺度；直接把两个峰的总间隔记成 tc 会有因子二错误。图 3b 固定 ε=1 meV 扫磁场，四条右点谱线在去除零场自旋简并后展开，作者用峰位拟合 g=1.98±0.12。最强证据是随势垒变化出现反交叉，加上独立读出的 tc 一致。部分弱线可能来自储库态密度变化；作者指出这些复制线缺少预期的反交叉。复现时再单独扫积累栅，若谱线跟着储库而移动，应从本征态候选中剔除。"
+        },
+        {
+          "title": "两电子检验与复现顺序",
+          "text": "在 (1,1) 与 (0,2) 电荷边界，用第二个电子的加成谱和 Pauli 约束区分同谷单重态与可进入另一谷的激发态。图 4e 右点取得单重态—三重态分裂 98±6 μeV，与单电子右点谷劈裂接近。另一侧的 69±4 与 64±4 μeV 是不同电荷配置下的比较，应和右点数据分开。作者据此支持能隙受谷自由度限制的解释，不能由此推断任意应变、垂直场和点间势垒下的交换强度。复现实验建议先保留无脉冲稳定图和一组弱强势垒对照，各用偏压三角形校准能量，然后用右点做 B 扫；若单、双电子数据可复现，再在另一栅单元上试验。应同时归档原始传感电导与数值导数，固定平滑窗并重复计算峰位，避免把滤波造成的弱线误当新能级。独立可比较的数据在 Figshare 10.6084/m9.figshare.33212865。"
+        },
+        {
+          "title": "对材料实验的启发",
+          "text": "器件验证可以把左右谷差、同一装载条件下的两电子分裂，以及强耦合反交叉分开比较。对于要检验外延界面的实验，建议先用一组衬底和栅版图维持点的横向近似尺寸，逐器件记录杠杆臂、无脉冲 tc 和温度，再看相同密度及等效垂直场下的谱。若不同外延片上只有传感振幅变化而峰位与反交叉不变，应回到门漏电、热化和传感几何。若谷分裂变化且激发态和两电子信号随同移动，才适合进一步测界面厚度分布、台阶及 Ge 的原子级分布，区分随机合金势和垂直电场对能级的作用。"
+        },
+        {
+          "title": "补充资料中的模型边界",
+          "text": "补充图 S1 用左右局域态的对角能级、点间隧穿的非对角元重现弱耦合穿越及强耦合反交叉。其中基态间耦合来自独立电荷测量，部分高轨道间耦合根据谱图估计，不能解析的一项设为相近值。模型省略谷间耦合，适于说明谱的整体拓扑与已识别的能级，无法用来给出未分辨的谷间隧穿上限。补充图 S3 的原始信号已能辨出两侧的谷激发；补充图 S4 是独立的无脉冲耦合拟合；补充图 S5 给出磁场拟合以验算 g。比较两电子数据时应回到补充表 S1，按 (2,0)、(1,1) 和 (0,2) 分组，避免把不同电荷配置汇总成唯一谷分裂。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "优先读可独立交叉验证的图 2",
+        "first": "图 1d–e 看如何设定能量与占据，图 2 弱强耦合，图 4e 核对两电子谷限制。",
+        "focus": "记录右点谷劈裂、绝热反交叉半劈裂、不同拟合使用的栅轴和热展宽。",
+        "next": "先复现零点能量标定与双方法 tc，再按位置和实际垂直场比较两片外延。"
+      },
+      "rating": "★★★★★",
+      "tags": [
+        "中英文标题",
+        "正式期刊"
+      ],
+      "titleOriginalMetadata": "Directly visualizing the energy level structure of quantum dot molecules",
+      "readingStatus": "formal",
+      "selectionStatus": "today-formal",
+      "bodyChineseCharacters": 1485
+    }
+  ],
+  "figures": [
+    {
+      "src": "/reports/2026-11-15/si-valley-scales.svg",
+      "source": "https://www.nature.com/articles/s41467-026-79672-6_reference.pdf",
+      "title": "Si/SiGe 双点中的右点能标",
+      "caption": "根据论文信息重绘，并非论文原图。据 Nature Communications 公开 Article in Press 图 1e、4e 和补充表 1 重绘，误差均为 ±6 μeV。两项独立条件的接近支持谷态限制解释，无法用这两个值推断全部失谐范围中的交换。"
+    }
+  ],
+  "sourceAudit": [],
+  "readingAudit": {
+    "candidateAccessibleFullTexts": 1,
+    "selectedAccessibleFullTexts": 1,
+    "fullReads": 1,
+    "earlyManuscriptReads": 0,
+    "siOnly": 0,
+    "abstractOnly": 0,
+    "institutionalSuccess": false,
+    "pending": [],
+    "summaryScope": "已选论文；其他待审候补未用于本期正文统计。"
+  },
+  "researchIdeas": {
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-16",
+    "scope": "补订时按材料、替代位点、目标物性和既有工艺查论文、预印本、学位与专利线索。",
+    "limitations": [
+      "公开网页限定查新；是否新颖以及候选结构能否制备、稳定和均匀仍需验证。"
+    ],
+    "ideas": [
+      {
+        "id": "si-isotope-depth-valley-hyperfine",
+        "kind": "material",
+        "status": "needs-review",
+        "paperIndex": 1,
+        "title": "在 ²⁸Si/SiGe 双量子点的量子阱中移动等剂量的 ²⁹Si 薄层",
+        "material": "SiGe / ²⁸Si 量子阱（插入稀 ²⁹Si 同位素层） / SiGe；比较居中与靠近顶界面的两种深度",
+        "evidenceLevel": "基于当期已读 Results、Methods 和图 1–4。候选结构未制备，未计算或测量。",
+        "question": "在保持 Ge 组成和界面台阶分布可比的条件下，只移动核自旋同位素的深度，能否改变退相干而基本保留谷劈裂和轨道反交叉？",
+        "prediction": "点电子的垂直包络向同位素薄层偏移时，归于这层的准静态超精细噪声应增强，Ramsey T₂* 倾向缩短。若界面分布与有效垂直场相同，谷劈裂分布对核自旋层位置的敏感度应小于退相干；预期不显著改变 (tc) 的校准关系。",
+        "basis": "母体用残余 ²⁹Si 为 800 ppm 的 ²⁸Si 阱，单电子和双电子谱分开约束谷与自旋能标。²⁸Si 与 ²⁹Si 的电子价态、占位、共价尺度和 SOC 近似相同，后者的核自旋提供接触超精细耦合，贡献取决于波函数在该处的权重。相比引入 Ge 或 Sn，这一设计少改变化学压力和名义电子计数。实际同位素偏析、界面合金无序和磁噪声未知。",
+        "difference": "已有同位素富集、扩散抑制和 Ge 剖面设计。这里固定总 ²⁹Si 面剂量和 Si/Ge 化学剖面，比较单个稀释层深度，并在同一点组合低频退相干、谷能谱与无脉冲杂化校准。",
+        "plan": [
+          "同一缓冲层和 Ge 配方外延对照片。用二次离子质谱或原子探针确认实际同位素剂量和深度；以 X 射线和截面 STEM 核对压应变、阱厚与 Si/Ge 界面。",
+          "用同栅版图调等效电场和两点占据，配对测 Ramsey、回波、脉冲谱与电荷噪声；若层深差经热处理无法分辨，暂停制作低温器件。"
+        ],
+        "controls": [
+          "无额外 ²⁹Si 的高纯 ²⁸Si 阱；总同位素量相同的稀均匀层、居中层与靠顶界面层；比较左右点并重复不同外延位置。"
+        ],
+        "falsifiers": [
+          "如果确实移动了包络与同位素层的重叠，且灵敏度足以分辨退相干，但 Ramsey 和噪声无体系差异，则否定可分辨的核自旋层效应。",
+          "若 Ge 剖面、缺陷或阱宽不同，或谱变化主要随电荷噪声而变，暂停核自旋归因。"
+        ],
+        "feasibility": "需要可切换同位素源的外延装置、同位素深度表征和稀释制冷低噪声电测。可先做材料鉴别片再决定是否制作双点。",
+        "risks": "薄层扩散、实际剂量失配、无序主导谷分布，以及额外散射导致看不清自旋差别。",
+        "nextStep": "先验证同剂量的两个深度剖面在器件热预算后能保持可分辨，再做单点 Ramsey 筛选。",
+        "queries": [
+          "Si SiGe isotope silicon 30Si interface mass valley splitting Si quantum well identical strain isotope quantum dots",
+          "isotopically engineered 29Si delta layer SiGe quantum well valley splitting patent dissertation isotope position"
+        ],
+        "remainingChecks": [
+          "已查公开论文、arXiv 对应版本、专利族与代尔夫特学位条目。待查同位素层位置的完整专利权利要求、内部制造资料和低温数据；未确认新颖性与可制备性。"
+        ],
+        "priorArt": [
+          {
+            "title": "Directly visualizing the energy level structure of quantum dot molecules",
+            "url": "https://doi.org/10.1038/s41467-026-79672-6",
+            "overlap": "母体量子阱及双点谱，未报告这一空间同位素系列。",
+            "access": "已读公开正文"
+          },
+          {
+            "title": "Atomistic Compositional Details and Their Importance for Spin Qubits in Isotope-Purified Silicon Quantum Wells",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11558133/",
+            "overlap": "已有同位素与合金深度分辨，以及相干和谷分裂讨论。",
+            "access": "公开论文题录、方法与摘要线索"
+          },
+          {
+            "title": "Structures including an isotopically-depleted semiconductor layer",
+            "url": "https://patents.google.com/patent/EP4618720A1/en",
+            "overlap": "覆盖同位素富集层和退火扩散，尚未核清权利要求对本设计的相关性。",
+            "access": "专利摘要与公开说明"
+          },
+          {
+            "title": "Silicon/silicon-germanium heterostructures for spin-qubit quantum processors",
+            "url": "https://doi.org/10.4233/uuid:955fab3d-fc33-4ccb-8c58-c6eaf7b56c9c",
+            "overlap": "已有富集 Si 阱、谷劈裂及电荷噪声材料设计。",
+            "access": "学位论文摘要与元数据"
+          }
+        ]
+      }
+    ],
+    "rejected": []
+  },
+  "auditUrl": "/reports/2026-11-15/audit.json",
+  "searchTerms": [
+    "出版社 Online First、Early View、Accepted 与 Crossref online date。",
+    "arXiv cond-mat/new 与官方 ID API 交叉核验；区分公告、提交、替换。",
+    "按 DOI、arXiv ID 和规范化题名去重。"
+  ]
+}
