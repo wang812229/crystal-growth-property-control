@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-16",
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-16",
+  "scope": "按母体与假设配方、稀土位替换、目标物性、近邻相、公开专利和学位线索查新。",
+  "limitations": [
+    "候选尚未制备、计算或测量。公开查新存在覆盖边界，未确认稳定性、占位或新颖性。"
+  ],
+  "ideas": [
+    {
+      "id": "sr-eute4-cdw-memory",
+      "kind": "material",
+      "status": "needs-review",
+      "paperIndex": 1,
+      "title": "Eu 位稀量 Sr 替换能否保留 EuTe₄ 的室温非线性霍尔热滞回",
+      "material": "Eu₁₋ₓSrₓTe₄，x 为稀量固溶筛选变量，拟占 Eu 位",
+      "evidenceLevel": "基于本期 EuTe₄ v1 主文、图 1–4 和补充生长/输运。仅为物理假设。",
+      "question": "若保留 Te 层与 CDW，稀释低温 Eu 磁矩后，室温横向二阶输运的温轨是否跟随 CDW 热历史？",
+      "prediction": "若 Sr 均匀以二价占 Eu 位，低温单位配方的饱和磁矩应随实际 Sr 增加而下降；若高温信号主要由 Te 层极性结构及偏斜散射产生，在归一电导并控制畴构型后，300–340 K 应仍有相应张量通道的热滞回。若仅改变滞回宽度，优先检验成核与畴钉扎，勿直接归因于磁矩。",
+      "basis": "与 Eu²⁺ 同电价的 Sr²⁺ 无 4f 局域磁矩，在相同配位下离子尺寸可作为近似匹配起点；相较 Ca、Ba，先选 Sr 以减小尺寸失配。使用 Te 阴离子网络不变的名义配方以少改变载流子计数和 Te 的 SOC。化学压力、局域键长、实际 Eu 价态、Sr 偏析、SrTe 或富 Te 竞争相都需实测。",
+      "difference": "已报道 EuTe₄ 的压力与磁性、基于热循环的输运、以及薄膜工艺。这里交叉比较同价 Eu 位稀释与同温 SHG/横向二次电输运，保持组分和热史可追溯；未把二元 SrTe 或含氧的 SrTeO₄ 当同相端元。",
+      "plan": [
+        "用已知 Te 自熔剂窗口做母体和至少两个试探 Sr 投料梯度。XRD 或 Laue 定轴并查副相，用 WDS/横截面元素图测实际 Sr 和 Eu/Te，核验占位与价态。",
+        "只在稀量单相确认后，做低温磁化和同批 300–340 K 的升降温 SHG/二次电压联测，并保持接触、热轨和纵向导电率可比。"
+      ],
+      "controls": [
+        "母体同炉对照、不同实际 Sr 含量同厚度切片、母体的静水压力或应变作结构偏移参考；SrTe 仅作副相识别。"
+      ],
+      "falsifiers": [
+        "若形成 SrTe、副相或再测发现 Sr 不进 Eu 位，停止物性归因。",
+        "若二阶滞后随接触和热梯度变化而 SHG 或卫星峰没有可重复的伴随变化，暂停 CDW 热记忆解释。",
+        "若位点、价态与真实组分均核实，室温信号仍随局域磁矩稀释快速消失，修正 Te 层主导假设。"
+      ],
+      "feasibility": "材料端先做 Te 助熔剂小批和台式 XRD/WDS。锁相二次电输运可低成本筛选，带温控偏振 SHG 可后续合作。",
+      "risks": "Eu、Sr 占位与溶入概率未知；少量碲化物包裹及低温接触偏差都可能让组分趋势失真。须先完成化学和相的核对。",
+      "nextStep": "先用母体两片建立同温循环的系统误差，再做稀掺相稳定和成分图。",
+      "queries": [
+        "EuTe4 SrTe4 Eu Sr substitution charge density wave solid solution nonlinear Hall patent",
+        "EuTe4 Sr substitution thesis patents SrTe4 tetratelluride pressure",
+        "EuTe4 strontium charge density wave telluride Sr site patent"
+      ],
+      "remainingChecks": [
+        "已核公开期刊与母体预印本、专利和学位检索线索。尚未完成 Eu–Sr–Te 相图非英语条目、专利全文和未索引学位论文覆盖。"
+      ],
+      "priorArt": [
+        {
+          "title": "Magnetic, transport, and Raman properties of the layered charge density wave antiferromagnet EuTe4 under ambient and high pressures",
+          "url": "https://doi.org/10.1016/j.mtphys.2026.102011",
+          "overlap": "母体 Eu²⁺ 磁性和高压下 CDW 输运已有数据，给出外压对照。",
+          "access": "出版者摘要及文章目录"
+        },
+        {
+          "title": "Tailoring the Structure and Properties of Epitaxial Europium Tellurides on Si(100) through Substrate Temperature Control",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10672566/",
+          "overlap": "已有 EuTe/EuTe₄ 薄膜生长与竞争相线索。",
+          "access": "公开正文生长段"
+        },
+        {
+          "title": "Synthesis, characterization and crystal structures of novel alkaline earth oxotellurates",
+          "url": "https://repositum.tuwien.at/handle/20.500.12708/10596",
+          "overlap": "含氧碲酸盐学位线索，不能用其结构推断无氧四碲化物互溶。",
+          "access": "大学库题录与摘要"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "title": "以 Ca/Sr 同族替换本身作为双层锰酸盐的新组成",
+      "reason": "Pr(Sr,Ca)₂Mn₂O₇ 的组成系列已有浮区晶体及结构、磁性对照。单纯复用已做组分并无明确的新变量。",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022024812002904"
+    }
+  ]
+}
