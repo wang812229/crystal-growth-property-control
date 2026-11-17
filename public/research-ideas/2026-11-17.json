@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-17",
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-17",
+  "scope": "按 AE3T 全名与缩写、PbI₄/PbBr₄ 端元、I/Br 固溶及偶极激子检索论文、材料数据库、公开专利和学位论文。",
+  "limitations": [
+    "候选尚未合成或计算，新颖性、互溶、晶格稳定性和实际卤素占位待核。",
+    "检索公开索引和近邻文献，未穷尽所有专利族和未索引学位论文。"
+  ],
+  "ideas": [
+    {
+      "id": "ae3t-halide-exciton-detuning",
+      "kind": "material",
+      "status": "needs-review",
+      "paperIndex": 1,
+      "title": "在 (AE3T)PbI₄ 中稀量替 I 为 Br，检验可辐射偶极激子的失谐窗口",
+      "material": "(AE3T)Pb(I₁₋ₓBrₓ)₄，先筛富 I 的稀 Br 区，端位/桥位选择性未知",
+      "evidenceLevel": "本期母体正文、图 1–4、SI Note 2 和晶体学表已读。候选未合成、未计算、未测量。",
+      "question": "保持 AE3T 双铵锚定和 n=1 框架时，Br 引入的无机带边移动能否控制低能杂化态的光学权重和密度蓝移？",
+      "prediction": "若 Br 进入同相无机卤位且配体构象保持，较深的 Br 4p 成分可使无机价带相对有机前沿能级下移。无机吸收边预期优先蓝移；当局部能级失谐明显增大，低能杂化峰相对于层内峰的归一化吸收权重应下降。其密度蓝移与永久偶极可单独测量，不预设与光强同步。",
+      "basis": "母体双激子谱、HSE+SOC 与 TDDFT 说明前沿态接近时有杂化，低能峰的角分辨与密度行为也不同。Br⁻ 与 I⁻ 同族同价，尺寸和 p 轨道、自旋轨道耦合不同；保持 Pb²⁺ 和配体不变可避免把 Sn 氧化与 Pb 位变化混入。比 Cl 更温和的尺寸差仅是筛选依据。卤位偏好、键角、层间氢键、无机价带真实漂移和配体构象都需验证。",
+      "difference": "已有 AEnT–Pb 卤化物计算和同类混卤材料，不能把纯 Br 计算端元或常规混卤概念视为新发现。本案的可检验差别是固定实测 AE3T 碘化物构象后，通过同系列的吸收、角分辨与密度/外场联测区分杂化减弱和相分离。",
+      "plan": [
+        "用母体与至少两个稀 Br 投料作筛选，记录真实 x。单晶或取向粉末 XRD 查 n 相并精修构象，以 WDS 或适合薄片的校准元素图检验整体和局部 I/Br。",
+        "同厚度、同取向下测低注入反射/PL、偏振角分辨及时间分辨扩散；做光照前后成分/光谱对照，条件允许再用双极垂直场区分谱重与 Stark 分裂。"
+      ],
+      "controls": [
+        "未经取代的 AE3T 碘化物、AE2T 碘化物层内态参照、实际测得两个以上均匀低 x 成分；纯 Br 如可结晶仅作结构和能级对照。"
+      ],
+      "falsifiers": [
+        "若出现双相、Br 只停留在表面，或 AE3T 转为另一主构象，停止失谐归因。",
+        "在均匀同相且无机带边确已蓝移的条件下，若低能态归一化谱重在误差内保持或增强，否定这里的简单失谐趋势。",
+        "若峰分裂或位移只在强光照后出现，优先检查混卤偏析与局部热漂。"
+      ],
+      "feasibility": "先做小批均匀性与台式光学，不必先搭时空激子扩散和电场设备；偏振傅里叶成像及瞬态扩散可合作。",
+      "risks": "I/Br 真实进入量可能远小于投料，也可能造成局部卤素偏析、层间变形或相变；光学介电环境本身会改变取向读数。",
+      "nextStep": "先在同一炉次建立母体和稀 Br 样品的结构与实际 x 分布，再评估哪一批可做低通量谱重测试。",
+      "queries": [
+        "AE3T PbI4 PbBr4 mixed halide dipolar exciton",
+        "AE3T bromide iodide perovskite solid solution exciton",
+        "oligothiophene mixed bromide iodide layered perovskite patent",
+        "site:dukespace.lib.duke.edu oligothiophene hybrid halide perovskite carrier states dissertation"
+      ],
+      "remainingChecks": [
+        "待核对不同配体命名下的未索引论文、纯 Br 端元是否已有实测同构晶体、以及相关专利独立权利要求的完整范围。"
+      ],
+      "priorArt": [
+        {
+          "title": "Tunable Semiconductors: Control over Carrier States and Excitations in Layered Hybrid Organic-Inorganic Perovskites",
+          "url": "https://doi.org/10.1103/PhysRevLett.121.146401",
+          "overlap": "已有改变有机和无机组分以调带边的设计。Duke 数据库另明确列出 all-anti AE3T–PbBr₄ 计算结构。",
+          "access": "公开题录与关联计算数据库"
+        },
+        {
+          "title": "Bis(aminoethyl)-terthiophene lead bromide",
+          "url": "https://materials.hybrid3.duke.edu/materials/20",
+          "overlap": "纯 Br、all-anti 构型的结构记录为计算来源，与本文顺式特征碘化物的实验晶体和富 I 固溶假设有别。",
+          "access": "数据库配方、构型与来源"
+        },
+        {
+          "title": "Impact of Dynamics and Disorder on Structure and Electronic Levels of Hybrid Organic-Inorganic Perovskites",
+          "url": "https://dukespace.lib.duke.edu/bitstreams/c3797276-220e-410f-84bd-299b5ab58181/download",
+          "overlap": "讨论 PEA 系列混卤调带隙，配体与目标激子证据不同。",
+          "access": "学位论文公开目录与章节说明"
+        },
+        {
+          "title": "Method for producing high quality, ultra-thin organic-inorganic hybrid perovskite",
+          "url": "https://patents.google.com/patent/US9793056B1/en",
+          "overlap": "可检索到涉及混卤卤化物的广泛技术描述，不提供本候选的定量偶极激子证据。",
+          "access": "说明书相关段落与题录"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "title": "把全 Br 的 (AE3T)PbBr₄ 端元作为全新结构",
+      "reason": "已有 all-anti 计算结构和组分调带边的相关工作，端元仅保留为对照。",
+      "url": "https://materials.hybrid3.duke.edu/materials/20"
+    }
+  ]
+}

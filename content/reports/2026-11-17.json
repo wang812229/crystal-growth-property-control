@@ -1,0 +1,247 @@
+{
+  "date": "2026-11-17",
+  "issue": "084",
+  "headline": "2 篇正式论文，2 篇正文实读，1 项材料假设",
+  "hotspot": "二维量子材料的两种限域策略：D–J 单晶用前沿态杂化保留发光，CdSe 胶体量子阱用面内梯度和纵向势垒压低多光子发射。",
+  "searchWindow": "北京时间 11 月 17 日 00:00–12:36。正式期刊按在线发表日核实；arXiv 官方页面尚未显示 17 日批次。",
+  "accessSummary": "入选 2 篇正式论文，2 篇可读全文且已实读，含 1 篇出版社正文和 1 篇早期公开作者稿。仅摘要收录 0 篇；未取得机构订阅访问。11 月 17 日 arXiv 新增量未确认。",
+  "papers": [
+    {
+      "title": "Constructing radiative dipolar excitons via frontier-state hybridization in 2D perovskites",
+      "titleZh": "通过前沿态杂化在二维钙钛矿中构造可辐射偶极激子",
+      "titleOriginalMetadata": "Constructing radiative dipolar excitons via frontier-state hybridization in 2D perovskites",
+      "doi": "https://doi.org/10.1038/s41467-026-79153-w",
+      "arxivId": null,
+      "fullText": "https://www.nature.com/articles/s41467-026-79153-w_reference.pdf",
+      "journal": "Nature Communications",
+      "category": "晶体生长和物性调控",
+      "material": "(AE3T)PbI₄ / (AE2T)PbI₄",
+      "authors": "Jiakai Yan; Cheng Wang; Siyi Wu; Wei Dai; Shuwen Jia; Yan Zeng; Wenbo Li; Yan Li; Huiting Zhang; Zigang Ren; Bowen Deng; Yao Gao; Weibin Chu; Ti Wang; Hongxing Xu",
+      "institutions": "武汉大学、复旦大学、华中科技大学、河南省科学院",
+      "method": "溶液降温长单晶、SC-XRD、偏振角分辨发光、室温瞬态吸收显微、HSE+SOC 与 TDDFT",
+      "access": "全文精读：出版者 Article in Press 正文和 Methods、图 1–4；补充图 S2–S8、S12、S21–S22、Note 2 与表 S1–S4。",
+      "readingStatus": "formal",
+      "date": "2026-11-17 正式在线",
+      "selectionStatus": "today-formal",
+      "versionNote": "出版社页面和论文标明 11 月 17 日在线，10 月 13 日接受。结构存档 CCDC 2464373、2464374。",
+      "conclusion": "把激子从无机层内态推到有机/无机界面的部分分离态，同时保留可测发光。光谱和扩散共同约束偶极模型，宏观一阶 Stark 响应与单激子的永久偶极须分开看。",
+      "sections": [
+        {
+          "title": "问题与对照结构",
+          "text": "空间分离的电子和空穴可以形成永久偶极，但重叠减少也会削弱光学跃迁。本文把有机配体的前沿轨道移到无机层价带顶附近，希望让空穴跨有机与无机组分杂化，同时保留发光强度。选层数均为 n=1 的两对结构。一对是双铵锚定的 Dion–Jacobson 相 (AE2T)PbI₄ 与 (AE3T)PbI₄，一对是单铵间隔的 Ruddlesden–Popper 相 (2T)₂PbI₄ 与 (3T)₂PbI₄。AE3T 在已测 D–J 晶体中采用含顺式噻吩连接的构型，配体平面性和无机八面体转角均有变化，因此不能把光谱差异仅归于分子环数。设计对照时应同时记录实际配体构象、层厚、晶向及光学介电环境。"
+        },
+        {
+          "title": "生长工艺与质量",
+          "text": "正文 Methods 报告原料来自 Sigma-Aldrich、使用氩气与 Schlenk 装置。2 种 D–J 材料用前体配体盐与 PbI₂ 各 0.005 mmol，加入 0.2 mL HI、0.1 mL H₃PO₂；按表 S1，AE2T 用 0.8 mL 乙醇，AE3T 用 2 mL。采用密闭容器 160 °C 起始并用约 72 h 冷至室温；R–P 两项用了 100 °C 分支。得到毫米级板片，衍射挑选的小晶尺寸与成品整片尺寸分开记录。正文未报告批间收率、反应液实际压力、所有前驱体逐项批号/纯度或晶锭面积分布。剥离到玻璃或 Si/SiO₂ 上后用 SEM 与 AFM 检查片形和表面。长晶工艺的关键不是单独增温，而是让已析出的双铵相重新进入适当溶解和过饱和窗口。保持体积比后比较实际结晶窗口，压差、液量及容器热史均须按设备许可独立记录。"
+        },
+        {
+          "title": "结构误差与取向",
+          "text": "表 S3–S4 的低温单晶衍射分别给出 AE2T 为三斜 P-1、AE3T 为单斜 P2₁/c。AE3T 在 149.99(10) K 的 a、b、c 为 16.9764(8)、12.3674(6)、12.2634(6) Å，β=98.534(4)°；精修用 4328 个独立反射、70 项约束或限制计数栏所列 restraints，I≥2σ(I) 时 R1=0.0688、wR2=0.2190。AE2T 的对应 R1 为 0.0379。低角度 XRD 未检出其它 n 相的额外峰，其限度由检测灵敏度和取向决定。注意 AE3T 较大的残余峰与重原子吸收，提取很小键长差时回查 CIF 和不确定度。正文未给出对每片进行 EDS/WDS/ICP 的定量全覆盖，也没有给出同片室温空间群复测。复现可优先在多片同取向样品做低角衍射和偏振映射，不由单片无杂峰推断每批化学均匀。"
+        },
+        {
+          "title": "光谱、寿命与结构的关系",
+          "text": "图 2 的反射和瞬态反射给出 AE3T 的双激子响应。比较使用 470 nm 泵浦、27.8 μJ/cm²，从 1 到 100 ps 读谱；补充图 S12 给出振幅加权平均约 164.9 ps 与 64.2 ps，分别对应 AE3T 的低能杂化态和层内态。加权寿命差约 2.6 倍，不能直接当辐射寿命比，也不足以独立给出波函数重叠。HSE+SOC 的分波能带及 TDDFT 计算为能级归属提供证据，其中 AE3T 价带边有显著配体与框架成分；AE2T 的对应复合态不明显。图 4 以 473 nm 连续光激发做傅里叶空间角分辨发光；AE3T 低能峰移向 θ>50° 模式，同片高能峰保留更典型的面内分布。后焦面 p/s 对比支持存在垂直光学跃迁偶极分量，但对每个激子本征的永久电荷分离方向须借助其它证据。"
+        },
+        {
+          "title": "输运数据与模型约束",
+          "text": "图 3 的瞬态吸收空间方差在高激发下更快展开。3.33 μJ/cm² 条件给出最大瞬态有效扩散系数约 3.4 cm²/s。图中还以 0.67、1.99 μJ/cm² 做对照；该最大值包含非平衡漂移，不能当低密度材料扩散常数。二维漂移扩散拟合给出有效相互作用 u₀≈5.3×10⁻¹⁵ eV·cm²，其中可包含交换与直接相互作用。图 4f–g 的低能峰随激发密度蓝移约 15 meV，高能参考峰变化较小，这一同片差异和空间展开相互印证，更支持密度相关排斥。光生载流子比例、密度标定、初始光斑和寿命模型牵涉共同误差；本简报不把 u₀ 写成独立测得的偶极强度。相同动力学也应与激子湮灭、局部热效应、态填充及重新吸收做定量区分。"
+        },
+        {
+          "title": "最弱环节和下一次实验",
+          "text": "P2₁/c 的反演对称结构允许两种相对的界面极性。若二者数量和光学权重相当，总谱峰中心的一阶 Stark 位移可以抵消，而同向激子间排斥并不因两种取向互换而消失。先用同厚度 AE3T 与 AE2T 框定泵能变化和热诱导的谱漂；再将吸收和角分辨发光以同一位置、同一偏振校准。将对称夹层与单侧介电/静电不对称样品配对，扫双极垂直电场并读峰分裂、强度权重和中心位移。若只见总中心移动且与低能、高能两峰同向，先查间接折射率/载流子效应。一旦同一几何观测到分裂或成对谱重与场符号相关，再结合扩散和相关光谱检验微观偶极模型。扩散复现优先对比多通量同膜的全时域方差及发光密度；避免只挑最大 Dₑff 印证预测。"
+        },
+        {
+          "title": "把可测条件和外推边界落到原始数据",
+          "text": "先将瞬态反射和瞬态吸收显微分开。反射图的 470 nm 激发解释为什么尽量避开热载流子；扩散图的通量系列服务于空间演化，不能直接套用反射寿命图的初态分布。取后焦面图时要保留数值孔径、折射率、玻璃厚度与透射方向，尤其关注临界角附近 p 偏振是否由仪器或出耦产生。建议在同一块晶体找两处厚度相近且未见折痕的区域，以低通量测初始光斑点扩散，再测沿面内两个轴的二阶矩，比较各激发强度的完整时间窗。若方差增速和寿命衰减同时随强度增大，在拟合中加入密度依赖的损失项并与仅有排斥漂移的模型比较，不让一个 u₀ 吸收所有残差。对反演相关的两个界面态，可用可反转的垂直场辅以线偏振分析，检查谱峰的相对强度是否随场方向交换。若界面附近先出现电荷积累，则需要用空白器件、迟滞和频率依赖排查离子重排。扩散和发光各自支持模型的不同部分。充分复现至少应给出独立晶片的重复次数、偏差范围和实验温度，避免将局域位置的选择放大成整个化学系列的效果。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "优先读单晶结构和偶极的两类证据",
+        "first": "表 S1、S3–S4 与图 1；再读图 2c、图 3f–g、图 4 和 Supplementary Note 2",
+        "focus": "对比分辨的各峰、场响应是否对称、光学跃迁偶极与永久电偶极的区别",
+        "next": "在同片上做低注入参照、密度蓝移及正负垂直场的峰分裂测量"
+      },
+      "tags": [
+        "中英文标题",
+        "正式期刊"
+      ],
+      "rating": "★★★★★",
+      "bodyChineseCharacters": 1592
+    },
+    {
+      "title": "Bandedge-State-Limited Single-Photon Emission from Volumetric Quantum Design of 2D Colloidal Quantum Wells",
+      "titleZh": "通过二维胶体量子阱的三维量子设计实现带边态数受限的单光子发射",
+      "titleOriginalMetadata": "Bandedge-State-Limited Single-Photon Emission from Volumetric Quantum Design of 2D Colloidal Quantum Wells",
+      "doi": "https://doi.org/10.1021/jacs.6c17007",
+      "arxivId": "2606.13365",
+      "fullText": "https://arxiv.org/pdf/2606.13365v1",
+      "journal": "Journal of the American Chemical Society",
+      "category": "二维材料与量子器件",
+      "material": "CdSe/CdSeₓS₁₋ₓ/CdS 面内梯度核／ZnS 势垒／CdᵧZn₁₋ᵧS 外壳",
+      "authors": "Xiao Liang; Bo Wang; Yue Yu; Pedro Ludwig Hernandez-Martinez; Zengshan Xing; Lu Ding; Vijay Kumar Sharma; Tze Chien Sum; Hilmi Volkan Demir",
+      "institutions": "新加坡南洋理工大学、新加坡科技研究局材料研究与工程研究所、比尔肯特大学",
+      "method": "胶体热注入和分级外壳、像差校正 STEM/EDS、XRD、单片 HBT 与瞬态吸收",
+      "access": "早期公开稿全文精读：arXiv v1 的 Results、Methods、图 1–5 及补充图 6–8、14–21、27–38。出版社正文和正式 SI 受访问验证限制。",
+      "readingStatus": "early",
+      "date": "2026-11-17 正式在线",
+      "selectionStatus": "today-formal",
+      "versionNote": "Crossref 证实 11 月 17 日正式上线。2026-06-11 作者公开稿与期刊文章作者和摘要吻合，历史站内无重复；未取得正式正文核对图表或工艺是否改动。",
+      "conclusion": "横向势能梯度压缩有效带边域，纵向薄 ZnS 势垒与渐变壳兼顾限域和应变，在作者可读稿中得到室温约 0.041 的 g⁽²⁾(0) 和超过 99.5% 的亮态占比。",
+      "sections": [
+        {
+          "title": "材料问题和结构设计",
+          "text": "常规二维 CdSe 胶体量子阱能把厚度控制在原子层，但大片横向面积可能容纳多个互不相干的带边域；增厚壳层虽然缓解表面陷阱，却可能降低限域或引入应变。作者在 4.5 单层的 CdSe 基核内用 CdSe→CdS 的面内成分过渡定义小区域，靠长宽比限制电子泄漏。沿厚度嵌入约两单层的 ZnS 势垒，并两轮长 CdᵧZn₁₋ᵧS 渐变壳。核心对照是无面内梯度的 CdSe@QB 与有梯度但无 ZnS 势垒的 GC/1S，再用一轮、两轮外壳测试钝化是否还可改善。横向汇聚和垂直隔绝分别改变不同失效通道，它们构成判断机制的交叉对照。"
+        },
+        {
+          "title": "制备窗口和结构质量",
+          "text": "公开 Methods 用 99.995% 无水乙酸镉、99.99% Se 和 99.999% 乙酸锌等。梯度核在脱气后切 N₂，在约 200 °C 加乙酸镉，等待 45 s 后在 230 °C 进 S–ODE，持续约 8 min。先制核，后长 ZnS，再改用混合 Cd/Zn 前驱体外延壳。作者给出一轮混合外壳的 Cd、Zn 前驱体用量 0.06、0.34 mmol，这两个投料数不能当壳的局部原子比。总厚度约 5.2 nm；50 多片的平均长宽比约 6，EDS 定核心区域约 6×2.5 nm。作者稿未报告可跨实验室比较的最终分离收率或每批合格单片比例。图 2 和补充图 15–18 通过截面 HAADF 对比、元素扫描与局部傅里叶特征分别核实层厚、渐变和晶格；单片 STEM 不能替代批量分布统计。"
+        },
+        {
+          "title": "直接加厚 ZnS 的反例",
+          "text": "CdSe 与 ZnS 的失配约 12%。补充图 6–7 中直接从 2 单层加厚到 5 单层，发光谱宽由约 22 nm 增至 32 nm，截面更不均，核可见面内压缩。薄势垒加变组分壳的体系在作者稿中维持核区闪锌矿晶格，并用 XRD 峰宽和 Williamson–Hall 斜率支持应变减弱。斜率是集合测量的模型量，和颗粒尺寸分布、仪器展宽相关；应结合截面应变图解读。最终样品峰宽约 69 meV，作者另列单纯 CdS 外壳 17.8 nm 的窄线参照，但它不满足文章的高纯单光子目标。两类峰宽单位不同，比较应先在峰位附近按波长转换。"
+        },
+        {
+          "title": "单光子测量与照射条件",
+          "text": "室温定制共聚焦显微镜用 475 nm、10 MHz 皮秒脉冲激发，100×、NA 1.30 油镜；先将颗粒稀释并旋涂在盖玻璃，再由 Hanbury Brown–Twiss 装置收集符合。文章给约 0.041 的 g⁽²⁾(0)、超过 99.5% 的亮态时间及最高 73% 的无腔线偏振度。亮态时间取决于阈值、积分间隔和轨迹长度，不能等同光源每脉冲出光概率；反聚束不能替代干涉测得的不可分辨度。相对亮度需报告收集效率和饱和方式。公开稿正文将最高指标和统计分布分别展示，复现应保留完整入选与被剔除颗粒数、背景窗口、探测器死时间和峰面积取法，避免把单个代表点当全样品性能。"
+        },
+        {
+          "title": "带边态数是拟合得到的",
+          "text": "在低泵浦时，壳层的瞬态吸收漂白衰减与 CdSe 核漂白上升相关；高泵浦时核漂白趋向平台，壳衰减仍存在。作者用带边态填满后限制后续注入解释反聚束对通量不敏感；光谱拟合估计 GC@QB/2S 的带边态数为 0.74（约 1），无面内梯度样品为 2.89（约 3）。这不是直接把一个分数态成像出来，模型依赖初始吸收、占据率与长延时单激子归一化。最强证据是样品对照中截面结构、单粒子时间统计与集合瞬态吸收相互吻合。最弱环节是把不同粒子的态数统计和单片 HBT 一一对应。多激子湮灭、Auger 等机制可共存，若没有同一样品的通量依赖就不宜判定哪一种占主导。"
+        },
+        {
+          "title": "复现实验与停止条件",
+          "text": "第一轮从同一批面内梯度核分出无势垒、两单层势垒、一轮壳和两轮壳，不同时改变前驱体体系及横向核尺寸。每个分支做横截面厚度、EDS 核面积、XRD 峰并记录实际蒸发或进料节律。光谱先用分散胶体的激子峰和寿命选定同一窗口，再随机挑单颗粒比较不同激发条件的 g⁽²⁾(0)、亮态百分比与偏振。若提高势垒厚度只让总厚度增厚、亮度下降且原子层结构相近，先验证电子隧穿或合金渐变，不从一个窄峰归因。若随壳应变减轻而带边核尺度变大、反聚束变差，重新优化横向势能梯度。建议把结构图、发光轨迹、符合直方图和校正后的亮度一起归档。"
+        },
+        {
+          "title": "材料统计和器件统计怎样相互约束",
+          "text": "以同一批核做截面和单粒子测量时，要给每支分样独立的重分散浓度和最终厚度统计。随机取视野做长宽比分布和核区元素积分，既需避开相互叠片，也不能只挑边缘最利于成像的样品。用同等晶片厚度和同一基片采集暗背景和界面散射。在符合谱中按脉冲周期检查侧峰间距及幅度，分别报告原始和背景校正的零时延值。将长轨迹按逐分钟重算亮态比，检查短轨迹是否因阈值选择夸大稳定性；偏振统计应校正光路对正交偏振的相对响应。随后基于高、低通量下的同一批集合谱做占据归一化，记录核心漂白的饱和值是否随激发尺寸或重复频率变化。若多个高亮颗粒的原始符合峰稳定，而集合漂白只能在非常窄的拟合窗口得到约单态，则先保留单光子实验结论，对单态归因下调置信度。若无势垒对照与完整结构在相同核心电子吸收条件下也有同等亮态比例，就要重新审视表面钝化的贡献。跨批复现至少要能在结构统计、低通量谱和饱和下反聚束三条线上互相对照。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "优先读单片对照和壳层结构",
+        "first": "图 2 与补充图 6–8、14–21；接图 3、图 4l–m 和 HBT 方法",
+        "focus": "0.041 的 g⁽²⁾(0)、亮态口径、常态与瞬态的拟合差别",
+        "next": "先做同核、壳层逐步生长的分批对照，再测通量依赖"
+      },
+      "tags": [
+        "中英文标题",
+        "正式期刊"
+      ],
+      "rating": "★★★★★",
+      "bodyChineseCharacters": 1514
+    }
+  ],
+  "figures": [
+    {
+      "src": "/reports/2026-11-17/ae3t-exciton-lifetime.svg",
+      "source": "https://www.nature.com/articles/s41467-026-79153-w_reference.pdf",
+      "title": "(AE3T)PbI₄ 中两种激子分量的加权平均衰减时间",
+      "caption": "公开 Article in Press 补充图 S12 的拟合汇总。低能杂化态的衰减较慢；数值为振幅加权平均，不能等同纯辐射寿命或直接换算永久偶极矩。"
+    }
+  ],
+  "sourceAudit": [],
+  "readingAudit": {
+    "candidateAccessibleFullTexts": 2,
+    "selectedAccessibleFullTexts": 2,
+    "fullReads": 1,
+    "publisherFullReads": 1,
+    "earlyManuscriptReads": 1,
+    "siOnly": 0,
+    "abstractOnly": 0,
+    "institutionalSuccess": false,
+    "pending": [
+      {
+        "title": "Bandedge-State-Limited Single-Photon Emission from Volumetric Quantum Design of 2D Colloidal Quantum Wells",
+        "reason": "出版者正文/SI 返回验证页；开放作者稿已读，版本差异待正式正文可访问时复核。"
+      }
+    ],
+    "summaryScope": "入选与待比较版本分开计；初筛后排除的偏题稿不计候选全文。"
+  },
+  "researchIdeas": {
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-17",
+    "scope": "按 AE3T 全名与缩写、PbI₄/PbBr₄ 端元、I/Br 固溶及偶极激子检索论文、材料数据库、公开专利和学位论文。",
+    "limitations": [
+      "候选尚未合成或计算，新颖性、互溶、晶格稳定性和实际卤素占位待核。",
+      "检索公开索引和近邻文献，未穷尽所有专利族和未索引学位论文。"
+    ],
+    "ideas": [
+      {
+        "id": "ae3t-halide-exciton-detuning",
+        "kind": "material",
+        "status": "needs-review",
+        "paperIndex": 1,
+        "title": "在 (AE3T)PbI₄ 中稀量替 I 为 Br，检验可辐射偶极激子的失谐窗口",
+        "material": "(AE3T)Pb(I₁₋ₓBrₓ)₄，先筛富 I 的稀 Br 区，端位/桥位选择性未知",
+        "evidenceLevel": "本期母体正文、图 1–4、SI Note 2 和晶体学表已读。候选未合成、未计算、未测量。",
+        "question": "保持 AE3T 双铵锚定和 n=1 框架时，Br 引入的无机带边移动能否控制低能杂化态的光学权重和密度蓝移？",
+        "prediction": "若 Br 进入同相无机卤位且配体构象保持，较深的 Br 4p 成分可使无机价带相对有机前沿能级下移。无机吸收边预期优先蓝移；当局部能级失谐明显增大，低能杂化峰相对于层内峰的归一化吸收权重应下降。其密度蓝移与永久偶极可单独测量，不预设与光强同步。",
+        "basis": "母体双激子谱、HSE+SOC 与 TDDFT 说明前沿态接近时有杂化，低能峰的角分辨与密度行为也不同。Br⁻ 与 I⁻ 同族同价，尺寸和 p 轨道、自旋轨道耦合不同；保持 Pb²⁺ 和配体不变可避免把 Sn 氧化与 Pb 位变化混入。比 Cl 更温和的尺寸差仅是筛选依据。卤位偏好、键角、层间氢键、无机价带真实漂移和配体构象都需验证。",
+        "difference": "已有 AEnT–Pb 卤化物计算和同类混卤材料，不能把纯 Br 计算端元或常规混卤概念视为新发现。本案的可检验差别是固定实测 AE3T 碘化物构象后，通过同系列的吸收、角分辨与密度/外场联测区分杂化减弱和相分离。",
+        "plan": [
+          "用母体与至少两个稀 Br 投料作筛选，记录真实 x。单晶或取向粉末 XRD 查 n 相并精修构象，以 WDS 或适合薄片的校准元素图检验整体和局部 I/Br。",
+          "同厚度、同取向下测低注入反射/PL、偏振角分辨及时间分辨扩散；做光照前后成分/光谱对照，条件允许再用双极垂直场区分谱重与 Stark 分裂。"
+        ],
+        "controls": [
+          "未经取代的 AE3T 碘化物、AE2T 碘化物层内态参照、实际测得两个以上均匀低 x 成分；纯 Br 如可结晶仅作结构和能级对照。"
+        ],
+        "falsifiers": [
+          "若出现双相、Br 只停留在表面，或 AE3T 转为另一主构象，停止失谐归因。",
+          "在均匀同相且无机带边确已蓝移的条件下，若低能态归一化谱重在误差内保持或增强，否定这里的简单失谐趋势。",
+          "若峰分裂或位移只在强光照后出现，优先检查混卤偏析与局部热漂。"
+        ],
+        "feasibility": "先做小批均匀性与台式光学，不必先搭时空激子扩散和电场设备；偏振傅里叶成像及瞬态扩散可合作。",
+        "risks": "I/Br 真实进入量可能远小于投料，也可能造成局部卤素偏析、层间变形或相变；光学介电环境本身会改变取向读数。",
+        "nextStep": "先在同一炉次建立母体和稀 Br 样品的结构与实际 x 分布，再评估哪一批可做低通量谱重测试。",
+        "queries": [
+          "AE3T PbI4 PbBr4 mixed halide dipolar exciton",
+          "AE3T bromide iodide perovskite solid solution exciton",
+          "oligothiophene mixed bromide iodide layered perovskite patent",
+          "site:dukespace.lib.duke.edu oligothiophene hybrid halide perovskite carrier states dissertation"
+        ],
+        "remainingChecks": [
+          "待核对不同配体命名下的未索引论文、纯 Br 端元是否已有实测同构晶体、以及相关专利独立权利要求的完整范围。"
+        ],
+        "priorArt": [
+          {
+            "title": "Tunable Semiconductors: Control over Carrier States and Excitations in Layered Hybrid Organic-Inorganic Perovskites",
+            "url": "https://doi.org/10.1103/PhysRevLett.121.146401",
+            "overlap": "已有改变有机和无机组分以调带边的设计。Duke 数据库另明确列出 all-anti AE3T–PbBr₄ 计算结构。",
+            "access": "公开题录与关联计算数据库"
+          },
+          {
+            "title": "Bis(aminoethyl)-terthiophene lead bromide",
+            "url": "https://materials.hybrid3.duke.edu/materials/20",
+            "overlap": "纯 Br、all-anti 构型的结构记录为计算来源，与本文顺式特征碘化物的实验晶体和富 I 固溶假设有别。",
+            "access": "数据库配方、构型与来源"
+          },
+          {
+            "title": "Impact of Dynamics and Disorder on Structure and Electronic Levels of Hybrid Organic-Inorganic Perovskites",
+            "url": "https://dukespace.lib.duke.edu/bitstreams/c3797276-220e-410f-84bd-299b5ab58181/download",
+            "overlap": "讨论 PEA 系列混卤调带隙，配体与目标激子证据不同。",
+            "access": "学位论文公开目录与章节说明"
+          },
+          {
+            "title": "Method for producing high quality, ultra-thin organic-inorganic hybrid perovskite",
+            "url": "https://patents.google.com/patent/US9793056B1/en",
+            "overlap": "可检索到涉及混卤卤化物的广泛技术描述，不提供本候选的定量偶极激子证据。",
+            "access": "说明书相关段落与题录"
+          }
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "title": "把全 Br 的 (AE3T)PbBr₄ 端元作为全新结构",
+        "reason": "已有 all-anti 计算结构和组分调带边的相关工作，端元仅保留为对照。",
+        "url": "https://materials.hybrid3.duke.edu/materials/20"
+      }
+    ]
+  },
+  "auditUrl": "/reports/2026-11-17/audit.json",
+  "searchTerms": [
+    "先查各出版社 Online First、Early View、Accepted 与 Crossref 在线日期，再查 arXiv。Wiley、ACS 和 AAAS 的部分页面返回访问验证；各轨异常与命中见审计。",
+    "arXiv 官网及分类页多次核对仍标 11 月 16 日（80 新投、28 交叉、56 替换），该批 164 条已筛选并和已发布的逐条 API 核验记录核对。11 月 17 日批次未确认，日期查询空结果不当作零新增。",
+    "JACS 以 DOI 收录正式上线，arXiv:2606.13365v1 仅作合法正文来源。未取得正式版正文与补充核对修改，无法将作者稿细节当期刊终版。历史按 DOI、arXiv ID、题名去重。"
+  ]
+}

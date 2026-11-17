@@ -1,0 +1,2990 @@
+{
+  "date": "2026-11-17",
+  "window": "北京时间 11 月 17 日 00:00–12:36。正式期刊按在线发表日核实；arXiv 官方页面尚未显示 17 日批次。",
+  "coverageComplete": false,
+  "counts": {
+    "total": 2,
+    "formal": 2,
+    "arxiv": 0,
+    "arxivDailyConfirmed": false,
+    "full": 2,
+    "abstract": 0,
+    "categories": 2,
+    "ideas": 1
+  },
+  "journalAudit": [
+    {
+      "source": "prl",
+      "url": "https://api.crossref.org/journals/1079-7114/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "请求失败，命中数未知。"
+    },
+    {
+      "source": "prb",
+      "url": "https://api.crossref.org/journals/2469-9969/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "请求失败，命中数未知。"
+    },
+    {
+      "source": "prmaterials",
+      "url": "https://api.crossref.org/journals/2475-9953/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "请求失败，命中数未知。"
+    },
+    {
+      "source": "prx",
+      "url": "https://api.crossref.org/journals/2160-3308/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "当前接口在线日查询未见记录；结合官方目录，不能推定期刊零更新。"
+    },
+    {
+      "source": "prresearch",
+      "url": "https://api.crossref.org/journals/2643-1564/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "当前接口在线日查询未见记录；结合官方目录，不能推定期刊零更新。"
+    },
+    {
+      "source": "prapplied",
+      "url": "https://api.crossref.org/journals/2331-7019/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "当前接口在线日查询未见记录；结合官方目录，不能推定期刊零更新。"
+    },
+    {
+      "source": "pra",
+      "url": "https://api.crossref.org/journals/2469-9934/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "当前接口在线日查询未见记录；结合官方目录，不能推定期刊零更新。"
+    },
+    {
+      "source": "pre",
+      "url": "https://api.crossref.org/journals/2470-0053/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "请求失败，命中数未知。"
+    },
+    {
+      "source": "prc",
+      "url": "https://api.crossref.org/journals/2469-9993/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "请求失败，命中数未知。"
+    },
+    {
+      "source": "prd",
+      "url": "https://api.crossref.org/journals/2470-0029/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "请求失败，命中数未知。"
+    },
+    {
+      "source": "rmp",
+      "url": "https://api.crossref.org/journals/1539-0756/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "当前接口在线日查询未见记录；结合官方目录，不能推定期刊零更新。"
+    },
+    {
+      "source": "prxquantum",
+      "url": "https://api.crossref.org/journals/2691-3399/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "当前接口在线日查询未见记录；结合官方目录，不能推定期刊零更新。"
+    },
+    {
+      "source": "prxenergy",
+      "url": "https://api.crossref.org/journals/2768-5608/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "当前接口在线日查询未见记录；结合官方目录，不能推定期刊零更新。"
+    },
+    {
+      "source": "prfluids",
+      "url": "https://api.crossref.org/journals/2469-990X/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "请求失败，命中数未知。"
+    },
+    {
+      "source": "prab",
+      "url": "https://api.crossref.org/journals/2469-9885/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "404",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "请求失败，命中数未知。"
+    },
+    {
+      "source": "Nature",
+      "url": "https://api.crossref.org/journals/1476-4687/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "请求失败，命中数未知。"
+    },
+    {
+      "source": "Nature Physics",
+      "url": "https://api.crossref.org/journals/1745-2481/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "当前接口在线日查询未见记录；结合官方目录，不能推定期刊零更新。"
+    },
+    {
+      "source": "Nature Communications",
+      "url": "https://api.crossref.org/journals/2041-1723/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "请求失败，命中数未知。"
+    },
+    {
+      "source": "npj Quantum Materials",
+      "url": "https://api.crossref.org/journals/2397-4648/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "请求失败，命中数未知。"
+    },
+    {
+      "source": "npj 2D Materials and Applications",
+      "url": "https://api.crossref.org/journals/2397-7132/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "当前接口在线日查询未见记录；结合官方目录，不能推定期刊零更新。"
+    },
+    {
+      "source": "Communications Materials",
+      "url": "https://api.crossref.org/journals/2662-4443/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "当前接口在线日查询未见记录；结合官方目录，不能推定期刊零更新。"
+    },
+    {
+      "source": "Communications Physics",
+      "url": "https://api.crossref.org/journals/2399-3650/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "请求失败，命中数未知。"
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://api.crossref.org/journals/1476-4660/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "当前接口在线日查询未见记录；结合官方目录，不能推定期刊零更新。"
+    },
+    {
+      "source": "Science",
+      "url": "https://api.crossref.org/journals/1095-9203/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "当前接口在线日查询未见记录；结合官方目录，不能推定期刊零更新。"
+    },
+    {
+      "source": "Science Advances",
+      "url": "https://api.crossref.org/journals/2375-2548/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "请求失败，命中数未知。"
+    },
+    {
+      "source": "Advanced Materials",
+      "url": "https://api.crossref.org/journals/1521-4095/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "当前接口在线日查询未见记录；结合官方目录，不能推定期刊零更新。"
+    },
+    {
+      "source": "Advanced Functional Materials",
+      "url": "https://api.crossref.org/journals/1616-3028/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "当前接口在线日查询未见记录；结合官方目录，不能推定期刊零更新。"
+    },
+    {
+      "source": "Nano Letters",
+      "url": "https://api.crossref.org/journals/1530-6992/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "请求失败，命中数未知。"
+    },
+    {
+      "source": "ACS Nano",
+      "url": "https://api.crossref.org/journals/1936-086X/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "请求失败，命中数未知。"
+    },
+    {
+      "source": "JACS",
+      "url": "https://api.crossref.org/journals/1520-5126/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 2,
+      "rows": [
+        {
+          "doi": "10.1021/jacs.6c17007",
+          "title": "Bandedge-State-Limited\nSingle-Photon Emission from\nVolumetric Quantum Design of 2D Colloidal Quantum Wells",
+          "date": "2026-11-17",
+          "decision": "include",
+          "reason": "日期已核，具有明确的材料或物性实验；正文阅读路径见主刊。"
+        },
+        {
+          "doi": "10.1021/jacs.6c14075",
+          "title": "Buried\nInterfacial Transport Governs Oxide-Protected\nElectrocatalysis",
+          "date": "2026-11-17",
+          "decision": "exclude",
+          "reason": "界面传输面向电催化，偏离本期量子材料物性。"
+        }
+      ],
+      "hits": 2,
+      "included": 1
+    },
+    {
+      "source": "Chemistry of Materials",
+      "url": "https://api.crossref.org/journals/1520-5002/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "当前接口在线日查询未见记录；结合官方目录，不能推定期刊零更新。"
+    },
+    {
+      "source": "Crystal Growth & Design",
+      "url": "https://api.crossref.org/journals/1528-7505/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "当前接口在线日查询未见记录；结合官方目录，不能推定期刊零更新。"
+    },
+    {
+      "source": "Journal of Crystal Growth",
+      "url": "https://api.crossref.org/journals/0022-0248/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "请求失败，命中数未知。"
+    },
+    {
+      "source": "APL Materials",
+      "url": "https://api.crossref.org/journals/2166-532X/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "请求失败，命中数未知。"
+    },
+    {
+      "source": "2D Materials",
+      "url": "https://api.crossref.org/journals/2053-1583/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "请求失败，命中数未知。"
+    },
+    {
+      "source": "Acta Materialia",
+      "url": "https://api.crossref.org/journals/1359-6454/works?filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "请求失败，命中数未知。"
+    }
+  ],
+  "publisherSnapshots": [
+    {
+      "key": "aps-prl",
+      "url": "https://journals.aps.org/prl/recent",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "hits": 0,
+      "note": "所取官方目录中未核见明确当天条目，可能尚待更新。",
+      "included": 0
+    },
+    {
+      "key": "aps-prb",
+      "url": "https://journals.aps.org/prb/recent",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "hits": 0,
+      "note": "所取官方目录中未核见明确当天条目，可能尚待更新。",
+      "included": 0
+    },
+    {
+      "key": "aps-prmaterials",
+      "url": "https://journals.aps.org/prmaterials/recent",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "hits": 0,
+      "note": "所取官方目录中未核见明确当天条目，可能尚待更新。",
+      "included": 0
+    },
+    {
+      "key": "aps-prx",
+      "url": "https://journals.aps.org/prx/recent",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "hits": 0,
+      "note": "所取官方目录中未核见明确当天条目，可能尚待更新。",
+      "included": 0
+    },
+    {
+      "key": "nature",
+      "url": "https://www.nature.com/nature/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "hits": 0,
+      "note": "所取官方目录中未核见明确当天条目，可能尚待更新。",
+      "included": 0
+    },
+    {
+      "key": "nphys",
+      "url": "https://www.nature.com/nphys/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "hits": 0,
+      "note": "所取官方目录中未核见明确当天条目，可能尚待更新。",
+      "included": 0
+    },
+    {
+      "key": "ncomm",
+      "url": "https://www.nature.com/ncomms/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "rows": [
+        {
+          "title": "EpiPack: A computational framework for reference mapping and out-of-reference detection for single-cell ATAC-seq data with heterogeneous peak features",
+          "url": "https://www.nature.com/articles/s41467-026-78924-9",
+          "decision": "exclude",
+          "reason": "题名与可检索摘要的研究对象不属于本期重点量子材料或其物性/制备实证。"
+        },
+        {
+          "title": "A map of multi-omics quantitative trait loci in a Chinese population reveals regulatory variations and disease links",
+          "url": "https://www.nature.com/articles/s41467-026-79358-z",
+          "decision": "exclude",
+          "reason": "题名与可检索摘要的研究对象不属于本期重点量子材料或其物性/制备实证。"
+        },
+        {
+          "title": "Constructing radiative dipolar excitons via frontier-state hybridization in 2D perovskites",
+          "url": "https://www.nature.com/articles/s41467-026-79153-w",
+          "decision": "include",
+          "reason": "日期已核，具有明确的材料或物性实验；正文阅读路径见主刊。"
+        }
+      ],
+      "hits": 3,
+      "included": 1
+    },
+    {
+      "key": "npj",
+      "url": "https://www.nature.com/npjquantmats/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "hits": 0,
+      "note": "所取官方目录中未核见明确当天条目，可能尚待更新。",
+      "included": 0
+    },
+    {
+      "key": "comm-mat",
+      "url": "https://www.nature.com/commsmat/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "hits": 0,
+      "note": "所取官方目录中未核见明确当天条目，可能尚待更新。",
+      "included": 0
+    },
+    {
+      "key": "nmat",
+      "url": "https://www.nature.com/nmat/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "hits": 0,
+      "note": "所取官方目录中未核见明确当天条目，可能尚待更新。",
+      "included": 0
+    },
+    {
+      "key": "science",
+      "url": "https://www.science.org/journal/science/firstrelease",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "rows": [],
+      "hits": null,
+      "included": 0,
+      "note": "出版社访问失败；另见同刊 Crossref 查询。"
+    },
+    {
+      "key": "sciadv",
+      "url": "https://www.science.org/toc/sciadv/current",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "rows": [],
+      "hits": null,
+      "included": 0,
+      "note": "出版社访问失败；另见同刊 Crossref 查询。"
+    },
+    {
+      "key": "am",
+      "url": "https://advanced.onlinelibrary.wiley.com/toc/15214095/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "rows": [],
+      "hits": null,
+      "included": 0,
+      "note": "出版社访问失败；另见同刊 Crossref 查询。"
+    },
+    {
+      "key": "afm",
+      "url": "https://advanced.onlinelibrary.wiley.com/toc/16163028/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "rows": [],
+      "hits": null,
+      "included": 0,
+      "note": "出版社访问失败；另见同刊 Crossref 查询。"
+    },
+    {
+      "key": "nanolett",
+      "url": "https://pubs.acs.org/toc/nalefd/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "rows": [],
+      "hits": null,
+      "included": 0,
+      "note": "出版社访问失败；另见同刊 Crossref 查询。"
+    },
+    {
+      "key": "acsnano",
+      "url": "https://pubs.acs.org/toc/ancac3/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "rows": [],
+      "hits": null,
+      "included": 0,
+      "note": "出版社访问失败；另见同刊 Crossref 查询。"
+    },
+    {
+      "key": "jacs",
+      "url": "https://pubs.acs.org/toc/jacsat/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "rows": [],
+      "hits": null,
+      "included": 0,
+      "note": "出版社访问失败；另见同刊 Crossref 查询。"
+    },
+    {
+      "key": "cm",
+      "url": "https://pubs.acs.org/toc/cmatex/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "rows": [],
+      "hits": null,
+      "included": 0,
+      "note": "出版社访问失败；另见同刊 Crossref 查询。"
+    },
+    {
+      "key": "cgd",
+      "url": "https://pubs.acs.org/toc/cgdefu/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "rows": [],
+      "hits": null,
+      "included": 0,
+      "note": "出版社访问失败；另见同刊 Crossref 查询。"
+    },
+    {
+      "key": "jcg",
+      "url": "https://www.sciencedirect.com/journal/journal-of-crystal-growth/articles-in-press",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "rows": [],
+      "hits": null,
+      "included": 0,
+      "note": "出版社访问失败；另见同刊 Crossref 查询。"
+    },
+    {
+      "key": "cross-s",
+      "url": "https://api.crossref.org/works?query.bibliographic=superconductivity&filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17%2Ctype%3Ajournal-article&rows=70",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "hits": 0,
+      "included": 0
+    },
+    {
+      "key": "cross-c",
+      "url": "https://api.crossref.org/works?query.bibliographic=crystal+growth&filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17%2Ctype%3Ajournal-article&rows=70",
+      "attempts": [
+        "200"
+      ],
+      "rows": [
+        {
+          "title": "Crystal Orientation Enables Near-Unity Nonlinear Circular Dichroism in Resonant Metasurfaces",
+          "doi": "10.1021/acs.nanolett.6c03853",
+          "decision": "exclude",
+          "reason": "正式在线日期已核，并读作者 arXiv:2607.17600v2。晶向选择性来自器件电磁模型和数值共振；未有实际样品、长晶或量子物性实证。"
+        },
+        {
+          "title": "Cation-Dependent Symmetry Breaking in Ion-Exchanged K2TiSi3O9·H2O: Single-Crystal Evidence for Binary Selectivity and Opposing Volumetric Responses",
+          "doi": "10.1021/acs.inorgchem.6c03748",
+          "decision": "exclude",
+          "reason": "离子交换结构鉴定，未见本期关注的量子物性或相关长晶实证。"
+        },
+        {
+          "title": "3D printed waveguides and liquid crystal polymer (LCP) planar Luneburg lens for Ka-band applications",
+          "doi": "10.1108/rpj-03-2026-0202",
+          "decision": "exclude",
+          "reason": "题名与可检索摘要的研究对象不属于本期重点量子材料或其物性/制备实证。"
+        },
+        {
+          "title": "Meshless radial point interpolation evaluation of pure tensile and shear crack growth in bonded joints",
+          "doi": "10.1108/ijsi-07-2026-0150",
+          "decision": "exclude",
+          "reason": "题名与可检索摘要的研究对象不属于本期重点量子材料或其物性/制备实证。"
+        },
+        {
+          "title": "Looking forward by looking back: A decade of learning, research, reflection, and collective growth in early online education",
+          "doi": "10.65106/apubs.2026.3234",
+          "decision": "exclude",
+          "reason": "题名与可检索摘要的研究对象不属于本期重点量子材料或其物性/制备实证。"
+        },
+        {
+          "title": "Influence of Obesity on the Occurrence of Preeclampsia and Fetal Growth Restriction: A Case Report",
+          "doi": "10.24198/obgynia.v9i3.943",
+          "decision": "exclude",
+          "reason": "题名与可检索摘要的研究对象不属于本期重点量子材料或其物性/制备实证。"
+        },
+        {
+          "title": "Effects of Fermented Fresh Cassava Residue as a Partial Replacement for Commercial Feed on Growth Performance, Feed Utilization, Carcass Composition and Economic Efficiency of Rice Field Crab (Sayamia bangkokensis)",
+          "doi": "10.47278/journal.ijab/2026.260",
+          "decision": "exclude",
+          "reason": "题名与可检索摘要的研究对象不属于本期重点量子材料或其物性/制备实证。"
+        },
+        {
+          "title": "Subepithelial growth along alveolar walls in lung squamous cell carcinoma: a potential pitfall in the diagnosis of adenosquamous carcinoma and the diagnostic value of p53 and MTAP immunohistochemistry",
+          "doi": "10.1007/s00428-026-04782-x",
+          "decision": "exclude",
+          "reason": "题名与可检索摘要的研究对象不属于本期重点量子材料或其物性/制备实证。"
+        },
+        {
+          "title": "Growth promotion markers and functional metabolomic analysis of co-cultured Bifidobacterium animalis subsp. lactis HN-3 and Lacticaseibacillus paracasei YL-29 in Elaeagnus moorcroftii Wall. ex Schlecht juice",
+          "doi": "10.26599/fshw.2025.9250675",
+          "decision": "exclude",
+          "reason": "题名与可检索摘要的研究对象不属于本期重点量子材料或其物性/制备实证。"
+        }
+      ],
+      "hits": 9,
+      "included": 0
+    },
+    {
+      "key": "cross-q",
+      "url": "https://api.crossref.org/works?query.bibliographic=quantum+materials&filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17%2Ctype%3Ajournal-article&rows=70",
+      "attempts": [
+        "429",
+        "200"
+      ],
+      "rows": [
+        {
+          "title": "Bandedge-State-Limited Single-Photon Emission from Volumetric Quantum Design of 2D Colloidal Quantum Wells",
+          "doi": "10.1021/jacs.6c17007",
+          "decision": "include",
+          "reason": "日期已核，具有明确的材料或物性实验；正文阅读路径见主刊。"
+        },
+        {
+          "title": "Adventures in the Sociotechnical Umwelt: Absences of Quantum Computing Imaginaries in Speculative Fiction and Technology Governance",
+          "doi": "10.5204/lthj.4764",
+          "decision": "exclude",
+          "reason": "题名与可检索摘要的研究对象不属于本期重点量子材料或其物性/制备实证。"
+        },
+        {
+          "title": "Multi-fidelity predictive model for shock response of energetic materials using conditional U-Net",
+          "doi": "10.1038/s41524-026-02316-2",
+          "decision": "exclude",
+          "reason": "题名与可检索摘要的研究对象不属于本期重点量子材料或其物性/制备实证。"
+        },
+        {
+          "title": "Chiroptical encoding strategy driven by circularly polarized light for fabricating CPL-active materials",
+          "doi": "10.1360/ssc-2026-0207",
+          "decision": "exclude",
+          "reason": "题名与可检索摘要的研究对象不属于本期重点量子材料或其物性/制备实证。"
+        },
+        {
+          "title": "Quantitative assessment of aging performance for steel structure coatings based on pull-off test mechanisms",
+          "doi": "10.1108/acmm-03-2026-3560",
+          "decision": "exclude",
+          "reason": "题名与可检索摘要的研究对象不属于本期重点量子材料或其物性/制备实证。"
+        },
+        {
+          "title": "Artificial intelligence-enhanced microbial synthesis, functionalization, and applications of bio-based nanomaterials: advances, challenges, and future perspectives",
+          "doi": "10.1186/s44316-026-00069-y",
+          "decision": "exclude",
+          "reason": "题名与可检索摘要的研究对象不属于本期重点量子材料或其物性/制备实证。"
+        },
+        {
+          "title": "Hierarchically Structured All-Polymer Composites for Enhanced High-Temperature Energy Storage",
+          "doi": "10.1021/acsami.6c17929",
+          "decision": "exclude",
+          "reason": "题名与可检索摘要的研究对象不属于本期重点量子材料或其物性/制备实证。"
+        },
+        {
+          "title": "Porosity estimation of construction materials from computed tomography images using image segmentation and adaptive thresholding techniques",
+          "doi": "10.1038/s41598-026-78019-x",
+          "decision": "exclude",
+          "reason": "题名与可检索摘要的研究对象不属于本期重点量子材料或其物性/制备实证。"
+        },
+        {
+          "title": "Using Local Materials for Inquiry: Upper-Primary Teachers’ Knowledge and Perceived Constraints on Improvisation for Science Teaching in Ghana",
+          "doi": "10.64712/ijeccer.v3i2.1045",
+          "decision": "exclude",
+          "reason": "题名与可检索摘要的研究对象不属于本期重点量子材料或其物性/制备实证。"
+        },
+        {
+          "title": "Effect of pre-strain on hydrogen permeation and embrittlement susceptibility of X80 steel under cathodic protection conditions",
+          "doi": "10.1108/acmm-07-2026-3715",
+          "decision": "exclude",
+          "reason": "题名与可检索摘要的研究对象不属于本期重点量子材料或其物性/制备实证。"
+        },
+        {
+          "title": "Compensating for the past or shaping the future: how raw materials in green products impact consumers’ purchase intentions",
+          "doi": "10.1108/apjml-12-2025-2636",
+          "decision": "exclude",
+          "reason": "题名与可检索摘要的研究对象不属于本期重点量子材料或其物性/制备实证。"
+        },
+        {
+          "title": "Molecular Engineering of Customizable Resin-Derived Hard Carbon Framework for Efficient Sodium Storage",
+          "doi": "10.1021/acsami.6c19377",
+          "decision": "exclude",
+          "reason": "题名与可检索摘要的研究对象不属于本期重点量子材料或其物性/制备实证。"
+        },
+        {
+          "title": "Metalized Carbon Nanotube Films with Boosted Atomic Oxygen Resistance as Electromagnetic Interference Shielding Cladding for Low-Earth-Orbit Space Applications",
+          "doi": "10.1021/acsami.6c14472",
+          "decision": "exclude",
+          "reason": "题名与可检索摘要的研究对象不属于本期重点量子材料或其物性/制备实证。"
+        },
+        {
+          "title": "Effects of Suspension Stiffness, Vehicle Speed, and Road Roughness on Dynamic Loading of the Drive Axle Housing in a 1.25-Ton Light Truck",
+          "doi": "10.53941/ijamm.2026.100030",
+          "decision": "exclude",
+          "reason": "题名与可检索摘要的研究对象不属于本期重点量子材料或其物性/制备实证。"
+        },
+        {
+          "title": "Electronically active Sn nanosheets enable Sn-to-Pt interfacial charge redistribution for acidic and alkaline hydrogen evolution",
+          "doi": "10.20517/energymater.2026.252",
+          "decision": "exclude",
+          "reason": "题名与可检索摘要的研究对象不属于本期重点量子材料或其物性/制备实证。"
+        },
+        {
+          "title": "Physics-interpretable topological machine learning identifies domain-wall contributors to high-frequency loss in a nanocrystalline soft magnet",
+          "doi": "10.1038/s41427-026-00683-2",
+          "decision": "exclude",
+          "reason": "已核模型对象为理想 Fe 基软磁体和模拟畴壁，无本篇实测证据；与量子磁性的实验对象关联有限。"
+        }
+      ],
+      "hits": 16,
+      "included": 1
+    },
+    {
+      "key": "cross-m",
+      "url": "https://api.crossref.org/works?query.bibliographic=magnetic+topology&filter=from-online-pub-date%3A2026-11-17%2Cuntil-online-pub-date%3A2026-11-17%2Ctype%3Ajournal-article&rows=70",
+      "attempts": [
+        "429",
+        "200"
+      ],
+      "rows": [
+        {
+          "title": "Seeing what transformers cannot: structural topology modelling for coordinated IoT intrusion detection",
+          "doi": "10.1108/ijicc-08-2026-0946",
+          "decision": "exclude",
+          "reason": "题名与可检索摘要的研究对象不属于本期重点量子材料或其物性/制备实证。"
+        },
+        {
+          "title": "XPINN-based parametric modeling method for solving magnetic fields with moving boundaries",
+          "doi": "10.1108/ec-03-2026-0527",
+          "decision": "exclude",
+          "reason": "题名与可检索摘要的研究对象不属于本期重点量子材料或其物性/制备实证。"
+        },
+        {
+          "title": "Eco-conscious synthesis of a starch-based magnetic hydrogel for effective methylene blue decontamination in wastewater treatment",
+          "doi": "10.1007/s11356-026-38393-5",
+          "decision": "exclude",
+          "reason": "题名与可检索摘要的研究对象不属于本期重点量子材料或其物性/制备实证。"
+        }
+      ],
+      "hits": 3,
+      "included": 0
+    }
+  ],
+  "arxivOfficial": [
+    {
+      "source": "cond-mat-new",
+      "url": "https://arxiv.org/list/cond-mat/new?show=2000",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "headings": [
+        "Showing new listings for Monday, 16 November 2026",
+        "New submissions (showing 80 of 80 entries)",
+        "Cross submissions (showing 28 of 28 entries)",
+        "Replacement submissions (showing 56 of 56 entries)"
+      ]
+    },
+    {
+      "source": "cond-mat-retry",
+      "url": "https://arxiv.org/list/cond-mat/new",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "headings": [
+        "Showing new listings for Monday, 16 November 2026",
+        "New submissions (showing 80 of 80 entries)",
+        "Cross submissions (showing 28 of 28 entries)",
+        "Replacement submissions (showing 56 of 56 entries)"
+      ]
+    },
+    {
+      "source": "cond-mat-fresh",
+      "url": "https://arxiv.org/list/cond-mat/new?skip=0&show=2000",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "headings": [
+        "Showing new listings for Monday, 16 November 2026",
+        "New submissions (showing 80 of 80 entries)",
+        "Cross submissions (showing 28 of 28 entries)",
+        "Replacement submissions (showing 56 of 56 entries)"
+      ]
+    },
+    {
+      "source": "cond-mat-recent",
+      "url": "https://arxiv.org/list/cond-mat/recent",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "headings": [
+        "Authors and titles for recent submissions",
+        "Mon, 16 Nov 2026 (showing first 50 of 108 entries )"
+      ]
+    }
+  ],
+  "arxivRecheck": [
+    {
+      "url": "https://arxiv.org/list/cond-mat/new?show=2000&skip=0",
+      "http": "200",
+      "headings": [
+        "Showing new listings for Monday, 16 November 2026",
+        "New submissions (showing 80 of 80 entries)",
+        "Cross submissions (showing 28 of 28 entries)",
+        "Replacement submissions (showing 56 of 56 entries)"
+      ],
+      "entries": null
+    },
+    {
+      "url": "https://arxiv.org/list/cond-mat/new?show=500",
+      "http": "200",
+      "headings": [
+        "Showing new listings for Monday, 16 November 2026",
+        "New submissions (showing 80 of 80 entries)",
+        "Cross submissions (showing 28 of 28 entries)",
+        "Replacement submissions (showing 56 of 56 entries)"
+      ],
+      "entries": null
+    },
+    {
+      "url": "https://arxiv.org/list/cond-mat/recent?skip=0&show=100",
+      "http": "200",
+      "headings": [
+        "Authors and titles for recent submissions",
+        "Mon, 16 Nov 2026 (showing first 100 of 108 entries )"
+      ],
+      "entries": null
+    },
+    {
+      "url": "https://arxiv.org/list/cond-mat.supr-con/new",
+      "http": "200",
+      "headings": [
+        "Showing new listings for Monday, 16 November 2026",
+        "New submissions (showing 2 of 2 entries)",
+        "Cross submissions (showing 2 of 2 entries)",
+        "Replacement submissions (showing 6 of 6 entries)"
+      ],
+      "entries": null
+    },
+    {
+      "url": "https://export.arxiv.org/api/query?id_list=2611.18294,2611.18532",
+      "http": "200",
+      "headings": [],
+      "entries": 2
+    },
+    {
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acond-mat.%2A%20AND%20submittedDate%3A%5B202611160000%20TO%20202611171559%5D&max_results=100",
+      "http": "200",
+      "headings": [],
+      "entries": 0
+    }
+  ],
+  "arxivDateApi": [
+    {
+      "name": "初投日期 UTC 16",
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acond-mat.%2A+AND+submittedDate%3A%5B202611160000+TO+202611162359%5D&max_results=1000",
+      "http": "200",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "returned": 0
+    },
+    {
+      "name": "初投日期 UTC 17",
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acond-mat.%2A+AND+submittedDate%3A%5B202611170000+TO+202611172359%5D&max_results=1000",
+      "http": "200",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "returned": 0
+    }
+  ],
+  "arxivOfficialCounts": {
+    "date": "2026-11-16",
+    "new": 80,
+    "cross": 28,
+    "replacements": 56,
+    "total": 164,
+    "isIssueDate": false,
+    "verifiedAgainstPreviousIssue": true,
+    "screeningAndApiAudit": "https://wang812229.github.io/crystal-growth-property-control/reports/2026-11-16/audit.json"
+  },
+  "officialBatchDecisions": [
+    {
+      "id": "2611.17414",
+      "title": "Narrow-Band Magnetism Allowed by Quantum Geometry: Altermagnetism and Beyond",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17414v1",
+      "submittedUtc": "2026-11-12T19:00:04Z",
+      "updatedUtc": "2026-11-12T19:00:04Z"
+    },
+    {
+      "id": "2611.17429",
+      "title": "Invertible parafermionic topological phases in one dimension",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17429v1",
+      "submittedUtc": "2026-11-12T19:00:57Z",
+      "updatedUtc": "2026-11-12T19:00:57Z"
+    },
+    {
+      "id": "2611.17441",
+      "title": "Chiral or unidirectional? Multiterminal current partition in the quantum Hall regime from self-consistent screening theory",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17441v1",
+      "submittedUtc": "2026-11-12T19:13:02Z",
+      "updatedUtc": "2026-11-12T19:13:02Z"
+    },
+    {
+      "id": "2611.17453",
+      "title": "Composition Driven Band Alignment Evolution in Grafted Si/GeSn Heterostructures",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17453v1",
+      "submittedUtc": "2026-11-12T19:25:03Z",
+      "updatedUtc": "2026-11-12T19:25:03Z"
+    },
+    {
+      "id": "2611.17470",
+      "title": "Optimal heterogeneous diffusivity profiles for mean first-passage minimization",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17470v1",
+      "submittedUtc": "2026-11-12T19:57:32Z",
+      "updatedUtc": "2026-11-12T19:57:32Z"
+    },
+    {
+      "id": "2611.17474",
+      "title": "Roton softening and crystallization in a mass-asymmetric electron-hole bilayer",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17474v1",
+      "submittedUtc": "2026-11-12T20:00:48Z",
+      "updatedUtc": "2026-11-12T20:00:48Z"
+    },
+    {
+      "id": "2611.17508",
+      "title": "In-plane diffusion, spurious drift and a physics-structured gap predictor for a free colloidal pair",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17508v1",
+      "submittedUtc": "2026-11-12T21:00:39Z",
+      "updatedUtc": "2026-11-12T21:00:39Z"
+    },
+    {
+      "id": "2611.17511",
+      "title": "Non-ergodic Area Scaling of Andreev Transport in Al/AlO$_x$/Al Tunnel Junctions",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17511v1",
+      "submittedUtc": "2026-11-12T21:04:35Z",
+      "updatedUtc": "2026-11-12T21:04:35Z"
+    },
+    {
+      "id": "2611.17514",
+      "title": "Deformation Kinetics of Charged Nanoclusters via Surface Diffusion",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17514v1",
+      "submittedUtc": "2026-11-12T21:09:19Z",
+      "updatedUtc": "2026-11-12T21:09:19Z"
+    },
+    {
+      "id": "2611.17516",
+      "title": "High-harmonic generation along a structural phase transition in silicon",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17516v1",
+      "submittedUtc": "2026-11-12T21:10:46Z",
+      "updatedUtc": "2026-11-12T21:10:46Z"
+    },
+    {
+      "id": "2611.17521",
+      "title": "Thermally Activated Magnetic Switching in Antiferromagnetic Van der Waals Trilayers Resolved by Single-Spin Diamond Magnetometry",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17521v1",
+      "submittedUtc": "2026-11-12T21:15:12Z",
+      "updatedUtc": "2026-11-12T21:15:12Z"
+    },
+    {
+      "id": "2611.17579",
+      "title": "Chiral topological phases of proximitized planar germanium",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17579v1",
+      "submittedUtc": "2026-11-12T23:01:02Z",
+      "updatedUtc": "2026-11-12T23:01:02Z"
+    },
+    {
+      "id": "2611.17607",
+      "title": "Selective coupling and spectral evolution of topological domain-wall states under local perturbations",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17607v1",
+      "submittedUtc": "2026-11-13T00:09:05Z",
+      "updatedUtc": "2026-11-13T00:09:05Z"
+    },
+    {
+      "id": "2611.17615",
+      "title": "Data-driven exploration of the strength-ductility synergy in refractory high-entropy alloys",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17615v1",
+      "submittedUtc": "2026-11-13T00:31:02Z",
+      "updatedUtc": "2026-11-13T00:31:02Z"
+    },
+    {
+      "id": "2611.17617",
+      "title": "Unified constitutive model of body-centered cubic metals informed by discrete dislocation dynamics",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17617v1",
+      "submittedUtc": "2026-11-13T00:35:22Z",
+      "updatedUtc": "2026-11-13T00:35:22Z"
+    },
+    {
+      "id": "2611.17627",
+      "title": "Machine-learning charge density for electronic materials and devices simulation",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17627v1",
+      "submittedUtc": "2026-11-13T00:55:02Z",
+      "updatedUtc": "2026-11-13T00:55:02Z"
+    },
+    {
+      "id": "2611.17634",
+      "title": "A Unified Device-Level Physical Framework for DRAM Read Disturbance",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17634v1",
+      "submittedUtc": "2026-11-13T01:08:31Z",
+      "updatedUtc": "2026-11-13T01:08:31Z"
+    },
+    {
+      "id": "2611.17641",
+      "title": "Quantum spin-wave statistics and dimensionality in thermally activated magnetic transitions",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17641v1",
+      "submittedUtc": "2026-11-13T01:23:51Z",
+      "updatedUtc": "2026-11-13T01:23:51Z"
+    },
+    {
+      "id": "2611.17648",
+      "title": "Stress peaks and rupture in star-polymer networks with bidisperse arm lengths",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17648v1",
+      "submittedUtc": "2026-11-13T01:38:33Z",
+      "updatedUtc": "2026-11-13T01:38:33Z"
+    },
+    {
+      "id": "2611.17655",
+      "title": "Foundation Tensor Networks Generalize Across Quantum Lattice Systems",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17655v1",
+      "submittedUtc": "2026-11-13T02:04:38Z",
+      "updatedUtc": "2026-11-13T02:04:38Z"
+    },
+    {
+      "id": "2611.17670",
+      "title": "Crystal Structure Prediction from Search to Learning: A 30-Year Expedition",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17670v1",
+      "submittedUtc": "2026-11-13T02:33:55Z",
+      "updatedUtc": "2026-11-13T02:33:55Z"
+    },
+    {
+      "id": "2611.17679",
+      "title": "Electric Fields Turn Vacancy-trapping Grain Boundaries into Li-Ion Pathways in Li2O",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17679v1",
+      "submittedUtc": "2026-11-13T02:44:39Z",
+      "updatedUtc": "2026-11-13T02:44:39Z"
+    },
+    {
+      "id": "2611.17698",
+      "title": "Pressure-driven evolution of crystal and molecular structures reshapes excited-state competition in coronene",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17698v1",
+      "submittedUtc": "2026-11-13T03:24:47Z",
+      "updatedUtc": "2026-11-13T03:24:47Z"
+    },
+    {
+      "id": "2611.17709",
+      "title": "Theoretical exploration of ambient-pressure superconductivity in the bilayer nickelate: A strategy of atomic substitution for tuning chemical pressure",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17709v1",
+      "submittedUtc": "2026-11-13T03:36:42Z",
+      "updatedUtc": "2026-11-13T03:36:42Z"
+    },
+    {
+      "id": "2611.17724",
+      "title": "Anyon Proliferation at Self-Triality: From a Lattice Model to Adjoint QCD$_3$",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17724v1",
+      "submittedUtc": "2026-11-13T04:14:42Z",
+      "updatedUtc": "2026-11-13T04:14:42Z"
+    },
+    {
+      "id": "2611.17729",
+      "title": "Dopant-vacancy complexes as single-photon-emitter candidates in monolayer silicon carbide: radiative and nonradiative decay",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17729v1",
+      "submittedUtc": "2026-11-13T04:20:10Z",
+      "updatedUtc": "2026-11-13T04:20:10Z"
+    },
+    {
+      "id": "2611.17731",
+      "title": "Ultrafast Imaging Reveals Energy Transport Anisotropy Grows from Bulk to Monolayer Black Phosphorus",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17731v1",
+      "submittedUtc": "2026-11-13T04:22:46Z",
+      "updatedUtc": "2026-11-13T04:22:46Z"
+    },
+    {
+      "id": "2611.17777",
+      "title": "Active turbulent flows of dense persistent particles driven at constant velocity",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17777v1",
+      "submittedUtc": "2026-11-13T05:39:09Z",
+      "updatedUtc": "2026-11-13T05:39:09Z"
+    },
+    {
+      "id": "2611.17871",
+      "title": "Evaluate Laughlin spectral gap lower bound in vortexable bands",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17871v1",
+      "submittedUtc": "2026-11-13T08:01:37Z",
+      "updatedUtc": "2026-11-13T08:01:37Z"
+    },
+    {
+      "id": "2611.17882",
+      "title": "Quantum Fluctuations drive Emerging Bosonic Quantum Phases in a Moiré Flatband Superconductor",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17882v1",
+      "submittedUtc": "2026-11-13T08:16:47Z",
+      "updatedUtc": "2026-11-13T08:16:47Z"
+    },
+    {
+      "id": "2611.17927",
+      "title": "Classical weak antilocalization in electron hydrodynamics",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17927v1",
+      "submittedUtc": "2026-11-13T09:07:26Z",
+      "updatedUtc": "2026-11-13T09:07:26Z"
+    },
+    {
+      "id": "2611.17932",
+      "title": "Influence of interfacial roughness amplitude and periodicity on giant chiral asymmetry of domain wall mobility in epitaxial Cu/Pd/Co/Pd(111) films",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17932v1",
+      "submittedUtc": "2026-11-13T09:11:14Z",
+      "updatedUtc": "2026-11-13T09:11:14Z"
+    },
+    {
+      "id": "2611.17976",
+      "title": "A Multiobjective Optimization Framework for Sensor Array Design in Magnetocardiography",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17976v1",
+      "submittedUtc": "2026-11-13T10:04:04Z",
+      "updatedUtc": "2026-11-13T10:04:04Z"
+    },
+    {
+      "id": "2611.17985",
+      "title": "Correlating orbital order and photovoltaic effect in Layered Ruddlesden-Popper Pr0.5Ca1.5MnO4 and PrCa2Mn2O7",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17985v1",
+      "submittedUtc": "2026-11-13T10:16:30Z",
+      "updatedUtc": "2026-11-13T10:16:30Z"
+    },
+    {
+      "id": "2611.17986",
+      "title": "Epitaxial integration of GaN $μ$-platelets and thin films on metallic TiN using a hybrid approach",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17986v1",
+      "submittedUtc": "2026-11-13T10:16:34Z",
+      "updatedUtc": "2026-11-13T10:16:34Z"
+    },
+    {
+      "id": "2611.17992",
+      "title": "Shape of semiflexible polymer chains: Lévy walks vs. Persistent random walks",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17992v1",
+      "submittedUtc": "2026-11-13T10:21:36Z",
+      "updatedUtc": "2026-11-13T10:21:36Z"
+    },
+    {
+      "id": "2611.18007",
+      "title": "Emulating spatially extended systems using Fourier Neural Operator",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18007v1",
+      "submittedUtc": "2026-11-13T10:35:02Z",
+      "updatedUtc": "2026-11-13T10:35:02Z"
+    },
+    {
+      "id": "2611.18009",
+      "title": "Analytical treatment of reentrant localization via Lyapunov branch structure",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18009v1",
+      "submittedUtc": "2026-11-13T10:38:23Z",
+      "updatedUtc": "2026-11-13T10:38:23Z"
+    },
+    {
+      "id": "2611.18010",
+      "title": "Low-Temperature Heat Capacity of Single-Walled Carbon Nanotube Bundles with low dimensional gas systems",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18010v1",
+      "submittedUtc": "2026-11-13T10:39:37Z",
+      "updatedUtc": "2026-11-13T10:39:37Z"
+    },
+    {
+      "id": "2611.18021",
+      "title": "A Cantilever-Based Method for Probing Adhesion Force and Kinetic Detachment Energy in Cohesive Granular Materials",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18021v1",
+      "submittedUtc": "2026-11-13T10:47:19Z",
+      "updatedUtc": "2026-11-13T10:47:19Z"
+    },
+    {
+      "id": "2611.18029",
+      "title": "Charge and spin orders of the generalized Wigner crystal phases at fractional fillings in twisted MoTe$_2$: unrestricted Hartree-Fock and variational Monte Carlo studies",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18029v1",
+      "submittedUtc": "2026-11-13T10:57:24Z",
+      "updatedUtc": "2026-11-13T10:57:24Z"
+    },
+    {
+      "id": "2611.18041",
+      "title": "A Machine-learning-aided Workflow for Sampling Small Polaron Dynamics in Energy Materials",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18041v1",
+      "submittedUtc": "2026-11-13T11:11:15Z",
+      "updatedUtc": "2026-11-13T11:11:15Z"
+    },
+    {
+      "id": "2611.18042",
+      "title": "Tunable Valley Filtering and Splitting via Gate Control in Wrinkled Graphene",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18042v1",
+      "submittedUtc": "2026-11-13T11:13:02Z",
+      "updatedUtc": "2026-11-13T11:13:02Z"
+    },
+    {
+      "id": "2611.18048",
+      "title": "Comment on \"Kinematic and Rheological Equivalence of Steady Shearing and Planar Extensional Flows\"",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18048v1",
+      "submittedUtc": "2026-11-13T11:20:26Z",
+      "updatedUtc": "2026-11-13T11:20:26Z"
+    },
+    {
+      "id": "2611.18073",
+      "title": "Vestiges of magnon fractionalization in the quasi-two-dimensional quantum magnet rouaite Cu$_2$(NO$_3$)(OH)$_3$ with alternating ferro- and antiferromagnetic $S=\\frac{1}{2}$ chains",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18073v1",
+      "submittedUtc": "2026-11-13T12:00:03Z",
+      "updatedUtc": "2026-11-13T12:00:03Z"
+    },
+    {
+      "id": "2611.18109",
+      "title": "Pressure dependent DFT study of mechanical, thermal, electronic, magnetic, and optical properties of EuCd2As2: a magnetic semimetal",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18109v1",
+      "submittedUtc": "2026-11-13T12:34:41Z",
+      "updatedUtc": "2026-11-13T12:34:41Z"
+    },
+    {
+      "id": "2611.18120",
+      "title": "Making Plasticity Visible: A Case Study for High-Temperature Exposed Aluminum Alloy",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18120v1",
+      "submittedUtc": "2026-11-13T12:50:06Z",
+      "updatedUtc": "2026-11-13T12:50:06Z"
+    },
+    {
+      "id": "2611.18158",
+      "title": "Charge-tunable acoustic surface plasmons in topological nodal-line semimetals",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18158v1",
+      "submittedUtc": "2026-11-13T13:34:18Z",
+      "updatedUtc": "2026-11-13T13:34:18Z"
+    },
+    {
+      "id": "2611.18161",
+      "title": "Mapping the Phase Space of Cubic Chiral Semiconductors: High-Throughput Search,Stability, and Prototype Families",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18161v1",
+      "submittedUtc": "2026-11-13T13:36:58Z",
+      "updatedUtc": "2026-11-13T13:36:58Z"
+    },
+    {
+      "id": "2611.18182",
+      "title": "Controlled Magnon Chirality and Its Reversal by Anisotropy in Altermagnetic FeF$_2$",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18182v1",
+      "submittedUtc": "2026-11-13T13:51:18Z",
+      "updatedUtc": "2026-11-13T13:51:18Z"
+    },
+    {
+      "id": "2611.18187",
+      "title": "Tunable coupling between valley and magnetic excitons in WS2/CrSBr heterostructures",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18187v1",
+      "submittedUtc": "2026-11-13T13:56:26Z",
+      "updatedUtc": "2026-11-13T13:56:26Z"
+    },
+    {
+      "id": "2611.18207",
+      "title": "Reconciling global and local spin models",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18207v1",
+      "submittedUtc": "2026-11-13T14:12:24Z",
+      "updatedUtc": "2026-11-13T14:12:24Z"
+    },
+    {
+      "id": "2611.18217",
+      "title": "The Rise of Zirconium Metal-Organic Polyhedra",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18217v1",
+      "submittedUtc": "2026-11-13T14:20:58Z",
+      "updatedUtc": "2026-11-13T14:20:58Z"
+    },
+    {
+      "id": "2611.18270",
+      "title": "Real-Space-RG for the drawups and drawdowns of run-and-tumble trajectories: universality classes for models with space-dependent velocities and switching rates",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18270v1",
+      "submittedUtc": "2026-11-13T15:02:32Z",
+      "updatedUtc": "2026-11-13T15:02:32Z"
+    },
+    {
+      "id": "2611.18280",
+      "title": "Digitally-alloyed magnetic topological insulator nanostructures grown via stencil mask molecular beam epitaxy",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18280v1",
+      "submittedUtc": "2026-11-13T15:11:52Z",
+      "updatedUtc": "2026-11-13T15:11:52Z"
+    },
+    {
+      "id": "2611.18294",
+      "title": "Thermally Hysteretic Room-Temperature Nonlinear Hall Effect in Bulk EuTe4",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18294v1",
+      "submittedUtc": "2026-11-13T15:21:34Z",
+      "updatedUtc": "2026-11-13T15:21:34Z"
+    },
+    {
+      "id": "2611.18295",
+      "title": "A Tissue Vertex Model grounded in Continuum Mechanics",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18295v1",
+      "submittedUtc": "2026-11-13T15:21:42Z",
+      "updatedUtc": "2026-11-13T15:21:42Z"
+    },
+    {
+      "id": "2611.18318",
+      "title": "Quantized resistance limitations for graphene p-n junction devices",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18318v1",
+      "submittedUtc": "2026-11-13T15:33:21Z",
+      "updatedUtc": "2026-11-13T15:33:21Z"
+    },
+    {
+      "id": "2611.18341",
+      "title": "Delay-induced current reversal in traveling activity waves",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18341v1",
+      "submittedUtc": "2026-11-13T15:52:52Z",
+      "updatedUtc": "2026-11-13T15:52:52Z"
+    },
+    {
+      "id": "2611.18342",
+      "title": "Symmetry induced spin splitting of topological surface states at equal carrier density",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18342v1",
+      "submittedUtc": "2026-11-13T15:53:12Z",
+      "updatedUtc": "2026-11-13T15:53:12Z"
+    },
+    {
+      "id": "2611.18347",
+      "title": "Frustrated Interlayer Coupling Creates a Higher-Order Helical Superstructure in a Twist-Bend Smectic Phase",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18347v1",
+      "submittedUtc": "2026-11-13T15:55:54Z",
+      "updatedUtc": "2026-11-13T15:55:54Z"
+    },
+    {
+      "id": "2611.18373",
+      "title": "Guerra Interpolation and Optimal Transport: Kantorovich Bounds, Brenier Maps and the Replicon",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18373v1",
+      "submittedUtc": "2026-11-13T16:18:15Z",
+      "updatedUtc": "2026-11-13T16:18:15Z"
+    },
+    {
+      "id": "2611.18377",
+      "title": "Edge spin generalization for quantum Hall Laughlin droplets with elliptic shapes",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18377v1",
+      "submittedUtc": "2026-11-13T16:19:53Z",
+      "updatedUtc": "2026-11-13T16:19:53Z"
+    },
+    {
+      "id": "2611.18400",
+      "title": "Topological Hybridization Gaps from Molecular Orbitals Coupled to Dirac Fermions",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18400v1",
+      "submittedUtc": "2026-11-13T16:40:01Z",
+      "updatedUtc": "2026-11-13T16:40:01Z"
+    },
+    {
+      "id": "2611.18402",
+      "title": "Uniaxial strain induces $d$-wave phonon chirality in ferroelectric BaTiO$_3$",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18402v1",
+      "submittedUtc": "2026-11-13T16:44:38Z",
+      "updatedUtc": "2026-11-13T16:44:38Z"
+    },
+    {
+      "id": "2611.18406",
+      "title": "Phase-resolved spin-orbit exciton transfer with dressed quantum encodings",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18406v1",
+      "submittedUtc": "2026-11-13T16:51:19Z",
+      "updatedUtc": "2026-11-13T16:51:19Z"
+    },
+    {
+      "id": "2611.18410",
+      "title": "Testing correlated spin--orbit multiplets beyond excitation centroids",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18410v1",
+      "submittedUtc": "2026-11-13T16:55:05Z",
+      "updatedUtc": "2026-11-13T16:55:05Z"
+    },
+    {
+      "id": "2611.18414",
+      "title": "Emergent intercellular contact-force networks shaped by deformability",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18414v1",
+      "submittedUtc": "2026-11-13T16:56:50Z",
+      "updatedUtc": "2026-11-13T16:56:50Z"
+    },
+    {
+      "id": "2611.18420",
+      "title": "Graph diffusion transformer for interpretable generation and inverse design of disordered atomic structures",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18420v1",
+      "submittedUtc": "2026-11-13T17:00:44Z",
+      "updatedUtc": "2026-11-13T17:00:44Z"
+    },
+    {
+      "id": "2611.18427",
+      "title": "Transfer-Matrix Calculus for Infinite Matrix Product States",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18427v1",
+      "submittedUtc": "2026-11-13T17:09:09Z",
+      "updatedUtc": "2026-11-13T17:09:09Z"
+    },
+    {
+      "id": "2611.18430",
+      "title": "Validating Graph Neural Network Feature Attribution Through Local Perturbations: A Study on CoMoFeNiCu Decomposition Enthalpy",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18430v1",
+      "submittedUtc": "2026-11-13T17:10:27Z",
+      "updatedUtc": "2026-11-13T17:10:27Z"
+    },
+    {
+      "id": "2611.18433",
+      "title": "High Entropy Oxides as Room Temperature Anderson Insulators with Colossal Soft Gaps",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18433v1",
+      "submittedUtc": "2026-11-13T17:12:57Z",
+      "updatedUtc": "2026-11-13T17:12:57Z"
+    },
+    {
+      "id": "2611.18435",
+      "title": "Entanglement and information dynamics in charged dual-unitary circuits with impurities",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18435v1",
+      "submittedUtc": "2026-11-13T17:13:33Z",
+      "updatedUtc": "2026-11-13T17:13:33Z"
+    },
+    {
+      "id": "2611.18456",
+      "title": "Topological phase diagram of an extended Su-Schrieffer-Heeger model with negative coupling",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18456v1",
+      "submittedUtc": "2026-11-13T17:28:02Z",
+      "updatedUtc": "2026-11-13T17:28:02Z"
+    },
+    {
+      "id": "2611.18473",
+      "title": "Machine learning of strength surfaces enables high regularization length phase-field fracture",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18473v1",
+      "submittedUtc": "2026-11-13T17:44:46Z",
+      "updatedUtc": "2026-11-13T17:44:46Z"
+    },
+    {
+      "id": "2611.18490",
+      "title": "Fine-tuned atomistic foundation model for accurate sodium-carbon chemistry in Na-ion batteries",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18490v1",
+      "submittedUtc": "2026-11-13T18:04:13Z",
+      "updatedUtc": "2026-11-13T18:04:13Z"
+    },
+    {
+      "id": "2611.18497",
+      "title": "Regularized Neural Quantum States for Heisenberg Magnets",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18497v1",
+      "submittedUtc": "2026-11-13T18:07:44Z",
+      "updatedUtc": "2026-11-13T18:07:44Z"
+    },
+    {
+      "id": "2611.18521",
+      "title": "Fibonacci Non-Abelian Quantum Hall States with Pair Structure - a classification of chiral 2-cluster many-body wave-functions",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18521v1",
+      "submittedUtc": "2026-11-13T18:37:14Z",
+      "updatedUtc": "2026-11-13T18:37:14Z"
+    },
+    {
+      "id": "2611.18525",
+      "title": "Pressure and Magnetic Field Control of Topology in Antiferromagnetic Bilayers",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18525v1",
+      "submittedUtc": "2026-11-13T18:40:43Z",
+      "updatedUtc": "2026-11-13T18:40:43Z"
+    },
+    {
+      "id": "2611.18532",
+      "title": "Quantum melting and Pomeranchuk effect of zero-field Wigner solids",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18532v1",
+      "submittedUtc": "2026-11-13T18:43:44Z",
+      "updatedUtc": "2026-11-13T18:43:44Z"
+    },
+    {
+      "id": "2611.16685",
+      "title": "Fluctuations of Local Patterns in Non-Periodic Uniquely Ergodic Systems",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.16685v1",
+      "submittedUtc": "2026-11-12T11:59:21Z",
+      "updatedUtc": "2026-11-12T11:59:21Z"
+    },
+    {
+      "id": "2611.17342",
+      "title": "Accessible 3D Printed Archimedes System for Accurate and Precise Density Measurements and Uncertainty Analysis",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17342v1",
+      "submittedUtc": "2026-09-29T00:06:03Z",
+      "updatedUtc": "2026-09-29T00:06:03Z"
+    },
+    {
+      "id": "2611.17366",
+      "title": "Axis-selective AC magnetic-field imaging in the tens-of-megahertz regime using RF-dressed continuous-wave scanning NV magnetometry",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17366v1",
+      "submittedUtc": "2026-11-06T11:23:01Z",
+      "updatedUtc": "2026-11-06T11:23:01Z"
+    },
+    {
+      "id": "2611.17417",
+      "title": "Analytic spread complexity in three-level systems and the spacing-ratio distribution",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17417v1",
+      "submittedUtc": "2026-11-12T19:00:05Z",
+      "updatedUtc": "2026-11-12T19:00:05Z"
+    },
+    {
+      "id": "2611.17433",
+      "title": "Fast mixing and thermal phases from strong decay of correlations",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17433v1",
+      "submittedUtc": "2026-11-12T19:05:45Z",
+      "updatedUtc": "2026-11-12T19:05:45Z"
+    },
+    {
+      "id": "2611.17462",
+      "title": "Diffusion Tree Sampling for Inference Time Adaptation of Crystal Generative Models",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17462v1",
+      "submittedUtc": "2026-11-12T19:40:38Z",
+      "updatedUtc": "2026-11-12T19:40:38Z"
+    },
+    {
+      "id": "2611.17509",
+      "title": "Probing Spatiotemporal Quantum Correlations with Two-Qubit Relaxometry",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17509v1",
+      "submittedUtc": "2026-11-12T21:03:15Z",
+      "updatedUtc": "2026-11-12T21:03:15Z"
+    },
+    {
+      "id": "2611.17512",
+      "title": "Mean-field theory of neural networks: from spikes to firing rates",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17512v1",
+      "submittedUtc": "2026-11-12T21:06:30Z",
+      "updatedUtc": "2026-11-12T21:06:30Z"
+    },
+    {
+      "id": "2611.17513",
+      "title": "Equilibrium Elongation of Charged Nanoclusters",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17513v1",
+      "submittedUtc": "2026-11-12T21:06:58Z",
+      "updatedUtc": "2026-11-12T21:06:58Z"
+    },
+    {
+      "id": "2611.17543",
+      "title": "The Triangular Abrikosov Constant and the Thomas--Fermi $Γ$-Limit of Rotating Bose--Einstein Condensates",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17543v1",
+      "submittedUtc": "2026-11-12T21:56:08Z",
+      "updatedUtc": "2026-11-12T21:56:08Z"
+    },
+    {
+      "id": "2611.17551",
+      "title": "Influence of transverse oscillatory shear on the viscous fingering instability",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17551v1",
+      "submittedUtc": "2026-11-12T22:12:00Z",
+      "updatedUtc": "2026-11-12T22:12:00Z"
+    },
+    {
+      "id": "2611.17570",
+      "title": "Annihilation versus anchoring of a topologically charged pair on a perforated two-dimensional surface",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17570v1",
+      "submittedUtc": "2026-11-12T22:47:41Z",
+      "updatedUtc": "2026-11-12T22:47:41Z"
+    },
+    {
+      "id": "2611.17623",
+      "title": "Magic of Dicke states: density, cost and yield",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17623v1",
+      "submittedUtc": "2026-11-13T00:47:12Z",
+      "updatedUtc": "2026-11-13T00:47:12Z"
+    },
+    {
+      "id": "2611.17630",
+      "title": "A mesh-free deep energy method for phase-field modeling of thermally driven brittle fracture",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17630v1",
+      "submittedUtc": "2026-11-13T00:59:33Z",
+      "updatedUtc": "2026-11-13T00:59:33Z"
+    },
+    {
+      "id": "2611.17816",
+      "title": "Local gluing classification and bulk-locked clock rings for $\\mathbb{Z}_N$ models on a Klein bottle",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17816v1",
+      "submittedUtc": "2026-11-13T06:56:07Z",
+      "updatedUtc": "2026-11-13T06:56:07Z"
+    },
+    {
+      "id": "2611.17823",
+      "title": "Reference-Assisted Qutrit Control and Conditional One-Round Distillation in a Charge-4e Superconductor Model",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17823v1",
+      "submittedUtc": "2026-11-13T06:58:45Z",
+      "updatedUtc": "2026-11-13T06:58:45Z"
+    },
+    {
+      "id": "2611.18018",
+      "title": "Two correlation scales in homogeneous density-matrix functionals: the Müller logarithm and the sharp Csányi--Arias asymptotics",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18018v1",
+      "submittedUtc": "2026-11-13T10:44:56Z",
+      "updatedUtc": "2026-11-13T10:44:56Z"
+    },
+    {
+      "id": "2611.18037",
+      "title": "Quantum kinetic uncertainty relations: Role of coherence in current fluctuation bounds",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18037v1",
+      "submittedUtc": "2026-11-13T11:06:15Z",
+      "updatedUtc": "2026-11-13T11:06:15Z"
+    },
+    {
+      "id": "2611.18062",
+      "title": "Exact stochastic theory of post-transcriptional gene autoregulation mediated by RNA-binding proteins",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18062v1",
+      "submittedUtc": "2026-11-13T11:45:58Z",
+      "updatedUtc": "2026-11-13T11:45:58Z"
+    },
+    {
+      "id": "2611.18237",
+      "title": "Link invariants in nilpotent group gauge theories",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18237v1",
+      "submittedUtc": "2026-11-13T14:32:17Z",
+      "updatedUtc": "2026-11-13T14:32:17Z"
+    },
+    {
+      "id": "2611.18248",
+      "title": "Dancing Tokens on the Vocabulary Network from LLM Generation",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18248v1",
+      "submittedUtc": "2026-11-13T14:43:55Z",
+      "updatedUtc": "2026-11-13T14:43:55Z"
+    },
+    {
+      "id": "2611.18273",
+      "title": "Mechanical acclimation of bacterial growth and division across generations",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18273v1",
+      "submittedUtc": "2026-11-13T15:04:41Z",
+      "updatedUtc": "2026-11-13T15:04:41Z"
+    },
+    {
+      "id": "2611.18278",
+      "title": "Observing Enhanced Entanglement in an Ising Quantum Register Beyond Weak Measurement",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18278v1",
+      "submittedUtc": "2026-11-13T15:09:22Z",
+      "updatedUtc": "2026-11-13T15:09:22Z"
+    },
+    {
+      "id": "2611.18303",
+      "title": "CGTransformer: A Topology-Aware Autoregressive Framework for Crystal Generation and Inverse Design",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18303v1",
+      "submittedUtc": "2026-11-13T15:26:12Z",
+      "updatedUtc": "2026-11-13T15:26:12Z"
+    },
+    {
+      "id": "2611.18316",
+      "title": "Correlation functions of the Lieb--Liniger Bose gas in equilibrium states: a microscopic approach to space-time asymptotics",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18316v1",
+      "submittedUtc": "2026-11-13T15:32:43Z",
+      "updatedUtc": "2026-11-13T15:32:43Z"
+    },
+    {
+      "id": "2611.18331",
+      "title": "Bond Anharmonicity in a Caged Molecule Probed by Vibronic Core Spectroscopy",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18331v1",
+      "submittedUtc": "2026-11-13T15:44:25Z",
+      "updatedUtc": "2026-11-13T15:44:25Z"
+    },
+    {
+      "id": "2611.18489",
+      "title": "Dissipation as a Resource for Entanglement via High-Spin Mediator Purification",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18489v1",
+      "submittedUtc": "2026-11-13T18:01:43Z",
+      "updatedUtc": "2026-11-13T18:01:43Z"
+    },
+    {
+      "id": "2611.18503",
+      "title": "Solution of the Qubit Marginal Problem from Fermionic Representability",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.18503v1",
+      "submittedUtc": "2026-11-13T18:19:19Z",
+      "updatedUtc": "2026-11-13T18:19:19Z"
+    },
+    {
+      "id": "2110.07865",
+      "title": "A Practical Route to Demonstrating Core Reactivity in Cs Polyoxides under Pressure",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2110.07865v2",
+      "submittedUtc": "2021-10-15T05:38:23Z",
+      "updatedUtc": "2026-11-12T20:10:03Z"
+    },
+    {
+      "id": "2502.14579",
+      "title": "Hall resistance under a non-Hermitian linear potential",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2502.14579v3",
+      "submittedUtc": "2025-02-18T19:51:42Z",
+      "updatedUtc": "2026-11-13T18:04:19Z"
+    },
+    {
+      "id": "2507.10700",
+      "title": "Exotic superconducting states in altermagnets",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2507.10700v2",
+      "submittedUtc": "2025-07-14T18:17:00Z",
+      "updatedUtc": "2026-11-13T10:55:04Z"
+    },
+    {
+      "id": "2507.21634",
+      "title": "Ultralow Lattice Thermal Conductivity in Orthorhombic Rb2Se3 with rigid covalent trimers and a soft ionic framework",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2507.21634v2",
+      "submittedUtc": "2025-07-29T09:46:29Z",
+      "updatedUtc": "2026-11-13T11:28:58Z"
+    },
+    {
+      "id": "2508.17457",
+      "title": "Topological phase transitions between bosonic and fermionic quantum Hall states near even-denominator filling factors",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2508.17457v3",
+      "submittedUtc": "2025-08-24T17:26:56Z",
+      "updatedUtc": "2026-11-13T18:51:49Z"
+    },
+    {
+      "id": "2509.16290",
+      "title": "Facile On-Chip Growth and Spatially Selective Color Tuning of CsPbBr$_{3}$@TFA Nanoplatelets via Ion Engineering",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2509.16290v2",
+      "submittedUtc": "2025-09-19T11:03:56Z",
+      "updatedUtc": "2026-11-13T14:08:03Z"
+    },
+    {
+      "id": "2510.21913",
+      "title": "Intertwined Orders, Quantum Criticality and Skyrmions in Tunable Topological Bands",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2510.21913v2",
+      "submittedUtc": "2025-10-24T18:00:00Z",
+      "updatedUtc": "2026-11-12T19:39:26Z"
+    },
+    {
+      "id": "2511.00384",
+      "title": "Physics-informed digital twin and onboard control of a brainbot for intelligent active matter",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2511.00384v3",
+      "submittedUtc": "2025-11-01T03:35:00Z",
+      "updatedUtc": "2026-11-13T06:20:54Z"
+    },
+    {
+      "id": "2602.00374",
+      "title": "Dynamical confinement creates quasi-critical scale-free dynamics",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2602.00374v2",
+      "submittedUtc": "2026-01-30T22:53:24Z",
+      "updatedUtc": "2026-11-13T13:31:46Z"
+    },
+    {
+      "id": "2603.25603",
+      "title": "Puiseux series about exceptional singularities dictated by symmetry-allowed Hessenberg forms of perturbation matrices",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2603.25603v3",
+      "submittedUtc": "2026-03-26T16:21:06Z",
+      "updatedUtc": "2026-11-13T03:02:42Z"
+    },
+    {
+      "id": "2606.00698",
+      "title": "Wasserstein-2 gradient flows and the geometry of entropy production in classical and quantum stochastic thermodynamics",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2606.00698v2",
+      "submittedUtc": "2026-05-30T12:12:46Z",
+      "updatedUtc": "2026-11-12T22:59:59Z"
+    },
+    {
+      "id": "2606.14425",
+      "title": "SmoQyElPhQMC.jl: An open-source Julia package for efficient and scalable quantum Monte Carlo simulations of electron-phonon coupled models",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2606.14425v3",
+      "submittedUtc": "2026-06-12T13:02:21Z",
+      "updatedUtc": "2026-11-13T15:06:49Z"
+    },
+    {
+      "id": "2606.25408",
+      "title": "Intrinsic Defect Energetics and Fluorine Doping Effects in Li2CO3 and Li2O2: A First-Principles Study",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2606.25408v2",
+      "submittedUtc": "2026-06-24T05:11:16Z",
+      "updatedUtc": "2026-11-13T02:53:51Z"
+    },
+    {
+      "id": "2607.28491",
+      "title": "Drumhead Surface States of Rhombohedral Graphite with Near Ideal Quantum Geometry Condition",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2607.28491v3",
+      "submittedUtc": "2026-07-30T16:40:22Z",
+      "updatedUtc": "2026-11-13T05:08:40Z"
+    },
+    {
+      "id": "2608.14433",
+      "title": "Surface Roughness and Filler Restructuring in Magneto-Active Elastomers: Magnetically Hard versus Magnetically Soft Particles",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2608.14433v2",
+      "submittedUtc": "2026-08-14T16:16:23Z",
+      "updatedUtc": "2026-11-13T16:11:01Z"
+    },
+    {
+      "id": "2608.15557",
+      "title": "Intrinsic Wannier Functions for Hamiltonian downfolding",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2608.15557v2",
+      "submittedUtc": "2026-08-16T06:08:46Z",
+      "updatedUtc": "2026-11-13T17:53:55Z"
+    },
+    {
+      "id": "2609.09383",
+      "title": "Emergent Electronic Bond-Order Wave in a Quasi-One-Dimensional Chain",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2609.09383v2",
+      "submittedUtc": "2026-09-08T19:37:47Z",
+      "updatedUtc": "2026-11-12T23:15:28Z"
+    },
+    {
+      "id": "2609.10731",
+      "title": "Consensus in Effective Model Inference for Disordered Ising Systems",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2609.10731v2",
+      "submittedUtc": "2026-09-09T18:25:42Z",
+      "updatedUtc": "2026-11-13T11:33:21Z"
+    },
+    {
+      "id": "2609.14613",
+      "title": "Altermagnetism across the BCS-BEC crossover",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2609.14613v2",
+      "submittedUtc": "2026-09-13T15:44:36Z",
+      "updatedUtc": "2026-11-13T12:35:27Z"
+    },
+    {
+      "id": "2609.31872",
+      "title": "Connecting finite-size scaling and renormalization-group flows in Anderson localization on random graphs",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2609.31872v2",
+      "submittedUtc": "2026-09-25T18:11:08Z",
+      "updatedUtc": "2026-11-13T11:32:29Z"
+    },
+    {
+      "id": "2609.37512",
+      "title": "Exact anomalous current fluctuations in the strong-anisotropy limit of the XXZ chain",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2609.37512v2",
+      "submittedUtc": "2026-09-29T13:07:47Z",
+      "updatedUtc": "2026-11-13T15:51:20Z"
+    },
+    {
+      "id": "2610.00739",
+      "title": "How Superradiance Survives Molecular Noise inside Virus Capsids",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2610.00739v2",
+      "submittedUtc": "2026-09-30T21:31:43Z",
+      "updatedUtc": "2026-11-13T14:24:37Z"
+    },
+    {
+      "id": "2610.07179",
+      "title": "Adjoint-State Identifiability of Piezo-Tunable Valley Splitting in 2D Magnetic Heterostructures",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2610.07179v2",
+      "submittedUtc": "2026-10-05T18:02:40Z",
+      "updatedUtc": "2026-11-13T16:16:18Z"
+    },
+    {
+      "id": "2610.18185",
+      "title": "Quantitative Impact of Occupation Smearing Methods on Conventional Superconductivity: from Electronic Structure through Lattice Dynamics to Electron-Phonon Coupling",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2610.18185v2",
+      "submittedUtc": "2026-10-13T11:25:00Z",
+      "updatedUtc": "2026-11-13T13:23:21Z"
+    },
+    {
+      "id": "2610.32553",
+      "title": "Modification of optical properties in ultrathin ALD-grown NbN layers using oxygen plasma treatment",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2610.32553v2",
+      "submittedUtc": "2026-10-23T12:35:08Z",
+      "updatedUtc": "2026-11-13T14:57:11Z"
+    },
+    {
+      "id": "2610.36424",
+      "title": "Rotational Perturbation Theory for Magnetic Interactions",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2610.36424v2",
+      "submittedUtc": "2026-10-27T00:16:15Z",
+      "updatedUtc": "2026-11-12T19:59:11Z"
+    },
+    {
+      "id": "2611.01293",
+      "title": "From First Bond to Stable Adhesion: Multivalent Bond Stabilization in Receptor-Mediated Endocytosis",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.01293v2",
+      "submittedUtc": "2026-10-31T21:48:58Z",
+      "updatedUtc": "2026-11-12T19:29:08Z"
+    },
+    {
+      "id": "2611.08761",
+      "title": "Bichromatic light-induced electronic torques on the Néel vector in Rashba magnetic multipoles from $p$-wave magnets to $i$-wave altermagnets",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.08761v2",
+      "submittedUtc": "2026-11-05T22:16:36Z",
+      "updatedUtc": "2026-11-12T22:44:23Z"
+    },
+    {
+      "id": "2611.09950",
+      "title": "Manufacturing Complex Structures Through Interfacial Self-Organization",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.09950v2",
+      "submittedUtc": "2026-10-21T19:01:48Z",
+      "updatedUtc": "2026-11-12T19:06:45Z"
+    },
+    {
+      "id": "2611.10946",
+      "title": "Imaging spin entanglement with a scanning tunneling microscope",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.10946v3",
+      "submittedUtc": "2026-11-07T20:23:04Z",
+      "updatedUtc": "2026-11-13T18:07:34Z"
+    },
+    {
+      "id": "2611.13736",
+      "title": "An infrared divacancy color center in bulk hexagonal diamond for quantum communication",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.13736v2",
+      "submittedUtc": "2026-11-10T08:37:28Z",
+      "updatedUtc": "2026-11-13T09:55:43Z"
+    },
+    {
+      "id": "2611.13783",
+      "title": "Critical geometry of triconnected clusters in percolation",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.13783v2",
+      "submittedUtc": "2026-11-10T09:20:09Z",
+      "updatedUtc": "2026-11-13T12:53:57Z"
+    },
+    {
+      "id": "2611.14072",
+      "title": "Local electronic structure of the Co2+ ions in the disordered perovskite phase of Ba3CoNb2O9: a temperature-dependent X-ray absorption and magnetic circular dichroism study",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.14072v2",
+      "submittedUtc": "2026-11-10T13:36:24Z",
+      "updatedUtc": "2026-11-13T09:39:00Z"
+    },
+    {
+      "id": "2611.14968",
+      "title": "Nitride crystalline barrier epitaxial SIS Josephson junctions by MBE",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.14968v2",
+      "submittedUtc": "2026-11-11T03:28:40Z",
+      "updatedUtc": "2026-11-13T02:41:47Z"
+    },
+    {
+      "id": "2611.17150",
+      "title": "Reentrant Nematicity from Landau Quantization near a Pomeranchuk Instability",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17150v2",
+      "submittedUtc": "2026-11-12T17:34:14Z",
+      "updatedUtc": "2026-11-13T10:31:22Z"
+    },
+    {
+      "id": "2611.17166",
+      "title": "The de Haas--van Alphen effect in a two-dimensional nematic Fermi fluid",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.17166v2",
+      "submittedUtc": "2026-11-12T17:42:40Z",
+      "updatedUtc": "2026-11-13T10:27:12Z"
+    },
+    {
+      "id": "1509.01282",
+      "title": "Catenaries in viscous fluid",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "1509.01282v3",
+      "submittedUtc": "2015-09-03T21:22:40Z",
+      "updatedUtc": "2026-11-13T16:07:30Z"
+    },
+    {
+      "id": "2507.22795",
+      "title": "Genuine multipartite entanglement as a probe of many-body localization in disordered spin chains with Dzyaloshinskii-Moriya interactions",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2507.22795v2",
+      "submittedUtc": "2025-07-30T15:57:37Z",
+      "updatedUtc": "2026-11-13T17:58:04Z"
+    },
+    {
+      "id": "2511.01442",
+      "title": "A fast and rigorous numerical tool to measure length-scale artifacts in molecular simulations",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2511.01442v2",
+      "submittedUtc": "2025-11-03T10:51:48Z",
+      "updatedUtc": "2026-11-13T16:41:47Z"
+    },
+    {
+      "id": "2511.15876",
+      "title": "Universal TT- and TQ-relations via centrally extended q-Onsager algebra",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2511.15876v3",
+      "submittedUtc": "2025-11-19T21:06:37Z",
+      "updatedUtc": "2026-11-13T10:04:49Z"
+    },
+    {
+      "id": "2603.10119",
+      "title": "Digital dissipative state preparation for frustration-free gapless quantum systems",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2603.10119v2",
+      "submittedUtc": "2026-03-10T18:00:06Z",
+      "updatedUtc": "2026-11-13T08:35:28Z"
+    },
+    {
+      "id": "2603.12236",
+      "title": "Thermalization Across Scales on a Digital Quantum Processor",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2603.12236v3",
+      "submittedUtc": "2026-03-12T17:54:17Z",
+      "updatedUtc": "2026-11-13T14:47:21Z"
+    },
+    {
+      "id": "2603.16840",
+      "title": "What DINO saw: ALiBi positional encoding reduces positional bias in Vision Transformers",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2603.16840v3",
+      "submittedUtc": "2026-03-17T17:46:41Z",
+      "updatedUtc": "2026-11-12T21:41:29Z"
+    },
+    {
+      "id": "2603.17656",
+      "title": "Implementation of non-local arbitrary two-qubit controlled gates via geometric quantum computation with Rydberg anti-blockade",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2603.17656v3",
+      "submittedUtc": "2026-03-18T12:20:31Z",
+      "updatedUtc": "2026-11-13T07:13:09Z"
+    },
+    {
+      "id": "2603.22746",
+      "title": "Boundary-sensitive non-Hermiticity of the Floquet Hamiltonian: Spectral transition and scale-free localization",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2603.22746v2",
+      "submittedUtc": "2026-03-24T03:18:11Z",
+      "updatedUtc": "2026-11-13T04:45:34Z"
+    },
+    {
+      "id": "2603.25952",
+      "title": "Scalable topological quantum computing based on Sine-Cosine chain models",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2603.25952v2",
+      "submittedUtc": "2026-03-26T22:46:37Z",
+      "updatedUtc": "2026-11-13T15:39:33Z"
+    },
+    {
+      "id": "2604.22500",
+      "title": "Quantum limits on squeezing",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2604.22500v2",
+      "submittedUtc": "2026-04-24T12:28:04Z",
+      "updatedUtc": "2026-11-13T15:01:06Z"
+    },
+    {
+      "id": "2605.27448",
+      "title": "Efficient ensemble randomization by tuning chaos in a nonlinear spin-1 system",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2605.27448v2",
+      "submittedUtc": "2026-05-24T08:45:31Z",
+      "updatedUtc": "2026-11-13T09:19:39Z"
+    },
+    {
+      "id": "2607.01035",
+      "title": "Susceptibility-kinetic uncertainty relations for quantum systems",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2607.01035v2",
+      "submittedUtc": "2026-07-01T15:04:17Z",
+      "updatedUtc": "2026-11-13T13:21:56Z"
+    },
+    {
+      "id": "2608.13644",
+      "title": "Heuristic Lookahead Distillation Protocol Search",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2608.13644v2",
+      "submittedUtc": "2026-08-13T18:00:02Z",
+      "updatedUtc": "2026-11-12T22:30:43Z"
+    },
+    {
+      "id": "2608.20714",
+      "title": "Multiparameter Quantum Affine Spaces and the Scalene Yang--Baxter Equation",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2608.20714v2",
+      "submittedUtc": "2026-08-21T03:41:33Z",
+      "updatedUtc": "2026-11-13T00:31:11Z"
+    },
+    {
+      "id": "2609.14305",
+      "title": "Pseudo entropy from entanglement entropy",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2609.14305v2",
+      "submittedUtc": "2026-09-13T05:58:39Z",
+      "updatedUtc": "2026-11-12T21:14:48Z"
+    },
+    {
+      "id": "2610.31507",
+      "title": "Macroscopic Nuclear Resonance Energy Transfer Mediated by Coherent Magnons",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2610.31507v2",
+      "submittedUtc": "2026-10-22T16:23:29Z",
+      "updatedUtc": "2026-11-13T16:52:57Z"
+    },
+    {
+      "id": "2611.12258",
+      "title": "On transition probabilities for the ASEP on the half-line",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.12258v2",
+      "submittedUtc": "2026-11-09T11:48:35Z",
+      "updatedUtc": "2026-11-13T01:37:09Z"
+    },
+    {
+      "id": "2611.14576",
+      "title": "The bias interval of the elephant random walk",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.14576v2",
+      "submittedUtc": "2026-11-10T02:17:30Z",
+      "updatedUtc": "2026-11-13T08:31:16Z"
+    },
+    {
+      "id": "2611.15007",
+      "title": "A unified finite-site framework for scaffold-client biocondensation",
+      "section": "Showing new listings for Monday, 16 November 2026",
+      "decision": "previous-batch",
+      "reason": "11 月 16 日官方批次；本期仅核为旧批次，筛选与证据见 16 日审计。",
+      "apiVersion": "2611.15007v2",
+      "submittedUtc": "2026-11-11T04:06:41Z",
+      "updatedUtc": "2026-11-13T14:24:06Z"
+    }
+  ],
+  "readingAudit": {
+    "candidateAccessibleFullTexts": 2,
+    "selectedAccessibleFullTexts": 2,
+    "fullReads": 1,
+    "publisherFullReads": 1,
+    "earlyManuscriptReads": 1,
+    "siOnly": 0,
+    "abstractOnly": 0,
+    "institutionalSuccess": false,
+    "pending": [
+      {
+        "title": "Bandedge-State-Limited Single-Photon Emission from Volumetric Quantum Design of 2D Colloidal Quantum Wells",
+        "reason": "出版者正文/SI 返回验证页；开放作者稿已读，版本差异待正式正文可访问时复核。"
+      }
+    ],
+    "summaryScope": "入选与待比较版本分开计；初筛后排除的偏题稿不计候选全文。"
+  },
+  "versionChecks": [
+    {
+      "source": "Nature Communications 在线页面",
+      "url": "https://www.nature.com/articles/s41467-026-79153-w",
+      "reading": "Article in Press 及 SI"
+    },
+    {
+      "source": "ACS/Crossref 正式日期",
+      "url": "https://api.crossref.org/works/10.1021/jacs.6c17007",
+      "reading": "出版社正文/SI 验证，作者公开稿 v1"
+    },
+    {
+      "source": "JACS 作者版本",
+      "url": "https://arxiv.org/abs/2606.13365v1",
+      "reading": "作者、题名、论文主题与摘要一致，历史站内无重复"
+    }
+  ],
+  "limits": [
+    "先查各出版社 Online First、Early View、Accepted 与 Crossref 在线日期，再查 arXiv。Wiley、ACS 和 AAAS 的部分页面返回访问验证；各轨异常与命中见审计。",
+    "arXiv 官网及分类页多次核对仍标 11 月 16 日（80 新投、28 交叉、56 替换），该批 164 条已筛选并和已发布的逐条 API 核验记录核对。11 月 17 日批次未确认，日期查询空结果不当作零新增。",
+    "JACS 以 DOI 收录正式上线，arXiv:2606.13365v1 仅作合法正文来源。未取得正式版正文与补充核对修改，无法将作者稿细节当期刊终版。历史按 DOI、arXiv ID、题名去重。"
+  ]
+}
