@@ -1,0 +1,4921 @@
+{
+  "date": "2026-11-18",
+  "window": "北京时间 11 月 18 日 00:00–15:23。期刊按出版社正式在线日期，arXiv 按官方公告日。",
+  "coverageComplete": false,
+  "counts": {
+    "total": 15,
+    "formal": 2,
+    "arxiv": 13,
+    "arxivDailyConfirmed": true,
+    "full": 14,
+    "abstract": 1,
+    "categories": 4,
+    "ideas": 2
+  },
+  "journalAudit": [
+    {
+      "source": "prl",
+      "url": "https://api.crossref.org/journals/1079-7114/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "接口未返回完整记录，命中数未知。"
+    },
+    {
+      "source": "prb",
+      "url": "https://api.crossref.org/journals/2469-9969/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "接口未返回完整记录，命中数未知。"
+    },
+    {
+      "source": "prmaterials",
+      "url": "https://api.crossref.org/journals/2475-9953/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "接口未返回完整记录，命中数未知。"
+    },
+    {
+      "source": "prx",
+      "url": "https://api.crossref.org/journals/2160-3308/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "接口在线日期记录暂空，不能推断该刊全天零发表。"
+    },
+    {
+      "source": "prresearch",
+      "url": "https://api.crossref.org/journals/2643-1564/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "接口在线日期记录暂空，不能推断该刊全天零发表。"
+    },
+    {
+      "source": "prapplied",
+      "url": "https://api.crossref.org/journals/2331-7019/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "接口在线日期记录暂空，不能推断该刊全天零发表。"
+    },
+    {
+      "source": "pra",
+      "url": "https://api.crossref.org/journals/2469-9934/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "接口未返回完整记录，命中数未知。"
+    },
+    {
+      "source": "pre",
+      "url": "https://api.crossref.org/journals/2470-0053/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "接口在线日期记录暂空，不能推断该刊全天零发表。"
+    },
+    {
+      "source": "prc",
+      "url": "https://api.crossref.org/journals/2469-9993/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "接口在线日期记录暂空，不能推断该刊全天零发表。"
+    },
+    {
+      "source": "prd",
+      "url": "https://api.crossref.org/journals/2470-0029/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "接口未返回完整记录，命中数未知。"
+    },
+    {
+      "source": "rmp",
+      "url": "https://api.crossref.org/journals/1539-0756/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "接口未返回完整记录，命中数未知。"
+    },
+    {
+      "source": "prxquantum",
+      "url": "https://api.crossref.org/journals/2691-3399/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "接口在线日期记录暂空，不能推断该刊全天零发表。"
+    },
+    {
+      "source": "prxenergy",
+      "url": "https://api.crossref.org/journals/2768-5608/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "接口在线日期记录暂空，不能推断该刊全天零发表。"
+    },
+    {
+      "source": "prfluids",
+      "url": "https://api.crossref.org/journals/2469-990X/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "接口在线日期记录暂空，不能推断该刊全天零发表。"
+    },
+    {
+      "source": "prab",
+      "url": "https://api.crossref.org/journals/2469-9885/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "404",
+          ""
+        ],
+        [
+          "404",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "接口未返回完整记录，命中数未知。"
+    },
+    {
+      "source": "Nature",
+      "url": "https://api.crossref.org/journals/1476-4687/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "接口未返回完整记录，命中数未知。"
+    },
+    {
+      "source": "Nature Physics",
+      "url": "https://api.crossref.org/journals/1745-2481/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "接口未返回完整记录，命中数未知。"
+    },
+    {
+      "source": "Nature Communications",
+      "url": "https://api.crossref.org/journals/2041-1723/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "接口在线日期记录暂空，不能推断该刊全天零发表。"
+    },
+    {
+      "source": "npj Quantum Materials",
+      "url": "https://api.crossref.org/journals/2397-4648/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "接口未返回完整记录，命中数未知。"
+    },
+    {
+      "source": "npj 2D Materials and Applications",
+      "url": "https://api.crossref.org/journals/2397-7132/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "接口在线日期记录暂空，不能推断该刊全天零发表。"
+    },
+    {
+      "source": "Communications Materials",
+      "url": "https://api.crossref.org/journals/2662-4443/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "接口在线日期记录暂空，不能推断该刊全天零发表。"
+    },
+    {
+      "source": "Communications Physics",
+      "url": "https://api.crossref.org/journals/2399-3650/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "接口在线日期记录暂空，不能推断该刊全天零发表。"
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://api.crossref.org/journals/1476-4660/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "接口未返回完整记录，命中数未知。"
+    },
+    {
+      "source": "Science",
+      "url": "https://api.crossref.org/journals/1095-9203/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "接口未返回完整记录，命中数未知。"
+    },
+    {
+      "source": "Science Advances",
+      "url": "https://api.crossref.org/journals/2375-2548/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "接口在线日期记录暂空，不能推断该刊全天零发表。"
+    },
+    {
+      "source": "Advanced Materials",
+      "url": "https://api.crossref.org/journals/1521-4095/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "接口在线日期记录暂空，不能推断该刊全天零发表。"
+    },
+    {
+      "source": "Advanced Functional Materials",
+      "url": "https://api.crossref.org/journals/1616-3028/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "接口在线日期记录暂空，不能推断该刊全天零发表。"
+    },
+    {
+      "source": "Nano Letters",
+      "url": "https://api.crossref.org/journals/1530-6992/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 7,
+      "rows": [
+        {
+          "doi": "10.1021/acs.nanolett.6c04443",
+          "title": "Spatial Phonon\nCoherence Limits Wave-Like Heat Transport\nin Nanostructures",
+          "date": "2026-11-18",
+          "decision": "exclude",
+          "reason": "纳米结构声子热输运，暂未核实与本期重点样品制备或量子相变直接关联。"
+        },
+        {
+          "doi": "10.1021/acs.nanolett.6c04819",
+          "title": "Floquet Quantum\nAnomalous Hall States with Tunable\nChern Numbers and Thermal Signatures in Altermagnets",
+          "date": "2026-11-18",
+          "decision": "exclude",
+          "reason": "Floquet 交替磁量子反常霍尔和陈数调节的理论计算，本篇缺材料制备及物性实证。"
+        },
+        {
+          "doi": "10.1021/acs.nanolett.6c04323",
+          "title": "Capacitance-Engineered\nThreshold Switching Transistors\nwith 4 mV/dec Subthreshold Swing",
+          "date": "2026-11-18",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "doi": "10.1021/acs.nanolett.6c04248",
+          "title": "Direct Measurement of the Quantum Capacitance in Oxide\nSemiconductors Using an Electric-Field-Penetration Technique",
+          "date": "2026-11-18",
+          "decision": "include",
+          "reason": "本期正式上线。作者摘要含实测厚度、成分对照的定性趋势；正文/SI 403，作者机构文件 404。"
+        },
+        {
+          "doi": "10.1021/acs.nanolett.6c05407",
+          "title": "Correction\nto “Phase-Structure Modulated Self-Supporting\nIndium–Bismuth Alloy Films as Anodes for Advanced Magnesium\nIon Batteries”",
+          "date": "2026-11-18",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "doi": "10.1021/acs.nanolett.6c04285",
+          "title": "Light Switchable\nPlasmon–Exciton Coupling at\nthe Nanoscale via Photoresponsive Azobenzene Ligands",
+          "date": "2026-11-18",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "doi": "10.1021/acs.nanolett.6c04589",
+          "title": "Optically Induced\nThermal Runaway in Phase-Change\nVO2 Nanostructures",
+          "date": "2026-11-18",
+          "decision": "exclude",
+          "reason": "VO₂ 光诱导热失稳，作者稿 arXiv:2608.26401 给迭代多物理模型，没有本文新增实测材料证据。"
+        }
+      ],
+      "hits": 7,
+      "included": 1
+    },
+    {
+      "source": "ACS Nano",
+      "url": "https://api.crossref.org/journals/1936-086X/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 1,
+      "rows": [
+        {
+          "doi": "10.1021/acsnano.6c14285",
+          "title": "Inhalable Redispersible\nGallium-Phenolic Complex Reprograms\nLung Microbiota and ROS-NETs Crosstalk to Prevent Radiation-Induced\nLung Injury",
+          "date": "2026-11-18",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        }
+      ],
+      "hits": 1,
+      "included": 0
+    },
+    {
+      "source": "JACS",
+      "url": "https://api.crossref.org/journals/1520-5126/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 7,
+      "rows": [
+        {
+          "doi": "10.1021/jacs.6c14850",
+          "title": "Revealing Bulk-Phase\nReactivity of Fe-Based Catalyst\nin the Reverse Water–Gas Shift Reaction",
+          "date": "2026-11-18",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "doi": "10.1021/jacs.6c14381",
+          "title": "An Autonomous Off-Grid\nMOF Water Harvester for Extreme\nArabian Desert Conditions",
+          "date": "2026-11-18",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "doi": "10.1021/jacs.6c20657",
+          "title": "A Tailor-Made Guanidine\nIonizable Lipid as a Bifunctional\nmRNA Carrier and Nitric Oxide Production Inhibitor",
+          "date": "2026-11-18",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "doi": "10.1021/jacs.6c18265",
+          "title": "Asymmetric NIR-II Voltage-Sensitive\nDyes Enable Through-Skull\nSingle-Cell Voltage Recordings of Neurons",
+          "date": "2026-11-18",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "doi": "10.1021/jacs.6c17832",
+          "title": "Stereodivergent γ-Propargylation\nof α,β-Unsaturated\nAldehydes",
+          "date": "2026-11-18",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "doi": "10.1021/jacs.6c17132",
+          "title": "Photochemical Isomerization\nof Dilithiobutadienes\nto Dilithium Salts of Cyclobutadiene Dianions",
+          "date": "2026-11-18",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "doi": "10.1021/jacs.6c17476",
+          "title": "Mechanisms\nof Ammonia Synthesis over Ru Low- and High-Index\nSurfaces Based on Density Functional Theory Calculations",
+          "date": "2026-11-18",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        }
+      ],
+      "hits": 7,
+      "included": 0
+    },
+    {
+      "source": "Chemistry of Materials",
+      "url": "https://api.crossref.org/journals/1520-5002/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "接口在线日期记录暂空，不能推断该刊全天零发表。"
+    },
+    {
+      "source": "Crystal Growth & Design",
+      "url": "https://api.crossref.org/journals/1528-7505/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "接口在线日期记录暂空，不能推断该刊全天零发表。"
+    },
+    {
+      "source": "Journal of Crystal Growth",
+      "url": "https://api.crossref.org/journals/0022-0248/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "接口在线日期记录暂空，不能推断该刊全天零发表。"
+    },
+    {
+      "source": "APL Materials",
+      "url": "https://api.crossref.org/journals/2166-532X/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "接口在线日期记录暂空，不能推断该刊全天零发表。"
+    },
+    {
+      "source": "2D Materials",
+      "url": "https://api.crossref.org/journals/2053-1583/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "接口在线日期记录暂空，不能推断该刊全天零发表。"
+    },
+    {
+      "source": "Acta Materialia",
+      "url": "https://api.crossref.org/journals/1359-6454/works?filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "接口在线日期记录暂空，不能推断该刊全天零发表。"
+    }
+  ],
+  "publisherSnapshots": [
+    {
+      "key": "aps-prl",
+      "url": "https://journals.aps.org/prl/recent",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "latestSnapshotDates": [
+        "Published 17 November, 2026",
+        "Published 16 November, 2026"
+      ],
+      "hits": 0,
+      "note": "已访问的快照中未核见当天条目；日期和漏收边界见日志。",
+      "included": 0
+    },
+    {
+      "key": "aps-prb",
+      "url": "https://journals.aps.org/prb/recent",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "latestSnapshotDates": [
+        "Published 17 November, 2026",
+        "Published 16 November, 2026"
+      ],
+      "hits": 0,
+      "note": "已访问的快照中未核见当天条目；日期和漏收边界见日志。",
+      "included": 0
+    },
+    {
+      "key": "aps-prmaterials",
+      "url": "https://journals.aps.org/prmaterials/recent",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "latestSnapshotDates": [
+        "Published 17 November, 2026",
+        "Published 16 November, 2026",
+        "Published 13 November, 2026",
+        "Published 12 November, 2026"
+      ],
+      "hits": 0,
+      "note": "已访问的快照中未核见当天条目；日期和漏收边界见日志。",
+      "included": 0
+    },
+    {
+      "key": "aps-prx",
+      "url": "https://journals.aps.org/prx/recent",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "latestSnapshotDates": [
+        "Published 17 November, 2026",
+        "Published 16 November, 2026",
+        "Published 13 November, 2026",
+        "Published 12 November, 2026"
+      ],
+      "hits": 0,
+      "note": "已访问的快照中未核见当天条目；日期和漏收边界见日志。",
+      "included": 0
+    },
+    {
+      "key": "nature",
+      "url": "https://www.nature.com/nature/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "latestSnapshotDates": [
+        "2026-11-16",
+        "2026-11-11"
+      ],
+      "hits": 0,
+      "note": "已访问的快照中未核见当天条目；日期和漏收边界见日志。",
+      "included": 0
+    },
+    {
+      "key": "nphys",
+      "url": "https://www.nature.com/nphys/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "latestSnapshotDates": [
+        "2026-11-16",
+        "2026-11-12",
+        "2026-11-09",
+        "2026-11-06"
+      ],
+      "hits": 0,
+      "note": "已访问的快照中未核见当天条目；日期和漏收边界见日志。",
+      "included": 0
+    },
+    {
+      "key": "ncomm",
+      "url": "https://www.nature.com/ncomms/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "latestSnapshotDates": [
+        "2026-11-17"
+      ],
+      "hits": 0,
+      "note": "已访问的快照中未核见当天条目；日期和漏收边界见日志。",
+      "included": 0
+    },
+    {
+      "key": "npj",
+      "url": "https://www.nature.com/npjquantmats/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "latestSnapshotDates": [
+        "2026-11-14",
+        "2026-11-13",
+        "2026-11-12",
+        "2026-10-28"
+      ],
+      "hits": 0,
+      "note": "已访问的快照中未核见当天条目；日期和漏收边界见日志。",
+      "included": 0
+    },
+    {
+      "key": "comm-mat",
+      "url": "https://www.nature.com/commsmat/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "latestSnapshotDates": [
+        "2026-11-16",
+        "2026-11-14",
+        "2026-11-12",
+        "2026-11-11"
+      ],
+      "hits": 0,
+      "note": "已访问的快照中未核见当天条目；日期和漏收边界见日志。",
+      "included": 0
+    },
+    {
+      "key": "nmat",
+      "url": "https://www.nature.com/nmat/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "latestSnapshotDates": [
+        "2026-11-16",
+        "2026-11-12",
+        "2026-11-06",
+        "2026-11-05"
+      ],
+      "hits": 0,
+      "note": "已访问的快照中未核见当天条目；日期和漏收边界见日志。",
+      "included": 0
+    },
+    {
+      "key": "science",
+      "url": "https://www.science.org/journal/science/firstrelease",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "rows": [],
+      "hits": null,
+      "included": 0,
+      "note": "访问失败，结合其他同刊/题录来源核验，未验证部分不视为零。"
+    },
+    {
+      "key": "sciadv",
+      "url": "https://www.science.org/toc/sciadv/current",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "rows": [],
+      "hits": null,
+      "included": 0,
+      "note": "访问失败，结合其他同刊/题录来源核验，未验证部分不视为零。"
+    },
+    {
+      "key": "am",
+      "url": "https://advanced.onlinelibrary.wiley.com/toc/15214095/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "rows": [],
+      "hits": null,
+      "included": 0,
+      "note": "访问失败，结合其他同刊/题录来源核验，未验证部分不视为零。"
+    },
+    {
+      "key": "afm",
+      "url": "https://advanced.onlinelibrary.wiley.com/toc/16163028/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "rows": [],
+      "hits": null,
+      "included": 0,
+      "note": "访问失败，结合其他同刊/题录来源核验，未验证部分不视为零。"
+    },
+    {
+      "key": "nanolett",
+      "url": "https://pubs.acs.org/toc/nalefd/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "rows": [],
+      "hits": null,
+      "included": 0,
+      "note": "访问失败，结合其他同刊/题录来源核验，未验证部分不视为零。"
+    },
+    {
+      "key": "acsnano",
+      "url": "https://pubs.acs.org/toc/ancac3/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "rows": [],
+      "hits": null,
+      "included": 0,
+      "note": "访问失败，结合其他同刊/题录来源核验，未验证部分不视为零。"
+    },
+    {
+      "key": "jacs",
+      "url": "https://pubs.acs.org/toc/jacsat/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "rows": [],
+      "hits": null,
+      "included": 0,
+      "note": "访问失败，结合其他同刊/题录来源核验，未验证部分不视为零。"
+    },
+    {
+      "key": "cm",
+      "url": "https://pubs.acs.org/toc/cmatex/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "rows": [],
+      "hits": null,
+      "included": 0,
+      "note": "访问失败，结合其他同刊/题录来源核验，未验证部分不视为零。"
+    },
+    {
+      "key": "cgd",
+      "url": "https://pubs.acs.org/toc/cgdefu/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "rows": [],
+      "hits": null,
+      "included": 0,
+      "note": "访问失败，结合其他同刊/题录来源核验，未验证部分不视为零。"
+    },
+    {
+      "key": "jcg",
+      "url": "https://www.sciencedirect.com/journal/journal-of-crystal-growth/articles-in-press",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "rows": [],
+      "hits": null,
+      "included": 0,
+      "note": "访问失败，结合其他同刊/题录来源核验，未验证部分不视为零。"
+    },
+    {
+      "key": "cross-s",
+      "url": "https://api.crossref.org/works?query.bibliographic=superconductivity&filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18%2Ctype%3Ajournal-article&rows=70",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "hits": 0,
+      "included": 0
+    },
+    {
+      "key": "cross-c",
+      "url": "https://api.crossref.org/works?query.bibliographic=crystal+growth&filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18%2Ctype%3Ajournal-article&rows=70",
+      "attempts": [
+        "429",
+        "200"
+      ],
+      "rows": [
+        {
+          "title": "Liquid-Crystal-Templated Lamellar Reprogramming Enables Switchable Anisotropic Swelling in Semicrystalline Hydrogels",
+          "doi": "10.1021/acsapm.6c03847",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Growth Mindset and Academic Resilience: The Mediating Role of Academic Stress Management",
+          "doi": "10.58421/gehu.v5i6.2168",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Long time behavior of solutions to the nonlinear Schrödinger equation with an exponential growth nonlinearity",
+          "doi": "10.1515/anona-2025-0206",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "The Political Economy Logic of New Quality Productive Forces and China's Economic Growth Transformation and Upgrading",
+          "doi": "10.26599/peq2026.9310301",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Catalyst-Mediated Nucleation Control in Chemical Vapor Transport Growth of Black Phosphorus: A Comprehensive Raman Study",
+          "doi": "10.1021/acsomega.6c04501",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Pengaruh Konten Motivasi dan Kepercayaan Diri Terhadap Growth Mindset Mahasiswa Kedokteran Angkatan 2024",
+          "doi": "10.58344/jii.v5i11.8213",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Early diversification of growth and developmental strategies in Jurassic mammals",
+          "doi": "10.1098/rspb.2026.0676",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Pre and Post Planting Application of Plant Growth Regulators Improves Leaf Attributes and Spike Girth of Tuberose cv. Prajwal",
+          "doi": "10.9734/jabb/2026/v29i114698",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Interpretable decision tree-assisted optimization of PLD growth of EuBa2Cu3O7-δ films",
+          "doi": "10.1038/s41427-026-00686-z",
+          "decision": "include",
+          "reason": "正式在线与公开 Article in Press、Methods、补充 CSV 已核。"
+        },
+        {
+          "title": "Skin toxicity of vascular endothelial growth factor receptor tyrosine kinase inhibitors: a retrospective pharmacovigilance study using FAERS",
+          "doi": "10.3389/fphar.2026.2019073",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Growth performance and yield evaluation of upland rice (Oryza sativa L.) varieties collected from Lahad Datu, Sabah, Malaysia",
+          "doi": "10.51200/jsffs.v2i2.8127",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Field evaluation of Biorespirim-T in young cattle: clinical, growth, and exploratory immune outcomes",
+          "doi": "10.1007/s11259-026-11640-3",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Luteolin mitigates thiamethoxam-induced hepato-intestinal injury and impaired growth in Nile tilapia by modulating oxidative stress, inflammation, and intestinal barrier integrity",
+          "doi": "10.1038/s41598-026-72002-2",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Confined-Domain Growth and Defect Engineering to Enhance Electrostatic Interaction and Electron Transfer for Highly Effective Removal of Cr(VI): Mechanistic Insights",
+          "doi": "10.1021/acs.langmuir.6c05006",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Growth Differentiation Factor 15 as a Body-Brain Stress Signal in Major Depression and Insulin Resistance",
+          "doi": "10.1176/appi.ajp.20251275",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Serum Soluble-Fms-Like Tyrosine Kinase 1-To-Placental Growth Factor Ratio on Elecsys Immunoassay Platform Predicts Preeclampsia With Severe Features in Hospitalized Women With Hypertensive Disorders of Pregnancy",
+          "doi": "10.1097/01.aoa.0001288932.91537.77",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        }
+      ],
+      "hits": 16,
+      "included": 1
+    },
+    {
+      "key": "cross-q",
+      "url": "https://api.crossref.org/works?query.bibliographic=quantum+materials&filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18%2Ctype%3Ajournal-article&rows=70",
+      "attempts": [
+        "200"
+      ],
+      "rows": [
+        {
+          "title": "Depth-reduced quantum simulation of Lindbladian dynamics via adaptive variational quantum trajectory compression",
+          "doi": "10.1088/2058-9565/aebe64",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Energy-efficient hybrid stochastic arithmetic design in quantum-dot cellular automata",
+          "doi": "10.1038/s41598-026-76036-4",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Topological robustness of quantum Hall plateaus in Dunkl-deformed graphene",
+          "doi": "10.1140/epjp/s13360-026-08543-2",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Quantum estimates for classical polynomial optimization",
+          "doi": "10.1088/1751-8121/aebddd",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Floquet Quantum Anomalous Hall States with Tunable Chern Numbers and Thermal Signatures in Altermagnets",
+          "doi": "10.1021/acs.nanolett.6c04819",
+          "decision": "exclude",
+          "reason": "Floquet 交替磁量子反常霍尔和陈数调节的理论计算，本篇缺材料制备及物性实证。"
+        },
+        {
+          "title": "Sustainable biochar production from pine needle waste by retort heating for value-added functional carbon materials",
+          "doi": "10.55713/jmmm.v37i1.2639",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Direct Measurement of the Quantum Capacitance in Oxide Semiconductors Using an Electric-Field-Penetration Technique",
+          "doi": "10.1021/acs.nanolett.6c04248",
+          "decision": "include",
+          "reason": "本期正式上线。作者摘要含实测厚度、成分对照的定性趋势；正文/SI 403，作者机构文件 404。"
+        },
+        {
+          "title": "Recent Progress in Iodate-Dense Nonlinear Optical Crystals",
+          "doi": "10.3724/cjam-20260020",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Liquid-Crystal-Templated Lamellar Reprogramming Enables Switchable Anisotropic Swelling in Semicrystalline Hydrogels",
+          "doi": "10.1021/acsapm.6c03847",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Phosphate Chemistry for Zinc Anode Protection in Aqueous Batteries",
+          "doi": "10.53941/nemd.2027.100001",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Microwave-Assisted Cobalt Oxide Nucleation on a Methyl Imidazole Framework for Efficient Overall Water Splitting Reaction",
+          "doi": "10.1021/acsaem.6c03079",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Humidity-Regulated MOF-Kirigami Passive Flyer",
+          "doi": "10.1021/acsami.6c18304",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Flexible Thermoelectric Fibers Based on Shear-Aligned MWCNT/PEDOT:PSS Networks for Versatile Applications",
+          "doi": "10.1021/acsapm.6c03530",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Sub-Two-Micrometer Color Printing via Photochemical Deposition of Metallic Structures",
+          "doi": "10.1021/acsami.6c16447",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Inflammation-Targeted Multifunctional Nanoparticles Remodel the Spinal Cord Injury Microenvironment to Promote Neurovascular Repair",
+          "doi": "10.1021/acsami.6c18128",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Electrospun PLLA/Silk Fibroin/MXene Nanofiber Scaffolds with Polydopamine-Mediated GL13K Functionalization for Antibacterial, Immunomodulatory, and Osteogenic Bone Repair",
+          "doi": "10.1021/acsapm.6c03953",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Ru&ndash;Co Dual-Site Synergy Enables Chloride-Tolerant Oxygen Evolution in Acidic Seawater",
+          "doi": "10.3724/cjam-20260019",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "2D Materials as SERS Substrates for the Detection of DNA and its Constituents",
+          "doi": "10.1021/acsomega.6c02109",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "An AIE-Active Cross-linker as a Built-in Optical Probe of Mechanical Damage and Recovery in Coordination-Covalent Dual-Cross-linked Hydrogels",
+          "doi": "10.1021/acsapm.6c03474",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Understanding the influence of V2O5 on the physical, optical, mechanical and radiation shielding properties of barium tellurite glasses for photonic and radiation shielding applications​ ​​",
+          "doi": "10.1007/s42247-026-01588-0",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Interpretable decision tree-assisted optimization of PLD growth of EuBa2Cu3O7-δ films",
+          "doi": "10.1038/s41427-026-00686-z",
+          "decision": "include",
+          "reason": "正式在线与公开 Article in Press、Methods、补充 CSV 已核。"
+        },
+        {
+          "title": "Synchrotron X-ray tomography and functional evaluations of lead-free piezoceramic-filled natural rubber composites",
+          "doi": "10.55713/jmmm.v37i1.2650",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Boosting the HER Performance of La–MoOx@NF Electrocatalysts with La-Tailored Nanoporous Architectures",
+          "doi": "10.1021/acsami.6c19491",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Comparative study of frictional behavior of Cr-doped and Al:Ti-doped DLC coatings on AISI 4140 steel",
+          "doi": "10.55713/jmmm.v37i1.2688",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Regulating sensing properties of polyacrylic acid/silk fibroin/oxidized cellulose hydrogels via conductive materials: from material design to human motion monitoring and bioelectric signal detection",
+          "doi": "10.1007/s10570-026-07279-7",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        },
+        {
+          "title": "Multi-scale modelling of composite materials: a hybrid approach integrating asymptotic homogenization and physics-informed neural networks",
+          "doi": "10.1098/rspa.2026.0542",
+          "decision": "exclude",
+          "reason": "公开题录及可核摘要未支持与本期重点的晶体生长或量子物性实证。"
+        }
+      ],
+      "hits": 26,
+      "included": 2
+    },
+    {
+      "key": "cross-m",
+      "url": "https://api.crossref.org/works?query.bibliographic=magnetic+topology&filter=from-online-pub-date%3A2026-11-18%2Cuntil-online-pub-date%3A2026-11-18%2Ctype%3Ajournal-article&rows=70",
+      "attempts": [
+        "429",
+        "429"
+      ],
+      "rows": [],
+      "hits": null,
+      "included": 0,
+      "note": "访问失败，结合其他同刊/题录来源核验，未验证部分不视为零。"
+    },
+    {
+      "key": "acc-prl",
+      "url": "https://journals.aps.org/prl/accepted",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "latestSnapshotDates": [
+        "Accepted 17 November, 2026"
+      ],
+      "hits": 0,
+      "note": "已访问的快照中未核见当天条目；日期和漏收边界见日志。",
+      "included": 0
+    },
+    {
+      "key": "acc-prb",
+      "url": "https://journals.aps.org/prb/accepted",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "latestSnapshotDates": [
+        "Accepted 17 November, 2026"
+      ],
+      "hits": 0,
+      "note": "已访问的快照中未核见当天条目；日期和漏收边界见日志。",
+      "included": 0
+    },
+    {
+      "key": "acc-prmaterials",
+      "url": "https://journals.aps.org/prmaterials/accepted",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "latestSnapshotDates": [
+        "Accepted 17 November, 2026",
+        "Accepted 16 November, 2026",
+        "Accepted 13 November, 2026",
+        "Accepted 12 November, 2026"
+      ],
+      "hits": 0,
+      "note": "已访问的快照中未核见当天条目；日期和漏收边界见日志。",
+      "included": 0
+    },
+    {
+      "key": "aps-pra",
+      "url": "https://journals.aps.org/pra/recent",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "latestSnapshotDates": [
+        "Published 17 November, 2026",
+        "Published 16 November, 2026"
+      ],
+      "hits": 0,
+      "note": "已访问的快照中未核见当天条目；日期和漏收边界见日志。",
+      "included": 0
+    },
+    {
+      "key": "aps-prab",
+      "url": "https://journals.aps.org/prab/recent",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "latestSnapshotDates": [
+        "Published 17 November, 2026",
+        "Published 16 November, 2026",
+        "Published 12 November, 2026",
+        "Published 10 November, 2026"
+      ],
+      "hits": 0,
+      "note": "已访问的快照中未核见当天条目；日期和漏收边界见日志。",
+      "included": 0
+    },
+    {
+      "key": "aps-prapplied",
+      "url": "https://journals.aps.org/prapplied/recent",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "latestSnapshotDates": [
+        "Published 17 November, 2026",
+        "Published 16 November, 2026",
+        "Published 13 November, 2026",
+        "Published 12 November, 2026"
+      ],
+      "hits": 0,
+      "note": "已访问的快照中未核见当天条目；日期和漏收边界见日志。",
+      "included": 0
+    },
+    {
+      "key": "aps-prc",
+      "url": "https://journals.aps.org/prc/recent",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "latestSnapshotDates": [
+        "Published 17 November, 2026",
+        "Published 16 November, 2026",
+        "Published 13 November, 2026",
+        "Published 12 November, 2026"
+      ],
+      "hits": 0,
+      "note": "已访问的快照中未核见当天条目；日期和漏收边界见日志。",
+      "included": 0
+    },
+    {
+      "key": "aps-prd",
+      "url": "https://journals.aps.org/prd/recent",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "latestSnapshotDates": [
+        "Published 17 November, 2026"
+      ],
+      "hits": 0,
+      "note": "已访问的快照中未核见当天条目；日期和漏收边界见日志。",
+      "included": 0
+    },
+    {
+      "key": "aps-pre",
+      "url": "https://journals.aps.org/pre/recent",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "latestSnapshotDates": [
+        "Published 17 November, 2026",
+        "Published 16 November, 2026",
+        "Published 13 November, 2026"
+      ],
+      "hits": 0,
+      "note": "已访问的快照中未核见当天条目；日期和漏收边界见日志。",
+      "included": 0
+    },
+    {
+      "key": "aps-prfluids",
+      "url": "https://journals.aps.org/prfluids/recent",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "latestSnapshotDates": [
+        "Published 17 November, 2026",
+        "Published 16 November, 2026",
+        "Published 13 November, 2026"
+      ],
+      "hits": 0,
+      "note": "已访问的快照中未核见当天条目；日期和漏收边界见日志。",
+      "included": 0
+    },
+    {
+      "key": "aps-prper",
+      "url": "https://journals.aps.org/prper/recent",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "latestSnapshotDates": [
+        "Published 17 November, 2026",
+        "Published  6 November, 2026",
+        "Published  5 November, 2026"
+      ],
+      "hits": 0,
+      "note": "已访问的快照中未核见当天条目；日期和漏收边界见日志。",
+      "included": 0
+    },
+    {
+      "key": "aps-prresearch",
+      "url": "https://journals.aps.org/prresearch/recent",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "latestSnapshotDates": [
+        "Published 17 November, 2026",
+        "Published 16 November, 2026",
+        "Published 13 November, 2026",
+        "Published 12 November, 2026"
+      ],
+      "hits": 0,
+      "note": "已访问的快照中未核见当天条目；日期和漏收边界见日志。",
+      "included": 0
+    },
+    {
+      "key": "aps-prxenergy",
+      "url": "https://journals.aps.org/prxenergy/recent",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "latestSnapshotDates": [
+        "Published 10 November, 2026"
+      ],
+      "hits": 0,
+      "note": "已访问的快照中未核见当天条目；日期和漏收边界见日志。",
+      "included": 0
+    },
+    {
+      "key": "aps-prxquantum",
+      "url": "https://journals.aps.org/prxquantum/recent",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "latestSnapshotDates": [
+        "Published 17 November, 2026",
+        "Published 16 November, 2026",
+        "Published 13 November, 2026",
+        "Published 12 November, 2026"
+      ],
+      "hits": 0,
+      "note": "已访问的快照中未核见当天条目；日期和漏收边界见日志。",
+      "included": 0
+    },
+    {
+      "key": "aps-rmp",
+      "url": "https://journals.aps.org/rmp/recent",
+      "attempts": [
+        "200"
+      ],
+      "rows": [],
+      "hits": 0,
+      "note": "已访问的快照中未核见当天条目；日期和漏收边界见日志。",
+      "included": 0
+    },
+    {
+      "key": "npg-asia-materials",
+      "url": "https://www.nature.com/articles/s41427-026-00686-z",
+      "attempts": [
+        "200"
+      ],
+      "rows": [
+        {
+          "title": "Interpretable decision tree-assisted optimization of PLD growth of EuBa₂Cu₃O₇–δ films",
+          "doi": "10.1038/s41427-026-00686-z",
+          "decision": "include",
+          "reason": "正式在线与公开 Article in Press、Methods、补充 CSV 已核。"
+        }
+      ],
+      "hits": 1,
+      "included": 1
+    }
+  ],
+  "arxivOfficial": [
+    {
+      "source": "cond-mat-new",
+      "url": "https://arxiv.org/list/cond-mat/new?show=2000",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "headings": [
+        "Showing new listings for Wednesday, 18 November 2026",
+        "New submissions (showing 95 of 95 entries)",
+        "Cross submissions (showing 36 of 36 entries)",
+        "Replacement submissions (showing 72 of 72 entries)"
+      ]
+    },
+    {
+      "source": "cond-mat-retry",
+      "url": "https://arxiv.org/list/cond-mat/new",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "headings": [
+        "Showing new listings for Wednesday, 18 November 2026",
+        "New submissions (showing 95 of 95 entries)",
+        "Cross submissions (showing 36 of 36 entries)",
+        "Replacement submissions (showing 72 of 72 entries)"
+      ]
+    },
+    {
+      "source": "cond-mat-fresh",
+      "url": "https://arxiv.org/list/cond-mat/new?skip=0&show=2000",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "headings": [
+        "Showing new listings for Wednesday, 18 November 2026",
+        "New submissions (showing 95 of 95 entries)",
+        "Cross submissions (showing 36 of 36 entries)",
+        "Replacement submissions (showing 72 of 72 entries)"
+      ]
+    },
+    {
+      "source": "cond-mat-recent",
+      "url": "https://arxiv.org/list/cond-mat/recent",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "headings": [
+        "Authors and titles for recent submissions",
+        "Wed, 18 Nov 2026 (showing first 50 of 133 entries )"
+      ]
+    }
+  ],
+  "arxivDateApi": [
+    {
+      "name": "初投日期 UTC 17",
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acond-mat.%2A+AND+submittedDate%3A%5B202611170000+TO+202611172359%5D&max_results=1000",
+      "http": "429",
+      "attempts": [
+        [
+          "000",
+          "curl: (28) Operation timed out after 12011 milliseconds with 0 bytes received"
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "error": "syntax error: line 1, column 0",
+      "returned": 0
+    },
+    {
+      "name": "初投日期 UTC 18",
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acond-mat.%2A+AND+submittedDate%3A%5B202611180000+TO+202611182359%5D&max_results=1000",
+      "http": "429",
+      "attempts": [
+        [
+          "000",
+          "curl: (28) Operation timed out after 12012 milliseconds with 0 bytes received"
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "error": "syntax error: line 1, column 0",
+      "returned": 0
+    }
+  ],
+  "arxivIdApi": {
+    "verified": 41,
+    "attempts": [
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21652,2611.21675,2611.21676,2611.21697,2611.21708,2611.21715,2611.21720,2611.21745",
+        "status": "000",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21773,2611.21848,2611.21869,2611.21876,2611.21900,2611.21903,2611.21915,2611.21931",
+        "status": "000",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22013,2611.22020,2611.22029,2611.22046,2611.22073,2611.22074,2611.22088,2611.22153",
+        "status": "000",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22170,2611.22209,2611.22229,2611.22313,2611.22320,2611.22332,2611.22336,2611.22371",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22400,2611.22419,2611.22436,2611.22442,2611.22444,2611.22460,2611.22462,2611.22488",
+        "status": "000",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22489,2611.22493,2611.22500,2611.22524,2611.22529,2611.22536,2611.22538,2611.22562",
+        "status": "000",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22573,2611.22626,2611.22642,2611.22644,2611.22662,2611.22664,2611.22712,2611.22750",
+        "status": "000",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22758,2611.22765,2611.22776,2611.22779,2611.22781,2611.22784,2611.22839,2611.22840",
+        "status": "000",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22858,2611.22861,2611.22864,2611.22875,2611.22877,2611.22912,2611.22928,2611.22938",
+        "status": "000",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22946,2611.22966,2611.22978,2611.23002,2611.23008,2611.23016,2611.23029,2611.23060",
+        "status": "000",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23065,2611.23092,2611.23107,2611.23121,2611.23131,2611.23139,2611.23160,2611.23167",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23170,2611.23171,2611.23178,2611.23181,2611.23183,2611.23224,2611.23232,2609.24861",
+        "status": "000",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21681,2611.21734,2611.21743,2611.21744,2611.21749,2611.21801,2611.21830,2611.21842",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21855,2611.21934,2611.21963,2611.22014,2611.22050,2611.22070,2611.22140,2611.22199",
+        "status": "000",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22284,2611.22357,2611.22391,2611.22530,2611.22547,2611.22554,2611.22615,2611.22623",
+        "status": "000",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22694,2611.22789,2611.22942,2611.22985,2611.23049,2611.23062,2611.23093,2611.23132",
+        "status": "000",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23169,2611.23207,2611.23227,2503.18694,2504.07780,2506.03250,2508.03162,2510.00284",
+        "status": "000",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2510.23720,2511.16086,2512.15041,2512.21163,2601.07659,2602.08982,2603.11153,2603.16552",
+        "status": "000",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2603.28388,2603.29344,2604.10216,2604.19955,2605.08860,2605.13482,2605.17074,2605.17631",
+        "status": "000",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2605.24334,2605.25594,2606.03298,2606.04748,2606.14635,2606.15951,2607.07948,2607.15346",
+        "status": "000",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2607.28419,2607.29014,2608.07211,2608.15324,2608.27002,2608.27944,2609.04625,2609.07456",
+        "status": "200",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2609.38317,2610.27787,2610.30451,2611.01397,2611.05699,2611.17508,2611.18347,2611.19983",
+        "status": "200",
+        "returned": 8
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.20198,2611.20946,2101.10821,2508.12421,2508.15666,2509.01258,2509.23977,2509.24529",
+        "status": "200",
+        "returned": 8
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2511.23152,2512.00894,2601.06821,2604.01157,2605.00096,2605.10395,2605.20242,2605.29132",
+        "status": "200",
+        "returned": 8
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2606.16259,2606.30883,2607.23641,2608.06395,2608.18633,2609.00359,2610.03893,2610.29362",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2610.34203,2611.06448,2611.14075",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21652",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21675",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21676",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21697",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21708",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21715",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21720",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21745",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21773",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21848",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21869",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21876",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21900",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21903",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21915",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21931",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22013",
+        "status": "200",
+        "returned": 1
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22020",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22029",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22046",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22073",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22074",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22088",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22153",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22170",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22209",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22229",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22313",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22320",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22332",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22336",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22371",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22400",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22419",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22436",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22442",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22444",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22460",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22462",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22488",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22489",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22493",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22500",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22524",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22529",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22536",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22538",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22562",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22573",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22626",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22642",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22644",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22662",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22664",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22712",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22750",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22758",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22765",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22776",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22779",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22781",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22784",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22839",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22840",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22858",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22861",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22864",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22875",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22877",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22912",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22928",
+        "status": "200",
+        "returned": 1
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22938",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22946",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22966",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22978",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23002",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23008",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23016",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23029",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23060",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23065",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23092",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23107",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23121",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23131",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23139",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23160",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23167",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23170",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23171",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23178",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23181",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23183",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23224",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23232",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2609.24861",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21681",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21734",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21743",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21744",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21749",
+        "status": "200",
+        "returned": 1
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21801",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21830",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21842",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21855",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21934",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.21963",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22014",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22050",
+        "status": "200",
+        "returned": 1
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22070",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22140",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22199",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22284",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22357",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22391",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22530",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22547",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22554",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22615",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22623",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22694",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22789",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22942",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.22985",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23049",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23062",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23093",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23132",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23169",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23207",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.23227",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2503.18694",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2504.07780",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2506.03250",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2508.03162",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2510.00284",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2510.23720",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2511.16086",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2512.15041",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2512.21163",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2601.07659",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2602.08982",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2603.11153",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2603.16552",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2603.28388",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2603.29344",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2604.10216",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2604.19955",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2605.08860",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2605.13482",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2605.17074",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2605.17631",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2605.24334",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2605.25594",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2606.03298",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2606.04748",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2606.14635",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2606.15951",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2607.07948",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2607.15346",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2607.28419",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2607.29014",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2608.07211",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2608.15324",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2608.27002",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2608.27944",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2609.04625",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2609.07456",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2606.16259",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2606.30883",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2607.23641",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2608.06395",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2608.18633",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2609.00359",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2610.03893",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2610.29362",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2610.34203",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.06448",
+        "status": "429",
+        "returned": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2611.14075",
+        "status": "429",
+        "returned": 0
+      }
+    ]
+  },
+  "arxivOfficialCounts": {
+    "date": "2026-11-18",
+    "new": 95,
+    "cross": 36,
+    "replacements": 72,
+    "total": 203,
+    "isIssueDate": true
+  },
+  "officialBatchDecisions": [
+    {
+      "id": "2611.21652",
+      "title": "Exact solution of the two-dimensional one-component plasma on the truncated Beltrami pseudosphere",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.21675",
+      "title": "Statistical Properties of the $q$-Deformed Monolayer and Bilayer Graphene",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "题名与摘要未给本期重点材料所需的具体可归因的晶体、薄膜或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2611.21676",
+      "title": "Renormalization-Group Foundation of Critical Modes in Correlation Matrices",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.21697",
+      "title": "The Kitaev model on finite hyperbolic PBC clusters",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.21708",
+      "title": "Probing Phase Fluctuations in Cuprates by Multidimensional Josephson Spectroscopy",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "include",
+      "reason": "有具体材料样品及量子物性或制备证据，已核读文内所列章节。",
+      "api": {
+        "id": "2611.21708",
+        "version": "2611.21708v1",
+        "published": "2026-11-16T17:30:49Z",
+        "updated": "2026-11-16T17:30:49Z",
+        "title": "Probing Phase Fluctuations in Cuprates by Multidimensional Josephson Spectroscopy"
+      }
+    },
+    {
+      "id": "2611.21715",
+      "title": "The SymTFT and Quantum Phases of Matter",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "主要涉及通用器件、传播或操作协议，证据未达到本期的材料物性筛选标准。",
+      "api": null
+    },
+    {
+      "id": "2611.21720",
+      "title": "Constraints on the volume enclosed by Fermi surfaces",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "题名与摘要未给本期重点材料所需的具体可归因的晶体、薄膜或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2611.21745",
+      "title": "Tunable Topological Charge Order in Magnetic Moiré Systems",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "连续模型与神经量子态的数值工作，未测本篇超晶格。",
+      "api": null
+    },
+    {
+      "id": "2611.21773",
+      "title": "Hidden convexity of the Eliashberg condensation energy: existence, uniqueness and continuity of the superconducting state",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.21848",
+      "title": "High-resolution top-down nanopatterning of NbN thin films for superconducting metamaterials",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "include",
+      "reason": "有具体材料样品及量子物性或制备证据，已核读文内所列章节。",
+      "api": {
+        "id": "2611.21848",
+        "version": "2611.21848v1",
+        "published": "2026-11-16T20:09:51Z",
+        "updated": "2026-11-16T20:09:51Z",
+        "title": "High-resolution top-down nanopatterning of NbN thin films for superconducting metamaterials"
+      }
+    },
+    {
+      "id": "2611.21869",
+      "title": "Magnon-Phonon-Polariton Optomechanics in a van der Waals Magnet",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "include",
+      "reason": "有具体材料样品及量子物性或制备证据，已核读文内所列章节。",
+      "api": {
+        "id": "2611.21869",
+        "version": "2611.21869v1",
+        "published": "2026-11-16T20:35:12Z",
+        "updated": "2026-11-16T20:35:12Z",
+        "title": "Magnon-Phonon-Polariton Optomechanics in a van der Waals Magnet"
+      }
+    },
+    {
+      "id": "2611.21876",
+      "title": "Magnetic tuning of odd elastic instabilities in chiral active crystals",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "具体对象属于其他方向，未落在晶体生长和量子材料物性重点。",
+      "api": null
+    },
+    {
+      "id": "2611.21900",
+      "title": "Dynamics and transport in LiF using classical and machine learned interatomic potentials",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.21903",
+      "title": "quantEM: Quantitative Electron Microscopy Analysis from Differentiable Physics to Neural Priors",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.21915",
+      "title": "Ultrafast imprinting of fused ferromagnetic/antiferromagnetic skyrmions",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "全文图 1–4 为原子自旋动力学模拟。超快写入在模型实现，篇内未做样品。",
+      "api": null
+    },
+    {
+      "id": "2611.21931",
+      "title": "Optical characterization of Fermi polarons in monolayer MoSe$_2$ encapsulated in amorphous silicon nitride",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "include",
+      "reason": "有具体材料样品及量子物性或制备证据，已核读文内所列章节。",
+      "api": {
+        "id": "2611.21931",
+        "version": "2611.21931v1",
+        "published": "2026-11-16T21:45:34Z",
+        "updated": "2026-11-16T21:45:34Z",
+        "title": "Optical characterization of Fermi polarons in monolayer MoSe$_2$ encapsulated in amorphous silicon nitride"
+      }
+    },
+    {
+      "id": "2611.22013",
+      "title": "Weight-Space Programming for Materials Science",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": {
+        "id": "2611.22013",
+        "updated": "2026-11-17T00:00:42Z",
+        "published": "2026-11-17T00:00:42Z",
+        "title": "Weight-Space Programming for Materials Science",
+        "version": "2611.22013v1"
+      }
+    },
+    {
+      "id": "2611.22020",
+      "title": "Frame Based Inelasticity for Strength and Fracture in Anisotropic Media",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22029",
+      "title": "Exact Dynamic Scaling of Quantum Jump Statistics in Monitored Many-Body Systems",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "题名与摘要未给本期重点材料所需的具体可归因的晶体、薄膜或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2611.22046",
+      "title": "Coexisting orders and dipolar Luttinger liquids in $\\mathbb{Z}_N$ quantum torus chain",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "主要涉及通用器件、传播或操作协议，证据未达到本期的材料物性筛选标准。",
+      "api": null
+    },
+    {
+      "id": "2611.22073",
+      "title": "Apparent contact angle equation for a dielectric droplet on a conductive hydrophilic surface in an electric field",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22074",
+      "title": "Electrostatic screening and nitrogen-vacancy charge states in boron-doped/nitrogen-doped diamond junctions",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "硼/氮掺杂金刚石的缺陷器件读出；未进本期重点晶体物性队列，保留候补。",
+      "api": null
+    },
+    {
+      "id": "2611.22088",
+      "title": "Second Harmonic Flexoelectricity",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "题名与摘要未给本期重点材料所需的具体可归因的晶体、薄膜或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2611.22153",
+      "title": "Swift Heavy Ion Tracks in Polymorphs of Titanium Dioxide: The Effects of Electron Beam and Crystal Structures",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22170",
+      "title": "Reconfigurable 2D Lateral Heterostructure Platform for Unified Detection, Emission, and Logic",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "功能切换与逻辑平台，初筛未见能解释本期实验物性机制的独立材料对照。",
+      "api": null
+    },
+    {
+      "id": "2611.22209",
+      "title": "Contact-number hyperuniformity at glass close packing in infinite dimensions",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "题名与摘要未给本期重点材料所需的具体可归因的晶体、薄膜或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2611.22229",
+      "title": "Intrinsic second-order nonlinear Hall effect from perturbation theory",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "题名与摘要未给本期重点材料所需的具体可归因的晶体、薄膜或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2611.22313",
+      "title": "Supercell periodicity biases octahedral tilting and energetics in high-entropy perovskite oxides",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "具体对象属于其他方向，未落在晶体生长和量子材料物性重点。",
+      "api": null
+    },
+    {
+      "id": "2611.22320",
+      "title": "Quantum Interband-Coherence-Driven Inverse Faraday Effect in Intrinsic Graphene",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "题名与摘要未给本期重点材料所需的具体可归因的晶体、薄膜或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2611.22332",
+      "title": "Mapping phase competition in GaAs under pressure and temperature",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22336",
+      "title": "Complex mobility edges from competing localization channels in non-Hermitian quasicrystals",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22371",
+      "title": "Accounts on Synthetic Cells",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "具体对象属于其他方向，未落在晶体生长和量子材料物性重点。",
+      "api": null
+    },
+    {
+      "id": "2611.22400",
+      "title": "Assessment of electric-field-induced forces for bulk solids within the projector-augmented wave method",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22419",
+      "title": "Thermal radiation of nanowires and near-field interaction with substrates: exact computation and proximity approximation",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22436",
+      "title": "Confinement Alters Energy Relaxation in Subrecoil Laser Cooling",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22442",
+      "title": "Magnetic History and Field Sweep Rate Effects on Transformation Hysteresis in $\\mathrm{Ni}_{41}\\mathrm{Co}_{9}\\mathrm{Mn}_{31.5}\\mathrm{Ga}_{18.5}$",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "题名与摘要未给本期重点材料所需的具体可归因的晶体、薄膜或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2611.22444",
+      "title": "Efficient Machine Learning Interatomic Potentials",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22460",
+      "title": "Stochastic Dynamics of Domain Walls on a Racetrack: Impact of Inhomogeneity of Magnetic Anisotropy",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22462",
+      "title": "Orbital differentiation in a rare earth ion near half filling",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22488",
+      "title": "Burgers vectors from Voronoi topology",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22489",
+      "title": "Combined magnetic and structural transition state in first-principles calculations",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22493",
+      "title": "From the Full Fermionic Hilbert Space to the BCS Paired Subspace",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22500",
+      "title": "Landscape index and its boundary correspondence in inhomogeneous chiral systems",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22524",
+      "title": "Koopmans spectral functionals for excitons in materials",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22529",
+      "title": "Solvent/Antisolvent-Driven Etching of 2D Layered Halide Perovskite Microcrystals toward Endo-Epitaxial Heterostructures",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "include",
+      "reason": "有具体材料样品及量子物性或制备证据，已核读文内所列章节。",
+      "api": {
+        "id": "2611.22529",
+        "version": "2611.22529v1",
+        "published": "2026-11-17T10:20:20Z",
+        "updated": "2026-11-17T10:20:20Z",
+        "title": "Solvent/Antisolvent-Driven Etching of 2D Layered Halide Perovskite Microcrystals toward Endo-Epitaxial Heterostructures"
+      }
+    },
+    {
+      "id": "2611.22536",
+      "title": "Preformed excitons in the excitonic density-wave state of monolayer 1$T'$-MoTe$_2$",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "include",
+      "reason": "有具体材料样品及量子物性或制备证据，已核读文内所列章节。",
+      "api": {
+        "id": "2611.22536",
+        "version": "2611.22536v1",
+        "published": "2026-11-17T10:27:41Z",
+        "updated": "2026-11-17T10:27:41Z",
+        "title": "Preformed excitons in the excitonic density-wave state of monolayer 1$T'$-MoTe$_2$"
+      }
+    },
+    {
+      "id": "2611.22538",
+      "title": "First-order correction to the self-consistent harmonic approximation free energy: Impact on the negative thermal expansion and phonon dynamics in ScF$_3$",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "题名与摘要未给本期重点材料所需的具体可归因的晶体、薄膜或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2611.22562",
+      "title": "Few Dipolar Bosons in a Ring Trap: Quantum States and Transitions between Them",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22573",
+      "title": "Targeted material doping to enable the formation and coherent propagation of Laser Induced Periodic Surface Structures (LIPSS): the ZnO paradigm",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "主要涉及通用器件、传播或操作协议，证据未达到本期的材料物性筛选标准。",
+      "api": null
+    },
+    {
+      "id": "2611.22626",
+      "title": "Prior-guided adaptive local refinement of foundation interatomic potentials",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22642",
+      "title": "A Variational Description of the Adsorption Phenomenon",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22644",
+      "title": "Computational Modeling of Sublattice Magnetization in CoTb/Co/CoTb Magnetic Multilayer Nanojunctions Between Cobalt Leads",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22662",
+      "title": "Domain walls of a spin-chirality ferroelectric as tunable quantum particles",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "主要涉及通用器件、传播或操作协议，证据未达到本期的材料物性筛选标准。",
+      "api": null
+    },
+    {
+      "id": "2611.22664",
+      "title": "VQkit: A Unified and Extensible Framework for VASP and Quantum ESPRESSO Pre- and Post-Processing",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22712",
+      "title": "Bypassing the Entropy Production Speed Limit of State-to-State Transitions with Adaptive Resetting",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "具体对象属于其他方向，未落在晶体生长和量子材料物性重点。",
+      "api": null
+    },
+    {
+      "id": "2611.22750",
+      "title": "Altermagnetism-induced magneto-optical effects",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "多极磁光的对称性与数值预期；μrad 为计算量，无本篇光谱或长晶。",
+      "api": null
+    },
+    {
+      "id": "2611.22758",
+      "title": "Effects of probe size, shape, and probe-surface interactions in imaging multilayer island growth, coalescence, and formation of a smooth film",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22765",
+      "title": "Universal scaling of brine migration in ice",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "题名与摘要未给本期重点材料所需的具体可归因的晶体、薄膜或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2611.22776",
+      "title": "Interfacial electrostatics: From polar insulators to charged-layer metals",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22779",
+      "title": "Performance limits and benchmarking of ideal 2D topological insulator field-effect transistors",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "理想二维拓扑晶体管的性能极限模型，无本篇制造及物性验证。",
+      "api": null
+    },
+    {
+      "id": "2611.22781",
+      "title": "Canonical spin glass behavior and memory effects in van der Waals magnet (Fe0.55Ni0.45)3GaTe2",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "include",
+      "reason": "有具体材料样品及量子物性或制备证据，已核读文内所列章节。",
+      "api": {
+        "id": "2611.22781",
+        "version": "2611.22781v1",
+        "published": "2026-11-17T13:45:35Z",
+        "updated": "2026-11-17T13:45:35Z",
+        "title": "Canonical spin glass behavior and memory effects in van der Waals magnet (Fe0.55Ni0.45)3GaTe2"
+      }
+    },
+    {
+      "id": "2611.22784",
+      "title": "From a High-T$\\rm_C$ Spin-Gapless Semiconductor to a Spin-Glass: The Role of Disorder in NiMnCrAl",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "include",
+      "reason": "有具体材料样品及量子物性或制备证据，已核读文内所列章节。",
+      "api": {
+        "id": "2611.22784",
+        "version": "2611.22784v1",
+        "published": "2026-11-17T13:47:50Z",
+        "updated": "2026-11-17T13:47:50Z",
+        "title": "From a High-T$\\rm_C$ Spin-Gapless Semiconductor to a Spin-Glass: The Role of Disorder in NiMnCrAl"
+      }
+    },
+    {
+      "id": "2611.22839",
+      "title": "Axion electrodynamics and the advection-diffusion structure of TEM modes in hollow-conductor waveguides",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "主要涉及通用器件、传播或操作协议，证据未达到本期的材料物性筛选标准。",
+      "api": null
+    },
+    {
+      "id": "2611.22840",
+      "title": "Mechanically induced self-propagating reactions within the realm of mechanochemistry: Fundamentals, overview, in situ monitoring and perspectives",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "具体对象属于其他方向，未落在晶体生长和量子材料物性重点。",
+      "api": null
+    },
+    {
+      "id": "2611.22858",
+      "title": "AlCoCuFeNi High-Entropy Alloy Nanoparticle Melting and Solidification: A Classical Molecular Dynamics Simulation Study",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22861",
+      "title": "Engineering antiferromagnetic (LaVO3)m/(PrVO3)n superlattices",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "include",
+      "reason": "有具体材料样品及量子物性或制备证据，已核读文内所列章节。",
+      "api": {
+        "id": "2611.22861",
+        "version": "2611.22861v1",
+        "published": "2026-11-17T14:40:16Z",
+        "updated": "2026-11-17T14:40:16Z",
+        "title": "Engineering antiferromagnetic (LaVO3)m/(PrVO3)n superlattices"
+      }
+    },
+    {
+      "id": "2611.22864",
+      "title": "Structural Response to the Hidden Charge Order in Sr$_3$Fe$_2$O$_7$",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "include",
+      "reason": "有具体材料样品及量子物性或制备证据，已核读文内所列章节。",
+      "api": {
+        "id": "2611.22864",
+        "version": "2611.22864v1",
+        "published": "2026-11-17T14:42:26Z",
+        "updated": "2026-11-17T14:42:26Z",
+        "title": "Structural Response to the Hidden Charge Order in Sr$_3$Fe$_2$O$_7$"
+      }
+    },
+    {
+      "id": "2611.22875",
+      "title": "Engineering third order absorbing exceptional points in multi-drive cavity magnonics for enhanced sensing",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "主要涉及通用器件、传播或操作协议，证据未达到本期的材料物性筛选标准。",
+      "api": null
+    },
+    {
+      "id": "2611.22877",
+      "title": "Temperature Flips the Sign of the Hydrogen Response in Nanogranular Palladium Networks",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "主要涉及通用器件、传播或操作协议，证据未达到本期的材料物性筛选标准。",
+      "api": null
+    },
+    {
+      "id": "2611.22912",
+      "title": "Electrical addressing of compensated magnetic order in artificial spin ice",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "人工图案化磁岛的电寻址，重点是人造磁阵列；本期优先本征体相和界面实证。",
+      "api": null
+    },
+    {
+      "id": "2611.22928",
+      "title": "Non-Invertible Quantum Cellular Automata I: Microscopic Definition of Non-Invertible Symmetries",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "主要涉及通用器件、传播或操作协议，证据未达到本期的材料物性筛选标准。",
+      "api": {
+        "id": "2611.22928",
+        "updated": "2026-11-17T15:27:31Z",
+        "published": "2026-11-17T15:27:31Z",
+        "title": "Non-Invertible Quantum Cellular Automata I: Microscopic Definition of Non-Invertible Symmetries",
+        "version": "2611.22928v1"
+      }
+    },
+    {
+      "id": "2611.22938",
+      "title": "From quasiperiodic three-colour order on a triangular lattice to covalent carbon sheets",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22946",
+      "title": "Pair distribution function oscillations at electrostatically stabilized nanocrystal surfaces reflect nanocrystal lattice periodicity",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22966",
+      "title": "Polymer adsorption on vicinal surfaces",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22978",
+      "title": "Quasiconformal geometry and elastic anisotropy in liquid crystals",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.23002",
+      "title": "Indentation of pre-tensioned cortex-like fibre networks: tension, local stretching and the signature of defect architecture",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.23008",
+      "title": "Dynamical theory of the East model. II. A path-probability formalism",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.23016",
+      "title": "Ab initio Engineering of Topological Superconductivity in Substrate-Supported Magnetic Chains",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "底物支撑磁链的第一性原理工程设计；无制得的链或实测超导证据。",
+      "api": null
+    },
+    {
+      "id": "2611.23029",
+      "title": "Spin and Orbital Angular Momentum Textures at Chiral Molecule-Metal Interfaces",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.23060",
+      "title": "Atomic-scale Imaging of Time Reversal Breaking Supercurrents in $\\mathrm{Bi_2Sr_2CaCu_2O_8}$",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "include",
+      "reason": "有具体材料样品及量子物性或制备证据，已核读文内所列章节。",
+      "api": {
+        "id": "2611.23060",
+        "version": "2611.23060v1",
+        "published": "2026-11-17T16:53:28Z",
+        "updated": "2026-11-17T16:53:28Z",
+        "title": "Atomic-scale Imaging of Time Reversal Breaking Supercurrents in $\\mathrm{Bi_2Sr_2CaCu_2O_8}$"
+      }
+    },
+    {
+      "id": "2611.23065",
+      "title": "Quasi-long-range order in the quantum XY model on Sierpiński gaskets",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.23092",
+      "title": "Memory kernel and closure for systems driven by intermittent forcing with power-law waiting times",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.23107",
+      "title": "Spontaneous axis formation through defect fusion in active nematics",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "主要涉及通用器件、传播或操作协议，证据未达到本期的材料物性筛选标准。",
+      "api": null
+    },
+    {
+      "id": "2611.23121",
+      "title": "Specific heat in the BCS-rashbon BEC crossover regime of an ultracold Fermi gas with a 3D spherical spin-orbit coupling",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.23131",
+      "title": "Charge-transfer excitation drives cooperative phonon-assisted exciton self-trapping in NiPS$_3$",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "include",
+      "reason": "有具体材料样品及量子物性或制备证据，已核读文内所列章节。",
+      "api": {
+        "id": "2611.23131",
+        "version": "2611.23131v1",
+        "published": "2026-11-17T17:49:43Z",
+        "updated": "2026-11-17T17:49:43Z",
+        "title": "Charge-transfer excitation drives cooperative phonon-assisted exciton self-trapping in NiPS$_3$"
+      }
+    },
+    {
+      "id": "2611.23139",
+      "title": "Color Through Time: Distributions, Sparsity and Dominance in Western Painting",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "具体对象属于其他方向，未落在晶体生长和量子材料物性重点。",
+      "api": null
+    },
+    {
+      "id": "2611.23160",
+      "title": "Localized corrosion resistance of ultrafine-grained austenitic steel 321 obtained by Rotary Swaging: The role of annealing conditions",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "具体对象属于其他方向，未落在晶体生长和量子材料物性重点。",
+      "api": null
+    },
+    {
+      "id": "2611.23167",
+      "title": "Dynamics of a Single-Domain Dissipative Magnetic Gyroscope in Electric and Magnetic Fields",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "题名与摘要未给本期重点材料所需的具体可归因的晶体、薄膜或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2611.23170",
+      "title": "Competing Magnetic Orders and Continuously Varying Exponents in $U(1)$ Spin Liquids",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "题名与摘要未给本期重点材料所需的具体可归因的晶体、薄膜或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2611.23171",
+      "title": "Richtmyer-Meshkov instability induced by a Gaussian-kicked rotor-like potential in a three-component Bose-Einstein condensate",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.23178",
+      "title": "Photon condensation driven by scalar spin chirality",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.23181",
+      "title": "Multiple Field-Induced Transitions, Magnetocaloric Response and Anisotropic Magnetotransport in Orthorhombic RAlGe (R = Dy, Ho)",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "include",
+      "reason": "有具体材料样品及量子物性或制备证据，已核读文内所列章节。",
+      "api": {
+        "id": "2611.23181",
+        "version": "2611.23181v1",
+        "published": "2026-11-17T18:27:27Z",
+        "updated": "2026-11-17T18:27:27Z",
+        "title": "Multiple Field-Induced Transitions, Magnetocaloric Response and Anisotropic Magnetotransport in Orthorhombic RAlGe (R = Dy, Ho)"
+      }
+    },
+    {
+      "id": "2611.23183",
+      "title": "Effect of superplastic deformation on the intergranular corrosion resistance of austenitic steel 321 with different types of UFG structure: A case of homogeneous and heterogeneous microstructure obtained by ECAP",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "具体对象属于其他方向，未落在晶体生长和量子材料物性重点。",
+      "api": null
+    },
+    {
+      "id": "2611.23224",
+      "title": "From nonlocal correlations to local symmetry breaking: Asymmetry dynamics of crosscap states",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "题名与摘要未给本期重点材料所需的具体可归因的晶体、薄膜或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2611.23232",
+      "title": "Emergent Attraction and Competing Orders near the Van Hove Singularity in Rhombohedral $n$-layer Graphene",
+      "section": "new",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "菱方多层石墨烯竞争序理论，未见本篇独立测量。",
+      "api": null
+    },
+    {
+      "id": "2609.24861",
+      "title": "Quantum vacuum inversion and multi-kink unbinding in the non-degenerate double sine-Gordon model",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.21681",
+      "title": "Remark on internal relaxation in large number qubit systems",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "主要涉及通用器件、传播或操作协议，证据未达到本期的材料物性筛选标准。",
+      "api": null
+    },
+    {
+      "id": "2611.21734",
+      "title": "Cyclic Boson Stars with Quantum Vortex Molecules",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.21743",
+      "title": "Center anomalies without twists: torsion, exact degeneracies, and condensates",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.21744",
+      "title": "Parametric and Universal Thouless Invariants in Matrix Product States",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "题名与摘要未给本期重点材料所需的具体可归因的晶体、薄膜或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2611.21749",
+      "title": "Robust Passive Quantum Memory in Three Dimensions, Part I: Thermal and Zero-Temperature Perturbative Stability",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "主要涉及通用器件、传播或操作协议，证据未达到本期的材料物性筛选标准。",
+      "api": {
+        "id": "2611.21749",
+        "updated": "2026-11-16T19:00:16Z",
+        "published": "2026-11-16T19:00:16Z",
+        "title": "Robust Passive Quantum Memory in Three Dimensions, Part I: Thermal and Zero-Temperature Perturbative Stability",
+        "version": "2611.21749v1"
+      }
+    },
+    {
+      "id": "2611.21801",
+      "title": "Symmetry-reduced k-point sampling and Wannier analysis with localized Gaussian orbitals",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "具体对象属于其他方向，未落在晶体生长和量子材料物性重点。",
+      "api": null
+    },
+    {
+      "id": "2611.21830",
+      "title": "Infrared fluctuations and collective entanglement modes in harmonic lattices",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "题名与摘要未给本期重点材料所需的具体可归因的晶体、薄膜或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2611.21842",
+      "title": "Simple Models of Thermal Order in $2+1$ Dimensions",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.21855",
+      "title": "Shortest-path percolation and structural robustness of quantum internet networks",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.21934",
+      "title": "Bandwidth-tunable thermal emitter via dynamic resonator coupling and loss",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "主要涉及通用器件、传播或操作协议，证据未达到本期的材料物性筛选标准。",
+      "api": null
+    },
+    {
+      "id": "2611.21963",
+      "title": "Structural balance in complex networks: from measurement to dynamics, emergence and implications",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22014",
+      "title": "Generalized Schrieffer-Wolff transformation",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22050",
+      "title": "DSADiff: Data Structure-Aware Diffusion for Crystal Structure Prediction via Mitigating Complexity- and Imbalance-Induced Biases",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": {
+        "id": "2611.22050",
+        "updated": "2026-11-17T01:18:26Z",
+        "published": "2026-11-17T01:18:26Z",
+        "title": "DSADiff: Data Structure-Aware Diffusion for Crystal Structure Prediction via Mitigating Complexity- and Imbalance-Induced Biases",
+        "version": "2611.22050v1"
+      }
+    },
+    {
+      "id": "2611.22070",
+      "title": "Why do continual physical learners need sleep?",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "主要涉及通用器件、传播或操作协议，证据未达到本期的材料物性筛选标准。",
+      "api": null
+    },
+    {
+      "id": "2611.22140",
+      "title": "Synthetic Crystal Data Generation for Diffusion Pretraining in Material Property Prediction",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22199",
+      "title": "Observation of temporal routing of topological edge states",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "主要涉及通用器件、传播或操作协议，证据未达到本期的材料物性筛选标准。",
+      "api": null
+    },
+    {
+      "id": "2611.22284",
+      "title": "Nonlocal regularization of sharp-crack energetics: a variational bridge from Griffith geometry to emergent constitutive degradation",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22357",
+      "title": "Topological Timing of Bound States by Spacetime Mass Windings",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22391",
+      "title": "Strong eigenstate thermalization in Singer-cycle Clifford circuits",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "主要涉及通用器件、传播或操作协议，证据未达到本期的材料物性筛选标准。",
+      "api": null
+    },
+    {
+      "id": "2611.22530",
+      "title": "Quantum Codes for Distributed Quantum Fault Sensing",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "主要涉及通用器件、传播或操作协议，证据未达到本期的材料物性筛选标准。",
+      "api": null
+    },
+    {
+      "id": "2611.22547",
+      "title": "Predicting Quantum Mpemba Effects from Quantum Speed Limits",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "主要涉及通用器件、传播或操作协议，证据未达到本期的材料物性筛选标准。",
+      "api": null
+    },
+    {
+      "id": "2611.22554",
+      "title": "Molecular memory reduces timing noise in stochastic gene expression",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22615",
+      "title": "Lie-Poisson Formulation of Dissipative Spin Hydrodynamics",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "题名与摘要未给本期重点材料所需的具体可归因的晶体、薄膜或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2611.22623",
+      "title": "What Do LLMs Use to Judge Synthesis Recipes? An Experimental Analysis on 240 Solid-State Syntheses",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "合成处方语言模型评测，样品合成不指向选定量子物性的有条件证据。",
+      "api": null
+    },
+    {
+      "id": "2611.22694",
+      "title": "Thermal and Acoustic Measurements of Hybrid Bonding Stacks",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22789",
+      "title": "Revisiting structured-light propagation in screw-dislocation geometries: Landau dynamics and gradient-induced polarization textures",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.22942",
+      "title": "Sobolev theory for the inverse problem of time-dependent density functional theory on the torus",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "题名与摘要未给本期重点材料所需的具体可归因的晶体、薄膜或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2611.22985",
+      "title": "Strange-Metal Magnetotransport without a Strange-Metal Ground State",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "全反作用全息模型的有限温区奇异金属；无研究材料或实测运输。",
+      "api": null
+    },
+    {
+      "id": "2611.23049",
+      "title": "Reversing the text is not reversing the path: a fixed-text measure without a zero, and an assembly-order comparison that vanishes identically",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.23062",
+      "title": "Unique continuation for the Pauli-Fierz Hamiltonian",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "题名与摘要未给本期重点材料所需的具体可归因的晶体、薄膜或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2611.23093",
+      "title": "What's in a Tree ? Hierarchical $n$-gram models as controlled approximators of language",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.23132",
+      "title": "Non-equilibrium topological order from Floquet anyon proliferation in the toric code",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.23169",
+      "title": "An Effective Theory for Hot Lines",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.23207",
+      "title": "Local interference algorithms for observables in large random circuits",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2611.23227",
+      "title": "Expressivity of two-dimensional Gaussian fermion tensor network states",
+      "section": "cross",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "以理论、数值或方法为主，摘要未读到同一工作的实测材料闭环。",
+      "api": null
+    },
+    {
+      "id": "2503.18694",
+      "title": "Evidence for crystal-field-selected octupolar order in wolframite oxides",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "version-review",
+      "reason": "与八极磁序强相关。为历史 ID 的修订，未确认与已有公开版本相比新增实验。",
+      "api": null
+    },
+    {
+      "id": "2504.07780",
+      "title": "Interference-caged quantum many-body scars: Local ETH-violation witnesses and deformation stability",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2506.03250",
+      "title": "Phonon-mediated intrinsic topological superconductivity in Fermi arcs",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2508.03162",
+      "title": "An open dataset of gas adsorption in deformable metal-organic frameworks for direct air capture",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2510.00284",
+      "title": "Dimerization in the SU(4) Heisenberg model on the cubic lattice: iPEPS study",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2510.23720",
+      "title": "Chiral gapped states are universally non-topological",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2511.16086",
+      "title": "Coherent high-velocity chiral magnons in the metallic altermagnet CrSb",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "version-review",
+      "reason": "与交替磁性强相关。为历史 ID 的修订，未确认新增证据。",
+      "api": null
+    },
+    {
+      "id": "2512.15041",
+      "title": "Fractional quantization in gapless flat bands with ill-defined topology and divergent quantum geometry",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2512.21163",
+      "title": "Substrate Role in Polaron Formation on Single-layer Transition Metal Dihalides",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2601.07659",
+      "title": "From coherent to fermionized microwave photons in a superconducting transmission line",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2602.08982",
+      "title": "W-SLDA Toolkit: A simulation platform for ultracold Fermi gases",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2603.11153",
+      "title": "Moiré Engineering of Square-Lattice Hubbard Models for Copper- and Iron-Based Superconductors",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2603.16552",
+      "title": "A Correlated Route to Antiferromagnetic Spintronics",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2603.28388",
+      "title": "Ergotropy of macroscopic classical systems",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2603.29344",
+      "title": "Multilevel Quantum Dynamics: A Parafermionic Truncated Wigner Approach",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2604.10216",
+      "title": "Spectral Softening and the Structural Breakdown of Thermodynamic Equilibrium",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2604.19955",
+      "title": "Probing bilayer topological order with layer-resolved transport",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2605.08860",
+      "title": "A Closer Look on the Influence of Constraints Upon the Optimization of the Nonadditive Entropic Functional $S_{q}$",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2605.13482",
+      "title": "Site-selective preparation of two-dimensional dipolar quantum gases in an optical beat-note lattice",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2605.17074",
+      "title": "Path-Extrema Upper Bounds on Mean Entropy Production",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2605.17631",
+      "title": "Theory of Melting Lines with Variable Enthalpy of Fusion: Independent Verification of Phonon Theory of Liquids - Predicted Parabolic Behavior",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2605.24334",
+      "title": "Systematic comparison of approximations and functionals in first-principle calculations of aluminum-based III-V ferroelectric nitrides",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2605.25594",
+      "title": "Sensitivity to perturbations in the three-dimensional Anderson model",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2606.03298",
+      "title": "Defect-trapped hydrogen couples stress-triggered atomic decohesion with explosive crack growth",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2606.04748",
+      "title": "Percolation criticality of amorphous-Amorphous transitions in compressed glasses",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2606.14635",
+      "title": "Open Wilson chain numerical renormalization group approach to steady-state non-equilibrium quantum transport",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2606.15951",
+      "title": "Adiabatic preparation of a fractional quantum Hall fluid by coherently pumping atoms from a Bose-Einstein condensate",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2607.07948",
+      "title": "Tunable Emergent Gauge Fields from Skyrmions in a Quasicrystalline Lattice",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2607.15346",
+      "title": "Field-induced first order transitions and phase coexistence in the Kitaev quantum spin liquid candidate BaCo2(AsO4)2",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "version-review",
+      "reason": "与场致自旋液体争议强相关。既有预印本修订，版本差异待核。",
+      "api": null
+    },
+    {
+      "id": "2607.28419",
+      "title": "Convergence to the solution of the one-dimensional Riviera model",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2607.29014",
+      "title": "Mechanism-Dependent Descriptors for Oxygen Capacity in Perovskite Oxides",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2608.07211",
+      "title": "Observation of far-from-equilibrium scaling in the transient dynamics of 2D quantum magnets",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2608.15324",
+      "title": "Three-body contact for fermions. II. Non-degenerate limit",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2608.27002",
+      "title": "Spin preservation in screw-symmetric molecules",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2608.27944",
+      "title": "Quantum geometric bounds at finite temperature for one-dimensional chiral systems",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2609.04625",
+      "title": "Enhanced Multifractality Induced by Non-Hermitian Disorder in Quantum Percolation",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2609.07456",
+      "title": "Graph neural networks and the energetic cavity method for combinatorial optimization",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2609.38317",
+      "title": "Hidden Rotational Dynamics from Crystal Geometry",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": {
+        "id": "2609.38317",
+        "updated": "2026-11-16T19:55:46Z",
+        "published": "2026-09-29T18:00:04Z",
+        "title": "Hidden Rotational Dynamics from Crystal Geometry",
+        "version": "2609.38317v2"
+      }
+    },
+    {
+      "id": "2610.27787",
+      "title": "Interplay of Activity and Attraction in the Coil-to-Globule Transition of Tangentially Driven Polymers",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": {
+        "id": "2610.27787",
+        "updated": "2026-11-17T15:11:05Z",
+        "published": "2026-10-20T07:51:22Z",
+        "title": "Interplay of Activity and Attraction in the Coil-to-Globule Transition of Tangentially Driven Polymers",
+        "version": "2610.27787v2"
+      }
+    },
+    {
+      "id": "2610.30451",
+      "title": "Suppression of Grain Boundary Nitrogen Degradation by Boron in Superalloys",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": {
+        "id": "2610.30451",
+        "updated": "2026-11-17T15:28:37Z",
+        "published": "2026-10-21T21:06:47Z",
+        "title": "Suppression of Grain Boundary Nitrogen Degradation by Boron in Superalloys",
+        "version": "2610.30451v2"
+      }
+    },
+    {
+      "id": "2611.01397",
+      "title": "Artificial spin ice on the CaVO lattice: a tricritical bridge from square to kagome",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": {
+        "id": "2611.01397",
+        "updated": "2026-11-17T11:51:52Z",
+        "published": "2026-11-01T01:05:48Z",
+        "title": "Artificial spin ice on the CaVO lattice: a tricritical bridge from square to kagome",
+        "version": "2611.01397v3"
+      }
+    },
+    {
+      "id": "2611.05699",
+      "title": "Ni ordering in the van der Waals gap of Ni-intercalated 2H-NbS$_2$: from disorder through $2\\times2$ and $\\sqrt{3}\\times\\sqrt{3}$ order to stripe order",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "version-review",
+      "reason": "Ni 插层 2H-NbS₂ 的结构高度相关，缺同日重大修订证据，保留版本核对。",
+      "api": {
+        "id": "2611.05699",
+        "updated": "2026-11-16T21:20:59Z",
+        "published": "2026-11-03T22:27:59Z",
+        "title": "Ni ordering in the van der Waals gap of Ni-intercalated 2H-NbS$_2$: from disorder through $2\\times2$ and $\\sqrt{3}\\times\\sqrt{3}$ order to stripe order",
+        "version": "2611.05699v2"
+      }
+    },
+    {
+      "id": "2611.17508",
+      "title": "In-plane diffusion, spurious drift and a physics-structured gap predictor for a free colloidal pair",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": {
+        "id": "2611.17508",
+        "updated": "2026-11-16T20:25:09Z",
+        "published": "2026-11-12T21:00:39Z",
+        "title": "In-plane diffusion, spurious drift and a physics-structured gap predictor for a free colloidal pair",
+        "version": "2611.17508v2"
+      }
+    },
+    {
+      "id": "2611.18347",
+      "title": "Frustrated Interlayer Coupling Creates a Higher-Order Helical Superstructure in a Twist-Bend Smectic Phase",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": {
+        "id": "2611.18347",
+        "updated": "2026-11-17T10:22:50Z",
+        "published": "2026-11-13T15:55:54Z",
+        "title": "Frustrated Interlayer Coupling Creates a Higher-Order Helical Superstructure in a Twist-Bend Smectic Phase",
+        "version": "2611.18347v2"
+      }
+    },
+    {
+      "id": "2611.19983",
+      "title": "Giant Raman Optical Activity in Chiral and Polar Ni$_3$TeO$_6$",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "version-review",
+      "reason": "有手性声子光谱价值；历史 ID 的修订待比较，不计首次公告。",
+      "api": {
+        "id": "2611.19983",
+        "updated": "2026-11-17T11:24:29Z",
+        "published": "2026-11-15T12:46:16Z",
+        "title": "Giant Raman Optical Activity in Chiral and Polar Ni$_3$TeO$_6$",
+        "version": "2611.19983v2"
+      }
+    },
+    {
+      "id": "2611.20198",
+      "title": "Interface-Selective Extreme Ultraviolet Second Harmonic Generation Away from Linear Absorption Edges",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": {
+        "id": "2611.20198",
+        "updated": "2026-11-17T17:56:46Z",
+        "published": "2026-11-15T18:50:36Z",
+        "title": "Interface-Selective Extreme Ultraviolet Second Harmonic Generation Away from Linear Absorption Edges",
+        "version": "2611.20198v2"
+      }
+    },
+    {
+      "id": "2611.20946",
+      "title": "Dynamical theory of the East model. I. A review on the Zwanzig-Mori projection-operator formalism",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": {
+        "id": "2611.20946",
+        "updated": "2026-11-17T12:16:06Z",
+        "published": "2026-11-16T11:56:48Z",
+        "title": "Dynamical theory of the East model. I. A review on the Zwanzig-Mori projection-operator formalism",
+        "version": "2611.20946v2"
+      }
+    },
+    {
+      "id": "2101.10821",
+      "title": "Spin-Polarized Transport Tomography of a Quantum-Dot Spin Qubit via Ferromagnetic Leads",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": {
+        "id": "2101.10821",
+        "updated": "2026-11-17T11:43:35Z",
+        "published": "2021-01-26T14:45:08Z",
+        "title": "Spin-Polarized Transport Tomography of a Quantum-Dot Spin Qubit via Ferromagnetic Leads",
+        "version": "2101.10821v3"
+      }
+    },
+    {
+      "id": "2508.12421",
+      "title": "Antiferromagnetic Long-Range Order in a Lattice Fermion Model",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": {
+        "id": "2508.12421",
+        "updated": "2026-11-16T20:27:44Z",
+        "published": "2025-08-17T16:11:42Z",
+        "title": "Antiferromagnetic Long-Range Order in a Lattice Fermion Model",
+        "version": "2508.12421v4"
+      }
+    },
+    {
+      "id": "2508.15666",
+      "title": "Cluster Expansion and Decay of Correlations for Multidimensional Long-Range Ising Models",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": {
+        "id": "2508.15666",
+        "updated": "2026-11-17T08:13:53Z",
+        "published": "2025-08-21T15:49:53Z",
+        "title": "Cluster Expansion and Decay of Correlations for Multidimensional Long-Range Ising Models",
+        "version": "2508.15666v2"
+      }
+    },
+    {
+      "id": "2509.01258",
+      "title": "Topological Control of Polaritonic Flatbands in Anisotropic van der Waals Metasurfaces",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": {
+        "id": "2509.01258",
+        "updated": "2026-11-17T14:02:20Z",
+        "published": "2025-09-01T08:48:30Z",
+        "title": "Topological Control of Polaritonic Flatbands in Anisotropic van der Waals Metasurfaces",
+        "version": "2509.01258v4"
+      }
+    },
+    {
+      "id": "2509.23977",
+      "title": "Emergent frequency-dependent selection predicts mutation outcomes in complex ecological communities",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": {
+        "id": "2509.23977",
+        "updated": "2026-11-17T09:26:38Z",
+        "published": "2025-09-28T17:03:58Z",
+        "title": "Emergent frequency-dependent selection predicts mutation outcomes in complex ecological communities",
+        "version": "2509.23977v3"
+      }
+    },
+    {
+      "id": "2509.24529",
+      "title": "Critical phenomena in 2D Coulomb gas: Birth of a gap",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": {
+        "id": "2509.24529",
+        "updated": "2026-11-17T00:40:10Z",
+        "published": "2025-09-29T09:44:23Z",
+        "title": "Critical phenomena in 2D Coulomb gas: Birth of a gap",
+        "version": "2509.24529v4"
+      }
+    },
+    {
+      "id": "2511.23152",
+      "title": "Functional Compression as Occam's Razor: Algebraic Complexity from Sensitivity Minimization",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": {
+        "id": "2511.23152",
+        "updated": "2026-11-16T20:48:26Z",
+        "published": "2025-11-28T12:58:13Z",
+        "title": "Functional Compression as Occam's Razor: Algebraic Complexity from Sensitivity Minimization",
+        "version": "2511.23152v5"
+      }
+    },
+    {
+      "id": "2512.00894",
+      "title": "Generalized Boltzmann-Gibbs Distributions and the Electronic Partition Function Paradox",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": {
+        "id": "2512.00894",
+        "updated": "2026-11-16T19:14:09Z",
+        "published": "2025-11-30T13:49:14Z",
+        "title": "Generalized Boltzmann-Gibbs Distributions and the Electronic Partition Function Paradox",
+        "version": "2512.00894v2"
+      }
+    },
+    {
+      "id": "2601.06821",
+      "title": "Associator Defects in Non-Unitary String-Nets",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": {
+        "id": "2601.06821",
+        "updated": "2026-11-17T06:34:26Z",
+        "published": "2026-01-11T09:10:03Z",
+        "title": "Associator Defects in Non-Unitary String-Nets",
+        "version": "2601.06821v3"
+      }
+    },
+    {
+      "id": "2604.01157",
+      "title": "Thermal Entanglement and Out-of-Equilibrium Thermodynamics in 1D Bose Gases",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": {
+        "id": "2604.01157",
+        "updated": "2026-11-17T12:43:02Z",
+        "published": "2026-04-01T17:11:34Z",
+        "title": "Thermal Entanglement and Out-of-Equilibrium Thermodynamics in 1D Bose Gases",
+        "version": "2604.01157v2"
+      }
+    },
+    {
+      "id": "2605.00096",
+      "title": "Scalable spin-nematic squeezing in multi-level dipole-interacting Rydberg atom arrays",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": {
+        "id": "2605.00096",
+        "updated": "2026-11-16T19:19:02Z",
+        "published": "2026-04-30T18:00:03Z",
+        "title": "Scalable spin-nematic squeezing in multi-level dipole-interacting Rydberg atom arrays",
+        "version": "2605.00096v2"
+      }
+    },
+    {
+      "id": "2605.10395",
+      "title": "Sharp feature-learning transitions and Bayes-optimal neural scaling laws in extensive-width networks",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": {
+        "id": "2605.10395",
+        "updated": "2026-11-17T14:06:50Z",
+        "published": "2026-05-11T11:39:03Z",
+        "title": "Sharp feature-learning transitions and Bayes-optimal neural scaling laws in extensive-width networks",
+        "version": "2605.10395v2"
+      }
+    },
+    {
+      "id": "2605.20242",
+      "title": "A closed-loop framework for perovskite precursor additive discovery",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": {
+        "id": "2605.20242",
+        "updated": "2026-11-17T05:05:00Z",
+        "published": "2026-05-18T02:50:37Z",
+        "title": "A closed-loop framework for perovskite precursor additive discovery",
+        "version": "2605.20242v2"
+      }
+    },
+    {
+      "id": "2605.29132",
+      "title": "Residual Nonextensivity from WIMP Freeze-Out: A Phenomenological Memory Channel",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": {
+        "id": "2605.29132",
+        "updated": "2026-11-17T03:31:07Z",
+        "published": "2026-05-27T21:55:36Z",
+        "title": "Residual Nonextensivity from WIMP Freeze-Out: A Phenomenological Memory Channel",
+        "version": "2605.29132v3"
+      }
+    },
+    {
+      "id": "2606.16259",
+      "title": "Super-Arrhenius relaxation of the triangular plaquette model in any dimension",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2606.30883",
+      "title": "Overcoming configuration bottleneck: Modular pathways to stable semiconductor spin-qubit arrays",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2607.23641",
+      "title": "Optimal Dynamic Cooling of Multiple Qubits",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2608.06395",
+      "title": "Predictive beam-lattice reduction for higher-order topological modes in a 2D SSH phononic crystal",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2608.18633",
+      "title": "Exact Matching-Polynomial Solution of the Periodic Baxter-Fendley $Z_N$ Clock Chain",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2609.00359",
+      "title": "Mixture of Polyconvex Neural Potentials for Parametric Hyperelasticity: Towards Foundation Material Models",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2610.03893",
+      "title": "Efficient Quantum Monte Carlo through Cluster Expansions",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2610.29362",
+      "title": "Compositional neural networks for multimodal X-ray and neutron scattering inversion",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2610.34203",
+      "title": "MatOS: An Agent Operating System for Materials Research",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2611.06448",
+      "title": "Helium States Inspired by Quantum Photonics Circuit",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    },
+    {
+      "id": "2611.14075",
+      "title": "Landau Theory of Black Brane Phase Transitions from Kasner Singularities",
+      "section": "replacement",
+      "abstractScanned": true,
+      "decision": "exclude",
+      "reason": "官方修订栏中的既有 ID。当前摘要不足以确认该版本加入了与本期重点直接相关的制备或物性实证。",
+      "api": null
+    }
+  ],
+  "readingAudit": {
+    "candidateAccessibleFullTexts": 14,
+    "selectedAccessibleFullTexts": 14,
+    "fullReads": 14,
+    "publisherFullReads": 1,
+    "earlyManuscriptReads": 0,
+    "siOnly": 0,
+    "abstractOnly": 1,
+    "institutionalSuccess": false,
+    "pending": [
+      {
+        "title": "Direct Measurement of the Quantum Capacitance in Oxide Semiconductors Using an Electric-Field-Penetration Technique",
+        "reason": "仅摘要：正式上线与作者摘要由 Crossref 核实；ACS 正文/SI 403，普渡作者网页的 PDF 404。"
+      }
+    ],
+    "summaryScope": "按本期通过筛选的高相关记录统计；正式版或 v1 实读篇数分列。"
+  },
+  "crossCheckAttempts": [
+    {
+      "key": "eu-doi",
+      "url": "https://api.crossref.org/works/10.1038/s41427-026-00686-z",
+      "attempts": [
+        "200"
+      ]
+    },
+    {
+      "key": "arxiv-selected",
+      "url": "https://export.arxiv.org/api/query?id_list=2611.21708,2611.22861,2611.22536,2611.22864,2611.22781,2611.22529,2611.21931,2611.21869,2611.22784,2611.23131,2611.23181,2611.21848",
+      "attempts": [
+        "200"
+      ]
+    },
+    {
+      "key": "arxiv-selected-alt",
+      "url": "https://arxiv.org/api/query?id_list=2611.21708,2611.22861,2611.22536,2611.22864,2611.22781,2611.22529,2611.21931,2611.21869,2611.22784,2611.23131,2611.23181,2611.21848",
+      "attempts": [
+        "200"
+      ]
+    },
+    {
+      "key": "2611.21708-cross",
+      "url": "https://api.crossref.org/works?query.title=Probing+Phase+Fluctuations+in+Cuprates+by+Multidimensional+Josephson+Spectroscopy&rows=3&select=DOI%2Ctitle%2Cpublished-online%2Crelation",
+      "attempts": [
+        "200"
+      ]
+    },
+    {
+      "key": "2611.22861-cross",
+      "url": "https://api.crossref.org/works?query.title=Engineering+antiferromagnetic+%28LaVO%E2%82%83%29%E2%82%98%2F%28PrVO%E2%82%83%29%E2%82%99+superlattices&rows=3&select=DOI%2Ctitle%2Cpublished-online%2Crelation",
+      "attempts": [
+        "429",
+        "200"
+      ]
+    },
+    {
+      "key": "2611.22536-cross",
+      "url": "https://api.crossref.org/works?query.title=Preformed+excitons+in+the+excitonic+density-wave+state+of+monolayer+1T%E2%80%B2-MoTe%E2%82%82&rows=3&select=DOI%2Ctitle%2Cpublished-online%2Crelation",
+      "attempts": [
+        "200"
+      ]
+    },
+    {
+      "key": "2611.22864-cross",
+      "url": "https://api.crossref.org/works?query.title=Structural+Response+to+the+Hidden+Charge+Order+in+Sr%E2%82%83Fe%E2%82%82O%E2%82%87&rows=3&select=DOI%2Ctitle%2Cpublished-online%2Crelation",
+      "attempts": [
+        "200"
+      ]
+    },
+    {
+      "key": "2611.22781-cross",
+      "url": "https://api.crossref.org/works?query.title=Canonical+spin+glass+behavior+and+memory+effects+in+van+der+Waals+magnet+%28Fe0.55Ni0.45%293GaTe2&rows=3&select=DOI%2Ctitle%2Cpublished-online%2Crelation",
+      "attempts": [
+        "429",
+        "200"
+      ]
+    },
+    {
+      "key": "2611.22529-cross",
+      "url": "https://api.crossref.org/works?query.title=Solvent%2FAntisolvent-Driven+Etching+of+2D+Layered+Halide+Perovskite+Microcrystals+toward+Endo-Epitaxial+Heterostructures&rows=3&select=DOI%2Ctitle%2Cpublished-online%2Crelation",
+      "attempts": [
+        "200"
+      ]
+    },
+    {
+      "key": "2611.21931-cross",
+      "url": "https://api.crossref.org/works?query.title=Optical+characterization+of+Fermi+polarons+in+monolayer+MoSe%E2%82%82+encapsulated+in+amorphous+silicon+nitride&rows=3&select=DOI%2Ctitle%2Cpublished-online%2Crelation",
+      "attempts": [
+        "429",
+        "429"
+      ]
+    },
+    {
+      "key": "2611.21869-cross",
+      "url": "https://api.crossref.org/works?query.title=Magnon%E2%80%93Phonon%E2%80%93Polariton+Optomechanics+in+a+van+der+Waals+Magnet&rows=3&select=DOI%2Ctitle%2Cpublished-online%2Crelation",
+      "attempts": [
+        "200"
+      ]
+    },
+    {
+      "key": "2611.22784-cross",
+      "url": "https://api.crossref.org/works?query.title=From+a+High-Tc+Spin-Gapless+Semiconductor+to+a+Spin-Glass%3A+The+Role+of+Disorder+in+NiMnCrAl&rows=3&select=DOI%2Ctitle%2Cpublished-online%2Crelation",
+      "attempts": [
+        "429",
+        "429"
+      ]
+    },
+    {
+      "key": "2611.23131-cross",
+      "url": "https://api.crossref.org/works?query.title=Charge-transfer+excitation+drives+cooperative+phonon-assisted+exciton+self-trapping+in+NiPS%E2%82%83&rows=3&select=DOI%2Ctitle%2Cpublished-online%2Crelation",
+      "attempts": [
+        "429",
+        "429"
+      ]
+    },
+    {
+      "key": "2611.23181-cross",
+      "url": "https://api.crossref.org/works?query.title=Multiple+Field-Induced+Transitions%2C+Magnetocaloric+Response+and+Anisotropic+Magnetotransport+in+Orthorhombic+RAlGe+%28R+%3D+Dy%2C+Ho%29&rows=3&select=DOI%2Ctitle%2Cpublished-online%2Crelation",
+      "attempts": [
+        "429",
+        "200"
+      ]
+    },
+    {
+      "key": "2611.21848-cross",
+      "url": "https://api.crossref.org/works?query.title=High-resolution+top-down+nanopatterning+of+NbN+thin+films+for+superconducting+metamaterials&rows=3&select=DOI%2Ctitle%2Cpublished-online%2Crelation",
+      "attempts": [
+        "429",
+        "200"
+      ]
+    }
+  ],
+  "limits": [
+    "逐轨先查 APS 全系列、Nature Portfolio、Science/AAAS、Wiley、ACS、晶体生长与同级刊物的在线/已接受条目，之后查 arXiv。部分出版社需要访问验证或快照停在 17 日，Crossref 429/空结果保留异常。",
+    "arXiv 官网页面多路径显示 11 月 18 日批次：95 新投、36 交叉、72 修订，共 203 条。使用逐题逐摘要筛选。API 日期查询受限并重试，按 ID 查询实得 41/203，其余可追溯到官网列表及具体稿件；未把空结果作零新增。",
+    "按论文 DOI、arXiv ID 和规范化题名查历史。修订条目仅在重大新增证据得到版本核实时纳入。未将 17 日及更早论文当作本期新增。",
+    "EuBCO 图 7b 与补充 CSV 的 LP Jc 分别约 0.92 与 1.02 MA/cm²。两源一致支持 HP 更高；精确效应量需核对。"
+  ]
+}

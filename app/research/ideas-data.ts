@@ -1,6 +1,147 @@
 // 从已审阅报告生成，研究设想不计入论文目录。
 export default [
   {
+    "date": "2026-11-18",
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-18",
+    "scope": "实际检索论文、arXiv、公开专利和高校论文库。沿 EuBCO 钉扎相和钒酸盐 A 位两个方向，区分已有材料与待检验的结构设计。",
+    "limitations": [
+      "两项是定性待查新的物理假设，候选未合成、未计算、未测量。",
+      "已查公开索引和可取近邻资料，未穷尽跨语言学位论文与专利族权利要求。"
+    ],
+    "ideas": [
+      {
+        "id": "eubco-pinning-depth-modulated-oxygen",
+        "kind": "material",
+        "status": "needs-review",
+        "paperIndex": 1,
+        "title": "在同组成 EuBCO 中沿厚度调制富 Eu 析出相的密度",
+        "material": "EuBa₂Cu₃O₇–δ + 3.5 mol% BaHfO₃，设计由低幅氧压调制形成的富 Eu 缺陷层序，目标化学式保持不变",
+        "evidenceLevel": "已读母体论文图 6–7、Methods、表 1–3 与补充 CSV。新的深度结构尚未制得。",
+        "question": "用同一靶以重复氧压停留段控制 Eu 析出位置，能否在不损失贯通超流的前提下降低 Jc 的角度谷值深度？",
+        "prediction": "若实测富 Eu 颗粒可集中到若干浅层但不连成连续绝缘层，且退火后主相氧状态接近，则颗粒层调制应改变 50 K 的角度 Jc 轮廓。以同厚度、同平均纳米夹杂率的均匀样作参照，预期倾斜场或近 ab 的相对 Jc 改善，H∥c 的峰位可能更弱。若柱状缺陷主导，可能呈相反角度行为。",
+        "basis": "母稿显微图观察到约 10 与 100 nm 两类富 Eu 组织，推测喷羽散射及表面扩散受氧压影响；证据未把氧压与距离、能量分开。选择原位调制氧压可保留 RE³⁺、CuO₂ 层的名义价电子计数和原靶 Hf 背景，避免同时把另一稀土的半径、氧配位、自旋轨道和价态带入。低幅扰动先检验成核和粗化，δ 与 Hf 共富集仍需实测。",
+        "difference": "已有静态 Eu₂O₃ 掺杂、混稀土 PLD 多层和氧退火。本项比较的是单靶、近似相同氧暴露量和固定后退火条件下，生长阶段氧压排序改变时空间相关长度与 Jc(θ) 的对应。",
+        "plan": [
+          "先用同一基片、相同靶距、激光能量和温度做压力记录的恒压对照；用设备实际响应可分辨的停留段做同平均压力的调制。每支做同一后退火。",
+          "截面 STEM/EDS 或 EELS 按深度盲法计数 Eu/Hf 富集相与空洞，XRD/RSM 检查织构应变，在相同面积和厚度下配对测 VSM 与输运角度 Jc。"
+        ],
+        "controls": [
+          "同平均压力恒压、两端分别恒压、同历程仅一次氧压转换、缓冲基带空白；同温同场统一比较。"
+        ],
+        "falsifiers": [
+          "若实际压力无可分辨的阶段或析出相深度无调制，停止机制归因。",
+          "若角度变化由全膜氧含量或连通性明显下降解释，否定当前设计条件。",
+          "若已得到一致层序而角度 Jc 不变，否定层序改善这一预测。"
+        ],
+        "feasibility": "有可编程氧分压与高温 PLD 时可先用两段工艺测试，依靠本机传感器确认动态；常规 PPMS 检查磁滞，截面和角输运可合作。",
+        "risks": "压力响应慢、析出过大或二相贯通、台阶导致织构差异，退火还可能抹平实际氧与缺陷梯度。",
+        "nextStep": "先在无样品时标定恒定阀设定和实际压力停留能力，再小规模长一对恒压与双段膜确认形貌，不急于铺满角图。",
+        "queries": [
+          "EuBCO deposition modulated oxygen pressure periodic oxygen pressure pulses Eu2O3 vortex pinning patent deposition anneal",
+          "periodic oxygen pressure modulation during PLD EuBa2Cu3O7 Eu2O3 pulse oxygen pinning dissertation",
+          "EuBCO Eu2O3 (Eu,Y)BCO multilayer rare earth mixed REBCO pulsed laser deposition pinning patent thesis"
+        ],
+        "remainingChecks": [
+          "待查工业恒/变氧压过程控制、专利实施例和对照是否有相同空间周期设计；要核实氧压程序在母文非公开数据或未索引学位论文中是否有先例。"
+        ],
+        "priorArt": [
+          {
+            "title": "Enhanced pinning properties of EuBa₂Cu₃O₇–δ films with Eu₂O₃ nanoparticles fabricated by PLD",
+            "url": "https://iss-archives.jp/isupercon.jp/iss2017/abstract/Abstract_WBP3.pdf",
+            "overlap": "同材料、相同析出物的人工引入已有例。本项增加同靶氧压排序和深度相关对照。",
+            "access": "会议公开摘要"
+          },
+          {
+            "title": "Characteristic pinning properties of REBa₂Cu₃O₇–δ films by the PLD and RCE-DR process",
+            "url": "https://www.dbpia.co.kr/journal/detail?nodeId=T15549571",
+            "overlap": "学位论文明确讨论 Eu₂O₃ 纳米颗粒和退火钉扎，公开目录未给完全对应的生长排序。",
+            "access": "公开题录与目录"
+          },
+          {
+            "title": "Superconducting structure including mixed rare earth barium-copper compositions",
+            "url": "https://patents.google.com/patent/US6602588B1/en",
+            "overlap": "同一体系家族的 PLD 交替稀土层和角度 Ic 为接近先例，不支持将普通 REBCO 多层作新方向。",
+            "access": "公开说明书相关实施例"
+          },
+          {
+            "title": "Oxygen annealing: a tool for tailoring the pinning landscape in GdBCO thin films",
+            "url": "https://publikationen.bibliothek.kit.edu/1000164730",
+            "overlap": "比较 GdBCO 的退火压力和温度，提示退火是必要对照。",
+            "access": "KIT 公开摘要"
+          }
+        ]
+      },
+      {
+        "id": "vanadate-pr-nd-local-angle-control",
+        "kind": "material",
+        "status": "needs-review",
+        "paperIndex": 3,
+        "title": "用 Nd 部分取代超晶格 Pr 层，测试局域八面体转角和反铁磁有序是否可独立变化",
+        "material": "(LaVO₃)ₘ/[(Pr₁₋ₓNdₓ)VO₃]ₙ；目标为稀土 A 位、Pr³⁺/Nd³⁺ 等价替换，界面偏析未知",
+        "evidenceLevel": "母体 arXiv:2611.22861v1 图 1–6、IV Methods 与附录已读。候选未合成、未计算、未测量。",
+        "question": "固定 m:n、平均厚度和外延约束时，Pr 层相邻稀土的收缩能否增大层内转动振幅而保持一个共同的 V 自旋转变？",
+        "prediction": "在 V 接近 +3、单相赝立方外延且氧计量不变的区间，Nd³⁺ 比相同配位的 Pr³⁺ 更小，预计 Pr/Nd 层内部某些八面体转角和相应的 A 位反极位移增强。若界面耦合仍贯通，V 自旋转变应维持一个主要异常，但温度变化的符号先留给不同交换路径的实验判定。若出现两个可分辨且分别追随端元的 V 自旋异常，则反证共同有序仍维持。",
+        "basis": "母体在 5–6 个晶胞尺度恢复界面畸变；选 Nd 是邻稀土微调，较 Lu 减少突变导致孪晶/不同取向的风险。保持 A 位价态可尽量不改 V 的名义 d² 计数；Nd 的 4f 局域磁矩及晶场与 Pr 不同，低温 4f 响应须与 V 区分。单离子半径不确定局部 V–O 键角、共价性和外延应变恢复。",
+        "difference": "已有 LaVO₃/PrVO₃ 层序和氧化物应用；这里在相同周期和应变下把 Nd 选择性限制于原 Pr 层，并用相同平均组成但均匀分散 Nd 的超晶格排查平均化学压力。",
+        "plan": [
+          "先制备母体和两个稀 Nd 投料点，保持 La:总 B 层、m:n、初始接触层和总厚度。RHEED 与 XRD/RSM 验相及应变；STEM-EELS 映射 Nd/Pr/La 和 V 价态。",
+          "在同一温场协议下量面内和面外 dM/dT，半级衍射或氧位敏感 STEM 量转动，并与 A 位位移独立比对。出现 V 自旋双峰时用层敏感磁衍射或共振散射分辨。"
+        ],
+        "controls": [
+          "x=0 母体、同厚度 NdVO₃ 与 PrVO₃ 端元、同平均 Nd 但分布于两层的对照、空白 SrTiO₃。需先对不同半级峰做方位核对。"
+        ],
+        "falsifiers": [
+          "若 Nd 不能限域至 Pr 原层、出现竞争相或 V 价态漂移，停止等价半径归因。",
+          "若结构条件齐备后，层内实测倾斜和位移在误差内不变或反向，否定所选 Nd 设计下的结构趋势。",
+          "若双转变能排除 4f 背景并分别与 V 端元相关，否定仍共同有序。"
+        ],
+        "feasibility": "需要能独立标定 Nd 束流的氧化物 MBE，先用厚端元验证相纯和 VO₃ 氧计量，基础 XRD/磁化可先筛，角分辨结构和层位点需合作。",
+        "risks": "稀土混层、氧空位使 V 价态偏离、基底畴和小信号会改变异常，Nd/Pr 的 4f 信号可能掩盖 V 变化。",
+        "nextStep": "先确认同机可重复生长 NdVO₃ 和 PrVO₃ 端元，并获取 Nd/Pr 的定量 EELS 谱线分离。",
+        "queries": [
+          "(LaVO3) (Pr,Nd)VO3 superlattice LaVO3 NdVO3 PrVO3 La Pr Nd solid solution vanadate strain antiferromagnetic",
+          "LaVO3 PrVO3 NdVO3 superlattice vanadate orbital ordering film patent thesis"
+        ],
+        "remainingChecks": [
+          "需进一步核对近邻专利、学位全文、超晶格会议论文的包容性，以及 Nd 混层是否已被报告。"
+        ],
+        "priorArt": [
+          {
+            "title": "Nanoscale Characterization of Atomic Positions in Orthorhombic Perovskite Thin Films",
+            "url": "https://doi.org/10.1002/smll.202502538",
+            "overlap": "正交薄膜畸变与 La/Pr 超晶格相关的既有工作。",
+            "access": "出版者公开页"
+          },
+          {
+            "title": "Exploring Mottness and Electronic Order in Strongly Correlated Vanadate Thin Films",
+            "url": "https://digitalcommons.unf.edu/etd/1219/",
+            "overlap": "MBE 学位论文比较 La/Sr 的随机合金与层结构，Sr 异价以及 O 缺位的效应与此不同。",
+            "access": "高校题录与摘要"
+          },
+          {
+            "title": "Synthesis, anion order and magnetic properties of RVO₃₋ₓNₓ perovskites",
+            "url": "https://research.birmingham.ac.uk/en/publications/synthesis-anion-order-and-magnetic-properties-of-rvosub3xsubnsubx/",
+            "overlap": "有 La、Pr、Nd 作为不同端元，但主体是阴离子氮化，并非相同的 VO₃ 层内 A 位设计。",
+            "access": "机构题录与摘要"
+          }
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "title": "单独声称静态添加 Eu₂O₃ 可提高 EuBCO 强场钉扎",
+        "reason": "已找到直接样品工作，仅作近邻先例。",
+        "url": "https://iss-archives.jp/isupercon.jp/iss2017/abstract/Abstract_WBP3.pdf"
+      },
+      {
+        "title": "只做 LaVO₃/PrVO₃ 多周期并比较结构畸变",
+        "reason": "已有这一路线的样品与 STEM/EELS 结果，且本期母体已实施。",
+        "url": "https://arxiv.org/abs/2611.22861"
+      }
+    ]
+  },
+  {
     "date": "2026-11-17",
     "schemaVersion": 1,
     "reviewedAt": "2026-11-17",
