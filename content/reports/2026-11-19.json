@@ -1,0 +1,369 @@
+{
+  "date": "2026-11-19",
+  "issue": "086",
+  "headline": "1 篇当日正式上线、3 篇前日补读；3 主文精读、1 SI 精读",
+  "hotspot": "从 Cs₂PbI₂Cl₂ 的源粉—薄膜成分差，到石墨烯结构重构和 NbOCl₂ 极性竞争；补读 18 日晚更新的 Nature 正式论文。",
+  "searchWindow": "北京时间 11 月 19 日 00:00–12:02。当日正式上线 1 篇；另补读 18 日 Nature 1 篇及 18 日提交预印本 2 篇。",
+  "accessSummary": "共 4 篇，正式期刊 2、独立 arXiv 2；3 篇主文精读、1 篇仅 SI 精读（主文只摘要），仅摘要且无 SI 0 篇。公开主文可达 3 篇。未验证到机构订阅访问。",
+  "papers": [
+    {
+      "title": "Growth of Large-Area Two-Dimensional All-Inorganic Layered Halide Perovskite Single Crystals",
+      "titleZh": "大面积二维全无机层状卤化物钙钛矿单晶的生长",
+      "titleOriginalMetadata": "Growth of Large-Area Two-Dimensional All-Inorganic Layered Halide Perovskite Single Crystals",
+      "doi": "https://doi.org/10.1021/acsnano.6c03302",
+      "arxivId": null,
+      "fullText": "https://acs.figshare.com/articles/journal_contribution/35054897",
+      "journal": "ACS Nano",
+      "category": "晶体生长和物性调控",
+      "material": "Cs₂PbI₂Cl₂",
+      "authors": "Liqiang Zhang; Wenhao Xi; Xinyun Zhou; Xiaohong Chen; Miaomiao Liu; Kun He; Chen Yi; Shanhao Li; Yingying Liu; Linlin Yang; Xu Li; Feng Ding; Yanru Wang; Yukun Guo; Xidong Duan",
+      "institutions": "湖南大学、中南大学、湘潭大学、电子科技大学",
+      "method": "已读公开 SI 30 页、图 S1–S20 及后续图表；正式主文受限，仅主文作者摘要可核。",
+      "access": "补充材料精读：已读公开 SI 30 页、图 S1–S20 及后续图表；正式主文受限，仅主文作者摘要可核。",
+      "readingStatus": "si",
+      "date": "2026-11-19 正式在线",
+      "selectionStatus": "today-formal",
+      "versionNote": "正式在线日由出版社和 Crossref 核实。",
+      "conclusion": "预结晶源的低压 CVD 得到层状单晶薄膜。SI 的前驱体和膜 EDS 明显不同，需先核真实卤素比例，摘要所称激活能尚不能直接用作激子束缚能。",
+      "sections": [
+        {
+          "title": "问题和可读范围",
+          "text": "材料为无机 Ruddlesden–Popper 层状 Cs₂PbI₂Cl₂。作者摘要称以预结晶粉末作源低压 CVD，平面和截面 HAADF-STEM 支持周期层结构。本次经 ACS 官方 figshare 取得 30 页 SI 并实读，主文及原位工艺 Methods 未取得。公开摘要列 PL 热激活参数 97±19 meV、寿命 280±12 ps。温区、压强、载气、原料纯度、配比、保温时长和退火等主文方法均未知，不根据专利或同类论文补写为该论文事实。"
+        },
+        {
+          "title": "结构和化学计量值得复查",
+          "text": "SI S1 前驱体 Cs/Pb/I/Cl 原子比例 28.62/14.74/27.57/29.07%，接近名义式；S4 薄膜为 24.08/16.51/25.26/34.15%，比源粉更偏 Cl。EDS 的吸收、基底及采样误差需要独立标准，不能只靠名义源粉推断生长膜无卤素损失。S2 是源粉 XRD 与卡片比较；S7 提供薄膜区域相图和反极图，区域一致性不等同全片每处单畴。S8–S9 交代 FIB 取向、基底与保护层，需要避免把保护 Pt 和云母 Al/Si/O 当薄膜组分。完整空间群精修、占位、膜面积统计和跨批收率本次未能从主文核实。"
+        },
+        {
+          "title": "薄片尺度和物性归因",
+          "text": "S5 AFM 的例片约 36.1 nm，其余三片约 41.7、57.8、90.2 nm。这里的二维指层状结构，测得这些膜并非单原子层。S6 将 Si/SiO₂ 和蓝宝石随生长时长作比较。S10 记录温变发光在 270 K 接近底噪，说明量子产率、陷阱热激活和多声子弛豫都可能参与。97±19 meV 是表观热激活，热解离、陷阱和激子–声子过程未分离时，不能独立定出束缚能。复现优先索取正式方法和全谱，先以 XRD/EDS/AFM 校验同相、厚度及成分，再比较温变积分 PL、同光子通量寿命和吸收。若 Cl/I 随厚度系统变动，先研究组分输运，暂缓把寿命变化只归于介电限域。"
+        },
+        {
+          "title": "SI 的动力学信息与补读重点",
+          "text": "表 S1 在标记 100、120、140 nW 的三组激励下给快/慢双分量，慢分量约 214.7±19.3、165.9±13.1、39.5±5.2 ps。作者据随激励缩短讨论高阶复合；没有光斑、吸收和初始密度的共同标定时，不能把平均功率当为全部载流子浓度。S19 的 575 nm 通道另有 255.3±17.1 ps，S20 明确 TRPL 与 TA 观测量不同；前者选择辐射态、后者包含总激发态谱权变化，两者不应以寿命差直接求陷阱密度。S21 409 nm 共振激发与 S22 380 nm 激发后的自由/自陷激子示意还需同一拟合和能量归一。下一次测量可先重复低泵浦的发光/吸收及共振对照，并记录完整滤波、通量和拟合残差；若用简单线性缺陷模型也能解释低通量数据，应保留其贡献。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "SI 优先读，主文待补",
+        "first": "S1–S7 和 S10 温变发光",
+        "focus": "主文数据与 SI 所示成分的关系",
+        "next": "取得原工艺后先重复源粉与膜的组分分配"
+      },
+      "tags": [
+        "中英文标题",
+        "正式期刊",
+        "当日正式上线"
+      ],
+      "rating": "★★★★★",
+      "bodyChineseCharacters": 633
+    },
+    {
+      "title": "Flat-band-induced integer doping and phase transition in monolayer graphene",
+      "titleZh": "平带诱导的单层石墨烯整数掺杂与相变",
+      "titleOriginalMetadata": "Flat-band-induced integer doping and phase transition in monolayer graphene",
+      "doi": "https://doi.org/10.1038/s41586-026-11254-4",
+      "arxivId": null,
+      "fullText": "https://www.nature.com/articles/s41586-026-11254-4",
+      "journal": "Nature",
+      "category": "二维材料与量子器件",
+      "material": "hBN／graphene／单层 hBN",
+      "authors": "Z. Wang; C. Moulsdale; X. Guo; J. Liu; Z. Qiu; I. Soltero; Z. Jiang; M. Holwill; J. Wu; H. Sun; Z. Chai; A. J. H. Jones; M. Zhu; J. Yin; C. P. Y. Wong; T. Taniguchi; K. Watanabe; K. E. J. Goh; S. V. Morozov; A. Mishchenko; S. Ulstrup; L. Lin; A. H. MacDonald; G. Yu; M. I. Katsnelson; J. Lu; V. I. Fal’ko; A. K. Geim; P. Huang; C. R. Woods; K. S. Novoselov",
+      "institutions": "新加坡国立大学、曼彻斯特大学、奥胡斯大学、东南大学、日本 NIMS、北京大学、得州大学奥斯汀分校、南京大学等",
+      "method": "出版者正文、Methods、图 1–4 和扩展数据；未独立核读完整 SI。",
+      "access": "全文精读：出版者正文、Methods、图 1–4 和扩展数据；未独立核读完整 SI。",
+      "readingStatus": "full",
+      "date": "2026-11-18 正式在线，19 日补读",
+      "selectionStatus": "previous-day-backread",
+      "versionNote": "正式在线日由出版社和 Crossref 核实。",
+      "conclusion": "上下双对齐并含单层 hBN 的结构能在栅压、场和温度下重构，电中性点与莫尔胞整数载流子标度相关。原子结构改变与电学迟滞须联合分析。",
+      "sections": [
+        {
+          "title": "问题、结构与必要对照",
+          "text": "通常把范德华层叠器件看成制成后固定的晶格。作者用上方单层 hBN、石墨烯和下方厚 hBN 的双对齐结构，让应变和层间滑动参与电荷俘获。两种主器件为双栅 hBN/graphene/mhBN/hBN 与单底栅 mhBN/graphene/hBN。前者故意将外侧 mhBN 与封装 hBN 转开 15°以降低滑动锁定，同时让石墨烯与它上下相邻层保持双对齐。Methods 细分七类参照，分别改变单层/双层/块体 hBN、单面对齐、双面对齐及未对齐，检验是否必须同时有单层 hBN 和双对齐。此处母体是叠层的结构设计，不能由二维材料名称相同就判样品条件等价。"
+        },
+        {
+          "title": "样品制备与质量",
+          "text": "Methods 用标准干转移组装。单栅未封盖片用 AFM 傅里叶图和两组次级 Dirac 点，确认约 10.8 与 12.0 nm 两套莫尔周期；封盖双栅样的两个周期很近，用光学、Raman 和 AFM 组合判断。本文有的周期超出刚性晶格约 14 nm 的极限，最高约 17.7 nm，作者将其与重构增强联系。原料的每一批纯度、剥离面积分布、全部转移温程、聚合物残留定量、逐片产率和独立成分化验在当前实读主文未报告，相关补充制程待 SI 复核。原子 STM 与 AFM 证据服务于局部形貌、周期和对称性，不能自动代表整片的畴均一性。"
+        },
+        {
+          "title": "电学条件和整数关系",
+          "text": "四端纵向和 Hall 信号在基温 1.6 K、最高 14 T 的低温系统中测量，交流 5 nA、37 Hz；双栅除特别指出外沿 D=0 路径扫，避免位移场与密度同时变。未封盖 9 片中 8 片呈近整数 n₀ 的 p 掺杂，n₀ 对应每莫尔胞一个载流子，整数为 1–4。栅压使体系从初态跨阈值跳转，结构与电中性点一起变。读数需核算电容和 Hall 系数校准，不以峰在栅压轴的整齐间隔直接证明电子数严格量子化。单层 hBN 对起伏较敏感，叠层封盖改变弹性边界及可达到的栅压，正是比较两种器件时须控制的条件。"
+        },
+        {
+          "title": "机制与观察的边界",
+          "text": "直接观察包括电中性点的离散变化、输运迟滞、AFM/STM 对称性及周期变化。作者用重构应变的赝磁场产生局域伪 Landau 能级，解释平带俘获的整数电子或空穴；DFT 和分子动力学协同评估层间重构。平带俘获是多个证据相容的模型，而单个电学回线也可能来自介质陷阱、接触注入和离子残留。Methods 指出扫速与阈值关系有专门 SI 对照，但本次未独立读全那些原始图，不能把所有替代解释视为彻底排除。比较电学变前后同一视野的畴边界，可检验重构与导电转变是否一一对应；还需评估针尖扰动本身是否触发了另一状态。"
+        },
+        {
+          "title": "下一次测量的最小闭环",
+          "text": "先制作同一母片分出的双对齐单层边界和单面对齐参照，在各自门电容校准后用同一低功率扫栅协议测两向电阻和 Hall。首次跨阈值前保存 AFM 的真实高度、像素标尺、扫向与扫描力；跨阈值后同位置重扫，避免将不同畴比较成全局相变。另留一片只经电学扫栅、不受探针扫描，检查扫描是否改变阈值。用低温连续回线和定栅等待试验分开瞬态充电与可保持的结构态。若电中性点跳转不伴相同位置的周期/对称性改变且随扫速或等待大幅漂移，优先检查陷阱动力学；若对齐参照和主结构一样跳，应复核所谓必要结构条件。"
+        },
+        {
+          "title": "怎样把生长控制落到器件复现",
+          "text": "最先值得重现的是同一片上下对齐与单层 hBN 的共同条件，而非先追求最高莫尔周期。逐片归档相邻边缘的旋转角、单层确认、封盖厚度和有无折痕，转移后用 Raman 和 AFM 独立核定，而把输运次级峰作为第二条交叉证据。用几何电容与 Hall 两种方式确认 n₀，统一选低场线性区，强场 Landau 特征作额外参照。在热循环时保留升降温和固定门压的顺序。若热循环改变莫尔周期，也要重标胞面积，避免将面积变化导致的单位 n₀ 变化当成整数量子数变化。数值模拟的应变和电荷分布并未等价于同一器件的定量应变图，复现实验可以先用局部 Raman 变化约束应力，再检验整数状态随应力边界的差别。"
+        },
+        {
+          "title": "整数掺杂的取值怎样独立核查",
+          "text": "文章用电中性点与次级 Dirac 点的固定四电子每胞间隔标定整数单位。例如转变后的中性点落在转变前中性点与次级峰的中间，可在同一栅极几何下读出每胞两电子的变化。这种相对读法减少了某些面积和电容共同误差，但仍须确认所比较峰属同一莫尔周期，并在两个周期都存在时分别识别。文中指出跨阈值后莫尔周期可以保持而晶体对称性改变，因此不能把每一次跃迁描述成胞面积都变化。先固定两峰的识别规则，保留 Hall 符号翻转与纵向电阻峰，再做相邻磁场检查，检验两组周期重叠时整数标定是否仍可靠。"
+        },
+        {
+          "title": "电学可编程与力学重构的相互约束",
+          "text": "可回转的层间配准意味着制程中封盖厚度、温度和应力边界可能改变相态。研究者若只复制单层石墨烯成分而换较厚 hBN，弹性能代价已经变化。可先以文中的七类参照思路少量制样，把单层边界与对齐条件作为必要变量。用同片未电刺激区作空间参考，控制 AFM 扫描力和扫描次数，观察局部重构是否从电极或边缘成核。将每次阈值的等待时间、栅漏电和密度稳定时间归档，若阈值强烈随接触或器件老化漂移，先研究边界锁定与陷阱。若电学整数变化与结构同位置重复锁定，同时跨热循环回到相同分支，这才加强动态叠层能量景观的解释。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "重点精读，18 日新上线补读",
+        "first": "图 1–4 与 Methods Device fabrication",
+        "focus": "同胞面积、整数单位及结构跃迁同位置对应",
+        "next": "同母片做两类对齐和扫描扰动对照"
+      },
+      "tags": [
+        "中英文标题",
+        "正式期刊",
+        "前日补读"
+      ],
+      "rating": "★★★★★",
+      "bodyChineseCharacters": 1597
+    },
+    {
+      "title": "Observation of room-temperature intrinsic antiferroelectricity in van der Waals NbOCl2",
+      "titleZh": "范德华 NbOCl₂ 中室温本征反铁电性的观测",
+      "titleOriginalMetadata": "Observation of room-temperature intrinsic antiferroelectricity in van der Waals NbOCl2",
+      "doi": "https://arxiv.org/abs/2611.24092",
+      "arxivId": "2611.24092",
+      "fullText": "https://arxiv.org/pdf/2611.24092v1",
+      "journal": "arXiv",
+      "category": "晶体生长和物性调控",
+      "material": "NbOCl₂",
+      "authors": "JinKai Huo; Xingyu Chen; Gaolei Zhao; Xuan Chen; Yuchen Meng; Xu Han; Juhe Liu; Egor Kolesov; Konstantin Kozadaev; Alexei Tolstik; Andrei Zheltkovich; Andrey Novitsky; Shenghuang Lin; Changsen Sun; Dawei Li",
+      "institutions": "大连理工大学、白俄罗斯国立大学、白俄罗斯科学院、布列斯特国立技术大学、中科院东莞材料所",
+      "method": "v1 正文图 1–5、Experimental Section；独立 SI 未取得。",
+      "access": "全文精读：v1 正文图 1–5、Experimental Section；独立 SI 未取得。",
+      "readingStatus": "full",
+      "date": "2026-11-18 提交，19 日 API 核验；官方新批公告未确认",
+      "selectionStatus": "previous-day-backread",
+      "versionNote": "v1，公开 API 已核提交和版本；官网当前仍为 18 日批次，本稿尚不在该批清单。",
+      "conclusion": "条纹状 SHG 与空间 Raman 联测支持极性/反极性相共存。电场响应仅在负偏压一侧出现迟滞，接触不对称和离子迁移仍未排除。",
+      "sections": [
+        {
+          "title": "长晶与样品",
+          "text": "文中先将 Nb₂O₅、Nb、NbCl₅ 以 1:1:5 摩尔比封入抽真空石英管。两区炉 700/450 °C 维持 6 h，自然冷却后在冷端收集针状黑晶，机械剥离至 SiO₂/Si。方法未列逐项纯度、石英管内径、装料总量、真空值、温梯长度、样品收率、批间统计和 EDS/WDS/ICP 的定量，不能把某次长晶的表面 Raman 均一当成全母晶化学均匀。131 nm 代表片用 AFM 给厚度，Raman 五个峰约 161、176、298、340、670 cm⁻¹。偏振 Raman 用来定面内 b/c 轴，是后续电场和应变方向控制的必要步骤。"
+        },
+        {
+          "title": "条纹本身不能唯一判反铁电",
+          "text": "正常入射 SHG 在沿 c 的线扫有约 1.5 μm 条纹，在沿 b 上比较平滑。作者提出三种图像来源，均匀面内 FE、面内/面外 FE 共存，以及 FE/AFE 共存。暗区在入射角 0–24° 时没有可分辨增强，对面外极性模型不利；亮区角变时约降两个数量级，作者也指出可能有仪器影响。因此还要结合空间 Raman 的 P1H/P1L 指纹作结构对照。直接信号是不同位置的二阶光强和 Raman 模式，AFE 归属来自对称性、谱指纹及已有相模型的联合推断。表面局部应变、反相畴抵消和非均匀接触也可能影响光强，单一暗区还不能直接给出净极化。"
+        },
+        {
+          "title": "银纳米线应变的几何",
+          "text": "约 89 nm 厚片跨过约 56 nm Ag 纳米线，曲面表高约 92 nm，横向宽约 5.7 μm，b 轴垂直线方向。薄膜弯曲模型取泊松比 0.24，作者估算最大拉伸约 0.26%。该数为上界，厚度内弯曲应变会改变符号。线正上方 SHG 增强、同片未弯区暗，支持机械诱导极性响应。但 Ag 的近场也可增强少量残存 FE 信号，因此仍需非金属同形貌凸起、换偏振和同片 Raman 跟踪，确认转变所依赖的是应力和相结构。"
+        },
+        {
+          "title": "电场数据与非对称滞回",
+          "text": "先制 Ti 5 nm/Ni 25 nm 接触，再以少层石墨烯作界面层，干转移 NbOCl₂ 时令 b 轴沿沟道；代表沟长约 5 μm。负扫到 −21 V 有明显 SHG 滞回，最大幅值低于约 10 V 时无可分辨响应，正偏压没有对应回线。作者据此给阈值约 20 kV/cm 的平均场估计，同时明确接触局部场和氧离子迁移可能参与。这个光学滞回尚未形成对称双极 P–E 回线，不能直接把平均场当均匀体相临界场。最好将两电极交换极性、对调晶向并留相同接触背景，检验响应到底跟随晶轴还是跟随一个接触。"
+        },
+        {
+          "title": "怎样从结构与电学排除替代解释",
+          "text": "室温 Raman 为 532 nm、约 2 mW，SHG 为 1064 nm 皮秒、约 10 mW，100× 聚焦。功率不低，需做功率依赖、光照时间、等待及局部温升参照。材料反极性归属可先用未接电极的同片偏振 Raman 与 SHG 配对地图，加低剂量原子分辨或局部衍射识别 Nb 偏移排列。再用两种不同材料接触并保留相同层厚，扫速、脉宽和正负等待分支。若只有某种接触和长等待后出现单极响应，应优先研究电荷注入及离子重排，暂停把它归为本征场致相变。若同一条纹在不加场时连续热漂并与 Raman 峰位共变，应定量评估激光热效应。"
+        },
+        {
+          "title": "新颖性与最小实验",
+          "text": "查新另找到 PRL DOI 10.1103/tzk8-nqby 已于 10 月 20 日接受，报告 NbOCl₂ 极性/反极性共存及应变驱动转换。故母相共存和直接施加拉伸不能写成本简报新方向。这里值得新增的研究差别可以是明确成分调控后极性相竞争、保持同一力学几何的转换曲线，仍需查混卤先例和溶解度。最小复现先得到相同配方长出的两批晶体，以晶轴、实际成分、厚度和力学边界作共同坐标，留存原始光谱和地图。如果长晶一批仅有很少数暗亮条纹，不把这一局部片的图像当成整炉本征比例，重新统计片间分布。"
+        },
+        {
+          "title": "结构相的可识别性与空间尺度",
+          "text": "Raman 模式图与 SHG 地图应在相同倍率、同一空间变换后配准。先保存 AFM 台阶和畴边界，逐像素取谱而非仅选最亮最暗两点。条纹周期约微米，若光斑覆盖多畴，测到的 SHG 振幅可能因相位抵消下降；需区分一阶 Raman 的非相干强度与二阶相干场的加和方式。跨厚度样品还涉及传播相位、干涉和基底反射，可用统一光学模型比较同厚度暗亮区，再讨论体内反演对称性。原子偏移的衍射或显微验证应与光学域一一对应，用多位置统计确认反极排列的比例。"
+        },
+        {
+          "title": "暂停条件与不同解释的实验顺序",
+          "text": "先做功率和采集时间扫描，确认地图能在降低注入后维持，再做无金属机械拉伸和周期应力释放，最后引入电极。若 Raman 指纹与 SHG 强度在应变扫中能同步且可逆变化，而无金属时同样出现转换，近场放大的解释受限。若正负偏压行为随交换电极而翻转，应把接触电场集中单独建模；若随等待时长增长和电阻不可逆漂移，先检查迁移引起的化学改变。两类情形都值得记录，但不能把相同迟滞外形当作同一个体相开关。长期循环还需记录累积裂纹和厚度变化，若不可逆损伤先停止提高偏压。"
+        },
+        {
+          "title": "跨论文比较的约束",
+          "text": "PRL 的近邻接受工作有独立显微结构和连续应变背景，本篇强调 SHG 与 Raman 及两端电场响应。它们在材料相竞争上互相印证，采样温度、厚度和具体畸变模式仍需按各自结构坐标核对，不能直接拼成同一样品的全证据。本文给的平均阈值与另一项的应变阈值也不能简单换算成同一能垒。本简报材料预测先选择不改变 Nb 名义价态的卤位方案，仍要核查实测 Nb 价态、相分离和竞争相，并把可观测的域比例和阈值趋势写成可否定的假说。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "重点精读，注意近邻 PRL 工作",
+        "first": "图 2–3 联测、图 5 的正负不对称与 Experimental",
+        "focus": "0.26% 上界及平均场 20 kV/cm 的条件",
+        "next": "同片非金属应变基准与交换接触极性"
+      },
+      "tags": [
+        "中英文标题",
+        "arXiv",
+        "前日补读"
+      ],
+      "rating": "★★★★★",
+      "bodyChineseCharacters": 1522
+    },
+    {
+      "title": "Large Single Crystal Growth and Transport Properties of KCd4As3 and RbCd4As3",
+      "titleZh": "KCd₄As₃ 与 RbCd₄As₃ 的大单晶生长及输运性质",
+      "titleOriginalMetadata": "Large Single Crystal Growth and Transport Properties of KCd4As3 and RbCd4As3",
+      "doi": "https://arxiv.org/abs/2611.24230",
+      "arxivId": "2611.24230",
+      "fullText": "https://arxiv.org/pdf/2611.24230v1",
+      "journal": "arXiv",
+      "category": "晶体生长和物性调控",
+      "material": "KCd₄As₃ / RbCd₄As₃",
+      "authors": "Keigo Ono; Yosuke Goto; Masayuki Murata; Hiroyasu Matsuura; Chul-Ho Lee",
+      "institutions": "作者稿单位排版未完整保留，待 PDF 首页再核；联系单位为日本产业技术综合研究所",
+      "method": "v1 全文、图 1–3、制备和电学段。",
+      "access": "全文精读：v1 全文、图 1–3、制备和电学段。",
+      "readingStatus": "full",
+      "date": "2026-11-18 提交，19 日 API 核验；官方新批公告未确认",
+      "selectionStatus": "previous-day-backread",
+      "versionNote": "v1，公开 API 已核提交和版本；官网当前仍为 18 日批次，本稿尚不在该批清单。",
+      "conclusion": "Cd₂As 通量避开 KCdAs 竞争相，K 系单晶达到约厘米。本文直接建立生长和面内输运，未实测拓扑能带。",
+      "sections": [
+        {
+          "title": "生长路线与竞争相",
+          "text": "菱方 R-3m，元素 K 3N、Rb 3N+、Cd 6N、As 7N5。在 Ar 填充不锈钢密封容器中分别预合成 KAs（650 °C/10 h）、RbAs（650 °C/20 h）、Cd₂As（750 °C/20 h），再把前体混合于氧化铝坩埚并在 Ar 不锈钢容器长晶。950 °C 保温 10 h，以 2 °C/h 降至 550 °C。初始 Cd 通量配 KAs:Cd:As=1:8:2 生出妨碍长晶的 KCdAs，因此向三元图的另一侧选 Cd₂As 通量，并减小通量比例。KAs:Cd₂As=1:5 与 1:3 分别得到约 5×3×0.2、10×9×0.2 mm³ 片；RbAs:Cd₂As=1:3 给约 5×3×0.3 mm³。密封容器耐压与 Cd/As 操作需要现成专用条件，工艺不能迁移到普通开放熔剂炉。"
+        },
+        {
+          "title": "质量、测量和可复现限制",
+          "text": "EDX 给 K:Cd:As=1.03(1):4.01(1):2.96(1)，Rb=1.03(1):4.00(1):2.97(1)。Laue 三重对称支持宽面是 c 面；XRD c 分别为 36.0690(3)、37.1040(4) Å，完整占位精修、空间杂相检测极限、炉间收率正文未报告。a 轴方向高于 300 K 的 Seebeck/电阻与低温自制输运系统配对，两种晶体金属性温依赖且 Seebeck 负。RRR 约 37/11 是不同样品和成分，不能只凭 K 更大就判断所有品质更高。文提及既有理论的带反转，当前工作没有 ARPES/量子振荡作证。优先同一成分改变通量比例并统计片尺寸、K/Rb 分布和电阻比，在固定定向、接触与几何后比较输运；若较大晶仍有局部第二相，应先净化有效导电截面。"
+        }
+      ],
+      "readingGuide": {
+        "priority": "长晶方法优先",
+        "first": "图 1 三元相图、配方及 Laue，接图 2",
+        "focus": "RRR 与投料分配、尺寸和实际成分",
+        "next": "同成分比较 Cd 与 Cd₂As 并计杂相"
+      },
+      "tags": [
+        "中英文标题",
+        "arXiv",
+        "前日补读"
+      ],
+      "rating": "★★★★★",
+      "bodyChineseCharacters": 293
+    }
+  ],
+  "figures": [
+    {
+      "src": "/reports/2026-11-19/cs2pbi2cl2-eds-comparison.svg",
+      "title": "Cs₂PbI₂Cl₂ 源粉与薄膜 EDS 原子比例",
+      "source": "https://acs.figshare.com/articles/journal_contribution/35054897",
+      "caption": "依据公开 SI 图 S1、S4 的 EDS 数据原创重绘。源粉和膜的相对比例不同，不能据此唯一确定卤素空位或绝对化学式，需标准校准和多点复测。原始受限正文图片未使用。"
+    }
+  ],
+  "sourceAudit": [],
+  "readingAudit": {
+    "candidateAccessibleFullTexts": 3,
+    "selectedAccessibleFullTexts": 3,
+    "fullReads": 3,
+    "publisherFullReads": 1,
+    "earlyManuscriptReads": 0,
+    "siOnly": 1,
+    "abstractOnly": 0,
+    "institutionalSuccess": false,
+    "pending": [
+      {
+        "title": "Growth of Large-Area Two-Dimensional All-Inorganic Layered Halide Perovskite Single Crystals",
+        "reason": "ACS 主文 403。合法公开 SI 已读，完整长晶 Methods、主文显微结构和发光拟合待取得正式正文。"
+      }
+    ]
+  },
+  "researchIdeas": {
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-19",
+    "scope": "围绕本期已读 NbOCl₂ 的结构/光学证据检索 Cl/Br 混卤、AFE/FE 转换、专利与学位论文。",
+    "limitations": [
+      "定性物理假设，未合成、未计算、未测量，未确认稳定性和可合成性。",
+      "公开限定查新未穷尽中文和未索引的混卤系列。"
+    ],
+    "ideas": [
+      {
+        "id": "nboclbr-strain-polar-competition",
+        "kind": "material",
+        "status": "needs-review",
+        "paperIndex": 3,
+        "title": "在 NbOCl₂ 中稀量替 Cl 为 Br，检验化学压力对极性相竞争和机械转换阈值的影响",
+        "material": "NbO(Cl₁₋ₓBrₓ)₂，低 Br 区；期望卤位等价取代，实际位点偏好与互溶未知",
+        "evidenceLevel": "已读 arXiv:2611.24092v1 的图 1–5、Experimental。邻近纯 NbOBr₂、纯 NbOCl₂ 已有理论和实测；候选未合成、未计算、未测量。",
+        "question": "在相同厚度、同一可控拉伸结构和接触条件下，少量 Br 能否改变零应变 FE/AFE 共存比例，并系统改变对称性转换所需的机械应变？",
+        "prediction": "若 Br 均匀进入原 Cl 位且仍保持同一层状配位，Nb–卤键和层间极化率会变，卤素 p 轨道及 Peierls 链耦合也随之变化，可能使极性竞争更偏向 FE，表现为同应变下 SHG 活性区域比例增加、转换应变下降。若仅 Raman 和带边变化而 FE 比例/转换阈值不变，则否定这一极性选择趋势。趋势方向为本站假说，无能量差或临界数值预测。",
+        "basis": "文献事实是 NbOCl₂ 的暗/亮域与 Raman 指纹对应，机械弯曲可增强 SHG，已有 NbOBr₂ 的铁电实验。物理类比是 Br⁻/Cl⁻ 等价、Br 更易极化、对应相同配位的尺寸更大，可改变键角和层间作用。Nb 在名义式中为 +4、d¹，卤位等价替换不要求载流子补偿；卤空位、Nb 价态及竞争氧卤相需核验。选择相邻卤素降低相对 I 的尺寸跃迁风险，同时避免 Ta/Nb 改变 4d/5d 自旋轨道和成核机制。原子尺寸本身不保证固溶或降低相变阈值。",
+        "difference": "纯 Br 端元的铁电和纯 Cl 的应变转换都已存在。本案差别是低 Br、同相同厚度、成分实测配对的机械阈值系列，并用无金属凸起/可控拉伸排除近场增强。母论文的 Ag 线增强不重复包装为新方向。",
+        "plan": [
+          "先独立确认两端元与两个低 Br 投料点的长晶相；原 Nb₂O₅/Nb/NbCl₅ 路径不能简单把投料比例等同晶体 Br 含量，先小规模标定实际分配。",
+          "WDS 或校准 EDS 多点、XPS 价态与 XRD 共同检验相纯和局域成分；以截面或单晶结构确认卤位。",
+          "同厚度和取向下用非金属机械基台定量逐级拉伸，AFM 几何/偏振 Raman 与 SHG 联测；记录同位置亮域比例及恢复路径，再考虑电场扫描。"
+        ],
+        "controls": [
+          "同批纯 Cl、可获得同构的 Br 端元、至少两个实测低 x 晶体；相同厚度与晶轴、同形变和相同激光吸收热负载。",
+          "若测电场，交换源漏和接触材料，保留空白与扫速、等待对照。"
+        ],
+        "falsifiers": [
+          "出现相分离、卤素只在表面或不同结构相时，停止以均匀化学压力解释。",
+          "经结构和成分验证后若不见预期的共存比例或阈值趋势，否定此方向的简单机制。",
+          "若效应只在金属线附近或仅有单极迟滞，优先查近场、接触与离子迁移。"
+        ],
+        "feasibility": "已有受控密封 CVT 与耐卤条件时先长少量晶体，台式 Raman/AFM 筛查；SHG 和原子位移可合作。没有合适封管设施时先做现有端元的结构比较。",
+        "risks": "卤素不同挥发性、偏析、氧亏损、混合位点无序钉扎畴壁。更大软化可能使相变展宽，导致简单阈值无定义。",
+        "nextStep": "先确认同构端元和实际 Br 分配，再设计统一的应变协议。",
+        "queries": [
+          "NbOCl2 Br solid solution",
+          "NbOCl NbOBr alloy mixed halide antiferroelectric",
+          "NbOCl2 thesis antiferroelectric bromine",
+          "site:patents.google.com NbOCl2 bromine chlorine solid solution"
+        ],
+        "remainingChecks": [
+          "待核混卤的其它化学式和命名、Br 位点选择、未索引论文与专利族权利要求；尚不确认新颖性。"
+        ],
+        "priorArt": [
+          {
+            "title": "Strain-tunable competing polar orders in NbOCl₂",
+            "url": "https://doi.org/10.1103/tzk8-nqby",
+            "overlap": "PRL 已于 2026-10-20 接受极性共存和可逆拉伸转换，纯 Cl 直接拉伸已有。",
+            "access": "APS 已接受公开摘要"
+          },
+          {
+            "title": "Niobium oxide dihalides NbOX₂: a new family ... ferroelectricity and antiferroelectricity",
+            "url": "https://doi.org/10.1039/C9NH00208A",
+            "overlap": "Cl/Br/I 端元及极性竞争的理论设计已有。",
+            "access": "MIT 机构公开摘要及合法稿线索"
+          },
+          {
+            "title": "Peierls Distortion Induced Giant Linear Dichroism, Second-Harmonic Generation, and In-Plane Ferroelectricity in NbOBr₂",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39523746/",
+            "overlap": "纯 Br 端元有实验，不能称其为新材料预测。",
+            "access": "作者题录与摘要"
+          },
+          {
+            "title": "Exploring Optoelectronic Properties of Twisted and Intercalated Niobium Oxide Dihalides",
+            "url": "https://dspace.mit.edu/entities/publication/3a396ff0-f07d-460c-a742-533adb7a0f6b",
+            "overlap": "2024 学位论文讨论扭转、插层和光学，未在已阅摘要确认混卤机械阈值系列。",
+            "access": "高校目录与摘要"
+          },
+          {
+            "title": "Electro-optic modulator",
+            "url": "https://patents.google.com/patent/WO2026079972A1/en",
+            "overlap": "AOX₂ FE/AFE 电光调制范围广，待核混卤是否落入实际权利要求。",
+            "access": "公开说明书相关段落"
+          }
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "title": "纯 NbOCl₂ 通过拉伸得到 FE/AFE 转换",
+        "reason": "已在近邻 PRL 接受稿和母体实验中出现。",
+        "url": "https://doi.org/10.1103/tzk8-nqby"
+      },
+      {
+        "title": "把 Cs₂PbI₂Cl₂ 晶体本身当作新组分预测",
+        "reason": "本期 ACS Nano 已制备，相关原理和来源专利亦存在。",
+        "url": "https://doi.org/10.1021/acsnano.6c03302"
+      }
+    ]
+  },
+  "auditUrl": "/reports/2026-11-19/audit.json",
+  "searchTerms": [
+    "先核所有指定出版社的在线、Early View 和接受目录、逐刊 Crossref，再查 arXiv。部分 APS 快照为 18 日，Science/Wiley/ACS 有访问验证。各轨命中、排除及失败见审计。",
+    "arXiv 官网三路径均为 18 日 95 新投、36 交叉、72 替换，共 203 条。与昨日逐条筛选/API 记录逐 ID 核对。19 日官方批次尚未确认，不发布当日零新增判断。",
+    "API 按 UTC 18 日提交返回 54 条，已逐题逐摘要筛选；UTC 19 日暂空不代表 19 日官方零新增。两篇入选预印本明确计为前日提交补读。",
+    "Nature 于 18 日正式上线且未在昨日简报收录，本期明确补读。所有入选按 DOI/arXiv ID/题名与历史去重；无重复收录。",
+    "ACS Nano 官方 SI 可读但主文仍受限，按 SI 精读计数。参考数值与 Methods 缺项逐篇注明，全文计数保持 3。"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-19",
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-19",
+  "scope": "围绕本期已读 NbOCl₂ 的结构/光学证据检索 Cl/Br 混卤、AFE/FE 转换、专利与学位论文。",
+  "limitations": [
+    "定性物理假设，未合成、未计算、未测量，未确认稳定性和可合成性。",
+    "公开限定查新未穷尽中文和未索引的混卤系列。"
+  ],
+  "ideas": [
+    {
+      "id": "nboclbr-strain-polar-competition",
+      "kind": "material",
+      "status": "needs-review",
+      "paperIndex": 3,
+      "title": "在 NbOCl₂ 中稀量替 Cl 为 Br，检验化学压力对极性相竞争和机械转换阈值的影响",
+      "material": "NbO(Cl₁₋ₓBrₓ)₂，低 Br 区；期望卤位等价取代，实际位点偏好与互溶未知",
+      "evidenceLevel": "已读 arXiv:2611.24092v1 的图 1–5、Experimental。邻近纯 NbOBr₂、纯 NbOCl₂ 已有理论和实测；候选未合成、未计算、未测量。",
+      "question": "在相同厚度、同一可控拉伸结构和接触条件下，少量 Br 能否改变零应变 FE/AFE 共存比例，并系统改变对称性转换所需的机械应变？",
+      "prediction": "若 Br 均匀进入原 Cl 位且仍保持同一层状配位，Nb–卤键和层间极化率会变，卤素 p 轨道及 Peierls 链耦合也随之变化，可能使极性竞争更偏向 FE，表现为同应变下 SHG 活性区域比例增加、转换应变下降。若仅 Raman 和带边变化而 FE 比例/转换阈值不变，则否定这一极性选择趋势。趋势方向为本站假说，无能量差或临界数值预测。",
+      "basis": "文献事实是 NbOCl₂ 的暗/亮域与 Raman 指纹对应，机械弯曲可增强 SHG，已有 NbOBr₂ 的铁电实验。物理类比是 Br⁻/Cl⁻ 等价、Br 更易极化、对应相同配位的尺寸更大，可改变键角和层间作用。Nb 在名义式中为 +4、d¹，卤位等价替换不要求载流子补偿；卤空位、Nb 价态及竞争氧卤相需核验。选择相邻卤素降低相对 I 的尺寸跃迁风险，同时避免 Ta/Nb 改变 4d/5d 自旋轨道和成核机制。原子尺寸本身不保证固溶或降低相变阈值。",
+      "difference": "纯 Br 端元的铁电和纯 Cl 的应变转换都已存在。本案差别是低 Br、同相同厚度、成分实测配对的机械阈值系列，并用无金属凸起/可控拉伸排除近场增强。母论文的 Ag 线增强不重复包装为新方向。",
+      "plan": [
+        "先独立确认两端元与两个低 Br 投料点的长晶相；原 Nb₂O₅/Nb/NbCl₅ 路径不能简单把投料比例等同晶体 Br 含量，先小规模标定实际分配。",
+        "WDS 或校准 EDS 多点、XPS 价态与 XRD 共同检验相纯和局域成分；以截面或单晶结构确认卤位。",
+        "同厚度和取向下用非金属机械基台定量逐级拉伸，AFM 几何/偏振 Raman 与 SHG 联测；记录同位置亮域比例及恢复路径，再考虑电场扫描。"
+      ],
+      "controls": [
+        "同批纯 Cl、可获得同构的 Br 端元、至少两个实测低 x 晶体；相同厚度与晶轴、同形变和相同激光吸收热负载。",
+        "若测电场，交换源漏和接触材料，保留空白与扫速、等待对照。"
+      ],
+      "falsifiers": [
+        "出现相分离、卤素只在表面或不同结构相时，停止以均匀化学压力解释。",
+        "经结构和成分验证后若不见预期的共存比例或阈值趋势，否定此方向的简单机制。",
+        "若效应只在金属线附近或仅有单极迟滞，优先查近场、接触与离子迁移。"
+      ],
+      "feasibility": "已有受控密封 CVT 与耐卤条件时先长少量晶体，台式 Raman/AFM 筛查；SHG 和原子位移可合作。没有合适封管设施时先做现有端元的结构比较。",
+      "risks": "卤素不同挥发性、偏析、氧亏损、混合位点无序钉扎畴壁。更大软化可能使相变展宽，导致简单阈值无定义。",
+      "nextStep": "先确认同构端元和实际 Br 分配，再设计统一的应变协议。",
+      "queries": [
+        "NbOCl2 Br solid solution",
+        "NbOCl NbOBr alloy mixed halide antiferroelectric",
+        "NbOCl2 thesis antiferroelectric bromine",
+        "site:patents.google.com NbOCl2 bromine chlorine solid solution"
+      ],
+      "remainingChecks": [
+        "待核混卤的其它化学式和命名、Br 位点选择、未索引论文与专利族权利要求；尚不确认新颖性。"
+      ],
+      "priorArt": [
+        {
+          "title": "Strain-tunable competing polar orders in NbOCl₂",
+          "url": "https://doi.org/10.1103/tzk8-nqby",
+          "overlap": "PRL 已于 2026-10-20 接受极性共存和可逆拉伸转换，纯 Cl 直接拉伸已有。",
+          "access": "APS 已接受公开摘要"
+        },
+        {
+          "title": "Niobium oxide dihalides NbOX₂: a new family ... ferroelectricity and antiferroelectricity",
+          "url": "https://doi.org/10.1039/C9NH00208A",
+          "overlap": "Cl/Br/I 端元及极性竞争的理论设计已有。",
+          "access": "MIT 机构公开摘要及合法稿线索"
+        },
+        {
+          "title": "Peierls Distortion Induced Giant Linear Dichroism, Second-Harmonic Generation, and In-Plane Ferroelectricity in NbOBr₂",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39523746/",
+          "overlap": "纯 Br 端元有实验，不能称其为新材料预测。",
+          "access": "作者题录与摘要"
+        },
+        {
+          "title": "Exploring Optoelectronic Properties of Twisted and Intercalated Niobium Oxide Dihalides",
+          "url": "https://dspace.mit.edu/entities/publication/3a396ff0-f07d-460c-a742-533adb7a0f6b",
+          "overlap": "2024 学位论文讨论扭转、插层和光学，未在已阅摘要确认混卤机械阈值系列。",
+          "access": "高校目录与摘要"
+        },
+        {
+          "title": "Electro-optic modulator",
+          "url": "https://patents.google.com/patent/WO2026079972A1/en",
+          "overlap": "AOX₂ FE/AFE 电光调制范围广，待核混卤是否落入实际权利要求。",
+          "access": "公开说明书相关段落"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "title": "纯 NbOCl₂ 通过拉伸得到 FE/AFE 转换",
+      "reason": "已在近邻 PRL 接受稿和母体实验中出现。",
+      "url": "https://doi.org/10.1103/tzk8-nqby"
+    },
+    {
+      "title": "把 Cs₂PbI₂Cl₂ 晶体本身当作新组分预测",
+      "reason": "本期 ACS Nano 已制备，相关原理和来源专利亦存在。",
+      "url": "https://doi.org/10.1021/acsnano.6c03302"
+    }
+  ]
+}
