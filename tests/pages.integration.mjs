@@ -230,7 +230,13 @@ test('current brief preserves bilingual titles, reading counts and screened sour
  const audit=JSON.parse(await readFile(new URL(`reports/${r.date}/audit.json`,dir),'utf8'));
  for(const p of r.papers){assert(page.includes(p.titleZh));assert(home.includes(p.titleZh));assert.match(p.doi,/^https:\/\//);}
  assert.equal((page.match(/id="paper-\d+"/g)||[]).length,r.papers.length);
- assert.equal(r.readingAudit.fullReads,r.papers.filter(p=>p.access.startsWith('全文精读')).length);
+ assert.equal(r.readingAudit.fullReads,r.papers.filter(p=>p.access.startsWith('全文精读')||p.access.startsWith('早期公开稿')).length);
+ if(r.papers.every(p=>p.readingStatus)) {
+  assert.equal(r.papers.filter(p=>p.readingStatus==='full').length,r.readingAudit.fullReads);
+  assert.equal(r.papers.filter(p=>p.readingStatus==='abstract').length,r.readingAudit.abstractOnly);
+ }
+ const archive=await readFile(new URL('archive/index.html',dir),'utf8');
+ assert(archive.includes(`/reports/${r.date}`));
  assert.equal(audit.officialBatchDecisions.length,audit.arxivOfficialCounts.total);
  assert(r.researchIdeas.ideas.length>=1&&r.researchIdeas.ideas.length<=3);
  assert(r.researchIdeas.ideas.every(i=>['needs-review','not-found-in-scope'].includes(i.status)));

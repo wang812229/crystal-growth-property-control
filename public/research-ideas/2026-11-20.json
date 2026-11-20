@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-20",
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-20",
+  "scope": "围绕本期 Yb₂MoO₆ 单晶，核查稀土钼酸盐同构近邻、Lu 端元及稀释晶场/交换的论文、预印本与学位目录。",
+  "limitations": [
+    "未合成、未计算、未测量；未确认稳定性、互溶度或新颖性。",
+    "专利库请求超时，学位目录仅核 OpenAlex 词检索，不代表其他数据库无记录。"
+  ],
+  "ideas": [
+    {
+      "id": "yb-lu-molybdate-exchange-dilution",
+      "kind": "material",
+      "status": "needs-review",
+      "paperIndex": 1,
+      "title": "用 Lu 稀释 Yb₂MoO₆：负 Weiss 温度究竟来自反铁磁交换，还是单离子晶场？",
+      "material": "(Yb₁₋ₓLuₓ)₂MoO₆；假设 Lu³⁺占 Yb³⁺ 位，三个不等价位点的实际占位待核。",
+      "evidenceLevel": "母体实际读了图 1–6、表 1–3、Methods 与 S1–S3；C2/c 单晶精修、三类 Yb 位点及磁化率温区拟合已读。候选为定性物理假设。",
+      "question": "在平均晶格和局部配位近似不变时，逐步减少 Yb–Yb 交换键，能否使每个剩余 Yb 的低温磁响应接近孤立离子极限？",
+      "prediction": "若母体的低温负 Weiss 偏移主要来自 Yb–Yb 交换，按实测 Yb 分数归一后，在确有线性区的低温窗口，随 Lu 增加交换贡献的绝对值应变小、低温短程关联特征减弱；若没有线性窗则改用同温同场点的直接响应，不硬拟合 Weiss 温度；高温单离子有效矩和晶场激发若仍近似保持，则是区分交换与晶场的正交判据。若负曲率和各向异性基本不变，则优先检验晶场占据；若同时发生明显谱位移，不能用单纯磁稀释判定机制。",
+      "basis": "Lu³⁺闭壳层 4f¹⁴，区别于 Yb³⁺的 4f¹³；等价替换不要求名义电荷补偿，同配位下二者尺寸相近，预期化学压力小于改用 Y³⁺，但配位可能不同、Mo 价态与 O 空位可能变化。假设优先保留 Yb–O–Mo 网络，而改变 Yb–Yb 磁键概率。文献事实是母体有不同稀土位点和温区依赖磁拟合，尚未区分所有交换路径。",
+      "difference": "近邻已有若干纯稀土 R₂MoO₆ 的结构和 Lu₂MoO₆:Eu 光催化线索；待核的是 Lu/Yb 实际组成、位点和低温各向异性组成系列，不能把 Lu 端元当成新化合物。",
+      "plan": [
+        "同母体路线先小批验证母相，设两个名义低 x 成分及 x=0；用 WDS/ICP 给真实取代量，不把投料作为占位。",
+        "用 XRD/单晶精修和微区元素图排查 Yb/Lu 分相，核对三个稀土位点能否分辨；用定向 χ、M(H) 与比热交叉。",
+        "以相同温场窗口与拟合方式给出每个 Yb 的信号，若可取得同构端元，用其作背景，并比较至少两炉。"
+      ],
+      "controls": [
+        "同批母体；同构 Lu 端元若可独立确认；至少两个实测低 x；冷却史、定轴和电子温度一致。",
+        "有条件应用母体的小压力结构变化作为非稀释比较；否定把化学压力自动等同为静水压。"
+      ],
+      "falsifiers": [
+        "分相、位点高度选择或母相改变时，停止使用均匀随机稀释模型。",
+        "各向异性、低温磁偏移不随真实组成改变，或完全伴随晶场级间距变化，否定简单的交换稀释解释。"
+      ],
+      "feasibility": "已有高温空气炉、Laue、XRD/EDS 可先筛查；WDS 与低温磁热/晶场谱需要仪器共享。先确认固溶再争取低温机时。",
+      "risks": "富 Mo 路线的副相与 Mo 氧化物挥发会影响真实成分；晶体脆且位点选择可能模拟磁性稀释，Cu Kα 粉末谱不能单独定量全部问题。",
+      "nextStep": "先用 0 和两个低 x 的重复投料验相、验真实组成，然后判定是否进行定向低温磁性及热容。",
+      "queries": [
+        "Yb2MoO6 Lu2MoO6 solid solution molybdate diamagnetic dilution magnetic susceptibility",
+        "(Yb,Lu)2MoO6 rare earth molybdate Yb Lu substitution",
+        "Yb2MoO6 ytterbium molybdate（OpenAlex dissertations）",
+        "Lu2MoO6 molybdate Yb (Google Patents；请求超时)"
+      ],
+      "remainingChecks": [
+        "补查高校学位全文、化学式变体、含 Lu/Yb 的完整专利族及权利要求。",
+        "先核 Lu 端元与 Yb 母体是否同构并核氧计量；查新不充分不建议承诺立项。"
+      ],
+      "priorArt": [
+        {
+          "title": "Growth, Structure and Properties of Yb₂MoO₆ Single Crystals",
+          "url": "https://arxiv.org/abs/2611.25225",
+          "overlap": "母体单晶和磁性研究；候选问题由三种 Yb 位点和磁性拟合边界导出。",
+          "access": "已读正文及补充图表"
+        },
+        {
+          "title": "R₂MoO₆ rare-earth molybdates",
+          "url": "https://doi.org/10.1016/j.jssc.2004.03.046",
+          "overlap": "Dy、Ho、Er、Tm、Yb、Y 相关纯相结构；不验证 Lu/Yb 固溶。",
+          "access": "正式题录与摘要线索"
+        },
+        {
+          "title": "Lu₂MoO₆:Eu/G-C₃N₄ photocatalyst preprint",
+          "url": "https://doi.org/10.2139/ssrn.4893028",
+          "overlap": "Lu 端元化学组成的发光/光催化线索，非 Yb 稀释磁性；结构同构待核。",
+          "access": "Crossref 题录"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "title": "把 Lu₂MoO₆ 纯端元直接列为新材料",
+      "reason": "公开预印本已有端元组成线索；应转向同构确认与 Lu/Yb 磁稀释。",
+      "url": "https://doi.org/10.2139/ssrn.4893028"
+    }
+  ]
+}
