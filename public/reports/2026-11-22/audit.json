@@ -1,0 +1,2179 @@
+{
+  "date": "2026-11-22",
+  "window": "北京时间 2026-11-22 00:00–23:59 回溯（11 月 23 日核验）；出版社在线或接受日期按原站记录。",
+  "coverageComplete": false,
+  "counts": {
+    "total": 2,
+    "formal": 2,
+    "accepted": 0,
+    "arxiv": 0,
+    "full": 2,
+    "abstract": 0,
+    "siOnly": 0,
+    "categories": 2,
+    "ideas": 1,
+    "arxivDailyConfirmed": false
+  },
+  "journalAudit": [
+    {
+      "source": "prl",
+      "url": "https://api.crossref.org/journals/1079-7114/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/1079-7114/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "prb",
+      "url": "https://api.crossref.org/journals/2469-9969/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/2469-9969/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "prmaterials",
+      "url": "https://api.crossref.org/journals/2475-9953/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "prx",
+      "url": "https://api.crossref.org/journals/2160-3308/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/2160-3308/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "prresearch",
+      "url": "https://api.crossref.org/journals/2643-1564/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 1,
+      "rows": [
+        {
+          "doi": "10.1103/x26z-fd3j",
+          "title": "Transient relaxation speed and the multi-Mpemba effect in a trapped-ion system",
+          "date": "2026-11-22",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        }
+      ],
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/2643-1564/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "429",
+            ""
+          ],
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 4
+      },
+      "hits": 1,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "prapplied",
+      "url": "https://api.crossref.org/journals/2331-7019/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/2331-7019/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "pra",
+      "url": "https://api.crossref.org/journals/2469-9934/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/2469-9934/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "429",
+            ""
+          ],
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "pre",
+      "url": "https://api.crossref.org/journals/2470-0053/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/2470-0053/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 1
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "prc",
+      "url": "https://api.crossref.org/journals/2469-9993/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/2469-9993/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "prd",
+      "url": "https://api.crossref.org/journals/2470-0029/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/2470-0029/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "429",
+            ""
+          ],
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "rmp",
+      "url": "https://api.crossref.org/journals/1539-0756/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/1539-0756/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "prxquantum",
+      "url": "https://api.crossref.org/journals/2691-3399/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/2691-3399/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "prxenergy",
+      "url": "https://api.crossref.org/journals/2768-5608/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/2768-5608/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "prfluids",
+      "url": "https://api.crossref.org/journals/2469-990X/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/2469-990X/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "prab",
+      "url": "https://api.crossref.org/journals/2469-9885/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "404",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "prper",
+      "url": "https://api.crossref.org/journals/2469-9893/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "404",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "ACS Applied Materials & Interfaces",
+      "url": "https://api.crossref.org/journals/1944-8252/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/1944-8252/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 9
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Chinese Physics Letters",
+      "url": "https://api.crossref.org/journals/1741-3540/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/1741-3540/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Journal of Alloys and Compounds",
+      "url": "https://api.crossref.org/journals/0925-8388/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/0925-8388/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Journal of Solid State Chemistry",
+      "url": "https://api.crossref.org/journals/0022-4596/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/0022-4596/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Nature",
+      "url": "https://api.crossref.org/journals/1476-4687/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/1476-4687/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Nature Physics",
+      "url": "https://api.crossref.org/journals/1745-2481/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/1745-2481/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Nature Communications",
+      "url": "https://api.crossref.org/journals/2041-1723/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [
+        {
+          "doi": "10.1038/s41467-026-79485-7",
+          "title": "Heparan sulfate sulfatases are essential for the patterning of human stem cell-derived midbrain dopaminergic neurons",
+          "date": "2026-11-22",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1038/s41467-026-79404-w",
+          "title": "A quantitative deep-learning-based framework reveals a continuum of chromatin sensitivities across transcription factors",
+          "date": "2026-11-22",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1038/s41467-026-79507-4",
+          "title": "Super-resolution microscopy reveals distinct epigenetic states regulated by estrogen receptor activity",
+          "date": "2026-11-22",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1038/s41467-026-79747-4",
+          "title": "Chronically stable, frequency-selective auditory brainstem stimulation via ultra-flexible penetrating electrode arrays",
+          "date": "2026-11-22",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1038/s41467-026-79707-y",
+          "title": "Denitrogenative glycosylations of glycosyl sulfonohydrazides",
+          "date": "2026-11-22",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1038/s41467-026-79344-5",
+          "title": "Desmin filaments extend along actin filaments within the mouse skeletal muscle sarcomere",
+          "date": "2026-11-22",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1038/s41467-026-79723-y",
+          "title": "Foliar and floral frost damage reshape reproductive phenology with limited carry-over effects",
+          "date": "2026-11-22",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1038/s41467-026-79465-x",
+          "title": "The genetic and proteomic determinants of pediatric stature development and their link to adult height and type 2 diabetes",
+          "date": "2026-11-22",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1038/s41467-026-79400-0",
+          "title": "Benzoxaboroles target CPSF3 for degradation through a SUMO-dependent pathway in trypanosomes",
+          "date": "2026-11-22",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1038/s41467-026-79559-6",
+          "title": "Electrically induced glass transition of polyelectrolyte complexes enables kinetic ionic diodes",
+          "date": "2026-11-22",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "doi": "10.1038/s41467-026-79544-z",
+          "title": "Episodic memory consolidation by reactivation of human concept neurons during sleep reflects contents, not sequence of events",
+          "date": "2026-11-22",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        }
+      ],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/2041-1723/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "429",
+            ""
+          ],
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 29
+      },
+      "hits": 11,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "npj Quantum Materials",
+      "url": "https://api.crossref.org/journals/2397-4648/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/2397-4648/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "npj 2D Materials and Applications",
+      "url": "https://api.crossref.org/journals/2397-7132/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/2397-7132/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Communications Materials",
+      "url": "https://api.crossref.org/journals/2662-4443/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/2662-4443/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Communications Physics",
+      "url": "https://api.crossref.org/journals/2399-3650/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/2399-3650/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://api.crossref.org/journals/1476-4660/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/1476-4660/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Science",
+      "url": "https://api.crossref.org/journals/1095-9203/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/1095-9203/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Science Advances",
+      "url": "https://api.crossref.org/journals/2375-2548/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/2375-2548/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Advanced Materials",
+      "url": "https://api.crossref.org/journals/1521-4095/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/1521-4095/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Advanced Functional Materials",
+      "url": "https://api.crossref.org/journals/1616-3028/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/1616-3028/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Nano Letters",
+      "url": "https://api.crossref.org/journals/1530-6992/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [
+        {
+          "doi": "10.1021/acs.nanolett.6c05655",
+          "title": "Correction\nto “Surface-Neutralized HgCdSe Quantum\nDots for High-Detectivity Infrared Photodetectors”",
+          "date": "2026-11-22",
+          "decision": "exclude",
+          "reason": "正式更正不是独立研究，本次未重收。"
+        }
+      ],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/1530-6992/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 5
+      },
+      "hits": 1,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "ACS Nano",
+      "url": "https://api.crossref.org/journals/1936-086X/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/1936-086X/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 5
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "JACS",
+      "url": "https://api.crossref.org/journals/1520-5126/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/1520-5126/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "429",
+            ""
+          ],
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 13
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Chemistry of Materials",
+      "url": "https://api.crossref.org/journals/1520-5002/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Crystal Growth & Design",
+      "url": "https://api.crossref.org/journals/1528-7505/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Journal of Crystal Growth",
+      "url": "https://api.crossref.org/journals/0022-0248/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "APL Materials",
+      "url": "https://api.crossref.org/journals/2166-532X/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/2166-532X/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "2D Materials",
+      "url": "https://api.crossref.org/journals/2053-1583/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/2053-1583/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Acta Materialia",
+      "url": "https://api.crossref.org/journals/1359-6454/works?filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/1359-6454/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "429",
+            ""
+          ],
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "npj Computational Materials",
+      "rows": [
+        {
+          "doi": "10.1038/s41524-026-02390-6",
+          "title": "Strain-driven and electric-field-tunable self-morphotropic phase boundary in nitride perovskite",
+          "date": "2026-11-22",
+          "decision": "include",
+          "reason": "当日正式上线或公开接受，访问层级见本期正文。"
+        }
+      ],
+      "total": null,
+      "attempts": [],
+      "url": "https://api.crossref.org/journals/2057-3960/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/2057-3960/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 2
+      },
+      "hits": 1,
+      "included": 1,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Scientific Data",
+      "rows": [
+        {
+          "doi": "10.1038/s41597-026-08651-9",
+          "title": "LangFabric: A Language-Annotated Multimodal Fabric Dataset for Fabric Defect Detection",
+          "date": "2026-11-22",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1038/s41597-026-08351-4",
+          "title": "Gridded data of pastoralist and agro-pastoralist population distribution across Africa",
+          "date": "2026-11-22",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1038/s41597-026-08641-x",
+          "title": "Vehicle registrations, socioeconomic and political data to understand electric vehicle adoption in Alabama",
+          "date": "2026-11-22",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1038/s41597-026-08703-0",
+          "title": "A Multimodal Dataset of 18th-Century Prints for Segmentation and Analysis of Rocaille Ornaments",
+          "date": "2026-11-22",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1038/s41597-026-08649-3",
+          "title": "Spin-Polarised Electronic Structure and Chemical Bonding Data for 2,500+ Halide Double Perovskites",
+          "date": "2026-11-22",
+          "decision": "include",
+          "reason": "当日正式上线或公开接受，访问层级见本期正文。"
+        },
+        {
+          "doi": "10.1038/s41597-026-08691-1",
+          "title": "An N-of-1 longitudinal and multimodal physiological dataset from para-handcycling training and endurance competition",
+          "date": "2026-11-22",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1038/s41597-026-08657-3",
+          "title": "A dataset of bullet impact images for ballistic trajectory reconstruction in crime scene investigation using Deep Learning",
+          "date": "2026-11-22",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "doi": "10.1038/s41597-026-08677-z",
+          "title": "Wide Angle X-Ray Scattering Data Set of Gypsum Compounds",
+          "date": "2026-11-22",
+          "decision": "exclude",
+          "reason": "与本期优先的具体晶体生长、磁性与量子输运实验关联不足。"
+        },
+        {
+          "doi": "10.1038/s41597-026-08523-2",
+          "title": "A Large-Scale In Vivo Ultrasound Localization Microscopy Dataset of the Mouse Brain for Microvascular Imaging",
+          "date": "2026-11-22",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1038/s41597-026-08841-5",
+          "title": "Chromosome-level genome assembly and annotation of Agasicles hygrophila (Coleoptera: Chrysomelidae), a host-specific biocontrol agent",
+          "date": "2026-11-22",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        }
+      ],
+      "total": null,
+      "attempts": [],
+      "url": "https://api.crossref.org/journals/2052-4463/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/2052-4463/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 30
+      },
+      "hits": 10,
+      "included": 1,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Applied Physics Letters",
+      "rows": [],
+      "total": null,
+      "attempts": [],
+      "url": "https://api.crossref.org/journals/1077-3118/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "rangeRetry": {
+        "url": "https://api.crossref.org/journals/1077-3118/works?filter=from-online-pub-date%3A2026-11-21%2Cuntil-online-pub-date%3A2026-11-23&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+        "attempts": [
+          [
+            "200",
+            ""
+          ]
+        ],
+        "rangeHits": 0
+      },
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    }
+  ],
+  "publisherSnapshots": [
+    {
+      "key": "aps-prl",
+      "url": "https://journals.aps.org/prl/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-prb",
+      "url": "https://journals.aps.org/prb/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-prmaterials",
+      "url": "https://journals.aps.org/prmaterials/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-prx",
+      "url": "https://journals.aps.org/prx/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "nature",
+      "url": "https://www.nature.com/nature/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "hits": 0,
+      "included": 0,
+      "latestVisibleDate": "2026-11-19",
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "nphys",
+      "url": "https://www.nature.com/nphys/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "hits": 0,
+      "included": 0,
+      "latestVisibleDate": "2026-11-16",
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "ncomm",
+      "url": "https://www.nature.com/ncomms/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "hits": 11,
+      "included": 0,
+      "latestVisibleDate": "2026-11-22",
+      "rows": [
+        {
+          "title": "Electrically induced glass transition of polyelectrolyte complexes enables kinetic ionic diodes",
+          "link": "/articles/s41467-026-79559-6",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "title": "The genetic and proteomic determinants of pediatric stature development and their link to adult height and type 2 diabetes",
+          "link": "/articles/s41467-026-79465-x",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "title": "A quantitative deep-learning-based framework reveals a continuum of chromatin sensitivities across transcription factors",
+          "link": "/articles/s41467-026-79404-w",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Benzoxaboroles target CPSF3 for degradation through a SUMO-dependent pathway in trypanosomes",
+          "link": "/articles/s41467-026-79400-0",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Foliar and floral frost damage reshape reproductive phenology with limited carry-over effects",
+          "link": "/articles/s41467-026-79723-y",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "title": "Chronically stable, frequency-selective auditory brainstem stimulation via ultra-flexible penetrating electrode arrays",
+          "link": "/articles/s41467-026-79747-4",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "title": "Desmin filaments extend along actin filaments within the mouse skeletal muscle sarcomere",
+          "link": "/articles/s41467-026-79344-5",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Denitrogenative glycosylations of glycosyl sulfonohydrazides",
+          "link": "/articles/s41467-026-79707-y",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "title": "Super-resolution microscopy reveals distinct epigenetic states regulated by estrogen receptor activity",
+          "link": "/articles/s41467-026-79507-4",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Heparan sulfate sulfatases are essential for the patterning of human stem cell-derived midbrain dopaminergic neurons",
+          "link": "/articles/s41467-026-79485-7",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Episodic memory consolidation by reactivation of human concept neurons during sleep reflects contents, not sequence of events",
+          "link": "/articles/s41467-026-79544-z",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        }
+      ],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "npj",
+      "url": "https://www.nature.com/npjquantmats/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "hits": 0,
+      "included": 0,
+      "latestVisibleDate": "2026-11-14",
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "comm-mat",
+      "url": "https://www.nature.com/commsmat/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "hits": 0,
+      "included": 0,
+      "latestVisibleDate": "2026-11-20",
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "nmat",
+      "url": "https://www.nature.com/nmat/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "hits": 0,
+      "included": 0,
+      "latestVisibleDate": "2026-11-20",
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "science",
+      "url": "https://www.science.org/journal/science/firstrelease",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "sciadv",
+      "url": "https://www.science.org/toc/sciadv/current",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "am",
+      "url": "https://advanced.onlinelibrary.wiley.com/toc/15214095/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "afm",
+      "url": "https://advanced.onlinelibrary.wiley.com/toc/16163028/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "nanolett",
+      "url": "https://pubs.acs.org/toc/nalefd/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "acsnano",
+      "url": "https://pubs.acs.org/toc/ancac3/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "jacs",
+      "url": "https://pubs.acs.org/toc/jacsat/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "cm",
+      "url": "https://pubs.acs.org/toc/cmatex/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "cgd",
+      "url": "https://pubs.acs.org/toc/cgdefu/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "jcg",
+      "url": "https://www.sciencedirect.com/journal/journal-of-crystal-growth/articles-in-press",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "acc-prl",
+      "url": "https://journals.aps.org/prl/accepted",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "acc-prb",
+      "url": "https://journals.aps.org/prb/accepted",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "acc-prmaterials",
+      "url": "https://journals.aps.org/prmaterials/accepted",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-pra",
+      "url": "https://journals.aps.org/pra/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-prc",
+      "url": "https://journals.aps.org/prc/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-prd",
+      "url": "https://journals.aps.org/prd/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-pre",
+      "url": "https://journals.aps.org/pre/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-prresearch",
+      "url": "https://journals.aps.org/prresearch/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-prapplied",
+      "url": "https://journals.aps.org/prapplied/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-rmp",
+      "url": "https://journals.aps.org/rmp/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-prxquantum",
+      "url": "https://journals.aps.org/prxquantum/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-prxenergy",
+      "url": "https://journals.aps.org/prxenergy/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-prfluids",
+      "url": "https://journals.aps.org/prfluids/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-prab",
+      "url": "https://journals.aps.org/prab/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-prper",
+      "url": "https://journals.aps.org/prper/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "npg",
+      "url": "https://www.nature.com/am/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "hits": 0,
+      "included": 0,
+      "latestVisibleDate": "2026-11-18",
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "nano",
+      "url": "https://www.nature.com/nnano/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "hits": 0,
+      "included": 0,
+      "latestVisibleDate": "2026-11-20",
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "cross-superconductivity",
+      "url": "https://api.crossref.org/works?query.bibliographic=superconductivity&filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22%2Ctype%3Ajournal-article&rows=100",
+      "attempts": [
+        "429",
+        "429"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "cross-quantum",
+      "url": "https://api.crossref.org/works?query.bibliographic=quantum+materials&filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22%2Ctype%3Ajournal-article&rows=100",
+      "attempts": [
+        "429",
+        "429"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "cross-crystal",
+      "url": "https://api.crossref.org/works?query.bibliographic=crystal+growth&filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22%2Ctype%3Ajournal-article&rows=100",
+      "attempts": [
+        "429",
+        "429"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "cross-magnetic",
+      "url": "https://api.crossref.org/works?query.bibliographic=magnetic+topology&filter=from-online-pub-date%3A2026-11-22%2Cuntil-online-pub-date%3A2026-11-22%2Ctype%3Ajournal-article&rows=100",
+      "attempts": [
+        "200"
+      ],
+      "hits": 12,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [
+        {
+          "title": "Emulsion Topology Modulates Foliar Delivery across Structured Leaf Interfaces",
+          "id": "10.1002/advs.78912",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "title": "Topology of brain-wide co-fluctuations distinguishes task states and shows associations with personality and behavioral symptoms",
+          "id": "10.1038/s42003-026-11292-8",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Coupled water–sediment modeling in the Yellow River Basin using a physics-guided LSTM–GNN framework incorporating river network topology",
+          "id": "10.1080/20964471.2026.2746174",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "title": "Editorial for “Quantitative UTE MRI Differences in the Meniscus Following ACL Reconstruction: A Prospective Cohort Study Using 3D Ultrashort Echo Time Adiabatic T1rho and Magnetization Transfer Imaging”",
+          "id": "10.1002/jmri.70627",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Microstructural changes in radiochromic film and dosimetry in magnetic field",
+          "id": "10.1038/s41598-026-56135-y",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Charged-Particle Capture by a Schwarzschild Black Hole Equipped\nwith a Dipole Magnetic Field",
+          "id": "10.64589/juri/231594",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "title": "Machine learning prediction of magnetic ordering temperatures: Accelerating the search for above-room-temperature magnets for energy-efficient computing",
+          "id": "10.1557/s43579-026-01083-x",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "title": "Reflection of Plane Waves in a Bio‐Thermodiffusive Medium Under the Influence of Rotation and Magnetic Field With Hall Current",
+          "id": "10.1002/htj.70423",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "title": "Visualizing the inferior alveolar nerve in magnetic resonance images: a systematic review of different sequences",
+          "id": "10.1007/s10266-026-01623-w",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Patellofemoral Cartilage Lesions in Trochlear Dysplasia by Radiographic and Magnetic Resonance Imaging Analysis Are Associated With Maltracking Rather Than Patellotrochlear Mismatch or Dislocation Burden",
+          "id": "10.1002/arj.70738",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "title": "Impact of Propofol versus Propofol–Ketamine Sedative Regimen on Lung Atelectasis and Diaphragm Function in Children Undergoing Magnetic Resonance Imaging: A Randomized Clinical Trial",
+          "id": "10.1055/s-0046-1829321",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "title": "Responder Analysis of the Therapeutic Effect of Magnetic Resonance–Guided Focused Ultrasound Thalamotomy on Essential Tremor Correlates with Functional Improvement",
+          "id": "10.1002/mds.70619",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        }
+      ],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    }
+  ],
+  "arxivOfficial": [
+    {
+      "source": "cond-mat-new",
+      "url": "https://arxiv.org/list/cond-mat/new?show=2000",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "headings": [
+        "Showing new listings for Monday, 23 November 2026",
+        "New submissions (showing 88 of 88 entries)",
+        "Cross submissions (showing 24 of 24 entries)",
+        "Replacement submissions (showing 77 of 77 entries)"
+      ]
+    },
+    {
+      "source": "cond-mat-retry",
+      "url": "https://arxiv.org/list/cond-mat/new",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "headings": [
+        "Showing new listings for Monday, 23 November 2026",
+        "New submissions (showing 88 of 88 entries)",
+        "Cross submissions (showing 24 of 24 entries)",
+        "Replacement submissions (showing 77 of 77 entries)"
+      ]
+    },
+    {
+      "source": "cond-mat-fresh",
+      "url": "https://arxiv.org/list/cond-mat/new?skip=0&show=2000",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "headings": [
+        "Showing new listings for Monday, 23 November 2026",
+        "New submissions (showing 88 of 88 entries)",
+        "Cross submissions (showing 24 of 24 entries)",
+        "Replacement submissions (showing 77 of 77 entries)"
+      ]
+    },
+    {
+      "source": "cond-mat-recent",
+      "url": "https://arxiv.org/list/cond-mat/recent",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "headings": [
+        "Authors and titles for recent submissions",
+        "Mon, 23 Nov 2026 (showing first 50 of 112 entries )"
+      ]
+    }
+  ],
+  "arxivOfficialCounts": {
+    "date": "2026-11-22",
+    "new": 0,
+    "cross": 0,
+    "replacements": 0,
+    "total": 0,
+    "isIssueDate": false,
+    "scheduled": false
+  },
+  "officialBatchDecisions": [],
+  "arxivDateApi": [
+    {
+      "name": "初投日期 UTC 20",
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acond-mat.%2A+AND+submittedDate%3A%5B202611200000+TO+202611202359%5D&max_results=1000",
+      "http": "000",
+      "attempts": [
+        [
+          "000",
+          "curl: (28) Operation timed out after 12013 milliseconds with 0 bytes received"
+        ],
+        [
+          "000",
+          "curl: (28) Operation timed out after 12015 milliseconds with 0 bytes received"
+        ]
+      ],
+      "error": "no element found: line 1, column 0",
+      "entries": []
+    },
+    {
+      "name": "初投日期 UTC 22",
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acond-mat.%2A+AND+submittedDate%3A%5B202611220000+TO+202611222359%5D&max_results=1000",
+      "http": "200",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "entries": []
+    },
+    {
+      "name": "初投日期 UTC 23",
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acond-mat.%2A+AND+submittedDate%3A%5B202611230000+TO+202611232359%5D&max_results=1000",
+      "http": "000",
+      "attempts": [
+        [
+          "000",
+          "curl: (28) Operation timed out after 12010 milliseconds with 0 bytes received"
+        ],
+        [
+          "000",
+          "curl: (28) Operation timed out after 12014 milliseconds with 0 bytes received"
+        ]
+      ],
+      "error": "no element found: line 1, column 0",
+      "entries": []
+    }
+  ],
+  "arxivApiArtifacts": {
+    "api-alt": 14
+  },
+  "weekendSchedule": "https://info.arxiv.org/help/availability.html",
+  "readingAudit": {
+    "candidateAccessibleFullTexts": 2,
+    "selectedAccessibleFullTexts": 2,
+    "fullReads": 2,
+    "publisherFullReads": 2,
+    "earlyManuscriptReads": 0,
+    "siOnly": 0,
+    "abstractOnly": 0,
+    "institutionalSuccess": false,
+    "pending": []
+  },
+  "limits": [
+    "逐刊对照出版社目录和 Crossref：APS 全系列、Nature Portfolio、Science/AAAS、Wiley AM/AFM、ACS 五刊和 JCG 等。成功与失败见审计；访问/日期不全，不声明期刊全天覆盖。",
+    "该日没有独立 arXiv 公告批次；周末 UTC 投递不等于公告。官方排期与 11 月 23 日三路独立快照交叉，不把周一公告倒算为周末新增。",
+    "按 UTC 日期接口另核：部分请求超时或空，补试 ID 请求；以官方各 abs 页核实版本/初投，未用 API 空结果代替公告。",
+    "首次上线和接受稿分别计；公开旧稿用于精读时不冒充正式版本。"
+  ]
+}

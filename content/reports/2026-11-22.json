@@ -1,0 +1,207 @@
+{
+  "date": "2026-11-22",
+  "issue": "089",
+  "headline": "2 篇、2 个板块；正式上线 2 篇、接受待正式全文 0 篇、独立 arXiv 0 篇；入选可访问全文 2，实际正文精读 2，仅摘要 0；机构订阅访问未验证。",
+  "hotspot": "氮化物钙钛矿的应变相界和卤化物双钙钛矿的自旋极化筛选。两项都是计算证据，需要独立实验。",
+  "searchWindow": "北京时间 2026-11-22 00:00–23:59 回溯（11 月 23 日核验）；出版社在线或接受日期按原站记录。",
+  "accessSummary": "2 篇、2 个板块；正式上线 2 篇、接受待正式全文 0 篇、独立 arXiv 0 篇；入选可访问全文 2，实际正文精读 2，仅摘要 0；机构订阅访问未验证。",
+  "papers": [
+    {
+      "id": "10.1038/s41524-026-02390-6",
+      "title": "Strain-driven and electric-field-tunable self-morphotropic phase boundary in nitride perovskite",
+      "titleZh": "氮化物钙钛矿中由应变驱动、可用电场调谐的自准同型相界",
+      "titleOriginalMetadata": "Strain-driven and electric-field-tunable self-morphotropic phase boundary in nitride perovskite",
+      "journal": "npj Computational Materials",
+      "doi": "https://doi.org/10.1038/s41524-026-02390-6",
+      "arxivId": null,
+      "fullText": "https://www.nature.com/articles/s41524-026-02390-6_reference.pdf",
+      "category": "晶体生长和物性调控",
+      "material": "LaWN₃",
+      "authors": "Zhang, Haiwu",
+      "institutions": "中国科学院上海硅酸盐研究所",
+      "date": "2026-11-22 首次在线",
+      "versionNote": "2026-11-22 首次正式上线；出版社公开 Article in Press；尚非排版定稿。",
+      "readingStatus": "full",
+      "selectionStatus": "today-formal",
+      "access": "全文精读：出版社 Article in Press 图 1–3、计算方法、公开 SI。仅计算，非实验。",
+      "method": "出版社 Article in Press 图 1–3、计算方法、公开 SI。仅计算，非实验。",
+      "conclusion": "计算给出双轴应变和电场控制极化方向与相界的条件；软化附近的巨大压电系数尚未实验验证。",
+      "sections": [
+        {
+          "title": "模型、参照与体相边界",
+          "text": "研究对象是理想化学计量、(001) 外延双轴约束的 LaWN₃，而不是一组已长成的外延片。作者沿不同应变松弛多个候选结构，比较相对能量、极化位移、弹性与介电响应；图 1 中约 −3.2% 附近的压应变相竞争来自计算。真实氮亏、氧代位、应变松弛与衬底界面都可改变排序。已有含氧或非理想化学计量样品证据不等同验证本应变相图。"
+        },
+        {
+          "title": "证据与计算可重复性",
+          "text": "图 2 将离子介电、弹性和压电响应并列，说明接近软模/弹性软化，压电应变系数会被放大。应力系数 e 与应变系数 d 单位不同，不能跨单位比较。图 3 用电场改变能量景观，展示相切换与极化变化的模型条件；未给出实测击穿阈值、畴翻转、膜漏电、实际外延相纯度或电极耐久性。近临界响应可能对收敛、应变步长与否施加严格外延边界高度敏感，不以单个计算尖峰选衬底。"
+        },
+        {
+          "title": "如何用实验证伪",
+          "text": "先复算两个无场候选相的振动和弹性稳定性，逐步缩小边界附近的应变步长，把绝缘态与漏电问题分开；然后在相同膜厚和同一电极结构做两个方向的应变对照。用 RSM 量实际应变，以极化响应、结构峰和电流同时变化为判据。若厚度一增相界立刻消失同时应变松弛，应检验衬底钳制，不能推断所测就是理想相界。"
+        }
+      ],
+      "tags": [
+        "第一性原理预测",
+        "双语题名",
+        "正式期刊"
+      ],
+      "rating": "★★★★★",
+      "readingGuide": {
+        "priority": "机制阅读：计算稿",
+        "first": "图 1–3 与 Methods",
+        "focus": "把 e、d、软化和实际可维持应变拆开",
+        "next": "母体实测应变与相序先过关"
+      },
+      "bodyChineseCharacters": 400
+    },
+    {
+      "id": "10.1038/s41597-026-08649-3",
+      "title": "Spin-Polarised Electronic Structure and Chemical Bonding Data for 2,500+ Halide Double Perovskites",
+      "titleZh": "2500 余种卤化物双钙钛矿的自旋极化电子结构与化学键数据",
+      "titleOriginalMetadata": "Spin-Polarised Electronic Structure and Chemical Bonding Data for 2,500+ Halide Double Perovskites",
+      "journal": "Scientific Data",
+      "doi": "https://doi.org/10.1038/s41597-026-08649-3",
+      "arxivId": null,
+      "fullText": "https://www.nature.com/articles/s41597-026-08649-3_reference.pdf",
+      "category": "磁性、拓扑与自旋",
+      "material": "Cs₂BB′X₆",
+      "authors": "Walterbos, Luc; McEwan, Alex; Shinde, Ravindra; George, Janine; Leppert, Linn",
+      "institutions": "德国 BAM；耶拿大学；特温特大学；伯明翰大学",
+      "date": "2026-11-22 首次在线",
+      "versionNote": "2026-11-22 首次正式上线；出版社公开 Article in Press；尚非排版定稿。",
+      "readingStatus": "full",
+      "selectionStatus": "today-formal",
+      "access": "全文精读：公开在刊稿 Methods、图 1–4、验证与局限；官方 SI 可打开。仅计算数据。",
+      "method": "公开在刊稿 Methods、图 1–4、验证与局限；官方 SI 可打开。仅计算数据。",
+      "conclusion": "可用混合泛函电子结构来缩小磁性卤化物搜索，但材料库中的半金属条目未获得实验验证。",
+      "sections": [
+        {
+          "title": "范围与算法",
+          "text": "以电中性 B/B′ 组合和 τ 容忍因子筛选 Cs₂BB′X₆（X 为 I/Br/Cl/F），低代价筛自旋初态，随后 HSE06 计算态密度，并用 LOBSTER 描述键合。2680 种输入里 138 个遇到收敛问题，不能把它们当作不稳定实验证据。报告可见能隙 719 项、半金属 118 项，是按照其计算和分类规则，不是实测样品数。"
+        },
+        {
+          "title": "筛选限制与用途",
+          "text": "凸包由机器学习势与可取得的竞争相计算；未枚举所有大超胞磁序，也不能从零温电子态直接推出转变温度。用它筛选时先逐个检查电中性、竞争相与 SOC，再在不同磁排布做计算；正反自旋通道间隙应当分开，随后才尝试粉末相鉴定和输运。图 3 的矩/能隙散点用于筛选，不用于实测校准。"
+        }
+      ],
+      "tags": [
+        "计算数据",
+        "双语题名",
+        "正式期刊"
+      ],
+      "rating": "★★★★★",
+      "readingGuide": {
+        "priority": "补充：材料家族候选筛选",
+        "first": "Methods、图 2–3 和验证段",
+        "focus": "收敛失败、磁序约束与凸包",
+        "next": "独立重算目标化学式，不把半金属标签当实测"
+      },
+      "bodyChineseCharacters": 204
+    }
+  ],
+  "figures": [
+    {
+      "src": "/reports/2026-11-22/evidence-22.svg",
+      "title": "双钙钛矿数据集按性质计数",
+      "source": "https://doi.org/10.1038/s41597-026-08649-3",
+      "caption": "公开 Scientific Data 在刊稿摘要、Methods 和图 3 的计算分类。不是样品或独立实验计数；不外推至未筛选化学空间。"
+    }
+  ],
+  "sourceAudit": [],
+  "readingAudit": {
+    "candidateAccessibleFullTexts": 2,
+    "selectedAccessibleFullTexts": 2,
+    "fullReads": 2,
+    "publisherFullReads": 2,
+    "earlyManuscriptReads": 0,
+    "siOnly": 0,
+    "abstractOnly": 0,
+    "institutionalSuccess": false,
+    "pending": []
+  },
+  "researchIdeas": {
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-23",
+    "scope": "按母体、候选组成或同位素、靶向性质查询；附公开近邻与后续边界。",
+    "limitations": [
+      "待查新的物理假设，未取得候选材料或性质实证，暂不作为已确认创新点立项。"
+    ],
+    "ideas": [
+      {
+        "id": "lawmnon-biaxial-test",
+        "kind": "material",
+        "status": "needs-review",
+        "paperIndex": 1,
+        "title": "W 位少量 Mo 取代 LaWN₃：用相界移动检验 B–N 杂化而非简单化学压缩",
+        "material": "La(W₁₋ₓMoₓ)N₃，低 x；假设 Mo⁶⁺替 W⁶⁺；真实 N/O 计量与占位待核",
+        "evidenceLevel": "读 LaWN₃ 母体计算稿图 1–3、S1–S2；相竞争是计算，既有 LaWN₃ 结构与压电实验仅作邻近约束。",
+        "question": "是否能在更小的现场压应变达到两相近简并，同时仍保留绝缘且可测的极化响应？",
+        "prediction": "先检验方向性假说：在相组成、氧/氮与外延边界相同条件，Mo 4d 与 W 5d 对 N 2p 的杂化差使 T 型相的能量相对变化；第一轮预设检验低 x 是否将竞争点移向较小压应变，不同时预设压电峰值。相反趋势表明电子效应或局部配位与类比相反，应否定该方向趋势。",
+        "basis": "两者同族且名义 d⁰ 等价，不需先假定电荷补偿。不能用孤立离子半径决定移向，关键是相同应变下不同相的 B–N 位移和柔软度；Mo/W 的 4d/5d 区别同时带来 SOC 与共价变化，氮缺陷、氧占位或金属价态变化会改变电子填充和漏电。",
+        "difference": "纯端元与高压/成分研究已存在；只把在相同实际氧氮与应变条件下的 W-rich 小 x 相竞争列为新问题。",
+        "plan": [
+          "先用同外延约束复现母相计算；建立少量不同 Mo 排列，以两相能差和局域位移检查方向，再筛竞争氮化物。",
+          "仅计算和母相通过后做反应溅射小梯度，在同基底标定实际 x；RSM、XRD 及独立氮氧定量，先测漏电再测压电响应。"
+        ],
+        "controls": [
+          "x=0、两个实测低 x、可确认的端元作为参考；成分、厚度、应变以及相同电极控制；含氧薄膜作为单独反例。"
+        ],
+        "falsifiers": [
+          "相分离、明显氮氧漂移或导电失稳则停做极化；应变位置无系统移动或向相反方向移动时，否定方向预测。"
+        ],
+        "feasibility": "DFT 小超胞可先做；完整实验要求可控氮等离子外延、氧氮分析与本征电学平台。",
+        "risks": "MoNₓ/WNₓ、氧氮化物、应变松弛，理想值接近数值误差。",
+        "nextStep": "先核二端元报道的结构边界，再计算 W-rich 两相相对顺序。",
+        "queries": [
+          "LaWN3 LaMoN3 Mo W solid solution strain polar",
+          "La(W,Mo)N3 nitride patent thesis",
+          "lanthanum tungsten molybdenum nitride substitution"
+        ],
+        "remainingChecks": [
+          "检索日期 2026-11-23。已核以下公开论文、预印本及可见专利或学位线索；完整专利族及权利要求、学位全文与别名数据库尚未穷尽。",
+          "尚未完成候选的合成、计算或测量，不能确认稳定性、可合成性或新颖性。"
+        ],
+        "priorArt": [
+          {
+            "title": "Lattice dynamics and ferroelectric properties of LaWN₃",
+            "url": "https://arxiv.org/abs/2305.00113",
+            "overlap": "W-5d/N-2p 混成和母体设计依据。",
+            "access": "作者题录及摘要"
+          },
+          {
+            "title": "Harnessing Linear and Nonlinear Optical Responses in Ferroelectric LaMoN₃",
+            "url": "https://doi.org/10.1021/acs.chemmater.6c00120",
+            "overlap": "LaMoN₃ 端元及压力计算，不证明本低浓度混合膜。",
+            "access": "出版社摘要"
+          },
+          {
+            "title": "Polar Nitride Perovskite LaWN₃−δ with Orthorhombic Structure",
+            "url": "https://doi.org/10.1002/advs.202205479",
+            "overlap": "实样氧、氮计量和相结构是不可省略的控制项。",
+            "access": "公开正文"
+          },
+          {
+            "title": "EP4698702A1 含氮材料合成",
+            "url": "https://patents.google.com/patent/EP4698702A1/en",
+            "overlap": "工艺近邻；尚未核到直接覆盖指定混合膜与应变目标。",
+            "access": "专利号与说明书线索"
+          }
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "title": "以纯 LaMoN₃ 作为新端元",
+        "reason": "文献已讨论该端元。",
+        "url": "https://doi.org/10.1021/acs.chemmater.6c00120"
+      }
+    ]
+  },
+  "auditUrl": "/reports/2026-11-22/audit.json",
+  "searchTerms": [
+    "逐刊对照出版社目录和 Crossref：APS 全系列、Nature Portfolio、Science/AAAS、Wiley AM/AFM、ACS 五刊和 JCG 等。成功与失败见审计；访问/日期不全，不声明期刊全天覆盖。",
+    "该日没有独立 arXiv 公告批次；周末 UTC 投递不等于公告。官方排期与 11 月 23 日三路独立快照交叉，不把周一公告倒算为周末新增。",
+    "按 UTC 日期接口另核：部分请求超时或空，补试 ID 请求；以官方各 abs 页核实版本/初投，未用 API 空结果代替公告。",
+    "首次上线和接受稿分别计；公开旧稿用于精读时不冒充正式版本。"
+  ]
+}

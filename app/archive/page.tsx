@@ -2,6 +2,9 @@
 import type { Metadata } from 'next';
 export const metadata:Metadata={title:'往期归档｜每日文献简报',description:'按日期浏览每日文献简报。'};
 const issues=[
+["2026-11-23", "2026.11.23", "第 090 期 · 10 篇 · 10 正文", "CrSb 三种长晶路线、NbSe₂₋ₓTeₓ 多型超导、Sr₂RuO₄ 的正常态弛豫对照，以及新一批磁性和氧化物实测。", "CrSb"],
+["2026-11-22", "2026.11.22", "第 089 期 · 2 篇 · 2 正文", "氮化物钙钛矿的应变相界和卤化物双钙钛矿的自旋极化筛选。两项都是计算证据，需要独立实验。", "LaWN₃"],
+["2026-11-21", "2026.11.21", "第 088 期 · 4 篇 · 3 正文", "hBN 退火中的自旋读出选择性，弛豫铁电里极化–应变解耦，以及 CVD 单层 MoS₂ 的局域应变输运。", "C:hBN"],
 ["2026-11-20", "2026.11.20", "第 087 期 · 11 篇 · 9 正文", "毫米级 Yb₂MoO₆ 的结晶与磁性、TiHfNbTa 氢化后的高压超导证据，以及薄膜缺陷、层间滑移和磁交换的测量判据。", "Yb₂MoO₆"],
 ["2026-11-19", "2026.11.19", "第 086 期 · 4 篇 · 3 正文", "从 Cs₂PbI₂Cl₂ 的源粉—薄膜成分差，到石墨烯结构重构和 NbOCl₂ 极性竞争；补读 18 日晚更新的 Nature 正式论文。", "Cs₂PbI₂Cl₂"],
 ["2026-11-18", "2026.11.18", "第 085 期 · 13 篇 · 13 正文", "EuBCO 的氧压窗口和两套 Jc 数值、LSCO 的非重聚相响应，以及低维材料的界面与磁性有序。", "EuBa₂Cu₃O₇–δ / BaHfO₃"],
@@ -88,4 +91,4 @@ const issues=[
  ['2026-08-30','2026.08.30','第 005 期 · 3 篇 · 全部全文','测量条件与材料推断都要校准','RuO₂ · CeNiC₂ · YbMnBi₂'],
  ['2026-08-29','2026.08.29','第 004 期 · 3 篇 · 全部全文','缺陷、光生相变与器件可靠性','KTN 晶体 · NiPS₃ · Si/SiGe'],
  ['2026-08-28','2026.08.28','第 003 期 · 4 篇','以 CrSb 和 g 因子为线索','CVT · Flux · 反铁磁 · 超导 · 半导体']];
-export default function Archive(){return <main className="archive-page"><header className="site-header"><a className="brand" href="/"><span className="brand-mark">文</span><span>每日文献简报</span></a><nav aria-label="主导航"><a href="/reports/2026-11-20">今日简报</a><a href="/materials">材料时间线</a><a href="/search">智能检索</a><a href="/weekly">本周趋势</a><a href="/ideas">研究设想</a><a href="/workspace">我的研究</a><a className="active" href="/archive">归档</a></nav><div className="live-chip"><span/> 核验后更新</div></header><section className="archive-hero"><p className="eyebrow">DAILY ARCHIVE</p><h1>每日简报归档</h1><p>按日期回看研究判断、全文访问状态、原创图解和实验建议。</p></section><section className="archive-list">{issues.map(i=><a href={`/reports/${i[0]}`} key={i[0]}><time>{i[1]}</time><div><span>{i[2]}</span><h2>{i[3]}</h2><p>{i[4]}</p></div><b>阅读 →</b></a>)}<div className="archive-placeholder"><time>每日更新</time><div><h2>下一期将在完成来源核验后归档</h2><p>当天无相关新增时，回溯最近三个自然日并明确说明。</p></div></div></section></main>}
+export default function Archive(){return <main className="archive-page"><header className="site-header"><a className="brand" href="/"><span className="brand-mark">文</span><span>每日文献简报</span></a><nav aria-label="主导航"><a href="/reports/2026-11-23">今日简报</a><a href="/materials">材料时间线</a><a href="/search">智能检索</a><a href="/weekly">本周趋势</a><a href="/ideas">研究设想</a><a href="/workspace">我的研究</a><a className="active" href="/archive">归档</a></nav><div className="live-chip"><span/> 核验后更新</div></header><section className="archive-hero"><p className="eyebrow">DAILY ARCHIVE</p><h1>每日简报归档</h1><p>按日期回看研究判断、全文访问状态、原创图解和实验建议。</p></section><section className="archive-list">{issues.map(i=><a href={`/reports/${i[0]}`} key={i[0]}><time>{i[1]}</time><div><span>{i[2]}</span><h2>{i[3]}</h2><p>{i[4]}</p></div><b>阅读 →</b></a>)}<div className="archive-placeholder"><time>每日更新</time><div><h2>下一期将在完成来源核验后归档</h2><p>当天无相关新增时，回溯最近三个自然日并明确说明。</p></div></div></section></main>}

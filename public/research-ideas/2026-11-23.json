@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-23",
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-23",
+  "scope": "按母体、候选组成或同位素、靶向性质查询；附公开近邻与后续边界。",
+  "limitations": [
+    "待查新的物理假设，未取得候选材料或性质实证，暂不作为已确认创新点立项。"
+  ],
+  "ideas": [
+    {
+      "id": "crsb-bi-controlled-separation",
+      "kind": "material",
+      "status": "needs-review",
+      "paperIndex": 1,
+      "title": "在 NiAs 型 CrSb 中验证痕量 Bi 的真实占位，再判断输运散射是否由 Bi 引起",
+      "material": "Cr(Sb₁₋ₓBiₓ) 的低 x 假设；Bi 置换 Sb 是待验理想设定，实际可能只在助熔残渣或边界",
+      "evidenceLevel": "CrSb 母文 §II–III、图 2、4–6；Bi 助熔晶体低 RRR 与弱磁阻，作者指出 FIB 及实际化学量可能干扰。",
+      "question": "当晶体几何、Cr 偏离、热史和 FIB 一致时，产物中可定量的 Bi 与残余散射是否仍关联？",
+      "prediction": "若 Bi 进入 Sb 位且保持 NiAs 平均结构，本假说预期低 x 下残余电阻升高、固定几何低场轨道磁阻变弱，首先检查同晶两轴。霍尔符号不预设反转；若磁阻已被散射解释却规范化霍尔仍系统变，再检验多带结构影响。",
+      "basis": "Sb/Bi 同族名义等价，不能给金属化合物凭空赋固定离子价；Bi 较重更易引入 SOC 和额外局域应变及替位无序，不能在只测电阻时区分。优先选 Bi 是母文实际对照，As 已有丰富固溶/磁变数据，Cr 偏量已有反位/间隙研究。低 x 先假设 Cr 磁子晶格未稀释，再由磁矩检查。",
+      "difference": "Bi 作助熔剂是母文既有工作；本案只新设条件：同一无 Bi 母路线的代入系列与 Bi 助熔的零实测 Bi 样分开，明确区分残渣/夹杂和晶格替位。",
+      "plan": [
+        "做相同助熔热史的 x=0、两个低名义 x；用校准 WDS/ICP 与截面映射先给成分、Cr/Sb 比及元素分布。",
+        "先验母结构、峰宽和局部 Bi；再同方向做非 FIB 四探针与正负场反对称霍尔，对比同晶加工前后。"
+      ],
+      "controls": [
+        "无 Bi 母体、Bi 助熔而未检出 Bi 的样、可获得的富 Bi 竞争相，仅用作相鉴别；统一轴向、电流、温度和厚度。"
+      ],
+      "falsifiers": [
+        "Bi 只沿夹杂或结晶表层则停止按均匀固溶解释。",
+        "实际 Bi 占位且跨炉 RRR/MR 无趋势，或趋势被 Cr 偏量、方向和 FIB 完全解释，则否定。"
+      ],
+      "feasibility": "现有助熔炉与小型四探针可筛；WDS 标准或能提供位点敏感吸收谱的合作必需。",
+      "risks": "痕量低于检出线、熔体残留、有限互溶度，Bi 化学压力与 SOC 无法仅由运输拆开。",
+      "nextStep": "优先 WDS 做晶体内部检测限；未确认占位前不开展完整组成和拓扑测量。",
+      "queries": [
+        "CrSb1-xBix bismuth CrSb substituted NiAs solid solution spin Hall",
+        "CrSb1-xAsx mixed crystals magnetic pressure",
+        "site:patents.google.com CrSb Bi altermagnet patent",
+        "Magnetotransport in altermagnetic CrSb thesis"
+      ],
+      "remainingChecks": [
+        "检索日期 2026-11-23。已核以下公开论文、预印本及可见专利或学位线索；完整专利族及权利要求、学位全文与别名数据库尚未穷尽。",
+        "尚未完成候选的合成、计算或测量，不能确认稳定性、可合成性或新颖性。"
+      ],
+      "priorArt": [
+        {
+          "title": "CrSb 生长与方向输运",
+          "url": "https://arxiv.org/abs/2611.27072",
+          "overlap": "已含 Bi 助熔，不含独立实测 Bi 固溶与隔离工艺因素的判据。",
+          "access": "已读正文与图"
+        },
+        {
+          "title": "Effect of off-stoichiometry on CrSb",
+          "url": "https://doi.org/10.1103/428b-p4d5",
+          "overlap": "Cr 富集可进间隙位并改变输运，必须控制。",
+          "access": "APS 摘要"
+        },
+        {
+          "title": "Exchange striction in CrSb₁₋ₓAsₓ",
+          "url": "https://doi.org/10.1016/0378-4363(77)90367-9",
+          "overlap": "As 取代及磁响应早已有直接研究。",
+          "access": "公开索引摘要"
+        },
+        {
+          "title": "Magnetotransport in altermagnetic CrSb",
+          "url": "https://epub.uni-regensburg.de/80260/",
+          "overlap": "大学论文目录，含体/外延定向输运；全文尚待排同配方。",
+          "access": "学位仓储摘要"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "title": "简单提出 CrSb 中 As 替 Sb",
+      "reason": "已有直接结构、磁性和压力对照。",
+      "url": "https://doi.org/10.1016/0378-4363(77)90367-9"
+    }
+  ]
+}

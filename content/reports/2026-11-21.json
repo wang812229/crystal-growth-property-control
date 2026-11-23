@@ -1,0 +1,360 @@
+{
+  "date": "2026-11-21",
+  "issue": "088",
+  "headline": "4 篇、2 个板块；正式上线 3 篇、接受待正式全文 1 篇、独立 arXiv 0 篇；入选可访问全文 3，实际正文精读 3，仅摘要 1；机构订阅访问未验证。",
+  "hotspot": "hBN 退火中的自旋读出选择性，弛豫铁电里极化–应变解耦，以及 CVD 单层 MoS₂ 的局域应变输运。",
+  "searchWindow": "北京时间 2026-11-21 00:00–23:59 回溯（11 月 23 日核验）；出版社在线或接受日期按原站记录。",
+  "accessSummary": "4 篇、2 个板块；正式上线 3 篇、接受待正式全文 1 篇、独立 arXiv 0 篇；入选可访问全文 3，实际正文精读 3，仅摘要 1；机构订阅访问未验证。",
+  "papers": [
+    {
+      "id": "10.1021/acsnano.6c14413",
+      "title": "Correlating Spin and Optical Properties of Quantum Emitters in hBN",
+      "titleZh": "关联六方氮化硼量子发射体的自旋与光学性质",
+      "titleOriginalMetadata": "Correlating Spin and Optical Properties of Quantum Emitters in hBN",
+      "journal": "ACS Nano",
+      "doi": "https://doi.org/10.1021/acsnano.6c14413",
+      "arxivId": "2608.03090",
+      "fullText": "https://arxiv.org/pdf/2608.03090",
+      "category": "二维材料与量子器件",
+      "material": "C:hBN",
+      "authors": "Nika Teran; Benjamin Whitefield; Nicholas P. Sloane; Kenji Watanabe; Takashi Taniguchi; Igor Aharonovich; Mehran Kianinia",
+      "institutions": "悉尼科技大学；日本物质材料研究机构；庆熙大学",
+      "date": "2026-11-21 首次在线",
+      "versionNote": "2026-11-21 首次正式上线；arXiv:2608.03090 正文，期刊版新增/删改未核；正式 DOI 与预印本为同一研究，只计一条。",
+      "readingStatus": "full",
+      "selectionStatus": "today-formal",
+      "access": "早期公开稿全文精读：arXiv 公开稿图 1–4、Methods；ACS 正文受限，正式 SI 未核。",
+      "method": "arXiv 公开稿图 1–4、Methods；ACS 正文受限，正式 SI 未核。",
+      "conclusion": "氧退火能增加可用发射中心；零场分裂与发光谱相关，ODMR 对比度不能由发光颜色直接预测。",
+      "sections": [
+        {
+          "title": "问题和样品",
+          "text": "目标不是证明六方氮化硼能发光，而是提高同片可寻址自旋缺陷的密度，并判断可见发射与读出效率是否由同一局域结构控制。母材为预掺碳 hBN，从晶体机械剥离后用 Gel-Pak 转移到 SiO₂/Si；Methods 给出 60 °C 转移、石英管炉中的氧处理及后续移到玻璃和共面波导的配置。不是在实验中逐个定位替位碳，未从光学信号反推精确碳计量、全部晶层缺陷密度或氧的具体化学位置。"
+        },
+        {
+          "title": "退火窗口",
+          "text": "图 2 比较 1–4 h 的退火；作者以 900 °C、4 h 作为其样品上兼顾发射体密度和厚度保留的条件。1000 °C 更易减薄，因此高发光密度不等同于保真度；刮蚀会改变单位剩余体积或面积的缺陷统计，薄片尤其敏感。AFM 的前后位置配对比只比总发光强度更可靠。正文给出约 30 mTorr 和 1000 sccm 氧流的设备条件，但跨炉复现不能只照抄流量；应独立核对实际压力、温场和样品位置，母晶碳浓度和跨批产率未核。"
+        },
+        {
+          "title": "最强观测和推断边界",
+          "text": "图 3 将零声子线能量、线宽、零场分裂 D 和 ODMR 对比度分开。同片约 14% 的已辨认发射中心为 ODMR 活跃；这是作者的样本和检测阈值下统计，不是所有碳缺陷的形成率。跨片相关会被微波耦合和采光效率扰动。同一片上 D 与零声子线的相关支持发光与零场分裂共享局域结构；ODMR 对比度没有同类关联，支持可能涉及远端电荷转移的模型。共享局域扰动也可让两者同时改变，关联本身不能排除单缺陷的不同光学通道。图 4 单发射体 68% 对比度和固浸透镜约 40% 收集增强是代表案例，不能泛化为所有样本。"
+        },
+        {
+          "title": "下一炉怎么拆出工艺变量",
+          "text": "同一碳母晶取相邻、起始厚度相近的薄片，标记原位坐标后分成未退火、同温不供氧、低热预算氧退火与作者基准四组。在同一物镜和微波几何下先记录图谱，后冻住盲法的检出阈值；每张图同时给出总亮点、确认单光子点、ODMR 有效点及可重复读出点的分母。AFM 与 PL 共定位避免把台阶变薄造成的采光变化当作活性升高。至少两片母材重复，位置随机；另记录片边与片心距离，检查活性是不是仅集中在新生成的刻蚀边。用氧处理但未预掺碳的对照判断碳是否必要，先确认其未被转移残胶重新供碳。"
+        },
+        {
+          "title": "辨别电荷转移与应变",
+          "text": "先复测同一发射点的小范围功率和微波失谐，确认对比度不是测量饱和造成。再做受控应变与固定栅极的交叉，分别看零声子线与 D 的共漂移、对比度和闪烁时间的响应。如改变电场只改读出动力学而不改零声子线与 D，符合远端读出通道的解释；若所有量仅随激光或光斑变化，先检查发热与测光串扰。最有价值的不是复制一个最佳点，而是保留整个二维散点图、同片编号及删失样本；若母晶批次一换关联反转，暂停把相关关系当缺陷结构指纹。"
+        },
+        {
+          "title": "把统计分母固定下来",
+          "text": "如果退火后仅挑亮点测试，选择偏差会把亮度和读出对比度关联起来。对同一片先以预定扫描面积自动找所有候选，再固定激发功率和积分时间；逐点记下重叠光谱、闪烁或漂白导致的缺失，而不是将缺失记作无缺陷。比较激发一倍与一半功率时保留的点号，核对光致充电是否让低对比度点被遗漏。无 ODMR 的光点也给最低可检出对比度，避免以仪器噪声伪装亚群。用相同聚焦深度和同一片面的暗参照记录荧光背景；若不同波长需要换滤光片，先做系统通量校正。"
+        },
+        {
+          "title": "D 的量纲、对比的定义与模型",
+          "text": "零场分裂来自共振频率结构，和光强变化幅度不是同一个测量。比较 D 时先固定磁场方向及残余场，检查频谱是否必须用多条相邻窄线拟合；温漂与应力都能移峰。对比度单独记录归一所用的 off-resonance 光强、背景扣除和微波实际功率，避免隔片不同的共面波导效率制造趋势。在同测点联合报告拟合残差、ODMR 谱宽和光学寿命，若联系只在最佳功率的数据出现，先怀疑激发态占据重排。完整退火策略的关键是同一空间分布而非最漂亮的一个点。"
+        },
+        {
+          "title": "建议保留的材料档案",
+          "text": "为每个退火片保留母晶编号、剥离片形和转移前后同一区域的 AFM；从显微图算带台阶、裂纹与片边的比例，并从原始位置记录排除原则。将同母晶的另半片留作复测；如果剪切、光刻或波导带来新的碳源，就算观察到更多发射体也不能归于预掺杂的原位变化。已有单中心核自旋和宿主同位素控制的文献是设计参照；以相同碳量比较同位素只有在跨批空间分布匹配后才有解释力。"
+        },
+        {
+          "title": "阅读优先序",
+          "text": "先读图 2 和 Methods 确定退火前后哪一处厚度被跟踪，再读图 3 同片散点和跨片散点的不同分组；最后再读图 4 光子收集演示。若第一次实验没有刻蚀前同片高度或微波功率校准，暂不比较不同退火炉次的回归斜率，先用同点复测建立仪器重复性和可置信区间。"
+        }
+      ],
+      "tags": [
+        "实验物性",
+        "双语题名",
+        "正式期刊"
+      ],
+      "rating": "★★★★★",
+      "readingGuide": {
+        "priority": "优先：缺陷制备与读出分离",
+        "first": "图 2–3 和 Methods",
+        "focus": "退火后厚度、同片统计、相关不等于结构鉴定",
+        "next": "同母晶盲法对照；图 4 的单点增强最后看"
+      },
+      "bodyChineseCharacters": 1483
+    },
+    {
+      "id": "10.1038/s41467-026-79625-z",
+      "title": "Entropy-engineered polar heterogeneity enables near-decoupled polarization–strain behavior for high-density energy storage",
+      "titleZh": "熵工程调控极性非均匀性，实现高密度储能的近解耦极化–应变响应",
+      "titleOriginalMetadata": "Entropy-engineered polar heterogeneity enables near-decoupled polarization–strain behavior for high-density energy storage",
+      "journal": "Nature Communications",
+      "doi": "https://doi.org/10.1038/s41467-026-79625-z",
+      "arxivId": null,
+      "fullText": "https://www.nature.com/articles/s41467-026-79625-z_reference.pdf",
+      "category": "晶体生长和物性调控",
+      "material": "BNKT／BNKT-ST／BS-MNTa",
+      "authors": "Yang, Yule; Zhang, Leiyang; Huang, Yunyao; Chen, Fukang; Yang, Yuxuan; Jing, Ruiyi; Chen, Zibin; He, Liqiang; Wang, Dong; Zhou, Bin; Chen, Xuefeng; Zhang, Yang; Wu, Haijun; Tan, Hua; Zhang, Haibo; Liu, Gang; Yan, Yan; Yang, Jun; Zhang, Shujun; Jin, Li",
+      "institutions": "西安交通大学、清华大学深圳国际研究生院等；完整作者与单位对应见出版社",
+      "date": "2026-11-21 首次在线",
+      "versionNote": "2026-11-21 首次正式上线；出版社公开 Article in Press；尚非排版定稿。",
+      "readingStatus": "full",
+      "selectionStatus": "today-formal",
+      "access": "全文精读：出版社在刊稿图 1–6、Methods；公开 SI 样品与层压、S1/S5/S10/S12 和表 S4。",
+      "method": "出版社在刊稿图 1–6、Methods；公开 SI 样品与层压、S1/S5/S10/S12 和表 S4。",
+      "conclusion": "多位点取代降低了测得的宏观电致伸缩，同时保留可观极化；构型熵是合成路线的描述量，不能单独证明因果。",
+      "sections": [
+        {
+          "title": "材料设计与对照",
+          "text": "轮流比较 BNKT、加 SrTiO₃ 的 BNKT-ST 与多 A/B 位的 BS-MNTa。文中名义构型熵为 0.92R、1.25R、1.83R，但改变的还有离子尺寸、局域电荷差异、晶格指标和电导，不是单变量实验。直接问题是当样品在给定外电场高极化时，电致形变为何没有随之等比例升高；应把极化曲线、应变曲线和微结构分别保存。粉末 XRD 和 Rietveld 支持样品平均钙钛矿结构；SEM 见致密且无明显异常晶粒，不排除局域偏析或低水平第二相。"
+        },
+        {
+          "title": "工艺可复现部分",
+          "text": "SI 给出 Bi₂O₃ 99%、Na₂CO₃ 99.8%、K₂CO₃/SrCO₃ 99%、MgO 98.5%、Nb₂O₅/Ta₂O₅ 99.5%、TiO₂ 98%。乙醇球磨 24 h，60 °C 干燥，850 °C 煅烧 3 h，再磨 12 h；直径 10 mm、厚约 1 mm 坯体在 200 MPa 压 5 min 后于空气 1120 °C 烧 2 h。多层器件不是该圆片的简单缩小：采用铂合金内电极、十个有效介质层，75 °C/75 MPa 温等静压 35 min，300 °C 排胶 12 h，再于 1120 °C/2 h 烧结，平均介质层约 13 μm；银端电极另在 600 °C 烧成。配方是名义装料，需另量碱金属和铋的挥发及实际化学量。"
+        },
+        {
+          "title": "读图时不要混场强",
+          "text": "图 2 对比介电频温、极化与应变，图 3 对比多层器件；21.5 J/cm³ 可回收能量密度对应 1200 kV/cm，0.073% 电致应变对应 300 kV/cm。两数不能写成同一电场下同时取得，也不能把薄层与毫米圆片的击穿强度直接归因于化学组成。Q₃₃ 来自极化平方与应变的拟合，电场范围、环线方向、应变迟滞与基线均有影响。应从测得的曲线、拟合的 Q 和用 Q 作为输入的有限元三个层级读证据；模拟中的应力下降并非对器件内部应力的直接测量。"
+        },
+        {
+          "title": "局域极性证据",
+          "text": "原子分辨 HAADF 的柱位移图可见局域极性纹理。投影位移和局域顺序是测量与配准的结果；三维极化矢量、局部电荷和电场下的动态转换不由一张投影图唯一决定。图中涡旋/反涡旋与相场结果定性相容；如要定量比较，应先确认扫描畸变、样品厚度、晶向和标尺，双晶不同取向容易改变投影上的拓扑判定。Raman 在电场下的变化有限是一个独立约束，但不是畴从未转动的证明。"
+        },
+        {
+          "title": "先圆片后多层",
+          "text": "从同一种原料与烧结炉分批制备母配方和局域扰动的等价替换样，实测体密度、晶粒分布、显微组分与氧化态，并使用相同几何和电极先比较小信号介电、泄漏、同频 P–E 与 S–E。固定电极边缘和场强区间，比较同一极化降幅在同一电场是否还成立。只在变化超过批间误差后做多层：层厚与数量独立，报告击穿统计、失效位置、动态回收和长期循环，不把最强器件代替总体。若低应变与孔隙率或漏电变化高度相关，则暂不能归于极性碎化；如极化基本相同且电致应变在多批重复偏低，才值得做高场原位衍射或不同取向局域图。"
+        },
+        {
+          "title": "配方比较的可识别性",
+          "text": "三种标称组成沿同一个设计思路递增，但不能把三个点拟合到唯一的构型熵标度。进一步工作可在同一 A 位组成中替换平均价态相同的 B 位组合；以几何相似、平均晶格参数和高温体密度接近的双配方开展盲测。对比使用接近的原料粒度和坯体烧失率，检查电极制备与晶界数是否一起改变；在不同试样间若密度或孔洞分布无法匹配，先用独立烧结温程调密度，再比较极化机制。对气氛敏感的样品应在制备时同炉交错摆放，以防把位置梯度投影成配方差。"
+        },
+        {
+          "title": "宏观极化与失效路径",
+          "text": "应变曲线和极化曲线须使用可比的驱动频率、温度和场强范围，不能在高频位移测量上套用低频滞回面积。非零剩余极化、多晶的取向平均和畴壁响应可能让名义二次拟合含有不同贡献；先比较升降场残差，再比较几个场段的有效斜率。多层器件的失效往往从边缘或电极端部开始，即使整体应变小也可能局部发热。做分层截面和偏压后的电极边检查；如果失效只跟一侧端部形貌相关，优先优化工艺并暂缓推出材料本征耐压优势。"
+        },
+        {
+          "title": "最小可证伪序列",
+          "text": "对两个同名义化学配方的材料先分别测回线、介电温频谱与小幅应变，样品温升和漏电同步。若高场储能差仅出现在漏电可见或测量饱和处，不能用于评判解耦；若室温和相同升温区间的排名同向，再用原位空间表征对比活跃畴的尺度。一个很有用的失败结果是平均极化不变而动态损耗显著加剧，此时优先追踪载流子或晶界迁移。最后将泵浦幅度、波形、预循环次数和冷却时间固定，避免比较的是累积疲劳而非配方。"
+        },
+        {
+          "title": "高场电荷积分的审计",
+          "text": "实测极化本质上由电流对时间积分获得；漏电会在慢扫和较高温区贡献额外面积。对每个样记录电流正负及空载电容响应，先以反向、同温同频的重复波形比较；在报告有效能量时保留充电、回收与损耗的原始积分边界。若延长周期使回线面积、应变与温升同时增加，应先辨别电导及焦耳热，再解释畴动力学。对于极性纹理，建议在同一片上采用不同晶带轴与样品厚度的独立成像，先估计偏移矢量误差，再决定其空间相关长度是否可信。"
+        }
+      ],
+      "tags": [
+        "实验物性",
+        "双语题名",
+        "正式期刊"
+      ],
+      "rating": "★★★★★",
+      "readingGuide": {
+        "priority": "优先：陶瓷工艺和局部极性",
+        "first": "图 2–3、SI 样品制备",
+        "focus": "不同场强、厚度和证据层级",
+        "next": "先匹配圆片微结构，再验多层"
+      },
+      "bodyChineseCharacters": 1470
+    },
+    {
+      "id": "10.1038/s41467-026-79577-4",
+      "title": "Localized strain-engineered 1D electron guides in 2D MoS2 devices with synaptic memory and high-mobility transistor functionalities",
+      "titleZh": "在二维 MoS₂ 器件中用局域应变构筑一维电子导引，实现突触记忆和高迁移率晶体管功能",
+      "titleOriginalMetadata": "Localized strain-engineered 1D electron guides in 2D MoS2 devices with synaptic memory and high-mobility transistor functionalities",
+      "journal": "Nature Communications",
+      "doi": "https://doi.org/10.1038/s41467-026-79577-4",
+      "arxivId": null,
+      "fullText": "https://www.nature.com/articles/s41467-026-79577-4_reference.pdf",
+      "category": "二维材料与量子器件",
+      "material": "单层 MoS₂/HfO₂",
+      "authors": "Byeon, Junsung; Harm, Onesik; Pyo, Jinhyeok; Park, Sohyeon; Kim, Byeongchan; Cho, Eunhee; Lim, Jungmoon; Kim, Taehun; Yoo, Byeongseong; Oh, Seokjin; Song, Chaewon; Jeong, Hyungchang; Park, Kyung-Ho; Pak, Sangyeon; Cha, SeungNam",
+      "institutions": "成均馆大学；弘益大学；韩国先进纳米制造中心（KANC）",
+      "date": "2026-11-21 首次在线",
+      "versionNote": "2026-11-21 首次正式上线；出版社公开 Article in Press；尚非排版定稿。",
+      "readingStatus": "full",
+      "selectionStatus": "today-formal",
+      "access": "全文精读：公开在刊稿图 1–6、Methods；SI 未单列精读。",
+      "method": "公开在刊稿图 1–6、Methods；SI 未单列精读。",
+      "conclusion": "沟槽引入周期局域应变，不同电流方向给出不同输运与滞回；高场效迁移率不是一维量子化的证据。",
+      "sections": [
+        {
+          "title": "生长与转移",
+          "text": "单层 MoS₂ 在 300 nm SiO₂/Si 上热 CVD，MoO₃ 大于 99%、S 99.98%，Mo 源经少量氨水处理，750–800 °C、常压 H₂/Ar。HfO₂ 约 20 nm 由 ALD 制于 Si，刻蚀图形。聚苯乙烯支撑，从 1 M KOH 释放，转到带沟槽的 HfO₂，60–80 °C 40 min 促进贴合，20 nm Au 接触。母片晶粒和逐器件实际应变均匀性不能从薄膜工序直接得到。"
+        },
+        {
+          "title": "直接证据和模型",
+          "text": "AFM 验沟槽和膜形貌，Raman、PL 和 Kelvin 探针联系局部振动、电子光学和表面接触电势。图 5 用短传输长度系列和温变提取接触电阻及肖特基势垒，图 6 给两方向 100 器件左右的曲线和分布。沿沟槽和过沟槽应当按论文几何复画，陷阱、应变与接触同时改变；“一维导引”是输运归因，而非弹道量子化或亚带直接成像。"
+        },
+        {
+          "title": "下一步判据",
+          "text": "同片设计平坦、沟槽和等粗糙却不周期的对照；交换源漏与实际拉应变方向，分开漏电与陷阱，报告扫速依赖、四端电阻与 TLM。若接触修正后方向差消失，暂停把现象归为层内应变势阱；若调栅后仍有空间共定位，才安排局部电流显微或低温亚带试验。"
+        }
+      ],
+      "tags": [
+        "实验物性",
+        "双语题名",
+        "正式期刊"
+      ],
+      "rating": "★★★★★",
+      "readingGuide": {
+        "priority": "高：二维生长及有实测的应变调控",
+        "first": "图 1、5–6、Methods",
+        "focus": "接触、滞回与应变导引分拆",
+        "next": "同片几何与扫速对照"
+      },
+      "bodyChineseCharacters": 288
+    },
+    {
+      "id": "10.1103/rcqx-wt82",
+      "title": "Surface accumulation layers govern ultrafast carrier dynamics in indium arsenide microparticles",
+      "titleZh": "表面积累层支配砷化铟微颗粒中的超快载流子动力学",
+      "titleOriginalMetadata": "Surface accumulation layers govern ultrafast carrier dynamics in indium arsenide microparticles",
+      "journal": "Physical Review Research",
+      "doi": "https://doi.org/10.1103/rcqx-wt82",
+      "arxivId": null,
+      "fullText": "https://journals.aps.org/prresearch/accepted/10.1103/rcqx-wt82",
+      "category": "二维材料与量子器件",
+      "material": "InAs 亚微米颗粒",
+      "authors": "Hyunmin Jang; Jun Woo Kim; Dong-Won Jeong; Gi Rim Han; Dasol Kim; Tai Hyun Yoon; Minhaeng Cho",
+      "institutions": "APS 接受题录未提供完整作者单位，待正式正文核查",
+      "date": "2026-11-21 APS 接受",
+      "versionNote": "APS 官方标 Accepted；Crossref 也列在线日，但 /abstract 与 /pdf 返回 404，因此不按终版计。",
+      "readingStatus": "abstract",
+      "selectionStatus": "today-accepted",
+      "access": "仅摘要：APS Accepted 页面，全文与 SI 未取得。",
+      "method": "官方摘要；没有验证到机构订阅。",
+      "conclusion": "不同泵浦能量揭示不同的表面动力学时间尺度；目前可读证据不足以独立核查机制。",
+      "sections": [
+        {
+          "title": "可核摘要与缺项",
+          "text": "低注量泵浦探测和二维谱中，0.38 eV 激发有 300–600 ps 较慢成分，1.7 eV 有约 1–1.5 ps 和 20–40 ps 成分；作者解释涉及表面子带。未核原料、生长、粒径分布、晶体质量、泵浦注量定量、系统响应、拟合误差及 SI。"
+        },
+        {
+          "title": "后续补读",
+          "text": "待 APS 发布正文，先核表面态与粒子尺寸分布、泵能依赖、残差及误差；同一分散系做表面钝化与裸面比较。"
+        }
+      ],
+      "tags": [
+        "正式期刊",
+        "已接受"
+      ],
+      "rating": "★★★★",
+      "readingGuide": {
+        "priority": "待正式正文",
+        "first": "接受摘要与后续 Methods",
+        "focus": "区分多时间常数与唯一机制",
+        "next": "同批表面处理对照"
+      },
+      "bodyChineseCharacters": 104
+    }
+  ],
+  "figures": [
+    {
+      "src": "/reports/2026-11-21/evidence-21.svg",
+      "title": "三组名义组成的构型熵",
+      "source": "https://doi.org/10.1038/s41467-026-79625-z",
+      "caption": "公开在刊稿图 1–2、Results 的配方计算值。没有实测误差条；组成同时改变，不能单独证明构型熵的因果。"
+    }
+  ],
+  "sourceAudit": [],
+  "readingAudit": {
+    "candidateAccessibleFullTexts": 3,
+    "selectedAccessibleFullTexts": 3,
+    "fullReads": 3,
+    "publisherFullReads": 2,
+    "earlyManuscriptReads": 1,
+    "siOnly": 0,
+    "abstractOnly": 1,
+    "institutionalSuccess": false,
+    "pending": [
+      {
+        "title": "Correlating Spin and Optical Properties of Quantum Emitters in hBN",
+        "reason": "早期公开稿全文精读：arXiv 公开稿图 1–4、Methods；ACS 正文受限，正式 SI 未核。"
+      },
+      {
+        "title": "Surface accumulation layers govern ultrafast carrier dynamics in indium arsenide microparticles",
+        "reason": "仅摘要：APS Accepted 页面，全文与 SI 未取得。"
+      }
+    ]
+  },
+  "researchIdeas": {
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-23",
+    "scope": "按母体、候选组成或同位素、靶向性质查询；附公开近邻与后续边界。",
+    "limitations": [
+      "待查新的物理假设，未取得候选材料或性质实证，暂不作为已确认创新点立项。"
+    ],
+    "ideas": [
+      {
+        "id": "hbn-isotope-differential-correlations",
+        "kind": "material",
+        "status": "needs-review",
+        "paperIndex": 1,
+        "title": "在氧退火 C:hBN 中做碳同位素差分，检验 D–发光相关的缺陷归属",
+        "material": "相近总碳含量的 ¹²C:hBN 与 ¹³C:hBN（固定 B/N 宿主同位素；碳位点待核）",
+        "evidenceLevel": "ACS Nano 母论文的 arXiv 公开稿图 2–4：退火后发射密度、同片 D–零声子线相关，及对比度的弱相关。",
+        "question": "该相关是否由带碳核耦合的发光自旋通道本身承担，还是有另一类具相同光学趋势的缺陷混入？",
+        "prediction": "保留室温发光与 D–零声子线关系的总体趋势，但若主通道确含靠近电子自旋密度的碳，¹³C 组应有更多可分辨碳超精细分量；在同片分别按 D/能量分组后比较碳信号、对比度和电荷态动力学。若同一假说仅能解释发光而不能解释同位素统计，需保留不同化学缺陷。",
+        "basis": "同位素改变核自旋 0→1/2 与少量质量，不改变名义价电子或引入新的 3d/4d/5d 自旋轨道通道；B/N 同位素、应变、碳聚集和边界氧是重要对照。碳占 B/N 位和电荷补偿未知；退火诱发的相分离或多缺陷类可能遮蔽目标，不以单峰推定组成。",
+        "difference": "碳核自旋的识别与控制已经报道。本案仅比较同工艺氧退火中 D–发光统计分组对同位素响应的差异；不是首次 ¹³C 超精细或宿主同位素工程。",
+        "plan": [
+          "既有同位素母材优先，保持总碳和层厚相近，按同一批次工艺配对。",
+          "先用同位素敏感 SIMS 验证碳分布与 B/N 组成，用 Raman/AFM 排厚度/应变，末端跑同条件零声子线、ODMR 与核共振控制。"
+        ],
+        "controls": [
+          "匹配的 ¹²C/¹³C 富集端点、天然碳、未退火、未掺碳样；同光谱/微波几何与盲法筛选。"
+        ],
+        "falsifiers": [
+          "富集只停留表面残胶、不同批厚度或碳分布不匹配时停止归因。",
+          "核分辨能力充分且富集确认后，无分组差即不支持由碳超精细指认该群体；不能排除远端弱耦合。"
+        ],
+        "feasibility": "同位素母材与 SIMS 需合作；已有共焦、波导及可调磁场才能做分组光谱。",
+        "risks": "光谱重叠、¹³C 分布、不同氧等离子处理历史和样本检出偏差。",
+        "nextStep": "先在少量光学可定位样本上确定核超精细分辨率。",
+        "queries": [
+          "hBN 13C carbon isotope defect oxygen annealing ODMR optical ZFS population",
+          "site:patents.google.com hBN isotope defect carbon-13 ODMR",
+          "DTU thesis spin defects hBN spectroscopy"
+        ],
+        "remainingChecks": [
+          "检索日期 2026-11-23。已核以下公开论文、预印本及可见专利或学位线索；完整专利族及权利要求、学位全文与别名数据库尚未穷尽。",
+          "尚未完成候选的合成、计算或测量，不能确认稳定性、可合成性或新颖性。"
+        ],
+        "priorArt": [
+          {
+            "title": "Single nuclear spin detection and control in a van der Waals material",
+            "url": "https://www.nature.com/articles/s41586-025-09258-7",
+            "overlap": "¹³C 核操控已做；不再提其作为新结果。",
+            "access": "公开主文"
+          },
+          {
+            "title": "Isotope engineering for spin defects in van der Waals materials",
+            "url": "https://www.nature.com/articles/s41467-023-44494-3",
+            "overlap": "B/N 宿主工程和硼空位超精细已测，和掺碳氧退火群体差分不同。",
+            "access": "公开主文"
+          },
+          {
+            "title": "WO2025085123A2；hBN 氮-15 富集",
+            "url": "https://patents.google.com/patent/WO2025085123A2/en",
+            "overlap": "宿主同位素组成与工艺可能有关；无自由实施结论。",
+            "access": "说明书公开页"
+          },
+          {
+            "title": "DTU 学位论文：hBN 量子发射体章节",
+            "url": "https://backend.orbit.dtu.dk/ws/portalfiles/portal/195823685/Mads_Kj_r_Boll.pdf",
+            "overlap": "有单点光谱/自旋背景，尚未全文比对具体差分实验。",
+            "access": "高校目录线索"
+          }
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "title": "仅展示碳相关 hBN 的 ¹³C 核自旋",
+        "reason": "已有直接证据。",
+        "url": "https://www.nature.com/articles/s41586-025-09258-7"
+      }
+    ]
+  },
+  "auditUrl": "/reports/2026-11-21/audit.json",
+  "searchTerms": [
+    "逐刊对照出版社目录和 Crossref：APS 全系列、Nature Portfolio、Science/AAAS、Wiley AM/AFM、ACS 五刊和 JCG 等。成功与失败见审计；访问/日期不全，不声明期刊全天覆盖。",
+    "该日没有独立 arXiv 公告批次；周末 UTC 投递不等于公告。官方排期与 11 月 23 日三路独立快照交叉，不把周一公告倒算为周末新增。",
+    "按 UTC 日期接口另核：部分请求超时或空，补试 ID 请求；以官方各 abs 页核实版本/初投，未用 API 空结果代替公告。",
+    "首次上线和接受稿分别计；公开旧稿用于精读时不冒充正式版本。"
+  ]
+}

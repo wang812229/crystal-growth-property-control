@@ -1,6 +1,246 @@
 // 从已审阅报告生成，研究设想不计入论文目录。
 export default [
   {
+    "date": "2026-11-23",
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-23",
+    "scope": "按母体、候选组成或同位素、靶向性质查询；附公开近邻与后续边界。",
+    "limitations": [
+      "待查新的物理假设，未取得候选材料或性质实证，暂不作为已确认创新点立项。"
+    ],
+    "ideas": [
+      {
+        "id": "crsb-bi-controlled-separation",
+        "kind": "material",
+        "status": "needs-review",
+        "paperIndex": 1,
+        "title": "在 NiAs 型 CrSb 中验证痕量 Bi 的真实占位，再判断输运散射是否由 Bi 引起",
+        "material": "Cr(Sb₁₋ₓBiₓ) 的低 x 假设；Bi 置换 Sb 是待验理想设定，实际可能只在助熔残渣或边界",
+        "evidenceLevel": "CrSb 母文 §II–III、图 2、4–6；Bi 助熔晶体低 RRR 与弱磁阻，作者指出 FIB 及实际化学量可能干扰。",
+        "question": "当晶体几何、Cr 偏离、热史和 FIB 一致时，产物中可定量的 Bi 与残余散射是否仍关联？",
+        "prediction": "若 Bi 进入 Sb 位且保持 NiAs 平均结构，本假说预期低 x 下残余电阻升高、固定几何低场轨道磁阻变弱，首先检查同晶两轴。霍尔符号不预设反转；若磁阻已被散射解释却规范化霍尔仍系统变，再检验多带结构影响。",
+        "basis": "Sb/Bi 同族名义等价，不能给金属化合物凭空赋固定离子价；Bi 较重更易引入 SOC 和额外局域应变及替位无序，不能在只测电阻时区分。优先选 Bi 是母文实际对照，As 已有丰富固溶/磁变数据，Cr 偏量已有反位/间隙研究。低 x 先假设 Cr 磁子晶格未稀释，再由磁矩检查。",
+        "difference": "Bi 作助熔剂是母文既有工作；本案只新设条件：同一无 Bi 母路线的代入系列与 Bi 助熔的零实测 Bi 样分开，明确区分残渣/夹杂和晶格替位。",
+        "plan": [
+          "做相同助熔热史的 x=0、两个低名义 x；用校准 WDS/ICP 与截面映射先给成分、Cr/Sb 比及元素分布。",
+          "先验母结构、峰宽和局部 Bi；再同方向做非 FIB 四探针与正负场反对称霍尔，对比同晶加工前后。"
+        ],
+        "controls": [
+          "无 Bi 母体、Bi 助熔而未检出 Bi 的样、可获得的富 Bi 竞争相，仅用作相鉴别；统一轴向、电流、温度和厚度。"
+        ],
+        "falsifiers": [
+          "Bi 只沿夹杂或结晶表层则停止按均匀固溶解释。",
+          "实际 Bi 占位且跨炉 RRR/MR 无趋势，或趋势被 Cr 偏量、方向和 FIB 完全解释，则否定。"
+        ],
+        "feasibility": "现有助熔炉与小型四探针可筛；WDS 标准或能提供位点敏感吸收谱的合作必需。",
+        "risks": "痕量低于检出线、熔体残留、有限互溶度，Bi 化学压力与 SOC 无法仅由运输拆开。",
+        "nextStep": "优先 WDS 做晶体内部检测限；未确认占位前不开展完整组成和拓扑测量。",
+        "queries": [
+          "CrSb1-xBix bismuth CrSb substituted NiAs solid solution spin Hall",
+          "CrSb1-xAsx mixed crystals magnetic pressure",
+          "site:patents.google.com CrSb Bi altermagnet patent",
+          "Magnetotransport in altermagnetic CrSb thesis"
+        ],
+        "remainingChecks": [
+          "检索日期 2026-11-23。已核以下公开论文、预印本及可见专利或学位线索；完整专利族及权利要求、学位全文与别名数据库尚未穷尽。",
+          "尚未完成候选的合成、计算或测量，不能确认稳定性、可合成性或新颖性。"
+        ],
+        "priorArt": [
+          {
+            "title": "CrSb 生长与方向输运",
+            "url": "https://arxiv.org/abs/2611.27072",
+            "overlap": "已含 Bi 助熔，不含独立实测 Bi 固溶与隔离工艺因素的判据。",
+            "access": "已读正文与图"
+          },
+          {
+            "title": "Effect of off-stoichiometry on CrSb",
+            "url": "https://doi.org/10.1103/428b-p4d5",
+            "overlap": "Cr 富集可进间隙位并改变输运，必须控制。",
+            "access": "APS 摘要"
+          },
+          {
+            "title": "Exchange striction in CrSb₁₋ₓAsₓ",
+            "url": "https://doi.org/10.1016/0378-4363(77)90367-9",
+            "overlap": "As 取代及磁响应早已有直接研究。",
+            "access": "公开索引摘要"
+          },
+          {
+            "title": "Magnetotransport in altermagnetic CrSb",
+            "url": "https://epub.uni-regensburg.de/80260/",
+            "overlap": "大学论文目录，含体/外延定向输运；全文尚待排同配方。",
+            "access": "学位仓储摘要"
+          }
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "title": "简单提出 CrSb 中 As 替 Sb",
+        "reason": "已有直接结构、磁性和压力对照。",
+        "url": "https://doi.org/10.1016/0378-4363(77)90367-9"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-22",
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-23",
+    "scope": "按母体、候选组成或同位素、靶向性质查询；附公开近邻与后续边界。",
+    "limitations": [
+      "待查新的物理假设，未取得候选材料或性质实证，暂不作为已确认创新点立项。"
+    ],
+    "ideas": [
+      {
+        "id": "lawmnon-biaxial-test",
+        "kind": "material",
+        "status": "needs-review",
+        "paperIndex": 1,
+        "title": "W 位少量 Mo 取代 LaWN₃：用相界移动检验 B–N 杂化而非简单化学压缩",
+        "material": "La(W₁₋ₓMoₓ)N₃，低 x；假设 Mo⁶⁺替 W⁶⁺；真实 N/O 计量与占位待核",
+        "evidenceLevel": "读 LaWN₃ 母体计算稿图 1–3、S1–S2；相竞争是计算，既有 LaWN₃ 结构与压电实验仅作邻近约束。",
+        "question": "是否能在更小的现场压应变达到两相近简并，同时仍保留绝缘且可测的极化响应？",
+        "prediction": "先检验方向性假说：在相组成、氧/氮与外延边界相同条件，Mo 4d 与 W 5d 对 N 2p 的杂化差使 T 型相的能量相对变化；第一轮预设检验低 x 是否将竞争点移向较小压应变，不同时预设压电峰值。相反趋势表明电子效应或局部配位与类比相反，应否定该方向趋势。",
+        "basis": "两者同族且名义 d⁰ 等价，不需先假定电荷补偿。不能用孤立离子半径决定移向，关键是相同应变下不同相的 B–N 位移和柔软度；Mo/W 的 4d/5d 区别同时带来 SOC 与共价变化，氮缺陷、氧占位或金属价态变化会改变电子填充和漏电。",
+        "difference": "纯端元与高压/成分研究已存在；只把在相同实际氧氮与应变条件下的 W-rich 小 x 相竞争列为新问题。",
+        "plan": [
+          "先用同外延约束复现母相计算；建立少量不同 Mo 排列，以两相能差和局域位移检查方向，再筛竞争氮化物。",
+          "仅计算和母相通过后做反应溅射小梯度，在同基底标定实际 x；RSM、XRD 及独立氮氧定量，先测漏电再测压电响应。"
+        ],
+        "controls": [
+          "x=0、两个实测低 x、可确认的端元作为参考；成分、厚度、应变以及相同电极控制；含氧薄膜作为单独反例。"
+        ],
+        "falsifiers": [
+          "相分离、明显氮氧漂移或导电失稳则停做极化；应变位置无系统移动或向相反方向移动时，否定方向预测。"
+        ],
+        "feasibility": "DFT 小超胞可先做；完整实验要求可控氮等离子外延、氧氮分析与本征电学平台。",
+        "risks": "MoNₓ/WNₓ、氧氮化物、应变松弛，理想值接近数值误差。",
+        "nextStep": "先核二端元报道的结构边界，再计算 W-rich 两相相对顺序。",
+        "queries": [
+          "LaWN3 LaMoN3 Mo W solid solution strain polar",
+          "La(W,Mo)N3 nitride patent thesis",
+          "lanthanum tungsten molybdenum nitride substitution"
+        ],
+        "remainingChecks": [
+          "检索日期 2026-11-23。已核以下公开论文、预印本及可见专利或学位线索；完整专利族及权利要求、学位全文与别名数据库尚未穷尽。",
+          "尚未完成候选的合成、计算或测量，不能确认稳定性、可合成性或新颖性。"
+        ],
+        "priorArt": [
+          {
+            "title": "Lattice dynamics and ferroelectric properties of LaWN₃",
+            "url": "https://arxiv.org/abs/2305.00113",
+            "overlap": "W-5d/N-2p 混成和母体设计依据。",
+            "access": "作者题录及摘要"
+          },
+          {
+            "title": "Harnessing Linear and Nonlinear Optical Responses in Ferroelectric LaMoN₃",
+            "url": "https://doi.org/10.1021/acs.chemmater.6c00120",
+            "overlap": "LaMoN₃ 端元及压力计算，不证明本低浓度混合膜。",
+            "access": "出版社摘要"
+          },
+          {
+            "title": "Polar Nitride Perovskite LaWN₃−δ with Orthorhombic Structure",
+            "url": "https://doi.org/10.1002/advs.202205479",
+            "overlap": "实样氧、氮计量和相结构是不可省略的控制项。",
+            "access": "公开正文"
+          },
+          {
+            "title": "EP4698702A1 含氮材料合成",
+            "url": "https://patents.google.com/patent/EP4698702A1/en",
+            "overlap": "工艺近邻；尚未核到直接覆盖指定混合膜与应变目标。",
+            "access": "专利号与说明书线索"
+          }
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "title": "以纯 LaMoN₃ 作为新端元",
+        "reason": "文献已讨论该端元。",
+        "url": "https://doi.org/10.1021/acs.chemmater.6c00120"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-23",
+    "scope": "按母体、候选组成或同位素、靶向性质查询；附公开近邻与后续边界。",
+    "limitations": [
+      "待查新的物理假设，未取得候选材料或性质实证，暂不作为已确认创新点立项。"
+    ],
+    "ideas": [
+      {
+        "id": "hbn-isotope-differential-correlations",
+        "kind": "material",
+        "status": "needs-review",
+        "paperIndex": 1,
+        "title": "在氧退火 C:hBN 中做碳同位素差分，检验 D–发光相关的缺陷归属",
+        "material": "相近总碳含量的 ¹²C:hBN 与 ¹³C:hBN（固定 B/N 宿主同位素；碳位点待核）",
+        "evidenceLevel": "ACS Nano 母论文的 arXiv 公开稿图 2–4：退火后发射密度、同片 D–零声子线相关，及对比度的弱相关。",
+        "question": "该相关是否由带碳核耦合的发光自旋通道本身承担，还是有另一类具相同光学趋势的缺陷混入？",
+        "prediction": "保留室温发光与 D–零声子线关系的总体趋势，但若主通道确含靠近电子自旋密度的碳，¹³C 组应有更多可分辨碳超精细分量；在同片分别按 D/能量分组后比较碳信号、对比度和电荷态动力学。若同一假说仅能解释发光而不能解释同位素统计，需保留不同化学缺陷。",
+        "basis": "同位素改变核自旋 0→1/2 与少量质量，不改变名义价电子或引入新的 3d/4d/5d 自旋轨道通道；B/N 同位素、应变、碳聚集和边界氧是重要对照。碳占 B/N 位和电荷补偿未知；退火诱发的相分离或多缺陷类可能遮蔽目标，不以单峰推定组成。",
+        "difference": "碳核自旋的识别与控制已经报道。本案仅比较同工艺氧退火中 D–发光统计分组对同位素响应的差异；不是首次 ¹³C 超精细或宿主同位素工程。",
+        "plan": [
+          "既有同位素母材优先，保持总碳和层厚相近，按同一批次工艺配对。",
+          "先用同位素敏感 SIMS 验证碳分布与 B/N 组成，用 Raman/AFM 排厚度/应变，末端跑同条件零声子线、ODMR 与核共振控制。"
+        ],
+        "controls": [
+          "匹配的 ¹²C/¹³C 富集端点、天然碳、未退火、未掺碳样；同光谱/微波几何与盲法筛选。"
+        ],
+        "falsifiers": [
+          "富集只停留表面残胶、不同批厚度或碳分布不匹配时停止归因。",
+          "核分辨能力充分且富集确认后，无分组差即不支持由碳超精细指认该群体；不能排除远端弱耦合。"
+        ],
+        "feasibility": "同位素母材与 SIMS 需合作；已有共焦、波导及可调磁场才能做分组光谱。",
+        "risks": "光谱重叠、¹³C 分布、不同氧等离子处理历史和样本检出偏差。",
+        "nextStep": "先在少量光学可定位样本上确定核超精细分辨率。",
+        "queries": [
+          "hBN 13C carbon isotope defect oxygen annealing ODMR optical ZFS population",
+          "site:patents.google.com hBN isotope defect carbon-13 ODMR",
+          "DTU thesis spin defects hBN spectroscopy"
+        ],
+        "remainingChecks": [
+          "检索日期 2026-11-23。已核以下公开论文、预印本及可见专利或学位线索；完整专利族及权利要求、学位全文与别名数据库尚未穷尽。",
+          "尚未完成候选的合成、计算或测量，不能确认稳定性、可合成性或新颖性。"
+        ],
+        "priorArt": [
+          {
+            "title": "Single nuclear spin detection and control in a van der Waals material",
+            "url": "https://www.nature.com/articles/s41586-025-09258-7",
+            "overlap": "¹³C 核操控已做；不再提其作为新结果。",
+            "access": "公开主文"
+          },
+          {
+            "title": "Isotope engineering for spin defects in van der Waals materials",
+            "url": "https://www.nature.com/articles/s41467-023-44494-3",
+            "overlap": "B/N 宿主工程和硼空位超精细已测，和掺碳氧退火群体差分不同。",
+            "access": "公开主文"
+          },
+          {
+            "title": "WO2025085123A2；hBN 氮-15 富集",
+            "url": "https://patents.google.com/patent/WO2025085123A2/en",
+            "overlap": "宿主同位素组成与工艺可能有关；无自由实施结论。",
+            "access": "说明书公开页"
+          },
+          {
+            "title": "DTU 学位论文：hBN 量子发射体章节",
+            "url": "https://backend.orbit.dtu.dk/ws/portalfiles/portal/195823685/Mads_Kj_r_Boll.pdf",
+            "overlap": "有单点光谱/自旋背景，尚未全文比对具体差分实验。",
+            "access": "高校目录线索"
+          }
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "title": "仅展示碳相关 hBN 的 ¹³C 核自旋",
+        "reason": "已有直接证据。",
+        "url": "https://www.nature.com/articles/s41586-025-09258-7"
+      }
+    ]
+  },
+  {
     "date": "2026-11-20",
     "schemaVersion": 1,
     "reviewedAt": "2026-11-20",

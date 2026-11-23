@@ -1,0 +1,637 @@
+{
+  "date": "2026-11-23",
+  "issue": "090",
+  "headline": "10 篇、4 个板块；正式上线 0 篇、接受待正式全文 0 篇、独立 arXiv 10 篇；入选可访问全文 10，实际正文精读 10，仅摘要 0；机构订阅访问未验证。",
+  "hotspot": "CrSb 三种长晶路线、NbSe₂₋ₓTeₓ 多型超导、Sr₂RuO₄ 的正常态弛豫对照，以及新一批磁性和氧化物实测。",
+  "searchWindow": "北京时间 2026-11-23 00:00–14:04 的检索快照；不将出版社尚未更新的部分当成全天结果。",
+  "accessSummary": "10 篇、4 个板块；正式上线 0 篇、接受待正式全文 0 篇、独立 arXiv 10 篇；入选可访问全文 10，实际正文精读 10，仅摘要 0；机构订阅访问未验证。",
+  "papers": [
+    {
+      "id": "2611.27072",
+      "title": "Growth and anisotropic directional dependent transport properties of Altermagnetic CrSb",
+      "titleZh": "交替磁体 CrSb 的晶体生长及输运方向各向异性",
+      "titleOriginalMetadata": "Growth and anisotropic directional dependent transport properties of Altermagnetic CrSb",
+      "journal": "arXiv",
+      "doi": "https://arxiv.org/abs/2611.27072",
+      "arxivId": "2611.27072",
+      "fullText": "https://arxiv.org/html/2611.27072v1",
+      "category": "晶体生长和物性调控",
+      "material": "CrSb",
+      "authors": "Regmi, Resham Babu; Bhandari, Hari; Jamaluddin, Sk; Nayak, Abhijeet; Chaudhary, Ashok; Gazzah, Mohamed El; Sheardy, Alex T.; Zhukovskyi, Maksym; Oliver, Allen G.; Ghimire, Nirmal J.",
+      "institutions": "圣母大学；乔治梅森大学",
+      "date": "2026-11-23 arXiv 公告",
+      "versionNote": "2026-11-23 官方公告；20 Nov 2026 UTC 提交。arXiv v1；未核到本日正式对应发表。",
+      "readingStatus": "full",
+      "selectionStatus": "today-announcement",
+      "access": "全文精读：v1 §II–IV、图 1–8、单晶衍射表、附录 FIB。",
+      "method": "v1 §II–IV、图 1–8、单晶衍射表、附录 FIB。",
+      "conclusion": "三种生长方法给出相同平均结构、不同形貌与散射；霍尔符号随测量几何改变，并不能独立鉴定单一载流子。",
+      "sections": [
+        {
+          "title": "三条生长线的可复制差别",
+          "text": "Sb 自助熔：Cr 粉 99.99%、Sb 粒 99.9999%，摩尔 45:55，2 mL 坩埚真空封石英，10 h 到 1175 °C、保 10 h、100 h 到 800 °C 后离心去熔体。针刮可去褐色表层，代表棒约 2 × 0.5 × 0.5 mm，至多约 5 mg。Bi 助熔：Cr:Sb:Bi=1:1:5，Bi 99.998%，近似同一热程，出细针约 7 × 0.2 × 0.2 mm。CVT：Cr:Sb=1:1、I₂ 0.2 g，石英管内径 14 mm、长约 10 cm，热端/冷端 850/750 °C 七天，出板状。均未给出可作统计的晶体收率。"
+        },
+        {
+          "title": "结构与局部缺陷",
+          "text": "120 K 单晶衍射和定向 Laue 是主体，TEM 的 [001] 观察/衍射补充基面。三种都是 NiAs 型 P6₃/mmc；平面 a 差小于约 0.06%，c 的跨度约 0.67%，顺序 CVT、Sb、Bi。误差不能把 TEM 的基面晶格精度拿来验证 c 差；附加弱峰可能有动力学散射或其他来源，先核多取向系统消光。显微成像是局部样本，不能因此给 Bi 的替位上限。若想区分 Bi 残渣与真替位，取棒/针中段与表面分别 WDS，加入独立标准和元素重叠校核，再以近邻谱验证原子位置。"
+        },
+        {
+          "title": "输运对新实验的参考",
+          "text": "正文 Fig. 4 给出 Sb 与 CVT 的典型电阻比约 6.7 和 6.4（不同方向），Bi 样两方向约 4.0 和 2.6，且作者提示用于 Bi 样面内输运的 FIB 器件可能有 Ga 损伤。1.8 K、9 T 的典型横向磁阻 Sb/CVT 随几何约 16% 至接近 20%，Bi 组更弱；这可以与迁移率降低相容，但三种方法同时改变形貌、接触和成分。霍尔场沿晶轴不同不仅改变符号还会非线性，单带公式的有效密度不是方向各自独立的真实载流子数。正文晶向符号说明有重复的简称，按图示的 I∥[100]、B∥[001] 和 I∥[001]、B∥基面方向回核原始几何。"
+        },
+        {
+          "title": "先做哪一炉",
+          "text": "若优先做平整基面的输运和薄片加工，从 CVT 板开始，但先用 Laue 标记侧面和基面，给磁场、电流、电压的三向关系。若优先获得 c 轴长条做体磁性，可考虑 Sb 助熔；Bi 长针适合作几何对照，不默认因更长而质量更好。同一批选多颗晶体，同一种接触材料、厚度区间，并在母晶上做平行/垂直两组。结晶路径可以通过在相同四探针几何下比较来检验；成分偏离与残余应变分别独立测，晶体形貌不要直接当成本征轴性的证据。"
+        },
+        {
+          "title": "分离残余散射和本征各向异性",
+          "text": "先用同一晶体做非 FIB 的宏电极与制成显微条的成对实验，核对接触距离误差、截面、阳极氧化残渣和干法损伤；低温霍尔需要正负场反对称，纵向需正负场对称。沿场角扫并同步记录固定温度和几何误差，尤其看霍尔符号切换是否在更换电压引线或样品厚度后仍存在。把磁阻随电阻率的归一化作为散射机制诊断而非必然成立的标度：若无损母晶与加工后差异远大于三路线之间的差异，应将加工贡献先从结论剥离。"
+        },
+        {
+          "title": "来源与物性外推",
+          "text": "约 700 K 的磁有序温区来自既有文献，本次普通电阻温区约 1.8–300 K，不能据其无峰重新确定 Néel 温度。低温附加磁性成分可能来自微杂质、非化学计量或局域缺陷；分别测裂片内外和两炉样，配空样杆与低场回线。若高纯标准上相同轴的低温余项不可复现，将其记为工艺异质性，不满足给 Bi 替位定性结论的条件。第一轮读 Methods、图 2 与图 4–6，历史 altermagnetic band splitting 的讨论可第二轮再读。"
+        },
+        {
+          "title": "适配不同物性平台",
+          "text": "生长形貌本身是决定下一步取样成本的变量：细长方向明确有利于某一轴的电流条，但高度相差大使绝对电阻率换算的几何误差差异很大。在同一晶体上拍不同投影的标定图，使用显微截面而不是最大宽厚估计导电截面。用 c 轴清楚的自助熔晶作为参考，在 CVT 板片切出两个方向样条，保留无需 FIB 的厚度范围。如果某方法仅在一个方向可以获得合格几何，剩下方向先报原始电阻和样品尺寸，不将跨生长方法的换算误差当各向异性反转。"
+        },
+        {
+          "title": "如何用多带模型而不被模型误导",
+          "text": "霍尔弯曲可以来自多个载流子、非线性磁响应或不理想电流分布。同一样片上同时保存纵向和霍尔原始数据，对正负场分别交叉检验，监视纵向泄漏大小。低场斜率和高场有效斜率不能直接各自命名为不同真实载流子；拟合多带时要把不同方向的正定迁移率、共同电子结构与实际磁性约束同时纳入。若多个参数解的残差相近，最稳健的报告仍是符号、弯曲和几何范围。可补上同母晶两轴随温变化的反常热电，作为不同散射读出，而不预设其一定支持拓扑。"
+        },
+        {
+          "title": "区分工艺差异和化学取代",
+          "text": "把长针放到高对比截面做微区图，先适当洁净表面且留相邻未洁净片。比较富 Bi 的局域亮区域、均一基体和表面层，同时量 Cr/Sb，避免把富重元素高对比直接等同配位占位。没有 Bi 位点敏感信号前，既可以优先使用 Sb/CVT 做所需物性，也可以把 Bi 样保留为潜在缺陷对照；若 WDS 只获得检测上限，将上限如实放在晶体筛选记录中。调整 Bi 投料时固定总熔体比例和温程，先测晶体产出/相谱再决定是否扩炉。"
+        },
+        {
+          "title": "报告时保留可比较单位",
+          "text": "同几何磁阻用百分比并明确零场分母和初温；比较 RRR 时写明 300 K 和 1.8 K，而不是用别的正常态温点混合。异常样可用室温 XRD 重测与低温精修对照，避免温度漂移掩盖晶轴方向差。若相同的符号切换在多个样本保持而 RRR 散布很大，可以优先确认方向响应的可复现性，再进入本征机制。"
+        }
+      ],
+      "tags": [
+        "实验物性",
+        "双语题名",
+        "arXiv"
+      ],
+      "rating": "★★★★★",
+      "readingGuide": {
+        "priority": "最高：直接可用于实验室选长晶路线",
+        "first": "§II、图 2、4–6 和附录",
+        "focus": "晶向、FIB、真实成分和散射的分离",
+        "next": "先 Sb/CVT 同几何，留 Bi 炉与非 FIB 对照"
+      },
+      "bodyChineseCharacters": 1480
+    },
+    {
+      "id": "2611.27220",
+      "title": "Chemical Programming of Stacking Order and Superconductivity Dimensionality in NbSe₂₋ₓTeₓ Polytypic Heterostructures",
+      "titleZh": "NbSe₂₋ₓTeₓ 多型异质结构中堆垛序与超导维度的化学调控",
+      "titleOriginalMetadata": "Chemical Programming of Stacking Order and Superconductivity Dimensionality in NbSe2-xTex Polytypic Heterostructures",
+      "journal": "arXiv",
+      "doi": "https://arxiv.org/abs/2611.27220",
+      "arxivId": "2611.27220",
+      "fullText": "https://arxiv.org/pdf/2611.27220v1",
+      "category": "高温与非常规超导",
+      "material": "NbSe₂₋ₓTeₓ",
+      "authors": "Liu, Xiangqi; Wang, Haonan; Liu, Ziguang; Sun, Peihan; Xu, Xiang; Jiang, Jing; Li, Zhengyang; Zhu, Ziyi; Xia, Wei; Wang, Xia; Chen, Leiming; Qu, Ke; Chen, Yulin; Chen, Cheng; Liu, Kai; Yang, Zhenzhong; Guo, Yanfeng",
+      "institutions": "上海科技大学；华东师范大学；河北科技大学；中国人民大学；郑州航空工业管理学院",
+      "date": "2026-11-23 arXiv 公告",
+      "versionNote": "2026-11-23 官方公告；20 Nov 2026 UTC 提交。arXiv v1；未核到本日正式对应发表。",
+      "readingStatus": "full",
+      "selectionStatus": "today-announcement",
+      "access": "全文精读：64 页公开 PDF：Methods、图 1–5，附 SI S13、S23 和相稳定计算部分。",
+      "method": "64 页公开 PDF：Methods、图 1–5，附 SI S13、S23 和相稳定计算部分。",
+      "conclusion": "2H、4H、6R 在层堆垛、热力学读出和角分辨临界场上的证据不同；4H 的层内窄角增强不能仅用一种配对机制解释。",
+      "sections": [
+        {
+          "title": "合成与真实组成",
+          "text": "Nb、Se、Te 99.99%，按名义 0.9:(2−x):x 在真空石英管 10 h 到 973 K，再保持 50 h 形成多晶前驱体。前驱与输运剂质量比 1:0.1，14 cm 石英安瓿低于 10⁻⁴ Torr 封管；反应/生长端 850/800 °C，15 天冰水淬冷。正文将输运剂写作 iodide，复现宜核试剂票据和 SI，不把含碘试剂的化学形态自行补全。EDS 实测与初始配比要分开；粉末和单晶 XRD、原子分辨 STEM 用于相与层序对照。相图跨 2H、H/T 混堆垛 4H/6R、1T/1T′，过渡组成可能互生，不把投料分界当作单相边界。"
+        },
+        {
+          "title": "层序的独立验证",
+          "text": "图 1 晶体照片、结构和局部层截面应和底层衍射证据分开。正文 4H 输运代表主要是 NbSe₁.₄Te₀.₆，图 1 晶体图片的另一个 4H 组成不应贴到该器件的曲线上。同一配比可有不同堆垛、局部成分起伏或残余应变，尤其快速淬冷可能保留亚稳排列；粉末平均结构掩盖少量高连通的超导路径。每一批先将晶体截面、元素线扫、衍射取向及四探针存档关联上，再做不同晶体的图线对照。"
+        },
+        {
+          "title": "输运定义及定量",
+          "text": "四线 AC 100 μA、面内电流；R_N 取 10 K，T_c/B_c2 用 50% 电阻判据。图 2 的代表转变约 4.5 K（2H，x=0.2）、3.3 K（4H，x=0.6）、2.8 K（6R，x=0.8）。4H 在 1.8 K 面内方向 ±约 2° 内额外增强，Tinkham 双窗口拟合给外窗平行场 5.1 T、近窗 5.9 T；这些数是拟合，不是两个独立相的观察。低温平行临界场超弱耦合 Pauli 参照也不单独证明 Ising 配对。图 3 磁性和热容，S23 的 Corbino 轴向输运，帮助区分标度拟合与层间相干。"
+        },
+        {
+          "title": "最敏感的交叉验证",
+          "text": "先复核 6R 与 4H 两类多个晶体，样品电流换向和电压端交换；用可重复的霍尔探头/角度标定测外角与 ±2° 窗，设定足够小的角度步长并排除电流加热。以 10%、50%、90% 及零阻四套判据出对照；如果只有某个阈值的拟合出现额外增强，或改变场扫方向峰形改变，应先查涡旋、非均匀连通与角偏差。若各判据都在相同方位有稳定特征，再测不同厚度和多次装夹以检验体晶与层薄片的趋势。"
+        },
+        {
+          "title": "层间相干和自旋轨道不能同时自由拟合",
+          "text": "4H 近面内表现包含堆垛、局部轨道混成、成分无序和正常态散射的共同变化。图 4 的光电子谱与含 SOC 计算能说明能带和局部环境在变，但不能量出库珀对波函数。在受限拟合中，先用正常态电阻、样品特征长度和轨道角依赖约束散射，在同组样上比较非超导态轴向/面内电阻比；再检验模型是否同时解释温度和角度。若只拟合一条外推曲线，参数同向变化会导致多个可行机制。下一炉尽量固定有效 x，选择生长温度或淬冷作为改变堆垛的单变量；若 XRD 看不到明显结构改变但磁输运明显变，优先查散射与样品几何。"
+        },
+        {
+          "title": "粉末谱、实际堆垛和弱相的区分",
+          "text": "对每炉分簇取样，粉末研磨用于统计全部回收固体，单晶衍射和层间成像用于回答进入输运测量的是哪片。弱反射、散射条纹和局部层错都不能由整齐的平均结构示意图替代。相界附近若在同一薄片见两个堆垛序列，应同时报告断面中各序列长度和衍射强度，不对变薄后变化作单相归因。可以先留一片做热量与低场屏蔽、邻片做四探针和显微。检验电阻起始高于体态转变的差值是否与少量互生区域相关；只在同配方不同热史相比较时才判断淬冷是否确实扩大特定多型的形成窗口。"
+        },
+        {
+          "title": "热力学证据怎样与角电输运对齐",
+          "text": "热容跃变或磁屏蔽只说明一定体积参与，不能逐一映射到特定层。应保留剩余体积和退磁修正，磁场方向与电流方向分别标定。二维角依赖的近面内尖点来自拟合可行性和实测角谱，但改变电流密度可能改变涡旋运动和电阻限；同一层序上至少做两档安全电流，通过电流极性和降温顺序确认重复。若低场热容一致但不同电极只能看到不同尖点，先查输运不均匀或接触；若场向响应在热与磁观测同步出现，电阻的几何替代解释范围就缩小。"
+        },
+        {
+          "title": "建立对层间相干的独立量",
+          "text": "轴向电阻比是层间电子运动的代理量，但也受散射和可能的旁路影响，不可用正常态比值直接定义超导维数。将正常态的同温取值同超导临界场的温度跨度分开，按正常态电阻比例统一分组，再看给定堆垛内不同残余散射的样是否有共同角谱。样品位置需同时测局部 x 和应变；当两个相的最代表样实际配比不一致，光电子谱差异至少包括填充以外的配位和无序影响。先把实际组分、厚度和相分数画成独立表，最后才给结构和相干的解释。"
+        },
+        {
+          "title": "第一批样品的成败指标",
+          "text": "生长先保留足够尺寸供同时获得法向和面内传输数据；每颗正反面拍照，记录夹具和电极的热循环。若理想层序在较小晶片出现但体积不够热容，先用同一炉晶体做批内筛选，不用不同目标成分拼接证据。三相的转变趋势可用来安排低温档位，较高的拟合临界场不能替代温度回线与实际零电阻。强场角扫前，先用一片从高于转变温度开始重复冷却判断机械漂移。选择强弱耦合模型时保留未成功的拟合范围及残差，不用某个更大参数自动充当机制优劣。"
+        }
+      ],
+      "tags": [
+        "实验物性",
+        "双语题名",
+        "arXiv"
+      ],
+      "rating": "★★★★★",
+      "readingGuide": {
+        "priority": "最高：超导层间结构工程",
+        "first": "Methods、图 1–3、S13/S23",
+        "focus": "50% 判据、样品组分和窄角拟合",
+        "next": "固定实际组分，多晶体结构与热容同测"
+      },
+      "bodyChineseCharacters": 1486
+    },
+    {
+      "id": "2611.27240",
+      "title": "Normal-state exponential muon-spin relaxation and its implications for time-reversal symmetry breaking in Sr₂RuO₄",
+      "titleZh": "Sr₂RuO₄ 的正常态指数型 μ 子自旋弛豫及其对时间反演对称性破缺的含义",
+      "titleOriginalMetadata": "Normal-state exponential muon-spin relaxation and its implications for time-reversal symmetry breaking in Sr$_2$RuO$_4$",
+      "journal": "arXiv",
+      "doi": "https://arxiv.org/abs/2611.27240",
+      "arxivId": "2611.27240",
+      "fullText": "https://arxiv.org/html/2611.27240v1",
+      "category": "高温与非常规超导",
+      "material": "Sr₂RuO₄",
+      "authors": "Khasanov, Rustem; Hicken, Thomas J.; Krieger, Jonas A.; Lamotte, Maxime; Shiroka, Toni; Bobowski, Jake S.; Grinenko, Vadim; Johnson, Thomas; Kikugawa, Naoki; Klauss, Hans-Henning; Paul, Shubhankar; Huddart, Benjamin M.; Blundell, Stephen J.; Luetkens, Hubertus; Maeno, Yoshiteru",
+      "institutions": "瑞士 PSI；英属哥伦比亚大学；京都大学相关研究机构；上海交通大学；NIMS 等",
+      "date": "2026-11-23 arXiv 公告",
+      "versionNote": "2026-11-23 官方公告；20 Nov 2026 UTC 提交。arXiv v1；未核到本日正式对应发表。",
+      "readingStatus": "full",
+      "selectionStatus": "today-announcement",
+      "access": "全文精读：v1 图 1–7、表 1、实验和附录/文中 SI 引用。",
+      "method": "v1 图 1–7、表 1、实验和附录/文中 SI 引用。",
+      "conclusion": "高于样品上临界场的正常态也出现相似的指数弛豫，零场信号本身不能单独确认超导时间反演对称性破缺。",
+      "sections": [
+        {
+          "title": "比较的起点",
+          "text": "四颗京都生长单晶，A–D 各有可追踪标签，场沿 c；样品质量由窄体转变和磁性杂相检查支撑。主文零场 T_c 对 A/B/C 为 1.51/1.48/1.40 K，图 2 由 WHH 型拟合给 μ₀H_c2(0) 为 74.0(1)/71.7(1)/66.5(1) mT。80 mT 对这三个样品确在正常态；不能套到另一个晶向或不同样品。完整生长温程与原料细节见论文独立补件引用，本次未核全。"
+        },
+        {
+          "title": "最强对照与保留问题",
+          "text": "图 3 对照 ZF 和 80 mT TF 的 onset，指数增强幅度比约 1.4–1.5；两种测量几何并非完全相同，拟合共享现象学指数 2.5，因此相关尺度不等于唯一共同微观起因。小于 H_c2 的图 4 还有随混合态出现的附加分量；磁通线高斯展宽与指数项要区分。该工作削弱的是某一实验信号的唯一归因，不等于否证所有时间反演破缺证据。"
+        },
+        {
+          "title": "怎样继续",
+          "text": "对同晶同时做磁化与 ZF／临界场两侧 TF；冷却程序、残磁校准、回场与装样空白逐一控制，先复核背景。把给定温度横场序列独立测，再做接受不同指数的拟合和置信区间。若正常态通道只随样品杂相或探针台改变，则不能归于普适本征来源；如跨仪器、形状和杂质水平都存在，则可收窄候选机制。"
+        }
+      ],
+      "tags": [
+        "实验物性",
+        "双语题名",
+        "arXiv"
+      ],
+      "rating": "★★★★★",
+      "readingGuide": {
+        "priority": "高：非常规配对的证据审查",
+        "first": "图 2–5、表 1",
+        "focus": "上临界场、零场与横场相似性的边界",
+        "next": "同晶穿临界场核独立通道"
+      },
+      "bodyChineseCharacters": 330
+    },
+    {
+      "id": "2611.27334",
+      "title": "Role of antisite disorder in dictating the Ising anisotropy and ferromagnetic ground state of NdGaSi",
+      "titleZh": "反位无序在决定 NdGaSi 的伊辛各向异性和铁磁基态中的作用",
+      "titleOriginalMetadata": "Role of antisite disorder in dictating the Ising anisotropy and ferromagnetic ground state of NdGaSi",
+      "journal": "arXiv",
+      "doi": "https://arxiv.org/abs/2611.27334",
+      "arxivId": "2611.27334",
+      "fullText": "https://arxiv.org/html/2611.27334v1",
+      "category": "磁性、拓扑与自旋",
+      "material": "NdGaSi／NdAlSi",
+      "authors": "Saraswati, Anyesh; Kanthal, Sourav; Nandy, Subhajit; Sannigrahi, Jhuma; Gutmann, Matthias; Kumar, Nitesh",
+      "institutions": "S. N. Bose 中心；DESY；IIT Goa；英国 ISIS 中子源",
+      "date": "2026-11-23 arXiv 公告",
+      "versionNote": "2026-11-23 官方公告；20 Nov 2026 UTC 提交。arXiv v1；未核到本日正式对应发表。",
+      "readingStatus": "full",
+      "selectionStatus": "today-announcement",
+      "access": "全文精读：v1 Methods、图 1–4、表 1–3、晶场拟合。",
+      "method": "v1 Methods、图 1–4、表 1–3、晶场拟合。",
+      "conclusion": "单晶中子和磁性支持 NdGaSi 的 c 轴共线铁磁；晶场拟合给高纯度双重态，但两端元比较不能单独锁定无序的因果。",
+      "sections": [
+        {
+          "title": "样品和结构",
+          "text": "NdGaSi 取此前 Ga 自助熔样，NdAlSi 用 Al 自助熔；无磁 LaGaSi 做热容背景。约 3×3×3 mm³ 的代表晶体、约 150 mg 用于 ISIS 单晶中子，5–300 K。XRD/EDS 及 300 K 中子支持平均中心对称 I4₁/amd、Ga/Si 共占位，与有序 I4₁md 的 NdAlSi 不同。正文引用此前生长；实际温区、装料量及炉次产率不在本篇重复。"
+        },
+        {
+          "title": "磁矩和晶场是不同层级",
+          "text": "约 11 K 下核峰位置磁强度增加，无可分辨新磁卫星，为 k=0 的直接支持。5 K 精修 c 向矩约 3.031 μB/Nd；图 3 XANES 与 EXAFS 检查 Nd³⁺和近邻环境。磁化率和扣背景磁比热联合拟合给约 97% 的 |±7/2⟩ 权重，并非直接测出量子态概率；EXAFS 的配位数部分借用衍射初值。"
+        },
+        {
+          "title": "下一炉优先对照",
+          "text": "优先同成分做不同冷却/退火，按精修误差引入配体位点有序度和局域谱。若无法改有序度，就用直接非弹性中子确定激发能并比较两端元的交换。化学替换同时改电子结构、晶场和有序度，不将只有两个端元的差别写成纯无序效应。"
+        }
+      ],
+      "tags": [
+        "实验物性",
+        "双语题名",
+        "arXiv"
+      ],
+      "rating": "★★★★★",
+      "readingGuide": {
+        "priority": "高：磁结构与位点证据",
+        "first": "图 1–3、Methods",
+        "focus": "平均空间群与局域无序的可识别性",
+        "next": "控制成分测配体有序与 Nd 激发"
+      },
+      "bodyChineseCharacters": 253
+    },
+    {
+      "id": "2611.27428",
+      "title": "A Negative-U Double Quantum Dot in a LaAlO₃/SrTiO₃ Membrane on Silicon",
+      "titleZh": "硅基 LaAlO₃/SrTiO₃ 膜中的负 U 双量子点",
+      "titleOriginalMetadata": "A Negative-U Double Quantum Dot in a LaAlO3/SrTiO3 Membrane on Silicon",
+      "journal": "arXiv",
+      "doi": "https://arxiv.org/abs/2611.27428",
+      "arxivId": "2611.27428",
+      "fullText": "https://arxiv.org/html/2611.27428v1",
+      "category": "二维材料与量子器件",
+      "material": "LAO/STO 膜",
+      "authors": "Meucci, Giulia; Jansen, Thies; Konstantinopoulou, Pinelopi O.; Olšteins, Dags; Carrad, Damon J.; Maliakkal, Carina Babu; Arbiol, Jordi; Bergeal, Nicolas; Bibes, Manuel; Citro, Roberta; Di Gennaro, Emiliano; Kalaboukhov, Alexei; Manca, Nicola; Perroni, Carmine A.; Salluzzo, Marco; Wójcik, Paweł; Trier, Felix; Pryds, Nini; Granozio, Fabio Miletto; Sambri, Alessia; Jespersen, Thomas S.",
+      "institutions": "丹麦技术大学；ICN2；ESPCI Paris；萨莱诺大学；Chalmers 等",
+      "date": "2026-11-23 arXiv 公告",
+      "versionNote": "2026-11-23 官方公告；20 Nov 2026 UTC 提交。arXiv v1；未核到本日正式对应发表。",
+      "readingStatus": "full",
+      "selectionStatus": "today-announcement",
+      "access": "全文精读：v1 图 1–4、Materials and Methods；独立补件待另核。",
+      "method": "v1 图 1–4、Materials and Methods；独立补件待另核。",
+      "conclusion": "转移氧化物膜的局部双栅输运与吸引相互作用双点一致，不能视为体超导或直接测到配对波函数。",
+      "sections": [
+        {
+          "title": "样品与界面",
+          "text": "LAO/STO 双层各约 55 nm，应变诱导剥离，尺度约 2–20 μm；图 1 截面 HAADF 证实局部外延界面并有 Si 基顶/背栅几何。图 2 的栅驱动二维电子界面经过夹断和双点区，膜制法沿早期文献；批间薄膜成分与全部器件良率未在已读段落确定。"
+        },
+        {
+          "title": "谱线与模型",
+          "text": "图 3 蜂窝充电稳定图和磁场打开奇占据，以及图 4 的失谐路径区分偶数占据区。约 350±50 μeV 是从偏压谱提取的成对加电子能量，不等于已知体配对隙。双 Hubbard 模型支持负 U，栅杠杆臂和两个点的非对称是拟合输入；空间位置图为示意，不能把未直接成像的量子点落在某个化学缺陷上。"
+        },
+        {
+          "title": "复测",
+          "text": "保留同一外延片未转移对照以及同厚度膜的单栅/双栅对照；温度、不同场向和偏压对称都扫描。若配对拟合只在一个失谐窗且跟滞回或扫速走，先查电荷陷阱；不同器件重复后才讨论受控配对。"
+        }
+      ],
+      "tags": [
+        "实验物性",
+        "双语题名",
+        "arXiv"
+      ],
+      "rating": "★★★★★",
+      "readingGuide": {
+        "priority": "高：膜转移、界面结构与配对",
+        "first": "图 1–4 和 Methods",
+        "focus": "局部栅控与配对证据的区分",
+        "next": "同片转移前后双栅对照"
+      },
+      "bodyChineseCharacters": 267
+    },
+    {
+      "id": "2611.27837",
+      "title": "Voltage-Controlled Dielectric Cavity Magnonics in Epitaxial Fe Films on SrTiO₃ Single Crystal Substrates",
+      "titleZh": "SrTiO₃ 单晶衬底上外延 Fe 膜中的电压可控介电腔磁振子物理",
+      "titleOriginalMetadata": "Voltage-Controlled Dielectric Cavity Magnonics in Epitaxial Fe Films on SrTiO3 Single Crystal Substrates",
+      "journal": "arXiv",
+      "doi": "https://arxiv.org/abs/2611.27837",
+      "arxivId": "2611.27837",
+      "fullText": "https://arxiv.org/html/2611.27837v1",
+      "category": "磁性、拓扑与自旋",
+      "material": "Fe/SrTiO₃(001)",
+      "authors": "Reniers, Stijn; Gorokh, Ekaterina; Nulens, Lukas; Boelen, Andries; Haffner, Christian; Merckling, Clement; Silhanek, Alejandro V.; Temst, Kristiaan; Van de Vondel, Joris",
+      "institutions": "鲁汶大学；imec；列日大学",
+      "date": "2026-11-23 arXiv 公告",
+      "versionNote": "2026-11-23 官方公告；20 Nov 2026 UTC 提交。arXiv v1；未核到本日正式对应发表。",
+      "readingStatus": "full",
+      "selectionStatus": "today-announcement",
+      "access": "全文精读：v1 制备、图 1–5、温度/场/偏压和模式分析。",
+      "method": "v1 制备、图 1–5、温度/场/偏压和模式分析。",
+      "conclusion": "Fe 共振与 STO 本征介电腔谱可耦合；翻面测试及参考样区分直接微波耦合和腔介导成分。",
+      "sections": [
+        {
+          "title": "试样与对照",
+          "text": "STO(001) 10×10×0.5 mm³，在约 10⁻⁹ mbar 先 300 °C/20 min；Fe 约 30 nm 由 MBE 在 200 °C、约 0.2 Å/s 外延，后 360 °C 退火。使用裸 STO 与 Fe/10 nm STO/Si 分离腔和磁膜响应。裸基板温谱和 Fe FMR 可分别标定，不以样品只有一个峰证明耦合。"
+        },
+        {
+          "title": "测量与解释",
+          "text": "图 2–3 的 S₂₁ 和导数显示模式与温区、装样侧相关；比较 Fe 面和 STO 面朝波导后，谱形与线宽的差说明开放腔中的相干/耗散贡献不同。约 0.1–1 GHz 为耦合量级，需与阻尼及不同模态区分；不是已量子化单磁振子操作。"
+        },
+        {
+          "title": "验证路线",
+          "text": "换 STO 厚度而保持 Fe 氧化/应变与膜厚，先测裸 STO 的模态，再追踪偏压移动的反交叉；若只随直流漏电/温升或电缆背景走，暂停电调介电解释。"
+        }
+      ],
+      "tags": [
+        "实验物性",
+        "双语题名",
+        "arXiv"
+      ],
+      "rating": "★★★★★",
+      "readingGuide": {
+        "priority": "次高：外延和微波跨组对照",
+        "first": "方法、图 2–3 和电压图",
+        "focus": "两种朝向、基片模式与拟合耦合",
+        "next": "裸衬底—双向外延膜三角对照"
+      },
+      "bodyChineseCharacters": 178
+    },
+    {
+      "id": "2611.26808",
+      "title": "Tuning the Dzyaloshinskii-Moriya interaction in CoFeB thin film heterostructures",
+      "titleZh": "CoFeB 薄膜异质结构中 Dzyaloshinskii–Moriya 相互作用的调谐",
+      "titleOriginalMetadata": "Tuning the Dzyaloshinskii-Moriya interaction in CoFeB thin film heterostructures",
+      "journal": "arXiv",
+      "doi": "https://arxiv.org/abs/2611.26808",
+      "arxivId": "2611.26808",
+      "fullText": "https://arxiv.org/html/2611.26808v1",
+      "category": "磁性、拓扑与自旋",
+      "material": "Pt/CoFeB/Ta/Pt",
+      "authors": "Oliya, Rabindra R; Keck, Christopher; Compton, Lia; Guo, Jing; Buchanan, Kristen S; Streubel, Robert; Adenwalla, Shireen",
+      "institutions": "内布拉斯加大学林肯分校；科罗拉多州立大学",
+      "date": "2026-11-23 arXiv 公告",
+      "versionNote": "2026-11-23 官方公告；19 Nov 2026 UTC 提交。arXiv v1；未核到本日正式对应发表。",
+      "readingStatus": "full",
+      "selectionStatus": "today-announcement",
+      "access": "全文精读：v1 沉积段、图 1–6，BLS 与 Kerr 对照；独立 SI 未确认。",
+      "method": "v1 沉积段、图 1–6，BLS 与 Kerr 对照；独立 SI 未确认。",
+      "conclusion": "Ta 亚单层厚度能调净 DMI；三法交叉主要在 0.3 nm 样，不能外推到整个系列。",
+      "sections": [
+        {
+          "title": "层序与变量",
+          "text": "溅射 Cr/Ta/Pt/Co₆₀Fe₂₀B₂₀/Ta/Pt，磁层 0.7 nm，改变名义阈值附近的 Ta 亚纳米层；基底含 LiNbO₃ 和 Si。标称 0.3 nm 不证明已形成连续覆盖膜，沉积后扩散与离子损伤均影响界面。"
+        },
+        {
+          "title": "互证范围",
+          "text": "图 2–5 的边缘成核、条纹周期和 BLS 并不测同一个直接可观测量；全系列 BLS，畴相关模型集中在 0.3 nm。BLS 值约 1.50±0.10 mJ/m² 的对照针对该样。成核与条纹反演依赖交换刚度等输入，不把三法彼此接近解读为模型不含假设；BLS 使用不同衬底须排底层织构差异。"
+        },
+        {
+          "title": "如何复测",
+          "text": "在同基片多片共沉积，增加零 Ta 与反向叠层，配合 XRR/STEM 和 BLS 正负场测量；仅有条纹变化而非互易频差也可能来自磁各向异性。"
+        }
+      ],
+      "tags": [
+        "实验物性",
+        "双语题名",
+        "arXiv"
+      ],
+      "rating": "★★★★★",
+      "readingGuide": {
+        "priority": "次高：薄膜界面工艺",
+        "first": "图 1、5–6",
+        "focus": "测量针对哪个样品，Ta 是否连续",
+        "next": "同基片三法比较"
+      },
+      "bodyChineseCharacters": 186
+    },
+    {
+      "id": "2611.26860",
+      "title": "Artificial Spin-Glass of Antiferromagnetic Co₃O₄ Nanocubes Using Spin-Polarized Oxygen",
+      "titleZh": "利用自旋极化氧在反铁磁 Co₃O₄ 纳米立方体中构建人工自旋玻璃",
+      "titleOriginalMetadata": "Artificial Spin-Glass of Antiferromagnetic Co3O4 Nanocubes Using Spin-Polarized Oxygen",
+      "journal": "arXiv",
+      "doi": "https://arxiv.org/abs/2611.26860",
+      "arxivId": "2611.26860",
+      "fullText": "https://arxiv.org/html/2611.26860v1",
+      "category": "磁性、拓扑与自旋",
+      "material": "Co₃O₄",
+      "authors": "Uppal, Gurleen K.; Acosta, Alberto; Nickel, Rachel; Klewe, Christoph; Chen, Yanna; Sun, Chengjun; Roberts, Charles A.; van Lierop, Johan",
+      "institutions": "曼尼托巴大学等；同步辐射合作单位见作者署名",
+      "date": "2026-11-23 arXiv 公告",
+      "versionNote": "2026-11-23 官方公告；19 Nov 2026 UTC 提交。arXiv v1；未核到本日正式对应发表。",
+      "readingStatus": "full",
+      "selectionStatus": "today-announcement",
+      "access": "全文精读：v1 图 1–5、制备、XAFS 和磁化分析；额外 SI 未另核。",
+      "method": "v1 图 1–5、制备、XAFS 和磁化分析；额外 SI 未另核。",
+      "conclusion": "立方颗粒尺寸改变伴随磁响应和局域谱变化，支持受挫磁性；仅凭滞回和磁化增强不能唯一确立自旋玻璃。",
+      "sections": [
+        {
+          "title": "尺寸、结构与磁性",
+          "text": "两小粒组 TEM 拟合约 13±2、17±3 nm，另有约 380±50 nm 的大粒对照；文中简称 10、20、400 nm。XRD 拟合尖晶石 Fd−3m，峰宽的相干长度不等同 TEM 粒径。大粒 35–40 K 附近有近块体反铁磁异常，小粒增强磁化并呈历史效应，须与颗粒间阻塞比较。"
+        },
+        {
+          "title": "谱学和判据",
+          "text": "图 3–4 的 Co K 与 O K 吸收给局部键长、配位和谱权；氧极化、配体空穴与高自旋 Co 的分量依赖谱函数和模型，不能把平均谱转成已直接读出的表面原子自旋。不同尺寸颗粒的表面配位、水/羟基层和团聚应匹配，再做交流频率、等待时间、稀释样对照；若随颗粒间距明显变化，优先考虑集体阻塞。"
+        }
+      ],
+      "tags": [
+        "实验物性",
+        "双语题名",
+        "arXiv"
+      ],
+      "rating": "★★★★★",
+      "readingGuide": {
+        "priority": "次高：纳米晶磁性",
+        "first": "图 1–4",
+        "focus": "TEM 和 XAFS 边界",
+        "next": "同尺寸控团聚和表面化学"
+      },
+      "bodyChineseCharacters": 181
+    },
+    {
+      "id": "10.1063/5.0350201",
+      "title": "Group-III doping of the p-type oxide SnO",
+      "titleZh": "p 型氧化物 SnO 的 III 族元素掺杂",
+      "titleOriginalMetadata": "Group-III doping of the p-type oxide SnO",
+      "journal": "arXiv",
+      "doi": "https://doi.org/10.1063/5.0350201",
+      "arxivId": "2611.27938",
+      "fullText": "https://arxiv.org/pdf/2611.27938",
+      "category": "晶体生长和物性调控",
+      "material": "Al/Ga/In:SnO",
+      "authors": "Gutmann, Nicola; Hoffmann, Georg; Campbell, Aidan Flynn; Laehnemann, Jonas; Bierwagen, Oliver",
+      "institutions": "保罗·德鲁德固体电子学研究所（莱布尼茨科研联盟柏林）",
+      "date": "2026-11-23 arXiv 公告",
+      "versionNote": "2026-11-23 官方公告；19 Nov 2026 UTC 提交。关联期刊早于本期；本期按首次 arXiv 公告，非本日正式首发。",
+      "readingStatus": "full",
+      "selectionStatus": "today-announcement",
+      "access": "全文精读：读 arXiv 上作者分享的 APL 排版版图 1–3、样品表及 MBE 方法；正式在线 11 月 17 日。",
+      "method": "读 arXiv 上作者分享的 APL 排版版图 1–3、样品表及 MBE 方法；正式在线 11 月 17 日。",
+      "conclusion": "Al 掺杂亦呈受主行为，与简单孤立缺陷模型相冲突；载流子浓度不能单凭名义通量反演占位价态。",
+      "sections": [
+        {
+          "title": "生长与测量",
+          "text": "单晶衬底上的 30–55 nm SnO 膜；比较等离子体 MBE 和亚氧化物 MBE，文中温度约 350 或 400 °C。按 Al、Ga、In 改通量，Hall 核空穴符号及迁移率；以未故意掺杂膜作底。最高空穴浓度分别约 2、3、1×10¹⁹ cm⁻³，这是对研究的浓度扫描而言，不是电离极限的直接测定。"
+        },
+        {
+          "title": "重点排除替代解释",
+          "text": "Al 在强氧化条件下仍呈 p 型，削弱单独以 Al 的低价态就能解释的猜测；仍需考虑自补偿、缺陷复合和实际氧化学势。结合二次离子/离子束成分与 XRD 验膜相，做同衬底、同氧活性对照，若 Hall 量随厚度剧变先查界面通道。该论文非 23 日期刊新增，只按官方批次的公开分享归档。"
+        }
+      ],
+      "tags": [
+        "实验物性",
+        "双语题名",
+        "arXiv"
+      ],
+      "rating": "★★★★★",
+      "readingGuide": {
+        "priority": "高：氧化物掺杂证据",
+        "first": "图 1–3、样品表",
+        "focus": "掺杂浓度与空穴载流子不等同",
+        "next": "实测组分和氧分压交叉"
+      },
+      "bodyChineseCharacters": 182
+    },
+    {
+      "id": "2611.26735",
+      "title": "Atomic layer etching of niobium via alternating O$_2$ and H$_2$/SF$_6$ plasma exposures",
+      "titleZh": "通过交替 O₂ 和 H₂/SF₆ 等离子体暴露对铌进行原子层刻蚀",
+      "titleOriginalMetadata": "Atomic layer etching of niobium via alternating O$_2$ and H$_2$/SF$_6$ plasma exposures",
+      "journal": "arXiv",
+      "doi": "https://arxiv.org/abs/2611.26735",
+      "arxivId": "2611.26735",
+      "fullText": "https://arxiv.org/html/2611.26735v1",
+      "category": "晶体生长和物性调控",
+      "material": "Nb 超导薄膜",
+      "authors": "Wyatt, Lillian B. Hughes; Hossain, Azmain A.; Yan, Yifei; Minnich, Austin J.",
+      "institutions": "加州理工学院；喷气推进实验室（JPL）",
+      "date": "2026-11-23 arXiv 公告",
+      "versionNote": "2026-11-23 官方公告；19 Nov 2026 UTC 提交。arXiv v1；未核到本日正式对应发表。",
+      "readingStatus": "full",
+      "selectionStatus": "today-announcement",
+      "access": "全文精读：v1 工艺、图 1–5、XPS 与输运；公开 HTML。",
+      "method": "v1 工艺、图 1–5、XPS 与输运；公开 HTML。",
+      "conclusion": "分步表面处理可在本设备每周期去约 5–7 Å；表面变平且转变随变薄降低，不代表微波损耗已优化。",
+      "sections": [
+        {
+          "title": "样品、处理与读出",
+          "text": "比较 SiO₂/Si 上溅射 Nb 与蓝宝石上蒸发生长 Nb；尺寸约 10×10 mm²。作者区分氧化和去除表层，XPS 指向受处理层的不同价态，厚度斜率给周期刻蚀深度。基底、初始 Nb 厚度和表层氧化的差别必须控制。"
+        },
+        {
+          "title": "实验最低要求",
+          "text": "先用同炉膜做工艺和无处理厚度对照，以 AFM 统计而非单条粗糙度、XPS 与低温输运测变薄；若转变下降超过仅减厚对照，优先查等离子损伤和残氟。未测得的器件品质因数和长期失效应保留未知。"
+        }
+      ],
+      "tags": [
+        "实验物性",
+        "双语题名",
+        "arXiv"
+      ],
+      "rating": "★★★★★",
+      "readingGuide": {
+        "priority": "补充：超导薄膜后处理",
+        "first": "图 1 和刻蚀/电阻图",
+        "focus": "同厚度对照与表面化学",
+        "next": "先量薄膜厚度再对照电学"
+      },
+      "bodyChineseCharacters": 145
+    }
+  ],
+  "figures": [
+    {
+      "src": "/reports/2026-11-23/evidence-23.svg",
+      "title": "三种 NbSe₂₋ₓTeₓ 多型的代表样转变",
+      "source": "https://arxiv.org/abs/2611.27220",
+      "caption": "据公开预印本图 2 和 Methods，50% R_N，R_N 为 10 K 电阻。不同成分和堆垛共变，不能单凭此图分离层序效应；无独立误差条。"
+    }
+  ],
+  "sourceAudit": [],
+  "readingAudit": {
+    "candidateAccessibleFullTexts": 10,
+    "selectedAccessibleFullTexts": 10,
+    "fullReads": 10,
+    "publisherFullReads": 1,
+    "earlyManuscriptReads": 0,
+    "siOnly": 0,
+    "abstractOnly": 0,
+    "institutionalSuccess": false,
+    "pending": []
+  },
+  "researchIdeas": {
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-23",
+    "scope": "按母体、候选组成或同位素、靶向性质查询；附公开近邻与后续边界。",
+    "limitations": [
+      "待查新的物理假设，未取得候选材料或性质实证，暂不作为已确认创新点立项。"
+    ],
+    "ideas": [
+      {
+        "id": "crsb-bi-controlled-separation",
+        "kind": "material",
+        "status": "needs-review",
+        "paperIndex": 1,
+        "title": "在 NiAs 型 CrSb 中验证痕量 Bi 的真实占位，再判断输运散射是否由 Bi 引起",
+        "material": "Cr(Sb₁₋ₓBiₓ) 的低 x 假设；Bi 置换 Sb 是待验理想设定，实际可能只在助熔残渣或边界",
+        "evidenceLevel": "CrSb 母文 §II–III、图 2、4–6；Bi 助熔晶体低 RRR 与弱磁阻，作者指出 FIB 及实际化学量可能干扰。",
+        "question": "当晶体几何、Cr 偏离、热史和 FIB 一致时，产物中可定量的 Bi 与残余散射是否仍关联？",
+        "prediction": "若 Bi 进入 Sb 位且保持 NiAs 平均结构，本假说预期低 x 下残余电阻升高、固定几何低场轨道磁阻变弱，首先检查同晶两轴。霍尔符号不预设反转；若磁阻已被散射解释却规范化霍尔仍系统变，再检验多带结构影响。",
+        "basis": "Sb/Bi 同族名义等价，不能给金属化合物凭空赋固定离子价；Bi 较重更易引入 SOC 和额外局域应变及替位无序，不能在只测电阻时区分。优先选 Bi 是母文实际对照，As 已有丰富固溶/磁变数据，Cr 偏量已有反位/间隙研究。低 x 先假设 Cr 磁子晶格未稀释，再由磁矩检查。",
+        "difference": "Bi 作助熔剂是母文既有工作；本案只新设条件：同一无 Bi 母路线的代入系列与 Bi 助熔的零实测 Bi 样分开，明确区分残渣/夹杂和晶格替位。",
+        "plan": [
+          "做相同助熔热史的 x=0、两个低名义 x；用校准 WDS/ICP 与截面映射先给成分、Cr/Sb 比及元素分布。",
+          "先验母结构、峰宽和局部 Bi；再同方向做非 FIB 四探针与正负场反对称霍尔，对比同晶加工前后。"
+        ],
+        "controls": [
+          "无 Bi 母体、Bi 助熔而未检出 Bi 的样、可获得的富 Bi 竞争相，仅用作相鉴别；统一轴向、电流、温度和厚度。"
+        ],
+        "falsifiers": [
+          "Bi 只沿夹杂或结晶表层则停止按均匀固溶解释。",
+          "实际 Bi 占位且跨炉 RRR/MR 无趋势，或趋势被 Cr 偏量、方向和 FIB 完全解释，则否定。"
+        ],
+        "feasibility": "现有助熔炉与小型四探针可筛；WDS 标准或能提供位点敏感吸收谱的合作必需。",
+        "risks": "痕量低于检出线、熔体残留、有限互溶度，Bi 化学压力与 SOC 无法仅由运输拆开。",
+        "nextStep": "优先 WDS 做晶体内部检测限；未确认占位前不开展完整组成和拓扑测量。",
+        "queries": [
+          "CrSb1-xBix bismuth CrSb substituted NiAs solid solution spin Hall",
+          "CrSb1-xAsx mixed crystals magnetic pressure",
+          "site:patents.google.com CrSb Bi altermagnet patent",
+          "Magnetotransport in altermagnetic CrSb thesis"
+        ],
+        "remainingChecks": [
+          "检索日期 2026-11-23。已核以下公开论文、预印本及可见专利或学位线索；完整专利族及权利要求、学位全文与别名数据库尚未穷尽。",
+          "尚未完成候选的合成、计算或测量，不能确认稳定性、可合成性或新颖性。"
+        ],
+        "priorArt": [
+          {
+            "title": "CrSb 生长与方向输运",
+            "url": "https://arxiv.org/abs/2611.27072",
+            "overlap": "已含 Bi 助熔，不含独立实测 Bi 固溶与隔离工艺因素的判据。",
+            "access": "已读正文与图"
+          },
+          {
+            "title": "Effect of off-stoichiometry on CrSb",
+            "url": "https://doi.org/10.1103/428b-p4d5",
+            "overlap": "Cr 富集可进间隙位并改变输运，必须控制。",
+            "access": "APS 摘要"
+          },
+          {
+            "title": "Exchange striction in CrSb₁₋ₓAsₓ",
+            "url": "https://doi.org/10.1016/0378-4363(77)90367-9",
+            "overlap": "As 取代及磁响应早已有直接研究。",
+            "access": "公开索引摘要"
+          },
+          {
+            "title": "Magnetotransport in altermagnetic CrSb",
+            "url": "https://epub.uni-regensburg.de/80260/",
+            "overlap": "大学论文目录，含体/外延定向输运；全文尚待排同配方。",
+            "access": "学位仓储摘要"
+          }
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "title": "简单提出 CrSb 中 As 替 Sb",
+        "reason": "已有直接结构、磁性和压力对照。",
+        "url": "https://doi.org/10.1016/0378-4363(77)90367-9"
+      }
+    ]
+  },
+  "auditUrl": "/reports/2026-11-23/audit.json",
+  "searchTerms": [
+    "逐刊对照出版社目录和 Crossref：APS 全系列、Nature Portfolio、Science/AAAS、Wiley AM/AFM、ACS 五刊和 JCG 等。成功与失败见审计；访问/日期不全，不声明期刊全天覆盖。",
+    "arXiv 官方 11 月 23 日 88 新投、24 交叉、77 替换，三路快照一致；逐题逐摘要筛选。与历史按 DOI、ID、规范化题名去重。",
+    "按 UTC 日期接口另核：部分请求超时或空，补试 ID 请求；以官方各 abs 页核实版本/初投，未用 API 空结果代替公告。",
+    "23 日期刊快照暂没有达到本期门槛的已核稿；SnO 正式在线为 11 月 17 日，本次仅归在 arXiv 公告轨。"
+  ]
+}
