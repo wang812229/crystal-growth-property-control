@@ -1,0 +1,4841 @@
+{
+  "date": "2026-11-24",
+  "window": "北京时间 2026-11-24 00:00–13:58 检索快照；当日来源更新未齐，回溯 11 月 21–23 日，以下期刊均为 23 日。UTC 投稿日与 arXiv 官方公告日分开记录。",
+  "coverageComplete": false,
+  "counts": {
+    "total": 7,
+    "formal": 5,
+    "accepted": 1,
+    "arxiv": 1,
+    "full": 7,
+    "abstract": 0,
+    "siOnly": 0,
+    "categories": 4,
+    "ideas": 1,
+    "arxivDailyConfirmed": false
+  },
+  "journalAudit": [
+    {
+      "source": "prl",
+      "url": "https://api.crossref.org/journals/1079-7114/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "prb",
+      "url": "https://api.crossref.org/journals/2469-9969/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "prmaterials",
+      "url": "https://api.crossref.org/journals/2475-9953/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "prx",
+      "url": "https://api.crossref.org/journals/2160-3308/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "prresearch",
+      "url": "https://api.crossref.org/journals/2643-1564/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "prapplied",
+      "url": "https://api.crossref.org/journals/2331-7019/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "pra",
+      "url": "https://api.crossref.org/journals/2469-9934/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "pre",
+      "url": "https://api.crossref.org/journals/2470-0053/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "prc",
+      "url": "https://api.crossref.org/journals/2469-9993/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "prd",
+      "url": "https://api.crossref.org/journals/2470-0029/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "rmp",
+      "url": "https://api.crossref.org/journals/1539-0756/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "prxquantum",
+      "url": "https://api.crossref.org/journals/2691-3399/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "prxenergy",
+      "url": "https://api.crossref.org/journals/2768-5608/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "prfluids",
+      "url": "https://api.crossref.org/journals/2469-990X/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "prab",
+      "url": "https://api.crossref.org/journals/2469-9885/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "prper",
+      "url": "https://api.crossref.org/journals/2469-9893/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "404",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "ACS Applied Materials & Interfaces",
+      "url": "https://api.crossref.org/journals/1944-8252/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 5,
+      "rows": [
+        {
+          "doi": "10.1021/acsami.6c13198",
+          "title": "Anion-Immobilizing Poly(ionic liquid) Copolymer Electrolytes for Flame-Retardant Lithium Metal Batteries",
+          "date": "2026-11-24",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "doi": "10.1021/acsami.6c19456",
+          "title": "Fe3+ Post-Coordination-Locked Polyaryl Ether-Based Aerogels for Solar-Driven Interfacial Evaporation",
+          "date": "2026-11-24",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1021/acsami.6c17097",
+          "title": "A Metabolically Coupled Photochromic Protein AND-Gate for Living Materials",
+          "date": "2026-11-24",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1021/acsami.6c18672",
+          "title": "Rational Donor–Acceptor Design of Dye-Doped Conjugated Polymer Nanoparticles for Ratiometric Oxygen Sensing: Toward Hydrogel Platforms for Corneal Hypoxia Monitoring",
+          "date": "2026-11-24",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "doi": "10.1021/acsami.6c18735",
+          "title": "Bacterial Extract with Immunomodulatory Properties Ameliorates DSS-Induced Colitis Partly by Inhibiting Ferroptosis",
+          "date": "2026-11-24",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        }
+      ],
+      "hits": 5,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Chinese Physics Letters",
+      "url": "https://api.crossref.org/journals/1741-3540/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Journal of Alloys and Compounds",
+      "url": "https://api.crossref.org/journals/0925-8388/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Journal of Solid State Chemistry",
+      "url": "https://api.crossref.org/journals/0022-4596/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Nature",
+      "url": "https://api.crossref.org/journals/1476-4687/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Nature Physics",
+      "url": "https://api.crossref.org/journals/1745-2481/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Nature Communications",
+      "url": "https://api.crossref.org/journals/2041-1723/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 3,
+      "rows": [
+        {
+          "doi": "10.1038/s41467-026-79800-2",
+          "title": "Host control of rhizobial proliferation in soybean nodules",
+          "date": "2026-11-24",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1038/s41467-026-79294-y",
+          "title": "Promoted phase transition in perovskite heterojunctions via in-situ regulated 2D intermediates enables stable solar cells",
+          "date": "2026-11-24",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "doi": "10.1038/s41467-026-78606-6",
+          "title": "Iso-Seq enables discovery of novel isoform variants in human retina at single-cell resolution",
+          "date": "2026-11-24",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1038/s41467-026-79746-5",
+          "title": "Quasi-degenerate cation occupation enables oxygen-vacancy defect healing in nonlinear optical crystals",
+          "date": "2026-11-23",
+          "sourceType": "11 月 23 日出版社回溯",
+          "decision": "include",
+          "reason": "已核出版社原日的在线或接受记录，访问层级见正文。"
+        }
+      ],
+      "hits": 4,
+      "included": 1,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "npj Quantum Materials",
+      "url": "https://api.crossref.org/journals/2397-4648/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "npj 2D Materials and Applications",
+      "url": "https://api.crossref.org/journals/2397-7132/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Communications Materials",
+      "url": "https://api.crossref.org/journals/2662-4443/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Communications Physics",
+      "url": "https://api.crossref.org/journals/2399-3650/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 1,
+      "rows": [
+        {
+          "doi": "10.1038/s42005-026-02971-3",
+          "title": "High-dimensional polarization encoding with random higher-order Poincaré-sphere beams for robust optical communication",
+          "date": "2026-11-24",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        }
+      ],
+      "hits": 1,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://api.crossref.org/journals/1476-4660/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Science",
+      "url": "https://api.crossref.org/journals/1095-9203/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Science Advances",
+      "url": "https://api.crossref.org/journals/2375-2548/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Advanced Materials",
+      "url": "https://api.crossref.org/journals/1521-4095/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Advanced Functional Materials",
+      "url": "https://api.crossref.org/journals/1616-3028/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Nano Letters",
+      "url": "https://api.crossref.org/journals/1530-6992/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 1,
+      "rows": [
+        {
+          "doi": "10.1021/acs.nanolett.6c04469",
+          "title": "Engineering\nSemiclosed SERS Hot Spots Capable of Capturing\nGaseous Molecules for Efficient VOC Detection",
+          "date": "2026-11-24",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        }
+      ],
+      "hits": 1,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "ACS Nano",
+      "url": "https://api.crossref.org/journals/1936-086X/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 1,
+      "rows": [
+        {
+          "doi": "10.1021/acsnano.6c17280",
+          "title": "Recognition–Transduction\nCoupling in Noble-Metal-Modified\nWO3 for Selective BTEX Sensing",
+          "date": "2026-11-24",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        }
+      ],
+      "hits": 1,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "JACS",
+      "url": "https://api.crossref.org/journals/1520-5126/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 2,
+      "rows": [
+        {
+          "doi": "10.1021/jacs.6c19713",
+          "title": "Hypoxia-Driven,\nSelf-Accelerating Immolative Photosensitizer\nEnabling Effective and Safe Photodynamic Therapy",
+          "date": "2026-11-24",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1021/jacs.6c15732",
+          "title": "Elusive *CH–*CHO\nCoupling Pathway for High-Performance\nCO2 Electroreduction to n-Propanol",
+          "date": "2026-11-24",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        }
+      ],
+      "hits": 2,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Chemistry of Materials",
+      "url": "https://api.crossref.org/journals/1520-5002/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Crystal Growth & Design",
+      "url": "https://api.crossref.org/journals/1528-7505/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Journal of Crystal Growth",
+      "url": "https://api.crossref.org/journals/0022-0248/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "APL Materials",
+      "url": "https://api.crossref.org/journals/2166-532X/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "2D Materials",
+      "url": "https://api.crossref.org/journals/2053-1583/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "429",
+          ""
+        ],
+        [
+          "429",
+          ""
+        ]
+      ],
+      "total": null,
+      "rows": [],
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "hits": null,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Acta Materialia",
+      "url": "https://api.crossref.org/journals/1359-6454/works?filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24&rows=250&select=DOI%2Ctitle%2Cpublished%2Cpublished-online%2Clink",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "total": 0,
+      "rows": [],
+      "hits": 0,
+      "included": 0,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Physical Review B",
+      "url": "https://doi.org/10.1103/dq6c-9df1",
+      "attempts": [
+        [
+          "200",
+          "作者/出版社题录"
+        ]
+      ],
+      "total": null,
+      "rows": [
+        {
+          "doi": "10.1103/dq6c-9df1",
+          "title": "Crystal structure, electrical resistivity, and electronic structure of single-crystal Ni₃Te₂",
+          "date": "2026-11-23",
+          "sourceType": "11 月 23 日出版社回溯",
+          "decision": "include",
+          "reason": "已核出版社原日的在线或接受记录，访问层级见正文。"
+        },
+        {
+          "doi": "10.1103/tbnm-y62x",
+          "title": "Heterogeneous ferroelectricity and conductivity of oxidized BaTiO₃ crystals: Role of nanoscale phase segregation in the surface region",
+          "date": "2026-11-23",
+          "sourceType": "11 月 23 日出版社回溯",
+          "decision": "include",
+          "reason": "已核出版社原日的在线或接受记录，访问层级见正文。"
+        }
+      ],
+      "hits": 2,
+      "included": 2,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Physical Review Materials",
+      "url": "https://doi.org/10.1103/cvkc-xp3j",
+      "attempts": [
+        [
+          "200",
+          "作者/出版社题录"
+        ]
+      ],
+      "total": null,
+      "rows": [
+        {
+          "doi": "10.1103/cvkc-xp3j",
+          "title": "Dimensional crossover of mass anisotropy in Ta-doped WTe₂",
+          "date": "2026-11-23",
+          "sourceType": "11 月 23 日出版社回溯",
+          "decision": "include",
+          "reason": "已核出版社原日的在线或接受记录，访问层级见正文。"
+        },
+        {
+          "doi": "10.1103/rbsy-bvr2",
+          "title": "High-quality single crystals of the kagome metals Ni₃In and Ni₃Sn grown from Pb flux",
+          "date": "2026-11-23",
+          "sourceType": "11 月 23 日出版社回溯",
+          "decision": "include",
+          "reason": "已核出版社原日的在线或接受记录，访问层级见正文。"
+        }
+      ],
+      "hits": 2,
+      "included": 2,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    },
+    {
+      "source": "Physical Review Letters",
+      "url": "https://doi.org/10.1103/d83k-923y",
+      "attempts": [
+        [
+          "200",
+          "作者/出版社题录"
+        ]
+      ],
+      "total": null,
+      "rows": [
+        {
+          "doi": "10.1103/d83k-923y",
+          "title": "Giant Room-Temperature Magnetoelectric Coupling Effect in Nanocomposite Thin Films via Strain-Sensitive Polarization",
+          "date": "2026-11-23",
+          "sourceType": "11 月 23 日出版社回溯",
+          "decision": "include",
+          "reason": "已核出版社原日的在线或接受记录，访问层级见正文。"
+        }
+      ],
+      "hits": 1,
+      "included": 1,
+      "note": "仅本次可见在线或接受记录；空索引不排除时间差。"
+    }
+  ],
+  "publisherSnapshots": [
+    {
+      "key": "aps-prl",
+      "url": "https://journals.aps.org/prl/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-prb",
+      "url": "https://journals.aps.org/prb/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-prmaterials",
+      "url": "https://journals.aps.org/prmaterials/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-prx",
+      "url": "https://journals.aps.org/prx/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "nature",
+      "url": "https://www.nature.com/nature/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "hits": 0,
+      "included": 0,
+      "latestVisibleDate": "2026-11-23",
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "nphys",
+      "url": "https://www.nature.com/nphys/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "hits": 0,
+      "included": 0,
+      "latestVisibleDate": "2026-11-16",
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "ncomm",
+      "url": "https://www.nature.com/ncomms/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "hits": 3,
+      "included": 0,
+      "latestVisibleDate": "2026-11-24",
+      "rows": [
+        {
+          "title": "Host control of rhizobial proliferation in soybean nodules",
+          "link": "/articles/s41467-026-79800-2",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "title": "Promoted phase transition in perovskite heterojunctions via in-situ regulated 2D intermediates enables stable solar cells",
+          "link": "/articles/s41467-026-79294-y",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "title": "Iso-Seq enables discovery of novel isoform variants in human retina at single-cell resolution",
+          "link": "/articles/s41467-026-78606-6",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        }
+      ],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "npj",
+      "url": "https://www.nature.com/npjquantmats/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "hits": 0,
+      "included": 0,
+      "latestVisibleDate": "2026-11-14",
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "comm-mat",
+      "url": "https://www.nature.com/commsmat/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "hits": 0,
+      "included": 0,
+      "latestVisibleDate": "2026-11-23",
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "nmat",
+      "url": "https://www.nature.com/nmat/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "hits": 0,
+      "included": 0,
+      "latestVisibleDate": "2026-11-20",
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "science",
+      "url": "https://www.science.org/journal/science/firstrelease",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "sciadv",
+      "url": "https://www.science.org/toc/sciadv/current",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "am",
+      "url": "https://advanced.onlinelibrary.wiley.com/toc/15214095/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "afm",
+      "url": "https://advanced.onlinelibrary.wiley.com/toc/16163028/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "nanolett",
+      "url": "https://pubs.acs.org/toc/nalefd/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "acsnano",
+      "url": "https://pubs.acs.org/toc/ancac3/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "jacs",
+      "url": "https://pubs.acs.org/toc/jacsat/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "cm",
+      "url": "https://pubs.acs.org/toc/cmatex/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "cgd",
+      "url": "https://pubs.acs.org/toc/cgdefu/0/0",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "jcg",
+      "url": "https://www.sciencedirect.com/journal/journal-of-crystal-growth/articles-in-press",
+      "attempts": [
+        "403",
+        "403"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "acc-prl",
+      "url": "https://journals.aps.org/prl/accepted",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "acc-prb",
+      "url": "https://journals.aps.org/prb/accepted",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "acc-prmaterials",
+      "url": "https://journals.aps.org/prmaterials/accepted",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-pra",
+      "url": "https://journals.aps.org/pra/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-prc",
+      "url": "https://journals.aps.org/prc/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-prd",
+      "url": "https://journals.aps.org/prd/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-pre",
+      "url": "https://journals.aps.org/pre/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-prresearch",
+      "url": "https://journals.aps.org/prresearch/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-prapplied",
+      "url": "https://journals.aps.org/prapplied/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-rmp",
+      "url": "https://journals.aps.org/rmp/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-prxquantum",
+      "url": "https://journals.aps.org/prxquantum/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-prxenergy",
+      "url": "https://journals.aps.org/prxenergy/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-prfluids",
+      "url": "https://journals.aps.org/prfluids/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-prab",
+      "url": "https://journals.aps.org/prab/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "aps-prper",
+      "url": "https://journals.aps.org/prper/recent",
+      "attempts": [
+        "200"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "npg",
+      "url": "https://www.nature.com/am/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "hits": 0,
+      "included": 0,
+      "latestVisibleDate": "2026-11-18",
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "nano",
+      "url": "https://www.nature.com/nnano/research-articles",
+      "attempts": [
+        "200"
+      ],
+      "hits": 0,
+      "included": 0,
+      "latestVisibleDate": "2026-11-23",
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "cross-superconductivity",
+      "url": "https://api.crossref.org/works?query.bibliographic=superconductivity&filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24%2Ctype%3Ajournal-article&rows=100",
+      "attempts": [
+        "429",
+        "429"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "cross-quantum",
+      "url": "https://api.crossref.org/works?query.bibliographic=quantum+materials&filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24%2Ctype%3Ajournal-article&rows=100",
+      "attempts": [
+        "200"
+      ],
+      "hits": 54,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [
+        {
+          "title": "An iterative Ising decoder for quantum error correction codes",
+          "id": "10.1088/2058-9565/aebfc0",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Sideband-mediated nuclear-spin-wave memory for an Andreev spin qubit: required coherence and Floquet feasibility",
+          "id": "10.1088/2058-9565/aebebd",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "title": "Transmon qutrit-based simulation of spin-1 AKLT systems",
+          "id": "10.1038/s41534-026-01421-w",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "A λ -resonance theorem for constrained QAOA: spectral structure and recurrence bounds",
+          "id": "10.1088/2058-9565/aebe5b",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Quantum crystallography: a personal perspective on its scope and emerging directions",
+          "id": "10.1007/s11224-026-02893-4",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Quantum Key Distribution: A Review of Principles, Protocols, and Practical Challenges",
+          "id": "10.54254/2753-8818/2026.39230",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Editorial: An Updated Scope for Materials Performance and Characterization",
+          "id": "10.1520/mpc20260999",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Machine-learned syndrome post-selection for reliable quantum error correction",
+          "id": "10.1088/2632-2153/aec2a3",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Escaping stagnation in penalty-based constrained particle swarm optimization with bounded-potential quantum-inspired displacement",
+          "id": "10.1007/s12065-026-01292-2",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Quantum dots in pharmaceutical detection and degradation: recent advances and emerging trends",
+          "id": "10.1007/s10661-026-16170-8",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Issue Editorial Masthead",
+          "id": "10.1021/elv008i022_1967738",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Issue Publication Information",
+          "id": "10.1021/elv008i022_1967739",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "A Metabolically Coupled Photochromic Protein AND-Gate for Living Materials",
+          "id": "10.1021/acsami.6c17097",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "title": "Recent Advances in Microstrip Antenna Design, Advanced Substrate Materials, and Intelligent Optimization Techniques: A Comprehensive Review",
+          "id": "10.47191/etj/v11i08.12",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Machine learning assisted modeling of carrier mobility in irradiated GaN: bridging experiments and transport theory",
+          "id": "10.1007/s10854-026-18952-9",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "title": "Robot-Assisted 3D Metallography: System Development, Methodology, and Applications",
+          "id": "10.4028/p-2hx8rt",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Impact performance of nanoclay-reinforced balsa-core carbon/epoxy sandwich composites",
+          "id": "10.1515/mt-2026-0316",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Transformation of Arsenic Compounds in Copper Smelting Dust under Mechanochemical Treatment with Sodium Sulfide",
+          "id": "10.4028/p-kdq7k7",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Upcycling Waste Plastics into Conductive Materials: Conversion Methods, Applications, and Pathways to Circularity",
+          "id": "10.22158/se.v11n4p92",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "title": "Terahertz Resonance Frequency Shift of Metamaterial Utilized Nano-Thickness Gap-Centered Orthogonal Grating",
+          "id": "10.4028/p-wfs5az",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Determination of Water Diffusion Parameters when Protecting Wood with of Hydrophobizing Mixture",
+          "id": "10.4028/p-g3nod6",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Theoretical Justification of Metallic Surface Hardening by Plastic Shot Blasting",
+          "id": "10.4028/p-8gklx3",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "title": "Specific Wear of Technical Shot during Shot Blasting of Free Metal Surfaces",
+          "id": "10.4028/p-k5xa1m",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Comparative Analysis of Organic Compounds Used as Corrosion Inhibitors for Metals",
+          "id": "10.4028/p-8yc8pa",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "title": "Statistical Methods for Assessment and Prediction of Cutting Tool Life",
+          "id": "10.4028/p-lteds3",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Experimental and Numerical Studies of the Ratcheting/Creep Coupling Effect on the Behavior of 304L Austenitic Stainless Steel",
+          "id": "10.4028/p-qwt2lw",
+          "decision": "exclude",
+          "reason": "与本期优先的具体晶体生长、磁性与量子输运实验关联不足。"
+        },
+        {
+          "title": "Fabrication of CuNPs Integrated Reduced Graphene Oxide Nanocomposite for Efficient SERS Material",
+          "id": "10.47485/2832-9384.1087",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Influence of Location on the Microstructure and Mechanical Properties of Ti45Al Alloy by Twin-Wire Arc Additive Manufacturing",
+          "id": "10.4028/p-asgs7p",
+          "decision": "exclude",
+          "reason": "与本期优先的具体晶体生长、磁性与量子输运实验关联不足。"
+        },
+        {
+          "title": "Dynamic Compression Characterization of Gypsum Specimens Using Conventional and Platen-Modified SHPB System",
+          "id": "10.1007/s40870-026-00545-6",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Influence of Nano Graphene Powder on the WEDM Performance of Wasploy",
+          "id": "10.4028/p-az2kic",
+          "decision": "exclude",
+          "reason": "与本期优先的具体晶体生长、磁性与量子输运实验关联不足。"
+        },
+        {
+          "title": "Virtual Experimentation\nof Tensile Reinforcement in\nCellulose Nanofiber-Reinforced Rubber Composites through Integrated\nMultimodal Characterization and Machine Learning",
+          "id": "10.1021/acsapm.6c03867",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "title": "Influence of Nano Graphene Powder on the WEDM Performance of Udimet 720",
+          "id": "10.4028/p-zyg8tn",
+          "decision": "exclude",
+          "reason": "与本期优先的具体晶体生长、磁性与量子输运实验关联不足。"
+        },
+        {
+          "title": "Synthesis, characterisation and antibacterial activity of hybrid materials: Transition-metals substituted polyoxometalate with imidazole-4-carboxaldehyde",
+          "id": "10.1007/s11696-026-06047-y",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Coordinated crack-dendrite evolution and directional regulation mechanisms in solid state lithium-metal batteries",
+          "id": "10.26599/emd.2026.9370113",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "title": "Fluorine-Free Polyester Fabrics for Durable Water\nRepellency, Enhanced Thermal Transport, and Ultraviolet Shielding",
+          "id": "10.1021/acsapm.6c04298",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Effects of water saturation and impact load on the mechanical properties of geopolymer concrete",
+          "id": "10.26599/mrse.2026.9520041",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "title": "Lifshitz Transitions in an Atomically Thin AuCu Solid Solution",
+          "id": "10.1021/acsmaterialslett.6c00843",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Bacterial Extract with Immunomodulatory Properties Ameliorates DSS-Induced Colitis Partly by Inhibiting Ferroptosis",
+          "id": "10.1021/acsami.6c18735",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "title": "Size-Tailored BaTiO3 Microplatelets with\nIn-Plane Alignment and Uniform Dispersion in PVDF for High-Performance\nFlexible Nanogenerators",
+          "id": "10.1021/acsapm.6c02937",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "title": "Differentiable modeling for constitutive surface identification of time–temperature dependent viscoelastic behavior in asphalt mixtures",
+          "id": "10.1617/s11527-026-03371-3",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "title": "Development of a Miniaturized Airborne Virus Detector Combining Gas Collection and Electrochemical Chip Platform",
+          "id": "10.4028/p-lb7ngc",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Molecular engineering of advanced hole-transport materials through end-capped acceptor modification for perovskite solar cells",
+          "id": "10.1007/s11696-026-06105-5",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "title": "Anion-Immobilizing Poly(ionic liquid) Copolymer Electrolytes for Flame-Retardant Lithium Metal Batteries",
+          "id": "10.1021/acsami.6c13198",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "title": "Determination of Antifriction Properties of Alloys of Ferrous and Non-Ferrous Groups during Wear Tests after Applying Different Approaches to Modifying their Surfaces",
+          "id": "10.4028/p-hdubt9",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Surface Microstructure Engineering of Carbon Black/Ecoflex Nanocomposite for Enhanced Piezoresistive Sensors Performance",
+          "id": "10.4028/p-jv1vt8",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "title": "Effect of sintering time on the osteoconductive behavior of bovine-derived xenograft materials in a rabbit maxillary sinus model: a pilot study",
+          "id": "10.21851/obr.26.010",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "title": "Flood invasion evolution and sustainability‑oriented risk assessment of metro-led underground spaces under extreme rainfall scenarios",
+          "id": "10.1007/s44242-026-00127-8",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "title": "Machine-Learning-Assisted Grain Size Quantification for Ultraviolet Stability of Perovskite Solar Cells",
+          "id": "10.1021/acsaem.6c02618",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "title": "Fe3+ Post-Coordination-Locked Polyaryl Ether-Based Aerogels for Solar-Driven Interfacial Evaporation",
+          "id": "10.1021/acsami.6c19456",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "title": "Integrated Gravimetric, Electrochemical, Kinetic, and Thermodynamic Evaluation of <i>Dioscorea bulbifera </i>(Bitter Yam) Leaf Extract as a Green Corrosion Inhibitor for Mild Steel in Hydrochloric Acid",
+          "id": "10.56425/cma.v6i1.145",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "title": "Sustainable lightweight concrete: a review of experimental findings and modelling",
+          "id": "10.1680/jcoma.26.00073",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "title": "Rational Donor–Acceptor Design of Dye-Doped Conjugated Polymer Nanoparticles for Ratiometric Oxygen Sensing: Toward Hydrogel Platforms for Corneal Hypoxia Monitoring",
+          "id": "10.1021/acsami.6c18672",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "title": "Phase Evolution and Thermodynamic Feasibility of <i>γ</i> - Fe<sub>2</sub>O<sub>3</sub> Formation from Iron Ore Concentrate via Spark Plasma Sintering",
+          "id": "10.4028/p-zre8hl",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "title": "Investigation on the impact of rare earth oxides on optical and gamma radiation shielding features of B 2 O 3 –CaO–Na 2 O–ZnO-RE-BaO glasses (RE = Er 2 O 3 , Nd 2 O 3 , and CeO 2 )",
+          "id": "10.1515/secm-2025-0099",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        }
+      ],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "cross-crystal",
+      "url": "https://api.crossref.org/works?query.bibliographic=crystal+growth&filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24%2Ctype%3Ajournal-article&rows=100",
+      "attempts": [
+        "429",
+        "429"
+      ],
+      "hits": null,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    },
+    {
+      "key": "cross-magnetic",
+      "url": "https://api.crossref.org/works?query.bibliographic=magnetic+topology&filter=from-online-pub-date%3A2026-11-24%2Cuntil-online-pub-date%3A2026-11-24%2Ctype%3Ajournal-article&rows=100",
+      "attempts": [
+        "200"
+      ],
+      "hits": 1,
+      "included": 0,
+      "latestVisibleDate": null,
+      "rows": [
+        {
+          "title": "Effects of transcranial magnetic stimulation on anthropometric and metabolic outcomes in obesity management: a systematic review and meta-analysis of randomized controlled trials",
+          "id": "10.1186/s13098-026-02343-5",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        }
+      ],
+      "note": "403/超时为访问受限；200 但无可提取日期不计作确证零新增。"
+    }
+  ],
+  "apsDatedBackread": [
+    {
+      "snapshot": "aps-pra.html",
+      "hits": 20,
+      "included": 0,
+      "rows": [
+        {
+          "doi": "10.1103/95mz-8kmj",
+          "title": "Mode-selective excitation in parametrically driven coupled quantum oscillators",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/rjlr-7y2k",
+          "title": "Interaction-enabled Hartree fixed points in fermionic resetting dynamics",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/7l1l-1czq",
+          "title": "Fermionic entanglement and quantum correlation measures in molecules",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/ng5j-lw7n",
+          "title": "Dissipation of Spekkens' generalized contextuality under decoherence: The classical limit",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/hnds-fvry",
+          "title": "Efficient soft-output guessing for enhanced quantum Tanner code decoding",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/t7kh-3jjf",
+          "title": "Scalable entanglement distribution framework for hybrid quantum networks",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/y3lr-y91n",
+          "title": "Quantum state texture of dynamical criticality",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/mqt6-fh7c",
+          "title": "High-fidelity conditional-squeezing gate in superconducting circuits via refocusing",
+          "date": "- Published 23 November, 2026",
+          "decision": "pending",
+          "reason": "主题相关的候补；本轮未核足独立样品、全文或增量，保留 DOI 后续核读。"
+        },
+        {
+          "doi": "10.1103/ld2v-tcrq",
+          "title": "Adaptive identification of low-degree polynomials in quantum singular-value transformation: Application to nonlinear quantum property estimation",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/8qp1-6g7r",
+          "title": "Development of a variational quantum algorithm for measurement reduction via the block-encoding method",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/rsjw-pk53",
+          "title": "Efficient computation of quantum time-optimal control",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/959l-ms9v",
+          "title": "Efficient robust control design for high-dimensional quantum systems against multiple uncertainties using Suzuki-Trotter decomposition",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "doi": "10.1103/6xcl-jdgw",
+          "title": "Exact virial relation linking kinetic correlation and total energy for approximate density functionals",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/qmyq-1bms",
+          "title": "Optical torques due to higher-order Poincaré modes inside a magneto-optic medium",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/8x3f-7nmd",
+          "title": "Static and breathing dynamics of spatiotemporal solitons in nonlinear graded-index fibers",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/cw4f-wp7g",
+          "title": "Levitated optomechanics in the Mie regime with cylindrically polarized vortex beams",
+          "date": "- Published 23 November, 2026",
+          "decision": "pending",
+          "reason": "主题相关的候补；本轮未核足独立样品、全文或增量，保留 DOI 后续核读。"
+        },
+        {
+          "doi": "10.1103/fhpw-t63p",
+          "title": "Frequency attraction and repulsion in lasers with complex mutual coupling",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/hwvj-bfrn",
+          "title": "Unified approach to quantum engineering of non-Gaussian states",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/dmj6-b3gd",
+          "title": "Time-delayed feedback control of entanglement in hybrid magnonic systems via machine learning",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "doi": "10.1103/5dt7-1qll",
+          "title": "Universal photon blockade via two-photon light-matter interaction at chiral exceptional points",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        }
+      ]
+    },
+    {
+      "snapshot": "aps-prapplied.html",
+      "hits": 5,
+      "included": 0,
+      "rows": [
+        {
+          "doi": "10.1103/fbl3-7hvd",
+          "title": "Graph-constrained multiport inverse design of globally connected metal-only metasurfaces",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/tn2t-dws6",
+          "title": "Point defect tolerance of carrier mobility in Janus MoSSe monolayer",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/7k3j-d7wz",
+          "title": "Field emission current measurements during high field conditioning of Nb and Ti-6Al-4V electrodes in cryogenic conditions",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/zlxj-q2p2",
+          "title": "Beat-modulated magnetic excitation for improved magnetic particle imaging: A theoretical study",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/8qlv-xfzk",
+          "title": "Electrostatic tuning of critical currents in cadmium arsenide–based Josephson junctions",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        }
+      ]
+    },
+    {
+      "snapshot": "aps-prb.html",
+      "hits": 20,
+      "included": 2,
+      "rows": [
+        {
+          "doi": "10.1103/6hw1-n38s",
+          "title": "Symmetry-resolved spin-phonon interconversion in heavy-metal/ferromagnet bilayers",
+          "date": "- Published 23 November, 2026",
+          "decision": "pending",
+          "reason": "主题相关的候补；本轮未核足独立样品、全文或增量，保留 DOI 后续核读。"
+        },
+        {
+          "doi": "10.1103/bmtl-dz5c",
+          "title": "Geometry of the chirality-induced spin selectivity effect",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/7mmm-9n34",
+          "title": "Optical manipulation of the magnetic phase in bilayer CrI 3",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/sqtt-4zk4",
+          "title": "Electron- and hole-doped superconductivity in the two-dimensional electride Zr X 2 ( X = Cl , Br, I)",
+          "date": "- Published 23 November, 2026",
+          "decision": "pending",
+          "reason": "主题相关的候补；本轮未核足独立样品、全文或增量，保留 DOI 后续核读。"
+        },
+        {
+          "doi": "10.1103/2xyd-5pxv",
+          "title": "Multiplicity of surface polariton configurations in bi-isotropic media with anomalous Hall current",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/t6tm-yp51",
+          "title": "Observation of topological phases without crystalline counterparts",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/pspn-zpf3",
+          "title": "Multiple Andreev reflection spectroscopy of spin-resolved proximity states",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/hw4w-xhjj",
+          "title": "Direct evidence of topological phonon surface states in beryllium",
+          "date": "- Published 23 November, 2026",
+          "decision": "pending",
+          "reason": "主题相关的候补；本轮未核足独立样品、全文或增量，保留 DOI 后续核读。"
+        },
+        {
+          "doi": "10.1103/k5qc-jk54",
+          "title": "Light-matter interactions beyond the electric dipole approximation in extended systems without multipole expansion",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/wjcd-swzp",
+          "title": "Origin of multi- q charge-density-wave instabilities in quasi-one-dimensional NbTe 4",
+          "date": "- Published 23 November, 2026",
+          "decision": "pending",
+          "reason": "主题相关的候补；本轮未核足独立样品、全文或增量，保留 DOI 后续核读。"
+        },
+        {
+          "doi": "10.1103/8g72-qgpl",
+          "title": "Quantum statistics in an extended collider coupled to a qubit",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/y6q8-2mbb",
+          "title": "Symmetry-protected triplet Weyl complexes",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/33qy-5q5c",
+          "title": "Ferroelectrically switchable anomalous valley Hall effect in multiferroic fully compensated ferrimagnets",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/tbnm-y62x",
+          "title": "Heterogeneous ferroelectricity and conductivity of oxidized BaTiO 3 crystals: Role of nanoscale phase segregation in the surface region",
+          "date": "- Published 23 November, 2026",
+          "decision": "include",
+          "reason": "本期以原日回溯收录。"
+        },
+        {
+          "doi": "10.1103/yfq3-6lmq",
+          "title": "Spectral functions of an extended antiferromagnetic S = 1 2 Heisenberg model on the triangular lattice",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "doi": "10.1103/1ymm-l2yd",
+          "title": "Fate of odd-parity magnetism in one dimension",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/xp4h-j5nv",
+          "title": "Nonlocal optical response and surface susceptibilities: A systematic derivation via spatial moment expansion",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/k4zr-zxzl",
+          "title": "Strain-gradient tuning of linear photogalvanic effect in monolayer 2 H − WTe 2",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/dq6c-9df1",
+          "title": "Crystal structure, electrical resistivity, and electronic structure of single-crystal Ni 3 Te 2",
+          "date": "- Published 23 November, 2026",
+          "decision": "include",
+          "reason": "本期以原日回溯收录。"
+        },
+        {
+          "doi": "10.1103/vwcv-ryp4",
+          "title": "Floquet mobility edges and transport in a periodically driven generalized Aubry-André model",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        }
+      ]
+    },
+    {
+      "snapshot": "aps-prc.html",
+      "hits": 9,
+      "included": 0,
+      "rows": [
+        {
+          "doi": "10.1103/qscd-pk8l",
+          "title": "Nucleon-nucleon potential using N 3 LO chiral effective field theory",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/4bsv-q97d",
+          "title": "Partial-wave decomposition of isospin-projected subleading three-nucleon contact interactions",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/jv6k-txcl",
+          "title": "Evolution of collectivity and emergence of octupole correlations in Br 77",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/2kpg-z6kp",
+          "title": "Systematic study of one-point kinetic energy density functionals for atomic nuclei",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/9pbx-bdhx",
+          "title": "Probing core excitation in the breakup of B 8 with state-of-the-art nuclear structure inputs",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/95y3-bjkh",
+          "title": "Glauber description of reaction cross sections with Bogoliubov many-body wave functions",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/mxx5-xqfs",
+          "title": "Partition of initial angular momentum in nuclear fission",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/9szm-dgtr",
+          "title": "Differentiable emulation for high-dimensional Bayesian calibration of nuclear reaction models",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "doi": "10.1103/b6lr-16pk",
+          "title": "Information content of the Gamow Teller resonance: Bayesian inference with self-consistent Skyrme models",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        }
+      ]
+    },
+    {
+      "snapshot": "aps-prd.html",
+      "hits": 20,
+      "included": 0,
+      "rows": [
+        {
+          "doi": "10.1103/9mw7-18v2",
+          "title": "How universal is the black hole zeroth law?",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/dhc8-r85y",
+          "title": "Parton wakes and field angular momentum in chiral QCD plasma",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/z2vg-n2ht",
+          "title": "Characterizing entanglement dynamics in QED scattering processes",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "与本期优先的具体晶体生长、磁性与量子输运实验关联不足。"
+        },
+        {
+          "doi": "10.1103/khz5-927q",
+          "title": "Double twist knots and lattice paths",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/7trm-rykk",
+          "title": "Quantum channel capacity of traversable wormholes",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/htyp-1xmw",
+          "title": "Schrödinger equation as a gauge theory",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/mnt5-d3k8",
+          "title": "Integrability from Homotopy Algebras",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/fn7l-qxbc",
+          "title": "Nonlinear evolution of the spin-2 black hole superradiant instability",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/qv33-phdp",
+          "title": "Correlated and coincident noise in Einstein Telescope’s triangular configuration",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/dv5c-jvx8",
+          "title": "Dynamical completion of coupling-charge thermodynamics",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/qxhc-twhp",
+          "title": "Long-term 3 + 1 simulations of primordial black-hole formation during radiation domination",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/crm9-vgr6",
+          "title": "Inverse-scattering reconstruction of inflation from scalar and tensor primordial spectra",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "与本期优先的具体晶体生长、磁性与量子输运实验关联不足。"
+        },
+        {
+          "doi": "10.1103/hkmh-m7s8",
+          "title": "CMB anisotropies from cosmic strings and superstrings in light of ACT DR6",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/8zfj-q2qh",
+          "title": "Improved approximations for collective neutrino oscillations",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/frbb-kjtm",
+          "title": "Universal Z 2 / 3 / Q α scaling law in alpha decay from nuclei to neutron-star mergers",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/cz9b-kzqr",
+          "title": "Effect of quark-hadron phase transitions on the neutron star mass distribution",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/4653-p76n",
+          "title": "Mountain muography for the China Jinping Underground Laboratory",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/4yrb-cv2l",
+          "title": "Scattered light noise due to dust particle contamination in the vacuum pipes of the Einstein Telescope",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "与本期优先的具体晶体生长、磁性与量子输运实验关联不足。"
+        },
+        {
+          "doi": "10.1103/7sct-bkw2",
+          "title": "Muon collider experiments as electron and positron beam sources: Case studies of new light-particle searches",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/krsl-rfzq",
+          "title": "Landau-Zener formula and resonant axion conversion in neutron star magnetospheres",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        }
+      ]
+    },
+    {
+      "snapshot": "aps-pre.html",
+      "hits": 12,
+      "included": 0,
+      "rows": [
+        {
+          "doi": "10.1103/ptz2-4xtx",
+          "title": "Universal spectral correlations in open Floquet systems with localized leaks",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/hyp9-zngr",
+          "title": "Persistence-probability-based dynamics and phase diagrams in biased q -voter models",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "doi": "10.1103/tmjk-mh7c",
+          "title": "Equilibrium structure determines internal energy in strongly coupled quantum systems",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/5fs8-mjx9",
+          "title": "Effects of confinement in a Brownian gas with simultaneous stochastic resetting and dynamically emergent correlations",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/fsyn-wnlj",
+          "title": "Spectral model of power-law decay in natural and engineered systems",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "doi": "10.1103/rxf5-zyd8",
+          "title": "Quantum-battery-powered geometric Landau-Zener interferometry",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "doi": "10.1103/v3ns-4m1d",
+          "title": "Frustrated neurons: Energy landscapes and relaxation dynamics in repulsive phase oscillators",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/79y1-s3hs",
+          "title": "Transport and scaling analysis in the relativistic standard map",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/f637-qny7",
+          "title": "Electron coherence and dephasing by quasistatic Coulomb fluctuations in classical ionic media",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/lslf-d2l2",
+          "title": "Nonlinear dynamics of self-pulsing in atmospheric-pressure negative corona discharge: From Trichel pulses to a reduced-order description",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/l8f1-tzzc",
+          "title": "Erratum: Growth of helicity in salt-finger convection in the two-dimensional three-component limit [Phys. Rev. E 114 , L023101 (2026)]",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/8d24-fcj8",
+          "title": "Dimension-dependent continuum limits in tissue mechanics",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        }
+      ]
+    },
+    {
+      "snapshot": "aps-prfluids.html",
+      "hits": 7,
+      "included": 0,
+      "rows": [
+        {
+          "doi": "10.1103/h9ht-c1jw",
+          "title": "Hydrodynamic analogs of solid friction between soft, rough, and wet surfaces",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/s73y-n1m2",
+          "title": "Evaporation and deposition of colloidal drops on an inclined substrate",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/5r2y-8hvh",
+          "title": "Translation and oscillation of a gas bubble under asymmetric deformation",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/vqjs-1wr8",
+          "title": "Control of deterministic breakdown to turbulence of hypersonic boundary layer with spanwise nonuniform surface temperature",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/6wxh-z29m",
+          "title": "Hydrodynamic resistance on oscillating planar interfacial bodies",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/wp4l-h4tr",
+          "title": "Stratified core lid as a spectral selector for trapped MAC modes",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/lcfr-rq5j",
+          "title": "Internal velocity measurements and scalar transport simulations in rising bubbles",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        }
+      ]
+    },
+    {
+      "snapshot": "aps-prl.html",
+      "hits": 13,
+      "included": 1,
+      "rows": [
+        {
+          "doi": "10.1103/1lwn-4x3d",
+          "title": "Diffusive Dynamics of Nonstabilizerness",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/v3kk-rwk8",
+          "title": "Syndrome Resampling Enhances Quantum Error Correction Thresholds",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/55hc-85dk",
+          "title": "Einstein’s Equation as a Geometric Encoding of Correlations with Quantum Reference Frames",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/64ht-cx15",
+          "title": "Every 3D Conformal Field Theory Has an L Λ w 1 + ∞ Symmetry",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/kn6h-dkxb",
+          "title": "Bayesian Inference of the Landau Parameter G 0 ′ from Joint Gamow-Teller Measurements",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/wf2r-wlhl",
+          "title": "Simultaneous Determination of Multiple Nuclear Parameters of Th 229 Using Highly Charged Ions",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/fq33-db1l",
+          "title": "Precision Spectroscopy of a Trapped Ion Using a Bath of Ultracold Atoms",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "与本期优先的具体晶体生长、磁性与量子输运实验关联不足。"
+        },
+        {
+          "doi": "10.1103/vth5-lzjn",
+          "title": "Enhancing Superconductivity Using Thermal Bosons",
+          "date": "- Published 23 November, 2026",
+          "decision": "pending",
+          "reason": "主题相关的候补；本轮未核足独立样品、全文或增量，保留 DOI 后续核读。"
+        },
+        {
+          "doi": "10.1103/2ndf-sgy8",
+          "title": "Statistical Signatures of Velocity-Space Turbulence in the Earth’s Magnetosheath",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/lwp9-xjym",
+          "title": "Imprinting Macroscopic Orbital Angular Momentum onto the Superconducting Higgs Mode Using a Terahertz Vortex Beam",
+          "date": "- Published 23 November, 2026",
+          "decision": "pending",
+          "reason": "主题相关的候补；本轮未核足独立样品、全文或增量，保留 DOI 后续核读。"
+        },
+        {
+          "doi": "10.1103/gd1k-s125",
+          "title": "Chiral Skyrmionic Superconductivity from Doping a Chern Ferromagnet",
+          "date": "- Published 23 November, 2026",
+          "decision": "pending",
+          "reason": "主题相关的候补；本轮未核足独立样品、全文或增量，保留 DOI 后续核读。"
+        },
+        {
+          "doi": "10.1103/d83k-923y",
+          "title": "Giant Room-Temperature Magnetoelectric Coupling Effect in Nanocomposite Thin Films via Strain-Sensitive Polarization",
+          "date": "- Published 23 November, 2026",
+          "decision": "include",
+          "reason": "本期以原日回溯收录。"
+        },
+        {
+          "doi": "10.1103/szwn-8ph8",
+          "title": "Allee Effect in Compressible Flows",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        }
+      ]
+    },
+    {
+      "snapshot": "aps-prmaterials.html",
+      "hits": 3,
+      "included": 1,
+      "rows": [
+        {
+          "doi": "10.1103/lmhf-65zs",
+          "title": "Twin density and morphology in single crystalline gold thin films",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/8zq6-17p6",
+          "title": "Physical properties of R 2 Co 6 Al 20 − δ ( R = Gd–Tm, Y) single crystals",
+          "date": "- Published 23 November, 2026",
+          "decision": "duplicate",
+          "reason": "与既往简报 DOI 一致，未重收。"
+        },
+        {
+          "doi": "10.1103/cvkc-xp3j",
+          "title": "Dimensional crossover of mass anisotropy in Ta-doped WTe 2",
+          "date": "- Published 23 November, 2026",
+          "decision": "include",
+          "reason": "本期以原日回溯收录。"
+        }
+      ]
+    },
+    {
+      "snapshot": "aps-prresearch.html",
+      "hits": 7,
+      "included": 0,
+      "rows": [
+        {
+          "doi": "10.1103/vcc6-gngb",
+          "title": "Nonlinear spectral back transfer limits the temporal coherency of zonal modes",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/mk9z-q1m3",
+          "title": "Network nonlocality with separable measurements",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/8g6g-7mh3",
+          "title": "Characterization of linear measurements in cavity optomechanics: Examples and applications",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/nyl7-h1dl",
+          "title": "Evidence for four-carrier transport in kagome Ni 3 In 2 S 2 nanoflakes",
+          "date": "- Published 23 November, 2026",
+          "decision": "duplicate",
+          "reason": "与既往简报 DOI 一致，未重收。"
+        },
+        {
+          "doi": "10.1103/dm4x-2f56",
+          "title": "Dynamical quantum phase transitions in a pseudo-Hermitian Hamiltonian: The imbalanced-pairing Kitaev model",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "doi": "10.1103/ctzq-2r58",
+          "title": "Ideal optical flux lattices",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/y1tc-4ms4",
+          "title": "Granger causality detection with Kolmogorov-Arnold networks",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        }
+      ]
+    },
+    {
+      "snapshot": "aps-prx.html",
+      "hits": 2,
+      "included": 0,
+      "rows": [
+        {
+          "doi": "10.1103/8ftb-swx9",
+          "title": "Symmetry-Guided Prediction of Magnetic-Ordered Ground States",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/8n3w-h2t1",
+          "title": "Systematic Magnetic Structure Generation Based on Oriented Spin Space Groups: Formulation, Applications, and High-Throughput First-Principles Calculations",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        }
+      ]
+    },
+    {
+      "snapshot": "aps-prxquantum.html",
+      "hits": 1,
+      "included": 0,
+      "rows": [
+        {
+          "doi": "10.1103/bt67-n8kx",
+          "title": "Correlations and Quantum Circuits with Dynamical Causal Order",
+          "date": "- Published 23 November, 2026",
+          "decision": "exclude",
+          "reason": "与本期优先的具体晶体生长、磁性与量子输运实验关联不足。"
+        }
+      ]
+    },
+    {
+      "snapshot": "prapplied-accepted2",
+      "hits": 4,
+      "included": 0,
+      "rows": [
+        {
+          "doi": "10.1103/2sly-pwkk",
+          "title": "Engineering nonclassical states via the dynamical Casimir effect",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/95vq-vmtw",
+          "title": "Tunable exceptional-point sensing of interatomic separation in traveling-wave cavity QED",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/czv6-sd6f",
+          "title": "Interface-controlled spin-orbit torques in rare-earth synthetic ferrimagnets probed by Sagnac magneto-optics and harmonic Hall measurements",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/c2c3-tdbs",
+          "title": "Effect of stochastic charge noise in Si/Si-Ge quantum dot spin qubits",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        }
+      ]
+    },
+    {
+      "snapshot": "prb-accepted2",
+      "hits": 20,
+      "included": 0,
+      "rows": [
+        {
+          "doi": "10.1103/s8z9-3sy8",
+          "title": "Disorder-driven Griffiths-like magnetism and unconventional magnetotransport in the quaternary Heusler alloy CoRuVGe",
+          "date": "Accepted 23 November, 2026",
+          "decision": "pending",
+          "reason": "主题相关的候补；本轮未核足独立样品、全文或增量，保留 DOI 后续核读。"
+        },
+        {
+          "doi": "10.1103/25bn-x6hh",
+          "title": "Pauli spectrum and stabilizer Rényi entropy in gapless symmetry-protected topological phases",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/c9dl-s57t",
+          "title": "Tunable topological narrow bands in twisted bilayer-trilayer graphene",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/qqh1-jyv7",
+          "title": "Nonintegral flux trapping in frustrated Josephson networks of triplet superconductors",
+          "date": "Accepted 23 November, 2026",
+          "decision": "pending",
+          "reason": "主题相关的候补；本轮未核足独立样品、全文或增量，保留 DOI 后续核读。"
+        },
+        {
+          "doi": "10.1103/gtwb-r7bh",
+          "title": "Evidence for many-body states in NiPS 3 revealed by angle-resolved photoelectron spectroscopy",
+          "date": "Accepted 23 November, 2026",
+          "decision": "pending",
+          "reason": "主题相关的候补；本轮未核足独立样品、全文或增量，保留 DOI 后续核读。"
+        },
+        {
+          "doi": "10.1103/1wdd-ppqk",
+          "title": "First-principles design of main-group dimer defects in ZnO as candidate quantum defects",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "doi": "10.1103/rwmj-9v1p",
+          "title": "Giant diffusion and ballistic thermal motion of racetrack skyrmions",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/vx75-9l87",
+          "title": "Short-time initial correlations in nonequilibrium Green functions",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/l1nf-qhtw",
+          "title": "Entanglement switching via mobility edges in a quasiperiodic chain",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/gwv9-mcv2",
+          "title": "Quantum geometric anomalous Hall response in orbitally nonunitary superconductors",
+          "date": "Accepted 23 November, 2026",
+          "decision": "pending",
+          "reason": "主题相关的候补；本轮未核足独立样品、全文或增量，保留 DOI 后续核读。"
+        },
+        {
+          "doi": "10.1103/r4hd-ffsb",
+          "title": "Temperature-dependent nonlinear optics from first-principles: Second-harmonic generation in few-layers MoS 2",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "doi": "10.1103/fk3s-t1ws",
+          "title": "Dirac points annihilation and its obstruction characterized by Euler number and quaternionic charges in kagome lattice",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/1yjr-8bvp",
+          "title": "Short-range spin correlations and temperature-driven interlayer exchange crossover in the van der Waals magnet CrCl 3",
+          "date": "Accepted 23 November, 2026",
+          "decision": "pending",
+          "reason": "主题相关的候补；本轮未核足独立样品、全文或增量，保留 DOI 后续核读。"
+        },
+        {
+          "doi": "10.1103/pvxh-vvcd",
+          "title": "Extension of image potential states above the vacuum level in GeTe",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/9gkp-rq5r",
+          "title": "Phase diagram of magnetic S 3 skyrmions on three-dimensional lattices and the toroidal antiskyrmion",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/gszs-ddx6",
+          "title": "Directional spin polarization and quasithermal spin-current response in ferromagnet/Pt superlattices",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/fjbf-j9tq",
+          "title": "Strange Luttinger liquids in a cavity-embedded one-dimensional electronic chain",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/mnlh-r53t",
+          "title": "Ultrafast valley-mediated charge transfer and relaxation in transition-metal-dichalcogenide van der Waals heterostructures",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/yx55-vm9l",
+          "title": "Shock compression of precompressed water with perforated diamond anvil cells",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/jtwc-bf3y",
+          "title": "Quantum-geometric shift of quasiequilibrium: Origin of nonreciprocal current driven by quantum-metric dipole",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        }
+      ]
+    },
+    {
+      "snapshot": "prl-accepted2",
+      "hits": 15,
+      "included": 0,
+      "rows": [
+        {
+          "doi": "10.1103/6qdv-9cg2",
+          "title": "Van Cittert–Zernike theorem in nonlinear wave mixing",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/xcv2-qlby",
+          "title": "Erratum: First measurement of time-dependent C P violation in the flavor-changing neutral-current decay B 0 → K S 0 μ + μ − [Phys. Rev. Lett. 136 , 231904 (2026)]",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/hnwk-v3m1",
+          "title": "Direct wave is not a meaningful test of horizon properties",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/v9s9-4jmn",
+          "title": "Sorting by resetting",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/5h52-pt22",
+          "title": "Birefringent curvature control of surface plasmons and collective emission",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/64s5-yygs",
+          "title": "Assembling extensive quantum Fisher information in stabilizer systems",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/fjnf-hdj9",
+          "title": "Glassy heat transport from interchain rattling in an ordered quasi-one-dimensional crystal",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/ttlv-f17t",
+          "title": "Unified light-matter metric of molecular and nanophotonic chirality",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/kn9p-18sn",
+          "title": "Wormhole geometry from a magnetic vortex",
+          "date": "Accepted 23 November, 2026",
+          "decision": "pending",
+          "reason": "主题相关的候补；本轮未核足独立样品、全文或增量，保留 DOI 后续核读。"
+        },
+        {
+          "doi": "10.1103/4r1j-j6qm",
+          "title": "Thermal Hall effect in elemental niobium, a two-gap superconductor",
+          "date": "Accepted 23 November, 2026",
+          "decision": "pending",
+          "reason": "主题相关的候补；本轮未核足独立样品、全文或增量，保留 DOI 后续核读。"
+        },
+        {
+          "doi": "10.1103/tlyq-brfr",
+          "title": "Detecting exciton condensation through charge transport in semiconductor heterostructures",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/wwxl-h94c",
+          "title": "Lifting the spin-blockade effect in Co-based electrode to boost fuel cell performance",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/rxqt-2psr",
+          "title": "Tunable Mpemba effect in a prethermal many-body spin network",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/yfm7-h4nw",
+          "title": "Intermittent bursts of ions in atom probe tomography",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/bw5v-kqkl",
+          "title": "Optimal discrimination of Gaussian states by Gaussian measurements",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        }
+      ]
+    },
+    {
+      "snapshot": "prmaterials-accepted2",
+      "hits": 3,
+      "included": 1,
+      "rows": [
+        {
+          "doi": "10.1103/rbsy-bvr2",
+          "title": "High-quality single crystals of the kagome metals Ni 3 In and Ni 3 Sn grown from Pb flux",
+          "date": "Accepted 23 November, 2026",
+          "decision": "include",
+          "reason": "本期以原日回溯收录。"
+        },
+        {
+          "doi": "10.1103/b69g-s85b",
+          "title": "Generalizing Abell-Tersoff bond-order potential with explicit high-order correlations for robust extrapolation of potential energy surfaces",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/43js-5dsn",
+          "title": "Three-regime grain boundary migration in solute-segregated systems under large driving pressure",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        }
+      ]
+    },
+    {
+      "snapshot": "prresearch-accepted2",
+      "hits": 4,
+      "included": 0,
+      "rows": [
+        {
+          "doi": "10.1103/x26z-fd3j",
+          "title": "Transient relaxation speed and the multi-Mpemba effect in a trapped-ion system",
+          "date": "Accepted 22 November, 2026",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "doi": "10.1103/wwhc-xh97",
+          "title": "Non-Hermitian renormalization group from a few-body perspective",
+          "date": "Accepted 21 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/bvnj-1wmg",
+          "title": "Tens of MeV, collimated, bright fluxes of protons from ordered nanostructured targets in ultrarelativistic laser-matter interaction",
+          "date": "Accepted 21 November, 2026",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "doi": "10.1103/rcqx-wt82",
+          "title": "Surface accumulation layers govern ultrafast carrier dynamics in indium arsenide microparticles",
+          "date": "Accepted 21 November, 2026",
+          "decision": "duplicate",
+          "reason": "与既往简报 DOI 一致，未重收。"
+        }
+      ]
+    },
+    {
+      "snapshot": "prx-accepted2",
+      "hits": 1,
+      "included": 0,
+      "rows": [
+        {
+          "doi": "10.1103/zz3s-48m6",
+          "title": "Rules-and-facts model for simultaneous generalization and memorization in neural networks",
+          "date": "Accepted 23 November, 2026",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        }
+      ]
+    }
+  ],
+  "arxivOfficial": [
+    {
+      "source": "cond-mat-new",
+      "url": "https://arxiv.org/list/cond-mat/new?show=2000",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "headings": [
+        "Showing new listings for Monday, 23 November 2026",
+        "New submissions (showing 88 of 88 entries)",
+        "Cross submissions (showing 24 of 24 entries)",
+        "Replacement submissions (showing 77 of 77 entries)"
+      ]
+    },
+    {
+      "source": "cond-mat-retry",
+      "url": "https://arxiv.org/list/cond-mat/new",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "headings": [
+        "Showing new listings for Monday, 23 November 2026",
+        "New submissions (showing 88 of 88 entries)",
+        "Cross submissions (showing 24 of 24 entries)",
+        "Replacement submissions (showing 77 of 77 entries)"
+      ]
+    },
+    {
+      "source": "cond-mat-fresh",
+      "url": "https://arxiv.org/list/cond-mat/new?skip=0&show=2000",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "headings": [
+        "Showing new listings for Monday, 23 November 2026",
+        "New submissions (showing 88 of 88 entries)",
+        "Cross submissions (showing 24 of 24 entries)",
+        "Replacement submissions (showing 77 of 77 entries)"
+      ]
+    },
+    {
+      "source": "cond-mat-recent",
+      "url": "https://arxiv.org/list/cond-mat/recent",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "headings": [
+        "Authors and titles for recent submissions",
+        "Mon, 23 Nov 2026 (showing first 50 of 112 entries )"
+      ]
+    }
+  ],
+  "arxivOfficialCounts": {
+    "date": "2026-11-23",
+    "new": 88,
+    "cross": 24,
+    "replacements": 77,
+    "total": 189,
+    "isIssueDate": false,
+    "scheduled": true
+  },
+  "officialBatchDecisions": [
+    {
+      "id": "2611.26674",
+      "title": "A unified closed-form theory for elastic waves in polycrystals of any crystal symmetry",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "与本期优先的具体晶体生长、磁性与量子输运实验关联不足。"
+    },
+    {
+      "id": "2611.26686",
+      "title": "Topologically Obstructed Kondo Hybridization: A Route to Kondo Semimetals",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.26690",
+      "title": "Off-diagonal long-range order and $p$-wave pairing in one dimension from critical density fluctuations",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.26693",
+      "title": "Topological phases protected by half-chiral symmetry",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.26697",
+      "title": "When the magnetic force theorem fails: dressed exchange in the induced-moment magnets FePt, FePd, CoPt, and CoPd",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.26704",
+      "title": "Large deviations, effective dynamics, and dynamical phase transitions in random maps",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.26714",
+      "title": "Free-Space Excitation of Frozen Waves and Topological Edge States in Graphene at a Time Interface",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.26725",
+      "title": "Impact of spin fluctuations on spectral functions and transport in a model altermagnet",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.26735",
+      "title": "Atomic layer etching of niobium via alternating O$_2$ and H$_2$/SF$_6$ plasma exposures",
+      "section": "new",
+      "decision": "already-in-previous",
+      "reason": "已随 11 月 23 日官方批次刊入原日报，今天未重收。"
+    },
+    {
+      "id": "2611.26741",
+      "title": "Emergent Long-Range Entanglement in the XXZ Quantum Spin Chain with Competing Orders",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.26749",
+      "title": "Fully Automated Discovery of Phase Diagrams Using Agentic Large Language Models",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.26753",
+      "title": "Geometric properties of Wilsonian flows of periodic potentials in two dimensions",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.26788",
+      "title": "Prediction of lattice thermal conductivity of half-Heusler compounds by machine learning and transfer-function calibration",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.26808",
+      "title": "Tuning the Dzyaloshinskii-Moriya interaction in CoFeB thin film heterostructures",
+      "section": "new",
+      "decision": "already-in-previous",
+      "reason": "已随 11 月 23 日官方批次刊入原日报，今天未重收。"
+    },
+    {
+      "id": "2611.26814",
+      "title": "Simple Routes to Turing-Like Patterns",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.26823",
+      "title": "Geometric Contribution to the Electron-Phonon Coupling Constant: Checkerboard and Hyper-diamond Models",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.26860",
+      "title": "Artificial Spin-Glass of Antiferromagnetic Co3O4 Nanocubes Using Spin-Polarized Oxygen",
+      "section": "new",
+      "decision": "already-in-previous",
+      "reason": "已随 11 月 23 日官方批次刊入原日报，今天未重收。"
+    },
+    {
+      "id": "2611.26866",
+      "title": "First-principles-based Prediction of Phase Fields: Part II. Solid Solution Tunability in Refractory Complex Concentrated Alloys",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.26872",
+      "title": "Majorana quasiparticles, mass hierarchies, and the phase diagram of the Gross-Neveu model in D=2+1",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.26877",
+      "title": "Interfacial Transition Waves and Domain Wall Self-Pinning in Bi-stable Mechanical Metamaterial",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.26932",
+      "title": "Parametric excitation of nano-scale spin waves with controlled phase by an open-resonator-type transducer",
+      "section": "new",
+      "decision": "pending",
+      "reason": "器件参数激发为主体，暂待核有无独立材料工艺创新。"
+    },
+    {
+      "id": "2611.26959",
+      "title": "High-Sensitivity Magnetometry with Scalable Mixed SQUID Arrays",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.26970",
+      "title": "Unveiling plastic rearrangements in silica glass through persistent homology",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.27037",
+      "title": "Transition-Metal Substitutions in MOF-5: A Hybrid-DFT Study of Oxygen Electrocatalysis",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27072",
+      "title": "Growth and anisotropic directional dependent transport properties of Altermagnetic CrSb",
+      "section": "new",
+      "decision": "already-in-previous",
+      "reason": "已随 11 月 23 日官方批次刊入原日报，今天未重收。"
+    },
+    {
+      "id": "2611.27076",
+      "title": "Quantum order by disorder among lozenge tilings: a staircase of hub-free crystals between the Lieb ferrimagnet and the antiferromagnet",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.27103",
+      "title": "Axial Thermal Transport in Transition Metal Chalcogenide Nanowires from Machine-Learning Molecular Dynamics Simulations",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27163",
+      "title": "Power Law Transients in Perovskite Photoluminescence",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.27168",
+      "title": "Kinetic Arrest of a Disordered First-Order Phase Transition in Strained V2O3 Thin Films",
+      "section": "new",
+      "decision": "pending",
+      "reason": "相场模拟，不是这篇新生长的 V₂O₃ 薄膜数据。"
+    },
+    {
+      "id": "2611.27172",
+      "title": "Ultraslow vorticity modes in colloidal fluids",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27176",
+      "title": "Quantum effects on the Peierls stress for screw dislocations in α-Fe",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.27188",
+      "title": "Generating grain boundary structures at a specified energy with a symmetry-constrained diffusion model",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27194",
+      "title": "Recoverable Necking Enabled by Reverse Phase-Boundary Motion in Liquid Crystal Elastomers",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.27220",
+      "title": "Chemical Programming of Stacking Order and Superconductivity Dimensionality in NbSe2-xTex Polytypic Heterostructures",
+      "section": "new",
+      "decision": "already-in-previous",
+      "reason": "已随 11 月 23 日官方批次刊入原日报，今天未重收。"
+    },
+    {
+      "id": "2611.27231",
+      "title": "Revealing the growth of structural length in glass-forming liquids without using dynamical information",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27234",
+      "title": "Tailoring Phonon Transport in Bi-based Quaternary Half-Heusler alloys for Thermoelectric Applications",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27240",
+      "title": "Normal-state exponential muon-spin relaxation and its implications for time-reversal symmetry breaking in Sr$_2$RuO$_4$",
+      "section": "new",
+      "decision": "already-in-previous",
+      "reason": "已随 11 月 23 日官方批次刊入原日报，今天未重收。"
+    },
+    {
+      "id": "2611.27247",
+      "title": "Nonmonotonic Magnetic Correlations in Decorated Lieb-Lattice Anderson Models",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27256",
+      "title": "Quantum-Chaos-Assisted Measure Synchronization in a Double-Well Ultracold Bose Gas",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "与本期优先的具体晶体生长、磁性与量子输运实验关联不足。"
+    },
+    {
+      "id": "2611.27259",
+      "title": "Decoupling Entropic and Enthalpic Elasticity in Crosslinked Polymer Nanocomposites",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+    },
+    {
+      "id": "2611.27321",
+      "title": "Gap-label bounds and optical reconstruction of Landau-subband quantum geometry",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.27334",
+      "title": "Role of antisite disorder in dictating the Ising anisotropy and ferromagnetic ground state of NdGaSi",
+      "section": "new",
+      "decision": "already-in-previous",
+      "reason": "已随 11 月 23 日官方批次刊入原日报，今天未重收。"
+    },
+    {
+      "id": "2611.27364",
+      "title": "Optimizing MHz X-ray photon correlation spectroscopy with burst-mode free-electron laser operation",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.27384",
+      "title": "Frustration-Stabilized Hexamerons and Their Topological Magnons in Janus MXene",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27386",
+      "title": "Pushy Random Walk on the Bethe lattice: a Galton-Watson perspective",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27391",
+      "title": "Pure Orbitronics: Hall Responses and Torques by Orbital Exchange in Spinless Transition-Metal Dichalcogenides",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.27392",
+      "title": "Hall effect in electrolyte solutions: Self-consistent Debye-Huckel-Onsager theory",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+    },
+    {
+      "id": "2611.27406",
+      "title": "How many states does an exact relaxation model need? Sharp state complexity and geometric obstructions for reversible chains",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27428",
+      "title": "A Negative-U Double Quantum Dot in a LaAlO3/SrTiO3 Membrane on Silicon",
+      "section": "new",
+      "decision": "already-in-previous",
+      "reason": "已随 11 月 23 日官方批次刊入原日报，今天未重收。"
+    },
+    {
+      "id": "2611.27430",
+      "title": "Conductivity of electrolyte solutions: Self-consistent Debye-Hückel-Onsager theory",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27440",
+      "title": "Decoupling Exciton Energetics from Wavefunction Geometry in Imide-Based Defect Double Antiperovskites",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27455",
+      "title": "Spectral and dynamical properties of quasiperiodically kicked staggered chains",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.27470",
+      "title": "Adaptive obstacle deposition drives dynamical localization in chase-and-escape dynamics",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27532",
+      "title": "Annular Terahertz Near-Field of a Breathing Charged Vortex",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.27538",
+      "title": "Rotation-induced supersolidity in a spin-imbalanced unitary Fermi gas",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "与本期优先的具体晶体生长、磁性与量子输运实验关联不足。"
+    },
+    {
+      "id": "2611.27555",
+      "title": "Minimal chiral $p$-wave superconductor",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.27563",
+      "title": "Saddle Buckling of a Multicellular Alga Driven by Differential Growth",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27564",
+      "title": "From non-universal spectra at the RS-RSB transition to the universal $ω^4$ regime inside the glassy phase",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27577",
+      "title": "Lacrymaria-like dynamics: compression and length change in active slender bodies",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27580",
+      "title": "Designing Perovskites for Chemical Looping Hydrogen Production",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27581",
+      "title": "Disentangling Lengthscales in Disordered Fracture",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27583",
+      "title": "Edge-dislocation interactions with sub 3 nm vacancy and interstitial clusters in FeCr alloys: Mechanisms, Obstacle strength and Fate",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27584",
+      "title": "Bayesian Quantum Thermometry of Ultracold Gases with Non-Equilibrium Single-Atom Probes",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "与本期优先的具体晶体生长、磁性与量子输运实验关联不足。"
+    },
+    {
+      "id": "2611.27647",
+      "title": "Cyclic perturbations encode memories in trained neural networks without loss of performance",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27654",
+      "title": "Modeling the contact area and intersurface forces between Pb nanoparticles and suspended graphene",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27658",
+      "title": "Capillary partitioning of solutes on conformally coated colloidal monolayers: a universal geometric threshold",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "与本期优先的具体晶体生长、磁性与量子输运实验关联不足。"
+    },
+    {
+      "id": "2611.27736",
+      "title": "Silver/alumina-capped Janus particles: a dispersible hyperbolic metamaterial",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+    },
+    {
+      "id": "2611.27747",
+      "title": "Atomistic theory of the $d$-wave phonon angular momentum splitter effect",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "与本期优先的具体晶体生长、磁性与量子输运实验关联不足。"
+    },
+    {
+      "id": "2611.27749",
+      "title": "Lattice-geometry dependence of Type-I and Type-II magnetic flux responses in strongly correlated bosons",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27763",
+      "title": "General Transport Signatures of Odd-Parity Magnets: Charge--Spin Selection Rules and Temporal--Spectral Separation",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.27767",
+      "title": "Disk 2-point functions for conformal loop ensemble: a derivation from the SLE loop CFT",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27785",
+      "title": "Shift current as a stacking spectroscopy of hexagonal boron nitride multilayers",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.27818",
+      "title": "Corrections to the Fick-Jacobs Description of Diffusion across Pickering Droplet Interfaces",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "与本期优先的具体晶体生长、磁性与量子输运实验关联不足。"
+    },
+    {
+      "id": "2611.27819",
+      "title": "Magnetic-Field Response of a Hyperbolic Kitaev Spin Liquid",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.27837",
+      "title": "Voltage-Controlled Dielectric Cavity Magnonics in Epitaxial Fe Films on SrTiO3 Single Crystal Substrates",
+      "section": "new",
+      "decision": "already-in-previous",
+      "reason": "已随 11 月 23 日官方批次刊入原日报，今天未重收。"
+    },
+    {
+      "id": "2611.27842",
+      "title": "Prediction and characterisation of cation topology of pentanary high-entropy alloy (MoWNbTaV)S$_2$",
+      "section": "new",
+      "decision": "pending",
+      "reason": "高熵单层是计算材料筛选，无本篇合成/实测；可留作制备候选。"
+    },
+    {
+      "id": "2611.27846",
+      "title": "Pseudo-entropy in Thouless Pumps and Majorana Topological Phases",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27849",
+      "title": "Interaction and confinement effects for a ${}^6\\mathrm{Li}_2$ condensate in a shaken lattice",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.27869",
+      "title": "Linear Response Theory of Nitrogen K-Edge X-ray Absorption of TCNQ",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.27884",
+      "title": "Thermo-electric Response Bound on Fluctuations in Coherent Transport",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "与本期优先的具体晶体生长、磁性与量子输运实验关联不足。"
+    },
+    {
+      "id": "2611.27923",
+      "title": "The Fiscal and Economic Implications of Green Mandates: a Boltzmann Approach to Public Governance",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.27938",
+      "title": "Group-III doping of the p-type oxide SnO",
+      "section": "new",
+      "decision": "already-in-previous",
+      "reason": "已随 11 月 23 日官方批次刊入原日报，今天未重收。"
+    },
+    {
+      "id": "2611.27948",
+      "title": "Minkowski Correlation Functions (MCF): Long-range, robust shape descriptors for point patterns",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.27955",
+      "title": "Molecular structure breaks universality in screening behavior of electrolyte solutions",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27976",
+      "title": "Observation of rotonic density enhancement at the boundary of a uniform dipolar superfluid",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "与本期优先的具体晶体生长、磁性与量子输运实验关联不足。"
+    },
+    {
+      "id": "2611.27980",
+      "title": "Structure and relaxation of long-lived odd-parity modes in two-dimensional Fermi liquids",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "与本期优先的具体晶体生长、磁性与量子输运实验关联不足。"
+    },
+    {
+      "id": "2611.27981",
+      "title": "Thermopower overshoot from collinear scattering in two-dimensional Fermi liquids",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "与本期优先的具体晶体生长、磁性与量子输运实验关联不足。"
+    },
+    {
+      "id": "2611.27982",
+      "title": "Quantum Many-Body Scars from Operator Size",
+      "section": "new",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.22786",
+      "title": "Quantum-classical dynamical density functional theory for solvation dynamics",
+      "section": "cross",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.26695",
+      "title": "Thermalization and quantum chaos in a pure gauge discrete non-Abelian lattice gauge theory",
+      "section": "cross",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.26792",
+      "title": "Infection Spreading and Stochastic Extinction in Finite Spatially Inhomogeneous Susceptible-Infected-Susceptible and Susceptible-Infected-Recovered Systems",
+      "section": "cross",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.26960",
+      "title": "Resonance-controlled post-selected mode entanglement in one-dimensional quantum scattering",
+      "section": "cross",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27002",
+      "title": "Energy and Charge Transmission at Conformal Interfaces: Relations and Bounds",
+      "section": "cross",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27019",
+      "title": "Augmenting Quantum Neural Networks with Contractive Layers",
+      "section": "cross",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.27140",
+      "title": "Physical Learning for Autonomous Tuning of Spin Qubits in Electrostatically Defined Quantum Dots",
+      "section": "cross",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27150",
+      "title": "Shear thinning confines the wall forcing: laminar chaotic mixing of Carreau fluids in a rotating arc-wall mixer",
+      "section": "cross",
+      "decision": "exclude",
+      "reason": "与本期优先的具体晶体生长、磁性与量子输运实验关联不足。"
+    },
+    {
+      "id": "2611.27258",
+      "title": "A preference for local interaction between layers emerges during training",
+      "section": "cross",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.27378",
+      "title": "Pairing and modular: Generalized electrons and quasiholes inside the $\\boxtimes$ of topological orders",
+      "section": "cross",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.27402",
+      "title": "Quantum computing for gearing down complex many-fermion problems",
+      "section": "cross",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27422",
+      "title": "One-Step Self-Assembling Lipopolymer Coatings Enable Direct Longitudinal Biosensing in Native Biological Matrices",
+      "section": "cross",
+      "decision": "exclude",
+      "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+    },
+    {
+      "id": "2611.27452",
+      "title": "Emergent Fourfold Symmetry in Polarization Images: Local Origin and Diffractive Breakdown",
+      "section": "cross",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27535",
+      "title": "geodesiq: a Python package for geometric diabatic-adiabatic optimal state transfer",
+      "section": "cross",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.27618",
+      "title": "Potential emergence in LLM agents: a statistical physics perspective",
+      "section": "cross",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27644",
+      "title": "A nonlinear transient finite element analysis of coupled solvent diffusion and large deformation of magneto-elastic hydrogel balloon",
+      "section": "cross",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27650",
+      "title": "Emergent Causality of Macroscopic Transport and Equilibration in Long-Range Quantum Systems",
+      "section": "cross",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.27707",
+      "title": "Comparing weakly interacting and free quantum dynamics locally",
+      "section": "cross",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27768",
+      "title": "Solving fermionic sign problems with physics-informed kernels",
+      "section": "cross",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.27815",
+      "title": "Autonomous quantum machine learning via Riemannian gradient-based optimization",
+      "section": "cross",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27833",
+      "title": "Heat cleaning kinetics and thermal degradation of MOCVD-grown GaAs photocathodes",
+      "section": "cross",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27873",
+      "title": "Quantum Dobrushin comparison and locality of fermionic equilibrium states",
+      "section": "cross",
+      "decision": "exclude",
+      "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+    },
+    {
+      "id": "2611.27896",
+      "title": "Optimised 8th-Order Trotter-Suzuki Schemes for Quantum Simulation",
+      "section": "cross",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "2611.27960",
+      "title": "Receptor Abundance Alone Underpredicts Red Blood Cell Adhesion in Gaucher Disease",
+      "section": "cross",
+      "decision": "exclude",
+      "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+    },
+    {
+      "id": "1606.07190",
+      "title": "Non-Abelian Quantum Turbulence in Spinor Bose-Einstein Condensates",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2503.13831",
+      "title": "Dynamics and stability of U(1) spin liquids beyond mean-field theory: Triangular-lattice $J_1$-$J_2$ Heisenberg model",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2507.10476",
+      "title": "Large Dense Thermodynamic Networks Nearly Minimize Entropy Production",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2507.10477",
+      "title": "Strain and Correlation Modulated Magnetic Anisotropy and Dzyaloshinskii--Moriya Interaction in 2D H-FeTe$_2$",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2509.11314",
+      "title": "Optimizing optimal transport: Role of final distributions in finite-time thermodynamics",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2509.16290",
+      "title": "Facile On-Chip Growth and Spatially Selective Color Tuning of CsPbBr$_{3}$@TFA Nanoplatelets via Ion Engineering",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2510.26713",
+      "title": "Probing Topological Phases in a Strongly Correlated Ladder Model via Entanglement",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2512.00747",
+      "title": "Evidence for itinerant electron-local moment interaction in Li-doped $α$-MnTe",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2512.03203",
+      "title": "Digital-Alloy Bragg Mirrors in High-Q Microcavities for Polariton Lasing",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2602.10534",
+      "title": "Probing Plasmonic Oscillations in 2D Moir'e Nanocrystal Superlattices by Low-Loss EELS",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2602.22113",
+      "title": "Lowering the temperature of two-dimensional fermionic tensor networks with cluster expansions",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2603.09074",
+      "title": "X-ray spectroscopic responses to magnetoelastic symmetry breaking in altermagnets",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2603.09850",
+      "title": "Non-equilibrium generalized Langevin equation for multi-dimensional observables",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2603.11879",
+      "title": "Symmetry-Resolved Spectral Weight Reveals Charge Localization in Correlated Insulator",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2604.02856",
+      "title": "Type-IV 't Hooft Anomalies on the Lattice: Emergent Higher-Categorical Symmetries and Applications to LSM Systems",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2604.19228",
+      "title": "Rippled graphene pores as fluidic memristive devices with synaptic and neuromorphic functionalities",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2604.19244",
+      "title": "Spectral Diagnostics of Higher-Order Structural Reorganization in Finite Statistical Systems",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2604.26627",
+      "title": "Electronic structure, quasiparticle renormalizations, and magnetic correlations in the alternating single-layer bilayer nickelate La$_5$Ni$_3$O$_{11}$",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2605.00629",
+      "title": "Monte Carlo study of the superfluid phase of $^4$He",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2605.22157",
+      "title": "Nonlinear frequency shift and bistability of magnon-polarons",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2605.26179",
+      "title": "AutoDFT: A Closed-Loop Multi-Agent Framework for Autonomous DFT Calculations",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2605.28445",
+      "title": "Bounds on the Entropy Production in Stochastic Resetting with Harmonic Traps",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2606.00766",
+      "title": "Energy spectra and cascade in the spin turbulence of a driven spinor Bose-Einstein condensate",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2606.06765",
+      "title": "Reactivity-Informed Machine Learning for Performance Prediction and Design Space Exploration of Alkali-Activated Slag",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2606.06874",
+      "title": "Impact of capacity volatility and input substitutability on supply chain resilience",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2606.18130",
+      "title": "Double quantum spin Hall phase in bilayer ZrTe$_5$",
+      "section": "replacement",
+      "decision": "pending",
+      "reason": "11 月 20 日已收正式版与早期公开稿；待核新版增量。"
+    },
+    {
+      "id": "2606.25175",
+      "title": "Competing redox and material redistribution during electrode ageing",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2606.26909",
+      "title": "Quasiclassical theory of nonlinear response in d-wave superconductors",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2606.27512",
+      "title": "Mapping the Growth of Two-Dimensional $π$-Conjugated Polymers on Au(111): Organometallic Intermediates and Edge Terminations",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2607.00762",
+      "title": "Deconfined criticality between an antiferromagnetic insulator and a nodal d-wave superconductor: a quantum Monte Carlo study",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2607.05858",
+      "title": "Local moment magnon spectrum in conduction electron tunnelling",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2607.06561",
+      "title": "2D Transport in an in-plane magnetic field",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2607.07324",
+      "title": "Perspectives on inverse design for AI magnonics",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2607.08295",
+      "title": "Anomalous reflection of caustic spin-wave beams",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2607.09079",
+      "title": "Predictive Renormalization-Group Theory of Universality Classes in Nonlinear Systems",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2607.10045",
+      "title": "Flux Jamming and Bimodal Dynamics in Bounded Spin Networks",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2607.16639",
+      "title": "Passive Entropy Rate Bounds the Information Required for Feedback Control",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2608.05354",
+      "title": "Superfluid helium",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2608.16219",
+      "title": "Non-Equilibrium Instantaneous Approximation and Dipole Forbidden d-d Transitions",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2608.17608",
+      "title": "Chiral Spinterfaces as an Overlooked Component of the Chiral-Induced Spin Selectivity Effect",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2608.30032",
+      "title": "A unified geometric design framework for kirigami structures",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2609.00795",
+      "title": "Agentic programs: an emerging form of scientific software in computational materials science",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2609.14623",
+      "title": "Thermodynamic Realizability of Hidden Markov Processes: Attainment, Observable Certificates, an Architecture-Independent Floor, and the Price of Architecture",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2609.16320",
+      "title": "Probing proximity-induced superconductivity in bilayer graphene using gate-defined quantum dots",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2609.39267",
+      "title": "Logarithmic Quasi-Long-Range Order and Novel Continuous Phase Transition in the Two-Dimensional XY Model with $1/r^4$ Interaction",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2610.24340",
+      "title": "Maximum-Temperature Theorem for Nanothermometry",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2610.26688",
+      "title": "Elastic theory of ideal liquid crystal elastomers",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2610.37770",
+      "title": "Spin Space Symmetry Without Spin Space Groups",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2610.39623",
+      "title": "Origin and photoluminescence of a shallow hydrogen-related donor in silicon",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2610.39713",
+      "title": "I$_4$ complex acting as near-infrared emitter with a quantum memory in silicon",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2610.41061",
+      "title": "The spin-transfer inverse Faraday effect in Au/YIG thin film bilayers",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2611.12788",
+      "title": "Ambient-pressure superconductivity in bulk single crystals of La$_5$Ni$_4$O$_{10}$",
+      "section": "replacement",
+      "decision": "pending",
+      "reason": "11 月 10 日已读同一研究；此次替换未完整比对增量，先不重收。"
+    },
+    {
+      "id": "2611.16237",
+      "title": "Anti-Kibble-Zurek behavior driven by dichotomous Markov noise in a quantum Ising chain: Generalized stochastic resonance in the defect density",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2611.16841",
+      "title": "Two Unconventional Hall Effects in the Kagome Magnet TmMn4Cr$_2$Sn$_6$",
+      "section": "replacement",
+      "decision": "pending",
+      "reason": "此前已有题目/原版，未完整核查本次修改，不计为当日新投。"
+    },
+    {
+      "id": "2611.18400",
+      "title": "Topological Hybridization Gaps from Molecular Orbitals Coupled to Dirac Fermions",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2611.19050",
+      "title": "SPARC: Evidence-guided adaptive model composition for materials discovery",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2611.19929",
+      "title": "Spectral Moments of the Projected Hubbard Configuration Graph: Connectivity, Exchange, and Virtual Doublons",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2611.21720",
+      "title": "Constraints on the volume enclosed by Fermi surfaces",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2611.22020",
+      "title": "Frame Based Inelasticity for Fracture in Anisotropic Media",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2611.23092",
+      "title": "Memory kernel and closure for systems driven by intermittent forcing with power-law waiting times",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2611.24103",
+      "title": "Electrostatic and Quantum Transport Engineering of Multilayer Ferroelectric Tunnel Junctions for Improved TER and RA Trade off",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2611.25456",
+      "title": "Generalized Critical-State Analysis of Local Field Screening in High-Pressure Yttrium Polyhydride",
+      "section": "replacement",
+      "decision": "pending",
+      "reason": "氢化物局域磁场相关；本次未核修订增量及与既有实验数据的独立性，待专题。"
+    },
+    {
+      "id": "2405.08138",
+      "title": "Logical qubits with geometrically enhanced energetic and parametric protection",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2503.08645",
+      "title": "Mitigating transients in flux-control signals in a superconducting quantum processor",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2601.18756",
+      "title": "Efficient Trotter-Suzuki Schemes for Long-time Quantum Dynamics",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2604.13929",
+      "title": "Three-dimensional photon transport in spinodal photocatalytic aerogels: how bicontinuous morphology controls kinetic rate constants",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2604.24760",
+      "title": "Contracting Tensor Networks with Generalized Belief Propagation",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2604.27751",
+      "title": "Quantum Metric and Nonlinear Hall Effect of Photons",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2606.31942",
+      "title": "Invasion with size-dependent dispersion range",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2607.17680",
+      "title": "Fitting the topology of synthetic particle systems with a novel graph representation",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2609.05170",
+      "title": "What Photocurrent Versus Effective Voltage Tells Us About Charge Generation in Organic Solar Cells",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2609.39367",
+      "title": "A Dynamical Theory of LoRA in Continual Learning",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2610.33659",
+      "title": "Linear statistics in the Coulomb gas: cumulants beyond rotational invariance",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2610.34277",
+      "title": "Information geometry of continuum limits in lattice field theory: The Gross-Neveu model with Wilson fermions",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2611.07695",
+      "title": "Equivariant Deep Learning in Direct-Product Space for Electronic-Structure Hamiltonian Prediction",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2611.20881",
+      "title": "Non-Hermitian edge accretion",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    },
+    {
+      "id": "2611.25153",
+      "title": "Max-Cut on Token Graphs",
+      "section": "replacement",
+      "decision": "not-reselected",
+      "reason": "替换稿，题目摘要筛整；未逐一核对修订差异，不按新投收录。"
+    }
+  ],
+  "arxivDateApi": [
+    {
+      "name": "初投日期 UTC 23",
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acond-mat.%2A+AND+submittedDate%3A%5B202611230000+TO+202611232359%5D&max_results=1000",
+      "http": "200",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "entries": [
+        {
+          "id": "2611.30210v1",
+          "published": "2026-11-23T07:47:49Z",
+          "updated": "2026-11-23T07:47:49Z",
+          "title": "Quantum Geometry Effects in Lattice Dynamics",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "id": "2611.30088v1",
+          "published": "2026-11-23T05:48:23Z",
+          "updated": "2026-11-23T05:48:23Z",
+          "title": "Valence band, electron correlation, and possible temperature dependent change in the electronic structure near $E_F$ of a candidate of ambient-pressure nickelate superconductors Sr$_3$Ni$_2$O$_5$Cl$_2$",
+          "decision": "include",
+          "reason": "PDF 与 API 已核到样品及谱学实验，单列投稿轨。"
+        },
+        {
+          "id": "2611.30058v1",
+          "published": "2026-11-23T05:04:11Z",
+          "updated": "2026-11-23T05:04:11Z",
+          "title": "Solids activated by multi-body nonreciprocity",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "id": "2611.30039v1",
+          "published": "2026-11-23T04:47:07Z",
+          "updated": "2026-11-23T04:47:07Z",
+          "title": "Geometric Polarization-Virial Theorems for Field-Induced Dipolar Interactions and Force Reversal",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "id": "2611.30315v1",
+          "published": "2026-11-23T08:58:44Z",
+          "updated": "2026-11-23T08:58:44Z",
+          "title": "Spin-controlled thermophase and noise-optimized thermometry in multiorbital quantum dots",
+          "decision": "exclude",
+          "reason": "与本期优先的具体晶体生长、磁性与量子输运实验关联不足。"
+        },
+        {
+          "id": "2611.29875v1",
+          "published": "2026-11-23T01:09:57Z",
+          "updated": "2026-11-23T01:09:57Z",
+          "title": "Sondheimer oscillations in Weyl semimetal films",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "id": "2611.30276v1",
+          "published": "2026-11-23T08:33:40Z",
+          "updated": "2026-11-23T08:33:40Z",
+          "title": "Apparent thermal conductivity governed by interface-injected phonon spectra",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "id": "2611.30348v1",
+          "published": "2026-11-23T09:19:49Z",
+          "updated": "2026-11-23T09:19:49Z",
+          "title": "Strain-Induced Tetragonal-to-Cubic Transition in MAPbI$_3$ from Machine-Learned Molecular Dynamics",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "id": "2611.30043v1",
+          "published": "2026-11-23T04:49:41Z",
+          "updated": "2026-11-23T04:49:41Z",
+          "title": "Domain advantage in two-dimensional quantum-device design with multi-modal agentic harness",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "id": "2611.30015v1",
+          "published": "2026-11-23T04:17:38Z",
+          "updated": "2026-11-23T04:17:38Z",
+          "title": "Nonmonotonic In-Plane Thermal Transport in Metal-Embedded Graphitic Carbon Nitride",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "id": "2611.29858v1",
+          "published": "2026-11-23T00:33:08Z",
+          "updated": "2026-11-23T00:33:08Z",
+          "title": "Electric polarizabilities with phaseless auxiliary-field quantum Monte Carlo",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "id": "2611.30297v1",
+          "published": "2026-11-23T08:50:40Z",
+          "updated": "2026-11-23T08:50:40Z",
+          "title": "Anatomy of orbital and spin responses in GaAs and Si: Hall, inverse Faraday, and magneto-optical Kerr effects",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "id": "2611.30263v1",
+          "published": "2026-11-23T08:25:27Z",
+          "updated": "2026-11-23T08:25:27Z",
+          "title": "A response-based self-energy from equation-of-motion coupled-cluster theory and its reduction to GW, GW+SOSEX, and GF2",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "id": "2611.30232v1",
+          "published": "2026-11-23T08:02:23Z",
+          "updated": "2026-11-23T08:02:23Z",
+          "title": "Dynamical evolution and rheological behavior of a sheared compound vesicle with a highly viscous core: a mesoscale particle-based study",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "id": "2611.30229v1",
+          "published": "2026-11-23T08:00:48Z",
+          "updated": "2026-11-23T08:00:48Z",
+          "title": "Accelerating interatomic potential development through student-driven exploration and reliability-aware distillation",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "id": "2611.30187v1",
+          "published": "2026-11-23T07:31:07Z",
+          "updated": "2026-11-23T07:31:07Z",
+          "title": "Quantum simulation of low-temperature impurity models",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "id": "2611.30160v1",
+          "published": "2026-11-23T07:06:45Z",
+          "updated": "2026-11-23T07:06:45Z",
+          "title": "Generation and non-thermal annealing of dislocations and atomic-scale roughness by nonlinear surface acoustic waves",
+          "decision": "exclude",
+          "reason": "与本期优先的具体晶体生长、磁性与量子输运实验关联不足。"
+        },
+        {
+          "id": "2611.30076v1",
+          "published": "2026-11-23T05:34:15Z",
+          "updated": "2026-11-23T05:34:15Z",
+          "title": "NEP-Spin: A spin-dependent neuroevolution potential for large-scale spin--lattice simulations",
+          "decision": "exclude",
+          "reason": "与本期优先的具体晶体生长、磁性与量子输运实验关联不足。"
+        },
+        {
+          "id": "2611.30068v1",
+          "published": "2026-11-23T05:22:38Z",
+          "updated": "2026-11-23T05:22:38Z",
+          "title": "Reconstructing Pure-State OTOCs from Forward-Time Linear Response",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "id": "2611.30343v1",
+          "published": "2026-11-23T09:16:55Z",
+          "updated": "2026-11-23T09:16:55Z",
+          "title": "Edge-asymmetric magnetism in semi-Dirac quantum dots",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "id": "2611.30321v1",
+          "published": "2026-11-23T09:03:14Z",
+          "updated": "2026-11-23T09:03:14Z",
+          "title": "Dark matter mass fraction in axion stars",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "id": "2611.30194v1",
+          "published": "2026-11-23T07:37:09Z",
+          "updated": "2026-11-23T07:37:09Z",
+          "title": "Strain-driven terahertz phase modulation in piezoelectric and nonlinear optical crystals: mechanisms, material developments, and modulation strategies",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "id": "2611.30152v1",
+          "published": "2026-11-23T07:00:51Z",
+          "updated": "2026-11-23T07:00:51Z",
+          "title": "A Unified Energy-Density Framework for Moiré Interface Energetics and Mechanics",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "id": "2611.29976v1",
+          "published": "2026-11-23T03:41:13Z",
+          "updated": "2026-11-23T03:41:13Z",
+          "title": "Pseudo-Altermagnetism in Non-Hermitian Systems",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "id": "2611.29928v1",
+          "published": "2026-11-23T02:37:13Z",
+          "updated": "2026-11-23T02:37:13Z",
+          "title": "Pyroelectric Harvesting from Steady Heat Sources via Active Piezoelectric Thermal Switching",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "id": "2611.30344v1",
+          "published": "2026-11-23T09:17:21Z",
+          "updated": "2026-11-23T09:17:21Z",
+          "title": "High-Throughput Screening of Phononic Bandgap in Experimentally Realized Materials",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "id": "2611.30336v1",
+          "published": "2026-11-23T09:13:26Z",
+          "updated": "2026-11-23T09:13:26Z",
+          "title": "Impact of Topology and Sequence Length on the Pressure-Dependent Collapsibility of Proteins",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "id": "2611.30143v1",
+          "published": "2026-11-23T06:49:13Z",
+          "updated": "2026-11-23T06:49:13Z",
+          "title": "Projecting Fermions into Exact Scar Towers: Local Protection across Phase Transitions",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "id": "2611.30121v1",
+          "published": "2026-11-23T06:24:13Z",
+          "updated": "2026-11-23T06:24:13Z",
+          "title": "Indentation-induced polar domain reconfiguration in the charge-density-wave semiconductor EuTe4",
+          "decision": "pending",
+          "reason": "EuTe₄ 有实验相关性，正式版日期在回溯窗之外；新 arXiv 版本尚无批次确认，暂候补。"
+        },
+        {
+          "id": "2611.30070v1",
+          "published": "2026-11-23T05:26:52Z",
+          "updated": "2026-11-23T05:26:52Z",
+          "title": "Stable but Hidden: Identifiability and Experimental Design under Missing Compositional Support",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "id": "2611.30066v1",
+          "published": "2026-11-23T05:15:52Z",
+          "updated": "2026-11-23T05:15:52Z",
+          "title": "Diagnostic Accuracy Is Not Deployment Value: Decision-Aligned Reliability Evaluation for Foundation MLIPs in Materials Discovery",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "id": "2611.30053v1",
+          "published": "2026-11-23T04:56:55Z",
+          "updated": "2026-11-23T04:56:55Z",
+          "title": "Trajectory arclength reveals thermodynamic criticality",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "id": "2611.30044v1",
+          "published": "2026-11-23T04:50:09Z",
+          "updated": "2026-11-23T04:50:09Z",
+          "title": "The response field approach to path integral control",
+          "decision": "exclude",
+          "reason": "题目与可见摘要未核出本期需要的明确材料生长或实测物性证据；保留来源供核。"
+        },
+        {
+          "id": "2611.29889v1",
+          "published": "2026-11-23T01:43:05Z",
+          "updated": "2026-11-23T01:43:05Z",
+          "title": "Unveiling the Complex high-pressure phases of Sodium at the Melting Curve Minimum via Data-Drive Crystal Structure Prediction",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "id": "2611.30330v1",
+          "published": "2026-11-23T09:08:37Z",
+          "updated": "2026-11-23T09:08:37Z",
+          "title": "Atomistic insight into defect-mediated boron redistribution and high-temperature strengthening in TiAl alloys",
+          "decision": "exclude",
+          "reason": "以计算、通用器件或模型为主，未核出本期优先的晶体/薄膜制备与独立目标物性。"
+        },
+        {
+          "id": "2611.30245v1",
+          "published": "2026-11-23T08:13:31Z",
+          "updated": "2026-11-23T08:13:31Z",
+          "title": "Growing Knot Embeddings into Spherical Graphs",
+          "decision": "exclude",
+          "reason": "主要为化学、软物质、生物、能源工程或一般应用；非本期量子材料实证主题。"
+        },
+        {
+          "id": "2611.30108v1",
+          "published": "2026-11-23T06:07:56Z",
+          "updated": "2026-11-23T06:07:56Z",
+          "title": "Soliton Propagation of Zero Sound in Superfluid $^3$He-B",
+          "decision": "exclude",
+          "reason": "与本期优先的具体晶体生长、磁性与量子输运实验关联不足。"
+        }
+      ]
+    },
+    {
+      "name": "初投日期 UTC 24",
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acond-mat.%2A+AND+submittedDate%3A%5B202611240000+TO+202611242359%5D&max_results=1000",
+      "http": "200",
+      "attempts": [
+        [
+          "200",
+          ""
+        ]
+      ],
+      "entries": []
+    },
+    {
+      "name": "独立 ID 复核",
+      "http": "200",
+      "entries": [
+        {
+          "id": "http://arxiv.org/abs/2611.30088v1",
+          "published": "2026-11-23T05:48:23Z",
+          "updated": "2026-11-23T05:48:23Z",
+          "title": "Valence band, electron correlation, and possible temperature dependent change in the electronic structure near $E_F$ of a candidate of ambient-pressure nickelate superconductors Sr$_3$Ni$_2$O$_5$Cl$_2$"
+        },
+        {
+          "id": "http://arxiv.org/abs/2611.30121v1",
+          "published": "2026-11-23T06:24:13Z",
+          "updated": "2026-11-23T06:24:13Z",
+          "title": "Indentation-induced polar domain reconfiguration in the charge-density-wave semiconductor EuTe4"
+        }
+      ]
+    }
+  ],
+  "arxivRetries": [
+    "official-later.html",
+    "official-latest.html"
+  ],
+  "weekendSchedule": "https://info.arxiv.org/help/availability.html",
+  "readingAudit": {
+    "candidateAccessibleFullTexts": 11,
+    "selectedAccessibleFullTexts": 7,
+    "fullReads": 7,
+    "publisherFullReads": 5,
+    "earlyManuscriptReads": 1,
+    "siOnly": 0,
+    "abstractOnly": 0,
+    "institutionalSuccess": false,
+    "pending": [
+      {
+        "title": "High-quality single crystals of the kagome metals Ni₃In and Ni₃Sn grown from Pb flux",
+        "reason": "已精读早期作者稿；期刊定稿的新增成分标定、精修及补充材料待逐图对照。"
+      }
+    ]
+  },
+  "limits": [
+    "逐刊交叉核查 APS 全系列、Nature 系列、AAAS、Wiley AM/AFM、ACS 五刊、JCG 等，记录每条 403、空页、超时和补试。APS 两轨和 Nature 已找到 11 月 23 日稿，部分是昨日快照之后补核。其他当日可见项主要为能源、传感或生物。空索引和网页限流不作零新增结论。",
+    "arXiv cond-mat/new 多路重试仍显示 11 月 23 日，核得 88 新投、24 交叉、77 替换。题名摘要与上一期逐条对齐。11 月 24 日公告和数量未证实，待再次复核。",
+    "arXiv UTC 11 月 23 日 API 37 条题目摘要交叉筛选；11 月 24 日 UTC 查询返回空。两个候补 ID 用 Atom 与公开 PDF 验证；抽查 abs 当时未正常显示。API 投递记录与公告日期不可互换，Sr₃Ni₂O₅Cl₂ 单列为已有可验证正文的投稿。",
+    "未验证有效浙大 aTrust/RVPN/WebVPN/CARSI 会话。正文及补充材料来自公开入口；未读到正式正文的接受稿明确使用可阅读的早期版。"
+  ]
+}

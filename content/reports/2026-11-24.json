@@ -1,0 +1,497 @@
+{
+  "date": "2026-11-24",
+  "issue": "091",
+  "headline": "7 篇、4 个板块。11 月 23 日首次在线 5 篇、公开接受 1 篇；独立 arXiv 1 篇（API 核到投稿，公告待核）。入选可访问全文 7、实际正文精读 7、仅摘要 0；未验证机构订阅会话。",
+  "hotspot": "La₃TiGa₅O₁₄ 有长晶与缺陷修复的正面对照；BaTiO₃ 的表层偏析提醒，氧退火也可能重排阳离子。补读碲化物输运、室温磁电复合膜、kagome 单晶和镍酸盐价带。",
+  "searchWindow": "北京时间 2026-11-24 00:00–13:58 检索快照；当日来源更新未齐，回溯 11 月 21–23 日，以下期刊均为 23 日。UTC 投稿日与 arXiv 官方公告日分开记录。",
+  "accessSummary": "7 篇、4 个板块。11 月 23 日首次在线 5 篇、公开接受 1 篇；独立 arXiv 1 篇（API 核到投稿，公告待核）。入选可访问全文 7、实际正文精读 7、仅摘要 0；未验证机构订阅会话。",
+  "papers": [
+    {
+      "id": "s41467-026-79746-5",
+      "title": "Quasi-degenerate cation occupation enables oxygen-vacancy defect healing in nonlinear optical crystals",
+      "titleZh": "准简并阳离子占位使非线性光学晶体中的氧空位缺陷得以修复",
+      "titleOriginalMetadata": "Quasi-degenerate cation occupation enables oxygen-vacancy defect healing in nonlinear optical crystals",
+      "journal": "Nature Communications",
+      "doi": "https://doi.org/10.1038/s41467-026-79746-5",
+      "arxivId": null,
+      "fullText": "https://www.nature.com/articles/s41467-026-79746-5_reference.pdf",
+      "category": "晶体生长和物性调控",
+      "material": "La₃TiGa₅O₁₄",
+      "authors": "Han, Jinfeng; Liang, Fei; Wu, Kui; Lu, Dazhi; Cui, Deliang; Yu, Haohai; Zhang, Huaijin",
+      "institutions": "山东大学晶体材料全国重点实验室、晶体材料研究院",
+      "date": "2026-11-23 期刊首次在线",
+      "versionNote": "2026-11-23 期刊首次在线；本期三日回溯。公开在刊稿，非排版终稿。",
+      "readingStatus": "full",
+      "selectionStatus": "three-day-fallback",
+      "access": "全文精读：出版社在刊稿 Methods、图 1–6；公开 SI 的制备、表 S1–S9、图 S1–S2、S5–S9、S17。",
+      "method": "出版社在刊稿 Methods、图 1–6；公开 SI 的制备、表 S1–S9、图 S1–S2、S5–S9、S17。",
+      "conclusion": "提拉可得到厘米级 La₃TiGa₅O₁₄；氧化后缺陷相关 EPR 低于检测限，激光损伤阈值提高。该结论有明确光学条件，不等同无空位。",
+      "sections": [
+        {
+          "title": "为什么要精确到占位而不只写掺杂",
+          "text": "langasite 框架里，不同阳离子在不同配位环境的占位、以及缺氧改变附近 Ti 的价态，是两个可以分别读出的变量。主文给 La₃TiGa₅O₁₄ 的三方 P321，La 在八配位，Ti/Ga 混合占据 B 八面体和一类 C 四面体，另一类 D 四面体主要是 Ga。B 位 Ti:Ga 约七比三，C 位约一比九；这是衍射/模型支持的平均概率，不表示同一晶胞每个局部组合都一样。图 3 的显微证据与键价/计算比较用于判断这种分布可行，不能从强度直接观测 Ti 的动态迁移。作者的工作假说是跨位点及 Ti³⁺/Ti⁴⁺联动让氧进入已有缺陷的动力学更可及。"
+        },
+        {
+          "title": "长晶最值得保留的工艺卡",
+          "text": "主文对超过十种配比做次固相筛选，在所试范围富 Ga 近 LaGaO₃ 和残余 Ga₂O₃，富 Ti 近富钛第二相；筛过的适宜原料比例 La₂O₃/Ga₂O₃/TiO₂ 为 33.26/55.65/11.09 mol%。SI 给计量粉末预反应采用三种纯度超过 99.99% 原料、混粉 25 h、压块 1300 °C 20 h；不要把计量反应式和实际长晶装料等同。直径 70 mm 铱坩埚盛约 600 g，N₂/1% O₂，熔体高于熔点 20–30 °C 保 8–12 h，LGS 籽晶 [001] 引晶。均化后先缓升约 15–20 °C、保持以消除籽尖附相，再降约 20–25 °C 开始拉晶。常用等径 0.4–0.6 mm/h 和 5–8 rpm；详细温控依炉体校准。正文未报告可统计的各炉成品率，不能把一根 25×45 mm 晶棒当成生产良率。"
+        },
+        {
+          "title": "怎么证实晶体和氧化前后一致",
+          "text": "DSC 升温约 1781 K 吸热、降温约 1764 K 放热；高温 PXRD 至 1723 K 未见新相，和特定装料条件下的近共格熔化相容，不能外推整个三元体系。既有研究对其他装料得到不一致熔融行为，因此首炉优先做掺料与热分析重现。PXRD 的 Rp 4.82%、Rwp 6.30% 对照 SI，单晶精修确定占位；EDS La:Ti:Ga:O≈3.1:1:4.9:13.8，不能据 EDS 的氧定量计算精确氧空位浓度。应补晶棒头、中、尾生长方向的 XRD 摇摆和多点横向成分，以区分炉内稳定与一次切片质量。"
+        },
+        {
+          "title": "两种退火不应混用",
+          "text": "结束拉晶后按 SI 约 10 °C/h 降到 1200 °C，保 10 h 消应力、约 48 h 随炉冷。缺陷修复则是另取样品在 1400 °C 流动氧 48 h，粉床承托并用同成分组分补偿挥发；SI 给 99.99 vol% O₂、40 sccm，退火后重抛。前一种稳定机械完整性，后一种目标是改变缺陷化学。实际样品厚度、管径、氧交换时间、表面磨损及表层富集需要记录；如果相同设定温度在两炉对应不同气氛，其 EPR 与损伤阈值不能直接合在一起。"
+        },
+        {
+          "title": "直接证据与判定边界",
+          "text": "图 5 经退火 Ti³⁺ EPR 的 g≈1.987 与归属氧空位的 g≈2.006 峰降到检测线以下，EELS、XPS 和 ABF-STEM 共同支持；XPS O 1s 约 531.5 eV 组分会受表层其他物种影响，不能单作空位计数。SI 的 LGN 对照 48 h、甚至延到 72 h 仍有缺陷信号，支持“不是任何材料只要氧退火都有效”。但比较了不同 B 位组成和动力学，不能从端点证明是迁移势垒还是初始缺陷差异。图 6 损伤阈值约 1.20→2.53 GW/cm²，源为 1064 nm、10 ns 和 1 Hz、(001) 抛面；d₁₁=3.51 pm/V 是该已处理样的非线性读出，不可不注明条件地与飞秒实验或涂层样比较。"
+        },
+        {
+          "title": "用哪些结构信息区分作者模型与静态无序",
+          "text": "图 2 的化学相区和图 3 的结构表征应连起来读。出现连续的外观与透过窗口，仍需以多截面衍射及成分分布确认熔体内没有局部偏析。图 4 用不同氧空位附近阳离子构型的计算来支持准简并占位模型；有限超胞中可找到可行构型，只给出形成缺陷与局域配位的相对图景。退火过程的原子迁移轨迹及体相有效氧扩散系数仍需要独立时序实验。挂钩的实验证据是 Ti 价态和缺陷信号随氧处理一起变化；计算模型为相关性提供可检验机制。若用不同切向的高质量晶片做改进，先验 EPR 的取向及温度条件，算出有意义的相对强度界限，避免把取向依赖误写成样品差。"
+        },
+        {
+          "title": "物性如何换算为科研决策",
+          "text": "0.3–7.8 μm 为论文给出的透过窗口，用它判断光学用途前先看曲线的厚度、表面多重反射和实际目标波段。短波透过改进与含氧局部化学环境变化有相容性，需将吸收系数与厚度统一才可把体吸收与散射拆开。图 6d 的 Maker 条纹 d₁₁ 是 A 样的数据，拿未退火片按同光路和抛面重测才可说退火是否改变非线性系数。若目标是重复阈值提升，应报告同棒头中尾多个位置的损伤概率，记录光束面积、重复频率、脉宽和表面粗糙度。阈值图适合读同文同协议的相对增益，样品数、测点误差和氧空位绝对量要分别核对。"
+        },
+        {
+          "title": "下一炉如何把因果拆开",
+          "text": "同一根晶棒留相邻片，预先记每片晶向、厚度、抛光粗糙度；未退火、惰性热史与氧热史三组。优先 EPR 同增益同质量并给空管、校准标准、噪声和检测限，再做吸收、成分深度及 XRD。若 EPR 下降但吸收不改，考虑电荷态改变或中心变为 EPR 静默；若表面重新抛光后损伤阈值优势消失，先查制样而非体缺陷。耐激光测量选多点且保存失效前图像、单点与多点协议，报告分布而不只复现峰值。先在同一候选体系限定相纯和起始吸收，再谈取代如何改变氧入体速度。"
+        },
+        {
+          "title": "取样次序与否定条件",
+          "text": "把整炉质量的证据放在光学数据前面：首炉从晶棒头尾各留一片做微量第二相核验，另在同一轴长取相邻薄切片配对。氧化后要确认透过提高没有来自表面去掉着色层；可用同等重抛的惰性热史切片比较，并改变切片厚度以测试体吸收。若不同厚度重复产生相同单位长度吸收改变量，支持体相效应；若主要发生在先接触氧气的表面，暂停把整棒称为修复。第二炉可用相同原料批重现，以炉次为独立点，避免同一晶棒十个点被当成十次生长。"
+        }
+      ],
+      "tags": [
+        "正式期刊",
+        "日前回溯"
+      ],
+      "rating": "★★★★★",
+      "readingGuide": {
+        "priority": "最高：长晶和退火优先",
+        "first": "图 2、5–6；SI 单晶生长和氧化退火",
+        "focus": "共格窗口与氧缺陷测量下限",
+        "next": "同棒切片并行氧分压和热史对照"
+      },
+      "bodyChineseCharacters": 1547
+    },
+    {
+      "id": "dq6c-9df1",
+      "title": "Crystal structure, electrical resistivity, and electronic structure of single-crystal Ni₃Te₂",
+      "titleZh": "Ni₃Te₂ 单晶的晶体结构、电阻率和电子结构",
+      "titleOriginalMetadata": "Crystal structure, electrical resistivity, and electronic structure of single-crystal Ni₃Te₂",
+      "journal": "Physical Review B",
+      "doi": "https://doi.org/10.1103/dq6c-9df1",
+      "arxivId": null,
+      "fullText": "https://journals.aps.org/prb/pdf/10.1103/dq6c-9df1",
+      "category": "晶体生长和物性调控",
+      "material": "Ni₃Te₂",
+      "authors": "Anbalagan Ramakrishnan; Truc Ly Nguyen; Abhijeet Shelke; Shih-Chang Weng; Te-Chuan Liu; Ro-Ya Liu; Cheng-Maw Cheng; Sonali Baral; Archana Lakhani; Masato Yoshimura; Hirofumi Ishii; Nozomu Hiraoka; Satoru Hamamoto; Masaki Oura; Fan-Hsiu Chang; Hong-Ji Lin; Chien-Te Chen; Sinn-Wen Chen; Ashish Chainani",
+      "institutions": "台湾同步辐射研究中心；印度 UGC-DAE 科学研究联盟；RIKEN SPring-8；台湾清华大学",
+      "date": "2026-11-23 期刊首次在线",
+      "versionNote": "2026-11-23 期刊首次在线；本期三日回溯。",
+      "readingStatus": "full",
+      "selectionStatus": "three-day-fallback",
+      "access": "全文精读：APS PDF 原刊，II 制备、图 1–6 及共振谱/模型、结论；未找到独立 SI。",
+      "method": "APS PDF 原刊，II 制备、图 1–6 及共振谱/模型、结论；未找到独立 SI。",
+      "conclusion": "自助熔 Ni₃Te₂ 的衍射支持单斜相，低温电阻可用 T² 描述；负电荷转移是经过谱学交叉约束的模型判断。",
+      "sections": [
+        {
+          "title": "制备与定相",
+          "text": "Ni 99.99%、Te 99.999% 按计量，在约 2×10⁻³ mbar 真空石英管，1273 K 2 h，5 K/h 冷至 773 K 水淬，银灰锭可剥出平面。PXRD 与同步辐射 XRD 支持 P2₁/m、优先生长取向 (001)；硬/软光电子化学计量约 Ni 59.7±0.5%、Te 40.3±0.5%，不能据此确认氧和微区成分。文中未给可统计的产率。"
+        },
+        {
+          "title": "读图需要拿开拟合与观测",
+          "text": "图 3 的 4.2–40 K 近 T² 是适用区间内输运，不能仅用指数鉴定关联或者排除声子、杂质；核心谱在 6.5 keV/1.5 keV 的探测深度不同，Ni 及 Te 的卫星与等离激元要分开。Ni L 边 XAS、Ni 共振与价带共同约束团簇。所谓负电荷转移不是直接读出的原子价态；至少检查是否仅凭一个卫星就锁定多个参数。"
+        },
+        {
+          "title": "下一炉",
+          "text": "相同热程做计量样与小幅 Te 变化，先用单晶衍射、截面对照和 WDS 验相，再做定向输运；如不同纯度/几何的 T² 区间跟残余电阻变化，先检验散射再推进能谱解释。从图 1–3 建立样品履历后再读计算参数。"
+        }
+      ],
+      "tags": [
+        "正式期刊",
+        "日前回溯"
+      ],
+      "rating": "★★★★★",
+      "readingGuide": {
+        "priority": "高：自助熔和电子谱对照",
+        "first": "II、图 1–3 和谱学模型",
+        "focus": "T² 适用区间、模型的稳健性",
+        "next": "同批多片、成分校准"
+      },
+      "bodyChineseCharacters": 244
+    },
+    {
+      "id": "tbnm-y62x",
+      "title": "Heterogeneous ferroelectricity and conductivity of oxidized BaTiO₃ crystals: Role of nanoscale phase segregation in the surface region",
+      "titleZh": "氧化 BaTiO₃ 晶体中的非均匀铁电性与电导：表层纳米尺度相分离的作用",
+      "titleOriginalMetadata": "Heterogeneous ferroelectricity and conductivity of oxidized BaTiO₃ crystals: Role of nanoscale phase segregation in the surface region",
+      "journal": "Physical Review B",
+      "doi": "https://doi.org/10.1103/tbnm-y62x",
+      "arxivId": null,
+      "fullText": "https://journals.aps.org/prb/pdf/10.1103/tbnm-y62x",
+      "category": "晶体生长和物性调控",
+      "material": "BaTiO₃",
+      "authors": "Christian Rodenbücher; Gustav Bihlmayer; Susan Trolier-McKinstry; Jacek Szade; Franciszek Krok; Kristof Szot",
+      "institutions": "德国于利希研究中心；宾夕法尼亚州立大学；西里西亚大学；雅盖隆大学",
+      "date": "2026-11-23 期刊首次在线",
+      "versionNote": "2026-11-23 期刊首次在线；本期三日回溯。",
+      "readingStatus": "full",
+      "selectionStatus": "three-day-fallback",
+      "access": "全文精读：APS 开放正文，Methods、图 1–5 及还原/再氧化结果；未找到独立 SI。",
+      "method": "APS 开放正文，Methods、图 1–5 及还原/再氧化结果；未找到独立 SI。",
+      "conclusion": "某些氧化热程诱发 Ba 富表面和 Ti 富内层；不能把处理后导电变化简单等同填补氧空位。",
+      "sections": [
+        {
+          "title": "样品与独立表层探针",
+          "text": "母晶为顶部籽晶溶液法制备的采购样，代表 EDS Ba:Ti=0.5043:0.4947；原料配方和长晶细节本文未披露。图 1 XPS 随出射角而变，图 2 ToF-SIMS 验 Ba/Ti 深度，后段用畴/形貌和纳米导电图。氧处理温度最高至约 1000 °C，在一组对照里用 200 mbar 氧 1 h；不同温度数据不能拼一条等效时间曲线。"
+        },
+        {
+          "title": "相分离与电学归因",
+          "text": "氧化后表面富 Ba 纳米相及更深的 Ti 富区支持非均匀化学；自极化与宏观剩余极化受屏蔽应分开。导电细丝与位错相关，作者以沿位错的快速扩散解释；局部电流图不直接测电极下每条位错的化学量。还原后再氧化可能不可逆，不同初始条件下的电阻不该共用一条平衡缺陷模型。"
+        },
+        {
+          "title": "实验判断",
+          "text": "同片背靠背分别做氧/惰性对照，再去掉一层并独立测深度；若重复抛光恢复电学且体 XRD 不改，先归因表层。用没有离子轰击的表面参考检验 SIMS 诱发混层，把相、极化、漏电、电极面积都按片号关联。"
+        }
+      ],
+      "tags": [
+        "正式期刊",
+        "日前回溯"
+      ],
+      "rating": "★★★★★",
+      "readingGuide": {
+        "priority": "高：高温处理造成成分迁移",
+        "first": "图 1–3 和 Methods",
+        "focus": "深度成分与局域导电同位置",
+        "next": "同一批含氧热史与再抛光"
+      },
+      "bodyChineseCharacters": 278
+    },
+    {
+      "id": "cvkc-xp3j",
+      "title": "Dimensional crossover of mass anisotropy in Ta-doped WTe₂",
+      "titleZh": "Ta 掺杂 WTe₂ 中质量各向异性的维度交叉",
+      "titleOriginalMetadata": "Dimensional crossover of mass anisotropy in Ta-doped WTe₂",
+      "journal": "Physical Review Materials",
+      "doi": "https://doi.org/10.1103/cvkc-xp3j",
+      "arxivId": "2606.15620",
+      "fullText": "https://journals.aps.org/prmaterials/pdf/10.1103/cvkc-xp3j",
+      "category": "二维材料与量子器件",
+      "material": "TaₓW₁₋ₓTe₂",
+      "authors": "P. Das; D. Das; P. Kumar; Monika; S. Patnaik",
+      "institutions": "印度贾瓦哈拉尔·尼赫鲁大学",
+      "date": "2026-11-23 期刊首次在线",
+      "versionNote": "2026-11-23 期刊首次在线；本期三日回溯。",
+      "readingStatus": "full",
+      "selectionStatus": "three-day-fallback",
+      "access": "全文精读：APS 正文 II、图 1–5、表 II–III；核到早期作者稿 ID，未找到独立 SI。",
+      "method": "APS 正文 II、图 1–5、表 II–III；核到早期作者稿 ID，未找到独立 SI。",
+      "conclusion": "Ta 系列的磁阻和角度标度提示面内外传输差扩大；高掺杂单一各向异性参数不再适用。",
+      "sections": [
+        {
+          "title": "生长和结构",
+          "text": "Ta/W 99.99%、Te 99.999%，计量粉研 30 min；TeCl₄ 3 mg/cm³、12–14 cm 管，约 10⁻² mbar 封管，高低端 850/750 °C 20 天得板片。PXRD 支持 Pmn2₁ 框架，最高组 c 轴缩约 0.63%；组分和分配仍需同片复测。"
+        },
+        {
+          "title": "磁阻与拟合边界",
+          "text": "三种名义 x=0、0.05、0.10，在 5 K 典型横向 MR 约 22379%、15537%、58211%。不是随取代单调增加。非线性 Hall 有不同符号载流贡献，单 γ 的角度标度在 x=0.10 破坏；这可由各向异性口袋/迁移率与散射共同变化造成，并非直接量出 c 轴有效质量或二维拓扑。"
+        },
+        {
+          "title": "复现建议",
+          "text": "同一输运几何、起始温度、磁场等完整报告；先做线性 Hall 与双载流拟合敏感性，再用量子振荡随角消除纯标度歧义。不同晶体需要实测 Ta 和截面、防止接触混入纵向。"
+        }
+      ],
+      "tags": [
+        "正式期刊",
+        "日前回溯"
+      ],
+      "rating": "★★★★★",
+      "readingGuide": {
+        "priority": "高：CVT 与输运各向异性",
+        "first": "II、图 1、3–5",
+        "focus": "角度标度失败的范围",
+        "next": "实测成分并加入量子振荡"
+      },
+      "bodyChineseCharacters": 177
+    },
+    {
+      "id": "d83k-923y",
+      "title": "Giant Room-Temperature Magnetoelectric Coupling Effect in Nanocomposite Thin Films via Strain-Sensitive Polarization",
+      "titleZh": "利用应变敏感极化在纳米复合薄膜中实现巨大的室温磁电耦合",
+      "titleOriginalMetadata": "Giant Room-Temperature Magnetoelectric Coupling Effect in Nanocomposite Thin Films via Strain-Sensitive Polarization",
+      "journal": "Physical Review Letters",
+      "doi": "https://doi.org/10.1103/d83k-923y",
+      "arxivId": null,
+      "fullText": "https://journals.aps.org/prl/pdf/10.1103/d83k-923y",
+      "category": "磁性、拓扑与自旋",
+      "material": "SrTiO₃–NiO 垂直复合薄膜",
+      "authors": "Hao Li; Yali Yang; Shiqing Deng; Yajun Qi; Peng Wang; He Qi; Huifen Yu; Yuan Zhang; Yu Chen; Jiaou Wang; Jianghua Chen; Jiangyu Li; Junling Wang; Jun Chen",
+      "institutions": "海南大学；北京科技大学；湖北大学；国防科技大学；中科院高能所；南方科技大学；香港城市大学",
+      "date": "2026-11-23 期刊首次在线",
+      "versionNote": "2026-11-23 期刊首次在线；本期三日回溯。",
+      "readingStatus": "full",
+      "selectionStatus": "three-day-fallback",
+      "access": "全文精读：APS 正文图 1–5；官方 SI 生长、结构与测量以及 S5。",
+      "method": "APS 正文图 1–5；官方 SI 生长、结构与测量以及 S5。",
+      "conclusion": "利用 STO 对应变的极化响应与 NiO 磁致形变来耦合；所报道电压系数是具体器件和几何下的数值。",
+      "sections": [
+        {
+          "title": "样品和证据链",
+          "text": "PLD 形成 STO/NiO 垂直复合相；RSM、HAADF-STEM 及元素图支持纵向界面和相干应变。图 2 能评估面内钳制，图 5 的原子柱位移是给定晶向下投影；不能从单个区域排除全部短路路径或界面漏电。"
+        },
+        {
+          "title": "SI 给出的生长条件",
+          "text": "用 SrCO₃、TiO₂、NiO 计量制 x=0.35、0.50、0.65 和纯 NiO 靶，1273 K 固相制靶；248 nm KrF、1.1 J/cm²、5 Hz，腔室氧压 0.1–0.2 Torr，沉积后同温 15 Torr 氧退火 15 min。主样膜厚误差、实际 NiO 体积分数及电压频率须以样品记录再核，不能把 x 当每段界面的局部组分。"
+        },
+        {
+          "title": "测法",
+          "text": "面内激磁、面外记录磁电电压，STO-0.65NiO 报室温至 3200 mV/(cm·Oe)。电压系数和本征磁电极化张量量纲与边界条件不同；残余电极电容、机械共振、厚度、频率和零偏背景都应复核。对照独立 STO/NiO、同厚度非柱状样以及换向反相参考。"
+        },
+        {
+          "title": "下一轮",
+          "text": "先读 SI 接线和频率，再调整柱间距而固定 NiO 相分数。若把膜从基片解耦就改变全部谐振谱，拆出外部钳制和测量回路；幅度随频率窄峰增强不应先归因材料静态极化响应。"
+        }
+      ],
+      "tags": [
+        "正式期刊",
+        "日前回溯"
+      ],
+      "rating": "★★★★★",
+      "readingGuide": {
+        "priority": "高：应变设计与室温读出",
+        "first": "图 2、4–5 和 SI S5",
+        "focus": "电压系数、界面共格与背景",
+        "next": "几何/频率匹配并盲测参考样"
+      },
+      "bodyChineseCharacters": 213
+    },
+    {
+      "id": "rbsy-bvr2",
+      "title": "High-quality single crystals of the kagome metals Ni₃In and Ni₃Sn grown from Pb flux",
+      "titleZh": "铅助熔法生长高质量 kagome 金属 Ni₃In 和 Ni₃Sn 单晶",
+      "titleOriginalMetadata": "High-quality single crystals of the kagome metals Ni₃In and Ni₃Sn grown from Pb flux",
+      "journal": "Physical Review Materials",
+      "doi": "https://doi.org/10.1103/rbsy-bvr2",
+      "arxivId": "2606.23493",
+      "fullText": "https://arxiv.org/html/2606.23493",
+      "category": "晶体生长和物性调控",
+      "material": "Ni₃In／Ni₃Sn",
+      "authors": "Garmroudi, Fabian; Coulter, Jennifer; Kengle, Caitlin S. T.; Thompson, Joe D.; Bauer, Eric D.; Thomas, Sean M.; Rosa, Priscila F. S.",
+      "institutions": "洛斯阿拉莫斯国家实验室及合作者，作者稿署名见原文",
+      "date": "2026-11-23 APS 接受",
+      "versionNote": "2026-11-23 APS 接受；本期三日回溯，所读为作者公开稿，正式版变化未核。",
+      "readingStatus": "full",
+      "selectionStatus": "three-day-fallback",
+      "access": "早期公开稿全文精读：作者公开稿 Methods、表 1、图 1–4 及公开稿内附图；APS 接受记录已核。",
+      "method": "作者公开稿 Methods、表 1、图 1–4 及公开稿内附图；APS 接受记录已核。",
+      "conclusion": "铅助熔改进尺寸和残余电阻，但中间名义组成并未如投料进入晶体；低温磁热差异不能只归于结晶纯度。",
+      "sections": [
+        {
+          "title": "生长窗口和相竞争",
+          "text": "公开稿对比 P6₃/mmc 两端元及 Sn 取代投料；前驱体多晶再与 Pb 助熔，800 或 1000 °C 48 h，2 °C/h 到 400 °C，回升 550 °C 离心去助熔。表 1 的相组成必须与每个温度和投料一起读；Ni₃In 在较高温程会出竞争二元相，较高温有利于另一个端元的形成，也不保证 Sn 按名义投料进入 Ni₃In。样品到数毫米，未用同一批可用质量直接报告良率。"
+        },
+        {
+          "title": "物性不以单一 RRR 判断",
+          "text": "四线测面内和面外，Ni₃Sn 因尺寸仅给 c 轴。较低散射的 Ni₃In 在图 2–4 仍有非 T² 的低温行为，磁化率和 Sommerfeld 项较旧 CVT 样小。作者将这类差别与费米能位置联系，是假设，需联合独立成分、能谱与同向输运。"
+        },
+        {
+          "title": "复现筛选",
+          "text": "先重验表 1 的两个端元窗口，不直接测名义中间 x；WDS 对标并查 Pb 残留，对同一晶粒头尾取样，避免把双相误写成连续固溶。低温输运如只随 RRR 而不随独立组分变化，优先改缺陷模型。"
+        }
+      ],
+      "tags": [
+        "期刊已接受",
+        "日前回溯"
+      ],
+      "rating": "★★★★★",
+      "readingGuide": {
+        "priority": "高：毫米 kagome 晶体",
+        "first": "表 1、Methods、图 2–4",
+        "focus": "主相、实际 In/Sn 和晶轴",
+        "next": "端元各一炉并确定第二相"
+      },
+      "bodyChineseCharacters": 246
+    },
+    {
+      "id": "2611.30088",
+      "title": "Valence band, electron correlation, and possible temperature dependent change in the electronic structure near E_F of a candidate of ambient-pressure nickelate superconductors Sr₃Ni₂O₅Cl₂",
+      "titleZh": "常压镍酸盐超导候选 Sr₃Ni₂O₅Cl₂ 的价带、电子关联及费米能级附近电子结构可能的温度变化",
+      "titleOriginalMetadata": "Valence band, electron correlation, and possible temperature dependent change in the electronic structure near E_F of a candidate of ambient-pressure nickelate superconductors Sr₃Ni₂O₅Cl₂",
+      "journal": "arXiv",
+      "doi": "https://arxiv.org/abs/2611.30088",
+      "arxivId": "2611.30088",
+      "fullText": "https://arxiv.org/pdf/2611.30088v1",
+      "category": "高温与非常规超导",
+      "material": "Sr₃Ni₂O₅Cl₂",
+      "authors": "Ryota Goban; Daiki Ootsuki; Kenichi Ozawa; Akira Yasui; Masayuki Ochi; Kazuhiko Kuroki; Ryo Matsumoto; Kensei Terashima; Yoshihiko Takano; Yuji Muraoka; Takayoshi Yokoya",
+      "institutions": "冈山大学；KEK Photon Factory；JASRI；大阪大学；RIKEN；日本 NIMS",
+      "date": "2026-11-23 UTC 提交",
+      "versionNote": "2026-11-23 UTC 提交；API 按 ID 核 v1 并可读公开 PDF，11 月 24 日官方公告尚未验证。",
+      "readingStatus": "full",
+      "selectionStatus": "previous-day-supplement",
+      "access": "全文精读：公开 PDF 13 页，Experimental、图 1–5、附录温度回线。",
+      "method": "公开 PDF 13 页，Experimental、图 1–5、附录温度回线。",
+      "conclusion": "价带与含有效 U 的模拟更相符；近费米能级谱随温度变，但没有给出常压超导实证。",
+      "sections": [
+        {
+          "title": "样品与方法",
+          "text": "高压路线以 SrO₂、SrO、SrCl₂、NiO 投料；工艺指向前作，不能把前作的晶粒尺寸和成分当作本轮光电子样的量测。前作 IUCr 公开单晶结构 I4/mmm；本篇没给本批氧/氯占位精修、晶粒筛选率。实验段有 Sr3253 字样，全文题目和对象为 Sr3252，应在复现前核原始批记录。"
+        },
+        {
+          "title": "不同探测深度与能量分辨",
+          "text": "75 eV、50 K 的 VUV 分辨约 18 meV；7940 eV、20 K 的 HAXPES 分辨约 180 meV；Xe 8.44 eV、约 8 meV 测 10–300 K。刮面清洁，10 K 首尾对照可限制劣化。高低光子能谱的角动量矩阵元及表面敏感性不同，不能只用峰高直接等同轨道占据。"
+        },
+        {
+          "title": "可识别性与验证",
+          "text": "约 0.6 eV 特征和约 0.2 eV 肩峰与 Ni 相关轨道计算比较；U≈3 eV 是谱形相符的参数，不是直接测出单参数。低温谱附近弱强度和约 0.15 eV 结构对比单纯高斯展宽并不全解释；不能直接命名赝能隙或超导能隙。再做不同清洁面与同温探测深度的匹配，若低能谱只随清洁处理变，优先查表面；配合温变输运、电阻零值及磁屏蔽才可独立评价超导。"
+        }
+      ],
+      "tags": [
+        "arXiv",
+        "已核投稿"
+      ],
+      "rating": "★★★★★",
+      "readingGuide": {
+        "priority": "高：常压候选电子结构",
+        "first": "Experimental、图 1–4、附录",
+        "focus": "矩阵元、展宽、谱强与无超导证据",
+        "next": "同批同晶测结构、价带和常压低温输运"
+      },
+      "bodyChineseCharacters": 272
+    }
+  ],
+  "figures": [
+    {
+      "src": "/reports/2026-11-24/evidence-24.svg",
+      "title": "La₃TiGa₅O₁₄ 氧退火前后的激光损伤阈值",
+      "source": "https://doi.org/10.1038/s41467-026-79746-5",
+      "caption": "据 Nature Communications 公开在刊稿图 6c 的数值重绘，1064 nm、10 ns、1 Hz，(001) 抛光无镀膜面。只能比较该协议下的阈值，不能证明氧空位为零。"
+    }
+  ],
+  "sourceAudit": [],
+  "readingAudit": {
+    "candidateAccessibleFullTexts": 11,
+    "selectedAccessibleFullTexts": 7,
+    "fullReads": 7,
+    "publisherFullReads": 5,
+    "earlyManuscriptReads": 1,
+    "siOnly": 0,
+    "abstractOnly": 0,
+    "institutionalSuccess": false,
+    "pending": [
+      {
+        "title": "High-quality single crystals of the kagome metals Ni₃In and Ni₃Sn grown from Pb flux",
+        "reason": "已精读早期作者稿；期刊定稿的新增成分标定、精修及补充材料待逐图对照。"
+      }
+    ]
+  },
+  "researchIdeas": {
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-24",
+    "scope": "母体和候选化学式、Zr/Hf 端元、占位、氧扩散及缺陷退火，查阅公开论文题录、专利和高校仓储。",
+    "limitations": [
+      "待查新的物理假设。候选的新颖性、单相稳定窗口、可合成性和预计的速率变化均未确认。未进行合成、计算或测量，暂不按已确认创新点立项。"
+    ],
+    "ideas": [
+      {
+        "id": "langasite-ti-zr-oxygen-healing",
+        "kind": "material",
+        "status": "needs-review",
+        "paperIndex": 1,
+        "title": "用少量 Zr 取代 La₃TiGa₅O₁₄ 中的 Ti，检验哪种占位控制氧空位修复",
+        "material": "La₃(Ti₁₋ₓZrₓ)Ga₅O₁₄，低 x。名义 Zr⁴⁺ 取代 Ti⁴⁺。优先占据 B 八面体是待检验推断，C 四面体实际占比未知。",
+        "evidenceLevel": "母文公开在刊稿 Methods、图 2–6 及 SI。P321 的 Ti/Ga 有混合占位，氧退火后 Ti³⁺/缺陷相关 EPR 信号降至检测限以下。",
+        "question": "在起始缺陷量、片厚、氧分压和热史匹配后，Zr 实际进入 B 位是否改变氧入体与缺陷修复速率？",
+        "prediction": "母结构保持且 Zr 进入 B 位时，现阶段预测低 x 的相同退火时点，归一化残余缺陷比例更高，¹⁸O 示踪深度更浅。若端点 EPR 变小但氧示踪不变，优先解释为初始缺陷或 EPR 电荷态变化。若真实氧交换反而加快，否定 Ti 位点稀释主导的假设，进一步比较局部应变及迁移通道。",
+        "basis": "Ti⁴⁺/Zr⁴⁺ 同族、名义等价且为 d⁰，无先验载流子掺杂。相同六配位下 Zr⁴⁺更大，Zr 的 4d 成键与 Ti 的 3d 成键不同，预计共同影响 B 位局部几何和可逆 Ti³⁺/Ti⁴⁺中心。相较 Hf，Zr 有已报道的同框架端元可作占位和光学对照。没有证据预设磁交换、SOC 或整体铁电变化。",
+        "difference": "Zr 端元和其位点偏好早已报道。这里考察 Ti 丰富端低替换率下的等初始缺陷 ¹⁸O 动力学及 EPR/XANES 同步，分离初始缺陷、电子态转换和氧迁移。",
+        "plan": [
+          "用母体和两个低名义 x 筛选粉体相区，WDS/ICP、PXRD 和截面映射确认实测成分、次相和轴向偏析。仅对通过样再做同厚抛光片。",
+          "记录共同预处理后的起始吸收与 EPR，做固定氧分压短时序及惰性热史，统一检测限与质量归一化，用 ¹⁸O-SIMS 检查入体深度，条件许可用 Ti K 边和 Zr 局部配位分辨占位及价态。"
+        ],
+        "controls": [
+          "未替换母体、两档低 x、氧和惰性热史、同根相邻切片。已知 La₃ZrGa₅O₁₄ 仅作相结构和光学参照，不用无 Ti 端元校准 Ti³⁺ EPR。"
+        ],
+        "falsifiers": [
+          "若出现难以消除的锆富集、明显两相或端部偏析，暂停晶棒放大，不能按固溶解释。",
+          "确认实际占位和匹配起点后，若跨重复样的示踪和归一化缺陷速率无系统趋势，或趋势相反，否定原方向预测。"
+        ],
+        "feasibility": "先用常规粉体炉、XRD、WDS 与 EPR。定量扩散要求 ¹⁸O 气氛与 SIMS 合作，位点分辨视 XAS 或衍射条件，当前不需要直接上提拉大炉。",
+        "risks": "有限互溶、熔体分配、氧交换仅限表层、Ti³⁺ EPR 自然稀释及退火引起 Ga 损失，会混淆扩散。只有实际氧进入证据才解释为修复动力学。",
+        "nextStep": "先按母文条件做母体和低 x 粉末相区及 Zr 内部检测限。仅在组成可区分且同构时推进动力学对照。",
+        "queries": [
+          "La3TiGa5O14 La3ZrGa5O14 (Ti,Zr) solid solution oxygen vacancy annealing langasite",
+          "La3(Ti1-xZrx)Ga5O14 Zr substitution Ti oxygen diffusion",
+          "langasite La3ZrGa5O14 oxygen vacancy patent Hf crystal",
+          "langasite oxygen diffusion Ti Zr dissertation interstitial"
+        ],
+        "remainingChecks": [
+          "2026-11-24 核对下列公开记录。未穷尽数据库中的别名、未数字化学位论文和完整专利族权利要求。",
+          "合成、热力学或声子计算、扩散与光学测量尚未进行；先验母相稳定和锆位点，暂不确认新颖性。"
+        ],
+        "priorArt": [
+          {
+            "title": "La₃TiGa₅O₁₄ 缺陷修复母文",
+            "url": "https://doi.org/10.1038/s41467-026-79746-5",
+            "overlap": "母体氧化修复和 Ti/Ga 占位，不提供本案 Ti 丰端 Zr 最小替换的同位素动力学比较。",
+            "access": "公开正文和 SI"
+          },
+          {
+            "title": "La₃ZrGa₅O₁₄ 单晶端元",
+            "url": "https://doi.org/10.1016/S0925-8388(99)00194-2",
+            "overlap": "Zr 已有可生长端元，不构成新端元。",
+            "access": "公开题录"
+          },
+          {
+            "title": "Langasite 型晶体的位点偏好",
+            "url": "https://doi.org/10.1080/00150190390239396",
+            "overlap": "为不同占位提供近邻，但本次可见题录无法给出混合系列的氧交换。",
+            "access": "公开作者机构题录"
+          },
+          {
+            "title": "JP2000007499A Langasite 晶体相关专利",
+            "url": "https://patents.google.com/patent/JP2000007499A/en",
+            "overlap": "涉及 Si 调色，保留为相关缺陷处理专利线索。",
+            "access": "可见专利页面"
+          },
+          {
+            "title": "US6303048B1 Langasite 晶体生长",
+            "url": "https://patents.google.com/patent/US6303048B1/en",
+            "overlap": "工艺近邻，完整权利要求待逐项排查。",
+            "access": "可见专利页面"
+          },
+          {
+            "title": "MIT 仓储学位线索",
+            "url": "https://dspace.mit.edu/entities/publication/7727ddf1-339a-4172-b5de-421c28e03075",
+            "overlap": "Langasite 异价掺杂和氧相关缺陷线索，需查全文中是否涉及 Ti/Zr。",
+            "access": "公开仓储题录"
+          },
+          {
+            "title": "Liverpool 仓储中含 Ge langasite 的氧间隙研究",
+            "url": "https://livrepository.liverpool.ac.uk/2051722/",
+            "overlap": "含 Ge 化学体系中氧迁移，属于机制近邻。",
+            "access": "公开仓储信息"
+          }
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "title": "将 La₃ZrGa₅O₁₄ 作为新端元",
+        "reason": "已有单晶制备与结构研究。",
+        "url": "https://doi.org/10.1016/S0925-8388(99)00194-2"
+      }
+    ]
+  },
+  "auditUrl": "/reports/2026-11-24/audit.json",
+  "searchTerms": [
+    "逐刊交叉核查 APS 全系列、Nature 系列、AAAS、Wiley AM/AFM、ACS 五刊、JCG 等，记录每条 403、空页、超时和补试。APS 两轨和 Nature 已找到 11 月 23 日稿，部分是昨日快照之后补核。其他当日可见项主要为能源、传感或生物。空索引和网页限流不作零新增结论。",
+    "arXiv cond-mat/new 多路重试仍显示 11 月 23 日，核得 88 新投、24 交叉、77 替换。题名摘要与上一期逐条对齐。11 月 24 日公告和数量未证实，待再次复核。",
+    "arXiv UTC 11 月 23 日 API 37 条题目摘要交叉筛选；11 月 24 日 UTC 查询返回空。两个候补 ID 用 Atom 与公开 PDF 验证；抽查 abs 当时未正常显示。API 投递记录与公告日期不可互换，Sr₃Ni₂O₅Cl₂ 单列为已有可验证正文的投稿。",
+    "未验证有效浙大 aTrust/RVPN/WebVPN/CARSI 会话。正文及补充材料来自公开入口；未读到正式正文的接受稿明确使用可阅读的早期版。"
+  ]
+}

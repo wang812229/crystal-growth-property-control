@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-24",
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-24",
+  "scope": "母体和候选化学式、Zr/Hf 端元、占位、氧扩散及缺陷退火，查阅公开论文题录、专利和高校仓储。",
+  "limitations": [
+    "待查新的物理假设。候选的新颖性、单相稳定窗口、可合成性和预计的速率变化均未确认。未进行合成、计算或测量，暂不按已确认创新点立项。"
+  ],
+  "ideas": [
+    {
+      "id": "langasite-ti-zr-oxygen-healing",
+      "kind": "material",
+      "status": "needs-review",
+      "paperIndex": 1,
+      "title": "用少量 Zr 取代 La₃TiGa₅O₁₄ 中的 Ti，检验哪种占位控制氧空位修复",
+      "material": "La₃(Ti₁₋ₓZrₓ)Ga₅O₁₄，低 x。名义 Zr⁴⁺ 取代 Ti⁴⁺。优先占据 B 八面体是待检验推断，C 四面体实际占比未知。",
+      "evidenceLevel": "母文公开在刊稿 Methods、图 2–6 及 SI。P321 的 Ti/Ga 有混合占位，氧退火后 Ti³⁺/缺陷相关 EPR 信号降至检测限以下。",
+      "question": "在起始缺陷量、片厚、氧分压和热史匹配后，Zr 实际进入 B 位是否改变氧入体与缺陷修复速率？",
+      "prediction": "母结构保持且 Zr 进入 B 位时，现阶段预测低 x 的相同退火时点，归一化残余缺陷比例更高，¹⁸O 示踪深度更浅。若端点 EPR 变小但氧示踪不变，优先解释为初始缺陷或 EPR 电荷态变化。若真实氧交换反而加快，否定 Ti 位点稀释主导的假设，进一步比较局部应变及迁移通道。",
+      "basis": "Ti⁴⁺/Zr⁴⁺ 同族、名义等价且为 d⁰，无先验载流子掺杂。相同六配位下 Zr⁴⁺更大，Zr 的 4d 成键与 Ti 的 3d 成键不同，预计共同影响 B 位局部几何和可逆 Ti³⁺/Ti⁴⁺中心。相较 Hf，Zr 有已报道的同框架端元可作占位和光学对照。没有证据预设磁交换、SOC 或整体铁电变化。",
+      "difference": "Zr 端元和其位点偏好早已报道。这里考察 Ti 丰富端低替换率下的等初始缺陷 ¹⁸O 动力学及 EPR/XANES 同步，分离初始缺陷、电子态转换和氧迁移。",
+      "plan": [
+        "用母体和两个低名义 x 筛选粉体相区，WDS/ICP、PXRD 和截面映射确认实测成分、次相和轴向偏析。仅对通过样再做同厚抛光片。",
+        "记录共同预处理后的起始吸收与 EPR，做固定氧分压短时序及惰性热史，统一检测限与质量归一化，用 ¹⁸O-SIMS 检查入体深度，条件许可用 Ti K 边和 Zr 局部配位分辨占位及价态。"
+      ],
+      "controls": [
+        "未替换母体、两档低 x、氧和惰性热史、同根相邻切片。已知 La₃ZrGa₅O₁₄ 仅作相结构和光学参照，不用无 Ti 端元校准 Ti³⁺ EPR。"
+      ],
+      "falsifiers": [
+        "若出现难以消除的锆富集、明显两相或端部偏析，暂停晶棒放大，不能按固溶解释。",
+        "确认实际占位和匹配起点后，若跨重复样的示踪和归一化缺陷速率无系统趋势，或趋势相反，否定原方向预测。"
+      ],
+      "feasibility": "先用常规粉体炉、XRD、WDS 与 EPR。定量扩散要求 ¹⁸O 气氛与 SIMS 合作，位点分辨视 XAS 或衍射条件，当前不需要直接上提拉大炉。",
+      "risks": "有限互溶、熔体分配、氧交换仅限表层、Ti³⁺ EPR 自然稀释及退火引起 Ga 损失，会混淆扩散。只有实际氧进入证据才解释为修复动力学。",
+      "nextStep": "先按母文条件做母体和低 x 粉末相区及 Zr 内部检测限。仅在组成可区分且同构时推进动力学对照。",
+      "queries": [
+        "La3TiGa5O14 La3ZrGa5O14 (Ti,Zr) solid solution oxygen vacancy annealing langasite",
+        "La3(Ti1-xZrx)Ga5O14 Zr substitution Ti oxygen diffusion",
+        "langasite La3ZrGa5O14 oxygen vacancy patent Hf crystal",
+        "langasite oxygen diffusion Ti Zr dissertation interstitial"
+      ],
+      "remainingChecks": [
+        "2026-11-24 核对下列公开记录。未穷尽数据库中的别名、未数字化学位论文和完整专利族权利要求。",
+        "合成、热力学或声子计算、扩散与光学测量尚未进行；先验母相稳定和锆位点，暂不确认新颖性。"
+      ],
+      "priorArt": [
+        {
+          "title": "La₃TiGa₅O₁₄ 缺陷修复母文",
+          "url": "https://doi.org/10.1038/s41467-026-79746-5",
+          "overlap": "母体氧化修复和 Ti/Ga 占位，不提供本案 Ti 丰端 Zr 最小替换的同位素动力学比较。",
+          "access": "公开正文和 SI"
+        },
+        {
+          "title": "La₃ZrGa₅O₁₄ 单晶端元",
+          "url": "https://doi.org/10.1016/S0925-8388(99)00194-2",
+          "overlap": "Zr 已有可生长端元，不构成新端元。",
+          "access": "公开题录"
+        },
+        {
+          "title": "Langasite 型晶体的位点偏好",
+          "url": "https://doi.org/10.1080/00150190390239396",
+          "overlap": "为不同占位提供近邻，但本次可见题录无法给出混合系列的氧交换。",
+          "access": "公开作者机构题录"
+        },
+        {
+          "title": "JP2000007499A Langasite 晶体相关专利",
+          "url": "https://patents.google.com/patent/JP2000007499A/en",
+          "overlap": "涉及 Si 调色，保留为相关缺陷处理专利线索。",
+          "access": "可见专利页面"
+        },
+        {
+          "title": "US6303048B1 Langasite 晶体生长",
+          "url": "https://patents.google.com/patent/US6303048B1/en",
+          "overlap": "工艺近邻，完整权利要求待逐项排查。",
+          "access": "可见专利页面"
+        },
+        {
+          "title": "MIT 仓储学位线索",
+          "url": "https://dspace.mit.edu/entities/publication/7727ddf1-339a-4172-b5de-421c28e03075",
+          "overlap": "Langasite 异价掺杂和氧相关缺陷线索，需查全文中是否涉及 Ti/Zr。",
+          "access": "公开仓储题录"
+        },
+        {
+          "title": "Liverpool 仓储中含 Ge langasite 的氧间隙研究",
+          "url": "https://livrepository.liverpool.ac.uk/2051722/",
+          "overlap": "含 Ge 化学体系中氧迁移，属于机制近邻。",
+          "access": "公开仓储信息"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "title": "将 La₃ZrGa₅O₁₄ 作为新端元",
+      "reason": "已有单晶制备与结构研究。",
+      "url": "https://doi.org/10.1016/S0925-8388(99)00194-2"
+    }
+  ]
+}
