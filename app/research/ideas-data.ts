@@ -1,6 +1,93 @@
 // 从已审阅报告生成，研究设想不计入论文目录。
 export default [
   {
+    "date": "2026-11-25",
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-25",
+    "scope": "截至 2026-11-25，对母体、Mn/Co 置换、含 Mn 的层状高熵硫化物、黄铁矿竞争相、磁各向异性及专利/学位词组合进行限定查新。",
+    "limitations": [
+      "待查新的物理假设。尚未合成、计算或测量。多金属相稳定、位点、价态和创新性未确认，暂不作已验证课题。"
+    ],
+    "ideas": [
+      {
+        "id": "he-tmd-sulfide-mn-for-co-anisotropy",
+        "kind": "material",
+        "status": "needs-review",
+        "paperIndex": 1,
+        "title": "在高熵 V–Cr–Fe–Co–Ni 硫化物中以少量 Mn 替代 Co，检验室温附近的磁各向异性",
+        "material": "VₐCrᵦFe𝒸(Co₁₋ᵧMnᵧ)𝒹Ni₁₋ₐ₋ᵦ₋𝒸₋𝒹S₂₋δ。名义试验保持其余金属比例和 S/金属比。暂以局域 Mn²⁺/Co²⁺作为可检验近似，电荷补偿、硫价态与实际占位未知。",
+        "evidenceLevel": "母文 2611.33115v1 图 2–4、Methods 与补充信息。母相具局域磁畴和约 320 K 宽异常；母文另做了含 Mn 的不同五金属硫化物。",
+        "question": "固定硫缺位、片厚和相分数后，Mn 对低场各向异性的影响能否从硫化波动及磁杂相中分离？",
+        "prediction": "若 Mn 进入原 Co 所在的层内金属子晶格，稀区低场面内/面外磁滞差及约 320 K 异常强度应系统减小，较高场的净磁化未必同向。若各向异性反增且相/δ 匹配，更可能是交换路径的非局域变化或局域应变，否定简单单离子削弱图景。",
+        "basis": "物理类比是近八面体高自旋 Mn²⁺为 3d⁵，轨道贡献通常较高自旋 Co²⁺小，且同配位下 Mn²⁺的晶体化学半径更大。选择 Mn 是因母体化学已演示另一含 Mn 前驱体可硫化。其 3d 占据、Mn–S 键杂化和交换路径会变化，这一选择比换同族 Ni 或直接换全部 Se 更能检验单离子贡献；更大半径不证明可固溶。额外价态或硫空位可能主导结果。",
+        "difference": "区分同一 V–Cr–Fe–Co–Ni 母体上的固定其他元素、固定硫含量的稀量 Mn 替位与已有含 Mn 的不同多元体系。测量交叉各向异性及热异常，而非只验证是否有磁性或催化活性。",
+        "plan": [
+          "从母体及两档低名义 y 的 LDH 开始，按母文做匹配批次的硫化对照。以 STEM-EDS、衍射及体平均化学量核验 Mn、Co、硫和杂相，必要时用 XAS、EXAFS 区分局域配位及价态。",
+          "在相与厚度匹配时测同方向低场温变 M、正反扫面内/外 M(H) 和同片 NV 磁场。独立重复炉次并测空基片及前驱体。"
+        ],
+        "controls": [
+          "不加 Mn 的母体，Mn 丰端/可获得 MnS 或 MnS₂ 仅作竞争相参考。另做成分相同但有意轻微改变硫活度的母体，测出缺位本底。"
+        ],
+        "falsifiers": [
+          "Mn 只位于富 Mn 纳米相、表层或晶界，或替位同时使硫量不可匹配，即停止按均匀替位解释。",
+          "相和实测成分匹配后若磁各向异性差无重复趋势，或在低 y 系列反向变化，则否定方向预测。"
+        ],
+        "feasibility": "已有水热、管式炉、TEM/EDS 和常规磁强计可筛。薄片质量归一化及微区磁场验证需要共享平台。",
+        "risks": "MnS、MnS₂或金属团簇分相，氢气硫化导致 δ 与掺杂联动，薄片厚度差和基底在小信号中占优。",
+        "nextStep": "仅先做小样相区和 Mn/Co–δ 的协方差检查。看见均匀变化再追加高温磁性。",
+        "queries": [
+          "VCrFeCoNi S2-x Mn substitution Co candidate magnetic anisotropy layered double hydroxide",
+          "(CrMnFeCoNi)Sx high entropy sulfide magnetic dichalcogenide Mn–Co vacancy",
+          "high entropy transition metal disulfides Mn sulfide magnetic anisotropy patent thesis",
+          "VCrFeCoNiS Mn FeCoCrNiMn intercalation patent dissertation"
+        ],
+        "remainingChecks": [
+          "2026-11-25 检索公开原文/索引、预印本与可访问专利及高校仓储。未完成学位全文、数据库别名和专利完整权利要求核查。",
+          "未确认母相容纳 Mn 的窗口，未做实验或计算，不据此估计 Tc、稳定性或最优比例。"
+        ],
+        "priorArt": [
+          {
+            "title": "层状高熵二硫族化物母文",
+            "url": "https://arxiv.org/abs/2611.33115v1",
+            "overlap": "含 Mn 的其他五元素系列已做，暂未见该工作做固定余量的 Mn-for-Co 磁各向异性梯度。",
+            "access": "正文与可见补充引用"
+          },
+          {
+            "title": "高压合成黄铁矿型高熵二硫化物",
+            "url": "https://opus.lib.uts.edu.au/rest/bitstreams/e55db3c7-eb52-42a9-ac48-fd5f109dec19/retrieve",
+            "overlap": "含 Mn 多金属二硫化物属竞争结构线索，晶体结构与本假设不同。",
+            "access": "大学仓储公开论文"
+          },
+          {
+            "title": "FeCoCrNiMn 层间插层高熵磁性晶格",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S135964542100817X",
+            "overlap": "含 Mn 的层状相关材料已有，主要为插层晶格。",
+            "access": "出版社摘要"
+          },
+          {
+            "title": "Cr–Fe–Mn–Ni–V 高熵合金专利",
+            "url": "https://patents.google.com/patent/US10988834B2/en",
+            "overlap": "金属合金线索，专利族完整比对待做。",
+            "access": "可访问专利网页"
+          },
+          {
+            "title": "高熵合金理论近邻学位仓储线索",
+            "url": "https://www.diva-portal.org/smash/get/diva2%3A1211898/FULLTEXT01.pdf",
+            "overlap": "合金磁化学近邻，非含硫晶体；全文未结构化排查。",
+            "access": "高校仓储索引"
+          }
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "title": "将含 Mn 的层状多元硫化物泛称为新材料",
+        "reason": "母文及多元插层近邻已有，保留固定组分的稀量取代与磁各向异性问题。",
+        "url": "https://arxiv.org/abs/2611.33115v1"
+      }
+    ]
+  },
+  {
     "date": "2026-11-24",
     "schemaVersion": 1,
     "reviewedAt": "2026-11-24",
