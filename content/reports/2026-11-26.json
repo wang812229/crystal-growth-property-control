@@ -1,0 +1,472 @@
+{
+  "date": "2026-11-26",
+  "issue": "093",
+  "headline": "6 篇、4 个板块。当天期刊在刊首次上线 0 篇，独立 arXiv 6 篇；入选可访问全文 6、实读正文 6、仅摘要 0。未验证机构订阅会话。",
+  "hotspot": "从 β-In₂Se₃ 晶圆尺度薄膜的相内原子反转，到铋酸盐超导薄膜正常态费米面热点。另有位错富 Sc 纳米畴、Bi₂Te₃ 帽层反演、少层 WTe₂ 各向异性及 3R-MoS₂ 层间激子。",
+  "searchWindow": "北京时间 2026-11-26 00:00–14:23；期刊按出版社在线日，arXiv 按公告日。已找到当天高相关稿。APS 另记录前日余项，不计入本期文章。",
+  "accessSummary": "6 篇、4 个板块。当天期刊在刊首次上线 0 篇，独立 arXiv 6 篇；入选可访问全文 6、实读正文 6、仅摘要 0。未验证机构订阅会话。",
+  "papers": [
+    {
+      "id": "2611.33405",
+      "title": "Unveiling ferroelectricity in wafer-scale beta-phase In2Se3",
+      "titleZh": "揭示晶圆尺度 β 相 In₂Se₃ 的铁电性",
+      "journal": "arXiv",
+      "doi": "https://arxiv.org/abs/2611.33405v1",
+      "arxivId": "2611.33405",
+      "fullText": "https://arxiv.org/pdf/2611.33405v1",
+      "category": "晶体生长和物性调控",
+      "material": "β-In₂Se₃",
+      "authors": "Yang, Kyungmin; Cho, Hyunmin; Jeon, Jihwan; Park, Tae Hyeon; Ro, Seojeong; Kim, Hye Jung; Lee, Jung-Hoon; Wang, Jaewon; Shin, Hyeon Suk; Kim, Young-Min; Myung, Chang Woo; Olsson III, Roy H.; Song, Seunguk; Jariwala, Deep",
+      "institutions": "宾夕法尼亚大学；韩国基础科学研究院二维量子异质结构中心；成均馆大学；韩国科学技术研究院；高丽大学",
+      "date": "2026-11-26 arXiv 公告",
+      "versionNote": "2026-11-26 arXiv 公告；v1，官网元数据初投 2026-11-24，投稿日与公告日独立。",
+      "readingStatus": "full",
+      "selectionStatus": "today-arxiv",
+      "access": "全文精读：v1 Results、Methods、图1–5 与文末补图1–10、21及相应讨论；覆盖制备、原子位移及电学读数。",
+      "method": "v1 Results、Methods、图1–5 与文末补图1–10、21及相应讨论；覆盖制备、原子位移及电学读数。",
+      "conclusion": "MOCVD 制得晶圆尺度 β 相薄膜，两写入态中心 Se 的皮米级位移方向相反。电学开关响应持续至约 1.9 nm，但 PUND 表观剩余极化含屏蔽电荷等贡献。",
+      "sections": [
+        {
+          "title": "问题从名义对称性开始",
+          "text": "常规 β-In₂Se₃ 的高对称模型是 R-3m，每个五原子层由 Se–In–Se–In–Se 构成，In 处八面体位。这个平均模型既便于用衍射筛相，也可能平均掉微小极性位移。文章问的是在晶圆尺度制备的候选 β 相中，施加相反外加电场后，中心 Se 的平衡位置是否会跨越 In–In 中点。区别于 α 相的部分四配位和 β′ 的交替条纹，本文选择局部截面观测与写入态的同一位移定义。图1和补图3–4给出两取向晶体截面、结构模型与模拟图。这个证据链从晶体多型入手，再接电学，避免由磁滞电流一项直接决定结构。"
+        },
+        {
+          "title": "制备窗口与可复用参数",
+          "text": "Methods 采用垂直 showerhead 型 MOCVD，两英寸 c 面蓝宝石晶圆，感应加热 TaC 涂层石墨托。源为 TMIn、DMSe，独立送入腔体，鼓泡器 32 °C。反应设 525 °C、总压 100 Torr、样品约 50 rpm，H₂ 主流量 50 sccm。一次周期两源供给时长分别 45 s 与 60 s，H₂ 通过两鼓泡器的流量 9 和 3 sccm；据文中校准最大 Se/In 源比约24。42、66、72、81、165 周期对应 AFM 测得 1.9、2.7、4.5、8.1、22.7 nm。生长不是简单的每周期固定厚度，说明应每次校准相区与厚度。源物具体纯度、全晶圆同厚度覆盖率的独立误差及最终面积产率仍需正文之外的生长日志。复现的第一步是母体稳定相区，而后才做新的供给比；不要直接假设偏离母体的掺杂样仍占同一多型。"
+        },
+        {
+          "title": "品质、尺度和偏移统计",
+          "text": "Raman、AFM、XPS 与 β 相相容，XPS Se/In≈1.47，文中注明定量约±2%，不能从该值断定缺陷浓度。结构模拟五原子层周期约0.9443 nm。截面 STEM 在两个面未见 β′ 的条纹调制，代表区域仍有限。200 kV 的 HAADF 在约8.6×8.6 nm² 区域分析原子列，P/E 两态为独立截面，快扫正交以减小慢扫漂移，每套四帧登记后平均。面外两条 In–Se 中心键长差在两态方向相反，分别约6.0±0.9与4.8±1.2 pm；换算中心 Se 相对 In–In 中点 +3.0±0.4 和 −2.4±0.6 pm，为206、209个五原子层序列的均值/标准误。应保留逐帧像素与定位模型，检查同一层内相关性及独立薄片的散布；超过统计标准误并不能自动排除两片厚度、束流或 FIB 的系统差异。"
+        },
+        {
+          "title": "从原子偏移到电学极化",
+          "text": "图1的极性计算以两局部极小构型和转换路径支持双稳态，这是计算而非能垒的直接测量。图2 PUND 对正负脉冲用非切换电流作扣除，叠层中约29.7 nm SiO₂ 用来限制泄漏。估计矫顽场为0.9–1.0 MV/cm，依赖串联电容压降。作者特别区分 PUND 的表观剩余极化，双层约11 μC/cm²，与根据 STEM 位移尺度和计算等估计的晶格极化约1–2 μC/cm²。较高幅度下漏电及半导体屏蔽电荷都会流入积分面积。大数字不能作为纯晶格极化的直接实测值。优先重算同一脉冲组的 P-U 和 N-D，比较宽度、等待时间、电压、漏电和循环历史，分辨短时电荷注入。反转后的可读电阻是另一个结果，不能把开关电压或转移曲线滞回与极化能垒等同。"
+        },
+        {
+          "title": "晶圆上的重复性到底覆盖哪里",
+          "text": "100个电容随机取自约4.0×1.5 mm² 区域，在500 Hz 下提取负向切换峰，均值13.13 V，标准差0.57 V，离散程度约4.3%。这是有统计的器件区域，并非全两英寸均匀度的直接证明。耐久段回线的读写幅度采用随循环调整的协议，10⁷ 次对应部分切换条件；十年保留来自时间外推。电极几何约40 μm 圆形，顶电极 Ti/Au，转移后底部为 Au，薄膜、氧化物与金属三者的界面化学都需要匹配。若要比较材料本征性质，优先选择平行区域重复同样电极与脉冲，验未写、反向写、重新恢复三态，并用独立 SiO₂ 电容作非极性电流背景。"
+        },
+        {
+          "title": "下一炉和下一轮的判据",
+          "text": "先用原工艺复现纯 β 样片，保留不同炉位的实际膜厚与结构编码。扫描两正交截面检查是否有局部 α 或 β′ 夹杂，并做预先确定的盲态原子位置统计。电学读数应同时记录实际场分配和偏压诱发电导，若 PUND 变化但相反态 Se 位移没有可重复反转，不能作为晶格极化形成的充足证据。母体和低 Ga 假设的对照必须先满足相及厚度可比，如果 Ga 更易进入四配位而出现新结构，就停止 β 固溶路径并按相竞争问题分析。最有价值的读图顺序是图1结构、图2脉冲、补图5–8偏移分布及补图21的叠加电流；最后再看应用指标。器件功能的较大表观极化不会替代原子层的机制验证。"
+        },
+        {
+          "title": "分离仪器误差与样品局部变化",
+          "text": "原子图中像素对应约0.09917 Å，单一像素约9.9皮米，所以这里的位移来自二维峰位置拟合和重复图登记后的亚像素统计。应保存每组快扫方向的单帧、登记位移和最终裁剪窗口，先用未偏压参考与模拟结构审查拟合偏差。把每个五原子层序列内的差分作图，进一步考虑同一晶片重复定位之间的共变，不把相邻原子列完全视为独立的实验薄片。补图中 P 和 E 的面内分量约9和1皮米，作者认为可能取到了不同面内变体，因此面内数值不能作为面外反转同幅的额外直接证据。若另做面内变体地图，需结合晶轴及样区生长关系。电容部分可以把串联氧化物面积和厚度保持一致，同时只改变薄膜厚度，先比较相同实际层内场下的电荷及漏电，以排查由分压引起的样品排序。正文给出的0.9–1.0 MV/cm 也应按估算而非精密电场标定报告。若研究目标是证明母体的相内可逆位移，单独观察开关滞回不足，应优先用结构反转的统计对照。"
+        }
+      ],
+      "tags": [
+        "arXiv",
+        "当日公告"
+      ],
+      "rating": "★★★★★",
+      "readingGuide": {
+        "priority": "最高：薄膜相控制与结构反转",
+        "first": "Methods、图1–2、补图5–8、21",
+        "focus": "双片皮米位移误差与 PUND 屏蔽和背景",
+        "next": "重复母相并盲测两态，建立低掺 Ga 的相与位置验收线"
+      }
+    },
+    {
+      "id": "2611.33422",
+      "title": "Spectroscopic Signatures of Polaronic Density Wave Fluctuations in Superconducting Bismuthates",
+      "titleZh": "超导铋酸盐中极化子密度波涨落的谱学特征",
+      "journal": "arXiv",
+      "doi": "https://arxiv.org/abs/2611.33422v1",
+      "arxivId": "2611.33422",
+      "fullText": "https://arxiv.org/pdf/2611.33422v1",
+      "category": "高温与非常规超导",
+      "material": "Ba₁₋ₓKₓBiO₃ / BaPb₁₋ᵧBiᵧO₃",
+      "authors": "Pudełko, Wojciech R.; Naamneh, Muntaser; Dee, Philip M.; Li, Hang; Guedes, Eduardo B.; Gawryluk, Dariusz J.; Krztoń-Maziopa, Anna; Sazgari, Vahid; Soh, Yona; Shi, Ming; Radović, Milan; Chang, Johan; Johnston, Steven; Plumb, Nicholas C.",
+      "institutions": "保罗谢勒研究所；苏黎世大学；本古里安大学；橡树岭国家实验室；华沙理工大学；浙江大学；田纳西大学",
+      "date": "2026-11-26 arXiv 公告",
+      "versionNote": "2026-11-26 arXiv 公告；v1，官网元数据初投 2026-11-24，投稿日与公告日独立。",
+      "readingStatus": "full",
+      "selectionStatus": "today-arxiv",
+      "access": "全文精读：v1 图1–4、Methods 表I–II、费米面强度与动量分布拟合、密度波模型；另列独立 SI 未取得。",
+      "method": "v1 图1–4、Methods 表I–II、费米面强度与动量分布拟合、密度波模型；另列独立 SI 未取得。",
+      "conclusion": "PLD 的两种铋酸盐超导薄膜在正常态 ARPES 显示与动量相关的强度/散射图样。短程密度波模型可解释一组热点位置，双极化子解释仍待独立检验。",
+      "sections": [
+        {
+          "title": "样品问题为什么需要双系列",
+          "text": "BaBiO₃ 的氧八面体呼吸畸变和晶格倍周期为研究关联光谱提供了边界条件。作者比较通过 A 位 K 与 B 位 Pb/Bi 变化得到的两种薄膜，两者费米面尺度不同，可以检验散射图样是否只由晶格周期和相邻区谱重叠造成。研究不是直接通过常态光谱看见超导凝聚，而是希望从无序后仍存的电荷调制解释动量依赖的电子散射。选样上用电阻温变确认超导转变，ARPES 在各自转变之上做测量，方便分离正常态的谱函数。最重要的区别是实际组分校准来自赝立方晶格常数与既有成分规律，不能自动成为独立化学定量。"
+        },
+        {
+          "title": "生长与基础表征",
+          "text": "在 SrTiO₃ (001) 上 PLD，靶为固相烧结所得，BPBO 加 BaPbO₃ 缓冲用于减轻荷电。表I 给 BPBO 生长550 °C、12 min、4.3 J/cm² 氧压0.1 mbar，随后400 °C 60 min 仍为0.1 mbar；BKBO 生长480 °C、3 min、5.6 J/cm²，生长氧压在表中为横线，不能作零压力，后退火375 °C 30 min、氧压1000 mbar。沉积后 RHEED 与面外 θ–2θ XRD 支持质量及外延方向，赝立方晶格参数 BKBO 4.290 Å、BPBO 4.276 Å，估算 x=0.37 和 y=0.13。氧实际含量、K 蒸发量、逐片组分、粗糙度、确切膜厚和产率未在该 Methods 表逐项报告。零电阻定义的转变为20.9 K 与3.5 K，需要其他磁性或比热证据再谈体相占比。尤其 APRES 依赖最上几层，若缓冲或表界面掺杂有梯度，需要把同片输运和表面电子态分开。"
+        },
+        {
+          "title": "最强实测证据是角分辨的线宽变化",
+          "text": "Swiss Light Source SIS 端站 UHV 转移，新鲜表面测量，BPBO 用120 eV、BKBO 用70 eV 线偏振光，对应接近各自 Γ-M-X 面的动量切片；温度分别15 K 和30 K，真空优于4×10⁻¹¹ mbar。作者对同一结合能50 meV、积分±30 meV 取垂直费米面的动量分布曲线，用洛伦兹拟合峰强和 FWHM。BKBO 中许多角度的强度与峰宽反相关，但接近扩展区相邻费米面的位置会有谱重叠。BPBO 费米面较小，因此不同几何的比较较干净；图3的四重图样以及两种材料共同方向性提供比单张 ARPES 更强的证据。反相关意味着与散射相关的展宽变化，仍依赖色散斜率、能量窗口及仪器分辨，不是绝对散射率直接读数。"
+        },
+        {
+          "title": "模型与可测量的边界",
+          "text": "图3短程涨落模型引入散射波矢、耦合强度及动量展宽，给出 BKBO 约0.667Q₀、BPBO 约0.575Q₀ 的拟合波矢，Q₀=(π,π,π)/a。用 ARPES 得来的紧束缚带计算静态 Lindhard 响应，图4 的 R 点与 ΓR 方向肩部和拟合向量相容。相容性是模型与实验的联合解释，尚未从散射实验直接观测动态结构因子或双极化子的数量。选择波矢的自由度、有限能窗、相邻布里渊区的权重都会影响趋势。原文指出常态近费米能出现类似赝隙谱权降低，但实验分辨范围内无明确真能隙，因此不能把强度衰减等同配对能隙。两组 T 及入射光子能量不同，不能把峰宽差值直接归结为组分。"
+        },
+        {
+          "title": "生长和测量怎样解耦",
+          "text": "首先各生长批次以 XRD、表面与深度化学量核校晶格常数→成分的映射，再以低温四探针、磁屏蔽确定零值和体积分数。可以准备与正文两组接近而不预设最优的实际成分系列，同一端元内使用相同缓冲、膜厚、衬底、退火与测量分辨率。ARPES 选择相同能量窗与多个偏振、光子能量与不同等效 Γ 点，在正常态同温或按各自转变温标做独立控制。若反相关热点随光偏振改变而跟随矩阵元而不是约定的散射向量，就需重做谱函数分解。若 q 在重复制样和光子能量扫描中稳健，再考虑在同成分上用漫散射、声子谱或实空间探针查短程呼吸畸变。此设计能区分薄膜成分、表面劣化、邻区重叠和作者提出的双极化子相互作用。"
+        },
+        {
+          "title": "阅读排序与关键缺口",
+          "text": "强建议先看表I和图2的测量取向，再看图3的具体 MDC 点、误差与相邻区修正，最后读图4模型。组分实测及氧化条件是实验室最可操作的前置变量。原文未给独立 SI 文件中可能含有的详细样品统计，本次尚未取得，需继续补查。对未来输运，应避免直接由谱拟合向量推定临界温度趋势；只有直接温变的电阻与独立相纯度数据可以支撑新样的性能评价。在解释阶段，若同样相纯且无真实结构短程涨落仍出现热点，则需要检验电子散射的另一机制。"
+        },
+        {
+          "title": "建立统一的组分与模型复核表",
+          "text": "两组样的有效散射向量均在赝立方晶格单位下表示，实际绝对波矢还依赖各自晶格常数和面内应变，不能直接只比两个无量纲系数。下一组样品应保留原始角分辨能谱与费米面提取的每个动量点，再按同一方式用高结合能谱背景、仪器分辨及相邻晶区的谱权构建对照。对拟合线宽先逐点记录误差，并重复改变切线方向以及拟合区间，检查是否因能带曲率和邻峰重叠改变线宽。若最强散射的方位在多个等效区中保持，且不随偏振强弱发生旋转，则有理由追加与波矢选择有关的探针。两种材料的成膜和后退火条件差异很大，尤其 BKBO 的碱金属成分很可能与氧处理和薄膜均匀度耦合，建议在同一个端元内首先取得一套重复样的膜厚、晶格常数及化学分析再跨家族。图4 的静态非相互作用响应以谱拟合带作为输入，对照时还应检查带参数的协方差和展宽取值是否改变 ΓR 上肩部。文献给出的热点模型适合形成新的散射实验问题，但无法凭拟合决定实际载流子是一组还是两组。"
+        }
+      ],
+      "tags": [
+        "arXiv",
+        "当日公告"
+      ],
+      "rating": "★★★★★",
+      "readingGuide": {
+        "priority": "最高：超导薄膜工艺及常态谱",
+        "first": "表I、图2–4",
+        "focus": "MDC 线宽、邻区混谱和化学量校准",
+        "next": "匹配薄膜成分再做偏振与结构漫散射"
+      }
+    },
+    {
+      "id": "2611.33868",
+      "title": "Self-Assembled Triangular Sc-rich Nanodomains: The Orign of Anomalous Alloy Scattering in ScAlN/GaN Heterostructures",
+      "titleZh": "自组装三角形富 Sc 纳米畴：ScAlN/GaN 异质结构异常合金散射的起源",
+      "journal": "arXiv",
+      "doi": "https://arxiv.org/abs/2611.33868v1",
+      "arxivId": "2611.33868",
+      "fullText": "https://arxiv.org/pdf/2611.33868v1",
+      "category": "晶体生长和物性调控",
+      "material": "ScAl(Ga)N/GaN",
+      "authors": "Yin, Yuhao; Fan, Shizhao",
+      "institutions": "中国科学院苏州纳米所",
+      "date": "2026-11-26 arXiv 公告",
+      "versionNote": "2026-11-26 arXiv 公告；v1，官网元数据初投 2026-11-25，投稿日与公告日独立。",
+      "readingStatus": "full",
+      "selectionStatus": "today-arxiv",
+      "access": "全文精读：v1 Method、图1–7及样品A/B对照，读取位错与场像及 Hall 拟合。",
+      "method": "v1 Method、图1–7及样品A/B对照，读取位错与场像及 Hall 拟合。",
+      "conclusion": "降低穿透位错密度伴随富 Sc 纳米畴数量大幅减少和低温 Hall 迁移率提高。30→10 eV 的有效散射势为模型拟合。",
+      "sections": [
+        {
+          "title": "样品与可控生长",
+          "text": "4H-SiC 上 PA-MBE，750 °C；GaN/AlN 的 III/N 比1.4，含 Sc 阻挡层额外 Ga 通量、(Sc+Al)/N=0.78，因此实际为四元势垒。名义层序 AlN 160 nm、GaN 640 nm、AlN 2 nm、GaN 1.5 nm、含 Sc 势垒10 nm、GaN 帽层2 nm。不同模板的位错密度为主变量。原料纯度、跨晶圆总产率未报告。"
+        },
+        {
+          "title": "两种直接证据与一项拟合",
+          "text": "HRXRD 摇摆曲线用于估位错密度，同时二束 TEM、STEM 和 EDS 证实应变对比与三角形富 Sc 区空间相关。表列 A/B 总位错2.83×10¹⁰/4.41×10⁸ cm⁻²。低温 Hall 迁移率约1800→11995 cm²/(V·s)，B 的片阻约33 Ω/□。有效合金散射势是经验模型约30→10 eV，不能当成真正局域能隙。B 室温 Hall 1290 cm²/(V·s)，缓冲平行通道使单带解释不可靠。"
+        },
+        {
+          "title": "下一组验证",
+          "text": "同等 Sc/Ga 比与实际势垒厚度下分别用低/高位错模板，随机选多视野统计纳米畴面积、方向、EDS 分布；缓冲单独测输运并在多场 Hall 约束双通道。只降低 TDD 但畴分布和迁移率不变时，应复查界面粗糙度及有效模型。"
+        }
+      ],
+      "tags": [
+        "arXiv",
+        "当日公告"
+      ],
+      "rating": "★★★★☆",
+      "readingGuide": {
+        "priority": "高，结构和物性相关证据",
+        "first": "Methods、图3–7与表",
+        "focus": "真实结构畴而非散射势数值",
+        "next": "重复模板匹配与平行缓冲对照"
+      }
+    },
+    {
+      "id": "2611.34847",
+      "title": "Measuring a buried Bi2Te3 epitaxial film through a protective Te cap: an exact three-layer terahertz analysis",
+      "titleZh": "穿过保护 Te 帽层测量埋藏 Bi₂Te₃ 外延薄膜：精确三层太赫兹分析",
+      "journal": "arXiv",
+      "doi": "https://arxiv.org/abs/2611.34847v1",
+      "arxivId": "2611.34847",
+      "fullText": "https://arxiv.org/pdf/2611.34847v1",
+      "category": "晶体生长和物性调控",
+      "material": "Bi₂Te₃/Te/GaAs",
+      "authors": "Russo, Guilherme R.; Dias, Laura O.; Stefanato, Eduardo D.; Kawahala, Nicolas M.; Ferreira, Sukarno O.; Rodrigues, Leonarde N.; Hernandez, Felix G. G.",
+      "institutions": "巴西圣保罗大学；维索萨联邦大学",
+      "date": "2026-11-26 arXiv 公告",
+      "versionNote": "2026-11-26 arXiv 公告；v1，官网元数据初投 2026-11-25，投稿日与公告日独立。",
+      "readingStatus": "full",
+      "selectionStatus": "today-arxiv",
+      "access": "全文精读：v1 §II–VI 图2–8、表I–II",
+      "method": "v1 §II–VI 图2–8、表I–II",
+      "conclusion": "用盖层参照与三层传播反演分离薄膜电导，Te 帽层误差在更薄薄膜中被显著放大。",
+      "sections": [
+        {
+          "title": "生长对照与量测",
+          "text": "半绝缘 GaAs 上 MBE 生长 Bi₂Te₃，25、60、90 nm，每组一枚覆盖原位25 nm Te、一枚无帽；同片晶圆做裸底与仅帽层对照。详细生长温区、源通量及结构精修引用先前工作，本篇未逐项报告。294 K、干氮、2.5 mm 孔径下测 THz 时域波形，0.2–1.5 THz 取分析区间。底片厚度以各自内部回波求得。"
+        },
+        {
+          "title": "反演和误差线",
+          "text": "Te-only 相对裸底透射幅值1.00±0.04，电导系统地板约0.5 mS。依据式(15)，忽略 Te 对实片电导误差的估计为90 nm 3.6%、60 nm 8.4%、25 nm 48%。这依赖该批样、频段及电导，不能外推其他帽层、共振频率或厚度。文章报告 Drude-Lorentz 参数在带宽内不唯一，所以保留非参量电导和现象学峰描述。有帽组厚度序列更规整，但本次 n=1/厚度/组不足以证明改善来自唯一氧化机制。"
+        },
+        {
+          "title": "复查方法",
+          "text": "同炉多片三厚度，加入同厚帽层空白、裸底及样品保存时间记录，场振幅和相位取独立重复。薄样必须用三层模型，底片多次反射窗口统一；不根据当前带宽强拟迁移率，另用 Hall 或更宽谱作互检。"
+        }
+      ],
+      "tags": [
+        "arXiv",
+        "当日公告"
+      ],
+      "rating": "★★★★☆",
+      "readingGuide": {
+        "priority": "高，易氧化薄膜无损物性",
+        "first": "表I、式(13)(15)、图4–8",
+        "focus": "盖层误差与重复的限制",
+        "next": "同炉厚度匹配的对照"
+      }
+    },
+    {
+      "id": "2611.34259",
+      "title": "Anisotropic magnetic-field modulation of hysteretic sheet resistance in few-layer ferroelectric WTe2",
+      "titleZh": "少层铁电 WTe₂ 片电阻磁滞的各向异性磁场调控",
+      "journal": "arXiv",
+      "doi": "https://arxiv.org/abs/2611.34259v1",
+      "arxivId": "2611.34259",
+      "fullText": "https://arxiv.org/pdf/2611.34259v1",
+      "category": "磁性、拓扑与自旋",
+      "material": "WTe₂",
+      "authors": "Manna, Arpan; Mukhopadhyay, Soumik",
+      "institutions": "印度理工学院坎普尔分校",
+      "date": "2026-11-26 arXiv 公告",
+      "versionNote": "2026-11-26 arXiv 公告；v1，官网元数据初投 2026-11-25，投稿日与公告日独立。",
+      "readingStatus": "full",
+      "selectionStatus": "today-arxiv",
+      "access": "全文精读：v1 Experimental Methods、图1–4、单分支磁输运及幂律比较",
+      "method": "v1 Experimental Methods、图1–4、单分支磁输运及幂律比较",
+      "conclusion": "面外磁场增强栅压片阻磁滞，平行电流的面内场近乎不变。分支输运不同不能直接推出磁场增强极化。",
+      "sections": [
+        {
+          "title": "样品与器件",
+          "text": "CVT 母晶制备细节作者引前文；本篇未给原料、梯度、产率或详细结构鉴定。惰性手套箱中剥离 WTe₂、hBN、少层石墨，用 PDMS 干转移；WTe₂ 厚度由光学对比暂估小于10 nm。预图形 Pt 电极约3–5 nm，构成 Si/SiO₂/Pt/WTe₂/hBN/石墨栅。先分清实际层数和母晶质量，暂估厚度不能当 AFM 定量。"
+        },
+        {
+          "title": "场方向实验",
+          "text": "四器件在2 K 均有正扫/反扫型片阻滞回；B 垂直层面时面积增加，B 平行电流时弱。代表面积经验指数1.79±0.09，属归一化后的磁滞面积拟合；作者逐栅压分开两分支并比较普通磁阻温变。电阻响应可来自两极化态不同轨道磁阻、接触和电荷不均。只能据测量说明读出增强，不能宣称偶极矩增大。"
+        },
+        {
+          "title": "复验",
+          "text": "固定独立 AFM 厚度与晶轴，同一栅扫速、端子、电压历史比较垂直及两面内方向，加入脉冲写入后的独立极化或结构探针。若分支间差异可由磁阻与起始电阻完全解释，继续分别报告铁电翻转和电阻增益。"
+        }
+      ],
+      "tags": [
+        "arXiv",
+        "当日公告"
+      ],
+      "rating": "★★★★☆",
+      "readingGuide": {
+        "priority": "高，场方向与两分支对照",
+        "first": "Methods、图2–4",
+        "focus": "磁滞面积定义和厚度",
+        "next": "极化状态的独立证据及二面内场方向"
+      }
+    },
+    {
+      "id": "2611.34900",
+      "title": "Brightening spin- and parity-forbidden interlayer excitons through rhombohedral stacking",
+      "titleZh": "通过菱方堆垛使自旋与宇称禁戒的层间激子变亮",
+      "journal": "arXiv",
+      "doi": "https://arxiv.org/abs/2611.34900v1",
+      "arxivId": "2611.34900",
+      "fullText": "https://arxiv.org/pdf/2611.34900v1",
+      "category": "二维材料与量子器件",
+      "material": "3R-MoS₂ 双层",
+      "authors": "Hu, Haodong; Hsu, Chih-En; Watanabe, Kenji; Taniguchi, Takashi; Hsueh, Hung-Chung; Li, Zhenglu; Ye, Ziliang",
+      "institutions": "英属哥伦比亚大学；南加州大学；淡江大学；日本物质材料研究机构",
+      "date": "2026-11-26 arXiv 公告",
+      "versionNote": "2026-11-26 arXiv 公告；v1，官网元数据初投 2026-11-25，投稿日与公告日独立。",
+      "readingStatus": "full",
+      "selectionStatus": "today-arxiv",
+      "access": "全文精读：v1 图1–4，层间激子混合、磁场 Zeeman 和模型讨论；独立方法补充待取得。",
+      "method": "v1 图1–4，层间激子混合、磁场 Zeeman 和模型讨论；独立方法补充待取得。",
+      "conclusion": "3R 堆垛的两类层间激子发生可调混合，赋予可见跃迁强度；跃迁归属由混合和 g 因子共同约束。",
+      "sections": [
+        {
+          "title": "结构变量",
+          "text": "3R-MoS₂ 双层通过层排列改变层间杂化，相较将同一单层增加功率，堆垛改变选择定则。本文主文以场调光谱为重点，独立制样细节与结构定向测试未公开于当前读到的正文，待补具体剥离、封装和对准。"
+        },
+        {
+          "title": "证据",
+          "text": "图2–3 的电场调谐混合、对不同跃迁的强度转移区分两个候选类型；图4 9 T 面外、E=-0.049 与 -0.101 V/nm 分别观察 IX1 和 IX2。IX1 g=-9.4±0.3，常亮激子 -4.5±0.2，IX2 -5.7±0.3；与不同自旋和轨道贡献的归属相容。干涉相位属于混合模型解读，非直接实测波函数。"
+        },
+        {
+          "title": "复验",
+          "text": "同厚度 2H/3R、匹配介电与电场几何，反向磁场与偏振、零场再校准，观察能带线形在通过共振时的强度交换。缺少堆垛独立证据或 g 因子不复现时暂停归属。"
+        }
+      ],
+      "tags": [
+        "arXiv",
+        "当日公告"
+      ],
+      "rating": "★★★★☆",
+      "readingGuide": {
+        "priority": "高，层间耦合与晶体堆垛",
+        "first": "图2–4",
+        "focus": "g因子误差、选择规则与混合",
+        "next": "不同已验堆叠与反场光谱"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "src": "/reports/2026-11-26/evidence-26.svg",
+      "title": "三种 Bi₂Te₃ 膜厚的 Te 盖层误差估计",
+      "source": "https://arxiv.org/abs/2611.34847v1",
+      "caption": "据公开 arXiv:2611.34847v1 图4及式(15)定量重绘，Te 名义25 nm，294 K，0.2–1.5 THz。误差由见证片电导的系统下限相对膜电导估计，是该批测量的误差边界；非直接测得的三个误差，不外推其他盖层。"
+    }
+  ],
+  "sourceAudit": [],
+  "readingAudit": {
+    "candidateAccessibleFullTexts": 7,
+    "selectedAccessibleFullTexts": 6,
+    "fullReads": 6,
+    "publisherFullReads": 0,
+    "earlyManuscriptReads": 0,
+    "siOnly": 0,
+    "abstractOnly": 0,
+    "institutionalSuccess": false,
+    "pending": [
+      {
+        "title": "Low-barrier-height Hf$_\\text{1-x}$Zr$_\\text{x}$O$_2$ ferroelectric tunnel junctions with large ON-state currents",
+        "reason": "HfZrO₂ 隧穿器件与铁电相关，待核相分数和势垒测量，未取得可提取正文。"
+      },
+      {
+        "title": "Crystal-Symmetry-Dependent Field-Free Superconducting Diode Effect in CoPt/Nb Heterostructures",
+        "reason": "CoPt/Nb 无外场二极管有直接相关性；公开 PDF 请求所得文本为空，待核磁状态、晶体取向及电流几何。"
+      },
+      {
+        "title": "Spin-vibronic order in Ba$_2$MgReO$_6$",
+        "reason": "双钙钛矿自旋振动序主题相关，待核谱学数据是否独立新增；理论部分不当作实测。"
+      },
+      {
+        "title": "Structural Anisotropy in Bi$_2$Se$_3$/$λ$-(BETS)$_2$GaCl$_4$ Topological Insulator/Superconductor Bilayer",
+        "reason": "拓扑绝缘体/有机超导体界面有样品证据，公开稿待进一步取得与精读，不能从标题推断拓扑超导。"
+      },
+      {
+        "title": "Cascading LO-phonon-mediated resonant energy transfer from excitons to Eu3+ for ultrahigh color purity red luminescence in europium-doped GaN",
+        "reason": "Eu:GaN 主要为发光动力学，待补样品制备及缺陷证据；本期未收录。"
+      },
+      {
+        "title": "Toward a quantum resistance standard above liquid nitrogen temperature",
+        "reason": "量子电阻标准有输运相关性，已得正文；本期优先制备及关联物性，待核与材料改变独立相关的精度。"
+      },
+      {
+        "title": "Mode-resolved spin-wave spectroscopy by a single paramagnetic center",
+        "reason": "单 NV 自旋波模态测量，待核材料样品、定标和模态归属。"
+      },
+      {
+        "title": "Magnons in solids with correlated atomic and nanoscale disorder",
+        "reason": "相关原子和纳米无序磁振子：待核是否额外独立样品实验，当前未读全文。"
+      },
+      {
+        "title": "Probing spin dynamics in MnSi under pressure by energy-integrated time-of-flight small-angle neutron scattering",
+        "reason": "MnSi 压力自旋动态实验；替换稿，未全量对比修订，暂不计新。"
+      },
+      {
+        "title": "$^{55}$Mn-NMR/NQR study on the kagome metal Sc$_3$Mn$_3$Al$_7$Si$_5$: Re-examining the possibility of spin-singlet paired state",
+        "reason": "kagome Sc-Mn 铝硅化物 NMR，今日替换，待确认修订实质。"
+      }
+    ]
+  },
+  "researchIdeas": {
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-26",
+    "scope": "限定检索 In₂₋ₓGaₓSe₃、β-In₂Se₃、InGaSe₃、Ga 占位、中心 Se 位移与铁电，同时查相关专利与学位仓储。",
+    "limitations": [
+      "待查新的物理假设。候选尚未合成、计算、测量；低 Ga 的 β 层状相、可逆偏移和新颖性尚未确认。"
+    ],
+    "ideas": [
+      {
+        "id": "beta-in2se3-ga-central-se-switch",
+        "kind": "material",
+        "status": "needs-review",
+        "paperIndex": 1,
+        "title": "在 β-In₂Se₃ 中做少量 Ga-for-In 取代，检验中心 Se 可逆位移的配位敏感性",
+        "material": "In₂₋ₓGaₓSe₃，稀量 x。名义 In³⁺→Ga³⁺等价取代；若保持 β，In 原为八面体。Ga 是否进入该位及是否诱发异相未知。",
+        "evidenceLevel": "母文 arXiv:2611.33405v1 图1、Methods、补图3–8；两电场写入态的中心 Se 面外位移分别约 +3.0±0.4 pm 与 -2.4±0.6 pm。",
+        "question": "在相、膜厚和平均应变匹配后，八面体配位中少量 Ga 是否使五原子层内可逆位移在空间上更不均匀？",
+        "prediction": "若 β 骨架保留且 Ga 真占 In 位，预测低 x 使跨多个五原子层的平均可逆位移减小、局部位移分布加宽，结构可逆分量与电学 PUND 的变化需分别检验；若平均反增且厚度、应变和相均匹配，则支持局部化学压力稳定极性这条相反机制。",
+        "basis": "名义 +3 等价、有效价电子数不变，Ga³⁺同六配位半径小于 In³⁺。已报道 Ga 在缺陷纤锌矿型 In–Ga–Se 中偏好四面体；在 β 的八面体骨架中这种竞争可能局域打断中心 Se 的统一位移。Ga–Se 成键及局部应变可共同变化；尺寸差不能推出总体相稳定。该体系无以稀释磁矩为主的设计，SOC 变化不是本假说主变量。",
+        "difference": "已知 In₂₋ₓGaₓSe₃ 大范围体相和 α/β 多型、铁电 In₂Se₃ 及异质结。拟限定在稀量 Ga、保持母体 β 五原子层、直接比较两写入方向的相同偏移判据，并排查局域配位转变。",
+        "plan": [
+          "先以纯 β 和两个低名义 Ga 比系列筛相，保持同片厚度及基底条件；采用合适外延或薄膜共沉积设备，小样测实际 Ga/In/Se 及其位置，先核 Raman、XRD 和截面 STEM。未证实 β 占位前不测完整回线。",
+          "在同厚度相同电极、相同写入电场的相邻样片做 P/E 两态 STEM 双扫描，记录每层中心 Se 偏移分布；PUND 配合脉冲宽度、漏电和空白介质检查。条件可用多构型计算对比 Ga 八面体/其他配位和极性位移，不预设稳定能。"
+        ],
+        "controls": [
+          "x=0 且相同厚度；两档低实际 Ga；α/β′/γ 或富 Ga 缺陷纤锌矿样仅作为衍射和配位参考；相同电极与脉冲，湿度热史相同。"
+        ],
+        "falsifiers": [
+          "若 Ga 只分相为 γ 类或使 β 所占比例不可匹配，停止将其称为 β 固溶。",
+          "确认占位后平均可逆 Se 偏移不变或增强、空间分布不增宽，则否定方向预测；若电学变化但结构反转未改变，优先检查屏蔽和漏电。"
+        ],
+        "feasibility": "需要能在母体 MOCVD 工艺内控制微量第三金属的合适设备，也可先评价薄膜共沉积；常规 Raman/XRD/成分测量可早停，皮米位移需要原子分辨 STEM 合作。",
+        "risks": "Ga 有局域四配位偏好、可能出现缺陷纤锌矿相，外延窗口位移，硒缺陷与漏电变化会混淆表观极化。",
+        "nextStep": "先把已知 In–Ga–Se 体相竞争相图纳入检索，再做低 Ga 相纯度和占位的小样判断。",
+        "queries": [
+          "beta In2Se3 Ga substituted In2-xGaxSe3 ferroelectric central Se displacement octahedral Ga",
+          "(In,Ga)2Se3 β ferroelectric alloy Ga substitution In2Se3",
+          "InGaSe3 indium gallium selenide ferroelectric beta patent thesis MOCVD",
+          "beta In2Se3 Ga doping ferroelectric alloy thesis InGaSe3 site:edu"
+        ],
+        "remainingChecks": [
+          "2026-11-26 已检查公开题录、预印本、近邻公开 SI、专利和大学仓储；未穷尽专利权利要求及未开放学位全文。",
+          "尚未计算不同 Ga 占位、相分离、实际薄膜稳定性，未验证可控反转。"
+        ],
+        "priorArt": [
+          {
+            "title": "β-In₂Se₃ 晶圆尺度极性母文",
+            "url": "https://arxiv.org/abs/2611.33405v1",
+            "overlap": "提供两态 Se 位移与薄膜证据。",
+            "access": "正文及文内补图"
+          },
+          {
+            "title": "In₂₋ₓGaₓSe₃ 缺陷纤锌矿中的 Ga 位点偏好",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40327003/",
+            "overlap": "已有 x=0.6–1.4 体相；Ga 偏好四配位，排除将整条固溶体称为新材料。",
+            "access": "题录及 RSC 公开 SI"
+          },
+          {
+            "title": "Competing Structures in (In,Ga)Se and (In,Ga)2Se3 Semiconductors",
+            "url": "https://arxiv.org/abs/1609.06774",
+            "overlap": "已有结构竞争计算；待逐一排查稀量、薄膜和偏移反转。",
+            "access": "公开摘要"
+          },
+          {
+            "title": "二维 α/β 多型的实际能带研究",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11754478/",
+            "overlap": "报道 β 结构及 Se 非中心位置的既有理论线索。",
+            "access": "公开正文"
+          },
+          {
+            "title": "In₂Se₃ 薄膜晶体管与铁电存储器专利",
+            "url": "https://patents.google.com/patent/US20250191915A1/en",
+            "overlap": "母系统工艺专利，取代组成及权利要求边界待核。",
+            "access": "公开专利"
+          },
+          {
+            "title": "Ferroelectric Properties and Exciton Localization in Two-Dimensional Semiconductors",
+            "url": "https://rex.libraries.wsu.edu/esploro/outputs/doctoral/Ferroelectric-Properties-and-Exciton-Localization-in/99900651900401842",
+            "overlap": "In₂Se₃ 铁电与光谱研究学位线索。",
+            "access": "高校仓储索引"
+          }
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "title": "将 In₂₋ₓGaₓSe₃ 整个固溶系列视为新材料",
+        "reason": "已有明确体相合成与 Ga 位点偏好研究，保留不同的 β 薄膜稀取代与偏移问题。",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40327003/"
+      }
+    ]
+  },
+  "auditUrl": "/reports/2026-11-26/audit.json",
+  "searchTerms": [
+    "按期刊在线公开日逐查 APS 全系列、Nature Portfolio、AAAS、Wiley AM/AFM、ACS、JCG 等，核对 Crossref 题录。25 日 APS 高相关余项另列后续阅读，不冒充 26 日正式发表。本期有当日高相关预印本，因此不为正式期刊篇数回溯凑数。受限来源保留状态。",
+    "arXiv 官网三路快照显示 11 月 26 日的 86 新投、40 交叉、81 替换，共207条，逐题逐摘要筛选；归档按 DOI、arXiv ID、规范题名去重。",
+    "UTC 日期查询：25 日 API 93 条，26 日为0条；按候选 ID 的 Atom 再核入选项。日期 API 空值不可解释为无公告。Crossref 直接 arXiv DOI 查不到时仍以官网与 Atom 为准。各请求结果列审计。",
+    "未验证有效浙大 aTrust/RVPN/WebVPN/CARSI 机构会话，使用可公开读取的预印本。部分高相关候选公开 PDF 无法获得或待精读，逐项列原因。"
+  ]
+}

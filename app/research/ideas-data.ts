@@ -1,6 +1,99 @@
 // 从已审阅报告生成，研究设想不计入论文目录。
 export default [
   {
+    "date": "2026-11-26",
+    "schemaVersion": 1,
+    "reviewedAt": "2026-11-26",
+    "scope": "限定检索 In₂₋ₓGaₓSe₃、β-In₂Se₃、InGaSe₃、Ga 占位、中心 Se 位移与铁电，同时查相关专利与学位仓储。",
+    "limitations": [
+      "待查新的物理假设。候选尚未合成、计算、测量；低 Ga 的 β 层状相、可逆偏移和新颖性尚未确认。"
+    ],
+    "ideas": [
+      {
+        "id": "beta-in2se3-ga-central-se-switch",
+        "kind": "material",
+        "status": "needs-review",
+        "paperIndex": 1,
+        "title": "在 β-In₂Se₃ 中做少量 Ga-for-In 取代，检验中心 Se 可逆位移的配位敏感性",
+        "material": "In₂₋ₓGaₓSe₃，稀量 x。名义 In³⁺→Ga³⁺等价取代；若保持 β，In 原为八面体。Ga 是否进入该位及是否诱发异相未知。",
+        "evidenceLevel": "母文 arXiv:2611.33405v1 图1、Methods、补图3–8；两电场写入态的中心 Se 面外位移分别约 +3.0±0.4 pm 与 -2.4±0.6 pm。",
+        "question": "在相、膜厚和平均应变匹配后，八面体配位中少量 Ga 是否使五原子层内可逆位移在空间上更不均匀？",
+        "prediction": "若 β 骨架保留且 Ga 真占 In 位，预测低 x 使跨多个五原子层的平均可逆位移减小、局部位移分布加宽，结构可逆分量与电学 PUND 的变化需分别检验；若平均反增且厚度、应变和相均匹配，则支持局部化学压力稳定极性这条相反机制。",
+        "basis": "名义 +3 等价、有效价电子数不变，Ga³⁺同六配位半径小于 In³⁺。已报道 Ga 在缺陷纤锌矿型 In–Ga–Se 中偏好四面体；在 β 的八面体骨架中这种竞争可能局域打断中心 Se 的统一位移。Ga–Se 成键及局部应变可共同变化；尺寸差不能推出总体相稳定。该体系无以稀释磁矩为主的设计，SOC 变化不是本假说主变量。",
+        "difference": "已知 In₂₋ₓGaₓSe₃ 大范围体相和 α/β 多型、铁电 In₂Se₃ 及异质结。拟限定在稀量 Ga、保持母体 β 五原子层、直接比较两写入方向的相同偏移判据，并排查局域配位转变。",
+        "plan": [
+          "先以纯 β 和两个低名义 Ga 比系列筛相，保持同片厚度及基底条件；采用合适外延或薄膜共沉积设备，小样测实际 Ga/In/Se 及其位置，先核 Raman、XRD 和截面 STEM。未证实 β 占位前不测完整回线。",
+          "在同厚度相同电极、相同写入电场的相邻样片做 P/E 两态 STEM 双扫描，记录每层中心 Se 偏移分布；PUND 配合脉冲宽度、漏电和空白介质检查。条件可用多构型计算对比 Ga 八面体/其他配位和极性位移，不预设稳定能。"
+        ],
+        "controls": [
+          "x=0 且相同厚度；两档低实际 Ga；α/β′/γ 或富 Ga 缺陷纤锌矿样仅作为衍射和配位参考；相同电极与脉冲，湿度热史相同。"
+        ],
+        "falsifiers": [
+          "若 Ga 只分相为 γ 类或使 β 所占比例不可匹配，停止将其称为 β 固溶。",
+          "确认占位后平均可逆 Se 偏移不变或增强、空间分布不增宽，则否定方向预测；若电学变化但结构反转未改变，优先检查屏蔽和漏电。"
+        ],
+        "feasibility": "需要能在母体 MOCVD 工艺内控制微量第三金属的合适设备，也可先评价薄膜共沉积；常规 Raman/XRD/成分测量可早停，皮米位移需要原子分辨 STEM 合作。",
+        "risks": "Ga 有局域四配位偏好、可能出现缺陷纤锌矿相，外延窗口位移，硒缺陷与漏电变化会混淆表观极化。",
+        "nextStep": "先把已知 In–Ga–Se 体相竞争相图纳入检索，再做低 Ga 相纯度和占位的小样判断。",
+        "queries": [
+          "beta In2Se3 Ga substituted In2-xGaxSe3 ferroelectric central Se displacement octahedral Ga",
+          "(In,Ga)2Se3 β ferroelectric alloy Ga substitution In2Se3",
+          "InGaSe3 indium gallium selenide ferroelectric beta patent thesis MOCVD",
+          "beta In2Se3 Ga doping ferroelectric alloy thesis InGaSe3 site:edu"
+        ],
+        "remainingChecks": [
+          "2026-11-26 已检查公开题录、预印本、近邻公开 SI、专利和大学仓储；未穷尽专利权利要求及未开放学位全文。",
+          "尚未计算不同 Ga 占位、相分离、实际薄膜稳定性，未验证可控反转。"
+        ],
+        "priorArt": [
+          {
+            "title": "β-In₂Se₃ 晶圆尺度极性母文",
+            "url": "https://arxiv.org/abs/2611.33405v1",
+            "overlap": "提供两态 Se 位移与薄膜证据。",
+            "access": "正文及文内补图"
+          },
+          {
+            "title": "In₂₋ₓGaₓSe₃ 缺陷纤锌矿中的 Ga 位点偏好",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40327003/",
+            "overlap": "已有 x=0.6–1.4 体相；Ga 偏好四配位，排除将整条固溶体称为新材料。",
+            "access": "题录及 RSC 公开 SI"
+          },
+          {
+            "title": "Competing Structures in (In,Ga)Se and (In,Ga)2Se3 Semiconductors",
+            "url": "https://arxiv.org/abs/1609.06774",
+            "overlap": "已有结构竞争计算；待逐一排查稀量、薄膜和偏移反转。",
+            "access": "公开摘要"
+          },
+          {
+            "title": "二维 α/β 多型的实际能带研究",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11754478/",
+            "overlap": "报道 β 结构及 Se 非中心位置的既有理论线索。",
+            "access": "公开正文"
+          },
+          {
+            "title": "In₂Se₃ 薄膜晶体管与铁电存储器专利",
+            "url": "https://patents.google.com/patent/US20250191915A1/en",
+            "overlap": "母系统工艺专利，取代组成及权利要求边界待核。",
+            "access": "公开专利"
+          },
+          {
+            "title": "Ferroelectric Properties and Exciton Localization in Two-Dimensional Semiconductors",
+            "url": "https://rex.libraries.wsu.edu/esploro/outputs/doctoral/Ferroelectric-Properties-and-Exciton-Localization-in/99900651900401842",
+            "overlap": "In₂Se₃ 铁电与光谱研究学位线索。",
+            "access": "高校仓储索引"
+          }
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "title": "将 In₂₋ₓGaₓSe₃ 整个固溶系列视为新材料",
+        "reason": "已有明确体相合成与 Ga 位点偏好研究，保留不同的 β 薄膜稀取代与偏移问题。",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40327003/"
+      }
+    ]
+  },
+  {
     "date": "2026-11-25",
     "schemaVersion": 1,
     "reviewedAt": "2026-11-25",
