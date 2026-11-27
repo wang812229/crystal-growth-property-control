@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-27",
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-27",
+  "scope": "围绕当日 Ga 催化 SiGe 摘要和2026-07-02公开全文，检索 2H/hexagonal/lonsdaleite SiGeSn、Sn 取代、GeSn、Ga 催化与轴向量子点及近邻专利、学位。",
+  "limitations": [
+    "待查新的物理假设。今日仅摘要；历史母文正文已读。无本候选的实际合成、计算、测量结果，新颖性及可合成性仍未确认。"
+  ],
+  "ideas": [
+    {
+      "id": "hex-sige-sn-ga-axial-dot",
+      "kind": "material",
+      "status": "needs-review",
+      "paperIndex": 1,
+      "title": "Ga 催化六方 SiGe 量子点中稀量 Sn 取代 Ge：弹性容纳与光学局限态的竞争",
+      "material": "拟制 2H-Si₀.₂Ge₀.₈₋ᵧSnᵧ 轴向富 Ge 段、富 Si 的 2H-SiGe 势垒；y 为稀量名义组成，Sn 实际占位和 2H 稳定性待核。与 Ga 催化的 y=0 对照同尺寸。",
+      "evidenceLevel": "当日 10.1021/acs.nanolett.6c04853 仅摘要，报告 Ga 催化及 Ge 最高80%。历史延伸：2026-07-02 DOI 10.1021/acs.nanolett.6c01795 公开正文图1–4已读，约30 nm分支、约50%/80% Ge 势垒/点和可弹性释放的界面，图3给出约15/12 nm与5/4.5 nm两切换界面宽度。",
+      "question": "在匹配尺寸且保持 2H 晶体的条件下，稀量 Sn 在富 Ge 点内是否进一步调节光能，并因较大键长增加局部应变及界面组分拖尾？",
+      "prediction": "若 Sn 在四配位 Ge 位形成均匀等价固溶，预期相对母点产生更大的局部晶格参数及红移趋势，局域应变分布或组分拖尾可能增宽。红移是依据 GeSn 合金和轨道变化的类比，2H 三元带边仍未知；若同尺寸同应变的点无红移或蓝移，否定该方向。若仅见团簇或不同多型导致的新谱峰，停止宣称固溶。",
+      "basis": "Si、Ge、Sn 同属 IV 族，名义价电子保持四个，四配位共价 Sn 半径大于 Ge。较长 Sn–Ge 键可能引起局部化学压力，Sn 的 5p 态及较强 SOC 与 Ge 4p 有区别，价带和导带响应可能不同；不能由原子序数断言带隙。母文细线自由表面能释放界面应变，给予稀取代的物理可能。竞争因素为 Sn 在 Ga 液滴的分配/溶解度、Sn 偏析、立方或金属 Sn、表面态及 Ga 杂质。没有磁矩设计，控制堆垛、对称性与界面应变优先。",
+      "difference": "已有六方 SiGe 轴向点、GeSn 核壳及 SiGeSn 生长专利。拟限定无 Au 的 Ga 催化、2H 晶相、富 Ge 段内稀量 Sn 的轴向三元点，联合比较 10–90% 成分宽度、应变和光谱响应，而非将三元化学式本身当作创新。",
+      "plan": [
+        "先在专用兼容 IV 族外延设备开展 y=0 与两个低 Sn 名义梯度；匹配点长度、分支直径、势垒成分。确认供应与安全条件后再选择工艺窗口。用 EDX/APT 检查是否 Sn 进入富 Ge 段、Ga 残余与金属富集，TEM 衍射和 STEM 检核 2H 堆垛、界面位错与尺寸。",
+        "以母文的 10–90% 成分宽度和 GPA 测量几何标定应变；如相纯度合格，低温光谱、激发依赖及寿命和母样同条件比较。先进行结构弛豫、多个 Sn 构型与立方竞争的计算，待稳定性和实际结构后再估算带边。"
+      ],
+      "controls": [
+        "Ga 催化 2H-SiGe y=0；两个稀量组成；无点的同直径 2H-SiGe 线；已知立方 GeSn 或 Sn 富集样仅作识别对照。固定尺寸、势垒成分、激发与表面条件。"
+      ],
+      "falsifiers": [
+        "Sn 未进入预期位置、明显偏析、出现可分辨立方段或金属 Sn 即停止六方三元固溶路线。",
+        "满足 2H 和实际组成条件后若晶格未增大、无系统红移或界面宽度没有增宽，则分别否定相应趋势；仅有强度变化不能确定量子点带边。"
+      ],
+      "feasibility": "先进行小规模外延/计算，结构和成分筛查可早停；Ga 催化设备、Sn 前驱体兼容性、原子分辨 STEM/APT、低温光谱需要合作。尚未获得当日生长参数。",
+      "risks": "Sn 难均匀进入亚稳六方晶体；液滴化学与组分突变可能改变，出现相分离、表面态、Ga 掺入；额外成分可能引入失配位错或使可控点几何丧失。",
+      "nextStep": "补读今日正式论文图与 SI，查 Ga–Sn–Ge–Si 相平衡和 2H 三元近邻研究，再决定先做小规模结构验证还是计算；暂不建议立项。",
+      "queries": [
+        "2026-11-27: hexagonal SiGeSn nanowire quantum dot 2H lonsdaleite ternary alloy",
+        "2026-11-27: hexagonal GeSn 2H nanowire lonsdaleite tin quantum dot strain Ga catalyst patent thesis",
+        "2026-11-27: hexagonal silicon germanium tin ternary lonsdaleite SiGeSn patent nanowire",
+        "2026-11-27: Denny Lamon Ga catalyzed hexagonal SiGe nanowires quantum dots Lamon Eindhoven 2026",
+        "2026-11-27: Denny Lamon hexagonal SiGe Ga catalyst Eindhoven thesis nanowires"
+      ],
+      "remainingChecks": [
+        "本次查到公开论文正文、题录与专利/学位索引，待穷尽 2H–SiGeSn 同义名、预印本、专利权利要求和完整学位正文。",
+        "今日原文未取得；候选未合成、未计算、未测量，不能确认稳定性、可合成性或新颖性。"
+      ],
+      "priorArt": [
+        {
+          "title": "Au-Free Hexagonal SiGe Nanowires and Quantum Dots",
+          "url": "https://doi.org/10.1021/acs.nanolett.6c04853",
+          "overlap": "今日 Ga 催化原始结果，摘要层级。",
+          "access": "元数据与摘要"
+        },
+        {
+          "title": "Hexagonal SiGe Quantum Dots in Nanowires",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13384393/",
+          "overlap": "7月2日正文已核，含 Au 催化点、界面和弹性分析；不将这些参数当作今日论文数据。",
+          "access": "公开正文，图1–4"
+        },
+        {
+          "title": "Kinetic Control of Morphology and Composition in Ge/GeSn Core/Shell Nanowires",
+          "url": "https://arxiv.org/abs/1906.11694",
+          "overlap": "GeSn 纳米线外壳中 Sn 分布与应变相关；六方截面不证实 2H 晶体。",
+          "access": "公开摘要"
+        },
+        {
+          "title": "Method for Growing a Monocrystalline Tin-Containing Semiconductor Material",
+          "url": "https://patents.google.com/patent/US20140020619A1/en",
+          "overlap": "包括 SiGeSn 的既有生长权利线索，2H 无金轴向量子点的重合范围待逐项核。",
+          "access": "公开专利搜索片段"
+        },
+        {
+          "title": "Nanowire and method of fabricating the same",
+          "url": "https://patents.google.com/patent/US9431483B1/en",
+          "overlap": "涉及 SiGeSn 纳米线，故不声称三元纳米线本身新颖。",
+          "access": "公开专利搜索片段"
+        },
+        {
+          "title": "Towards defect-free hexagonal SiGe",
+          "url": "https://research.tue.nl/p/en/research-outputs/towards-defect-free-hexagonal-sige",
+          "overlap": "六方相与缺陷学位线索，尚未审查整本。",
+          "access": "大学仓储题录"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "title": "把任意 SiGeSn 纳米线或 GeSn 核壳视为新材料",
+      "reason": "已存在合金纳米线和三元生长专利及 GeSn 核壳研究，仅保留具体 2H、Ga 催化轴向点的待查新假设。",
+      "url": "https://patents.google.com/patent/US9431483B1/en"
+    }
+  ]
+}
